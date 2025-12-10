@@ -261,6 +261,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -879,10 +880,14 @@
 =======
 >>>>>>> 77edd94a (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dad70a87 (.)
 =======
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> eea68ec9 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 59916c8f (.)
 =======
@@ -1160,6 +1165,8 @@
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 2e1ac1f20 (.)
+=======
+>>>>>>> 6dad70a87 (.)
 <?php
 
 declare(strict_types=1);
@@ -1167,6 +1174,7 @@ declare(strict_types=1);
 ?>
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2181,12 +2189,16 @@ declare(strict_types=1);
 >>>>>>> b19cd40 (.)
 >>>>>>> 77edd94a (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dad70a87 (.)
 =======
 =======
 >>>>>>> b19cd40 (.)
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> eea68ec9 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 59916c8f (.)
 =======
@@ -2508,6 +2520,8 @@ declare(strict_types=1);
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 2e1ac1f20 (.)
+=======
+>>>>>>> 6dad70a87 (.)
 <x-filament-panels::page>
     <form wire:submit.prevent="sendSMS">
         <x-filament::section>
@@ -2799,6 +2813,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <x-filament-panels::form.actions :actions="$this->getSmsFormActions()" />
 =======
                         <x-filament::actions :actions="$this->getSmsFormActions()" />
@@ -2880,6 +2895,7 @@ declare(strict_types=1);
 >>>>>>> 030c9674 (rebase 210)
 =======
 >>>>>>> eea68ec9 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 06e3078e (.)
 =======
@@ -2944,10 +2960,13 @@ declare(strict_types=1);
 =======
 >>>>>>> 030c9674 (rebase 210)
 >>>>>>> db6bec044 (.)
+=======
+>>>>>>> 6dad70a87 (.)
                         <x-filament::actions :actions="$this->getSmsFormActions()" />
 =======
                         <x-filament-panels::form.actions :actions="$this->getSmsFormActions()" />
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3031,6 +3050,8 @@ declare(strict_types=1);
 >>>>>>> 7a9167faf (.)
 =======
 >>>>>>> db6bec044 (.)
+=======
+>>>>>>> 6dad70a87 (.)
 >>>>>>> 82ae73be (.)
 =======
 =======
@@ -3945,11 +3966,15 @@ declare(strict_types=1);
 >>>>>>> b19cd40 (.)
 >>>>>>> 77edd94a (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dad70a87 (.)
 =======
 =======
                         <x-filament::actions :actions="$this->getSmsFormActions()" />
 >>>>>>> 4e2ebfb (.)
 >>>>>>> eea68ec9 (.)
+<<<<<<< HEAD
 =======
                         <x-filament::actions :actions="$this->getSmsFormActions()" />
 >>>>>>> 59916c8f (.)
@@ -4324,6 +4349,8 @@ declare(strict_types=1);
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 2e1ac1f20 (.)
+=======
+>>>>>>> 6dad70a87 (.)
                     </div>
                 </div>
 

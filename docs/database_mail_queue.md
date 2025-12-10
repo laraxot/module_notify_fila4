@@ -594,6 +594,7 @@ $users->each(function ($user) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -664,6 +665,7 @@ $users->each(function ($user) {
 =======
 >>>>>>> eea68ec9 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 207ac35e (.)
@@ -718,9 +720,12 @@ $users->each(function ($user) {
 >>>>>>> 030c9674 (rebase 210)
 =======
 >>>>>>> db6bec044 (.)
+=======
+>>>>>>> 6dad70a87 (.)
 
 >>>>>>> b19cd40 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -795,6 +800,8 @@ $users->each(function ($user) {
 >>>>>>> 7a9167faf (.)
 =======
 >>>>>>> db6bec044 (.)
+=======
+>>>>>>> 6dad70a87 (.)
 >>>>>>> 75179b85 (.)
 =======
 =======
@@ -1345,6 +1352,7 @@ $users->each(function ($user) {
 
 >>>>>>> b19cd40 (.)
 >>>>>>> 77edd94a (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
@@ -1646,6 +1654,11 @@ $users->each(function ($user) {
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 2e1ac1f20 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> eea68ec9 (.)
+>>>>>>> 6dad70a87 (.)
 # Avvia worker dedicato
 php artisan queue:work --queue=emails
 
@@ -1996,6 +2009,7 @@ command=php /var/www/html/_bases/base_<nome progetto>/laravel/artisan queue:work
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2113,10 +2127,14 @@ command=php /var/www/html/_bases/base_<nome progetto>/laravel/artisan queue:work
 =======
 >>>>>>> 77edd94a (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dad70a87 (.)
 =======
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> eea68ec9 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 59916c8f (.)
 =======
@@ -2333,6 +2351,8 @@ command=php /var/www/html/_bases/base_<nome progetto>/laravel/artisan queue:work
 >>>>>>> db6bec044 (.)
 =======
 >>>>>>> 2e1ac1f20 (.)
+=======
+>>>>>>> 6dad70a87 (.)
 # Supervisor config
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2454,6 +2474,7 @@ command=php /var/www/html/_bases/base_<nome progetto>/laravel/artisan queue:work
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b207a9b1a (.)
 =======
@@ -2496,6 +2517,8 @@ command=php /var/www/html/_bases/base_<nome progetto>/laravel/artisan queue:work
 >>>>>>> db6bec044 (.)
 =======
 >>>>>>> 2e1ac1f20 (.)
+=======
+>>>>>>> 6dad70a87 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2607,6 +2630,7 @@ command=php /var/www/html/_bases/base_<nome progetto>/laravel/artisan queue:work
 =======
 >>>>>>> eea68ec9 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> de02998b (.)
@@ -2700,6 +2724,8 @@ command=php /var/www/html/_bases/base_<nome progetto>/laravel/artisan queue:work
 >>>>>>> 77edd94a (.)
 =======
 >>>>>>> 2e1ac1f20 (.)
+=======
+>>>>>>> 6dad70a87 (.)
 
 # Supervisor config
 [program:<nome progetto>-worker]
@@ -2809,6 +2835,7 @@ command=php /var/www/html/base_<nome progetto>/artisan queue:work redis --queue=
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1619767d8 (.)
 =======
@@ -2829,6 +2856,8 @@ command=php /var/www/html/base_<nome progetto>/artisan queue:work redis --queue=
 >>>>>>> 7a9167faf (.)
 =======
 >>>>>>> db6bec044 (.)
+=======
+>>>>>>> 6dad70a87 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -3385,10 +3414,14 @@ command=php /var/www/_bases/base_ptv_fila3_mono/laravel/artisan queue:work redis
 >>>>>>> b19cd40 (.)
 >>>>>>> 77edd94a (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dad70a87 (.)
 =======
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> eea68ec9 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 59916c8f (.)
 =======
@@ -4731,6 +4764,8 @@ command=php /var/www/html/base_<nome progetto>/artisan queue:work redis --queue=
 >>>>>>> c7d5eaf96 (.)
 =======
 >>>>>>> 2e1ac1f20 (.)
+=======
+>>>>>>> 6dad70a87 (.)
 autostart=true
 autorestart=true
 numprocs=4
@@ -5056,6 +5091,7 @@ if ($failedJobs > $threshold) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -5126,6 +5162,7 @@ if ($failedJobs > $threshold) {
 =======
 >>>>>>> eea68ec9 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 207ac35e (.)
@@ -5180,9 +5217,12 @@ if ($failedJobs > $threshold) {
 >>>>>>> 030c9674 (rebase 210)
 =======
 >>>>>>> db6bec044 (.)
+=======
+>>>>>>> 6dad70a87 (.)
 
 >>>>>>> b19cd40 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5257,6 +5297,8 @@ if ($failedJobs > $threshold) {
 >>>>>>> 7a9167faf (.)
 =======
 >>>>>>> db6bec044 (.)
+=======
+>>>>>>> 6dad70a87 (.)
 >>>>>>> 75179b85 (.)
 =======
 =======
@@ -5807,6 +5849,7 @@ if ($failedJobs > $threshold) {
 
 >>>>>>> b19cd40 (.)
 >>>>>>> 77edd94a (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
@@ -6108,6 +6151,11 @@ if ($failedJobs > $threshold) {
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 2e1ac1f20 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> eea68ec9 (.)
+>>>>>>> 6dad70a87 (.)
 # Pulizia job vecchi
 php artisan queue:prune-failed --hours=168
 php artisan queue:prune-batches --hours=24
@@ -6337,6 +6385,7 @@ php artisan queue:restart
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -6663,10 +6712,14 @@ php artisan queue:restart
 =======
 >>>>>>> 77edd94a (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dad70a87 (.)
 =======
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> eea68ec9 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 59916c8f (.)
 =======
@@ -6874,6 +6927,8 @@ php artisan queue:restart
 >>>>>>> fea359347 (.)
 =======
 >>>>>>> 2e1ac1f20 (.)
+=======
+>>>>>>> 6dad70a87 (.)
 - [Queue Configuration](../../../docs/queue-configuration.md)
 
 ## Vedi Anche
@@ -7125,6 +7180,7 @@ php artisan queue:restart
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -7175,6 +7231,8 @@ php artisan queue:restart
 >>>>>>> db6bec044 (.)
 =======
 >>>>>>> 2e1ac1f20 (.)
+=======
+>>>>>>> 6dad70a87 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -7247,6 +7305,7 @@ php artisan queue:restart
 =======
 >>>>>>> eea68ec9 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
@@ -7423,6 +7482,8 @@ php artisan queue:restart
 >>>>>>> db6bec044 (.)
 =======
 >>>>>>> 2e1ac1f20 (.)
+=======
+>>>>>>> 6dad70a87 (.)
 - [Queue Configuration](../../../project_docs/queue-configuration.md)
 
 ## Vedi Anche
@@ -7530,6 +7591,7 @@ php artisan queue:restart
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -7580,6 +7642,8 @@ php artisan queue:restart
 >>>>>>> db6bec044 (.)
 =======
 >>>>>>> 2e1ac1f20 (.)
+=======
+>>>>>>> 6dad70a87 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -7848,6 +7912,7 @@ php artisan queue:restart
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> eea68ec9 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 59916c8f (.)
 =======
@@ -8406,3 +8471,5 @@ php artisan queue:restart
 =======
 >>>>>>> 77edd94a (.)
 >>>>>>> 2e1ac1f20 (.)
+=======
+>>>>>>> 6dad70a87 (.)

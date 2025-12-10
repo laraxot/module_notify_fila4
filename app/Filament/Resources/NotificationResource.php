@@ -222,6 +222,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -688,10 +689,14 @@ declare(strict_types=1);
 =======
 >>>>>>> 77edd94a (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dad70a87 (.)
 =======
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> eea68ec9 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 59916c8f (.)
 =======
@@ -890,6 +895,8 @@ declare(strict_types=1);
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 2e1ac1f20 (.)
+=======
+>>>>>>> 6dad70a87 (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -1211,6 +1218,7 @@ class NotificationResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -1287,6 +1295,8 @@ class NotificationResource extends XotBaseResource
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 2e1ac1f20 (.)
+=======
+>>>>>>> 6dad70a87 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2374,7 +2384,12 @@ class NotificationResource extends XotBaseResource
 =======
 >>>>>>> 77edd94a (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 2e1ac1f20 (.)
+=======
+>>>>>>> eea68ec9 (.)
+=======
+>>>>>>> 6dad70a87 (.)
 namespace Modules\Notify\Filament\Resources;
 
 use Filament\Forms\Components\DateTimePicker;
@@ -2643,6 +2658,7 @@ class NotificationResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3398,7 +3414,14 @@ class NotificationResource extends XotBaseResource
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 77edd94a (.)
+<<<<<<< HEAD
 >>>>>>> 2e1ac1f20 (.)
+=======
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> eea68ec9 (.)
+>>>>>>> 6dad70a87 (.)
             'notifiable_id' => TextInput::make('notifiable_id')
                 ->required()
                 ->numeric()
@@ -3618,6 +3641,7 @@ class NotificationResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -3936,10 +3960,14 @@ class NotificationResource extends XotBaseResource
 =======
 >>>>>>> 77edd94a (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dad70a87 (.)
 =======
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> eea68ec9 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 59916c8f (.)
 =======
@@ -4346,6 +4374,8 @@ class NotificationResource extends XotBaseResource
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 2e1ac1f20 (.)
+=======
+>>>>>>> 6dad70a87 (.)
             'data' => Textarea::make('data')->label('Notification Data')->columnSpanFull(),
             'read_at' => DateTimePicker::make('read_at')->label('Read At')->nullable(),
             'created_by' => TextInput::make('created_by')->label('Created By')->disabled(),
@@ -4567,6 +4597,9 @@ class NotificationResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> eea68ec9 (.)
 =======
 >>>>>>> 1375c94d (rebase 210)
 =======
@@ -5344,6 +5377,7 @@ class NotificationResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bf5d31b0f (.)
 =======
@@ -5364,6 +5398,8 @@ class NotificationResource extends XotBaseResource
 >>>>>>> 69f695548 (.)
 =======
 >>>>>>> 7a9167faf (.)
+=======
+>>>>>>> 6dad70a87 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -5706,10 +5742,14 @@ class NotificationResource extends XotBaseResource
 >>>>>>> b19cd40 (.)
 >>>>>>> 77edd94a (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dad70a87 (.)
 =======
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> eea68ec9 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 59916c8f (.)
 =======
@@ -6148,6 +6188,8 @@ class NotificationResource extends XotBaseResource
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 2e1ac1f20 (.)
+=======
+>>>>>>> 6dad70a87 (.)
 }
 =======
 >>>>>>> 301ad8b44 (.)

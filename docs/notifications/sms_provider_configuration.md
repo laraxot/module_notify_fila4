@@ -947,6 +947,9 @@ Questa documentazione descrive le opzioni disponibili per l'integrazione di serv
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dad70a87 (.)
 Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di <nome progetto>, con focus sui diversi provider e sulla loro configurazione.
 =======
 <<<<<<< HEAD
@@ -2040,6 +2043,7 @@ VONAGE_SMS_FROM=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 VONAGE_SMS_FROM=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2467,6 +2471,9 @@ VONAGE_SMS_FROM=<nome progetto>
 >>>>>>> b19cd40 (.)
 >>>>>>> 77edd94a (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dad70a87 (.)
 =======
 VONAGE_SMS_FROM=<nome progetto>
 =======
@@ -2475,6 +2482,7 @@ VONAGE_SMS_FROM=<nome progetto>
 VONAGE_SMS_FROM=<nome progetto>
 >>>>>>> 4e2ebfb (.)
 >>>>>>> eea68ec9 (.)
+<<<<<<< HEAD
 =======
 VONAGE_SMS_FROM=<nome progetto>
 >>>>>>> 59916c8f (.)
@@ -2581,6 +2589,8 @@ VONAGE_SMS_FROM=<nome progetto>
 >>>>>>> db6bec044 (.)
 =======
 >>>>>>> 2e1ac1f20 (.)
+=======
+>>>>>>> 6dad70a87 (.)
 VONAGE_SMS_FROM=SaluteOra
 >>>>>>> 75179b85 (.)
 =======

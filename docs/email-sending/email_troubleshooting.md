@@ -343,6 +343,7 @@ $attachments = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 70e8274e (.)
 =======
@@ -419,6 +420,8 @@ $attachments = [
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 2e1ac1f20 (.)
+=======
+>>>>>>> 6dad70a87 (.)
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -996,7 +999,12 @@ $attachments = [
 =======
 =======
 >>>>>>> 77edd94a (.)
+<<<<<<< HEAD
 >>>>>>> 2e1ac1f20 (.)
+=======
+=======
+>>>>>>> eea68ec9 (.)
+>>>>>>> 6dad70a87 (.)
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
         'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
         'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
@@ -1013,7 +1021,11 @@ $attachments = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6d08c01b (.)
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 6dad70a87 (.)
 =======
 >>>>>>> 82ae73be (.)
 >>>>>>> 2e1ac1f20 (.)
@@ -1183,6 +1195,7 @@ $attachments = [
 >>>>>>> 030c9674 (rebase 210)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> eea68ec9 (.)
 =======
 >>>>>>> 06e3078e (.)
@@ -1207,6 +1220,10 @@ $attachments = [
 =======
 =======
 >>>>>>> db6bec044 (.)
+=======
+>>>>>>> eea68ec9 (.)
+=======
+>>>>>>> 6dad70a87 (.)
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
 <<<<<<< HEAD
         'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
@@ -1215,6 +1232,7 @@ $attachments = [
 >>>>>>> bf479cc (.)
         'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
 >>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1335,6 +1353,8 @@ $attachments = [
 <<<<<<< HEAD
 =======
 >>>>>>> db6bec044 (.)
+=======
+>>>>>>> 6dad70a87 (.)
 >>>>>>> 207ac35e (.)
 =======
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
@@ -1995,7 +2015,12 @@ $attachments = [
 =======
 =======
 >>>>>>> 77edd94a (.)
+<<<<<<< HEAD
 >>>>>>> 2e1ac1f20 (.)
+=======
+=======
+>>>>>>> eea68ec9 (.)
+>>>>>>> 6dad70a87 (.)
         'as' => 'logo.svg',
         'mime' => 'image/svg+xml',
     ],

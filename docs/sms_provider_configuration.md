@@ -418,6 +418,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'from' => env('SMS_FROM', '<nome progetto>'),
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -845,6 +846,9 @@ return [
 >>>>>>> b19cd40 (.)
 >>>>>>> 77edd94a (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dad70a87 (.)
 =======
     'from' => env('SMS_FROM', '<nome progetto>'),
 =======
@@ -853,6 +857,7 @@ return [
     'from' => env('SMS_FROM', '<nome progetto>'),
 >>>>>>> 4e2ebfb (.)
 >>>>>>> eea68ec9 (.)
+<<<<<<< HEAD
 =======
     'from' => env('SMS_FROM', '<nome progetto>'),
 >>>>>>> 59916c8f (.)
@@ -959,6 +964,8 @@ return [
 >>>>>>> db6bec044 (.)
 =======
 >>>>>>> 2e1ac1f20 (.)
+=======
+>>>>>>> 6dad70a87 (.)
     'from' => env('SMS_FROM', 'SaluteOra'),
 >>>>>>> 75179b85 (.)
 =======
@@ -2057,6 +2064,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2484,6 +2492,9 @@ return [
 >>>>>>> b19cd40 (.)
 >>>>>>> 77edd94a (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dad70a87 (.)
 =======
             'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 =======
@@ -2492,6 +2503,7 @@ return [
             'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 >>>>>>> 4e2ebfb (.)
 >>>>>>> eea68ec9 (.)
+<<<<<<< HEAD
 =======
             'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 >>>>>>> 59916c8f (.)
@@ -2598,6 +2610,8 @@ return [
 >>>>>>> db6bec044 (.)
 =======
 >>>>>>> 2e1ac1f20 (.)
+=======
+>>>>>>> 6dad70a87 (.)
             'sender' => env('NETFUN_SENDER', 'SaluteOra'),
 >>>>>>> 75179b85 (.)
 =======
@@ -3753,6 +3767,7 @@ SMS_FROM=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 SMS_FROM=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4180,6 +4195,9 @@ SMS_FROM=<nome progetto>
 >>>>>>> b19cd40 (.)
 >>>>>>> 77edd94a (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dad70a87 (.)
 =======
 SMS_FROM=<nome progetto>
 =======
@@ -4188,6 +4206,7 @@ SMS_FROM=<nome progetto>
 SMS_FROM=<nome progetto>
 >>>>>>> 4e2ebfb (.)
 >>>>>>> eea68ec9 (.)
+<<<<<<< HEAD
 =======
 SMS_FROM=<nome progetto>
 >>>>>>> 59916c8f (.)
@@ -4294,6 +4313,8 @@ SMS_FROM=<nome progetto>
 >>>>>>> db6bec044 (.)
 =======
 >>>>>>> 2e1ac1f20 (.)
+=======
+>>>>>>> 6dad70a87 (.)
 SMS_FROM=SaluteOra
 >>>>>>> 75179b85 (.)
 =======
@@ -5383,6 +5404,7 @@ NETFUN_SENDER=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 NETFUN_SENDER=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5810,6 +5832,9 @@ NETFUN_SENDER=<nome progetto>
 >>>>>>> b19cd40 (.)
 >>>>>>> 77edd94a (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dad70a87 (.)
 =======
 NETFUN_SENDER=<nome progetto>
 =======
@@ -5818,6 +5843,7 @@ NETFUN_SENDER=<nome progetto>
 NETFUN_SENDER=<nome progetto>
 >>>>>>> 4e2ebfb (.)
 >>>>>>> eea68ec9 (.)
+<<<<<<< HEAD
 =======
 NETFUN_SENDER=<nome progetto>
 >>>>>>> 59916c8f (.)
@@ -5924,6 +5950,8 @@ NETFUN_SENDER=<nome progetto>
 >>>>>>> db6bec044 (.)
 =======
 >>>>>>> 2e1ac1f20 (.)
+=======
+>>>>>>> 6dad70a87 (.)
 NETFUN_SENDER=SaluteOra
 >>>>>>> 75179b85 (.)
 =======
