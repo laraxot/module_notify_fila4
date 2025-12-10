@@ -133,6 +133,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -545,6 +546,10 @@
 >>>>>>> 4d253d2c (rebase 210)
 =======
 >>>>>>> 9fe1b60e (rebase 210)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 8a8a8e2f (rebase 210)
 <?php
 
 declare(strict_types=1);
@@ -554,6 +559,7 @@ declare(strict_types=1);
 @section('content')
 <h1>Alert Inviato</h1>
 @endsection
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -902,6 +908,8 @@ declare(strict_types=1);
 =======
 >>>>>>> 9fe1b60e (rebase 210)
 =======
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
 @extends('adm_theme::layouts.app')
 @section('content')
 <h1>Alert Inviato</h1>
@@ -959,6 +967,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1425,3 +1434,7 @@ declare(strict_types=1);
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 9fe1b60e (rebase 210)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 8a8a8e2f (rebase 210)
