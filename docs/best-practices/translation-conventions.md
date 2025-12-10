@@ -227,6 +227,7 @@ Per verificare se le traduzioni sono applicate correttamente:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [ Translation System](../../../../.cursor/rules/translations.rule)
 >>>>>>> 75179b855 (.)
@@ -252,11 +253,9 @@ Per verificare se le traduzioni sono applicate correttamente:
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 909e45af (.)
-- [SaluteOra Translation System](../../../../.cursor/rules/translations.rule)
 =======
-- [ Translation System](../../../../.cursor/rules/translations.rule)
-- [<nome progetto> Translation System](../../../../.cursor/rules/translations.rule)
->>>>>>> bf479cc (.)
+>>>>>>> a29a4728 (.)
+- [SaluteOra Translation System](../../../../.cursor/rules/translations.rule)
 - [Filament Translations](../../../../.cursor/rules/filament-translations.rule)
 - [Laravel Localization](https://laravel.com/docs/10.x/localization)
 

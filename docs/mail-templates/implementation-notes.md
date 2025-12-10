@@ -237,6 +237,7 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
            'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
 =======
            'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
@@ -665,6 +666,9 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 909e45af (.)
+=======
+           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+>>>>>>> a29a4728 (.)
            'as' => 'logo.png',
            'mime' => 'image/png'
        ],
@@ -773,6 +777,7 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
            'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
 =======
            'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
@@ -1201,6 +1206,9 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 909e45af (.)
+=======
+           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+>>>>>>> a29a4728 (.)
            'as' => 'logo.png',
            'mime' => 'image/png'
        ]

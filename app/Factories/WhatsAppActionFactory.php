@@ -34,6 +34,9 @@ namespace Modules\Notify\Factories;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a29a4728 (.)
 =======
 >>>>>>> a29a4728 (.)
 =======
@@ -119,6 +122,7 @@ namespace Modules\Notify\Factories;
 >>>>>>> 2fdda20 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 909e45af (.)
 =======
 =======
@@ -154,6 +158,10 @@ namespace Modules\Notify\Factories;
 =======
 >>>>>>> 2fdda20 (.)
 >>>>>>> 909e45af (.)
+=======
+=======
+>>>>>>> 8d298d6 (.)
+>>>>>>> a29a4728 (.)
 use Exception;
 use Illuminate\Support\Facades\Config;
 <<<<<<< HEAD
@@ -301,6 +309,9 @@ use function Safe\preg_replace;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a29a4728 (.)
 =======
 >>>>>>> a29a4728 (.)
 =======
@@ -467,6 +478,7 @@ use function Safe\preg_replace;
 >>>>>>> 2fdda20 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 909e45af (.)
 =======
 =======
@@ -560,6 +572,10 @@ use function Safe\preg_replace;
 =======
 >>>>>>> 2fdda20 (.)
 >>>>>>> 909e45af (.)
+=======
+=======
+>>>>>>> 8d298d6 (.)
+>>>>>>> a29a4728 (.)
 
 /**
  * Factory per la creazione di azioni WhatsApp.
@@ -1220,11 +1236,14 @@ final class WhatsAppActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 909e45af (.)
+=======
+>>>>>>> a29a4728 (.)
         $normalizedDriver = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower((string) $driver)));
 
 <<<<<<< HEAD
@@ -1468,6 +1487,7 @@ final class WhatsAppActionFactory
 =======
 >>>>>>> 2fdda20 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 909e45af (.)
 =======
 =======
@@ -1496,6 +1516,15 @@ final class WhatsAppActionFactory
 =======
 >>>>>>> 2fdda20 (.)
 >>>>>>> 909e45af (.)
+=======
+=======
+        $normalizedDriver = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower((string) $driver)));
+
+        if (!is_string($normalizedDriver)) {
+            $normalizedDriver = '';
+        }
+>>>>>>> 8d298d6 (.)
+>>>>>>> a29a4728 (.)
 
         if (!is_string($normalizedDriver)) {
             $normalizedDriver = '';
