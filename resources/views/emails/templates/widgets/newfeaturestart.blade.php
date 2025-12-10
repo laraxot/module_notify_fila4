@@ -481,6 +481,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -1154,6 +1155,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> f16a5ca4 (rebase 210)
 =======
 >>>>>>> f5a88785 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 51182e3c (rebase 210)
 =======
@@ -1697,6 +1699,8 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 =======
 >>>>>>> f16a5ca4 (rebase 210)
 >>>>>>> 5e6beab99 (.)
+=======
+>>>>>>> 84881298a (.)
 <?php
 
 declare(strict_types=1);
@@ -2775,6 +2779,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -2825,6 +2830,8 @@ declare(strict_types=1);
 >>>>>>> f957fb24b (.)
 =======
 >>>>>>> 5e6beab99 (.)
+=======
+>>>>>>> 84881298a (.)
 =======
 e width="100%" cellpadding="0" cellspacing="0" border="0">
 <<<<<<< HEAD
@@ -3634,6 +3641,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 0db165c (.)
 >>>>>>> f16a5ca4 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f5a88785 (rebase 210)
 =======
@@ -4186,6 +4194,10 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> f957fb24b (.)
 =======
 >>>>>>> 5e6beab99 (.)
+=======
+=======
+>>>>>>> f5a88785 (rebase 210)
+>>>>>>> 84881298a (.)
 	<tr>
 		<td bgcolor="{{ isset($color) ? $color : '#85bdad' }}" nowrap>
 			<img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="5" height="1">
@@ -4682,6 +4694,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
 =======
@@ -4841,6 +4854,8 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> f957fb24b (.)
 =======
 >>>>>>> 5e6beab99 (.)
+=======
+>>>>>>> 84881298a (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -7095,6 +7110,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 0db165c (.)
 >>>>>>> f16a5ca4 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 					<td bgcolor="#ffffff" class="contentblock">
 >>>>>>> f5a88785 (rebase 210)
@@ -7334,3 +7350,8 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> f957fb24b (.)
 =======
 >>>>>>> 5e6beab99 (.)
+=======
+=======
+					<td bgcolor="#ffffff" class="contentblock">
+>>>>>>> f5a88785 (rebase 210)
+>>>>>>> 84881298a (.)

@@ -493,6 +493,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -1610,6 +1611,7 @@
 >>>>>>> f16a5ca4 (rebase 210)
 =======
 >>>>>>> f5a88785 (rebase 210)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -1809,6 +1811,8 @@
 =======
 >>>>>>> f16a5ca4 (rebase 210)
 >>>>>>> 5e6beab99 (.)
+=======
+>>>>>>> 84881298a (.)
 <?php
 
 declare(strict_types=1);
@@ -3040,6 +3044,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -3090,6 +3095,8 @@ declare(strict_types=1);
 >>>>>>> f957fb24b (.)
 =======
 >>>>>>> 5e6beab99 (.)
+=======
+>>>>>>> 84881298a (.)
 =======
 <<<<<<< HEAD
 >>>>>>> c8eedbbb (.)
@@ -3953,6 +3960,7 @@ declare(strict_types=1);
 >>>>>>> 0db165c (.)
 >>>>>>> f16a5ca4 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f5a88785 (rebase 210)
 >>>>>>> laraxot/develop
@@ -4104,6 +4112,10 @@ declare(strict_types=1);
 >>>>>>> f957fb24b (.)
 =======
 >>>>>>> 5e6beab99 (.)
+=======
+=======
+>>>>>>> f5a88785 (rebase 210)
+>>>>>>> 84881298a (.)
 	<td class="w580" width="580" colspan="3">
 		<img width="640" class="w640" id="toppbild" src="{{ $src }}" alt="" height="{{ $height }}" />
 	</td>
@@ -4176,6 +4188,7 @@ declare(strict_types=1);
 >>>>>>> b207a9b1a (.)
 </tr>
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5508,6 +5521,7 @@ declare(strict_types=1);
 </tr>
 >>>>>>> 0db165c (.)
 >>>>>>> f16a5ca4 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 </tr>
@@ -7207,3 +7221,8 @@ declare(strict_types=1);
 >>>>>>> f957fb24b (.)
 =======
 >>>>>>> 5e6beab99 (.)
+=======
+=======
+</tr>
+>>>>>>> f5a88785 (rebase 210)
+>>>>>>> 84881298a (.)

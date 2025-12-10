@@ -465,6 +465,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -515,6 +516,8 @@ declare(strict_types=1);
 >>>>>>> f957fb24b (.)
 =======
 >>>>>>> 5e6beab99 (.)
+=======
+>>>>>>> 84881298a (.)
 =======
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
@@ -3577,6 +3580,7 @@ declare(strict_types=1);
 >>>>>>> 0db165c (.)
 >>>>>>> f16a5ca4 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f5a88785 (rebase 210)
 >>>>>>> laraxot/develop
@@ -3813,6 +3817,10 @@ declare(strict_types=1);
 >>>>>>> f957fb24b (.)
 =======
 >>>>>>> 5e6beab99 (.)
+=======
+=======
+>>>>>>> f5a88785 (rebase 210)
+>>>>>>> 84881298a (.)
 $finder = PhpCsFixer\Finder::create()
     ->notPath('bootstrap/cache')
     ->notPath('storage')
