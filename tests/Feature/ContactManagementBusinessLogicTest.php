@@ -1140,6 +1140,8 @@ use function Safe\json_encode;
 =======
 >>>>>>> 116df547 (.)
 
+use function Safe\json_encode;
+
 class ContactManagementBusinessLogicTest extends TestCase
 {
     use RefreshDatabase;

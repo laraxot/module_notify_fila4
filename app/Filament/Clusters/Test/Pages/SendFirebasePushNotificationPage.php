@@ -27,6 +27,9 @@ use Filament\Forms\Components\Toggle;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ee3afc5b (rebase 210)
 =======
 >>>>>>> c8b1c8bf (.)
 =======
@@ -61,6 +64,7 @@ use Filament\Forms\Contracts\HasForms;
 >>>>>>> 99ff506 (.)
 =======
 >>>>>>> c64cc83 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
@@ -71,6 +75,8 @@ use Filament\Forms\Contracts\HasForms;
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> ee3afc5b (rebase 210)
 use Filament\Notifications\Notification as FilamentNotification;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
@@ -80,6 +86,7 @@ use Modules\Notify\Datas\FirebaseNotificationData;
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\Notify\Notifications\PushNotification;
 use Modules\Xot\Filament\Pages\XotBasePage;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -110,9 +117,12 @@ use Override;
 >>>>>>> da89aab (.)
 =======
 >>>>>>> c64cc83 (.)
+<<<<<<< HEAD
 >>>>>>> ee3afc5b (rebase 210)
 =======
 >>>>>>> 510e6e8b (.)
+=======
+>>>>>>> ee3afc5b (rebase 210)
 class SendFirebasePushNotificationPage extends XotBasePage
 {
     public ?array $pushData = [];

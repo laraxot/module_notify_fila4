@@ -22,6 +22,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ee3afc5b (rebase 210)
 =======
@@ -36,7 +37,11 @@
 =======
 <<<<<<<< HEAD:.php-cs-fixer.dist - Copia.php
 >>>>>>> 510e6e8b (.)
+=======
+<<<<<<< HEAD:.php-cs-fixer.dist - Copia.php
+>>>>>>> ee3afc5b (rebase 210)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -128,9 +133,12 @@ declare(strict_types=1);
 >>>>>>> ee3afc5b (rebase 210)
 =======
 >>>>>>> 510e6e8b (.)
+=======
+>>>>>>> ee3afc5b (rebase 210)
 declare(strict_types=1);
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -279,8 +287,14 @@ declare(strict_types=1);
 >>>>>>> 75179b8 (.)
 >>>>>>> 510e6e8b (.)
 =======
+
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> ee3afc5b (rebase 210)
+=======
 =======
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -339,6 +353,8 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> ee3afc5b (rebase 210)
 >>>>>>> 95531e1 (.)
 =======
 =======
@@ -391,6 +407,7 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 
+<<<<<<< HEAD
 >>>>>>> ee3afc5b (rebase 210)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -444,6 +461,14 @@ declare(strict_types=1);
 =======
 >>>>>>> 7325acf3 (.)
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ee3afc5b (rebase 210)
 >>>>>>> 0f07e6d (.)
 =======
 declare(strict_types=1);
@@ -469,16 +494,20 @@ declare(strict_types=1);
 >>>>>>> 10b3b08 (.)
 =======
 >>>>>>> 5dacc15 (.)
+<<<<<<< HEAD
 >>>>>>> ee3afc5b (rebase 210)
 =======
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 7325acf3 (.)
 >>>>>>> 510e6e8b (.)
+=======
+>>>>>>> ee3afc5b (rebase 210)
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -491,9 +520,13 @@ declare(strict_types=1);
 >>>>>>> f813254 (.)
 >>>>>>> ee3afc5b (rebase 210)
 =======
+>>>>>>> f813254 (.)
+>>>>>>> ee3afc5b (rebase 210)
+=======
 declare(strict_types=1);
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
@@ -513,6 +546,8 @@ declare(strict_types=1);
 >>>>>>> a404ea71 (.)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> ee3afc5b (rebase 210)
 >>>>>>> f5f1cb1 (.)
 =======
 =======
@@ -521,11 +556,15 @@ declare(strict_types=1);
 >>>>>>> 2fdda20 (.)
 =======
 >>>>>>> 8d298d6 (.)
+<<<<<<< HEAD
+>>>>>>> ee3afc5b (rebase 210)
+=======
 >>>>>>> ee3afc5b (rebase 210)
 =======
 =======
 
 >>>>>>> 0db165c (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 367c6ceb (.)
 =======
@@ -538,6 +577,8 @@ declare(strict_types=1);
 =======
 >>>>>>> 9d67cabd (.)
 =======
+=======
+>>>>>>> ee3afc5b (rebase 210)
 >>>>>>> 4ad63a5 (.)
 =======
 >>>>>>> d5d0864 (.)
@@ -550,12 +591,16 @@ declare(strict_types=1);
 >>>>>>> 806a0e3 (.)
 =======
 >>>>>>> 0b399d7 (.)
+<<<<<<< HEAD
+>>>>>>> ee3afc5b (rebase 210)
+=======
 >>>>>>> ee3afc5b (rebase 210)
 declare(strict_types=1);
 
 
 =======
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -569,6 +614,8 @@ declare(strict_types=1);
 >>>>>>> 9d67cabd (.)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> ee3afc5b (rebase 210)
 >>>>>>> d5c4b93 (.)
 =======
 =======
@@ -577,11 +624,15 @@ declare(strict_types=1);
 >>>>>>> 806a0e3 (.)
 =======
 >>>>>>> 0b399d7 (.)
+<<<<<<< HEAD
+>>>>>>> ee3afc5b (rebase 210)
+=======
 >>>>>>> ee3afc5b (rebase 210)
 =======
 declare(strict_types=1);
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -608,6 +659,8 @@ declare(strict_types=1);
 =======
 >>>>>>> d09cb759 (.)
 =======
+=======
+>>>>>>> ee3afc5b (rebase 210)
 >>>>>>> 4e2ebfb (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -630,13 +683,20 @@ declare(strict_types=1);
 >>>>>>> f2a81bf (.)
 =======
 >>>>>>> 4e643df (.)
+<<<<<<< HEAD
+>>>>>>> ee3afc5b (rebase 210)
+=======
 >>>>>>> ee3afc5b (rebase 210)
 =======
 declare(strict_types=1);
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 12f2f7e (.)
+>>>>>>> ee3afc5b (rebase 210)
 =======
 >>>>>>> 12f2f7e (.)
 >>>>>>> ee3afc5b (rebase 210)
@@ -644,6 +704,7 @@ declare(strict_types=1);
 =======
 
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 31f5d28f (.)
 =======
@@ -666,11 +727,17 @@ declare(strict_types=1);
 >>>>>>> b852d6c (.)
 >>>>>>> ee3afc5b (rebase 210)
 =======
+>>>>>>> 94c68e2 (.)
+=======
+>>>>>>> b852d6c (.)
+>>>>>>> ee3afc5b (rebase 210)
+=======
 declare(strict_types=1);
 
 
 =======
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 82ae73be (.)
 =======
@@ -692,9 +759,15 @@ declare(strict_types=1);
 >>>>>>> 0875292 (.)
 >>>>>>> ee3afc5b (rebase 210)
 =======
+>>>>>>> 56b7aa1 (.)
+=======
+>>>>>>> 0875292 (.)
+>>>>>>> ee3afc5b (rebase 210)
+=======
 declare(strict_types=1);
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 3f537838 (.)
 =======
@@ -752,6 +825,8 @@ declare(strict_types=1);
 >>>>>>> d09cb759 (.)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> ee3afc5b (rebase 210)
 <<<<<<< HEAD
 
 <<<<<<< HEAD
@@ -764,13 +839,20 @@ declare(strict_types=1);
 >>>>>>> 1309d05 (.)
 =======
 >>>>>>> c434001 (.)
+<<<<<<< HEAD
+>>>>>>> ee3afc5b (rebase 210)
+=======
 >>>>>>> ee3afc5b (rebase 210)
 =======
 declare(strict_types=1);
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 9e8255b (.)
+>>>>>>> ee3afc5b (rebase 210)
 =======
 >>>>>>> 9e8255b (.)
 >>>>>>> ee3afc5b (rebase 210)
@@ -778,6 +860,7 @@ declare(strict_types=1);
 =======
 
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 31f5d28f (.)
 =======
@@ -788,13 +871,24 @@ declare(strict_types=1);
 >>>>>>> 5c6d5c5 (.)
 >>>>>>> ee3afc5b (rebase 210)
 =======
+>>>>>>> 787ff84 (.)
+=======
+>>>>>>> 5c6d5c5 (.)
+>>>>>>> ee3afc5b (rebase 210)
+=======
 =======
 
 >>>>>>> 0db165c (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 367c6ceb (.)
 =======
 >>>>>>> 08fd62df (.)
+=======
+>>>>>>> dba8c4b (.)
+=======
+>>>>>>> 199d283 (.)
+>>>>>>> ee3afc5b (rebase 210)
 =======
 >>>>>>> dba8c4b (.)
 =======
@@ -806,6 +900,7 @@ declare(strict_types=1);
 
 =======
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -836,13 +931,21 @@ declare(strict_types=1);
 >>>>>>> 806a0e3 (.)
 >>>>>>> ee3afc5b (rebase 210)
 =======
+>>>>>>> e5b598a (.)
+=======
+>>>>>>> 806a0e3 (.)
+>>>>>>> ee3afc5b (rebase 210)
+=======
 declare(strict_types=1);
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2941b0bd (.)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> ee3afc5b (rebase 210)
 <<<<<<< HEAD
 
 <<<<<<< HEAD
@@ -860,11 +963,15 @@ declare(strict_types=1);
 
 
 >>>>>>> bc11326 (.)
+<<<<<<< HEAD
+>>>>>>> ee3afc5b (rebase 210)
+=======
 >>>>>>> ee3afc5b (rebase 210)
 =======
 =======
 
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 declare(strict_types=1);
@@ -885,9 +992,15 @@ declare(strict_types=1);
 >>>>>>> e091c3c (.)
 >>>>>>> ee3afc5b (rebase 210)
 =======
+>>>>>>> e627c3b (.)
+=======
+>>>>>>> e091c3c (.)
+>>>>>>> ee3afc5b (rebase 210)
+=======
 =======
 
 >>>>>>> 0db165c (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -904,9 +1017,15 @@ declare(strict_types=1);
 >>>>>>> 436af64 (.)
 >>>>>>> ee3afc5b (rebase 210)
 =======
+>>>>>>> f92a918 (.)
+=======
+>>>>>>> 436af64 (.)
+>>>>>>> ee3afc5b (rebase 210)
+=======
 declare(strict_types=1);
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 96d3f6d2 (.)
 =======
@@ -920,11 +1039,16 @@ declare(strict_types=1);
 >>>>>>> 96d3f6d2 (.)
 =======
 >>>>>>> 510e6e8b (.)
+=======
+>>>>>>> d499c47 (.)
+=======
+>>>>>>> ee3afc5b (rebase 210)
 declare(strict_types=1);
 
 
 =======
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -958,13 +1082,21 @@ declare(strict_types=1);
 >>>>>>> 0b399d7 (.)
 >>>>>>> ee3afc5b (rebase 210)
 =======
+>>>>>>> 954a7fa (.)
+=======
+>>>>>>> 0b399d7 (.)
+>>>>>>> ee3afc5b (rebase 210)
+=======
 declare(strict_types=1);
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 4c323e61 (.)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> ee3afc5b (rebase 210)
 <<<<<<< HEAD
 
 <<<<<<< HEAD
@@ -982,11 +1114,15 @@ declare(strict_types=1);
 
 
 >>>>>>> 5f6e153 (.)
+<<<<<<< HEAD
+>>>>>>> ee3afc5b (rebase 210)
+=======
 >>>>>>> ee3afc5b (rebase 210)
 =======
 =======
 
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 declare(strict_types=1);
@@ -1008,9 +1144,15 @@ declare(strict_types=1);
 >>>>>>> 2c9c66a (.)
 >>>>>>> ee3afc5b (rebase 210)
 =======
+>>>>>>> 63c322c (.)
+=======
+>>>>>>> 2c9c66a (.)
+>>>>>>> ee3afc5b (rebase 210)
+=======
 =======
 
 >>>>>>> 0db165c (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f4acf543 (.)
 =======
@@ -1028,11 +1170,14 @@ declare(strict_types=1);
 =======
 >>>>>>> 229a065a (rebase 210)
 =======
+=======
+>>>>>>> ee3afc5b (rebase 210)
 >>>>>>> f113074 (.)
 =======
 >>>>>>> 6ee9e73 (.)
 =======
 >>>>>>> c64cc83 (.):.vscode/.php_cs
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ee3afc5b (rebase 210)
 =======
@@ -1092,6 +1237,8 @@ declare(strict_types=1);
 >>>>>>> bd804d67 (.)
 =======
 >>>>>>> 229a065a (rebase 210)
+=======
+>>>>>>> ee3afc5b (rebase 210)
 $finder = PhpCsFixer\Finder::create()
     ->notPath('bootstrap/cache')
     ->notPath('storage')
@@ -1126,6 +1273,7 @@ return PhpCsFixer\Config::create()
         'elseif' => true,
     ))
     ->setFinder($finder)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1252,3 +1400,6 @@ return $config;
 =======
 ;
 >>>>>>> 229a065a (rebase 210)
+=======
+;
+>>>>>>> ee3afc5b (rebase 210)
