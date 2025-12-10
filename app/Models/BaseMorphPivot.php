@@ -298,6 +298,7 @@ abstract class BaseMorphPivot extends MorphPivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -805,6 +806,11 @@ abstract class BaseMorphPivot extends MorphPivot
         'post_type',
 =======
 >>>>>>> 9f8e680a (rebase 210)
+=======
+        'post_id',
+        'post_type',
+=======
+>>>>>>> 5aedc39c (rebase 210)
 <<<<<<< HEAD
 =======
         'post_id',
@@ -1001,6 +1007,7 @@ abstract class BaseMorphPivot extends MorphPivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -1015,6 +1022,8 @@ abstract class BaseMorphPivot extends MorphPivot
 >>>>>>> 848f79b79 (.)
 =======
 >>>>>>> c188e2a18 (.)
+=======
+>>>>>>> cd5474106 (.)
 >>>>>>> d09cb759 (.)
 =======
         'post_id',
@@ -1360,6 +1369,7 @@ abstract class BaseMorphPivot extends MorphPivot
 >>>>>>> 52cd5f85 (rebase 210)
 =======
 >>>>>>> 5aedc39c (rebase 210)
+<<<<<<< HEAD
 =======
         'post_id',
         'post_type',
@@ -1610,6 +1620,8 @@ abstract class BaseMorphPivot extends MorphPivot
 =======
 >>>>>>> 1375c94d (rebase 210)
 >>>>>>> 7a9167faf (.)
+=======
+>>>>>>> cd5474106 (.)
         'related_type',
         'user_id',
         'note',
@@ -1823,6 +1835,7 @@ abstract class BaseMorphPivot extends MorphPivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -2004,6 +2017,8 @@ abstract class BaseMorphPivot extends MorphPivot
 =======
 >>>>>>> 9f8e680a (rebase 210)
 =======
+>>>>>>> 5aedc39c (rebase 210)
+=======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
@@ -2112,6 +2127,7 @@ abstract class BaseMorphPivot extends MorphPivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -2126,6 +2142,8 @@ abstract class BaseMorphPivot extends MorphPivot
 >>>>>>> 848f79b79 (.)
 =======
 >>>>>>> c188e2a18 (.)
+=======
+>>>>>>> cd5474106 (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -2452,6 +2470,7 @@ abstract class BaseMorphPivot extends MorphPivot
 >>>>>>> 52cd5f85 (rebase 210)
 =======
 >>>>>>> 5aedc39c (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 82e5ee2d (rebase 210)
 =======
@@ -2702,6 +2721,8 @@ abstract class BaseMorphPivot extends MorphPivot
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 1375c94d (rebase 210)
 >>>>>>> 7a9167faf (.)
+=======
+>>>>>>> cd5474106 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',

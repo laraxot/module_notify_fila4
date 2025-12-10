@@ -308,6 +308,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -399,6 +400,7 @@ declare(strict_types=1);
 >>>>>>> 1375c94d (rebase 210)
 =======
 >>>>>>> 5aedc39c (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> c5c038f2 (rebase 210)
 =======
@@ -421,11 +423,14 @@ declare(strict_types=1);
 >>>>>>> 3ee54c5d (.)
 =======
 >>>>>>> c188e2a18 (.)
+=======
+>>>>>>> cd5474106 (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -467,6 +472,8 @@ declare(strict_types=1);
 >>>>>>> b207a9b1a (.)
 =======
 >>>>>>> c188e2a18 (.)
+=======
+>>>>>>> cd5474106 (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -700,6 +707,7 @@ declare(strict_types=1);
 >>>>>>> 229a065a (rebase 210)
 =======
 >>>>>>> 9f8e680a (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 5aedc39c (rebase 210)
@@ -1082,11 +1090,16 @@ declare(strict_types=1);
 >>>>>>> 3e757cee2 (.)
 =======
 >>>>>>> c188e2a18 (.)
+=======
+=======
+>>>>>>> 5aedc39c (rebase 210)
+>>>>>>> cd5474106 (.)
 declare(strict_types=1);
 
 
 =======
 >>>>>>> a12f125f4a (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1123,6 +1136,8 @@ declare(strict_types=1);
 >>>>>>> 3e757cee2 (.)
 =======
 >>>>>>> c188e2a18 (.)
+=======
+>>>>>>> cd5474106 (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> d09cb759 (.)
@@ -1155,9 +1170,12 @@ declare(strict_types=1);
 =======
 >>>>>>> 9f8e680a (rebase 210)
 =======
+>>>>>>> 5aedc39c (rebase 210)
+=======
 declare(strict_types=1);
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1224,6 +1242,8 @@ declare(strict_types=1);
 >>>>>>> 3e757cee2 (.)
 =======
 >>>>>>> c188e2a18 (.)
+=======
+>>>>>>> cd5474106 (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -1262,6 +1282,7 @@ declare(strict_types=1);
 >>>>>>> 9f8e680a (rebase 210)
 =======
 >>>>>>> 5aedc39c (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 22baa66d (rebase 210)
 =======
@@ -1347,6 +1368,8 @@ declare(strict_types=1);
 =======
 >>>>>>> 9f8e680a (rebase 210)
 >>>>>>> c188e2a18 (.)
+=======
+>>>>>>> cd5474106 (.)
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
@@ -1397,6 +1420,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -1415,6 +1439,8 @@ declare(strict_types=1);
 >>>>>>> 3e757cee2 (.)
 =======
 >>>>>>> c188e2a18 (.)
+=======
+>>>>>>> cd5474106 (.)
 >>>>>>> d09cb759 (.)
 =======
 declare(strict_types=1);
@@ -1900,6 +1926,7 @@ declare(strict_types=1);
 >>>>>>> 52cd5f85 (rebase 210)
 =======
 >>>>>>> 5aedc39c (rebase 210)
+<<<<<<< HEAD
 =======
 declare(strict_types=1);
 
@@ -2555,6 +2582,8 @@ declare(strict_types=1);
 >>>>>>> 5d49e093a (.)
 =======
 >>>>>>> 7a9167faf (.)
+=======
+>>>>>>> cd5474106 (.)
 $finder = PhpCsFixer\Finder::create()
     ->notPath('bootstrap/cache')
     ->notPath('storage')

@@ -427,6 +427,7 @@ abstract class BasePivot extends XotBasePivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -569,6 +570,7 @@ abstract class BasePivot extends XotBasePivot
 >>>>>>> 1375c94d (rebase 210)
 =======
 >>>>>>> 5aedc39c (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 =======
@@ -688,10 +690,13 @@ abstract class BasePivot extends XotBasePivot
 =======
 >>>>>>> 1375c94d (rebase 210)
 >>>>>>> 7a9167faf (.)
+=======
+>>>>>>> cd5474106 (.)
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -796,6 +801,8 @@ abstract class BasePivot extends XotBasePivot
 =======
 >>>>>>> 5d49e093a (.)
 =======
+>>>>>>> cd5474106 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -817,6 +824,7 @@ abstract class BasePivot extends XotBasePivot
 >>>>>>> bd804d67 (.)
 =======
 >>>>>>> 9f8e680a (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 5aedc39c (rebase 210)
@@ -886,6 +894,10 @@ abstract class BasePivot extends XotBasePivot
 >>>>>>> 848f79b79 (.)
 =======
 >>>>>>> c188e2a18 (.)
+=======
+=======
+>>>>>>> 5aedc39c (rebase 210)
+>>>>>>> cd5474106 (.)
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
@@ -929,6 +941,7 @@ abstract class BasePivot extends XotBasePivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -943,6 +956,8 @@ abstract class BasePivot extends XotBasePivot
 >>>>>>> 848f79b79 (.)
 =======
 >>>>>>> c188e2a18 (.)
+=======
+>>>>>>> cd5474106 (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -1124,7 +1139,12 @@ abstract class BasePivot extends XotBasePivot
 =======
 =======
 >>>>>>> b4f93b3a (rebase 210)
+<<<<<<< HEAD
 >>>>>>> 5d49e093a (.)
+=======
+=======
+>>>>>>> 5aedc39c (rebase 210)
+>>>>>>> cd5474106 (.)
 
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
@@ -1206,6 +1226,7 @@ abstract class BasePivot extends XotBasePivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -1236,6 +1257,8 @@ abstract class BasePivot extends XotBasePivot
 >>>>>>> c188e2a18 (.)
 =======
 >>>>>>> 5d49e093a (.)
+=======
+>>>>>>> cd5474106 (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1409,6 +1432,7 @@ abstract class BasePivot extends XotBasePivot
 >>>>>>> 1375c94d (rebase 210)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
 >>>>>>> 5aedc39c (rebase 210)
 =======
@@ -1512,9 +1536,15 @@ abstract class BasePivot extends XotBasePivot
 >>>>>>> c188e2a18 (.)
 =======
 >>>>>>> 7a9167faf (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> cd5474106 (.)
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1622,6 +1652,8 @@ abstract class BasePivot extends XotBasePivot
 >>>>>>> c188e2a18 (.)
 =======
 >>>>>>> 7a9167faf (.)
+=======
+>>>>>>> cd5474106 (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -1721,11 +1753,17 @@ abstract class BasePivot extends XotBasePivot
 >>>>>>> 848f79b79 (.)
 =======
 >>>>>>> 9f8e680a (rebase 210)
+<<<<<<< HEAD
 >>>>>>> c188e2a18 (.)
+=======
+=======
+>>>>>>> 5aedc39c (rebase 210)
+>>>>>>> cd5474106 (.)
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1777,6 +1815,8 @@ abstract class BasePivot extends XotBasePivot
 >>>>>>> 848f79b79 (.)
 =======
 >>>>>>> c188e2a18 (.)
+=======
+>>>>>>> cd5474106 (.)
 >>>>>>> d09cb759 (.)
 =======
             'created_at' => 'datetime',
@@ -2209,6 +2249,7 @@ abstract class BasePivot extends XotBasePivot
 >>>>>>> 52cd5f85 (rebase 210)
 =======
 >>>>>>> 5aedc39c (rebase 210)
+<<<<<<< HEAD
 =======
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
@@ -2511,6 +2552,8 @@ abstract class BasePivot extends XotBasePivot
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 1375c94d (rebase 210)
 >>>>>>> 7a9167faf (.)
+=======
+>>>>>>> cd5474106 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',

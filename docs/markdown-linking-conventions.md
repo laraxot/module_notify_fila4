@@ -392,6 +392,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [Convenzioni di Naming per le Interfacce](/var/www/html/<nome progetto>/laravel/Modules/Notify/docs/INTERFACE_NAMING_CONVENTION.md)
 [Chiarimento sulla Struttura delle Interfacce](/var/www/html/<nome progetto>/laravel/Modules/Notify/docs/INTERFACE_STRUCTURE_CLARIFICATION.md)
 [Architettura dei Contratti](/var/www/html/<nome progetto>/laravel/Modules/Notify/docs/CONTRACTS_ARCHITECTURE.md)
@@ -599,6 +600,7 @@
 [Architettura dei Contratti](/var/www/html/saluteora/laravel/Modules/Notify/docs/CONTRACTS_ARCHITECTURE.md)
 >>>>>>> 5aedc39c (rebase 210)
 =======
+<<<<<<< HEAD
 [Convenzioni di Naming per le Interfacce](/var/www/html/saluteora/laravel/Modules/Notify/docs/INTERFACE_NAMING_CONVENTION.md)
 [Chiarimento sulla Struttura delle Interfacce](/var/www/html/saluteora/laravel/Modules/Notify/docs/INTERFACE_STRUCTURE_CLARIFICATION.md)
 [Architettura dei Contratti](/var/www/html/saluteora/laravel/Modules/Notify/docs/CONTRACTS_ARCHITECTURE.md)
@@ -672,10 +674,13 @@
 >>>>>>> 3e757cee2 (.)
 =======
 >>>>>>> c188e2a18 (.)
+=======
+>>>>>>> cd5474106 (.)
 [Convenzioni di Naming per le Interfacce](/var/www/html/saluteora/laravel/Modules/Notify/project_docs/INTERFACE_NAMING_CONVENTION.md)
 [Chiarimento sulla Struttura delle Interfacce](/var/www/html/saluteora/laravel/Modules/Notify/project_docs/INTERFACE_STRUCTURE_CLARIFICATION.md)
 [Architettura dei Contratti](/var/www/html/saluteora/laravel/Modules/Notify/project_docs/CONTRACTS_ARCHITECTURE.md)
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -737,6 +742,8 @@
 >>>>>>> 3e757cee2 (.)
 =======
 >>>>>>> c188e2a18 (.)
+=======
+>>>>>>> cd5474106 (.)
 >>>>>>> d09cb759 (.)
 =======
 [Convenzioni di Naming per le Interfacce](/var/www/html/saluteora/laravel/Modules/Notify/docs/INTERFACE_NAMING_CONVENTION.md)
@@ -1547,6 +1554,7 @@
 >>>>>>> eb62d6cf (rebase 210)
 =======
 >>>>>>> 5aedc39c (rebase 210)
+<<<<<<< HEAD
 =======
 [Convenzioni di Naming per le Interfacce](/var/www/html/saluteora/laravel/Modules/Notify/docs/INTERFACE_NAMING_CONVENTION.md)
 [Chiarimento sulla Struttura delle Interfacce](/var/www/html/saluteora/laravel/Modules/Notify/docs/INTERFACE_STRUCTURE_CLARIFICATION.md)
@@ -1891,6 +1899,8 @@
 >>>>>>> 21a6fa9bc (.)
 =======
 >>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> cd5474106 (.)
 ```
 
 ### ✅ CORRETTO: Percorsi Relativi
@@ -1904,8 +1914,13 @@
 Per collegamenti a documenti in altre directory:
 
 ```markdown
+<<<<<<< HEAD
 [Regole Generali per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
 [Best Practices per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
+=======
+[Regole Generali per le Chiavi di Traduzione](../../Lang/project_docs/TRANSLATION_KEYS_RULES.md)
+[Best Practices per le Chiavi di Traduzione](../../Lang/project_docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
+>>>>>>> d284d65 (.)
 ```
 
 ## Motivazione
@@ -2715,8 +2730,10 @@ grep -r "\[.*\](/var" --include="*.md" /percorso/al/progetto
 
 ## Collegamenti Correlati
 
+<<<<<<< HEAD
 - [Convenzioni di Documentazione](../../../docs/documentation-conventions.md)
 - [Markdown Best Practices](../../../docs/markdown-best-practices.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2876,6 +2893,8 @@ grep -r "\[.*\](/var" --include="*.md" /percorso/al/progetto
 =======
 >>>>>>> 7a142b4f5 (.)
 =======
+>>>>>>> cd5474106 (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -2923,6 +2942,7 @@ grep -r "\[.*\](/var" --include="*.md" /percorso/al/progetto
 =======
 >>>>>>> 5aedc39c (rebase 210)
 =======
+<<<<<<< HEAD
 >>>>>>> 22baa66d (rebase 210)
 =======
 >>>>>>> 2effe245 (.)
@@ -2961,9 +2981,12 @@ grep -r "\[.*\](/var" --include="*.md" /percorso/al/progetto
 >>>>>>> 9f8e680a (rebase 210)
 =======
 >>>>>>> c188e2a18 (.)
+=======
+>>>>>>> cd5474106 (.)
 - [Convenzioni di Documentazione](../../../project_docs/documentation-conventions.md)
 - [Markdown Best Practices](../../../project_docs/markdown-best-practices.md)
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3003,6 +3026,8 @@ grep -r "\[.*\](/var" --include="*.md" /percorso/al/progetto
 >>>>>>> 9cb55171f (.)
 =======
 >>>>>>> c188e2a18 (.)
+=======
+>>>>>>> cd5474106 (.)
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
@@ -3044,6 +3069,7 @@ grep -r "\[.*\](/var" --include="*.md" /percorso/al/progetto
 >>>>>>> 7ffa94fc (rebase 210)
 =======
 >>>>>>> eb62d6cf (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 5aedc39c (rebase 210)
@@ -3303,3 +3329,7 @@ grep -r "\[.*\](/var" --include="*.md" /percorso/al/progetto
 >>>>>>> f3c06ccdd (.)
 =======
 >>>>>>> 7a142b4f5 (.)
+=======
+=======
+>>>>>>> 5aedc39c (rebase 210)
+>>>>>>> cd5474106 (.)

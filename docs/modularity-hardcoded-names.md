@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f2e64178 (.)
 =======
@@ -38,10 +39,13 @@
 >>>>>>> 43dd68f4b (.)
 =======
 >>>>>>> c188e2a18 (.)
+=======
+>>>>>>> cd5474106 (.)
 # Regola Critica: Mai Hardcodare Nomi di Progetto nei Moduli Riutilizzabili
 
 ## Problema Identificato
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -192,6 +196,8 @@ Durante l'audit del modulo `Notify`, è stato identificato un **errore critico d
 >>>>>>> 6ad5224fb (.)
 =======
 >>>>>>> 21a6fa9bc (.)
+=======
+>>>>>>> cd5474106 (.)
 Durante l'audit del modulo `Notify`, è stato identificato un **errore critico di architettura**: l'utilizzo di stringhe hardcoded con nomi di progetto specifici (es. "saluteora", "salutemo") in un modulo che deve essere riutilizzabile in progetti diversi.
 
 ## Impatto del Problema
@@ -205,6 +211,7 @@ Durante l'audit del modulo `Notify`, è stato identificato un **errore critico d
 ### Esempi di Violazioni Trovate
 ```php
 // ❌ ERRORE CRITICO - Stringhe hardcoded
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -364,12 +371,15 @@ Durante l'audit del modulo `Notify`, è stato identificato un **errore critico d
 >>>>>>> 6ad5224fb (.)
 =======
 >>>>>>> 21a6fa9bc (.)
+=======
+>>>>>>> cd5474106 (.)
 'subject' => 'Benvenuto su SaluteOra',
 'content' => 'Grazie per esserti registrato su SaluteOra',
 'clinic_name' => 'Studio Dentistico SaluteOra',
 'webhook' => 'https://api.saluteora.com/webhooks',
 'author' => 'Team SaluteOra',
 'path' => '/var/www/html/saluteora/public_html/images/',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -580,6 +590,8 @@ Durante l'audit del modulo `Notify`, è stato identificato un **errore critico d
 >>>>>>> 6ad5224fb (.)
 =======
 >>>>>>> 21a6fa9bc (.)
+=======
+>>>>>>> cd5474106 (.)
 ```
 
 ## Soluzioni Implementate
@@ -634,6 +646,7 @@ $notificationData = [
 - **Media**: Gestione media per qualsiasi progetto
 
 ### Moduli Specifici del Progetto
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -784,6 +797,8 @@ $notificationData = [
 >>>>>>> 6ad5224fb (.)
 =======
 >>>>>>> 21a6fa9bc (.)
+=======
+>>>>>>> cd5474106 (.)
 - **SaluteOra**: Solo per progetto SaluteOra
 - **SaluteMo**: Solo per progetto SaluteMo
 - **Patient**: Solo per progetti sanitari specifici
@@ -804,6 +819,7 @@ Prima di ogni commit, verificare:
 Eseguire regolarmente:
 ```bash
 # Cerca stringhe hardcoded nei moduli generici
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -961,6 +977,8 @@ grep -r "<nome progetto>\|salutemo" laravel/Modules/Xot/ --include="*.php"
 >>>>>>> 6ad5224fb (.)
 =======
 >>>>>>> 21a6fa9bc (.)
+=======
+>>>>>>> cd5474106 (.)
 grep -r "saluteora\|salutemo" laravel/Modules/Notify/ --include="*.php"
 grep -r "saluteora\|salutemo" laravel/Modules/User/ --include="*.php"
 grep -r "saluteora\|salutemo" laravel/Modules/UI/ --include="*.php"
@@ -971,6 +989,7 @@ grep -r "saluteora\|salutemo" laravel/Modules/Xot/ --include="*.php"
 
 ### Variabili d'Ambiente
 ```env
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1129,6 +1148,8 @@ REPOSITORY_URL=https://github.com/<nome progetto>/notify
 >>>>>>> 6ad5224fb (.)
 =======
 >>>>>>> 21a6fa9bc (.)
+=======
+>>>>>>> cd5474106 (.)
 COMPANY_NAME=SaluteOra
 COMPANY_TEAM=Team SaluteOra
 WEBHOOK_BASE_URL=https://api.saluteora.com
@@ -1177,6 +1198,7 @@ Ogni progetto può personalizzare i valori tramite variabili d'ambiente senza mo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -1205,3 +1227,5 @@ Ogni progetto può personalizzare i valori tramite variabili d'ambiente senza mo
 >>>>>>> 43dd68f4b (.)
 =======
 >>>>>>> c188e2a18 (.)
+=======
+>>>>>>> cd5474106 (.)
