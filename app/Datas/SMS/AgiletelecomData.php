@@ -1039,6 +1039,7 @@ class AgiletelecomData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1519,6 +1520,8 @@ class AgiletelecomData extends Data
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 5fd545e4 (.)
     public function getAuthHeaders(): array
     {
         switch ($this->auth_type) {

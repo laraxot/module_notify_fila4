@@ -304,6 +304,7 @@ class SendFirebasePushNotificationPage extends XotBasePage
         $this->pushForm->fill();
     }
 
+<<<<<<< HEAD
     public function pushForm(Schema $schema): Schema
     {
         return $schema->components($this->getPushFormSchema())->model($this->getUser())->statePath('pushData');
@@ -618,6 +619,8 @@ class SendFirebasePushNotificationPage extends XotBasePage
     }
 
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> 5fd545e4 (.)
     public function getPushFormSchema(): array
     {
         return [

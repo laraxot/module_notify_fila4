@@ -1826,6 +1826,7 @@ class Get
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         /* @phpstan-ignore-next-line property.notFound */
 >>>>>>> 2cbbc069 (.)
@@ -1861,6 +1862,8 @@ class Get
 =======
         /* @phpstan-ignore-next-line property.notFound */
 >>>>>>> 2cbbc069 (.)
+=======
+>>>>>>> 5fd545e4 (.)
         if ($theme->subject === null) {
             $subject = trans($trad_mod.'.subject');
 <<<<<<< HEAD
@@ -2598,6 +2601,7 @@ class Get
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         /* @phpstan-ignore-next-line property.notFound */
 >>>>>>> 2cbbc069 (.)
@@ -2648,10 +2652,13 @@ class Get
 =======
         /* @phpstan-ignore-next-line property.notFound */
 >>>>>>> 2cbbc069 (.)
+=======
+>>>>>>> 5fd545e4 (.)
         if ($theme->theme === null) {
             $theme->update(['theme' => 'ark']);
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2989,6 +2996,8 @@ class Get
 >>>>>>> 2cf1e9d (.)
 =======
         /* @phpstan-ignore-next-line property.notFound */
+=======
+>>>>>>> 5fd545e4 (.)
         if ($theme->body_html === null) {
 >>>>>>> 4c59e64 (.)
 <<<<<<< HEAD
@@ -5079,6 +5088,7 @@ class Get
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'from_email' => $theme->from_email,
 =======
             /* @phpstan-ignore-next-line property.notFound */
@@ -5233,6 +5243,9 @@ class Get
             'from_email' => $theme->from_email,
             /* @phpstan-ignore-next-line property.notFound */
 >>>>>>> 2cbbc069 (.)
+=======
+            'from_email' => $theme->from_email,
+>>>>>>> 5fd545e4 (.)
             'from' => $theme->from,
             'subject' => $subject,
             'body_html' => $body_html,

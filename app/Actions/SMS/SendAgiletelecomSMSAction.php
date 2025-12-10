@@ -1290,6 +1290,7 @@ class SendAgiletelecomSMSAction implements SmsActionContract
 >>>>>>> 2941b0bd (.)
     #[Override]
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6ba141fc (.)
 =======
@@ -1389,6 +1390,8 @@ class SendAgiletelecomSMSAction implements SmsActionContract
 =======
     #[Override]
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> 5fd545e4 (.)
     public function execute(SmsData $data): array
     {
         $res = app(SendAgiletelecomSMSv2Action::class)->execute($data);

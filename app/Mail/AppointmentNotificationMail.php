@@ -405,7 +405,7 @@ use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
 
-// use Modules\<main module>\Models\Appointment;
+// use Modules\SaluteOra\Models\Appointment;
 
 class AppointmentNotificationMail extends Mailable implements ShouldQueue
 {
@@ -1152,8 +1152,8 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 =======
 >>>>>>> 2941b0bd (.)
 
-        if (is_object($appointment) && property_exists($appointment, 'id') && is_scalar($appointment->id)) {
-            $subject .= ' #'.(string) $appointment->id;
+        if (is_object($appointment) && isset($appointment->id) && $appointment->id) {
+            $subject .= ' #'.$appointment->id;
         }
 
 <<<<<<< HEAD

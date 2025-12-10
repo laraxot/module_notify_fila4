@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Linee Guida per la Riusabilità del Modulo Notify
 
 ## Principio Fondamentale
@@ -408,3 +409,5 @@ grep -r "database.*saluteora\|app.*saluteora" Modules/Notify/
 - [testing_best_practices.md](testing_best_practices.md)
 
 *Ultimo aggiornamento: gennaio 2025*
+=======
+>>>>>>> 5fd545e4 (.)

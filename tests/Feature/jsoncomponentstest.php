@@ -310,6 +310,7 @@ test('components json is valid and contains expected components', function (): v
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
 =======
@@ -446,12 +447,20 @@ test('components json is valid and contains expected components', function (): v
 >>>>>>> 75179b855 (.)
 =======
 >>>>>>> 2cbbc069 (.)
+=======
+    /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
+>>>>>>> 5fd545e4 (.)
     expect($json[0])->toHaveKey('name', 'Il primo componente non ha una chiave "name"');
+    /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
     expect($json[0])->toHaveKey('class', 'Il primo componente non ha una chiave "class"');
+    /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
     expect($json[0])->toHaveKey('ns', 'Il primo componente non ha una chiave "ns"');
 
+    /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
     expect($json[1])->toHaveKey('name', 'Il secondo componente non ha una chiave "name"');
+    /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
     expect($json[1])->toHaveKey('class', 'Il secondo componente non ha una chiave "class"');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -463,6 +472,9 @@ test('components json is valid and contains expected components', function (): v
 >>>>>>> 75179b855 (.)
 =======
 >>>>>>> 2cbbc069 (.)
+=======
+    /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
+>>>>>>> 5fd545e4 (.)
     expect($json[1])->toHaveKey('ns', 'Il secondo componente non ha una chiave "ns"');
 
     // Verifico i nomi specifici dei componenti

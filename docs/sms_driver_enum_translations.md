@@ -40,6 +40,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -1547,3 +1548,5 @@ php -l laravel/Modules/Notify/lang/de/sms_driver_enum.php
 ---
 
 >>>>>>> 66453ace (.)
+=======
+>>>>>>> 5fd545e4 (.)

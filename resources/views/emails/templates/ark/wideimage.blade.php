@@ -369,6 +369,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -1266,11 +1267,14 @@
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 5fd545e4 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2884,6 +2888,9 @@ declare(strict_types=1);
 >>>>>>> e438127e (.)
 =======
 >>>>>>> 536139e0 (.)
+=======
+<tr>
+>>>>>>> 5fd545e4 (.)
 	<td class="w580" width="580" colspan="3">
 		<img width="640" class="w640" id="toppbild" src="{{ $src }}" alt="" height="{{ $height }}" />
 	</td>
@@ -3264,6 +3271,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -5068,3 +5076,6 @@ declare(strict_types=1);
 =======
 </tr>
 >>>>>>> 536139e0 (.)
+=======
+</tr>
+>>>>>>> 5fd545e4 (.)

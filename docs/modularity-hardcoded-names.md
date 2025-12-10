@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Regola Critica: Mai Hardcodare Nomi di Progetto nei Moduli Riutilizzabili
 
 ## Problema Identificato
@@ -359,3 +360,5 @@ Ogni progetto può personalizzare i valori tramite variabili d'ambiente senza mo
 ---
 
 **Questa correzione è CRITICA per mantenere l'architettura modulare del sistema. Ogni violazione deve essere corretta immediatamente.**
+=======
+>>>>>>> 5fd545e4 (.)

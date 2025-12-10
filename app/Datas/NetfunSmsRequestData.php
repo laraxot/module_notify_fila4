@@ -801,6 +801,7 @@ class NetfunSmsRequestData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /** @var string $token */
         $token = $data['token'];
         /** @var array<int, array<string, mixed>> $messages */
@@ -1380,6 +1381,11 @@ class NetfunSmsRequestData extends Data
 =======
             messages: $data['messages'],
 >>>>>>> 2941b0bd (.)
+=======
+        return new self(
+            token: $data['token'],
+            messages: $data['messages'],
+>>>>>>> 5fd545e4 (.)
         );
     }
 }

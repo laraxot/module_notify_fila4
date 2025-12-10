@@ -626,6 +626,7 @@ class SendSpatieEmailPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -745,6 +746,8 @@ class SendSpatieEmailPage extends XotBasePage
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 2cbbc069 (.)
+=======
+>>>>>>> 5fd545e4 (.)
     public function getEmailFormSchema(): array
     {
         return [

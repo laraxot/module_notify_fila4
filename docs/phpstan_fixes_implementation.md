@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Implementazione Correzioni PHPStan - Modulo Notify
 
 ## 🎯 Errori Risolti
@@ -189,3 +190,5 @@ Applicare gli stessi pattern di type safety agli altri moduli:
 
 *Ultimo aggiornamento: gennaio 2025*
 
+=======
+>>>>>>> 5fd545e4 (.)

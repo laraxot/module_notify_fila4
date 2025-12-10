@@ -7155,7 +7155,10 @@ final class SendBotmanTelegramAction
             return [
                 'success' => $responseData['ok'] ?? false,
                 'message_id' => $responseData['result']['message_id'] ?? null,
+<<<<<<< HEAD
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> 5fd545e4 (.)
                 'response' => $responseData,
                 'vars' => $this->vars,
             ];

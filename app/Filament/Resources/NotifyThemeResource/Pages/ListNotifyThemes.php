@@ -1383,6 +1383,7 @@ class ListNotifyThemes extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6ba141fc (.)
 =======
@@ -1430,6 +1431,8 @@ class ListNotifyThemes extends XotBaseListRecords
     #[Override]
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 5fd545e4 (.)
     public function getTableColumns(): array
     {
         return [
@@ -2245,6 +2248,7 @@ class ListNotifyThemes extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6ba141fc (.)
 =======
@@ -2292,6 +2296,8 @@ class ListNotifyThemes extends XotBaseListRecords
     #[Override]
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 5fd545e4 (.)
     public function getTableFilters(): array
     {
         return [

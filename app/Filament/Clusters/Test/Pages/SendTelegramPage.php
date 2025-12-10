@@ -890,6 +890,7 @@ class SendTelegramPage extends XotBasePage implements HasForms
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     /**
      * @return array<string, \Filament\Forms\Components\Select|\Filament\Forms\Components\TextInput|\Filament\Forms\Components\Toggle>
      */
@@ -981,6 +982,8 @@ class SendTelegramPage extends XotBasePage implements HasForms
     }
 
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> 5fd545e4 (.)
     public function getTelegramFormSchema(): array
     {
         return [

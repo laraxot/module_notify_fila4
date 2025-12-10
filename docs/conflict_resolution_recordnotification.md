@@ -38,6 +38,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -931,3 +932,5 @@ Verificare che:
 
 *Ultimo aggiornamento: giugno 2025*
 >>>>>>> 66453ace (.)
+=======
+>>>>>>> 5fd545e4 (.)
