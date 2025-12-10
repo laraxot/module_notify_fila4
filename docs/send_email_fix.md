@@ -706,6 +706,7 @@ class SmtpData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1748,6 +1749,11 @@ class SmtpData extends Data
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> dceba960 (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/docs/mail)
+- [Documentazione Filament Forms](https://filamentphp.com/docs/forms)
+- [Best Practices SMTP](https://laravel.com/docs/mail#smtp-configuration)
+>>>>>>> 9d84f153 (.)
 
 ## ⚠️ Note Importanti
 
