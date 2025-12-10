@@ -326,6 +326,7 @@ Tutti i modelli attivi hanno le factory corrispondenti.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #### <nome progetto> Integration
 >>>>>>> 75179b855 (.)
@@ -445,11 +446,14 @@ Tutti i modelli attivi hanno le factory corrispondenti.
 >>>>>>> c7d5eaf96 (.)
 =======
 >>>>>>> a2f3c239e (.)
+=======
+>>>>>>> 1dc3e4fcd (.)
 #### SaluteOra Integration
 =======
 #### <nome progetto> Integration
 #### <nome progetto> Integration
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 #### SaluteOra Integration
@@ -462,6 +466,8 @@ Tutti i modelli attivi hanno le factory corrispondenti.
 =======
 #### SaluteOra Integration
 >>>>>>> 763771402 (.)
+=======
+>>>>>>> 1dc3e4fcd (.)
 - **Appointment Reminders**: Promemoria appuntamenti
 - **Report Notifications**: Notifiche nuovi referti
 - **Emergency Alerts**: Allerte mediche urgenti
@@ -571,6 +577,7 @@ Tutti i file factory devono essere validati con PHPStan livello 9:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [<nome progetto> Module](../../<nome progetto>/docs/modelli_factory_seeder_analisi.md) - Notifiche mediche
 >>>>>>> 75179b855 (.)
@@ -690,11 +697,14 @@ Tutti i file factory devono essere validati con PHPStan livello 9:
 >>>>>>> c7d5eaf96 (.)
 =======
 >>>>>>> a2f3c239e (.)
+=======
+>>>>>>> 1dc3e4fcd (.)
 - [SaluteOra Module](../../SaluteOra/docs/modelli_factory_seeder_analisi.md) - Notifiche mediche
 =======
 - [<nome progetto> Module](../../<nome progetto>/docs/modelli_factory_seeder_analisi.md) - Notifiche mediche
 - [<nome progetto> Module](../../../docs/modelli_factory_seeder_analisi.md) - Notifiche mediche
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 - [SaluteOra Module](../../SaluteOra/docs/modelli_factory_seeder_analisi.md) - Notifiche mediche
@@ -707,6 +717,8 @@ Tutti i file factory devono essere validati con PHPStan livello 9:
 =======
 - [SaluteOra Module](../../SaluteOra/docs/modelli_factory_seeder_analisi.md) - Notifiche mediche
 >>>>>>> 763771402 (.)
+=======
+>>>>>>> 1dc3e4fcd (.)
 - [User Module](../../User/docs/modelli_factory_seeder_analisi.md) - Notifiche utente
 - [Media Module](../../Media/docs/modelli_factory_seeder_analisi.md) - Allegati notifiche
 - [Lang Module](../../Lang/docs/modelli_factory_seeder_analisi.md) - Localizzazione

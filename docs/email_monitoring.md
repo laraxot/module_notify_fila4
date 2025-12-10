@@ -1260,6 +1260,7 @@ class MailMonitoringDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1412,6 +1413,7 @@ class MailMonitoringDebugger
 >>>>>>> 4b544042 (.)
 =======
 >>>>>>> 0ebb7b01 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> cccb594f (.)
 =======
@@ -1751,6 +1753,8 @@ class MailMonitoringDebugger
 >>>>>>> 763771402 (.)
 =======
 >>>>>>> a85ebf6cc (.)
+=======
+>>>>>>> 1dc3e4fcd (.)
 - [Laravel Cache](https://laravel.com/docs/cache)
 - [Laravel Events](https://laravel.com/docs/events)
 - [Laravel Commands](https://laravel.com/docs/artisan) 
@@ -1951,6 +1955,7 @@ class MailMonitoringDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -2054,6 +2059,8 @@ class MailMonitoringDebugger
 =======
 >>>>>>> a85ebf6cc (.)
 =======
+>>>>>>> 1dc3e4fcd (.)
+=======
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> d09cb759 (.)
@@ -2190,6 +2197,7 @@ class MailMonitoringDebugger
 =======
 >>>>>>> 3ee54c5d (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 0ebb7b01 (.)
 =======
@@ -2300,6 +2308,10 @@ class MailMonitoringDebugger
 >>>>>>> a2f3c239e (.)
 =======
 >>>>>>> 763771402 (.)
+=======
+>>>>>>> 0ebb7b01 (.)
+=======
+>>>>>>> 1dc3e4fcd (.)
 - [Laravel Cache](https://laravel.com/project_docs/cache)
 - [Laravel Events](https://laravel.com/project_docs/events)
 - [Laravel Commands](https://laravel.com/project_docs/artisan) 
@@ -2404,6 +2416,7 @@ class MailMonitoringDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -2456,6 +2469,8 @@ class MailMonitoringDebugger
 >>>>>>> a2f3c239e (.)
 =======
 >>>>>>> 763771402 (.)
+=======
+>>>>>>> 1dc3e4fcd (.)
 >>>>>>> 75179b85 (.)
 =======
 - [Laravel Cache](https://laravel.com/docs/cache)
@@ -2779,6 +2794,7 @@ class MailMonitoringDebugger
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> 0ebb7b01 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> cccb594f (.)
 =======
@@ -3399,3 +3415,5 @@ class MailMonitoringDebugger
 =======
 >>>>>>> 4b544042 (.)
 >>>>>>> a85ebf6cc (.)
+=======
+>>>>>>> 1dc3e4fcd (.)

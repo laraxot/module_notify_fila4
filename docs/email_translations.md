@@ -1107,6 +1107,7 @@ class TranslationValidator
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -1570,10 +1571,14 @@ class TranslationValidator
 >>>>>>> eb71492d (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1dc3e4fcd (.)
 - [Laravel Localization](https://laravel.com/docs/localization)
 - [Laravel Lang](https://github.com/Laravel-Lang/lang)
 >>>>>>> 0ebb7b01 (.)
 =======
+<<<<<<< HEAD
 - [Laravel Localization](https://laravel.com/docs/localization)
 - [Laravel Lang](https://github.com/Laravel-Lang/lang)
 >>>>>>> 31f5d28f (.)
@@ -1642,10 +1647,13 @@ class TranslationValidator
 >>>>>>> c7d5eaf96 (.)
 =======
 >>>>>>> a2f3c239e (.)
+=======
+>>>>>>> 1dc3e4fcd (.)
 - [Laravel Localization](https://laravel.com/project_docs/localization)
 - [Laravel Lang](https://github.com/Laravel-Lang/lang)
 - [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1721,6 +1729,8 @@ class TranslationValidator
 >>>>>>> c7d5eaf96 (.)
 =======
 >>>>>>> a2f3c239e (.)
+=======
+>>>>>>> 1dc3e4fcd (.)
 >>>>>>> 31f5d28f (.)
 =======
 - [Laravel Localization](https://laravel.com/docs/localization)
@@ -1958,6 +1968,7 @@ class TranslationValidator
 >>>>>>> 4f3927d7 (.)
 =======
 >>>>>>> 4b544042 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 0ebb7b01 (.)
@@ -2469,3 +2480,7 @@ class TranslationValidator
 >>>>>>> 602b8a0a9 (.)
 =======
 >>>>>>> a85ebf6cc (.)
+=======
+=======
+>>>>>>> 0ebb7b01 (.)
+>>>>>>> 1dc3e4fcd (.)
