@@ -93,6 +93,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -157,6 +158,7 @@ namespace Modules\Notify\Models;
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9777d1b3 (.)
 =======
@@ -181,6 +183,8 @@ namespace Modules\Notify\Models;
 =======
 >>>>>>> 82ae73be (.)
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Override;
 use RuntimeException;
@@ -247,10 +251,13 @@ use Modules\User\Models\Profile;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -263,6 +270,7 @@ use Modules\User\Models\Profile;
 >>>>>>> 82ae73be (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> de02998b (.)
@@ -271,6 +279,10 @@ use Modules\User\Models\Profile;
 =======
 =======
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> bf5d31b0f (.)
 use RuntimeException;
 use Carbon\Carbon;
 use Modules\User\Models\Profile;
@@ -285,9 +297,12 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
+>>>>>>> bf5d31b0f (.)
+=======
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -325,6 +340,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9777d1b3 (.)
 =======
@@ -581,6 +597,8 @@ use Modules\User\Models\Profile;
 =======
 >>>>>>> 82ae73be (.)
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\MailTemplateVersionFactory;
 use Illuminate\Database\Eloquent\Builder;
@@ -1253,6 +1271,9 @@ class MailTemplateVersion extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1300,6 +1321,9 @@ class MailTemplateVersion extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf5d31b0f (.)
 >>>>>>> 75179b85 (.)
 =======
     #[Override]
@@ -1439,6 +1463,7 @@ class MailTemplateVersion extends BaseModel
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
@@ -1667,6 +1692,11 @@ class MailTemplateVersion extends BaseModel
 >>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 10292b60a (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+>>>>>>> bf5d31b0f (.)
     protected function casts(): array
     {
         return [

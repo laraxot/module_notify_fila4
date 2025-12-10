@@ -96,6 +96,9 @@ use Filament\Forms\Components\Toggle;
 use Filament\Forms\Components\KeyValue;
 use Exception;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
 use Override;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
@@ -214,6 +217,7 @@ class SendFirebasePushNotificationPage extends XotBasePage
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
+<<<<<<< HEAD
 =======
 use Filament\Forms;
 use Filament\Actions\Action;
@@ -231,6 +235,8 @@ use Modules\Notify\Notifications\PushNotification;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Filament\Notifications\Notification as FilamentNotification;
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
 
 /**
  * @property \Filament\Schemas\Schema $pushForm
@@ -238,6 +244,9 @@ use Filament\Notifications\Notification as FilamentNotification;
 class SendFirebasePushNotificationPage extends XotBasePage
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
     public null|array $pushData = [];
 <<<<<<< HEAD
 =======
@@ -325,6 +334,7 @@ class SendFirebasePushNotificationPage extends XotBasePage
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
 
+<<<<<<< HEAD
 =======
     
     public ?array $pushData = [];
@@ -336,6 +346,8 @@ class SendFirebasePushNotificationPage extends XotBasePage
     protected static ?string $cluster = Test::class;
     
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
     public function mount(): void
     {
         $this->fillForms();
@@ -574,6 +586,7 @@ class SendFirebasePushNotificationPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $schema->schema($this->getPushFormSchema())->model($this->getUser())->statePath('pushData');
     }
 
@@ -699,6 +712,8 @@ class SendFirebasePushNotificationPage extends XotBasePage
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
         return $schema->components($this->getPushFormSchema())->model($this->getUser())->statePath('pushData');
 =======
         return $schema
@@ -706,6 +721,9 @@ class SendFirebasePushNotificationPage extends XotBasePage
             ->model($this->getUser())
             ->statePath('pushData');
 >>>>>>> b19cd40 (.)
+=======
+        return $schema->components($this->getPushFormSchema())->model($this->getUser())->statePath('pushData');
+>>>>>>> 4e2ebfb (.)
     }
 
 <<<<<<< HEAD
@@ -1182,6 +1200,7 @@ class SendFirebasePushNotificationPage extends XotBasePage
 <<<<<<< HEAD
         $data = $this->pushForm->getState();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1310,10 +1329,16 @@ class SendFirebasePushNotificationPage extends XotBasePage
 =======
 <<<<<<< HEAD
 >>>>>>> 10292b60a (.)
+=======
+<<<<<<< HEAD
+>>>>>>> bf5d31b0f (.)
 
 =======
         
 >>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
         try {
             // Creare i dati della notifica Firebase
             $notificationData = FirebaseNotificationData::from([
@@ -1323,19 +1348,27 @@ class SendFirebasePushNotificationPage extends XotBasePage
                 'data' => $data['custom_data'] ?? [],
             ]);
 <<<<<<< HEAD
-
-=======
-            
->>>>>>> b19cd40 (.)
-            // TODO: Implementare PushNotification class
-            // Inviare la notifica push
-            // Notification::route('firebase', $data['token'])
-            //     ->notify(new PushNotification($notificationData));
 <<<<<<< HEAD
 
 =======
             
 >>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
+            // TODO: Implementare PushNotification class
+            // Inviare la notifica push
+            // Notification::route('firebase', $data['token'])
+            //     ->notify(new PushNotification($notificationData));
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+            
+>>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
             // Notificare il successo
             FilamentNotification::make()
                 ->success()
@@ -1343,10 +1376,14 @@ class SendFirebasePushNotificationPage extends XotBasePage
                 ->body(__('notify::push.notifications.sent.body'))
                 ->send();
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
                 
 >>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
             // Loggare l'invio
             Log::info('Notifica push inviata con successo', [
                 'token' => $data['token'],
@@ -1360,10 +1397,14 @@ class SendFirebasePushNotificationPage extends XotBasePage
                 'token' => $data['token'],
             ]);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
             
 >>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
             // Notificare l'errore
             FilamentNotification::make()
                 ->danger()
@@ -1382,6 +1423,7 @@ class SendFirebasePushNotificationPage extends XotBasePage
         ];
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     #[Override]
 =======
@@ -1418,6 +1460,7 @@ class SendFirebasePushNotificationPage extends XotBasePage
     #[Override]
 =======
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
 =======
@@ -1544,11 +1587,19 @@ class SendFirebasePushNotificationPage extends XotBasePage
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 10292b60a (.)
+=======
+=======
+    #[Override]
+>>>>>>> 4e2ebfb (.)
+>>>>>>> bf5d31b0f (.)
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
         if (!($user instanceof Model)) {
 =======
 <<<<<<< HEAD
@@ -1689,10 +1740,13 @@ class SendFirebasePushNotificationPage extends XotBasePage
             throw new Exception(
                 'L\'utente autenticato deve essere un modello Eloquent per consentire l\'aggiornamento del profilo.',
             );
+<<<<<<< HEAD
 =======
         if (! $user instanceof Model) {
             throw new Exception('L\'utente autenticato deve essere un modello Eloquent per consentire l\'aggiornamento del profilo.');
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
         }
 
         return $user;

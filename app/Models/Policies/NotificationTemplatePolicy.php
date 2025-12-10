@@ -96,6 +96,7 @@ class NotificationTemplatePolicy extends NotifyBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 class NotificationTemplatePolicy extends NotifyBasePolicy {}
 >>>>>>> 98d837b9 (.)
@@ -114,6 +115,8 @@ class NotificationTemplatePolicy extends NotifyBasePolicy {}
 >>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -244,6 +247,7 @@ class NotificationTemplatePolicy extends NotifyBasePolicy
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -270,6 +274,8 @@ class NotificationTemplatePolicy extends NotifyBasePolicy
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> bf5d31b0f (.)
 class NotificationTemplatePolicy extends NotifyBasePolicy
 {
 }
@@ -425,11 +431,15 @@ class NotificationTemplatePolicy extends NotifyBasePolicy {}
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf5d31b0f (.)
 >>>>>>> 82ae73be (.)
 =======
 =======
 >>>>>>> 207ac35e (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 207ac35e (.)
@@ -438,6 +448,8 @@ class NotificationTemplatePolicy extends NotifyBasePolicy {}
 =======
 >>>>>>> 011072e4 (.)
 =======
+=======
+>>>>>>> bf5d31b0f (.)
 class NotificationTemplatePolicy extends NotifyBasePolicy
 {
 }
@@ -447,6 +459,9 @@ class NotificationTemplatePolicy extends NotifyBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf5d31b0f (.)
 >>>>>>> 207ac35e (.)
 =======
 class NotificationTemplatePolicy extends NotifyBasePolicy
@@ -473,6 +488,7 @@ class NotificationTemplatePolicy extends NotifyBasePolicy
 class NotificationTemplatePolicy extends NotifyBasePolicy {}
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
@@ -918,3 +934,7 @@ class NotificationTemplatePolicy extends NotifyBasePolicy
 >>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 10292b60a (.)
+=======
+=======
+>>>>>>> 207ac35e (.)
+>>>>>>> bf5d31b0f (.)

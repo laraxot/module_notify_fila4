@@ -97,6 +97,9 @@ use Filament\Tables;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -114,6 +117,9 @@ use Override;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf5d31b0f (.)
 >>>>>>> 75179b85 (.)
 =======
 use Override;
@@ -205,6 +211,7 @@ use Override;
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
@@ -236,6 +243,11 @@ use Override;
 >>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 10292b60a (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+>>>>>>> bf5d31b0f (.)
 use Filament\Tables;
 =======
 =======
@@ -486,6 +498,22 @@ class ListNotifications extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> bf5d31b0f (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -776,7 +804,14 @@ class ListNotifications extends XotBaseListRecords
 =======
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 >>>>>>> 10292b60a (.)
+=======
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+>>>>>>> bf5d31b0f (.)
     #[Override]
     public function getTableColumns(): array
     {
@@ -806,10 +841,14 @@ class ListNotifications extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1487fe812 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 10292b60a (.)
+=======
+<<<<<<< HEAD
+>>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -895,6 +934,7 @@ class ListNotifications extends XotBaseListRecords
 =======
 >>>>>>> 82ae73be (.)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> de02998b (.)
 =======
@@ -904,6 +944,10 @@ class ListNotifications extends XotBaseListRecords
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> bf5d31b0f (.)
     public function getTableColumns(): array
     {
         return [
@@ -966,6 +1010,7 @@ class ListNotifications extends XotBaseListRecords
     }
 
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1329,6 +1374,7 @@ class ListNotifications extends XotBaseListRecords
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9777d1b3 (.)
 =======
@@ -1665,6 +1711,8 @@ class ListNotifications extends XotBaseListRecords
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
     public function getTableFilters(): array
     {
         return [
@@ -1759,6 +1807,7 @@ class ListNotifications extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2166,10 +2215,14 @@ class ListNotifications extends XotBaseListRecords
 =======
 >>>>>>> 82ae73be (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf5d31b0f (.)
 =======
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9777d1b3 (.)
 =======
@@ -2301,6 +2354,8 @@ class ListNotifications extends XotBaseListRecords
 >>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
                 ->query(fn(Builder $query): Builder => $query->where('read_at', '!=', null))
                 ->label('Read'),
             'unread' => Filter::make('is_unread')
@@ -2325,9 +2380,14 @@ class ListNotifications extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 10292b60a (.)
+=======
+=======
+>>>>>>> 207ac35e (.)
+>>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -2524,6 +2584,7 @@ class ListNotifications extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
@@ -2607,6 +2668,8 @@ class ListNotifications extends XotBaseListRecords
 =======
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2862,7 +2925,14 @@ class ListNotifications extends XotBaseListRecords
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 >>>>>>> 10292b60a (.)
+=======
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+>>>>>>> bf5d31b0f (.)
                 ->label('Unread'),
             'type' => SelectFilter::make('type')
                 ->options([

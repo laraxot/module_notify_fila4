@@ -18,6 +18,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -33,7 +34,12 @@
 =======
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 >>>>>>> 10292b60a (.)
+=======
+=======
+>>>>>>> 207ac35e (.)
+>>>>>>> bf5d31b0f (.)
 declare(strict_types=1);
 
 
@@ -205,6 +211,9 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -733,10 +742,13 @@ declare(strict_types=1);
 =======
 >>>>>>> 207ac35e (.)
 =======
+>>>>>>> 207ac35e (.)
+=======
 declare(strict_types=1);
 
 
 >>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 207ac35 (.)
 <<<<<<< HEAD
@@ -757,6 +769,8 @@ declare(strict_types=1);
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
 =======
+=======
+>>>>>>> bf5d31b0f (.)
 >>>>>>> 207ac35e (.)
 =======
 declare(strict_types=1);
@@ -873,7 +887,12 @@ declare(strict_types=1);
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 >>>>>>> 10292b60a (.)
+=======
+=======
+>>>>>>> 207ac35e (.)
+>>>>>>> bf5d31b0f (.)
 namespace Modules\Notify\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
@@ -976,6 +995,7 @@ class NotificationTypeFactory extends Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -986,6 +1006,7 @@ class NotificationTypeFactory extends Factory
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
@@ -1035,6 +1056,10 @@ class NotificationTypeFactory extends Factory
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 10292b60a (.)
+=======
+=======
+>>>>>>> 207ac35e (.)
+>>>>>>> bf5d31b0f (.)
 }
 =======
 }
@@ -1068,8 +1093,11 @@ class NotificationTypeFactory extends Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
 =======
 }
 >>>>>>> 75179b85 (.)
@@ -1199,6 +1227,7 @@ class NotificationTypeFactory extends Factory
 }
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 =======
 }
 >>>>>>> 9777d1b3 (.)
@@ -1390,3 +1419,5 @@ class NotificationTypeFactory extends Factory
 =======
 >>>>>>> 82ae73be (.)
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)

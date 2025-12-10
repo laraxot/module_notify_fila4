@@ -65,6 +65,7 @@ use Modules\Notify\Models\MailTemplateLog;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -423,6 +424,7 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -493,6 +495,8 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 >>>>>>> dceba960 (.)
 =======
 >>>>>>> bd804d67 (.)
+=======
+>>>>>>> bf5d31b0f (.)
 use Carbon\Carbon;
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Models\MailTemplateLog;
@@ -547,10 +551,55 @@ use Carbon\Carbon;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf5d31b0f (.)
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> a12f125f4a (.)
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 3ee54c5d (.)
+=======
+>>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -598,47 +647,6 @@ use Carbon\Carbon;
 >>>>>>> a12f125f4a (.)
 >>>>>>> d09cb759 (.)
 =======
->>>>>>> 011072e4 (.)
-=======
->>>>>>> a12f125f4a (.)
->>>>>>> 4689a827 (.)
-=======
->>>>>>> 4d2eb53e (.)
-=======
->>>>>>> a12f125f4a (.)
->>>>>>> f2e64178 (.)
-=======
->>>>>>> a12f125f4a (.)
->>>>>>> c4bdacbf (.)
-=======
->>>>>>> a12f125f4a (.)
->>>>>>> dceba960 (.)
-=======
->>>>>>> a12f125f4a (.)
->>>>>>> bd804d67 (.)
-=======
->>>>>>> a12f125f4a (.)
->>>>>>> 9f8e680a (rebase 210)
-=======
->>>>>>> a12f125f4a (.)
->>>>>>> 5aedc39c (rebase 210)
-=======
->>>>>>> a12f125f4a (.)
->>>>>>> 2effe245 (.)
-=======
->>>>>>> a12f125f4a (.)
->>>>>>> e790eb33 (.)
-=======
->>>>>>> a12f125f4a (.)
->>>>>>> 3ee54c5d (.)
-=======
->>>>>>> ce89c8bb (.)
-=======
->>>>>>> 207ac35e (.)
-=======
->>>>>>> a12f125f4a (.)
->>>>>>> d09cb759 (.)
-=======
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> a12f125f4a (.)
@@ -663,6 +671,8 @@ use Carbon\Carbon;
 >>>>>>> a12f125f4a (.)
 >>>>>>> bd804d67 (.)
 =======
+=======
+>>>>>>> bf5d31b0f (.)
 use Carbon\Carbon;
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Models\MailTemplateLog;
@@ -711,6 +721,9 @@ use Modules\Notify\Models\MailTemplateLog;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf5d31b0f (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -854,6 +867,7 @@ use Modules\Notify\Models\MailTemplateLog;
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 =======
 use Carbon\Carbon;
 use Modules\Notify\Models\MailTemplate;
@@ -1092,6 +1106,8 @@ use Modules\Notify\Models\MailTemplateLog;
 =======
 >>>>>>> 82ae73be (.)
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
 
 describe('Mail Template Log Business Logic', function () {
     it('can create mail template log with basic information', function () {
@@ -1242,6 +1258,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -1383,6 +1400,7 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9777d1b3 (.)
 =======
@@ -1602,6 +1620,8 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 82ae73be (.)
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
         expect($log->status)
             ->toBe('sent')
             ->and($log->status_message)
@@ -1614,6 +1634,7 @@ describe('Mail Template Log Business Logic', function () {
             ->toBe('appointment_confirmation_001');
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1754,6 +1775,10 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 10292b60a (.)
+=======
+=======
+>>>>>>> 207ac35e (.)
+>>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -2028,6 +2053,9 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2165,6 +2193,7 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9777d1b3 (.)
 =======
@@ -2396,6 +2425,8 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
     });
 
     it('can manage mail template log relationships', function () {
@@ -2520,6 +2551,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2530,6 +2562,7 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
@@ -2579,6 +2612,10 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 10292b60a (.)
+=======
+=======
+>>>>>>> 207ac35e (.)
+>>>>>>> bf5d31b0f (.)
         expect($log->template)->toBeInstanceOf(MailTemplate::class)->and($log->template->id)->toBe($template->id);
 =======
         expect($log->template)->toBeInstanceOf(MailTemplate::class)
@@ -2613,8 +2650,11 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
 =======
         expect($log->template)->toBeInstanceOf(MailTemplate::class)->and($log->template->id)->toBe($template->id);
 >>>>>>> 75179b85 (.)
@@ -2831,6 +2871,7 @@ describe('Mail Template Log Business Logic', function () {
         expect($log->template)->toBeInstanceOf(MailTemplate::class)->and($log->template->id)->toBe($template->id);
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 =======
         expect($log->template)->toBeInstanceOf(MailTemplate::class)->and($log->template->id)->toBe($template->id);
 >>>>>>> 9777d1b3 (.)
@@ -3105,6 +3146,8 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 82ae73be (.)
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
     });
 
     it('can track email lifecycle events', function () {
@@ -3251,6 +3294,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -3392,6 +3436,7 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9777d1b3 (.)
 =======
@@ -3611,6 +3656,8 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 82ae73be (.)
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
         expect($log->status)
             ->toBe('clicked')
             ->and($log->sent_at)
@@ -3620,6 +3667,7 @@ describe('Mail Template Log Business Logic', function () {
             ->not->toBeNull();
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3760,6 +3808,10 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 10292b60a (.)
+=======
+=======
+>>>>>>> 207ac35e (.)
+>>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -4034,6 +4086,9 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -4171,6 +4226,7 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9777d1b3 (.)
 =======
@@ -4402,6 +4458,8 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
     });
 
     it('can handle email failure scenarios', function () {
@@ -4536,6 +4594,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -4677,6 +4736,7 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9777d1b3 (.)
 =======
@@ -4896,6 +4956,8 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 82ae73be (.)
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
         expect($log->status)
             ->toBe('failed')
             ->and($log->status_message)
@@ -4906,6 +4968,7 @@ describe('Mail Template Log Business Logic', function () {
             )->toBe(3);
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5046,6 +5109,10 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 10292b60a (.)
+=======
+=======
+>>>>>>> 207ac35e (.)
+>>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -5320,6 +5387,9 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -5457,6 +5527,7 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9777d1b3 (.)
 =======
@@ -5688,6 +5759,8 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
     });
 
     it('can manage mailable polymorphic relationships', function () {
@@ -5811,6 +5884,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -5952,6 +6026,7 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9777d1b3 (.)
 =======
@@ -6171,6 +6246,8 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 82ae73be (.)
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
         expect($log->mailable_type)
             ->toBe('App\Models\Appointment')
             ->and($log->mailable_id)
@@ -6291,6 +6368,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -6310,6 +6388,7 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 82ae73be (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 207ac35e (.)
 =======
@@ -6475,6 +6554,10 @@ describe('Mail Template Log Business Logic', function () {
 =======
 =======
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> bf5d31b0f (.)
         expect($log->mailable_type)->toBe('App\Models\Appointment')
             ->and($log->mailable_id)->toBe(456)
             ->and($log->mailable())->toBeInstanceOf(MorphTo::class);
@@ -6541,6 +6624,9 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -6680,6 +6766,7 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9777d1b3 (.)
 =======
@@ -6911,6 +6998,8 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
     });
 
     it('can handle complex data structures', function () {
@@ -7115,6 +7204,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -7256,6 +7346,7 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9777d1b3 (.)
 =======
@@ -7475,6 +7566,8 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 82ae73be (.)
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
         expect($log->data['recipient']['email'])
             ->toBe('patient@example.com')
             ->and($log->data['recipient']['name'])
@@ -7489,6 +7582,7 @@ describe('Mail Template Log Business Logic', function () {
             ->toBe('high');
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7629,6 +7723,10 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 10292b60a (.)
+=======
+=======
+>>>>>>> 207ac35e (.)
+>>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -7904,6 +8002,9 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -8041,6 +8142,7 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9777d1b3 (.)
 =======
@@ -8272,6 +8374,8 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
     });
 
     it('can manage metadata for analytics', function () {
@@ -8420,6 +8524,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -8561,6 +8666,7 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9777d1b3 (.)
 =======
@@ -8780,6 +8886,8 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 82ae73be (.)
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
         expect($log->metadata['campaign_id'])
             ->toBe('appointment_confirmation_q4_2024')
             ->and($log->metadata['segment'])
@@ -8794,6 +8902,7 @@ describe('Mail Template Log Business Logic', function () {
             ->toBe(0.85);
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8934,6 +9043,10 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 10292b60a (.)
+=======
+=======
+>>>>>>> 207ac35e (.)
+>>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -9209,6 +9322,9 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -9346,6 +9462,7 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9777d1b3 (.)
 =======
@@ -9577,6 +9694,8 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
     });
 
     it('can handle delivery status transitions', function () {
@@ -9710,6 +9829,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -9720,6 +9840,7 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
@@ -9769,6 +9890,10 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 10292b60a (.)
+=======
+=======
+>>>>>>> 207ac35e (.)
+>>>>>>> bf5d31b0f (.)
         expect($log->status)->toBe('sent')->and($log->sent_at)->not->toBeNull();
 =======
         expect($log->status)->toBe('sent')
@@ -9803,8 +9928,11 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
 =======
         expect($log->status)->toBe('sent')->and($log->sent_at)->not->toBeNull();
 >>>>>>> 75179b85 (.)
@@ -10021,6 +10149,7 @@ describe('Mail Template Log Business Logic', function () {
         expect($log->status)->toBe('sent')->and($log->sent_at)->not->toBeNull();
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 =======
         expect($log->status)->toBe('sent')->and($log->sent_at)->not->toBeNull();
 >>>>>>> 9777d1b3 (.)
@@ -10295,6 +10424,8 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 82ae73be (.)
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
 
         // Transizione: sent -> delivered
         $log->update([
@@ -10419,6 +10550,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -10429,6 +10561,7 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
@@ -10478,6 +10611,10 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 10292b60a (.)
+=======
+=======
+>>>>>>> 207ac35e (.)
+>>>>>>> bf5d31b0f (.)
         expect($log->status)->toBe('delivered')->and($log->delivered_at)->not->toBeNull();
 =======
         expect($log->status)->toBe('delivered')
@@ -10512,8 +10649,11 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
 =======
         expect($log->status)->toBe('delivered')->and($log->delivered_at)->not->toBeNull();
 >>>>>>> 75179b85 (.)
@@ -10730,6 +10870,7 @@ describe('Mail Template Log Business Logic', function () {
         expect($log->status)->toBe('delivered')->and($log->delivered_at)->not->toBeNull();
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 =======
         expect($log->status)->toBe('delivered')->and($log->delivered_at)->not->toBeNull();
 >>>>>>> 9777d1b3 (.)
@@ -11004,6 +11145,8 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 82ae73be (.)
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
 
         // Transizione: delivered -> opened
         $log->update([
@@ -11128,6 +11271,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -11138,6 +11282,7 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
@@ -11187,6 +11332,10 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 10292b60a (.)
+=======
+=======
+>>>>>>> 207ac35e (.)
+>>>>>>> bf5d31b0f (.)
         expect($log->status)->toBe('opened')->and($log->opened_at)->not->toBeNull();
 =======
         expect($log->status)->toBe('opened')
@@ -11221,8 +11370,11 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
 =======
         expect($log->status)->toBe('opened')->and($log->opened_at)->not->toBeNull();
 >>>>>>> 75179b85 (.)
@@ -11439,6 +11591,7 @@ describe('Mail Template Log Business Logic', function () {
         expect($log->status)->toBe('opened')->and($log->opened_at)->not->toBeNull();
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 =======
         expect($log->status)->toBe('opened')->and($log->opened_at)->not->toBeNull();
 >>>>>>> 9777d1b3 (.)
@@ -11713,6 +11866,8 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 82ae73be (.)
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
     });
 
     it('can handle bounce and complaint scenarios', function () {
@@ -11848,6 +12003,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -11989,6 +12145,7 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9777d1b3 (.)
 =======
@@ -12208,6 +12365,8 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 82ae73be (.)
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
         expect($log->status)
             ->toBe('bounced')
             ->and($log->status_message)
@@ -12218,6 +12377,7 @@ describe('Mail Template Log Business Logic', function () {
             ->toBe('Address does not exist');
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12358,6 +12518,10 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 10292b60a (.)
+=======
+=======
+>>>>>>> 207ac35e (.)
+>>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -12631,6 +12795,9 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -12768,6 +12935,7 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9777d1b3 (.)
 =======
@@ -12999,6 +13167,8 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
 
         // Simula complaint
         $log->update([
@@ -13124,6 +13294,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -13265,6 +13436,7 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9777d1b3 (.)
 =======
@@ -13484,6 +13656,8 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 82ae73be (.)
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
         expect($log->status)
             ->toBe('complained')
             ->and($log->status_message)
@@ -13604,6 +13778,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -13623,6 +13798,7 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 82ae73be (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 207ac35e (.)
 =======
@@ -13788,6 +13964,10 @@ describe('Mail Template Log Business Logic', function () {
 =======
 =======
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> bf5d31b0f (.)
         expect($log->status)->toBe('complained')
             ->and($log->status_message)->toBe('Email segnalata come spam')
             ->and($log->metadata['complaint_type'])->toBe('abuse');
@@ -13854,6 +14034,9 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -13993,6 +14176,7 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9777d1b3 (.)
 =======
@@ -14224,6 +14408,8 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
     });
 
     it('can manage retry logic', function () {
@@ -14366,6 +14552,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -14376,6 +14563,7 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
@@ -14425,6 +14613,10 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 10292b60a (.)
+=======
+=======
+>>>>>>> 207ac35e (.)
+>>>>>>> bf5d31b0f (.)
         expect($log->status)->toBe('retrying')->and($log->metadata['retry_count'])->toBe(1);
 =======
         expect($log->status)->toBe('retrying')
@@ -14459,8 +14651,11 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
 =======
         expect($log->status)->toBe('retrying')->and($log->metadata['retry_count'])->toBe(1);
 >>>>>>> 75179b85 (.)
@@ -14677,6 +14872,7 @@ describe('Mail Template Log Business Logic', function () {
         expect($log->status)->toBe('retrying')->and($log->metadata['retry_count'])->toBe(1);
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 =======
         expect($log->status)->toBe('retrying')->and($log->metadata['retry_count'])->toBe(1);
 >>>>>>> 9777d1b3 (.)
@@ -14951,6 +15147,8 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 82ae73be (.)
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
 
         // Secondo retry
         $log->update([
@@ -15089,6 +15287,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -15230,6 +15429,7 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9777d1b3 (.)
 =======
@@ -15449,6 +15649,8 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 82ae73be (.)
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
         expect($log->status)
             ->toBe('failed')
             ->and($log->status_message)
@@ -15459,6 +15661,7 @@ describe('Mail Template Log Business Logic', function () {
             ->toBeTrue();
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15599,6 +15802,10 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 10292b60a (.)
+=======
+=======
+>>>>>>> 207ac35e (.)
+>>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -15872,6 +16079,9 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -16009,6 +16219,7 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9777d1b3 (.)
 =======
@@ -16240,6 +16451,8 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
     });
 
     it('can handle empty or null values gracefully', function () {
@@ -16369,6 +16582,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -16510,6 +16724,7 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9777d1b3 (.)
 =======
@@ -16729,6 +16944,8 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 82ae73be (.)
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
         expect($log->status_message)
             ->toBeNull()
             ->and($log->data)
@@ -16859,6 +17076,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4d2eb53e (.)
 =======
@@ -16887,6 +17105,10 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 10292b60a (.)
+=======
+=======
+>>>>>>> 207ac35e (.)
+>>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -17164,6 +17386,9 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -17301,6 +17526,7 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9777d1b3 (.)
 =======
@@ -17532,6 +17758,8 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
     });
 
     it('can validate timestamp consistency', function () {
@@ -17659,6 +17887,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -17800,6 +18029,7 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9777d1b3 (.)
 =======
@@ -18019,6 +18249,8 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 82ae73be (.)
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
         expect($log->sent_at->lt($log->delivered_at))
             ->toBeTrue()
             ->and($log->delivered_at->lt($log->opened_at))
@@ -18149,6 +18381,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4d2eb53e (.)
 =======
@@ -18177,6 +18410,10 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 10292b60a (.)
+=======
+=======
+>>>>>>> 207ac35e (.)
+>>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -18454,6 +18691,9 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -18601,6 +18841,7 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9777d1b3 (.)
 =======
@@ -18832,6 +19073,8 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
     });
 });
 =======

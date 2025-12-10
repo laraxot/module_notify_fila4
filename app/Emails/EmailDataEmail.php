@@ -232,6 +232,7 @@ class EmailDataEmail extends Mailable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -484,6 +485,7 @@ class EmailDataEmail extends Mailable
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -530,6 +532,8 @@ class EmailDataEmail extends Mailable
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> bf5d31b0f (.)
     public function __construct(
         public EmailData $email_data,
     ) {}
@@ -567,10 +571,34 @@ class EmailDataEmail extends Mailable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf5d31b0f (.)
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> a12f125f4a (.)
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -597,26 +625,6 @@ class EmailDataEmail extends Mailable
 >>>>>>> a12f125f4a (.)
 >>>>>>> d09cb759 (.)
 =======
->>>>>>> 011072e4 (.)
-=======
->>>>>>> a12f125f4a (.)
->>>>>>> 4689a827 (.)
-=======
->>>>>>> 4d2eb53e (.)
-=======
->>>>>>> a12f125f4a (.)
->>>>>>> f2e64178 (.)
-=======
->>>>>>> a12f125f4a (.)
->>>>>>> 2effe245 (.)
-=======
->>>>>>> ce89c8bb (.)
-=======
->>>>>>> 207ac35e (.)
-=======
->>>>>>> a12f125f4a (.)
->>>>>>> d09cb759 (.)
-=======
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> a12f125f4a (.)
@@ -632,6 +640,8 @@ class EmailDataEmail extends Mailable
 >>>>>>> a12f125f4a (.)
 >>>>>>> f2e64178 (.)
 =======
+=======
+>>>>>>> bf5d31b0f (.)
     public function __construct(
         public EmailData $email_data,
     ) {}
@@ -663,6 +673,9 @@ class EmailDataEmail extends Mailable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf5d31b0f (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -761,6 +774,7 @@ class EmailDataEmail extends Mailable
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 =======
     public function __construct(
         public EmailData $email_data,
@@ -982,6 +996,8 @@ class EmailDataEmail extends Mailable
 =======
 >>>>>>> 82ae73be (.)
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
 
     /**
      * Get the message envelope.
@@ -1078,6 +1094,7 @@ class EmailDataEmail extends Mailable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         if ($this->email_data->from === null) {
             Assert::string($from = config('mail.from.name', 'Default Sender'));
@@ -1089,6 +1106,8 @@ class EmailDataEmail extends Mailable
 >>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1156,6 +1175,7 @@ class EmailDataEmail extends Mailable
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9777d1b3 (.)
 =======
@@ -1715,6 +1735,8 @@ class EmailDataEmail extends Mailable
 =======
 >>>>>>> 82ae73be (.)
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
         if (null === $this->email_data->from) {
             Assert::string($from = config('mail.from.name', 'Default Sender'));
             $this->email_data->from = $from;
@@ -1738,9 +1760,14 @@ class EmailDataEmail extends Mailable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 10292b60a (.)
+=======
+=======
+>>>>>>> 207ac35e (.)
+>>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1883,7 +1910,12 @@ class EmailDataEmail extends Mailable
 <<<<<<< HEAD
 >>>>>>> 95531e1 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 3f39ac8b (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> bf5d31b0f (.)
 =======
 =======
 =======
@@ -2189,7 +2221,14 @@ class EmailDataEmail extends Mailable
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 >>>>>>> 10292b60a (.)
+=======
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+>>>>>>> bf5d31b0f (.)
             Assert::string($from_email = config('mail.from.address', 'default@example.com'));
             $this->email_data->from_email = $from_email;
         }

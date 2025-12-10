@@ -84,6 +84,9 @@ use Filament\Forms\Components\Select;
 use Filament\Forms\Components\Toggle;
 use Exception;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
 use Override;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
@@ -118,6 +121,7 @@ use Modules\Notify\Filament\Clusters\Test;
 use Modules\Xot\Filament\Pages\XotBasePage;
 <<<<<<< HEAD
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -223,13 +227,19 @@ use Filament\Forms\Concerns\InteractsWithForms;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Filament\Notifications\Notification as FilamentNotification;
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 10292b60a (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> bf5d31b0f (.)
 
 /**
  * @property \Filament\Schemas\Schema $emailForm
  */
 class SendAwsEmailPage extends XotBasePage
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
     public null|array $emailData = [];
 <<<<<<< HEAD
@@ -239,7 +249,13 @@ class SendAwsEmailPage extends XotBasePage
 
     public ?array $emailData = [];
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 10292b60a (.)
+=======
+=======
+    public null|array $emailData = [];
+>>>>>>> 4e2ebfb (.)
+>>>>>>> bf5d31b0f (.)
 
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-envelope';
 =======
@@ -394,6 +410,9 @@ class SendAwsEmailPage extends XotBasePage
     protected string $view = 'notify::filament.pages.send-email';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
     protected static null|string $cluster = Test::class;
 <<<<<<< HEAD
 =======
@@ -429,6 +448,7 @@ class SendAwsEmailPage extends XotBasePage
     /**
      * Get the slug of the page
      *
+<<<<<<< HEAD
 =======
     protected static ?string $cluster = Test::class;
     
@@ -436,6 +456,8 @@ class SendAwsEmailPage extends XotBasePage
      * Get the slug of the page
      * 
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
      * This explicit definition ensures consistent URL generation for acronyms
      */
     public static function getSlug(?Panel $panel = null): string
@@ -709,10 +731,13 @@ class SendAwsEmailPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
         return $schema->schema($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
     }
 
@@ -763,6 +788,7 @@ class SendAwsEmailPage extends XotBasePage
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9777d1b3 (.)
 =======
@@ -771,6 +797,8 @@ class SendAwsEmailPage extends XotBasePage
 =======
 >>>>>>> 82ae73be (.)
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
         return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
 =======
         return $schema
@@ -778,6 +806,9 @@ class SendAwsEmailPage extends XotBasePage
             ->model($this->getUser())
             ->statePath('emailData');
 >>>>>>> b19cd40 (.)
+=======
+        return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
+>>>>>>> 4e2ebfb (.)
     }
 
 <<<<<<< HEAD
@@ -1580,6 +1611,7 @@ class SendAwsEmailPage extends XotBasePage
             $bodyHtml = is_string($data['body_html']) ? $data['body_html'] : '';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             $emailData = new EmailData($to, $subject, $bodyHtml);
 =======
             $emailData = new EmailData(
@@ -1588,17 +1620,24 @@ class SendAwsEmailPage extends XotBasePage
                 $bodyHtml
             );
 >>>>>>> b19cd40 (.)
+=======
+            $emailData = new EmailData($to, $subject, $bodyHtml);
+>>>>>>> 4e2ebfb (.)
 
             // Configurare lo specifico driver AWS SES per questo test
             config(['mail.default' => 'ses']);
 
             // Invia l'email utilizzando il servizio SES
 <<<<<<< HEAD
+<<<<<<< HEAD
             Mail::to($to)->send(new EmailDataEmail($emailData));
 =======
             Mail::to($to)
                 ->send(new EmailDataEmail($emailData));
 >>>>>>> b19cd40 (.)
+=======
+            Mail::to($to)->send(new EmailDataEmail($emailData));
+>>>>>>> 4e2ebfb (.)
 
             FilamentNotification::make()
                 ->success()
@@ -1618,11 +1657,15 @@ class SendAwsEmailPage extends XotBasePage
     {
         return [
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
             Action::make('sendEmail')->label(__('notify::email.actions.send'))->submit('sendEmail'),
         ];
     }
 
     #[Override]
+<<<<<<< HEAD
 =======
             Action::make('sendEmail')
                 ->label(__('notify::email.actions.send'))
@@ -1631,11 +1674,16 @@ class SendAwsEmailPage extends XotBasePage
     }
 
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
         if (!($user instanceof Model)) {
 =======
 <<<<<<< HEAD
@@ -1771,10 +1819,13 @@ class SendAwsEmailPage extends XotBasePage
             throw new Exception(
                 'L\'utente autenticato deve essere un modello Eloquent per consentire l\'aggiornamento del profilo.',
             );
+<<<<<<< HEAD
 =======
         if (! $user instanceof Model) {
             throw new Exception('L\'utente autenticato deve essere un modello Eloquent per consentire l\'aggiornamento del profilo.');
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
         }
 
         return $user;

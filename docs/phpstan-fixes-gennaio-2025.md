@@ -141,14 +141,30 @@ PHPStan aveva difficoltà nel riconoscere la sintassi method chaining in alcuni 
 - **Leggibilità migliorata**: Codice più esplicito e chiaro
 
 ### **Benefici**
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- ✅ **PHPStan level 10**: Compatibilità completa
+=======
+>>>>>>> bf5d31b0f (.)
 - ✅ **PHPStan Level 9**: Compatibilità completa
 <<<<<<< HEAD
 - ✅ **PHPStan Level 9**: Compatibilità completa
 - ✅ **PHPStan Level 9**: Compatibilità completa
+<<<<<<< HEAD
 - ✅ **PHPStan Level 9**: Compatibilità completa
 - ✅ **PHPStan Level 9**: Compatibilità completa
 =======
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 207ac35e (.)
+=======
+- ✅ **PHPStan Level 9**: Compatibilità completa
+>>>>>>> 207ac35e (.)
+>>>>>>> bf5d31b0f (.)
 - ✅ **Leggibilità**: Codice più esplicito e chiaro
 - ✅ **Type Safety**: Mantenuta con type hints espliciti
 - ✅ **Debugging**: Più facile identificare problemi
@@ -274,7 +290,12 @@ public function toMail(object $notifiable): MailMessage
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> bf5d31b0f (.)
 
 
 =======
@@ -285,4 +306,14 @@ public function toMail(object $notifiable): MailMessage
 >>>>>>> e11621f (.)
 >>>>>>> laraxot/develop
 =======
+<<<<<<< HEAD
 >>>>>>> 301ad8b44 (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+
+
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> 207ac35e (.)
+>>>>>>> bf5d31b0f (.)
