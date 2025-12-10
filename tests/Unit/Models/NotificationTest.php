@@ -1138,6 +1138,8 @@ use Modules\Notify\Models\Notification;
 use Tests\TestCase;
 >>>>>>> 82e5ee2d (rebase 210)
 
+use function Safe\json_encode;
+
 class NotificationTest extends TestCase
 {
     use RefreshDatabase;
