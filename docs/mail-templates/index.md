@@ -50,6 +50,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -146,6 +147,8 @@
 >>>>>>> 69fa7d37 (.)
 =======
 >>>>>>> fd1fcc4c (.)
+=======
+>>>>>>> eb71492d (.)
 # Indice Documentazione Template Email
 
 ## Collegamenti Correlati
@@ -217,6 +220,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione Generale <nome progetto>](../../../../../docs/README.md)
 =======
 - [Documentazione Generale ](../../../../../docs/README.md)
@@ -445,6 +449,10 @@
 =======
 - [Documentazione Generale SaluteOra](../../../../../docs/README.md)
 >>>>>>> fd1fcc4c (.)
+=======
+- [Documentazione Generale ](../../../../../docs/README.md)
+- [Documentazione Generale <nome progetto>](../../../../../docs/README.md)
+>>>>>>> eb71492d (.)
 - [Collegamenti Documentazione](../../../../../docs/collegamenti-documentazione.md)
 
 ## Struttura e Architettura
@@ -545,6 +553,7 @@ Ultimo aggiornamento: 14 Maggio 2025
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -649,3 +658,5 @@ Ultimo aggiornamento: 14 Maggio 2025
 >>>>>>> 69fa7d37 (.)
 =======
 >>>>>>> fd1fcc4c (.)
+=======
+>>>>>>> eb71492d (.)
