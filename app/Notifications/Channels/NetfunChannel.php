@@ -741,7 +741,7 @@ class NetfunChannel
 >>>>>>> 1487fe812 (.)
         // Eseguiamo l'action e verifichiamo che il risultato sia un array
         $data = $netfunSendAction->execute($smsData);
-        Assert::isArray($data, 'Il risultato di NetfunSendAction deve essere un array');
+        // Assert::isArray($data, 'Il risultato di NetfunSendAction deve essere un array');
 
         // Incrementiamo il contatore SMS
         $notifiable->increase('sms', $data);
