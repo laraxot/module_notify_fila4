@@ -2739,6 +2739,7 @@ use Modules\Notify\Enums\ContactTypeEnum;
 =======
  * @version 2.0 - REFACTOR COMPLETO
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 =======
 =======
@@ -2768,6 +2769,9 @@ use Modules\Notify\Enums\ContactTypeEnum;
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
  * @since 2025-01-06
  */
 class ContactColumn extends ViewColumn
@@ -3447,10 +3451,17 @@ class ContactColumn extends ViewColumn
         ])
             ->label(__('notify::columns.contact.label'))
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->searchable($searchableArray)
 =======
             ->searchable(ContactTypeEnum::getSearchable())
 >>>>>>> 75179b85 (.)
+=======
+            ->searchable()
+=======
+            ->searchable(ContactTypeEnum::getSearchable())
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
             ->sortable(false)
             ->toggleable(isToggledHiddenByDefault: false);
     }

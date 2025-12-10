@@ -308,6 +308,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -1742,11 +1743,14 @@
 >>>>>>> bce3ff15 (.)
 =======
 >>>>>>> 7d765981 (.)
+=======
+>>>>>>> c8b1c8bf (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3696,6 +3700,8 @@ declare(strict_types=1);
 >>>>>>> bce3ff15 (.)
 =======
 >>>>>>> 7d765981 (.)
+=======
+>>>>>>> c8b1c8bf (.)
 </tbody>
 </table>
 </td>
@@ -3706,6 +3712,7 @@ declare(strict_types=1);
 </tr>
 </tbody>
 </table>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4852,3 +4859,6 @@ declare(strict_types=1);
 =======
 </div>
 >>>>>>> cb5f23b0 (.)
+=======
+</div>
+>>>>>>> c8b1c8bf (.)

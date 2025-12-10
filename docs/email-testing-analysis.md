@@ -49,6 +49,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -143,6 +144,8 @@
 >>>>>>> 36ac4fc1 (.)
 =======
 >>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> c8b1c8bf (.)
 # Analisi delle Pagine di Test Email
 
 ## 🎯 Panoramica
@@ -379,6 +382,7 @@ public function sendEmail(): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Best Practices Laravel](https://laravel.com/project_docs/best-practices)
 - [Convenzioni Laraxot](../Xot/project_docs/laraxot-conventions.md)
@@ -579,6 +583,10 @@ public function sendEmail(): void
 >>>>>>> 69fa7d37 (.)
 =======
 >>>>>>> fbed41ac (.)
+=======
+- [Best Practices Laravel](https://laravel.com/project_docs/best-practices)
+- [Convenzioni Laraxot](../Xot/project_docs/laraxot-conventions.md)
+>>>>>>> c8b1c8bf (.)
 - [Best Practices Laravel](https://laravel.com/docs/best-practices)
 - [Convenzioni Laraxot](../Xot/docs/laraxot-conventions.md)
 
@@ -642,6 +650,7 @@ public function sendEmail(): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] Implementare caching 
 =======
 >>>>>>> 5fd545e4 (.)
@@ -796,3 +805,6 @@ public function sendEmail(): void
 >>>>>>> 69fa7d37 (.)
 =======
 >>>>>>> fbed41ac (.)
+=======
+- [ ] Implementare caching 
+>>>>>>> c8b1c8bf (.)

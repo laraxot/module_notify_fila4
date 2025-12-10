@@ -147,6 +147,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5b50927d (rebase 210)
 =======
@@ -1158,6 +1159,9 @@
 =======
 >>>>>>> f053e7c (.)
 >>>>>>> 4b544042 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
 <?php
 
 declare(strict_types=1);
@@ -1317,6 +1321,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 =======
@@ -2032,6 +2037,10 @@ declare(strict_types=1);
 <div class="block">
 >>>>>>> b94a5f6 (.)
 >>>>>>> d45a0226 (.)
+=======
+<div class="block">
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 	<!-- Full + text -->
 	<table width="100%" bgcolor="#f6f4f5" cellpadding="0" cellspacing="0" border="0" id="backgroundTable" st-sortable="fullimage">
 		<tbody>
@@ -2045,6 +2054,7 @@ declare(strict_types=1);
 					<tr>
 						<td>
 							<table width="540" align="center" cellspacing="0" cellpadding="0" border="0" class="devicewidthinner">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3653,3 +3663,8 @@ declare(strict_types=1);
 								<tbody>
 >>>>>>> f053e7c (.)
 >>>>>>> 4b544042 (.)
+=======
+=======
+								<tbody>
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)

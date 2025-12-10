@@ -30,6 +30,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -86,6 +87,8 @@
 >>>>>>> fd1fcc4c (.)
 =======
 >>>>>>> 4f3927d7 (.)
+=======
+>>>>>>> c8b1c8bf (.)
 # BaseModel del Modulo Notify
 
 ## Panoramica
@@ -150,6 +153,7 @@ class NotificationTemplate extends BaseModel
 ## Collegamenti Bidirezionali
 
 ### Collegamenti nella Root
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -970,6 +974,8 @@ class NotificationTemplate extends BaseModel
 =======
 =======
 >>>>>>> 0ebb7b01 (.)
+=======
+>>>>>>> c8b1c8bf (.)
 - [Architettura dei Modelli](../../../../project_docs/architecture/models.md)
 - [Gestione Notifiche](../../../../project_docs/architecture/notifications.md)
 
@@ -1044,6 +1050,7 @@ class NotificationTemplate extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -1425,6 +1432,8 @@ class NotificationTemplate extends BaseModel
 >>>>>>> 0ebb7b01 (.)
 =======
 >>>>>>> cccb594f (.)
+=======
+>>>>>>> c8b1c8bf (.)
 - [Modelli Notify](./models.md)
 
 ## Note Importanti
@@ -1462,6 +1471,7 @@ class NotificationTemplate extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -1526,3 +1536,5 @@ class NotificationTemplate extends BaseModel
 >>>>>>> fd1fcc4c (.)
 =======
 >>>>>>> 4f3927d7 (.)
+=======
+>>>>>>> c8b1c8bf (.)

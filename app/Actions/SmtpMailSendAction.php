@@ -6,9 +6,13 @@ namespace Modules\Notify\Actions;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 75179b85 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
 use Modules\Notify\Datas\EmailData;
 use Modules\Notify\Datas\SmtpData;
 use Symfony\Component\Mailer\Mailer;
@@ -17,6 +21,9 @@ use Symfony\Component\Mime\Email;
 use Webmozart\Assert\Assert;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
 >>>>>>> 75179b8 (.)
 class SmtpMailSendAction
 {

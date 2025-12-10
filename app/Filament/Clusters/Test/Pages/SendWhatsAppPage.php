@@ -22,6 +22,7 @@ namespace Modules\Notify\Filament\Clusters\Test\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use BackedEnum;
 =======
 >>>>>>> 75179b85 (.)
@@ -70,6 +71,8 @@ use Filament\Panel;
 use Filament\Schemas\Schema;
 =======
 =======
+=======
+>>>>>>> c8b1c8bf (.)
 use Override;
 use Illuminate\Contracts\Support\Htmlable;
 >>>>>>> c8b1c8bf (.)
@@ -87,6 +90,7 @@ use Filament\Schemas\Schema;
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Schemas\Schema;
 use Filament\Panel;
 >>>>>>> f1c9518b (.)
@@ -102,10 +106,15 @@ use Filament\Schemas\Schema;
 use Filament\Schemas\Schema;
 use Filament\Panel;
 >>>>>>> f1c9518b (.)
+=======
+use Filament\Panel;
+use Filament\Schemas\Schema;
+>>>>>>> c8b1c8bf (.)
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\KeyValue;
 use Exception;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -330,6 +339,8 @@ use Exception;
 >>>>>>> e0d9c9be (.)
 =======
 >>>>>>> 7a2f131f (.)
+=======
+>>>>>>> c8b1c8bf (.)
 use Override;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
@@ -341,6 +352,7 @@ use Filament\Notifications\Notification as FilamentNotification;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
@@ -350,6 +362,9 @@ use Filament\Notifications\Notification as FilamentNotification;
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Log;
@@ -357,6 +372,7 @@ use Illuminate\Support\Facades\Notification;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Notify\Datas\WhatsAppData;
 =======
 <<<<<<< HEAD
@@ -374,10 +390,16 @@ use Modules\Notify\Datas\WhatsAppData;
 use Modules\Notify\Datas\WhatsAppData;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+=======
+use Modules\Notify\Datas\WhatsAppData;
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 use Modules\Notify\Enums\WhatsAppDriverEnum;
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\Notify\Notifications\WhatsAppNotification;
 use Modules\Xot\Filament\Pages\XotBasePage;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -941,12 +963,18 @@ use Filament\Notifications\Notification as FilamentNotification;
 =======
 >>>>>>> 1f13f40 (.)
 >>>>>>> 7a2f131f (.)
+=======
+=======
+use Modules\Xot\Filament\Traits\NavigationLabelTrait;
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 
 /**
  * @property \Filament\Schemas\Schema $whatsappForm
  */
 class SendWhatsAppPage extends XotBasePage
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1144,6 +1172,8 @@ class SendWhatsAppPage extends XotBasePage
 >>>>>>> e0d9c9be (.)
 =======
 >>>>>>> 7a2f131f (.)
+=======
+>>>>>>> c8b1c8bf (.)
     public ?array $whatsappData = [];
 
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-chat-bubble-left-right';
@@ -1152,6 +1182,7 @@ class SendWhatsAppPage extends XotBasePage
 
     protected static ?string $cluster = Test::class;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1284,10 +1315,13 @@ class SendWhatsAppPage extends XotBasePage
 =======
 >>>>>>> 1f13f40 (.)
 >>>>>>> 7a2f131f (.)
+=======
+>>>>>>> c8b1c8bf (.)
     public null|array $whatsappData = [];
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-chat-bubble-left-right';
     protected string $view = 'notify::filament.pages.send-whatsapp';
     protected static null|string $cluster = Test::class;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1301,6 +1335,9 @@ class SendWhatsAppPage extends XotBasePage
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 
     /**
      * Get the slug of the page
@@ -1687,6 +1724,7 @@ class SendWhatsAppPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $schema->schema($this->getWhatsAppFormSchema())->model($this->getUser())->statePath('whatsappData');
     }
 
@@ -1980,6 +2018,8 @@ class SendWhatsAppPage extends XotBasePage
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> c8b1c8bf (.)
         /** @var array<Htmlable|string> $components */
         $components = array_values($this->getWhatsAppFormSchema());
 
@@ -1987,6 +2027,7 @@ class SendWhatsAppPage extends XotBasePage
 =======
         return $schema->components($this->getWhatsAppFormSchema())->model($this->getUser())->statePath('whatsappData');
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
@@ -2114,6 +2155,8 @@ class SendWhatsAppPage extends XotBasePage
 =======
         return $schema->components($this->getWhatsAppFormSchema())->model($this->getUser())->statePath('whatsappData');
 >>>>>>> 7a2f131f (.)
+=======
+>>>>>>> c8b1c8bf (.)
     }
 
     public function getWhatsAppFormSchema(): array
@@ -3651,6 +3694,7 @@ class SendWhatsAppPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             Log::error('Errore nell\'invio WhatsApp: ' . $e->getMessage());
 =======
 <<<<<<< HEAD
@@ -3698,6 +3742,12 @@ class SendWhatsAppPage extends XotBasePage
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+            Log::error('Errore nell\'invio WhatsApp: '.$e->getMessage());
+=======
+            Log::error('Errore nell\'invio WhatsApp: ' . $e->getMessage());
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 
             FilamentNotification::make()
                 ->danger()
@@ -4365,6 +4415,7 @@ class SendWhatsAppPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -4592,6 +4643,12 @@ class SendWhatsAppPage extends XotBasePage
         if (!($user instanceof Model)) {
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+        if (! ($user instanceof Model)) {
+=======
+        if (!($user instanceof Model)) {
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
             throw new Exception(
                 'The authenticated user object must be an Eloquent model to allow the profile page to update it.',
             );

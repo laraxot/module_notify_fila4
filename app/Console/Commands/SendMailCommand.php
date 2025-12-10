@@ -7,11 +7,17 @@ namespace Modules\Notify\Console\Commands;
 use Illuminate\Console\Command;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Notify\Datas\EmailData;
 use Modules\Notify\Datas\SmtpData;
 =======
 =======
 >>>>>>> 75179b85 (.)
+=======
+use Modules\Notify\Datas\EmailData;
+use Modules\Notify\Datas\SmtpData;
+=======
+>>>>>>> c8b1c8bf (.)
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Notification;
 use Modules\Notify\Datas\EmailData;
@@ -19,9 +25,13 @@ use Modules\Notify\Datas\SmtpData;
 use Modules\Notify\Emails\EmailDataEmail;
 use Modules\Notify\Notifications\EmailDataNotification;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 use Webmozart\Assert\Assert;
 
 class SendMailCommand extends Command
@@ -247,6 +257,7 @@ class SendMailCommand extends Command
          */
         // Mail::to($emailData->to)->send(new EmailDataEmail($emailData));
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -736,6 +747,12 @@ class SendMailCommand extends Command
         $this->info('Email sent successfully to ' . $emailData->to);
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+        $this->info('Email sent successfully to '.$emailData->to);
+=======
+        $this->info('Email sent successfully to ' . $emailData->to);
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 
         return Command::SUCCESS;
     }

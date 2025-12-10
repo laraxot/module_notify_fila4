@@ -62,6 +62,7 @@ use Illuminate\Database\Schema\Blueprint;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -399,9 +400,12 @@ use Illuminate\Support\Facades\Schema;
 =======
 >>>>>>> 58816034 (.)
 =======
+>>>>>>> c8b1c8bf (.)
+=======
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
@@ -488,6 +492,8 @@ use Illuminate\Support\Facades\Schema;
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> fbed41ac (.)
+=======
+>>>>>>> c8b1c8bf (.)
 // ----- bases ----
 use Modules\Xot\Database\Migrations\XotBaseMigration;
 
@@ -553,6 +559,7 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 888799d0 (.)
@@ -950,6 +957,13 @@ return new class extends XotBaseMigration
 return new class() extends XotBaseMigration {
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+return new class extends XotBaseMigration
+{
+=======
+return new class() extends XotBaseMigration {
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
     /**
      * Run the migrations.
      */
@@ -1286,6 +1300,7 @@ return new class() extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             if (! $this->hasColumn('name')) {
 >>>>>>> 98d837b9 (.)
@@ -1675,6 +1690,12 @@ return new class() extends XotBaseMigration {
             if (!$this->hasColumn('name')) {
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+            if (! $this->hasColumn('name')) {
+=======
+            if (!$this->hasColumn('name')) {
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
                 $table->string('name');
             }
             if ($this->hasColumn('name')) {
@@ -1737,6 +1758,7 @@ return new class() extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1963,6 +1985,12 @@ return new class() extends XotBaseMigration {
             if (!$this->hasColumn('slug')) {
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+            if (! $this->hasColumn('slug')) {
+=======
+            if (!$this->hasColumn('slug')) {
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
                 $table->string('slug')->unique();
             }
 

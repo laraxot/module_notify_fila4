@@ -16,6 +16,7 @@ use function Safe\class_uses;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
 =======
@@ -30,6 +31,8 @@ use function Safe\class_uses;
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> 7d765981 (.)
+=======
+>>>>>>> c8b1c8bf (.)
 use Illuminate\Contracts\Mail\Mailable;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletes;
@@ -44,6 +47,7 @@ use Modules\Notify\Models\MailTemplate;
 use Spatie\Sluggable\HasSlug;
 use Spatie\Translatable\HasTranslations;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -75,6 +79,8 @@ use Spatie\Translatable\HasTranslations;
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> c8b1c8bf (.)
 use Spatie\Sluggable\HasSlug;
 use Spatie\Translatable\HasTranslations;
 use Illuminate\Database\Eloquent\SoftDeletes;
@@ -83,12 +89,16 @@ use Illuminate\Database\Eloquent\Builder;
 use Modules\Notify\Models\MailTemplate;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 
 <<<<<<< HEAD
 describe('MailTemplate Business Logic', function () {
@@ -124,10 +134,14 @@ describe('MailTemplate Business Logic', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
         $mailTemplate = new MailTemplate;
 =======
         $mailTemplate = new MailTemplate();
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 =======
         $mailTemplate = new MailTemplate();
 >>>>>>> 75179b85 (.)
@@ -137,6 +151,8 @@ describe('MailTemplate Business Logic', function (): void {
         $mailTemplate = new MailTemplate();
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
         $mailTemplate->name = 'Welcome Email';
         $mailTemplate->subject = 'Welcome to our platform';
         $mailTemplate->html_template = '<h1>Welcome!</h1>';
@@ -150,10 +166,14 @@ describe('MailTemplate Business Logic', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
         $mailTemplate = new MailTemplate;
 =======
         $mailTemplate = new MailTemplate();
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 =======
         $mailTemplate = new MailTemplate();
 >>>>>>> 75179b85 (.)
@@ -163,6 +183,8 @@ describe('MailTemplate Business Logic', function (): void {
         $mailTemplate = new MailTemplate();
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
         $mailTemplate->mailable = 'App\\Mail\\WelcomeMail';
 
         expect($mailTemplate->mailable)->toBe('App\\Mail\\WelcomeMail');
@@ -172,10 +194,14 @@ describe('MailTemplate Business Logic', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
         $mailTemplate = new MailTemplate;
 =======
         $mailTemplate = new MailTemplate();
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 =======
         $mailTemplate = new MailTemplate();
 >>>>>>> 75179b85 (.)
@@ -185,6 +211,8 @@ describe('MailTemplate Business Logic', function (): void {
         $mailTemplate = new MailTemplate();
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
         $mailTemplate->version = 2;
 
         expect($mailTemplate->version)->toBe(2);
@@ -194,10 +222,14 @@ describe('MailTemplate Business Logic', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
         $mailTemplate = new MailTemplate;
 =======
         $mailTemplate = new MailTemplate();
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 =======
         $mailTemplate = new MailTemplate();
 >>>>>>> 75179b85 (.)
@@ -207,6 +239,8 @@ describe('MailTemplate Business Logic', function (): void {
         $mailTemplate = new MailTemplate();
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
         $mailTemplate->text_template = 'Welcome! This is plain text.';
 
         expect($mailTemplate->text_template)->toBe('Welcome! This is plain text.');
@@ -223,10 +257,14 @@ describe('MailTemplate Business Logic', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
         $mailTemplate = new MailTemplate;
 =======
         $mailTemplate = new MailTemplate();
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 =======
         $mailTemplate = new MailTemplate();
 >>>>>>> 75179b85 (.)
@@ -236,6 +274,8 @@ describe('MailTemplate Business Logic', function (): void {
         $mailTemplate = new MailTemplate();
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
         $mailTemplate->created_by = 'user-1';
         $mailTemplate->updated_by = 'user-2';
 

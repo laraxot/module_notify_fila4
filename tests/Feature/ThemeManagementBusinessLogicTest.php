@@ -5,13 +5,17 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
 use Modules\Notify\Helpers\ConfigHelper;
 use Modules\Notify\Models\Theme;
 =======
 use Modules\Notify\Models\Theme;
 use Modules\Notify\Helpers\ConfigHelper;
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 =======
@@ -21,6 +25,9 @@ use Modules\Notify\Helpers\ConfigHelper;
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 
 describe('Theme Management Business Logic', function () {
     it('can create theme with basic information', function () {
@@ -28,22 +35,29 @@ describe('Theme Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
 
         $themeData = [
             'name' => $testData['theme_name'] ?? (config('app.name', 'Our Platform').' Professional'),
             'description' => $testData['theme_description'] ?? ('Tema professionale per '.config('app.name', 'Our Platform')),
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
         
         $themeData = [
             'name' => $testData['theme_name'] ?? (config('app.name', 'Our Platform') . ' Professional'),
             'description' => $testData['theme_description'] ?? ('Tema professionale per ' . config('app.name', 'Our Platform')),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 75179b8 (.)
@@ -52,6 +66,9 @@ describe('Theme Management Business Logic', function () {
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
             'version' => '1.0.0',
             'is_active' => true,
         ];
@@ -360,10 +377,14 @@ describe('Theme Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
             'author' => $testData['team_name'] ?? ('Team '.config('app.name', 'Our Platform')),
 =======
             'author' => $testData['team_name'] ?? ('Team ' . config('app.name', 'Our Platform')),
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 =======
             'author' => $testData['team_name'] ?? ('Team ' . config('app.name', 'Our Platform')),
 >>>>>>> 75179b85 (.)
@@ -373,6 +394,8 @@ describe('Theme Management Business Logic', function () {
             'author' => $testData['team_name'] ?? ('Team ' . config('app.name', 'Our Platform')),
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
             'created_date' => '2024-01-15',
             'last_modified' => '2024-12-01',
             'tags' => ['professional', 'healthcare', 'modern'],
@@ -382,10 +405,14 @@ describe('Theme Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
             'repository' => $testData['repository_url'] ?? ('https://github.com/'.strtolower(config('app.name', 'ourplatform')).'/themes'),
 =======
             'repository' => $testData['repository_url'] ?? ('https://github.com/' . strtolower(config('app.name', 'ourplatform')) . '/themes'),
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 =======
             'repository' => $testData['repository_url'] ?? ('https://github.com/' . strtolower(config('app.name', 'ourplatform')) . '/themes'),
 >>>>>>> 75179b85 (.)
@@ -395,6 +422,8 @@ describe('Theme Management Business Logic', function () {
             'repository' => $testData['repository_url'] ?? ('https://github.com/' . strtolower(config('app.name', 'ourplatform')) . '/themes'),
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
         ];
 
         $theme->update(['metadata' => $metadata]);
@@ -492,8 +521,11 @@ describe('Theme Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
             'metadata' => ['category' => 'business'],
         ]);
         $healthcareTheme = Theme::factory()->create([
@@ -503,10 +535,13 @@ describe('Theme Management Business Logic', function () {
             'metadata' => ['category' => 'modern'],
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
             'metadata' => ['category' => 'business']
         ]);
         $healthcareTheme = Theme::factory()->create([
@@ -516,12 +551,16 @@ describe('Theme Management Business Logic', function () {
             'metadata' => ['category' => 'modern']
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
         ]);
 
         $businessThemes = Theme::whereJsonContains('metadata->category', 'business')->get();
@@ -538,22 +577,29 @@ describe('Theme Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
             'metadata' => ['tags' => ['professional', 'business']],
         ]);
         $modernTheme = Theme::factory()->create([
             'metadata' => ['tags' => ['modern', 'clean']],
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
             'metadata' => ['tags' => ['professional', 'business']]
         ]);
         $modernTheme = Theme::factory()->create([
             'metadata' => ['tags' => ['modern', 'clean']]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 75179b8 (.)
@@ -562,6 +608,9 @@ describe('Theme Management Business Logic', function () {
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
         ]);
 
         $professionalThemes = Theme::whereJsonContains('metadata->tags', 'professional')->get();

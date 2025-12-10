@@ -40,6 +40,9 @@
     },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
     "autoload-dev": {
         "psr-4": {
             "Modules\\Notify\\Tests\\": "tests/"
@@ -47,8 +50,11 @@
     },
 =======
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> c8b1c8bf (.)
     "require": {
         "aws/aws-sdk-php": "*",
         "filament/filament": "*",

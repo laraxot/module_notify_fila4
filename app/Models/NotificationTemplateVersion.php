@@ -63,6 +63,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -210,10 +211,13 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 =======
 >>>>>>> d45a0226 (.)
 =======
+=======
+>>>>>>> c8b1c8bf (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Override;
 use RuntimeException;
 use Modules\User\Models\Profile;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Modules\Media\Models\Media;
@@ -548,11 +552,14 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> c8b1c8bf (.)
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\NotificationTemplateVersionFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Modules\Xot\Traits\Updater;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -567,6 +574,8 @@ use Modules\Xot\Traits\Updater;
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
 
 // BaseModel in same namespace provides common behaviors
 /**
@@ -579,6 +588,7 @@ use Modules\Xot\Traits\Updater;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
  *
@@ -594,10 +604,13 @@ use Modules\Xot\Traits\Updater;
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
  * @method static NotificationTemplateVersionFactory factory($count = null, $state = [])
  * @method static Builder<static>|NotificationTemplateVersion newModelQuery()
  * @method static Builder<static>|NotificationTemplateVersion newQuery()
  * @method static Builder<static>|NotificationTemplateVersion query()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -845,6 +858,11 @@ use Modules\Xot\Traits\Updater;
 >>>>>>> a335025b (rebase 210)
 =======
 >>>>>>> e00d798d (.)
+=======
+ * @mixin IdeHelperNotificationTemplateVersion
+ * @mixin \Eloquent
+ */
+>>>>>>> c8b1c8bf (.)
 class NotificationTemplateVersion extends BaseModel
 {
     use Updater;
@@ -867,6 +885,7 @@ class NotificationTemplateVersion extends BaseModel
      *
      * @return array<string, string>
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1207,6 +1226,9 @@ class NotificationTemplateVersion extends BaseModel
     #[\Override]
 >>>>>>> 5e14ac3 (.)
 >>>>>>> fbed41ac (.)
+=======
+    #[Override]
+>>>>>>> c8b1c8bf (.)
     protected function casts(): array
     {
         return [
@@ -1224,6 +1246,7 @@ class NotificationTemplateVersion extends BaseModel
     public function restore(): NotificationTemplate
     {
         $template = $this->template;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1573,11 +1596,14 @@ class NotificationTemplateVersion extends BaseModel
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> c8b1c8bf (.)
 
         if (!$template) {
             throw new RuntimeException('Template not found for version ' . $this->id);
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1785,6 +1811,8 @@ class NotificationTemplateVersion extends BaseModel
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> c8b1c8bf (.)
         $template->update([
             'subject' => $this->subject ?? null,
             'body_html' => $this->body_html ?? null,
@@ -1794,6 +1822,7 @@ class NotificationTemplateVersion extends BaseModel
             'conditions' => $this->conditions ?? null,
         ]);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2142,3 +2171,8 @@ class NotificationTemplateVersion extends BaseModel
 =======
 }
 >>>>>>> 985c7bda (.)
+=======
+        return $template;
+    }
+}
+>>>>>>> c8b1c8bf (.)

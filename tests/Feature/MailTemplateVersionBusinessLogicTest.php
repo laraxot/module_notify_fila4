@@ -22,6 +22,7 @@ namespace Modules\Notify\Tests\Feature;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use RuntimeException;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -102,11 +103,14 @@ use Modules\Notify\Models\MailTemplateVersion;
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> c8b1c8bf (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Models\MailTemplateVersion;
 use RuntimeException;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -142,10 +146,13 @@ use RuntimeException;
 >>>>>>> f5f1cb1 (.)
 =======
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> c8b1c8bf (.)
 use RuntimeException;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Models\MailTemplateVersion;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -160,6 +167,9 @@ use Modules\Notify\Models\MailTemplateVersion;
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 use Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -935,6 +945,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'created_by' => 'admin@' . config('app.domain', 'example.com'),
 =======
 <<<<<<< HEAD
@@ -957,6 +968,12 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+            'created_by' => 'admin@'.config('app.domain', 'example.com'),
+=======
+            'created_by' => 'admin@' . config('app.domain', 'example.com'),
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
             'change_notes' => 'Aggiornamento design email e aggiunta variabile appointment_date',
         ];
 
@@ -972,6 +989,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'created_by' => 'admin@' . config('app.domain', 'example.com'),
 =======
 <<<<<<< HEAD
@@ -994,6 +1012,12 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+            'created_by' => 'admin@'.config('app.domain', 'example.com'),
+=======
+            'created_by' => 'admin@' . config('app.domain', 'example.com'),
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
             'change_notes' => 'Aggiornamento design email e aggiunta variabile appointment_date',
         ]);
 
@@ -1370,6 +1394,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
             'template_id' => $template->id,
             'version' => '1.5.2',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'created_by' => 'developer@' . config('app.domain', 'example.com'),
 >>>>>>> 75179b85 (.)
 =======
@@ -1379,10 +1404,17 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
             'created_by' => 'developer@' . config('app.domain', 'example.com'),
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+            'created_by' => 'developer@'.config('app.domain', 'example.com'),
+=======
+            'created_by' => 'developer@' . config('app.domain', 'example.com'),
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
             'change_notes' => 'Correzione bug nella formattazione HTML e ottimizzazione per mobile',
         ]);
 
         $this->assertEquals('1.5.2', $version->version);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1691,6 +1723,12 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
         $this->assertEquals('developer@' . config('app.domain', 'example.com'), $version->created_by);
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+        $this->assertEquals('developer@'.config('app.domain', 'example.com'), $version->created_by);
+=======
+        $this->assertEquals('developer@' . config('app.domain', 'example.com'), $version->created_by);
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
         $this->assertEquals(
             'Correzione bug nella formattazione HTML e ottimizzazione per mobile',
             $version->change_notes,
@@ -2609,8 +2647,15 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 
         $textTemplate = '
         CONFERMA APPUNTAMENTO
+<<<<<<< HEAD
         =====================
 >>>>>>> 75179b85 (.)
+=======
+<<<<<<< HEAD
+=======
+        =====================
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
         
         Gentile {{patient_name}},
         
@@ -3053,6 +3098,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
                 'template_id' => $template->id,
                 'mailable' => $mailableClass,
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
                 'version' => '1.' . $index,
                 'subject' => 'Template per ' . $mailableClass,
@@ -3069,6 +3115,8 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 =======
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
                 'version' => '1.'.$index,
                 'subject' => 'Template per '.$mailableClass,
                 'html_template' => '<p>Template per '.$mailableClass.'</p>',
@@ -3086,6 +3134,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
             $this->assertEquals('Template per ' . $mailableClass, $version->subject);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
@@ -3096,6 +3145,9 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
         }
     }
 
@@ -5004,6 +5056,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
@@ -5022,6 +5075,11 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
         return array_unique($matches[1] ?? []);
     }
 }

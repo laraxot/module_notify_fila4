@@ -66,6 +66,7 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 888799d0 (.)
@@ -459,6 +460,13 @@ return new class extends XotBaseMigration
 return new class() extends XotBaseMigration {
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+return new class extends XotBaseMigration
+{
+=======
+return new class() extends XotBaseMigration {
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
     // use XotBaseMigrationTrait;
     /**
      * Run the migrations.
@@ -689,6 +697,7 @@ return new class() extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (!$this->hasColumn('from')) {
 =======
 <<<<<<< HEAD
@@ -696,6 +705,8 @@ return new class() extends XotBaseMigration {
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
             if (! $this->hasColumn('from')) {
 >>>>>>> f1c9518b (.)
                 $table->string('from')->nullable();
@@ -735,10 +746,13 @@ return new class() extends XotBaseMigration {
             if (! $this->hasColumn('view_params')) {
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
             if (!$this->hasColumn('from')) {
                 $table->string('from')->nullable();
             }
@@ -775,6 +789,7 @@ return new class() extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
@@ -783,6 +798,9 @@ return new class() extends XotBaseMigration {
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
                 $table->json('view_params')->nullable();
             }
             $this->updateTimestamps(

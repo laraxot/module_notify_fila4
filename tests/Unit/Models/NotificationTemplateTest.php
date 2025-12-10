@@ -1444,10 +1444,14 @@ class NotificationTemplateTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
         $template = new NotificationTemplate;
 =======
         $template = new NotificationTemplate();
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 =======
         $template = new NotificationTemplate();
 >>>>>>> 75179b85 (.)
@@ -1457,6 +1461,8 @@ class NotificationTemplateTest extends TestCase
         $template = new NotificationTemplate();
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
 
         $expectedFillable = [
             'name',
@@ -1487,10 +1493,14 @@ class NotificationTemplateTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
         $template = new NotificationTemplate;
 =======
         $template = new NotificationTemplate();
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 =======
         $template = new NotificationTemplate();
 >>>>>>> 75179b85 (.)
@@ -1500,6 +1510,8 @@ class NotificationTemplateTest extends TestCase
         $template = new NotificationTemplate();
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
 
         $expectedCasts = [
             'type' => NotificationTypeEnum::class,
@@ -1526,10 +1538,14 @@ class NotificationTemplateTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
         $template = new NotificationTemplate;
 =======
         $template = new NotificationTemplate();
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 =======
         $template = new NotificationTemplate();
 >>>>>>> 75179b85 (.)
@@ -1539,6 +1555,8 @@ class NotificationTemplateTest extends TestCase
         $template = new NotificationTemplate();
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
 
         $expectedTranslatable = [
             'subject',

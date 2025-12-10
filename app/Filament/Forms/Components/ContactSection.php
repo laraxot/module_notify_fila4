@@ -22,6 +22,7 @@ namespace Modules\Notify\Filament\Forms\Components;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f2e64178 (.)
@@ -44,6 +45,9 @@ namespace Modules\Notify\Filament\Forms\Components;
 =======
 use Filament\Forms;
 >>>>>>> d45a0226 (.)
+=======
+use Illuminate\Contracts\Support\Htmlable;
+>>>>>>> c8b1c8bf (.)
 use Filament\Schemas\Components\Section;
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
@@ -87,6 +91,7 @@ use Filament\Forms;
 >>>>>>> 207ac35e (.)
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Enums\ContactTypeEnum;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -312,11 +317,15 @@ use Webmozart\Assert\Assert;
 =======
 =======
 >>>>>>> d45a0226 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
 use Filament\Schemas\Components\Section;
 use Filament\Forms;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Enums\ContactTypeEnum;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -610,6 +619,9 @@ use Modules\Notify\Enums\ContactTypeEnum;
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 
 // use Squire\Models\Country;
 
@@ -672,6 +684,7 @@ class ContactSection extends Section
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1003,6 +1016,12 @@ class ContactSection extends Forms\Components\Section
     //protected string $view = 'filament-forms::components.group';
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+    // protected string $view = 'filament-forms::components.group';
+=======
+    //protected string $view = 'filament-forms::components.group';
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 
     protected bool $disableLiveUpdates = false;
 
@@ -1015,8 +1034,11 @@ class ContactSection extends Forms\Components\Section
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $schema = $this->getFormSchema();
 =======
+=======
+>>>>>>> c8b1c8bf (.)
         /** @var array<Htmlable|string> $schema */
         $schema = array_values($this->getFormSchema());
 >>>>>>> c8b1c8bf (.)
@@ -1024,6 +1046,7 @@ class ContactSection extends Forms\Components\Section
 =======
         $this->schema($this->getFormSchema());
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
         $this->columns(2);
     }
 
@@ -1219,11 +1242,14 @@ class ContactSection extends Forms\Components\Section
 >>>>>>> c8b1c8bf (.)
 =======
         $this->schema($this->getFormSchema());
+=======
+>>>>>>> c8b1c8bf (.)
         $this->columns(2);
     }
 
     protected function getFormSchema(): array
     {
+<<<<<<< HEAD
         $res = ContactTypeEnum::getFormSchema();
 <<<<<<< HEAD
 =======
@@ -1234,6 +1260,14 @@ class ContactSection extends Forms\Components\Section
 >>>>>>> f1c9518b (.)
         return $res;
 >>>>>>> 75179b85 (.)
+=======
+<<<<<<< HEAD
+        return ContactTypeEnum::getFormSchema();
+=======
+        $res = ContactTypeEnum::getFormSchema();
+        return $res;
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
     }
 
     /*

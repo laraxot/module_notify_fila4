@@ -267,6 +267,7 @@ namespace Modules\Notify\Tests;
 use Illuminate\Foundation\Application;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use Illuminate\Foundation\Application;
@@ -301,6 +302,8 @@ use Modules\Notify\Providers\NotifyServiceProvider;
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> fbed41ac (.)
+=======
+>>>>>>> c8b1c8bf (.)
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 use Modules\Notify\Providers\NotifyServiceProvider;
 =======
@@ -309,6 +312,7 @@ use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 >>>>>>> 99ff506 (.)
 use Modules\Xot\Tests\CreatesApplication;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -392,10 +396,13 @@ use Tests\CreatesApplication;
 =======
 >>>>>>> 75179b85 (.)
 =======
+=======
+>>>>>>> c8b1c8bf (.)
 use Modules\Notify\Providers\NotifyServiceProvider;
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 use Tests\CreatesApplication;
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
 =======
@@ -409,6 +416,8 @@ use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 use Tests\CreatesApplication;
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> c8b1c8bf (.)
 
 /**
  * Base test case for Notify module tests.
@@ -1165,12 +1174,16 @@ abstract class TestCase extends BaseTestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fbed41ac (.)
+=======
+>>>>>>> c8b1c8bf (.)
      * @param  Application  $app
 =======
      * @param Application $app
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 =======
      * @param Application $app
 >>>>>>> 75179b85 (.)
@@ -1329,6 +1342,8 @@ abstract class TestCase extends BaseTestCase
      * @param Application $app
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> c8b1c8bf (.)
      * @return array<int, class-string>
      */
     protected function getPackageProviders($app): array

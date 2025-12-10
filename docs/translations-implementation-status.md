@@ -26,6 +26,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -74,10 +75,13 @@
 >>>>>>> 8c8937e7 (rebase 210)
 =======
 >>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> c8b1c8bf (.)
 # Stato dell'Implementazione delle Traduzioni nel Modulo Notify
 
 ## Panoramica
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -519,6 +523,10 @@ Questo documento fornisce una panoramica completa dello stato attuale dell'imple
 >>>>>>> 69fa7d37 (.)
 =======
 >>>>>>> fbed41ac (.)
+=======
+Questo documento fornisce una panoramica completa dello stato attuale dell'implementazione delle traduzioni nel modulo Notify, identificando le convenzioni in uso, le discrepanze con le convenzioni generali di  e le azioni necessarie per garantire la coerenza.
+Questo documento fornisce una panoramica completa dello stato attuale dell'implementazione delle traduzioni nel modulo Notify, identificando le convenzioni in uso, le discrepanze con le convenzioni generali di SaluteOra e le azioni necessarie per garantire la coerenza.
+>>>>>>> c8b1c8bf (.)
 
 ## Convenzioni Attuali nel Modulo Notify
 
@@ -647,6 +655,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Esiste una discrepanza tra le convenzioni utilizzate nel modulo Notify e le convenzioni generali di <nome progetto>:
 =======
 Esiste una discrepanza tra le convenzioni utilizzate nel modulo Notify e le convenzioni generali di :
@@ -1000,6 +1009,10 @@ Esiste una discrepanza tra le convenzioni utilizzate nel modulo Notify e le conv
 >>>>>>> 69fa7d37 (.)
 =======
 >>>>>>> fbed41ac (.)
+=======
+Esiste una discrepanza tra le convenzioni utilizzate nel modulo Notify e le convenzioni generali di :
+Esiste una discrepanza tra le convenzioni utilizzate nel modulo Notify e le convenzioni generali di SaluteOra:
+>>>>>>> c8b1c8bf (.)
 
 1. **Convenzioni Generali (Modules/Lang/docs/TRANSLATION_KEYS_RULES.md)**:
    - Struttura gerarchica espansa senza chiavi come `.navigation`
@@ -1104,6 +1117,7 @@ Per garantire la coerenza futura, si raccomanda di:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -1160,3 +1174,5 @@ Per garantire la coerenza futura, si raccomanda di:
 >>>>>>> 8c8937e7 (rebase 210)
 =======
 >>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> c8b1c8bf (.)

@@ -465,6 +465,7 @@ namespace Modules\Notify\Models;
  */
 class NotificationType extends BaseModel
 =======
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82ae73be (.)
@@ -577,11 +578,16 @@ namespace Modules\Notify\Models;
 
 >>>>>>> 75179b85 (.)
 use Illuminate\Database\Eloquent\Builder;
+=======
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> c8b1c8bf (.)
 
 /**
  * @method static Builder<static>|NotificationType newModelQuery()
  * @method static Builder<static>|NotificationType newQuery()
  * @method static Builder<static>|NotificationType query()
+<<<<<<< HEAD
  * @mixin \Eloquent
  */
 <<<<<<< HEAD
@@ -593,6 +599,13 @@ class NotificationType extends Model
 =======
 class NotificationType extends BaseModel
 >>>>>>> 7d765981 (.)
+=======
+ * @mixin IdeHelperNotificationType
+ * @mixin \Eloquent
+ */
+class NotificationType extends Model
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 {
     protected $fillable = [
         'name',

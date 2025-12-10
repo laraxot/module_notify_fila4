@@ -7,6 +7,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d45a0226 (.)
@@ -14,7 +15,15 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 use Exception;
 use GuzzleHttp\Client;
+=======
+>>>>>>> c8b1c8bf (.)
 use Modules\Notify\Contracts\SmsActionContract;
+=======
+use Override;
+use GuzzleHttp\Client;
+use Illuminate\Support\Facades\Http;
+use Modules\Notify\Contracts\SMS\SmsActionContract;
+>>>>>>> 75179b8 (.)
 use Modules\Notify\Datas\SmsData;
 use Spatie\QueueableAction\QueueableAction;
 =======
@@ -874,6 +883,7 @@ class SendAgiletelecomSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -1027,10 +1037,13 @@ class SendAgiletelecomSMSAction implements SmsActionContract
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> c8b1c8bf (.)
     public function execute(SmsData $data): array
     {
         return app(SendAgiletelecomSMSv2Action::class)->execute($data);
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73b (.)
 =======
@@ -1080,12 +1093,18 @@ class SendAgiletelecomSMSAction implements SmsActionContract
     #[Override]
 =======
 >>>>>>> fbed41ac (.)
+=======
+    #[Override]
+>>>>>>> c8b1c8bf (.)
     public function execute(SmsData $data): array
     {
         $res = app(SendAgiletelecomSMSv2Action::class)->execute($data);
 
         return $res;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
 >>>>>>> 75179b8 (.)
     }
 <<<<<<< HEAD

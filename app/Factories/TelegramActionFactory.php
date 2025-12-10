@@ -10,6 +10,7 @@ use Illuminate\Support\Facades\Config;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Notify\Actions\Telegram\SendBotmanTelegramAction;
 use Modules\Notify\Actions\Telegram\SendNutgramTelegramAction;
 use Modules\Notify\Actions\Telegram\SendOfficialTelegramAction;
@@ -20,9 +21,12 @@ use Modules\Notify\Actions\Telegram\SendOfficialTelegramAction;
 =======
 >>>>>>> f1c9518b (.)
 =======
+>>>>>>> c8b1c8bf (.)
+=======
 use Modules\Notify\Actions\Telegram\SendBotmanTelegramAction;
 use Modules\Notify\Actions\Telegram\SendNutgramTelegramAction;
 use Modules\Notify\Actions\Telegram\SendOfficialTelegramAction;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 99ff506 (.)
@@ -38,6 +42,9 @@ use Modules\Notify\Actions\Telegram\SendOfficialTelegramAction;
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 use Modules\Notify\Contracts\TelegramProviderActionInterface;
 
 /**
@@ -377,6 +384,7 @@ final class TelegramActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param string|null $driver Driver Telegram da utilizzare (se null, viene utilizzato quello predefinito)
      * @return TelegramProviderActionInterface Azione Telegram corrispondente al driver
 =======
@@ -385,12 +393,15 @@ final class TelegramActionFactory
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
      * @param  string|null  $driver  Driver Telegram da utilizzare (se null, viene utilizzato quello predefinito)
      * @return TelegramProviderActionInterface Azione Telegram corrispondente al driver
      *
 =======
      * @param string|null $driver Driver Telegram da utilizzare (se null, viene utilizzato quello predefinito)
      * @return TelegramProviderActionInterface Azione Telegram corrispondente al driver
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 99ff506 (.)
@@ -405,12 +416,16 @@ final class TelegramActionFactory
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
      * @throws Exception Se il driver specificato non è supportato
      */
     /**
      * Crea un'azione Telegram basata sul driver specificato o su quello predefinito.
      * Utilizza una formula per calcolare il nome della classe dell'azione.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -422,6 +437,8 @@ final class TelegramActionFactory
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
      * @param  string|null  $driver  Driver Telegram da utilizzare (se null, viene utilizzato quello predefinito)
 >>>>>>> f1c9518b (.)
      * @return TelegramProviderActionInterface Azione Telegram corrispondente al driver
@@ -533,16 +550,20 @@ final class TelegramActionFactory
     public function create(?string $driver = null): TelegramProviderActionInterface
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
      * @param string|null $driver Driver Telegram da utilizzare (se null, viene utilizzato quello predefinito)
      * @return TelegramProviderActionInterface Azione Telegram corrispondente al driver
      * @throws Exception Se il driver specificato non è supportato o la classe non esiste
      */
     public function create(null|string $driver = null): TelegramProviderActionInterface
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -589,6 +610,9 @@ final class TelegramActionFactory
     public function create(null|string $driver = null): TelegramProviderActionInterface
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
     {
         $driver ??= Config::get('telegram.default', 'official');
 
@@ -602,6 +626,7 @@ final class TelegramActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!class_exists($className)) {
             throw new Exception(
                 'Unsupported Telegram driver: ' .
@@ -612,6 +637,8 @@ final class TelegramActionFactory
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
         if (! class_exists($className)) {
             throw new Exception(
                 'Unsupported Telegram driver: '.
@@ -623,6 +650,7 @@ final class TelegramActionFactory
                 (is_string($driver) ? $driver : '') .
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
@@ -631,6 +659,9 @@ final class TelegramActionFactory
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
                     ". Class {$className} not found.",
             );
         }
@@ -943,6 +974,7 @@ final class TelegramActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!is_subclass_of($className, TelegramProviderActionInterface::class)) {
 =======
 <<<<<<< HEAD
@@ -950,6 +982,8 @@ final class TelegramActionFactory
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
         if (! is_subclass_of($className, TelegramProviderActionInterface::class)) {
 =======
         if (!is_subclass_of($className, TelegramProviderActionInterface::class)) {
@@ -1025,6 +1059,7 @@ final class TelegramActionFactory
         /** @var TelegramProviderActionInterface $instance */
         $instance = app($className);
         return $instance;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1169,10 +1204,15 @@ final class TelegramActionFactory
         if (!is_subclass_of($className, TelegramProviderActionInterface::class)) {
 =======
 >>>>>>> f1c9518b (.)
+=======
+=======
+        if (!is_subclass_of($className, TelegramProviderActionInterface::class)) {
+>>>>>>> c8b1c8bf (.)
             throw new Exception("Class {$className} does not implement TelegramProviderActionInterface.");
         }
 
         return app($className);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1195,5 +1235,8 @@ final class TelegramActionFactory
         return app($className);
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
     }
 }

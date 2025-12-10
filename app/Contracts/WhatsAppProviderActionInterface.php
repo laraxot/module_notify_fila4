@@ -1038,10 +1038,14 @@ interface WhatsAppProviderActionInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
      * @param  WhatsAppData  $whatsappData  I dati del messaggio WhatsApp
 =======
      * @param WhatsAppData $whatsappData I dati del messaggio WhatsApp
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
      * @return array Risultato dell'operazione
      */
     public function execute(WhatsAppData $whatsappData): array;
@@ -1615,6 +1619,8 @@ interface WhatsAppProviderActionInterface
      * @param WhatsAppData $whatsappData I dati del messaggio WhatsApp
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
      * @return array Risultato dell'operazione
      */
     public function execute(WhatsAppData $whatsappData): array;

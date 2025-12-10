@@ -47,6 +47,7 @@ use Modules\User\Models\Policies\UserBasePolicy;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -107,9 +108,13 @@ abstract class NotifyBasePolicy extends UserBasePolicy {}
 abstract class NotifyBasePolicy extends UserBasePolicy {}
 >>>>>>> d45a0226 (.)
 =======
+abstract class NotifyBasePolicy extends UserBasePolicy {}
+>>>>>>> c8b1c8bf (.)
+=======
 abstract class NotifyBasePolicy extends UserBasePolicy
 {
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -491,3 +496,6 @@ abstract class NotifyBasePolicy extends UserBasePolicy {}
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)

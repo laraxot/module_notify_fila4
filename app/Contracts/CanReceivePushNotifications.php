@@ -6,12 +6,18 @@ namespace Modules\Notify\Contracts;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Illuminate\Database\Eloquent\Model;
 >>>>>>> 75179b8 (.)
 =======
 use Illuminate\Database\Eloquent\Model;
 >>>>>>> 75179b85 (.)
+=======
+=======
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 use Illuminate\Support\Collection;
 
 /**
@@ -29,17 +35,27 @@ interface CanReceivePushNotifications
      * non si puo usare mixed che cs lo cancella.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      */
     public function getKey(): string|int|null;
 =======
 =======
 >>>>>>> 75179b85 (.)
+=======
+     */
+    public function getKey(): string|int|null;
+=======
+>>>>>>> c8b1c8bf (.)
      *
      * @return string|int|null
      */
     public function getKey();
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 }

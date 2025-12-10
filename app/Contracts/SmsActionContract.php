@@ -18,10 +18,14 @@ interface SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
      * @param  SmsData  $smsData  I dati del messaggio SMS
 =======
      * @param SmsData $smsData I dati del messaggio SMS
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 =======
      * @param SmsData $smsData I dati del messaggio SMS
 >>>>>>> 75179b85 (.)
@@ -31,6 +35,8 @@ interface SmsActionContract
      * @param SmsData $smsData I dati del messaggio SMS
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
      * @return array Risultato dell'operazione
      */
     public function execute(SmsData $smsData): array;

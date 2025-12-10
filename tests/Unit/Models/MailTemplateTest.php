@@ -1306,10 +1306,14 @@ class MailTemplateTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
         $template = new MailTemplate;
 =======
         $template = new MailTemplate();
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 =======
         $template = new MailTemplate();
 >>>>>>> 75179b85 (.)
@@ -1319,6 +1323,8 @@ class MailTemplateTest extends TestCase
         $template = new MailTemplate();
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
 
         $expectedFillable = [
             'mailable',
@@ -1341,10 +1347,14 @@ class MailTemplateTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
         $template = new MailTemplate;
 =======
         $template = new MailTemplate();
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 =======
         $template = new MailTemplate();
 >>>>>>> 75179b85 (.)
@@ -1354,6 +1364,8 @@ class MailTemplateTest extends TestCase
         $template = new MailTemplate();
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
 
         $expectedCasts = [
             'created_at' => 'datetime',
@@ -1370,10 +1382,14 @@ class MailTemplateTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
         $template = new MailTemplate;
 =======
         $template = new MailTemplate();
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 =======
         $template = new MailTemplate();
 >>>>>>> 75179b85 (.)
@@ -1383,6 +1399,8 @@ class MailTemplateTest extends TestCase
         $template = new MailTemplate();
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
 
         $expectedTranslatable = [
             'subject',
@@ -1400,10 +1418,14 @@ class MailTemplateTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
         $template = new MailTemplate;
 =======
         $template = new MailTemplate();
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 =======
         $template = new MailTemplate();
 >>>>>>> 75179b85 (.)
@@ -1413,6 +1435,8 @@ class MailTemplateTest extends TestCase
         $template = new MailTemplate();
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
 
         $this->assertEquals('notify', $template->getConnectionName());
     }

@@ -124,6 +124,7 @@ use Modules\Xot\Filament\Pages\XotBaseDashboard;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Filament\Pages\XotBasePage;
 =======
 use Modules\Xot\Filament\Pages\XotBasePage;
@@ -302,6 +303,11 @@ use Modules\Xot\Filament\Pages\XotBasePage;
 =======
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
+=======
+=======
+use Modules\Xot\Filament\Pages\XotBasePage;
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 
 class Dashboard extends XotBaseDashboard
 {

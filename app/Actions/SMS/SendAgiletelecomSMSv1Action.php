@@ -61,6 +61,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -286,10 +287,16 @@ use Modules\Notify\Contracts\SmsActionContract;
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+=======
+use GuzzleHttp\Client;
+use Modules\Notify\Contracts\SmsActionContract;
+=======
+>>>>>>> c8b1c8bf (.)
 use Override;
 use GuzzleHttp\Client;
 use Illuminate\Support\Facades\Http;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
@@ -709,11 +716,15 @@ use Modules\Notify\Datas\SmsData;
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 =======
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 use Modules\Notify\Datas\SMS\AgiletelecomData;
 use Modules\Notify\Datas\SmsData;
 
 /**
  * Azione per l'invio di SMS tramite Agile Telecom.
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 
@@ -721,10 +732,17 @@ use Modules\Notify\Datas\SmsData;
  * Azione per l'invio di SMS tramite Agile Telecom.
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+<<<<<<< HEAD
+ *
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
  * @see https://account.agiletelecom.com/public/resources/HTTP_POST_IT.pdf
  */
 class SendAgiletelecomSMSv1Action implements SmsActionContract
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -985,6 +1003,11 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
 >>>>>>> 54220b28 (rebase 210)
 =======
 >>>>>>> fbed41ac (.)
+=======
+=======
+    #[Override]
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
     public function execute(SmsData $data): array
     {
         $base_uri = 'https://secure.agiletelecom.com/';

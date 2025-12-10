@@ -18,6 +18,7 @@ trait HasTenantNotifications
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      * @return MorphMany
 =======
@@ -32,9 +33,12 @@ trait HasTenantNotifications
 >>>>>>> f1c9518b (.)
 =======
 =======
+>>>>>>> c8b1c8bf (.)
+=======
      *
      * @return MorphMany
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
      */
     public function notifications(): MorphMany
@@ -267,6 +271,8 @@ trait HasTenantNotifications
      * @return MorphMany
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
      */
     public function notifications(): MorphMany
     {
@@ -377,6 +383,7 @@ trait HasTenantNotifications
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      * @return MorphMany
 =======
@@ -391,9 +398,12 @@ trait HasTenantNotifications
 >>>>>>> f1c9518b (.)
 =======
 =======
+>>>>>>> c8b1c8bf (.)
+=======
      *
      * @return MorphMany
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
      */
     public function unreadNotifications(): MorphMany
@@ -626,6 +636,8 @@ trait HasTenantNotifications
      * @return MorphMany
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
      */
     public function unreadNotifications(): MorphMany
     {
@@ -736,6 +748,7 @@ trait HasTenantNotifications
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      * @return MorphMany
 =======
@@ -750,9 +763,12 @@ trait HasTenantNotifications
 >>>>>>> f1c9518b (.)
 =======
 =======
+>>>>>>> c8b1c8bf (.)
+=======
      *
      * @return MorphMany
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
      */
     public function readNotifications(): MorphMany
@@ -992,6 +1008,8 @@ trait HasTenantNotifications
      * @return MorphMany
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
      */
     public function readNotifications(): MorphMany
     {
@@ -1097,6 +1115,7 @@ trait HasTenantNotifications
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      * @param Builder $query
      * @param string|null $tenantId
@@ -1108,6 +1127,8 @@ trait HasTenantNotifications
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1491,6 +1512,7 @@ trait HasTenantNotifications
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 985c7bda (.)
 =======
 =======
@@ -1506,6 +1528,8 @@ trait HasTenantNotifications
 =======
 >>>>>>> f1c9518b (.)
 =======
+>>>>>>> c8b1c8bf (.)
+=======
      *
      * @param Builder $query
      * @param string|null $tenantId
@@ -1514,6 +1538,7 @@ trait HasTenantNotifications
     public function scopeForTenant(Builder $query, null|string $tenantId = null): Builder
     {
         $tenantId ??= $this->getTenantId();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1683,10 +1708,14 @@ trait HasTenantNotifications
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
         return $query->where('tenant_id', $tenantId);
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
      * Ottiene l'ID del tenant corrente.
@@ -1933,6 +1962,10 @@ trait HasTenantNotifications
 =======
 =======
 >>>>>>> 75179b85 (.)
+=======
+     * Verifica se il modello appartiene al tenant specificato.
+=======
+>>>>>>> c8b1c8bf (.)
      * Ottiene l'ID del tenant corrente.
      *
      * @return string|null
@@ -1950,10 +1983,14 @@ trait HasTenantNotifications
      * @param string $tenantId
      * @return bool
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
      */
     public function belongsToTenant(string $tenantId): bool
     {
@@ -1965,6 +2002,7 @@ trait HasTenantNotifications
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      * @return bool
 =======
@@ -1976,14 +2014,19 @@ trait HasTenantNotifications
 >>>>>>> f1c9518b (.)
 =======
 =======
+>>>>>>> c8b1c8bf (.)
+=======
      *
      * @return bool
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
      *
      * @return bool
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> c8b1c8bf (.)
      */
     public function belongsToCurrentTenant(): bool
     {
@@ -1995,6 +2038,7 @@ trait HasTenantNotifications
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      * @return void
 =======
@@ -2004,6 +2048,8 @@ trait HasTenantNotifications
      * @return void
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> c8b1c8bf (.)
      */
@@ -2017,12 +2063,15 @@ trait HasTenantNotifications
             if (! isset($model->tenant_id)) {
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (!isset($model->tenant_id)) {
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> c8b1c8bf (.)
      *
      * @return void
      */
@@ -2031,19 +2080,26 @@ trait HasTenantNotifications
         static::creating(function (Model $model) {
             if (!isset($model->tenant_id)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
                 $model->tenant_id = $model->getTenantId();
             }
         });
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         static::addGlobalScope('tenant', function (Builder $builder) {
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
         static::addGlobalScope('tenant', function (Builder $builder): void {
 >>>>>>> c8b1c8bf (.)
             /** @var Model $model */
@@ -2134,13 +2190,18 @@ trait HasTenantNotifications
         return $tenantManager->getTenantId();
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 75179b85 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
         static::addGlobalScope('tenant', function (Builder $builder) {
             /** @var Model $model */
             $model = $builder->getModel();
             $builder->where($model->getTable() . '.tenant_id', $model->getTenantId());
+<<<<<<< HEAD
 =======
 
     /**
@@ -2265,6 +2326,11 @@ trait HasTenantNotifications
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+        });
+    }
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 }
 =======
 } 

@@ -63,6 +63,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -305,6 +306,8 @@ use Eloquent;
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> c8b1c8bf (.)
 use Modules\Xot\Models\Traits\HasXotFactory;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
@@ -371,6 +374,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 =======
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73b (.)
 =======
@@ -399,6 +403,8 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> c8b1c8bf (.)
 use Override;
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\NotifyThemeFactory;
@@ -410,10 +416,14 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Illuminate\Support\Carbon;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 
 /**
  * Modules\Notify\Models\NotifyTheme.
@@ -426,6 +436,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property string|null $from
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property Carbon|null $created_at
  * @property string|null $created_by
  * @property Carbon|null $updated_at
@@ -433,16 +444,22 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 <<<<<<< HEAD
  * @property string|null $created_by
 =======
+ * @property string|null $created_by
+>>>>>>> c8b1c8bf (.)
+=======
  * @property Carbon|null $created_at
  * @property string|null $created_by
  * @property Carbon|null $updated_at
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
  * @property Carbon|null $created_at
  * @property string|null $created_by
  * @property Carbon|null $updated_at
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> c8b1c8bf (.)
  * @property string|null $updated_by
  * @property string|null $post_type
  * @property int|null $post_id
@@ -490,6 +507,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> 98d837b9 (.)
  * @property Model|Eloquent $linkable
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 985c7bda (.)
@@ -504,6 +522,8 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> fbed41ac (.)
+=======
+>>>>>>> c8b1c8bf (.)
  * @property Model $linkable
 =======
 <<<<<<< HEAD
@@ -874,9 +894,12 @@ class NotifyTheme extends BaseModel implements HasMedia
     use InteractsWithMedia;
 
 =======
+<<<<<<< HEAD
 =======
  * @property Model|Eloquent $linkable
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> c8b1c8bf (.)
  * @property MediaCollection<int, Media> $media
  * @property int|null $media_count
  * @method static NotifyThemeFactory factory($count = null, $state = [])
@@ -910,6 +933,7 @@ class NotifyTheme extends BaseModel implements HasMedia
  * @method static Builder<static>|NotifyTheme whereDeletedAt($value)
  * @method static Builder<static>|NotifyTheme whereDeletedBy($value)
  * @mixin IdeHelperNotifyTheme
+<<<<<<< HEAD
 =======
 /**
  * @property string $id
@@ -1035,6 +1059,14 @@ class NotifyTheme extends BaseModel
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+ * @mixin Eloquent
+ */
+class NotifyTheme extends BaseModel
+{
+    /** @var list<string> */
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
     protected $fillable = [
         'id',
         'lang',
@@ -1043,9 +1075,12 @@ class NotifyTheme extends BaseModel
         'body',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'body_html',
 =======
 <<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
 >>>>>>> c8b1c8bf (.)
         'from',
         'from_email',
@@ -1056,25 +1091,33 @@ class NotifyTheme extends BaseModel
 =======
         'from_email',
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> c8b1c8bf (.)
         'body_html',
         'from',
         'from_email',
         'post_type',
         'post_id',
         'theme',
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
         'logo_src',
         'logo_width',
         'logo_height',
         'view_params',
     ];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1090,6 +1133,8 @@ class NotifyTheme extends BaseModel
 =======
 >>>>>>> 5e14ac3 (.)
 >>>>>>> fbed41ac (.)
+=======
+>>>>>>> c8b1c8bf (.)
     /**
      * @return array{path: string, width: int, height: int}
      */
@@ -1166,6 +1211,7 @@ class NotifyTheme extends BaseModel
     public function getLogoAttribute(null|array $value): array
 =======
     public function getLogoAttribute(?array $value): array
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
@@ -1426,11 +1472,15 @@ class NotifyTheme extends BaseModel
 =======
 =======
 >>>>>>> 75179b85 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
     /** @var list<string> */
     protected $appends = [
         'logo',
     ];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function getLogoAttribute(null|array $value): array
 <<<<<<< HEAD
@@ -1587,6 +1637,10 @@ class NotifyTheme extends BaseModel
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> fbed41ac (.)
+=======
+    public function getLogoAttribute(null|array $value): array
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
     {
         return [
             // 'path' => asset(strval($this->logo_src)),
@@ -1605,6 +1659,7 @@ class NotifyTheme extends BaseModel
     }
 
     /** @return array<string, string> */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1961,6 +2016,11 @@ class NotifyTheme extends BaseModel
 =======
 >>>>>>> 5e14ac3 (.)
 >>>>>>> fbed41ac (.)
+=======
+=======
+    #[Override]
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
     protected function casts(): array
     {
         return [

@@ -40,6 +40,7 @@ namespace Modules\Notify\Filament\Resources\NotificationResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82ae73be (.)
@@ -89,6 +90,8 @@ namespace Modules\Notify\Filament\Resources\NotificationResource\Pages;
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> c8b1c8bf (.)
 use Override;
 >>>>>>> c8b1c8bf (.)
 =======
@@ -108,6 +111,7 @@ use Filament\Schemas\Components\Component;
 >>>>>>> 75179b85 (.)
 use Override;
 use Filament\Schemas\Components\Section;
+<<<<<<< HEAD
 <<<<<<< HEAD
 use Filament\Infolists\Components\TextEntry;
 =======
@@ -130,11 +134,18 @@ use Filament\Infolists\Components\TextEntry;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
 use Filament\Schemas\Components\Component;
 use Override;
 use Filament\Schemas\Components\Section;
 use Filament\Infolists\Components\TextEntry;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+=======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 use Modules\Notify\Filament\Resources\NotificationResource;

@@ -10,6 +10,7 @@ class RouteServiceProvider extends XotBaseRouteServiceProvider
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /**
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19,6 +20,8 @@ class RouteServiceProvider extends XotBaseRouteServiceProvider
      */
 =======
 <<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
 >>>>>>> c8b1c8bf (.)
     public string $name = 'Notify';
 
@@ -49,6 +52,7 @@ class RouteServiceProvider extends XotBaseRouteServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
     public string $name = 'Notify';
@@ -66,13 +70,18 @@ class RouteServiceProvider extends XotBaseRouteServiceProvider
     public string $name = 'Notify';
 >>>>>>> 75179b85 (.)
 =======
+=======
+>>>>>>> c8b1c8bf (.)
 =======
 
     public string $name = 'Notify';
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
 
     public string $name = 'Notify';
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> c8b1c8bf (.)
 }

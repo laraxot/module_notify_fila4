@@ -28,6 +28,7 @@ namespace Modules\Notify\Services\MailEngines;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use InvalidArgumentException;
 =======
 =======
@@ -92,6 +93,8 @@ use ErrorException;
 use Exception;
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> c8b1c8bf (.)
 use Illuminate\Mail\Message;
 use Illuminate\Support\Facades\Mail;
 <<<<<<< HEAD
@@ -99,6 +102,7 @@ use Illuminate\Support\Facades\Mail;
 <<<<<<< HEAD
 use InvalidArgumentException;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
@@ -137,10 +141,14 @@ use InvalidArgumentException;
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> fbed41ac (.)
+=======
+use InvalidArgumentException;
+>>>>>>> c8b1c8bf (.)
 use ErrorException;
 use Exception;
 use Illuminate\Mail\Message;
 use Illuminate\Support\Facades\Mail;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 75179b8 (.)
@@ -152,6 +160,9 @@ use InvalidArgumentException;
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 use Webmozart\Assert\Assert;
 
 // ---------CSS------------
@@ -220,6 +231,7 @@ class MailtrapEngine
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -619,6 +631,12 @@ class MailtrapEngine
     public null|string $from = null;
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+    public ?string $from = null;
+=======
+    public null|string $from = null;
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 
     public string $to;
 
@@ -681,6 +699,7 @@ class MailtrapEngine
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -720,6 +739,8 @@ class MailtrapEngine
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> c8b1c8bf (.)
     public ?string $body = null;
 
     private static ?self $instance = null;
@@ -728,6 +749,7 @@ class MailtrapEngine
     {
         if (! (self::$instance instanceof self)) {
             self::$instance = new self;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1127,6 +1149,9 @@ class MailtrapEngine
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
     public null|string $body = null;
 
     private static null|self $instance = null;
@@ -1135,6 +1160,7 @@ class MailtrapEngine
     {
         if (!(self::$instance instanceof self)) {
             self::$instance = new self();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1173,6 +1199,9 @@ class MailtrapEngine
             self::$instance = new self();
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
         }
 
         return self::$instance;
@@ -1263,6 +1292,7 @@ class MailtrapEngine
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         Assert::string($this->body, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
 >>>>>>> 98d837b9 (.)
@@ -1555,10 +1585,13 @@ class MailtrapEngine
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> c8b1c8bf (.)
         Assert::string($this->body, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
 =======
         Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
@@ -1651,11 +1684,14 @@ class MailtrapEngine
         Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> c8b1c8bf (.)
         Mail::raw($this->body, function (Message $msg): void {
             // Verifichiamo che $this->to sia valido
             $to = $this->to;
 
             // Utilizziamo una condizione più appropriata
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1760,6 +1796,12 @@ class MailtrapEngine
             if (!$to) {
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+            if (! $to) {
+=======
+            if (!$to) {
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
                 throw new InvalidArgumentException('Il destinatario email non è valido');
             }
 

@@ -35,6 +35,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Facades\File;
 use Tests\TestCase;
 =======
@@ -207,8 +208,14 @@ uses(TestCase::class);
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> e00d798d (.)
+=======
+>>>>>>> c8b1c8bf (.)
 use Illuminate\Support\Facades\File;
 use Tests\TestCase;
+=======
+use Tests\TestCase;
+use Illuminate\Support\Facades\File;
+>>>>>>> 75179b8 (.)
 
 uses(TestCase::class);
 <<<<<<< HEAD

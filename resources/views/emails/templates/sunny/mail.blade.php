@@ -1452,23 +1452,33 @@ declare(strict_types=1);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
     @include('notify::emails.templates.sunny.content-start')
 
     {!! $html !!}
 
     @include('notify::emails.templates.sunny.content-end')
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> c8b1c8bf (.)
     @include('notify::emails.templates.sunny.contentStart')
 
     {!! $html !!}
 
     @include('notify::emails.templates.sunny.contentEnd')
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 
     {{-- @include('beautymail::templates.sunny.button', [
         'title' => 'Click me',

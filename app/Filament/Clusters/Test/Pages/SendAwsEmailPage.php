@@ -8,11 +8,14 @@ namespace Modules\Notify\Filament\Clusters\Test\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Panel;
 use Filament\Schemas\Schema;
 use Filament\Forms\Components\TextInput;
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
 use Override;
 use Exception;
 use Filament\Actions\Action;
@@ -33,6 +36,7 @@ use Filament\Notifications\Notification as FilamentNotification;
 =======
 use Filament\Panel;
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -42,6 +46,8 @@ use Filament\Panel;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> c8b1c8bf (.)
 use Filament\Panel;
 use Filament\Schemas\Schema;
 use Filament\Forms\Components\TextInput;
@@ -57,10 +63,14 @@ use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Notifications\Notification as FilamentNotification;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Mail;
@@ -70,9 +80,12 @@ use Modules\Notify\Filament\Clusters\Test;
 use Modules\Xot\Filament\Pages\XotBasePage;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 =======
 <<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
 >>>>>>> c8b1c8bf (.)
 
 /**
@@ -85,9 +98,21 @@ class SendAwsEmailPage extends XotBasePage
 =======
     public ?array $emailData = [];
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
+=======
+use Modules\Xot\Filament\Traits\NavigationLabelTrait;
+
+/**
+ * @property \Filament\Schemas\Schema $emailForm
+ */
+class SendAwsEmailPage extends XotBasePage
+{
+    public null|array $emailData = [];
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 
 /**
  * @property \Filament\Schemas\Schema $emailForm
@@ -136,6 +161,7 @@ class SendAwsEmailPage extends XotBasePage
 
     protected string $view = 'notify::filament.pages.send-email';
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -195,6 +221,12 @@ class SendAwsEmailPage extends XotBasePage
 
     protected static null|string $cluster = Test::class;
 >>>>>>> 75179b85 (.)
+=======
+    protected static ?string $cluster = Test::class;
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 
     /**
      * Get the slug of the page
@@ -222,6 +254,7 @@ class SendAwsEmailPage extends XotBasePage
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $this->emailForm->fill();
 =======
 <<<<<<< HEAD
@@ -231,6 +264,18 @@ class SendAwsEmailPage extends XotBasePage
 =======
 >>>>>>> 75179b85 (.)
         $this->emailForm->fill();
+=======
+        // $this->emailForm->fill();
+        // Form data filled;
+=======
+        $this->emailForm->fill();
+    }
+
+    public function emailForm(Schema $schema): Schema
+    {
+        return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
     }
 
     public function emailForm(Schema $schema): Schema
@@ -940,18 +985,24 @@ class SendAwsEmailPage extends XotBasePage
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $data = $this->emailForm->getState();
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
         // $data = $this->emailForm->getState();
         $data = $this->data;
 =======
         $data = $this->emailForm->getState();
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
         $data = $this->emailForm->getState();
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> c8b1c8bf (.)
 
         try {
             $to = is_string($data['to']) ? $data['to'] : '';
@@ -992,6 +1043,7 @@ class SendAwsEmailPage extends XotBasePage
     {
         $user = Filament::auth()->user();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1045,6 +1097,12 @@ class SendAwsEmailPage extends XotBasePage
 =======
         if (!($user instanceof Model)) {
 >>>>>>> 75179b85 (.)
+=======
+        if (! ($user instanceof Model)) {
+=======
+        if (!($user instanceof Model)) {
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
             throw new Exception(
                 'L\'utente autenticato deve essere un modello Eloquent per consentire l\'aggiornamento del profilo.',
             );

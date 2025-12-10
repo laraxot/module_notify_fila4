@@ -66,6 +66,7 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 888799d0 (.)
@@ -459,6 +460,13 @@ return new class extends XotBaseMigration
 return new class() extends XotBaseMigration {
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+return new class extends XotBaseMigration
+{
+=======
+return new class() extends XotBaseMigration {
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
     // use XotBaseMigrationTrait;
     /**
      * Run the migrations.

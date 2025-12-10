@@ -25,6 +25,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fbed41ac (.)
 =======
@@ -199,6 +200,8 @@ Il modulo Notify gestisce l'intero sistema di notifiche multi-canale del progett
 >>>>>>> 5e14ac3 (.)
 =======
 >>>>>>> fbed41ac (.)
+=======
+>>>>>>> c8b1c8bf (.)
 # Notify Module Roadmap
 
 ## Module Progress Overview
@@ -379,6 +382,7 @@ Overall Module Completion: 60%
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -619,6 +623,8 @@ Overall Module Completion: 60%
 >>>>>>> 06e3078e (.)
 =======
 >>>>>>> 70e8274e (.)
+=======
+>>>>>>> c8b1c8bf (.)
 * [roadmap.md](bashscripts/docs/roadmap.md)
 * [roadmap.md](docs/roadmap.md)
 * [roadmap.md](../../../Gdpr/docs/roadmap.md)
@@ -634,6 +640,7 @@ Overall Module Completion: 60%
 * [roadmap.md](../../../Activity/docs/roadmap.md)
 * [roadmap.md](../../../Patient/docs/roadmap.md)
 * [roadmap.md](../../../Cms/docs/roadmap.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -787,10 +794,13 @@ Overall Module Completion: 60%
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 77edd94a (.)
+=======
+>>>>>>> c8b1c8bf (.)
 * [roadmap.md](../../../../Themes/One/docs/roadmap.md)* [roadmap.md](bashscripts/project_docs/roadmap.md)
 * [roadmap.md](../../../../Themes/One/docs/roadmap.md)
 * [roadmap.md](bashscripts/project_docs/roadmap.md)
 * [roadmap.md](../../../../Themes/One/docs/roadmap.md)* [roadmap.md](bashscripts/project_docs/roadmap.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1246,6 +1256,8 @@ Overall Module Completion: 60%
 >>>>>>> 06e3078e (.)
 =======
 >>>>>>> 70e8274e (.)
+=======
+>>>>>>> c8b1c8bf (.)
 * [roadmap.md](docs/roadmap.md)
 * [roadmap.md](../../../Gdpr/project_docs/roadmap.md)
 * [roadmap.md](../../../Notify/project_docs/roadmap.md)
@@ -1261,6 +1273,7 @@ Overall Module Completion: 60%
 * [roadmap.md](../../../Patient/project_docs/roadmap.md)
 * [roadmap.md](../../../Cms/project_docs/roadmap.md)
 * [roadmap.md](../../../../Themes/One/project_docs/roadmap.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1473,6 +1486,8 @@ Overall Module Completion: 60%
 >>>>>>> fbed41ac (.)
 =======
 >>>>>>> 77edd94a (.)
+=======
+>>>>>>> c8b1c8bf (.)
 
 # Roadmap Implementazione
 
@@ -1719,6 +1734,7 @@ Overall Module Completion: 60%
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2115,10 +2131,16 @@ Per contribuire alla documentazione, seguire le [Linee Guida](../../../docs/line
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 77edd94a (.)
+=======
+Per contribuire alla documentazione, seguire le [Linee Guida](../../../docs/linee-guida-documentazione.md) e le [Regole dei Collegamenti](../../../docs/regole_collegamenti_documentazione.md).
+
+## Collegamenti Completi
+>>>>>>> c8b1c8bf (.)
 Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../docs/README_links.md).Per contribuire alla documentazione, seguire le [Linee Guida](../../../project_docs/linee-guida-documentazione.md) e le [Regole dei Collegamenti](../../../project_docs/regole_collegamenti_documentazione.md).
 Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../docs/README_links.md).
 Per contribuire alla documentazione, seguire le [Linee Guida](../../../project_docs/linee-guida-documentazione.md) e le [Regole dei Collegamenti](../../../project_docs/regole_collegamenti_documentazione.md).
 Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../docs/README_links.md).Per contribuire alla documentazione, seguire le [Linee Guida](../../../project_docs/linee-guida-documentazione.md) e le [Regole dei Collegamenti](../../../project_docs/regole_collegamenti_documentazione.md).
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2728,6 +2750,11 @@ Per una lista completa di tutti i collegamenti tra i README.md, consultare il fi
 >>>>>>> fbed41ac (.)
 =======
 >>>>>>> 77edd94a (.)
+=======
+
+## Collegamenti Completi
+Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../project_docs/README_links.md).
+>>>>>>> c8b1c8bf (.)
 
 
 ### Versione Incoming
@@ -2735,6 +2762,7 @@ Per una lista completa di tutti i collegamenti tra i README.md, consultare il fi
 
 ---
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2810,3 +2838,5 @@ Per una lista completa di tutti i collegamenti tra i README.md, consultare il fi
 >>>>>>> 7bac387 (.)
 >>>>>>> 9ed014c (.)
 >>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> c8b1c8bf (.)

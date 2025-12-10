@@ -14,10 +14,14 @@ describe('Contact Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
         $contact = new Contact;
 =======
         $contact = new Contact();
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 =======
         $contact = new Contact();
 >>>>>>> 75179b85 (.)
@@ -27,6 +31,8 @@ describe('Contact Business Logic', function () {
         $contact = new Contact();
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
         $contact->model_type = 'App\\Models\\User';
         $contact->model_id = '1';
 
@@ -38,10 +44,14 @@ describe('Contact Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
         $contact = new Contact;
 =======
         $contact = new Contact();
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 =======
         $contact = new Contact();
 >>>>>>> 75179b85 (.)
@@ -51,6 +61,8 @@ describe('Contact Business Logic', function () {
         $contact = new Contact();
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
         $contact->contact_type = 'email';
         $contact->value = 'test@example.com';
 
@@ -62,10 +74,14 @@ describe('Contact Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
         $contact = new Contact;
 =======
         $contact = new Contact();
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 =======
         $contact = new Contact();
 >>>>>>> 75179b85 (.)
@@ -75,6 +91,8 @@ describe('Contact Business Logic', function () {
         $contact = new Contact();
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
         $contact->sms_count = 5;
         $contact->sms_status_code = '200';
         $contact->sms_status_txt = 'Success';
@@ -88,10 +106,14 @@ describe('Contact Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
         $contact = new Contact;
 =======
         $contact = new Contact();
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 =======
         $contact = new Contact();
 >>>>>>> 75179b85 (.)
@@ -101,6 +123,8 @@ describe('Contact Business Logic', function () {
         $contact = new Contact();
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
         $contact->mail_count = 3;
         $contact->mail_sent_at = '2023-01-01 10:00:00';
 
@@ -112,10 +136,14 @@ describe('Contact Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
         $contact = new Contact;
 =======
         $contact = new Contact();
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 =======
         $contact = new Contact();
 >>>>>>> 75179b85 (.)
@@ -125,6 +153,8 @@ describe('Contact Business Logic', function () {
         $contact = new Contact();
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
         $contact->first_name = 'Mario';
         $contact->last_name = 'Rossi';
 
@@ -136,10 +166,14 @@ describe('Contact Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
         $contact = new Contact;
 =======
         $contact = new Contact();
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 =======
         $contact = new Contact();
 >>>>>>> 75179b85 (.)
@@ -149,6 +183,8 @@ describe('Contact Business Logic', function () {
         $contact = new Contact();
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
         $contact->token = 'abc123';
         $contact->verified_at = '2023-01-01 12:00:00';
 
@@ -160,10 +196,14 @@ describe('Contact Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
         $contact = new Contact;
 =======
         $contact = new Contact();
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 =======
         $contact = new Contact();
 >>>>>>> 75179b85 (.)
@@ -173,6 +213,8 @@ describe('Contact Business Logic', function () {
         $contact = new Contact();
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
         $contact->attribute_1 = 'value1';
         $contact->attribute_2 = 'value2';
 
@@ -184,10 +226,14 @@ describe('Contact Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
         $contact = new Contact;
 =======
         $contact = new Contact();
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 =======
         $contact = new Contact();
 >>>>>>> 75179b85 (.)
@@ -197,6 +243,8 @@ describe('Contact Business Logic', function () {
         $contact = new Contact();
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
         $contact->duplicate_count = 2;
 
         expect($contact->duplicate_count)->toBe(2);
@@ -206,10 +254,14 @@ describe('Contact Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
         $contact = new Contact;
 =======
         $contact = new Contact();
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 =======
         $contact = new Contact();
 >>>>>>> 75179b85 (.)
@@ -219,6 +271,8 @@ describe('Contact Business Logic', function () {
         $contact = new Contact();
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
         $contact->order_column = 1;
 
         expect($contact->order_column)->toBe(1);

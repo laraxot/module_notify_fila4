@@ -30,6 +30,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -86,6 +87,8 @@
 >>>>>>> fd1fcc4c (.)
 =======
 >>>>>>> 4f3927d7 (.)
+=======
+>>>>>>> c8b1c8bf (.)
 # Sistema Code Email - il progetto
 
 ## Panoramica
@@ -343,6 +346,7 @@ class MailQueueResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
     public static function form(Form $form): Form
@@ -452,6 +456,9 @@ class MailQueueResource extends XotBaseResource
 =======
     public static function form(Form $form): Form
 >>>>>>> 4f3927d7 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> c8b1c8bf (.)
     {
         return $form->schema([
             Card::make()->schema([
@@ -788,6 +795,7 @@ class MailQueueManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1639,3 +1647,8 @@ class MailQueueManager
 - [Laravel Horizon](https://laravel.com/docs/horizon)
 - [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
 >>>>>>> cccb594f (.)
+=======
+- [Laravel Queue](https://laravel.com/project_docs/queues)
+- [Laravel Horizon](https://laravel.com/project_docs/horizon)
+- [Laravel Supervisor](https://laravel.com/project_docs/queues#supervisor-configuration) 
+>>>>>>> c8b1c8bf (.)

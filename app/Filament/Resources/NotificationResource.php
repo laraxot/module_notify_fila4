@@ -508,6 +508,7 @@
 >>>>>>> 4b544042 (.)
 declare(strict_types=1);
 
+<<<<<<< HEAD
 namespace Modules\Notify\Filament\Resources;
 
 use Filament\Forms\Components\DateTimePicker;
@@ -527,6 +528,7 @@ use Modules\Notify\Filament\Resources\NotificationResource\Pages;
 use Modules\Notify\Models\Notification;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 use Modules\Xot\Filament\Resources\XotBaseResource;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -565,10 +567,13 @@ use Filament\Forms\Components\TextInput;
 use Modules\Notify\Filament\Resources\NotificationResource\Pages;
 use Modules\Notify\Models\Notification;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+=======
+>>>>>>> c8b1c8bf (.)
 use Modules\Xot\Filament\Resources\XotBaseResource;
 
 class NotificationResource extends XotBaseResource
 {
+<<<<<<< HEAD
     protected static null|string $model = Notification::class;
 >>>>>>> f5f1cb1 (.)
 
@@ -576,10 +581,18 @@ class NotificationResource extends XotBaseResource
     #[\Override]
 =======
 =======
+<<<<<<< HEAD
+    protected static ?string $model = Notification::class;
+
+>>>>>>> c8b1c8bf (.)
+=======
     protected static null|string $model = Notification::class;
 
     #[Override]
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
 >>>>>>> c8b1c8bf (.)
     public static function getFormSchema(): array
     {

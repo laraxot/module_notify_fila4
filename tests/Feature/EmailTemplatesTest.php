@@ -98,6 +98,7 @@ declare(strict_types=1);
 =======
 >>>>>>> e42e3233 (rebase 210)
 
+<<<<<<< HEAD
 >>>>>>> 7d903672 (.)
 use Tests\TestCase;
 use Illuminate\Support\Facades\File;
@@ -294,10 +295,13 @@ test('html template contains optional function', function (): void {
 
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> c8b1c8bf (.)
 <<<<<<< HEAD
 use Illuminate\Support\Facades\File;
 use Tests\TestCase;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -948,6 +952,11 @@ test('html template contains optional function', function (): void {
 
 use Tests\TestCase;
 use Illuminate\Support\Facades\File;
+=======
+use Tests\TestCase;
+use Illuminate\Support\Facades\File;
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 
 uses(TestCase::class);
 

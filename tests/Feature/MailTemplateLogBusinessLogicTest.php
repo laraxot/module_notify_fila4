@@ -38,6 +38,7 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -94,6 +95,11 @@ use Carbon\Carbon;
 use Carbon\Carbon;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+=======
+use Carbon\Carbon;
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Models\MailTemplateLog;
 <<<<<<< HEAD
@@ -4953,6 +4959,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'clinic_name' => 'Studio Dentistico ' . config('app.name', 'Our Platform'),
 =======
 <<<<<<< HEAD
@@ -4975,6 +4982,12 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+                    'clinic_name' => 'Studio Dentistico '.config('app.name', 'Our Platform'),
+=======
+                    'clinic_name' => 'Studio Dentistico ' . config('app.name', 'Our Platform'),
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
                     'clinic_address' => 'Via Roma 123, Milano',
                     'clinic_phone' => '+39 02 1234567',
                 ],

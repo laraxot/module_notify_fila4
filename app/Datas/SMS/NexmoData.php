@@ -6,6 +6,7 @@ namespace Modules\Notify\Datas\SMS;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Arr;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -200,6 +201,8 @@ use Illuminate\Support\Arr;
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> c8b1c8bf (.)
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
@@ -405,19 +408,25 @@ class NexmoData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> c8b1c8bf (.)
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> c8b1c8bf (.)
 use Webmozart\Assert\Assert;
 
 class NexmoData extends Data
@@ -437,6 +446,7 @@ class NexmoData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
@@ -451,6 +461,9 @@ class NexmoData extends Data
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
             /*
 <<<<<<< HEAD
             $data = TenantService::getConfig('sms');
@@ -770,6 +783,7 @@ class NexmoData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'Authorization' => 'Basic ' . base64_encode($this->key . ':' . $this->secret),
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -903,6 +917,12 @@ class NexmoData extends Data
 >>>>>>> 0f07e6d (.)
 <<<<<<< HEAD
 >>>>>>> 4d2eb53e (.)
+=======
+                    'Authorization' => 'Basic '.base64_encode($this->key.':'.$this->secret),
+=======
+                    'Authorization' => 'Basic ' . base64_encode($this->key . ':' . $this->secret),
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
                     'Content-Type' => 'application/json',
 =======
                     'Content-Type' => 'application/json'

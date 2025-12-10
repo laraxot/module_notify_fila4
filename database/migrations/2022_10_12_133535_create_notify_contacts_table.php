@@ -63,6 +63,7 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 888799d0 (.)
@@ -434,9 +435,15 @@ return new class() extends XotBaseMigration {
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
 =======
+return new class extends XotBaseMigration
+{
+    protected ?string $model_class = Contact::class;
+>>>>>>> c8b1c8bf (.)
+=======
 return new class() extends XotBaseMigration {
     protected null|string $model_class = Contact::class;
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
@@ -527,6 +534,8 @@ return new class extends XotBaseMigration
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> c8b1c8bf (.)
 
     /**
      * Run the migrations.
@@ -756,6 +765,7 @@ return new class extends XotBaseMigration
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (!$this->hasColumn('token')) {
 =======
 <<<<<<< HEAD
@@ -778,6 +788,12 @@ return new class extends XotBaseMigration
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+            if (! $this->hasColumn('token')) {
+=======
+            if (!$this->hasColumn('token')) {
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
                 $table->string('token')->nullable();
             }
             $this->updateTimestamps(

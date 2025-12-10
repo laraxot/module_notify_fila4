@@ -77,6 +77,7 @@ namespace Modules\Notify\Filament\Resources\ContactResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82ae73be (.)
@@ -220,6 +221,8 @@ use Filament\Tables\Columns\IconColumn;
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> c8b1c8bf (.)
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\Filter;
 use Illuminate\Database\Eloquent\Builder;
@@ -412,6 +415,7 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2cbbc069 (.)
 =======
 =======
@@ -505,10 +509,16 @@ use Filament\Tables;
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> fbed41ac (.)
+=======
+=======
+use Override;
+use Filament\Tables;
+>>>>>>> c8b1c8bf (.)
 use Filament\Tables\Columns\IconColumn;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\Filter;
 use Illuminate\Database\Eloquent\Builder;
+<<<<<<< HEAD
 =======
 >>>>>>> 2cbbc069 (.)
 =======
@@ -685,6 +695,13 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> e00d798d (.)
+=======
+use Modules\Notify\Filament\Resources\ContactResource;
+use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 class ListContacts extends XotBaseListRecords
 {
     protected static string $resource = ContactResource::class;
@@ -744,6 +761,7 @@ class ListContacts extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -924,6 +942,8 @@ class ListContacts extends XotBaseListRecords
     #[\Override]
 >>>>>>> 5e14ac3 (.)
 >>>>>>> fbed41ac (.)
+=======
+>>>>>>> c8b1c8bf (.)
     public function getTableColumns(): array
     {
         return [
@@ -1280,6 +1300,7 @@ class ListContacts extends XotBaseListRecords
 =======
             'active' => FilterBuilder::activeToggle(),
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2cbbc069 (.)
 =======
 =======
@@ -1308,14 +1329,20 @@ class ListContacts extends XotBaseListRecords
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
     #[Override]
     public function getTableColumns(): array
     {
         return [
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> c8b1c8bf (.)
             'id' => TextColumn::make('id')->numeric()->sortable(),
             'name' => TextColumn::make('name')->searchable()->sortable(),
             'email' => TextColumn::make('email')->searchable()->sortable(),
@@ -1324,6 +1351,7 @@ class ListContacts extends XotBaseListRecords
             'is_read' => IconColumn::make('is_read')->boolean(),
             'created_at' => TextColumn::make('created_at')->dateTime()->sortable(),
             'updated_at' => TextColumn::make('updated_at')->dateTime()->sortable(),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1344,6 +1372,8 @@ class ListContacts extends XotBaseListRecords
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> e00d798d (.)
+=======
+>>>>>>> c8b1c8bf (.)
         ];
     }
 
@@ -1351,6 +1381,7 @@ class ListContacts extends XotBaseListRecords
     public function getTableFilters(): array
     {
         return [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1420,10 +1451,13 @@ class ListContacts extends XotBaseListRecords
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> c8b1c8bf (.)
             'active' => Filter::make('active')->query(fn(Builder $query): Builder => $query->where('active', true)),
             'inactive' => Filter::make('inactive')->query(
                 fn(Builder $query): Builder => $query->where('active', false),
             ),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1875,6 +1909,9 @@ class ListContacts extends XotBaseListRecords
 =======
             'active' => FilterBuilder::activeToggle(),
 >>>>>>> e00d798d (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
         ];
     }
 }

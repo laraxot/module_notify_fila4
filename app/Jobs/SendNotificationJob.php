@@ -24,6 +24,7 @@ namespace Modules\Notify\Jobs;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Throwable;
 =======
 =======
@@ -141,6 +142,11 @@ use Throwable;
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> fbed41ac (.)
+=======
+=======
+use Throwable;
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Database\Eloquent\Model;
@@ -148,6 +154,7 @@ use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
 use Modules\Notify\Actions\SendNotificationAction;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -170,6 +177,11 @@ use Throwable;
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+use Throwable;
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 
 class SendNotificationJob implements ShouldQueue
 {
@@ -195,6 +207,7 @@ class SendNotificationJob implements ShouldQueue
     /**
      * Crea una nuova istanza del job.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -239,22 +252,29 @@ class SendNotificationJob implements ShouldQueue
      * @param  array  $options  Opzioni aggiuntive per l'invio
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
      * @param  Model  $recipient  Il destinatario della notifica
      * @param  string  $templateCode  Il codice del template da utilizzare
      * @param  array<string, mixed>  $data  I dati per compilare il template
      * @param  array<int, string>  $channels  I canali da utilizzare
      * @param  array<string, mixed>  $options  Opzioni aggiuntive per l'invio
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
 =======
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
      * @param Model $recipient Il destinatario della notifica
      * @param string $templateCode Il codice del template da utilizzare
      * @param array $data I dati per compilare il template
      * @param array $channels I canali da utilizzare
      * @param array $options Opzioni aggiuntive per l'invio
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -268,6 +288,9 @@ class SendNotificationJob implements ShouldQueue
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
      */
     public function __construct(
         protected Model $recipient,
@@ -1337,6 +1360,7 @@ class SendNotificationJob implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1423,6 +1447,8 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> c8b1c8bf (.)
         /** @var array<string, mixed> $data */
         $data = $this->data;
         /** @var array<int, string> $channels */
@@ -1431,6 +1457,7 @@ class SendNotificationJob implements ShouldQueue
         $options = $this->options;
 
         $action->execute($this->recipient, $this->templateCode, $data, $channels, $options);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2015,10 +2042,16 @@ class SendNotificationJob implements ShouldQueue
         $action->execute($this->recipient, $this->templateCode, $this->data, $this->channels, $this->options);
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+=======
+        $action->execute($this->recipient, $this->templateCode, $this->data, $this->channels, $this->options);
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
     }
 
     /**
      * Gestisce un fallimento del job.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2045,9 +2078,12 @@ class SendNotificationJob implements ShouldQueue
 =======
 >>>>>>> d45a0226 (.)
 =======
+>>>>>>> c8b1c8bf (.)
+=======
      *
      * @param Throwable $exception
      * @return void
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2095,6 +2131,9 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> fbed41ac (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
      */
     public function failed(Throwable $exception): void
     {

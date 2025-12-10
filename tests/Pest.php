@@ -61,6 +61,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -269,6 +270,14 @@ use Modules\Notify\Models\Notification;
 use Modules\Notify\Models\MailTemplate;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Models\Notification;
+=======
+use Modules\Notify\Models\Notification;
+use Modules\Notify\Models\MailTemplate;
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 use Modules\Notify\Tests\TestCase;
 
 /*
@@ -298,6 +307,7 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 expect()->extend('toBeNotification', fn() => $this->toBeInstanceOf(Notification::class));
 
 expect()->extend('toBeMailTemplate', fn() => $this->toBeInstanceOf(MailTemplate::class));
@@ -307,6 +317,8 @@ expect()->extend('toBeMailTemplate', fn() => $this->toBeInstanceOf(MailTemplate:
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
 expect()->extend('toBeNotification', fn () => $this->toBeInstanceOf(Notification::class));
 
 expect()->extend('toBeMailTemplate', fn () => $this->toBeInstanceOf(MailTemplate::class));
@@ -314,6 +326,7 @@ expect()->extend('toBeMailTemplate', fn () => $this->toBeInstanceOf(MailTemplate
 expect()->extend('toBeNotification', fn() => $this->toBeInstanceOf(Notification::class));
 
 expect()->extend('toBeMailTemplate', fn() => $this->toBeInstanceOf(MailTemplate::class));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 99ff506 (.)
@@ -324,6 +337,9 @@ expect()->extend('toBeMailTemplate', fn() => $this->toBeInstanceOf(MailTemplate:
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 
 /*
  * |--------------------------------------------------------------------------

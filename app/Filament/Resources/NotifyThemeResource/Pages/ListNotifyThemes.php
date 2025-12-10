@@ -62,6 +62,7 @@ namespace Modules\Notify\Filament\Resources\NotifyThemeResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -128,10 +129,13 @@ use Override;
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> c8b1c8bf (.)
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\SelectFilter;
 use Modules\Notify\Filament\Resources\NotifyThemeResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
@@ -294,12 +298,17 @@ use Override;
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 888799d0 (.)
+=======
+=======
+use Override;
+>>>>>>> c8b1c8bf (.)
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\SelectFilter;
 use Filament\Tables\Columns;
 use Filament\Tables\Filters;
 use Modules\Notify\Filament\Resources\NotifyThemeResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -500,6 +509,10 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -896,6 +909,7 @@ class ListNotifyThemes extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1076,6 +1090,11 @@ class ListNotifyThemes extends XotBaseListRecords
 >>>>>>> 54220b28 (rebase 210)
 =======
 >>>>>>> fbed41ac (.)
+=======
+=======
+    #[Override]
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
     public function getTableColumns(): array
     {
         return [
@@ -1525,6 +1544,7 @@ class ListNotifyThemes extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1723,10 +1743,16 @@ class ListNotifyThemes extends XotBaseListRecords
 >>>>>>> 54220b28 (rebase 210)
 =======
 >>>>>>> fbed41ac (.)
+=======
+=======
+    #[Override]
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
     public function getTableFilters(): array
     {
         return [
             'lang' => SelectFilter::make('lang')->options(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1737,6 +1763,8 @@ class ListNotifyThemes extends XotBaseListRecords
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
                 fn (): array => NotifyThemeResource::fieldOptions('lang'),
 >>>>>>> f1c9518b (.)
             ),
@@ -1758,6 +1786,7 @@ class ListNotifyThemes extends XotBaseListRecords
                 fn(): array => NotifyThemeResource::fieldOptions('type'),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
@@ -1766,6 +1795,9 @@ class ListNotifyThemes extends XotBaseListRecords
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
             ),
         ];
     }

@@ -16,6 +16,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Facades\Http;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SmsData;
@@ -176,9 +177,12 @@ use Modules\Notify\Datas\SmsData;
 =======
 >>>>>>> 2effe245 (.)
 =======
+>>>>>>> c8b1c8bf (.)
+=======
 use Illuminate\Support\Facades\Http;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SmsData;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -425,6 +429,10 @@ use Modules\Notify\Datas\SmsData;
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> fbed41ac (.)
+=======
+
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 use function Safe\preg_split;
 
 /**
@@ -2442,10 +2450,14 @@ class FormatSmsMessageAction
             $smsCount = intval($characterCount / 153);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
             if ($characterCount % 153 > 0) {
 =======
             if (($characterCount % 153) > 0) {
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
                 $smsCount++;
             }
         }
@@ -2679,6 +2691,8 @@ class FormatSmsMessageAction
 >>>>>>> 58816034 (.)
 =======
             if (($characterCount % 153) > 0) {
+=======
+>>>>>>> c8b1c8bf (.)
                 $smsCount++;
             }
         }

@@ -1447,13 +1447,19 @@ declare(strict_types=1);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
     @include('notify::emails.templates.minty.content-start')
 =======
     @include('notify::emails.templates.minty.contentStart')
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 =======
     @include('notify::emails.templates.minty.contentStart')
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> c8b1c8bf (.)
     <tr>
         <td class="paragraph">
             {!! $html !!}
@@ -1504,12 +1510,18 @@ declare(strict_types=1);
     </tr> --}}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
     @include('notify::emails.templates.minty.content-end')
 =======
     @include('notify::emails.templates.minty.contentEnd')
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 =======
     @include('notify::emails.templates.minty.contentEnd')
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> c8b1c8bf (.)
 
 @stop

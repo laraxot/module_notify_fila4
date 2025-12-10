@@ -62,6 +62,7 @@ use Illuminate\Database\Schema\Blueprint;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -399,9 +400,12 @@ use Illuminate\Support\Facades\Schema;
 =======
 >>>>>>> 58816034 (.)
 =======
+>>>>>>> c8b1c8bf (.)
+=======
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
@@ -488,6 +492,8 @@ use Illuminate\Support\Facades\Schema;
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> fbed41ac (.)
+=======
+>>>>>>> c8b1c8bf (.)
 // ----- bases ----
 use Modules\Xot\Database\Migrations\XotBaseMigration;
 
@@ -553,6 +559,7 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 888799d0 (.)
@@ -950,6 +957,13 @@ return new class extends XotBaseMigration
 return new class() extends XotBaseMigration {
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+return new class extends XotBaseMigration
+{
+=======
+return new class() extends XotBaseMigration {
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
     /**
      * Run the migrations.
      */
@@ -1286,6 +1300,7 @@ return new class() extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2118,6 +2133,8 @@ return new class() extends XotBaseMigration {
 =======
 >>>>>>> b93ef594b4 (.)
 =======
+=======
+>>>>>>> c8b1c8bf (.)
             if (! $this->hasColumn('name')) {
                 $table->string('name');
             }
@@ -2131,6 +2148,21 @@ return new class() extends XotBaseMigration {
                 $table->json('sms_template')->nullable();
             }
             if (! $this->hasColumn('counter')) {
+=======
+            if (!$this->hasColumn('name')) {
+                $table->string('name');
+            }
+            if (!$this->hasColumn('slug')) {
+                $table->string('slug')->unique();
+            }
+            if (!$this->hasColumn('params')) {
+                $table->text('params')->nullable();
+            }
+            if (!$this->hasColumn('sms_template')) {
+                $table->json('sms_template')->nullable();
+            }
+            if (!$this->hasColumn('counter')) {
+>>>>>>> 75179b8 (.)
                 $table->integer('counter')->default(0);
             }
 

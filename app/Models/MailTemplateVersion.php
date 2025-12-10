@@ -61,6 +61,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -420,6 +421,8 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> c8b1c8bf (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Override;
 use RuntimeException;
@@ -434,6 +437,7 @@ use Modules\Xot\Traits\Updater;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
@@ -443,6 +447,8 @@ use Modules\Xot\Traits\Updater;
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
 
 /**
  * @property int $id
@@ -468,6 +474,7 @@ use Modules\Xot\Traits\Updater;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
  *
@@ -483,6 +490,8 @@ use Modules\Xot\Traits\Updater;
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
  * @method static MailTemplateVersionFactory factory($count = null, $state = [])
  * @method static Builder<static>|MailTemplateVersion newModelQuery()
  * @method static Builder<static>|MailTemplateVersion newQuery()
@@ -504,6 +513,7 @@ use Modules\Xot\Traits\Updater;
  * @method static Builder<static>|MailTemplateVersion whereVersion($value)
  * @method static Builder<static>|MailTemplateVersion withTrashed()
  * @method static Builder<static>|MailTemplateVersion withoutTrashed()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -855,6 +865,11 @@ use Modules\Xot\Traits\Updater;
  * @mixin \Eloquent
  */
 >>>>>>> e00d798d (.)
+=======
+ * @mixin IdeHelperMailTemplateVersion
+ * @mixin \Eloquent
+ */
+>>>>>>> c8b1c8bf (.)
 class MailTemplateVersion extends BaseModel
 {
     use SoftDeletes, Updater;
@@ -879,6 +894,7 @@ class MailTemplateVersion extends BaseModel
      *
      * @return array<string, string>
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1219,6 +1235,9 @@ class MailTemplateVersion extends BaseModel
     #[\Override]
 >>>>>>> 5e14ac3 (.)
 >>>>>>> fbed41ac (.)
+=======
+    #[Override]
+>>>>>>> c8b1c8bf (.)
     protected function casts(): array
     {
         return [
@@ -1243,6 +1262,7 @@ class MailTemplateVersion extends BaseModel
         }
 
         $template->update([
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1294,6 +1314,13 @@ class MailTemplateVersion extends BaseModel
 >>>>>>> a335025b (rebase 210)
 =======
 >>>>>>> e00d798d (.)
+=======
+            'subject' => $this->subject,
+            'html_template' => $this->html_template,
+            'text_template' => $this->text_template,
+        ]);
+
+>>>>>>> c8b1c8bf (.)
         return $template;
     }
 }

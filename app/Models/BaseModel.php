@@ -26,6 +26,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Models\XotBaseModel;
 =======
 =======
@@ -114,10 +115,15 @@ use Modules\Xot\Actions\Factory\GetFactoryAction;
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> f5f1cb1 (.)
+=======
+use Modules\Xot\Models\XotBaseModel;
+=======
+>>>>>>> c8b1c8bf (.)
 use Modules\Xot\Actions\Factory\GetFactoryAction;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -148,6 +154,10 @@ use Modules\Xot\Models\XotBaseModel;
 use Modules\Xot\Models\XotBaseModel;
 >>>>>>> a80c61f (.)
 >>>>>>> 7c1c276f (rebase 210)
+=======
+use Modules\Xot\Traits\Updater;
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
 
@@ -169,6 +179,9 @@ use Spatie\MediaLibrary\InteractsWithMedia;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
 abstract class BaseModel extends XotBaseModel implements HasMedia
 {
 <<<<<<< HEAD
@@ -187,14 +200,18 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 >>>>>>> fbed41ac (.)
     use InteractsWithMedia;
 =======
+<<<<<<< HEAD
 =======
  * Class BaseModel.
  */
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> c8b1c8bf (.)
 abstract class BaseModel extends Model implements HasMedia
 {
     // use Searchable;
     use HasFactory;
+<<<<<<< HEAD
 =======
 abstract class BaseModel extends XotBaseModel implements HasMedia
 {
@@ -214,6 +231,18 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+    use InteractsWithMedia;
+    use Updater;
+
+    /**
+     * Indicates whether attributes are snake cased on arrays.
+     *
+     * @see https://laravel-news.com/6-eloquent-secrets
+     *
+     * @var bool
+     */
+>>>>>>> c8b1c8bf (.)
     public static $snakeAttributes = true;
 
     /** @var bool */
@@ -224,6 +253,7 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 
     /** @var int */
     protected $perPage = 30;
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 
@@ -237,11 +267,19 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 
     /** @var string */
     protected $connection = 'notify';
 
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
     /** @var list<string> */
     protected $appends = [];
 
@@ -256,6 +294,7 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
         // 'password'
     ];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -337,12 +376,18 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+    /**
+     * Create a new factory instance for the model.
+     *
+>>>>>>> c8b1c8bf (.)
      * @return Factory<static>
      */
     protected static function newFactory()
     {
         return app(GetFactoryAction::class)->execute(static::class);
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -367,6 +412,10 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 =======
 >>>>>>> fbed41ac (.)
 
+=======
+
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
     /** @return array<string, string> */
     protected function casts(): array
     {

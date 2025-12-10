@@ -6,6 +6,7 @@ namespace Modules\Notify\Datas\SMS;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Arr;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -139,6 +140,8 @@ use Illuminate\Support\Arr;
 =======
 <<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> c8b1c8bf (.)
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
@@ -176,13 +179,17 @@ class AgiletelecomData extends Data
         if (! (self::$instance instanceof AgiletelecomData)) {
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> c8b1c8bf (.)
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -194,6 +201,11 @@ use Webmozart\Assert\Assert;
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> d45a0226 (.)
+=======
+use Symfony\Component\Mime\Address;
+use Symfony\Component\Mime\Email as MimeEmail;
+use Webmozart\Assert\Assert;
+>>>>>>> c8b1c8bf (.)
 
 class AgiletelecomData extends Data
 {
@@ -212,6 +224,7 @@ class AgiletelecomData extends Data
 
     public static function make(): self
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (!(self::$instance instanceof AgiletelecomData)) {
 <<<<<<< HEAD
@@ -255,6 +268,10 @@ class AgiletelecomData extends Data
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+        if (!(self::$instance instanceof AgiletelecomData)) {
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
             /*
              * $data = TenantService::getConfig('sms');
              * $data = Arr::get($data, 'drivers.agiletelecom', []);
@@ -1255,6 +1272,7 @@ class AgiletelecomData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'Authorization' => 'Api-Key '.$this->api_key,
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1401,11 +1419,18 @@ class AgiletelecomData extends Data
                     'Authorization' => 'Api-Key ' . $this->api_key,
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+                    'Authorization' => 'Api-Key '.$this->api_key,
+=======
+                    'Authorization' => 'Api-Key ' . $this->api_key,
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
                     'Content-Type' => 'application/json',
                 ];
 
             case 'oauth':
                 return [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1853,12 +1878,19 @@ class AgiletelecomData extends Data
                     'Authorization' => 'OAuth ' . $this->oauth_token,
 =======
 >>>>>>> f1c9518b (.)
+=======
+                    'Authorization' => 'OAuth '.$this->oauth_token,
+=======
+                    'Authorization' => 'OAuth ' . $this->oauth_token,
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
                     'Content-Type' => 'application/json',
                 ];
 
             case 'basic':
             default:
                 return [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1972,6 +2004,12 @@ class AgiletelecomData extends Data
                     'Authorization' => 'Basic ' . base64_encode($this->username . ':' . $this->password),
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+                    'Authorization' => 'Basic '.base64_encode($this->username.':'.$this->password),
+=======
+                    'Authorization' => 'Basic ' . base64_encode($this->username . ':' . $this->password),
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
                     'Content-Type' => 'application/json',
                 ];
         }

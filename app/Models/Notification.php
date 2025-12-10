@@ -212,6 +212,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -525,6 +526,8 @@ namespace Modules\Notify\Models;
 =======
 =======
 
+=======
+>>>>>>> c8b1c8bf (.)
 namespace Modules\Notify\Models;
 
 <<<<<<< HEAD
@@ -569,6 +572,7 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 >>>>>>> 2effe245 (.)
 use Illuminate\Support\Carbon;
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Database\Factories\NotificationFactory;
 <<<<<<< HEAD
@@ -610,10 +614,18 @@ namespace Modules\Notify\Models;
 =======
 use Override;
 >>>>>>> d45a0226 (.)
+=======
+=======
+
+namespace Modules\Notify\Models;
+
+use Override;
+>>>>>>> c8b1c8bf (.)
 use Illuminate\Support\Carbon;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Database\Factories\NotificationFactory;
 use Illuminate\Database\Eloquent\Builder;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2effe245 (.)
@@ -653,6 +665,9 @@ namespace Modules\Notify\Models;
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 use Modules\Xot\Models\BaseModel;
 <<<<<<< HEAD
 =======
@@ -706,6 +721,7 @@ use Modules\Xot\Models\BaseModel;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -733,6 +749,10 @@ use Modules\Xot\Models\BaseModel;
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+ *
+=======
+>>>>>>> c8b1c8bf (.)
  * @method static NotificationFactory factory($count = null, $state = [])
  * @method static Builder<static>|Notification newModelQuery()
  * @method static Builder<static>|Notification newQuery()
@@ -749,6 +769,7 @@ use Modules\Xot\Models\BaseModel;
  * @method static Builder<static>|Notification whereType($value)
  * @method static Builder<static>|Notification whereUpdatedAt($value)
  * @method static Builder<static>|Notification whereUpdatedBy($value)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -894,6 +915,9 @@ use Modules\Xot\Models\BaseModel;
 =======
  *
 >>>>>>> fbed41ac (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
  * @mixin IdeHelperNotification
  * @mixin \Eloquent
  */
@@ -1109,6 +1133,7 @@ class Notification extends BaseModel
      *
      * @return array<string, string>
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1468,6 +1493,11 @@ class Notification extends BaseModel
     #[\Override]
 >>>>>>> 5e14ac3 (.)
 >>>>>>> fbed41ac (.)
+=======
+=======
+    #[Override]
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
     protected function casts(): array
     {
         return [

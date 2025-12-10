@@ -33,6 +33,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 9cf0dc90 (.)
 =======
@@ -104,6 +107,7 @@
 >>>>>>> 712617d3 (.)
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 3a87c62 (.)
 =======
 <<<<<<< HEAD
@@ -171,6 +175,9 @@
 =======
 >>>>>>> 31bdf6b (.)
 >>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 # Notify Module Documentation
 
 ## Overview
@@ -265,6 +272,7 @@ This document serves as the central index for the Notify module, providing guida
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -302,6 +310,8 @@ This document serves as the central index for the Notify module, providing guida
 <<<<<<< HEAD
 >>>>>>> 5e14ac3 (.)
 >>>>>>> fbed41ac (.)
+=======
+>>>>>>> c8b1c8bf (.)
 =======
 =======
 =======
@@ -456,6 +466,7 @@ This document serves as the central index for the Notify module, providing guida
 =======
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 2e67a2a (.)
 <<<<<<< HEAD
@@ -531,6 +542,10 @@ This document serves as the central index for the Notify module, providing guida
 =======
 >>>>>>> 5e14ac3 (.)
 >>>>>>> fbed41ac (.)
+=======
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 # Indice della Documentazione - Modulo Notify
 
 ## Panoramica
@@ -563,8 +578,11 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
 =======
 =======
 - [Documentazione Generale SaluteOra](../../../../docs/README.md)
@@ -583,6 +601,7 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 =======
 - [Documentazione Generale SaluteOra](../../../../docs/README.md)
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
@@ -676,6 +695,8 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 >>>>>>> 69fa7d37 (.)
 =======
 >>>>>>> fbed41ac (.)
+=======
+>>>>>>> c8b1c8bf (.)
 - [Collegamenti Documentazione](../../../../docs/collegamenti-documentazione.md)
 - [Standard di Documentazione](../../../../docs/DOCUMENTATION_STANDARDS.md)
 - [Modulo Xot](../../Xot/docs/README.md)
@@ -697,10 +718,13 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 9cf0dc90 (.)
 <<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
 
 =======
 =======
@@ -717,6 +741,7 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 
 =======
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
@@ -791,6 +816,8 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 >>>>>>> 69fa7d37 (.)
 =======
 >>>>>>> fbed41ac (.)
+=======
+>>>>>>> c8b1c8bf (.)
 ## Categorie Principali
 
 ### Architettura e Struttura
@@ -864,6 +891,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 - **Fallimenti di Consegna**: Assicurarsi della corretta configurazione di chiavi API e endpoint per ogni canale di notifica
 - **Errori Template**: Verificare sintassi template e placeholder per evitare problemi di rendering
 - **Colli di Bottiglia Performance**: Utilizzare il queueing per l'invio di notifiche per prevenire ritardi nell'esperienza utente
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1436,6 +1464,8 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 =======
 <<<<<<< HEAD
 >>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> c8b1c8bf (.)
 =======
 =======
 =======
@@ -2096,9 +2126,16 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 =======
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> d284d65 (.)
 >>>>>>> 10b3b08 (.)
 >>>>>>> bd804d67 (.)
+=======
+## Documentazione e Aggiornamenti
+- Documentare qualsiasi implementazione personalizzata o nuovi canali di notifica nella cartella di documentazione pertinente
+- Aggiornare questo indice se vengono introdotte nuove funzionalità o modifiche significative al modulo Notify
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 
 ## Sottocartelle
 
@@ -2109,6 +2146,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 ### Notifications
 - [Index](./notifications/INDEX.md) - Indice della documentazione sulle notifiche
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2158,6 +2196,8 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> c8b1c8bf (.)
 =======
 =======
 >>>>>>> 712617d3 (.)
@@ -2595,12 +2635,20 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> 712617d3 (.)
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 10b3b08 (.)
 >>>>>>> bd804d67 (.)
 =======
 =======
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
+=======
+=======
+## Note sulla Manutenzione
+Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice, consultare la documentazione pertinente e aggiornare i documenti correlati.
+
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 ## Risoluzione Conflitti e Standard
 - **Gennaio 2025**: Risoluzione sistematica di tutti i conflitti Git nei file di documentazione:
   - `index.md` - Unificato contenuto italiano e inglese mantenendo struttura completa
@@ -2611,6 +2659,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 - Il file `NOTIFICATION_CHANNELS_IMPLEMENTATION.md` è stato risolto manualmente mantenendo la versione più aggiornata e coerente con le best practice architetturali del modulo Notify
 - **Filosofia di risoluzione**: Approccio olistico con analisi manuale approfondita, mantenimento integrità architetturale, documentazione bidirezionale aggiornata
 - Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3219,6 +3268,8 @@ Ultimo aggiornamento: 14 Maggio 2025
 <<<<<<< HEAD
 >>>>>>> 36ac4fc1 (.)
 =======
+>>>>>>> c8b1c8bf (.)
+=======
 =======
 =======
 =======
@@ -3573,5 +3624,12 @@ Ultimo aggiornamento: 14 Maggio 2025
 >>>>>>> 69fa7d37 (.)
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 5e14ac3 (.)
 >>>>>>> fbed41ac (.)
+=======
+=======
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+*Ultimo aggiornamento: Gennaio 2025*
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
