@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # notify module documentation optimization analysis
 
 ## current state analysis
@@ -180,3 +181,5 @@ class NotificationTemplateCache
 *Stato: 🟡 Funzionale ma Necessita Reliability Enhancement*
 
 >>>>>>> c5a0a4b2 (.)
+=======
+>>>>>>> d151b9c1 (.)

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c5a0a4b2 (.)
 # Sistema di Notifica Appuntamenti - il progetto
@@ -121,3 +122,5 @@ php artisan dental:send-appointment-reminders --days=1 --queue
 >>>>>>> 5d933abf (.)
 =======
 >>>>>>> c5a0a4b2 (.)
+=======
+>>>>>>> d151b9c1 (.)

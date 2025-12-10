@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Analisi Approfondita: Email Templates in Laravel per <nome progetto>
 
 ## 1. Panoramica Soluzioni Analizzate
@@ -316,3 +317,5 @@ public static function form(Form $form): Form
 - Monitorare le performance
 - Implementare logging appropriato 
 >>>>>>> c5a0a4b2 (.)
+=======
+>>>>>>> d151b9c1 (.)

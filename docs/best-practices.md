@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Best Practices Implementazione
 
 ## Template Email
@@ -900,3 +901,5 @@ Per una lista completa di tutti i collegamenti tra i README.md, consultare il fi
    - Scansionare vulnerabilità
    - Implementare best practices 
 >>>>>>> c5a0a4b2 (.)
+=======
+>>>>>>> d151b9c1 (.)
