@@ -231,6 +231,7 @@ use Illuminate\Support\Arr;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -279,6 +280,8 @@ use Illuminate\Support\Arr;
 >>>>>>> 09f5337a8 (.)
 =======
 >>>>>>> db0bc148f (.)
+=======
+>>>>>>> 49639b815 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -863,10 +866,14 @@ use Illuminate\Support\Arr;
 =======
 >>>>>>> 3b4c9907 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 49639b815 (.)
 =======
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 5fe4f466 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 503981fd (.)
 =======
@@ -939,6 +946,8 @@ use Illuminate\Support\Arr;
 >>>>>>> 09f5337a8 (.)
 =======
 >>>>>>> db0bc148f (.)
+=======
+>>>>>>> 49639b815 (.)
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
@@ -1239,6 +1248,7 @@ class SmsFactorData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bf5d31b0f (.)
 =======
@@ -1283,6 +1293,8 @@ class SmsFactorData extends Data
 >>>>>>> 09f5337a8 (.)
 =======
 >>>>>>> db0bc148f (.)
+=======
+>>>>>>> 49639b815 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1859,6 +1871,8 @@ class SmsFactorData extends Data
 >>>>>>> c4bdacbf (.)
 =======
 >>>>>>> 3b4c9907 (.)
+=======
+>>>>>>> 5fe4f466 (.)
 =======
 use Spatie\LaravelData\Data;
 use Webmozart\Assert\Assert;
@@ -2048,6 +2062,7 @@ class SmsFactorData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bf5d31b0f (.)
 =======
@@ -2060,6 +2075,8 @@ class SmsFactorData extends Data
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> be45a0b8d (.)
+=======
+>>>>>>> 49639b815 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2698,10 +2715,14 @@ class SmsFactorData extends Data
 >>>>>>> b19cd40 (.)
 >>>>>>> 3b4c9907 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 49639b815 (.)
 =======
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 5fe4f466 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 503981fd (.)
 =======
@@ -2790,6 +2811,8 @@ class SmsFactorData extends Data
 >>>>>>> 09f5337a8 (.)
 =======
 >>>>>>> db0bc148f (.)
+=======
+>>>>>>> 49639b815 (.)
             $data = Config::array('sms.drivers.smsfactor');
             self::$instance = self::from($data);
         }
@@ -3064,6 +3087,7 @@ class SmsFactorData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d3a8af4d5 (.)
 =======
@@ -3094,6 +3118,8 @@ class SmsFactorData extends Data
 >>>>>>> 09f5337a8 (.)
 =======
 >>>>>>> db0bc148f (.)
+=======
+>>>>>>> 49639b815 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3198,6 +3224,7 @@ class SmsFactorData extends Data
 >>>>>>> 3b4c9907 (.)
 =======
 >>>>>>> 5fe4f466 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 8e5817bc (.)
 =======
@@ -3305,10 +3332,13 @@ class SmsFactorData extends Data
 =======
 >>>>>>> 3b4c9907 (.)
 >>>>>>> db0bc148f (.)
+=======
+>>>>>>> 49639b815 (.)
                     'Cache-Control' => 'no-cache',
 =======
                     'Cache-Control' => 'no-cache'
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3428,6 +3458,8 @@ class SmsFactorData extends Data
 >>>>>>> be45a0b8d (.)
 =======
 >>>>>>> db0bc148f (.)
+=======
+>>>>>>> 49639b815 (.)
 =======
                     'Cache-Control' => 'no-cache',
 >>>>>>> 75179b85 (.)
@@ -3769,11 +3801,15 @@ class SmsFactorData extends Data
 =======
 >>>>>>> 3b4c9907 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 49639b815 (.)
 =======
 =======
                     'Cache-Control' => 'no-cache',
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 5fe4f466 (.)
+<<<<<<< HEAD
 =======
                     'Cache-Control' => 'no-cache',
 >>>>>>> 503981fd (.)
@@ -4442,6 +4478,8 @@ class SmsFactorData extends Data
 >>>>>>> 09f5337a8 (.)
 =======
 >>>>>>> db0bc148f (.)
+=======
+>>>>>>> 49639b815 (.)
                 ];
         }
     }

@@ -158,6 +158,15 @@ namespace Modules\Notify\Tests\Unit\Models;
 =======
 =======
 >>>>>>> 4e2ebfb (.)
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Enums\NotificationTypeEnum;
+use Modules\Notify\Models\NotificationTemplate;
+use Tests\TestCase;
+>>>>>>> 5fe4f466 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 4e2ebfb (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1578,6 +1587,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bf5d31b0f (.)
 =======
@@ -1586,6 +1596,8 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> be45a0b8d (.)
+=======
+>>>>>>> 49639b815 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1965,6 +1977,7 @@ use function Safe\json_encode;
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 5fe4f466 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 503981fd (.)
 =======
@@ -2206,6 +2219,8 @@ use function Safe\json_encode;
 >>>>>>> 09f5337a8 (.)
 =======
 >>>>>>> db0bc148f (.)
+=======
+>>>>>>> 49639b815 (.)
 
 class NotificationTemplateTest extends TestCase
 {
@@ -2857,6 +2872,7 @@ class NotificationTemplateTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -3377,10 +3393,14 @@ class NotificationTemplateTest extends TestCase
 =======
 >>>>>>> 3b4c9907 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 49639b815 (.)
 =======
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 5fe4f466 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 503981fd (.)
 =======
@@ -3447,6 +3467,8 @@ class NotificationTemplateTest extends TestCase
 >>>>>>> 09f5337a8 (.)
 =======
 >>>>>>> db0bc148f (.)
+=======
+>>>>>>> 49639b815 (.)
         $this->assertEquals(
             '<h1>Benvenuto Mario Rossi!</h1><p>La tua email è mario@example.com</p>',
             $result['body_html'],
@@ -3637,6 +3659,7 @@ class NotificationTemplateTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -3677,6 +3700,7 @@ class NotificationTemplateTest extends TestCase
 =======
 >>>>>>> 5fe4f466 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> e0d9c9be (.)
 =======
 >>>>>>> 8a8a8e2f (rebase 210)
@@ -3715,9 +3739,12 @@ class NotificationTemplateTest extends TestCase
 >>>>>>> 6b6b9e41 (.)
 =======
 >>>>>>> be45a0b8d (.)
+=======
+>>>>>>> 49639b815 (.)
         $this->assertEquals('<h1>Benvenuto Mario Rossi!</h1><p>La tua email è mario@example.com</p>', $result['body_html']);
 >>>>>>> b19cd40 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3761,6 +3788,8 @@ class NotificationTemplateTest extends TestCase
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> be45a0b8d (.)
+=======
+>>>>>>> 49639b815 (.)
 >>>>>>> 75179b85 (.)
 =======
 =======
@@ -3993,6 +4022,7 @@ class NotificationTemplateTest extends TestCase
 >>>>>>> b19cd40 (.)
 >>>>>>> 3b4c9907 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 5fe4f466 (.)
@@ -4417,6 +4447,11 @@ class NotificationTemplateTest extends TestCase
 >>>>>>> 09f5337a8 (.)
 =======
 >>>>>>> db0bc148f (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 5fe4f466 (.)
+>>>>>>> 49639b815 (.)
         $this->assertEquals('Benvenuto Mario Rossi! La tua email è mario@example.com', $result['body_text']);
     }
 
@@ -4686,6 +4721,7 @@ class NotificationTemplateTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -5206,10 +5242,14 @@ class NotificationTemplateTest extends TestCase
 =======
 >>>>>>> 3b4c9907 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 49639b815 (.)
 =======
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 5fe4f466 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 503981fd (.)
 =======
@@ -5276,6 +5316,8 @@ class NotificationTemplateTest extends TestCase
 >>>>>>> 09f5337a8 (.)
 =======
 >>>>>>> db0bc148f (.)
+=======
+>>>>>>> 49639b815 (.)
         $this->assertEquals(
             '<h1>Benvenuto Preview User!</h1><p>Email: preview@example.com</p>',
             $resultWithAdditional['body_html'],
@@ -5461,6 +5503,7 @@ class NotificationTemplateTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -5501,6 +5544,7 @@ class NotificationTemplateTest extends TestCase
 =======
 >>>>>>> 5fe4f466 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> e0d9c9be (.)
 =======
 >>>>>>> 8a8a8e2f (rebase 210)
@@ -5539,9 +5583,12 @@ class NotificationTemplateTest extends TestCase
 >>>>>>> 6b6b9e41 (.)
 =======
 >>>>>>> be45a0b8d (.)
+=======
+>>>>>>> 49639b815 (.)
         $this->assertEquals('<h1>Benvenuto Preview User!</h1><p>Email: preview@example.com</p>', $resultWithAdditional['body_html']);
 >>>>>>> b19cd40 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5585,6 +5632,8 @@ class NotificationTemplateTest extends TestCase
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> be45a0b8d (.)
+=======
+>>>>>>> 49639b815 (.)
 >>>>>>> 75179b85 (.)
 =======
 =======
@@ -5815,6 +5864,7 @@ class NotificationTemplateTest extends TestCase
 >>>>>>> b19cd40 (.)
 >>>>>>> 3b4c9907 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 5fe4f466 (.)
@@ -6231,6 +6281,11 @@ class NotificationTemplateTest extends TestCase
 >>>>>>> 09f5337a8 (.)
 =======
 >>>>>>> db0bc148f (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 5fe4f466 (.)
+>>>>>>> 49639b815 (.)
     }
 
     /** @test */
@@ -6495,6 +6550,7 @@ class NotificationTemplateTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -6528,6 +6584,7 @@ class NotificationTemplateTest extends TestCase
 >>>>>>> 3b4c9907 (.)
 =======
 >>>>>>> 5fe4f466 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 8e5817bc (.)
 =======
@@ -6662,6 +6719,8 @@ class NotificationTemplateTest extends TestCase
 =======
 >>>>>>> 3b4c9907 (.)
 >>>>>>> db0bc148f (.)
+=======
+>>>>>>> 49639b815 (.)
         $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
 =======
         $this->assertCount(2, $smsTemplates);  // sms_template + multi_channel_template
@@ -6737,6 +6796,7 @@ class NotificationTemplateTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -6755,6 +6815,8 @@ class NotificationTemplateTest extends TestCase
 >>>>>>> be45a0b8d (.)
 =======
 >>>>>>> db0bc148f (.)
+=======
+>>>>>>> 49639b815 (.)
 =======
         $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
 >>>>>>> 75179b85 (.)
@@ -7427,11 +7489,15 @@ class NotificationTemplateTest extends TestCase
 =======
 >>>>>>> 3b4c9907 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 49639b815 (.)
 =======
 =======
         $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 5fe4f466 (.)
+<<<<<<< HEAD
 =======
         $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
 >>>>>>> 503981fd (.)
@@ -7507,6 +7573,8 @@ class NotificationTemplateTest extends TestCase
 >>>>>>> 09f5337a8 (.)
 =======
 >>>>>>> db0bc148f (.)
+=======
+>>>>>>> 49639b815 (.)
     }
 
     /** @test */
