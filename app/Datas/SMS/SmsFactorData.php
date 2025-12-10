@@ -264,6 +264,7 @@ use Illuminate\Support\Arr;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -378,6 +379,8 @@ use Illuminate\Support\Arr;
 >>>>>>> ec24613a1 (.)
 =======
 >>>>>>> 763771402 (.)
+=======
+>>>>>>> a85ebf6cc (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -805,6 +808,7 @@ use Illuminate\Support\Arr;
 =======
 >>>>>>> 3ee54c5d (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4b544042 (.)
 =======
@@ -1220,6 +1224,10 @@ use Illuminate\Support\Arr;
 >>>>>>> ec24613a1 (.)
 =======
 >>>>>>> 763771402 (.)
+=======
+=======
+>>>>>>> 4b544042 (.)
+>>>>>>> a85ebf6cc (.)
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
@@ -1314,6 +1322,7 @@ class SmsFactorData extends Data
              * $data = TenantService::getConfig('sms');
              * $data = Arr::get($data, 'drivers.smsfactor', []);
              */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1670,6 +1679,8 @@ class SmsFactorData extends Data
 >>>>>>> ec24613a1 (.)
 =======
 >>>>>>> 763771402 (.)
+=======
+>>>>>>> a85ebf6cc (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3196,6 +3207,7 @@ class SmsFactorData extends Data
 >>>>>>> d284d65 (.)
 >>>>>>> 3ee54c5d (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4b544042 (.)
 =======
@@ -3508,6 +3520,10 @@ class SmsFactorData extends Data
 >>>>>>> ec24613a1 (.)
 =======
 >>>>>>> 763771402 (.)
+=======
+=======
+>>>>>>> 4b544042 (.)
+>>>>>>> a85ebf6cc (.)
             $data = Config::array('sms.drivers.smsfactor');
             self::$instance = self::from($data);
         }
@@ -3815,6 +3831,7 @@ class SmsFactorData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d3a8af4d5 (.)
 =======
@@ -3911,6 +3928,8 @@ class SmsFactorData extends Data
 >>>>>>> ec24613a1 (.)
 =======
 >>>>>>> 763771402 (.)
+=======
+>>>>>>> a85ebf6cc (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -5242,6 +5261,7 @@ class SmsFactorData extends Data
 >>>>>>> 70e8274e (.)
 =======
 >>>>>>> 3ee54c5d (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
                     'Cache-Control' => 'no-cache',
@@ -5579,6 +5599,11 @@ class SmsFactorData extends Data
 >>>>>>> ec24613a1 (.)
 =======
 >>>>>>> 763771402 (.)
+=======
+=======
+                    'Cache-Control' => 'no-cache',
+>>>>>>> 4b544042 (.)
+>>>>>>> a85ebf6cc (.)
                 ];
         }
     }

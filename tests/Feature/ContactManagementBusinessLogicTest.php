@@ -172,6 +172,7 @@ namespace Modules\Notify\Tests\Feature;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -572,12 +573,15 @@ use Tests\TestCase;
 >>>>>>> 3ee54c5d (.)
 =======
 >>>>>>> 4b544042 (.)
+<<<<<<< HEAD
 =======
 use function Safe\json_encode;
 
 >>>>>>> 7d765981 (.)
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> a85ebf6cc (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\Contact;
 use Modules\Notify\Models\ContactGroup;
@@ -586,10 +590,13 @@ use Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ec24613a1 (.)
 =======
 >>>>>>> 763771402 (.)
+=======
+>>>>>>> a85ebf6cc (.)
 >>>>>>> 06e3078e (.)
 <<<<<<< HEAD
 =======
@@ -2320,6 +2327,7 @@ use function Safe\json_encode;
 =======
 >>>>>>> 3ee54c5d (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4b544042 (.)
 =======
@@ -2728,6 +2736,10 @@ use function Safe\json_encode;
 >>>>>>> ec24613a1 (.)
 =======
 >>>>>>> 763771402 (.)
+=======
+=======
+>>>>>>> 4b544042 (.)
+>>>>>>> a85ebf6cc (.)
 
 class ContactManagementBusinessLogicTest extends TestCase
 {
@@ -3146,6 +3158,7 @@ class ContactManagementBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -3488,6 +3501,7 @@ class ContactManagementBusinessLogicTest extends TestCase
 =======
 >>>>>>> 3ee54c5d (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4b544042 (.)
 =======
@@ -3799,6 +3813,10 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> ec24613a1 (.)
 =======
 >>>>>>> 763771402 (.)
+=======
+=======
+>>>>>>> 4b544042 (.)
+>>>>>>> a85ebf6cc (.)
         $this->assertEquals(
 <<<<<<< HEAD
             'Benvenuto su '.config('app.name', 'Our Platform'),
@@ -4006,6 +4024,7 @@ class ContactManagementBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -4090,6 +4109,8 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> ec24613a1 (.)
 =======
 >>>>>>> 763771402 (.)
+=======
+>>>>>>> a85ebf6cc (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -4899,6 +4920,7 @@ class ContactManagementBusinessLogicTest extends TestCase
 =======
 >>>>>>> 3ee54c5d (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4b544042 (.)
 =======
@@ -5152,6 +5174,10 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> ec24613a1 (.)
 =======
 >>>>>>> 763771402 (.)
+=======
+=======
+>>>>>>> 4b544042 (.)
+>>>>>>> a85ebf6cc (.)
         $this->assertEquals('sms', $contact->fresh()->communication_history[1]['type']);
         $this->assertTrue($contact->fresh()->communication_history[1]['clicked']);
     }
@@ -5539,6 +5565,7 @@ class ContactManagementBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -5865,6 +5892,7 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> 70e8274e (.)
 =======
 >>>>>>> 3ee54c5d (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4b544042 (.)
@@ -6243,6 +6271,10 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> ec24613a1 (.)
 =======
 >>>>>>> 763771402 (.)
+=======
+=======
+>>>>>>> 4b544042 (.)
+>>>>>>> a85ebf6cc (.)
             'preferences' => ['email' => true, 'sms' => false],
         ]);
         $smsContact = Contact::factory()->create([
@@ -6252,6 +6284,7 @@ class ContactManagementBusinessLogicTest extends TestCase
             'preferences' => ['email' => true, 'sms' => true],
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7341,6 +7374,7 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> d284d65 (.)
 >>>>>>> 3ee54c5d (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4b544042 (.)
 =======
@@ -7776,6 +7810,10 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> ec24613a1 (.)
 =======
 >>>>>>> 763771402 (.)
+=======
+=======
+>>>>>>> 4b544042 (.)
+>>>>>>> a85ebf6cc (.)
         ]);
 
         // Act
@@ -8004,6 +8042,7 @@ class ContactManagementBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -8328,6 +8367,7 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> 70e8274e (.)
 =======
 >>>>>>> 3ee54c5d (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4b544042 (.)
@@ -8705,12 +8745,17 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> ec24613a1 (.)
 =======
 >>>>>>> 763771402 (.)
+=======
+=======
+>>>>>>> 4b544042 (.)
+>>>>>>> a85ebf6cc (.)
             'tags' => ['vip' => 'Cliente VIP', 'premium' => 'Piano premium'],
         ]);
         $newContact = Contact::factory()->create([
             'tags' => ['new' => 'Nuovo cliente', 'active' => 'Cliente attivo'],
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10146,6 +10191,7 @@ class ContactManagementBusinessLogicTest extends TestCase
 =======
 >>>>>>> 3ee54c5d (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4b544042 (.)
 =======
@@ -10367,6 +10413,10 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> ec24613a1 (.)
 =======
 >>>>>>> 763771402 (.)
+=======
+=======
+>>>>>>> 4b544042 (.)
+>>>>>>> a85ebf6cc (.)
         ]);
 
         // Act
