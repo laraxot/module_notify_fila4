@@ -1250,7 +1250,15 @@ cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 >>>>>>> 06e3078e (.)
 =======
 cd /var/www/html/_bases/base_<nome progetto>/laravel
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_<nome progetto>/laravel
+=======
+<<<<<<< HEAD
+cd /var/www/html/_bases/base_saluteora/laravel
+=======
+cd /var/www/html/_bases/base_<nome progetto>/laravel
+>>>>>>> bf479cc (.)
+>>>>>>> 01af324fe (.)
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 >>>>>>> 70e8274e (.)
 =======
