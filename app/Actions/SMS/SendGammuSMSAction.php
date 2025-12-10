@@ -622,7 +622,6 @@ use Override;
 =======
 >>>>>>> fbed41ac (.)
 use Exception;
-use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Str;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -673,6 +672,7 @@ use Modules\Notify\Contracts\SmsActionContract;
 >>>>>>> fbed41ac (.)
 use Modules\Notify\Datas\SMS\GammuData;
 use Modules\Notify\Datas\SmsData;
+use Override;
 use Spatie\QueueableAction\QueueableAction;
 use Symfony\Component\Process\Process;
 
