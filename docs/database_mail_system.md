@@ -924,6 +924,7 @@ class TreatmentComplete extends Mailable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1350,11 +1351,15 @@ class TreatmentComplete extends Mailable
 =======
 >>>>>>> 4fc21b78 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a0788fa28 (.)
 =======
 =======
 
 >>>>>>> b19cd40 (.)
 >>>>>>> 9fe1b60e (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 8a8a8e2f (rebase 210)
@@ -2011,6 +2016,8 @@ class TreatmentComplete extends Mailable
 >>>>>>> 47a873f13 (.)
 =======
 >>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> a0788fa28 (.)
 # Gestione template
 php artisan notify:mail-template:list
 php artisan notify:mail-template:create
@@ -2070,6 +2077,7 @@ php artisan notify:mail-template:test
 - [Filament Forms](https://filamentphp.com/docs/forms)
 - [Spatie Packages](https://spatie.be/open-source)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2776,9 +2784,15 @@ php artisan notify:mail-template:test
 - [Spatie Packages](https://spatie.be/open-source)
 >>>>>>> a9bf0423 (rebase 210)
 =======
+- [Laravel Mail](https://laravel.com/docs/mail)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 9fe1b60e (rebase 210)
+=======
 - [Laravel Mail](https://laravel.com/project_docs/mail)
 - [Filament Forms](https://filamentphp.com/project_docs/forms)
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2914,6 +2928,8 @@ php artisan notify:mail-template:test
 >>>>>>> 903e3e2cd (.)
 =======
 >>>>>>> 47a873f13 (.)
+=======
+>>>>>>> a0788fa28 (.)
 >>>>>>> 82ae73be (.)
 =======
 =======
@@ -3657,6 +3673,7 @@ php artisan notify:mail-template:test
 - [Filament Forms](https://filamentphp.com/docs/forms)
 - [Spatie Packages](https://spatie.be/open-source)
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 9fe1b60e (rebase 210)
@@ -4047,3 +4064,7 @@ php artisan notify:mail-template:test
 >>>>>>> 47a873f13 (.)
 =======
 >>>>>>> 43dd68f4b (.)
+=======
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+>>>>>>> a0788fa28 (.)

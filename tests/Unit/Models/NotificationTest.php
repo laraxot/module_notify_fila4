@@ -218,6 +218,7 @@ use Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -262,6 +263,7 @@ use Tests\TestCase;
 >>>>>>> bd804d67 (.)
 =======
 >>>>>>> a9bf0423 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 9fe1b60e (rebase 210)
@@ -412,6 +414,10 @@ use Tests\TestCase;
 >>>>>>> 848f79b79 (.)
 =======
 >>>>>>> 903e3e2cd (.)
+=======
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+>>>>>>> a0788fa28 (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\Notification;
 use Tests\TestCase;
@@ -496,6 +502,7 @@ use Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a115e2aad (.)
@@ -521,6 +528,8 @@ use Tests\TestCase;
 =======
 >>>>>>> c22b35d1e (.)
 =======
+>>>>>>> a0788fa28 (.)
+=======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -542,6 +551,7 @@ use Tests\TestCase;
 >>>>>>> a9bf0423 (rebase 210)
 =======
 >>>>>>> 9fe1b60e (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> b4f93b3a (rebase 210)
 =======
@@ -623,6 +633,8 @@ use Tests\TestCase;
 >>>>>>> 2641c2944 (.)
 =======
 >>>>>>> 903e3e2cd (.)
+=======
+>>>>>>> a0788fa28 (.)
 use Tests\TestCase;
 use Modules\Notify\Models\Notification;
 use Illuminate\Foundation\Testing\RefreshDatabase;
@@ -672,6 +684,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -688,6 +701,8 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> 2641c2944 (.)
 =======
 >>>>>>> 903e3e2cd (.)
+=======
+>>>>>>> a0788fa28 (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1887,6 +1902,7 @@ use Tests\TestCase;
 >>>>>>> 4d253d2c (rebase 210)
 =======
 >>>>>>> 9fe1b60e (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 8a8a8e2f (rebase 210)
@@ -2198,6 +2214,8 @@ use Tests\TestCase;
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 460b8f5b (rebase 210)
 >>>>>>> 47a873f13 (.)
+=======
+>>>>>>> a0788fa28 (.)
 
 class NotificationTest extends TestCase
 {

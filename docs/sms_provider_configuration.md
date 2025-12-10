@@ -385,6 +385,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'from' => env('SMS_FROM', '<nome progetto>'),
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1312,6 +1313,7 @@ return [
 =======
 =======
 >>>>>>> 9fe1b60e (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 8a8a8e2f (rebase 210)
 =======
@@ -1655,7 +1657,11 @@ return [
 >>>>>>> 0a5473e16 (.)
 =======
 =======
+=======
+>>>>>>> a0788fa28 (.)
     'from' => env('SMS_FROM', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
     'from' => env('SMS_FROM', 'SaluteOra'),
 >>>>>>> 4fc21b78 (rebase 210)
 >>>>>>> 43dd68f4b (.)
@@ -1904,6 +1910,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2831,6 +2838,7 @@ return [
 =======
 =======
 >>>>>>> 9fe1b60e (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 8a8a8e2f (rebase 210)
 =======
@@ -3174,7 +3182,11 @@ return [
 >>>>>>> 0a5473e16 (.)
 =======
 =======
+=======
+>>>>>>> a0788fa28 (.)
             'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
             'sender' => env('NETFUN_SENDER', 'SaluteOra'),
 >>>>>>> 4fc21b78 (rebase 210)
 >>>>>>> 43dd68f4b (.)
@@ -3480,6 +3492,7 @@ SMS_FROM=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 SMS_FROM=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4407,6 +4420,7 @@ SMS_FROM=<nome progetto>
 =======
 =======
 >>>>>>> 9fe1b60e (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 8a8a8e2f (rebase 210)
 =======
@@ -4750,7 +4764,11 @@ SMS_FROM=SaluteOra
 >>>>>>> 0a5473e16 (.)
 =======
 =======
+=======
+>>>>>>> a0788fa28 (.)
 SMS_FROM=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
 SMS_FROM=SaluteOra
 >>>>>>> 4fc21b78 (rebase 210)
 >>>>>>> 43dd68f4b (.)
@@ -4990,6 +5008,7 @@ NETFUN_SENDER=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 NETFUN_SENDER=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5917,6 +5936,7 @@ NETFUN_SENDER=<nome progetto>
 =======
 =======
 >>>>>>> 9fe1b60e (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 8a8a8e2f (rebase 210)
 =======
@@ -6260,7 +6280,11 @@ NETFUN_SENDER=SaluteOra
 >>>>>>> 0a5473e16 (.)
 =======
 =======
+=======
+>>>>>>> a0788fa28 (.)
 NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
 NETFUN_SENDER=SaluteOra
 >>>>>>> 4fc21b78 (rebase 210)
 >>>>>>> 43dd68f4b (.)

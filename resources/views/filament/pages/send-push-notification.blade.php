@@ -74,6 +74,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -167,6 +168,7 @@
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 9fe1b60e (rebase 210)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -315,6 +317,8 @@
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> a0788fa28 (.)
 <?php
 
 declare(strict_types=1);
@@ -1933,6 +1937,9 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a0788fa28 (.)
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 3f39ac8b (.)
@@ -1954,6 +1961,7 @@ declare(strict_types=1);
 >>>>>>> 54220b28 (rebase 210)
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 8a8a8e2f (rebase 210)
 =======
 >>>>>>> b4f93b3a (rebase 210)
@@ -1972,11 +1980,14 @@ declare(strict_types=1);
 =======
 >>>>>>> 011072e4 (.)
 =======
+=======
+>>>>>>> a0788fa28 (.)
 <x-filament-panels::page>
     <x-filament::section>
         <x-slot name="heading">
             Test Invio Notifiche Push
         </x-slot>
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 
@@ -1985,12 +1996,28 @@ declare(strict_types=1);
                 </div>
                 <div>
 <<<<<<< HEAD
+=======
+
+        <x-slot name="description">
+            Utilizza questo form per testare l'invio di notifiche push ai dispositivi mobili tramite diversi servizi.
+        </x-slot>
+
+        {{ $this->notificationForm }}
+
+        <x-slot name="footer">
+            <div class="flex items-center justify-between gap-x-3">
+                <div>
+                    <x-filament::loading-indicator class="h-5 w-5" wire:loading wire:target="sendNotification()" />
+                </div>
+                <div>
+>>>>>>> a0788fa28 (.)
                     <x-filament-panels::form.actions :actions="$this->getNotificationFormActions()" />
                 </div>
             </div>
         </x-slot>
     </x-filament::section>
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2777,6 +2804,9 @@ declare(strict_types=1);
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+>>>>>>> a0788fa28 (.)
 </x-filament-panels::page>
 =======
 >>>>>>> 301ad8b44 (.)

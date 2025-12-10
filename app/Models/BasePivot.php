@@ -421,6 +421,7 @@ abstract class BasePivot extends XotBasePivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -545,6 +546,7 @@ abstract class BasePivot extends XotBasePivot
 >>>>>>> e0d9c9be (.)
 =======
 >>>>>>> bd804d67 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 9fe1b60e (rebase 210)
@@ -661,10 +663,15 @@ abstract class BasePivot extends XotBasePivot
 >>>>>>> 968ed47cd (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+>>>>>>> a0788fa28 (.)
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -759,6 +766,8 @@ abstract class BasePivot extends XotBasePivot
 >>>>>>> 2641c2944 (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+>>>>>>> a0788fa28 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -983,6 +992,7 @@ abstract class BasePivot extends XotBasePivot
 =======
 >>>>>>> bd804d67 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9fe1b60e (rebase 210)
 =======
@@ -1068,11 +1078,16 @@ abstract class BasePivot extends XotBasePivot
 >>>>>>> 2641c2944 (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+>>>>>>> a0788fa28 (.)
 
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1170,6 +1185,8 @@ abstract class BasePivot extends XotBasePivot
 >>>>>>> 2641c2944 (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+>>>>>>> a0788fa28 (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1846,6 +1863,7 @@ abstract class BasePivot extends XotBasePivot
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 9fe1b60e (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 8a8a8e2f (rebase 210)
@@ -2384,6 +2402,8 @@ abstract class BasePivot extends XotBasePivot
 >>>>>>> 848f79b79 (.)
 =======
 >>>>>>> ec4cda261 (.)
+=======
+>>>>>>> a0788fa28 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',

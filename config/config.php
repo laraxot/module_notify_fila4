@@ -267,6 +267,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -804,6 +805,7 @@ return [
 >>>>>>> 4d253d2c (rebase 210)
 =======
 >>>>>>> 9fe1b60e (rebase 210)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -1089,6 +1091,8 @@ return [
 >>>>>>> 903e3e2cd (.)
 =======
 >>>>>>> 47a873f13 (.)
+=======
+>>>>>>> a0788fa28 (.)
      * |--------------------------------------------------------------------------
      * | Email Layout Configuration
      * |--------------------------------------------------------------------------
@@ -1103,6 +1107,7 @@ return [
     // Footer text for all emails
     // 'footer_text' => env('MAIL_FOOTER_TEXT', '© ' . date('Y') . ' ' . config('app.name') . '. All rights reserved.'),
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1903,7 +1908,13 @@ return [
 =======
 =======
 >>>>>>> a9bf0423 (rebase 210)
+<<<<<<< HEAD
 >>>>>>> 903e3e2cd (.)
+=======
+=======
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+>>>>>>> a0788fa28 (.)
     |--------------------------------------------------------------------------
     | Email Layout Configuration
     |--------------------------------------------------------------------------
@@ -1915,6 +1926,7 @@ return [
     // Logo URL for email headers
     'logo_url' => env('MAIL_LOGO_URL', null),
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2049,6 +2061,8 @@ return [
 >>>>>>> 3e757cee2 (.)
 =======
 >>>>>>> 903e3e2cd (.)
+=======
+>>>>>>> a0788fa28 (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2562,6 +2576,7 @@ return [
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 9fe1b60e (rebase 210)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -2820,6 +2835,8 @@ return [
 >>>>>>> 903e3e2cd (.)
 =======
 >>>>>>> 47a873f13 (.)
+=======
+>>>>>>> a0788fa28 (.)
     // Footer text for all emails
 <<<<<<< HEAD
     // 'footer_text' => env('MAIL_FOOTER_TEXT', '© ' . date('Y') . ' ' . config('app.name') . '. All rights reserved.'),
@@ -3312,6 +3329,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -3631,6 +3649,7 @@ return [
 >>>>>>> 4d253d2c (rebase 210)
 =======
 >>>>>>> 9fe1b60e (rebase 210)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -4129,6 +4148,8 @@ return [
 >>>>>>> 903e3e2cd (.)
 =======
 >>>>>>> 47a873f13 (.)
+=======
+>>>>>>> a0788fa28 (.)
     // Unsubscribe URL
     'unsubscribe_url' => env('MAIL_UNSUBSCRIBE_URL', null),
     /*
@@ -4144,6 +4165,7 @@ return [
     'default_layout' => 'notify::mail-layouts.base.default',
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4662,6 +4684,7 @@ return [
 >>>>>>> 460b8f5b (rebase 210)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 9fe1b60e (rebase 210)
 =======
 >>>>>>> 8a8a8e2f (rebase 210)
@@ -4939,6 +4962,10 @@ return [
 >>>>>>> 903e3e2cd (.)
 =======
 >>>>>>> 47a873f13 (.)
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+=======
+>>>>>>> a0788fa28 (.)
 
     // Unsubscribe URL
     'unsubscribe_url' => env('MAIL_UNSUBSCRIBE_URL', null),
@@ -4955,6 +4982,7 @@ return [
     // Default layout to use
     'default_layout' => 'notify::mail-layouts.base.default',
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5089,6 +5117,8 @@ return [
 >>>>>>> 3e757cee2 (.)
 =======
 >>>>>>> 903e3e2cd (.)
+=======
+>>>>>>> a0788fa28 (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5354,6 +5384,7 @@ return [
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 9fe1b60e (rebase 210)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -5943,6 +5974,8 @@ return [
 >>>>>>> 903e3e2cd (.)
 =======
 >>>>>>> 47a873f13 (.)
+=======
+>>>>>>> a0788fa28 (.)
     // Available layouts
     'layouts' => [
         'default' => 'notify::mail-layouts.base.default',
@@ -6199,6 +6232,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -6988,6 +7022,7 @@ return [
 
 >>>>>>> b19cd40 (.)
 >>>>>>> 9fe1b60e (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 8a8a8e2f (rebase 210)
@@ -7320,6 +7355,8 @@ return [
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 460b8f5b (rebase 210)
 >>>>>>> 47a873f13 (.)
+=======
+>>>>>>> a0788fa28 (.)
     // Available templates
     'templates' => [
         'welcome' => 'notify::mail-layouts.templates.welcome',

@@ -247,6 +247,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -574,6 +575,7 @@
 >>>>>>> 4d253d2c (rebase 210)
 =======
 >>>>>>> 9fe1b60e (rebase 210)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -1072,6 +1074,8 @@
 >>>>>>> 903e3e2cd (.)
 =======
 >>>>>>> 47a873f13 (.)
+=======
+>>>>>>> a0788fa28 (.)
 <?php
 
 declare(strict_types=1);
@@ -1079,6 +1083,7 @@ declare(strict_types=1);
 ?>
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1981,6 +1986,7 @@ declare(strict_types=1);
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 9fe1b60e (rebase 210)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b19cd40 (.)
@@ -2328,6 +2334,8 @@ declare(strict_types=1);
 >>>>>>> 903e3e2cd (.)
 =======
 >>>>>>> 47a873f13 (.)
+=======
+>>>>>>> a0788fa28 (.)
 <x-filament-panels::page>
     <form wire:submit.prevent="sendSMS">
         <x-filament::section>
@@ -2605,6 +2613,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <x-filament-panels::form.actions :actions="$this->getSmsFormActions()" />
 =======
                         <x-filament::actions :actions="$this->getSmsFormActions()" />
@@ -3305,6 +3314,7 @@ declare(strict_types=1);
                         <x-filament-panels::form.actions :actions="$this->getSmsFormActions()" />
 >>>>>>> b19cd40 (.)
 >>>>>>> 9fe1b60e (rebase 210)
+<<<<<<< HEAD
 =======
 =======
                         <x-filament::actions :actions="$this->getSmsFormActions()" />
@@ -4027,6 +4037,8 @@ declare(strict_types=1);
 >>>>>>> 903e3e2cd (.)
 =======
 >>>>>>> 47a873f13 (.)
+=======
+>>>>>>> a0788fa28 (.)
                     </div>
                 </div>
 
