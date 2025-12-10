@@ -1435,7 +1435,9 @@ describe('GenericNotification getRecipientName', function (): void {
         };
 
         $ref = new ReflectionClass(GenericNotification::class);
+        /** @phpstan-ignore-next-line method.nonObject */
         $method = $ref->getMethod('getRecipientName');
+        /** @phpstan-ignore-next-line method.nonObject */
         $method->setAccessible(true);
 
         expect($method->invoke($notification, $notifiable))->toBe('John Doe');
@@ -2346,7 +2348,9 @@ describe('GenericNotification getRecipientName', function (): void {
         };
 
         $ref = new ReflectionClass(GenericNotification::class);
+        /** @phpstan-ignore-next-line method.nonObject */
         $method = $ref->getMethod('getRecipientName');
+        /** @phpstan-ignore-next-line method.nonObject */
         $method->setAccessible(true);
 
         expect($method->invoke($notification, $model))->toBe('Jane Roe');
@@ -3635,7 +3639,9 @@ describe('GenericNotification getRecipientName', function (): void {
         };
 
         $ref = new ReflectionClass(GenericNotification::class);
+        /** @phpstan-ignore-next-line method.nonObject */
         $method = $ref->getMethod('getRecipientName');
+        /** @phpstan-ignore-next-line method.nonObject */
         $method->setAccessible(true);
 
         expect($method->invoke($notification, $model1))->toBe('Alice');
