@@ -70,6 +70,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -441,12 +442,9 @@ use Override;
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
-use Override;
 =======
->>>>>>> b19cd40 (.)
-=======
+>>>>>>> 9777d1b3 (.)
 use Override;
->>>>>>> 4e2ebfb (.)
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\NotifyThemeFactory;
 use Illuminate\Database\Eloquent\Builder;
@@ -1551,9 +1549,8 @@ class NotifyTheme extends BaseModel
         'logo',
     ];
 
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function getLogoAttribute(null|array $value): array
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1757,6 +1754,8 @@ class NotifyTheme extends BaseModel
     public function getLogoAttribute(null|array $value): array
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
     {
         return [
             // 'path' => asset(strval($this->logo_src)),
@@ -1775,6 +1774,7 @@ class NotifyTheme extends BaseModel
     }
 
     /** @return array<string, string> */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2181,6 +2181,9 @@ class NotifyTheme extends BaseModel
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+=======
+    #[Override]
+>>>>>>> 9777d1b3 (.)
     protected function casts(): array
     {
         return [
@@ -2189,6 +2192,7 @@ class NotifyTheme extends BaseModel
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2643,21 +2647,11 @@ class NotifyTheme extends BaseModel
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
-            'updated_by' => 'string',
-            'created_by' => 'string',
-            'deleted_by' => 'string',
 =======
-
+>>>>>>> 9777d1b3 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
-
->>>>>>> b19cd40 (.)
-=======
-            'updated_by' => 'string',
-            'created_by' => 'string',
-            'deleted_by' => 'string',
->>>>>>> 4e2ebfb (.)
             // 'published_at' => 'datetime:Y-m-d', // da verificare
 <<<<<<< HEAD
 >>>>>>> 75179b85 (.)
