@@ -222,7 +222,6 @@ use Modules\Notify\Filament\Resources\ContactResource\Pages\ListContacts;
 <<<<<<< HEAD
 use Modules\Notify\Models\Contact;
 use Modules\Xot\Filament\Resources\XotBaseResource;
-use Override;
 
 class ContactResource extends XotBaseResource
 {
