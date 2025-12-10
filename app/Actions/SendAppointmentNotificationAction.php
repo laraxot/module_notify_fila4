@@ -24,6 +24,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2fc60436 (.)
@@ -164,12 +165,17 @@ use Modules\Notify\Mail\AppointmentNotificationMail;
 
 // This file references SaluteOra models that do not exist in this project
 >>>>>>> 3f537838 (.)
+=======
+
+// This file references SaluteOra models that do not exist in this project
+>>>>>>> f1c9518b (.)
 namespace Modules\Notify\Actions;
 
 use Exception;
 use Modules\Notify\Models\Notification;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Mail;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -232,6 +238,11 @@ use Modules\SaluteOra\Models\Patient;
 use Modules\Notify\Mail\AppointmentNotificationMail;
 // use Modules\SaluteOra\Models\Patient;
 >>>>>>> 3f537838 (.)
+=======
+// use Modules\SaluteOra\Models\Appointment;
+use Modules\Notify\Mail\AppointmentNotificationMail;
+// use Modules\SaluteOra\Models\Patient;
+>>>>>>> f1c9518b (.)
 use Spatie\QueueableAction\QueueableAction;
 
 class SendAppointmentNotificationAction
@@ -249,6 +260,7 @@ class SendAppointmentNotificationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      * @var int
 =======
@@ -291,6 +303,10 @@ class SendAppointmentNotificationAction
      *
      * @var int
 >>>>>>> d09cb759 (.)
+=======
+     *
+     * @var int
+>>>>>>> f1c9518b (.)
      */
     public int $tries = 3;
 
@@ -319,6 +335,9 @@ class SendAppointmentNotificationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f1c9518b (.)
 =======
 >>>>>>> f1c9518b (.)
 =======
@@ -331,6 +350,7 @@ class SendAppointmentNotificationAction
      */
     public function execute(
         mixed $appointment,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -491,6 +511,8 @@ class SendAppointmentNotificationAction
 =======
         mixed $appointment,
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> f1c9518b (.)
         string $type,
         array $additionalData = []
     ): bool {
@@ -518,6 +540,7 @@ class SendAppointmentNotificationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3f537838 (.)
 =======
@@ -538,6 +561,8 @@ class SendAppointmentNotificationAction
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> f1c9518b (.)
             $patient = null; // Patient::with('user')->find($appointment->patient_id);
 
             // Since patient models are not available in this project,
@@ -551,6 +576,9 @@ class SendAppointmentNotificationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f1c9518b (.)
 =======
 >>>>>>> f1c9518b (.)
 =======
@@ -563,6 +591,7 @@ class SendAppointmentNotificationAction
 
         } catch (Exception $e) {
             Log::error('Errore nell\'invio della notifica di appuntamento', [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -761,6 +790,8 @@ class SendAppointmentNotificationAction
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> f1c9518b (.)
                 'type' => $type,
                 'error' => $e->getMessage(),
                 'trace' => $e->getTraceAsString(),
@@ -787,6 +818,7 @@ class SendAppointmentNotificationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2fc60436 (.)
 =======
@@ -840,6 +872,9 @@ class SendAppointmentNotificationAction
 =======
 
 >>>>>>> 3f537838 (.)
+=======
+
+>>>>>>> f1c9518b (.)
             return false;
         }
     }
@@ -863,6 +898,9 @@ class SendAppointmentNotificationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f1c9518b (.)
 =======
 >>>>>>> f1c9518b (.)
      * @param mixed $appointment
@@ -878,6 +916,7 @@ class SendAppointmentNotificationAction
         Log::info('recordNotification method called but not implemented due to missing models', [
             'type' => $type,
         ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1129,5 +1168,7 @@ class SendAppointmentNotificationAction
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> f1c9518b (.)
     }
 }

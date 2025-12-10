@@ -200,6 +200,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> b19cd40 (.)
@@ -426,9 +427,12 @@ declare(strict_types=1);
 
 >>>>>>> 75179b855 (.)
 
+=======
+>>>>>>> f1c9518b (.)
 namespace Modules\Notify\Database\Factories;
 
 use Modules\Notify\Models\Notification;
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Factories\Factory;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -438,6 +442,15 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b855 (.)
+=======
+=======
+
+namespace Modules\Notify\Database\Factories;
+
+use Modules\Notify\Models\Notification;
+use Illuminate\Database\Eloquent\Factories\Factory;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 
 class NotificationFactory extends Factory
 {

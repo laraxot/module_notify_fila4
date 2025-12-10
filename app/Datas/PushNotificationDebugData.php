@@ -3441,6 +3441,7 @@ final class PushNotificationDebugData extends Data implements Arrayable
                     ->map(static fn(SendReport $report): array => [
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 =======
 =======
@@ -3523,6 +3524,9 @@ final class PushNotificationDebugData extends Data implements Arrayable
                     ->successes()
                     ->map(static fn(SendReport $report): array => [
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
                         'type' => $report->target()->type(),
                         'value' => $report->target()->value(),
                     ]),
@@ -3539,6 +3543,7 @@ final class PushNotificationDebugData extends Data implements Arrayable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
                     ->map(static fn (SendReport $report): array => [
@@ -3569,6 +3574,12 @@ final class PushNotificationDebugData extends Data implements Arrayable
 =======
                     ->map(static fn(SendReport $report): array => [
 >>>>>>> 2941b0bd (.)
+=======
+                    ->map(static fn (SendReport $report): array => [
+=======
+                    ->map(static fn(SendReport $report): array => [
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
                         'type' => $report->target()->type(),
                         'value' => $report->target()->value(),
                     ]),
@@ -3585,6 +3596,7 @@ final class PushNotificationDebugData extends Data implements Arrayable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -3597,10 +3609,13 @@ final class PushNotificationDebugData extends Data implements Arrayable
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> f1c9518b (.)
                     ->map(static fn(SendReport $report): array => [
                         'type' => $report->target()->type(),
                         'value' => $report->target()->value(),
                     ]),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3626,6 +3641,10 @@ final class PushNotificationDebugData extends Data implements Arrayable
                 'results' => $this->sendReport->map(static fn(SendReport $report): array => [
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+=======
+                'results' => $this->sendReport->map(static fn(SendReport $report): array => [
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
                     'target' => $report->target()->value(),
                     'result' => $report->result(),
                 ]),

@@ -15,6 +15,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 82ae73be (.)
@@ -67,6 +68,11 @@
 =======
 
 >>>>>>> d09cb759 (.)
+=======
+
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 declare(strict_types=1);
 
 namespace Modules\Notify\Http\Controllers;
@@ -92,9 +98,12 @@ namespace Modules\Notify\Http\Controllers;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use function Safe\base64_decode;
 
 =======
+=======
+>>>>>>> f1c9518b (.)
 =======
 >>>>>>> f1c9518b (.)
 =======
@@ -102,6 +111,9 @@ use function Safe\base64_decode;
 
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f1c9518b (.)
+=======
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> f1c9518b (.)
@@ -159,8 +171,11 @@ use Modules\Notify\Models\NotificationLog;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> f1c9518b (.)
 =======
 >>>>>>> f1c9518b (.)
 use function Safe\base64_decode;
@@ -168,6 +183,7 @@ use function Safe\base64_decode;
 =======
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> 2fc60436 (.)
@@ -187,6 +203,8 @@ use function Safe\base64_decode;
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> f1c9518b (.)
 class NotificationTrackingController extends Controller
 {
     /**
@@ -201,6 +219,7 @@ class NotificationTrackingController extends Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -224,6 +243,9 @@ class NotificationTrackingController extends Controller
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> f1c9518b (.)
      *
      * @param Request $request
      * @param string $id
@@ -238,6 +260,7 @@ class NotificationTrackingController extends Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
@@ -260,6 +283,9 @@ class NotificationTrackingController extends Controller
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
      */
     public function trackOpen(Request $request, string $id): Response
     {
@@ -289,6 +315,7 @@ class NotificationTrackingController extends Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      * @param Request $request
      * @param string $id
@@ -320,11 +347,14 @@ class NotificationTrackingController extends Controller
 =======
 >>>>>>> f1c9518b (.)
 =======
+>>>>>>> f1c9518b (.)
+=======
      *
      * @param Request $request
      * @param string $id
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @return RedirectResponse
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
@@ -338,6 +368,10 @@ class NotificationTrackingController extends Controller
 =======
      * @return \Illuminate\Http\RedirectResponse
 >>>>>>> a404ea71 (.)
+=======
+     * @return RedirectResponse
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
      */
     public function trackClick(Request $request, string $id): \Illuminate\Http\RedirectResponse
     {
@@ -704,9 +738,12 @@ class NotificationTrackingController extends Controller
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 } 
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> f1c9518b (.)
 =======
 >>>>>>> f1c9518b (.)
 }
@@ -714,6 +751,7 @@ class NotificationTrackingController extends Controller
 } 
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
     }
@@ -749,3 +787,5 @@ class NotificationTrackingController extends Controller
     }
 } 
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> f1c9518b (.)

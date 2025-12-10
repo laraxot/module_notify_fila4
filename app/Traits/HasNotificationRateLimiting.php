@@ -11,6 +11,7 @@ use Illuminate\Cache\RateLimiter;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Illuminate\Support\Facades\Cache;
 >>>>>>> 75179b8 (.)
@@ -33,6 +34,11 @@ use Illuminate\Support\Facades\Cache;
 =======
 use Illuminate\Support\Facades\Cache;
 >>>>>>> 75179b855 (.)
+=======
+=======
+use Illuminate\Support\Facades\Cache;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 
 trait HasNotificationRateLimiting
 {
@@ -45,16 +51,20 @@ trait HasNotificationRateLimiting
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> f1c9518b (.)
      * @param  string  $key  Chiave univoca per il rate limiting
      */
     protected function shouldSendNotification(string $key): bool
     {
         if (! config('notify.rate_limiting.enabled')) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -67,12 +77,15 @@ trait HasNotificationRateLimiting
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> f1c9518b (.)
      * @param string $key Chiave univoca per il rate limiting
      * @return bool
      */
     protected function shouldSendNotification(string $key): bool
     {
         if (!config('notify.rate_limiting.enabled')) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -91,6 +104,9 @@ trait HasNotificationRateLimiting
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
             return true;
         }
 
@@ -111,6 +127,7 @@ trait HasNotificationRateLimiting
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 75179b8 (.)
@@ -130,6 +147,11 @@ trait HasNotificationRateLimiting
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b855 (.)
+=======
+
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
         return true;
     }
 
@@ -142,6 +164,7 @@ trait HasNotificationRateLimiting
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
      * @param  string  $key  Chiave univoca per il rate limiting
@@ -166,6 +189,12 @@ trait HasNotificationRateLimiting
 =======
      * @param string $key Chiave univoca per il rate limiting
 >>>>>>> 75179b855 (.)
+=======
+     * @param  string  $key  Chiave univoca per il rate limiting
+=======
+     * @param string $key Chiave univoca per il rate limiting
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
      * @return int Secondi rimanenti
      */
     protected function getNotificationRateLimitRetryAfter(string $key): int
@@ -178,6 +207,7 @@ trait HasNotificationRateLimiting
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 75179b8 (.)
@@ -197,6 +227,11 @@ trait HasNotificationRateLimiting
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b855 (.)
+=======
+
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
         return $limiter->availableIn($key);
     }
 
@@ -209,6 +244,7 @@ trait HasNotificationRateLimiting
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
      * @param  string  $key  Chiave univoca per il rate limiting
@@ -233,6 +269,12 @@ trait HasNotificationRateLimiting
 =======
      * @param string $key Chiave univoca per il rate limiting
 >>>>>>> 75179b855 (.)
+=======
+     * @param  string  $key  Chiave univoca per il rate limiting
+=======
+     * @param string $key Chiave univoca per il rate limiting
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
      * @return int Tentativi rimanenti
      */
     protected function getNotificationRateLimitRemainingAttempts(string $key): int
@@ -247,6 +289,7 @@ trait HasNotificationRateLimiting
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 75179b8 (.)
@@ -266,6 +309,11 @@ trait HasNotificationRateLimiting
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b855 (.)
+=======
+
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
         return $maxAttempts - $limiter->attempts($key);
     }
 
@@ -278,14 +326,18 @@ trait HasNotificationRateLimiting
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> f1c9518b (.)
      * @param  string  $key  Chiave univoca per il rate limiting
 =======
      * @param string $key Chiave univoca per il rate limiting
      * @return void
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 75179b8 (.)
@@ -307,6 +359,9 @@ trait HasNotificationRateLimiting
      * @param string $key Chiave univoca per il rate limiting
      * @return void
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
      */
     protected function resetNotificationRateLimit(string $key): void
     {
@@ -324,16 +379,20 @@ trait HasNotificationRateLimiting
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> f1c9518b (.)
      * @param  string  $type  Tipo di notifica
      * @param  mixed  $identifier  Identificatore univoco (es. ID utente)
 =======
      * @param string $type Tipo di notifica
      * @param mixed $identifier Identificatore univoco (es. ID utente)
      * @return string
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 75179b8 (.)
@@ -358,6 +417,9 @@ trait HasNotificationRateLimiting
      * @param mixed $identifier Identificatore univoco (es. ID utente)
      * @return string
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
      */
     protected function getNotificationRateLimitKey(string $type, mixed $identifier): string
     {

@@ -34,6 +34,7 @@ namespace Modules\Notify\Filament\Clusters\Test\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use BackedEnum;
 =======
 >>>>>>> 75179b85 (.)
@@ -84,6 +85,8 @@ use Illuminate\Contracts\Support\Htmlable;
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> f1c9518b (.)
 use Exception;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
@@ -96,6 +99,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Notification;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -139,6 +143,9 @@ use Modules\Notify\Datas\TelegramMessageData;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+=======
+>>>>>>> f1c9518b (.)
 use Filament\Schemas\Schema;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Select;
@@ -163,6 +170,7 @@ use Modules\Notify\Datas\TelegramMessageData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
@@ -180,10 +188,14 @@ use Modules\Notify\Datas\TelegramMessageData;
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\Notify\Notifications\TelegramNotification;
 use Modules\Xot\Filament\Pages\XotBasePage;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -199,11 +211,16 @@ use Webmozart\Assert\Assert;
 =======
 >>>>>>> f1c9518b (.)
 =======
+>>>>>>> f1c9518b (.)
+=======
 use NotificationChannels\Telegram\TelegramMessage;
 use Telegram\Bot\Laravel\Facades\Telegram;
 use Webmozart\Assert\Assert;
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f1c9518b (.)
+=======
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> f1c9518b (.)
@@ -331,11 +348,14 @@ class SendTelegramPage extends XotBasePage implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
     public null|array $telegramData = [];
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> f1c9518b (.)
 =======
 >>>>>>> f1c9518b (.)
     public ?array $telegramData = [];
@@ -377,6 +397,7 @@ class SendTelegramPage extends XotBasePage implements HasForms
     protected static ?string $cluster = Test::class;
 =======
     public null|array $telegramData = [];
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -546,11 +567,14 @@ class SendTelegramPage extends XotBasePage implements HasForms
 =======
     public null|array $telegramData = [];
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> f1c9518b (.)
 
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
 
     protected string $view = 'notify::filament.pages.send-telegram';
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -759,6 +783,10 @@ class SendTelegramPage extends XotBasePage implements HasForms
 =======
     protected static null|string $cluster = Test::class;
 >>>>>>> 3f537838 (.)
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 
     public function mount(): void
     {
@@ -2095,6 +2123,7 @@ class SendTelegramPage extends XotBasePage implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -2133,10 +2162,13 @@ class SendTelegramPage extends XotBasePage implements HasForms
 <<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> f1c9518b (.)
             Log::error('Errore nell\'invio Telegram: '.$e->getMessage());
 =======
             Log::error('Errore nell\'invio Telegram: ' . $e->getMessage());
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
@@ -2162,6 +2194,8 @@ class SendTelegramPage extends XotBasePage implements HasForms
 =======
             Log::error('Errore nell\'invio Telegram: ' . $e->getMessage());
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> f1c9518b (.)
 
             FilamentNotification::make()
                 ->danger()

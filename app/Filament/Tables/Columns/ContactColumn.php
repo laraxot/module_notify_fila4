@@ -3114,6 +3114,7 @@ use Modules\Notify\Enums\ContactTypeEnum;
  * @version 2.0 - REFACTOR COMPLETO
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 =======
 =======
@@ -3186,6 +3187,9 @@ use Modules\Notify\Enums\ContactTypeEnum;
  * @author Laraxot Team
  * @version 2.0 - REFACTOR COMPLETO
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
  * @since 2025-01-06
  */
 class ContactColumn extends ViewColumn

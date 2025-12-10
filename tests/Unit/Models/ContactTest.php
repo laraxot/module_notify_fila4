@@ -1861,6 +1861,7 @@ class ContactTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
         $contact = new Contact;
@@ -1885,6 +1886,12 @@ class ContactTest extends TestCase
 =======
         $contact = new Contact();
 >>>>>>> 75179b855 (.)
+=======
+        $contact = new Contact;
+=======
+        $contact = new Contact();
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 
         $expectedFillable = [
             'model_id',
@@ -1912,6 +1919,7 @@ class ContactTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
         $contact = new Contact;
@@ -1936,6 +1944,12 @@ class ContactTest extends TestCase
 =======
         $contact = new Contact();
 >>>>>>> 75179b855 (.)
+=======
+        $contact = new Contact;
+=======
+        $contact = new Contact();
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 
         $expectedCasts = [
             'id' => 'string',

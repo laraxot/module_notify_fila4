@@ -17,6 +17,7 @@ class SettingPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-document-text';
 =======
 =======
@@ -36,6 +37,12 @@ class SettingPage extends XotBasePage
 =======
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-document-text';
 >>>>>>> 75179b855 (.)
+=======
+    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-document-text';
+=======
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-document-text';
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 
     protected string $view = 'notify::filament.pages.setting';
 

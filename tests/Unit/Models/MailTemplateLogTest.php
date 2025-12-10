@@ -1516,6 +1516,7 @@ class MailTemplateLogTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
         $log = new MailTemplateLog;
@@ -1540,6 +1541,12 @@ class MailTemplateLogTest extends TestCase
 =======
         $log = new MailTemplateLog();
 >>>>>>> 75179b855 (.)
+=======
+        $log = new MailTemplateLog;
+=======
+        $log = new MailTemplateLog();
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 
         $expectedFillable = [
             'template_id',
@@ -1568,6 +1575,7 @@ class MailTemplateLogTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
         $log = new MailTemplateLog;
@@ -1592,6 +1600,12 @@ class MailTemplateLogTest extends TestCase
 =======
         $log = new MailTemplateLog();
 >>>>>>> 75179b855 (.)
+=======
+        $log = new MailTemplateLog;
+=======
+        $log = new MailTemplateLog();
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 
         $expectedCasts = [
             'id' => 'string',

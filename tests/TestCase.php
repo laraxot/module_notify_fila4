@@ -302,6 +302,7 @@ use Illuminate\Foundation\Application;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use Illuminate\Foundation\Application;
@@ -338,6 +339,8 @@ use Modules\Notify\Providers\NotifyServiceProvider;
 >>>>>>> fbed41ac (.)
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> f1c9518b (.)
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 use Modules\Notify\Providers\NotifyServiceProvider;
 =======
@@ -1445,6 +1448,7 @@ abstract class TestCase extends BaseTestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fbed41ac (.)
 =======
@@ -1656,6 +1660,12 @@ abstract class TestCase extends BaseTestCase
 =======
      * @param Application $app
 >>>>>>> 4c323e61 (.)
+=======
+     * @param  Application  $app
+=======
+     * @param Application $app
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
      * @return array<int, class-string>
      */
     protected function getPackageProviders($app): array

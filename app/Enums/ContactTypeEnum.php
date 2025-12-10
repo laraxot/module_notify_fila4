@@ -1320,13 +1320,17 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> f1c9518b (.)
 enum ContactTypeEnum: string implements HasColor, HasIcon, HasLabel
 =======
 enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
 enum ContactTypeEnum: string implements HasColor, HasIcon, HasLabel
@@ -1334,6 +1338,8 @@ enum ContactTypeEnum: string implements HasColor, HasIcon, HasLabel
 enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> f1c9518b (.)
 {
     use TransTrait;
 <<<<<<< HEAD
@@ -1777,6 +1783,7 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $this->transClass(self::class, $this->value . '.label');
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2434,6 +2441,12 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+        return $this->transClass(self::class, $this->value.'.label');
+=======
+        return $this->transClass(self::class, $this->value . '.label');
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
     }
 
     public function getColor(): string
@@ -2516,6 +2529,7 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         return $this->transClass(self::class, $this->value.'.color');
 >>>>>>> 98d837b9 (.)
@@ -3056,6 +3070,12 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 =======
         return $this->transClass(self::class, $this->value . '.color');
 >>>>>>> 2941b0bd (.)
+=======
+        return $this->transClass(self::class, $this->value.'.color');
+=======
+        return $this->transClass(self::class, $this->value . '.color');
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
     }
 
     public function getIcon(): string
@@ -3138,6 +3158,7 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         return $this->transClass(self::class, $this->value.'.icon');
 >>>>>>> 58816034 (.)
@@ -3649,10 +3670,17 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 =======
         return $this->transClass(self::class, $this->value . '.icon');
 >>>>>>> 2941b0bd (.)
+=======
+        return $this->transClass(self::class, $this->value.'.icon');
+=======
+        return $this->transClass(self::class, $this->value . '.icon');
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
     }
 
     public function getDescription(): string
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4100,10 +4128,17 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 =======
         return $this->transClass(self::class, $this->value . '.description');
 >>>>>>> c8b1c8bf (.)
+=======
+        return $this->transClass(self::class, $this->value.'.description');
+=======
+        return $this->transClass(self::class, $this->value . '.description');
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
     }
 
     public static function getSearchable(): array
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         return array_map(fn($item) => $item->value, ContactTypeEnum::cases());
@@ -4226,10 +4261,15 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
         return array_map(fn($item) => $item->value, ContactTypeEnum::cases());
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> f1c9518b (.)
         return array_map(fn ($item) => $item->value, ContactTypeEnum::cases());
 =======
         return array_map(fn($item) => $item->value, ContactTypeEnum::cases());
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
+>>>>>>> f1c9518b (.)
+=======
 >>>>>>> f1c9518b (.)
     }
 
@@ -4238,10 +4278,13 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
         $res = Arr::map(
             ContactTypeEnum::cases(),
 <<<<<<< HEAD
+<<<<<<< HEAD
             fn($item) => TextInput::make($item->value)->prefixIcon($item->getIcon()),
         );
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> f1c9518b (.)
             fn ($item) => TextInput::make($item->value)->prefixIcon($item->getIcon()),
         );
 
@@ -4249,6 +4292,9 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
             fn($item) => TextInput::make($item->value)->prefixIcon($item->getIcon()),
         );
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
+>>>>>>> f1c9518b (.)
+=======
 >>>>>>> f1c9518b (.)
         return $res;
     }

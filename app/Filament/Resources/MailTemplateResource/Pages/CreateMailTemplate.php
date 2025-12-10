@@ -751,6 +751,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\Notify\Filament\Resources\MailTemplateResource\Pages;
 
 =======
@@ -805,6 +806,10 @@ namespace Modules\Notify\Filament\Resources\MailTemplateResource\Pages;
 
 >>>>>>> c8b1c8bf (.)
 =======
+namespace Modules\Notify\Filament\Resources\MailTemplateResource\Pages;
+
+>>>>>>> f1c9518b (.)
+=======
 
 namespace Modules\Notify\Filament\Resources\MailTemplateResource\Pages;
 
@@ -812,6 +817,7 @@ use Filament\Actions;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
@@ -823,6 +829,9 @@ use Filament\Actions;
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 use Modules\Lang\Filament\Resources\Pages\LangBaseCreateRecord;
 use Modules\Notify\Filament\Resources\MailTemplateResource;
 <<<<<<< HEAD

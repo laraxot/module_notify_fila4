@@ -21,6 +21,7 @@ trait HasTenantNotifications
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      * @return MorphMany
 =======
@@ -28,9 +29,12 @@ trait HasTenantNotifications
 =======
 >>>>>>> f1c9518b (.)
 =======
+>>>>>>> f1c9518b (.)
+=======
      *
      * @return MorphMany
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
@@ -402,6 +406,8 @@ trait HasTenantNotifications
 >>>>>>> 75179b855 (.)
      *
      * @return MorphMany
+=======
+>>>>>>> f1c9518b (.)
      */
     public function notifications(): MorphMany
     {
@@ -508,6 +514,7 @@ trait HasTenantNotifications
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      * @return MorphMany
 =======
@@ -515,9 +522,12 @@ trait HasTenantNotifications
 =======
 >>>>>>> f1c9518b (.)
 =======
+>>>>>>> f1c9518b (.)
+=======
      *
      * @return MorphMany
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
@@ -889,6 +899,8 @@ trait HasTenantNotifications
 >>>>>>> 75179b855 (.)
      *
      * @return MorphMany
+=======
+>>>>>>> f1c9518b (.)
      */
     public function unreadNotifications(): MorphMany
     {
@@ -995,6 +1007,7 @@ trait HasTenantNotifications
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      * @return MorphMany
 =======
@@ -1002,9 +1015,12 @@ trait HasTenantNotifications
 =======
 >>>>>>> f1c9518b (.)
 =======
+>>>>>>> f1c9518b (.)
+=======
      *
      * @return MorphMany
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
@@ -1378,6 +1394,8 @@ trait HasTenantNotifications
 >>>>>>> 75179b855 (.)
      *
      * @return MorphMany
+=======
+>>>>>>> f1c9518b (.)
      */
     public function readNotifications(): MorphMany
     {
@@ -1484,6 +1502,7 @@ trait HasTenantNotifications
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      * @param Builder $query
      * @param string|null $tenantId
@@ -1497,6 +1516,8 @@ trait HasTenantNotifications
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> f1c9518b (.)
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1938,6 +1959,7 @@ trait HasTenantNotifications
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 985c7bda (.)
 =======
 =======
@@ -1955,6 +1977,8 @@ trait HasTenantNotifications
 =======
 >>>>>>> c8b1c8bf (.)
 =======
+>>>>>>> f1c9518b (.)
+=======
      *
      * @param Builder $query
      * @param string|null $tenantId
@@ -1963,6 +1987,7 @@ trait HasTenantNotifications
     public function scopeForTenant(Builder $query, null|string $tenantId = null): Builder
     {
         $tenantId ??= $this->getTenantId();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2221,6 +2246,9 @@ trait HasTenantNotifications
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
         return $query->where('tenant_id', $tenantId);
     }
 
@@ -2232,10 +2260,13 @@ trait HasTenantNotifications
 <<<<<<< HEAD
      * Ottiene l'ID del tenant corrente.
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      * @return string|null
 =======
 <<<<<<< HEAD
+>>>>>>> f1c9518b (.)
+=======
 >>>>>>> f1c9518b (.)
      */
 <<<<<<< HEAD
@@ -2450,6 +2481,9 @@ trait HasTenantNotifications
         /** @var TenantManager */
         $tenantManager = app(TenantManager::class);
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
+>>>>>>> f1c9518b (.)
+=======
 >>>>>>> f1c9518b (.)
         return $tenantManager->getTenantId();
     }
@@ -2457,16 +2491,20 @@ trait HasTenantNotifications
     /**
      * Verifica se il modello appartiene al tenant specificato.
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      * @param string $tenantId
      * @return bool
 =======
 <<<<<<< HEAD
 =======
+>>>>>>> f1c9518b (.)
+=======
      *
      * @param string $tenantId
      * @return bool
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
 <<<<<<< HEAD
@@ -2513,6 +2551,8 @@ trait HasTenantNotifications
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> f1c9518b (.)
      */
     public function belongsToTenant(string $tenantId): bool
     {
@@ -2527,14 +2567,18 @@ trait HasTenantNotifications
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      * @return bool
 =======
 <<<<<<< HEAD
 =======
+>>>>>>> f1c9518b (.)
+=======
      *
      * @return bool
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
 =======
@@ -2559,6 +2603,8 @@ trait HasTenantNotifications
      *
      * @return bool
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> f1c9518b (.)
      */
     public function belongsToCurrentTenant(): bool
     {
@@ -2573,23 +2619,30 @@ trait HasTenantNotifications
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      * @return void
 =======
 <<<<<<< HEAD
 =======
+>>>>>>> f1c9518b (.)
+=======
      *
      * @return void
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> f1c9518b (.)
      */
     public static function bootHasTenantNotifications(): void
     {
         static::creating(function (Model $model) {
+<<<<<<< HEAD
 <<<<<<< HEAD
             if (!isset($model->tenant_id)) {
 =======
@@ -2807,6 +2860,12 @@ trait HasTenantNotifications
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b855 (.)
+=======
+            if (! isset($model->tenant_id)) {
+=======
+            if (!isset($model->tenant_id)) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
                 $model->tenant_id = $model->getTenantId();
             }
         });
@@ -2817,10 +2876,14 @@ trait HasTenantNotifications
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f1c9518b (.)
             $builder->where($model->getTable().'.tenant_id', $model->getTenantId());
 =======
             $builder->where($model->getTable() . '.tenant_id', $model->getTenantId());
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
         });
     }
@@ -3150,6 +3213,8 @@ trait HasTenantNotifications
 =======
 >>>>>>> 75179b855 (.)
             $builder->where($model->getTable() . '.tenant_id', $model->getTenantId());
+=======
+>>>>>>> f1c9518b (.)
         });
     }
 }

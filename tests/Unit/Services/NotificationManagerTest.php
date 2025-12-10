@@ -96,6 +96,7 @@ class NotificationManagerTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         $this->notificationManager = new NotificationManager;
 >>>>>>> 58816034 (.)
@@ -608,6 +609,12 @@ class NotificationManagerTest extends TestCase
 =======
         $this->notificationManager = new NotificationManager();
 >>>>>>> 2941b0bd (.)
+=======
+        $this->notificationManager = new NotificationManager;
+=======
+        $this->notificationManager = new NotificationManager();
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
     }
 
     protected function tearDown(): void

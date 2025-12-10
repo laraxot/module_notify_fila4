@@ -181,6 +181,7 @@ use Modules\Xot\Filament\Pages\XotBaseDashboard;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Filament\Pages\XotBasePage;
 =======
 use Modules\Xot\Filament\Pages\XotBasePage;
@@ -422,11 +423,14 @@ use Modules\Xot\Filament\Pages\XotBasePage;
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> fbed41ac (.)
+=======
+>>>>>>> f1c9518b (.)
 
 class Dashboard extends XotBaseDashboard
 {
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-home';
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 use Modules\Xot\Filament\Pages\XotBaseDashboard;
@@ -439,6 +443,8 @@ use Modules\Xot\Filament\Pages\XotBaseDashboard;
 =======
 use Modules\Xot\Filament\Pages\XotBaseDashboard;
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> f1c9518b (.)
 use Modules\Xot\Filament\Pages\XotBasePage;
 
 class Dashboard extends XotBaseDashboard
@@ -448,6 +454,7 @@ class Dashboard extends XotBaseDashboard
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
@@ -459,6 +466,9 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 
     protected string $view = 'notify::filament.pages.dashboard';
 

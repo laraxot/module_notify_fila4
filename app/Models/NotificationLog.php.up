@@ -45,6 +45,7 @@ class NotificationLog extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2fc60436 (.)
     use \Modules\Xot\Models\Traits\HasXotFactory;
@@ -89,6 +90,12 @@ class NotificationLog extends BaseModel
 =======
     use \Modules\Xot\Models\Traits\HasXotFactory;
 >>>>>>> 5fd545e4 (.)
+=======
+    use \Modules\Xot\Models\Traits\HasXotFactory;
+=======
+    use HasFactory;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
     use Updater;
 
     public const STATUS_PENDING = 'pending';
@@ -111,6 +118,7 @@ class NotificationLog extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2fc60436 (.)
     /** @var list<string> */
@@ -155,6 +163,12 @@ class NotificationLog extends BaseModel
 =======
     /** @var list<string> */
 >>>>>>> 5fd545e4 (.)
+=======
+    /** @var list<string> */
+=======
+    /** @var array<int, string> */
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
     protected $fillable = [
         'template_id',
         'notifiable_type',

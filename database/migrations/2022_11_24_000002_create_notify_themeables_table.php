@@ -83,6 +83,7 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 888799d0 (.)
@@ -599,6 +600,13 @@ return new class() extends XotBaseMigration {
 =======
 return new class() extends XotBaseMigration {
 >>>>>>> 2941b0bd (.)
+=======
+return new class extends XotBaseMigration
+{
+=======
+return new class() extends XotBaseMigration {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
     /**
      * Run the migrations.
      */
@@ -904,15 +912,19 @@ return new class() extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (!$this->hasColumn('notify_theme_id')) {
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> f1c9518b (.)
 =======
 >>>>>>> f1c9518b (.)
             if (! $this->hasColumn('notify_theme_id')) {
 =======
             if (!$this->hasColumn('notify_theme_id')) {
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
@@ -938,6 +950,8 @@ return new class() extends XotBaseMigration {
 =======
             if (!$this->hasColumn('notify_theme_id')) {
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> f1c9518b (.)
                 $table->integer('notify_theme_id')->nullable();
             }
             $this->updateTimestamps(

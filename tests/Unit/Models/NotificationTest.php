@@ -1514,6 +1514,7 @@ class NotificationTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
         $notification = new Notification;
@@ -1538,6 +1539,12 @@ class NotificationTest extends TestCase
 =======
         $notification = new Notification();
 >>>>>>> 75179b855 (.)
+=======
+        $notification = new Notification;
+=======
+        $notification = new Notification();
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 
         $expectedFillable = [
             'message',
@@ -1565,6 +1572,7 @@ class NotificationTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
         $notification = new Notification;
@@ -1589,6 +1597,12 @@ class NotificationTest extends TestCase
 =======
         $notification = new Notification();
 >>>>>>> 75179b855 (.)
+=======
+        $notification = new Notification;
+=======
+        $notification = new Notification();
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 
         $expectedCasts = [
             'read_at' => 'datetime',

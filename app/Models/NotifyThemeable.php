@@ -30,6 +30,7 @@ namespace Modules\Notify\Models;
 =======
 >>>>>>> 98d837b9 (.)
 use Illuminate\Database\Eloquent\Builder;
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 <<<<<<< HEAD
 =======
@@ -104,9 +105,15 @@ use Illuminate\Support\Carbon;
 >>>>>>> 75179b85 (.)
 =======
 =======
+<<<<<<< HEAD
+use Illuminate\Support\Carbon;
+use Modules\Xot\Contracts\ProfileContract;
+>>>>>>> f1c9518b (.)
+=======
 use Modules\Xot\Contracts\ProfileContract;
 use Illuminate\Support\Carbon;
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
 =======
@@ -129,6 +136,8 @@ use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Contracts\ProfileContract;
 use Illuminate\Support\Carbon;
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> f1c9518b (.)
 
 /**
  * Modules\Notify\Models\NotifyThemeable.
@@ -141,6 +150,7 @@ use Illuminate\Support\Carbon;
  * @property Carbon|null $updated_at
  * @property string|null $updated_by
  * @property int|null $notify_theme_id
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -283,6 +293,11 @@ use Illuminate\Support\Carbon;
 >>>>>>> 2941b0bd (.)
 =======
 >>>>>>> 2cbbc069 (.)
+=======
+ *
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
  * @method static Builder|NotifyThemeable newModelQuery()
  * @method static Builder|NotifyThemeable newQuery()
  * @method static Builder|NotifyThemeable query()
@@ -294,6 +309,7 @@ use Illuminate\Support\Carbon;
  * @method static Builder|NotifyThemeable whereNotifyThemeId($value)
  * @method static Builder|NotifyThemeable whereUpdatedAt($value)
  * @method static Builder|NotifyThemeable whereUpdatedBy($value)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -321,10 +337,16 @@ use Illuminate\Support\Carbon;
 >>>>>>> 75179b855 (.)
 =======
 >>>>>>> 2cbbc069 (.)
+=======
+ *
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -378,6 +400,8 @@ use Illuminate\Support\Carbon;
 =======
 >>>>>>> 7c1c276f (rebase 210)
 <<<<<<< HEAD
+=======
+>>>>>>> f1c9518b (.)
  *
  * @method static Builder<static>|NotifyThemeable whereDeletedAt($value)
  * @method static Builder<static>|NotifyThemeable whereDeletedBy($value)
@@ -391,6 +415,7 @@ use Illuminate\Support\Carbon;
  * @method static Builder<static>|NotifyThemeable whereDeletedAt($value)
  * @method static Builder<static>|NotifyThemeable whereDeletedBy($value)
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
@@ -456,6 +481,8 @@ use Illuminate\Support\Carbon;
  * @method static Builder<static>|NotifyThemeable whereDeletedBy($value)
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> f1c9518b (.)
  * @mixin IdeHelperNotifyThemeable
 =======
 <<<<<<< HEAD

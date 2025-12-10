@@ -114,6 +114,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -742,6 +743,11 @@ declare(strict_types=1);
 
 
 >>>>>>> 2941b0bd (.)
+=======
+=======
+
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 namespace Modules\Notify\Datas;
 
 use Spatie\LaravelData\Data;

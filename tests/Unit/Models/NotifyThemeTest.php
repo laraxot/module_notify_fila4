@@ -1530,6 +1530,7 @@ class NotifyThemeTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
         $theme = new NotifyTheme;
@@ -1554,6 +1555,12 @@ class NotifyThemeTest extends TestCase
 =======
         $theme = new NotifyTheme();
 >>>>>>> 75179b855 (.)
+=======
+        $theme = new NotifyTheme;
+=======
+        $theme = new NotifyTheme();
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 
         $expectedFillable = [
             'id',
@@ -1585,6 +1592,7 @@ class NotifyThemeTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
         $theme = new NotifyTheme;
@@ -1609,6 +1617,12 @@ class NotifyThemeTest extends TestCase
 =======
         $theme = new NotifyTheme();
 >>>>>>> 75179b855 (.)
+=======
+        $theme = new NotifyTheme;
+=======
+        $theme = new NotifyTheme();
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 
         $expectedCasts = [
             'id' => 'string',
@@ -1634,6 +1648,7 @@ class NotifyThemeTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
         $theme = new NotifyTheme;
@@ -1658,6 +1673,12 @@ class NotifyThemeTest extends TestCase
 =======
         $theme = new NotifyTheme();
 >>>>>>> 75179b855 (.)
+=======
+        $theme = new NotifyTheme;
+=======
+        $theme = new NotifyTheme();
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 
         $expectedAppends = ['logo'];
 

@@ -272,6 +272,7 @@ use Spatie\LaravelData\Data;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Webmozart\Assert\Assert;
 
 class TwilioData extends Data
@@ -496,6 +497,8 @@ use Modules\Tenant\Services\TenantService;
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> f1c9518b (.)
 
 class TwilioData extends Data
 {
@@ -514,6 +517,7 @@ class TwilioData extends Data
 =======
         if (! (self::$instance instanceof TwilioData)) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -542,6 +546,8 @@ use Spatie\LaravelData\Data;
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> f1c9518b (.)
 use Webmozart\Assert\Assert;
 
 class TwilioData extends Data
@@ -562,6 +568,7 @@ class TwilioData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
@@ -579,6 +586,9 @@ class TwilioData extends Data
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
             /*
 <<<<<<< HEAD
             $data = TenantService::getConfig('sms');
@@ -1007,6 +1017,7 @@ class TwilioData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'Authorization' => 'Basic ' . base64_encode($this->account_sid . ':' . $this->auth_token),
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1183,6 +1194,12 @@ class TwilioData extends Data
 >>>>>>> de02998b (.)
 =======
 >>>>>>> 011072e4 (.)
+=======
+                    'Authorization' => 'Basic '.base64_encode($this->account_sid.':'.$this->auth_token),
+=======
+                    'Authorization' => 'Basic ' . base64_encode($this->account_sid . ':' . $this->auth_token),
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
                     'Content-Type' => 'application/x-www-form-urlencoded',
 =======
                     'Content-Type' => 'application/x-www-form-urlencoded'

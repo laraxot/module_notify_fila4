@@ -138,6 +138,7 @@ declare(strict_types=1);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> b19cd40 (.)
@@ -353,6 +354,8 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 declare(strict_types=1);
 
 
+=======
+>>>>>>> f1c9518b (.)
 namespace Modules\Notify\Database\Factories;
 
 <<<<<<< HEAD
@@ -368,6 +371,7 @@ namespace Modules\Notify\Database\Factories;
 =======
 =======
 use Modules\Notify\Models\NotificationTemplateVersion;
+<<<<<<< HEAD
 >>>>>>> f5f1cb1 (.)
 =======
 >>>>>>> fbed41ac (.)
@@ -409,12 +413,15 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 >>>>>>> 75179b85 (.)
 =======
 =======
+>>>>>>> f1c9518b (.)
+=======
 
 namespace Modules\Notify\Database\Factories;
 
 use Modules\Notify\Models\NotificationTemplateVersion;
 use Illuminate\Database\Eloquent\Factories\Factory;
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
 use Modules\Notify\Models\NotificationTemplateVersion;
@@ -428,6 +435,8 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 use Modules\Notify\Models\NotificationTemplateVersion;
 use Illuminate\Database\Eloquent\Factories\Factory;
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> f1c9518b (.)
 
 class NotificationTemplateVersionFactory extends Factory
 {

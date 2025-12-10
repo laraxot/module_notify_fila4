@@ -82,6 +82,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -127,6 +128,8 @@ use Override;
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> f1c9518b (.)
 use GuzzleHttp\Client;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SMS\AgiletelecomData;
@@ -337,6 +340,7 @@ use Modules\Notify\Contracts\SMS\SmsActionContract;
 /**
  * Azione per l'invio di SMS tramite Agile Telecom.
  *
+<<<<<<< HEAD
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 75179b85 (.)
@@ -753,12 +757,16 @@ use Modules\Notify\Contracts\SMS\SmsActionContract;
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+=======
+>>>>>>> f1c9518b (.)
 use Override;
 use GuzzleHttp\Client;
 use Illuminate\Support\Facades\Http;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SMS\AgiletelecomData;
 use Modules\Notify\Datas\SmsData;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -924,10 +932,13 @@ use Modules\Notify\Datas\SmsData;
 <<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
+=======
+>>>>>>> f1c9518b (.)
 
 /**
  * Azione per l'invio di SMS tramite Agile Telecom.
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
 <<<<<<< HEAD
@@ -945,6 +956,8 @@ use Modules\Notify\Datas\SmsData;
 /**
  * Azione per l'invio di SMS tramite Agile Telecom.
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> f1c9518b (.)
  * @see https://account.agiletelecom.com/public/resources/HTTP_POST_IT.pdf
  */
 class SendAgiletelecomSMSv1Action implements SmsActionContract
