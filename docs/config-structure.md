@@ -86,6 +86,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Struttura di Configurazione nei Moduli <nome progetto>
 =======
 # Struttura di Configurazione nei Moduli 
@@ -425,6 +426,9 @@
 >>>>>>> 8c8937e7 (rebase 210)
 =======
 >>>>>>> 545977c8 (rebase 210)
+=======
+# Struttura di Configurazione nei Moduli SaluteOra
+>>>>>>> 9e7ba5b6 (rebase 210)
 
 ## Principi di Configurazione
 
