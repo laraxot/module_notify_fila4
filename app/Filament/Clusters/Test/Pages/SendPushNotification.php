@@ -203,16 +203,22 @@ use Modules\User\Models\DeviceUser;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
 use Illuminate\Support\Collection;
 use Illuminate\Support\Stringable;
 use Kreait\Firebase\Contract\Messaging;
 use Kreait\Firebase\Messaging\CloudMessage;
 use Kreait\Firebase\Messaging\Notification as FirebaseNotification;
+<<<<<<< HEAD
 =======
 use Illuminate\Support\Stringable;
 use Kreait\Firebase\Contract\Messaging;
 use Kreait\Firebase\Messaging\CloudMessage;
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\User\Models\DeviceUser;
 <<<<<<< HEAD
@@ -241,10 +247,13 @@ use Modules\User\Models\DeviceUser;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Webmozart\Assert\Assert;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Illuminate\Support\Collection;
 use Kreait\Firebase\Messaging\Notification as FirebaseNotification;
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
 
 use function Safe\json_encode;
 
@@ -304,6 +313,7 @@ class SendPushNotification extends Page implements HasForms
 
     // use NavigationLabelTrait;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -405,10 +415,13 @@ class SendPushNotification extends Page implements HasForms
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 207ac35e (.)
     public null|array $notificationData = [];
 =======
     public ?array $notificationData = [];
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -522,12 +535,18 @@ class SendPushNotification extends Page implements HasForms
     public ?array $notificationData = [];
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
+=======
+=======
+    public null|array $notificationData = [];
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
 
     // protected static ?string $navigationIcon = 'heroicon-o-envelope';
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
 
     protected string $view = 'notify::filament.pages.send-push-notification';
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -585,10 +604,13 @@ class SendPushNotification extends Page implements HasForms
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 207ac35e (.)
     protected static null|string $cluster = Test::class;
 =======
     protected static ?string $cluster = Test::class;
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -713,6 +735,11 @@ class SendPushNotification extends Page implements HasForms
     protected static ?string $cluster = Test::class;
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
+=======
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
 
     public function mount(): void
     {
@@ -863,10 +890,14 @@ class SendPushNotification extends Page implements HasForms
                 return [];
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
             
 >>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
             // Relations & attributes in a Laravel-safe way
             $profile = method_exists($item, 'getRelationValue') ? $item->getRelationValue('profile') : null;
             if (!is_object($profile)) {
@@ -884,11 +915,15 @@ class SendPushNotification extends Page implements HasForms
             $robotVal = data_get($device, 'robot');
             $robot = is_string($robotVal) ? $robotVal : null;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
 
             // Creiamo la label con gli ultimi 5 caratteri del token
             $tokenSuffix = mb_substr($token, -5);
             $label = $fullName . ' (' . ($robot ?? '') . ') ' . $tokenSuffix;
 
+<<<<<<< HEAD
 =======
             
             // Creiamo la label con gli ultimi 5 caratteri del token
@@ -896,6 +931,8 @@ class SendPushNotification extends Page implements HasForms
             $label = $fullName.' ('.($robot ?? '').') '.$tokenSuffix;
             
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
             return [$token => $label];
         };
 
@@ -911,6 +948,7 @@ class SendPushNotification extends Page implements HasForms
         };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         $to = $devices->filter($filterCallback)->mapWithKeys($callback)->toArray();
 =======
         $to = $devices
@@ -918,11 +956,17 @@ class SendPushNotification extends Page implements HasForms
             ->mapWithKeys($callback)
             ->toArray();
 >>>>>>> b19cd40 (.)
+=======
+        $to = $devices->filter($filterCallback)->mapWithKeys($callback)->toArray();
+>>>>>>> 4e2ebfb (.)
 
         Assert::isArray($to);
 
         return $schema
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
             ->components([
                 Select::make('deviceToken')->options(fn() => $to),
 <<<<<<< HEAD
@@ -952,6 +996,7 @@ class SendPushNotification extends Page implements HasForms
                     TextInput::make('value')->required(),
                 ]),
             ])
+<<<<<<< HEAD
 =======
             ->components(
                 [
@@ -973,6 +1018,8 @@ class SendPushNotification extends Page implements HasForms
                 ]
             )
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
             // ->model($this->getUser())
             ->statePath('notificationData');
     }
@@ -1058,6 +1105,9 @@ class SendPushNotification extends Page implements HasForms
         $body = $data['body'] ?? '';
         $jsonData = isset($data['data']) ? json_encode($data['data']) : '{}';
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
 
         // Verifichiamo che jsonData sia una stringa
         $jsonData = $jsonData ?: '{}';
@@ -1065,6 +1115,7 @@ class SendPushNotification extends Page implements HasForms
         // Creiamo un array con chiavi non vuote e valori stringa che implementano Stringable
         $pushDataTemp = [];
 
+<<<<<<< HEAD
 =======
         
         // Verifichiamo che jsonData sia una stringa
@@ -1074,6 +1125,8 @@ class SendPushNotification extends Page implements HasForms
         $pushDataTemp = [];
         
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
         // Aggiungiamo i valori all'array solo se non sono vuoti
         // PHPStan sa che queste stringhe non possono essere vuote a questo punto
         $pushDataTemp['type'] = $type;
@@ -1082,19 +1135,27 @@ class SendPushNotification extends Page implements HasForms
         // Adding data field (we know jsonData can't be empty due to fallback to '{}' earlier)
         $pushDataTemp['data'] = $jsonData;
 <<<<<<< HEAD
-
-=======
-        
->>>>>>> b19cd40 (.)
-        // Verifichiamo che l'array contenga almeno un elemento
-        if (count($pushDataTemp) === 0) {
-            $pushDataTemp['type'] = 'notification';
-        }
 <<<<<<< HEAD
 
 =======
         
 >>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
+        // Verifichiamo che l'array contenga almeno un elemento
+        if (count($pushDataTemp) === 0) {
+            $pushDataTemp['type'] = 'notification';
+        }
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
         // Creiamo un MessageData object
         // Convertiamo tutti i valori in stringa come richiesto da MessageData
         $sanitizedData = [];
@@ -1102,16 +1163,22 @@ class SendPushNotification extends Page implements HasForms
             // All keys are non-empty strings by this point
             if (is_scalar($value) || is_null($value)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
                 $sanitizedData[$key] = is_string($value) ? $value : ((string) $value);
             } else {
                 // Handle non-scalar values (arrays, objects) by converting to JSON
                 $sanitizedData[$key] = (string) json_encode($value);
+<<<<<<< HEAD
 =======
                 $sanitizedData[$key] = is_string($value) ? $value : (string) $value;
             } else {
                 // Handle non-scalar values (arrays, objects) by converting to JSON
                 $sanitizedData[$key] = (string)json_encode($value);
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
             }
         }
         $messageData = MessageData::fromArray($sanitizedData);
@@ -1119,11 +1186,15 @@ class SendPushNotification extends Page implements HasForms
         // Verifichiamo che deviceToken sia una stringa non vuota (per soddisfare il tipo non-empty-string)
         Assert::stringNotEmpty($deviceToken, 'Il token del dispositivo non può essere vuoto');
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
 
         $message = CloudMessage::withTarget('token', $deviceToken)
             ->withHighestPossiblePriority()
             ->withData($messageData);
 
+<<<<<<< HEAD
 =======
         
         $message = CloudMessage::withTarget('token', $deviceToken)
@@ -1131,16 +1202,22 @@ class SendPushNotification extends Page implements HasForms
             ->withData($messageData);
             
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
         try {
             // Otteniamo l'istanza di messaging e verifichiamo che sia valida
             /** @var Messaging $messaging */
             $messaging = app('firebase.messaging');
             Assert::isInstanceOf($messaging, Messaging::class, 'Invalid messaging instance');
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
             
 >>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
             $messaging->send($message);
         } catch (Exception $e) {
             dddx([
@@ -1167,6 +1244,7 @@ class SendPushNotification extends Page implements HasForms
     {
         return [
             Action::make('notificationFormActions')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1221,10 +1299,13 @@ class SendPushNotification extends Page implements HasForms
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 207ac35e (.)
                 
 =======
                 //
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1345,6 +1426,11 @@ class SendPushNotification extends Page implements HasForms
                 //
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
+=======
+=======
+                
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
 
                 ->submit('notificationFormActions'),
         ];
@@ -1375,6 +1461,7 @@ class SendPushNotification extends Page implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -1417,6 +1504,10 @@ class SendPushNotification extends Page implements HasForms
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
         if (!($user instanceof Model)) {
 =======
 <<<<<<< HEAD
@@ -1482,10 +1573,13 @@ class SendPushNotification extends Page implements HasForms
             throw new Exception(
                 'The authenticated user object must be an Eloquent model to allow the profile page to update it.',
             );
+<<<<<<< HEAD
 =======
         if (! $user instanceof Model) {
             throw new Exception('The authenticated user object must be an Eloquent model to allow the profile page to update it.');
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
         }
 
         return $user;
