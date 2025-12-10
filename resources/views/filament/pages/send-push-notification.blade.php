@@ -41,6 +41,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -181,6 +182,8 @@
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 1375c94d (rebase 210)
+=======
+>>>>>>> f81a620f (.)
 <?php
 
 declare(strict_types=1);
@@ -1431,6 +1434,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5fd545e4 (.)
 =======
 =======
@@ -1439,6 +1443,8 @@ declare(strict_types=1);
 >>>>>>> 8a8a8e2f (rebase 210)
 =======
 >>>>>>> 1375c94d (rebase 210)
+=======
+>>>>>>> f81a620f (.)
 =======
 <x-filament-panels::page>
     <x-filament::section>
@@ -1464,6 +1470,7 @@ declare(strict_types=1);
         </x-slot>
     </x-filament::section>
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1521,4 +1528,6 @@ declare(strict_types=1);
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 1375c94d (rebase 210)
+=======
+>>>>>>> f81a620f (.)
 </x-filament-panels::page>
