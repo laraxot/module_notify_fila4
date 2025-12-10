@@ -1433,10 +1433,9 @@ use Modules\Notify\Models\MailTemplateLog;
 >>>>>>> 116df547 (.)
 >>>>>>> ec4cda261 (.)
 
-describe('Mail Template Log Business Logic', function (): void {
-    it('can create mail template log with basic information', function (): void {
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $template = MailTemplate/** @phpstan-ignore-line */ ::factory()->create();
+describe('Mail Template Log Business Logic', function () {
+    it('can create mail template log with basic information', function () {
+        $template = MailTemplate::factory()->create();
 
         $logData = [
             'template_id' => $template->id,
@@ -1462,7 +1461,6 @@ describe('Mail Template Log Business Logic', function (): void {
 
         $log = MailTemplateLog::create($logData);
 
-        /** @phpstan-ignore-next-line property.notFound */
         $this->assertDatabaseHas('mail_template_logs', [
             'id' => $log->id,
             'template_id' => $template->id,
@@ -3074,11 +3072,9 @@ describe('Mail Template Log Business Logic', function (): void {
 >>>>>>> ec4cda261 (.)
     });
 
-    it('can manage mail template log relationships', function (): void {
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $template = MailTemplate/** @phpstan-ignore-line */ ::factory()->create();
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $log = MailTemplateLog/** @phpstan-ignore-line */ ::factory()->create([
+    it('can manage mail template log relationships', function () {
+        $template = MailTemplate::factory()->create();
+        $log = MailTemplateLog::factory()->create([
             'template_id' => $template->id,
         ]);
 
@@ -3943,39 +3939,33 @@ describe('Mail Template Log Business Logic', function (): void {
 >>>>>>> ec4cda261 (.)
     });
 
-    it('can track email lifecycle events', function (): void {
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $template = MailTemplate/** @phpstan-ignore-line */ ::factory()->create();
+    it('can track email lifecycle events', function () {
+        $template = MailTemplate::factory()->create();
 
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $log = MailTemplateLog/** @phpstan-ignore-line */ ::factory()->create([
+        $log = MailTemplateLog::factory()->create([
             'template_id' => $template->id,
             'status' => 'pending',
         ]);
 
         // Simula invio
-        /** @phpstan-ignore-next-line method.nonObject */
         $log->update([
             'status' => 'sent',
             'sent_at' => now(),
         ]);
 
         // Simula consegna
-        /** @phpstan-ignore-next-line method.nonObject */
         $log->update([
             'status' => 'delivered',
             'delivered_at' => now()->addMinutes(2),
         ]);
 
         // Simula apertura
-        /** @phpstan-ignore-next-line method.nonObject */
         $log->update([
             'status' => 'opened',
             'opened_at' => now()->addMinutes(5),
         ]);
 
         // Simula click
-        /** @phpstan-ignore-next-line method.nonObject */
         $log->update([
             'status' => 'clicked',
             'clicked_at' => now()->addMinutes(7),
@@ -5583,18 +5573,15 @@ describe('Mail Template Log Business Logic', function (): void {
 >>>>>>> ec4cda261 (.)
     });
 
-    it('can handle email failure scenarios', function (): void {
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $template = MailTemplate/** @phpstan-ignore-line */ ::factory()->create();
+    it('can handle email failure scenarios', function () {
+        $template = MailTemplate::factory()->create();
 
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $log = MailTemplateLog/** @phpstan-ignore-line */ ::factory()->create([
+        $log = MailTemplateLog::factory()->create([
             'template_id' => $template->id,
             'status' => 'pending',
         ]);
 
         // Simula fallimento
-        /** @phpstan-ignore-next-line method.nonObject */
         $log->update([
             'status' => 'failed',
             'status_message' => 'Indirizzo email non valido: invalid@email',
@@ -7211,12 +7198,10 @@ describe('Mail Template Log Business Logic', function (): void {
 >>>>>>> ec4cda261 (.)
     });
 
-    it('can manage mailable polymorphic relationships', function (): void {
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $template = MailTemplate/** @phpstan-ignore-line */ ::factory()->create();
+    it('can manage mailable polymorphic relationships', function () {
+        $template = MailTemplate::factory()->create();
 
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $log = MailTemplateLog/** @phpstan-ignore-line */ ::factory()->create([
+        $log = MailTemplateLog::factory()->create([
             'template_id' => $template->id,
             'mailable_type' => 'App\Models\Appointment',
             'mailable_id' => 456,
@@ -7811,7 +7796,6 @@ describe('Mail Template Log Business Logic', function (): void {
             ->toBe('App\Models\Appointment')
             ->and($log->mailable_id)
             ->toBe(456)
-            /** @phpstan-ignore-next-line method.nonObject */
             ->and($log->mailable())
             ->toBeInstanceOf(MorphTo::class);
 <<<<<<< HEAD
@@ -8755,9 +8739,8 @@ describe('Mail Template Log Business Logic', function (): void {
 >>>>>>> ec4cda261 (.)
     });
 
-    it('can handle complex data structures', function (): void {
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $template = MailTemplate/** @phpstan-ignore-line */ ::factory()->create();
+    it('can handle complex data structures', function () {
+        $template = MailTemplate::factory()->create();
 
         $complexData = [
             'recipient' => [
@@ -8848,8 +8831,7 @@ describe('Mail Template Log Business Logic', function (): void {
             ],
         ];
 
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $log = MailTemplateLog/** @phpstan-ignore-line */ ::factory()->create([
+        $log = MailTemplateLog::factory()->create([
             'template_id' => $template->id,
             'data' => $complexData,
         ]);
@@ -10460,9 +10442,8 @@ describe('Mail Template Log Business Logic', function (): void {
 >>>>>>> ec4cda261 (.)
     });
 
-    it('can manage metadata for analytics', function (): void {
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $template = MailTemplate/** @phpstan-ignore-line */ ::factory()->create();
+    it('can manage metadata for analytics', function () {
+        $template = MailTemplate::factory()->create();
 
         $analyticsMetadata = [
             'campaign_id' => 'appointment_confirmation_q4_2024',
@@ -10490,8 +10471,7 @@ describe('Mail Template Log Business Logic', function (): void {
             ],
         ];
 
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $log = MailTemplateLog/** @phpstan-ignore-line */ ::factory()->create([
+        $log = MailTemplateLog::factory()->create([
             'template_id' => $template->id,
             'metadata' => $analyticsMetadata,
         ]);
@@ -12102,18 +12082,15 @@ describe('Mail Template Log Business Logic', function (): void {
 >>>>>>> ec4cda261 (.)
     });
 
-    it('can handle delivery status transitions', function (): void {
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $template = MailTemplate/** @phpstan-ignore-line */ ::factory()->create();
+    it('can handle delivery status transitions', function () {
+        $template = MailTemplate::factory()->create();
 
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $log = MailTemplateLog/** @phpstan-ignore-line */ ::factory()->create([
+        $log = MailTemplateLog::factory()->create([
             'template_id' => $template->id,
             'status' => 'pending',
         ]);
 
         // Transizione: pending -> sent
-        /** @phpstan-ignore-next-line method.nonObject */
         $log->update([
             'status' => 'sent',
             'sent_at' => now(),
@@ -12981,7 +12958,6 @@ describe('Mail Template Log Business Logic', function (): void {
 >>>>>>> ec4cda261 (.)
 
         // Transizione: sent -> delivered
-        /** @phpstan-ignore-next-line method.nonObject */
         $log->update([
             'status' => 'delivered',
             'delivered_at' => now()->addMinutes(1),
@@ -13849,7 +13825,6 @@ describe('Mail Template Log Business Logic', function (): void {
 >>>>>>> ec4cda261 (.)
 
         // Transizione: delivered -> opened
-        /** @phpstan-ignore-next-line method.nonObject */
         $log->update([
             'status' => 'opened',
             'opened_at' => now()->addMinutes(3),
@@ -14717,18 +14692,15 @@ describe('Mail Template Log Business Logic', function (): void {
 >>>>>>> ec4cda261 (.)
     });
 
-    it('can handle bounce and complaint scenarios', function (): void {
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $template = MailTemplate/** @phpstan-ignore-line */ ::factory()->create();
+    it('can handle bounce and complaint scenarios', function () {
+        $template = MailTemplate::factory()->create();
 
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $log = MailTemplateLog/** @phpstan-ignore-line */ ::factory()->create([
+        $log = MailTemplateLog::factory()->create([
             'template_id' => $template->id,
             'status' => 'sent',
         ]);
 
         // Simula bounce
-        /** @phpstan-ignore-next-line method.nonObject */
         $log->update([
             'status' => 'bounced',
             'status_message' => 'Indirizzo email inesistente',
@@ -16343,7 +16315,6 @@ describe('Mail Template Log Business Logic', function (): void {
 >>>>>>> ec4cda261 (.)
 
         // Simula complaint
-        /** @phpstan-ignore-next-line method.nonObject */
         $log->update([
             'status' => 'complained',
             'status_message' => 'Email segnalata come spam',
@@ -17887,12 +17858,10 @@ describe('Mail Template Log Business Logic', function (): void {
 >>>>>>> ec4cda261 (.)
     });
 
-    it('can manage retry logic', function (): void {
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $template = MailTemplate/** @phpstan-ignore-line */ ::factory()->create();
+    it('can manage retry logic', function () {
+        $template = MailTemplate::factory()->create();
 
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $log = MailTemplateLog/** @phpstan-ignore-line */ ::factory()->create([
+        $log = MailTemplateLog::factory()->create([
             'template_id' => $template->id,
             'status' => 'failed',
             'metadata' => [
@@ -17903,7 +17872,6 @@ describe('Mail Template Log Business Logic', function (): void {
         ]);
 
         // Primo retry
-        /** @phpstan-ignore-next-line method.nonObject */
         $log->update([
             'status' => 'retrying',
             'metadata' => [
@@ -18775,7 +18743,6 @@ describe('Mail Template Log Business Logic', function (): void {
 >>>>>>> ec4cda261 (.)
 
         // Secondo retry
-        /** @phpstan-ignore-next-line method.nonObject */
         $log->update([
             'status' => 'retrying',
             'metadata' => [
@@ -18789,7 +18756,6 @@ describe('Mail Template Log Business Logic', function (): void {
         expect($log->metadata['retry_count'])->toBe(2);
 
         // Terzo retry fallito
-        /** @phpstan-ignore-next-line method.nonObject */
         $log->update([
             'status' => 'failed',
             'status_message' => 'Tutti i tentativi falliti',
@@ -20403,12 +20369,10 @@ describe('Mail Template Log Business Logic', function (): void {
 >>>>>>> ec4cda261 (.)
     });
 
-    it('can handle empty or null values gracefully', function (): void {
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $template = MailTemplate/** @phpstan-ignore-line */ ::factory()->create();
+    it('can handle empty or null values gracefully', function () {
+        $template = MailTemplate::factory()->create();
 
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $log = MailTemplateLog/** @phpstan-ignore-line */ ::factory()->create([
+        $log = MailTemplateLog::factory()->create([
             'template_id' => $template->id,
             'status_message' => null,
             'data' => null,
@@ -22032,20 +21996,15 @@ describe('Mail Template Log Business Logic', function (): void {
 >>>>>>> ec4cda261 (.)
     });
 
-    it('can validate timestamp consistency', function (): void {
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $template = MailTemplate/** @phpstan-ignore-line */ ::factory()->create();
+    it('can validate timestamp consistency', function () {
+        $template = MailTemplate::factory()->create();
 
         $now = now();
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $log = MailTemplateLog/** @phpstan-ignore-line */ ::factory()->create([
+        $log = MailTemplateLog::factory()->create([
             'template_id' => $template->id,
             'sent_at' => $now,
-            /** @phpstan-ignore-next-line method.nonObject */
             'delivered_at' => $now->addMinutes(1),
-            /** @phpstan-ignore-next-line method.nonObject */
             'opened_at' => $now->addMinutes(3),
-            /** @phpstan-ignore-next-line method.nonObject */
             'clicked_at' => $now->addMinutes(5),
         ]);
 

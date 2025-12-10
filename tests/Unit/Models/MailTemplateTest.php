@@ -2201,8 +2201,6 @@ use Tests\TestCase;
 >>>>>>> 460b8f5b (rebase 210)
 >>>>>>> 47a873f13 (.)
 
-use function Safe\json_encode;
-
 class MailTemplateTest extends TestCase
 {
     use RefreshDatabase;
