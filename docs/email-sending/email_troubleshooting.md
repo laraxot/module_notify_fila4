@@ -333,6 +333,7 @@ $attachments = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 70e8274e (.)
 =======
@@ -401,6 +402,8 @@ $attachments = [
 >>>>>>> db6bec044 (.)
 =======
 >>>>>>> c31e900eb (.)
+=======
+>>>>>>> 01750b107 (.)
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1491,6 +1494,9 @@ $attachments = [
         'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
 >>>>>>> 8c8937e7 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 01750b107 (.)
 =======
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
         'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
@@ -1499,6 +1505,7 @@ $attachments = [
         'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
 >>>>>>> d284d65 (.)
 >>>>>>> 22baa66d (rebase 210)
+<<<<<<< HEAD
 =======
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
         'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
@@ -1926,6 +1933,8 @@ $attachments = [
 >>>>>>> db6bec044 (.)
 =======
 >>>>>>> c31e900eb (.)
+=======
+>>>>>>> 01750b107 (.)
         'as' => 'logo.svg',
         'mime' => 'image/svg+xml',
     ],

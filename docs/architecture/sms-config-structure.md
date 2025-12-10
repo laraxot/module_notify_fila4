@@ -13,6 +13,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f2e64178 (.)
 =======
@@ -41,6 +42,8 @@
 >>>>>>> c188e2a18 (.)
 =======
 >>>>>>> cd5474106 (.)
+=======
+>>>>>>> 01750b107 (.)
 # Struttura della Configurazione SMS 
 
 ## Introduzione
@@ -151,6 +154,7 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         'sender' => env('NETFUN_SENDER', ''),
 >>>>>>> 75179b855 (.)
@@ -258,6 +262,8 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
 >>>>>>> 1c96b91fe (.)
 =======
 >>>>>>> 610b999f1 (.)
+=======
+>>>>>>> 01750b107 (.)
         'sender' => env('NETFUN_SENDER', 'SaluteOra'),
         'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
         
@@ -367,6 +373,7 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         'sender' => env('NETFUN_SENDER', ''),
 >>>>>>> 75179b855 (.)
@@ -474,6 +481,8 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
 >>>>>>> 1c96b91fe (.)
 =======
 >>>>>>> 610b999f1 (.)
+=======
+>>>>>>> 01750b107 (.)
         'sender' => env('NETFUN_SENDER', 'SaluteOra'),
         'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
         
@@ -530,6 +539,7 @@ $retryDelay = $config['drivers'][$driver]['retry_delay'] ?? $config['retry']['de
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -560,3 +570,5 @@ $retryDelay = $config['drivers'][$driver]['retry_delay'] ?? $config['retry']['de
 >>>>>>> c188e2a18 (.)
 =======
 >>>>>>> cd5474106 (.)
+=======
+>>>>>>> 01750b107 (.)

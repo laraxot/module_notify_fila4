@@ -10,6 +10,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -58,6 +59,8 @@
 =======
 >>>>>>> cd5474106 (.)
 =======
+>>>>>>> 01750b107 (.)
+=======
 >>>>>>> ee3afc5b (rebase 210)
 =======
 >>>>>>> 9f8e680a (rebase 210)
@@ -67,6 +70,7 @@
 >>>>>>> 5aedc39c (rebase 210)
 =======
 >>>>>>> 22baa66d (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 81ed8a35 (rebase 210)
 =======
@@ -93,6 +97,8 @@
 =======
 >>>>>>> 5aedc39c (rebase 210)
 >>>>>>> cd5474106 (.)
+=======
+>>>>>>> 01750b107 (.)
 <<<<<<< HEAD:.php-cs-fixer.dist - Copia.php
 =======
 <<<<<<<< HEAD:.php-cs-fixer.dist - Copia.php
@@ -1426,12 +1432,16 @@ declare(strict_types=1);
 >>>>>>> cde5a49 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 01750b107 (.)
 >>>>>>> 5aedc39c (rebase 210)
 =======
 =======
 >>>>>>> daa931f (.)
 =======
 >>>>>>> 4ac6c3c (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1566,6 +1576,9 @@ declare(strict_types=1);
 >>>>>>> cde5a49 (.)
 >>>>>>> 5aedc39c (rebase 210)
 >>>>>>> cd5474106 (.)
+=======
+>>>>>>> 22baa66d (rebase 210)
+>>>>>>> 01750b107 (.)
 $finder = PhpCsFixer\Finder::create()
     ->notPath('bootstrap/cache')
     ->notPath('storage')
