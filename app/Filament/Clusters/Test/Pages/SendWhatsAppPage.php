@@ -294,6 +294,7 @@ use Exception;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -474,10 +475,14 @@ use Exception;
 =======
 >>>>>>> 8e5817bc (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 968ed47cd (.)
 =======
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> e0d9c9be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 7a2f131f (.)
 =======
@@ -596,6 +601,8 @@ use Exception;
 >>>>>>> 49639b815 (.)
 =======
 >>>>>>> 2641c2944 (.)
+=======
+>>>>>>> 968ed47cd (.)
 use Override;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
@@ -979,6 +986,7 @@ use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Override;
 =======
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1551,6 +1559,8 @@ use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 968ed47cd (.)
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
@@ -1597,8 +1607,11 @@ use Filament\Notifications\Notification as FilamentNotification;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2641c2944 (.)
+=======
+>>>>>>> 968ed47cd (.)
 >>>>>>> 95531e1 (.)
 <<<<<<< HEAD
 >>>>>>> 3f39ac8b (.)
@@ -1653,6 +1666,9 @@ use Filament\Notifications\Notification as FilamentNotification;
 >>>>>>> e5b598a (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 968ed47cd (.)
 >>>>>>> 8e5817bc (.)
 =======
 =======
@@ -1660,6 +1676,7 @@ use Filament\Notifications\Notification as FilamentNotification;
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 806a0e3 (.)
 >>>>>>> e0d9c9be (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 1f13f40 (.)
@@ -1770,6 +1787,8 @@ use Filament\Notifications\Notification as FilamentNotification;
 =======
 >>>>>>> 8e5817bc (.)
 >>>>>>> 2641c2944 (.)
+=======
+>>>>>>> 968ed47cd (.)
 
 /**
  * @property \Filament\Schemas\Schema $whatsappForm
@@ -1890,6 +1909,7 @@ class SendWhatsAppPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public null|array $whatsappData = [];
 <<<<<<< HEAD
     protected static string | BackedEnum | null $navigationIcon = 'heroicon-o-chat-bubble-left-right';
@@ -2068,6 +2088,7 @@ class SendWhatsAppPage extends XotBasePage
 >>>>>>> 503981fd (.)
 =======
 >>>>>>> 8e5817bc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> e0d9c9be (.)
@@ -2413,6 +2434,10 @@ class SendWhatsAppPage extends XotBasePage
 >>>>>>> 49639b815 (.)
 =======
 >>>>>>> 2641c2944 (.)
+=======
+=======
+>>>>>>> e0d9c9be (.)
+>>>>>>> 968ed47cd (.)
     public ?array $whatsappData = [];
 
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-chat-bubble-left-right';
@@ -2461,7 +2486,14 @@ class SendWhatsAppPage extends XotBasePage
 >>>>>>> 7392166 (.)
 =======
 >>>>>>> e5b598a (.)
+<<<<<<< HEAD
 >>>>>>> 2641c2944 (.)
+=======
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 806a0e3 (.)
+>>>>>>> 968ed47cd (.)
     public null|array $whatsappData = [];
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-chat-bubble-left-right';
     protected string $view = 'notify::filament.pages.send-whatsapp';
@@ -2576,6 +2608,7 @@ class SendWhatsAppPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2612,6 +2645,7 @@ class SendWhatsAppPage extends XotBasePage
 =======
 >>>>>>> e0d9c9be (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
@@ -2710,6 +2744,8 @@ class SendWhatsAppPage extends XotBasePage
 >>>>>>> 49639b815 (.)
 =======
 >>>>>>> 2641c2944 (.)
+=======
+>>>>>>> 968ed47cd (.)
     public ?array $whatsappData = [];
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-chat-bubble-left-right';
     protected string $view = 'notify::filament.pages.send-whatsapp';
@@ -2776,6 +2812,7 @@ class SendWhatsAppPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -2798,6 +2835,8 @@ class SendWhatsAppPage extends XotBasePage
 >>>>>>> 49639b815 (.)
 =======
 >>>>>>> 2641c2944 (.)
+=======
+>>>>>>> 968ed47cd (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -3035,10 +3074,14 @@ class SendWhatsAppPage extends XotBasePage
 =======
 >>>>>>> 8e5817bc (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 968ed47cd (.)
 =======
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> e0d9c9be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 7a2f131f (.)
 >>>>>>> laraxot/develop
@@ -3075,6 +3118,8 @@ class SendWhatsAppPage extends XotBasePage
 >>>>>>> 49639b815 (.)
 =======
 >>>>>>> 2641c2944 (.)
+=======
+>>>>>>> 968ed47cd (.)
      * This explicit definition ensures consistent URL generation for acronyms
      */
     public static function getSlug(?Panel $panel = null): string
@@ -3197,6 +3242,7 @@ class SendWhatsAppPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -3222,6 +3268,8 @@ class SendWhatsAppPage extends XotBasePage
 >>>>>>> 49639b815 (.)
 =======
 >>>>>>> 2641c2944 (.)
+=======
+>>>>>>> 968ed47cd (.)
         return $schema->schema($this->getWhatsAppFormSchema())->model($this->getUser())->statePath('whatsappData');
     }
 
@@ -3283,6 +3331,7 @@ class SendWhatsAppPage extends XotBasePage
 >>>>>>> 5fe4f466 (.)
 =======
 >>>>>>> e0d9c9be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -3377,6 +3426,8 @@ class SendWhatsAppPage extends XotBasePage
 =======
 >>>>>>> 5fe4f466 (.)
 >>>>>>> 49639b815 (.)
+=======
+>>>>>>> 968ed47cd (.)
         return $schema->components($this->getWhatsAppFormSchema())->model($this->getUser())->statePath('whatsappData');
 =======
 >>>>>>> d09cb759 (.)
@@ -3520,6 +3571,7 @@ class SendWhatsAppPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bf5d31b0f (.)
 =======
@@ -3530,6 +3582,8 @@ class SendWhatsAppPage extends XotBasePage
 >>>>>>> be45a0b8d (.)
 =======
 >>>>>>> 49639b815 (.)
+=======
+>>>>>>> 968ed47cd (.)
 =======
         return $schema->components($this->getWhatsAppFormSchema())->model($this->getUser())->statePath('whatsappData');
 >>>>>>> 75179b85 (.)
@@ -4030,7 +4084,15 @@ class SendWhatsAppPage extends XotBasePage
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 8e5817bc (.)
+<<<<<<< HEAD
 >>>>>>> 2641c2944 (.)
+=======
+=======
+=======
+        return $schema->components($this->getWhatsAppFormSchema())->model($this->getUser())->statePath('whatsappData');
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+>>>>>>> 968ed47cd (.)
     }
 
     public function getWhatsAppFormSchema(): array
@@ -4315,6 +4377,7 @@ class SendWhatsAppPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -4344,6 +4407,8 @@ class SendWhatsAppPage extends XotBasePage
 >>>>>>> 49639b815 (.)
 =======
 >>>>>>> 2641c2944 (.)
+=======
+>>>>>>> 968ed47cd (.)
             'template' => TextInput::make('template')->helperText('Nome del template (opzionale)'),
             'parameters' => KeyValue::make('parameters')->helperText('Parametri per il template (opzionale)'),
             'media_url' => TextInput::make('media_url')->url()->helperText('URL del media (opzionale)'),
@@ -4561,6 +4626,7 @@ class SendWhatsAppPage extends XotBasePage
 =======
 >>>>>>> 8e5817bc (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e0d9c9be (.)
 =======
@@ -4602,6 +4668,10 @@ class SendWhatsAppPage extends XotBasePage
 >>>>>>> 49639b815 (.)
 =======
 >>>>>>> 2641c2944 (.)
+=======
+=======
+>>>>>>> e0d9c9be (.)
+>>>>>>> 968ed47cd (.)
             TextInput::make('template')->helperText('Nome del template (opzionale)'),
             KeyValue::make('parameters')->helperText('Parametri per il template (opzionale)'),
             TextInput::make('media_url')->url()->helperText('URL del media (opzionale)'),
@@ -4623,6 +4693,7 @@ class SendWhatsAppPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1619767d8 (.)
 =======
@@ -4632,10 +4703,13 @@ class SendWhatsAppPage extends XotBasePage
 =======
 >>>>>>> 49639b815 (.)
 =======
+>>>>>>> 968ed47cd (.)
+=======
             TextInput::make('template')->helperText('Nome del template (opzionale)'),
             KeyValue::make('parameters')->helperText('Parametri per il template (opzionale)'),
             TextInput::make('media_url')->url()->helperText('URL del media (opzionale)'),
 >>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4658,6 +4732,8 @@ class SendWhatsAppPage extends XotBasePage
 >>>>>>> 49639b815 (.)
 =======
 >>>>>>> 2641c2944 (.)
+=======
+>>>>>>> 968ed47cd (.)
             Select::make('media_type')
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4963,6 +5039,7 @@ class SendWhatsAppPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -4996,6 +5073,7 @@ class SendWhatsAppPage extends XotBasePage
 >>>>>>> 5fe4f466 (.)
 =======
 >>>>>>> 8e5817bc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> e0d9c9be (.)
@@ -5096,6 +5174,10 @@ class SendWhatsAppPage extends XotBasePage
 >>>>>>> 49639b815 (.)
 =======
 >>>>>>> 2641c2944 (.)
+=======
+=======
+>>>>>>> e0d9c9be (.)
+>>>>>>> 968ed47cd (.)
             Notification::route('whatsapp', $data['to'])->notify(
                 new WhatsAppNotification($message, [
 =======
@@ -5159,6 +5241,7 @@ class SendWhatsAppPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -5181,6 +5264,8 @@ class SendWhatsAppPage extends XotBasePage
 >>>>>>> 49639b815 (.)
 =======
 >>>>>>> 2641c2944 (.)
+=======
+>>>>>>> 968ed47cd (.)
 =======
             Notification::route('whatsapp', $data['to'])->notify(
                 new WhatsAppNotification($message, [
@@ -5238,6 +5323,7 @@ class SendWhatsAppPage extends XotBasePage
 =======
 >>>>>>> e0d9c9be (.)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> bf5d31b0f (.)
 =======
@@ -5252,6 +5338,8 @@ class SendWhatsAppPage extends XotBasePage
 >>>>>>> be45a0b8d (.)
 =======
 >>>>>>> 49639b815 (.)
+=======
+>>>>>>> 968ed47cd (.)
             Notification::route('whatsapp', $data['to'])->notify(
                 new WhatsAppNotification($message, [
 >>>>>>> 4e2ebfb (.)
@@ -5282,6 +5370,7 @@ class SendWhatsAppPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bf5d31b0f (.)
 =======
@@ -5292,6 +5381,8 @@ class SendWhatsAppPage extends XotBasePage
 >>>>>>> be45a0b8d (.)
 =======
 >>>>>>> 49639b815 (.)
+=======
+>>>>>>> 968ed47cd (.)
 >>>>>>> 207ac35e (.)
 =======
             Notification::route('whatsapp', $data['to'])->notify(
@@ -5597,6 +5688,7 @@ class SendWhatsAppPage extends XotBasePage
 =======
 >>>>>>> 8e5817bc (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e0d9c9be (.)
 =======
@@ -5641,6 +5733,10 @@ class SendWhatsAppPage extends XotBasePage
 >>>>>>> 49639b815 (.)
 =======
 >>>>>>> 2641c2944 (.)
+=======
+=======
+>>>>>>> e0d9c9be (.)
+>>>>>>> 968ed47cd (.)
                     'driver' => $data['driver'],
                     'template' => $data['template'] ?? null,
                     'parameters' => $data['parameters'] ?? null,
@@ -5752,6 +5848,7 @@ class SendWhatsAppPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -5785,6 +5882,7 @@ class SendWhatsAppPage extends XotBasePage
 >>>>>>> 5fe4f466 (.)
 =======
 >>>>>>> 8e5817bc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> e0d9c9be (.)
@@ -5885,6 +5983,10 @@ class SendWhatsAppPage extends XotBasePage
 >>>>>>> 49639b815 (.)
 =======
 >>>>>>> 2641c2944 (.)
+=======
+=======
+>>>>>>> e0d9c9be (.)
+>>>>>>> 968ed47cd (.)
                 ]),
             );
 =======
@@ -5947,6 +6049,7 @@ class SendWhatsAppPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -5969,6 +6072,8 @@ class SendWhatsAppPage extends XotBasePage
 >>>>>>> 49639b815 (.)
 =======
 >>>>>>> 2641c2944 (.)
+=======
+>>>>>>> 968ed47cd (.)
 =======
                 ]),
             );
@@ -6026,6 +6131,7 @@ class SendWhatsAppPage extends XotBasePage
 =======
 >>>>>>> e0d9c9be (.)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> bf5d31b0f (.)
 =======
@@ -6040,6 +6146,8 @@ class SendWhatsAppPage extends XotBasePage
 >>>>>>> be45a0b8d (.)
 =======
 >>>>>>> 49639b815 (.)
+=======
+>>>>>>> 968ed47cd (.)
                 ]),
             );
 >>>>>>> 4e2ebfb (.)
@@ -6070,6 +6178,7 @@ class SendWhatsAppPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bf5d31b0f (.)
 =======
@@ -6080,6 +6189,8 @@ class SendWhatsAppPage extends XotBasePage
 >>>>>>> be45a0b8d (.)
 =======
 >>>>>>> 49639b815 (.)
+=======
+>>>>>>> 968ed47cd (.)
 >>>>>>> 207ac35e (.)
 =======
                 ]),
@@ -6383,6 +6494,7 @@ class SendWhatsAppPage extends XotBasePage
 =======
 >>>>>>> 8e5817bc (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e0d9c9be (.)
 =======
@@ -6427,6 +6539,10 @@ class SendWhatsAppPage extends XotBasePage
 >>>>>>> 49639b815 (.)
 =======
 >>>>>>> 2641c2944 (.)
+=======
+=======
+>>>>>>> e0d9c9be (.)
+>>>>>>> 968ed47cd (.)
 
             FilamentNotification::make()
                 ->success()
@@ -6645,6 +6761,7 @@ class SendWhatsAppPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -6662,6 +6779,7 @@ class SendWhatsAppPage extends XotBasePage
 =======
 >>>>>>> e0d9c9be (.)
 =======
+<<<<<<< HEAD
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 207ac35e (.)
@@ -6692,6 +6810,8 @@ class SendWhatsAppPage extends XotBasePage
 =======
 >>>>>>> e0d9c9be (.)
 =======
+=======
+>>>>>>> 968ed47cd (.)
 
 >>>>>>> b19cd40 (.)
 =======
@@ -6718,6 +6838,9 @@ class SendWhatsAppPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 968ed47cd (.)
 >>>>>>> 75179b85 (.)
 =======
 =======
@@ -6813,6 +6936,7 @@ class SendWhatsAppPage extends XotBasePage
 
 >>>>>>> b19cd40 (.)
 >>>>>>> 8e5817bc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
@@ -7037,6 +7161,11 @@ class SendWhatsAppPage extends XotBasePage
 >>>>>>> 49639b815 (.)
 =======
 >>>>>>> 2641c2944 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+>>>>>>> 968ed47cd (.)
         } catch (Exception $e) {
 <<<<<<< HEAD
             Log::error('Errore nell\'invio WhatsApp: ' . $e->getMessage());
@@ -7084,6 +7213,7 @@ class SendWhatsAppPage extends XotBasePage
         return [
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7300,6 +7430,7 @@ class SendWhatsAppPage extends XotBasePage
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> e0d9c9be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 7a2f131f (.)
 =======
@@ -7489,6 +7620,8 @@ class SendWhatsAppPage extends XotBasePage
 >>>>>>> 49639b815 (.)
 =======
 >>>>>>> 2641c2944 (.)
+=======
+>>>>>>> 968ed47cd (.)
             Action::make('whatsappFormActions')->submit('whatsappFormActions'),
         ];
     }
@@ -7597,6 +7730,9 @@ class SendWhatsAppPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e0d9c9be (.)
 =======
 >>>>>>> 5fe4f466 (.)
 =======
@@ -7878,6 +8014,7 @@ class SendWhatsAppPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bf5d31b0f (.)
 =======
@@ -7888,6 +8025,8 @@ class SendWhatsAppPage extends XotBasePage
 >>>>>>> be45a0b8d (.)
 =======
 >>>>>>> 49639b815 (.)
+=======
+>>>>>>> 968ed47cd (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -8023,7 +8162,14 @@ class SendWhatsAppPage extends XotBasePage
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 8e5817bc (.)
+<<<<<<< HEAD
 >>>>>>> 2641c2944 (.)
+=======
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+>>>>>>> 968ed47cd (.)
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();
@@ -8063,6 +8209,7 @@ class SendWhatsAppPage extends XotBasePage
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> db0bc148f (.)
 =======
 <<<<<<< HEAD
@@ -8070,6 +8217,9 @@ class SendWhatsAppPage extends XotBasePage
 =======
 <<<<<<< HEAD
 >>>>>>> 2641c2944 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 968ed47cd (.)
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -8755,12 +8905,17 @@ class SendWhatsAppPage extends XotBasePage
 =======
 >>>>>>> 8e5817bc (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e0d9c9be (.)
 =======
 >>>>>>> 7a2f131f (.)
 =======
 >>>>>>> 2641c2944 (.)
+=======
+=======
+>>>>>>> e0d9c9be (.)
+>>>>>>> 968ed47cd (.)
         if (! ($user instanceof Model)) {
 =======
 =======
@@ -8790,10 +8945,14 @@ class SendWhatsAppPage extends XotBasePage
 =======
 >>>>>>> e5b598a (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 968ed47cd (.)
 =======
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 806a0e3 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 1f13f40 (.)
 =======
@@ -8827,6 +8986,8 @@ class SendWhatsAppPage extends XotBasePage
 >>>>>>> 49639b815 (.)
 =======
 >>>>>>> 2641c2944 (.)
+=======
+>>>>>>> 968ed47cd (.)
         if (!($user instanceof Model)) {
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
@@ -8918,6 +9079,7 @@ class SendWhatsAppPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -8946,6 +9108,8 @@ class SendWhatsAppPage extends XotBasePage
 >>>>>>> 49639b815 (.)
 =======
 >>>>>>> 2641c2944 (.)
+=======
+>>>>>>> 968ed47cd (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -8984,6 +9148,7 @@ class SendWhatsAppPage extends XotBasePage
 =======
 >>>>>>> e0d9c9be (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
@@ -9072,6 +9237,8 @@ class SendWhatsAppPage extends XotBasePage
 >>>>>>> 8e5817bc (.)
 =======
 >>>>>>> 2641c2944 (.)
+=======
+>>>>>>> 968ed47cd (.)
         if (! $user instanceof Model) {
             throw new Exception('The authenticated user object must be an Eloquent model to allow the profile page to update it.');
 >>>>>>> b19cd40 (.)
@@ -9127,6 +9294,7 @@ class SendWhatsAppPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -9149,6 +9317,8 @@ class SendWhatsAppPage extends XotBasePage
 >>>>>>> 49639b815 (.)
 =======
 >>>>>>> 2641c2944 (.)
+=======
+>>>>>>> 968ed47cd (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -9407,10 +9577,14 @@ class SendWhatsAppPage extends XotBasePage
 =======
 >>>>>>> 8e5817bc (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 968ed47cd (.)
 =======
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> e0d9c9be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 7a2f131f (.)
 =======
@@ -9534,6 +9708,8 @@ class SendWhatsAppPage extends XotBasePage
 >>>>>>> 49639b815 (.)
 =======
 >>>>>>> 2641c2944 (.)
+=======
+>>>>>>> 968ed47cd (.)
         }
 
         return $user;
