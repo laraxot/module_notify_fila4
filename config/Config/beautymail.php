@@ -41,6 +41,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e643df (.)
@@ -111,10 +112,13 @@ return [
 >>>>>>> e091c3c (.)
 =======
 >>>>>>> f92a918 (.)
+=======
+>>>>>>> 436af64 (.)
      * 'css' => [
      * '.button-content .button { background: red }',
      * ],
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4174,6 +4178,7 @@ return [
 =======
 >>>>>>> 0db165c (.)
 >>>>>>> f92a918 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f16a5ca4 (rebase 210)
@@ -5216,6 +5221,10 @@ return [
 >>>>>>> 0db165c (.)
 >>>>>>> f92a918 (.)
 >>>>>>> f16a5ca4 (rebase 210)
+=======
+=======
+>>>>>>> 436af64 (.)
+>>>>>>> f5a88785 (rebase 210)
 
     'colors' => [
         'highlight' => '#004ca3',
@@ -5587,6 +5596,10 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> f5a88785 (rebase 210)
 =======
 
 >>>>>>> f16a5ca4 (rebase 210)
@@ -6953,6 +6966,7 @@ return [
 
 >>>>>>> 0db165c (.)
 >>>>>>> f92a918 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8040,6 +8054,10 @@ return [
 >>>>>>> 1442e291 (rebase 210)
 =======
 >>>>>>> f16a5ca4 (rebase 210)
+=======
+=======
+>>>>>>> 436af64 (.)
+>>>>>>> f5a88785 (rebase 210)
     'view' => [
         'senderName' => null,
         'reminder' => null,
@@ -8409,6 +8427,10 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> f5a88785 (rebase 210)
 =======
 
 >>>>>>> f16a5ca4 (rebase 210)
@@ -9779,6 +9801,7 @@ return [
 
 >>>>>>> 0db165c (.)
 >>>>>>> f92a918 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10851,6 +10874,10 @@ return [
 >>>>>>> 1442e291 (rebase 210)
 =======
 >>>>>>> f16a5ca4 (rebase 210)
+=======
+=======
+>>>>>>> 436af64 (.)
+>>>>>>> f5a88785 (rebase 210)
         'logo' => [
             'path' => '%PUBLIC%/vendor/beautymail/assets/images/sunny/logo.png',
             'width' => '',
@@ -11222,6 +11249,10 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> f5a88785 (rebase 210)
 =======
 
 >>>>>>> f16a5ca4 (rebase 210)
@@ -12596,6 +12627,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f16a5ca4 (rebase 210)
 =======
 =======
@@ -13668,6 +13700,10 @@ return [
 >>>>>>> 1442e291 (rebase 210)
 =======
 >>>>>>> f16a5ca4 (rebase 210)
+=======
+=======
+>>>>>>> 436af64 (.)
+>>>>>>> f5a88785 (rebase 210)
         'twitter' => null,
         'facebook' => null,
         'flickr' => null,
