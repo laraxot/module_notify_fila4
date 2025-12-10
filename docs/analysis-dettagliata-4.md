@@ -27,7 +27,7 @@ class TemplateResource extends Resource
 
 #### 4.1.2 Form
 ```php
-public static function form(Form $form): Form
+public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 {
     return $form
         ->schema([
@@ -222,7 +222,7 @@ class TemplateVersionsRelationManager extends RelationManager
 
     protected static ?string $recordTitleAttribute = 'version';
 
-    public static function form(Form $form): Form
+    public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
     {
         return $form
             ->schema([
@@ -313,7 +313,7 @@ class TemplateTranslationsRelationManager extends RelationManager
 
     protected static ?string $recordTitleAttribute = 'locale';
 
-    public static function form(Form $form): Form
+    public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
     {
         return $form
             ->schema([
@@ -412,7 +412,7 @@ class TemplateAnalyticsRelationManager extends RelationManager
 
     protected static ?string $recordTitleAttribute = 'event';
 
-    public static function form(Form $form): Form
+    public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
     {
         return $form
             ->schema([
@@ -655,7 +655,7 @@ class TemplateTestPage extends Page
         $this->template = $template;
     }
 
-    public function form(Form $form): Form
+    public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
     {
         return $form
             ->schema([
