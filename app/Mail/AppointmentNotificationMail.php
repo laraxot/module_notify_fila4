@@ -39,6 +39,7 @@ namespace Modules\Notify\Mail;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -93,6 +94,8 @@ use Illuminate\Mail\Mailables\Attachment;
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
@@ -134,6 +137,7 @@ use Illuminate\Mail\Mailables\Attachment;
 >>>>>>> 909e45af (.)
 =======
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 use Illuminate\Mail\Mailables\Attachment;
@@ -181,11 +185,10 @@ use Illuminate\Mail\Mailables\Attachment;
 >>>>>>> f2e64178 (.)
 use Illuminate\Mail\Mailables\Attachment;
 =======
-<<<<<<< HEAD
-use Illuminate\Mail\Mailables\Attachment;
+>>>>>>> 98d837b9 (.)
 =======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
+>>>>>>> f5f1cb1 (.)
+use Illuminate\Mail\Mailables\Attachment;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
@@ -428,13 +431,7 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 // use Modules\SaluteOra\Models\Appointment;
 
 class AppointmentNotificationMail extends Mailable implements ShouldQueue
@@ -476,6 +473,7 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
     /**
      * Crea una nuova istanza del messaggio.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -773,6 +771,9 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 >>>>>>> fd497554 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+     * @param  array<string, mixed>  $notificationData
+>>>>>>> 98d837b9 (.)
      */
     public function __construct(array $notificationData)
     {
@@ -786,6 +787,7 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
     {
         $appointment = $this->notificationData['appointment'];
         $type = $this->notificationData['type'];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1057,12 +1059,17 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 >>>>>>> fd497554 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+
+        $subject = match ($type) {
+>>>>>>> 98d837b9 (.)
             'confirmed' => 'Conferma Appuntamento',
             'reminder' => 'Promemoria Appuntamento',
             'cancelled' => 'Cancellazione Appuntamento',
             'rescheduled' => 'Modifica Appuntamento',
             default => 'Notifica Appuntamento',
         };
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1231,11 +1238,14 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 =======
 <<<<<<< HEAD
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
 
         if (is_object($appointment) && isset($appointment->id) && $appointment->id) {
             $subject .= ' #'.$appointment->id;
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1508,6 +1518,8 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
         return new Envelope(
             subject: $subject,
             tags: ['appointment', $type],
@@ -1567,6 +1579,7 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
     public function content(): Content
     {
         $type = $this->notificationData['type'];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1869,12 +1882,18 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 >>>>>>> fd497554 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+
+        // Determina il template da utilizzare in base al tipo di notifica
+        $view = match ($type) {
+>>>>>>> 98d837b9 (.)
             'confirmed' => 'notify::emails.appointments.confirmed',
             'reminder' => 'notify::emails.appointments.reminder',
             'cancelled' => 'notify::emails.appointments.cancelled',
             'rescheduled' => 'notify::emails.appointments.rescheduled',
             default => 'notify::emails.appointments.generic',
         };
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2069,6 +2088,9 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 >>>>>>> fd497554 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+
+>>>>>>> 98d837b9 (.)
         return new Content(
             view: $view,
             with: [
@@ -2098,6 +2120,7 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 =======
      * Get the attachments for the message.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2163,14 +2186,9 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 >>>>>>> 2941b0bd (.)
 =======
 >>>>>>> f2e64178 (.)
-     * @return array<int, Attachment>
 =======
-<<<<<<< HEAD
+>>>>>>> 98d837b9 (.)
      * @return array<int, Attachment>
-=======
-     * @return array<int, \Illuminate\Mail\Mailables\Attachment>
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
      */
     public function attachments(): array
     {
