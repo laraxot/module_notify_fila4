@@ -1249,6 +1249,7 @@ class MailMonitoringDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1383,6 +1384,7 @@ class MailMonitoringDebugger
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> e790eb33 (.)
@@ -1716,6 +1718,10 @@ class MailMonitoringDebugger
 >>>>>>> f15c41e60 (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+=======
+>>>>>>> e790eb33 (.)
+>>>>>>> 2dab69c8a (.)
 - [Laravel Cache](https://laravel.com/docs/cache)
 - [Laravel Events](https://laravel.com/docs/events)
 - [Laravel Commands](https://laravel.com/docs/artisan) 
@@ -1910,6 +1916,7 @@ class MailMonitoringDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -2001,6 +2008,8 @@ class MailMonitoringDebugger
 =======
 >>>>>>> c7d5eaf96 (.)
 =======
+>>>>>>> 2dab69c8a (.)
+=======
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> d09cb759 (.)
@@ -2131,6 +2140,7 @@ class MailMonitoringDebugger
 =======
 >>>>>>> e790eb33 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> eb71492d (.)
 =======
 >>>>>>> 3ee54c5d (.)
@@ -2236,6 +2246,8 @@ class MailMonitoringDebugger
 >>>>>>> 69fa7d37 (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 2dab69c8a (.)
 - [Laravel Cache](https://laravel.com/project_docs/cache)
 - [Laravel Events](https://laravel.com/project_docs/events)
 - [Laravel Commands](https://laravel.com/project_docs/artisan) 
@@ -2337,6 +2349,7 @@ class MailMonitoringDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -2383,6 +2396,8 @@ class MailMonitoringDebugger
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 2dab69c8a (.)
 >>>>>>> 75179b85 (.)
 =======
 - [Laravel Cache](https://laravel.com/docs/cache)
@@ -2955,6 +2970,7 @@ class MailMonitoringDebugger
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> e790eb33 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> cb5f23b0 (.)
 =======
@@ -3299,3 +3315,5 @@ class MailMonitoringDebugger
 >>>>>>> c7d5eaf96 (.)
 =======
 >>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> 2dab69c8a (.)

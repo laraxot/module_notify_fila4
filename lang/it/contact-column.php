@@ -220,6 +220,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -231,6 +232,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -275,10 +277,15 @@ declare(strict_types=1);
 =======
 >>>>>>> 2effe245 (.)
 =======
+>>>>>>> 59916c8f (.)
+=======
+>>>>>>> 2dab69c8a (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -346,10 +353,14 @@ declare(strict_types=1);
 =======
 >>>>>>> 2effe245 (.)
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> e790eb33 (.)
+>>>>>>> 2dab69c8a (.)
  *
  * File di traduzione per la colonna riutilizzabile ContactColumn
  * che utilizza ContactTypeEnum per il rendering centralizzato.
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1190,6 +1201,8 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 2dab69c8a (.)
 >>>>>>> eea68ec9 (.)
 <<<<<<< HEAD
 =======
@@ -1771,6 +1784,7 @@ declare(strict_types=1);
 >>>>>>> 2effe245 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e790eb33 (.)
 =======
 >>>>>>> 3ee54c5d (.)
@@ -1828,8 +1842,13 @@ declare(strict_types=1);
 =======
 >>>>>>> 26d39e2eb (.)
 =======
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> 2dab69c8a (.)
+=======
 =======
 >>>>>>> origin/develop
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1903,6 +1922,8 @@ declare(strict_types=1);
 >>>>>>> 01750b107 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 2dab69c8a (.)
 >>>>>>> d09cb759 (.)
 =======
 =======
@@ -2067,6 +2088,7 @@ declare(strict_types=1);
 =======
 =======
 >>>>>>> 77edd94a (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> e790eb33 (.)
@@ -2215,6 +2237,10 @@ declare(strict_types=1);
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 2e1ac1f20 (.)
+=======
+=======
+>>>>>>> e790eb33 (.)
+>>>>>>> 2dab69c8a (.)
  * 
  * File di traduzione per la colonna riutilizzabile ContactColumn
  * che utilizza ContactTypeEnum per il rendering centralizzato.
@@ -2325,6 +2351,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -2377,6 +2404,8 @@ declare(strict_types=1);
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 2e1ac1f20 (.)
+=======
+>>>>>>> 2dab69c8a (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2504,6 +2533,7 @@ declare(strict_types=1);
 =======
 >>>>>>> 2effe245 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e790eb33 (.)
 =======
@@ -2593,6 +2623,10 @@ declare(strict_types=1);
 >>>>>>> 01750b107 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+=======
+>>>>>>> e790eb33 (.)
+>>>>>>> 2dab69c8a (.)
 >>>>>>> a12f125f4a (.)
 =======
  *
@@ -2603,6 +2637,7 @@ declare(strict_types=1);
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2676,6 +2711,8 @@ declare(strict_types=1);
 >>>>>>> 01750b107 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 2dab69c8a (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -2899,6 +2936,7 @@ declare(strict_types=1);
 >>>>>>> 59916c8f (.)
 =======
 >>>>>>> e790eb33 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> cb5f23b0 (.)
 =======
@@ -3319,6 +3357,8 @@ declare(strict_types=1);
 >>>>>>> 2e1ac1f20 (.)
 =======
 >>>>>>> 6dad70a87 (.)
+=======
+>>>>>>> 2dab69c8a (.)
  * @author Laraxot Team
 <<<<<<< HEAD
  *

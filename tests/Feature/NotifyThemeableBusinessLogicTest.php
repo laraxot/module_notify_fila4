@@ -242,6 +242,7 @@ use Modules\Notify\Models\NotifyThemeable;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -276,6 +277,8 @@ use Modules\Notify\Models\NotifyThemeable;
 >>>>>>> e312314fa (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 2dab69c8a (.)
 =======
 <<<<<<< HEAD
 use Modules\Notify\Models\NotifyThemeable;
@@ -319,6 +322,8 @@ use Modules\Notify\Models\NotifyThemeable;
 >>>>>>> 5aedc39c (rebase 210)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> e790eb33 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
@@ -401,6 +406,7 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -417,6 +423,8 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 >>>>>>> cd5474106 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 2dab69c8a (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -475,6 +483,7 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> eea68ec9 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> e790eb33 (.)
@@ -619,6 +628,10 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 6dad70a87 (.)
+=======
+=======
+>>>>>>> e790eb33 (.)
+>>>>>>> 2dab69c8a (.)
 use Modules\Notify\Models\NotifyTheme;
 use Modules\Notify\Models\NotifyThemeable;
 =======
@@ -634,6 +647,7 @@ use Modules\Notify\Models\NotifyThemeable;
 use Modules\Notify\Models\NotifyTheme;
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -684,6 +698,8 @@ use Modules\Notify\Models\NotifyTheme;
 >>>>>>> cd5474106 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 2dab69c8a (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -1449,6 +1465,7 @@ use Modules\Notify\Models\NotifyThemeable;
 >>>>>>> 59916c8f (.)
 =======
 >>>>>>> e790eb33 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> cb5f23b0 (.)
 =======
@@ -1869,6 +1886,8 @@ use Modules\Notify\Models\NotifyThemeable;
 =======
 >>>>>>> eea68ec9 (.)
 >>>>>>> 6dad70a87 (.)
+=======
+>>>>>>> 2dab69c8a (.)
 
 describe('Notify Themeable Business Logic', function () {
     it('can create notify themeable with basic information', function () {
@@ -2269,7 +2288,9 @@ describe('Notify Themeable Business Logic', function () {
 =======
     it('can manage polymorphic relationships', function () {
         $theme = NotifyTheme::factory()->create();
+<<<<<<< HEAD
 
+<<<<<<< HEAD
 >>>>>>> 9d84f153 (.)
 =======
 >>>>>>> bd804d67 (.)
@@ -2313,6 +2334,15 @@ describe('Notify Themeable Business Logic', function () {
 >>>>>>> e312314fa (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+=======
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> 2dab69c8a (.)
         $themeable = NotifyThemeable::factory()->create([
             'model_type' => 'App\Models\EmailTemplate',
             'model_id' => 456,
@@ -2639,7 +2669,9 @@ describe('Notify Themeable Business Logic', function () {
 >>>>>>> d09cb759 (.)
 =======
         ]);
+<<<<<<< HEAD
 
+<<<<<<< HEAD
 >>>>>>> 3f537838 (.)
 =======
 
@@ -2709,6 +2741,15 @@ describe('Notify Themeable Business Logic', function () {
 >>>>>>> e312314fa (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+=======
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> 2dab69c8a (.)
         $themeable = NotifyThemeable::factory()->create([
             'notify_theme_id' => $theme->id,
         ]);
@@ -2749,7 +2790,9 @@ describe('Notify Themeable Business Logic', function () {
     it('can handle user tracking', function (): void {
         /** @var \Illuminate\Database\Eloquent\Collection */
         $theme = NotifyTheme::factory()->create();
+<<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2787,12 +2830,15 @@ describe('Notify Themeable Business Logic', function () {
 =======
 >>>>>>> 3ee54c5d (.)
 =======
+>>>>>>> 2dab69c8a (.)
+=======
 <<<<<<< HEAD
 
 =======
         
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2836,6 +2882,8 @@ describe('Notify Themeable Business Logic', function () {
 >>>>>>> 3ee54c5d (.)
 =======
 >>>>>>> 4b544042 (.)
+=======
+>>>>>>> 2dab69c8a (.)
         $themeable = NotifyThemeable::factory()->create([
             'notify_theme_id' => $theme->id,
 <<<<<<< HEAD
@@ -3075,8 +3123,11 @@ describe('Notify Themeable Business Logic', function () {
 <<<<<<< HEAD
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
+=======
+>>>>>>> 2dab69c8a (.)
 =======
 <<<<<<< HEAD
 
@@ -3084,6 +3135,7 @@ describe('Notify Themeable Business Logic', function () {
         
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 =======
@@ -3364,6 +3416,8 @@ describe('Notify Themeable Business Logic', function () {
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 2dab69c8a (.)
         $themeable1 = NotifyThemeable::factory()->create([
             'model_type' => 'App\Models\NotificationTemplate',
             'model_id' => 123,
@@ -3404,6 +3458,7 @@ describe('Notify Themeable Business Logic', function () {
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4334,6 +4389,11 @@ describe('Notify Themeable Business Logic', function () {
             ->toHaveCount(3);
 =======
 >>>>>>> 2effe245 (.)
+=======
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+=======
+>>>>>>> e790eb33 (.)
 <<<<<<< HEAD
 =======
         expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
@@ -4494,6 +4554,7 @@ describe('Notify Themeable Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -4512,6 +4573,8 @@ describe('Notify Themeable Business Logic', function () {
 >>>>>>> cd5474106 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 2dab69c8a (.)
 >>>>>>> d09cb759 (.)
 =======
         expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
@@ -4975,6 +5038,7 @@ describe('Notify Themeable Business Logic', function () {
 >>>>>>> 59916c8f (.)
 =======
 >>>>>>> e790eb33 (.)
+<<<<<<< HEAD
 =======
         expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
             ->toHaveCount(3);
@@ -5308,6 +5372,8 @@ describe('Notify Themeable Business Logic', function () {
 =======
 >>>>>>> eea68ec9 (.)
 >>>>>>> 6dad70a87 (.)
+=======
+>>>>>>> 2dab69c8a (.)
     });
 
     it('can handle theme switching', function () {
@@ -5315,6 +5381,7 @@ describe('Notify Themeable Business Logic', function () {
         $newTheme = NotifyTheme::factory()->create(['name' => 'Tema Nuovo']);
 <<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5381,12 +5448,15 @@ describe('Notify Themeable Business Logic', function () {
 =======
 >>>>>>> 26d39e2eb (.)
 =======
+>>>>>>> 2dab69c8a (.)
+=======
 <<<<<<< HEAD
 
 =======
         
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5466,6 +5536,8 @@ describe('Notify Themeable Business Logic', function () {
 >>>>>>> e312314fa (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 2dab69c8a (.)
         $themeable = NotifyThemeable::factory()->create([
             'notify_theme_id' => $oldTheme->id,
         ]);
@@ -5702,6 +5774,7 @@ describe('Notify Themeable Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5770,11 +5843,16 @@ describe('Notify Themeable Business Logic', function () {
 =======
 <<<<<<< HEAD
 >>>>>>> 26d39e2eb (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 2dab69c8a (.)
 
 =======
         
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5855,6 +5933,8 @@ describe('Notify Themeable Business Logic', function () {
 >>>>>>> e312314fa (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 2dab69c8a (.)
         $themeable = NotifyThemeable::factory()->create([
             'notify_theme_id' => $theme->id,
             'model_type' => null,
@@ -5970,6 +6050,7 @@ describe('Notify Themeable Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6056,12 +6137,15 @@ describe('Notify Themeable Business Logic', function () {
 =======
 >>>>>>> 26d39e2eb (.)
 =======
+>>>>>>> 2dab69c8a (.)
+=======
 <<<<<<< HEAD
 
 =======
         
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6188,6 +6272,8 @@ describe('Notify Themeable Business Logic', function () {
 >>>>>>> e312314fa (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 2dab69c8a (.)
         $childTheme = NotifyTheme::factory()->create([
             'name' => 'Tema Specializzato',
             'description' => 'Tema specializzato per appuntamenti',
@@ -6212,6 +6298,7 @@ describe('Notify Themeable Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6298,12 +6385,15 @@ describe('Notify Themeable Business Logic', function () {
 =======
 >>>>>>> 26d39e2eb (.)
 =======
+>>>>>>> 2dab69c8a (.)
+=======
 <<<<<<< HEAD
 
 =======
         
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6430,6 +6520,8 @@ describe('Notify Themeable Business Logic', function () {
 >>>>>>> e312314fa (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 2dab69c8a (.)
         $baseThemeable = NotifyThemeable::factory()->create([
             'model_type' => 'App\Models\NotificationTemplate',
             'model_id' => 123,
@@ -6717,7 +6809,9 @@ describe('Notify Themeable Business Logic', function () {
 =======
     it('can handle theme removal', function () {
         $theme = NotifyTheme::factory()->create();
+<<<<<<< HEAD
 
+<<<<<<< HEAD
 >>>>>>> 9d84f153 (.)
 =======
 >>>>>>> bd804d67 (.)
@@ -6761,6 +6855,15 @@ describe('Notify Themeable Business Logic', function () {
 >>>>>>> e312314fa (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+=======
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> 2dab69c8a (.)
         $themeable = NotifyThemeable::factory()->create([
             'notify_theme_id' => $theme->id,
         ]);
@@ -6849,7 +6952,9 @@ describe('Notify Themeable Business Logic', function () {
     it('can manage audit trail', function (): void {
         /** @var \Illuminate\Database\Eloquent\Collection */
         $theme = NotifyTheme::factory()->create();
+<<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6887,12 +6992,15 @@ describe('Notify Themeable Business Logic', function () {
 =======
 >>>>>>> 3ee54c5d (.)
 =======
+>>>>>>> 2dab69c8a (.)
+=======
 <<<<<<< HEAD
 
 =======
         
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6936,6 +7044,8 @@ describe('Notify Themeable Business Logic', function () {
 >>>>>>> 3ee54c5d (.)
 =======
 >>>>>>> 4b544042 (.)
+=======
+>>>>>>> 2dab69c8a (.)
         $themeable = NotifyThemeable::factory()->create([
             'notify_theme_id' => $theme->id,
 <<<<<<< HEAD
@@ -7361,6 +7471,7 @@ describe('Notify Themeable Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -7413,6 +7524,8 @@ describe('Notify Themeable Business Logic', function () {
 >>>>>>> 5aedc39c (rebase 210)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> e790eb33 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
@@ -7479,6 +7592,7 @@ describe('Notify Themeable Business Logic', function () {
 =======
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7535,6 +7649,8 @@ describe('Notify Themeable Business Logic', function () {
 >>>>>>> cd5474106 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 2dab69c8a (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -7764,6 +7880,7 @@ describe('Notify Themeable Business Logic', function () {
 >>>>>>> 4e2ebfb (.)
 >>>>>>> eea68ec9 (.)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 06e3078e (.)
@@ -7797,6 +7914,11 @@ describe('Notify Themeable Business Logic', function () {
 >>>>>>> 2e1ac1f20 (.)
 =======
 >>>>>>> 6dad70a87 (.)
+=======
+>>>>>>> 59916c8f (.)
+=======
+>>>>>>> e790eb33 (.)
+>>>>>>> 2dab69c8a (.)
         NotifyThemeable::where('notify_theme_id', $theme1->id)->update([
             'notify_theme_id' => $theme2->id,
 <<<<<<< HEAD
@@ -8049,10 +8171,13 @@ describe('Notify Themeable Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 06e3078e (.)
+=======
+>>>>>>> 2dab69c8a (.)
 =======
 >>>>>>> eea68ec9 (.)
 =======
@@ -8155,6 +8280,8 @@ describe('Notify Themeable Business Logic', function () {
 =======
 >>>>>>> 2effe245 (.)
 =======
+>>>>>>> e790eb33 (.)
+=======
 <<<<<<< HEAD
 >>>>>>> e790eb33 (.)
 =======
@@ -8198,12 +8325,15 @@ describe('Notify Themeable Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 2dab69c8a (.)
 >>>>>>> d09cb759 (.)
 =======
 =======
@@ -8276,6 +8406,7 @@ describe('Notify Themeable Business Logic', function () {
 >>>>>>> 77edd94a (.)
 =======
 >>>>>>> e790eb33 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f81a620f (.)
@@ -8342,11 +8473,14 @@ describe('Notify Themeable Business Logic', function () {
 =======
 >>>>>>> 77edd94a (.)
 >>>>>>> 2e1ac1f20 (.)
+=======
+>>>>>>> 2dab69c8a (.)
         NotifyThemeable::where('notify_theme_id', $theme1->id)
             ->update([
                 'notify_theme_id' => $theme2->id,
                 'updated_by' => 'admin@' . config('app.domain', 'example.com'),
             ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8412,6 +8546,8 @@ describe('Notify Themeable Business Logic', function () {
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 2e1ac1f20 (.)
+=======
+>>>>>>> 2dab69c8a (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8490,6 +8626,7 @@ describe('Notify Themeable Business Logic', function () {
 =======
 >>>>>>> 2effe245 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e790eb33 (.)
 =======
@@ -8506,6 +8643,10 @@ describe('Notify Themeable Business Logic', function () {
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+=======
+>>>>>>> e790eb33 (.)
+>>>>>>> 2dab69c8a (.)
 >>>>>>> a12f125f4a (.)
 =======
 >>>>>>> b93ef594b4 (.)
@@ -8530,10 +8671,13 @@ describe('Notify Themeable Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 2dab69c8a (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -9983,6 +10127,7 @@ describe('Notify Themeable Business Logic', function () {
 <<<<<<< HEAD
 >>>>>>> 59916c8f (.)
 =======
+<<<<<<< HEAD
 >>>>>>> ce89c8bb (.)
 =======
 <<<<<<< HEAD
@@ -10372,6 +10517,9 @@ describe('Notify Themeable Business Logic', function () {
 >>>>>>> 2e1ac1f20 (.)
 =======
 >>>>>>> 6dad70a87 (.)
+=======
+>>>>>>> e790eb33 (.)
+>>>>>>> 2dab69c8a (.)
 
         $theme2Assignments = NotifyThemeable::where('notify_theme_id', $theme2->id)->get();
         expect($theme2Assignments)->toHaveCount(5);

@@ -613,6 +613,7 @@ describe('Contact Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 301ad8b44 (.)
 =======
@@ -634,6 +635,8 @@ describe('Contact Business Logic', function () {
 =======
 >>>>>>> 26d39e2eb (.)
 =======
+>>>>>>> 2dab69c8a (.)
+=======
 =======
         
         expect($contact->order_column)->toBe(1);
@@ -641,6 +644,7 @@ describe('Contact Business Logic', function () {
 });
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -682,3 +686,5 @@ describe('Contact Business Logic', function () {
 >>>>>>> e312314fa (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 2dab69c8a (.)

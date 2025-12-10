@@ -15,6 +15,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f2e64178 (.)
 =======
@@ -47,6 +48,8 @@
 >>>>>>> 01750b107 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 2dab69c8a (.)
 # Raccomandazioni di Ottimizzazione - Modulo Notify
 
 ## 🎯 Stato Attuale e Problemi Critici
@@ -54,6 +57,7 @@
 ### ❌ PROBLEMI CRITICI IDENTIFICATI
 
 #### 1. Riusabilità Compromessa
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -233,6 +237,9 @@
 - **336+ occorrenze hardcoded** di "<nome progetto>" in test e documentazione
 - **336+ occorrenze hardcoded** di "<nome progetto>" in test e documentazione
 >>>>>>> bf479cc (.)
+=======
+- **336+ occorrenze hardcoded** di "saluteora" in test e documentazione
+>>>>>>> 2dab69c8a (.)
 - **Import diretti** da moduli project-specific
 - **Configurazioni database** hardcoded nei test
 - **Email domains** hardcoded nei test
@@ -246,6 +253,7 @@
 #### 3. Testing Non Riutilizzabile
 - Test che utilizzano `User::factory()` invece di `XotData::make()->getUserClass()`
 - Configurazioni database hardcoded
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -425,10 +433,14 @@
 - Riferimenti diretti a modelli <nome progetto>
 - Riferimenti diretti a modelli <nome progetto>
 >>>>>>> bf479cc (.)
+=======
+- Riferimenti diretti a modelli SaluteOra
+>>>>>>> 2dab69c8a (.)
 
 ## ✅ OTTIMIZZAZIONI IMPLEMENTATE
 
 ### Riusabilità
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -608,6 +620,9 @@
 1. **NotificationManagementBusinessLogicTest.php**: Rimosso hardcoding "<nome progetto>"
 1. **NotificationManagementBusinessLogicTest.php**: Rimosso hardcoding "<nome progetto>"
 >>>>>>> bf479cc (.)
+=======
+1. **NotificationManagementBusinessLogicTest.php**: Rimosso hardcoding "SaluteOra"
+>>>>>>> 2dab69c8a (.)
 2. **NotifyThemeableFactory.php**: Implementato `getProjectNamespace()` dinamico
 3. **File di traduzione**: Aggiornati placeholder con `{{app_name}}`
 4. **Documentazione base**: Creata guida riusabilità
@@ -621,6 +636,7 @@
 // Pattern da applicare a TUTTI i test
 // ❌ PRIMA
 $user = User::factory()->create();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -800,6 +816,9 @@ $user = User::factory()->create();
 'database' => '<nome progetto>_test'
 'database' => '<nome progetto>_test'
 >>>>>>> bf479cc (.)
+=======
+'database' => 'saluteora_test'
+>>>>>>> 2dab69c8a (.)
 
 // ✅ DOPO
 $userClass = XotData::make()->getUserClass();
@@ -1003,6 +1022,7 @@ php artisan notify:benchmark
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -1037,3 +1057,5 @@ php artisan notify:benchmark
 >>>>>>> 01750b107 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 2dab69c8a (.)
