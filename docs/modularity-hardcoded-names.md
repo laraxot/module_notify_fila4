@@ -25,6 +25,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Durante l'audit del modulo `Notify`, è stato identificato un **errore critico di architettura**: l'utilizzo di stringhe hardcoded con nomi di progetto specifici (es. "<nome progetto>", "salutemo") in un modulo che deve essere riutilizzabile in progetti diversi.
 >>>>>>> 75179b855 (.)
@@ -58,7 +59,13 @@ Durante l'audit del modulo `Notify`, è stato identificato un **errore critico d
 >>>>>>> bb7e77c2 (.)
 =======
 >>>>>>> c7a4727b (.)
+=======
+>>>>>>> b99af5a8 (.)
 Durante l'audit del modulo `Notify`, è stato identificato un **errore critico di architettura**: l'utilizzo di stringhe hardcoded con nomi di progetto specifici (es. "saluteora", "salutemo") in un modulo che deve essere riutilizzabile in progetti diversi.
+=======
+Durante l'audit del modulo `Notify`, è stato identificato un **errore critico di architettura**: l'utilizzo di stringhe hardcoded con nomi di progetto specifici (es. "<nome progetto>", "salutemo") in un modulo che deve essere riutilizzabile in progetti diversi.
+Durante l'audit del modulo `Notify`, è stato identificato un **errore critico di architettura**: l'utilizzo di stringhe hardcoded con nomi di progetto specifici (es. "<nome progetto>", "salutemo") in un modulo che deve essere riutilizzabile in progetti diversi.
+>>>>>>> bf479cc (.)
 
 ## Impatto del Problema
 
@@ -87,6 +94,7 @@ Durante l'audit del modulo `Notify`, è stato identificato un **errore critico d
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 'subject' => 'Benvenuto su ',
 'content' => 'Grazie per esserti registrato su ',
@@ -125,6 +133,8 @@ Durante l'audit del modulo `Notify`, è stato identificato un **errore critico d
 >>>>>>> bb7e77c2 (.)
 =======
 >>>>>>> c7a4727b (.)
+=======
+>>>>>>> b99af5a8 (.)
 'subject' => 'Benvenuto su SaluteOra',
 'content' => 'Grazie per esserti registrato su SaluteOra',
 'clinic_name' => 'Studio Dentistico SaluteOra',
@@ -147,6 +157,7 @@ Durante l'audit del modulo `Notify`, è stato identificato un **errore critico d
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/',
 >>>>>>> 75179b855 (.)
@@ -162,6 +173,8 @@ Durante l'audit del modulo `Notify`, è stato identificato un **errore critico d
 =======
 >>>>>>> bb7e77c2 (.)
 =======
+>>>>>>> b99af5a8 (.)
+=======
 'subject' => 'Benvenuto su ',
 'content' => 'Grazie per esserti registrato su ',
 'clinic_name' => 'Studio Dentistico ',
@@ -176,6 +189,7 @@ Durante l'audit del modulo `Notify`, è stato identificato un **errore critico d
 'path' => '/var/www/html/<nome progetto>/public_html/images/',
 'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/',
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -207,6 +221,8 @@ Durante l'audit del modulo `Notify`, è stato identificato un **errore critico d
 >>>>>>> bb7e77c2 (.)
 =======
 >>>>>>> c7a4727b (.)
+=======
+>>>>>>> b99af5a8 (.)
 ```
 
 ## Soluzioni Implementate
@@ -277,6 +293,7 @@ $notificationData = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - ****: Solo per progetto 
 >>>>>>> 75179b855 (.)
@@ -310,7 +327,13 @@ $notificationData = [
 >>>>>>> bb7e77c2 (.)
 =======
 >>>>>>> c7a4727b (.)
+=======
+>>>>>>> b99af5a8 (.)
 - **SaluteOra**: Solo per progetto SaluteOra
+=======
+- ****: Solo per progetto 
+- ****: Solo per progetto <nome progetto>
+>>>>>>> bf479cc (.)
 - **SaluteMo**: Solo per progetto SaluteMo
 - **Patient**: Solo per progetti sanitari specifici
 
@@ -330,6 +353,7 @@ Prima di ogni commit, verificare:
 Eseguire regolarmente:
 ```bash
 # Cerca stringhe hardcoded nei moduli generici
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -382,16 +406,29 @@ grep -r "<nome progetto>\|salutemo" laravel/Modules/Xot/ --include="*.php"
 >>>>>>> bb7e77c2 (.)
 =======
 >>>>>>> c7a4727b (.)
+=======
+>>>>>>> b99af5a8 (.)
 grep -r "saluteora\|salutemo" laravel/Modules/Notify/ --include="*.php"
 grep -r "saluteora\|salutemo" laravel/Modules/User/ --include="*.php"
 grep -r "saluteora\|salutemo" laravel/Modules/UI/ --include="*.php"
 grep -r "saluteora\|salutemo" laravel/Modules/Xot/ --include="*.php"
+=======
+grep -r "<nome progetto>\|salutemo" laravel/Modules/Notify/ --include="*.php"
+grep -r "<nome progetto>\|salutemo" laravel/Modules/User/ --include="*.php"
+grep -r "<nome progetto>\|salutemo" laravel/Modules/UI/ --include="*.php"
+grep -r "<nome progetto>\|salutemo" laravel/Modules/Xot/ --include="*.php"
+grep -r "<nome progetto>\|salutemo" laravel/Modules/Notify/ --include="*.php"
+grep -r "<nome progetto>\|salutemo" laravel/Modules/User/ --include="*.php"
+grep -r "<nome progetto>\|salutemo" laravel/Modules/UI/ --include="*.php"
+grep -r "<nome progetto>\|salutemo" laravel/Modules/Xot/ --include="*.php"
+>>>>>>> bf479cc (.)
 ```
 
 ## Configurazione per Progetti
 
 ### Variabili d'Ambiente
 ```env
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -445,11 +482,25 @@ REPOSITORY_URL=https://github.com/<nome progetto>/notify
 >>>>>>> bb7e77c2 (.)
 =======
 >>>>>>> c7a4727b (.)
+=======
+>>>>>>> b99af5a8 (.)
 COMPANY_NAME=SaluteOra
 COMPANY_TEAM=Team SaluteOra
 WEBHOOK_BASE_URL=https://api.saluteora.com
 CLINIC_NAME=Studio Dentistico SaluteOra
 REPOSITORY_URL=https://github.com/saluteora/notify
+=======
+COMPANY_NAME=
+COMPANY_TEAM=Team 
+WEBHOOK_BASE_URL=https://api.<nome progetto>.com
+CLINIC_NAME=Studio Dentistico 
+REPOSITORY_URL=https://github.com/<nome progetto>/notify
+COMPANY_NAME=<nome progetto>
+COMPANY_TEAM=Team <nome progetto>
+WEBHOOK_BASE_URL=https://api.<nome progetto>.com
+CLINIC_NAME=Studio Dentistico <nome progetto>
+REPOSITORY_URL=https://github.com/<nome progetto>/notify
+>>>>>>> bf479cc (.)
 ```
 
 ### Override per Progetti Specifici
