@@ -55,6 +55,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9cf0dc90 (.)
 =======
@@ -88,6 +89,8 @@
 >>>>>>> 4bec160e6 (.)
 =======
 >>>>>>> 01af324fe (.)
+=======
+>>>>>>> 13aa25113 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -195,6 +198,7 @@
 =======
 >>>>>>> 6608a1a0 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 909e45af (.)
 =======
@@ -275,6 +279,10 @@
 >>>>>>> 4bec160e6 (.)
 =======
 >>>>>>> 01af324fe (.)
+=======
+=======
+>>>>>>> 909e45af (.)
+>>>>>>> 13aa25113 (.)
 # Notify Module Documentation
 
 ## Overview
@@ -330,6 +338,7 @@ This document serves as the central index for the Notify module, providing guida
 - [Troubleshooting](./TROUBLESHOOTING.md)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -573,6 +582,8 @@ This document serves as the central index for the Notify module, providing guida
 >>>>>>> 998e6866b (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 13aa25113 (.)
 =======
 =======
 >>>>>>> bf479cc (.)
@@ -1730,6 +1741,8 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 =======
 >>>>>>> f2e64178 (.)
 =======
+>>>>>>> 909e45af (.)
+=======
 <<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 =======
@@ -1792,12 +1805,16 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 >>>>>>> f813254 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 13aa25113 (.)
 >>>>>>> f2e64178 (.)
 =======
 =======
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> 2fdda20 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 909e45af (.)
 =======
@@ -1910,6 +1927,9 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 =======
 >>>>>>> f2e64178 (.)
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 909e45af (.)
+>>>>>>> 13aa25113 (.)
 # Indice della Documentazione - Modulo Notify
 
 ## Panoramica
@@ -1952,6 +1972,7 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -1964,6 +1985,8 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 >>>>>>> 01af324fe (.)
 =======
 >>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 13aa25113 (.)
 - [Documentazione Generale <nome progetto>](../../../../docs/README.md)
 =======
 - [Documentazione Generale SaluteOra](../../../../docs/README.md)
@@ -2046,12 +2069,16 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 - [Documentazione Generale SaluteOra](../../../../docs/README.md)
 >>>>>>> 3f39ac8b (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 13aa25113 (.)
 =======
 - [Documentazione Generale SaluteOra](../../../../docs/README.md)
 =======
 - [Documentazione Generale PTV](../../../../docs/README.md)
 >>>>>>> bf479cc (.)
 >>>>>>> 909e45af (.)
+<<<<<<< HEAD
 =======
 =======
 - [Documentazione Generale SaluteOra](../../../../docs/README.md)
@@ -2107,11 +2134,14 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 >>>>>>> 01af324fe (.)
 =======
 >>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 13aa25113 (.)
 - [Collegamenti Documentazione](../../../../docs/collegamenti-documentazione.md)
 - [Standard di Documentazione](../../../../docs/DOCUMENTATION_STANDARDS.md)
 - [Modulo Xot](../../Xot/docs/README.md)
 - [Modulo Lang](../../Lang/docs/README.md)
 - [Modulo UI](../../UI/docs/README.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2156,6 +2186,8 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 >>>>>>> 01af324fe (.)
 =======
 >>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 13aa25113 (.)
 =======
 
 >>>>>>> bf479cc (.)
@@ -2204,11 +2236,15 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 =======
 >>>>>>> 3f39ac8b (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 13aa25113 (.)
 =======
 =======
 
 >>>>>>> bf479cc (.)
 >>>>>>> 909e45af (.)
+<<<<<<< HEAD
 =======
 >>>>>>> bd22fd4 (.)
 <<<<<<< HEAD
@@ -2266,6 +2302,8 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 >>>>>>> 01af324fe (.)
 =======
 >>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 13aa25113 (.)
 ## Categorie Principali
 
 ### Architettura e Struttura
@@ -2436,6 +2474,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -2450,6 +2489,8 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 >>>>>>> 01af324fe (.)
 =======
 >>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 13aa25113 (.)
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -2646,6 +2687,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
@@ -2655,6 +2697,8 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 >>>>>>> 58816034 (.)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 13aa25113 (.)
 =======
 =======
 
@@ -3359,6 +3403,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -3409,6 +3454,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 =======
 >>>>>>> 909e45af (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 4f042b88 (.)
 =======
 =======
@@ -3437,6 +3483,8 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> 6608a1a0 (.)
 =======
 >>>>>>> 01af324fe (.)
+=======
+>>>>>>> 13aa25113 (.)
 ## Collegamenti alla Documentazione Correlata
 - [Panoramica Architettura](./ARCHITECTURE.md)
 - [Implementazione Canali Notifica](./NOTIFICATION_CHANNELS_IMPLEMENTATION.md)
@@ -4639,6 +4687,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4657,8 +4706,11 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> 4bec160e6 (.)
 =======
 >>>>>>> 01af324fe (.)
+=======
+>>>>>>> 13aa25113 (.)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4732,6 +4784,8 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> 7a2f131f (.)
 =======
 >>>>>>> bd804d67 (.)
+=======
+>>>>>>> 13aa25113 (.)
 =======
 >>>>>>> f813254 (.)
 =======
@@ -5232,6 +5286,7 @@ Ultimo aggiornamento: 14 Maggio 2025
 =======
 =======
 =======
+<<<<<<< HEAD
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*
 >>>>>>> 94c68e2 (.)
@@ -5240,10 +5295,13 @@ Ultimo aggiornamento: 14 Maggio 2025
 *Ultimo aggiornamento: Gennaio 2025*
 >>>>>>> e627c3b (.)
 =======
+=======
+>>>>>>> 13aa25113 (.)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni"
 
 *Ultimo aggiornamento: Gennaio 2025*
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2fdda20 (.)
@@ -5871,3 +5929,7 @@ Ultimo aggiornamento: 14 Maggio 2025
 >>>>>>> f813254 (.)
 >>>>>>> f2e64178 (.)
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 2fdda20 (.)
+>>>>>>> 909e45af (.)
+>>>>>>> 13aa25113 (.)

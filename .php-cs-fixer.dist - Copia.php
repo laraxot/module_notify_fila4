@@ -10,6 +10,7 @@ declare(strict_types=1);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 99ff506 (.)
@@ -66,6 +67,11 @@ declare(strict_types=1);
 
 
 >>>>>>> f5f1cb1 (.)
+=======
+=======
+
+>>>>>>> bf479cc (.)
+>>>>>>> 2fdda20 (.)
 $finder = PhpCsFixer\Finder::create()
     ->notPath('bootstrap/cache')
     ->notPath('storage')
