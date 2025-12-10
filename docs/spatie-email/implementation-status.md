@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -156,6 +157,7 @@
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> fdb24863 (rebase 210)
@@ -239,6 +241,10 @@
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+=======
+>>>>>>> fdb24863 (rebase 210)
+>>>>>>> b85076e48 (.)
 # Stato Implementazione SpatieEmail
 
 Questo documento tiene traccia dello stato di implementazione delle email utilizzando il pacchetto Spatie per le email multilingua nel modulo Notify.
@@ -360,6 +366,7 @@ Nel file `/var/www/html/base_<nome progetto>/laravel/Modules/Notify/app/Filament
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Nel file `/var/www/html/base_<nome progetto>/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
 =======
 Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
@@ -459,6 +466,7 @@ Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/F
 Nel file `/var/www/html/base_<nome progetto>/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
 Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
 >>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
@@ -763,6 +771,11 @@ Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clust
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> fdb24863 (rebase 210)
+>>>>>>> b85076e48 (.)
 
 ```php
 // Errore di sintassi (manca ->)
@@ -897,6 +910,7 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -924,6 +938,8 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> b85076e48 (.)
 1. [Documentazione Laravel Translatable](/var/www/html/base_<nome progetto>/laravel/Modules/Lang/docs/translatable/index.md)
 2. [Gestione Traduzioni Mancanti](/var/www/html/base_<nome progetto>/laravel/Modules/Lang/docs/translatable/gestione-traduzioni-mancanti.md)
 3. [Implementazione nel Progetto](/var/www/html/base_<nome progetto>/laravel/Modules/Lang/docs/translatable/implementazione-nel-progetto.md)
@@ -1219,6 +1235,7 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 =======
 >>>>>>> 712617d3 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -1237,6 +1254,10 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 >>>>>>> 36136dcfa (.)
 =======
 >>>>>>> 731b801a8 (.)
+=======
+=======
+>>>>>>> fdb24863 (rebase 210)
+>>>>>>> b85076e48 (.)
 1. [Documentazione Laravel Translatable](/var/www/html/base_saluteora/laravel/Modules/Lang/docs/translatable/index.md)
 2. [Gestione Traduzioni Mancanti](/var/www/html/base_saluteora/laravel/Modules/Lang/docs/translatable/gestione-traduzioni-mancanti.md)
 3. [Implementazione nel Progetto](/var/www/html/base_saluteora/laravel/Modules/Lang/docs/translatable/implementazione-nel-progetto.md)
@@ -1296,6 +1317,7 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -1310,6 +1332,8 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 >>>>>>> 36136dcfa (.)
 =======
 >>>>>>> 731b801a8 (.)
+=======
+>>>>>>> b85076e48 (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -1509,6 +1533,7 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 >>>>>>> f3086887 (rebase 210)
 =======
 >>>>>>> fdb24863 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 3d462363 (rebase 210)
 =======
@@ -1669,12 +1694,15 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 =======
 >>>>>>> f3086887 (rebase 210)
 >>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> b85076e48 (.)
 
 ## Timeline
 
 - **Completato**: Configurazione base, documentazione iniziale
 - **In corso**: Refactoring modelli, correzioni sintassi
 - **Pianificato**: Testing, documentazione completa
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1903,6 +1931,7 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 =======
 >>>>>>> f3086887 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 301ad8b44 (.)
@@ -1940,3 +1969,7 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+=======
+>>>>>>> fdb24863 (rebase 210)
+>>>>>>> b85076e48 (.)

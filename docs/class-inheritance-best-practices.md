@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Best Practices per l'Ereditarietà delle Classi
 
 Questo documento definisce le best practices per l'ereditarietà delle classi nel sistema <nome progetto>, con particolare attenzione alle classi che estendono `XotBasePage`.
@@ -53,6 +54,8 @@ Questo documento definisce le best practices per l'ereditarietà delle classi ne
 >>>>>>> 36136dcfa (.)
 =======
 >>>>>>> 731b801a8 (.)
+=======
+>>>>>>> b85076e48 (.)
 # Best Practices per l'Ereditarietà delle Classi
 
 <<<<<<< HEAD
@@ -335,6 +338,7 @@ Questo documento definisce le best practices per l'ereditarietà delle classi ne
 =======
 Questo documento definisce le best practices per l'ereditarietà delle classi nel sistema SaluteOra, con particolare attenzione alle classi che estendono `XotBasePage`.
 >>>>>>> 1442e291 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 # Best Practices per l'Ereditarietà delle Classi
@@ -867,6 +871,13 @@ Questo documento definisce le best practices per l'ereditarietà delle classi ne
 >>>>>>> 74eb2e964 (.)
 =======
 >>>>>>> f957fb24b (.)
+=======
+=======
+# Best Practices per l'Ereditarietà delle Classi
+
+Questo documento definisce le best practices per l'ereditarietà delle classi nel sistema SaluteOra, con particolare attenzione alle classi che estendono `XotBasePage`.
+>>>>>>> fdb24863 (rebase 210)
+>>>>>>> b85076e48 (.)
 
 ## Analisi dell'Ereditarietà di XotBasePage
 
@@ -948,6 +959,7 @@ Seguire queste best practices garantisce un codice più pulito, manutenibile e m
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1027,6 +1039,8 @@ Seguire queste best practices garantisce un codice più pulito, manutenibile e m
 =======
 >>>>>>> 731b801a8 (.)
 =======
+>>>>>>> b85076e48 (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -1034,6 +1048,7 @@ Seguire queste best practices garantisce un codice più pulito, manutenibile e m
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> 712617d3 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> fdb24863 (rebase 210)
@@ -1084,3 +1099,7 @@ Seguire queste best practices garantisce un codice più pulito, manutenibile e m
 >>>>>>> 36136dcfa (.)
 =======
 >>>>>>> 731b801a8 (.)
+=======
+=======
+>>>>>>> fdb24863 (rebase 210)
+>>>>>>> b85076e48 (.)

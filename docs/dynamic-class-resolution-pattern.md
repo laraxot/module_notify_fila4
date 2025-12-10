@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Pattern di Risoluzione Dinamica delle Classi vs Pattern Match
 
 Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di <nome progetto>.
@@ -53,6 +54,8 @@ Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formul
 >>>>>>> 36136dcfa (.)
 =======
 >>>>>>> 731b801a8 (.)
+=======
+>>>>>>> b85076e48 (.)
 # Pattern di Risoluzione Dinamica delle Classi vs Pattern Match
 
 <<<<<<< HEAD
@@ -335,6 +338,7 @@ Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formul
 =======
 Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di SaluteOra.
 >>>>>>> 1442e291 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 # Pattern di Risoluzione Dinamica delle Classi vs Pattern Match
@@ -867,6 +871,13 @@ Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formul
 >>>>>>> 74eb2e964 (.)
 =======
 >>>>>>> f957fb24b (.)
+=======
+=======
+# Pattern di Risoluzione Dinamica delle Classi vs Pattern Match
+
+Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di SaluteOra.
+>>>>>>> fdb24863 (rebase 210)
+>>>>>>> b85076e48 (.)
 
 ## Implementazione Attuale con Match
 
@@ -1054,6 +1065,7 @@ Questa soluzione combina i vantaggi della risoluzione dinamica con la sicurezza 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1133,6 +1145,8 @@ Questa soluzione combina i vantaggi della risoluzione dinamica con la sicurezza 
 =======
 >>>>>>> 731b801a8 (.)
 =======
+>>>>>>> b85076e48 (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -1140,6 +1154,7 @@ Questa soluzione combina i vantaggi della risoluzione dinamica con la sicurezza 
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> 712617d3 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> fdb24863 (rebase 210)
@@ -1190,3 +1205,7 @@ Questa soluzione combina i vantaggi della risoluzione dinamica con la sicurezza 
 >>>>>>> 36136dcfa (.)
 =======
 >>>>>>> 731b801a8 (.)
+=======
+=======
+>>>>>>> fdb24863 (rebase 210)
+>>>>>>> b85076e48 (.)

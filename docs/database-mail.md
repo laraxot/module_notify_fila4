@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -58,6 +59,7 @@
 >>>>>>> 36321fcb (.)
 =======
 >>>>>>> 712617d3 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> fdb24863 (rebase 210)
@@ -139,6 +141,10 @@
 >>>>>>> 70175d0c4 (.)
 =======
 >>>>>>> 731b801a8 (.)
+=======
+=======
+>>>>>>> fdb24863 (rebase 210)
+>>>>>>> b85076e48 (.)
 # Database Mail System
 
 ## Regola sulle rotte
@@ -378,6 +384,7 @@ class EmailTemplateResource extends Resource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
     public static function form(Form $form): Form
@@ -519,6 +526,7 @@ class EmailTemplateResource extends Resource
 =======
     public static function form(Form $form): Form
 >>>>>>> 712617d3 (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -548,6 +556,11 @@ class EmailTemplateResource extends Resource
     public static function form(Form $form): Form
 >>>>>>> 712617d3 (.)
 >>>>>>> 731b801a8 (.)
+=======
+=======
+    public static function form(Form $form): Form
+>>>>>>> fdb24863 (rebase 210)
+>>>>>>> b85076e48 (.)
     {
         return $form->schema([
             Card::make()->schema([
@@ -1152,6 +1165,7 @@ Cordiali saluti,<br>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1844,6 +1858,7 @@ Cordiali saluti,<br>
 =======
 - [Filament Forms](https://filamentphp.com/docs/forms)
 >>>>>>> fdb24863 (rebase 210)
+<<<<<<< HEAD
 =======
 - [Filament Forms](https://filamentphp.com/docs/forms)
 =======
@@ -2235,3 +2250,5 @@ Cordiali saluti,<br>
 >>>>>>> 4e2ebfb (.)
 >>>>>>> cb85c538 (rebase 210)
 >>>>>>> e0836b102 (.)
+=======
+>>>>>>> b85076e48 (.)

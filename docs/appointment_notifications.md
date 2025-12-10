@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -62,6 +63,7 @@
 >>>>>>> 36321fcb (.)
 =======
 >>>>>>> 712617d3 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> fdb24863 (rebase 210)
@@ -151,6 +153,10 @@
 >>>>>>> 70175d0c4 (.)
 =======
 >>>>>>> 731b801a8 (.)
+=======
+=======
+>>>>>>> fdb24863 (rebase 210)
+>>>>>>> b85076e48 (.)
 # Sistema di Notifica Appuntamenti - il progetto
 
 ## Panoramica
@@ -247,6 +253,7 @@ app(SendAppointmentNotificationAction::class)->execute(
 ```bash
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1180,6 +1187,7 @@ app(SendAppointmentNotificationAction::class)->execute(
 >>>>>>> 1c0eb9c7 (rebase 210)
 =======
 >>>>>>> fdb24863 (rebase 210)
+<<<<<<< HEAD
 =======
 =======
 
@@ -1556,6 +1564,8 @@ app(SendAppointmentNotificationAction::class)->execute(
 >>>>>>> 4e2ebfb (.)
 >>>>>>> cb85c538 (rebase 210)
 >>>>>>> e0836b102 (.)
+=======
+>>>>>>> b85076e48 (.)
 # Invio promemoria per appuntamenti di domani
 php artisan dental:send-appointment-reminders --days=1
 
@@ -1572,6 +1582,7 @@ php artisan dental:send-appointment-reminders --days=1 --queue
 2. Personalizzare i messaggi con informazioni specifiche del paziente e dell'appuntamento
 3. Monitorare i log per verificare l'invio corretto delle notifiche
 4. Testare regolarmente i template email su diversi client di posta
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1717,6 +1728,8 @@ php artisan dental:send-appointment-reminders --days=1 --queue
 =======
 >>>>>>> 66453ace (.)
 =======
+>>>>>>> b85076e48 (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -1726,6 +1739,7 @@ php artisan dental:send-appointment-reminders --days=1 --queue
 >>>>>>> 36321fcb (.)
 =======
 >>>>>>> 712617d3 (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 301ad8b44 (.)
@@ -1741,3 +1755,7 @@ php artisan dental:send-appointment-reminders --days=1 --queue
 =======
 >>>>>>> 712617d3 (.)
 >>>>>>> 731b801a8 (.)
+=======
+=======
+>>>>>>> fdb24863 (rebase 210)
+>>>>>>> b85076e48 (.)

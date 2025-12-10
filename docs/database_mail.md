@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -62,6 +63,7 @@
 >>>>>>> 36321fcb (.)
 =======
 >>>>>>> 712617d3 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> fdb24863 (rebase 210)
@@ -151,6 +153,10 @@
 >>>>>>> 70175d0c4 (.)
 =======
 >>>>>>> 731b801a8 (.)
+=======
+=======
+>>>>>>> fdb24863 (rebase 210)
+>>>>>>> b85076e48 (.)
 # Database Mail System
 
 ## Regola sulle rotte
@@ -394,6 +400,7 @@ class EmailTemplateResource extends Resource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
     public static function form(Form $form): Form
@@ -547,6 +554,7 @@ class EmailTemplateResource extends Resource
 =======
     public static function form(Form $form): Form
 >>>>>>> 712617d3 (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -576,6 +584,11 @@ class EmailTemplateResource extends Resource
     public static function form(Form $form): Form
 >>>>>>> 712617d3 (.)
 >>>>>>> 731b801a8 (.)
+=======
+=======
+    public static function form(Form $form): Form
+>>>>>>> fdb24863 (rebase 210)
+>>>>>>> b85076e48 (.)
     {
         return $form->schema([
             Card::make()->schema([
@@ -1023,6 +1036,7 @@ class ProcessDoctorModerationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1705,6 +1719,7 @@ class ProcessDoctorModerationAction
 >>>>>>> 1c0eb9c7 (rebase 210)
 =======
 >>>>>>> fdb24863 (rebase 210)
+<<<<<<< HEAD
 =======
 =======
 
@@ -2081,6 +2096,8 @@ class ProcessDoctorModerationAction
 >>>>>>> 4e2ebfb (.)
 >>>>>>> cb85c538 (rebase 210)
 >>>>>>> e0836b102 (.)
+=======
+>>>>>>> b85076e48 (.)
 # Registrazione Approvata
 
 Gentile {{ $doctor->name }},
@@ -2141,6 +2158,7 @@ Cordiali saluti,<br>
 - [TinyMCE](https://www.tiny.cloud)
 - [Filament Forms](https://filamentphp.com/docs/forms)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4423,4 +4441,15 @@ Cordiali saluti,<br>
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> cb85c538 (rebase 210)
+<<<<<<< HEAD
 >>>>>>> e0836b102 (.)
+=======
+=======
+>>>>>>> 1c0eb9c7 (rebase 210)
+=======
+- [Laravel Mail](https://laravel.com/docs/mail)
+- [Spatie Mail Templates](https://github.com/spatie/laravel-database-mail-templates)
+- [TinyMCE](https://www.tiny.cloud)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+>>>>>>> fdb24863 (rebase 210)
+>>>>>>> b85076e48 (.)

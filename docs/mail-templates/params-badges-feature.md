@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -243,6 +244,7 @@
 =======
 >>>>>>> f3086887 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 2a97406c (.)
@@ -267,6 +269,10 @@
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+=======
+>>>>>>> fdb24863 (rebase 210)
+>>>>>>> b85076e48 (.)
 # Visualizzazione Parametri come Badge - Mail Templates
 
 ## Panoramica
@@ -443,6 +449,7 @@ Badge: [user_name] [reset_link] [expiry_time]
 <<<<<<< HEAD
 **Compatibilità**: Filament 4.x, Laravel 10+ 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -866,6 +873,7 @@ Badge: [user_name] [reset_link] [expiry_time]
 **Compatibilità**: Filament 3.x, Laravel 10+ 
 >>>>>>> f3086887 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 **Compatibilità**: Filament 4.x, Laravel 10+ 
 >>>>>>> fdb24863 (rebase 210)
@@ -1210,3 +1218,8 @@ Badge: [user_name] [reset_link] [expiry_time]
 >>>>>>> 848f79b79 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> fdb24863 (rebase 210)
+>>>>>>> b85076e48 (.)
