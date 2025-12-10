@@ -200,6 +200,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -793,13 +794,17 @@ use Modules\Notify\Models\NotificationType;
 >>>>>>> 229a065a (rebase 210)
 =======
 >>>>>>> 84082535 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> a9bf0423 (rebase 210)
+=======
+>>>>>>> a75783374 (.)
 use Modules\Notify\Helpers\ConfigHelper;
 use Modules\Notify\Models\Contact;
 use Modules\Notify\Models\Notification;
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Notify\Models\NotificationType;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1282,6 +1287,8 @@ use Modules\Notify\Models\NotificationTemplate;
 use Modules\Notify\Models\NotificationType;
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+>>>>>>> a75783374 (.)
 >>>>>>> cb85c538 (rebase 210)
 <<<<<<< HEAD
 =======
@@ -2823,6 +2830,7 @@ use Modules\Notify\Models\NotificationType;
 =======
 >>>>>>> 229a065a (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 84082535 (rebase 210)
 =======
@@ -3134,6 +3142,10 @@ use Modules\Notify\Models\NotificationType;
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+=======
+>>>>>>> 84082535 (rebase 210)
+>>>>>>> a75783374 (.)
 
 describe('Notification Management Business Logic', function (): void {
     it('can create notification with basic information', function (): void {
@@ -3387,6 +3399,7 @@ describe('Notification Management Business Logic', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -4212,6 +4225,7 @@ describe('Notification Management Business Logic', function (): void {
 =======
 >>>>>>> 229a065a (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 84082535 (rebase 210)
@@ -4809,6 +4823,11 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+=======
+
+>>>>>>> 84082535 (rebase 210)
+>>>>>>> a75783374 (.)
         $notificationData = [
             'type' => 'email',
             /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
@@ -5066,6 +5085,7 @@ describe('Notification Management Business Logic', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -5379,6 +5399,7 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> 1c0eb9c7 (rebase 210)
 =======
 >>>>>>> 229a065a (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 84082535 (rebase 210)
@@ -5874,6 +5895,10 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+=======
+>>>>>>> 84082535 (rebase 210)
+>>>>>>> a75783374 (.)
         expect($notification)
             ->toBeInstanceOf(Notification::class)
             ->and($notification->type)
@@ -5885,6 +5910,7 @@ describe('Notification Management Business Logic', function (): void {
             ->toBe('pending');
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7431,6 +7457,7 @@ describe('Notification Management Business Logic', function (): void {
 =======
 >>>>>>> 229a065a (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 84082535 (rebase 210)
 =======
@@ -7742,6 +7769,10 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+=======
+>>>>>>> 84082535 (rebase 210)
+>>>>>>> a75783374 (.)
 
         /** @phpstan-ignore-next-line property.notFound */
         $this->assertDatabaseHas('notifications', [
@@ -7761,6 +7792,7 @@ describe('Notification Management Business Logic', function (): void {
 <<<<<<< HEAD
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8832,6 +8864,7 @@ describe('Notification Management Business Logic', function (): void {
 =======
 >>>>>>> 229a065a (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 84082535 (rebase 210)
@@ -9429,6 +9462,11 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+=======
+
+>>>>>>> 84082535 (rebase 210)
+>>>>>>> a75783374 (.)
         $templateData = [
             'name' => 'Welcome Email Template',
             'type' => 'email',
@@ -9686,6 +9724,7 @@ describe('Notification Management Business Logic', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -9999,6 +10038,7 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> 1c0eb9c7 (rebase 210)
 =======
 >>>>>>> 229a065a (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 84082535 (rebase 210)
@@ -10494,6 +10534,10 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+=======
+>>>>>>> 84082535 (rebase 210)
+>>>>>>> a75783374 (.)
         expect($template)
             ->toBeInstanceOf(NotificationTemplate::class)
             ->and($template->name)
@@ -10504,6 +10548,7 @@ describe('Notification Management Business Logic', function (): void {
             ->toBeTrue();
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12050,6 +12095,7 @@ describe('Notification Management Business Logic', function (): void {
 =======
 >>>>>>> 229a065a (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 84082535 (rebase 210)
 =======
@@ -12361,6 +12407,10 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+=======
+>>>>>>> 84082535 (rebase 210)
+>>>>>>> a75783374 (.)
 
         /** @phpstan-ignore-next-line property.notFound */
         $this->assertDatabaseHas('notification_templates', [
@@ -12627,6 +12677,7 @@ describe('Notification Management Business Logic', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -12940,6 +12991,7 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> 1c0eb9c7 (rebase 210)
 =======
 >>>>>>> 229a065a (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 84082535 (rebase 210)
@@ -13435,6 +13487,10 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+=======
+>>>>>>> 84082535 (rebase 210)
+>>>>>>> a75783374 (.)
         expect($type)
             ->toBeInstanceOf(NotificationType::class)
             ->and($type->name)
@@ -13445,6 +13501,7 @@ describe('Notification Management Business Logic', function (): void {
             ->toBeTrue();
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14991,6 +15048,7 @@ describe('Notification Management Business Logic', function (): void {
 =======
 >>>>>>> 229a065a (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 84082535 (rebase 210)
 =======
@@ -15302,6 +15360,10 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+=======
+>>>>>>> 84082535 (rebase 210)
+>>>>>>> a75783374 (.)
 
         /** @phpstan-ignore-next-line property.notFound */
         $this->assertDatabaseHas('notification_types', [
@@ -15573,6 +15635,7 @@ describe('Notification Management Business Logic', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -15886,6 +15949,7 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> 1c0eb9c7 (rebase 210)
 =======
 >>>>>>> 229a065a (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 84082535 (rebase 210)
@@ -16381,6 +16445,10 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+=======
+>>>>>>> 84082535 (rebase 210)
+>>>>>>> a75783374 (.)
         expect($contact)
             ->toBeInstanceOf(Contact::class)
             ->and($contact->name)
@@ -16391,6 +16459,7 @@ describe('Notification Management Business Logic', function (): void {
             ->toBeTrue();
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17937,6 +18006,7 @@ describe('Notification Management Business Logic', function (): void {
 =======
 >>>>>>> 229a065a (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 84082535 (rebase 210)
 =======
@@ -18248,6 +18318,10 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+=======
+>>>>>>> 84082535 (rebase 210)
+>>>>>>> a75783374 (.)
 
         /** @phpstan-ignore-next-line property.notFound */
         $this->assertDatabaseHas('contacts', [
@@ -18554,6 +18628,7 @@ describe('Notification Management Business Logic', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -18867,6 +18942,7 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> 1c0eb9c7 (rebase 210)
 =======
 >>>>>>> 229a065a (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 84082535 (rebase 210)
@@ -19362,6 +19438,10 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+=======
+>>>>>>> 84082535 (rebase 210)
+>>>>>>> a75783374 (.)
         expect($notification)
             ->toBeInstanceOf(Notification::class)
             ->and($notification->type)
@@ -19372,6 +19452,7 @@ describe('Notification Management Business Logic', function (): void {
             ->toBe(json_encode($customData));
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20918,6 +20999,7 @@ describe('Notification Management Business Logic', function (): void {
 =======
 >>>>>>> 229a065a (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 84082535 (rebase 210)
 =======
@@ -21229,6 +21311,10 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+=======
+>>>>>>> 84082535 (rebase 210)
+>>>>>>> a75783374 (.)
 
         /** @phpstan-ignore-next-line property.notFound */
         $this->assertDatabaseHas('notifications', [
@@ -21496,6 +21582,7 @@ describe('Notification Management Business Logic', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -21809,6 +21896,7 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> 1c0eb9c7 (rebase 210)
 =======
 >>>>>>> 229a065a (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 84082535 (rebase 210)
@@ -22304,6 +22392,10 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+=======
+>>>>>>> 84082535 (rebase 210)
+>>>>>>> a75783374 (.)
         expect($template)
             ->toBeInstanceOf(NotificationTemplate::class)
             ->and($template->variables)
@@ -22314,6 +22406,7 @@ describe('Notification Management Business Logic', function (): void {
             ->toContain('clinic_name');
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23860,6 +23953,7 @@ describe('Notification Management Business Logic', function (): void {
 =======
 >>>>>>> 229a065a (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 84082535 (rebase 210)
 =======
@@ -24171,6 +24265,10 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+=======
+>>>>>>> 84082535 (rebase 210)
+>>>>>>> a75783374 (.)
 
         /** @phpstan-ignore-next-line property.notFound */
         $this->assertDatabaseHas('notification_templates', [
@@ -24436,6 +24534,7 @@ describe('Notification Management Business Logic', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -24749,6 +24848,7 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> 1c0eb9c7 (rebase 210)
 =======
 >>>>>>> 229a065a (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 84082535 (rebase 210)
@@ -25244,6 +25344,10 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+=======
+>>>>>>> 84082535 (rebase 210)
+>>>>>>> a75783374 (.)
         expect($type)
             ->toBeInstanceOf(NotificationType::class)
             ->and($type->channels)
@@ -25254,6 +25358,7 @@ describe('Notification Management Business Logic', function (): void {
             ->toContain('push');
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26800,6 +26905,7 @@ describe('Notification Management Business Logic', function (): void {
 =======
 >>>>>>> 229a065a (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 84082535 (rebase 210)
 =======
@@ -27111,6 +27217,10 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+=======
+>>>>>>> 84082535 (rebase 210)
+>>>>>>> a75783374 (.)
 
         /** @phpstan-ignore-next-line property.notFound */
         $this->assertDatabaseHas('notification_types', [
@@ -27385,6 +27495,7 @@ describe('Notification Management Business Logic', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -27902,6 +28013,7 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> 1c0eb9c7 (rebase 210)
 =======
 >>>>>>> 229a065a (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 84082535 (rebase 210)
@@ -28193,6 +28305,10 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+=======
+>>>>>>> 84082535 (rebase 210)
+>>>>>>> a75783374 (.)
         expect($contact)
             ->toBeInstanceOf(Contact::class)
             ->and($contact->preferences['email'])
@@ -28205,6 +28321,7 @@ describe('Notification Management Business Logic', function (): void {
             ->toBe('daily');
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -29527,6 +29644,7 @@ describe('Notification Management Business Logic', function (): void {
 =======
 >>>>>>> 229a065a (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 84082535 (rebase 210)
 =======
@@ -30058,6 +30176,10 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+=======
+>>>>>>> 84082535 (rebase 210)
+>>>>>>> a75783374 (.)
 
         /** @phpstan-ignore-next-line property.notFound */
         $this->assertDatabaseHas('contacts', [
@@ -30435,6 +30557,7 @@ describe('Notification Management Business Logic', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -30748,6 +30871,7 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> 1c0eb9c7 (rebase 210)
 =======
 >>>>>>> 229a065a (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 84082535 (rebase 210)
@@ -31243,6 +31367,10 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+=======
+>>>>>>> 84082535 (rebase 210)
+>>>>>>> a75783374 (.)
         expect($template)
             ->toBeInstanceOf(NotificationTemplate::class)
             ->and($template->translations)
@@ -31253,6 +31381,7 @@ describe('Notification Management Business Logic', function (): void {
             ->toHaveKey('de');
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32799,6 +32928,7 @@ describe('Notification Management Business Logic', function (): void {
 =======
 >>>>>>> 229a065a (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 84082535 (rebase 210)
 =======
@@ -33110,6 +33240,10 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+=======
+>>>>>>> 84082535 (rebase 210)
+>>>>>>> a75783374 (.)
 
         /** @phpstan-ignore-next-line property.notFound */
         $this->assertDatabaseHas('notification_templates', [
@@ -33387,6 +33521,7 @@ describe('Notification Management Business Logic', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -33700,6 +33835,7 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> 1c0eb9c7 (rebase 210)
 =======
 >>>>>>> 229a065a (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 84082535 (rebase 210)
@@ -34195,6 +34331,10 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+=======
+>>>>>>> 84082535 (rebase 210)
+>>>>>>> a75783374 (.)
         expect($type)
             ->toBeInstanceOf(NotificationType::class)
             ->and($type->delivery_rules['max_per_day'])
@@ -34205,6 +34345,7 @@ describe('Notification Management Business Logic', function (): void {
             ->toBe(3);
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -35751,6 +35892,7 @@ describe('Notification Management Business Logic', function (): void {
 =======
 >>>>>>> 229a065a (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 84082535 (rebase 210)
 =======
@@ -36062,6 +36204,10 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+=======
+>>>>>>> 84082535 (rebase 210)
+>>>>>>> a75783374 (.)
 
         /** @phpstan-ignore-next-line property.notFound */
         $this->assertDatabaseHas('notification_types', [
@@ -36342,6 +36488,7 @@ describe('Notification Management Business Logic', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -36859,6 +37006,7 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> 1c0eb9c7 (rebase 210)
 =======
 >>>>>>> 229a065a (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 84082535 (rebase 210)
@@ -37150,6 +37298,10 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+=======
+>>>>>>> 84082535 (rebase 210)
+>>>>>>> a75783374 (.)
         expect($contact)
             ->toBeInstanceOf(Contact::class)
             ->and($contact->tags)
@@ -37162,6 +37314,7 @@ describe('Notification Management Business Logic', function (): void {
             ->toBe('website_form');
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -38484,6 +38637,7 @@ describe('Notification Management Business Logic', function (): void {
 =======
 >>>>>>> 229a065a (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 84082535 (rebase 210)
 =======
@@ -39015,6 +39169,10 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+=======
+>>>>>>> 84082535 (rebase 210)
+>>>>>>> a75783374 (.)
 
         /** @phpstan-ignore-next-line property.notFound */
         $this->assertDatabaseHas('contacts', [
@@ -39292,6 +39450,7 @@ describe('Notification Management Business Logic', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -39809,6 +39968,7 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> 1c0eb9c7 (rebase 210)
 =======
 >>>>>>> 229a065a (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 84082535 (rebase 210)
@@ -40100,6 +40260,10 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+=======
+>>>>>>> 84082535 (rebase 210)
+>>>>>>> a75783374 (.)
         expect($notification)
             ->toBeInstanceOf(Notification::class)
             ->and($notification->status)
@@ -40114,6 +40278,7 @@ describe('Notification Management Business Logic', function (): void {
             ->toBe('Europe/Rome');
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -41437,6 +41602,7 @@ describe('Notification Management Business Logic', function (): void {
 =======
 >>>>>>> 229a065a (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 84082535 (rebase 210)
 =======
@@ -41964,6 +42130,10 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+=======
+>>>>>>> 84082535 (rebase 210)
+>>>>>>> a75783374 (.)
 
         /** @phpstan-ignore-next-line property.notFound */
         $this->assertDatabaseHas('notifications', [
@@ -42284,6 +42454,7 @@ describe('Notification Management Business Logic', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -42597,6 +42768,7 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> 1c0eb9c7 (rebase 210)
 =======
 >>>>>>> 229a065a (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 84082535 (rebase 210)
@@ -43092,6 +43264,10 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+=======
+>>>>>>> 84082535 (rebase 210)
+>>>>>>> a75783374 (.)
         expect($notification)
             ->toBeInstanceOf(Notification::class)
             ->and($notification->tracking['opens'])
@@ -43102,6 +43278,7 @@ describe('Notification Management Business Logic', function (): void {
             ->toStartWith('track_');
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -44648,6 +44825,7 @@ describe('Notification Management Business Logic', function (): void {
 =======
 >>>>>>> 229a065a (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 84082535 (rebase 210)
 =======
@@ -44959,6 +45137,10 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+=======
+>>>>>>> 84082535 (rebase 210)
+>>>>>>> a75783374 (.)
 
         /** @phpstan-ignore-next-line property.notFound */
         $this->assertDatabaseHas('notifications', [
@@ -45230,6 +45412,7 @@ describe('Notification Management Business Logic', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -45543,6 +45726,7 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> 1c0eb9c7 (rebase 210)
 =======
 >>>>>>> 229a065a (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 84082535 (rebase 210)
@@ -46038,6 +46222,10 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+=======
+>>>>>>> 84082535 (rebase 210)
+>>>>>>> a75783374 (.)
         expect($notification)
             ->toBeInstanceOf(Notification::class)
             ->and($notification->custom_headers['X-Campaign-ID'])
@@ -46048,6 +46236,7 @@ describe('Notification Management Business Logic', function (): void {
             ->toBe('2.1');
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -47594,6 +47783,7 @@ describe('Notification Management Business Logic', function (): void {
 =======
 >>>>>>> 229a065a (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 84082535 (rebase 210)
 =======
@@ -47905,6 +48095,10 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+=======
+>>>>>>> 84082535 (rebase 210)
+>>>>>>> a75783374 (.)
 
         /** @phpstan-ignore-next-line property.notFound */
         $this->assertDatabaseHas('notifications', [
@@ -48184,6 +48378,7 @@ describe('Notification Management Business Logic', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -48497,6 +48692,7 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> 1c0eb9c7 (rebase 210)
 =======
 >>>>>>> 229a065a (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 84082535 (rebase 210)
@@ -48992,6 +49188,10 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+=======
+>>>>>>> 84082535 (rebase 210)
+>>>>>>> a75783374 (.)
         expect($notification)
             ->toBeInstanceOf(Notification::class)
             ->and($notification->attachments)
@@ -49002,6 +49202,7 @@ describe('Notification Management Business Logic', function (): void {
             ->toBe('company_logo.png');
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -50548,6 +50749,7 @@ describe('Notification Management Business Logic', function (): void {
 =======
 >>>>>>> 229a065a (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 84082535 (rebase 210)
 =======
@@ -50859,6 +51061,10 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+=======
+>>>>>>> 84082535 (rebase 210)
+>>>>>>> a75783374 (.)
 
         /** @phpstan-ignore-next-line property.notFound */
         $this->assertDatabaseHas('notifications', [
@@ -51140,6 +51346,7 @@ describe('Notification Management Business Logic', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -51657,6 +51864,7 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> 1c0eb9c7 (rebase 210)
 =======
 >>>>>>> 229a065a (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 84082535 (rebase 210)
@@ -51948,6 +52156,10 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+=======
+>>>>>>> 84082535 (rebase 210)
+>>>>>>> a75783374 (.)
         expect($notification)
             ->toBeInstanceOf(Notification::class)
             ->and($notification->recipient_groups['all_users'])
@@ -51960,6 +52172,7 @@ describe('Notification Management Business Logic', function (): void {
             ->toContain('doctor');
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -53282,6 +53495,7 @@ describe('Notification Management Business Logic', function (): void {
 =======
 >>>>>>> 229a065a (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 84082535 (rebase 210)
 =======
@@ -53813,6 +54027,10 @@ describe('Notification Management Business Logic', function (): void {
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+=======
+>>>>>>> 84082535 (rebase 210)
+>>>>>>> a75783374 (.)
 
         /** @phpstan-ignore-next-line property.notFound */
         $this->assertDatabaseHas('notifications', [

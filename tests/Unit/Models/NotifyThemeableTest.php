@@ -256,6 +256,7 @@ use Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1966,11 +1967,15 @@ use Tests\TestCase;
 =======
 >>>>>>> 229a065a (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a75783374 (.)
 =======
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\NotifyThemeable;
 use Tests\TestCase;
 >>>>>>> 84082535 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> a9bf0423 (rebase 210)
 =======
@@ -2627,6 +2632,8 @@ use Tests\TestCase;
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+>>>>>>> a75783374 (.)
 
 class NotifyThemeableTest extends TestCase
 {
@@ -2973,6 +2980,7 @@ class NotifyThemeableTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -4057,6 +4065,7 @@ class NotifyThemeableTest extends TestCase
 =======
 >>>>>>> 229a065a (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         $found = NotifyThemeable::where('model_type', 'App\Models\User')->where('model_id', 123)->first();
 >>>>>>> 84082535 (rebase 210)
@@ -4403,6 +4412,11 @@ class NotifyThemeableTest extends TestCase
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+=======
+        $found = NotifyThemeable::where('model_type', 'App\Models\User')->where('model_id', 123)->first();
+>>>>>>> 84082535 (rebase 210)
+>>>>>>> a75783374 (.)
 
         /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNotNull($found);
@@ -4975,6 +4989,7 @@ class NotifyThemeableTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cb85c538 (rebase 210)
 =======
@@ -6061,6 +6076,7 @@ class NotifyThemeableTest extends TestCase
 =======
 >>>>>>> 229a065a (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 84082535 (rebase 210)
 =======
@@ -6591,3 +6607,7 @@ class NotifyThemeableTest extends TestCase
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+=======
+>>>>>>> 84082535 (rebase 210)
+>>>>>>> a75783374 (.)

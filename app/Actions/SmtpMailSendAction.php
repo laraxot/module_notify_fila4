@@ -286,6 +286,7 @@ class SmtpMailSendAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -354,6 +355,8 @@ class SmtpMailSendAction
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+>>>>>>> a75783374 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -868,6 +871,7 @@ class SmtpMailSendAction
 =======
 >>>>>>> 229a065a (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 84082535 (rebase 210)
 =======
@@ -1163,6 +1167,10 @@ class SmtpMailSendAction
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+=======
+>>>>>>> 84082535 (rebase 210)
+>>>>>>> a75783374 (.)
     public function execute(string $_to, string $_subject, string $_body): void
     {
         dddx('WIP');
@@ -1204,6 +1212,7 @@ class SmtpMailSendAction
          */
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3203,6 +3212,7 @@ class SmtpMailSendAction
 =======
 >>>>>>> 229a065a (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 84082535 (rebase 210)
 =======
@@ -3514,6 +3524,10 @@ class SmtpMailSendAction
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+=======
+>>>>>>> 84082535 (rebase 210)
+>>>>>>> a75783374 (.)
     }
 }
 =======

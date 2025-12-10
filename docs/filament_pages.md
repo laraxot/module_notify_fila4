@@ -452,6 +452,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -720,6 +721,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> 229a065a (rebase 210)
 =======
 >>>>>>> 84082535 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 3d462363 (rebase 210)
 =======
@@ -975,6 +977,8 @@ class EditNotificationTemplate extends XotBaseEditRecord
 =======
 >>>>>>> 229a065a (rebase 210)
 >>>>>>> 3e757cee2 (.)
+=======
+>>>>>>> a75783374 (.)
 - [Architettura Filament](../../../../docs/architecture/filament.md)
 - [Gestione Pagine](../../../../docs/architecture/pages.md)
 
@@ -984,6 +988,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 - [XotBaseEditRecord](../../Xot/docs/filament-pages.md#XotBaseEditRecord)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2002,6 +2007,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> 229a065a (rebase 210)
 =======
 >>>>>>> 84082535 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> 3d462363 (rebase 210)
@@ -2298,6 +2304,8 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> d284d65 (.)
 >>>>>>> 229a065a (rebase 210)
 >>>>>>> 3e757cee2 (.)
+=======
+>>>>>>> a75783374 (.)
 - [NotificationTemplateResource](./filament-resources.md)
 
 ## Note Importanti
@@ -2309,6 +2317,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 <<<<<<< HEAD
 5. I namespace seguono le convenzioni standard 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2628,6 +2637,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> fdb24863 (rebase 210)
 =======
 >>>>>>> 84082535 (rebase 210)
+<<<<<<< HEAD
 =======
 =======
 5. I namespace seguono le convenzioni standard 
@@ -3090,3 +3100,5 @@ class EditNotificationTemplate extends XotBaseEditRecord
 5. I namespace seguono le convenzioni standard 
 >>>>>>> fdb24863 (rebase 210)
 >>>>>>> b85076e48 (.)
+=======
+>>>>>>> a75783374 (.)

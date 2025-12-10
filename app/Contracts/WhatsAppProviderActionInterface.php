@@ -258,6 +258,7 @@ use Modules\Notify\Datas\WhatsAppData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1083,6 +1084,7 @@ use Modules\Notify\Datas\WhatsAppData;
 =======
 >>>>>>> 229a065a (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
  *
 >>>>>>> 84082535 (rebase 210)
@@ -1680,6 +1682,11 @@ use Modules\Notify\Datas\WhatsAppData;
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+=======
+ *
+>>>>>>> 84082535 (rebase 210)
+>>>>>>> a75783374 (.)
  * Questa interfaccia definisce il contratto che tutte le implementazioni
  * di provider WhatsApp devono rispettare.
  */
@@ -1839,6 +1846,7 @@ interface WhatsAppProviderActionInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -1907,6 +1915,8 @@ interface WhatsAppProviderActionInterface
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+>>>>>>> a75783374 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2981,6 +2991,7 @@ interface WhatsAppProviderActionInterface
 >>>>>>> 1c0eb9c7 (rebase 210)
 =======
 >>>>>>> 229a065a (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 84082535 (rebase 210)
@@ -3331,3 +3342,8 @@ interface WhatsAppProviderActionInterface
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+=======
+}
+>>>>>>> 84082535 (rebase 210)
+>>>>>>> a75783374 (.)
