@@ -37,6 +37,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -105,6 +106,8 @@
 >>>>>>> ee18dd92 (.)
 =======
 >>>>>>> 66453ace (.)
+=======
+>>>>>>> 2a97406c (.)
 # Test del Sistema di Gestione Email - il progetto
 
 ## Panoramica
@@ -476,6 +479,7 @@ class MailTemplateSecurityTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> c8b1c8bf (.)
@@ -550,6 +554,9 @@ class MailTemplateSecurityTest extends TestCase
 =======
 
 >>>>>>> 66453ace (.)
+=======
+
+>>>>>>> 2a97406c (.)
 # Esegui tutti i test
 php artisan test --filter=MailTemplate
 
@@ -767,6 +774,7 @@ php artisan test --coverage --filter=MailTemplate
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1560,3 +1568,6 @@ php artisan test --coverage --filter=MailTemplate
 =======
 - [Pest PHP](https://pestphp.com/docs) 
 >>>>>>> 888799d0 (.)
+=======
+- [Pest PHP](https://pestphp.com/docs) 
+>>>>>>> 2a97406c (.)
