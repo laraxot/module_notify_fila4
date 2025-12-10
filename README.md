@@ -163,6 +163,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [![Filament 4.x](https://img.shields.io/badge/Filament-4.x-blue.svg)](https://filamentphp.com/)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -524,13 +525,9 @@
 >>>>>>> f81a620f (.)
 =======
 >>>>>>> 06e3078e (.)
-[![Filament 4.x](https://img.shields.io/badge/Filament-4.x-blue.svg)](https://filamentphp.com/)
 =======
-[![Filament 3.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
->>>>>>> b19cd40 (.)
-=======
+>>>>>>> 70e8274e (.)
 [![Filament 4.x](https://img.shields.io/badge/Filament-4.x-blue.svg)](https://filamentphp.com/)
->>>>>>> 4e2ebfb (.)
 [![PHPStan Level 9](https://img.shields.io/badge/PHPStan-Level%209-brightgreen.svg)](https://phpstan.org/)
 >>>>>>> 75179b85 (.)
 =======
