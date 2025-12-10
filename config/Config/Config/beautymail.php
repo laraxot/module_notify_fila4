@@ -99,6 +99,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -673,6 +674,8 @@ return [
 >>>>>>> fea359347 (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 8ffdc1974 (.)
      * 'css' => [
      * '.button-content .button { background: red }',
      * ],
@@ -739,6 +742,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1127,10 +1131,13 @@ return [
 =======
 >>>>>>> c7d5eaf96 (.)
 =======
+>>>>>>> 8ffdc1974 (.)
+=======
         'css' => [
             '.button-content .button { background: red }',
         ],
     */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> bf479cc (.)
@@ -1348,6 +1355,9 @@ return [
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 0db165c (.)
+>>>>>>> 8ffdc1974 (.)
 
     'colors' => [
         'highlight' => '#004ca3',
@@ -1427,6 +1437,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1582,8 +1593,14 @@ return [
 =======
 =======
 
+=======
+<<<<<<< HEAD
+>>>>>>> 8ffdc1974 (.)
+=======
+
 >>>>>>> 0db165c (.)
 >>>>>>> 4ad63a5 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1992,6 +2009,8 @@ return [
 
 >>>>>>> bf479cc (.)
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 8ffdc1974 (.)
     'view' => [
         'senderName' => null,
         'reminder' => null,
@@ -2071,6 +2090,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2641,6 +2661,11 @@ return [
 
 >>>>>>> bf479cc (.)
 >>>>>>> c7d5eaf96 (.)
+=======
+=======
+
+>>>>>>> 0db165c (.)
+>>>>>>> 8ffdc1974 (.)
         'logo' => [
             'path' => '%PUBLIC%/vendor/beautymail/assets/images/sunny/logo.png',
             'width' => '',
@@ -2720,6 +2745,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3290,6 +3316,11 @@ return [
 
 >>>>>>> bf479cc (.)
 >>>>>>> c7d5eaf96 (.)
+=======
+=======
+
+>>>>>>> 0db165c (.)
+>>>>>>> 8ffdc1974 (.)
         'twitter' => null,
         'facebook' => null,
         'flickr' => null,

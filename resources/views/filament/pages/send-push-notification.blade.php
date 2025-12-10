@@ -653,6 +653,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f957fb24b (.)
 =======
@@ -660,11 +661,14 @@ declare(strict_types=1);
 =======
 >>>>>>> 84881298a (.)
 =======
+>>>>>>> 8ffdc1974 (.)
+=======
 >>>>>>> f3086887 (rebase 210)
 =======
 >>>>>>> fbed41ac (.)
 =======
 >>>>>>> 677a6ab7 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 58816034 (.)
 =======
@@ -731,8 +735,11 @@ declare(strict_types=1);
 =======
 >>>>>>> f3086887 (rebase 210)
 >>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> 8ffdc1974 (.)
                 <div>
                     <x-filament::actions :actions="$this->getNotificationFormActions()" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -769,6 +776,8 @@ declare(strict_types=1);
 >>>>>>> 7aeb7d968 (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 8ffdc1974 (.)
                 </div>
             </div>
 <<<<<<< HEAD
@@ -904,8 +913,11 @@ declare(strict_types=1);
 >>>>>>> fbed41ac (.)
 =======
 >>>>>>> 677a6ab7 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 8ffdc1974 (.)
                 <div>
                     <x-filament::actions :actions="$this->getNotificationFormActions()" />
 =======
@@ -1140,8 +1152,20 @@ declare(strict_types=1);
 =======
 =======
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 >>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
 >>>>>>> c7d5eaf96 (.)
+=======
+=======
+=======
+                <div>
+                    <x-filament::actions :actions="$this->getNotificationFormActions()" />
+=======
+=======
+>>>>>>> 7cf73d1 (.)
+>>>>>>> 677a6ab7 (.)
+>>>>>>> 8ffdc1974 (.)
 
                 <div class="mt-6 flex items-center justify-between gap-x-3">
                     <div>
@@ -1158,6 +1182,7 @@ declare(strict_types=1);
                             {{ $action }}
                         @endforeach
                     </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1256,6 +1281,8 @@ declare(strict_types=1);
 =======
 >>>>>>> c7d5eaf96 (.)
 =======
+>>>>>>> 8ffdc1974 (.)
+=======
 =======
 >>>>>>> 1fd232c7 (.)
 =======
@@ -1329,7 +1356,12 @@ declare(strict_types=1);
 =======
 =======
 >>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
 >>>>>>> c7d5eaf96 (.)
+=======
+=======
+>>>>>>> 677a6ab7 (.)
+>>>>>>> 8ffdc1974 (.)
 >>>>>>> 11ae5222 (.)
 <<<<<<< HEAD
 >>>>>>> 62b0c9c (.)
@@ -1642,6 +1674,7 @@ declare(strict_types=1);
 >>>>>>> 4ad63a5 (.)
 >>>>>>> 7cf73d1 (.)
 >>>>>>> 677a6ab7 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b8 (.)
 =======
@@ -1845,6 +1878,8 @@ declare(strict_types=1);
 >>>>>>> 84881298a (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 8ffdc1974 (.)
                 </div>
             </div>
         </div>

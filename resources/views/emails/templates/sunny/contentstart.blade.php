@@ -531,6 +531,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -1073,6 +1074,7 @@
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 677a6ab7 (.)
@@ -2053,6 +2055,10 @@
 >>>>>>> f15c41e60 (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+=======
+>>>>>>> 677a6ab7 (.)
+>>>>>>> 8ffdc1974 (.)
 <?php
 
 declare(strict_types=1);
@@ -3332,6 +3338,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -3418,6 +3425,8 @@ declare(strict_types=1);
 >>>>>>> 39a0b1e3f (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 8ffdc1974 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> c8eedbbb (.)
@@ -3759,6 +3768,7 @@ declare(strict_types=1);
 =======
 >>>>>>> 0db165c (.)
 >>>>>>> 677a6ab7 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b1f2dd4c (.)
 =======
@@ -4625,6 +4635,8 @@ declare(strict_types=1);
 >>>>>>> f15c41e60 (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 8ffdc1974 (.)
 	<td class="w40" width="40"></td>
 	<td class="w560" width="560">
 		<table class="w560" border="0" cellpadding="0" cellspacing="0" width="560">
@@ -4636,6 +4648,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 					<div class="article-content" align="left">
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5432,6 +5445,8 @@ declare(strict_types=1);
 >>>>>>> f15c41e60 (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 8ffdc1974 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -6777,6 +6792,7 @@ declare(strict_types=1);
 					<div class="article-content" align="left">
 >>>>>>> 0db165c (.)
 >>>>>>> 677a6ab7 (.)
+<<<<<<< HEAD
 =======
 					<div class="article-content" align="left">
 >>>>>>> b1f2dd4c (.)
@@ -8281,3 +8297,5 @@ declare(strict_types=1);
 >>>>>>> f15c41e60 (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 8ffdc1974 (.)
