@@ -58,6 +58,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -170,6 +171,8 @@
 >>>>>>> ee18dd92 (.)
 =======
 >>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 66453ace (.)
 # XotBaseServiceProvider: Analisi, Regole e Best Practice
 
 ## 1. Cos'è XotBaseServiceProvider
@@ -333,6 +336,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Best Practices](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/service-provider-best-practices.md)
 >>>>>>> 75179b85 (.)
@@ -521,6 +525,8 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 =======
 - [Best Practices](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/service-provider-best-practices.md)
 >>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 66453ace (.)
 - [Best Practices](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/docs/service-provider-best-practices.md)
 
 ---
@@ -582,6 +588,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -702,3 +709,5 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 >>>>>>> ee18dd92 (.)
 =======
 >>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 66453ace (.)

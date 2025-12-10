@@ -33,6 +33,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -95,10 +96,13 @@
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
 # Implementazione del Campo `slug` nel Modello MailTemplate
 
 ## Panoramica delle Modifiche
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -605,6 +609,9 @@ Il modello `MailTemplate` (`/var/www/html/saluteora/laravel/Modules/Notify/app/M
 =======
 Il modello `MailTemplate` (`/var/www/html/saluteora/laravel/Modules/Notify/app/Models/MailTemplate.php`) è stato aggiornato per supportare l'identificazione dei template tramite slug. Questa implementazione segue le migliori pratiche di Laravel e migliora l'usabilità del sistema di template email.
 >>>>>>> ca10d6ad (.)
+=======
+Il modello `MailTemplate` (`/var/www/html/saluteora/laravel/Modules/Notify/app/Models/MailTemplate.php`) è stato aggiornato per supportare l'identificazione dei template tramite slug. Questa implementazione segue le migliori pratiche di Laravel e migliora l'usabilità del sistema di template email.
+>>>>>>> 66453ace (.)
 
 ## Modifiche Effettuate
 
@@ -808,6 +815,7 @@ echo $uniqueSlug;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -878,3 +886,5 @@ echo $uniqueSlug;
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)

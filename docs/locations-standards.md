@@ -33,6 +33,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -95,6 +96,8 @@
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
 # Standard di Posizionamento dei File in Notify
 
 ## Organizzazione Directory Principali
@@ -213,6 +216,7 @@ Le interfacce devono sempre essere collocate nella directory `/app/Contracts/`, 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Contracts/
 =======
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Contracts/
@@ -620,6 +624,9 @@ Le interfacce devono sempre essere collocate nella directory `/app/Contracts/`, 
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/
 >>>>>>> ca10d6ad (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/
+>>>>>>> 66453ace (.)
 ├── SmsProviderActionInterface.php   ✅ CORRETTO
 ├── NotificationChannelInterface.php ✅ CORRETTO
 └── ...
@@ -727,6 +734,7 @@ Le interfacce devono sempre essere collocate nella directory `/app/Contracts/`, 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/SMS/
 =======
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Actions/SMS/
@@ -1134,6 +1142,9 @@ Le interfacce devono sempre essere collocate nella directory `/app/Contracts/`, 
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/
 >>>>>>> ca10d6ad (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/
+>>>>>>> 66453ace (.)
 ├── SmsActionInterface.php           ❌ ERRATO
 └── ...
 ```
@@ -1184,6 +1195,7 @@ final class SendNetfunSMSAction implements SmsActionInterface
 3. **Consistenza**:
    - Tutte le interfacce dello stesso tipo devono essere nello stesso namespace
    - Il pattern di organizzazione deve essere coerente in tutto il modulo
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1285,3 +1297,5 @@ final class SendNetfunSMSAction implements SmsActionInterface
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)

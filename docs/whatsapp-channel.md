@@ -33,6 +33,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -95,6 +96,8 @@
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
 # Implementazione Canale WhatsApp
 
 ## 1. Struttura Base
@@ -424,6 +427,7 @@ class WhatsAppTest extends TestCase
 
 - [Twilio WhatsApp API](https://www.twilio.com/whatsapp)
 - [Vonage WhatsApp API](https://developer.vonage.com/messaging/whatsapp/overview)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -907,12 +911,15 @@ class WhatsAppTest extends TestCase
 >>>>>>> 6608a1a0 (.)
 =======
 >>>>>>> ca10d6ad (.)
+=======
+>>>>>>> 66453ace (.)
 - [Meta WhatsApp Business API](https://developers.facebook.com/docs/whatsapp/cloud-api)
 - [Laravel Notifications](https://laravel.com/docs/notifications)
 - [Laravel Queues](https://laravel.com/docs/queues)
 - [Laravel Testing](https://laravel.com/docs/testing)
 - [Laravel Logging](https://laravel.com/docs/logging)
 - [Laravel Cache](https://laravel.com/docs/cache) 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1318,3 +1325,5 @@ class WhatsAppTest extends TestCase
 >>>>>>> 6608a1a0 (.)
 =======
 >>>>>>> ca10d6ad (.)
+=======
+>>>>>>> 66453ace (.)

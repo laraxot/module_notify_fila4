@@ -33,6 +33,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -95,12 +96,15 @@
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
 # Pattern di Accesso alla Configurazione SMS
 
 ## Problema Identificato
 
 È stato identificato un errore comune nell'implementazione delle azioni SMS: l'utilizzo di `config('services.*.token')` invece di `config('sms.drivers.*.token')`.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -595,6 +599,9 @@ Questo errore viola i principi di modularità e coerenza dell'architettura di Sa
 =======
 Questo errore viola i principi di modularità e coerenza dell'architettura di SaluteOra, dove ogni modulo gestisce le proprie configurazioni in file dedicati.
 >>>>>>> ca10d6ad (.)
+=======
+Questo errore viola i principi di modularità e coerenza dell'architettura di SaluteOra, dove ogni modulo gestisce le proprie configurazioni in file dedicati.
+>>>>>>> 66453ace (.)
 
 ## Pattern Corretto
 
@@ -646,6 +653,7 @@ Per ogni azione SMS, verificare che:
 - [Struttura della Configurazione SMS](./SMS_CONFIG_STRUCTURE.md)
 - [Requisiti di Configurazione Netfun](./NETFUN_CONFIG_REQUIREMENTS.md)
 - [Pattern Factory per SMS](./SMS_ACTION_FACTORY_ANALYSIS.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -747,3 +755,5 @@ Per ogni azione SMS, verificare che:
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)

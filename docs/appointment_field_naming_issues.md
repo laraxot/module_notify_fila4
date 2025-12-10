@@ -37,6 +37,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -107,10 +108,13 @@
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
 # Appointment Field Naming Issues
 
 ## Overview
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -658,6 +662,9 @@ The Appointment model in SaluteOra module defines both legacy field names (`star
 =======
 The Appointment model in SaluteOra module defines both legacy field names (`start_time`, `end_time`) and canonical field names (`starts_at`, `ends_at`). The canonical field names `starts_at` and `ends_at` should be used consistently throughout the codebase.
 >>>>>>> ca10d6ad (.)
+=======
+The Appointment model in SaluteOra module defines both legacy field names (`start_time`, `end_time`) and canonical field names (`starts_at`, `ends_at`). The canonical field names `starts_at` and `ends_at` should be used consistently throughout the codebase.
+>>>>>>> 66453ace (.)
 
 ## Issues Detected
 
@@ -771,6 +778,7 @@ The Appointment model in SaluteOra module defines both legacy field names (`star
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **File Path**: `/var/www/html/_bases/base_<nome progetto>/laravel/Modules/Notify/app/Actions/SendAppointmentNotificationAction.php.old`
 <<<<<<< HEAD
 =======
@@ -1222,6 +1230,9 @@ The Appointment model in SaluteOra module defines both legacy field names (`star
 =======
 **File Path**: `/var/www/html/_bases/base_saluteora/laravel/Modules/Notify/app/Actions/SendAppointmentNotificationAction.php.old`
 >>>>>>> ca10d6ad (.)
+=======
+**File Path**: `/var/www/html/_bases/base_saluteora/laravel/Modules/Notify/app/Actions/SendAppointmentNotificationAction.php.old`
+>>>>>>> 66453ace (.)
 
 **Line 120**:
 ```php
@@ -1244,6 +1255,7 @@ The Appointment model currently exposes both field naming conventions:
 2. Canonical fields: `starts_at`, `ends_at`
 
 While both are present in the $fillable array, the canonical fields (`starts_at`, `ends_at`) should be preferred for all new code and when refactoring existing code.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1357,3 +1369,5 @@ While both are present in the $fillable array, the canonical fields (`starts_at`
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)

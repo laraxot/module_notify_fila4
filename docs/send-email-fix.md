@@ -58,6 +58,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -170,6 +171,8 @@
 >>>>>>> ee18dd92 (.)
 =======
 >>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 66453ace (.)
 # Guida alla Correzione di SendEmail.php
 
 ## 🔍 Analisi del Problema
@@ -233,6 +236,7 @@ class SendEmail extends XotBasePage
         $this->smtpData = new SmtpData();
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -510,6 +514,9 @@ class SendEmail extends XotBasePage
 =======
     public function form(Form $form): Form
 >>>>>>> 6608a1a0 (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> 66453ace (.)
     {
         return $form
             ->schema([
@@ -732,6 +739,7 @@ class SmtpData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
 - [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
@@ -1000,6 +1008,8 @@ class SmtpData extends Data
 - [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
 - [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
 >>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 66453ace (.)
 - [Documentazione Laravel Mail](https://laravel.com/docs/mail)
 - [Documentazione Filament Forms](https://filamentphp.com/docs/forms)
 - [Best Practices SMTP](https://laravel.com/docs/mail#smtp-configuration)
@@ -1077,6 +1087,7 @@ class SmtpData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    - Verificare configurazione SMTP 
 =======
 >>>>>>> 5fd545e4 (.)
@@ -1258,3 +1269,6 @@ class SmtpData extends Data
 =======
    - Verificare configurazione SMTP 
 >>>>>>> 6608a1a0 (.)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 66453ace (.)

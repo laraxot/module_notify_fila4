@@ -37,6 +37,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -107,6 +108,8 @@
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
 # Implementazione Pratica del Modulo Notify
 
 ## 1. Setup Iniziale
@@ -544,6 +547,7 @@ class TemplateResource extends Resource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
     public static function form(Form $form): Form
@@ -674,6 +678,9 @@ class TemplateResource extends Resource
 =======
     public static function form(Form $form): Form
 >>>>>>> ee18dd92 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 66453ace (.)
     {
         return $form->schema([
             Forms\Components\Tabs::make('Template')
@@ -1233,6 +1240,7 @@ class TemplateControllerTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel Mail Documentation](https://laravel.com/docs/mail)
 =======
 - [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
@@ -1632,10 +1640,13 @@ class TemplateControllerTest extends TestCase
 >>>>>>> 6608a1a0 (.)
 =======
 >>>>>>> ca10d6ad (.)
+=======
+>>>>>>> 66453ace (.)
 - [Laravel Mail Documentation](https://laravel.com/docs/mail)
 - [MJML Documentation](https://mjml.io/documentation/)
 - [Mailgun API](https://documentation.mailgun.com/en/latest/api_reference.html)
 - [Filament Documentation](https://filamentphp.com/docs) 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1784,3 +1795,5 @@ class TemplateControllerTest extends TestCase
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)

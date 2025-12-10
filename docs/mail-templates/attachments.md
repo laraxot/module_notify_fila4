@@ -62,6 +62,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -182,6 +183,8 @@
 >>>>>>> ee18dd92 (.)
 =======
 >>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 66453ace (.)
 # Gestione degli Allegati nelle Email
 
 ## Implementazione Corretta
@@ -266,6 +269,7 @@ $attachments = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
 =======
         'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
@@ -579,6 +583,9 @@ $attachments = [
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
         'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
 >>>>>>> 6608a1a0 (.)
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+>>>>>>> 66453ace (.)
         'as' => 'logo.png',
         'mime' => 'image/png'
     ],
@@ -659,6 +666,7 @@ $attachments = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
 =======
         'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
@@ -972,6 +980,9 @@ $attachments = [
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
         'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
 >>>>>>> 6608a1a0 (.)
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+>>>>>>> 66453ace (.)
         'as' => 'logo.png',
         'mime' => 'image/png'
     ]
@@ -1147,6 +1158,7 @@ Mail::to($user->email)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -1275,3 +1287,5 @@ Mail::to($user->email)
 >>>>>>> ee18dd92 (.)
 =======
 >>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 66453ace (.)

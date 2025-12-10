@@ -58,6 +58,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -170,6 +171,8 @@
 >>>>>>> ee18dd92 (.)
 =======
 >>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 66453ace (.)
 # Pagine Filament del Modulo Notify
 
 ## Panoramica
@@ -240,6 +243,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 ## Collegamenti Bidirezionali
 
 ### Collegamenti nella Root
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -586,6 +590,8 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> ee18dd92 (.)
 =======
 >>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 66453ace (.)
 - [Architettura Filament](../../../../docs/architecture/filament.md)
 - [Gestione Pagine](../../../../docs/architecture/pages.md)
 
@@ -601,6 +607,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 2. Non si sovrascrivono metodi se non necessario
 3. Si mantiene la coerenza con il resto del sistema
 4. La documentazione va mantenuta aggiornata
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -840,3 +847,6 @@ class EditNotificationTemplate extends XotBaseEditRecord
 =======
 5. I namespace seguono le convenzioni standard 
 >>>>>>> 6608a1a0 (.)
+=======
+5. I namespace seguono le convenzioni standard 
+>>>>>>> 66453ace (.)

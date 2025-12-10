@@ -33,6 +33,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -95,6 +96,8 @@
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
 # Convenzioni di Naming per Pagine Filament
 
 ## Regola Fondamentale
@@ -150,6 +153,7 @@ Le pagine con nomi non conformi potrebbero:
 Eseguire il seguente comando per trovare pagine non conformi:
 
 ```bash
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -656,12 +660,16 @@ find /var/www/html/saluteora/laravel/Modules -path "*/Filament/*/Pages/*.php" | 
 =======
 find /var/www/html/saluteora/laravel/Modules -path "*/Filament/*/Pages/*.php" | grep -v "Page.php$"
 >>>>>>> ca10d6ad (.)
+=======
+find /var/www/html/saluteora/laravel/Modules -path "*/Filament/*/Pages/*.php" | grep -v "Page.php$"
+>>>>>>> 66453ace (.)
 ```
 
 ## Riferimenti
 
 - [Filament Documentation](https://filamentphp.com/docs/3.x/panels/pages/getting-started)
 - [PSR-4 Autoloading Standard](https://www.php-fig.org/psr/psr-4/)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -763,3 +771,5 @@ find /var/www/html/saluteora/laravel/Modules -path "*/Filament/*/Pages/*.php" | 
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)

@@ -33,6 +33,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -95,6 +96,8 @@
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
 # Implementazione SMS : Guida Dettagliata
 
 Questa documentazione fornisce una guida dettagliata all'implementazione delle notifiche SMS , con confronto tra diversi provider e best practices specifiche per il contesto italiano.
@@ -377,6 +380,7 @@ return [
     'smshosting' => [
         'username' => env('SMSHOSTING_USERNAME'),
         'password' => env('SMSHOSTING_PASSWORD'),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -873,6 +877,9 @@ return [
 =======
         'sender' => env('SMSHOSTING_SENDER', 'SaluteOra'),
 >>>>>>> ca10d6ad (.)
+=======
+        'sender' => env('SMSHOSTING_SENDER', 'SaluteOra'),
+>>>>>>> 66453ace (.)
     ],
 ];
 ```
@@ -1425,6 +1432,7 @@ public function toTwilio($notifiable)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ->content("<nome progetto>: Promemoria appuntamento {$this->appointment->formatted_date}. 
         Per annullare rispondere NO. Per info: <nome progetto>.it/privacy");
 =======
@@ -1925,6 +1933,10 @@ public function toTwilio($notifiable)
         ->content("SaluteOra: Promemoria appuntamento {$this->appointment->formatted_date}. 
         Per annullare rispondere NO. Per info: saluteora.it/privacy");
 >>>>>>> ca10d6ad (.)
+=======
+        ->content("SaluteOra: Promemoria appuntamento {$this->appointment->formatted_date}. 
+        Per annullare rispondere NO. Per info: saluteora.it/privacy");
+>>>>>>> 66453ace (.)
 }
 ```
 
@@ -1978,6 +1990,7 @@ class ConsentLog extends Model
 - [SMS_PROVIDER_CONFIGURATION.md](./SMS_PROVIDER_CONFIGURATION.md)
 - [NOTIFICATIONS_IMPLEMENTATION_GUIDE.md](./NOTIFICATIONS_IMPLEMENTATION_GUIDE.md)
 - [TELEGRAM_NOTIFICATIONS_GUIDE.md](./TELEGRAM_NOTIFICATIONS_GUIDE.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2079,3 +2092,5 @@ class ConsentLog extends Model
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)

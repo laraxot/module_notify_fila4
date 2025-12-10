@@ -33,6 +33,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -95,10 +96,13 @@
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
 # Guida alla Compatibilità HTML per Email
 
 ## Introduzione
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -593,6 +597,9 @@ Questo documento fornisce linee guida dettagliate per garantire la massima compa
 =======
 Questo documento fornisce linee guida dettagliate per garantire la massima compatibilità dei template email utilizzati nel modulo Notify di SaluteOra con i diversi client email.
 >>>>>>> ca10d6ad (.)
+=======
+Questo documento fornisce linee guida dettagliate per garantire la massima compatibilità dei template email utilizzati nel modulo Notify di SaluteOra con i diversi client email.
+>>>>>>> 66453ace (.)
 
 ## Compatibilità Client Email
 
@@ -753,6 +760,7 @@ I template nella directory `mail-layouts` seguono queste linee guida di compatib
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -823,3 +831,5 @@ I template nella directory `mail-layouts` seguono queste linee guida di compatib
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)

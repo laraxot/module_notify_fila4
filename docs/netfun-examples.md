@@ -33,6 +33,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -95,6 +96,8 @@
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
 # Esempi Pratici Netfun
 
 ## 1. Invio SMS OTP
@@ -131,6 +134,7 @@ class OtpSmsNotification extends NetfunSmsNotification
 
         parent::__construct(
             message: "Il tuo codice OTP è: {$otp}. Valido fino alle {$this->expiresAt->format('H:i')}.",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -624,6 +628,9 @@ class OtpSmsNotification extends NetfunSmsNotification
 =======
             sender: 'SALUTEORA'
 >>>>>>> ca10d6ad (.)
+=======
+            sender: 'SALUTEORA'
+>>>>>>> 66453ace (.)
         );
     }
 
@@ -887,6 +894,7 @@ class AppointmentReminderNotification extends NetfunSmsNotification
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             sender: '<nome progetto>'
 <<<<<<< HEAD
 =======
@@ -1282,6 +1290,9 @@ class AppointmentReminderNotification extends NetfunSmsNotification
 =======
             sender: 'SALUTEORA'
 >>>>>>> ca10d6ad (.)
+=======
+            sender: 'SALUTEORA'
+>>>>>>> 66453ace (.)
         );
     }
 
@@ -1620,6 +1631,7 @@ public function sendBulkSms(Request $request)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             sender: '<nome progetto>',
 <<<<<<< HEAD
 =======
@@ -2015,6 +2027,9 @@ public function sendBulkSms(Request $request)
 =======
             sender: 'SALUTEORA',
 >>>>>>> ca10d6ad (.)
+=======
+            sender: 'SALUTEORA',
+>>>>>>> 66453ace (.)
             batchSize: 100,
             delayBetweenBatches: 1
         )->onQueue('bulk-sms')->execute();
@@ -2528,6 +2543,7 @@ class NetfunNotificationIntegrationTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -2598,3 +2614,5 @@ class NetfunNotificationIntegrationTest extends TestCase
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)

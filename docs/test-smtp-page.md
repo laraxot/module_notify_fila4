@@ -58,6 +58,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -170,6 +171,8 @@
 >>>>>>> ee18dd92 (.)
 =======
 >>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 66453ace (.)
 # Test smtp page
 
 ![test smtp page](test-smtp-page.jpg)
@@ -258,6 +261,7 @@ Inseriti le varie impostazioni, si potrà verificare il funzionamento di una det
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [test-smtp-page.md](../../../Notify/project_docs/test-smtp-page.md)
 * [test-smtp-page.md](../../../Cms/project_docs/test-smtp-page.md)
@@ -486,6 +490,8 @@ Inseriti le varie impostazioni, si potrà verificare il funzionamento di una det
 * [test-smtp-page.md](../../../Notify/project_docs/test-smtp-page.md)
 * [test-smtp-page.md](../../../Cms/project_docs/test-smtp-page.md)
 >>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 66453ace (.)
 * [test-smtp-page.md](../../../Notify/docs/test-smtp-page.md)
 * [test-smtp-page.md](../../../Cms/docs/test-smtp-page.md)
 
@@ -552,6 +558,7 @@ Inseriti le varie impostazioni, si potrà verificare il funzionamento di una det
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -672,3 +679,5 @@ Inseriti le varie impostazioni, si potrà verificare il funzionamento di una det
 >>>>>>> ee18dd92 (.)
 =======
 >>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 66453ace (.)

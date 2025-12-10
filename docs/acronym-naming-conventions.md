@@ -33,6 +33,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -95,6 +96,8 @@
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
 # Convenzioni di Naming per Acronimi 
 
 ## Regola Fondamentale
@@ -179,6 +182,7 @@ Non ci sono eccezioni a questa regola. Tutti gli acronimi, indipendentemente dal
 Per identificare i file che non rispettano questa convenzione, è possibile utilizzare il seguente comando:
 
 ```bash
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -685,6 +689,9 @@ find /var/www/html/saluteora/laravel/Modules -type f -name "*[A-Z][A-Z]*.php" | 
 =======
 find /var/www/html/saluteora/laravel/Modules -type f -name "*[A-Z][A-Z]*.php" | grep -v "Test\\.php$" | grep -v "HTML\\.php$"
 >>>>>>> ca10d6ad (.)
+=======
+find /var/www/html/saluteora/laravel/Modules -type f -name "*[A-Z][A-Z]*.php" | grep -v "Test\\.php$" | grep -v "HTML\\.php$"
+>>>>>>> 66453ace (.)
 ```
 
 ## Riferimenti
@@ -692,6 +699,7 @@ find /var/www/html/saluteora/laravel/Modules -type f -name "*[A-Z][A-Z]*.php" | 
 - [PSR-1: Basic Coding Standard](https://www.php-fig.org/psr/psr-1/)
 - [Laravel Documentation - Coding Style](https://laravel.com/docs/10.x/contributions#coding-style)
 - [PHP-FIG Naming Conventions](https://www.php-fig.org/bylaws/psr-naming-conventions/)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -793,3 +801,5 @@ find /var/www/html/saluteora/laravel/Modules -type f -name "*[A-Z][A-Z]*.php" | 
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
