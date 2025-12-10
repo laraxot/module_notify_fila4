@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -149,6 +150,7 @@
 >>>>>>> 36321fcb (.)
 =======
 >>>>>>> b99af5a8 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 712617d3 (.)
 =======
@@ -229,6 +231,8 @@
 =======
 >>>>>>> 36321fcb (.)
 >>>>>>> 70175d0c4 (.)
+=======
+>>>>>>> 47bbf2b1c (.)
 # Implementazione Pratica del Modulo Notify
 
 ## 1. Setup Iniziale
@@ -717,6 +721,7 @@ class TemplateResource extends Resource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
     public static function form(Form $form): Form
@@ -778,6 +783,7 @@ class TemplateResource extends Resource
 =======
     public static function form(Form $form): Form
 >>>>>>> 36321fcb (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     public static function form(Form $form): Form
@@ -1007,6 +1013,11 @@ class TemplateResource extends Resource
 >>>>>>> 7aae79847 (.)
 =======
 >>>>>>> 70175d0c4 (.)
+=======
+=======
+    public static function form(Form $form): Form
+>>>>>>> b99af5a8 (.)
+>>>>>>> 47bbf2b1c (.)
     {
         return $form->schema([
             Forms\Components\Tabs::make('Template')
@@ -1487,6 +1498,7 @@ class TemplateControllerTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel Mail Documentation](https://laravel.com/docs/mail)
 =======
 - [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
@@ -1695,6 +1707,7 @@ class TemplateControllerTest extends TestCase
 >>>>>>> bb7e77c2 (.)
 =======
 >>>>>>> b99af5a8 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> f3086887 (rebase 210)
 =======
@@ -1709,6 +1722,8 @@ class TemplateControllerTest extends TestCase
 >>>>>>> 545977c8 (rebase 210)
 =======
 >>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> 47bbf2b1c (.)
 - [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
 =======
 - [Laravel Mail Documentation](https://laravel.com/docs/mail)
@@ -1725,6 +1740,9 @@ class TemplateControllerTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 47bbf2b1c (.)
 >>>>>>> 909e45af (.)
 =======
 >>>>>>> 4f042b88 (.)
@@ -1732,6 +1750,7 @@ class TemplateControllerTest extends TestCase
 >>>>>>> bb7e77c2 (.)
 =======
 >>>>>>> 36321fcb (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b99af5a8 (.)
@@ -1972,3 +1991,7 @@ class TemplateControllerTest extends TestCase
 >>>>>>> 7aae79847 (.)
 =======
 >>>>>>> 70175d0c4 (.)
+=======
+=======
+>>>>>>> b99af5a8 (.)
+>>>>>>> 47bbf2b1c (.)
