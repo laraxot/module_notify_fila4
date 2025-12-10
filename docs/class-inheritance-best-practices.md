@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Best Practices per l'Ereditarietà delle Classi
 
 Questo documento definisce le best practices per l'ereditarietà delle classi nel sistema <nome progetto>, con particolare attenzione alle classi che estendono `XotBasePage`.
@@ -44,6 +45,8 @@ Questo documento definisce le best practices per l'ereditarietà delle classi ne
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 998e6866b (.)
 # Best Practices per l'Ereditarietà delle Classi
 
 <<<<<<< HEAD
@@ -241,6 +244,7 @@ Questo documento definisce le best practices per l'ereditarietà delle classi ne
 =======
 Questo documento definisce le best practices per l'ereditarietà delle classi nel sistema SaluteOra, con particolare attenzione alle classi che estendono `XotBasePage`.
 >>>>>>> febe79e3 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 # Best Practices per l'Ereditarietà delle Classi
@@ -761,6 +765,13 @@ Questo documento definisce le best practices per l'ereditarietà delle classi ne
 >>>>>>> 53eef8d8d (.)
 =======
 >>>>>>> 753ea7aca (.)
+=======
+=======
+# Best Practices per l'Ereditarietà delle Classi
+
+Questo documento definisce le best practices per l'ereditarietà delle classi nel sistema SaluteOra, con particolare attenzione alle classi che estendono `XotBasePage`.
+>>>>>>> 2a97406c (.)
+>>>>>>> 998e6866b (.)
 
 ## Analisi dell'Ereditarietà di XotBasePage
 
@@ -839,6 +850,7 @@ Per le classi esistenti, rimuovere le interfacce e i traits ridondanti:
 
 Seguire queste best practices garantisce un codice più pulito, manutenibile e meno soggetto a errori. La comprensione dell'ereditarietà delle classi è fondamentale per lo sviluppo di un sistema robusto e scalabile.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -875,10 +887,13 @@ Seguire queste best practices garantisce un codice più pulito, manutenibile e m
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 998e6866b (.)
 =======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 4f042b88 (.)
 =======
@@ -958,3 +973,5 @@ Seguire queste best practices garantisce un codice più pulito, manutenibile e m
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 301ad8b44 (.)
+=======
+>>>>>>> 998e6866b (.)

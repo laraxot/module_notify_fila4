@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Implementazione dei Canali di Notifica 
 
 Questo documento descrive l'architettura e l'implementazione dei canali di notifica nel progetto <nome progetto>, con particolare attenzione al pattern Factory utilizzato.
@@ -44,6 +45,8 @@ Questo documento descrive l'architettura e l'implementazione dei canali di notif
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 998e6866b (.)
 # Implementazione dei Canali di Notifica 
 
 <<<<<<< HEAD
@@ -241,6 +244,7 @@ Questo documento descrive l'architettura e l'implementazione dei canali di notif
 =======
 Questo documento descrive l'architettura e l'implementazione dei canali di notifica nel progetto SaluteOra, con particolare attenzione al pattern Factory utilizzato.
 >>>>>>> febe79e3 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 # Implementazione dei Canali di Notifica 
@@ -761,6 +765,13 @@ Questo documento descrive l'architettura e l'implementazione dei canali di notif
 >>>>>>> 53eef8d8d (.)
 =======
 >>>>>>> 753ea7aca (.)
+=======
+=======
+# Implementazione dei Canali di Notifica 
+
+Questo documento descrive l'architettura e l'implementazione dei canali di notifica nel progetto SaluteOra, con particolare attenzione al pattern Factory utilizzato.
+>>>>>>> 2a97406c (.)
+>>>>>>> 998e6866b (.)
 
 ## Architettura Generale
 
@@ -915,6 +926,7 @@ L'implementazione dei canali di notifica  segue un'architettura coerente e ben s
 - [Risoluzione dei Problemi](./TROUBLESHOOTING.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -951,10 +963,13 @@ L'implementazione dei canali di notifica  segue un'architettura coerente e ben s
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 998e6866b (.)
 =======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 4f042b88 (.)
 =======
@@ -1034,3 +1049,5 @@ L'implementazione dei canali di notifica  segue un'architettura coerente e ben s
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 301ad8b44 (.)
+=======
+>>>>>>> 998e6866b (.)

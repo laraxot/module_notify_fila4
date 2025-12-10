@@ -130,6 +130,7 @@ abstract class XotBasePage extends Page implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
     public function form(Form $form): Form
@@ -144,12 +145,16 @@ abstract class XotBasePage extends Page implements HasForms
     public function form(Form $form): Form
 >>>>>>> f963d2c0 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 998e6866b (.)
 =======
     public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
     public function form(Form $form): Form
 >>>>>>> 7bac387 (.)
 >>>>>>> 2a97406c (.)
+<<<<<<< HEAD
 =======
     public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
@@ -198,6 +203,8 @@ abstract class XotBasePage extends Page implements HasForms
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 998e6866b (.)
     {
         return $form
             ->schema($this->getFormSchema())
@@ -267,6 +274,7 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
 public function form(Form $form): Form
@@ -281,12 +289,16 @@ public function form(Form $form): Form
 public function form(Form $form): Form
 >>>>>>> f963d2c0 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 998e6866b (.)
 =======
 public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
 public function form(Form $form): Form
 >>>>>>> 7bac387 (.)
 >>>>>>> 2a97406c (.)
+<<<<<<< HEAD
 =======
 public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
@@ -335,6 +347,8 @@ public function form(Form $form): Form
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 998e6866b (.)
 {
     return $form
         ->schema([

@@ -417,6 +417,7 @@ This document serves as the central index for the Notify module, providing guida
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 888799d0 (.)
 =======
@@ -567,6 +568,8 @@ This document serves as the central index for the Notify module, providing guida
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 998e6866b (.)
 =======
 =======
 >>>>>>> bf479cc (.)
@@ -1722,6 +1725,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 =======
 >>>>>>> 2a97406c (.)
 =======
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 909e45af (.)
@@ -1753,6 +1757,8 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 =======
 >>>>>>> 2f135ef98 (.)
 =======
+=======
+>>>>>>> 998e6866b (.)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1770,6 +1776,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 =======
 =======
 >>>>>>> 7bac387 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2a97406c (.)
 =======
@@ -1888,6 +1895,9 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 =======
 >>>>>>> 4d2eb53e (.)
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 2a97406c (.)
+>>>>>>> 998e6866b (.)
 # Indice della Documentazione - Modulo Notify
 
 ## Panoramica
@@ -2883,6 +2893,9 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 998e6866b (.)
 =======
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
@@ -2904,6 +2917,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 =======
 =======
 >>>>>>> 7bac387 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2a97406c (.)
 =======
@@ -3256,6 +3270,9 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 >>>>>>> 0f07e6d (.)
 >>>>>>> 4d2eb53e (.)
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 2a97406c (.)
+>>>>>>> 998e6866b (.)
 
 ## Sottocartelle
 
@@ -3501,6 +3518,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3642,6 +3660,8 @@ Ultimo aggiornamento: 14 Maggio 2025
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 998e6866b (.)
 ### Miglioramenti Qualità Codice (2025-01-06)
 - **PHPStan Livello 10**: Analisi completa e correzione errori di tipizzazione
   - Corretti 16 errori principali nel modulo Notify
@@ -4272,6 +4292,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> 2a97406c (.)
+<<<<<<< HEAD
 =======
 >>>>>>> f2e64178 (.)
 =======
@@ -4294,6 +4315,8 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> 36ac4fc1 (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 998e6866b (.)
 Ultimo aggiornamento: 14 Maggio 2025
 
 ## Risoluzione conflitti e standard
@@ -4481,6 +4504,7 @@ Ultimo aggiornamento: 14 Maggio 2025
 >>>>>>> e11621f (.)
 =======
 >>>>>>> 7bac387 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 6d08c01b (.)
 =======
@@ -5744,6 +5768,8 @@ Ultimo aggiornamento: 14 Maggio 2025
 <<<<<<< HEAD
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 998e6866b (.)
 ## Risoluzione Conflitti e Standard
 - **Gennaio 2025**: Risoluzione sistematica di tutti i conflitti Git nei file di documentazione:
   - `index.md` - Unificato contenuto italiano e inglese mantenendo struttura completa
@@ -5757,6 +5783,11 @@ Ultimo aggiornamento: 14 Maggio 2025
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 998e6866b (.)
 =======
 Ultimo aggiornamento: 14 Maggio 2025
 
@@ -5779,4 +5810,16 @@ Ultimo aggiornamento: 14 Maggio 2025
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
 >>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
 >>>>>>> 2f135ef98 (.)
+=======
+=======
+=======
+>>>>>>> e11621f (.)
+<<<<<<< HEAD
+>>>>>>> 888799d0 (.)
+=======
+=======
+>>>>>>> 7bac387 (.)
+>>>>>>> 2a97406c (.)
+>>>>>>> 998e6866b (.)

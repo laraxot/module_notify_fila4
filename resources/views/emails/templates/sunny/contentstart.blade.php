@@ -443,6 +443,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -720,6 +721,7 @@
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -1590,6 +1592,11 @@
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+=======
+=======
+>>>>>>> 2a97406c (.)
+>>>>>>> 998e6866b (.)
 <?php
 
 declare(strict_types=1);
@@ -1598,6 +1605,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <tr>
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3129,6 +3137,7 @@ declare(strict_types=1);
 =======
 <tr>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 518c702 (.)
 >>>>>>> 2a97406c (.)
 =======
@@ -3598,6 +3607,10 @@ declare(strict_types=1);
 =======
 >>>>>>> 737f5776 (.)
 >>>>>>> 5a9d848a3 (.)
+=======
+>>>>>>> 518c702 (.)
+>>>>>>> 2a97406c (.)
+>>>>>>> 998e6866b (.)
 	<td class="w40" width="40"></td>
 	<td class="w560" width="560">
 		<table class="w560" border="0" cellpadding="0" cellspacing="0" width="560">
@@ -3609,6 +3622,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 					<div class="article-content" align="left">
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4142,6 +4156,8 @@ declare(strict_types=1);
 =======
 >>>>>>> 5a9d848a3 (.)
 =======
+>>>>>>> 998e6866b (.)
+=======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
@@ -4430,6 +4446,7 @@ declare(strict_types=1);
 =======
 >>>>>>> 66453ace (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -4454,6 +4471,10 @@ declare(strict_types=1);
 >>>>>>> 4bec160e6 (.)
 =======
 >>>>>>> 138485550 (.)
+=======
+=======
+>>>>>>> 2a97406c (.)
+>>>>>>> 998e6866b (.)
 					<div class="article-content" align="left">
 =======
 =======
@@ -4477,12 +4498,15 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 12a7e2462 (.)
 =======
 >>>>>>> 4bec160e6 (.)
 =======
 >>>>>>> 138485550 (.)
+=======
+>>>>>>> 998e6866b (.)
 >>>>>>> f963d2c0 (.)
 =======
 					<div class="article-content" align="left">
@@ -5551,6 +5575,7 @@ declare(strict_types=1);
 >>>>>>> 737f5776 (.)
 =======
 >>>>>>> 2a97406c (.)
+<<<<<<< HEAD
 =======
 					<div class="article-content" align="left">
 >>>>>>> fd497554 (.)
@@ -6380,3 +6405,5 @@ declare(strict_types=1);
 					<div class="article-content" align="left">
 >>>>>>> 737f5776 (.)
 >>>>>>> 5a9d848a3 (.)
+=======
+>>>>>>> 998e6866b (.)

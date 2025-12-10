@@ -72,6 +72,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -205,6 +206,9 @@
 =======
 >>>>>>> f3086887 (rebase 210)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 2a97406c (.)
+>>>>>>> 998e6866b (.)
 # Analisi delle Pagine di Test Email
 
 ## 🎯 Panoramica
@@ -469,6 +473,7 @@ public function sendEmail(): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Best Practices Laravel](https://laravel.com/project_docs/best-practices)
 - [Convenzioni Laraxot](../Xot/project_docs/laraxot-conventions.md)
@@ -712,6 +717,7 @@ public function sendEmail(): void
 >>>>>>> 23cbbaf5 (.)
 =======
 >>>>>>> 2a97406c (.)
+<<<<<<< HEAD
 =======
 - [Best Practices Laravel](https://laravel.com/project_docs/best-practices)
 - [Convenzioni Laraxot](../Xot/project_docs/laraxot-conventions.md)
@@ -755,6 +761,8 @@ public function sendEmail(): void
 >>>>>>> 138485550 (.)
 =======
 >>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 998e6866b (.)
 - [Best Practices Laravel](https://laravel.com/docs/best-practices)
 - [Convenzioni Laraxot](../Xot/docs/laraxot-conventions.md)
 
@@ -770,6 +778,7 @@ public function sendEmail(): void
 - [ ] Migliorare la documentazione
 - [ ] Aggiungere test unitari
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] Implementare caching 
 =======
 <<<<<<< HEAD
@@ -840,12 +849,15 @@ public function sendEmail(): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 998e6866b (.)
 - [ ] Implementare caching 
 =======
 >>>>>>> 5fd545e4 (.)
 =======
 - [ ] Implementare caching 
 >>>>>>> 2a97406c (.)
+<<<<<<< HEAD
 =======
 - [ ] Implementare caching 
 >>>>>>> 909e45af (.)
@@ -1056,3 +1068,5 @@ public function sendEmail(): void
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 301ad8b44 (.)
+=======
+>>>>>>> 998e6866b (.)

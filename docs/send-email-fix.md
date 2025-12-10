@@ -72,6 +72,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -205,6 +206,9 @@
 =======
 >>>>>>> f3086887 (rebase 210)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 2a97406c (.)
+>>>>>>> 998e6866b (.)
 # Guida alla Correzione di SendEmail.php
 
 ## 🔍 Analisi del Problema
@@ -271,6 +275,7 @@ class SendEmail extends XotBasePage
 <<<<<<< HEAD
     public function form(Form $form): Form
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -578,6 +583,7 @@ class SendEmail extends XotBasePage
     public function form(Form $form): Form
 >>>>>>> 23cbbaf5 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     public function form(Form $form): Form
 >>>>>>> 2a97406c (.)
@@ -626,6 +632,11 @@ class SendEmail extends XotBasePage
 >>>>>>> 138485550 (.)
 =======
 >>>>>>> 53eef8d8d (.)
+=======
+=======
+    public function form(Form $form): Form
+>>>>>>> 2a97406c (.)
+>>>>>>> 998e6866b (.)
     {
         return $form
             ->schema([
@@ -867,6 +878,7 @@ class SmtpData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
 - [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
@@ -1151,6 +1163,7 @@ class SmtpData extends Data
 >>>>>>> 23cbbaf5 (.)
 =======
 >>>>>>> 2a97406c (.)
+<<<<<<< HEAD
 =======
 - [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
 - [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
@@ -1198,6 +1211,8 @@ class SmtpData extends Data
 >>>>>>> 138485550 (.)
 =======
 >>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 998e6866b (.)
 - [Documentazione Laravel Mail](https://laravel.com/docs/mail)
 - [Documentazione Filament Forms](https://filamentphp.com/docs/forms)
 - [Best Practices SMTP](https://laravel.com/docs/mail#smtp-configuration)
@@ -1218,6 +1233,7 @@ class SmtpData extends Data
    - Aggiornare regolarmente le dipendenze
    - Monitorare log errori
 <<<<<<< HEAD
+<<<<<<< HEAD
    - Verificare configurazione SMTP 
 =======
 <<<<<<< HEAD
@@ -1288,12 +1304,15 @@ class SmtpData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 998e6866b (.)
    - Verificare configurazione SMTP 
 =======
 >>>>>>> 5fd545e4 (.)
 =======
    - Verificare configurazione SMTP 
 >>>>>>> 2a97406c (.)
+<<<<<<< HEAD
 =======
    - Verificare configurazione SMTP 
 >>>>>>> 909e45af (.)
@@ -1504,3 +1523,5 @@ class SmtpData extends Data
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 301ad8b44 (.)
+=======
+>>>>>>> 998e6866b (.)
