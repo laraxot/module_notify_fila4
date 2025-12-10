@@ -189,10 +189,14 @@ public function getHtmlLayout(): string
 {
     $xot = XotData::make();
 <<<<<<< HEAD
+<<<<<<< HEAD
     $pub_theme = $xot->pub_theme;  // Es: 'Zero', 'One'
 =======
     $pub_theme = $xot->pub_theme;  // Es: 'SbAdmin2Bs4', 'One'
 >>>>>>> ab15d0e (.)
+=======
+    $pub_theme = $xot->pub_theme;  // Es: 'Zero', 'One'
+>>>>>>> a187384 (.)
     
     $pubThemePath = base_path('Themes/'.$pub_theme);
     $pathToLayout = $pubThemePath.'/resources/mail-layouts/base.html';
@@ -604,10 +608,14 @@ SmsGateway::send($user->phone, $smsText);
 // SpatieEmail::getHtmlLayout()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 $pub_theme = config('xra.pub_theme');  // 'Zero', 'One', etc.
 =======
 $pub_theme = config('xra.pub_theme');  // 'SbAdmin2Bs4', 'One', etc.
 >>>>>>> ab15d0e (.)
+=======
+$pub_theme = config('xra.pub_theme');  // 'Zero', 'One', etc.
+>>>>>>> a187384 (.)
 
 $pathToLayout = base_path("Themes/{$pub_theme}/resources/mail-layouts/base.html");
 
