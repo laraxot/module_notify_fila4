@@ -103,6 +103,7 @@ class BuildMailMessageAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         ?DataCollection $dataCollection = null,
 >>>>>>> 58816034 (.)
@@ -160,10 +161,13 @@ class BuildMailMessageAction
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
         null|DataCollection $dataCollection = null,
 =======
         ?DataCollection $dataCollection = null
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -539,6 +543,11 @@ class BuildMailMessageAction
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 3f39ac8b (.)
+=======
+=======
+        null|DataCollection $dataCollection = null,
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
     ): MailMessage {
         $view_params = array_merge($model->toArray(), $view_params);
 
@@ -779,6 +788,7 @@ class BuildMailMessageAction
         $fromName = $theme->view_params['from'] ?? $theme->from;
         $subject = $view_params['subject'] ?? $theme->subject;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -820,6 +830,7 @@ class BuildMailMessageAction
 =======
         
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -994,6 +1005,11 @@ class BuildMailMessageAction
         
 >>>>>>> b19cd40 (.)
 >>>>>>> 3f39ac8b (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
         // Utilizziamo asserzioni per verificare che i valori siano stringhe
         if (!is_string($fromAddress)) {
             $fromAddress = '';
@@ -1073,6 +1089,7 @@ class BuildMailMessageAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1127,10 +1144,13 @@ class BuildMailMessageAction
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
 
 =======
         
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1455,10 +1475,16 @@ class BuildMailMessageAction
 >>>>>>> 2941b0bd (.)
 =======
 >>>>>>> 3f39ac8b (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
         // Il nome del mittente può essere null
         if ($fromName !== null && !is_string($fromName)) {
             $fromName = '';
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1715,11 +1741,16 @@ class BuildMailMessageAction
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 161887a2 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
 
         if (!is_string($subject)) {
             $subject = 'Notifica';
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2181,6 +2212,8 @@ class BuildMailMessageAction
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 011072e4 (.)
+=======
+>>>>>>> 4d2eb53e (.)
         $email = new MailMessage()
 =======
         
@@ -2194,6 +2227,7 @@ class BuildMailMessageAction
             ->subject($subject)
             ->view($view_html, $theme->view_params);
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2211,10 +2245,13 @@ class BuildMailMessageAction
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4d2eb53e (.)
         $email = new MailMessage();
         $email = $email->from($fromAddress, $fromName);
         $email = $email->subject($subject);
         $email = $email->view($view_html, $theme->view_params);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2771,6 +2808,9 @@ class BuildMailMessageAction
 >>>>>>> 7d903672 (.)
 =======
 >>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
 
         if ($dataCollection instanceof DataCollection) {
             foreach ($dataCollection as $attachment) {

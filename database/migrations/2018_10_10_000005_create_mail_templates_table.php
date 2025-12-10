@@ -85,9 +85,13 @@ use Illuminate\Database\Schema\Blueprint;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 58816034 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 98d837b9 (.)
@@ -143,12 +147,17 @@ use Illuminate\Database\Schema\Blueprint;
 >>>>>>> de02998b (.)
 =======
 >>>>>>> 011072e4 (.)
+=======
+=======
+>>>>>>> 0f07e6d (.)
+>>>>>>> 4d2eb53e (.)
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 =======
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Facades\DB;
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -392,11 +401,15 @@ use Illuminate\Support\Facades\DB;
 >>>>>>> 95531e1 (.)
 >>>>>>> 4d2eb53e (.)
 =======
+>>>>>>> 95531e1 (.)
+>>>>>>> 4d2eb53e (.)
+=======
 =======
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -658,6 +671,8 @@ use Illuminate\Support\Facades\Schema;
 =======
 >>>>>>> 95531e1 (.)
 >>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
 // ----- bases ----
 use Modules\Xot\Database\Migrations\XotBaseMigration;
 
@@ -746,6 +761,7 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 888799d0 (.)
@@ -1269,6 +1285,8 @@ return new class() extends XotBaseMigration {
 =======
 =======
 >>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
 return new class extends XotBaseMigration
 {
 =======
@@ -1278,12 +1296,23 @@ return new class() extends XotBaseMigration {
 >>>>>>> f1c9518b (.)
 =======
 =======
+=======
+>>>>>>> 0f07e6d (.)
 return new class() extends XotBaseMigration {
 =======
 return new class () extends XotBaseMigration {
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 95531e1 (.)
+<<<<<<< HEAD
 >>>>>>> 3f39ac8b (.)
+=======
+=======
+=======
+return new class() extends XotBaseMigration {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 0f07e6d (.)
+>>>>>>> 4d2eb53e (.)
     /**
      * Run the migrations.
      */
@@ -1372,6 +1401,7 @@ return new class () extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1398,10 +1428,13 @@ return new class () extends XotBaseMigration {
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 011072e4 (.)
+=======
+>>>>>>> 4d2eb53e (.)
 =======
 
 >>>>>>> b19cd40 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1662,6 +1695,9 @@ return new class () extends XotBaseMigration {
 
 >>>>>>> b19cd40 (.)
 >>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
         });
 
         // -- UPDATE -- Aggiornamento della tabella esistente
@@ -1746,6 +1782,7 @@ return new class () extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2689,6 +2726,8 @@ return new class () extends XotBaseMigration {
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
             if (! $this->hasColumn('name')) {
                 $table->string('name');
             }
@@ -2702,6 +2741,10 @@ return new class () extends XotBaseMigration {
 =======
 =======
 >>>>>>> 95531e1 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 0f07e6d (.)
             if (!$this->hasColumn('name')) {
                 $table->string('name');
             }
@@ -2719,6 +2762,7 @@ return new class () extends XotBaseMigration {
             $this->updateTimestamps(table: $table, hasSoftDeletes: true);
         });
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 <<<<<<< HEAD
@@ -2788,6 +2832,8 @@ return new class () extends XotBaseMigration {
 >>>>>>> 2941b0bd (.)
 =======
 =======
+>>>>>>> 4d2eb53e (.)
+=======
             if (! $this->hasColumn('name')) {
                 $table->string('name');
             }
@@ -2806,5 +2852,10 @@ return new class () extends XotBaseMigration {
     }
 
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 3f39ac8b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
 };

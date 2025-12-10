@@ -95,8 +95,12 @@ use Illuminate\Database\Eloquent\Model;
 =======
 >>>>>>> 3f39ac8b (.)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 95531e1 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 0f07e6d (.)
 use Illuminate\Database\Eloquent\Model;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
@@ -108,8 +112,11 @@ use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 011072e4 (.)
 <<<<<<< HEAD
+=======
+>>>>>>> 4d2eb53e (.)
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -653,6 +660,7 @@ use Modules\Notify\Actions\SMS\NormalizePhoneNumberAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -898,6 +906,10 @@ use Webmozart\Assert\Assert;
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 3f39ac8b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
 
 class RecordNotificationData extends Data
 {
@@ -951,6 +963,7 @@ class RecordNotificationData extends Data
 
     public function getRoute(): string
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1229,6 +1242,10 @@ class RecordNotificationData extends Data
 >>>>>>> 2941b0bd (.)
 =======
 >>>>>>> 3f39ac8b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
         switch ($this->channel) {
             case 'mail':
 <<<<<<< HEAD
@@ -1445,6 +1462,7 @@ class RecordNotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 >>>>>>> b19cd40 (.)
@@ -1591,6 +1609,8 @@ class RecordNotificationData extends Data
 >>>>>>> de02998b (.)
 =======
 >>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
 =======
         switch($this->channel){
             case 'mail':
@@ -1809,6 +1829,7 @@ class RecordNotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
 =======
 =======
@@ -1908,4 +1929,8 @@ class RecordNotificationData extends Data
 >>>>>>> 2941b0bd (.)
 =======
 >>>>>>> 3f39ac8b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
 }

@@ -30,6 +30,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d45a0226 (.)
@@ -73,6 +74,18 @@ use Modules\Notify\Contracts\SmsActionContract;
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 161887a2 (.)
+=======
+use Modules\Notify\Contracts\SMS\SmsActionContract;
+use Modules\Notify\Datas\SmsData;
+use Override;
+=======
+=======
+>>>>>>> 95531e1 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 0f07e6d (.)
+>>>>>>> 4d2eb53e (.)
 use Override;
 use GuzzleHttp\Client;
 use Illuminate\Support\Facades\Http;
@@ -88,7 +101,11 @@ use Modules\Notify\Datas\SmsData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Spatie\QueueableAction\QueueableAction;
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 985c7bda (.)
 <<<<<<< HEAD
@@ -361,6 +378,8 @@ use Modules\Notify\Datas\SmsData;
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 011072e4 (.)
+=======
+>>>>>>> 0f07e6d (.)
 =======
 
 use GuzzleHttp\Client;
@@ -931,14 +950,19 @@ use Modules\Notify\Contracts\SMS\SmsActionContract;
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 95531e1 (.)
+<<<<<<< HEAD
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 95531e1 (.)
 =======
+>>>>>>> 4d2eb53e (.)
+=======
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 4d2eb53e (.)
 =======
@@ -1057,6 +1081,8 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> b19cd40 (.)
 >>>>>>> 95531e1 (.)
 >>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
 
 /**
  * Azione per l'invio di SMS tramite Agile Telecom.
@@ -1137,6 +1163,7 @@ class SendAgiletelecomSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -1320,6 +1347,10 @@ class SendAgiletelecomSMSAction implements SmsActionContract
 >>>>>>> 2941b0bd (.)
 =======
 >>>>>>> 3f39ac8b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
     #[Override]
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1435,6 +1466,10 @@ class SendAgiletelecomSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    }
+>>>>>>> 4d2eb53e (.)
 <<<<<<< HEAD
 =======
     }
@@ -1713,6 +1748,7 @@ class SendAgiletelecomSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1947,4 +1983,8 @@ class SendAgiletelecomSMSAction implements SmsActionContract
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 3f39ac8b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
 }
