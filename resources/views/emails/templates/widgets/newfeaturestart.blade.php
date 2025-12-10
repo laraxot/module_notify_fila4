@@ -448,6 +448,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -680,6 +681,7 @@
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 909e45af (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> a29a4728 (.)
@@ -1539,6 +1541,10 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+=======
+>>>>>>> a29a4728 (.)
+>>>>>>> fdad57c30 (.)
 <?php
 
 declare(strict_types=1);
@@ -2524,6 +2530,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -2550,6 +2557,8 @@ declare(strict_types=1);
 >>>>>>> 5ec7f2640 (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> fdad57c30 (.)
 =======
 e width="100%" cellpadding="0" cellspacing="0" border="0">
 <<<<<<< HEAD
@@ -3632,6 +3641,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> bf479cc (.)
 >>>>>>> 909e45af (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a29a4728 (.)
 =======
@@ -3789,6 +3799,10 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 53d9bada0 (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+=======
+>>>>>>> a29a4728 (.)
+>>>>>>> fdad57c30 (.)
 	<tr>
 		<td bgcolor="{{ isset($color) ? $color : '#85bdad' }}" nowrap>
 			<img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="5" height="1">
@@ -4252,6 +4266,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
 =======
@@ -4345,6 +4360,8 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> fdad57c30 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -5786,6 +5803,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 =======
 					<td bgcolor="#ffffff" class="contentblock">
 >>>>>>> a29a4728 (.)
+<<<<<<< HEAD
 =======
 					<td bgcolor="#ffffff" class="contentblock">
 =======
@@ -6614,3 +6632,5 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> fdad57c30 (.)
