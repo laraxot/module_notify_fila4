@@ -59,6 +59,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Struttura di Configurazione nei Moduli 
 >>>>>>> 75179b855 (.)
@@ -192,6 +193,9 @@
 =======
 # Struttura di Configurazione nei Moduli SaluteOra
 >>>>>>> 8134673e1 (.)
+=======
+# Struttura di Configurazione nei Moduli SaluteOra
+>>>>>>> 763771402 (.)
 
 ## Principi di Configurazione
 
@@ -285,6 +289,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -321,3 +326,5 @@
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 2dab69c8a (.)
+=======
+>>>>>>> 763771402 (.)

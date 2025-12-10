@@ -590,6 +590,7 @@ cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1872,6 +1873,7 @@ cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 cd /var/www/html/_bases/base_saluteora/laravel
 >>>>>>> d284d65 (.)
 >>>>>>> 3ee54c5d (.)
+<<<<<<< HEAD
 =======
 cd /var/www/html/_bases/base_saluteora/laravel
 >>>>>>> 7d765981 (.)
@@ -2275,6 +2277,8 @@ cd /var/www/html/_bases/base_saluteora/laravel
 =======
 >>>>>>> 06e3078e (.)
 >>>>>>> ec24613a1 (.)
+=======
+>>>>>>> 763771402 (.)
 php -l Modules/Notify/lang/it/send_email.php
 
 # Output: No syntax errors detected
@@ -2931,10 +2935,14 @@ php -l Modules/Notify/lang/it/send_email.php
 =======
 >>>>>>> d284d65 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 9cb55171f (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 763771402 (.)
 =======
 =======
 >>>>>>> 82ae73be (.)
@@ -3118,6 +3126,7 @@ php -l Modules/Notify/lang/it/send_email.php
 >>>>>>> e790eb33 (.)
 =======
 >>>>>>> 3ee54c5d (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 7d765981 (.)
 =======
@@ -3567,6 +3576,8 @@ php -l Modules/Notify/lang/it/send_email.php
 >>>>>>> d284d65 (.)
 >>>>>>> e790eb33 (.)
 >>>>>>> 2dab69c8a (.)
+=======
+>>>>>>> 763771402 (.)
 - [Struttura Modulo Notify](./README.md)
 
 ### File Modificati
@@ -4478,6 +4489,7 @@ php -l Modules/Notify/lang/it/send_email.php
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> 3ee54c5d (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 7d765981 (.)
 =======
@@ -5228,6 +5240,8 @@ php -l Modules/Notify/lang/it/send_email.php
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 06e3078e (.)
 >>>>>>> ec24613a1 (.)
+=======
+>>>>>>> 763771402 (.)
 
 ## 📝 Note di Implementazione
 

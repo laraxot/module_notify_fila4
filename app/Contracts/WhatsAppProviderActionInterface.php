@@ -280,6 +280,7 @@ use Modules\Notify\Datas\WhatsAppData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -826,6 +827,10 @@ use Modules\Notify\Datas\WhatsAppData;
  *
 =======
 >>>>>>> e790eb33 (.)
+=======
+ *
+=======
+>>>>>>> 3ee54c5d (.)
 <<<<<<< HEAD
 =======
  *
@@ -1033,6 +1038,7 @@ use Modules\Notify\Datas\WhatsAppData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -1059,6 +1065,8 @@ use Modules\Notify\Datas\WhatsAppData;
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 2dab69c8a (.)
+=======
+>>>>>>> 763771402 (.)
 >>>>>>> d09cb759 (.)
 =======
  *
@@ -1607,6 +1615,7 @@ use Modules\Notify\Datas\WhatsAppData;
 >>>>>>> 70e8274e (.)
 =======
 >>>>>>> 3ee54c5d (.)
+<<<<<<< HEAD
 =======
  *
 >>>>>>> 4b544042 (.)
@@ -1921,6 +1930,8 @@ use Modules\Notify\Datas\WhatsAppData;
 >>>>>>> e95dfc210 (.)
 =======
 >>>>>>> ec24613a1 (.)
+=======
+>>>>>>> 763771402 (.)
  * Questa interfaccia definisce il contratto che tutte le implementazioni
  * di provider WhatsApp devono rispettare.
  */
@@ -2102,6 +2113,7 @@ interface WhatsAppProviderActionInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -2214,6 +2226,8 @@ interface WhatsAppProviderActionInterface
 >>>>>>> e95dfc210 (.)
 =======
 >>>>>>> ec24613a1 (.)
+=======
+>>>>>>> 763771402 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2608,6 +2622,10 @@ interface WhatsAppProviderActionInterface
 }
 =======
 >>>>>>> e790eb33 (.)
+=======
+}
+=======
+>>>>>>> 3ee54c5d (.)
 <<<<<<< HEAD
 =======
 }
@@ -2705,6 +2723,7 @@ interface WhatsAppProviderActionInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -2731,6 +2750,8 @@ interface WhatsAppProviderActionInterface
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 2dab69c8a (.)
+=======
+>>>>>>> 763771402 (.)
 >>>>>>> d09cb759 (.)
 =======
 }
@@ -3541,6 +3562,7 @@ interface WhatsAppProviderActionInterface
 >>>>>>> 70e8274e (.)
 =======
 >>>>>>> 3ee54c5d (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 4b544042 (.)
 =======
@@ -3854,3 +3876,5 @@ interface WhatsAppProviderActionInterface
 >>>>>>> e95dfc210 (.)
 =======
 >>>>>>> ec24613a1 (.)
+=======
+>>>>>>> 763771402 (.)

@@ -1258,6 +1258,7 @@ class MailMonitoringDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1527,6 +1528,7 @@ class MailMonitoringDebugger
 >>>>>>> eb71492d (.)
 =======
 >>>>>>> f9ec4f86 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 3ee54c5d (.)
@@ -1741,6 +1743,10 @@ class MailMonitoringDebugger
 >>>>>>> a2f3c239e (.)
 =======
 >>>>>>> 8134673e1 (.)
+=======
+=======
+>>>>>>> 3ee54c5d (.)
+>>>>>>> 763771402 (.)
 - [Laravel Cache](https://laravel.com/docs/cache)
 - [Laravel Events](https://laravel.com/docs/events)
 - [Laravel Commands](https://laravel.com/docs/artisan) 
@@ -1939,6 +1945,7 @@ class MailMonitoringDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -2038,6 +2045,8 @@ class MailMonitoringDebugger
 =======
 >>>>>>> 8134673e1 (.)
 =======
+>>>>>>> 763771402 (.)
+=======
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> d09cb759 (.)
@@ -2174,6 +2183,7 @@ class MailMonitoringDebugger
 =======
 >>>>>>> 3ee54c5d (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 0ebb7b01 (.)
 =======
 >>>>>>> d09cb759 (.)
@@ -2281,6 +2291,8 @@ class MailMonitoringDebugger
 >>>>>>> eb71492d (.)
 =======
 >>>>>>> a2f3c239e (.)
+=======
+>>>>>>> 763771402 (.)
 - [Laravel Cache](https://laravel.com/project_docs/cache)
 - [Laravel Events](https://laravel.com/project_docs/events)
 - [Laravel Commands](https://laravel.com/project_docs/artisan) 
@@ -2384,6 +2396,7 @@ class MailMonitoringDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -2434,6 +2447,8 @@ class MailMonitoringDebugger
 >>>>>>> 2dab69c8a (.)
 =======
 >>>>>>> a2f3c239e (.)
+=======
+>>>>>>> 763771402 (.)
 >>>>>>> 75179b85 (.)
 =======
 - [Laravel Cache](https://laravel.com/docs/cache)
@@ -2750,6 +2765,7 @@ class MailMonitoringDebugger
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> 3ee54c5d (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 4b544042 (.)
 =======
@@ -3369,3 +3385,5 @@ class MailMonitoringDebugger
 >>>>>>> 8134673e1 (.)
 =======
 >>>>>>> 602b8a0a9 (.)
+=======
+>>>>>>> 763771402 (.)

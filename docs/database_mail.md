@@ -1133,6 +1133,7 @@ class ProcessDoctorModerationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1701,11 +1702,15 @@ class ProcessDoctorModerationAction
 =======
 >>>>>>> 4f3927d7 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 763771402 (.)
 =======
 =======
 
 >>>>>>> d284d65 (.)
 >>>>>>> 3ee54c5d (.)
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
@@ -2347,6 +2352,8 @@ class ProcessDoctorModerationAction
 >>>>>>> ec24613a1 (.)
 =======
 >>>>>>> 602b8a0a9 (.)
+=======
+>>>>>>> 763771402 (.)
 # Registrazione Approvata
 
 Gentile {{ $doctor->name }},
@@ -4511,6 +4518,7 @@ Cordiali saluti,<br>
 - [TinyMCE](https://www.tiny.cloud)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Filament Forms](https://filamentphp.com/docs/forms)
 <<<<<<< HEAD
 >>>>>>> 4f3927d7 (.)
@@ -5039,6 +5047,16 @@ Cordiali saluti,<br>
 =======
 >>>>>>> ec24613a1 (.)
 =======
+=======
+>>>>>>> 763771402 (.)
 - [Filament Forms](https://filamentphp.com/docs/forms)
+<<<<<<< HEAD
 >>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
 >>>>>>> 602b8a0a9 (.)
+=======
+=======
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 3ee54c5d (.)
+>>>>>>> 763771402 (.)

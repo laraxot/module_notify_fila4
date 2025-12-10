@@ -16,6 +16,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f2e64178 (.)
 =======
@@ -50,6 +51,8 @@
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 2dab69c8a (.)
+=======
+>>>>>>> 763771402 (.)
 # Raccomandazioni di Ottimizzazione - Modulo Notify
 
 ## 🎯 Stato Attuale e Problemi Critici
@@ -57,6 +60,7 @@
 ### ❌ PROBLEMI CRITICI IDENTIFICATI
 
 #### 1. Riusabilità Compromessa
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -250,6 +254,9 @@
 =======
 - **336+ occorrenze hardcoded** di "saluteora" in test e documentazione
 >>>>>>> 8134673e1 (.)
+=======
+- **336+ occorrenze hardcoded** di "saluteora" in test e documentazione
+>>>>>>> 763771402 (.)
 - **Import diretti** da moduli project-specific
 - **Configurazioni database** hardcoded nei test
 - **Email domains** hardcoded nei test
@@ -323,6 +330,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - Riferimenti diretti a modelli <nome progetto>
 >>>>>>> 75179b855 (.)
@@ -456,6 +464,9 @@
 =======
 - Riferimenti diretti a modelli SaluteOra
 >>>>>>> 8134673e1 (.)
+=======
+- Riferimenti diretti a modelli SaluteOra
+>>>>>>> 763771402 (.)
 
 ## ✅ OTTIMIZZAZIONI IMPLEMENTATE
 
@@ -520,6 +531,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 1. **NotificationManagementBusinessLogicTest.php**: Rimosso hardcoding "<nome progetto>"
 >>>>>>> 75179b855 (.)
@@ -653,6 +665,9 @@
 =======
 1. **NotificationManagementBusinessLogicTest.php**: Rimosso hardcoding "SaluteOra"
 >>>>>>> 8134673e1 (.)
+=======
+1. **NotificationManagementBusinessLogicTest.php**: Rimosso hardcoding "SaluteOra"
+>>>>>>> 763771402 (.)
 2. **NotifyThemeableFactory.php**: Implementato `getProjectNamespace()` dinamico
 3. **File di traduzione**: Aggiornati placeholder con `{{app_name}}`
 4. **Documentazione base**: Creata guida riusabilità
@@ -726,6 +741,7 @@ $user = User::factory()->create();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 'database' => '<nome progetto>_test'
 >>>>>>> 75179b855 (.)
@@ -859,6 +875,9 @@ $user = User::factory()->create();
 =======
 'database' => 'saluteora_test'
 >>>>>>> 8134673e1 (.)
+=======
+'database' => 'saluteora_test'
+>>>>>>> 763771402 (.)
 
 // ✅ DOPO
 $userClass = XotData::make()->getUserClass();
@@ -1063,6 +1082,7 @@ php artisan notify:benchmark
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -1099,3 +1119,5 @@ php artisan notify:benchmark
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 2dab69c8a (.)
+=======
+>>>>>>> 763771402 (.)
