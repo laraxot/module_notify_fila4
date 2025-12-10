@@ -164,6 +164,7 @@ class NetfunChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bc2faa05b (.)
 =======
@@ -182,6 +183,8 @@ class NetfunChannel
 >>>>>>> 3e757cee2 (.)
 =======
 >>>>>>> a75783374 (.)
+=======
+>>>>>>> 903e3e2cd (.)
 >>>>>>> 75179b85 (.)
 =======
 <<<<<<< HEAD
@@ -385,6 +388,7 @@ class NetfunChannel
 >>>>>>> 84082535 (rebase 210)
 =======
 >>>>>>> a9bf0423 (rebase 210)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -1232,6 +1236,8 @@ class NetfunChannel
 =======
 >>>>>>> 84082535 (rebase 210)
 >>>>>>> a75783374 (.)
+=======
+>>>>>>> 903e3e2cd (.)
 
         /*
          * $data['sms_sent_at'] = now();
@@ -1240,6 +1246,7 @@ class NetfunChannel
          */
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2039,12 +2046,19 @@ class NetfunChannel
 =======
 =======
 >>>>>>> 229a065a (rebase 210)
+<<<<<<< HEAD
 >>>>>>> 3e757cee2 (.)
+=======
+=======
+=======
+>>>>>>> a9bf0423 (rebase 210)
+>>>>>>> 903e3e2cd (.)
         /*
         $data['sms_sent_at'] = now();
         $data['sms_count'] = (int) $notifiable->sms_count + 1;
         $notifiable->update($data);
         */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2176,6 +2190,8 @@ class NetfunChannel
 >>>>>>> 13655a7ed (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+>>>>>>> 903e3e2cd (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2813,6 +2829,7 @@ class NetfunChannel
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> a9bf0423 (rebase 210)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -3123,6 +3140,8 @@ class NetfunChannel
 =======
 >>>>>>> 84082535 (rebase 210)
 >>>>>>> a75783374 (.)
+=======
+>>>>>>> 903e3e2cd (.)
     }
 }
 =======
