@@ -14,6 +14,7 @@ namespace Modules\Notify\Tests\Feature;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -61,6 +62,8 @@ namespace Modules\Notify\Tests\Feature;
 >>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
 use RuntimeException;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -165,6 +168,7 @@ use Modules\Notify\Models\NotificationTemplateVersion;
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
@@ -190,6 +194,8 @@ use Modules\Notify\Models\NotificationTemplateVersion;
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Notify\Models\NotificationTemplateVersion;
@@ -204,6 +210,9 @@ use RuntimeException;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f15c41e60 (.)
 =======
 >>>>>>> f813254 (.)
 <<<<<<< HEAD
@@ -275,10 +284,13 @@ use RuntimeException;
 >>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> f5f1cb1 (.)
+=======
+>>>>>>> d45a0226 (.)
 use RuntimeException;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Notify\Models\NotificationTemplateVersion;
+<<<<<<< HEAD
 <<<<<<< HEAD
 use Tests\TestCase;
 =======
@@ -309,8 +321,13 @@ use Tests\TestCase;
 >>>>>>> 4d2eb53e (.)
 =======
 =======
+=======
+>>>>>>> f15c41e60 (.)
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
 use Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1900,6 +1917,7 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8dc1f2ed6 (.)
@@ -1989,6 +2007,8 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> f15c41e60 (.)
         $this->expectExceptionMessage('Template not found for version ' . $version->id);
 =======
 =======
@@ -2031,6 +2051,7 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
         $this->expectExceptionMessage('Template not found for version ' . $version->id);
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 =======
         $this->expectExceptionMessage('Template not found for version '.$version->id);
 =======
@@ -2158,6 +2179,8 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
 
         $version->restore();
     }

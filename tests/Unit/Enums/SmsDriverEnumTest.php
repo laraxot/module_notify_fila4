@@ -13,6 +13,7 @@ namespace Modules\Notify\Tests\Unit\Enums;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -45,6 +46,8 @@ namespace Modules\Notify\Tests\Unit\Enums;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> f15c41e60 (.)
 =======
 =======
 >>>>>>> f2e64178 (.)
@@ -57,6 +60,7 @@ namespace Modules\Notify\Tests\Unit\Enums;
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
@@ -79,10 +83,13 @@ namespace Modules\Notify\Tests\Unit\Enums;
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> f15c41e60 (.)
 use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasIcon;
 >>>>>>> f1c9518b (.)
 use Filament\Support\Contracts\HasLabel;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -261,6 +268,8 @@ use Filament\Support\Contracts\HasIcon;
 >>>>>>> e53a56570 (.)
 use Filament\Support\Contracts\HasLabel;
 <<<<<<< HEAD
+=======
+>>>>>>> f15c41e60 (.)
 use Filament\Support\Contracts\HasIcon;
 use Filament\Support\Contracts\HasColor;
 use ReflectionClass;
@@ -270,10 +279,14 @@ use ReflectionClass;
 =======
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
+=======
+=======
+>>>>>>> d45a0226 (.)
 use Filament\Support\Contracts\HasLabel;
 use Filament\Support\Contracts\HasIcon;
 use Filament\Support\Contracts\HasColor;
 use ReflectionClass;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -281,6 +294,14 @@ use ReflectionClass;
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
+>>>>>>> f15c41e60 (.)
 use Modules\Notify\Enums\SmsDriverEnum;
 use PHPUnit\Framework\TestCase;
 <<<<<<< HEAD
@@ -432,6 +453,7 @@ class SmsDriverEnumTest extends TestCase
 <<<<<<< HEAD
         $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1112,7 +1134,19 @@ class SmsDriverEnumTest extends TestCase
         $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 >>>>>>> 26d39e2eb (.)
+=======
+=======
+        $values = array_map(fn ($case) => $case->value, SmsDriverEnum::cases());
+>>>>>>> 985c7bda (.)
+=======
+        $values = array_map(fn ($case) => $case->value, SmsDriverEnum::cases());
+=======
+        $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
+>>>>>>> f15c41e60 (.)
         $uniqueValues = array_unique($values);
 
 =======

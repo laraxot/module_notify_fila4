@@ -998,6 +998,7 @@ class GammuData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1015,6 +1016,8 @@ use Spatie\LaravelData\Data;
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> f15c41e60 (.)
 use Webmozart\Assert\Assert;
 
 class GammuData extends Data
@@ -1028,6 +1031,7 @@ class GammuData extends Data
     public static function make(): self
     {
         if (!(self::$instance instanceof GammuData)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1048,6 +1052,9 @@ class GammuData extends Data
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> f15c41e60 (.)
             /*
              * $data = TenantService::getConfig('sms');
              * $data = Arr::get($data, 'drivers.gammu', []);

@@ -8,6 +8,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -29,6 +30,9 @@ namespace Modules\Notify\Actions\SMS;
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+<<<<<<< HEAD
+>>>>>>> f15c41e60 (.)
 use Illuminate\Support\Facades\Http;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SmsData;
@@ -243,6 +247,7 @@ use Modules\Notify\Datas\SmsData;
 >>>>>>> 2effe245 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> c8b1c8bf (.)
@@ -257,9 +262,14 @@ use Modules\Notify\Datas\SmsData;
 =======
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> d45a0226 (.)
+=======
+>>>>>>> f15c41e60 (.)
 use Illuminate\Support\Facades\Http;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SmsData;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -281,6 +291,8 @@ use Modules\Notify\Datas\SmsData;
 >>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -564,6 +576,7 @@ use Modules\Notify\Datas\SmsData;
 =======
 >>>>>>> 985c7bda (.)
 =======
+<<<<<<< HEAD
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
 =======
@@ -790,6 +803,11 @@ use Modules\Notify\Datas\SmsData;
 =======
 >>>>>>> 2effe245 (.)
 >>>>>>> 26d39e2eb (.)
+=======
+
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
+>>>>>>> f15c41e60 (.)
 use function Safe\preg_split;
 
 /**

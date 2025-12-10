@@ -1476,6 +1476,7 @@ final class WhatsAppActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -1498,6 +1499,8 @@ final class WhatsAppActionFactory
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1740,7 +1743,19 @@ final class WhatsAppActionFactory
     public function create(null|string $driver = null): WhatsAppProviderActionInterface
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 >>>>>>> 26d39e2eb (.)
+=======
+=======
+    public function create(?string $driver = null): WhatsAppProviderActionInterface
+>>>>>>> 985c7bda (.)
+=======
+    public function create(?string $driver = null): WhatsAppProviderActionInterface
+=======
+    public function create(null|string $driver = null): WhatsAppProviderActionInterface
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
+>>>>>>> f15c41e60 (.)
     {
         $driver ??= Config::get('whatsapp.default', 'twilio');
 
@@ -3604,6 +3619,7 @@ final class WhatsAppActionFactory
 >>>>>>> 985c7bda (.)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 <<<<<<< HEAD
@@ -3618,6 +3634,8 @@ final class WhatsAppActionFactory
 
 <<<<<<< HEAD
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
         $instance = app($className);
 
         if (! $instance instanceof WhatsAppProviderActionInterface) {
@@ -3635,6 +3653,9 @@ final class WhatsAppActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f15c41e60 (.)
 =======
 =======
 <<<<<<< HEAD
@@ -3902,6 +3923,7 @@ final class WhatsAppActionFactory
         return app($className);
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -3976,6 +3998,8 @@ final class WhatsAppActionFactory
 >>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
     }
 }
 =======

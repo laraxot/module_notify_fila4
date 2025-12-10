@@ -106,6 +106,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use GuzzleHttp\Client;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
@@ -236,6 +237,19 @@ use Override;
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 98d837b9 (.)
+=======
+use Override;
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
+>>>>>>> f15c41e60 (.)
 use GuzzleHttp\Client;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SMS\AgiletelecomData;
@@ -264,6 +278,9 @@ use Override;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f15c41e60 (.)
 =======
 =======
 
@@ -298,6 +315,7 @@ use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Override;
 >>>>>>> 92ecc28 (.)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73b (.)
 =======
@@ -337,12 +355,15 @@ use Override;
 >>>>>>> 95531e1 (.)
 >>>>>>> 3f39ac8b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> f15c41e60 (.)
 use Override;
 use GuzzleHttp\Client;
 use Illuminate\Support\Facades\Http;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SMS\AgiletelecomData;
 use Modules\Notify\Datas\SmsData;
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 /**
@@ -1329,6 +1350,10 @@ use Modules\Notify\Contracts\SMS\SmsActionContract;
 >>>>>>> f813254 (.)
 >>>>>>> 82c6772 (.)
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> b94a5f6 (.)
+>>>>>>> f15c41e60 (.)
 
 /**
  * Azione per l'invio di SMS tramite Agile Telecom.

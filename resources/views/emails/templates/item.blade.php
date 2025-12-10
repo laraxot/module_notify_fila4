@@ -908,6 +908,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @include('notify::emails.templates.'.$theme.'.contentEnd')
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1350,6 +1351,13 @@ declare(strict_types=1);
 =======
 >>>>>>> 460b8f5b (rebase 210)
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
+>>>>>>> f15c41e60 (.)
 <<<<<<< HEAD
 @include('notify::emails.templates.'.$theme.'.content-end')
 =======
@@ -2030,6 +2038,7 @@ declare(strict_types=1);
 >>>>>>> f5f1cb1 (.)
 >>>>>>> b94a5f6 (.)
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82ae73b (.)
@@ -2538,3 +2547,5 @@ declare(strict_types=1);
 >>>>>>> 82c6772 (.)
 >>>>>>> 2effe245 (.)
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)

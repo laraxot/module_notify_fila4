@@ -12,6 +12,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -73,10 +74,13 @@ use function Safe\class_uses;
 >>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
 use Illuminate\Contracts\Mail\Mailable;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletes;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -92,11 +96,14 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
 use Spatie\Sluggable\HasSlug;
 use Spatie\Translatable\HasTranslations;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Contracts\Mail\Mailable;
 use Illuminate\Database\Eloquent\Builder;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -116,6 +123,9 @@ use Illuminate\Database\Eloquent\Builder;
 =======
 >>>>>>> f813254 (.)
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> f15c41e60 (.)
 use Modules\Notify\Models\MailTemplate;
 use Spatie\Sluggable\HasSlug;
 use Spatie\Translatable\HasTranslations;

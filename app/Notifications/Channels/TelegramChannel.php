@@ -759,6 +759,7 @@ class TelegramChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param mixed $notifiable
      * @param Notification $notification
 =======
@@ -952,14 +953,19 @@ class TelegramChannel
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> f15c41e60 (.)
      * @param mixed $notifiable
      * @param Notification $notification
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> d45a0226 (.)
      * @param  mixed  $notifiable
 =======
      * @param mixed $notifiable
      * @param Notification $notification
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 99ff506 (.)
@@ -991,10 +997,20 @@ class TelegramChannel
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+=======
+=======
+     * @param  mixed  $notifiable
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
+>>>>>>> f15c41e60 (.)
      * @return void
      */
     public function send($notifiable, Notification $notification)
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1021,6 +1037,9 @@ class TelegramChannel
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+<<<<<<< HEAD
+>>>>>>> f15c41e60 (.)
         if (!method_exists($notification, 'toTelegram')) {
             throw new Exception('Il metodo toTelegram() non è definito nella notifica.');
         }
@@ -1062,6 +1081,7 @@ class TelegramChannel
 <<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
         if (! method_exists($notification, 'toTelegram')) {
 =======
         if (!method_exists($notification, 'toTelegram')) {
@@ -1070,6 +1090,16 @@ class TelegramChannel
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+=======
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
+        if (! method_exists($notification, 'toTelegram')) {
+=======
+        if (!method_exists($notification, 'toTelegram')) {
+>>>>>>> f5f1cb1 (.)
+>>>>>>> f15c41e60 (.)
             throw new Exception('Il metodo toTelegram() non è definito nella notifica.');
         }
 

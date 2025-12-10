@@ -16,6 +16,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -68,6 +69,8 @@ declare(strict_types=1);
 >>>>>>> 43dd68f4b (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
 use Illuminate\Support\Facades\File;
 use Tests\TestCase;
 =======
@@ -484,7 +487,16 @@ uses(Tests\TestCase::class);
 >>>>>>> e312314fa (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 >>>>>>> 26d39e2eb (.)
+=======
+=======
+use Illuminate\Support\Facades\File;
+use Tests\TestCase;
+
+uses(TestCase::class);
+>>>>>>> d45a0226 (.)
+>>>>>>> f15c41e60 (.)
 
 test('html template contains optional function', function (): void {
     // Percorso del file
@@ -725,6 +737,7 @@ test('html template contains optional function', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1194,6 +1207,7 @@ test('html template contains optional function', function (): void {
 =======
 >>>>>>> 2effe245 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d45a0226 (.)
 =======
@@ -1427,6 +1441,10 @@ test('html template contains optional function', function (): void {
 >>>>>>> db6bec044 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+=======
+>>>>>>> d45a0226 (.)
+>>>>>>> f15c41e60 (.)
     expect($content)
         ->toContain('optional($email_data)->subject', 'Il template html.blade.php non utilizza optional() per subject');
 
@@ -1438,6 +1456,7 @@ test('html template contains optional function', function (): void {
         );
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2643,6 +2662,7 @@ test('html template contains optional function', function (): void {
 =======
 >>>>>>> 2effe245 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d45a0226 (.)
 =======
@@ -3105,6 +3125,10 @@ test('html template contains optional function', function (): void {
 >>>>>>> db6bec044 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+=======
+>>>>>>> d45a0226 (.)
+>>>>>>> f15c41e60 (.)
 });
 
 test('sunny template contains optional function', function (): void {
@@ -3343,6 +3367,7 @@ test('sunny template contains optional function', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -3630,6 +3655,7 @@ test('sunny template contains optional function', function (): void {
 >>>>>>> bb00ab64 (rebase 210)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> d45a0226 (.)
@@ -4060,6 +4086,10 @@ test('sunny template contains optional function', function (): void {
 >>>>>>> db6bec044 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+=======
+>>>>>>> d45a0226 (.)
+>>>>>>> f15c41e60 (.)
     expect($content)
         ->toContain(
             'optional($_theme)->cssInLine',
@@ -4067,6 +4097,7 @@ test('sunny template contains optional function', function (): void {
         );
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4821,6 +4852,7 @@ test('sunny template contains optional function', function (): void {
 =======
 >>>>>>> 2effe245 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d45a0226 (.)
 =======
@@ -5315,6 +5347,10 @@ test('sunny template contains optional function', function (): void {
 >>>>>>> db6bec044 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+=======
+>>>>>>> d45a0226 (.)
+>>>>>>> f15c41e60 (.)
 });
 
 test('ark template contains optional function', function (): void {
@@ -5558,6 +5594,7 @@ test('ark template contains optional function', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -6827,10 +6864,14 @@ test('ark template contains optional function', function (): void {
 =======
 >>>>>>> 2effe245 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f15c41e60 (.)
 =======
     expect($content)
         ->toContain('optional($_theme)->cssInLine', 'Il template ark.blade.php non utilizza optional() per cssInLine');
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 77edd94a (.)
 =======
@@ -7084,6 +7125,8 @@ test('ark template contains optional function', function (): void {
 >>>>>>> db6bec044 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
 });
 =======
 >>>>>>> 301ad8b44 (.)

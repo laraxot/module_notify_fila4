@@ -62,6 +62,7 @@ namespace Modules\Notify\Actions\WhatsApp;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
 >>>>>>> 75179b85 (.)
@@ -299,6 +300,7 @@ use Modules\Xot\Actions\Cast\SafeIntCastAction;
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> fbed41ac (.)
 =======
@@ -380,6 +382,8 @@ use Modules\Xot\Actions\Cast\SafeIntCastAction;
 =======
 >>>>>>> 2effe245 (.)
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
@@ -390,6 +394,7 @@ use Modules\Xot\Actions\Cast\SafeIntCastAction;
 use Spatie\QueueableAction\QueueableAction;
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -444,6 +449,7 @@ use Illuminate\Support\Str;
 use Illuminate\Support\Str;
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> fbed41ac (.)
 =======
@@ -500,6 +506,8 @@ use Illuminate\Support\Str;
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
 use Modules\Notify\Datas\WhatsAppData;
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
 =======
@@ -1575,6 +1583,7 @@ final class Send360dialogWhatsAppAction
     public function __construct()
     {
         $apiKey = config('services.360dialog.api_key');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8463,12 +8472,14 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 2fc60436 (.)
 =======
@@ -8517,6 +8528,8 @@ final class Send360dialogWhatsAppAction
 =======
 >>>>>>> 2effe245 (.)
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8547,6 +8560,7 @@ final class Send360dialogWhatsAppAction
                 'success' => $statusCode >= 200 && $statusCode < 300,
 <<<<<<< HEAD
                 'message_id' => $messageId,
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -8882,13 +8896,17 @@ final class Send360dialogWhatsAppAction
 >>>>>>> a12f125f4a (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d45a0226 (.)
 =======
+=======
+>>>>>>> f15c41e60 (.)
 >>>>>>> d45a0226 (.)
 =======
 
             return [
                 'success' => $statusCode >= 200 && $statusCode < 300,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -8903,6 +8921,8 @@ final class Send360dialogWhatsAppAction
             return [
                 'success' => $statusCode >= 200 && $statusCode < 300,
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
 >>>>>>> b93ef594b4 (.)
 =======
             
@@ -8928,6 +8948,7 @@ final class Send360dialogWhatsAppAction
                 'message_id' => $responseData['messages'][0]['id'] ?? null,
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c8b1c8bf (.)
@@ -8960,6 +8981,8 @@ final class Send360dialogWhatsAppAction
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
                 'response' => $responseData,
                 'vars' => $this->vars,
             ];
@@ -10514,6 +10537,7 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 <<<<<<< HEAD
@@ -10544,12 +10568,15 @@ final class Send360dialogWhatsAppAction
 >>>>>>> 26d39e2eb (.)
 
 <<<<<<< HEAD
+=======
+>>>>>>> f15c41e60 (.)
             // Extract error message safely
             /** @phpstan-ignore-next-line - WhatsApp API response structure */
             $errorMessage = $responseBody['errors'][0]['message'] ?? 'Errore sconosciuto';
 >>>>>>> 2effe245 (.)
 
 =======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10566,6 +10593,9 @@ final class Send360dialogWhatsAppAction
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> f15c41e60 (.)
             return [
                 'success' => false,
                 'error' => $errorMessage,

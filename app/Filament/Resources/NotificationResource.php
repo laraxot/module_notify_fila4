@@ -951,10 +951,31 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 =======
 >>>>>>> c8b1c8bf (.)
 use Modules\Xot\Filament\Resources\XotBaseResource;
+<<<<<<< HEAD
+=======
+use Override;
+<<<<<<< HEAD
+>>>>>>> b94a5f6 (.)
 
 class NotificationResource extends XotBaseResource
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    protected static ?string $model = Notification::class;
+=======
+use Filament\Forms\Components\DateTimePicker;
+use Filament\Forms\Components\KeyValue;
+use Filament\Forms\Components\Textarea;
+use Filament\Forms\Components\TextInput;
+use Modules\Notify\Filament\Resources\NotificationResource\Pages;
+use Modules\Notify\Models\Notification;
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+use Modules\Xot\Filament\Resources\XotBaseResource;
+
+class NotificationResource extends XotBaseResource
+{
+>>>>>>> f15c41e60 (.)
     protected static null|string $model = Notification::class;
 >>>>>>> f5f1cb1 (.)
 

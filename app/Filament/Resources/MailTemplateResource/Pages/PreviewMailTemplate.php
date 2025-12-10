@@ -832,6 +832,7 @@ class PreviewMailTemplate extends Page
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2054,4 +2055,18 @@ class PreviewMailTemplate extends Page
 =======
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 >>>>>>> 26d39e2eb (.)
+=======
+=======
+=======
+>>>>>>> d45a0226 (.)
+                ->url(fn () => MailTemplateResource::getUrl('edit', ['record' => $this->record])),
+=======
+                ->url(fn() => MailTemplateResource::getUrl('edit', ['record' => $this->record])),
+>>>>>>> f5f1cb1 (.)
+        ];
+    }
+}
+>>>>>>> 985c7bda (.)
+>>>>>>> f15c41e60 (.)

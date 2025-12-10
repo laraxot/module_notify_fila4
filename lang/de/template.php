@@ -241,8 +241,11 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> f15c41e60 (.)
 
 =======
 <<<<<<< HEAD
@@ -1069,6 +1072,7 @@ declare(strict_types=1);
 =======
 declare(strict_types=1);
 
+<<<<<<< HEAD
 
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
@@ -1083,6 +1087,14 @@ declare(strict_types=1);
 =======
 >>>>>>> 2effe245 (.)
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+=======
+
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
+>>>>>>> f15c41e60 (.)
 return [
     'resource' => [
         'name' => 'Template Notifiche',

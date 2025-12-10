@@ -14,6 +14,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -184,6 +185,11 @@ uses(TestCase::class);
 >>>>>>> d284d65 (.)
 use Tests\TestCase;
 >>>>>>> f813254 (.)
+=======
+=======
+use Tests\TestCase;
+>>>>>>> f5f1cb1 (.)
+>>>>>>> f15c41e60 (.)
 use Illuminate\Support\Facades\File;
 use Tests\TestCase;
 

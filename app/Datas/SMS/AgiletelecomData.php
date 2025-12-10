@@ -270,8 +270,11 @@ use Spatie\LaravelData\Data;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> f15c41e60 (.)
 use Symfony\Component\Mime\Address;
 use Symfony\Component\Mime\Email as MimeEmail;
 use Webmozart\Assert\Assert;
@@ -279,10 +282,15 @@ use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> e53a56570 (.)
+=======
+=======
+>>>>>>> d45a0226 (.)
+>>>>>>> f15c41e60 (.)
 
 class AgiletelecomData extends Data
 {
@@ -405,6 +413,7 @@ class AgiletelecomData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
@@ -417,8 +426,13 @@ class AgiletelecomData extends Data
 =======
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> f15c41e60 (.)
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
             /*
              * $data = TenantService::getConfig('sms');
              * $data = Arr::get($data, 'drivers.agiletelecom', []);
@@ -2599,7 +2613,25 @@ class AgiletelecomData extends Data
 =======
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 >>>>>>> 26d39e2eb (.)
+=======
+=======
+    public function getAuthHeaders(): array
+    {
+        switch ($this->auth_type) {
+            case 'api_key':
+                return [
+<<<<<<< HEAD
+                    'Authorization' => 'Api-Key '.$this->api_key,
+<<<<<<< HEAD
+>>>>>>> 985c7bda (.)
+=======
+=======
+                    'Authorization' => 'Api-Key ' . $this->api_key,
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
+>>>>>>> f15c41e60 (.)
                     'Content-Type' => 'application/json',
                 ];
 
@@ -3688,7 +3720,23 @@ class AgiletelecomData extends Data
 =======
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 >>>>>>> 26d39e2eb (.)
+=======
+=======
+            case 'basic':
+            default:
+                return [
+<<<<<<< HEAD
+                    'Authorization' => 'Basic '.base64_encode($this->username.':'.$this->password),
+<<<<<<< HEAD
+>>>>>>> 985c7bda (.)
+=======
+=======
+                    'Authorization' => 'Basic ' . base64_encode($this->username . ':' . $this->password),
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
+>>>>>>> f15c41e60 (.)
                     'Content-Type' => 'application/json',
                 ];
         }

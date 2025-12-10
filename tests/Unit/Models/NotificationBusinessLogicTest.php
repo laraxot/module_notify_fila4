@@ -7,6 +7,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Models\BaseModel;
 use Modules\Notify\Models\Notification;
 =======
@@ -70,6 +71,11 @@ use Modules\Xot\Models\BaseModel;
 >>>>>>> 2941b0bd (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+=======
+use Modules\Xot\Models\BaseModel;
+>>>>>>> f5f1cb1 (.)
+>>>>>>> f15c41e60 (.)
 use Modules\Notify\Models\Notification;
 use Modules\Xot\Models\BaseModel;
 =======

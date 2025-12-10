@@ -1189,6 +1189,13 @@ namespace Modules\Notify\Models;
 =======
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
+>>>>>>> f15c41e60 (.)
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 >>>>>>> 2effe245 (.)
@@ -1196,6 +1203,11 @@ use Illuminate\Support\Carbon;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Database\Factories\NotificationFactory;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f15c41e60 (.)
 use Illuminate\Database\Eloquent\Builder;
 =======
 =======
@@ -1210,11 +1222,19 @@ namespace Modules\Notify\Models;
 =======
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 >>>>>>> 26d39e2eb (.)
+=======
+=======
+=======
+use Override;
+>>>>>>> d45a0226 (.)
+>>>>>>> f15c41e60 (.)
 use Illuminate\Support\Carbon;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Database\Factories\NotificationFactory;
 use Illuminate\Database\Eloquent\Builder;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1230,6 +1250,8 @@ use Illuminate\Database\Eloquent\Builder;
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
 =======
 =======
 namespace Modules\Notify\Models;
@@ -1301,6 +1323,7 @@ namespace Modules\Notify\Models;
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
@@ -1335,6 +1358,8 @@ namespace Modules\Notify\Models;
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> f15c41e60 (.)
 use Modules\Xot\Models\BaseModel;
 =======
 >>>>>>> e53a56570 (.)
@@ -1510,6 +1535,7 @@ use Modules\Xot\Models\BaseModel;
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -1719,6 +1745,7 @@ use Modules\Xot\Models\BaseModel;
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 =======
  *
 >>>>>>> fbed41ac (.)
@@ -1807,6 +1834,8 @@ use Modules\Xot\Models\BaseModel;
 =======
 >>>>>>> 2effe245 (.)
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
  * @mixin IdeHelperNotification
  * @mixin \Eloquent
  */

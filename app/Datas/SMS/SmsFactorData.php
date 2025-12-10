@@ -1189,6 +1189,7 @@ class SmsFactorData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1208,6 +1209,8 @@ use Spatie\LaravelData\Data;
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> f15c41e60 (.)
 use Webmozart\Assert\Assert;
 
 class SmsFactorData extends Data
@@ -1222,6 +1225,7 @@ class SmsFactorData extends Data
     public static function make(): self
     {
         if (!(self::$instance instanceof SmsFactorData)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1246,6 +1250,9 @@ class SmsFactorData extends Data
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> f15c41e60 (.)
             /*
              * $data = TenantService::getConfig('sms');
              * $data = Arr::get($data, 'drivers.smsfactor', []);

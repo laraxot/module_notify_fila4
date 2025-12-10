@@ -400,12 +400,16 @@ namespace Modules\Notify\Database\Factories;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f15c41e60 (.)
 =======
 <<<<<<< HEAD
 =======
 =======
 =======
 use Modules\Notify\Models\MailTemplateLog;
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f5f1cb1 (.)
 =======
@@ -547,6 +551,9 @@ use Modules\Notify\Models\MailTemplateLog;
 >>>>>>> f5f1cb1 (.)
 =======
 >>>>>>> fbed41ac (.)
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> f15c41e60 (.)
 use Illuminate\Database\Eloquent\Factories\Factory;
 >>>>>>> d45a0226 (.)
 use Modules\Notify\Models\MailTemplateLog;

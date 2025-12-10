@@ -242,6 +242,7 @@ beforeEach(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     $this->baseModel = new class extends BaseModel {
 =======
 <<<<<<< HEAD
@@ -1054,7 +1055,21 @@ beforeEach(function () {
 =======
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 >>>>>>> 26d39e2eb (.)
+=======
+=======
+    $this->baseModel = new class extends BaseModel
+    {
+>>>>>>> 985c7bda (.)
+=======
+    $this->baseModel = new class extends BaseModel
+    {
+=======
+    $this->baseModel = new class extends BaseModel {
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
+>>>>>>> f15c41e60 (.)
         protected $table = 'test_notify_table';
     };
 });

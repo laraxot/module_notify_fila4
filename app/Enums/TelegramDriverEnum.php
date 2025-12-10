@@ -4421,12 +4421,28 @@ enum TelegramDriverEnum: string
 =======
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 >>>>>>> 26d39e2eb (.)
+=======
+=======
+
+    /**
+     * Verifica se un driver è supportato
+<<<<<<< HEAD
+=======
+     *
+>>>>>>> f5f1cb1 (.)
+     */
+    public static function isSupported(string $driver): bool
+    {
+>>>>>>> 985c7bda (.)
+>>>>>>> f15c41e60 (.)
         return in_array($driver, array_column(self::cases(), 'value'), strict: true);
     }
 
     /**
      * Restituisce il driver predefinito dal file di configurazione
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4791,6 +4807,7 @@ enum TelegramDriverEnum: string
      *
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> fbed41ac (.)
 =======
@@ -4852,6 +4869,8 @@ enum TelegramDriverEnum: string
 =======
 >>>>>>> 2effe245 (.)
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
      */
     public static function getDefault(): self
     {

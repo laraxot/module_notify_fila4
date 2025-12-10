@@ -211,8 +211,11 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> f15c41e60 (.)
 
 =======
 <<<<<<< HEAD
@@ -1081,6 +1084,7 @@ declare(strict_types=1);
 =======
 declare(strict_types=1);
 
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 >>>>>>> 4e2ebfb (.)
@@ -1109,6 +1113,14 @@ declare(strict_types=1);
 =======
 >>>>>>> 2effe245 (.)
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+=======
+
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
+>>>>>>> f15c41e60 (.)
 namespace Modules\Notify\Datas;
 
 use Spatie\LaravelData\Data;
@@ -1199,6 +1211,7 @@ class NetfunSmsRequestData extends Data
             token: $token,
             messages: $messages,
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1798,6 +1811,7 @@ class NetfunSmsRequestData extends Data
 =======
 >>>>>>> 985c7bda (.)
 =======
+<<<<<<< HEAD
 >>>>>>> d45a0226 (.)
 =======
 =======
@@ -1963,6 +1977,13 @@ class NetfunSmsRequestData extends Data
 >>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+=======
+            token: $data['token'],
+            messages: $data['messages'],
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
+>>>>>>> f15c41e60 (.)
         );
     }
 }

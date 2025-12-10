@@ -16,6 +16,12 @@ use Modules\Xot\Contracts\ProfileContract;
 use Illuminate\Database\Eloquent\Builder;
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+use Modules\Xot\Contracts\ProfileContract;
+>>>>>>> f5f1cb1 (.)
+use Illuminate\Support\Carbon;
+>>>>>>> b94a5f6 (.)
 use Modules\Xot\Contracts\ProfileContract;
 =======
 <<<<<<< HEAD
@@ -197,6 +203,7 @@ use Illuminate\Support\Carbon;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
  *
 >>>>>>> 26d39e2eb (.)
@@ -282,6 +289,8 @@ use Illuminate\Support\Carbon;
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> fbed41ac (.)
+=======
+>>>>>>> f15c41e60 (.)
  *
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -323,12 +332,16 @@ use Illuminate\Support\Carbon;
 =======
 >>>>>>> 92ecc28 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 985c7bda (.)
 =======
+=======
+>>>>>>> f15c41e60 (.)
 =======
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> b94a5f6 (.)
+<<<<<<< HEAD
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> c8b1c8bf (.)
@@ -414,6 +427,8 @@ use Illuminate\Support\Carbon;
 =======
 >>>>>>> 82c6772 (.)
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
  * @method static Builder|NotifyThemeable newModelQuery()
  * @method static Builder|NotifyThemeable newQuery()
  * @method static Builder|NotifyThemeable query()
@@ -548,6 +563,7 @@ use Illuminate\Support\Carbon;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f2e64178 (.)
 =======
@@ -572,7 +588,10 @@ use Illuminate\Support\Carbon;
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> f15c41e60 (.)
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -587,6 +606,8 @@ use Illuminate\Support\Carbon;
 =======
  *
 <<<<<<< HEAD
+=======
+>>>>>>> f15c41e60 (.)
 >>>>>>> 6ba141fc (.)
 =======
 =======
@@ -634,12 +655,16 @@ use Illuminate\Support\Carbon;
 =======
 >>>>>>> 92ecc28 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 985c7bda (.)
 =======
+=======
+>>>>>>> f15c41e60 (.)
 =======
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> b94a5f6 (.)
+<<<<<<< HEAD
 >>>>>>> d45a0226 (.)
 =======
  * @method static Builder<static>|NotifyThemeable whereDeletedAt($value)
@@ -665,6 +690,8 @@ use Illuminate\Support\Carbon;
 =======
 >>>>>>> 82c6772 (.)
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
  * @mixin IdeHelperNotifyThemeable
 =======
 <<<<<<< HEAD

@@ -1761,6 +1761,7 @@ class WhatsAppChannel
      * Invia la notifica attraverso il canale WhatsApp.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param mixed $notifiable Entità che riceve la notifica
 =======
 <<<<<<< HEAD
@@ -1775,10 +1776,13 @@ class WhatsAppChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> f15c41e60 (.)
 >>>>>>> 985c7bda (.)
 =======
 <<<<<<< HEAD
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
@@ -1791,10 +1795,13 @@ class WhatsAppChannel
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> f15c41e60 (.)
      * @param  mixed  $notifiable  Entità che riceve la notifica
      * @param  Notification  $notification  Notifica da inviare
 =======
      * @param mixed $notifiable Entità che riceve la notifica
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1823,6 +1830,10 @@ class WhatsAppChannel
      * @param Notification $notification Notifica da inviare
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+     * @param Notification $notification Notifica da inviare
+>>>>>>> f5f1cb1 (.)
+>>>>>>> f15c41e60 (.)
      * @return array|null Risultato dell'operazione o null in caso di errore
      *
 =======
@@ -1941,6 +1952,7 @@ class WhatsAppChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         if (! method_exists($notification, 'toWhatsApp')) {
 >>>>>>> 98d837b9 (.)
@@ -1988,6 +2000,8 @@ class WhatsAppChannel
 >>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2749,6 +2763,7 @@ class WhatsAppChannel
         if (!method_exists($notification, 'toWhatsApp')) {
 =======
         if (! method_exists($notification, 'toWhatsApp')) {
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 >>>>>>> 95531e1 (.)
@@ -2805,6 +2820,15 @@ class WhatsAppChannel
 =======
 >>>>>>> 2effe245 (.)
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+        if (! method_exists($notification, 'toWhatsApp')) {
+=======
+        if (!method_exists($notification, 'toWhatsApp')) {
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
+>>>>>>> f15c41e60 (.)
             throw new Exception('Notification does not have toWhatsApp method');
         }
 

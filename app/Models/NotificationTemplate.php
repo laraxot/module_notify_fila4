@@ -108,6 +108,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -281,6 +282,7 @@ use Override;
 >>>>>>> 985c7bda (.)
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> d45a0226 (.)
 =======
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
@@ -348,6 +350,12 @@ use Override;
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
 >>>>>>> 26d39e2eb (.)
+=======
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Override;
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
+>>>>>>> f15c41e60 (.)
 use Carbon\Carbon;
 use Modules\User\Models\Profile;
 use Modules\Media\Models\Media;
@@ -357,6 +365,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Support\Facades\Blade;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -429,6 +438,8 @@ use Modules\Notify\Database\Factories\NotificationTemplateFactory;
 =======
 >>>>>>> 26d39e2eb (.)
 =======
+>>>>>>> f15c41e60 (.)
+=======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
@@ -473,12 +484,16 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
 use Modules\Media\Models\Media;
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Notify\Database\Factories\NotificationTemplateFactory;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -494,6 +509,8 @@ use Modules\Notify\Database\Factories\NotificationTemplateFactory;
 >>>>>>> b207a9b1a (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -721,6 +738,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 >>>>>>> f5f1cb1 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d45a0226 (.)
 =======
 =======
@@ -766,6 +784,9 @@ use Modules\Notify\Database\Factories\NotificationTemplateFactory;
 >>>>>>> 1619767d8 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> d45a0226 (.)
+>>>>>>> f15c41e60 (.)
 use Modules\Notify\Enums\NotificationTypeEnum;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
@@ -1241,6 +1262,7 @@ use Spatie\Translatable\HasTranslations;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8dc1f2ed6 (.)
@@ -1287,6 +1309,8 @@ use Spatie\Translatable\HasTranslations;
 =======
 >>>>>>> 26d39e2eb (.)
 =======
+>>>>>>> f15c41e60 (.)
+=======
 =======
 >>>>>>> f2e64178 (.)
 =======
@@ -1298,12 +1322,24 @@ use Spatie\Translatable\HasTranslations;
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 <<<<<<< HEAD
+=======
+=======
+=======
+=======
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
+ *
+>>>>>>> f15c41e60 (.)
+<<<<<<< HEAD
 >>>>>>> e53a56570 (.)
 =======
 =======
 =======
 =======
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6ba141fc (.)
 =======
@@ -1514,6 +1550,7 @@ use Spatie\Translatable\HasTranslations;
 >>>>>>> 92ecc28 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 985c7bda (.)
 =======
 =======
@@ -1598,6 +1635,15 @@ use Spatie\Translatable\HasTranslations;
 =======
 >>>>>>> 82c6772 (.)
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+=======
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> b94a5f6 (.)
+>>>>>>> d45a0226 (.)
+>>>>>>> f15c41e60 (.)
  * @mixin IdeHelperNotificationTemplate
  * @mixin \Eloquent
  */
@@ -5322,6 +5368,9 @@ class NotificationTemplate extends BaseModel implements HasMedia
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f15c41e60 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -6191,6 +6240,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -6211,6 +6261,8 @@ class NotificationTemplate extends BaseModel implements HasMedia
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> f15c41e60 (.)
      * @param Builder $query
 =======
 =======
@@ -6244,6 +6296,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
      * @param Builder $query
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 =======
      * @param Builder $query
 >>>>>>> c8b1c8bf (.)
@@ -6277,6 +6330,8 @@ class NotificationTemplate extends BaseModel implements HasMedia
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
      * @return Builder
 =======
 <<<<<<< HEAD
@@ -6330,6 +6385,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -6350,6 +6406,8 @@ class NotificationTemplate extends BaseModel implements HasMedia
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> f15c41e60 (.)
      * @param Builder $query
      * @param string $channel
 =======
@@ -6387,6 +6445,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
      * @param string $channel
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 =======
      * @param Builder $query
      * @param string $channel
@@ -6426,6 +6485,8 @@ class NotificationTemplate extends BaseModel implements HasMedia
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
      * @return Builder
 =======
 <<<<<<< HEAD
@@ -6481,6 +6542,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -6501,6 +6563,8 @@ class NotificationTemplate extends BaseModel implements HasMedia
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> f15c41e60 (.)
      * @param Builder $query
      * @param string $category
 =======
@@ -6538,6 +6602,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
      * @param string $category
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 =======
      * @param Builder $query
      * @param string $category
@@ -6577,6 +6642,8 @@ class NotificationTemplate extends BaseModel implements HasMedia
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
      * @return Builder
 =======
 <<<<<<< HEAD

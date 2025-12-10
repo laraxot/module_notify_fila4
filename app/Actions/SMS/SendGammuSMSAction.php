@@ -108,6 +108,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -294,6 +295,7 @@ use Override;
 use Override;
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> fbed41ac (.)
 =======
@@ -340,6 +342,8 @@ use Override;
 >>>>>>> a070a65a5 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
 use Exception;
 use Illuminate\Support\Facades\Log;
 =======
@@ -2002,8 +2006,11 @@ final class SendGammuSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
     /** @var string|null */
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2579,6 +2586,7 @@ final class SendGammuSMSAction implements SmsActionContract
     protected null|string $defaultSender = null;
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 =======
 =======
     protected ?string $defaultSender = null;
@@ -2620,6 +2628,8 @@ final class SendGammuSMSAction implements SmsActionContract
     protected null|string $defaultSender = null;
 >>>>>>> 2941b0bd (.)
 >>>>>>> a070a65a5 (.)
+=======
+>>>>>>> f15c41e60 (.)
 
 =======
 =======
@@ -2878,8 +2888,11 @@ final class SendGammuSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> f15c41e60 (.)
 =======
         
 >>>>>>> b19cd40 (.)
@@ -3361,16 +3374,20 @@ final class SendGammuSMSAction implements SmsActionContract
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> f15c41e60 (.)
         if (! $this->gammuData->path) {
 =======
         if (!$this->gammuData->path) {
 >>>>>>> f5f1cb1 (.)
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -3401,6 +3418,8 @@ final class SendGammuSMSAction implements SmsActionContract
         if (!$this->gammuData->path) {
 >>>>>>> f813254 (.)
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
             throw new Exception('Path Gammu non configurato in sms.php');
         }
 

@@ -45,6 +45,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d45a0226 (.)
@@ -115,6 +116,28 @@ use Modules\Notify\Contracts\SmsActionContract;
 >>>>>>> 161887a2 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+use Override;
+=======
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
+use Exception;
+>>>>>>> 2effe245 (.)
+use GuzzleHttp\Client;
+use Illuminate\Support\Facades\Http;
+=======
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+>>>>>>> f15c41e60 (.)
 =======
 >>>>>>> 888799d0 (.)
 =======
@@ -695,6 +718,7 @@ use Spatie\QueueableAction\QueueableAction;
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b94a5f6 (.)
 =======
@@ -705,6 +729,10 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+=======
+>>>>>>> b94a5f6 (.)
+>>>>>>> f15c41e60 (.)
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SmsData;
 use Override;
@@ -714,11 +742,15 @@ use Override;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f15c41e60 (.)
 >>>>>>> 2effe245 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> d45a0226 (.)
 =======
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -731,10 +763,13 @@ use Override;
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -844,17 +879,27 @@ use Override;
 =======
 >>>>>>> 8c19c8df2 (.)
 =======
+=======
+>>>>>>> f15c41e60 (.)
 >>>>>>> f813254 (.)
 =======
 >>>>>>> f5f1cb1 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 >>>>>>> 26d39e2eb (.)
+=======
+=======
+=======
+>>>>>>> b94a5f6 (.)
+>>>>>>> d45a0226 (.)
+>>>>>>> f15c41e60 (.)
 use Override;
 use GuzzleHttp\Client;
 use Illuminate\Support\Facades\Http;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SmsData;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -909,6 +954,8 @@ use Modules\Notify\Datas\SmsData;
 >>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
@@ -922,6 +969,7 @@ use Modules\Notify\Datas\SmsData;
 =======
 >>>>>>> 2effe245 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d45a0226 (.)
 =======
@@ -1191,6 +1239,10 @@ use Modules\Notify\Datas\SmsData;
 >>>>>>> 2effe245 (.)
 =======
 =======
+>>>>>>> d45a0226 (.)
+=======
+>>>>>>> f15c41e60 (.)
+=======
 
 =======
 use Override;
@@ -1358,6 +1410,7 @@ use Override;
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> b94a5f6 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d45a0226 (.)
 =======
@@ -1530,6 +1583,9 @@ use Modules\Notify\Contracts\SMS\SmsActionContract;
 =======
 >>>>>>> 2effe245 (.)
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> d45a0226 (.)
+>>>>>>> f15c41e60 (.)
 
 /**
  * Azione per l'invio di SMS tramite Agile Telecom.

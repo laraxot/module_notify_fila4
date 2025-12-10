@@ -57,6 +57,7 @@ namespace Modules\Notify\Providers;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -95,6 +96,8 @@ namespace Modules\Notify\Providers;
 >>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
 use Override;
 >>>>>>> 75179b85 (.)
 =======
@@ -245,6 +248,7 @@ use Override;
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2fc60436 (.)
@@ -338,6 +342,8 @@ use Override;
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Mail;
 use Modules\Tenant\Services\TenantService;
@@ -346,6 +352,7 @@ use Modules\Xot\Providers\XotBaseServiceProvider;
 use Override;
 use Webmozart\Assert\Assert;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -376,6 +383,7 @@ use Override;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> fbed41ac (.)
@@ -385,9 +393,14 @@ use Override;
 >>>>>>> fbed41ac (.)
 =======
 =======
+=======
+=======
+>>>>>>> f15c41e60 (.)
+=======
 >>>>>>> f5f1cb1 (.)
 use Override;
 >>>>>>> b94a5f6 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -414,6 +427,9 @@ use Override;
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> d45a0226 (.)
+>>>>>>> f15c41e60 (.)
 use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1953,7 +1969,9 @@ class NotifyServiceProvider extends XotBaseServiceProvider
     public function boot(): void
     {
         parent::boot();
+<<<<<<< HEAD
         // if (! app()->environment('production')) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5e14ac3 (.)
 >>>>>>> fbed41ac (.)
@@ -2097,6 +2115,14 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 =======
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+=======
+        //if (! app()->environment('production')) {
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
+>>>>>>> f15c41e60 (.)
         $mail = TenantService::config('mail');
         Assert::isArray($mail);
 

@@ -14,6 +14,7 @@ namespace Modules\Notify\Filament\Forms\Components;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -88,6 +89,8 @@ use Illuminate\Contracts\Support\Htmlable;
 =======
 >>>>>>> 26d39e2eb (.)
 =======
+>>>>>>> f15c41e60 (.)
+=======
 =======
 >>>>>>> f2e64178 (.)
 =======
@@ -96,6 +99,9 @@ use Illuminate\Contracts\Support\Htmlable;
 =======
 =======
 <<<<<<< HEAD
+=======
+use Filament\Forms;
+>>>>>>> d45a0226 (.)
 use Filament\Schemas\Components\Section;
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
@@ -165,10 +171,13 @@ use Modules\Notify\Enums\ContactTypeEnum;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
 use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1024,6 +1033,7 @@ use Webmozart\Assert\Assert;
 use Modules\Notify\Enums\ContactTypeEnum;
 >>>>>>> 985c7bda (.)
 =======
+<<<<<<< HEAD
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
 =======
@@ -1176,6 +1186,16 @@ use Webmozart\Assert\Assert;
 >>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+=======
+use Filament\Schemas\Components\Section;
+use Filament\Forms;
+use Illuminate\Database\Eloquent\Model;
+use Modules\Notify\Enums\ContactTypeEnum;
+use Webmozart\Assert\Assert;
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
+>>>>>>> f15c41e60 (.)
 
 // use Squire\Models\Country;
 
@@ -1283,6 +1303,7 @@ class ContactSection extends Section
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1893,7 +1914,19 @@ class ContactSection extends Forms\Components\Section
     //protected string $view = 'filament-forms::components.group';
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 >>>>>>> 26d39e2eb (.)
+=======
+=======
+    // protected string $view = 'filament-forms::components.group';
+>>>>>>> 985c7bda (.)
+=======
+    // protected string $view = 'filament-forms::components.group';
+=======
+    //protected string $view = 'filament-forms::components.group';
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
+>>>>>>> f15c41e60 (.)
 
     protected bool $disableLiveUpdates = false;
 

@@ -110,6 +110,7 @@ return new class() extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 888799d0 (.)
@@ -156,6 +157,8 @@ return new class extends XotBaseMigration
 >>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -776,9 +779,13 @@ return new class() extends XotBaseMigration {
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> d45a0226 (.)
+>>>>>>> f15c41e60 (.)
 return new class extends XotBaseMigration
 {
     protected ?string $model_class = Contact::class;
@@ -795,6 +802,7 @@ return new class extends XotBaseMigration
 =======
 >>>>>>> 58816034 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 return new class() extends XotBaseMigration {
     protected null|string $model_class = Contact::class;
@@ -1024,7 +1032,20 @@ return new class () extends XotBaseMigration {
 =======
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 >>>>>>> 26d39e2eb (.)
+=======
+=======
+return new class extends XotBaseMigration
+{
+    protected ?string $model_class = Contact::class;
+>>>>>>> 985c7bda (.)
+=======
+return new class() extends XotBaseMigration {
+    protected null|string $model_class = Contact::class;
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
+>>>>>>> f15c41e60 (.)
 
     /**
      * Run the migrations.

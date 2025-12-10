@@ -1868,8 +1868,11 @@ class AnalyzeTranslationFiles extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
             foreach (array_keys($keys) as $key) {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2111,6 +2114,7 @@ class AnalyzeTranslationFiles extends Command
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
@@ -2123,6 +2127,8 @@ class AnalyzeTranslationFiles extends Command
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
             if (is_array($keys)) {
                 foreach (array_keys($keys) as $key) {
                     if (str_starts_with((string) $key, 'navigation.')) {
@@ -2134,10 +2140,13 @@ class AnalyzeTranslationFiles extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
 =======
             foreach (array_keys($keys) as $key) {
 <<<<<<< HEAD
@@ -2405,12 +2414,16 @@ class AnalyzeTranslationFiles extends Command
 >>>>>>> 985c7bda (.)
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> d45a0226 (.)
 =======
+=======
+>>>>>>> f15c41e60 (.)
             foreach (array_keys($keys) as $key) {
                 if (str_starts_with((string) $key, 'navigation.')) {
                     $navigationKeys[] = str_replace('navigation.', '', (string) $key);
 >>>>>>> f5f1cb1 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d45a0226 (.)
 =======
@@ -2420,6 +2433,8 @@ class AnalyzeTranslationFiles extends Command
 =======
 >>>>>>> 985c7bda (.)
 =======
+=======
+>>>>>>> f15c41e60 (.)
 >>>>>>> d45a0226 (.)
                 }
             }

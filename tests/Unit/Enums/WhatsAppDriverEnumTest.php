@@ -211,6 +211,7 @@ class WhatsAppDriverEnumTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -792,7 +793,19 @@ class WhatsAppDriverEnumTest extends TestCase
         $values = array_map(fn($case) => $case->value, WhatsAppDriverEnum::cases());
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 >>>>>>> 26d39e2eb (.)
+=======
+=======
+        $values = array_map(fn ($case) => $case->value, WhatsAppDriverEnum::cases());
+>>>>>>> 985c7bda (.)
+=======
+        $values = array_map(fn ($case) => $case->value, WhatsAppDriverEnum::cases());
+=======
+        $values = array_map(fn($case) => $case->value, WhatsAppDriverEnum::cases());
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
+>>>>>>> f15c41e60 (.)
         $uniqueValues = array_unique($values);
 
 =======

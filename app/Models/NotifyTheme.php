@@ -108,6 +108,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -167,6 +168,13 @@ use Override;
 =======
 <<<<<<< HEAD
 =======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
+=======
+>>>>>>> f15c41e60 (.)
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 use Override;
 =======
@@ -223,12 +231,15 @@ use Override;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
 >>>>>>> d09cb759 (.)
 =======
 use Override;
@@ -357,6 +368,7 @@ use Eloquent;
 >>>>>>> f1c9518b (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d45a0226 (.)
@@ -373,10 +385,19 @@ use Modules\Notify\Database\Factories\NotifyThemeFactory;
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+=======
+=======
+=======
+use Override;
+>>>>>>> b94a5f6 (.)
+>>>>>>> d45a0226 (.)
+>>>>>>> f15c41e60 (.)
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\NotifyThemeFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Contracts\ProfileContract;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -406,6 +427,8 @@ use Modules\Xot\Contracts\ProfileContract;
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+>>>>>>> f15c41e60 (.)
+=======
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
@@ -415,6 +438,7 @@ use Modules\Xot\Contracts\ProfileContract;
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> b94a5f6 (.)
+<<<<<<< HEAD
 use Eloquent;
 >>>>>>> 82c6772 (.)
 <<<<<<< HEAD
@@ -655,6 +679,8 @@ use Eloquent;
 >>>>>>> f1c9518b (.)
 >>>>>>> e53a56570 (.)
 =======
+=======
+>>>>>>> f15c41e60 (.)
 use Eloquent;
 >>>>>>> 82c6772 (.)
 >>>>>>> 2effe245 (.)
@@ -1394,7 +1420,17 @@ class NotifyTheme extends BaseModel implements HasMedia
  * @method static Builder<static>|NotifyTheme whereDeletedBy($value)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
+>>>>>>> f15c41e60 (.)
 <<<<<<< HEAD
  */
 class NotifyTheme extends BaseModel implements HasMedia
@@ -1402,7 +1438,17 @@ class NotifyTheme extends BaseModel implements HasMedia
 =======
 =======
 >>>>>>> 82c6772 (.)
+<<<<<<< HEAD
  *
+=======
+=======
+>>>>>>> 92ecc28 (.)
+=======
+>>>>>>> b94a5f6 (.)
+ *
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f15c41e60 (.)
 =======
 <<<<<<< HEAD
  * @property ProfileContract|null $creator
@@ -1469,6 +1515,15 @@ class NotifyTheme extends BaseModel implements HasMedia
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 985c7bda (.)
+=======
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
+>>>>>>> f15c41e60 (.)
  * @mixin IdeHelperNotifyTheme
 <<<<<<< HEAD
 =======
@@ -1895,6 +1950,7 @@ class NotifyTheme extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2164,9 +2220,13 @@ class NotifyTheme extends BaseModel
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> f15c41e60 (.)
     public function getLogoAttribute(?array $value): array
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2187,6 +2247,8 @@ class NotifyTheme extends BaseModel
     public function getLogoAttribute(?array $value): array
 <<<<<<< HEAD
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
 >>>>>>> 6ba141fc (.)
 =======
 =======
@@ -2465,8 +2527,10 @@ class NotifyTheme extends BaseModel
 =======
 =======
 >>>>>>> 92ecc28 (.)
+<<<<<<< HEAD
 >>>>>>> 985c7bda (.)
 =======
+<<<<<<< HEAD
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> fbed41ac (.)
@@ -2589,9 +2653,12 @@ class NotifyTheme extends BaseModel
 =======
 >>>>>>> f2e64178 (.)
 =======
+>>>>>>> f15c41e60 (.)
+=======
 =======
     public function getLogoAttribute(null|array $value): array
 >>>>>>> f5f1cb1 (.)
+<<<<<<< HEAD
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
 =======
@@ -2657,6 +2724,10 @@ class NotifyTheme extends BaseModel
 >>>>>>> 82c6772 (.)
 >>>>>>> 2effe245 (.)
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> b94a5f6 (.)
+>>>>>>> d45a0226 (.)
+>>>>>>> f15c41e60 (.)
     {
         return [
             // 'path' => asset(strval($this->logo_src)),

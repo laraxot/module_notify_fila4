@@ -118,6 +118,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -137,6 +138,13 @@ namespace Modules\Notify\Models;
 >>>>>>> 4689a827 (.)
 =======
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
+=======
+>>>>>>> f15c41e60 (.)
 <<<<<<< HEAD
 use Carbon\Carbon;
 =======
@@ -428,6 +436,7 @@ use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 >>>>>>> f5f1cb1 (.)
 >>>>>>> b94a5f6 (.)
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
 >>>>>>> 2effe245 (.)
 use Illuminate\Database\Eloquent\Relations\MorphTo;
@@ -442,6 +451,8 @@ use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 >>>>>>> f5f1cb1 (.)
 >>>>>>> b94a5f6 (.)
+=======
+>>>>>>> f15c41e60 (.)
 use Illuminate\Database\Eloquent\Builder;
 >>>>>>> 2effe245 (.)
 use Illuminate\Database\Eloquent\Relations\MorphTo;
@@ -3979,6 +3990,7 @@ final class NotificationLog extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -4679,9 +4691,12 @@ final class NotificationLog extends BaseModel
 =======
 >>>>>>> 98d837b9 (.)
 =======
+>>>>>>> d45a0226 (.)
+=======
     }
 
     /**
+<<<<<<< HEAD
      * Scope to filter by notifiable entity.
      *
      * @param Builder<static> $query
@@ -4925,6 +4940,7 @@ final class NotificationLog extends BaseModel
 =======
 >>>>>>> 985c7bda (.)
 =======
+<<<<<<< HEAD
         ]);
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
@@ -5170,6 +5186,8 @@ final class NotificationLog extends BaseModel
 =======
 >>>>>>> 985c7bda (.)
 =======
+=======
+>>>>>>> f15c41e60 (.)
      * Marca il log come aperto.
      */
     public function markAsOpened(): void
@@ -5177,8 +5195,11 @@ final class NotificationLog extends BaseModel
         $this->update([
             'status' => NotificationLogStatusEnum::OPENED,
             'opened_at' => now(),
+<<<<<<< HEAD
 =======
 >>>>>>> a404ea71 (.)
+=======
+>>>>>>> f15c41e60 (.)
         ]);
     }
 
@@ -5193,8 +5214,11 @@ final class NotificationLog extends BaseModel
         ]);
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> fbed41ac (.)
+=======
+>>>>>>> f15c41e60 (.)
     }
 
     /**

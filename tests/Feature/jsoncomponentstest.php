@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f15c41e60 (.)
 <?php
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -367,6 +371,12 @@ uses(Tests\TestCase::class);
 >>>>>>> f3c06ccdd (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+use Illuminate\Support\Facades\File;
+use Tests\TestCase;
+
+uses(TestCase::class);
+>>>>>>> f15c41e60 (.)
 
 test('components json is valid and contains expected components', function (): void {
     // Percorso del file
@@ -385,6 +395,7 @@ test('components json is valid and contains expected components', function (): v
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect($json)->not->toBeNull('Il file _components.json non contiene JSON valido: ' . json_last_error_msg());
 =======
 <<<<<<< HEAD
@@ -474,6 +485,9 @@ test('components json is valid and contains expected components', function (): v
     expect($json)->not->toBeNull('Il file _components.json non contiene JSON valido: ' . json_last_error_msg());
 >>>>>>> c650db4 (.)
 >>>>>>> 43dd68f4b (.)
+=======
+    expect($json)->not->toBeNull('Il file _components.json non contiene JSON valido: '.json_last_error_msg());
+>>>>>>> f15c41e60 (.)
 
     // Verifico che ci sono 2 componenti
     expect($json)->toHaveCount(2, 'Il file _components.json non contiene i 2 componenti attesi');
@@ -481,6 +495,7 @@ test('components json is valid and contains expected components', function (): v
     // Verifico che ci sono i componenti SendMailCommand e TelegramWebhook
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -681,12 +696,15 @@ test('components json is valid and contains expected components', function (): v
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> laraxot/develop
+=======
+>>>>>>> f15c41e60 (.)
     expect($json[0])->toHaveKey('name', 'Il primo componente non ha una chiave "name"');
     expect($json[0])->toHaveKey('class', 'Il primo componente non ha una chiave "class"');
     expect($json[0])->toHaveKey('ns', 'Il primo componente non ha una chiave "ns"');
 
     expect($json[1])->toHaveKey('name', 'Il secondo componente non ha una chiave "name"');
     expect($json[1])->toHaveKey('class', 'Il secondo componente non ha una chiave "class"');
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 99ff506 (.)
@@ -703,6 +721,8 @@ test('components json is valid and contains expected components', function (): v
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> f15c41e60 (.)
     expect($json[1])->toHaveKey('ns', 'Il secondo componente non ha una chiave "ns"');
 
     // Verifico i nomi specifici dei componenti
@@ -715,5 +735,8 @@ test('components json is valid and contains expected components', function (): v
     expect($classes)->toContain('SendMailCommand', 'Classe "SendMailCommand" non trovata');
     expect($classes)->toContain('TelegramWebhook', 'Classe "TelegramWebhook" non trovata');
 });
+<<<<<<< HEAD
 =======
 >>>>>>> 301ad8b44 (.)
+=======
+>>>>>>> f15c41e60 (.)

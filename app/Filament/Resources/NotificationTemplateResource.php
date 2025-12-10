@@ -217,6 +217,7 @@ namespace Modules\Notify\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -703,6 +704,7 @@ use Filament\Forms\Components\TextInput;
 =======
 >>>>>>> 985c7bda (.)
 =======
+<<<<<<< HEAD
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> fbed41ac (.)
@@ -808,6 +810,13 @@ use Filament\Forms\Components\TextInput;
 >>>>>>> 3e757cee2 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+=======
+use Override;
+use Filament\Forms\Components\TextInput;
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
+>>>>>>> f15c41e60 (.)
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
 <<<<<<< HEAD
@@ -825,8 +834,11 @@ use Filament\Forms\Components\TextInput;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
@@ -1299,11 +1311,15 @@ use Filament\Tables;
 use Filament\Tables\Table;
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f15c41e60 (.)
 =======
 =======
 use Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages\PreviewNotificationTemplate;
 use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 use Filament\Forms;
 <<<<<<< HEAD
 use Filament\Schemas\Schema;
@@ -1363,17 +1379,21 @@ use Filament\Tables\Table;
 =======
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
 use Filament\Forms;
 use Filament\Schemas\Schema;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
+<<<<<<< HEAD
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
 =======
+<<<<<<< HEAD
 =======
 use Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages\PreviewNotificationTemplate;
 use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
@@ -1390,11 +1410,16 @@ use Filament\Tables\Table;
 >>>>>>> 677a6ab7 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
+>>>>>>> f15c41e60 (.)
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Notify\Enums\NotificationTypeEnum;
 use Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages;
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Xot\Filament\Resources\XotBaseResource;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1485,6 +1510,8 @@ use Modules\Xot\Filament\Resources\XotBaseResource;
 >>>>>>> 8f2456941 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1730,6 +1757,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
 =======
 >>>>>>> d45a0226 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> fbed41ac (.)
 =======
 >>>>>>> 985c7bda (.)
@@ -1739,9 +1767,12 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
 >>>>>>> fbed41ac (.)
 =======
 =======
+>>>>>>> f15c41e60 (.)
+=======
 >>>>>>> 82c6772 (.)
 =======
 >>>>>>> 92ecc28 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1773,6 +1804,10 @@ use Override;
 =======
 =======
 >>>>>>> 82c6772 (.)
+=======
+=======
+>>>>>>> b94a5f6 (.)
+>>>>>>> f15c41e60 (.)
 use Override;
 >>>>>>> 6ba141fc (.)
 >>>>>>> 2effe245 (.)
@@ -2020,6 +2055,9 @@ class NotificationTemplateResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f15c41e60 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3201,6 +3239,15 @@ use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
+=======
+=======
+use Spatie\MediaLibrary\MediaCollections\Models\Media;
+
+class NotificationTemplateResource extends XotBaseResource
+{
+    protected static null|string $model = NotificationTemplate::class;
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
 
 class NotificationTemplateResource extends XotBaseResource
 {

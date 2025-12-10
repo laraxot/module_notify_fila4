@@ -418,9 +418,12 @@ use Spatie\LaravelData\Data;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> f15c41e60 (.)
 use Webmozart\Assert\Assert;
 
 class PlivoData extends Data
@@ -680,6 +683,7 @@ use Modules\Tenant\Services\TenantService;
 =======
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> d45a0226 (.)
@@ -1017,6 +1021,10 @@ use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 =======
 >>>>>>> e53a56570 (.)
+=======
+=======
+>>>>>>> d45a0226 (.)
+>>>>>>> f15c41e60 (.)
 
 class PlivoData extends Data
 {
@@ -1050,8 +1058,12 @@ class PlivoData extends Data
     public static function make(): self
     {
         if (!(self::$instance instanceof PlivoData)) {
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
             /*
 <<<<<<< HEAD
             $data = TenantService::getConfig('sms');
@@ -1433,6 +1445,7 @@ class PlivoData extends Data
             case 'basic':
             default:
                 return [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD

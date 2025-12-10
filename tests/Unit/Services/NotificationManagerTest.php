@@ -135,6 +135,7 @@ class NotificationManagerTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         $this->notificationManager = new NotificationManager;
 >>>>>>> 98d837b9 (.)
@@ -200,6 +201,8 @@ class NotificationManagerTest extends TestCase
 >>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -908,7 +911,19 @@ class NotificationManagerTest extends TestCase
 =======
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 >>>>>>> 26d39e2eb (.)
+=======
+=======
+        $this->notificationManager = new NotificationManager;
+>>>>>>> 985c7bda (.)
+=======
+        $this->notificationManager = new NotificationManager;
+=======
+        $this->notificationManager = new NotificationManager();
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
+>>>>>>> f15c41e60 (.)
     }
 
     protected function tearDown(): void

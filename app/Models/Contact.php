@@ -508,6 +508,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1107,8 +1108,11 @@ use Illuminate\Support\Carbon;
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> fbed41ac (.)
+=======
+>>>>>>> f15c41e60 (.)
 use Illuminate\Support\Carbon;
 =======
 <<<<<<< HEAD
@@ -1116,6 +1120,7 @@ use Illuminate\Support\Carbon;
 >>>>>>> 92ecc28 (.)
 =======
 >>>>>>> b94a5f6 (.)
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
 =======
 =======
@@ -1165,7 +1170,17 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
 use Illuminate\Support\Carbon;
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> f15c41e60 (.)
 use Illuminate\Database\Eloquent\Builder;
+=======
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Spatie\MediaLibrary\MediaCollections\Models\Media;
+use Override;
+use Modules\Notify\Database\Factories\ContactFactory;
+use Illuminate\Database\Eloquent\Builder;
+use Modules\Xot\Contracts\ProfileContract;
+>>>>>>> f5f1cb1 (.)
 use Illuminate\Support\Carbon;
 use Modules\Notify\Database\Factories\ContactFactory;
 use Modules\Xot\Contracts\ProfileContract;
@@ -1512,12 +1527,15 @@ use Illuminate\Support\Carbon;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
 =======
 =======
 >>>>>>> f2e64178 (.)
@@ -1594,11 +1612,14 @@ use Illuminate\Support\Carbon;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
  *
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
  * @mixin IdeHelperContact
 =======
 =======
@@ -1698,8 +1719,10 @@ use Illuminate\Support\Carbon;
 =======
 =======
 >>>>>>> 92ecc28 (.)
+<<<<<<< HEAD
 >>>>>>> 985c7bda (.)
 =======
+<<<<<<< HEAD
 >>>>>>> d45a0226 (.)
 =======
  *
@@ -1833,6 +1856,13 @@ use Illuminate\Support\Carbon;
 >>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+=======
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> b94a5f6 (.)
+>>>>>>> d45a0226 (.)
+>>>>>>> f15c41e60 (.)
  * @method static ContactFactory factory($count = null, $state = [])
  * @method static Builder|Contact newModelQuery()
  * @method static Builder|Contact newQuery()
@@ -2021,6 +2051,7 @@ use Illuminate\Support\Carbon;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f2e64178 (.)
 =======
@@ -2040,6 +2071,8 @@ use Illuminate\Support\Carbon;
 >>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
  *
 =======
  * @method static Builder<static>|Contact whereDeletedAt($value)
@@ -2159,8 +2192,11 @@ use Illuminate\Support\Carbon;
 =======
 >>>>>>> 2effe245 (.)
 =======
+=======
+>>>>>>> d45a0226 (.)
  *
 =======
+<<<<<<< HEAD
  *
 >>>>>>> c8b1c8bf (.)
 =======
@@ -2179,6 +2215,9 @@ use Illuminate\Support\Carbon;
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> f15c41e60 (.)
  * @mixin IdeHelperContact
 =======
 =======
