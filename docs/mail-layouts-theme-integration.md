@@ -34,34 +34,15 @@ Il sistema email di PTVX supporta **layout personalizzati per tema**, permettend
 │  │     └─ dark.html
 │  │
 │  └─ Themes/                                  ← Temi applicazione
-<<<<<<< HEAD
-<<<<<<< HEAD
 │     ├─ Zero/resources/mail-layouts/
 │     │  └─ base.html                        # Layout tema Zero (Design Italiano)
-=======
-│     ├─ SbAdmin2Bs4/resources/mail-layouts/
-│     │  └─ base.html                        # Layout SbAdmin2Bs4
->>>>>>> ab15d0e (.)
-=======
-│     ├─ Zero/resources/mail-layouts/
-│     │  └─ base.html                        # Layout tema Zero (Design Italiano)
->>>>>>> a187384 (.)
 │     │
 │     ├─ One/resources/mail-layouts/
 │     │  └─ base.html                        # Layout tema One
 │     │
-<<<<<<< HEAD
-<<<<<<< HEAD
 │     ├─ SbAdmin2Bs4/resources/mail-layouts/
 │     │  └─ base.html                        # Layout SbAdmin2Bs4
 │     │
-=======
->>>>>>> ab15d0e (.)
-=======
-│     ├─ SbAdmin2Bs4/resources/mail-layouts/
-│     │  └─ base.html                        # Layout SbAdmin2Bs4
-│     │
->>>>>>> a187384 (.)
 │     └─ MetronicOne/resources/mail-layouts/
 │        └─ base.html                        # Layout Metronic
 ```
@@ -72,22 +53,12 @@ Il sistema email di PTVX supporta **layout personalizzati per tema**, permettend
 // config/{environment}/xra.php
 
 return [
-<<<<<<< HEAD
-<<<<<<< HEAD
     'pub_theme' => 'Zero',  // ← Tema pubblico attivo
-=======
-    'pub_theme' => 'SbAdmin2Bs4',  // ← Tema pubblico attivo
->>>>>>> ab15d0e (.)
-=======
-    'pub_theme' => 'Zero',  // ← Tema pubblico attivo
->>>>>>> a187384 (.)
     // Altri config...
 ];
 ```
 
 **Ambienti**:
-<<<<<<< HEAD
-<<<<<<< HEAD
 - `config/local/tv/prov/personale2019/xra.php` → `pub_theme = 'Zero'`
 - `config/local/tv/prov/personale2022/xra.php` → `pub_theme = 'Zero'`
 - `config/localhost/xra.php` → `pub_theme = 'One'`
@@ -106,32 +77,6 @@ Il tema **Zero** implementa un layout email basato sul **Design System Italiano*
 
 **Documentazione**: [Themes/Zero/docs/mail-layouts.md](../../../../Themes/Zero/docs/mail-layouts.md)
 
-=======
-- `config/local/tv/prov/personale2022/xra.php` → `pub_theme = 'SbAdmin2Bs4'`
-- `config/localhost/xra.php` → `pub_theme = 'One'`
-- Production può avere tema diverso
-
->>>>>>> ab15d0e (.)
-=======
-- `config/local/tv/prov/personale2019/xra.php` → `pub_theme = 'Zero'`
-- `config/local/tv/prov/personale2022/xra.php` → `pub_theme = 'Zero'`
-- `config/localhost/xra.php` → `pub_theme = 'One'`
-- Production può avere tema diverso
-
-### Tema Zero
-
-Il tema **Zero** implementa un layout email basato sul **Design System Italiano** ([italia/design-comuni-pagine-statiche](https://github.com/italia/design-comuni-pagine-statiche)) con:
-
-- ✅ Colori istituzionali italiani (Blu Italia #0066CC, Verde #00AA66)
-- ✅ Accessibilità WCAG 2.1 Level AA
-- ✅ Responsive design ottimizzato
-- ✅ Dark mode support
-- ✅ TailwindCSS-inspired spacing e colori
-- ✅ Integrazione completa con spatie/laravel-database-mail-templates
-
-**Documentazione**: [Themes/Zero/docs/mail-layouts.md](../../../../Themes/Zero/docs/mail-layouts.md)
-
->>>>>>> a187384 (.)
 ## Implementazione getHtmlLayout()
 
 ### Codice Corrente
@@ -378,15 +323,7 @@ class EmailLayoutResource extends XotBaseResource
             'name' => TextInput::make('name'),
             'theme' => Select::make('theme')
                 ->options([
-<<<<<<< HEAD
-<<<<<<< HEAD
                     'Zero' => 'SbAdmin2',
-=======
-                    'SbAdmin2Bs4' => 'SbAdmin2',
->>>>>>> ab15d0e (.)
-=======
-                    'Zero' => 'SbAdmin2',
->>>>>>> a187384 (.)
                     'One' => 'Tema One',
                     'MetronicOne' => 'Metronic',
                 ]),
