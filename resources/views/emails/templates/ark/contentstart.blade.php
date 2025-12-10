@@ -430,6 +430,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -3316,6 +3317,7 @@ declare(strict_types=1);
 >>>>>>> 7d903672 (.)
 =======
 >>>>>>> 16b0038a (.)
+<<<<<<< HEAD
 =======
 <tr>
 <<<<<<< HEAD
@@ -3459,6 +3461,8 @@ declare(strict_types=1);
 =======
 >>>>>>> 7d903672 (.)
 >>>>>>> 21e1a74cb (.)
+=======
+>>>>>>> 8c4fe963e (.)
 	<td class="w50" width="50"></td>
 	<td class="w560" width="560">
 		<table class="w560" border="0" cellpadding="0" cellspacing="0" width="560">
@@ -3469,6 +3473,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 					<div class="article-content" align="left">
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3962,6 +3967,8 @@ declare(strict_types=1);
 >>>>>>> d3a8af4d5 (.)
 =======
 >>>>>>> 4f19d70d2 (.)
+=======
+>>>>>>> 8c4fe963e (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -5291,6 +5298,7 @@ declare(strict_types=1);
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 9d67cabd (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 					<div class="article-content" align="left">
 >>>>>>> 16b0038a (.)
@@ -6118,3 +6126,8 @@ declare(strict_types=1);
 >>>>>>> d3a8af4d5 (.)
 =======
 >>>>>>> 4f19d70d2 (.)
+=======
+=======
+					<div class="article-content" align="left">
+>>>>>>> 16b0038a (.)
+>>>>>>> 8c4fe963e (.)
