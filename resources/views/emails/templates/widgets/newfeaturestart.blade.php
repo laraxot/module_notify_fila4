@@ -509,6 +509,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -1270,6 +1271,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 1375c94d (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 e width="100%" cellpadding="0" cellspacing="0" border="0">
 =======
@@ -1819,6 +1821,10 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 5d49e093a (.)
 =======
 >>>>>>> 7a9167faf (.)
+=======
+=======
+>>>>>>> 48830c88 (rebase 210)
+>>>>>>> 66d7d1293 (.)
 <?php
 
 declare(strict_types=1);
@@ -3542,10 +3548,14 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 66d7d1293 (.)
 >>>>>>> 518c702 (.)
 >>>>>>> eb62d6cf (rebase 210)
 =======
 >>>>>>> 48830c88 (rebase 210)
+<<<<<<< HEAD
 =======
 =======
 e width="100%" cellpadding="0" cellspacing="0" border="0">
@@ -4514,6 +4524,8 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 518c702 (.)
 >>>>>>> eb62d6cf (rebase 210)
 >>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> 66d7d1293 (.)
 	<tr>
 		<td bgcolor="{{ isset($color) ? $color : '#85bdad' }}" nowrap>
 			<img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="5" height="1">
@@ -5038,6 +5050,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
 =======
@@ -5253,6 +5266,8 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> c0b249afc (.)
 =======
 >>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> 66d7d1293 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -6443,6 +6458,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 703bb892 (rebase 210)
 =======
 >>>>>>> eb62d6cf (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 					<td bgcolor="#ffffff" class="contentblock">
@@ -7950,3 +7966,8 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> c0b249afc (.)
 =======
 >>>>>>> 7a142b4f5 (.)
+=======
+=======
+					<td bgcolor="#ffffff" class="contentblock">
+>>>>>>> 48830c88 (rebase 210)
+>>>>>>> 66d7d1293 (.)
