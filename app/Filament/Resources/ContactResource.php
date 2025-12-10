@@ -130,7 +130,6 @@ use Modules\Notify\Filament\Resources\ContactResource\Pages;
 >>>>>>> c8b1c8bf (.)
 use Modules\Notify\Models\Contact;
 use Modules\Xot\Filament\Resources\XotBaseResource;
-use Override;
 
 class ContactResource extends XotBaseResource
 {

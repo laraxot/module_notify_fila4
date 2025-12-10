@@ -2087,6 +2087,7 @@ trait HasTenantNotifications
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         static::creating(function (Model $model) {
 <<<<<<< HEAD
 =======
@@ -2098,6 +2099,9 @@ trait HasTenantNotifications
 =======
         static::creating(function (Model $model): void {
 >>>>>>> c42c734 (.)
+=======
+        static::creating(function (Model $model) {
+>>>>>>> 625ad07 (.)
             if (! isset($model->tenant_id)) {
 =======
             if (!isset($model->tenant_id)) {
@@ -2106,7 +2110,7 @@ trait HasTenantNotifications
             }
         });
 
-        static::addGlobalScope('tenant', function (Builder $builder): void {
+        static::addGlobalScope('tenant', function (Builder $builder) {
             /** @var Model $model */
             $model = $builder->getModel();
 <<<<<<< HEAD

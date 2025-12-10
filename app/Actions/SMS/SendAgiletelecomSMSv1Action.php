@@ -63,7 +63,6 @@ use GuzzleHttp\Client;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SMS\AgiletelecomData;
 use Modules\Notify\Datas\SmsData;
-use Override;
 
 /**
  * Azione per l'invio di SMS tramite Agile Telecom.
