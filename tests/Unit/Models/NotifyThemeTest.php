@@ -219,6 +219,7 @@ use Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -326,6 +327,7 @@ use function Safe\json_encode;
 >>>>>>> 9fe1b60e (rebase 210)
 =======
 >>>>>>> 9f8e680a (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> b4f93b3a (rebase 210)
 =======
@@ -421,10 +423,13 @@ use function Safe\json_encode;
 =======
 >>>>>>> 9fe1b60e (rebase 210)
 >>>>>>> a0788fa28 (.)
+=======
+>>>>>>> c188e2a18 (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\NotifyTheme;
 use Tests\TestCase;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -532,6 +537,8 @@ use Tests\TestCase;
 >>>>>>> c22b35d1e (.)
 =======
 >>>>>>> a0788fa28 (.)
+=======
+>>>>>>> c188e2a18 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -901,7 +908,12 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 =======
 =======
 >>>>>>> 8a8a8e2f (rebase 210)
+<<<<<<< HEAD
 >>>>>>> 69f695548 (.)
+=======
+=======
+>>>>>>> 9f8e680a (rebase 210)
+>>>>>>> c188e2a18 (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\NotifyTheme;
 use Tests\TestCase;
@@ -909,6 +921,7 @@ use Tests\TestCase;
 use Tests\TestCase;
 use Modules\Notify\Models\NotifyTheme;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -958,6 +971,8 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> 9cb55171f (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+>>>>>>> c188e2a18 (.)
 >>>>>>> a12f125f4a (.)
 >>>>>>> d09cb759 (.)
 =======
@@ -1249,10 +1264,17 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 =======
 >>>>>>> 8a8a8e2f (rebase 210)
 =======
+<<<<<<< HEAD
 >>>>>>> 69f695548 (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> c188e2a18 (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\NotifyTheme;
 use Tests\TestCase;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1365,6 +1387,8 @@ use Tests\TestCase;
 >>>>>>> 47a873f13 (.)
 =======
 >>>>>>> 69f695548 (.)
+=======
+>>>>>>> c188e2a18 (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -1444,6 +1468,7 @@ use Tests\TestCase;
 =======
 >>>>>>> bd804d67 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 510809c6f (.)
 =======
 =======
@@ -1461,6 +1486,9 @@ use Tests\TestCase;
 =======
 >>>>>>> bd804d67 (.)
 >>>>>>> 848f79b79 (.)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+>>>>>>> c188e2a18 (.)
 >>>>>>> b93ef594b4 (.)
 =======
 use Tests\TestCase;
@@ -1504,6 +1532,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -1516,6 +1545,8 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> 9cb55171f (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+>>>>>>> c188e2a18 (.)
 >>>>>>> d09cb759 (.)
 =======
 use Illuminate\Foundation\Testing\RefreshDatabase;
@@ -1705,6 +1736,7 @@ use Tests\TestCase;
 >>>>>>> efb0f8d9 (rebase 210)
 =======
 >>>>>>> 9f8e680a (rebase 210)
+<<<<<<< HEAD
 =======
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\NotifyTheme;
@@ -2241,6 +2273,8 @@ use Tests\TestCase;
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 8a8a8e2f (rebase 210)
 >>>>>>> 69f695548 (.)
+=======
+>>>>>>> c188e2a18 (.)
 
 class NotifyThemeTest extends TestCase
 {
@@ -3223,6 +3257,7 @@ class NotifyThemeTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a8a8e2f (rebase 210)
 =======
@@ -3350,6 +3385,8 @@ class NotifyThemeTest extends TestCase
 =======
 >>>>>>> bd804d67 (.)
 =======
+>>>>>>> 9f8e680a (rebase 210)
+=======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
@@ -3450,12 +3487,15 @@ class NotifyThemeTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> a115e2aad (.)
+=======
+>>>>>>> c188e2a18 (.)
 >>>>>>> d09cb759 (.)
 =======
 =======
@@ -3569,6 +3609,7 @@ class NotifyThemeTest extends TestCase
 >>>>>>> 9fe1b60e (rebase 210)
 =======
 >>>>>>> 9f8e680a (rebase 210)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b4f93b3a (rebase 210)
@@ -3687,6 +3728,8 @@ class NotifyThemeTest extends TestCase
 =======
 >>>>>>> 9fe1b60e (rebase 210)
 >>>>>>> a0788fa28 (.)
+=======
+>>>>>>> c188e2a18 (.)
 
 
 
@@ -3694,6 +3737,7 @@ class NotifyThemeTest extends TestCase
 
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3805,6 +3849,8 @@ class NotifyThemeTest extends TestCase
 >>>>>>> 903e3e2cd (.)
 =======
 >>>>>>> a0788fa28 (.)
+=======
+>>>>>>> c188e2a18 (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3948,6 +3994,7 @@ class NotifyThemeTest extends TestCase
 =======
 >>>>>>> bd804d67 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -3964,6 +4011,10 @@ class NotifyThemeTest extends TestCase
 >>>>>>> 9cb55171f (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+=======
+>>>>>>> 9f8e680a (rebase 210)
+>>>>>>> c188e2a18 (.)
 >>>>>>> a12f125f4a (.)
 =======
 >>>>>>> b93ef594b4 (.)
@@ -4006,6 +4057,7 @@ class NotifyThemeTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -4018,6 +4070,8 @@ class NotifyThemeTest extends TestCase
 >>>>>>> 9cb55171f (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+>>>>>>> c188e2a18 (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -4341,6 +4395,7 @@ class NotifyThemeTest extends TestCase
 >>>>>>> efb0f8d9 (rebase 210)
 =======
 >>>>>>> 9f8e680a (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 7ffa94fc (rebase 210)
 =======
@@ -4597,3 +4652,5 @@ class NotifyThemeTest extends TestCase
 >>>>>>> a0788fa28 (.)
 =======
 >>>>>>> 69f695548 (.)
+=======
+>>>>>>> c188e2a18 (.)

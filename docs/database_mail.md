@@ -1065,6 +1065,7 @@ class ProcessDoctorModerationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1804,11 +1805,15 @@ class ProcessDoctorModerationAction
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c188e2a18 (.)
 =======
 =======
 
 >>>>>>> d284d65 (.)
 >>>>>>> 9f8e680a (rebase 210)
+<<<<<<< HEAD
 =======
 =======
 
@@ -2170,6 +2175,8 @@ class ProcessDoctorModerationAction
 >>>>>>> 69f695548 (.)
 =======
 >>>>>>> ce1853afd (.)
+=======
+>>>>>>> c188e2a18 (.)
 # Registrazione Approvata
 
 Gentile {{ $doctor->name }},
@@ -4063,8 +4070,11 @@ Cordiali saluti,<br>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ce1853afd (.)
+=======
+>>>>>>> c188e2a18 (.)
 >>>>>>> 4fc21b78 (rebase 210)
 =======
 =======
@@ -4083,10 +4093,14 @@ Cordiali saluti,<br>
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c188e2a18 (.)
 =======
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> 9f8e680a (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> b4f93b3a (rebase 210)
 =======
@@ -4623,3 +4637,5 @@ Cordiali saluti,<br>
 >>>>>>> 69f695548 (.)
 =======
 >>>>>>> ce1853afd (.)
+=======
+>>>>>>> c188e2a18 (.)

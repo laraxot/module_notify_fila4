@@ -11,6 +11,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f2e64178 (.)
 =======
@@ -35,6 +36,8 @@
 >>>>>>> 3e757cee2 (.)
 =======
 >>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> c188e2a18 (.)
 # Raccomandazioni di Ottimizzazione - Modulo Notify
 
 ## 🎯 Stato Attuale e Problemi Critici
@@ -42,6 +45,7 @@
 ### ❌ PROBLEMI CRITICI IDENTIFICATI
 
 #### 1. Riusabilità Compromessa
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -183,6 +187,8 @@
 =======
 - **336+ occorrenze hardcoded** di "<nome progetto>" in test e documentazione
 >>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> c188e2a18 (.)
 - **336+ occorrenze hardcoded** di "saluteora" in test e documentazione
 - **Import diretti** da moduli project-specific
 - **Configurazioni database** hardcoded nei test
@@ -243,6 +249,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - Riferimenti diretti a modelli <nome progetto>
 >>>>>>> 75179b855 (.)
@@ -338,6 +345,8 @@
 =======
 - Riferimenti diretti a modelli <nome progetto>
 >>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> c188e2a18 (.)
 - Riferimenti diretti a modelli SaluteOra
 
 ## ✅ OTTIMIZZAZIONI IMPLEMENTATE
@@ -389,6 +398,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 1. **NotificationManagementBusinessLogicTest.php**: Rimosso hardcoding "<nome progetto>"
 >>>>>>> 75179b855 (.)
@@ -484,6 +494,8 @@
 =======
 1. **NotificationManagementBusinessLogicTest.php**: Rimosso hardcoding "<nome progetto>"
 >>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> c188e2a18 (.)
 1. **NotificationManagementBusinessLogicTest.php**: Rimosso hardcoding "SaluteOra"
 2. **NotifyThemeableFactory.php**: Implementato `getProjectNamespace()` dinamico
 3. **File di traduzione**: Aggiornati placeholder con `{{app_name}}`
@@ -544,6 +556,7 @@ $user = User::factory()->create();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 'database' => '<nome progetto>_test'
 >>>>>>> 75179b855 (.)
@@ -639,6 +652,8 @@ $user = User::factory()->create();
 =======
 'database' => '<nome progetto>_test'
 >>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> c188e2a18 (.)
 'database' => 'saluteora_test'
 
 // ✅ DOPO
@@ -839,6 +854,7 @@ php artisan notify:benchmark
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -865,3 +881,5 @@ php artisan notify:benchmark
 >>>>>>> 3e757cee2 (.)
 =======
 >>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> c188e2a18 (.)

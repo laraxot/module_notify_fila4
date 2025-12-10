@@ -11,6 +11,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f2e64178 (.)
 =======
@@ -35,6 +36,8 @@
 >>>>>>> 3e757cee2 (.)
 =======
 >>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> c188e2a18 (.)
 # Implementazione Correzioni PHPStan - Modulo Notify
 
 ## 🎯 Errori Risolti
@@ -148,6 +151,7 @@ protected function getProjectNamespace(): string
 ### Validazione
 ```bash
 # Test PHPStan
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -414,6 +418,9 @@ cd /var/www/html/_bases/base_<nome progetto>/laravel
 cd /var/www/html/_bases/base_saluteora/laravel
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 >>>>>>> 43dd68f4b (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> c188e2a18 (.)
 ./vendor/bin/phpstan analyze Modules/Notify --level=9
 
 # Test funzionalità
@@ -434,6 +441,7 @@ Applicare gli stessi pattern di type safety agli altri moduli:
 
 *Ultimo aggiornamento: gennaio 2025*
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -472,3 +480,5 @@ Applicare gli stessi pattern di type safety agli altri moduli:
 >>>>>>> 3e757cee2 (.)
 =======
 >>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> c188e2a18 (.)

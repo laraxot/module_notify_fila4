@@ -263,6 +263,7 @@ use Modules\Notify\Datas\WhatsAppData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -733,6 +734,10 @@ use Modules\Notify\Datas\WhatsAppData;
  *
 =======
 >>>>>>> 229a065a (rebase 210)
+=======
+ *
+=======
+>>>>>>> 9f8e680a (rebase 210)
 <<<<<<< HEAD
 =======
  *
@@ -935,6 +940,7 @@ use Modules\Notify\Datas\WhatsAppData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -951,6 +957,8 @@ use Modules\Notify\Datas\WhatsAppData;
 >>>>>>> 848f79b79 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+>>>>>>> c188e2a18 (.)
 >>>>>>> d09cb759 (.)
 =======
  *
@@ -1408,6 +1416,7 @@ use Modules\Notify\Datas\WhatsAppData;
 >>>>>>> efb0f8d9 (rebase 210)
 =======
 >>>>>>> 9f8e680a (rebase 210)
+<<<<<<< HEAD
 =======
  *
 >>>>>>> 7ffa94fc (rebase 210)
@@ -1741,6 +1750,8 @@ use Modules\Notify\Datas\WhatsAppData;
 >>>>>>> a0788fa28 (.)
 =======
 >>>>>>> 69f695548 (.)
+=======
+>>>>>>> c188e2a18 (.)
  * Questa interfaccia definisce il contratto che tutte le implementazioni
  * di provider WhatsApp devono rispettare.
  */
@@ -1776,6 +1787,7 @@ interface WhatsAppProviderActionInterface
      * @return array Risultato dell'operazione
      */
     public function execute(WhatsAppData $whatsappData): array;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1983,6 +1995,8 @@ interface WhatsAppProviderActionInterface
 >>>>>>> a0788fa28 (.)
 =======
 >>>>>>> 69f695548 (.)
+=======
+>>>>>>> c188e2a18 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2301,6 +2315,10 @@ interface WhatsAppProviderActionInterface
 }
 =======
 >>>>>>> 229a065a (rebase 210)
+=======
+}
+=======
+>>>>>>> 9f8e680a (rebase 210)
 <<<<<<< HEAD
 =======
 }
@@ -2393,6 +2411,7 @@ interface WhatsAppProviderActionInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -2409,6 +2428,8 @@ interface WhatsAppProviderActionInterface
 >>>>>>> 848f79b79 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+>>>>>>> c188e2a18 (.)
 >>>>>>> d09cb759 (.)
 =======
 }
@@ -2633,6 +2654,7 @@ interface WhatsAppProviderActionInterface
 >>>>>>> efb0f8d9 (rebase 210)
 =======
 >>>>>>> 9f8e680a (rebase 210)
+<<<<<<< HEAD
 =======
 }
 >>>>>>> 7ffa94fc (rebase 210)
@@ -3457,3 +3479,5 @@ interface WhatsAppProviderActionInterface
 >>>>>>> a0788fa28 (.)
 =======
 >>>>>>> 69f695548 (.)
+=======
+>>>>>>> c188e2a18 (.)

@@ -499,6 +499,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -564,6 +565,8 @@
 =======
 >>>>>>> 229a065a (rebase 210)
 =======
+>>>>>>> 9f8e680a (rebase 210)
+=======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
@@ -681,6 +684,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -697,6 +701,8 @@
 >>>>>>> 848f79b79 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+>>>>>>> c188e2a18 (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -937,6 +943,7 @@
 >>>>>>> 9c45d9bd (rebase 210)
 =======
 >>>>>>> 7c957f01 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 9f8e680a (rebase 210)
@@ -1880,6 +1887,10 @@
 >>>>>>> ce1853afd (.)
 =======
 >>>>>>> 1e641aeb2 (.)
+=======
+=======
+>>>>>>> 9f8e680a (rebase 210)
+>>>>>>> c188e2a18 (.)
 <?php
 
 declare(strict_types=1);
@@ -1888,6 +1899,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <tr>
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2169,6 +2181,8 @@ declare(strict_types=1);
 =======
 >>>>>>> 229a065a (rebase 210)
 =======
+>>>>>>> 9f8e680a (rebase 210)
+=======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
@@ -2289,6 +2303,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -2305,6 +2320,8 @@ declare(strict_types=1);
 >>>>>>> 848f79b79 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+>>>>>>> c188e2a18 (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -2462,6 +2479,7 @@ declare(strict_types=1);
 >>>>>>> 8a8a8e2f (rebase 210)
 =======
 >>>>>>> 9f8e680a (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 7ffa94fc (rebase 210)
 =======
@@ -2912,6 +2930,8 @@ declare(strict_types=1);
 >>>>>>> a0788fa28 (.)
 =======
 >>>>>>> 69f695548 (.)
+=======
+>>>>>>> c188e2a18 (.)
 <tr>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4760,6 +4780,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
 =======
@@ -4955,6 +4976,8 @@ declare(strict_types=1);
 >>>>>>> ce1853afd (.)
 =======
 >>>>>>> 1e641aeb2 (.)
+=======
+>>>>>>> c188e2a18 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -5450,6 +5473,10 @@ declare(strict_types=1);
 					<div class="article-content" align="left">
 =======
 >>>>>>> 229a065a (rebase 210)
+=======
+					<div class="article-content" align="left">
+=======
+>>>>>>> 9f8e680a (rebase 210)
 <<<<<<< HEAD
 =======
 					<div class="article-content" align="left">
@@ -5632,6 +5659,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -5648,6 +5676,8 @@ declare(strict_types=1);
 >>>>>>> 848f79b79 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+>>>>>>> c188e2a18 (.)
 >>>>>>> d09cb759 (.)
 =======
 					<div class="article-content" align="left">
@@ -6758,6 +6788,7 @@ declare(strict_types=1);
 >>>>>>> 7c957f01 (rebase 210)
 =======
 >>>>>>> 9f8e680a (rebase 210)
+<<<<<<< HEAD
 =======
 					<div class="article-content" align="left">
 >>>>>>> 7ffa94fc (rebase 210)
@@ -7584,3 +7615,5 @@ declare(strict_types=1);
 					<div class="article-content" align="left">
 >>>>>>> 7c957f01 (rebase 210)
 >>>>>>> 1e641aeb2 (.)
+=======
+>>>>>>> c188e2a18 (.)

@@ -1131,6 +1131,7 @@ describe('Theme Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1601,6 +1602,10 @@ describe('Theme Management Business Logic', function () {
 });
 =======
 >>>>>>> 229a065a (rebase 210)
+=======
+});
+=======
+>>>>>>> 9f8e680a (rebase 210)
 <<<<<<< HEAD
 =======
 });
@@ -1803,6 +1808,7 @@ describe('Theme Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -1819,6 +1825,8 @@ describe('Theme Management Business Logic', function () {
 >>>>>>> 848f79b79 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+>>>>>>> c188e2a18 (.)
 >>>>>>> d09cb759 (.)
 =======
 });
@@ -2276,6 +2284,7 @@ describe('Theme Management Business Logic', function () {
 >>>>>>> efb0f8d9 (rebase 210)
 =======
 >>>>>>> 9f8e680a (rebase 210)
+<<<<<<< HEAD
 =======
 });
 >>>>>>> 7ffa94fc (rebase 210)
@@ -2611,3 +2620,5 @@ describe('Theme Management Business Logic', function () {
 >>>>>>> a0788fa28 (.)
 =======
 >>>>>>> 69f695548 (.)
+=======
+>>>>>>> c188e2a18 (.)
