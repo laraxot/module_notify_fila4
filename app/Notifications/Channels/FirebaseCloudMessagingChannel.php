@@ -242,6 +242,7 @@ final class FirebaseCloudMessagingChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -539,6 +540,8 @@ final class FirebaseCloudMessagingChannel
 >>>>>>> cb85c538 (rebase 210)
 =======
 >>>>>>> 1c0eb9c7 (rebase 210)
+=======
+>>>>>>> a9bf0423 (rebase 210)
                 self::$logger->debug(sprintf(
                     "FCM notification debug:\n%s",
                     json_encode($notificationDebugData, JSON_PRETTY_PRINT),
@@ -552,6 +555,7 @@ final class FirebaseCloudMessagingChannel
                 json_encode($notification->toArray(null), JSON_THROW_ON_ERROR),
                 json_encode($userNotificationTokens->toArray(), JSON_THROW_ON_ERROR),
             ));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -836,6 +840,9 @@ final class FirebaseCloudMessagingChannel
 =======
 =======
 >>>>>>> 51182e3c (rebase 210)
+=======
+=======
+>>>>>>> a9bf0423 (rebase 210)
                 self::$logger
                     ->debug(
                         sprintf(
@@ -855,6 +862,7 @@ final class FirebaseCloudMessagingChannel
                         json_encode($userNotificationTokens->toArray(), JSON_THROW_ON_ERROR),
                     )
                 );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1245,6 +1253,9 @@ final class FirebaseCloudMessagingChannel
 >>>>>>> cb85c538 (rebase 210)
 =======
 >>>>>>> 1c0eb9c7 (rebase 210)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> a9bf0423 (rebase 210)
             self::$logger->error(json_encode($exception->getTrace(), JSON_PRETTY_PRINT));
         }
     }
@@ -1268,6 +1279,7 @@ final class FirebaseCloudMessagingChannel
          */
         $registrationTokens = $userDeviceTokens->toArray();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1662,10 +1674,13 @@ final class FirebaseCloudMessagingChannel
 >>>>>>> cb85c538 (rebase 210)
 =======
 >>>>>>> 1c0eb9c7 (rebase 210)
+=======
+>>>>>>> a9bf0423 (rebase 210)
         return $this->firebaseCloudMessaging->sendMulticast(
             message: $notification->toCloudMessage(),
             registrationTokens: $registrationTokens,
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1955,11 +1970,15 @@ final class FirebaseCloudMessagingChannel
 =======
 =======
 >>>>>>> 51182e3c (rebase 210)
+=======
+=======
+>>>>>>> a9bf0423 (rebase 210)
         return $this->firebaseCloudMessaging
             ->sendMulticast(
                 message: $notification->toCloudMessage(),
                 registrationTokens: $registrationTokens,
             );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2341,6 +2360,9 @@ final class FirebaseCloudMessagingChannel
 >>>>>>> cb85c538 (rebase 210)
 =======
 >>>>>>> 1c0eb9c7 (rebase 210)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> a9bf0423 (rebase 210)
     }
 
     /**
