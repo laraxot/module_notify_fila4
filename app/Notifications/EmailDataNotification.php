@@ -181,6 +181,7 @@ class EmailDataNotification extends Notification
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -317,6 +318,8 @@ class EmailDataNotification extends Notification
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 3f537838 (.)
      * @param object $_notifiable The entity to be notified (not used in this method)
 =======
 =======
@@ -367,6 +370,7 @@ class EmailDataNotification extends Notification
      * @return array<string>
      */
     public function via(object $_notifiable): array
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -857,6 +861,8 @@ class EmailDataNotification extends Notification
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
     {
         return ['mail'];
     }
@@ -882,6 +888,7 @@ class EmailDataNotification extends Notification
      */
     public function toMail(object $notifiable): MailMessage
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1295,11 +1302,14 @@ class EmailDataNotification extends Notification
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
         $mailMessage = new MailMessage()
             ->subject($this->emailData->subject)
             ->line($this->emailData->body);
 
         if (!empty($this->emailData->body_html)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1911,6 +1921,8 @@ class EmailDataNotification extends Notification
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
             $mailMessage->view('notify::emails.template', [
 =======
 =======
@@ -2022,6 +2034,7 @@ class EmailDataNotification extends Notification
             ]);
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2339,22 +2352,9 @@ class EmailDataNotification extends Notification
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
         if (!empty($this->emailData->from_email) && !empty($this->emailData->from)) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        if (!empty($this->emailData->from_email) && !empty($this->emailData->from)) {
-=======
-        if (! empty($this->emailData->from_email) && ! empty($this->emailData->from)) {
->>>>>>> a12f125f4a (.)
-=======
-        if (!empty($this->emailData->from_email) && !empty($this->emailData->from)) {
->>>>>>> b93ef594b4 (.)
-=======
-        if (! empty($this->emailData->from_email) && ! empty($this->emailData->from)) {
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
             $mailMessage->from($this->emailData->from_email, $this->emailData->from);
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)

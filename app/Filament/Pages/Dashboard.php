@@ -70,6 +70,7 @@ namespace Modules\Notify\Filament\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -156,6 +157,8 @@ namespace Modules\Notify\Filament\Pages;
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
 use Modules\Xot\Filament\Pages\XotBaseDashboard;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -422,21 +425,6 @@ use Modules\Xot\Filament\Pages\XotBaseDashboard;
 use Modules\Xot\Filament\Pages\XotBaseDashboard;
 >>>>>>> 75179b855 (.)
 use Modules\Xot\Filament\Pages\XotBasePage;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Modules\Xot\Filament\Pages\XotBaseDashboard;
-use Modules\Xot\Filament\Pages\XotBasePage;
-=======
-use Modules\Xot\Filament\Pages\XotBasePage;
-use Modules\Xot\Filament\Pages\XotBaseDashboard;
->>>>>>> a12f125f4a (.)
-=======
-use Modules\Xot\Filament\Pages\XotBaseDashboard;
-use Modules\Xot\Filament\Pages\XotBasePage;
->>>>>>> b93ef594b4 (.)
->>>>>>> d284d65 (.)
 
 class Dashboard extends XotBaseDashboard
 {
@@ -458,19 +446,6 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> 75179b855 (.)
 
     protected string $view = 'notify::filament.pages.dashboard';
-<<<<<<< HEAD
-=======
-=======
-use Modules\Xot\Filament\Pages\XotBasePage;
-use Modules\Xot\Filament\Pages\XotBaseDashboard;
-
-class Dashboard extends XotBaseDashboard
-{
-    protected static ?string $navigationIcon = 'heroicon-o-home';
-
-    protected static string $view = 'notify::filament.pages.dashboard';
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 
     public function mount(): void
     {
@@ -538,6 +513,7 @@ class Dashboard extends XotBaseDashboard
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -738,11 +714,14 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
          * $user = auth()->user();
          * if (! $user->hasRole('super-admin')) {
          * redirect('/admin');
          * }
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1177,5 +1156,7 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
     }
 }
