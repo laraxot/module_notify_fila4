@@ -3088,6 +3088,7 @@ class GenericNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -3269,6 +3270,8 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> dab6c3768 (.)
         $mail = new MailMessage()
 =======
         $mail = (new MailMessage())
@@ -3481,10 +3484,13 @@ class GenericNotification extends Notification implements ShouldQueue
 =======
 >>>>>>> 379ffe3f3 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> cbb586cb0 (.)
 =======
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> dab6c3768 (.)
 <<<<<<< HEAD
 >>>>>>> 1fd232c7 (.)
 =======
@@ -3579,6 +3585,7 @@ class GenericNotification extends Notification implements ShouldQueue
 =======
 >>>>>>> 9cf0dc90 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1fd232c (.)
 >>>>>>> d298dd9c (.)
@@ -3628,6 +3635,11 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> 53d9bada0 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+=======
+>>>>>>> 1fd232c (.)
+>>>>>>> d298dd9c (.)
+>>>>>>> dab6c3768 (.)
         $mail = new MailMessage()
 =======
         $mail = (new MailMessage())
@@ -3647,12 +3659,15 @@ class GenericNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 998e6866b (.)
 =======
 >>>>>>> 53d9bada0 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> dab6c3768 (.)
 >>>>>>> 518c702 (.)
 >>>>>>> f963d2c0 (.)
 =======
@@ -3668,6 +3683,7 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> 518c702 (.)
 >>>>>>> 9cf0dc90 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d298dd9c (.)
 =======
@@ -3678,6 +3694,10 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> 53d9bada0 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+=======
+>>>>>>> d298dd9c (.)
+>>>>>>> dab6c3768 (.)
 
         // Aggiungi eventuali azioni se specificate nei dati
         if (isset($this->data['action_text'], $this->data['action_url'])) {

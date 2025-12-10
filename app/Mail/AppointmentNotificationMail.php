@@ -355,6 +355,7 @@ use Illuminate\Queue\SerializesModels;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 // use Modules\SaluteOra\Models\Appointment;
 // use Modules\SaluteOra\Models\Appointment;
 
@@ -404,6 +405,8 @@ use Illuminate\Queue\SerializesModels;
 // use Modules\SaluteOra\Models\Appointment;
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> dab6c3768 (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -412,6 +415,8 @@ use Illuminate\Queue\SerializesModels;
 =======
 >>>>>>> 518c702 (.)
 >>>>>>> f963d2c (.)
+=======
+>>>>>>> 1fd232c (.)
 // use Modules\SaluteOra\Models\Appointment;
 
 >>>>>>> 82ae73b (.)
@@ -833,6 +838,7 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  array<string, mixed>  $notificationData
 <<<<<<< HEAD
      * @param array<string, mixed> $notificationData
@@ -1329,6 +1335,9 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
      * @param array<string, mixed> $notificationData
 >>>>>>> 518c702 (.)
 >>>>>>> 379ffe3f3 (.)
+=======
+     * @param array<string, mixed> $notificationData
+>>>>>>> dab6c3768 (.)
      */
     public function __construct(array $notificationData)
     {
@@ -1342,6 +1351,7 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
     {
         $appointment = $this->notificationData['appointment'];
         $type = $this->notificationData['type'];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1463,10 +1473,13 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 >>>>>>> d298dd9c2 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> dab6c3768 (.)
 
 >>>>>>> 82ae73b (.)
         $subject = match ($type) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1789,12 +1802,19 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
         $subject = match($type) {
 >>>>>>> 518c702 (.)
 >>>>>>> 379ffe3f3 (.)
+=======
+=======
+>>>>>>> 1fd232c (.)
+        
+        $subject = match($type) {
+>>>>>>> dab6c3768 (.)
             'confirmed' => 'Conferma Appuntamento',
             'reminder' => 'Promemoria Appuntamento',
             'cancelled' => 'Cancellazione Appuntamento',
             'rescheduled' => 'Modifica Appuntamento',
             default => 'Notifica Appuntamento',
         };
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1819,6 +1839,8 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 >>>>>>> 998e6866b (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> dab6c3768 (.)
 
 <<<<<<< HEAD
         if (is_object($appointment) && isset($appointment->id) && $appointment->id) {
@@ -1916,6 +1938,7 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 >>>>>>> 82ae73b (.)
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2507,13 +2530,20 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 >>>>>>> f813254 (.)
 >>>>>>> 26d39e2eb (.)
 =======
+=======
+=======
+>>>>>>> 1fd232c (.)
+>>>>>>> dab6c3768 (.)
         
         if (is_object($appointment) && isset($appointment->id) && $appointment->id) {
             $subject .= ' #' . $appointment->id;
         }
         
+<<<<<<< HEAD
 >>>>>>> 518c702 (.)
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> dab6c3768 (.)
         return new Envelope(
             subject: $subject,
             tags: ['appointment', $type],
@@ -2598,6 +2628,7 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
     public function content(): Content
     {
         $type = $this->notificationData['type'];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2731,11 +2762,14 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 >>>>>>> d298dd9c2 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> dab6c3768 (.)
 
         // Determina il template da utilizzare in base al tipo di notifica
 >>>>>>> 82ae73b (.)
         $view = match ($type) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3109,12 +3143,20 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+=======
+>>>>>>> 1fd232c (.)
+        
+        // Determina il template da utilizzare in base al tipo di notifica
+        $view = match($type) {
+>>>>>>> dab6c3768 (.)
             'confirmed' => 'notify::emails.appointments.confirmed',
             'reminder' => 'notify::emails.appointments.reminder',
             'cancelled' => 'notify::emails.appointments.cancelled',
             'rescheduled' => 'notify::emails.appointments.rescheduled',
             default => 'notify::emails.appointments.generic',
         };
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3140,6 +3182,9 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
         
 >>>>>>> 518c702 (.)
 >>>>>>> 379ffe3f3 (.)
+=======
+        
+>>>>>>> dab6c3768 (.)
         return new Content(
             view: $view,
             with: [

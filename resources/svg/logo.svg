@@ -114,6 +114,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1193,7 +1194,12 @@
 >>>>>>> 58816034 (.)
 =======
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 379ffe3f3 (.)
+=======
+=======
+>>>>>>> d298dd9c (.)
+>>>>>>> dab6c3768 (.)
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg"
      fill="none"
@@ -7772,7 +7778,12 @@
 >>>>>>> 9777d1b (.)
 =======
 >>>>>>> f963d2c (.)
+<<<<<<< HEAD
 >>>>>>> 379ffe3f3 (.)
+=======
+=======
+>>>>>>> 1fd232c (.)
+>>>>>>> dab6c3768 (.)
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" 
      fill="none" 
@@ -7868,10 +7879,6 @@
         <circle cx="12" cy="12" r="8" stroke-width="0.5" opacity="0.3" stroke-dasharray="3 6" />
         <circle cx="12" cy="12" r="12" stroke-width="0.5" opacity="0.2" stroke-dasharray="4 8" />
     </g>
-=======
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
->>>>>>> 518c702 (.)
 </svg>
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD

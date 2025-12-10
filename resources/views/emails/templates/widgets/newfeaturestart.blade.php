@@ -547,6 +547,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -1454,6 +1455,8 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 9f07b0d4 (.)
 =======
 >>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> d298dd9c (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4051,6 +4054,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 e width="100%" cellpadding="0" cellspacing="0" border="0">
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1fd232c (.)
 =======
@@ -4063,6 +4067,10 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+=======
+>>>>>>> 1fd232c (.)
+>>>>>>> dab6c3768 (.)
 <?php
 
 declare(strict_types=1);
@@ -5007,10 +5015,19 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 4b0fcdd41 (.)
 =======
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
+<<<<<<< HEAD
 >>>>>>> 518c702 (.)
 >>>>>>> f963d2c (.)
+<<<<<<< HEAD
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 379ffe3f3 (.)
+=======
+=======
+=======
+>>>>>>> 1fd232c (.)
+>>>>>>> d298dd9c (.)
+>>>>>>> dab6c3768 (.)
 	<tr>
 		<td bgcolor="{{ isset($color) ? $color : '#85bdad' }}" nowrap>
 			<img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="5" height="1">
@@ -5022,6 +5039,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 <<<<<<< HEAD
 					<td bgcolor="#ffffff" class="contentblock">
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5867,6 +5885,8 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 4b0fcdd41 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> dab6c3768 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -8801,6 +8821,8 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 =======
 >>>>>>> 9cf0dc90 (.)
 =======
+>>>>>>> d298dd9c (.)
+=======
 					<td bgcolor="#ffffff" class="contentblock">
 >>>>>>> 75179b8 (.)
 =======
@@ -8844,5 +8866,14 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 					<td bgcolor="#ffffff" class="contentblock">
 >>>>>>> 518c702 (.)
 >>>>>>> f963d2c (.)
+<<<<<<< HEAD
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 379ffe3f3 (.)
+=======
+=======
+=======
+					<td bgcolor="#ffffff" class="contentblock">
+>>>>>>> 1fd232c (.)
+>>>>>>> d298dd9c (.)
+>>>>>>> dab6c3768 (.)
