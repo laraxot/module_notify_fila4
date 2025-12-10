@@ -134,6 +134,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -518,6 +519,8 @@
 >>>>>>> 460b8f5b (rebase 210)
 =======
 >>>>>>> 4d253d2c (rebase 210)
+=======
+>>>>>>> 9fe1b60e (rebase 210)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -806,6 +809,7 @@ return [
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 ];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1208,6 +1212,9 @@ return [
 =======
 =======
 >>>>>>> a9bf0423 (rebase 210)
+=======
+=======
+>>>>>>> 9fe1b60e (rebase 210)
 return array (
   'resource' => 
   array (
@@ -1447,6 +1454,7 @@ return array (
     'label' => 'mail template.model',
   ),
 );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1960,3 +1968,6 @@ return array (
 >>>>>>> 460b8f5b (rebase 210)
 =======
 >>>>>>> 4d253d2c (rebase 210)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9fe1b60e (rebase 210)

@@ -539,6 +539,7 @@ $this->call('queue:prune-batches', [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1206,10 +1207,13 @@ command=php /var/www/html/_bases/base_techplanner_fila3_mono/laravel/artisan que
 >>>>>>> 4d253d2c (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9fe1b60e (rebase 210)
 # Supervisor config
 [program:<nome progetto>-worker]
 process_name=%(program_name)s_%(process_num)02d
 command=php /var/www/html/_bases/base_techplanner_fila3_mono/laravel/artisan queue:work redis --queue=emails
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1449,6 +1453,10 @@ command=php /var/www/html/_bases/base_techplanner_fila3_mono/laravel/artisan que
 >>>>>>> 4d253d2c (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9fe1b60e (rebase 210)
 
 # Supervisor config
 [program:<nome progetto>-worker]
@@ -1786,6 +1794,7 @@ php artisan queue:restart
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -2361,3 +2370,8 @@ php artisan queue:restart
 =======
 - [Redis Documentation](https://redis.io/documentation)
 >>>>>>> 4fc21b78 (rebase 210)
+=======
+- [Redis Documentation](https://redis.io/documentation)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9fe1b60e (rebase 210)

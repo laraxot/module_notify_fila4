@@ -203,6 +203,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'from' => env('SMS_FROM', '<nome progetto>'),
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -912,7 +913,11 @@ return [
 >>>>>>> bf479cc (.)
 >>>>>>> 3d462363 (rebase 210)
 =======
+=======
+>>>>>>> 9fe1b60e (rebase 210)
     'from' => env('SMS_FROM', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
     'from' => env('SMS_FROM', 'SaluteOra'),
 >>>>>>> 4fc21b78 (rebase 210)
     'retry' => [
@@ -1055,6 +1060,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1764,7 +1770,11 @@ return [
 >>>>>>> bf479cc (.)
 >>>>>>> 3d462363 (rebase 210)
 =======
+=======
+>>>>>>> 9fe1b60e (rebase 210)
             'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
             'sender' => env('NETFUN_SENDER', 'SaluteOra'),
 >>>>>>> 4fc21b78 (rebase 210)
             'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
@@ -1964,6 +1974,7 @@ Quando configuri il file `.env`, utilizza questi nomi di variabili:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 SMS_FROM=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2673,7 +2684,11 @@ SMS_FROM=<nome progetto>
 >>>>>>> bf479cc (.)
 >>>>>>> 3d462363 (rebase 210)
 =======
+=======
+>>>>>>> 9fe1b60e (rebase 210)
 SMS_FROM=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
 SMS_FROM=SaluteOra
 >>>>>>> 4fc21b78 (rebase 210)
 SMS_RETRY_ATTEMPTS=3
@@ -2807,6 +2822,7 @@ NETFUN_API_KEY=your_api_key_here
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 NETFUN_SENDER=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3516,7 +3532,11 @@ NETFUN_SENDER=<nome progetto>
 >>>>>>> bf479cc (.)
 >>>>>>> 3d462363 (rebase 210)
 =======
+=======
+>>>>>>> 9fe1b60e (rebase 210)
 NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
 NETFUN_SENDER=SaluteOra
 >>>>>>> 4fc21b78 (rebase 210)
 NETFUN_API_URL=https://v2.smsviainternet.it/api/rest/v1/sms-batch.json
