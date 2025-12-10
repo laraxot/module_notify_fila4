@@ -1767,6 +1767,7 @@ final class WhatsAppActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c8b1c8bf (.)
@@ -1819,6 +1820,8 @@ final class WhatsAppActionFactory
 =======
 >>>>>>> bf251cdf0 (.)
 =======
+>>>>>>> 7aeb7d968 (.)
+=======
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> a404ea71 (.)
@@ -1860,6 +1863,7 @@ final class WhatsAppActionFactory
 >>>>>>> d13ead25 (.)
 =======
 >>>>>>> 3d542a31 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
@@ -2193,6 +2197,8 @@ final class WhatsAppActionFactory
 =======
 >>>>>>> d13ead25 (.)
 >>>>>>> bf251cdf0 (.)
+=======
+>>>>>>> 7aeb7d968 (.)
         $normalizedDriver = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower((string) $driver)));
 
 <<<<<<< HEAD
@@ -2814,11 +2820,14 @@ final class WhatsAppActionFactory
 =======
 =======
 >>>>>>> 4ad63a5 (.)
+=======
+>>>>>>> d5d0864 (.)
         $normalizedDriver = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower((string) $driver)));
 
         if (!is_string($normalizedDriver)) {
             $normalizedDriver = '';
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8d298d6 (.)
 <<<<<<< HEAD
@@ -2832,8 +2841,16 @@ final class WhatsAppActionFactory
         $normalizedDriver = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower(is_string($driver) ? $driver : '')));
 >>>>>>> 0db165c (.)
 >>>>>>> 4ad63a5 (.)
+<<<<<<< HEAD
 >>>>>>> d13ead25 (.)
+<<<<<<< HEAD
 >>>>>>> bf251cdf0 (.)
+=======
+=======
+=======
+>>>>>>> d5d0864 (.)
+>>>>>>> 3d542a31 (.)
+>>>>>>> 7aeb7d968 (.)
 
         // Costruisci il nome completo della classe
         $className = "\\Modules\\Notify\\Actions\\WhatsApp\\Send{$normalizedDriver}WhatsAppAction";

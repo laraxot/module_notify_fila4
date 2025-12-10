@@ -1017,6 +1017,7 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 1619767d8 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 4bec160e6 (.)
 =======
 <<<<<<< HEAD
@@ -1051,6 +1052,9 @@ class NotificationTemplateVersionTest extends TestCase
 =======
 <<<<<<< HEAD
 >>>>>>> bf251cdf0 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 7aeb7d968 (.)
         $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
 =======
 <<<<<<< HEAD
@@ -2473,6 +2477,7 @@ class NotificationTemplateVersionTest extends TestCase
 =======
         $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
 >>>>>>> 3d542a31 (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -2562,6 +2567,8 @@ class NotificationTemplateVersionTest extends TestCase
 =======
 >>>>>>> d13ead25 (.)
 >>>>>>> bf251cdf0 (.)
+=======
+>>>>>>> 7aeb7d968 (.)
     }
 
     /** @test */

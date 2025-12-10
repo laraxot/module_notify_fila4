@@ -1795,6 +1795,7 @@ class NormalizePhoneNumberAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1809,7 +1810,12 @@ class NormalizePhoneNumberAction
 =======
 =======
 >>>>>>> 4ad63a5 (.)
+<<<<<<< HEAD
 >>>>>>> bf251cdf0 (.)
+=======
+=======
+>>>>>>> d5d0864 (.)
+>>>>>>> 7aeb7d968 (.)
     public function execute(string|array $phoneNumber): string
     {
         // Convert array to string if needed
@@ -1824,6 +1830,7 @@ class NormalizePhoneNumberAction
 =======
 <<<<<<< HEAD
         
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 99ff506 (.)
@@ -1853,7 +1860,12 @@ class NormalizePhoneNumberAction
     {
 >>>>>>> 0db165c (.)
 >>>>>>> 4ad63a5 (.)
+<<<<<<< HEAD
 >>>>>>> d13ead25 (.)
+=======
+=======
+>>>>>>> d5d0864 (.)
+>>>>>>> 3d542a31 (.)
         // Rimuove parentesi e il loro contenuto
 <<<<<<< HEAD
 <<<<<<< HEAD
