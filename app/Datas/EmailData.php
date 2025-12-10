@@ -37,6 +37,7 @@ class EmailData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -682,11 +683,15 @@ class EmailData extends Data
 =======
 >>>>>>> 4689a827 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a070a65a5 (.)
 =======
     public null|string $from = null;
 
     public null|string $from_email = null;
 >>>>>>> 2941b0bd (.)
+<<<<<<< HEAD
 =======
     public null|string $from = null;
 
@@ -995,6 +1000,8 @@ class EmailData extends Data
 >>>>>>> 1619767d8 (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> a070a65a5 (.)
 
     public string $subject;
 
@@ -1088,6 +1095,7 @@ class EmailData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1366,6 +1374,7 @@ class EmailData extends Data
 =======
 >>>>>>> 4689a827 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     public string $body = '';
 >>>>>>> 2941b0bd (.)
@@ -1555,6 +1564,11 @@ class EmailData extends Data
 >>>>>>> 1619767d8 (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+=======
+    public string $body = '';
+>>>>>>> 2941b0bd (.)
+>>>>>>> a070a65a5 (.)
 
     public array $attachments = [];
 
@@ -1657,6 +1671,7 @@ class EmailData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1870,6 +1885,7 @@ class EmailData extends Data
 =======
 >>>>>>> 4689a827 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2941b0bd (.)
 =======
@@ -1906,6 +1922,10 @@ class EmailData extends Data
 >>>>>>> 1619767d8 (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+=======
+>>>>>>> 2941b0bd (.)
+>>>>>>> a070a65a5 (.)
         null|string $from = null,
         null|string $from_email = null,
         null|string $body = null,
@@ -1919,6 +1939,7 @@ class EmailData extends Data
         if (!is_string($from_email)) {
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2667,6 +2688,7 @@ class EmailData extends Data
 >>>>>>> d284d65 (.)
 >>>>>>> 4689a827 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2941b0bd (.)
 =======
@@ -2733,6 +2755,10 @@ class EmailData extends Data
 >>>>>>> 1619767d8 (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+=======
+>>>>>>> 2941b0bd (.)
+>>>>>>> a070a65a5 (.)
             Assert::string($from_email = config('mail.from.address', 'default@example.com'));
         }
         $this->from_email = $from_email;
@@ -2872,12 +2898,15 @@ class EmailData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82ae73be (.)
 >>>>>>> 10292b60a (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> a070a65a5 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3417,11 +3446,15 @@ class EmailData extends Data
 =======
 >>>>>>> 4689a827 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a070a65a5 (.)
 =======
         $this->subject = strip_tags($subject); // Sanitize the subject
         $this->body_html = $body_html;
         $this->body = $body ?? strip_tags($body_html); // Default to plain-text version of HTML body
 >>>>>>> 2941b0bd (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 3f39ac8b (.)
 =======
@@ -3634,6 +3667,8 @@ class EmailData extends Data
 >>>>>>> 1619767d8 (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> a070a65a5 (.)
         $this->attachments = $attachments;
     }
 
@@ -3725,6 +3760,7 @@ class EmailData extends Data
     {
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3926,6 +3962,7 @@ class EmailData extends Data
 =======
 >>>>>>> 4689a827 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2941b0bd (.)
 =======
@@ -4038,6 +4075,10 @@ class EmailData extends Data
 >>>>>>> 1619767d8 (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+=======
+>>>>>>> 2941b0bd (.)
+>>>>>>> a070a65a5 (.)
         if ($this->body === '') {
             $this->body = strip_tags($this->body_html);
         }
@@ -5211,28 +5252,6 @@ class EmailData extends Data
 =======
 >>>>>>> 0f81dc21 (.)
         $email = new MimeEmail()
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> origin/develop
-        if ( $this->body=='') {
-            $this->body = strip_tags($this->body_html);
-        }
-
-        $email = (new MimeEmail())
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-        if ($this->body === '') {
-            $this->body = strip_tags($this->body_html);
-        }
-
-        $email = new MimeEmail()
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
             ->from($this->getFrom())
             ->to($this->to)
             ->subject(strip_tags($this->subject))
@@ -5439,6 +5458,7 @@ class EmailData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             Assert::string($attachment, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
 >>>>>>> 58816034 (.)
@@ -5466,6 +5486,8 @@ class EmailData extends Data
 >>>>>>> 1619767d8 (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> a070a65a5 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -5736,6 +5758,7 @@ class EmailData extends Data
 =======
             Assert::string($attachment, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
 >>>>>>> 2941b0bd (.)
+<<<<<<< HEAD
 =======
             Assert::string($attachment, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
 >>>>>>> 5fd545e4 (.)
@@ -5983,6 +6006,8 @@ class EmailData extends Data
 >>>>>>> 1619767d8 (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> a070a65a5 (.)
             $email->attachFromPath($attachment); // string $path, ?string $name = null, ?string $contentType = null
         }
 

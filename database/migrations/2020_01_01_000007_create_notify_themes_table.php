@@ -105,6 +105,7 @@ return new class() extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 888799d0 (.)
@@ -136,6 +137,8 @@ return new class extends XotBaseMigration
 >>>>>>> 1619767d8 (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> a070a65a5 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -682,6 +685,7 @@ return new class() extends XotBaseMigration {
 =======
 >>>>>>> 4689a827 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 return new class() extends XotBaseMigration {
 >>>>>>> 2941b0bd (.)
@@ -778,6 +782,11 @@ return new class() extends XotBaseMigration {
 >>>>>>> 1619767d8 (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+=======
+return new class() extends XotBaseMigration {
+>>>>>>> 2941b0bd (.)
+>>>>>>> a070a65a5 (.)
     // use XotBaseMigrationTrait;
     /**
      * Run the migrations.
@@ -869,6 +878,7 @@ return new class() extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -1106,6 +1116,7 @@ return new class() extends XotBaseMigration {
 =======
 >>>>>>> 4689a827 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2941b0bd (.)
 =======
@@ -1142,6 +1153,10 @@ return new class() extends XotBaseMigration {
 >>>>>>> 1619767d8 (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+=======
+>>>>>>> 2941b0bd (.)
+>>>>>>> a070a65a5 (.)
         $this->tableCreate(function (Blueprint $table): void {
             $table->increments('id');
             $table->string('lang')->nullable();
@@ -1149,10 +1164,6 @@ return new class() extends XotBaseMigration {
             $table->string('subject')->nullable();
             $table->text('body')->nullable();
         });
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
 
         // -- UPDATE --
         $this->tableUpdate(function (Blueprint $table): void {
@@ -1301,6 +1312,7 @@ return new class() extends XotBaseMigration {
         }); // end update
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2146,6 +2158,7 @@ return new class() extends XotBaseMigration {
 >>>>>>> d284d65 (.)
 >>>>>>> 4689a827 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2941b0bd (.)
 =======
@@ -2187,6 +2200,10 @@ return new class() extends XotBaseMigration {
 >>>>>>> 1619767d8 (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+=======
+>>>>>>> 2941b0bd (.)
+>>>>>>> a070a65a5 (.)
     }
 
     // end function up

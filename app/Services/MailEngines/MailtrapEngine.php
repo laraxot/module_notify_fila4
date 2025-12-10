@@ -9,8 +9,8 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Services\MailEngines;
 
-<<<<<<< HEAD
 use InvalidArgumentException;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -238,6 +238,8 @@ use InvalidArgumentException;
 >>>>>>> 11b43e822 (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> a070a65a5 (.)
 use ErrorException;
 use Exception;
 use Illuminate\Mail\Message;
@@ -416,11 +418,14 @@ class MailtrapEngine
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     public ?string $from = null;
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> a070a65a5 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -826,6 +831,7 @@ class MailtrapEngine
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     public null|string $from = null;
@@ -1063,6 +1069,11 @@ class MailtrapEngine
 >>>>>>> 1619767d8 (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+=======
+    public null|string $from = null;
+>>>>>>> 2941b0bd (.)
+>>>>>>> a070a65a5 (.)
 
     public string $to;
 
@@ -1070,6 +1081,7 @@ class MailtrapEngine
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1294,7 +1306,12 @@ class MailtrapEngine
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> 8dc1f2ed6 (.)
+=======
+=======
+>>>>>>> 2941b0bd (.)
+>>>>>>> a070a65a5 (.)
     public null|string $body = null;
 >>>>>>> 1487fe812 (.)
 
@@ -1315,6 +1332,7 @@ class MailtrapEngine
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1916,7 +1934,12 @@ class MailtrapEngine
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> 8dc1f2ed6 (.)
+=======
+=======
+>>>>>>> 2941b0bd (.)
+>>>>>>> a070a65a5 (.)
             self::$instance = new self();
 <<<<<<< HEAD
 =======
@@ -2101,6 +2124,7 @@ class MailtrapEngine
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         Assert::string($this->body, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
 >>>>>>> 98d837b9 (.)
@@ -2153,6 +2177,8 @@ class MailtrapEngine
 >>>>>>> 1619767d8 (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> a070a65a5 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2390,6 +2416,7 @@ class MailtrapEngine
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
@@ -2760,6 +2787,11 @@ class MailtrapEngine
 >>>>>>> 1619767d8 (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+=======
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+>>>>>>> 2941b0bd (.)
+>>>>>>> a070a65a5 (.)
         Mail::raw($this->body, function (Message $msg): void {
             // Verifichiamo che $this->to sia valido
             $to = $this->to;
@@ -2770,6 +2802,7 @@ class MailtrapEngine
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2937,14 +2970,9 @@ class MailtrapEngine
 >>>>>>> 11b43e822 (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
-                throw new InvalidArgumentException('Il destinatario email non è valido');
 =======
-<<<<<<< HEAD
+>>>>>>> a070a65a5 (.)
                 throw new InvalidArgumentException('Il destinatario email non è valido');
-=======
-                throw new \InvalidArgumentException('Il destinatario email non è valido');
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
             }
 
             $msg->to($to)->subject('Test Email');
@@ -3037,6 +3065,7 @@ class MailtrapEngine
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -3265,6 +3294,7 @@ class MailtrapEngine
 =======
 
 >>>>>>> 2941b0bd (.)
+<<<<<<< HEAD
 =======
 
 =======
@@ -3465,6 +3495,8 @@ class MailtrapEngine
 >>>>>>> 1619767d8 (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> a070a65a5 (.)
         // Dead catch - ErrorException is never thrown in the try block.
         // } catch (ErrorException $e) {
         //    throw new Exception('['.__LINE__.']['.class_basename($this).']');

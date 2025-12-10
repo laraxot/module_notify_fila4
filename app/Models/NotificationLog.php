@@ -111,6 +111,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1028,6 +1029,7 @@ class NotificationLog extends Model
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -1047,6 +1049,8 @@ class NotificationLog extends Model
 =======
 >>>>>>> 4689a827 (.)
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> a070a65a5 (.)
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
@@ -1204,6 +1208,7 @@ final class NotificationLog extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -1214,6 +1219,8 @@ final class NotificationLog extends BaseModel
 >>>>>>> b207a9b1a (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> a070a65a5 (.)
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
@@ -1924,7 +1931,12 @@ final class NotificationLog extends BaseModel
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> 8dc1f2ed6 (.)
+=======
+=======
+>>>>>>> 2941b0bd (.)
+>>>>>>> a070a65a5 (.)
      */
     protected $table = 'notification_logs';
 
@@ -2137,6 +2149,7 @@ final class NotificationLog extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -2153,6 +2166,8 @@ final class NotificationLog extends BaseModel
 >>>>>>> 1619767d8 (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> a070a65a5 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2252,6 +2267,7 @@ final class NotificationLog extends BaseModel
 =======
 >>>>>>> 4689a827 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2941b0bd (.)
 =======
@@ -2286,6 +2302,10 @@ final class NotificationLog extends BaseModel
 >>>>>>> 1619767d8 (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+=======
+>>>>>>> 2941b0bd (.)
+>>>>>>> a070a65a5 (.)
      * Scope per filtrare i log per notifiable.
      */
     public function scopeForNotifiable(
@@ -2349,6 +2369,7 @@ final class NotificationLog extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -2365,6 +2386,8 @@ final class NotificationLog extends BaseModel
 >>>>>>> 1619767d8 (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> a070a65a5 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3006,6 +3029,7 @@ final class NotificationLog extends BaseModel
 =======
 >>>>>>> 4689a827 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2941b0bd (.)
 =======
@@ -3118,6 +3142,10 @@ final class NotificationLog extends BaseModel
 >>>>>>> 1619767d8 (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+=======
+>>>>>>> 2941b0bd (.)
+>>>>>>> a070a65a5 (.)
         return $query->where('status', $status);
     }
 
@@ -3211,6 +3239,7 @@ final class NotificationLog extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -3443,6 +3472,7 @@ final class NotificationLog extends BaseModel
 =======
 >>>>>>> 4689a827 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2941b0bd (.)
 =======
@@ -3479,6 +3509,10 @@ final class NotificationLog extends BaseModel
 >>>>>>> 1619767d8 (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+=======
+>>>>>>> 2941b0bd (.)
+>>>>>>> a070a65a5 (.)
      * Scope per filtrare i log per template.
      */
     public function scopeForTemplate(
@@ -3489,6 +3523,7 @@ final class NotificationLog extends BaseModel
 <<<<<<< HEAD
     }
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4110,83 +4145,35 @@ final class NotificationLog extends BaseModel
 =======
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> 8dc1f2ed6 (.)
+=======
+=======
+>>>>>>> 2941b0bd (.)
+>>>>>>> a070a65a5 (.)
     }
 
     /**
-     * Scope to filter by notifiable entity.
-     *
-     * @param Builder<static> $query
-     * @return Builder<static>
+     * Marca il log come aperto.
      */
-    public function scopeForNotifiable($query, Model $notifiable)
-    {
-        return $query->where('notifiable_type', get_class($notifiable))
-            ->where('notifiable_id', $notifiable->getKey());
-    }
-
-    /**
-     * Mark the notification as sent.
-     */
-    public function markAsSent(): self
+    public function markAsOpened(): void
     {
         $this->update([
-            'status' => self::STATUS_SENT,
-            'sent_at' => now(),
-        ]);
-
-        return $this;
-    }
-
-    /**
-     * Mark the notification as delivered.
-     */
-    public function markAsDelivered(): self
-    {
-        $this->update([
-            'status' => self::STATUS_DELIVERED,
-            'delivered_at' => now(),
-        ]);
-
-        return $this;
-    }
-
-    /**
-     * Mark the notification as failed.
-     */
-    public function markAsFailed(?string $message = null): self
-    {
-        $this->update([
-            'status' => self::STATUS_FAILED,
-            'status_message' => $message,
-            'failed_at' => now(),
-        ]);
-
-        return $this;
-    }
-
-    /**
-     * Mark the notification as opened.
-     */
-    public function markAsOpened(): self
-    {
-        $this->update([
-            'status' => self::STATUS_OPENED,
+            'status' => NotificationLogStatusEnum::OPENED,
             'opened_at' => now(),
         ]);
-
-        return $this;
     }
 
     /**
-     * Mark the notification as clicked.
+     * Marca il log come cliccato.
      */
-    public function markAsClicked(): self
+    public function markAsClicked(): void
     {
         $this->update([
-            'status' => self::STATUS_CLICKED,
+            'status' => NotificationLogStatusEnum::CLICKED,
             'clicked_at' => now(),
         ]);
+<<<<<<< HEAD
 
         return $this;
     }
@@ -4824,6 +4811,7 @@ final class NotificationLog extends BaseModel
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 3f39ac8b (.)
 =======
@@ -4919,6 +4907,8 @@ final class NotificationLog extends BaseModel
 >>>>>>> 1619767d8 (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> a070a65a5 (.)
     }
 
     /**
