@@ -710,6 +710,7 @@ class MailTemplateSecurityTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1232,6 +1233,7 @@ class MailTemplateSecurityTest extends TestCase
 >>>>>>> ba564870 (.)
 =======
 >>>>>>> 66453ace (.)
+<<<<<<< HEAD
 =======
 =======
 
@@ -1633,6 +1635,8 @@ class MailTemplateSecurityTest extends TestCase
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 9d67cabd (.)
 >>>>>>> 4f19d70d2 (.)
+=======
+>>>>>>> 138485550 (.)
 # Esegui tutti i test
 php artisan test --filter=MailTemplate
 
@@ -1854,6 +1858,7 @@ php artisan test --coverage --filter=MailTemplate
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1914,6 +1919,7 @@ php artisan test --coverage --filter=MailTemplate
 >>>>>>> ba564870 (.)
 =======
 >>>>>>> 66453ace (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9cdf6146 (.)
 =======
@@ -2332,6 +2338,8 @@ php artisan test --coverage --filter=MailTemplate
 >>>>>>> d3a8af4d5 (.)
 =======
 >>>>>>> 4f19d70d2 (.)
+=======
+>>>>>>> 138485550 (.)
 - [Testing Guide](../../../docs/testing-guide.md)
 - [CI/CD Pipeline](../../../docs/ci-cd.md)
 
@@ -2341,6 +2349,7 @@ php artisan test --coverage --filter=MailTemplate
 <<<<<<< HEAD
 - [Pest PHP](https://pestphp.com/docs) 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3239,6 +3248,7 @@ php artisan test --coverage --filter=MailTemplate
 =======
 - [Pest PHP](https://pestphp.com/docs) 
 >>>>>>> 66453ace (.)
+<<<<<<< HEAD
 =======
 - [Pest PHP](https://pestphp.com/docs) 
 =======
@@ -3628,3 +3638,5 @@ php artisan test --coverage --filter=MailTemplate
 >>>>>>> d3a8af4d5 (.)
 =======
 >>>>>>> 4f19d70d2 (.)
+=======
+>>>>>>> 138485550 (.)

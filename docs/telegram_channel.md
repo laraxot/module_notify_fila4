@@ -655,6 +655,7 @@ class TelegramTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -739,6 +740,7 @@ class TelegramTest extends TestCase
 >>>>>>> ee18dd92 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 66453ace (.)
@@ -845,6 +847,10 @@ class TelegramTest extends TestCase
 >>>>>>> 4bec160e6 (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+=======
+>>>>>>> 66453ace (.)
+>>>>>>> 138485550 (.)
 - [Laravel Notifications](https://laravel.com/project_docs/notifications)
 - [Laravel Queues](https://laravel.com/project_docs/queues)
 - [Laravel Testing](https://laravel.com/project_docs/testing)
@@ -852,6 +858,7 @@ class TelegramTest extends TestCase
 - [Laravel Cache](https://laravel.com/project_docs/cache) 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1386,6 +1393,7 @@ class TelegramTest extends TestCase
 >>>>>>> ba564870 (.)
 =======
 >>>>>>> 66453ace (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d284d65 (.)
@@ -1723,6 +1731,8 @@ class TelegramTest extends TestCase
 >>>>>>> d3a8af4d5 (.)
 =======
 >>>>>>> 4f19d70d2 (.)
+=======
+>>>>>>> 138485550 (.)
 - [Laravel Notifications](https://laravel.com/docs/notifications)
 - [Laravel Queues](https://laravel.com/docs/queues)
 - [Laravel Testing](https://laravel.com/docs/testing)
@@ -1731,6 +1741,7 @@ class TelegramTest extends TestCase
 <<<<<<< HEAD
 - [Laravel Cache](https://laravel.com/docs/cache) 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2415,6 +2426,7 @@ class TelegramTest extends TestCase
 =======
 - [Laravel Cache](https://laravel.com/docs/cache) 
 >>>>>>> 66453ace (.)
+<<<<<<< HEAD
 =======
 - [Laravel Cache](https://laravel.com/docs/cache) 
 =======
@@ -2892,3 +2904,5 @@ class TelegramTest extends TestCase
 >>>>>>> d3a8af4d5 (.)
 =======
 >>>>>>> 4f19d70d2 (.)
+=======
+>>>>>>> 138485550 (.)

@@ -700,6 +700,7 @@ SMS_FROM_NAME=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 SMS_FROM_NAME=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1230,6 +1231,7 @@ SMS_FROM_NAME=SaluteOra
 SMS_FROM_NAME=<nome progetto>
 >>>>>>> bf479cc (.)
 >>>>>>> 6608a1a0 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -1806,6 +1808,12 @@ SMS_FROM_NAME=SaluteOra
 >>>>>>> 4bec160e6 (.)
 =======
 >>>>>>> 01af324fe (.)
+=======
+=======
+SMS_FROM_NAME=<nome progetto>
+SMS_FROM_NAME=SaluteOra
+>>>>>>> 66453ace (.)
+>>>>>>> 138485550 (.)
 SMS_FROM_NUMBER=+393331234567
 SMS_DEBUG=false
 
@@ -2192,6 +2200,7 @@ Log::info('SMS inviato', [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2274,6 +2283,7 @@ Log::info('SMS inviato', [
 >>>>>>> ee18dd92 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 66453ace (.)
@@ -2368,6 +2378,10 @@ Log::info('SMS inviato', [
 >>>>>>> 4bec160e6 (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+=======
+>>>>>>> 66453ace (.)
+>>>>>>> 138485550 (.)
 - [Laravel Notifications](https://laravel.com/project_docs/notifications)
 - [Laravel Queues](https://laravel.com/project_docs/queues)
 - [Laravel Testing](https://laravel.com/project_docs/testing)
@@ -2375,6 +2389,7 @@ Log::info('SMS inviato', [
 - [Laravel Cache](https://laravel.com/project_docs/cache) 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2861,6 +2876,7 @@ Log::info('SMS inviato', [
 >>>>>>> ba564870 (.)
 =======
 >>>>>>> 66453ace (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d284d65 (.)
@@ -3156,6 +3172,8 @@ Log::info('SMS inviato', [
 >>>>>>> d3a8af4d5 (.)
 =======
 >>>>>>> 4f19d70d2 (.)
+=======
+>>>>>>> 138485550 (.)
 - [Laravel Notifications](https://laravel.com/docs/notifications)
 - [Laravel Queues](https://laravel.com/docs/queues)
 - [Laravel Testing](https://laravel.com/docs/testing)
@@ -3164,6 +3182,7 @@ Log::info('SMS inviato', [
 <<<<<<< HEAD
 - [Laravel Cache](https://laravel.com/docs/cache) 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3788,6 +3807,7 @@ Log::info('SMS inviato', [
 =======
 - [Laravel Cache](https://laravel.com/docs/cache) 
 >>>>>>> 66453ace (.)
+<<<<<<< HEAD
 =======
 - [Laravel Cache](https://laravel.com/docs/cache) 
 =======
@@ -4205,3 +4225,5 @@ Log::info('SMS inviato', [
 >>>>>>> d3a8af4d5 (.)
 =======
 >>>>>>> 4f19d70d2 (.)
+=======
+>>>>>>> 138485550 (.)

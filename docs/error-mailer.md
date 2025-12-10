@@ -463,6 +463,7 @@ class ErrorLogResource extends Resource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
     public static function form(Form $form): Form
@@ -585,6 +586,7 @@ class ErrorLogResource extends Resource
 =======
     public static function form(Form $form): Form
 >>>>>>> 6608a1a0 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     public static function form(Form $form): Form
@@ -723,6 +725,11 @@ class ErrorLogResource extends Resource
 >>>>>>> 4bec160e6 (.)
 =======
 >>>>>>> 01af324fe (.)
+=======
+=======
+    public static function form(Form $form): Form
+>>>>>>> 66453ace (.)
+>>>>>>> 138485550 (.)
     {
         return $form->schema([
             Card::make()->schema([
@@ -1150,6 +1157,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Laravel Exceptions](https://laravel.com/project_docs/errors)
 - [Filament Forms](https://filamentphp.com/project_docs/forms)
@@ -1206,6 +1214,7 @@ return [
 - [Discord Webhooks](https://discord.com/developers/project_docs/resources/webhook)
 >>>>>>> 6608a1a0 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 66453ace (.)
 =======
@@ -1215,6 +1224,10 @@ return [
 >>>>>>> 23cbbaf5 (.)
 =======
 >>>>>>> 01af324fe (.)
+=======
+=======
+>>>>>>> 66453ace (.)
+>>>>>>> 138485550 (.)
 - [Laravel Exceptions](https://laravel.com/docs/errors)
 - [Filament Forms](https://filamentphp.com/docs/forms)
 - [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)

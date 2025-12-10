@@ -366,6 +366,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 31f5d28f (.)
@@ -616,6 +617,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 =======
 >>>>>>> 6608a1a0 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 66453ace (.)
 =======
@@ -713,6 +715,10 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> 4bec160e6 (.)
 =======
 >>>>>>> 01af324fe (.)
+=======
+=======
+>>>>>>> 66453ace (.)
+>>>>>>> 138485550 (.)
 - [Architettura Filament](../../../../docs/architecture/filament.md)
 - [Gestione Pagine](../../../../docs/architecture/pages.md)
 

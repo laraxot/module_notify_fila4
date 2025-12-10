@@ -348,6 +348,7 @@ class ErrorLogResource extends Resource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
     public static function form(Form $form): Form
@@ -372,6 +373,7 @@ class ErrorLogResource extends Resource
 =======
     public static function form(Form $form): Form
 >>>>>>> ee18dd92 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     public static function form(Form $form): Form
@@ -503,6 +505,11 @@ class ErrorLogResource extends Resource
 >>>>>>> 12a7e2462 (.)
 =======
 >>>>>>> 4bec160e6 (.)
+=======
+=======
+    public static function form(Form $form): Form
+>>>>>>> 66453ace (.)
+>>>>>>> 138485550 (.)
     {
         return $form->schema([
             Card::make()->schema([
@@ -771,6 +778,7 @@ return [
 - [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
 - [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1738,12 +1746,16 @@ return [
 - [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
 >>>>>>> ca10d6ad (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 138485550 (.)
 =======
 - [Laravel Exceptions](https://laravel.com/docs/errors)
 - [Filament Forms](https://filamentphp.com/docs/forms)
 - [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
 - [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
 >>>>>>> 66453ace (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d284d65 (.)
 - [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
@@ -2240,3 +2252,5 @@ return [
 >>>>>>> 01af324fe (.)
 =======
 >>>>>>> 8c6d84fe6 (.)
+=======
+>>>>>>> 138485550 (.)

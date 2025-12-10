@@ -489,6 +489,7 @@ cd /var/www/html/_bases/base_<nome progetto>/laravel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 =======
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
@@ -821,6 +822,7 @@ cd /var/www/html/_bases/base_saluteora/laravel
 =======
 cd /var/www/html/_bases/base_saluteora/laravel
 >>>>>>> ca10d6ad (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 cd /var/www/html/_bases/base_saluteora/laravel
@@ -1002,6 +1004,11 @@ cd /var/www/html/_bases/base_saluteora/laravel
 >>>>>>> 01af324fe (.)
 =======
 >>>>>>> 8c6d84fe6 (.)
+=======
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 66453ace (.)
+>>>>>>> 138485550 (.)
 php -l Modules/Notify/lang/it/send_email.php
 
 # Output: No syntax errors detected
@@ -1029,6 +1036,7 @@ php -l Modules/Notify/lang/it/send_email.php
 <<<<<<< HEAD
 - [Best Practice Filament](../../../docs/FILAMENT-BEST-PRACTICES.md)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1319,6 +1327,7 @@ php -l Modules/Notify/lang/it/send_email.php
 =======
 >>>>>>> ca10d6ad (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 66453ace (.)
 =======
@@ -1473,6 +1482,10 @@ php -l Modules/Notify/lang/it/send_email.php
 >>>>>>> 01af324fe (.)
 =======
 >>>>>>> 8c6d84fe6 (.)
+=======
+=======
+>>>>>>> 66453ace (.)
+>>>>>>> 138485550 (.)
 - [Best Practice Filament](../../../docs/FILAMENT-BEST-PRACTICES.md)
 =======
 - [Best Practice Filament](../../../docs/FILAMENT-BEST-PRACTICES.md)
@@ -1780,6 +1793,7 @@ php -l Modules/Notify/lang/it/send_email.php
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione- `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
 >>>>>>> 75179b85 (.)
@@ -1841,6 +1855,7 @@ php -l Modules/Notify/lang/it/send_email.php
 >>>>>>> ca10d6ad (.)
 =======
 >>>>>>> 66453ace (.)
+<<<<<<< HEAD
 =======
 =======
 - `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione- `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
@@ -2067,6 +2082,8 @@ php -l Modules/Notify/lang/it/send_email.php
 =======
 >>>>>>> ca10d6ad (.)
 >>>>>>> 8c6d84fe6 (.)
+=======
+>>>>>>> 138485550 (.)
 - `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione
 - `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
 - `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione- `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione

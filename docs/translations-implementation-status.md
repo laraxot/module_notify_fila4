@@ -239,6 +239,7 @@ Questo documento fornisce una panoramica completa dello stato attuale dell'imple
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento fornisce una panoramica completa dello stato attuale dell'implementazione delle traduzioni nel modulo Notify, identificando le convenzioni in uso, le discrepanze con le convenzioni generali di <nome progetto> e le azioni necessarie per garantire la coerenza.
 =======
 Questo documento fornisce una panoramica completa dello stato attuale dell'implementazione delle traduzioni nel modulo Notify, identificando le convenzioni in uso, le discrepanze con le convenzioni generali di  e le azioni necessarie per garantire la coerenza.
@@ -679,6 +680,7 @@ Questo documento fornisce una panoramica completa dello stato attuale dell'imple
 =======
 Questo documento fornisce una panoramica completa dello stato attuale dell'implementazione delle traduzioni nel modulo Notify, identificando le convenzioni in uso, le discrepanze con le convenzioni generali di SaluteOra e le azioni necessarie per garantire la coerenza.
 >>>>>>> 66453ace (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 23cbbaf5 (.)
 =======
@@ -736,6 +738,8 @@ Questo documento fornisce una panoramica completa dello stato attuale dell'imple
 >>>>>>> 01af324fe (.)
 =======
 >>>>>>> 8c6d84fe6 (.)
+=======
+>>>>>>> 138485550 (.)
 
 ## Convenzioni Attuali nel Modulo Notify
 
@@ -899,6 +903,7 @@ Esiste una discrepanza tra le convenzioni utilizzate nel modulo Notify e le conv
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Esiste una discrepanza tra le convenzioni utilizzate nel modulo Notify e le convenzioni generali di <nome progetto>:
 =======
 Esiste una discrepanza tra le convenzioni utilizzate nel modulo Notify e le convenzioni generali di :
@@ -1339,6 +1344,7 @@ Esiste una discrepanza tra le convenzioni utilizzate nel modulo Notify e le conv
 =======
 Esiste una discrepanza tra le convenzioni utilizzate nel modulo Notify e le convenzioni generali di SaluteOra:
 >>>>>>> 66453ace (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 23cbbaf5 (.)
 =======
@@ -1396,6 +1402,8 @@ Esiste una discrepanza tra le convenzioni utilizzate nel modulo Notify e le conv
 >>>>>>> 01af324fe (.)
 =======
 >>>>>>> 8c6d84fe6 (.)
+=======
+>>>>>>> 138485550 (.)
 
 1. **Convenzioni Generali (Modules/Lang/docs/TRANSLATION_KEYS_RULES.md)**:
    - Struttura gerarchica espansa senza chiavi come `.navigation`

@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1470,6 +1471,8 @@ php artisan notify:test-push
 >>>>>>> 12a7e2462 (.)
 =======
 >>>>>>> 4bec160e6 (.)
+=======
+>>>>>>> 138485550 (.)
 # Modulo Notify - Analisi Completa
 
 ## Panoramica del Modulo
@@ -1761,6 +1764,7 @@ Il modulo **Notify** gestisce il sistema completo di notifiche per progetti Lara
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1791,10 +1795,13 @@ Il modulo **Notify** gestisce il sistema completo di notifiche per progetti Lara
 >>>>>>> 12a7e2462 (.)
 =======
 >>>>>>> 4bec160e6 (.)
+=======
+>>>>>>> 138485550 (.)
 **Ultimo aggiornamento**: Dicembre 2024  
 **Versione**: 1.0  
 **Stato**: Test business logic completati (95% copertura)  
 **Prossimi passi**: Completamento test modelli base (BaseModel, BaseMorphPivot, BasePivot)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1973,3 +1980,5 @@ Il modulo **Notify** gestisce il sistema completo di notifiche per progetti Lara
 >>>>>>> 12a7e2462 (.)
 =======
 >>>>>>> 4bec160e6 (.)
+=======
+>>>>>>> 138485550 (.)

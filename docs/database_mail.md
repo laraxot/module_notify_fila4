@@ -371,6 +371,7 @@ class EmailTemplateResource extends Resource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
     public static function form(Form $form): Form
@@ -389,6 +390,7 @@ class EmailTemplateResource extends Resource
 =======
     public static function form(Form $form): Form
 >>>>>>> ee18dd92 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     public static function form(Form $form): Form
@@ -529,6 +531,11 @@ class EmailTemplateResource extends Resource
 >>>>>>> 12a7e2462 (.)
 =======
 >>>>>>> 4bec160e6 (.)
+=======
+=======
+    public static function form(Form $form): Form
+>>>>>>> 66453ace (.)
+>>>>>>> 138485550 (.)
     {
         return $form->schema([
             Card::make()->schema([
@@ -954,6 +961,7 @@ class ProcessDoctorModerationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1476,6 +1484,7 @@ class ProcessDoctorModerationAction
 >>>>>>> ba564870 (.)
 =======
 >>>>>>> 66453ace (.)
+<<<<<<< HEAD
 =======
 =======
 
@@ -1877,6 +1886,8 @@ class ProcessDoctorModerationAction
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 9d67cabd (.)
 >>>>>>> 4f19d70d2 (.)
+=======
+>>>>>>> 138485550 (.)
 # Registrazione Approvata
 
 Gentile {{ $doctor->name }},
@@ -1937,6 +1948,7 @@ Cordiali saluti,<br>
 - [TinyMCE](https://www.tiny.cloud)
 - [Filament Forms](https://filamentphp.com/docs/forms)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3363,6 +3375,7 @@ Cordiali saluti,<br>
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Spatie Mail Templates](https://github.com/spatie/laravel-database-mail-templates)
 - [TinyMCE](https://www.tiny.cloud)
+<<<<<<< HEAD
 <<<<<<< HEAD
 - [Filament Forms](https://filamentphp.com/docs/forms)
 <<<<<<< HEAD
@@ -3894,3 +3907,7 @@ Cordiali saluti,<br>
 >>>>>>> d3a8af4d5 (.)
 =======
 >>>>>>> 4f19d70d2 (.)
+=======
+- [Filament Forms](https://filamentphp.com/docs/forms)
+>>>>>>> 66453ace (.)
+>>>>>>> 138485550 (.)

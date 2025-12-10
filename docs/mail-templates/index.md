@@ -310,6 +310,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione Generale <nome progetto>](../../../../../docs/README.md)
 =======
 - [Documentazione Generale ](../../../../../docs/README.md)
@@ -472,6 +473,7 @@
 - [Documentazione Generale ](../../../../../docs/README.md)
 - [Documentazione Generale <nome progetto>](../../../../../docs/README.md)
 >>>>>>> 6608a1a0 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 - [Documentazione Generale SaluteOra](../../../../../docs/README.md)
@@ -631,6 +633,11 @@
 >>>>>>> 4bec160e6 (.)
 =======
 >>>>>>> 01af324fe (.)
+=======
+=======
+- [Documentazione Generale SaluteOra](../../../../../docs/README.md)
+>>>>>>> 66453ace (.)
+>>>>>>> 138485550 (.)
 - [Collegamenti Documentazione](../../../../../docs/collegamenti-documentazione.md)
 
 ## Struttura e Architettura

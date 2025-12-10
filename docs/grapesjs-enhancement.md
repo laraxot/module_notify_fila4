@@ -360,6 +360,7 @@ public static function form(Form $form): Form {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema {
 =======
 public static function form(Form $form): Form {
@@ -482,6 +483,7 @@ public static function form(Form $form): Form {
 =======
 public static function form(Form $form): Form {
 >>>>>>> 6608a1a0 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 public static function form(Form $form): Form {
@@ -620,6 +622,11 @@ public static function form(Form $form): Form {
 >>>>>>> 4bec160e6 (.)
 =======
 >>>>>>> 01af324fe (.)
+=======
+=======
+public static function form(Form $form): Form {
+>>>>>>> 66453ace (.)
+>>>>>>> 138485550 (.)
     return $form->schema([
         TextInput::make('name')->required(),
         GrapesJsEditor::make('content_json')
@@ -829,6 +836,7 @@ class PublishPageTemplateAction {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - GrapesJS Docs: https://grapesjs.com/project_docs/
 >>>>>>> 75179b85 (.)
@@ -867,6 +875,7 @@ class PublishPageTemplateAction {
 - GrapesJS Docs: https://grapesjs.com/project_docs/
 >>>>>>> 6608a1a0 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 66453ace (.)
 =======
@@ -874,6 +883,10 @@ class PublishPageTemplateAction {
 >>>>>>> 23cbbaf5 (.)
 =======
 >>>>>>> 01af324fe (.)
+=======
+=======
+>>>>>>> 66453ace (.)
+>>>>>>> 138485550 (.)
 - GrapesJS Docs: https://grapesjs.com/docs/
 =======
 >>>>>>> 5fd545e4 (.)

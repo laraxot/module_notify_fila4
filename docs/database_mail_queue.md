@@ -514,6 +514,7 @@ $users->each(function ($user) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -987,6 +988,7 @@ $users->each(function ($user) {
 >>>>>>> ba564870 (.)
 =======
 >>>>>>> 66453ace (.)
+<<<<<<< HEAD
 =======
 =======
 
@@ -1337,6 +1339,8 @@ $users->each(function ($user) {
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 9d67cabd (.)
 >>>>>>> 4f19d70d2 (.)
+=======
+>>>>>>> 138485550 (.)
 # Avvia worker dedicato
 php artisan queue:work --queue=emails
 
@@ -1649,6 +1653,7 @@ command=php /var/www/html/_bases/base_<nome progetto>/laravel/artisan queue:work
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -3528,6 +3533,7 @@ command=php /var/www/_bases/base_ptv_fila3_mono/laravel/artisan queue:work redis
 =======
 >>>>>>> ba564870 (.)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 7325acf3 (.)
 # Supervisor config
@@ -3764,6 +3770,13 @@ command=php /var/www/html/base_<nome progetto>/artisan queue:work redis --queue=
 >>>>>>> d3a8af4d5 (.)
 =======
 >>>>>>> 4f19d70d2 (.)
+=======
+# Supervisor config
+[program:<nome progetto>-worker]
+process_name=%(program_name)s_%(process_num)02d
+command=php /var/www/html/_bases/base_<nome progetto>/laravel/artisan queue:work redis --queue=emails
+>>>>>>> 66453ace (.)
+>>>>>>> 138485550 (.)
 autostart=true
 autorestart=true
 numprocs=4
@@ -4051,6 +4064,7 @@ if ($failedJobs > $threshold) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -4524,6 +4538,7 @@ if ($failedJobs > $threshold) {
 >>>>>>> ba564870 (.)
 =======
 >>>>>>> 66453ace (.)
+<<<<<<< HEAD
 =======
 =======
 
@@ -4874,6 +4889,8 @@ if ($failedJobs > $threshold) {
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 9d67cabd (.)
 >>>>>>> 4f19d70d2 (.)
+=======
+>>>>>>> 138485550 (.)
 # Pulizia job vecchi
 php artisan queue:prune-failed --hours=168
 php artisan queue:prune-batches --hours=24
@@ -5074,6 +5091,7 @@ php artisan queue:restart
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -5284,6 +5302,7 @@ php artisan queue:restart
 >>>>>>> ba564870 (.)
 =======
 >>>>>>> 66453ace (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9cdf6146 (.)
 =======
@@ -5503,6 +5522,8 @@ php artisan queue:restart
 >>>>>>> d3a8af4d5 (.)
 =======
 >>>>>>> 4f19d70d2 (.)
+=======
+>>>>>>> 138485550 (.)
 - [Queue Configuration](../../../docs/queue-configuration.md)
 
 ## Vedi Anche
@@ -5511,6 +5532,7 @@ php artisan queue:restart
 <<<<<<< HEAD
 - [Redis Documentation](https://redis.io/documentation)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6321,6 +6343,7 @@ php artisan queue:restart
 =======
 - [Redis Documentation](https://redis.io/documentation)
 >>>>>>> 66453ace (.)
+<<<<<<< HEAD
 =======
 - [Redis Documentation](https://redis.io/documentation)
 =======
@@ -6662,3 +6685,5 @@ php artisan queue:restart
 >>>>>>> d3a8af4d5 (.)
 =======
 >>>>>>> 4f19d70d2 (.)
+=======
+>>>>>>> 138485550 (.)
