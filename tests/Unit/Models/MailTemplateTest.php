@@ -1046,8 +1046,6 @@ use Modules\Notify\Models\MailTemplate;
 use Tests\TestCase;
 >>>>>>> 4d253d2c (rebase 210)
 
-use function Safe\json_encode;
-
 class MailTemplateTest extends TestCase
 {
     use RefreshDatabase;
