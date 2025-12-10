@@ -212,6 +212,7 @@ use Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -250,6 +251,7 @@ use Tests\TestCase;
 >>>>>>> dceba960 (.)
 =======
 >>>>>>> 8e5817bc (.)
+<<<<<<< HEAD
 =======
 >>>>>>> bd804d67 (.)
 =======
@@ -395,6 +397,8 @@ use Tests\TestCase;
 =======
 >>>>>>> dceba960 (.)
 >>>>>>> 9cb55171f (.)
+=======
+>>>>>>> 2641c2944 (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\Notification;
 use Tests\TestCase;
@@ -476,6 +480,7 @@ use Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a115e2aad (.)
@@ -483,6 +488,8 @@ use Tests\TestCase;
 >>>>>>> db0bc148f (.)
 =======
 >>>>>>> 9cb55171f (.)
+=======
+>>>>>>> 2641c2944 (.)
 =======
 >>>>>>> 82ae73be (.)
 >>>>>>> 10292b60a (.)
@@ -537,6 +544,7 @@ use Tests\TestCase;
 =======
 >>>>>>> 3b4c9907 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8e5817bc (.)
 =======
@@ -589,6 +597,10 @@ use Tests\TestCase;
 >>>>>>> 138fcd4b0 (.)
 =======
 >>>>>>> db0bc148f (.)
+=======
+=======
+>>>>>>> 8e5817bc (.)
+>>>>>>> 2641c2944 (.)
 use Tests\TestCase;
 use Modules\Notify\Models\Notification;
 use Illuminate\Foundation\Testing\RefreshDatabase;
@@ -636,6 +648,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -648,6 +661,8 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> 138fcd4b0 (.)
 =======
 >>>>>>> db0bc148f (.)
+=======
+>>>>>>> 2641c2944 (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1536,6 +1551,7 @@ use Tests\TestCase;
 >>>>>>> 9d84f153 (.)
 =======
 >>>>>>> 8e5817bc (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> e0d9c9be (.)
@@ -2080,6 +2096,8 @@ use Tests\TestCase;
 >>>>>>> 9cb55171f (.)
 =======
 >>>>>>> bc2faa05b (.)
+=======
+>>>>>>> 2641c2944 (.)
 
 class NotificationTest extends TestCase
 {

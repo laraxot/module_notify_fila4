@@ -445,6 +445,7 @@ This document serves as the central index for the Notify module, providing guida
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 888799d0 (.)
 =======
@@ -611,6 +612,8 @@ This document serves as the central index for the Notify module, providing guida
 >>>>>>> a115e2aad (.)
 =======
 >>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 2641c2944 (.)
 =======
 =======
 >>>>>>> bf479cc (.)
@@ -1833,6 +1836,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 =======
 >>>>>>> 8e5817bc (.)
 =======
+<<<<<<< HEAD
 >>>>>>> e0d9c9be (.)
 =======
 >>>>>>> 7a2f131f (.)
@@ -1848,6 +1852,8 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 =======
 =======
 >>>>>>> 998e6866b (.)
+=======
+>>>>>>> 2641c2944 (.)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1933,6 +1939,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 =======
 =======
 >>>>>>> e5b598a (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8e5817bc (.)
 =======
@@ -2023,6 +2030,9 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 >>>>>>> a115e2aad (.)
 =======
 >>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 8e5817bc (.)
+>>>>>>> 2641c2944 (.)
 # Indice della Documentazione - Modulo Notify
 
 ## Panoramica
@@ -2733,6 +2743,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -2751,6 +2762,8 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 >>>>>>> be45a0b8d (.)
 =======
 >>>>>>> a115e2aad (.)
+=======
+>>>>>>> 2641c2944 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2905,6 +2918,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 >>>>>>> c4bdacbf (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8e5817bc (.)
 =======
 >>>>>>> e0d9c9be (.)
@@ -2915,6 +2929,10 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 =======
 =======
 >>>>>>> a115e2aad (.)
+=======
+>>>>>>> 8e5817bc (.)
+=======
+>>>>>>> 2641c2944 (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 >>>>>>> 95531e1 (.)
@@ -2985,12 +3003,16 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 >>>>>>> 4e643df (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2641c2944 (.)
 >>>>>>> c4bdacbf (.)
 =======
 =======
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> e5b598a (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8e5817bc (.)
 =======
@@ -3552,6 +3574,9 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 =======
 >>>>>>> c4bdacbf (.)
 >>>>>>> a115e2aad (.)
+=======
+>>>>>>> 8e5817bc (.)
+>>>>>>> 2641c2944 (.)
 
 ## Sottocartelle
 
@@ -3816,7 +3841,10 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 2641c2944 (.)
 ### Miglioramenti Qualità Codice (2025-01-06)
 - **PHPStan Livello 10**: Analisi completa e correzione errori di tipizzazione
   - Corretti 16 errori principali nel modulo Notify
@@ -3864,6 +3892,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> c6c33175 (.)
 =======
 >>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 8e5817bc (.)
@@ -4649,6 +4678,10 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> be45a0b8d (.)
 =======
 >>>>>>> a115e2aad (.)
+=======
+=======
+>>>>>>> 8e5817bc (.)
+>>>>>>> 2641c2944 (.)
 Ultimo aggiornamento: 14 Maggio 2025
 
 ## Risoluzione conflitti e standard
@@ -4873,6 +4906,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> 4e643df (.)
 =======
 >>>>>>> e5b598a (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -4938,6 +4972,8 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 =======
 >>>>>>> 4e643df (.)
 >>>>>>> a115e2aad (.)
+=======
+>>>>>>> 2641c2944 (.)
 ## Risoluzione Conflitti e Standard
 - **Gennaio 2025**: Risoluzione sistematica di tutti i conflitti Git nei file di documentazione:
   - `index.md` - Unificato contenuto italiano e inglese mantenendo struttura completa
@@ -4991,6 +5027,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> 7aae79847 (.)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5077,6 +5114,8 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 =======
 >>>>>>> a115e2aad (.)
 =======
+>>>>>>> 2641c2944 (.)
+=======
 >>>>>>> f813254 (.)
 =======
 >>>>>>> d5c4b93 (.)
@@ -5087,6 +5126,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 =======
 >>>>>>> 4e643df (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5152,6 +5192,10 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> be45a0b8d (.)
 =======
 >>>>>>> a115e2aad (.)
+=======
+>>>>>>> e5b598a (.)
+=======
+>>>>>>> 2641c2944 (.)
 Ultimo aggiornamento: 14 Maggio 2025
 
 ## Risoluzione conflitti e standard
@@ -5171,10 +5215,13 @@ Ultimo aggiornamento: 14 Maggio 2025
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> a115e2aad (.)
+=======
+>>>>>>> 2641c2944 (.)
 - Vedi anche: [../../../../project_docs/README.md](../../../../project_docs/README.md)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 >>>>>>> b19cd40 (.)
@@ -6017,6 +6064,9 @@ Ultimo aggiornamento: 14 Maggio 2025
 >>>>>>> 94c68e2 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2641c2944 (.)
 >>>>>>> bb7e77c2 (.)
 =======
 =======
@@ -6024,6 +6074,7 @@ Ultimo aggiornamento: 14 Maggio 2025
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 >>>>>>> b19cd40 (.)
 >>>>>>> e5b598a (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8e5817bc (.)
 =======
@@ -6285,3 +6336,6 @@ Ultimo aggiornamento: 14 Maggio 2025
 =======
 >>>>>>> bb7e77c2 (.)
 >>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 8e5817bc (.)
+>>>>>>> 2641c2944 (.)
