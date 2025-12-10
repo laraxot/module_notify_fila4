@@ -61,6 +61,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -134,6 +135,7 @@
 >>>>>>> 4f3927d7 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 9cf0dc90 (.)
@@ -195,6 +197,10 @@
 >>>>>>> 602b8a0a9 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+=======
+>>>>>>> 9cf0dc90 (.)
+>>>>>>> 379ffe3f3 (.)
 # Test del Sistema di Gestione Email - il progetto
 
 ## Panoramica
@@ -543,6 +549,7 @@ class MailTemplateSecurityTest extends TestCase
 ```bash
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1421,6 +1428,7 @@ class MailTemplateSecurityTest extends TestCase
 >>>>>>> 58816034 (.)
 =======
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2065,6 +2073,8 @@ class MailTemplateSecurityTest extends TestCase
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
 # Esegui tutti i test
 php artisan test --filter=MailTemplate
 
@@ -2326,6 +2336,7 @@ php artisan test --coverage --filter=MailTemplate
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2733,6 +2744,7 @@ php artisan test --coverage --filter=MailTemplate
 >>>>>>> 58816034 (.)
 =======
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2959,6 +2971,8 @@ php artisan test --coverage --filter=MailTemplate
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
 - [Testing Guide](../../../docs/testing-guide.md)
 - [CI/CD Pipeline](../../../docs/ci-cd.md)
 
@@ -2968,6 +2982,7 @@ php artisan test --coverage --filter=MailTemplate
 <<<<<<< HEAD
 - [Pest PHP](https://pestphp.com/docs) 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4438,6 +4453,7 @@ php artisan test --coverage --filter=MailTemplate
 =======
 - [Pest PHP](https://pestphp.com/docs) 
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 =======
 - [Pest PHP](https://pestphp.com/docs) 
 >>>>>>> 75179b85 (.)
@@ -4759,3 +4775,5 @@ php artisan test --coverage --filter=MailTemplate
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> 379ffe3f3 (.)

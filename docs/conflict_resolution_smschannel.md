@@ -57,6 +57,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -128,6 +129,7 @@
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -182,6 +184,8 @@
 =======
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
 # Risoluzione Conflitti SmsChannel.php
 
 ## Contesto del Conflitto
@@ -386,6 +390,7 @@ return $action->execute($smsData);
 
 *Ultimo aggiornamento: giugno 2025*
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1488,4 +1493,12 @@ return $action->execute($smsData);
 
 *Ultimo aggiornamento: giugno 2025*
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7ceb00286 (.)
+=======
+=======
+- [Root Conflict Resolution Guidelines](../../../docs/conflict-resolution-guidelines.md)
+
+*Ultimo aggiornamento: giugno 2025*
+>>>>>>> 9cf0dc90 (.)
+>>>>>>> 379ffe3f3 (.)

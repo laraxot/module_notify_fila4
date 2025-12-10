@@ -51,6 +51,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -79,6 +80,7 @@
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -160,6 +162,8 @@
 =======
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
 # Implementazione Netfun SMS 
 
 ## Introduzione
@@ -340,6 +344,7 @@ class AppointmentReminder extends Notification
 <<<<<<< HEAD
             sender: '<nome progetto>',
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -873,6 +878,7 @@ class AppointmentReminder extends Notification
 =======
             sender: 'SaluteOra',
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 =======
             sender: '',
             sender: 'SaluteOra',
@@ -1184,6 +1190,8 @@ class AppointmentReminder extends Notification
 >>>>>>> c7d5eaf96 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
             reference: 'app_' . $this->appointment->id
         );
         
@@ -1208,6 +1216,7 @@ class AppointmentReminder extends Notification
 - [Documentazione Netfun API](https://www.netfun.it/docs/api)
 - [Spatie Laravel Data](https://github.com/spatie/laravel-data)
 - [Spatie Queueable Actions](https://github.com/spatie/laravel-queueable-action)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1316,6 +1325,8 @@ class AppointmentReminder extends Notification
 =======
 >>>>>>> 7ceb00286 (.)
 =======
+>>>>>>> 379ffe3f3 (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -1345,6 +1356,7 @@ class AppointmentReminder extends Notification
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1398,3 +1410,5 @@ class AppointmentReminder extends Notification
 =======
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 379ffe3f3 (.)

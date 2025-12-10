@@ -10,6 +10,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Convenzioni di Naming per Filament 
 
 Questo documento definisce le convenzioni di naming standardizzate per i componenti Filament nel sistema <nome progetto>, con particolare attenzione alle pagine e alle risorse.
@@ -677,6 +678,7 @@ Questo documento definisce le convenzioni di naming standardizzate per i compone
 >>>>>>> fbed41ac (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 # Convenzioni di Naming per Filament 
@@ -1019,6 +1021,13 @@ Questo documento definisce le convenzioni di naming standardizzate per i compone
 >>>>>>> c7d5eaf96 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+=======
+# Convenzioni di Naming per Filament 
+
+Questo documento definisce le convenzioni di naming standardizzate per i componenti Filament nel sistema SaluteOra, con particolare attenzione alle pagine e alle risorse.
+>>>>>>> 9cf0dc90 (.)
+>>>>>>> 379ffe3f3 (.)
 
 ## Convenzioni di Naming per Pagine Filament
 
@@ -1173,6 +1182,7 @@ Prima di ogni commit, verificare che:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1270,6 +1280,8 @@ Prima di ogni commit, verificare che:
 =======
 >>>>>>> 7ceb00286 (.)
 =======
+>>>>>>> 379ffe3f3 (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -1299,6 +1311,7 @@ Prima di ogni commit, verificare che:
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1352,3 +1365,5 @@ Prima di ogni commit, verificare che:
 =======
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 379ffe3f3 (.)

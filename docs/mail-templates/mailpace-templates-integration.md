@@ -51,6 +51,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -79,6 +80,7 @@
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -160,6 +162,8 @@
 =======
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
 # Integrazione MailPace Templates
 
 ## Panoramica
@@ -167,6 +171,7 @@
 <<<<<<< HEAD
 Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di <nome progetto>. Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -700,6 +705,7 @@ Questo documento descrive l'integrazione dei template email [mailpace/templates]
 =======
 Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di SaluteOra. Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 =======
 Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di . Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
 Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di SaluteOra. Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
@@ -1011,6 +1017,8 @@ Questo documento descrive l'integrazione dei template email [mailpace/templates]
 >>>>>>> c7d5eaf96 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
 
 ## Template Disponibili
 
@@ -1189,6 +1197,7 @@ MailPace offre i seguenti template transazionali:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/resources/mail-layouts/
 =======
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/mail-layouts/
@@ -1583,6 +1592,7 @@ MailPace offre i seguenti template transazionali:
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/mail-layouts/
 >>>>>>> c8b1c8bf (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/
 >>>>>>> 9cf0dc90 (.)
@@ -1903,6 +1913,11 @@ MailPace offre i seguenti template transazionali:
 >>>>>>> c7d5eaf96 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/
+>>>>>>> 9cf0dc90 (.)
+>>>>>>> 379ffe3f3 (.)
 ├── default.html       # Layout base per la maggior parte delle email
 ├── main.html          # Alternativa semplificata
 ├── marketing.html     # Layout ottimizzato per email marketing
@@ -2116,6 +2131,7 @@ $mailTemplate->send($user->email, [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per <nome progetto>
 =======
 4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per 
@@ -2499,6 +2515,7 @@ $mailTemplate->send($user->email, [
 =======
 4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per SaluteOra
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 =======
 4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per 
 4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per SaluteOra
@@ -2810,6 +2827,8 @@ $mailTemplate->send($user->email, [
 >>>>>>> c7d5eaf96 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
 
 ## Riferimenti
 
@@ -2817,6 +2836,7 @@ $mailTemplate->send($user->email, [
 - [Repository MailPace Templates](https://github.com/mailpace/templates)
 - [Guida Spatie Email](../SPATIE_EMAIL_USAGE_GUIDE.md)
 - [Implementazione Slug Field](./SLUG_FIELD_IMPLEMENTATION.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2925,6 +2945,8 @@ $mailTemplate->send($user->email, [
 =======
 >>>>>>> 7ceb00286 (.)
 =======
+>>>>>>> 379ffe3f3 (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -2954,6 +2976,7 @@ $mailTemplate->send($user->email, [
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -3007,3 +3030,5 @@ $mailTemplate->send($user->email, [
 =======
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 379ffe3f3 (.)

@@ -51,6 +51,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -79,6 +80,7 @@
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -160,6 +162,8 @@
 =======
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
 # Fix Traduzioni File send_email.php - Modulo Notify
 
 ## Problemi Identificati
@@ -292,6 +296,7 @@ Ogni campo ora ha la struttura espansa completa:
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1139,7 +1144,13 @@ Ogni campo ora ha la struttura espansa completa:
 - [Best Practices Filament](../project_docs/filament_translation_best_practices.md)
 - [Best Practices Filament](../docs/filament_translation_best_practices.md)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7ceb00286 (.)
+=======
+=======
+- [Best Practices Filament](../docs/filament_translation_best_practices.md)
+>>>>>>> 9cf0dc90 (.)
+>>>>>>> 379ffe3f3 (.)
 
 ## Note Importanti
 
@@ -1162,6 +1173,7 @@ Ogni campo ora ha la struttura espansa completa:
 ],
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1310,6 +1322,7 @@ Ogni campo ora ha la struttura espansa completa:
 =======
 *Ultimo aggiornamento: 2025-01-06* 
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 =======
 *Ultimo aggiornamento: 2025-01-06* 
 >>>>>>> 75179b85 (.)
@@ -1377,3 +1390,5 @@ Ogni campo ora ha la struttura espansa completa:
 *Ultimo aggiornamento: 2025-01-06* 
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 379ffe3f3 (.)

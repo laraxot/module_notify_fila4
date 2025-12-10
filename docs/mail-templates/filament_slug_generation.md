@@ -135,6 +135,7 @@ public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\S
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
 public static function form(Form $form): Form
@@ -192,6 +193,7 @@ public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\S
 public static function form(Form $form): Form
 >>>>>>> f963d2c (.)
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 =======
 public static function form(Form $form): Form
 >>>>>>> f963d2c0 (.)
@@ -218,6 +220,8 @@ public static function form(Form $form): Form
 >>>>>>> 7bac387 (.)
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
 {
     return $form
         ->schema([

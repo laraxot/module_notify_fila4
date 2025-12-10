@@ -195,6 +195,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -1575,6 +1576,7 @@ private static function processArray(array $data): array
 >>>>>>> 2fdda20 (.)
 =======
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -1732,6 +1734,8 @@ private static function processArray(array $data): array
 =======
 >>>>>>> 1442e291 (rebase 210)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 379ffe3f3 (.)
 # Notify Module - PHPStan Level 7 Fixes - Gennaio 2025
 
 ## 🔄 **Stato In Corso**
@@ -1834,6 +1838,7 @@ private function castNotificationData(mixed $data): string
 *Stato: 🔄 In Corso - ~6 errori PHPStan rimanenti*
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2339,6 +2344,8 @@ private static function processArray(array $data): array
 <<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
 >>>>>>> 7bac387 (.)
 <<<<<<< HEAD
 >>>>>>> 9ed014c (.)
@@ -2552,6 +2559,7 @@ private static function processArray(array $data): array
 >>>>>>> fbed41ac (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 9cf0dc90 (.)
@@ -3113,3 +3121,7 @@ private static function processArray(array $data): array
 >>>>>>> c7d5eaf96 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+=======
+>>>>>>> 9cf0dc90 (.)
+>>>>>>> 379ffe3f3 (.)

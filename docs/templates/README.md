@@ -115,6 +115,7 @@ use Filament\Forms\Components\Builder;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 public static function form(Form $form): Form
 =======
 <<<<<<< HEAD
@@ -153,10 +154,13 @@ public static function form(Form $form): Form
 >>>>>>> 9cf0dc90 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
 public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
 public static function form(Form $form): Form
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -299,6 +303,11 @@ public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\S
 >>>>>>> ec82d0f4a (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+=======
+public static function form(Form $form): Form
+>>>>>>> f963d2c (.)
+>>>>>>> 379ffe3f3 (.)
 {
     return $form->schema([
         Builder::make('content')

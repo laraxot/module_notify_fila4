@@ -51,6 +51,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -79,6 +80,7 @@
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -160,6 +162,8 @@
 =======
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
 # Regole di Estensione delle Classi Filament
 
 ## Regola Fondamentale
@@ -225,6 +229,7 @@ find /var/www/html/<nome progetto>/laravel/Modules -path "*/Filament/*/*.php" -t
 
 Le pagine che violano questa regola devono essere immediatamente corrette per mantenere l'integrità dell'architettura.
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -663,6 +668,7 @@ Le pagine che violano questa regola devono essere immediatamente corrette per ma
 =======
 >>>>>>> c8b1c8bf (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f963d2c0 (.)
@@ -998,3 +1004,11 @@ Le pagine che violano questa regola devono essere immediatamente corrette per ma
 >>>>>>> fea359347 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+=======
+find /var/www/html/saluteora/laravel/Modules -path "*/Filament/*/*.php" -type f -exec grep -l "extends.*Filament" {} \;
+```
+
+Le pagine che violano questa regola devono essere immediatamente corrette per mantenere l'integrità dell'architettura.
+>>>>>>> 9cf0dc90 (.)
+>>>>>>> 379ffe3f3 (.)

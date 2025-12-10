@@ -14,6 +14,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 379ffe3f3 (.)
 =======
 >>>>>>> 7ceb00286 (.)
 =======
@@ -48,7 +51,12 @@
 =======
 =======
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 >>>>>>> 7ceb00286 (.)
+=======
+=======
+>>>>>>> f963d2c (.)
+>>>>>>> 379ffe3f3 (.)
 # Notify Module Documentation
 
 ## Overview
@@ -118,6 +126,9 @@ This document serves as the central index for the Notify module, providing guida
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 379ffe3f3 (.)
 =======
 =======
 =======
@@ -300,7 +311,12 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 =======
 =======
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 >>>>>>> 7ceb00286 (.)
+=======
+=======
+>>>>>>> f963d2c (.)
+>>>>>>> 379ffe3f3 (.)
 
 ## Sottocartelle
 
@@ -327,6 +343,9 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 379ffe3f3 (.)
 =======
 =======
 =======
@@ -375,7 +394,12 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> 602b8a0a9 (.)
 =======
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 >>>>>>> 7ceb00286 (.)
+=======
+=======
+>>>>>>> f963d2c (.)
+>>>>>>> 379ffe3f3 (.)
 ## Note sulla Manutenzione
 Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice, consultare la documentazione pertinente e aggiornare i documenti correlati.
 
@@ -414,6 +438,7 @@ Ultimo aggiornamento: 14 Maggio 2025
 <<<<<<< HEAD
 <<<<<<< HEAD
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -658,4 +683,9 @@ Ultimo aggiornamento: 14 Maggio 2025
 =======
 =======
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 >>>>>>> 7ceb00286 (.)
+=======
+=======
+>>>>>>> f963d2c (.)
+>>>>>>> 379ffe3f3 (.)

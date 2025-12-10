@@ -1131,7 +1131,15 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 2d4267d82 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+>>>>>>> 379ffe3f3 (.)
         $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
 >>>>>>> ce89c8bb (.)
 <<<<<<< HEAD
@@ -2305,17 +2313,24 @@ class NotificationTemplateVersionTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 58816034 (.)
 =======
 =======
 >>>>>>> 9cf0dc90 (.)
 =======
+=======
+>>>>>>> 58816034 (.)
+=======
+=======
+>>>>>>> 379ffe3f3 (.)
         $model = new NotificationTemplateVersion();
         $this->assertEquals($expectedFillable, $model->getFillable());
 =======
         $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
 >>>>>>> 518c702 (.)
 >>>>>>> f963d2c (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2798,6 +2813,9 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 207ac35 (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+>>>>>>> 379ffe3f3 (.)
     }
 
     /** @test */
