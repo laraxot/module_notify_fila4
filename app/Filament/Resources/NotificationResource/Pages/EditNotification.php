@@ -79,11 +79,13 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> 99ff506 (.)
 >>>>>>> e53a56570 (.)
 
+<<<<<<< HEAD
 class EditNotification extends XotBaseEditRecord
 {
     protected static string $resource = NotificationResource::class;
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -604,6 +606,8 @@ class EditNotification extends XotBaseEditRecord
 =======
 >>>>>>> 22baa66d (rebase 210)
 =======
+>>>>>>> 2effe245 (.)
+=======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
@@ -743,6 +747,7 @@ class EditNotification extends \Modules\Xot\Filament\Resources\Pages\XotBaseEdit
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -765,6 +770,8 @@ class EditNotification extends \Modules\Xot\Filament\Resources\Pages\XotBaseEdit
 >>>>>>> cd5474106 (.)
 =======
 >>>>>>> 01750b107 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -985,6 +992,7 @@ class EditNotification extends \Modules\Xot\Filament\Resources\Pages\XotBaseEdit
 >>>>>>> 22baa66d (rebase 210)
 =======
 >>>>>>> 5b50927d (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
@@ -1556,6 +1564,10 @@ class EditNotification extends \Modules\Xot\Filament\Resources\Pages\XotBaseEdit
 >>>>>>> 01750b107 (.)
 =======
 >>>>>>> 5e028c03d (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 }
 =======
 >>>>>>> 301ad8b44 (.)

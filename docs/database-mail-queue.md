@@ -831,6 +831,7 @@ $this->call('queue:prune-batches', [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1097,6 +1098,7 @@ $this->call('queue:prune-batches', [
 =======
 >>>>>>> 36ac4fc1 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 =======
@@ -1227,6 +1229,10 @@ $this->call('queue:prune-batches', [
 >>>>>>> 01750b107 (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 # Supervisor config
 <<<<<<< HEAD
 [program:<nome progetto>-worker]
@@ -1360,6 +1366,7 @@ command=php /var/www/html/_bases/base_techplanner_fila3_mono/laravel/artisan que
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -1462,6 +1469,8 @@ command=php /var/www/html/_bases/base_techplanner_fila3_mono/laravel/artisan que
 >>>>>>> 01750b107 (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> b19cd40 (.)
 =======
@@ -1781,10 +1790,14 @@ command=php /var/www/html/_bases/base_techplanner_fila3_mono/laravel/artisan que
 =======
 >>>>>>> 36ac4fc1 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2fc60436 (.)
@@ -2812,6 +2825,8 @@ command=php /var/www/html/_bases/base_techplanner_fila3_mono/laravel/artisan que
 >>>>>>> 01750b107 (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 
 # Supervisor config
 [program:<nome progetto>-worker]
@@ -3394,6 +3409,7 @@ php artisan queue:restart
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -4231,11 +4247,15 @@ php artisan queue:restart
 - [Redis Documentation](https://redis.io/documentation)
 >>>>>>> 36ac4fc1 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 - [Redis Documentation](https://redis.io/documentation)
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 - [Redis Documentation](https://redis.io/documentation)
 >>>>>>> c8b1c8bf (.)
@@ -4589,3 +4609,5 @@ php artisan queue:restart
 >>>>>>> 01750b107 (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> 26d39e2eb (.)

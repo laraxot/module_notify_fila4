@@ -7,6 +7,7 @@ namespace Modules\Notify\Actions\SMS;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26,6 +27,8 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 use Illuminate\Support\Facades\Http;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SmsData;
@@ -105,6 +108,7 @@ use Modules\Notify\Datas\SmsData;
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> d45a0226 (.)
@@ -121,9 +125,14 @@ use Modules\Notify\Datas\SmsData;
 =======
 >>>>>>> f1c9518b (.)
 =======
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 use Illuminate\Support\Facades\Http;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SmsData;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -218,6 +227,8 @@ use Modules\Notify\Datas\SmsData;
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
@@ -259,6 +270,14 @@ use function Safe\preg_replace;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+>>>>>>> f813254 (.)
+use function Safe\preg_match;
+use function Safe\preg_replace;
+>>>>>>> 2effe245 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -320,11 +339,15 @@ use function Safe\preg_replace;
 >>>>>>> f2e64178 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 26d39e2eb (.)
 
 use function Safe\preg_match;
 use function Safe\preg_replace;
 >>>>>>> 2effe245 (.)
 =======
+<<<<<<< HEAD
 
 use function Safe\preg_match;
 use function Safe\preg_replace;
@@ -337,9 +360,12 @@ use function Safe\preg_replace;
 =======
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 use function Safe\preg_replace;
 use function Safe\preg_match;
 >>>>>>> a12f125f4a (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -358,6 +384,8 @@ use function Safe\preg_match;
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> d09cb759 (.)
@@ -372,6 +400,7 @@ use function Safe\preg_match;
 =======
 >>>>>>> 2effe245 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> f2e64178 (.)
@@ -382,9 +411,12 @@ use function Safe\preg_match;
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 
 use function Safe\preg_match;
 use function Safe\preg_replace;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -403,6 +435,8 @@ use function Safe\preg_replace;
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -782,6 +816,8 @@ use function Safe\preg_replace;
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
 >>>>>>> b93ef594b4 (.)
 =======
 use function Safe\preg_replace;
@@ -794,8 +830,11 @@ use function Safe\preg_match;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -1008,7 +1047,13 @@ use function Safe\preg_match;
 >>>>>>> f2e64178 (.)
 >>>>>>> 23f115647 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 
 /**
  * Azione per l'invio di SMS tramite Agile Telecom.
@@ -1020,6 +1065,7 @@ class NormalizePhoneNumberAction
     {
         // Rimuove parentesi e il loro contenuto
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2151,7 +2197,24 @@ class NormalizePhoneNumberAction
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 2effe245 (.)
 class NormalizePhoneNumberAction
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+class NormalizePhoneNumberAction
+=======
+class NormalizePhoneNumberAction 
+>>>>>>> a12f125f4a (.)
+=======
+class NormalizePhoneNumberAction
+>>>>>>> b93ef594b4 (.)
+=======
+class NormalizePhoneNumberAction 
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
 {
     public function execute(string|array $phoneNumber): string
     {
@@ -2161,6 +2224,7 @@ class NormalizePhoneNumberAction
         }
         
         // Rimuove parentesi e il loro contenuto
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2179,10 +2243,13 @@ class NormalizePhoneNumberAction
 >>>>>>> 9777d1b3 (.)
 =======
 =======
+>>>>>>> 2effe245 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -2307,7 +2374,12 @@ class NormalizePhoneNumberAction
 =======
 =======
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
         $phoneNumber = preg_replace("/\([0-9]+?\)/", '', $phoneNumber);
 
         // Rimuove spazi e caratteri non numerici
@@ -2527,6 +2599,7 @@ class NormalizePhoneNumberAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2543,6 +2616,7 @@ class NormalizePhoneNumberAction
 =======
 >>>>>>> f2e64178 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2effe245 (.)
 =======
@@ -2570,6 +2644,10 @@ class NormalizePhoneNumberAction
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
         $phoneNumber = preg_replace("/\([0-9]+?\)/", "", $phoneNumber);
         
@@ -2598,12 +2676,15 @@ class NormalizePhoneNumberAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
         $phoneNumber = is_string($phoneNumber) ? ltrim($phoneNumber, '0') : '';
 >>>>>>> a404ea71 (.)
@@ -2637,6 +2718,7 @@ class NormalizePhoneNumberAction
 =======
 >>>>>>> f2e64178 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 510809c6f (.)
 =======
 =======
@@ -2644,6 +2726,9 @@ class NormalizePhoneNumberAction
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 
         // Prefisso italiano
 <<<<<<< HEAD
@@ -2670,12 +2755,15 @@ class NormalizePhoneNumberAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -2708,6 +2796,7 @@ class NormalizePhoneNumberAction
 =======
 >>>>>>> 2effe245 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
@@ -2791,6 +2880,8 @@ class NormalizePhoneNumberAction
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
         $phoneNumber = preg_replace("/\([0-9]+?\)/", "", $phoneNumber);
         
         // Rimuove spazi e caratteri non numerici
@@ -2835,6 +2926,7 @@ class NormalizePhoneNumberAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -2847,6 +2939,8 @@ class NormalizePhoneNumberAction
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3070,6 +3164,7 @@ class NormalizePhoneNumberAction
 =======
 >>>>>>> 98d837b9 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -3107,6 +3202,12 @@ class NormalizePhoneNumberAction
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
         // Verifica se il numero non inizia già con il prefisso corretto
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3235,6 +3336,7 @@ class NormalizePhoneNumberAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -3261,6 +3363,8 @@ class NormalizePhoneNumberAction
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3478,6 +3582,11 @@ class NormalizePhoneNumberAction
         return "+{$phoneNumber}";
 =======
 >>>>>>> f2e64178 (.)
+=======
+
+        return "+{$phoneNumber}";
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
 
@@ -3542,12 +3651,15 @@ class NormalizePhoneNumberAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 
@@ -3924,6 +4036,7 @@ class NormalizePhoneNumberAction
         return "+{$phoneNumber}";
 >>>>>>> 98d837b9 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -3958,6 +4071,10 @@ class NormalizePhoneNumberAction
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
     }
 }
 =======

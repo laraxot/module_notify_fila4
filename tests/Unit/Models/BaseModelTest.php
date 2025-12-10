@@ -5,6 +5,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Models;
 
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
 =======
@@ -220,11 +221,25 @@ use Illuminate\Database\Eloquent\Model;
 >>>>>>> 2f135ef98 (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\BaseModel;
+=======
+<<<<<<< HEAD
+use Illuminate\Database\Eloquent\Model;
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\BaseModel;
+=======
+use Modules\Notify\Models\BaseModel;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
 use Tests\TestCase;
 
 uses(TestCase::class, RefreshDatabase::class);
 
 beforeEach(function () {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     $this->baseModel = new class extends BaseModel {
@@ -245,6 +260,27 @@ beforeEach(function () {
 <<<<<<< HEAD
 =======
 >>>>>>> e53a56570 (.)
+=======
+    $this->baseModel = new class extends BaseModel
+    {
+=======
+    $this->baseModel = new class extends BaseModel {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+>>>>>>> b93ef594b4 (.)
+use Modules\Notify\Models\BaseModel;
+use Tests\TestCase;
+
+uses(TestCase::class, RefreshDatabase::class);
+
+beforeEach(function () {
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 26d39e2eb (.)
     $this->baseModel = new class extends BaseModel {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -991,6 +1027,10 @@ beforeEach(function () {
 <<<<<<< HEAD
     $this->baseModel = new class extends BaseModel
     {
+=======
+    $this->baseModel = new class extends BaseModel
+    {
+>>>>>>> 2effe245 (.)
 >>>>>>> a12f125f4a (.)
 =======
     $this->baseModel = new class extends BaseModel {
@@ -1000,6 +1040,7 @@ beforeEach(function () {
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
 >>>>>>> 23f115647 (.)
@@ -1008,7 +1049,12 @@ beforeEach(function () {
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
         protected $table = 'test_notify_table';
     };
 });

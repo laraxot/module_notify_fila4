@@ -266,6 +266,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -334,6 +335,7 @@ declare(strict_types=1);
 >>>>>>> c5c038f2 (rebase 210)
 =======
 >>>>>>> 22baa66d (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
@@ -524,10 +526,15 @@ declare(strict_types=1);
 >>>>>>> 17f6b8617 (.)
 =======
 >>>>>>> 01750b107 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 
 declare(strict_types=1);
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -676,6 +683,8 @@ declare(strict_types=1);
 >>>>>>> 17f6b8617 (.)
 =======
 >>>>>>> 01750b107 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -985,6 +994,7 @@ declare(strict_types=1);
 =======
 >>>>>>> 22baa66d (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 =======
@@ -1174,6 +1184,10 @@ declare(strict_types=1);
 >>>>>>> db6bec044 (.)
 =======
 >>>>>>> 01750b107 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 
 declare(strict_types=1);
 
@@ -1189,6 +1203,7 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1260,6 +1275,8 @@ declare(strict_types=1);
 >>>>>>> cd5474106 (.)
 =======
 >>>>>>> 01750b107 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
@@ -1855,10 +1872,14 @@ declare(strict_types=1);
 
 >>>>>>> 5b50927d (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 
 declare(strict_types=1);
@@ -2550,6 +2571,8 @@ declare(strict_types=1);
 >>>>>>> 01750b107 (.)
 =======
 >>>>>>> 5e028c03d (.)
+=======
+>>>>>>> 26d39e2eb (.)
 return [
     'navigation' => [
         'group' => 'Sistema',

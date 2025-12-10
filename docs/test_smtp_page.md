@@ -442,6 +442,7 @@ Inseriti le varie impostazioni, si potrà verificare il funzionamento di una det
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -504,6 +505,7 @@ Inseriti le varie impostazioni, si potrà verificare il funzionamento di una det
 >>>>>>> 22baa66d (rebase 210)
 =======
 >>>>>>> 545977c8 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
@@ -680,6 +682,10 @@ Inseriti le varie impostazioni, si potrà verificare il funzionamento di una det
 >>>>>>> 01750b107 (.)
 =======
 >>>>>>> ad905ce9c (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 * [test-smtp-page.md](../../../Notify/docs/test-smtp-page.md)
 * [test-smtp-page.md](../../../Cms/docs/test-smtp-page.md)
 =======
@@ -784,6 +790,7 @@ Inseriti le varie impostazioni, si potrà verificare il funzionamento di una det
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -828,6 +835,8 @@ Inseriti le varie impostazioni, si potrà verificare il funzionamento di una det
 >>>>>>> 01750b107 (.)
 =======
 >>>>>>> ad905ce9c (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> 75179b85 (.)
 =======
 * [test-smtp-page.md](../../../Notify/docs/test-smtp-page.md)
@@ -1441,6 +1450,7 @@ Inseriti le varie impostazioni, si potrà verificare il funzionamento di una det
 * [test-smtp-page.md](../../../Notify/docs/test-smtp-page.md)
 * [test-smtp-page.md](../../../Cms/docs/test-smtp-page.md)
 >>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> d284d65 (.)
@@ -1821,6 +1831,11 @@ Inseriti le varie impostazioni, si potrà verificare il funzionamento di una det
 >>>>>>> ff78f10a5 (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 
 
 ### Versione Incoming

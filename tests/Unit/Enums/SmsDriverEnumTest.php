@@ -12,6 +12,7 @@ namespace Modules\Notify\Tests\Unit\Enums;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -245,19 +246,41 @@ use ReflectionClass;
 =======
 >>>>>>> 8c19c8df2 (.)
 =======
+>>>>>>> 26d39e2eb (.)
+=======
 =======
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
 <<<<<<< HEAD
+=======
+>>>>>>> 2effe245 (.)
 use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasIcon;
 >>>>>>> f1c9518b (.)
 >>>>>>> e53a56570 (.)
 use Filament\Support\Contracts\HasLabel;
+<<<<<<< HEAD
 use Filament\Support\Contracts\HasIcon;
 use Filament\Support\Contracts\HasColor;
 use ReflectionClass;
+=======
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+use Filament\Support\Contracts\HasLabel;
+use Filament\Support\Contracts\HasIcon;
+use Filament\Support\Contracts\HasColor;
+use ReflectionClass;
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
 use Modules\Notify\Enums\SmsDriverEnum;
 use PHPUnit\Framework\TestCase;
 <<<<<<< HEAD
@@ -317,7 +340,15 @@ class SmsDriverEnumTest extends TestCase
     public function it_has_correct_cases(): void
     {
         $this->assertCount(7, SmsDriverEnum::cases());
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
         $this->assertEquals('smsfactor', SmsDriverEnum::SMSFACTOR->value);
         $this->assertEquals('twilio', SmsDriverEnum::TWILIO->value);
         $this->assertEquals('nexmo', SmsDriverEnum::NEXMO->value);
@@ -330,17 +361,41 @@ class SmsDriverEnumTest extends TestCase
     /** @test */
     public function it_implements_filament_contracts(): void
     {
+<<<<<<< HEAD
         $this->assertInstanceOf(HasLabel::class, SmsDriverEnum::SMSFACTOR);
         $this->assertInstanceOf(HasIcon::class, SmsDriverEnum::SMSFACTOR);
         $this->assertInstanceOf(HasColor::class, SmsDriverEnum::SMSFACTOR);
+=======
+<<<<<<< HEAD
+        $this->assertInstanceOf(HasLabel::class, SmsDriverEnum::SMSFACTOR);
+        $this->assertInstanceOf(HasIcon::class, SmsDriverEnum::SMSFACTOR);
+        $this->assertInstanceOf(HasColor::class, SmsDriverEnum::SMSFACTOR);
+=======
+        $this->assertInstanceOf(\Filament\Support\Contracts\HasLabel::class, SmsDriverEnum::SMSFACTOR);
+        $this->assertInstanceOf(\Filament\Support\Contracts\HasIcon::class, SmsDriverEnum::SMSFACTOR);
+        $this->assertInstanceOf(\Filament\Support\Contracts\HasColor::class, SmsDriverEnum::SMSFACTOR);
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
     }
 
     /** @test */
     public function it_has_trans_trait(): void
     {
+<<<<<<< HEAD
         $reflection = new ReflectionClass(SmsDriverEnum::class);
         $traits = $reflection->getTraitNames();
 
+=======
+<<<<<<< HEAD
+        $reflection = new ReflectionClass(SmsDriverEnum::class);
+        $traits = $reflection->getTraitNames();
+
+=======
+        $reflection = new \ReflectionClass(SmsDriverEnum::class);
+        $traits = $reflection->getTraitNames();
+        
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
         $this->assertContains('Modules\Xot\Filament\Traits\TransTrait', $traits);
     }
 
@@ -358,7 +413,15 @@ class SmsDriverEnumTest extends TestCase
     public function get_default_returns_default_driver(): void
     {
         $default = SmsDriverEnum::getDefault();
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
         $this->assertInstanceOf(SmsDriverEnum::class, $default);
         $this->assertContains($default, SmsDriverEnum::cases());
     }
@@ -369,6 +432,7 @@ class SmsDriverEnumTest extends TestCase
 <<<<<<< HEAD
         $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -991,6 +1055,7 @@ class SmsDriverEnumTest extends TestCase
         $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
 >>>>>>> e11621f (.)
 >>>>>>> 888799d0 (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 75179b85 (.)
@@ -1039,8 +1104,36 @@ class SmsDriverEnumTest extends TestCase
 >>>>>>> 0f07e6d (.)
 >>>>>>> 4d2eb53e (.)
 >>>>>>> 2f135ef98 (.)
+=======
+=======
+        $values = array_map(fn ($case) => $case->value, SmsDriverEnum::cases());
+=======
+<<<<<<< HEAD
+        $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
         $uniqueValues = array_unique($values);
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
+=======
+        $values = array_map(fn ($case) => $case->value, SmsDriverEnum::cases());
+>>>>>>> a12f125f4a (.)
+=======
+        $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
+>>>>>>> b93ef594b4 (.)
+        $uniqueValues = array_unique($values);
+
+=======
+        $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
+        $uniqueValues = array_unique($values);
+        
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
         $this->assertCount(count($values), $uniqueValues, 'All enum cases should have unique values');
     }
 
@@ -1048,10 +1141,23 @@ class SmsDriverEnumTest extends TestCase
     public function cases_returns_all_enum_instances(): void
     {
         $cases = SmsDriverEnum::cases();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
 
         $this->assertIsArray($cases);
         $this->assertCount(7, $cases);
 
+<<<<<<< HEAD
+=======
+=======
+        
+        $this->assertIsArray($cases);
+        $this->assertCount(7, $cases);
+        
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
         foreach ($cases as $case) {
             $this->assertInstanceOf(SmsDriverEnum::class, $case);
         }

@@ -13,6 +13,7 @@ namespace Modules\Notify\Tests\Feature;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -58,6 +59,8 @@ namespace Modules\Notify\Tests\Feature;
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 use RuntimeException;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -98,6 +101,11 @@ use RuntimeException;
 >>>>>>> 161887a2 (.)
 =======
 =======
+=======
+<<<<<<< HEAD
+use RuntimeException;
+>>>>>>> 2effe245 (.)
+=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -119,6 +127,9 @@ use RuntimeException;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
@@ -149,6 +160,7 @@ use Modules\Notify\Models\NotificationTemplateVersion;
 =======
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
 =======
@@ -176,6 +188,8 @@ use Modules\Notify\Models\NotificationTemplateVersion;
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Notify\Models\NotificationTemplateVersion;
@@ -387,6 +401,7 @@ use Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 011072e4 (.)
 <<<<<<< HEAD
 =======
@@ -446,6 +461,8 @@ use Tests\TestCase;
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> 011072e4 (.)
 <<<<<<< HEAD
 =======
@@ -624,6 +641,7 @@ use Tests\TestCase;
 >>>>>>> f2e64178 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -632,6 +650,10 @@ use Tests\TestCase;
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 =======
 >>>>>>> origin/develop
@@ -651,12 +673,15 @@ use Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 =======
@@ -700,6 +725,7 @@ use Tests\TestCase;
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
@@ -745,6 +771,10 @@ use Tests\TestCase;
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 use Modules\Notify\Models\NotificationTemplateVersion;
 use Modules\Notify\Models\NotificationTemplate;
 use Tests\TestCase;
@@ -782,6 +812,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -794,6 +825,8 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -842,6 +875,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 =======
@@ -868,6 +902,10 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 >>>>>>> a12f125f4a (.)
 =======
 use Illuminate\Foundation\Testing\RefreshDatabase;
@@ -894,12 +932,15 @@ use Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -1027,6 +1068,7 @@ use Tests\TestCase;
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
 =======
@@ -1138,6 +1180,8 @@ use Tests\TestCase;
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 
 class NotificationTemplateVersionBusinessLogicTest extends TestCase
 {
@@ -1240,6 +1284,7 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1400,6 +1445,10 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 
 =======
 >>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
 
@@ -1477,12 +1526,15 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 
@@ -1632,6 +1684,7 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 
 >>>>>>> 985c7bda (.)
@@ -1752,6 +1805,8 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
         $versionData = [
             'template_id' => $template->id,
             'subject' => 'Versione 2.0 - Conferma Appuntamento',
@@ -1834,7 +1889,9 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
             'template_id' => 99999, // Template inesistente
         ]);
 
+<<<<<<< HEAD
         $this->expectException(RuntimeException::class);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2062,6 +2119,8 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
         $this->expectExceptionMessage('Template not found for version ' . $version->id);
 =======
 =======
@@ -2073,19 +2132,32 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 =======
 =======
 =======
+=======
+        $this->expectExceptionMessage('Template not found for version '.$version->id);
+=======
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
         $this->expectException(RuntimeException::class);
 =======
         $this->expectException(\RuntimeException::class);
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 >>>>>>> f813254 (.)
 =======
 >>>>>>> f5f1cb1 (.)
         $this->expectExceptionMessage('Template not found for version ' . $version->id);
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 >>>>>>> e53a56570 (.)
+=======
+=======
+        $this->expectExceptionMessage('Template not found for version ' . $version->id);
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 
         $version->restore();
     }
@@ -2187,6 +2259,7 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2347,6 +2420,10 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 
 =======
 >>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
 
@@ -2424,12 +2501,15 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 
@@ -2579,6 +2659,7 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 
 >>>>>>> 985c7bda (.)
@@ -2699,6 +2780,8 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
         $version = NotificationTemplateVersion::factory()->create([
             'template_id' => $template->id,
             'version' => '1.5',
@@ -2806,6 +2889,7 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2966,6 +3050,10 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 
 =======
 >>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
 
@@ -3043,12 +3131,15 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 
@@ -3198,6 +3289,7 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 
 >>>>>>> 985c7bda (.)
@@ -3318,6 +3410,8 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
         $complexChannels = [
             'email' => [
                 'enabled' => true,
@@ -3442,6 +3536,7 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3602,6 +3697,10 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 
 =======
 >>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
 
@@ -3679,12 +3778,15 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 
@@ -3834,6 +3936,7 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 
 >>>>>>> 985c7bda (.)
@@ -3954,6 +4057,8 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
         $conditions = [
             'user_type' => ['patient', 'doctor'],
             'appointment_status' => 'confirmed',
@@ -4069,6 +4174,7 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -4229,6 +4335,10 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 
 =======
 >>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
 
@@ -4306,12 +4416,15 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 
@@ -4461,6 +4574,7 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 
 >>>>>>> 985c7bda (.)
@@ -4581,6 +4695,8 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
         $variables = [
             'required' => ['patient_name', 'appointment_date', 'doctor_name'],
             'optional' => ['clinic_address', 'phone_number'],
@@ -4699,6 +4815,7 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -4859,6 +4976,10 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 
 =======
 >>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
 
@@ -4936,12 +5057,15 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 
@@ -5091,6 +5215,7 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 
 >>>>>>> 985c7bda (.)
@@ -5211,6 +5336,8 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
         // Crea multiple versioni
         $version1 = NotificationTemplateVersion::factory()->create([
             'template_id' => $template->id,
@@ -5369,6 +5496,7 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -5529,6 +5657,10 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 
 =======
 >>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
 
@@ -5606,12 +5738,15 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 
@@ -5761,6 +5896,7 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 
 >>>>>>> 985c7bda (.)
@@ -5881,6 +6017,8 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
         $version = NotificationTemplateVersion::factory()->create([
             'template_id' => $template->id,
             'version' => '1.2.3',
@@ -5991,6 +6129,7 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -6151,6 +6290,10 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 
 =======
 >>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
 
@@ -6228,12 +6371,15 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 
@@ -6383,6 +6529,7 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 
 >>>>>>> 985c7bda (.)
@@ -6503,6 +6650,8 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
         $version = NotificationTemplateVersion::factory()->create([
             'template_id' => $template->id,
             'subject' => null,

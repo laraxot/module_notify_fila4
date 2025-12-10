@@ -98,6 +98,7 @@ use Illuminate\Support\Arr;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -125,6 +126,8 @@ use Illuminate\Support\Arr;
 =======
 >>>>>>> 8c19c8df2 (.)
 =======
+>>>>>>> 26d39e2eb (.)
+=======
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -143,6 +146,8 @@ use Illuminate\Support\Arr;
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
@@ -189,12 +194,15 @@ use Illuminate\Support\Arr;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -307,6 +315,7 @@ use Illuminate\Support\Arr;
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
 =======
@@ -398,6 +407,8 @@ use Illuminate\Support\Arr;
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
@@ -1206,7 +1217,10 @@ class TwilioData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 2effe245 (.)
 =======
 =======
 use Spatie\LaravelData\Data;
@@ -1242,8 +1256,10 @@ class TwilioData extends Data
              * $data = Arr::get($data, 'drivers.twilio', []);
              */
 >>>>>>> b93ef594b4 (.)
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> bf5d31b0f (.)
 =======
 =======
@@ -1345,6 +1361,9 @@ class TwilioData extends Data
              */
 <<<<<<< HEAD
 =======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
+=======
 use Spatie\LaravelData\Data;
 use Webmozart\Assert\Assert;
 use Illuminate\Support\Facades\Config;
@@ -1367,6 +1386,7 @@ class TwilioData extends Data
             $data = TenantService::getConfig('sms');
             $data = Arr::get($data, 'drivers.twilio', []);
             */
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
@@ -1392,7 +1412,14 @@ class TwilioData extends Data
 =======
 =======
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
             $data = Config::array('sms.drivers.twilio');
             self::$instance = self::from($data);
         }
@@ -1408,6 +1435,7 @@ class TwilioData extends Data
                 return [
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'Authorization' => 'Basic ' . base64_encode($this->account_sid . ':' . $this->auth_token),
                     'Content-Type' => 'application/x-www-form-urlencoded',
 =======
@@ -1427,6 +1455,8 @@ class TwilioData extends Data
 <<<<<<< HEAD
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 26d39e2eb (.)
                     'Authorization' => 'Basic ' . base64_encode($this->account_sid . ':' . $this->auth_token),
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1585,9 +1615,12 @@ class TwilioData extends Data
 >>>>>>> 011072e4 (.)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 2effe245 (.)
                     'Authorization' => 'Basic '.base64_encode($this->account_sid.':'.$this->auth_token),
 =======
                     'Authorization' => 'Basic ' . base64_encode($this->account_sid . ':' . $this->auth_token),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1655,6 +1688,8 @@ class TwilioData extends Data
 <<<<<<< HEAD
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
@@ -1807,6 +1842,11 @@ class TwilioData extends Data
 =======
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> f813254 (.)
+                    'Content-Type' => 'application/x-www-form-urlencoded',
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
                     'Content-Type' => 'application/x-www-form-urlencoded',
@@ -1869,12 +1909,15 @@ class TwilioData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
                     'Content-Type' => 'application/x-www-form-urlencoded',
@@ -2073,6 +2116,7 @@ class TwilioData extends Data
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d45a0226 (.)
@@ -2222,6 +2266,8 @@ class TwilioData extends Data
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
                 ];
         }
     }

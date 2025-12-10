@@ -8,6 +8,7 @@ namespace Modules\Notify\Notifications\Channels;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Kreait\Firebase\Messaging\RegistrationToken;
 use Kreait\Firebase\Messaging\RegistrationTokens;
 <<<<<<< HEAD
@@ -64,10 +65,13 @@ use Kreait\Firebase\Messaging\RegistrationTokens;
 =======
 >>>>>>> 2effe245 (.)
 =======
+>>>>>>> 26d39e2eb (.)
+=======
 <<<<<<< HEAD
 use Kreait\Firebase\Messaging\RegistrationToken;
 use Kreait\Firebase\Messaging\RegistrationTokens;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
@@ -149,11 +153,14 @@ use Kreait\Firebase\Messaging\RegistrationTokens;
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 use Kreait\Firebase\Messaging\RegistrationToken;
 use Kreait\Firebase\Messaging\RegistrationTokens;
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -241,6 +248,9 @@ use Kreait\Firebase\Messaging\RegistrationTokens;
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> f813254 (.)
+>>>>>>> 26d39e2eb (.)
 use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
@@ -529,6 +539,7 @@ final class FirebaseCloudMessagingChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -570,6 +581,8 @@ final class FirebaseCloudMessagingChannel
 =======
 >>>>>>> f2e64178 (.)
 =======
+>>>>>>> 2effe245 (.)
+=======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
@@ -616,12 +629,15 @@ final class FirebaseCloudMessagingChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -765,6 +781,7 @@ final class FirebaseCloudMessagingChannel
 >>>>>>> bb00ab64 (rebase 210)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
 =======
@@ -1159,10 +1176,16 @@ final class FirebaseCloudMessagingChannel
 >>>>>>> 17f6b8617 (.)
 =======
 >>>>>>> db6bec044 (.)
+=======
+>>>>>>> 26d39e2eb (.)
                 self::$logger->debug(sprintf(
                     "FCM notification debug:\n%s",
                     json_encode($notificationDebugData, JSON_PRETTY_PRINT),
                 ));
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
             }
         } catch (Exception $exception) {
             self::$logger->error(sprintf(
@@ -1174,6 +1197,7 @@ final class FirebaseCloudMessagingChannel
             ));
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1522,6 +1546,7 @@ final class FirebaseCloudMessagingChannel
 >>>>>>> f2e64178 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -1530,6 +1555,10 @@ final class FirebaseCloudMessagingChannel
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 =======
 >>>>>>> origin/develop
@@ -1549,12 +1578,15 @@ final class FirebaseCloudMessagingChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 =======
@@ -1616,6 +1648,7 @@ final class FirebaseCloudMessagingChannel
 >>>>>>> c5c038f2 (rebase 210)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 77edd94a (.)
@@ -1775,6 +1808,8 @@ final class FirebaseCloudMessagingChannel
 =======
 >>>>>>> c5c038f2 (rebase 210)
 >>>>>>> 17f6b8617 (.)
+=======
+>>>>>>> 26d39e2eb (.)
                 self::$logger
                     ->debug(
                         sprintf(
@@ -1866,6 +1901,7 @@ final class FirebaseCloudMessagingChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -1898,6 +1934,8 @@ final class FirebaseCloudMessagingChannel
 >>>>>>> 5d49e093a (.)
 =======
 >>>>>>> 17f6b8617 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2005,6 +2043,7 @@ final class FirebaseCloudMessagingChannel
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 =======
@@ -2031,6 +2070,10 @@ final class FirebaseCloudMessagingChannel
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 >>>>>>> a12f125f4a (.)
 =======
             }
@@ -2062,12 +2105,15 @@ final class FirebaseCloudMessagingChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -2237,6 +2283,7 @@ final class FirebaseCloudMessagingChannel
 >>>>>>> bb00ab64 (rebase 210)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
 =======
@@ -2640,6 +2687,8 @@ final class FirebaseCloudMessagingChannel
 >>>>>>> 17f6b8617 (.)
 =======
 >>>>>>> db6bec044 (.)
+=======
+>>>>>>> 26d39e2eb (.)
             self::$logger->error(json_encode($exception->getTrace(), JSON_PRETTY_PRINT));
         }
     }
@@ -2659,6 +2708,10 @@ final class FirebaseCloudMessagingChannel
         }
 
         /**
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
          * @var list<RegistrationToken|string>|RegistrationToken|RegistrationTokens|non-empty-string
          */
         $registrationTokens = $userDeviceTokens->toArray();
@@ -2862,6 +2915,7 @@ final class FirebaseCloudMessagingChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2881,6 +2935,8 @@ final class FirebaseCloudMessagingChannel
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
@@ -2928,12 +2984,15 @@ final class FirebaseCloudMessagingChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -3092,6 +3151,7 @@ final class FirebaseCloudMessagingChannel
 >>>>>>> bb00ab64 (rebase 210)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
 =======
@@ -3487,6 +3547,8 @@ final class FirebaseCloudMessagingChannel
 >>>>>>> 17f6b8617 (.)
 =======
 >>>>>>> db6bec044 (.)
+=======
+>>>>>>> 26d39e2eb (.)
         return $this->firebaseCloudMessaging->sendMulticast(
             message: $notification->toCloudMessage(),
             registrationTokens: $registrationTokens,
@@ -3689,6 +3751,7 @@ final class FirebaseCloudMessagingChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 030c9674 (rebase 210)
 =======
@@ -3820,6 +3883,8 @@ final class FirebaseCloudMessagingChannel
 =======
 >>>>>>> f2e64178 (.)
 =======
+>>>>>>> 2effe245 (.)
+=======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
@@ -3869,12 +3934,15 @@ final class FirebaseCloudMessagingChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 =======
@@ -3936,6 +4004,7 @@ final class FirebaseCloudMessagingChannel
 >>>>>>> c5c038f2 (rebase 210)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 77edd94a (.)
@@ -4095,6 +4164,8 @@ final class FirebaseCloudMessagingChannel
 =======
 >>>>>>> c5c038f2 (rebase 210)
 >>>>>>> 17f6b8617 (.)
+=======
+>>>>>>> 26d39e2eb (.)
         return $this->firebaseCloudMessaging
             ->sendMulticast(
                 message: $notification->toCloudMessage(),
@@ -4172,6 +4243,7 @@ final class FirebaseCloudMessagingChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -4204,6 +4276,8 @@ final class FirebaseCloudMessagingChannel
 >>>>>>> 5d49e093a (.)
 =======
 >>>>>>> 17f6b8617 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4311,6 +4385,7 @@ final class FirebaseCloudMessagingChannel
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 =======
@@ -4337,6 +4412,10 @@ final class FirebaseCloudMessagingChannel
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 >>>>>>> a12f125f4a (.)
 =======
 >>>>>>> b93ef594b4 (.)
@@ -4359,12 +4438,15 @@ final class FirebaseCloudMessagingChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -4534,6 +4616,7 @@ final class FirebaseCloudMessagingChannel
 >>>>>>> bb00ab64 (rebase 210)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
 =======
@@ -4937,6 +5020,8 @@ final class FirebaseCloudMessagingChannel
 >>>>>>> 17f6b8617 (.)
 =======
 >>>>>>> db6bec044 (.)
+=======
+>>>>>>> 26d39e2eb (.)
     }
 
     /**
@@ -4946,7 +5031,15 @@ final class FirebaseCloudMessagingChannel
     private function testFcmTokens(Collection $tokens): void
     {
         /**
+<<<<<<< HEAD
          * @var list<RegistrationToken|non-empty-string>|RegistrationToken|RegistrationTokens|non-empty-string
+=======
+<<<<<<< HEAD
+         * @var list<RegistrationToken|non-empty-string>|RegistrationToken|RegistrationTokens|non-empty-string
+=======
+         * @var list<\Kreait\Firebase\Messaging\RegistrationToken|non-empty-string>|\Kreait\Firebase\Messaging\RegistrationToken|\Kreait\Firebase\Messaging\RegistrationTokens|non-empty-string
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
          */
         $registrationTokenOrTokens = $tokens->toArray();
         $validatedTokens = $this->firebaseCloudMessaging->validateRegistrationTokens($registrationTokenOrTokens);

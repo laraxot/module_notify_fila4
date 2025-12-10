@@ -117,6 +117,7 @@ class NotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -134,6 +135,11 @@ class NotificationData extends Data
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+    public ?string $from_email = null;
+=======
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
@@ -176,10 +182,13 @@ class NotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -683,6 +692,7 @@ class NotificationData extends Data
 <<<<<<< HEAD
 >>>>>>> 2effe245 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 4689a827 (.)
@@ -699,6 +709,8 @@ class NotificationData extends Data
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
     public ?string $from_email = null;
 =======
@@ -726,10 +738,13 @@ class NotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -809,6 +824,7 @@ class NotificationData extends Data
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 =======
 =======
@@ -845,6 +861,11 @@ class NotificationData extends Data
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
     public ?string $from_email = null;
 
     public string $to;
@@ -870,10 +891,13 @@ class NotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1304,11 +1328,15 @@ class NotificationData extends Data
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
 =======
@@ -1503,6 +1531,8 @@ class NotificationData extends Data
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 
     public string $body;
 
@@ -1651,6 +1681,7 @@ class NotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2001,6 +2032,15 @@ class NotificationData extends Data
 =======
 =======
 >>>>>>> f2e64178 (.)
+=======
+    public ?DataCollection $attachments = null;
+=======
+<<<<<<< HEAD
+    public null|DataCollection $attachments = null;
+>>>>>>> f813254 (.)
+
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
 =======
@@ -2042,12 +2082,15 @@ class NotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
     public null|DataCollection $attachments = null;
@@ -2334,6 +2377,7 @@ class NotificationData extends Data
 <<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -2367,6 +2411,10 @@ class NotificationData extends Data
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
     // public ?array $attachment_paths = [];
 
     /**
@@ -2474,6 +2522,7 @@ class NotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -2515,6 +2564,8 @@ class NotificationData extends Data
 =======
 >>>>>>> f2e64178 (.)
 =======
+>>>>>>> 2effe245 (.)
+=======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
@@ -2561,12 +2612,15 @@ class NotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -2674,6 +2728,7 @@ class NotificationData extends Data
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
 =======
@@ -2774,6 +2829,8 @@ class NotificationData extends Data
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
         return SmsData::from([
             'from' => $this->from,
             'to' => $this->to,
@@ -2870,6 +2927,7 @@ class NotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4d2eb53e (.)
 =======
@@ -2923,6 +2981,8 @@ class NotificationData extends Data
 =======
 >>>>>>> f2e64178 (.)
 =======
+>>>>>>> 2effe245 (.)
+=======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
@@ -2968,12 +3028,15 @@ class NotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 =======
@@ -3017,6 +3080,7 @@ class NotificationData extends Data
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
@@ -3062,6 +3126,10 @@ class NotificationData extends Data
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
         return SmsData::from(
             [
                 'from' => $this->from,
@@ -3102,6 +3170,7 @@ class NotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -3114,6 +3183,8 @@ class NotificationData extends Data
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3162,6 +3233,7 @@ class NotificationData extends Data
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 =======
@@ -3188,6 +3260,10 @@ class NotificationData extends Data
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 >>>>>>> a12f125f4a (.)
 =======
 >>>>>>> b93ef594b4 (.)
@@ -3210,12 +3286,15 @@ class NotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -3339,6 +3418,7 @@ class NotificationData extends Data
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
 =======
@@ -3449,6 +3529,8 @@ class NotificationData extends Data
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
     }
 }
 =======

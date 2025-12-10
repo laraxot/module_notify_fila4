@@ -14,6 +14,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f2e64178 (.)
 =======
@@ -44,6 +45,8 @@
 >>>>>>> cd5474106 (.)
 =======
 >>>>>>> 01750b107 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 # Raccomandazioni di Ottimizzazione - Modulo Notify
 
 ## 🎯 Stato Attuale e Problemi Critici
@@ -51,6 +54,7 @@
 ### ❌ PROBLEMI CRITICI IDENTIFICATI
 
 #### 1. Riusabilità Compromessa
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -219,6 +223,8 @@
 >>>>>>> ad905ce9c (.)
 =======
 >>>>>>> ff78f10a5 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 - **336+ occorrenze hardcoded** di "saluteora" in test e documentazione
 - **Import diretti** da moduli project-specific
 - **Configurazioni database** hardcoded nei test
@@ -288,6 +294,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - Riferimenti diretti a modelli <nome progetto>
 >>>>>>> 75179b855 (.)
@@ -401,6 +408,8 @@
 >>>>>>> ad905ce9c (.)
 =======
 >>>>>>> ff78f10a5 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 - Riferimenti diretti a modelli SaluteOra
 
 ## ✅ OTTIMIZZAZIONI IMPLEMENTATE
@@ -461,6 +470,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 1. **NotificationManagementBusinessLogicTest.php**: Rimosso hardcoding "<nome progetto>"
 >>>>>>> 75179b855 (.)
@@ -574,6 +584,8 @@
 >>>>>>> ad905ce9c (.)
 =======
 >>>>>>> ff78f10a5 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 1. **NotificationManagementBusinessLogicTest.php**: Rimosso hardcoding "SaluteOra"
 2. **NotifyThemeableFactory.php**: Implementato `getProjectNamespace()` dinamico
 3. **File di traduzione**: Aggiornati placeholder con `{{app_name}}`
@@ -643,6 +655,7 @@ $user = User::factory()->create();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 'database' => '<nome progetto>_test'
 >>>>>>> 75179b855 (.)
@@ -756,6 +769,8 @@ $user = User::factory()->create();
 >>>>>>> ad905ce9c (.)
 =======
 >>>>>>> ff78f10a5 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 'database' => 'saluteora_test'
 
 // ✅ DOPO
@@ -959,6 +974,7 @@ php artisan notify:benchmark
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -991,3 +1007,5 @@ php artisan notify:benchmark
 >>>>>>> cd5474106 (.)
 =======
 >>>>>>> 01750b107 (.)
+=======
+>>>>>>> 26d39e2eb (.)

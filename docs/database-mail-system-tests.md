@@ -922,6 +922,7 @@ php artisan test --coverage --filter=MailTemplate
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1759,11 +1760,15 @@ php artisan test --coverage --filter=MailTemplate
 - [Pest PHP](https://pestphp.com/docs) 
 >>>>>>> 36ac4fc1 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 - [Pest PHP](https://pestphp.com/docs) 
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 - [Pest PHP](https://pestphp.com/docs) 
 >>>>>>> c8b1c8bf (.)
@@ -2117,3 +2122,5 @@ php artisan test --coverage --filter=MailTemplate
 >>>>>>> 01750b107 (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> 26d39e2eb (.)

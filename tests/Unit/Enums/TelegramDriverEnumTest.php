@@ -14,7 +14,15 @@ class TelegramDriverEnumTest extends TestCase
     public function it_has_correct_cases(): void
     {
         $this->assertCount(3, TelegramDriverEnum::cases());
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
         $this->assertEquals('telegram', TelegramDriverEnum::TELEGRAM->value);
         $this->assertEquals('botapi', TelegramDriverEnum::BOTAPI->value);
         $this->assertEquals('laravel-telegram', TelegramDriverEnum::LARAVEL_TELEGRAM->value);
@@ -24,7 +32,15 @@ class TelegramDriverEnumTest extends TestCase
     public function options_returns_correct_array(): void
     {
         $options = TelegramDriverEnum::options();
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
         $this->assertIsArray($options);
         $this->assertCount(3, $options);
         $this->assertEquals('Telegram', $options['telegram']);
@@ -36,7 +52,15 @@ class TelegramDriverEnumTest extends TestCase
     public function labels_returns_localized_array(): void
     {
         $labels = TelegramDriverEnum::labels();
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
         $this->assertIsArray($labels);
         $this->assertCount(3, $labels);
         $this->assertArrayHasKey('telegram', $labels);
@@ -65,7 +89,15 @@ class TelegramDriverEnumTest extends TestCase
     public function get_default_returns_default_driver(): void
     {
         $default = TelegramDriverEnum::getDefault();
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
         $this->assertInstanceOf(TelegramDriverEnum::class, $default);
         $this->assertContains($default, TelegramDriverEnum::cases());
     }
@@ -76,6 +108,7 @@ class TelegramDriverEnumTest extends TestCase
 <<<<<<< HEAD
         $values = array_map(fn($case) => $case->value, TelegramDriverEnum::cases());
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -698,6 +731,7 @@ class TelegramDriverEnumTest extends TestCase
         $values = array_map(fn($case) => $case->value, TelegramDriverEnum::cases());
 >>>>>>> e11621f (.)
 >>>>>>> 888799d0 (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 75179b85 (.)
@@ -746,8 +780,36 @@ class TelegramDriverEnumTest extends TestCase
 >>>>>>> 0f07e6d (.)
 >>>>>>> 4d2eb53e (.)
 >>>>>>> 2f135ef98 (.)
+=======
+=======
+        $values = array_map(fn ($case) => $case->value, TelegramDriverEnum::cases());
+=======
+<<<<<<< HEAD
+        $values = array_map(fn($case) => $case->value, TelegramDriverEnum::cases());
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
         $uniqueValues = array_unique($values);
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $values = array_map(fn($case) => $case->value, TelegramDriverEnum::cases());
+=======
+        $values = array_map(fn ($case) => $case->value, TelegramDriverEnum::cases());
+>>>>>>> a12f125f4a (.)
+=======
+        $values = array_map(fn($case) => $case->value, TelegramDriverEnum::cases());
+>>>>>>> b93ef594b4 (.)
+        $uniqueValues = array_unique($values);
+
+=======
+        $values = array_map(fn($case) => $case->value, TelegramDriverEnum::cases());
+        $uniqueValues = array_unique($values);
+        
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
         $this->assertCount(count($values), $uniqueValues, 'All enum cases should have unique values');
     }
 
@@ -755,10 +817,23 @@ class TelegramDriverEnumTest extends TestCase
     public function cases_returns_all_enum_instances(): void
     {
         $cases = TelegramDriverEnum::cases();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
 
         $this->assertIsArray($cases);
         $this->assertCount(3, $cases);
 
+<<<<<<< HEAD
+=======
+=======
+        
+        $this->assertIsArray($cases);
+        $this->assertCount(3, $cases);
+        
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
         foreach ($cases as $case) {
             $this->assertInstanceOf(TelegramDriverEnum::class, $case);
         }

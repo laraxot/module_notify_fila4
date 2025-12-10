@@ -112,6 +112,7 @@ use Override;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -729,6 +730,10 @@ use Override;
 >>>>>>> 2f135ef98 (.)
 =======
 =======
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
 use Override;
 =======
 <<<<<<< HEAD
@@ -745,6 +750,7 @@ use Override;
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
 >>>>>>> 23f115647 (.)
@@ -754,7 +760,12 @@ use Override;
 use Override;
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 use Illuminate\Bus\Queueable;
 use Illuminate\Notifications\Notification;
 use Illuminate\Support\Stringable;
@@ -992,6 +1003,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1022,6 +1034,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 2fc60436 (.)
 =======
@@ -1060,10 +1073,13 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 =======
 >>>>>>> f2e64178 (.)
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
     public function __construct(
         public FirebaseNotificationData $data,
     ) {}
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1104,6 +1120,8 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1185,6 +1203,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 =======
@@ -1223,6 +1242,10 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
     public function __construct(
         public FirebaseNotificationData $data,
     ) {}
@@ -1247,12 +1270,15 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> a12f125f4a (.)
 >>>>>>> d09cb759 (.)
 =======
@@ -1317,6 +1343,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 >>>>>>> f2e64178 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
 >>>>>>> 2effe245 (.)
 =======
@@ -1367,9 +1394,15 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 26d39e2eb (.)
     public function __construct(
         public FirebaseNotificationData $data,
     ) {}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1416,6 +1449,8 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -1439,6 +1474,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 =======
@@ -1465,6 +1501,10 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b93ef594b4 (.)
 =======
     public function __construct(public FirebaseNotificationData $data)
@@ -1488,12 +1528,15 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
     public function __construct(
@@ -1800,6 +1843,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
         public FirebaseNotificationData $data,
     ) {}
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -1837,6 +1881,10 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 
     /**
      * Get the notification's delivery channels.
@@ -1943,6 +1991,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2298,10 +2347,16 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 >>>>>>> e11621f (.)
 =======
 =======
+     * @param  object  $_notifiable  The entity to be notified (l'entità da notificare)
+=======
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 >>>>>>> f813254 (.)
 =======
 >>>>>>> f5f1cb1 (.)
@@ -2334,9 +2389,14 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
      * @param object $_notifiable The entity to be notified (l'entità da notificare)
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+     * @param object $_notifiable The entity to be notified (l'entità da notificare)
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
      * @return array<int, class-string>
      */
     public function via(object $_notifiable): array
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2408,6 +2468,8 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 4d2eb53e (.)
 =======
@@ -2831,9 +2893,12 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 =======
 >>>>>>> f2e64178 (.)
 =======
+>>>>>>> 2effe245 (.)
+=======
 =======
 =======
 >>>>>>> origin/develop
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2864,6 +2929,8 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
      * @param object $notifiable The entity to be notified
      * @return array<int, class-string>
      */
@@ -2879,10 +2946,13 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2920,10 +2990,15 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 >>>>>>> a12f125f4a (.)
 =======
      * @param object $_notifiable The entity to be notified (l'entità da notificare)
@@ -2943,7 +3018,10 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -3093,6 +3171,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 <<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 75179b85 (.)
@@ -3132,6 +3211,10 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
     {
         return [
             // 'firebase',
@@ -3311,6 +3394,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3471,6 +3555,10 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 
 =======
 >>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
 
@@ -3548,12 +3636,15 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 
@@ -3701,6 +3792,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 
 >>>>>>> 985c7bda (.)
@@ -3823,6 +3915,8 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
         // Add notification only if data is in a valid format (Aggiungiamo la notifica solo se i dati sono in un formato valido)
         // Verify that $this->data->data is accessible (Verifichiamo che $this->data->data sia accessibile)
         $dataProperty = $this->data->data ?? null;
@@ -3921,6 +4015,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -3940,6 +4035,8 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
@@ -3986,12 +4083,15 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -4111,6 +4211,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
 =======
@@ -4213,6 +4314,8 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 
             // Add only supported fields with correct types (Aggiungiamo solo i campi supportati con i tipi corretti)
             $allowedKeys = ['title', 'body', 'icon', 'color', 'sound', 'click_action'];
@@ -4316,6 +4419,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -4332,6 +4436,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 =======
 >>>>>>> f2e64178 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2effe245 (.)
 =======
@@ -4359,6 +4464,10 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
             
 =======
@@ -4394,12 +4503,15 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -4432,6 +4544,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 =======
 >>>>>>> 2effe245 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
@@ -4515,6 +4628,8 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
             
             // Add only supported fields with correct types (Aggiungiamo solo i campi supportati con i tipi corretti)
             $allowedKeys = ['title', 'body', 'icon', 'color', 'sound', 'click_action'];
@@ -4525,6 +4640,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
                 }
             }
             
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4570,6 +4686,8 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4693,6 +4811,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
 =======
@@ -4780,6 +4899,8 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
             // Add notification only if it contains valid data (Aggiungiamo la notifica solo se contiene dati validi)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4854,6 +4975,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -4876,6 +4998,8 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -4976,6 +5100,10 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 
 =======
 >>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
 
@@ -5013,12 +5141,15 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 
@@ -5103,6 +5234,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 
 >>>>>>> 985c7bda (.)
@@ -5552,6 +5684,8 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
         return CloudMessage::new()
             ->withNotification(FirebaseNotification::create($this->data->title, $this->data->body))
             ->withAndroidConfig(AndroidConfig::fromArray($androidConfig));
@@ -5646,6 +5780,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -5664,6 +5799,8 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> a070a65a5 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -6220,6 +6357,19 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 =======
 =======
 =======
+    #[\Override]
+=======
+    #[Override]
+>>>>>>> 6ba141fc (.)
+=======
+    #[Override]
+<<<<<<< HEAD
+>>>>>>> 82c6772 (.)
+    public function toArray(?object $notifiable): array
+=======
+    public function toArray(null|object $notifiable): array
+>>>>>>> 2effe245 (.)
+=======
 <<<<<<< HEAD
     public function toArray(?object $notifiable): array
 =======
@@ -6270,6 +6420,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 >>>>>>> 7c1c276f (rebase 210)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
 =======
@@ -6502,6 +6653,8 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
     {
         // return $this->data->toArray();
         return [];
@@ -6592,6 +6745,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -6619,6 +6773,8 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 =======
 >>>>>>> 8c19c8df2 (.)
 =======
+>>>>>>> 26d39e2eb (.)
+=======
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -6637,6 +6793,11 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+    #[\Override]
+=======
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
@@ -6678,12 +6839,15 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -6794,6 +6958,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 >>>>>>> 8c19c8df2 (.)
     #[Override]
 =======
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 92ecc28 (.)
@@ -6860,12 +7025,18 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 =======
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+    #[Override]
+>>>>>>> 82c6772 (.)
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
     public function toCloudMessage(): Message
     {
         $notificationData = $this->data->data;
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7010,6 +7181,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 >>>>>>> f2e64178 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> d09cb759 (.)
@@ -7036,6 +7208,10 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 =======
 >>>>>>> origin/develop
@@ -7055,12 +7231,15 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 =======
@@ -7104,6 +7283,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
@@ -7149,6 +7329,10 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
     public function toCloudMessage(): Message
     {
         $notificationData = $this->data->data;
@@ -7186,6 +7370,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -7198,6 +7383,8 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7330,10 +7517,23 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> a12f125f4a (.)
+=======
+    #[Override]
+    public function toCloudMessage(): Message
+    {
+        $notificationData = $this->data->data;
+
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7356,6 +7556,8 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -7479,6 +7681,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
 =======
@@ -7589,6 +7792,8 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
         /**
          * @var array<non-empty-string, string|Stringable>
          */
@@ -7686,6 +7891,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -7846,6 +8052,10 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 
 =======
 >>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
 
@@ -7923,12 +8133,15 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 
@@ -8078,6 +8291,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 
 >>>>>>> 985c7bda (.)
@@ -8198,6 +8412,8 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
         // Ensure each key is a non-empty string and each value is string or Stringable (Assicuriamoci che ogni chiave sia una stringa non vuota e ogni valore sia string o Stringable)
         foreach ($notificationData as $key => $value) {
             if (is_string($key) && $key !== '' && (is_string($value) || $value instanceof Stringable)) {
@@ -8298,6 +8514,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -8460,6 +8677,10 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
         return CloudMessage::new()->withHighestPossiblePriority()->withData($data);
 =======
 >>>>>>> f2e64178 (.)
+=======
+        return CloudMessage::new()->withHighestPossiblePriority()->withData($data);
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
         return CloudMessage::new()->withHighestPossiblePriority()->withData($data);
@@ -8541,12 +8762,15 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
         return CloudMessage::new()->withHighestPossiblePriority()->withData($data);
@@ -8694,6 +8918,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
         return CloudMessage::new()->withHighestPossiblePriority()->withData($data);
 >>>>>>> 985c7bda (.)
@@ -8816,6 +9041,8 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
         return CloudMessage::new()->withHighestPossiblePriority()->withData($data);
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
     }
 }
 =======

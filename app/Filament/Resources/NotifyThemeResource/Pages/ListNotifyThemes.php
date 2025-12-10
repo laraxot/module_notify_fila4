@@ -107,6 +107,7 @@ use Override;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -237,6 +238,7 @@ use Override;
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
 =======
@@ -580,6 +582,8 @@ use Override;
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\SelectFilter;
 use Filament\Tables\Columns;
@@ -590,6 +594,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -805,6 +810,7 @@ use Filament\Tables\Filters\SelectFilter;
 use Override;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\SelectFilter;
+<<<<<<< HEAD
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
@@ -838,10 +844,37 @@ use Override;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\SelectFilter;
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+=======
+use Override;
+=======
+<<<<<<< HEAD
+use Override;
+use Filament\Tables\Columns\TextColumn;
+use Filament\Tables\Filters\SelectFilter;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Override;
+=======
+>>>>>>> a12f125f4a (.)
+=======
+use Override;
+>>>>>>> b93ef594b4 (.)
+use Filament\Tables\Columns\TextColumn;
+use Filament\Tables\Filters\SelectFilter;
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 use Filament\Tables\Columns;
 use Filament\Tables\Filters;
 use Modules\Notify\Filament\Resources\NotifyThemeResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1009,6 +1042,8 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
@@ -1276,6 +1311,14 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 =======
 =======
 >>>>>>> f2e64178 (.)
+=======
+<<<<<<< HEAD
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+>>>>>>> f813254 (.)
+>>>>>>> 82c6772 (.)
+
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
@@ -1378,12 +1421,15 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
@@ -1604,6 +1650,7 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 <<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -1639,6 +1686,10 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 class ListNotifyThemes extends XotBaseListRecords
 {
     protected static string $resource = NotifyThemeResource::class;
@@ -1737,6 +1788,7 @@ class ListNotifyThemes extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1756,6 +1808,11 @@ class ListNotifyThemes extends XotBaseListRecords
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+    #[\Override]
+=======
+=======
+>>>>>>> 2effe245 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
@@ -1816,12 +1873,15 @@ class ListNotifyThemes extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -1958,6 +2018,7 @@ class ListNotifyThemes extends XotBaseListRecords
 =======
 >>>>>>> 98d837b9 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 1487fe812 (.)
 =======
 =======
@@ -1997,6 +2058,10 @@ class ListNotifyThemes extends XotBaseListRecords
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 82c6772 (.)
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
     #[Override]
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2130,6 +2195,7 @@ class ListNotifyThemes extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -2156,6 +2222,8 @@ class ListNotifyThemes extends XotBaseListRecords
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2203,6 +2271,7 @@ class ListNotifyThemes extends XotBaseListRecords
 =======
 >>>>>>> 2effe245 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
@@ -2252,6 +2321,8 @@ class ListNotifyThemes extends XotBaseListRecords
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
     public function getTableColumns(): array
     {
         return [
@@ -2286,6 +2357,7 @@ class ListNotifyThemes extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -2298,6 +2370,8 @@ class ListNotifyThemes extends XotBaseListRecords
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2340,6 +2414,7 @@ class ListNotifyThemes extends XotBaseListRecords
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
@@ -2610,6 +2685,10 @@ class ListNotifyThemes extends XotBaseListRecords
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 >>>>>>> a12f125f4a (.)
 =======
     #[Override]
@@ -2634,9 +2713,12 @@ class ListNotifyThemes extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -2702,6 +2784,7 @@ class ListNotifyThemes extends XotBaseListRecords
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
 =======
@@ -2814,11 +2897,38 @@ class ListNotifyThemes extends XotBaseListRecords
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
             'created_at' => TextColumn::make('created_at')
                 ->dateTime()
                 ->sortable()
                 ->toggleable(isToggledHiddenByDefault: true),
             'updated_at' => TextColumn::make('updated_at')
+<<<<<<< HEAD
+=======
+=======
+    public function getTableColumns(): array
+    {
+        return [
+            'id' => Columns\TextColumn::make('id')
+                ->sortable(),
+            'lang' => Columns\TextColumn::make('lang')
+                ->sortable(),
+            'type' => Columns\TextColumn::make('type')
+                ->sortable(),
+            'post_id' => Columns\TextColumn::make('post_id')
+                ->sortable(),
+            'post_type' => Columns\TextColumn::make('post_type')
+                ->sortable(),
+            'logo_src' => Columns\TextColumn::make('logo_src')
+                ->sortable(),
+            'created_at' => Columns\TextColumn::make('created_at')
+                ->dateTime()
+                ->sortable()
+                ->toggleable(isToggledHiddenByDefault: true),
+            'updated_at' => Columns\TextColumn::make('updated_at')
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
                 ->dateTime()
                 ->sortable()
                 ->toggleable(isToggledHiddenByDefault: true),
@@ -2920,6 +3030,7 @@ class ListNotifyThemes extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2939,6 +3050,11 @@ class ListNotifyThemes extends XotBaseListRecords
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+    #[\Override]
+=======
+=======
+>>>>>>> 2effe245 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
@@ -2999,12 +3115,15 @@ class ListNotifyThemes extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -3117,6 +3236,7 @@ class ListNotifyThemes extends XotBaseListRecords
 =======
 >>>>>>> 82c6772 (.)
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 92ecc28 (.)
@@ -3211,6 +3331,8 @@ class ListNotifyThemes extends XotBaseListRecords
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
     #[Override]
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3395,6 +3517,7 @@ class ListNotifyThemes extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -3422,6 +3545,8 @@ class ListNotifyThemes extends XotBaseListRecords
 =======
 >>>>>>> 8c19c8df2 (.)
 =======
+>>>>>>> 26d39e2eb (.)
+=======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
@@ -3437,6 +3562,7 @@ class ListNotifyThemes extends XotBaseListRecords
 =======
 >>>>>>> f2e64178 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2effe245 (.)
 =======
@@ -3523,6 +3649,10 @@ class ListNotifyThemes extends XotBaseListRecords
 =======
 >>>>>>> 23f115647 (.)
 =======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+=======
 =======
     #[Override]
 >>>>>>> b93ef594b4 (.)
@@ -3583,12 +3713,15 @@ class ListNotifyThemes extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -3621,6 +3754,7 @@ class ListNotifyThemes extends XotBaseListRecords
 =======
 >>>>>>> 2effe245 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
@@ -3704,9 +3838,12 @@ class ListNotifyThemes extends XotBaseListRecords
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
     public function getTableFilters(): array
     {
         return [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3774,6 +3911,8 @@ class ListNotifyThemes extends XotBaseListRecords
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3849,6 +3988,7 @@ class ListNotifyThemes extends XotBaseListRecords
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -3857,6 +3997,10 @@ class ListNotifyThemes extends XotBaseListRecords
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
             'lang' => Filters\SelectFilter::make('lang')
                 ->options(function (): array {
                     return NotifyThemeResource::fieldOptions('lang');
@@ -3882,12 +4026,15 @@ class ListNotifyThemes extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -3923,6 +4070,7 @@ class ListNotifyThemes extends XotBaseListRecords
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
@@ -3963,6 +4111,10 @@ class ListNotifyThemes extends XotBaseListRecords
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
                 ->options(function (): array {
                     return NotifyThemeResource::fieldOptions('type');
                 })
@@ -4002,6 +4154,7 @@ class ListNotifyThemes extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -4014,6 +4167,8 @@ class ListNotifyThemes extends XotBaseListRecords
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4197,6 +4352,7 @@ class ListNotifyThemes extends XotBaseListRecords
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
 =======
@@ -4314,6 +4470,8 @@ class ListNotifyThemes extends XotBaseListRecords
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 }
 =======
 >>>>>>> 301ad8b44 (.)

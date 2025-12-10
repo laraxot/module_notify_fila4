@@ -61,6 +61,7 @@ namespace Modules\Notify\Actions\WhatsApp;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
 >>>>>>> 75179b85 (.)
@@ -79,10 +80,13 @@ use Modules\Xot\Actions\Cast\SafeIntCastAction;
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
 >>>>>>> 4689a827 (.)
 =======
+>>>>>>> 2effe245 (.)
+=======
 <<<<<<< HEAD
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
 >>>>>>> 4689a827 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 2effe245 (.)
@@ -105,6 +109,8 @@ use Modules\Xot\Actions\Cast\SafeIntCastAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 26d39e2eb (.)
 <<<<<<< HEAD
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
@@ -188,6 +194,8 @@ use Modules\Xot\Actions\Cast\SafeIntCastAction;
 =======
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
 =======
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
@@ -272,12 +280,14 @@ use Modules\Xot\Actions\Cast\SafeIntCastAction;
 =======
 >>>>>>> f813254 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 =======
 =======
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f813254 (.)
@@ -366,6 +376,10 @@ use Modules\Xot\Actions\Cast\SafeIntCastAction;
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
@@ -398,11 +412,13 @@ use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
 =======
 =======
 use Illuminate\Support\Str;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -480,6 +496,10 @@ use Illuminate\Support\Str;
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 use Modules\Notify\Datas\WhatsAppData;
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
 =======
@@ -655,6 +675,7 @@ use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3f39ac8b (.)
 =======
@@ -669,6 +690,8 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 3f39ac8b (.)
 =======
@@ -785,6 +808,8 @@ use Spatie\QueueableAction\QueueableAction;
 =======
 >>>>>>> f2e64178 (.)
 =======
+>>>>>>> 2effe245 (.)
+=======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
@@ -831,6 +856,7 @@ use Spatie\QueueableAction\QueueableAction;
 use Modules\Notify\Datas\WhatsAppData;
 use Spatie\QueueableAction\QueueableAction;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -853,6 +879,8 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -885,6 +913,7 @@ use Spatie\QueueableAction\QueueableAction;
 =======
 >>>>>>> 2effe245 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> d09cb759 (.)
@@ -916,9 +945,12 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 
 use Modules\Notify\Datas\WhatsAppData;
 use Spatie\QueueableAction\QueueableAction;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -956,6 +988,8 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
 =======
@@ -977,6 +1011,7 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> f2e64178 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
 >>>>>>> 2effe245 (.)
 =======
@@ -1013,6 +1048,11 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 use Modules\Notify\Datas\WhatsAppData;
 use Spatie\QueueableAction\QueueableAction;
 
@@ -1033,12 +1073,15 @@ use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
 =======
@@ -1055,6 +1098,7 @@ use Spatie\QueueableAction\QueueableAction;
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 =======
@@ -1081,6 +1125,10 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b93ef594b4 (.)
 =======
 
@@ -1104,12 +1152,15 @@ use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -1287,6 +1338,7 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
 =======
@@ -1384,6 +1436,8 @@ use Spatie\QueueableAction\QueueableAction;
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 use function Safe\json_decode;
 
 final class Send360dialogWhatsAppAction
@@ -1523,6 +1577,7 @@ final class Send360dialogWhatsAppAction
         $apiKey = config('services.360dialog.api_key');
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!is_string($apiKey)) {
             throw new Exception(
                 'put [360DIALOG_API_KEY] variable to your .env and config [services.360dialog.api_key]',
@@ -1544,6 +1599,8 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 26d39e2eb (.)
         if (!is_string($apiKey)) {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1692,9 +1749,12 @@ final class Send360dialogWhatsAppAction
 >>>>>>> 4689a827 (.)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 2effe245 (.)
         if (! is_string($apiKey)) {
 =======
         if (!is_string($apiKey)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1755,6 +1815,8 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
@@ -1765,6 +1827,7 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 >>>>>>> 3f39ac8b (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 10292b60a (.)
 =======
 =======
@@ -1795,10 +1858,15 @@ final class Send360dialogWhatsAppAction
 >>>>>>> 95531e1 (.)
 >>>>>>> 3f39ac8b (.)
 >>>>>>> f87b41c3b (.)
+=======
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
             throw new Exception(
                 'put [360DIALOG_API_KEY] variable to your .env and config [services.360dialog.api_key]',
             );
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1835,6 +1903,8 @@ final class Send360dialogWhatsAppAction
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 26d39e2eb (.)
             throw new Exception('put [360DIALOG_API_KEY] variable to your .env and config [services.360dialog.api_key]');
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
@@ -2485,6 +2555,8 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 2effe245 (.)
             throw new Exception(
                 'put [360DIALOG_API_KEY] variable to your .env and config [services.360dialog.api_key]',
             );
@@ -2500,11 +2572,13 @@ final class Send360dialogWhatsAppAction
             throw new Exception('put [360DIALOG_API_KEY] variable to your .env and config [services.360dialog.api_key]');
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -2539,6 +2613,10 @@ final class Send360dialogWhatsAppAction
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
         }
         $this->apiKey = $apiKey;
 
@@ -2638,6 +2716,7 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2866,6 +2945,11 @@ final class Send360dialogWhatsAppAction
             ->execute(config('whatsapp.timeout'), 30);
 =======
 >>>>>>> f2e64178 (.)
+=======
+        $this->timeout = app(SafeIntCastAction::class)
+            ->execute(config('whatsapp.timeout'), 30);
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
         $this->timeout = app(SafeIntCastAction::class)
@@ -2956,12 +3040,15 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
         $this->timeout = app(SafeIntCastAction::class)
@@ -3042,6 +3129,7 @@ final class Send360dialogWhatsAppAction
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
         $this->timeout = app(SafeIntCastAction::class)
             ->execute(config('whatsapp.timeout'), 30);
@@ -3223,6 +3311,8 @@ final class Send360dialogWhatsAppAction
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
     }
 
     /**
@@ -3424,6 +3514,7 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3584,6 +3675,10 @@ final class Send360dialogWhatsAppAction
 
 =======
 >>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
 
@@ -3661,12 +3756,15 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 
@@ -3811,6 +3909,7 @@ final class Send360dialogWhatsAppAction
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 
 >>>>>>> 985c7bda (.)
@@ -3936,6 +4035,8 @@ final class Send360dialogWhatsAppAction
 
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
         $client = new Client([
             'timeout' => $this->timeout,
             'headers' => [
@@ -3943,6 +4044,7 @@ final class Send360dialogWhatsAppAction
                 'Content-Type' => 'application/json',
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4053,6 +4155,8 @@ final class Send360dialogWhatsAppAction
 =======
 >>>>>>> f2e64178 (.)
 =======
+>>>>>>> 2effe245 (.)
+=======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
@@ -4098,12 +4202,15 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -4243,6 +4350,8 @@ final class Send360dialogWhatsAppAction
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
             ],
         ]);
 
@@ -4477,6 +4586,7 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -4511,6 +4621,8 @@ final class Send360dialogWhatsAppAction
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
 =======
 =======
 >>>>>>> 510809c6f (.)
@@ -4608,12 +4720,15 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -4646,6 +4761,7 @@ final class Send360dialogWhatsAppAction
 =======
 >>>>>>> 2effe245 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
@@ -4729,6 +4845,8 @@ final class Send360dialogWhatsAppAction
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
             ]
         ]);
         
@@ -4738,6 +4856,7 @@ final class Send360dialogWhatsAppAction
             'to' => $whatsAppData->to,
         ];
         
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4783,6 +4902,8 @@ final class Send360dialogWhatsAppAction
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4969,6 +5090,7 @@ final class Send360dialogWhatsAppAction
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
 =======
@@ -5084,6 +5206,8 @@ final class Send360dialogWhatsAppAction
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
         // Gestione diversi tipi di messaggi
         if ($whatsAppData->type === 'text') {
             $payload['type'] = 'text';
@@ -5215,6 +5339,7 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 11b43e822 (.)
 =======
@@ -5231,7 +5356,10 @@ final class Send360dialogWhatsAppAction
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5284,6 +5412,8 @@ final class Send360dialogWhatsAppAction
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> 75179b85 (.)
 =======
 =======
@@ -5309,6 +5439,8 @@ final class Send360dialogWhatsAppAction
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> f2e64178 (.)
@@ -5338,8 +5470,11 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -5725,6 +5860,7 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 
@@ -5764,6 +5900,10 @@ final class Send360dialogWhatsAppAction
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
             $payload['type'] = $mediaType;
             $payload[$mediaType] = [
                 'link' => $mediaUrl,
@@ -5862,6 +6002,7 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -5881,6 +6022,8 @@ final class Send360dialogWhatsAppAction
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
@@ -5927,12 +6070,15 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -6052,6 +6198,7 @@ final class Send360dialogWhatsAppAction
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
 =======
@@ -6154,6 +6301,8 @@ final class Send360dialogWhatsAppAction
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 
         try {
             $response = $client->post($endpoint, [
@@ -6256,6 +6405,7 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -6272,6 +6422,7 @@ final class Send360dialogWhatsAppAction
 =======
 >>>>>>> f2e64178 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2effe245 (.)
 =======
@@ -6299,6 +6450,10 @@ final class Send360dialogWhatsAppAction
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
         
 =======
@@ -6330,12 +6485,15 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -6368,6 +6526,7 @@ final class Send360dialogWhatsAppAction
 =======
 >>>>>>> 2effe245 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
@@ -6451,6 +6610,8 @@ final class Send360dialogWhatsAppAction
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
         
         try {
             $response = $client->post($endpoint, [
@@ -6490,6 +6651,7 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -6502,6 +6664,8 @@ final class Send360dialogWhatsAppAction
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6521,10 +6685,14 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
 =======
@@ -6557,6 +6725,8 @@ final class Send360dialogWhatsAppAction
 >>>>>>> 1619767d8 (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 26d39e2eb (.)
             $statusCode = $response->getStatusCode();
             $responseContent = $response->getBody()->getContents();
 <<<<<<< HEAD
@@ -6981,6 +7151,7 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
@@ -7028,6 +7199,8 @@ final class Send360dialogWhatsAppAction
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7054,6 +7227,7 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a070a65a5 (.)
 =======
 >>>>>>> f87b41c3b (.)
@@ -7063,6 +7237,9 @@ final class Send360dialogWhatsAppAction
 =======
 <<<<<<< HEAD
 >>>>>>> 8c19c8df2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 26d39e2eb (.)
 >>>>>>> 75179b85 (.)
 =======
 =======
@@ -7075,6 +7252,8 @@ final class Send360dialogWhatsAppAction
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 2effe245 (.)
@@ -7121,9 +7300,12 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -7161,6 +7343,7 @@ final class Send360dialogWhatsAppAction
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
@@ -7253,10 +7436,15 @@ final class Send360dialogWhatsAppAction
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
             // Salva i dati della risposta nelle variabili dell'azione
             $this->vars['status_code'] = $statusCode;
             $this->vars['status_txt'] = $responseContent;
             $this->vars['response_data'] = $responseData;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -7478,6 +7666,12 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f2e64178 (.)
+=======
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -7577,12 +7771,15 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b19cd40 (.)
 =======
 
@@ -7606,6 +7803,7 @@ final class Send360dialogWhatsAppAction
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 =======
@@ -7632,6 +7830,10 @@ final class Send360dialogWhatsAppAction
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 >>>>>>> a12f125f4a (.)
 =======
 
@@ -7656,12 +7858,15 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -8048,6 +8253,7 @@ final class Send360dialogWhatsAppAction
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 
 >>>>>>> 985c7bda (.)
@@ -8155,6 +8361,8 @@ final class Send360dialogWhatsAppAction
 
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
             Log::info('WhatsApp 360dialog inviato con successo', [
                 'to' => $whatsAppData->to,
                 'response_code' => $statusCode,
@@ -8254,6 +8462,7 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 =======
@@ -8304,6 +8513,10 @@ final class Send360dialogWhatsAppAction
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8332,6 +8545,7 @@ final class Send360dialogWhatsAppAction
 
             return [
                 'success' => $statusCode >= 200 && $statusCode < 300,
+<<<<<<< HEAD
                 'message_id' => $messageId,
 <<<<<<< HEAD
 =======
@@ -8342,10 +8556,13 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 =======
 <<<<<<< HEAD
@@ -8353,8 +8570,11 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
 =======
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> 2effe245 (.)
             return [
                 'success' => $statusCode >= 200 && $statusCode < 300,
@@ -8364,6 +8584,9 @@ final class Send360dialogWhatsAppAction
                 'success' => ($statusCode >= 200 && $statusCode < 300),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b19cd40 (.)
                 'message_id' => $responseData['messages'][0]['id'] ?? null,
 >>>>>>> 75179b85 (.)
@@ -8658,6 +8881,7 @@ final class Send360dialogWhatsAppAction
 =======
 >>>>>>> a12f125f4a (.)
 =======
+<<<<<<< HEAD
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> d45a0226 (.)
@@ -8674,6 +8898,11 @@ final class Send360dialogWhatsAppAction
             return [
                 'success' => $statusCode >= 200 && $statusCode < 300,
 >>>>>>> 2effe245 (.)
+=======
+
+            return [
+                'success' => $statusCode >= 200 && $statusCode < 300,
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b93ef594b4 (.)
 =======
             
@@ -8681,6 +8910,7 @@ final class Send360dialogWhatsAppAction
                 'success' => ($statusCode >= 200 && $statusCode < 300),
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3f537838 (.)
@@ -8725,6 +8955,11 @@ final class Send360dialogWhatsAppAction
 =======
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+                'message_id' => $responseData['messages'][0]['id'] ?? null,
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
                 'response' => $responseData,
                 'vars' => $this->vars,
             ];
@@ -8831,7 +9066,9 @@ final class Send360dialogWhatsAppAction
 =======
             /** @var array $responseBody */
             $responseBody = json_decode($response->getBody()->getContents(), true);
+<<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8873,6 +9110,8 @@ final class Send360dialogWhatsAppAction
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> 75179b85 (.)
 =======
 =======
@@ -8897,6 +9136,9 @@ final class Send360dialogWhatsAppAction
 
 =======
 >>>>>>> f2e64178 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
 
@@ -8960,10 +9202,13 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 
@@ -8996,6 +9241,7 @@ final class Send360dialogWhatsAppAction
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
 =======
@@ -9156,10 +9402,13 @@ final class Send360dialogWhatsAppAction
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
             // Salva i dati dell'errore nelle variabili dell'azione
             $this->vars['error_code'] = $statusCode;
             $this->vars['error_message'] = $e->getMessage();
             $this->vars['error_response'] = $responseBody;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -9380,6 +9629,12 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f2e64178 (.)
+=======
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -9479,12 +9734,15 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b19cd40 (.)
 =======
 
@@ -9509,6 +9767,7 @@ final class Send360dialogWhatsAppAction
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 =======
@@ -9535,6 +9794,10 @@ final class Send360dialogWhatsAppAction
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 >>>>>>> a12f125f4a (.)
 =======
 
@@ -9559,12 +9822,15 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -9973,6 +10239,7 @@ final class Send360dialogWhatsAppAction
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 
 >>>>>>> 985c7bda (.)
@@ -10078,6 +10345,8 @@ final class Send360dialogWhatsAppAction
 
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
             Log::warning('Errore invio WhatsApp 360dialog', [
                 'to' => $whatsAppData->to,
                 'status' => $statusCode,
@@ -10176,6 +10445,7 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
 =======
@@ -10206,6 +10476,8 @@ final class Send360dialogWhatsAppAction
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10226,6 +10498,7 @@ final class Send360dialogWhatsAppAction
             $errorMessage = (is_array($firstError) && isset($firstError['message']) && is_string($firstError['message']))
                 ? $firstError['message']
                 : 'Errore sconosciuto';
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -10266,7 +10539,33 @@ final class Send360dialogWhatsAppAction
             $errorMessage = $responseBody['errors'][0]['message'] ?? 'Errore sconosciuto';
 >>>>>>> 2effe245 (.)
 >>>>>>> laraxot/develop
+=======
+=======
+>>>>>>> 26d39e2eb (.)
 
+<<<<<<< HEAD
+            // Extract error message safely
+            /** @phpstan-ignore-next-line - WhatsApp API response structure */
+            $errorMessage = $responseBody['errors'][0]['message'] ?? 'Errore sconosciuto';
+>>>>>>> 2effe245 (.)
+
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+            
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+            
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
             return [
                 'success' => false,
                 'error' => $errorMessage,
@@ -10722,6 +11021,7 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -10848,6 +11148,10 @@ final class Send360dialogWhatsAppAction
 
 =======
 >>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
 
@@ -10895,12 +11199,15 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 
@@ -11036,6 +11343,7 @@ final class Send360dialogWhatsAppAction
 
 >>>>>>> 98d837b9 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 1487fe812 (.)
 =======
 =======
@@ -11072,6 +11380,9 @@ final class Send360dialogWhatsAppAction
 
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
     /**
      * Determina il tipo di media basato sull'URL o sull'estensione del file.
      *
@@ -11301,6 +11612,7 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -11530,6 +11842,11 @@ final class Send360dialogWhatsAppAction
         return match ($extension) {
 =======
 >>>>>>> f2e64178 (.)
+=======
+
+        return match ($extension) {
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
 
@@ -11622,12 +11939,15 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 
@@ -11708,6 +12028,7 @@ final class Send360dialogWhatsAppAction
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 
         return match ($extension) {
@@ -11889,6 +12210,8 @@ final class Send360dialogWhatsAppAction
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
             'jpg', 'jpeg', 'png', 'gif', 'webp' => 'image',
             'mp4', 'mov', 'avi', 'webm' => 'video',
             'mp3', 'wav', 'ogg' => 'audio',

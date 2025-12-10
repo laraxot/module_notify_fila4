@@ -144,6 +144,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -967,6 +968,13 @@ declare(strict_types=1);
 =======
 =======
 =======
+declare(strict_types=1);
+
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2effe245 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -975,11 +983,15 @@ declare(strict_types=1);
 
 =======
 >>>>>>> a12f125f4a (.)
+<<<<<<< HEAD
 >>>>>>> f813254 (.)
+=======
+>>>>>>> 2effe245 (.)
 =======
 declare(strict_types=1);
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
@@ -992,17 +1004,21 @@ declare(strict_types=1);
 >>>>>>> 888799d0 (.)
 =======
 =======
+=======
+>>>>>>> 2effe245 (.)
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 =======
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
@@ -1089,6 +1105,10 @@ declare(strict_types=1);
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 namespace Modules\Notify\Datas;
 
 use Spatie\LaravelData\Data;
@@ -1144,6 +1164,18 @@ class NetfunSmsResponseData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+        public ?string $batchId = null,
+        public ?array $messages = null,
+        public ?string $error = null,
+=======
+<<<<<<< HEAD
+        public null|string $batchId = null,
+        public null|array $messages = null,
+        public null|string $error = null,
+=======
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1291,6 +1323,7 @@ class NetfunSmsResponseData extends Data
         public null|string $batchId = null,
         public null|array $messages = null,
         public null|string $error = null,
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1357,11 +1390,16 @@ class NetfunSmsResponseData extends Data
         public null|string $error = null,
 >>>>>>> 8dc1f2ed6 (.)
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> 26d39e2eb (.)
+=======
         public ?string $batchId = null,
         public ?array $messages = null,
         public ?string $error = null,
 >>>>>>> a12f125f4a (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1413,6 +1451,11 @@ class NetfunSmsResponseData extends Data
         public null|array $messages = null,
         public null|string $error = null,
 >>>>>>> 8dc1f2ed6 (.)
+=======
+        public null|string $batchId = null,
+        public null|array $messages = null,
+        public null|string $error = null,
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b93ef594b4 (.)
 =======
         public ?string $batchId = null,
@@ -1420,6 +1463,7 @@ class NetfunSmsResponseData extends Data
         public ?string $error = null,
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1492,6 +1536,10 @@ class NetfunSmsResponseData extends Data
         public null|array $messages = null,
         public null|string $error = null,
 >>>>>>> a070a65a5 (.)
+=======
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
     ) {}
 
 <<<<<<< HEAD
@@ -1522,9 +1570,12 @@ class NetfunSmsResponseData extends Data
         $error = $data['error'] ?? null;
         return new self(
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 26d39e2eb (.)
             status: $status,
             batchId: $batchId,
             messages: $messages,
@@ -1538,6 +1589,9 @@ class NetfunSmsResponseData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 <<<<<<< HEAD
 =======
@@ -2291,6 +2345,61 @@ class NetfunSmsResponseData extends Data
 =======
 >>>>>>> 75179b85 (.)
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+    public static function fromArray(array $data): self
+    {
+        return new self(
+=======
+>>>>>>> 2effe245 (.)
+            status: $data['status'],
+            batchId: $data['batchId'] ?? null,
+            messages: $data['messages'] ?? null,
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            error: $data['error'] ?? null,
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+=======
+            error: $data['error'] ?? null
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+>>>>>>> 26d39e2eb (.)
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 4e2ebfb (.)
@@ -2301,6 +2410,48 @@ class NetfunSmsResponseData extends Data
         public null|string $error = null,
 >>>>>>> 9777d1b3 (.)
 =======
+<<<<<<< HEAD
+=======
+=======
+            error: $data['error'] ?? null,
+>>>>>>> d09cb759 (.)
+=======
+            error: $data['error'] ?? null,
+>>>>>>> d09cb759 (.)
+=======
+            error: $data['error'] ?? null,
+>>>>>>> d09cb759 (.)
+=======
+            error: $data['error'] ?? null,
+>>>>>>> 4689a827 (.)
+=======
+            error: $data['error'] ?? null,
+>>>>>>> f2e64178 (.)
+=======
+            error: $data['error'] ?? null,
+>>>>>>> 2effe245 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            error: $data['error'] ?? null,
+=======
+            error: $data['error'] ?? null
+>>>>>>> a12f125f4a (.)
+=======
+            error: $data['error'] ?? null,
+>>>>>>> b93ef594b4 (.)
+=======
+            error: $data['error'] ?? null
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -2522,6 +2673,7 @@ class NetfunSmsResponseData extends Data
 =======
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
 =======
@@ -2819,6 +2971,8 @@ class NetfunSmsResponseData extends Data
             error: $data['error'] ?? null,
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
         );
     }
 }

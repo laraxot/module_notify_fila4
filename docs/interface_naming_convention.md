@@ -428,6 +428,7 @@ interface TelegramProviderActionInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 3. **Standardizzazione**: Questa convenzione è applicata in modo coerente in tutti i moduli .
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1442,6 +1443,7 @@ interface TelegramProviderActionInterface
 =======
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 3. **Standardizzazione**: Questa convenzione è applicata in modo coerente in tutti i moduli .
 =======
 >>>>>>> d284d65 (.)
@@ -1789,7 +1791,11 @@ interface TelegramProviderActionInterface
 >>>>>>> ad905ce9c (.)
 =======
 =======
+=======
+>>>>>>> 26d39e2eb (.)
 3. **Standardizzazione**: Questa convenzione è applicata in modo coerente in tutti i moduli .
+=======
+>>>>>>> d284d65 (.)
 3. **Standardizzazione**: Questa convenzione è applicata in modo coerente in tutti i moduli SaluteOra.
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
@@ -1812,6 +1818,7 @@ Per verificare la corretta implementazione:
 # Cerca interfacce con naming errato
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2249,6 +2256,7 @@ Per verificare la corretta implementazione:
 >>>>>>> 22baa66d (rebase 210)
 =======
 >>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
@@ -2703,6 +2711,10 @@ Per verificare la corretta implementazione:
 >>>>>>> 01750b107 (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 grep -r "interface.*Interface" --include="*.php" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules
 
 # Cerca interfacce con naming corretto
@@ -3000,6 +3012,7 @@ grep -r "interface.*Contract" --include="*.php" /var/www/html/_bases/base_techpl
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cca10a64 (.)
 >>>>>>> laraxot/develop
@@ -3117,6 +3130,8 @@ grep -r "interface.*Contract" --include="*.php" /var/www/html/_bases/base_techpl
 >>>>>>> ad905ce9c (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 grep -r "interface.*Interface" --include="*.php" /var/www/html/<nome progetto>/laravel/Modules
 
 # Cerca interfacce con naming corretto
@@ -3796,10 +3811,14 @@ grep -r "interface.*Contract" --include="*.php" /var/www/html/<nome progetto>/la
 =======
 >>>>>>> 36ac4fc1 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 69fa7d37 (.)
 =======
@@ -4149,6 +4168,8 @@ grep -r "interface.*Contract" --include="*.php" /var/www/html/<nome progetto>/la
 >>>>>>> ad905ce9c (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 grep -r "interface.*Interface" --include="*.php" /var/www/html/saluteora/laravel/Modules
 
 # Cerca interfacce con naming corretto
@@ -4441,6 +4462,7 @@ grep -r "interface.*Contract" --include="*.php" /var/www/html/saluteora/laravel/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -4555,6 +4577,8 @@ grep -r "interface.*Contract" --include="*.php" /var/www/html/saluteora/laravel/
 >>>>>>> ad905ce9c (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> 75179b85 (.)
 =======
 <<<<<<< HEAD
@@ -4993,6 +5017,7 @@ grep -r "interface.*Contract" --include="*.php" /var/www/html/<nome progetto>/la
 >>>>>>> 36ac4fc1 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 69fa7d37 (.)
 =======
@@ -5545,12 +5570,15 @@ grep -r "interface.*Contract" --include="*.php" /var/www/html/<nome progetto>/la
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 grep -r "interface.*Interface" --include="*.php" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules
 
 # Cerca interfacce con naming corretto
 grep -r "interface.*Contract" --include="*.php" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6384,10 +6412,14 @@ grep -r "interface.*Contract" --include="*.php" /var/www/html/_bases/base_techpl
 =======
 >>>>>>> 36ac4fc1 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b19cd40 (.)
@@ -6689,6 +6721,8 @@ grep -r "interface.*Contract" --include="*.php" /var/www/html/_bases/base_techpl
 >>>>>>> 01750b107 (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 ```
 
 ## Riferimenti
@@ -8640,6 +8674,7 @@ grep -r "interface.*Contract" --include="*.php" /var/www/html/_bases/base_techpl
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 030c9674 (rebase 210)
 =======
 =======
@@ -9234,6 +9269,7 @@ grep -r "interface.*Contract" --include="*.php" /var/www/html/_bases/base_techpl
 =======
 >>>>>>> 2effe245 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> e790eb33 (.)
 =======
 >>>>>>> d09cb759 (.)
@@ -9310,9 +9346,12 @@ grep -r "interface.*Contract" --include="*.php" /var/www/html/_bases/base_techpl
 >>>>>>> 22baa66d (rebase 210)
 =======
 >>>>>>> 01750b107 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 - [SaluteOra Code Quality Guidelines](/var/www/html/saluteora/laravel/docs/code-quality.md)
 - [Modulo Xot Contracts](/var/www/html/saluteora/laravel/Modules/Xot/app/Contracts/)
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9375,6 +9414,8 @@ grep -r "interface.*Contract" --include="*.php" /var/www/html/_bases/base_techpl
 >>>>>>> cd5474106 (.)
 =======
 >>>>>>> 01750b107 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 - [Modulo Xot Contracts](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Contracts/)
@@ -9576,6 +9617,7 @@ grep -r "interface.*Contract" --include="*.php" /var/www/html/_bases/base_techpl
 =======
 - [Modulo Xot Contracts](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Contracts/)
 >>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
@@ -10065,3 +10107,7 @@ grep -r "interface.*Contract" --include="*.php" /var/www/html/_bases/base_techpl
 >>>>>>> 01750b107 (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)

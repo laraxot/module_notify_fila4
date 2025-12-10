@@ -144,6 +144,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -954,6 +955,13 @@ declare(strict_types=1);
 =======
 =======
 =======
+declare(strict_types=1);
+
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2effe245 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -962,11 +970,15 @@ declare(strict_types=1);
 
 =======
 >>>>>>> a12f125f4a (.)
+<<<<<<< HEAD
 >>>>>>> f813254 (.)
+=======
+>>>>>>> 2effe245 (.)
 =======
 declare(strict_types=1);
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
@@ -979,6 +991,8 @@ declare(strict_types=1);
 >>>>>>> 888799d0 (.)
 =======
 =======
+=======
+>>>>>>> 2effe245 (.)
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
@@ -987,13 +1001,17 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> f2e64178 (.)
 =======
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
@@ -1061,6 +1079,10 @@ declare(strict_types=1);
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 return [
     'resource' => [
         'name' => 'Invio SMS',

@@ -1233,6 +1233,7 @@ Cordiali saluti,<br>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -2070,11 +2071,15 @@ Cordiali saluti,<br>
 - [Filament Forms](https://filamentphp.com/docs/forms)
 >>>>>>> 36ac4fc1 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 - [Filament Forms](https://filamentphp.com/docs/forms)
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 - [Filament Forms](https://filamentphp.com/docs/forms)
 >>>>>>> c8b1c8bf (.)
@@ -2428,3 +2433,5 @@ Cordiali saluti,<br>
 >>>>>>> 01750b107 (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> 26d39e2eb (.)

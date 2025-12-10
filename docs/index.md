@@ -393,11 +393,19 @@ This document serves as the central index for the Notify module, providing guida
 - [SMS Implementation](./SMS_IMPLEMENTATION.md)
 - [Troubleshooting](./TROUBLESHOOTING.md)
 <<<<<<< HEAD
-=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 # Indice della Documentazione - Modulo Notify
 
 ## Panoramica
@@ -496,7 +504,12 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 ## Documentazione e Aggiornamenti
 - Documentare qualsiasi implementazione personalizzata o nuovi canali di notifica nella cartella di documentazione pertinente
 - Aggiornare questo indice se vengono introdotte nuove funzionalità o modifiche significative al modulo Notify
+<<<<<<< HEAD
 >>>>>>> 7bac387 (.)
+=======
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
 
 ## ✅ Convenzioni Laraxot
 - [Module Conventions](../../Xot/docs/conventions.md)
@@ -4089,6 +4102,19 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+Ultimo aggiornamento: 14 Maggio 2025
+
+## Risoluzione conflitti e standard
+- Il file `lang/it/notify_theme.php` è stato risolto manualmente mantenendo PSR-12, strict_types, array short syntax e solo chiavi effettive, come richiesto dagli standard PHPStan livello 10.
+- Il file `NOTIFICATION_CHANNELS_IMPLEMENTATION.md` è stato risolto manualmente mantenendo la versione più aggiornata e coerente con le best practice architetturali del modulo Notify.
+- Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+=======
+>>>>>>> 9f953c6 (.)
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4185,7 +4211,13 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 <<<<<<< HEAD
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> ce89c8bb (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+>>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 58816034 (.)
 =======
@@ -4215,7 +4247,98 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 =======
 >>>>>>> c6c33175 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> c4bdacbf (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+## Note sulla Manutenzione
+Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice, consultare la documentazione pertinente e aggiornare i documenti correlati.
+
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+## Note sulla Manutenzione
+Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice, consultare la documentazione pertinente e aggiornare i documenti correlati.
+
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+## Note sulla Manutenzione
+Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice, consultare la documentazione pertinente e aggiornare i documenti correlati.
+
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+## Note sulla Manutenzione
+Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice, consultare la documentazione pertinente e aggiornare i documenti correlati.
+
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+=======
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
+## Risoluzione Conflitti e Standard
+- **Gennaio 2025**: Risoluzione sistematica di tutti i conflitti Git nei file di documentazione:
+  - `index.md` - Unificato contenuto italiano e inglese mantenendo struttura completa
+  - `database_mail_queue.md` - Rimossi marcatori conflitto, aggiornati path di sistema
+  - `database_mail_system.md` - Puliti conflitti nelle sezioni bash e riferimenti
+  - `database_mail.md` - Risolti conflitti nei template e riferimenti esterni
+- Il file `lang/it/notify_theme.php` è stato risolto manualmente mantenendo PSR-12, strict_types, array short syntax e solo chiavi effettive, come richiesto dagli standard PHPStan livello 10
+- Il file `NOTIFICATION_CHANNELS_IMPLEMENTATION.md` è stato risolto manualmente mantenendo la versione più aggiornata e coerente con le best practice architetturali del modulo Notify
+- **Filosofia di risoluzione**: Approccio olistico con analisi manuale approfondita, mantenimento integrità architetturale, documentazione bidirezionale aggiornata
+- Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+*Ultimo aggiornamento: Gennaio 2025*
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 26d39e2eb (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -6756,7 +6879,28 @@ Ultimo aggiornamento: 14 Maggio 2025
 =======
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*
+<<<<<<< HEAD
 >>>>>>> 7bac387 (.)
+<<<<<<< HEAD
 >>>>>>> 9ed014c (.)
+<<<<<<< HEAD
 >>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
 >>>>>>> fea359347 (.)
+=======
+=======
+=======
+=======
+=======
+Ultimo aggiornamento: 14 Maggio 2025
+
+## Risoluzione conflitti e standard
+- Il file `lang/it/notify_theme.php` è stato risolto manualmente mantenendo PSR-12, strict_types, array short syntax e solo chiavi effettive, come richiesto dagli standard PHPStan livello 10.
+- Il file `NOTIFICATION_CHANNELS_IMPLEMENTATION.md` è stato risolto manualmente mantenendo la versione più aggiornata e coerente con le best practice architetturali del modulo Notify.
+- Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
+>>>>>>> 82c6772 (.)
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)

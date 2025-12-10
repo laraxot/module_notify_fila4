@@ -153,6 +153,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -231,6 +232,7 @@ declare(strict_types=1);
 =======
 >>>>>>> 98d837b9 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 1619767d8 (.)
 =======
 =======
@@ -250,6 +252,9 @@ declare(strict_types=1);
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -394,6 +399,7 @@ namespace Modules\Notify\Database\Factories;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -406,6 +412,11 @@ use Modules\Notify\Models\MailTemplateLog;
 >>>>>>> fbed41ac (.)
 use Illuminate\Database\Eloquent\Factories\Factory;
 >>>>>>> d45a0226 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 26d39e2eb (.)
 use Modules\Notify\Models\MailTemplateLog;
 =======
 <<<<<<< HEAD
@@ -430,8 +441,11 @@ namespace Modules\Notify\Database\Factories;
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> 26d39e2eb (.)
 use Illuminate\Database\Eloquent\Factories\Factory;
 >>>>>>> 2effe245 (.)
 use Modules\Notify\Models\MailTemplateLog;
@@ -627,7 +641,15 @@ class MailTemplateLogFactory extends Factory
     /**
      * The name of the factory's corresponding model.
      */
+<<<<<<< HEAD
     protected $model = MailTemplateLog::class;
+=======
+<<<<<<< HEAD
+    protected $model = MailTemplateLog::class;
+=======
+    protected $model = \Modules\Notify\Models\MailTemplateLog::class;
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
 
     /**
      * Define the model's default state.
@@ -639,6 +661,7 @@ class MailTemplateLogFactory extends Factory
 }
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -817,6 +840,8 @@ class MailTemplateLogFactory extends Factory
 =======
 >>>>>>> f2e64178 (.)
 =======
+>>>>>>> 2effe245 (.)
+=======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
@@ -870,12 +895,15 @@ class MailTemplateLogFactory extends Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -1094,6 +1122,7 @@ class MailTemplateLogFactory extends Factory
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 301ad8b44 (.)
@@ -1135,3 +1164,7 @@ class MailTemplateLogFactory extends Factory
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)

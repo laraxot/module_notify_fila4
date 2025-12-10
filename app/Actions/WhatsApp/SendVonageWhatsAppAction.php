@@ -22,6 +22,7 @@ use Illuminate\Support\Str;
 >>>>>>> e53a56570 (.)
 use Modules\Notify\Datas\WhatsAppData;
 use Spatie\QueueableAction\QueueableAction;
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -74,6 +75,7 @@ use Spatie\QueueableAction\QueueableAction;
 =======
 >>>>>>> 2f135ef98 (.)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -208,6 +210,8 @@ use Spatie\QueueableAction\QueueableAction;
 =======
 >>>>>>> f2e64178 (.)
 =======
+>>>>>>> 2effe245 (.)
+=======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
@@ -245,10 +249,13 @@ use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -437,6 +444,7 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
@@ -572,6 +580,10 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 use function Safe\json_decode;
 
 final class SendVonageWhatsAppAction
@@ -626,6 +638,7 @@ final class SendVonageWhatsAppAction
     protected bool $debug;
     protected int $timeout;
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected ?string $defaultSender;
 =======
 <<<<<<< HEAD
@@ -633,6 +646,8 @@ final class SendVonageWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 26d39e2eb (.)
     protected ?string $defaultSender;
 =======
 <<<<<<< HEAD
@@ -1379,6 +1394,15 @@ final class SendVonageWhatsAppAction
 >>>>>>> 23f115647 (.)
 =======
 =======
+=======
+<<<<<<< HEAD
+
+    protected ?string $defaultSender;
+=======
+<<<<<<< HEAD
+    protected null|string $defaultSender;
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1397,13 +1421,17 @@ final class SendVonageWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> f2e64178 (.)
 =======
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
@@ -1458,6 +1486,10 @@ final class SendVonageWhatsAppAction
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 
     /**
      * Create a new action instance.
@@ -1696,6 +1728,7 @@ final class SendVonageWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
 =======
@@ -1726,6 +1759,8 @@ final class SendVonageWhatsAppAction
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
         $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
 =======
         $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
@@ -1821,6 +1856,9 @@ final class SendVonageWhatsAppAction
         $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
 >>>>>>> f2e64178 (.)
 =======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 2effe245 (.)
+=======
 <<<<<<< HEAD
         $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
 >>>>>>> 4689a827 (.)
@@ -1888,12 +1926,15 @@ final class SendVonageWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
         $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
@@ -2255,6 +2296,7 @@ final class SendVonageWhatsAppAction
 =======
         $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -2291,6 +2333,10 @@ final class SendVonageWhatsAppAction
         $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
     }
 
     /**
@@ -2485,6 +2531,7 @@ final class SendVonageWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2645,6 +2692,10 @@ final class SendVonageWhatsAppAction
 
 =======
 >>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
 
@@ -2722,12 +2773,15 @@ final class SendVonageWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 
@@ -2877,6 +2931,7 @@ final class SendVonageWhatsAppAction
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 
 >>>>>>> 985c7bda (.)
@@ -2997,6 +3052,8 @@ final class SendVonageWhatsAppAction
 
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
         // Log di debug se abilitato
         if ($this->debug) {
             Log::debug('Invio WhatsApp Vonage', [
@@ -3098,6 +3155,7 @@ final class SendVonageWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3258,6 +3316,10 @@ final class SendVonageWhatsAppAction
 
 =======
 >>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
 
@@ -3335,12 +3397,15 @@ final class SendVonageWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 
@@ -3490,6 +3555,7 @@ final class SendVonageWhatsAppAction
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 
 >>>>>>> 985c7bda (.)
@@ -3610,6 +3676,8 @@ final class SendVonageWhatsAppAction
 
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
         $client = new Client([
             'timeout' => $this->timeout,
             'headers' => [
@@ -3753,6 +3821,7 @@ final class SendVonageWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82ae73be (.)
@@ -3770,6 +3839,8 @@ final class SendVonageWhatsAppAction
 =======
 >>>>>>> 8c19c8df2 (.)
 =======
+>>>>>>> 26d39e2eb (.)
+=======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
@@ -3793,6 +3864,7 @@ final class SendVonageWhatsAppAction
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
@@ -3838,10 +3910,15 @@ final class SendVonageWhatsAppAction
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
             ],
         ]);
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3902,6 +3979,8 @@ final class SendVonageWhatsAppAction
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3987,6 +4066,7 @@ final class SendVonageWhatsAppAction
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 =======
@@ -4025,6 +4105,10 @@ final class SendVonageWhatsAppAction
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
             ],
         ]);
 
@@ -4049,12 +4133,15 @@ final class SendVonageWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> a12f125f4a (.)
 >>>>>>> d09cb759 (.)
 =======
@@ -4119,6 +4206,7 @@ final class SendVonageWhatsAppAction
 >>>>>>> f2e64178 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
 >>>>>>> 2effe245 (.)
 =======
@@ -4169,9 +4257,15 @@ final class SendVonageWhatsAppAction
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 26d39e2eb (.)
             ],
         ]);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4218,6 +4312,8 @@ final class SendVonageWhatsAppAction
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -4241,6 +4337,7 @@ final class SendVonageWhatsAppAction
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 =======
@@ -4267,6 +4364,10 @@ final class SendVonageWhatsAppAction
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b93ef594b4 (.)
 =======
             ]
@@ -4290,12 +4391,15 @@ final class SendVonageWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
             ],
@@ -4391,6 +4495,7 @@ final class SendVonageWhatsAppAction
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
             ],
         ]);
@@ -4602,6 +4707,8 @@ final class SendVonageWhatsAppAction
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
         $payload = [
             'from' => [
                 'type' => 'whatsapp',
@@ -4757,6 +4864,7 @@ final class SendVonageWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4d2eb53e (.)
 =======
@@ -4807,8 +4915,11 @@ final class SendVonageWhatsAppAction
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4d2eb53e (.)
@@ -4824,6 +4935,8 @@ final class SendVonageWhatsAppAction
 
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 26d39e2eb (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -4837,12 +4950,15 @@ final class SendVonageWhatsAppAction
         
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 >>>>>>> 23f115647 (.)
 =======
 =======
 >>>>>>> 98d837b9 (.)
 
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
         // Gestione diversi tipi di messaggi
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4860,6 +4976,9 @@ final class SendVonageWhatsAppAction
             $mediaType = $this->determineMediaType($mediaUrl);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 26d39e2eb (.)
 
 >>>>>>> 2f135ef98 (.)
 =======
@@ -4958,6 +5077,7 @@ final class SendVonageWhatsAppAction
             $mediaType = $this->determineMediaType($mediaUrl);
 <<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5125,6 +5245,8 @@ final class SendVonageWhatsAppAction
 =======
 >>>>>>> f2e64178 (.)
 =======
+>>>>>>> 2effe245 (.)
+=======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
@@ -5227,6 +5349,7 @@ final class SendVonageWhatsAppAction
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
@@ -5664,6 +5787,10 @@ final class SendVonageWhatsAppAction
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
             $payload['message']['content'] = [
                 'type' => $mediaType,
                 $mediaType => [
@@ -5827,6 +5954,7 @@ final class SendVonageWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -5987,6 +6115,10 @@ final class SendVonageWhatsAppAction
 
 =======
 >>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
 
@@ -6064,12 +6196,15 @@ final class SendVonageWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 
@@ -6219,6 +6354,7 @@ final class SendVonageWhatsAppAction
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 
 >>>>>>> 985c7bda (.)
@@ -6339,6 +6475,8 @@ final class SendVonageWhatsAppAction
 
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
         try {
             $response = $client->post($this->baseUrl, [
                 'json' => $payload,
@@ -6442,6 +6580,7 @@ final class SendVonageWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
             
@@ -6658,12 +6797,33 @@ final class SendVonageWhatsAppAction
 =======
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
 
+<<<<<<< HEAD
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+            
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+            
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> 26d39e2eb (.)
             $statusCode = $response->getStatusCode();
             $responseContent = $response->getBody()->getContents();
             /** @var array $responseData */
             $responseData = json_decode($responseContent, true);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6684,6 +6844,8 @@ final class SendVonageWhatsAppAction
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6708,6 +6870,7 @@ final class SendVonageWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> a070a65a5 (.)
@@ -6719,6 +6882,9 @@ final class SendVonageWhatsAppAction
 =======
 <<<<<<< HEAD
 >>>>>>> 8c19c8df2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 26d39e2eb (.)
 >>>>>>> 75179b85 (.)
 >>>>>>> b207a9b1a (.)
 =======
@@ -6754,6 +6920,7 @@ final class SendVonageWhatsAppAction
 =======
 >>>>>>> f2e64178 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 1487fe812 (.)
@@ -6781,6 +6948,10 @@ final class SendVonageWhatsAppAction
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6799,6 +6970,7 @@ final class SendVonageWhatsAppAction
 >>>>>>> 510809c6f (.)
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6924,10 +7096,13 @@ final class SendVonageWhatsAppAction
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
             // Salva i dati della risposta nelle variabili dell'azione
             $this->vars['status_code'] = $statusCode;
             $this->vars['status_txt'] = $responseContent;
             $this->vars['response_data'] = $responseData;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -7017,10 +7192,17 @@ final class SendVonageWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f2e64178 (.)
+=======
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 
 =======
             
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7066,6 +7248,7 @@ final class SendVonageWhatsAppAction
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 510809c6f (.)
@@ -7079,6 +7262,10 @@ final class SendVonageWhatsAppAction
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 >>>>>>> a12f125f4a (.)
 =======
 
@@ -7087,6 +7274,7 @@ final class SendVonageWhatsAppAction
             
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7605,6 +7793,8 @@ final class SendVonageWhatsAppAction
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -7985,6 +8175,7 @@ final class SendVonageWhatsAppAction
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 
 >>>>>>> 985c7bda (.)
@@ -8092,6 +8283,8 @@ final class SendVonageWhatsAppAction
 
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
             Log::info('WhatsApp Vonage inviato con successo', [
                 'to' => $whatsAppData->to,
                 'response_code' => $statusCode,
@@ -8104,6 +8297,7 @@ final class SendVonageWhatsAppAction
                     ? $responseData['message_uuid']
                     : null,
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8552,10 +8746,38 @@ final class SendVonageWhatsAppAction
 =======
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
 
             return [
                 'success' => $statusCode >= 200 && $statusCode < 300,
+<<<<<<< HEAD
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+            return [
+                'success' => $statusCode >= 200 && $statusCode < 300,
+=======
+            
+            return [
+                'success' => ($statusCode >= 200 && $statusCode < 300),
+>>>>>>> a12f125f4a (.)
+=======
+
+            return [
+                'success' => $statusCode >= 200 && $statusCode < 300,
+>>>>>>> b93ef594b4 (.)
+=======
+            
+            return [
+                'success' => ($statusCode >= 200 && $statusCode < 300),
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> 26d39e2eb (.)
                 'message_id' => $responseData['message_uuid'] ?? null,
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8685,7 +8907,9 @@ final class SendVonageWhatsAppAction
 =======
             /** @var array $responseBody */
             $responseBody = json_decode($response->getBody()->getContents(), true);
+<<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8727,6 +8951,8 @@ final class SendVonageWhatsAppAction
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> 75179b85 (.)
 =======
 =======
@@ -8751,6 +8977,9 @@ final class SendVonageWhatsAppAction
 
 =======
 >>>>>>> f2e64178 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
 
@@ -8814,10 +9043,13 @@ final class SendVonageWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 
@@ -8850,6 +9082,7 @@ final class SendVonageWhatsAppAction
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
 =======
@@ -9010,10 +9243,13 @@ final class SendVonageWhatsAppAction
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
             // Salva i dati dell'errore nelle variabili dell'azione
             $this->vars['error_code'] = $statusCode;
             $this->vars['error_message'] = $e->getMessage();
             $this->vars['error_response'] = $responseBody;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -9234,6 +9470,12 @@ final class SendVonageWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f2e64178 (.)
+=======
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -9333,12 +9575,15 @@ final class SendVonageWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b19cd40 (.)
 =======
 
@@ -9363,6 +9608,7 @@ final class SendVonageWhatsAppAction
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 =======
@@ -9389,6 +9635,10 @@ final class SendVonageWhatsAppAction
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 >>>>>>> a12f125f4a (.)
 =======
 
@@ -9413,12 +9663,15 @@ final class SendVonageWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -9827,6 +10080,7 @@ final class SendVonageWhatsAppAction
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 
 >>>>>>> 985c7bda (.)
@@ -9932,6 +10186,8 @@ final class SendVonageWhatsAppAction
 
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
             Log::warning('Errore invio WhatsApp Vonage', [
                 'to' => $whatsAppData->to,
                 'status' => $statusCode,
@@ -9945,6 +10201,7 @@ final class SendVonageWhatsAppAction
                     ? $responseBody['title']
                     : 'Errore sconosciuto',
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10292,8 +10549,28 @@ final class SendVonageWhatsAppAction
 =======
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
 
+<<<<<<< HEAD
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+            
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+            
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> 26d39e2eb (.)
             return [
                 'success' => false,
                 'error' => $responseBody['title'] ?? 'Errore sconosciuto',
@@ -10425,6 +10702,7 @@ final class SendVonageWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -10551,6 +10829,10 @@ final class SendVonageWhatsAppAction
 
 =======
 >>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
 
@@ -10598,12 +10880,15 @@ final class SendVonageWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 
@@ -10739,6 +11024,7 @@ final class SendVonageWhatsAppAction
 
 >>>>>>> 98d837b9 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 1487fe812 (.)
 =======
 =======
@@ -10775,6 +11061,9 @@ final class SendVonageWhatsAppAction
 
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
     /**
      * Determina il tipo di media basato sull'URL o sull'estensione del file.
      *
@@ -11004,6 +11293,7 @@ final class SendVonageWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -11233,6 +11523,11 @@ final class SendVonageWhatsAppAction
         return match ($extension) {
 =======
 >>>>>>> f2e64178 (.)
+=======
+
+        return match ($extension) {
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
 
@@ -11325,12 +11620,15 @@ final class SendVonageWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 
@@ -11411,6 +11709,7 @@ final class SendVonageWhatsAppAction
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 
         return match ($extension) {
@@ -11592,6 +11891,8 @@ final class SendVonageWhatsAppAction
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
             'jpg', 'jpeg', 'png', 'gif', 'webp' => 'image',
             'mp4', 'mov', 'avi', 'webm' => 'video',
             'mp3', 'wav', 'ogg' => 'audio',

@@ -314,6 +314,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -629,6 +630,7 @@ declare(strict_types=1);
 =======
 >>>>>>> 22baa66d (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 =======
@@ -906,6 +908,10 @@ declare(strict_types=1);
 >>>>>>> db6bec044 (.)
 =======
 >>>>>>> 01750b107 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 declare(strict_types=1);
 
 
@@ -963,6 +969,7 @@ declare(strict_types=1);
 >>>>>>> 903e3e2cd (.)
 =======
 >>>>>>> a0788fa28 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1059,6 +1066,7 @@ declare(strict_types=1);
 >>>>>>> 22baa66d (rebase 210)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> e790eb33 (.)
 =======
@@ -1120,11 +1128,14 @@ declare(strict_types=1);
 =======
 >>>>>>> 22baa66d (rebase 210)
 >>>>>>> 01750b107 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 declare(strict_types=1);
 
 
 =======
 >>>>>>> a12f125f4a (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1167,6 +1178,8 @@ declare(strict_types=1);
 >>>>>>> cd5474106 (.)
 =======
 >>>>>>> 01750b107 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> d09cb759 (.)
@@ -1203,9 +1216,12 @@ declare(strict_types=1);
 =======
 >>>>>>> 22baa66d (rebase 210)
 =======
+>>>>>>> 2effe245 (.)
+=======
 declare(strict_types=1);
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1278,6 +1294,8 @@ declare(strict_types=1);
 >>>>>>> cd5474106 (.)
 =======
 >>>>>>> 01750b107 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -1322,6 +1340,7 @@ declare(strict_types=1);
 >>>>>>> 22baa66d (rebase 210)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> e790eb33 (.)
 =======
@@ -1409,6 +1428,8 @@ declare(strict_types=1);
 =======
 >>>>>>> 22baa66d (rebase 210)
 >>>>>>> 01750b107 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
@@ -1461,6 +1482,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -1483,6 +1505,8 @@ declare(strict_types=1);
 >>>>>>> cd5474106 (.)
 =======
 >>>>>>> 01750b107 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 declare(strict_types=1);
@@ -2300,6 +2324,7 @@ declare(strict_types=1);
 
 
 >>>>>>> 5b50927d (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
@@ -2655,6 +2680,10 @@ declare(strict_types=1);
 >>>>>>> 01750b107 (.)
 =======
 >>>>>>> 5e028c03d (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 $finder = PhpCsFixer\Finder::create()
     ->notPath('bootstrap/cache')
     ->notPath('storage')

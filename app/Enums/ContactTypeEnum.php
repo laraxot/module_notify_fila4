@@ -97,6 +97,7 @@ namespace Modules\Notify\Enums;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -116,6 +117,8 @@ namespace Modules\Notify\Enums;
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
@@ -162,12 +165,15 @@ namespace Modules\Notify\Enums;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -287,6 +293,7 @@ namespace Modules\Notify\Enums;
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
 =======
@@ -389,6 +396,8 @@ namespace Modules\Notify\Enums;
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 use Filament\Forms\Components\TextInput;
 use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasIcon;
@@ -396,6 +405,7 @@ use Filament\Support\Contracts\HasLabel;
 use Illuminate\Support\Arr;
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -502,6 +512,7 @@ use Illuminate\Support\Arr;
 >>>>>>> f2e64178 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> d09cb759 (.)
@@ -528,6 +539,10 @@ use Illuminate\Support\Arr;
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 use Illuminate\Support\Arr;
 use Filament\Support\Contracts\HasIcon;
@@ -558,12 +573,15 @@ use Illuminate\Support\Arr;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -596,6 +614,7 @@ use Illuminate\Support\Arr;
 =======
 >>>>>>> 2effe245 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
@@ -679,11 +698,14 @@ use Illuminate\Support\Arr;
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 use Illuminate\Support\Arr;
 use Filament\Support\Contracts\HasIcon;
 use Filament\Forms\Components\TextInput;
 use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasLabel;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -729,6 +751,8 @@ use Filament\Support\Contracts\HasLabel;
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -914,6 +938,7 @@ use Filament\Support\Contracts\HasLabel;
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
 =======
@@ -1029,6 +1054,8 @@ use Filament\Support\Contracts\HasLabel;
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 use Modules\Xot\Filament\Traits\TransTrait;
 
 /**
@@ -1125,6 +1152,7 @@ use Modules\Xot\Filament\Traits\TransTrait;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1251,6 +1279,10 @@ use Modules\Xot\Filament\Traits\TransTrait;
  *
 =======
 >>>>>>> f2e64178 (.)
+=======
+ *
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
  *
@@ -1298,12 +1330,15 @@ use Modules\Xot\Filament\Traits\TransTrait;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
  *
@@ -1439,6 +1474,7 @@ use Modules\Xot\Filament\Traits\TransTrait;
  *
 >>>>>>> 98d837b9 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 1487fe812 (.)
 =======
 =======
@@ -1475,6 +1511,9 @@ use Modules\Xot\Filament\Traits\TransTrait;
  *
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
  * Questo enum centralizza la gestione dei driver SMS disponibili
  * e fornisce metodi helper per ottenere le opzioni e le etichette.
  */
@@ -1557,6 +1596,7 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -1585,6 +1625,8 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1659,6 +1701,10 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 
 =======
 >>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
 
@@ -2074,6 +2120,7 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 
@@ -2150,6 +2197,7 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 =======
 
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -2195,6 +2243,10 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
     case PHONE = 'phone';
     case MOBILE = 'mobile';
     case EMAIL = 'email';
@@ -2293,6 +2345,7 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2312,6 +2365,8 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
@@ -2358,12 +2413,15 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -2454,6 +2512,7 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 58816034 (.)
 =======
@@ -2502,6 +2561,8 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 
     public function getLabel(): string
     {
@@ -2513,8 +2574,11 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 26d39e2eb (.)
         return $this->transClass(self::class, $this->value . '.label');
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3125,9 +3189,16 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 =======
 >>>>>>> 2941b0bd (.)
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
         return $this->transClass(self::class, $this->value.'.label');
 =======
         return $this->transClass(self::class, $this->value . '.label');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3143,14 +3214,20 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 =======
 =======
 =======
+>>>>>>> 2effe245 (.)
+=======
 =======
 =======
 >>>>>>> origin/develop
+<<<<<<< HEAD
 >>>>>>> f813254 (.)
+=======
+>>>>>>> 2effe245 (.)
     
     public function getLabel(): string
     {
         return $this->transClass(self::class,$this->value.'.label');
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
@@ -3174,6 +3251,7 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 <<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
 =======
 
@@ -3349,6 +3427,8 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 =======
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> a12f125f4a (.)
 =======
 
@@ -3361,11 +3441,13 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 =======
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
@@ -3470,6 +3552,10 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
     }
 
     public function getColor(): string
@@ -3575,6 +3661,7 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         return $this->transClass(self::class, $this->value.'.color');
 >>>>>>> 98d837b9 (.)
@@ -3620,6 +3707,8 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3902,6 +3991,7 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 =======
 <<<<<<< HEAD
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
         return $this->transClass(self::class, $this->value . '.color');
 =======
 <<<<<<< HEAD
@@ -4151,16 +4241,22 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 =======
 >>>>>>> 0f07e6d (.)
 =======
+=======
+>>>>>>> 26d39e2eb (.)
         return $this->transClass(self::class, $this->value . '.color');
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f813254 (.)
+=======
+>>>>>>> 2effe245 (.)
         return $this->transClass(self::class, $this->value . '.color');
 =======
         return $this->transClass(self::class,$this->value.'.color');
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
@@ -4270,6 +4366,8 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 >>>>>>> 888799d0 (.)
 =======
 =======
+=======
+>>>>>>> 2effe245 (.)
 >>>>>>> a12f125f4a (.)
 =======
         return $this->transClass(self::class, $this->value . '.color');
@@ -4281,12 +4379,14 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 =======
 =======
         return $this->transClass(self::class, $this->value . '.color');
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
@@ -4375,6 +4475,10 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
     }
 
     public function getIcon(): string
@@ -4480,6 +4584,7 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         return $this->transClass(self::class, $this->value.'.icon');
 >>>>>>> 98d837b9 (.)
@@ -4543,6 +4648,8 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -5215,6 +5322,11 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 >>>>>>> 888799d0 (.)
 =======
 =======
+=======
+        return $this->transClass(self::class, $this->value.'.icon');
+=======
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
         return $this->transClass(self::class, $this->value . '.icon');
 =======
 <<<<<<< HEAD
@@ -5233,6 +5345,7 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
 >>>>>>> 23f115647 (.)
@@ -5242,7 +5355,12 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
         return $this->transClass(self::class, $this->value . '.icon');
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
     }
 
     public function getDescription(): string
@@ -5358,6 +5476,7 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -5550,6 +5669,11 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 >>>>>>> e11621f (.)
 =======
 =======
+        return $this->transClass(self::class, $this->value.'.description');
+=======
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
+=======
 <<<<<<< HEAD
         return $this->transClass(self::class, $this->value.'.description');
 =======
@@ -5571,6 +5695,9 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> f813254 (.)
 =======
 <<<<<<< HEAD
@@ -5684,7 +5811,14 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
         return $this->transClass(self::class, $this->value . '.description');
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 >>>>>>> e53a56570 (.)
+=======
+=======
+        return $this->transClass(self::class, $this->value . '.description');
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
     }
 
 <<<<<<< HEAD
@@ -5821,6 +5955,7 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -5829,6 +5964,8 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 =======
 >>>>>>> f2e64178 (.)
 =======
+>>>>>>> 2effe245 (.)
+=======
 =======
         return $this->transClass(self::class,$this->value.'.description');
 =======
@@ -5836,6 +5973,7 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 >>>>>>> b93ef594b4 (.)
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5861,6 +5999,8 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
     public static function getSearchable(): array
     {
         return array_map(fn($item) => $item->value, ContactTypeEnum::cases());
@@ -6202,8 +6342,13 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+>>>>>>> 26d39e2eb (.)
 <<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 >>>>>>> 23f115647 (.)
@@ -6283,6 +6428,7 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -6290,6 +6436,10 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
     
    
 >>>>>>> a12f125f4a (.)
@@ -6311,12 +6461,15 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -6349,6 +6502,7 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 =======
 >>>>>>> 2effe245 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
@@ -6432,6 +6586,8 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
         return $this->transClass(self::class,$this->value.'.description');
     }
 
@@ -6486,6 +6642,7 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -6498,6 +6655,8 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6682,6 +6841,7 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
 =======
@@ -6799,6 +6959,8 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 }
 =======
 >>>>>>> 301ad8b44 (.)

@@ -13,6 +13,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -49,6 +50,8 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 26d39e2eb (.)
 use Modules\Xot\Models\XotBaseModel;
 =======
 =======
@@ -59,8 +62,11 @@ use Modules\Xot\Models\XotBaseModel;
 <<<<<<< HEAD
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
 =======
+=======
+>>>>>>> 26d39e2eb (.)
 <<<<<<< HEAD
 use Modules\Xot\Actions\Factory\GetFactoryAction;
 =======
@@ -70,6 +76,7 @@ use Modules\Xot\Actions\Factory\GetFactoryAction;
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2effe245 (.)
 =======
@@ -119,6 +126,9 @@ use Modules\Xot\Models\XotBaseModel;
 >>>>>>> 98d837b9 (.)
 <<<<<<< HEAD
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -501,6 +511,7 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
     /**
      * Get the attributes that should be cast.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2194,6 +2205,8 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 26d39e2eb (.)
      * @return array<string, string>
      */
 =======
@@ -2203,11 +2216,26 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 >>>>>>> d284d65 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> 2effe245 (.)
      * @return Factory<static>
      */
     protected static function newFactory()
     {
         return app(GetFactoryAction::class)->execute(static::class);
+<<<<<<< HEAD
+=======
+=======
+     * @return \Illuminate\Database\Eloquent\Factories\Factory<static>
+     */
+    protected static function newFactory()
+    {
+        return app(\Modules\Xot\Actions\Factory\GetFactoryAction::class)->execute(static::class);
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
     }
 
     /** @return array<string, string> */
@@ -2265,6 +2293,7 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -2320,6 +2349,8 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 =======
 >>>>>>> f2e64178 (.)
 =======
+>>>>>>> 2effe245 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2332,6 +2363,7 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2449,6 +2481,8 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 >>>>>>> 1375c94d (rebase 210)
 =======
 >>>>>>> 52cd5f85 (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
             'verified_at' => 'datetime',
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
@@ -2497,6 +2531,7 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -2552,6 +2587,8 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 =======
 >>>>>>> f2e64178 (.)
 =======
+>>>>>>> 2effe245 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2564,6 +2601,7 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2681,6 +2719,8 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 >>>>>>> 1375c94d (rebase 210)
 =======
 >>>>>>> 52cd5f85 (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',

@@ -90,6 +90,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -182,6 +183,7 @@ declare(strict_types=1);
 =======
 >>>>>>> 98d837b9 (.)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 4689a827 (.)
 >>>>>>> 8dc1f2ed6 (.)
@@ -199,6 +201,9 @@ declare(strict_types=1);
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -708,6 +713,28 @@ declare(strict_types=1);
 namespace Modules\Notify\Notifications\Channels;
 
 use Exception;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+declare(strict_types=1);
+
+
+=======
+>>>>>>> a12f125f4a (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> b93ef594b4 (.)
+namespace Modules\Notify\Notifications\Channels;
+
+use Exception;
+=======
+namespace Modules\Notify\Notifications\Channels;
+
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
 use Illuminate\Notifications\Notification;
 use Illuminate\Support\Facades\Log;
 
@@ -924,6 +951,7 @@ class TelegramChannel
 >>>>>>> laraxot/develop
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param mixed $notifiable
      * @param Notification $notification
 =======
@@ -940,6 +968,13 @@ class TelegramChannel
 =======
 =======
 =======
+     * @param  mixed  $notifiable
+=======
+     * @param mixed $notifiable
+<<<<<<< HEAD
+     * @param Notification $notification
+>>>>>>> 2effe245 (.)
+=======
 <<<<<<< HEAD
      * @param Notification $notification
 =======
@@ -948,15 +983,19 @@ class TelegramChannel
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 =======
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
      * @return void
      */
     public function send($notifiable, Notification $notification)
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -980,6 +1019,8 @@ class TelegramChannel
 >>>>>>> laraxot/develop
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 26d39e2eb (.)
         if (!method_exists($notification, 'toTelegram')) {
             throw new Exception('Il metodo toTelegram() non è definito nella notifica.');
         }
@@ -1019,7 +1060,16 @@ class TelegramChannel
 =======
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 2effe245 (.)
         if (! method_exists($notification, 'toTelegram')) {
+=======
+        if (!method_exists($notification, 'toTelegram')) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
             throw new Exception('Il metodo toTelegram() non è definito nella notifica.');
         }
 
@@ -1034,6 +1084,16 @@ class TelegramChannel
 >>>>>>> f1c9518b (.)
 >>>>>>> e53a56570 (.)
             throw new Exception('Il metodo routeNotificationForTelegram() non è definito nel notifiable.');
+<<<<<<< HEAD
+=======
+=======
+            throw new \Exception('Il metodo toTelegram() non è definito nella notifica.');
+        }
+
+        if (!is_object($notifiable) || !method_exists($notifiable, 'routeNotificationForTelegram')) {
+            throw new \Exception('Il metodo routeNotificationForTelegram() non è definito nel notifiable.');
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
         }
 
         // TODO: Implementare il metodo toTelegram nella notifica
@@ -1041,7 +1101,15 @@ class TelegramChannel
         $chatId = $notifiable->routeNotificationForTelegram();
 
         if (empty($chatId)) {
+<<<<<<< HEAD
             throw new Exception('Chat ID Telegram non trovato per il notifiable.');
+=======
+<<<<<<< HEAD
+            throw new Exception('Chat ID Telegram non trovato per il notifiable.');
+=======
+            throw new \Exception('Chat ID Telegram non trovato per il notifiable.');
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
         }
 
         // TODO: Implementare BotTelegramAction e TelegramMessageData
@@ -1051,6 +1119,7 @@ class TelegramChannel
 <<<<<<< HEAD
             'message' => $message,
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1301,6 +1370,10 @@ class TelegramChannel
             'message' => $message,
 =======
 >>>>>>> f2e64178 (.)
+=======
+            'message' => $message,
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
             'message' => $message,
@@ -1378,12 +1451,15 @@ class TelegramChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
             'message' => $message,
@@ -1533,6 +1609,7 @@ class TelegramChannel
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
             'message' => $message,
 >>>>>>> 985c7bda (.)
@@ -1653,6 +1730,8 @@ class TelegramChannel
             'message' => $message,
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
         ]);
     }
 }

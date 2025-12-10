@@ -102,6 +102,7 @@ use Spatie\LaravelData\Data;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -262,6 +263,10 @@ use Spatie\LaravelData\Data;
  *
 =======
 >>>>>>> f2e64178 (.)
+=======
+ *
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
  *
@@ -339,12 +344,15 @@ use Spatie\LaravelData\Data;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
  *
@@ -492,6 +500,7 @@ use Spatie\LaravelData\Data;
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
  *
 >>>>>>> 985c7bda (.)
@@ -614,6 +623,8 @@ use Spatie\LaravelData\Data;
  *
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
  * Questo DTO standardizza i dati necessari per l'invio di messaggi Telegram
  * attraverso diversi provider, garantendo coerenza e tipo-sicurezza.
  */
@@ -827,6 +838,7 @@ class TelegramData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -987,6 +999,8 @@ class TelegramData extends Data
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
         public ?string $parseMode = null,
         public bool $disableWebPagePreview = false,
         public bool $disableNotification = false,
@@ -1194,6 +1208,7 @@ class TelegramData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 011072e4 (.)
 =======
@@ -1340,6 +1355,8 @@ class TelegramData extends Data
 <<<<<<< HEAD
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1381,6 +1398,11 @@ class TelegramData extends Data
 >>>>>>> e11621f (.)
 =======
 =======
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
 =======
@@ -1393,6 +1415,7 @@ class TelegramData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f813254 (.)
@@ -1458,12 +1481,20 @@ class TelegramData extends Data
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> f813254 (.)
+=======
+>>>>>>> f5f1cb1 (.)
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
         public null|string $parseMode = null,
         public bool $disableWebPagePreview = false,
         public bool $disableNotification = false,
         public null|int $replyToMessageId = null,
         public null|array $replyMarkup = null,
         public null|array $media = null,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1529,6 +1560,8 @@ class TelegramData extends Data
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
@@ -1710,11 +1743,19 @@ class TelegramData extends Data
 =======
 =======
 =======
+>>>>>>> 2effe245 (.)
+=======
 =======
 =======
 >>>>>>> origin/develop
+<<<<<<< HEAD
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
         public ?string $parseMode = null,
         public bool $disableWebPagePreview = false,
         public bool $disableNotification = false,
@@ -1730,8 +1771,11 @@ class TelegramData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 >>>>>>> 95531e1 (.)
@@ -1751,6 +1795,7 @@ class TelegramData extends Data
 >>>>>>> 888799d0 (.)
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -2105,6 +2150,10 @@ class TelegramData extends Data
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 >>>>>>> a12f125f4a (.)
 =======
         public null|string $parseMode = null,
@@ -2118,6 +2167,7 @@ class TelegramData extends Data
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2212,12 +2262,19 @@ class TelegramData extends Data
 >>>>>>> f2e64178 (.)
 >>>>>>> 23f115647 (.)
 =======
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> f2e64178 (.)
 =======
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
         public string $type = 'text',
     ) {}
 }

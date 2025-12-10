@@ -360,6 +360,7 @@ use Modules\Notify\Contracts\WhatsAppProviderActionInterface;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -386,6 +387,8 @@ use Modules\Notify\Contracts\WhatsAppProviderActionInterface;
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -573,6 +576,7 @@ use function Safe\preg_replace;
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
 =======
@@ -749,7 +753,22 @@ use function Safe\preg_replace;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 use Modules\Notify\Contracts\WhatsAppProviderActionInterface;
+=======
+>>>>>>> 26d39e2eb (.)
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
 use function Safe\preg_replace;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -872,6 +891,7 @@ use function Safe\preg_replace;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -892,9 +912,12 @@ use function Safe\preg_replace;
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
  *
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1004,6 +1027,8 @@ use function Safe\preg_replace;
 =======
 >>>>>>> f2e64178 (.)
 =======
+>>>>>>> 2effe245 (.)
+=======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
@@ -1058,12 +1083,15 @@ use function Safe\preg_replace;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -1289,6 +1317,7 @@ use function Safe\preg_replace;
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -1322,6 +1351,10 @@ use function Safe\preg_replace;
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
  * Questa factory centralizza la logica di selezione del driver WhatsApp
  * e la creazione dell'azione corrispondente, seguendo il pattern Factory.
  */
@@ -1442,6 +1475,7 @@ final class WhatsAppActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -1462,6 +1496,8 @@ final class WhatsAppActionFactory
 >>>>>>> a070a65a5 (.)
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1673,6 +1709,7 @@ final class WhatsAppActionFactory
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
 =======
     public function create(?string $driver = null): WhatsAppProviderActionInterface
@@ -1691,6 +1728,19 @@ final class WhatsAppActionFactory
 >>>>>>> laraxot/develop
 =======
 >>>>>>> e53a56570 (.)
+=======
+    public function create(?string $driver = null): WhatsAppProviderActionInterface
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+    public function create(null|string $driver = null): WhatsAppProviderActionInterface
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
     {
         $driver ??= Config::get('whatsapp.default', 'twilio');
 
@@ -2900,7 +2950,16 @@ final class WhatsAppActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b207a9b1a (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 26d39e2eb (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2955,6 +3014,8 @@ final class WhatsAppActionFactory
 =======
 >>>>>>> f2e64178 (.)
 =======
+>>>>>>> 2effe245 (.)
+=======
 =======
     public function create(?string $driver = null): WhatsAppProviderActionInterface
 =======
@@ -2964,6 +3025,7 @@ final class WhatsAppActionFactory
         $driver ??= Config::get('whatsapp.default', 'twilio');
 
         // Gestione speciale per driver con caratteri non alfanumerici (es. 360dialog)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2981,7 +3043,12 @@ final class WhatsAppActionFactory
 =======
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
         $normalizedDriver = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower(is_string($driver) ? $driver : '')));
 >>>>>>> 0db165c (.)
 >>>>>>> ce26f84e (.)
@@ -3021,6 +3088,7 @@ final class WhatsAppActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -3035,7 +3103,12 @@ final class WhatsAppActionFactory
 =======
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
         
 >>>>>>> a12f125f4a (.)
 =======
@@ -3047,10 +3120,13 @@ final class WhatsAppActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -3096,6 +3172,8 @@ final class WhatsAppActionFactory
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
 =======
     public function create(?string $driver = null): WhatsAppProviderActionInterface
     {
@@ -3139,6 +3217,7 @@ final class WhatsAppActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -3151,6 +3230,8 @@ final class WhatsAppActionFactory
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3337,6 +3418,7 @@ final class WhatsAppActionFactory
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
 =======
@@ -3398,6 +3480,8 @@ final class WhatsAppActionFactory
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
         // Verifica se la classe implementa l'interfaccia richiesta
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3475,6 +3559,7 @@ final class WhatsAppActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -3501,7 +3586,10 @@ final class WhatsAppActionFactory
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3525,6 +3613,11 @@ final class WhatsAppActionFactory
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> d45a0226 (.)
+=======
+=======
+
+<<<<<<< HEAD
+>>>>>>> 26d39e2eb (.)
         $instance = app($className);
 
         if (! $instance instanceof WhatsAppProviderActionInterface) {
@@ -3561,6 +3654,7 @@ final class WhatsAppActionFactory
 =======
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -3665,6 +3759,8 @@ final class WhatsAppActionFactory
 =======
 
 =======
+=======
+>>>>>>> 26d39e2eb (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3679,7 +3775,12 @@ final class WhatsAppActionFactory
         
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 >>>>>>> 510809c6f (.)
+=======
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+>>>>>>> 26d39e2eb (.)
 =======
 =======
 >>>>>>> 3f537838 (.)
@@ -3793,6 +3894,7 @@ final class WhatsAppActionFactory
         return app($className);
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
 =======
@@ -3872,6 +3974,8 @@ final class WhatsAppActionFactory
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 26d39e2eb (.)
     }
 }
 =======

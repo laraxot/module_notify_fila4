@@ -244,12 +244,15 @@ use Override;
 =======
 >>>>>>> 4689a827 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> fbed41ac (.)
 =======
+=======
+>>>>>>> 26d39e2eb (.)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -260,9 +263,12 @@ use Override;
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 4689a827 (.)
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 use Override;
 // use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin; // Temporaneamente commentato per compatibilità Filament 4.x
 =======
@@ -275,10 +281,13 @@ use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 >>>>>>> 82ae73be (.)
@@ -305,12 +314,15 @@ use Override;
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 =======
 >>>>>>> 4689a827 (.)
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> a12f125f4a (.)
 =======
 use Override;
@@ -326,10 +338,13 @@ use Override;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 use Override;
@@ -640,6 +655,10 @@ use Override;
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> f813254 (.)
+>>>>>>> 82c6772 (.)
+>>>>>>> 2effe245 (.)
 use Filament\Notifications\Livewire\DatabaseNotifications;
 use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin;
 =======
@@ -659,8 +678,209 @@ use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin;
 >>>>>>> f5f1cb1 (.)
 <<<<<<< HEAD
 =======
+use Override;
+// use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin; // Temporaneamente commentato per compatibilità Filament 4.x
+use Filament\Notifications\Livewire\DatabaseNotifications;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+use Filament\Panel;
+use Filament\Support\Facades\FilamentView;
+use Illuminate\Support\Facades\Blade;
+use Modules\Xot\Datas\XotData;
+use Modules\Xot\Providers\Filament\XotBasePanelProvider;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Override;
+=======
+>>>>>>> 75179b85 (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+<<<<<<< HEAD
+=======
+use Filament\SpatieLaravelTranslatablePlugin;
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+use Override;
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+=======
+>>>>>>> 98d837b9 (.)
+use Override;
+=======
+>>>>>>> 99ff506 (.)
+=======
+=======
+=======
+=======
+<<<<<<< HEAD
+use Override;
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+=======
+use Filament\SpatieLaravelTranslatablePlugin;
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f2e64178 (.)
+=======
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 82c6772 (.)
+>>>>>>> 2effe245 (.)
+
+class AdminPanelProvider extends XotBasePanelProvider
+{
+    protected string $module = 'Notify';
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 26d39e2eb (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
 >>>>>>> 82ae73be (.)
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+    #[\Override]
+=======
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 26d39e2eb (.)
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
@@ -1656,6 +1876,10 @@ class AdminPanelProvider extends XotBasePanelProvider
 =======
 >>>>>>> 98d837b9 (.)
     #[Override]
+=======
+    #[Override]
+>>>>>>> 82c6772 (.)
+>>>>>>> 2effe245 (.)
     public function panel(Panel $panel): Panel
     {
 <<<<<<< HEAD
@@ -2201,6 +2425,7 @@ class AdminPanelProvider extends XotBasePanelProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -2209,12 +2434,15 @@ class AdminPanelProvider extends XotBasePanelProvider
 =======
 >>>>>>> f2e64178 (.)
 =======
+>>>>>>> 2effe245 (.)
+=======
 =======
 =======
     #[Override]
 >>>>>>> b93ef594b4 (.)
     public function panel(Panel $panel): Panel
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2229,6 +2457,8 @@ class AdminPanelProvider extends XotBasePanelProvider
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
         // Temporaneamente commentato per compatibilità Filament 4.x
         // $panel->plugins([
         //     SpatieTranslatablePlugin::make(),
@@ -2246,6 +2476,7 @@ class AdminPanelProvider extends XotBasePanelProvider
     }
 }
 >>>>>>> 10292b60a (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2700,6 +2931,8 @@ class AdminPanelProvider extends XotBasePanelProvider
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
 
 >>>>>>> a12f125f4a (.)
 =======
@@ -2711,6 +2944,17 @@ class AdminPanelProvider extends XotBasePanelProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> de02998b (.)
@@ -2727,6 +2971,7 @@ class AdminPanelProvider extends XotBasePanelProvider
 =======
 >>>>>>> 2effe245 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
@@ -2755,6 +3000,8 @@ class AdminPanelProvider extends XotBasePanelProvider
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 26d39e2eb (.)
     public function panel(Panel $panel): Panel
     { 
         $panel->plugins([
@@ -2773,8 +3020,11 @@ class AdminPanelProvider extends XotBasePanelProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 26d39e2eb (.)
             SpatieTranslatablePlugin::make(),
 =======
             SpatieLaravelTranslatablePlugin::make(),
@@ -2796,6 +3046,7 @@ class AdminPanelProvider extends XotBasePanelProvider
 =======
             SpatieLaravelTranslatablePlugin::make(),
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
             SpatieTranslatablePlugin::make(),
 >>>>>>> 2fc60436 (.)
@@ -2841,6 +3092,8 @@ class AdminPanelProvider extends XotBasePanelProvider
             SpatieLaravelTranslatablePlugin::make(),
 >>>>>>> f2e64178 (.)
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
         ]);
         if (! XotData::make()->disable_database_notifications) {
             DatabaseNotifications::trigger('notify::livewire.database-notifications-trigger');
@@ -2878,6 +3131,7 @@ class AdminPanelProvider extends XotBasePanelProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -2888,6 +3142,8 @@ class AdminPanelProvider extends XotBasePanelProvider
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3034,6 +3290,7 @@ class AdminPanelProvider extends XotBasePanelProvider
 <<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 301ad8b44 (.)
@@ -3078,3 +3335,9 @@ class AdminPanelProvider extends XotBasePanelProvider
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)

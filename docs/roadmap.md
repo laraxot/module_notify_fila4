@@ -1065,6 +1065,7 @@ Overall Module Completion: 60%
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1121,6 +1122,7 @@ Overall Module Completion: 60%
 >>>>>>> 36ac4fc1 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 77edd94a (.)
@@ -1278,6 +1280,8 @@ Overall Module Completion: 60%
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 * [roadmap.md](../../../../Themes/One/docs/roadmap.md)* [roadmap.md](bashscripts/project_docs/roadmap.md)
 * [roadmap.md](../../../../Themes/One/docs/roadmap.md)
 * [roadmap.md](bashscripts/project_docs/roadmap.md)
@@ -2199,6 +2203,7 @@ Overall Module Completion: 60%
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [roadmap.md](../../../../Themes/One/docs/roadmap.md)
 >>>>>>> d284d65 (.)
@@ -2288,6 +2293,7 @@ Overall Module Completion: 60%
 * [roadmap.md](../../../../Themes/One/docs/roadmap.md)
 >>>>>>> d284d65 (.)
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> fbed41ac (.)
 =======
@@ -2501,6 +2507,8 @@ Overall Module Completion: 60%
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 
 # Roadmap Implementazione
 
@@ -3179,6 +3187,7 @@ Per contribuire alla documentazione, seguire le [Linee Guida](../../../docs/line
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -3195,6 +3204,8 @@ Per contribuire alla documentazione, seguire le [Linee Guida](../../../docs/line
 >>>>>>> c188e2a18 (.)
 =======
 >>>>>>> cd5474106 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 Per contribuire alla documentazione, seguire le [Linee Guida](../../../docs/linee-guida-documentazione.md) e le [Regole dei Collegamenti](../../../docs/regole_collegamenti_documentazione.md).
 
@@ -3394,6 +3405,7 @@ Per contribuire alla documentazione, seguire le [Linee Guida](../../../docs/line
 ## Collegamenti Completi
 >>>>>>> 36ac4fc1 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 =======
@@ -3529,6 +3541,10 @@ Per contribuire alla documentazione, seguire le [Linee Guida](../../../docs/line
 >>>>>>> cd5474106 (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../docs/README_links.md).Per contribuire alla documentazione, seguire le [Linee Guida](../../../project_docs/linee-guida-documentazione.md) e le [Regole dei Collegamenti](../../../project_docs/regole_collegamenti_documentazione.md).
 Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../docs/README_links.md).
 Per contribuire alla documentazione, seguire le [Linee Guida](../../../project_docs/linee-guida-documentazione.md) e le [Regole dei Collegamenti](../../../project_docs/regole_collegamenti_documentazione.md).
@@ -4197,6 +4213,7 @@ Per una lista completa di tutti i collegamenti tra i README.md, consultare il fi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -4213,6 +4230,8 @@ Per una lista completa di tutti i collegamenti tra i README.md, consultare il fi
 >>>>>>> c188e2a18 (.)
 =======
 >>>>>>> cd5474106 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 
 ## Collegamenti Completi
@@ -4487,6 +4506,7 @@ Per una lista completa di tutti i collegamenti tra i README.md, consultare il fi
 Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../project_docs/README_links.md).
 >>>>>>> 36ac4fc1 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 =======
@@ -4624,6 +4644,10 @@ Per una lista completa di tutti i collegamenti tra i README.md, consultare il fi
 >>>>>>> cd5474106 (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 
 
 ### Versione Incoming

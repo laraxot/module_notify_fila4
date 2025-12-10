@@ -108,6 +108,7 @@ return new class extends Migration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 888799d0 (.)
@@ -149,6 +150,8 @@ return new class extends Migration
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -266,6 +269,14 @@ return new class extends Migration {
 return new class extends Migration {
 =======
 >>>>>>> 4689a827 (.)
+=======
+return new class extends Migration
+{
+=======
+<<<<<<< HEAD
+return new class extends Migration {
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
 return new class extends Migration {
@@ -330,10 +341,13 @@ return new class extends Migration
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 return new class extends Migration {
@@ -820,6 +834,7 @@ return new class extends Migration {
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -907,6 +922,11 @@ return new class extends Migration
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
     /**
      * Esegue la migrazione.
      */
@@ -1017,6 +1037,7 @@ return new class extends Migration
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1177,6 +1198,10 @@ return new class extends Migration
 
 =======
 >>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
 
@@ -1254,12 +1279,15 @@ return new class extends Migration
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 
@@ -1409,6 +1437,7 @@ return new class extends Migration
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 
 >>>>>>> 985c7bda (.)
@@ -1529,6 +1558,8 @@ return new class extends Migration
 
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
             $table->index(['notifiable_type', 'notifiable_id']);
             $table->index('status');
             $table->index('sent_at');

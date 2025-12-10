@@ -14,6 +14,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f2e64178 (.)
 =======
@@ -44,6 +45,8 @@
 >>>>>>> cd5474106 (.)
 =======
 >>>>>>> 01750b107 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 # Convenzioni di Naming per Acronimi 
 
 ## Regola Fondamentale
@@ -128,6 +131,7 @@ Non ci sono eccezioni a questa regola. Tutti gli acronimi, indipendentemente dal
 Per identificare i file che non rispettano questa convenzione, è possibile utilizzare il seguente comando:
 
 ```bash
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -445,6 +449,9 @@ find /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules -type f -n
 =======
 find /var/www/html/saluteora/laravel/Modules -type f -name "*[A-Z][A-Z]*.php" | grep -v "Test\\.php$" | grep -v "HTML\\.php$"
 >>>>>>> ff78f10a5 (.)
+=======
+find /var/www/html/saluteora/laravel/Modules -type f -name "*[A-Z][A-Z]*.php" | grep -v "Test\\.php$" | grep -v "HTML\\.php$"
+>>>>>>> 26d39e2eb (.)
 ```
 
 ## Riferimenti
@@ -452,6 +459,7 @@ find /var/www/html/saluteora/laravel/Modules -type f -name "*[A-Z][A-Z]*.php" | 
 - [PSR-1: Basic Coding Standard](https://www.php-fig.org/psr/psr-1/)
 - [Laravel Documentation - Coding Style](https://laravel.com/docs/10.x/contributions#coding-style)
 - [PHP-FIG Naming Conventions](https://www.php-fig.org/bylaws/psr-naming-conventions/)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -499,3 +507,5 @@ find /var/www/html/saluteora/laravel/Modules -type f -name "*[A-Z][A-Z]*.php" | 
 >>>>>>> cd5474106 (.)
 =======
 >>>>>>> 01750b107 (.)
+=======
+>>>>>>> 26d39e2eb (.)

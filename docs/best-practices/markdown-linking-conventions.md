@@ -14,6 +14,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f2e64178 (.)
 =======
@@ -44,6 +45,8 @@
 >>>>>>> cd5474106 (.)
 =======
 >>>>>>> 01750b107 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 # Convenzioni per i Collegamenti nei File Markdown
 
 ## Regola Fondamentale
@@ -55,6 +58,7 @@
 ### ❌ ERRATO: Percorsi Assoluti
 
 ```markdown
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -458,6 +462,11 @@
 [Chiarimento sulla Struttura delle Interfacce](/var/www/html/saluteora/laravel/Modules/Notify/docs/INTERFACE_STRUCTURE_CLARIFICATION.md)
 [Architettura dei Contratti](/var/www/html/saluteora/laravel/Modules/Notify/docs/CONTRACTS_ARCHITECTURE.md)
 >>>>>>> ff78f10a5 (.)
+=======
+[Convenzioni di Naming per le Interfacce](/var/www/html/saluteora/laravel/Modules/Notify/docs/INTERFACE_NAMING_CONVENTION.md)
+[Chiarimento sulla Struttura delle Interfacce](/var/www/html/saluteora/laravel/Modules/Notify/docs/INTERFACE_STRUCTURE_CLARIFICATION.md)
+[Architettura dei Contratti](/var/www/html/saluteora/laravel/Modules/Notify/docs/CONTRACTS_ARCHITECTURE.md)
+>>>>>>> 26d39e2eb (.)
 ```
 
 ### ✅ CORRETTO: Percorsi Relativi
@@ -480,6 +489,7 @@ Per collegamenti a documenti in altre directory:
 1. **Portabilità**: I percorsi relativi funzionano indipendentemente dalla posizione di installazione del progetto
 2. **Compatibilità tra ambienti**: I percorsi assoluti potrebbero non funzionare in ambienti diversi
 3. **Manutenibilità**: I percorsi relativi sono più facili da mantenere quando la struttura del progetto cambia
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -648,6 +658,8 @@ Per collegamenti a documenti in altre directory:
 >>>>>>> ad905ce9c (.)
 =======
 >>>>>>> ff78f10a5 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 4. **Standard del progetto**: SaluteOra segue lo standard di utilizzare percorsi relativi in tutti i documenti Markdown
 
 ## Regole per i Collegamenti Relativi
@@ -669,6 +681,7 @@ grep -r "\[.*\](/var" --include="*.md" /percorso/al/progetto
 
 - [Convenzioni di Documentazione](../../../docs/documentation-conventions.md)
 - [Markdown Best Practices](../../../docs/markdown-best-practices.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -716,3 +729,5 @@ grep -r "\[.*\](/var" --include="*.md" /percorso/al/progetto
 >>>>>>> cd5474106 (.)
 =======
 >>>>>>> 01750b107 (.)
+=======
+>>>>>>> 26d39e2eb (.)

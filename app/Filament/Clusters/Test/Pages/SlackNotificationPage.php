@@ -102,6 +102,7 @@ class SlackNotificationPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -304,6 +305,11 @@ use Modules\Notify\Filament\Clusters\Test;
 use Modules\Xot\Filament\Pages\XotBasePage;
 =======
 >>>>>>> f2e64178 (.)
+=======
+use Modules\Notify\Filament\Clusters\Test;
+use Modules\Xot\Filament\Pages\XotBasePage;
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
 use Modules\Notify\Filament\Clusters\Test;
@@ -374,12 +380,15 @@ use Modules\Xot\Filament\Pages\XotBasePage;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 use Modules\Notify\Filament\Clusters\Test;
@@ -511,6 +520,7 @@ use Modules\Xot\Filament\Pages\XotBasePage;
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\Xot\Filament\Pages\XotBasePage;
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
@@ -599,6 +609,10 @@ use Modules\Xot\Filament\Pages\XotBasePage;
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 
 class SlackNotificationPage extends XotBasePage
 {
@@ -680,6 +694,7 @@ class SlackNotificationPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> 98d837b9 (.)
@@ -701,6 +716,8 @@ class SlackNotificationPage extends XotBasePage
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> a070a65a5 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1558,6 +1575,13 @@ class SlackNotificationPage extends XotBasePage
 =======
 =======
 =======
+=======
+    protected static ?string $cluster = Test::class;
+=======
+<<<<<<< HEAD
+    protected static null|string $cluster = Test::class;
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
     protected static null|string $cluster = Test::class;
@@ -1582,6 +1606,7 @@ class SlackNotificationPage extends XotBasePage
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
 >>>>>>> 23f115647 (.)
@@ -1590,7 +1615,12 @@ class SlackNotificationPage extends XotBasePage
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 }
 =======
 >>>>>>> 301ad8b44 (.)

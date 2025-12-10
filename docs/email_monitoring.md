@@ -1239,6 +1239,7 @@ class MailMonitoringDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1487,6 +1488,7 @@ class MailMonitoringDebugger
 >>>>>>> 545977c8 (rebase 210)
 =======
 >>>>>>> 9e7ba5b6 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
@@ -1695,6 +1697,10 @@ class MailMonitoringDebugger
 >>>>>>> ad905ce9c (.)
 =======
 >>>>>>> ff78f10a5 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 - [Laravel Cache](https://laravel.com/docs/cache)
 - [Laravel Events](https://laravel.com/docs/events)
 - [Laravel Commands](https://laravel.com/docs/artisan) 
@@ -1886,6 +1892,7 @@ class MailMonitoringDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -1971,6 +1978,8 @@ class MailMonitoringDebugger
 =======
 >>>>>>> ff78f10a5 (.)
 =======
+>>>>>>> 26d39e2eb (.)
+=======
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> d09cb759 (.)
@@ -2095,6 +2104,7 @@ class MailMonitoringDebugger
 =======
 >>>>>>> 2effe245 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 69fa7d37 (.)
 =======
 >>>>>>> e790eb33 (.)
@@ -2198,6 +2208,8 @@ class MailMonitoringDebugger
 >>>>>>> 545977c8 (rebase 210)
 =======
 >>>>>>> ad905ce9c (.)
+=======
+>>>>>>> 26d39e2eb (.)
 - [Laravel Cache](https://laravel.com/project_docs/cache)
 - [Laravel Events](https://laravel.com/project_docs/events)
 - [Laravel Commands](https://laravel.com/project_docs/artisan) 
@@ -2297,6 +2309,7 @@ class MailMonitoringDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -2339,6 +2352,8 @@ class MailMonitoringDebugger
 >>>>>>> 01750b107 (.)
 =======
 >>>>>>> ad905ce9c (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> 75179b85 (.)
 =======
 - [Laravel Cache](https://laravel.com/docs/cache)
@@ -2618,6 +2633,7 @@ class MailMonitoringDebugger
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d45a0226 (.)
 =======
@@ -3238,3 +3254,5 @@ class MailMonitoringDebugger
 >>>>>>> ff78f10a5 (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> 26d39e2eb (.)

@@ -778,6 +778,7 @@ SMS_FROM_NAME=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 SMS_FROM_NAME=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1791,6 +1792,7 @@ SMS_FROM_NAME=<nome progetto>
 =======
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 SMS_FROM_NAME=<nome progetto>
 =======
 >>>>>>> d284d65 (.)
@@ -2137,7 +2139,11 @@ SMS_FROM_NAME=SaluteOra
 >>>>>>> ad905ce9c (.)
 =======
 =======
+=======
+>>>>>>> 26d39e2eb (.)
 SMS_FROM_NAME=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
 SMS_FROM_NAME=SaluteOra
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
@@ -2545,6 +2551,7 @@ Log::info('SMS inviato', [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2681,6 +2688,7 @@ Log::info('SMS inviato', [
 >>>>>>> 36ac4fc1 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> fd1fcc4c (.)
 =======
@@ -2791,6 +2799,8 @@ Log::info('SMS inviato', [
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 - [Laravel Notifications](https://laravel.com/project_docs/notifications)
 - [Laravel Queues](https://laravel.com/project_docs/queues)
 - [Laravel Testing](https://laravel.com/project_docs/testing)
@@ -2798,6 +2808,7 @@ Log::info('SMS inviato', [
 - [Laravel Cache](https://laravel.com/project_docs/cache) 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3272,6 +3283,7 @@ Log::info('SMS inviato', [
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 77edd94a (.)
 =======
@@ -3764,6 +3776,8 @@ Log::info('SMS inviato', [
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 - [Laravel Notifications](https://laravel.com/docs/notifications)
 - [Laravel Queues](https://laravel.com/docs/queues)
 - [Laravel Testing](https://laravel.com/docs/testing)
@@ -3772,6 +3786,7 @@ Log::info('SMS inviato', [
 <<<<<<< HEAD
 - [Laravel Cache](https://laravel.com/docs/cache) 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4404,6 +4419,7 @@ Log::info('SMS inviato', [
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b19cd40 (.)
@@ -5057,3 +5073,5 @@ Log::info('SMS inviato', [
 - [Laravel Cache](https://laravel.com/docs/cache) 
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> 26d39e2eb (.)

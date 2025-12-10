@@ -105,6 +105,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -122,6 +123,10 @@ declare(strict_types=1);
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
@@ -162,10 +167,13 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -363,6 +371,10 @@ use Modules\Notify\Models\MailTemplate;
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+use Modules\Notify\Models\Notification;
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Models\Notification;
 =======
@@ -628,6 +640,7 @@ expect()->extend('toBeMailTemplate', fn() => $this->toBeInstanceOf(MailTemplate:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -655,6 +668,8 @@ expect()->extend('toBeMailTemplate', fn() => $this->toBeInstanceOf(MailTemplate:
 =======
 >>>>>>> 8c19c8df2 (.)
 =======
+>>>>>>> 26d39e2eb (.)
+=======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
@@ -715,6 +730,7 @@ expect()->extend('toBeMailTemplate', fn() => $this->toBeInstanceOf(MailTemplate:
 =======
 >>>>>>> 2effe245 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
@@ -756,9 +772,12 @@ expect()->extend('toBeMailTemplate', fn() => $this->toBeInstanceOf(MailTemplate:
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 namespace Modules\Notify\Tests;
 
 use Illuminate\Foundation\Testing\DatabaseTransactions;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -794,6 +813,8 @@ use Illuminate\Foundation\Testing\DatabaseTransactions;
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 use Modules\Notify\Models\Notification;
 use Modules\Notify\Models\MailTemplate;
 =======
@@ -809,6 +830,7 @@ use Modules\Notify\Models\MailTemplate;
 >>>>>>> f2e64178 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
 =======
 =======
@@ -819,6 +841,10 @@ use Modules\Notify\Models\MailTemplate;
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> 75179b85 (.)
@@ -927,12 +953,15 @@ use Modules\Notify\Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 =======
@@ -1003,6 +1032,7 @@ use Modules\Notify\Models\MailTemplate;
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 =======
@@ -1046,6 +1076,10 @@ use Modules\Notify\Models\MailTemplate;
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 
 /*
 |--------------------------------------------------------------------------
@@ -1078,6 +1112,7 @@ use Modules\Notify\Models\MailTemplate;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -1090,6 +1125,8 @@ use Modules\Notify\Models\MailTemplate;
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 uses(TestCase::class)
     ->uses(DatabaseTransactions::class)
 =======
@@ -1132,6 +1169,7 @@ pest()->extend(TestCase::class)
 =======
 pest()->extend(TestCase::class)
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 uses(TestCase::class)
     ->uses(DatabaseTransactions::class)
@@ -1169,6 +1207,8 @@ pest()->extend(TestCase::class)
 pest()->extend(TestCase::class)
 >>>>>>> f2e64178 (.)
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
     ->in('Feature', 'Unit');
 
 /*
@@ -1203,6 +1243,7 @@ expect()->extend('toBeNotification', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82ae73be (.)
@@ -1217,6 +1258,8 @@ expect()->extend('toBeNotification', function () {
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1278,6 +1321,7 @@ expect()->extend('toBeMailTemplate', function () {
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 =======
@@ -1288,6 +1332,10 @@ expect()->extend('toBeMailTemplate', function () {
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
     return $this->toBeInstanceOf(\Modules\Notify\Models\Notification::class);
 });
 
@@ -1305,12 +1353,15 @@ expect()->extend('toBeMailTemplate', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -1336,6 +1387,7 @@ expect()->extend('toBeMailTemplate', function () {
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 2fc60436 (.)
 =======
@@ -1362,6 +1414,8 @@ expect()->extend('toBeMailTemplate', function () {
 =======
 >>>>>>> f2e64178 (.)
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 |--------------------------------------------------------------------------
 | Functions
 |--------------------------------------------------------------------------
@@ -1391,6 +1445,7 @@ expect()->extend('toBeMailTemplate', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -1403,6 +1458,8 @@ expect()->extend('toBeMailTemplate', function () {
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1447,6 +1504,7 @@ expect()->extend('toBeMailTemplate', function () {
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 =======
@@ -1455,6 +1513,10 @@ expect()->extend('toBeMailTemplate', function () {
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 >>>>>>> a12f125f4a (.)
 =======
 =======
@@ -1483,10 +1545,13 @@ expect()->extend('toBeMailTemplate', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -2053,6 +2118,7 @@ expect()->extend('toBeMailTemplate', function () {
 =======
 >>>>>>> 98d837b9 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 75179b85 (.)
@@ -2089,6 +2155,10 @@ expect()->extend('toBeMailTemplate', function () {
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 
 function createNotification(array $attributes = []): Notification
 {
@@ -2108,6 +2178,30 @@ function createMailTemplate(array $attributes = []): MailTemplate
 function makeMailTemplate(array $attributes = []): MailTemplate
 {
     return MailTemplate::factory()->make($attributes);
+<<<<<<< HEAD
+=======
+=======
+
+function createNotification(array $attributes = []): \Modules\Notify\Models\Notification
+{
+    return \Modules\Notify\Models\Notification::factory()->create($attributes);
+}
+
+function makeNotification(array $attributes = []): \Modules\Notify\Models\Notification
+{
+    return \Modules\Notify\Models\Notification::factory()->make($attributes);
+}
+
+function createMailTemplate(array $attributes = []): \Modules\Notify\Models\MailTemplate
+{
+    return \Modules\Notify\Models\MailTemplate::factory()->create($attributes);
+}
+
+function makeMailTemplate(array $attributes = []): \Modules\Notify\Models\MailTemplate
+{
+    return \Modules\Notify\Models\MailTemplate::factory()->make($attributes);
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
 }
 =======
 >>>>>>> 301ad8b44 (.)

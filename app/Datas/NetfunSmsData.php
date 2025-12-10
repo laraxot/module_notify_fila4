@@ -144,6 +144,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -222,6 +223,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -236,6 +238,8 @@ declare(strict_types=1);
 =======
 >>>>>>> 2effe245 (.)
 =======
+>>>>>>> 26d39e2eb (.)
+=======
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -243,6 +247,7 @@ declare(strict_types=1);
 >>>>>>> 2effe245 (.)
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -258,6 +263,8 @@ declare(strict_types=1);
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -385,15 +392,20 @@ declare(strict_types=1);
 =======
 >>>>>>> 4689a827 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 4689a827 (.)
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 declare(strict_types=1);
 
 
 =======
 >>>>>>> a12f125f4a (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -413,6 +425,8 @@ declare(strict_types=1);
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> d09cb759 (.)
@@ -420,6 +434,8 @@ declare(strict_types=1);
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2effe245 (.)
 =======
 declare(strict_types=1);
 
@@ -438,10 +454,13 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -464,6 +483,7 @@ declare(strict_types=1);
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -482,6 +502,8 @@ declare(strict_types=1);
 =======
 >>>>>>> 4689a827 (.)
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
@@ -498,10 +520,13 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 declare(strict_types=1);
@@ -815,6 +840,7 @@ use Spatie\LaravelData\Data;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f2e64178 (.)
 =======
@@ -942,6 +968,11 @@ use Spatie\LaravelData\Data;
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 namespace Modules\Notify\Datas;
 
 use Spatie\LaravelData\Data;
@@ -1125,6 +1156,7 @@ class NetfunSmsData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1233,6 +1265,15 @@ class NetfunSmsData extends Data
         public null|string $scheduledDate = null,
 =======
 >>>>>>> 4689a827 (.)
+=======
+        public ?string $reference = null,
+        public ?string $scheduledDate = null,
+=======
+<<<<<<< HEAD
+        public null|string $reference = null,
+        public null|string $scheduledDate = null,
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
         public null|string $reference = null,
@@ -1312,10 +1353,13 @@ class NetfunSmsData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
         public null|string $reference = null,
@@ -1945,7 +1989,13 @@ class NetfunSmsData extends Data
         public null|string $scheduledDate = null,
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
     ) {}
 }
 =======

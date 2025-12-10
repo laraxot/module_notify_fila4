@@ -124,6 +124,7 @@ class BuildMailMessageAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         ?DataCollection $dataCollection = null,
 >>>>>>> 58816034 (.)
@@ -161,6 +162,8 @@ class BuildMailMessageAction
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -311,6 +314,10 @@ class BuildMailMessageAction
         null|DataCollection $dataCollection = null,
 =======
 >>>>>>> f2e64178 (.)
+=======
+        null|DataCollection $dataCollection = null,
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
         null|DataCollection $dataCollection = null,
@@ -388,12 +395,15 @@ class BuildMailMessageAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
         null|DataCollection $dataCollection = null,
@@ -477,6 +487,7 @@ class BuildMailMessageAction
 >>>>>>> 54220b28 (rebase 210)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
         null|DataCollection $dataCollection = null,
 >>>>>>> 985c7bda (.)
@@ -723,6 +734,8 @@ class BuildMailMessageAction
         null|DataCollection $dataCollection = null,
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
     ): MailMessage {
         $view_params = array_merge($model->toArray(), $view_params);
 
@@ -741,6 +754,7 @@ class BuildMailMessageAction
         $fromAddress = $theme->view_params['from_email'] ?? $theme->from_email;
         $fromName = $theme->view_params['from'] ?? $theme->from;
         $subject = $view_params['subject'] ?? $theme->subject;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -811,6 +825,8 @@ class BuildMailMessageAction
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -930,6 +946,10 @@ class BuildMailMessageAction
 
 =======
 >>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
 
@@ -967,12 +987,15 @@ class BuildMailMessageAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 
@@ -1060,6 +1083,7 @@ class BuildMailMessageAction
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 
 >>>>>>> 985c7bda (.)
@@ -1358,6 +1382,8 @@ class BuildMailMessageAction
 
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
         // Utilizziamo asserzioni per verificare che i valori siano stringhe
         if (!is_string($fromAddress)) {
             $fromAddress = '';
@@ -1365,6 +1391,7 @@ class BuildMailMessageAction
 <<<<<<< HEAD
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1617,6 +1644,10 @@ class BuildMailMessageAction
 
 =======
 >>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
 
@@ -1694,12 +1725,15 @@ class BuildMailMessageAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 
@@ -1850,6 +1884,7 @@ class BuildMailMessageAction
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 
 >>>>>>> 985c7bda (.)
@@ -1975,6 +2010,8 @@ class BuildMailMessageAction
 
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
         // Il nome del mittente può essere null
         if ($fromName !== null && !is_string($fromName)) {
             $fromName = '';
@@ -2073,6 +2110,7 @@ class BuildMailMessageAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2092,6 +2130,8 @@ class BuildMailMessageAction
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
@@ -2142,12 +2182,15 @@ class BuildMailMessageAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -2210,6 +2253,7 @@ class BuildMailMessageAction
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
@@ -2317,6 +2361,10 @@ class BuildMailMessageAction
 >>>>>>> a070a65a5 (.)
 =======
 >>>>>>> f87b41c3b (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 
         if (!is_string($subject)) {
             $subject = 'Notifica';
@@ -3487,6 +3535,37 @@ class BuildMailMessageAction
 =======
 >>>>>>> fea359347 (.)
         $email = new MailMessage()
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6ba141fc (.)
+=======
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> origin/develop
+        
+        if (!is_string($subject)) {
+            $subject = 'Notifica';
+        }
+        
+        $email = (new MailMessage())
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+
+        if (!is_string($subject)) {
+            $subject = 'Notifica';
+        }
+
+        $email = new MailMessage()
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> 82c6772 (.)
+>>>>>>> 2effe245 (.)
             ->from($fromAddress, $fromName)
             ->subject($subject)
             ->view($view_html, $theme->view_params);

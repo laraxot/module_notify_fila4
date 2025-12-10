@@ -256,6 +256,7 @@ use Illuminate\Support\Arr;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -355,6 +356,8 @@ use Illuminate\Support\Arr;
 =======
 >>>>>>> 5e028c03d (.)
 =======
+>>>>>>> 26d39e2eb (.)
+=======
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -389,6 +392,8 @@ use Illuminate\Support\Arr;
 >>>>>>> 5aedc39c (rebase 210)
 =======
 >>>>>>> 22baa66d (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
@@ -509,6 +514,7 @@ use Illuminate\Support\Arr;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -531,6 +537,8 @@ use Illuminate\Support\Arr;
 >>>>>>> cd5474106 (.)
 =======
 >>>>>>> 01750b107 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -725,6 +733,7 @@ use Illuminate\Support\Arr;
 =======
 >>>>>>> 5b50927d (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 =======
@@ -962,6 +971,10 @@ use Illuminate\Support\Arr;
 >>>>>>> c22b35d1e (.)
 =======
 >>>>>>> 8f2456941 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
@@ -1212,6 +1225,7 @@ class GammuData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -1232,6 +1246,8 @@ class GammuData extends Data
 >>>>>>> c22b35d1e (.)
 =======
 >>>>>>> 8f2456941 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1986,6 +2002,8 @@ class GammuData extends Data
 =======
 >>>>>>> 22baa66d (rebase 210)
 =======
+>>>>>>> 2effe245 (.)
+=======
 =======
 use Spatie\LaravelData\Data;
 use Webmozart\Assert\Assert;
@@ -2042,6 +2060,7 @@ class GammuData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -2064,6 +2083,8 @@ class GammuData extends Data
 >>>>>>> cd5474106 (.)
 =======
 >>>>>>> 01750b107 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -2188,6 +2209,8 @@ class GammuData extends Data
 =======
 >>>>>>> 22baa66d (rebase 210)
 =======
+>>>>>>> 2effe245 (.)
+=======
 use Spatie\LaravelData\Data;
 use Webmozart\Assert\Assert;
 use Illuminate\Support\Facades\Config;
@@ -2208,6 +2231,7 @@ class GammuData extends Data
             $data = TenantService::getConfig('sms');
             $data = Arr::get($data, 'drivers.gammu', []);
             */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2360,6 +2384,8 @@ class GammuData extends Data
 >>>>>>> 17f6b8617 (.)
 =======
 >>>>>>> 01750b107 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2690,6 +2716,7 @@ class GammuData extends Data
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
 =======
@@ -3277,6 +3304,8 @@ class GammuData extends Data
 =======
 >>>>>>> 5b50927d (rebase 210)
 >>>>>>> 5e028c03d (.)
+=======
+>>>>>>> 26d39e2eb (.)
             $data = Config::array('sms.drivers.gammu');
             self::$instance = self::from($data);
         }

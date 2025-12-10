@@ -13,6 +13,7 @@ namespace Modules\Notify\Filament\Forms\Components;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -85,11 +86,19 @@ use Illuminate\Contracts\Support\Htmlable;
 =======
 >>>>>>> 8c19c8df2 (.)
 =======
+>>>>>>> 26d39e2eb (.)
+=======
 =======
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
 <<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+use Filament\Schemas\Components\Section;
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
 use Filament\Forms;
 >>>>>>> f1c9518b (.)
 >>>>>>> e53a56570 (.)
@@ -155,8 +164,11 @@ use Modules\Notify\Enums\ContactTypeEnum;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -811,6 +823,10 @@ use Webmozart\Assert\Assert;
 =======
 =======
 =======
+=======
+use Webmozart\Assert\Assert;
+>>>>>>> 2effe245 (.)
+=======
 <<<<<<< HEAD
 use Filament\Schemas\Components\Section;
 use Filament\Forms;
@@ -819,13 +835,20 @@ use Filament\Forms;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Enums\ContactTypeEnum;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 >>>>>>> f813254 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 use Webmozart\Assert\Assert;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Enums\ContactTypeEnum;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
@@ -954,9 +977,13 @@ use Modules\Notify\Enums\ContactTypeEnum;
 >>>>>>> a12f125f4a (.)
 >>>>>>> f813254 (.)
 =======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 2effe245 (.)
+=======
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Enums\ContactTypeEnum;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
@@ -984,11 +1011,15 @@ use Webmozart\Assert\Assert;
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 use Modules\Notify\Enums\ContactTypeEnum;
 >>>>>>> 985c7bda (.)
@@ -1143,6 +1174,8 @@ use Webmozart\Assert\Assert;
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 
 // use Squire\Models\Country;
 
@@ -1249,6 +1282,7 @@ class ContactSection extends Section
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1814,6 +1848,11 @@ class ContactSection extends Forms\Components\Section
 >>>>>>> e11621f (.)
 =======
 =======
+    // protected string $view = 'filament-forms::components.group';
+=======
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1836,17 +1875,25 @@ class ContactSection extends Forms\Components\Section
     
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 >>>>>>> f813254 (.)
 =======
 >>>>>>> f5f1cb1 (.)
     //protected string $view = 'filament-forms::components.group';
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> e53a56570 (.)
+=======
+=======
+    //protected string $view = 'filament-forms::components.group';
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 
     protected bool $disableLiveUpdates = false;
 
@@ -1927,8 +1974,11 @@ class ContactSection extends Forms\Components\Section
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
     /**
      * @return array<string, \Filament\Forms\Components\TextInput>
      */
@@ -1973,6 +2023,8 @@ class ContactSection extends Forms\Components\Section
 >>>>>>> 888799d0 (.)
 =======
 =======
+>>>>>>> 2effe245 (.)
+=======
 <<<<<<< HEAD
 >>>>>>> 2effe245 (.)
 =======
@@ -1984,6 +2036,9 @@ class ContactSection extends Forms\Components\Section
 >>>>>>> d284d65 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
@@ -2145,6 +2200,7 @@ class ContactSection extends Forms\Components\Section
 >>>>>>> 2941b0bd (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
 =======
@@ -2171,6 +2227,8 @@ class ContactSection extends Forms\Components\Section
 =======
 >>>>>>> 2941b0bd (.)
 >>>>>>> a070a65a5 (.)
+=======
+>>>>>>> 26d39e2eb (.)
     protected function getFormSchema(): array
     {
         $res = ContactTypeEnum::getFormSchema();
@@ -2365,6 +2423,7 @@ class ContactSection extends Forms\Components\Section
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2440,6 +2499,7 @@ class ContactSection extends Forms\Components\Section
 >>>>>>> f2e64178 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -2448,6 +2508,10 @@ class ContactSection extends Forms\Components\Section
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 
 
@@ -2483,12 +2547,15 @@ class ContactSection extends Forms\Components\Section
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 =======
@@ -2548,6 +2615,7 @@ class ContactSection extends Forms\Components\Section
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
@@ -2603,6 +2671,10 @@ class ContactSection extends Forms\Components\Section
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
     protected function getFormSchema(): array
     {
         $res=ContactTypeEnum::getFormSchema(); 
@@ -2642,6 +2714,7 @@ class ContactSection extends Forms\Components\Section
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82ae73be (.)
@@ -2676,6 +2749,8 @@ class ContactSection extends Forms\Components\Section
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2748,6 +2823,7 @@ class ContactSection extends Forms\Components\Section
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -2756,6 +2832,10 @@ class ContactSection extends Forms\Components\Section
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
     
     
     /*
@@ -2779,12 +2859,15 @@ class ContactSection extends Forms\Components\Section
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -2820,6 +2903,7 @@ class ContactSection extends Forms\Components\Section
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
@@ -2860,6 +2944,10 @@ class ContactSection extends Forms\Components\Section
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
         $state = $this->getState();
         $record = $this->getRecord();
         $relationship = $record->{$this->getRelationship()}();
@@ -2910,6 +2998,7 @@ class ContactSection extends Forms\Components\Section
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -2922,6 +3011,8 @@ class ContactSection extends Forms\Components\Section
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2970,6 +3061,7 @@ class ContactSection extends Forms\Components\Section
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 =======
@@ -2996,6 +3088,10 @@ class ContactSection extends Forms\Components\Section
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 >>>>>>> a12f125f4a (.)
 =======
      * public function saveRelationships(): void
@@ -3037,12 +3133,15 @@ class ContactSection extends Forms\Components\Section
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -3166,6 +3265,7 @@ class ContactSection extends Forms\Components\Section
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
 =======
@@ -3276,6 +3376,8 @@ class ContactSection extends Forms\Components\Section
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 }
 =======
 >>>>>>> 301ad8b44 (.)

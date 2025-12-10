@@ -97,13 +97,17 @@ class SlackNotification extends Page
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected static string | BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
 =======
+=======
+>>>>>>> 2effe245 (.)
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-paper-airplane';
 
     protected string $view = 'notify::filament.clusters.test.pages.slack-notification';
 
     protected static ?string $cluster = Test::class;
+<<<<<<< HEAD
 >>>>>>> 98d837b9 (.)
 =======
 =======
@@ -385,6 +389,7 @@ class SlackNotification extends Page
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 =======
@@ -416,10 +421,20 @@ class SlackNotification extends Page
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
 
     protected string $view = 'notify::filament.clusters.test.pages.slack-notification';
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -461,6 +476,8 @@ class SlackNotification extends Page
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
     protected static null|string $cluster = Test::class;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1060,6 +1077,11 @@ class SlackNotification extends Page
 =======
 =======
 =======
+=======
+<<<<<<< HEAD
+    protected static null|string $cluster = Test::class;
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
     protected static null|string $cluster = Test::class;
@@ -1079,6 +1101,7 @@ class SlackNotification extends Page
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
 >>>>>>> 23f115647 (.)
@@ -1087,7 +1110,12 @@ class SlackNotification extends Page
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 }
 =======
 >>>>>>> 301ad8b44 (.)

@@ -225,6 +225,7 @@ use Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -281,6 +282,7 @@ use Tests\TestCase;
 >>>>>>> 5aedc39c (rebase 210)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 77edd94a (.)
 =======
@@ -438,10 +440,13 @@ use function Safe\json_encode;
 >>>>>>> 5d49e093a (.)
 =======
 >>>>>>> cd5474106 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\MailTemplateLog;
 use Tests\TestCase;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -558,6 +563,8 @@ use Tests\TestCase;
 >>>>>>> 5d49e093a (.)
 =======
 >>>>>>> cd5474106 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -846,6 +853,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 =======
 >>>>>>> 5aedc39c (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 =======
@@ -949,6 +957,10 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> 7a9167faf (.)
 =======
 >>>>>>> cd5474106 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\MailTemplateLog;
 use Tests\TestCase;
@@ -956,6 +968,7 @@ use Tests\TestCase;
 use Tests\TestCase;
 use Modules\Notify\Models\MailTemplateLog;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1011,6 +1024,8 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> c188e2a18 (.)
 =======
 >>>>>>> cd5474106 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> a12f125f4a (.)
 >>>>>>> d09cb759 (.)
 =======
@@ -1133,6 +1148,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> a12f125f4a (.)
 >>>>>>> 2effe245 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> eea68ec9 (.)
 =======
 >>>>>>> a12f125f4a (.)
@@ -1323,9 +1339,12 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> 5aedc39c (rebase 210)
 =======
 >>>>>>> cd5474106 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\MailTemplateLog;
 use Tests\TestCase;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1447,6 +1466,8 @@ use Tests\TestCase;
 >>>>>>> 7a9167faf (.)
 =======
 >>>>>>> cd5474106 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -1551,7 +1572,12 @@ use Tests\TestCase;
 =======
 =======
 >>>>>>> 5aedc39c (rebase 210)
+<<<<<<< HEAD
 >>>>>>> cd5474106 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b93ef594b4 (.)
 =======
 use Tests\TestCase;
@@ -1559,6 +1585,7 @@ use Modules\Notify\Models\MailTemplateLog;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1613,6 +1640,8 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> c188e2a18 (.)
 =======
 >>>>>>> cd5474106 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 use Illuminate\Foundation\Testing\RefreshDatabase;
@@ -1834,6 +1863,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\MailTemplateLog;
 use Tests\TestCase;
 >>>>>>> 82e5ee2d (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
@@ -2364,6 +2394,10 @@ use Tests\TestCase;
 >>>>>>> cd5474106 (.)
 =======
 >>>>>>> e312314fa (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 
 class MailTemplateLogTest extends TestCase
 {
@@ -3286,6 +3320,7 @@ class MailTemplateLogTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1375c94d (rebase 210)
 =======
@@ -3419,6 +3454,8 @@ class MailTemplateLogTest extends TestCase
 =======
 >>>>>>> 5aedc39c (rebase 210)
 =======
+>>>>>>> 2effe245 (.)
+=======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
@@ -3521,6 +3558,7 @@ class MailTemplateLogTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -3531,6 +3569,8 @@ class MailTemplateLogTest extends TestCase
 >>>>>>> c188e2a18 (.)
 =======
 >>>>>>> cd5474106 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 =======
@@ -3586,6 +3626,7 @@ class MailTemplateLogTest extends TestCase
 >>>>>>> 5aedc39c (rebase 210)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 77edd94a (.)
@@ -3774,6 +3815,8 @@ class MailTemplateLogTest extends TestCase
 >>>>>>> 5d49e093a (.)
 =======
 >>>>>>> cd5474106 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 
 
 
@@ -3781,6 +3824,7 @@ class MailTemplateLogTest extends TestCase
 
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3901,6 +3945,8 @@ class MailTemplateLogTest extends TestCase
 >>>>>>> 5d49e093a (.)
 =======
 >>>>>>> cd5474106 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4005,6 +4051,7 @@ class MailTemplateLogTest extends TestCase
 >>>>>>> 5aedc39c (rebase 210)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> e790eb33 (.)
 =======
@@ -4073,12 +4120,15 @@ class MailTemplateLogTest extends TestCase
 =======
 >>>>>>> 5aedc39c (rebase 210)
 >>>>>>> cd5474106 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> a12f125f4a (.)
 =======
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4133,6 +4183,8 @@ class MailTemplateLogTest extends TestCase
 >>>>>>> c188e2a18 (.)
 =======
 >>>>>>> cd5474106 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -4295,6 +4347,7 @@ class MailTemplateLogTest extends TestCase
 >>>>>>> 82e5ee2d (rebase 210)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
 =======
@@ -4737,3 +4790,5 @@ class MailTemplateLogTest extends TestCase
 =======
 >>>>>>> 82e5ee2d (rebase 210)
 >>>>>>> e312314fa (.)
+=======
+>>>>>>> 26d39e2eb (.)

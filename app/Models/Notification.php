@@ -26,6 +26,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -67,12 +68,15 @@
 =======
 >>>>>>> f2e64178 (.)
 =======
+>>>>>>> 2effe245 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -425,6 +429,7 @@ declare(strict_types=1);
 =======
 >>>>>>> 98d837b9 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 1619767d8 (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
@@ -442,6 +447,9 @@ declare(strict_types=1);
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -787,6 +795,7 @@ declare(strict_types=1);
 >>>>>>> f1c9518b (.)
 namespace Modules\Notify\Models;
 
+<<<<<<< HEAD
 use Override;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1108,6 +1117,7 @@ namespace Modules\Notify\Models;
 =======
 >>>>>>> 98d837b9 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 75179b85 (.)
@@ -1176,10 +1186,36 @@ namespace Modules\Notify\Models;
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+<<<<<<< HEAD
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> 2effe245 (.)
+use Illuminate\Support\Carbon;
+use Illuminate\Database\Eloquent\Model;
+use Modules\Notify\Database\Factories\NotificationFactory;
+<<<<<<< HEAD
+use Illuminate\Database\Eloquent\Builder;
+=======
+=======
+use Override;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+namespace Modules\Notify\Models;
+
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> d284d65 (.)
+>>>>>>> 26d39e2eb (.)
 use Illuminate\Support\Carbon;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Database\Factories\NotificationFactory;
 use Illuminate\Database\Eloquent\Builder;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1192,6 +1228,8 @@ use Illuminate\Database\Eloquent\Builder;
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 =======
 namespace Modules\Notify\Models;
@@ -1200,6 +1238,7 @@ namespace Modules\Notify\Models;
 >>>>>>> d284d65 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 11b43e822 (.)
@@ -1211,6 +1250,10 @@ namespace Modules\Notify\Models;
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 use Modules\Xot\Models\BaseModel;
 <<<<<<< HEAD
 =======
@@ -1343,12 +1386,27 @@ use Modules\Xot\Models\BaseModel;
  * @property string $notifiable_type
  * @property int $notifiable_id
  * @property array<string, mixed>|string $data
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
  * @property Carbon|null $read_at
  * @property Carbon|null $created_at
  * @property Carbon|null $updated_at
  * @property string|null $updated_by
  * @property string|null $created_by
  * @property Carbon|null $deleted_at
+<<<<<<< HEAD
+=======
+=======
+ * @property \Illuminate\Support\Carbon|null $read_at
+ * @property \Illuminate\Support\Carbon|null $created_at
+ * @property \Illuminate\Support\Carbon|null $updated_at
+ * @property string|null $updated_by
+ * @property string|null $created_by
+ * @property \Illuminate\Support\Carbon|null $deleted_at
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
  * @property string|null $deleted_by
  * @property int|null $tenant_id
  * @property int|null $user_id
@@ -1356,6 +1414,10 @@ use Modules\Xot\Models\BaseModel;
  * @property int|null $subject_id
  * @property array<string>|string|null $channels
  * @property string|null $status
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
  * @property Carbon|null $sent_at
 <<<<<<< HEAD
  * @property-read Model|null $creator
@@ -1446,6 +1508,7 @@ use Modules\Xot\Models\BaseModel;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1462,6 +1525,11 @@ use Modules\Xot\Models\BaseModel;
 =======
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+ *
+=======
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
 =======
 =======
  * @property \Illuminate\Support\Carbon|null $sent_at
@@ -1678,11 +1746,13 @@ use Modules\Xot\Models\BaseModel;
 =======
 >>>>>>> f813254 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 =======
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f813254 (.)
@@ -1733,6 +1803,10 @@ use Modules\Xot\Models\BaseModel;
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
  * @mixin IdeHelperNotification
  * @mixin \Eloquent
  */
@@ -2069,6 +2143,7 @@ class Notification extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -2159,6 +2234,13 @@ class Notification extends BaseModel
     #[Override]
 =======
 >>>>>>> f2e64178 (.)
+=======
+    #[\Override]
+=======
+<<<<<<< HEAD
+    #[Override]
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
     #[Override]
@@ -2246,12 +2328,15 @@ class Notification extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
     #[Override]
@@ -2464,6 +2549,7 @@ class Notification extends BaseModel
 =======
 >>>>>>> 82c6772 (.)
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 =======
     #[Override]
@@ -2603,6 +2689,8 @@ class Notification extends BaseModel
     #[Override]
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
     protected function casts(): array
     {
         return [

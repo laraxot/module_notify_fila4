@@ -300,12 +300,16 @@ class ConfigHelper
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             $placeholder = '{{' . $variable . '}}';
 =======
 =======
 >>>>>>> 11b43e822 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -343,6 +347,11 @@ class ConfigHelper
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8c19c8df2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 26d39e2eb (.)
 =======
 =======
 >>>>>>> 207ac35e (.)
@@ -481,6 +490,11 @@ class ConfigHelper
 >>>>>>> 888799d0 (.)
 =======
 =======
+=======
+            $placeholder = '{{'.$variable.'}}';
+=======
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
             $placeholder = '{{' . $variable . '}}';
 =======
 <<<<<<< HEAD
@@ -499,6 +513,7 @@ class ConfigHelper
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 =======
 =======
@@ -506,9 +521,14 @@ class ConfigHelper
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
             $string = str_replace($placeholder, (string) $value, $string);
         }
 

@@ -14,6 +14,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f2e64178 (.)
 =======
@@ -44,6 +45,8 @@
 >>>>>>> cd5474106 (.)
 =======
 >>>>>>> 01750b107 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 # Chiarimento sulla Struttura delle Interfacce 
 
 ## Struttura Corretta per le Interfacce SMS
@@ -51,6 +54,7 @@
 , le interfacce per le azioni SMS seguono questa struttura:
 
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -368,6 +372,9 @@
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/SMS/SmsActionContract.php
 >>>>>>> ff78f10a5 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/SMS/SmsActionContract.php
+>>>>>>> 26d39e2eb (.)
 ```
 
 Con il namespace corrispondente:
@@ -431,6 +438,7 @@ if (!($instance instanceof SmsActionContract)) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -463,3 +471,5 @@ if (!($instance instanceof SmsActionContract)) {
 >>>>>>> cd5474106 (.)
 =======
 >>>>>>> 01750b107 (.)
+=======
+>>>>>>> 26d39e2eb (.)

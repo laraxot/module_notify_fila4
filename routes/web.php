@@ -92,6 +92,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a0788fa28 (.)
 =======
 <<<<<<< HEAD
@@ -124,6 +125,15 @@
 >>>>>>> 01750b107 (.)
 =======
 >>>>>>> 5e028c03d (.)
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 declare(strict_types=1);
 
 =======
@@ -3132,6 +3142,7 @@ declare(strict_types=1);
  */
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 >>>>>>> 1487fe812 (.)
 =======
 =======
@@ -3191,10 +3202,45 @@ declare(strict_types=1);
 
 // Filament will handle all routes for this module
 =======
+=======
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> origin/develop
+/*
+|--------------------------------------------------------------------------
+| Web Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register web routes for your application. These
+| routes are loaded by the RouteServiceProvider within a group which
+| contains the "web" middleware group. Now create something great!
+|
+*/
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+declare(strict_types=1);
+
+
+/*
+ * |--------------------------------------------------------------------------
+ * | Web Routes
+ * |--------------------------------------------------------------------------
+ * |
+ * | Here is where you can register web routes for your application. These
+ * | routes are loaded by the RouteServiceProvider within a group which
+ * | contains the "web" middleware group. Now create something great!
+ * |
+ */
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3226,6 +3272,8 @@ declare(strict_types=1);
 >>>>>>> cd5474106 (.)
 =======
 >>>>>>> 01750b107 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -3325,6 +3373,7 @@ declare(strict_types=1);
 =======
 >>>>>>> 116df547 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 7c39b1fe (.)
 =======
 >>>>>>> b19cd40 (.)
@@ -3387,6 +3436,9 @@ declare(strict_types=1);
 >>>>>>> 2641c2944 (.)
 =======
 >>>>>>> 968ed47cd (.)
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 
 // Filament will handle all routes for this module
 =======

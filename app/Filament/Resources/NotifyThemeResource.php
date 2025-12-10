@@ -106,6 +106,7 @@ use Override;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -686,6 +687,10 @@ use Override;
 >>>>>>> 2f135ef98 (.)
 =======
 =======
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
 use Override;
 =======
 <<<<<<< HEAD
@@ -702,6 +707,7 @@ use Override;
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
 >>>>>>> 23f115647 (.)
@@ -711,7 +717,12 @@ use Override;
 use Override;
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
@@ -1026,6 +1037,7 @@ class NotifyThemeResource extends XotBaseResource
 
 class NotifyThemeResource extends XotBaseResource
 {
+<<<<<<< HEAD
     protected static null|string $model = NotifyTheme::class;
 <<<<<<< HEAD
 =======
@@ -1199,6 +1211,7 @@ class NotifyThemeResource extends XotBaseResource
 >>>>>>> 4689a827 (.)
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 4689a827 (.)
@@ -1626,7 +1639,21 @@ class NotifyThemeResource extends XotBaseResource
 <<<<<<< HEAD
 >>>>>>> f813254 (.)
 =======
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
     protected static ?string $model = NotifyTheme::class;
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+    protected static null|string $model = NotifyTheme::class;
+>>>>>>> f813254 (.)
 
 =======
     protected static null|string $model = NotifyTheme::class;
@@ -2208,7 +2235,31 @@ class NotifyThemeResource extends XotBaseResource
     {
         return [
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f813254 (.)
+=======
+            'lang' => Select::make('lang')->options(fn (): array => self::fieldOptions('lang')),
+            'type' => Select::make('type')->options(fn (): array => self::fieldOptions('type')),
+            'post_type' => Select::make('post_type')->options(fn (): array => self::fieldOptions('post_type')),
+=======
+            'lang' => Select::make('lang')->options(fn(): array => self::fieldOptions('lang')),
+            'type' => Select::make('type')->options(fn(): array => self::fieldOptions('type')),
+            'post_type' => Select::make('post_type')->options(fn(): array => self::fieldOptions('post_type')),
+<<<<<<< HEAD
+=======
+=======
+    protected static ?string $model = NotifyTheme::class;
+
+=======
+    protected static null|string $model = NotifyTheme::class;
+>>>>>>> b93ef594b4 (.)
+
+    #[Override]
+    public static function getFormSchema(): array
+    {
+        return [
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
 =======
     protected static ?string $model = NotifyTheme::class;
 
@@ -2217,9 +2268,13 @@ class NotifyThemeResource extends XotBaseResource
     {
         return [
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/develop
 >>>>>>> f813254 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 2effe245 (.)
             'lang' => Select::make('lang')
                 ->options(function (): array {
                     return self::fieldOptions('lang');
@@ -2232,6 +2287,7 @@ class NotifyThemeResource extends XotBaseResource
                 ->options(function (): array {
                     return self::fieldOptions('post_type');
                 }),
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
@@ -2258,6 +2314,8 @@ class NotifyThemeResource extends XotBaseResource
 =======
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 2effe245 (.)
 >>>>>>> a12f125f4a (.)
 =======
             'lang' => Select::make('lang')->options(fn(): array => self::fieldOptions('lang')),
@@ -2269,6 +2327,7 @@ class NotifyThemeResource extends XotBaseResource
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
 >>>>>>> 23f115647 (.)
@@ -2277,7 +2336,12 @@ class NotifyThemeResource extends XotBaseResource
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
             'post_id' => TextInput::make('post_id'),
             'subject' => TextInput::make('subject'),
             'from' => TextInput::make('from'),
@@ -2392,6 +2456,7 @@ class NotifyThemeResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2411,6 +2476,8 @@ class NotifyThemeResource extends XotBaseResource
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
@@ -2457,12 +2524,15 @@ class NotifyThemeResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -2584,6 +2654,7 @@ class NotifyThemeResource extends XotBaseResource
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
 =======
@@ -2684,6 +2755,8 @@ class NotifyThemeResource extends XotBaseResource
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
             'body' => Textarea::make('body')->columnSpanFull(),
             'body_html' => RichEditor::make('body_html')->columnSpanFull(),
         ];
@@ -2691,6 +2764,7 @@ class NotifyThemeResource extends XotBaseResource
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2854,6 +2928,7 @@ class NotifyThemeResource extends XotBaseResource
 >>>>>>> f2e64178 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -2862,6 +2937,10 @@ class NotifyThemeResource extends XotBaseResource
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 =======
 >>>>>>> origin/develop
@@ -2881,12 +2960,15 @@ class NotifyThemeResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 =======
@@ -2930,6 +3012,7 @@ class NotifyThemeResource extends XotBaseResource
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
@@ -2975,6 +3058,10 @@ class NotifyThemeResource extends XotBaseResource
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
             'body' => Textarea::make('body')
                 ->columnSpanFull(),
             'body_html' => RichEditor::make('body_html')
@@ -3017,6 +3104,7 @@ class NotifyThemeResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -3029,6 +3117,8 @@ class NotifyThemeResource extends XotBaseResource
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3077,6 +3167,7 @@ class NotifyThemeResource extends XotBaseResource
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 =======
@@ -3103,6 +3194,10 @@ class NotifyThemeResource extends XotBaseResource
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 >>>>>>> a12f125f4a (.)
 =======
             'body' => Textarea::make('body')->columnSpanFull(),
@@ -3130,12 +3225,15 @@ class NotifyThemeResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -3259,6 +3357,7 @@ class NotifyThemeResource extends XotBaseResource
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
 =======
@@ -3369,6 +3468,8 @@ class NotifyThemeResource extends XotBaseResource
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
     public static function fieldOptions(string $field): array
     {
         return match ($field) {

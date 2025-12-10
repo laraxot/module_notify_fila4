@@ -12,6 +12,7 @@ namespace Modules\Notify\Services\MailEngines;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use InvalidArgumentException;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -70,10 +71,14 @@ use InvalidArgumentException;
 =======
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 98d837b9 (.)
@@ -118,6 +123,8 @@ use InvalidArgumentException;
 <<<<<<< HEAD
 >>>>>>> 8dc1f2ed6 (.)
 =======
+=======
+>>>>>>> 26d39e2eb (.)
 use InvalidArgumentException;
 =======
 <<<<<<< HEAD
@@ -140,6 +147,9 @@ use InvalidArgumentException;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> f2e64178 (.)
 =======
 =======
@@ -148,6 +158,7 @@ use InvalidArgumentException;
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
 =======
@@ -170,6 +181,8 @@ use InvalidArgumentException;
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 use ErrorException;
 use Exception;
 =======
@@ -465,6 +478,7 @@ class MailtrapEngine
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     public ?string $from = null;
 >>>>>>> 98d837b9 (.)
@@ -482,6 +496,8 @@ class MailtrapEngine
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -749,6 +765,9 @@ class MailtrapEngine
 =======
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 26d39e2eb (.)
 =======
     public ?string $from = null;
 =======
@@ -1111,12 +1130,14 @@ class MailtrapEngine
 =======
 >>>>>>> f813254 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 =======
 =======
     public null|string $from = null;
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
@@ -1185,6 +1206,10 @@ class MailtrapEngine
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 
     public string $to;
 
@@ -1290,6 +1315,7 @@ class MailtrapEngine
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1310,6 +1336,11 @@ class MailtrapEngine
 =======
 >>>>>>> 4689a827 (.)
 =======
+    public ?string $body = null;
+=======
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1317,10 +1348,14 @@ class MailtrapEngine
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 510809c6f (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 8dc1f2ed6 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 4689a827 (.)
@@ -1481,6 +1516,21 @@ class MailtrapEngine
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+    public null|string $body = null;
+>>>>>>> f813254 (.)
+
+    private static ?self $instance = null;
+
+    public static function getInstance(): self
+    {
+<<<<<<< HEAD
+        if (! (self::$instance instanceof self)) {
+            self::$instance = new self;
+=======
+        if (!(self::$instance instanceof self)) {
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
 =======
 =======
     public ?string $body = null;
@@ -1669,6 +1719,7 @@ class MailtrapEngine
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -1713,6 +1764,7 @@ class MailtrapEngine
 =======
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 888799d0 (.)
 =======
@@ -1749,6 +1801,8 @@ class MailtrapEngine
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
     public ?string $body = null;
 
     private static ?self $instance = null;
@@ -1758,8 +1812,11 @@ class MailtrapEngine
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 26d39e2eb (.)
         if (! self::$instance instanceof self) {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2209,7 +2266,17 @@ class MailtrapEngine
             self::$instance = new self();
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 >>>>>>> e53a56570 (.)
+=======
+=======
+        if (! self::$instance instanceof self) {
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+            self::$instance = new self();
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
         }
 
         return self::$instance;
@@ -2344,6 +2411,7 @@ class MailtrapEngine
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         Assert::string($this->body, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
 >>>>>>> 98d837b9 (.)
@@ -2408,6 +2476,8 @@ class MailtrapEngine
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3079,6 +3149,11 @@ class MailtrapEngine
 >>>>>>> 888799d0 (.)
 =======
 =======
+=======
+        Assert::string($this->body, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+=======
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
         Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
 =======
 <<<<<<< HEAD
@@ -3097,6 +3172,7 @@ class MailtrapEngine
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
 >>>>>>> 23f115647 (.)
@@ -3106,13 +3182,19 @@ class MailtrapEngine
         Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
         Mail::raw($this->body, function (Message $msg): void {
             // Verifichiamo che $this->to sia valido
             $to = $this->to;
 
             // Utilizziamo una condizione più appropriata
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (!$to) {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3120,6 +3202,7 @@ class MailtrapEngine
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3203,9 +3286,14 @@ class MailtrapEngine
 =======
 >>>>>>> 2941b0bd (.)
 =======
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
             if (! $to) {
 =======
             if (!$to) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 99ff506 (.)
@@ -3225,6 +3313,7 @@ class MailtrapEngine
 =======
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
             if (! $to) {
 >>>>>>> 985c7bda (.)
@@ -3314,7 +3403,16 @@ class MailtrapEngine
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> f5f1cb1 (.)
+=======
+>>>>>>> 26d39e2eb (.)
                 throw new InvalidArgumentException('Il destinatario email non è valido');
+=======
+<<<<<<< HEAD
+                throw new InvalidArgumentException('Il destinatario email non è valido');
+=======
+                throw new \InvalidArgumentException('Il destinatario email non è valido');
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
             }
 
             $msg->to($to)->subject('Test Email');
@@ -3412,6 +3510,7 @@ class MailtrapEngine
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -3508,6 +3607,10 @@ class MailtrapEngine
 
 =======
 >>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
 
@@ -3583,12 +3686,15 @@ class MailtrapEngine
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 
@@ -3748,6 +3854,7 @@ class MailtrapEngine
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 
 >>>>>>> 985c7bda (.)
@@ -3877,6 +3984,8 @@ class MailtrapEngine
 
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
         // Dead catch - ErrorException is never thrown in the try block.
         // } catch (ErrorException $e) {
         //    throw new Exception('['.__LINE__.']['.class_basename($this).']');

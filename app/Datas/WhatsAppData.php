@@ -102,6 +102,7 @@ use Spatie\LaravelData\Data;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -262,6 +263,10 @@ use Spatie\LaravelData\Data;
  *
 =======
 >>>>>>> f2e64178 (.)
+=======
+ *
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
  *
@@ -339,12 +344,15 @@ use Spatie\LaravelData\Data;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
  *
@@ -492,6 +500,7 @@ use Spatie\LaravelData\Data;
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
  *
 >>>>>>> 985c7bda (.)
@@ -614,6 +623,8 @@ use Spatie\LaravelData\Data;
  *
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
  * Questo DTO standardizza i dati necessari per l'invio di messaggi WhatsApp
  * attraverso diversi provider, garantendo coerenza e tipo-sicurezza.
  */
@@ -820,6 +831,7 @@ class WhatsAppData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -859,6 +871,10 @@ class WhatsAppData extends Data
 =======
 >>>>>>> 4689a827 (.)
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
+=======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
@@ -899,10 +915,13 @@ class WhatsAppData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -935,6 +954,39 @@ class WhatsAppData extends Data
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 2effe245 (.)
+        public null|string $from = null,
+        public null|array $media = null,
+        public null|array $buttons = null,
+        public null|array $template = null,
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 2effe245 (.)
 =======
@@ -947,6 +999,7 @@ class WhatsAppData extends Data
 =======
 >>>>>>> 3f39ac8b (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 888799d0 (.)
@@ -957,6 +1010,19 @@ class WhatsAppData extends Data
 =======
 =======
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/develop
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+>>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 58816034 (.)
 =======
@@ -971,6 +1037,9 @@ class WhatsAppData extends Data
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
         public ?string $from = null,
         public ?array $media = null,
         public ?array $buttons = null,
@@ -1073,6 +1142,7 @@ class WhatsAppData extends Data
         public null|array $template = null,
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1514,6 +1584,8 @@ class WhatsAppData extends Data
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1775,6 +1847,8 @@ class WhatsAppData extends Data
 >>>>>>> 888799d0 (.)
 =======
 =======
+>>>>>>> 2effe245 (.)
+=======
 <<<<<<< HEAD
 >>>>>>> 2effe245 (.)
 =======
@@ -1989,11 +2063,13 @@ class WhatsAppData extends Data
 =======
 >>>>>>> f813254 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 =======
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f813254 (.)
@@ -2150,6 +2226,10 @@ class WhatsAppData extends Data
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
         public string $type = 'text',
     ) {}
 }

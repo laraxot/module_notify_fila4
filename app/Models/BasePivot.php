@@ -429,6 +429,7 @@ abstract class BasePivot extends XotBasePivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -571,6 +572,7 @@ abstract class BasePivot extends XotBasePivot
 >>>>>>> 1375c94d (rebase 210)
 =======
 >>>>>>> 5aedc39c (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
@@ -693,10 +695,15 @@ abstract class BasePivot extends XotBasePivot
 >>>>>>> 7a9167faf (.)
 =======
 >>>>>>> cd5474106 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -804,6 +811,8 @@ abstract class BasePivot extends XotBasePivot
 =======
 >>>>>>> cd5474106 (.)
 =======
+>>>>>>> 26d39e2eb (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -831,6 +840,7 @@ abstract class BasePivot extends XotBasePivot
 >>>>>>> 5aedc39c (rebase 210)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> e790eb33 (.)
 =======
@@ -899,6 +909,8 @@ abstract class BasePivot extends XotBasePivot
 =======
 >>>>>>> 5aedc39c (rebase 210)
 >>>>>>> cd5474106 (.)
+=======
+>>>>>>> 26d39e2eb (.)
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
@@ -943,6 +955,7 @@ abstract class BasePivot extends XotBasePivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -959,6 +972,8 @@ abstract class BasePivot extends XotBasePivot
 >>>>>>> c188e2a18 (.)
 =======
 >>>>>>> cd5474106 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -1145,7 +1160,12 @@ abstract class BasePivot extends XotBasePivot
 =======
 =======
 >>>>>>> 5aedc39c (rebase 210)
+<<<<<<< HEAD
 >>>>>>> cd5474106 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
@@ -1228,6 +1248,7 @@ abstract class BasePivot extends XotBasePivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -1260,6 +1281,8 @@ abstract class BasePivot extends XotBasePivot
 >>>>>>> 5d49e093a (.)
 =======
 >>>>>>> cd5474106 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1440,6 +1463,7 @@ abstract class BasePivot extends XotBasePivot
 >>>>>>> a12f125f4a (.)
 >>>>>>> 2effe245 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> eea68ec9 (.)
 =======
 >>>>>>> a12f125f4a (.)
@@ -1542,9 +1566,12 @@ abstract class BasePivot extends XotBasePivot
 >>>>>>> 5aedc39c (rebase 210)
 =======
 >>>>>>> cd5474106 (.)
+=======
+>>>>>>> 26d39e2eb (.)
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1655,6 +1682,8 @@ abstract class BasePivot extends XotBasePivot
 >>>>>>> 7a9167faf (.)
 =======
 >>>>>>> cd5474106 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -1759,11 +1788,17 @@ abstract class BasePivot extends XotBasePivot
 =======
 =======
 >>>>>>> 5aedc39c (rebase 210)
+<<<<<<< HEAD
 >>>>>>> cd5474106 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1818,6 +1853,8 @@ abstract class BasePivot extends XotBasePivot
 >>>>>>> c188e2a18 (.)
 =======
 >>>>>>> cd5474106 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
             'created_at' => 'datetime',
@@ -2029,6 +2066,7 @@ abstract class BasePivot extends XotBasePivot
 >>>>>>> 82e5ee2d (rebase 210)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
@@ -2561,6 +2599,8 @@ abstract class BasePivot extends XotBasePivot
 >>>>>>> cd5474106 (.)
 =======
 >>>>>>> e312314fa (.)
+=======
+>>>>>>> 26d39e2eb (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',

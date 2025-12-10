@@ -109,6 +109,7 @@ use Filament\Tables;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -164,6 +165,12 @@ use Override;
 use Override;
 =======
 >>>>>>> 4689a827 (.)
+=======
+=======
+<<<<<<< HEAD
+use Override;
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
 use Override;
@@ -201,10 +208,13 @@ use Override;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 use Override;
@@ -548,9 +558,16 @@ use Override;
 use Filament\Tables;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> e53a56570 (.)
+=======
+=======
+use Filament\Tables;
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\Filter;
 use Filament\Tables\Filters\SelectFilter;
@@ -613,6 +630,25 @@ class ListNotifications extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 26d39e2eb (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1495,10 +1531,13 @@ class ListNotifications extends XotBaseListRecords
 =======
 =======
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> fbed41ac (.)
+=======
+>>>>>>> 26d39e2eb (.)
     #[\Override]
 >>>>>>> 2effe245 (.)
 =======
@@ -1509,6 +1548,7 @@ class ListNotifications extends XotBaseListRecords
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
 >>>>>>> 82c6772 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 92ecc28 (.)
     #[Override]
@@ -1623,6 +1663,8 @@ class ListNotifications extends XotBaseListRecords
 >>>>>>> 23f115647 (.)
 =======
 =======
+=======
+>>>>>>> 26d39e2eb (.)
     #[Override]
 >>>>>>> b93ef594b4 (.)
     public function getTableColumns(): array
@@ -1642,6 +1684,7 @@ class ListNotifications extends XotBaseListRecords
 >>>>>>> a12f125f4a (.)
 =======
     #[Override]
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1699,6 +1742,39 @@ class ListNotifications extends XotBaseListRecords
 =======
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 6ba141fc (.)
+=======
+<<<<<<< HEAD
+=======
+=======
+=======
+    #[Override]
+>>>>>>> b93ef594b4 (.)
+    public function getTableColumns(): array
+    {
+        return [
+            'id' => TextColumn::make('id')->numeric()->sortable(),
+            'type' => TextColumn::make('type')->searchable()->sortable(),
+            'notifiable' => TextColumn::make('notifiable.name')->searchable()->sortable(),
+            'data' => TextColumn::make('data')->searchable(),
+            'read_at' => TextColumn::make('read_at')->dateTime()->sortable(),
+            'created_at' => TextColumn::make('created_at')->dateTime()->sortable(),
+            'updated_at' => TextColumn::make('updated_at')->dateTime()->sortable(),
+        ];
+    }
+
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+    #[Override]
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 26d39e2eb (.)
     public function getTableColumns(): array
     {
         return [
@@ -1743,6 +1819,9 @@ class ListNotifications extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1842,6 +1921,164 @@ class ListNotifications extends XotBaseListRecords
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 54220b28 (rebase 210)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> 82c6772 (.)
+>>>>>>> 2effe245 (.)
+    public function getTableFilters(): array
+    {
+        return [
+            'read' => Filter::make('is_read')
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+                ->query(fn(Builder $query): Builder => $query->where('read_at', '!=', null))
+                ->label('Read'),
+            'unread' => Filter::make('is_unread')
+                ->query(fn(Builder $query): Builder => $query->whereNull('read_at'))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
@@ -2468,6 +2705,8 @@ class ListNotifications extends XotBaseListRecords
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
                 ->query(fn (Builder $query): Builder => $query->where('read_at', '!=', null))
                 ->label('Read'),
             'unread' => Filter::make('is_unread')
@@ -2476,6 +2715,10 @@ class ListNotifications extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> 26d39e2eb (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2891,10 +3134,15 @@ class ListNotifications extends XotBaseListRecords
 >>>>>>> 23f115647 (.)
 =======
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 >>>>>>> f813254 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2903,6 +3151,7 @@ class ListNotifications extends XotBaseListRecords
 =======
 =======
 >>>>>>> f5f1cb1 (.)
+<<<<<<< HEAD
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 75179b85 (.)
@@ -2937,10 +3186,15 @@ class ListNotifications extends XotBaseListRecords
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
                 ->query(fn(Builder $query): Builder => $query->where('read_at', '!=', null))
                 ->label('Read'),
             'unread' => Filter::make('is_unread')
                 ->query(fn(Builder $query): Builder => $query->whereNull('read_at'))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3022,6 +3276,8 @@ class ListNotifications extends XotBaseListRecords
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
@@ -3203,11 +3459,19 @@ class ListNotifications extends XotBaseListRecords
 =======
 =======
 =======
+>>>>>>> 2effe245 (.)
+=======
 =======
 =======
 >>>>>>> origin/develop
+<<<<<<< HEAD
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
                 ->query(function (Builder $query): Builder {
                     return $query->where('read_at', '!=', null);
                 })
@@ -3225,8 +3489,11 @@ class ListNotifications extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 >>>>>>> 95531e1 (.)
@@ -3246,6 +3513,7 @@ class ListNotifications extends XotBaseListRecords
 >>>>>>> 888799d0 (.)
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -3600,6 +3868,10 @@ class ListNotifications extends XotBaseListRecords
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 >>>>>>> a12f125f4a (.)
 =======
                 ->query(fn(Builder $query): Builder => $query->where('read_at', '!=', null))
@@ -3611,6 +3883,7 @@ class ListNotifications extends XotBaseListRecords
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3705,12 +3978,19 @@ class ListNotifications extends XotBaseListRecords
 >>>>>>> f2e64178 (.)
 >>>>>>> 23f115647 (.)
 =======
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> f2e64178 (.)
 =======
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
                 ->label('Unread'),
             'type' => SelectFilter::make('type')
                 ->options([

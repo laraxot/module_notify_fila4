@@ -136,6 +136,7 @@ use Modules\Xot\Filament\Pages\XotBaseDashboard;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -357,6 +358,13 @@ use Modules\Xot\Filament\Pages\XotBaseDashboard;
 use Modules\Xot\Filament\Pages\XotBasePage;
 =======
 >>>>>>> 4689a827 (.)
+=======
+use Modules\Xot\Filament\Pages\XotBaseDashboard;
+<<<<<<< HEAD
+=======
+use Modules\Xot\Filament\Pages\XotBasePage;
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
 use Modules\Xot\Filament\Pages\XotBaseDashboard;
@@ -404,10 +412,13 @@ use Modules\Xot\Filament\Pages\XotBasePage;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 use Modules\Xot\Filament\Pages\XotBaseDashboard;
@@ -565,6 +576,7 @@ class Dashboard extends XotBaseDashboard
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
@@ -597,6 +609,11 @@ use Modules\Xot\Filament\Pages\XotBasePage;
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> e53a56570 (.)
+=======
+=======
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 
 class Dashboard extends XotBaseDashboard
 {
@@ -683,12 +700,26 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> e53a56570 (.)
 
     protected string $view = 'notify::filament.pages.dashboard';
+<<<<<<< HEAD
+=======
+=======
+use Modules\Xot\Filament\Pages\XotBasePage;
+use Modules\Xot\Filament\Pages\XotBaseDashboard;
+
+class Dashboard extends XotBaseDashboard
+{
+    protected static ?string $navigationIcon = 'heroicon-o-home';
+
+    protected static string $view = 'notify::filament.pages.dashboard';
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
 
     public function mount(): void
     {
         /*
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -817,6 +848,8 @@ class Dashboard extends XotBaseDashboard
 =======
 >>>>>>> f2e64178 (.)
 =======
+>>>>>>> 2effe245 (.)
+=======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
@@ -863,12 +896,15 @@ class Dashboard extends XotBaseDashboard
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -976,6 +1012,7 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
 =======
@@ -1076,6 +1113,8 @@ class Dashboard extends XotBaseDashboard
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
          * $user = auth()->user();
          * if (! $user->hasRole('super-admin')) {
          * redirect('/admin');
@@ -1172,6 +1211,7 @@ class Dashboard extends XotBaseDashboard
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4d2eb53e (.)
 =======
@@ -1225,6 +1265,8 @@ class Dashboard extends XotBaseDashboard
 =======
 >>>>>>> f2e64178 (.)
 =======
+>>>>>>> 2effe245 (.)
+=======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
@@ -1270,12 +1312,15 @@ class Dashboard extends XotBaseDashboard
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 =======
@@ -1319,6 +1364,7 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
@@ -1364,6 +1410,10 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
         $user = auth()->user();
         if (! $user->hasRole('super-admin')) {
             redirect('/admin');
@@ -1402,6 +1452,7 @@ class Dashboard extends XotBaseDashboard
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -1414,6 +1465,8 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1462,6 +1515,7 @@ class Dashboard extends XotBaseDashboard
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 =======
@@ -1488,6 +1542,10 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 >>>>>>> a12f125f4a (.)
 =======
 >>>>>>> b93ef594b4 (.)
@@ -1510,12 +1568,15 @@ class Dashboard extends XotBaseDashboard
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -1639,6 +1700,7 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
 =======
@@ -1749,6 +1811,8 @@ class Dashboard extends XotBaseDashboard
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
     }
 }
 =======

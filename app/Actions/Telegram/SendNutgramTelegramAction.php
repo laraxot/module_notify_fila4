@@ -61,6 +61,7 @@ namespace Modules\Notify\Actions\Telegram;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
 >>>>>>> 75179b85 (.)
@@ -79,10 +80,13 @@ use Modules\Xot\Actions\Cast\SafeIntCastAction;
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
 >>>>>>> 4689a827 (.)
 =======
+>>>>>>> 2effe245 (.)
+=======
 <<<<<<< HEAD
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
 >>>>>>> 4689a827 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 2effe245 (.)
@@ -105,6 +109,8 @@ use Modules\Xot\Actions\Cast\SafeIntCastAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 26d39e2eb (.)
 <<<<<<< HEAD
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
@@ -188,6 +194,8 @@ use Modules\Xot\Actions\Cast\SafeIntCastAction;
 =======
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
 =======
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
@@ -272,12 +280,14 @@ use Modules\Xot\Actions\Cast\SafeIntCastAction;
 =======
 >>>>>>> f813254 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 =======
 =======
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f813254 (.)
@@ -366,6 +376,10 @@ use Modules\Xot\Actions\Cast\SafeIntCastAction;
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
@@ -464,6 +478,7 @@ use Modules\Xot\Actions\Cast\SafeIntCastAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -481,6 +496,8 @@ use Modules\Xot\Actions\Cast\SafeIntCastAction;
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
@@ -527,12 +544,15 @@ use Modules\Xot\Actions\Cast\SafeIntCastAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -711,6 +731,7 @@ use Modules\Xot\Actions\Cast\SafeIntCastAction;
 =======
 >>>>>>> 98d837b9 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 10292b60a (.)
 =======
 >>>>>>> bf5d31b0f (.)
@@ -740,6 +761,9 @@ use Modules\Xot\Actions\Cast\SafeIntCastAction;
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 use Modules\Notify\Datas\TelegramData;
 <<<<<<< HEAD
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
@@ -864,6 +888,7 @@ use function Safe\json_encode;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -880,6 +905,7 @@ use function Safe\json_encode;
 =======
 >>>>>>> f2e64178 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2effe245 (.)
 =======
@@ -907,6 +933,10 @@ use function Safe\json_encode;
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 
 =======
@@ -927,12 +957,15 @@ use function Safe\json_encode;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -958,6 +991,7 @@ use function Safe\json_encode;
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
@@ -983,6 +1017,10 @@ use function Safe\json_encode;
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 use Modules\Notify\Datas\TelegramData;
 use Spatie\QueueableAction\QueueableAction;
 
@@ -1010,6 +1048,7 @@ use function Safe\json_decode;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -1041,6 +1080,8 @@ use function Safe\json_decode;
 =======
 >>>>>>> 2effe245 (.)
 =======
+>>>>>>> 26d39e2eb (.)
+=======
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> d09cb759 (.)
@@ -1049,15 +1090,20 @@ use function Safe\json_decode;
 =======
 >>>>>>> f2e64178 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 8dc1f2ed6 (.)
 =======
 =======
 >>>>>>> f2e64178 (.)
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 >>>>>>> a12f125f4a (.)
 =======
 use function Safe\json_encode;
 >>>>>>> b93ef594b4 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1080,6 +1126,8 @@ use function Safe\json_encode;
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -1112,6 +1160,7 @@ use function Safe\json_encode;
 =======
 >>>>>>> 2effe245 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
@@ -1195,11 +1244,14 @@ use function Safe\json_encode;
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 
 use Modules\Notify\Datas\TelegramData;
 use Spatie\QueueableAction\QueueableAction;
 use function Safe\json_encode;
 use function Safe\json_decode;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1245,6 +1297,8 @@ use function Safe\json_decode;
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1433,6 +1487,7 @@ use function Safe\json_encode;
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
 =======
@@ -1550,6 +1605,8 @@ use function Safe\json_encode;
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 
 final class SendNutgramTelegramAction
 {
@@ -1611,6 +1668,7 @@ final class SendNutgramTelegramAction
     protected bool $debug;
     protected int $timeout;
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected null|string $parseMode;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1622,6 +1680,9 @@ final class SendNutgramTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+    protected ?string $parseMode;
+>>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 3f39ac8b (.)
 =======
@@ -2336,6 +2397,15 @@ final class SendNutgramTelegramAction
 =======
 =======
 =======
+=======
+<<<<<<< HEAD
+
+    protected ?string $parseMode;
+=======
+<<<<<<< HEAD
+    protected null|string $parseMode;
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2352,6 +2422,7 @@ final class SendNutgramTelegramAction
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
 >>>>>>> 23f115647 (.)
@@ -2360,7 +2431,12 @@ final class SendNutgramTelegramAction
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 
     /**
      * Create a new action instance.
@@ -2546,6 +2622,7 @@ final class SendNutgramTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2706,6 +2783,10 @@ final class SendNutgramTelegramAction
 
 =======
 >>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
 
@@ -2783,12 +2864,15 @@ final class SendNutgramTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 
@@ -2938,6 +3022,7 @@ final class SendNutgramTelegramAction
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 
 >>>>>>> 985c7bda (.)
@@ -3058,6 +3143,8 @@ final class SendNutgramTelegramAction
 
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
         // Parametri a livello di root
         /** @var string|null $parseMode */
         $parseMode = config('telegram.parse_mode');
@@ -3157,6 +3244,7 @@ final class SendNutgramTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3385,6 +3473,11 @@ final class SendNutgramTelegramAction
             ->execute(config('telegram.timeout'), 30);
 =======
 >>>>>>> f2e64178 (.)
+=======
+        $this->timeout = app(SafeIntCastAction::class)
+            ->execute(config('telegram.timeout'), 30);
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
         $this->timeout = app(SafeIntCastAction::class)
@@ -3475,12 +3568,15 @@ final class SendNutgramTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
         $this->timeout = app(SafeIntCastAction::class)
@@ -3561,6 +3657,7 @@ final class SendNutgramTelegramAction
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
         $this->timeout = app(SafeIntCastAction::class)
             ->execute(config('telegram.timeout'), 30);
@@ -3742,6 +3839,8 @@ final class SendNutgramTelegramAction
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
     }
 
     /**
@@ -3943,6 +4042,7 @@ final class SendNutgramTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -4032,6 +4132,10 @@ final class SendNutgramTelegramAction
 
 =======
 >>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4046,6 +4150,7 @@ final class SendNutgramTelegramAction
         
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4077,10 +4182,13 @@ final class SendNutgramTelegramAction
 =======
 
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
         $client = new Client([
             'timeout' => $this->timeout,
             'base_uri' => $this->apiUrl,
         ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -4573,6 +4681,10 @@ final class SendNutgramTelegramAction
 
 =======
 >>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4600,12 +4712,15 @@ final class SendNutgramTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 
@@ -4996,6 +5111,7 @@ final class SendNutgramTelegramAction
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 
 >>>>>>> 985c7bda (.)
@@ -5101,6 +5217,8 @@ final class SendNutgramTelegramAction
 
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
         // Determina l'endpoint in base al tipo di messaggio
         $endpoint = match ($telegramData->type) {
             'photo' => "/bot{$this->token}/sendPhoto",
@@ -5203,6 +5321,7 @@ final class SendNutgramTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -5363,6 +5482,10 @@ final class SendNutgramTelegramAction
 
 =======
 >>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
 
@@ -5440,12 +5563,15 @@ final class SendNutgramTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 
@@ -5595,6 +5721,7 @@ final class SendNutgramTelegramAction
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 
 >>>>>>> 985c7bda (.)
@@ -5715,6 +5842,8 @@ final class SendNutgramTelegramAction
 
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
         // Prepara il payload in base al tipo di messaggio
         $payload = [
             'chat_id' => $telegramData->chatId,
@@ -5812,6 +5941,7 @@ final class SendNutgramTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -5831,6 +5961,8 @@ final class SendNutgramTelegramAction
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
@@ -5877,12 +6009,15 @@ final class SendNutgramTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -6002,6 +6137,7 @@ final class SendNutgramTelegramAction
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
 =======
@@ -6104,6 +6240,8 @@ final class SendNutgramTelegramAction
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 
         if ($telegramData->replyToMessageId !== null) {
             $payload['reply_to_message_id'] = $telegramData->replyToMessageId;
@@ -6115,6 +6253,7 @@ final class SendNutgramTelegramAction
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6221,6 +6360,7 @@ final class SendNutgramTelegramAction
 >>>>>>> f2e64178 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> d09cb759 (.)
@@ -6247,6 +6387,10 @@ final class SendNutgramTelegramAction
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
         
 =======
@@ -6281,12 +6425,15 @@ final class SendNutgramTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -6319,6 +6466,7 @@ final class SendNutgramTelegramAction
 =======
 >>>>>>> 2effe245 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
@@ -6402,6 +6550,8 @@ final class SendNutgramTelegramAction
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
         
         if ($telegramData->replyToMessageId !== null) {
             $payload['reply_to_message_id'] = $telegramData->replyToMessageId;
@@ -6411,6 +6561,7 @@ final class SendNutgramTelegramAction
             $payload['reply_markup'] = json_encode($telegramData->replyMarkup);
         }
         
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6456,6 +6607,8 @@ final class SendNutgramTelegramAction
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6718,6 +6871,7 @@ final class SendNutgramTelegramAction
 <<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -6756,6 +6910,12 @@ final class SendNutgramTelegramAction
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
         // Aggiungi parametri specifici per il tipo di messaggio
         if ($telegramData->type === 'text') {
             $payload['text'] = $telegramData->text;
@@ -6848,6 +7008,7 @@ final class SendNutgramTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f2e64178 (.)
@@ -6986,7 +7147,19 @@ final class SendNutgramTelegramAction
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 >>>>>>> 23f115647 (.)
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> d284d65 (.)
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
         } elseif (
             in_array($telegramData->type, ['photo', 'video', 'document', 'audio', 'animation'], strict: true) &&
 <<<<<<< HEAD
@@ -7069,8 +7242,11 @@ final class SendNutgramTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 4d2eb53e (.)
 =======
@@ -7374,6 +7550,8 @@ final class SendNutgramTelegramAction
 =======
 >>>>>>> f2e64178 (.)
 =======
+>>>>>>> 2effe245 (.)
+=======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
@@ -7425,12 +7603,15 @@ final class SendNutgramTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -7680,6 +7861,7 @@ final class SendNutgramTelegramAction
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -7716,6 +7898,10 @@ final class SendNutgramTelegramAction
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
             $mediaType = $telegramData->type;
             $payload[$mediaType] = $telegramData->media[0];
             $payload['caption'] = $telegramData->text;
@@ -7814,6 +8000,7 @@ final class SendNutgramTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -7974,6 +8161,10 @@ final class SendNutgramTelegramAction
 
 =======
 >>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
 
@@ -8051,12 +8242,15 @@ final class SendNutgramTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 
@@ -8206,6 +8400,7 @@ final class SendNutgramTelegramAction
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 
 >>>>>>> 985c7bda (.)
@@ -8326,6 +8521,8 @@ final class SendNutgramTelegramAction
 
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
         try {
             $response = $client->post($endpoint, [
                 'json' => $payload,
@@ -8334,6 +8531,7 @@ final class SendNutgramTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9340,6 +9538,57 @@ final class SendNutgramTelegramAction
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 2effe245 (.)
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+            
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+            
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+            $statusCode = $response->getStatusCode();
+            $responseContent = $response->getBody()->getContents();
+            /** @var array $responseData */
+            $responseData = json_decode($responseContent, true);
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+>>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 2effe245 (.)
 =======
@@ -9408,9 +9657,14 @@ final class SendNutgramTelegramAction
 =======
 >>>>>>> f2e64178 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9425,6 +9679,7 @@ final class SendNutgramTelegramAction
             
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9519,11 +9774,17 @@ final class SendNutgramTelegramAction
 =======
 =======
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
             // Salva i dati della risposta nelle variabili dell'azione
             $this->vars['status_code'] = $statusCode;
             $this->vars['status_txt'] = $responseContent;
             $this->vars['response_data'] = $responseData;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9585,6 +9846,8 @@ final class SendNutgramTelegramAction
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10432,8 +10695,13 @@ final class SendNutgramTelegramAction
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10449,13 +10717,17 @@ final class SendNutgramTelegramAction
             
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
             Log::info('Telegram Nutgram inviato con successo', [
                 'chat_id' => $telegramData->chatId,
                 'response_code' => $statusCode,
             ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f135ef98 (.)
@@ -10469,13 +10741,30 @@ final class SendNutgramTelegramAction
 <<<<<<< HEAD
 
 =======
+=======
+
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+            // Extract message_id safely
+            $messageId = null;
+            if (isset($responseData['result']) && is_array($responseData['result']) && isset($responseData['result']['message_id'])) {
+                $messageId = is_int($responseData['result']['message_id']) ? $responseData['result']['message_id'] : (int) $responseData['result']['message_id'];
+            }
+
+=======
+=======
+>>>>>>> 26d39e2eb (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
 =======
             
+<<<<<<< HEAD
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> a12f125f4a (.)
 =======
 
@@ -10484,6 +10773,7 @@ final class SendNutgramTelegramAction
             
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8dc1f2ed6 (.)
 =======
@@ -10502,6 +10792,10 @@ final class SendNutgramTelegramAction
 =======
 
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
             return [
                 'success' => $responseData['ok'] ?? false,
                 'message_id' => $responseData['result']['message_id'] ?? null,
@@ -10563,6 +10857,7 @@ final class SendNutgramTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -10583,7 +10878,10 @@ final class SendNutgramTelegramAction
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10665,6 +10963,8 @@ final class SendNutgramTelegramAction
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> 75179b85 (.)
 =======
 =======
@@ -10680,6 +10980,8 @@ final class SendNutgramTelegramAction
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
@@ -10727,6 +11029,7 @@ final class SendNutgramTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 510809c6f (.)
@@ -10734,6 +11037,8 @@ final class SendNutgramTelegramAction
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -10769,10 +11074,13 @@ final class SendNutgramTelegramAction
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
             // Salva i dati dell'errore nelle variabili dell'azione
             $this->vars['error_code'] = $statusCode;
             $this->vars['error_message'] = $e->getMessage();
             $this->vars['error_response'] = $responseBody;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -11154,6 +11462,10 @@ final class SendNutgramTelegramAction
 
 =======
 >>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -11240,12 +11552,15 @@ final class SendNutgramTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -11624,6 +11939,7 @@ final class SendNutgramTelegramAction
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 
 >>>>>>> 985c7bda (.)
@@ -11729,6 +12045,8 @@ final class SendNutgramTelegramAction
 
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
             Log::warning('Errore invio Telegram Nutgram', [
                 'chat_id' => $telegramData->chatId,
                 'status' => $statusCode,
@@ -11827,6 +12145,7 @@ final class SendNutgramTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -11987,6 +12306,10 @@ final class SendNutgramTelegramAction
 
 =======
 >>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
 
@@ -12064,12 +12387,15 @@ final class SendNutgramTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 
@@ -12219,6 +12545,7 @@ final class SendNutgramTelegramAction
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 
 >>>>>>> 985c7bda (.)
@@ -12339,6 +12666,8 @@ final class SendNutgramTelegramAction
 
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
             return [
                 'success' => false,
                 'error' => $responseBody['description'] ?? 'Errore sconosciuto',

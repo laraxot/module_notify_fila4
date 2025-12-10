@@ -377,6 +377,7 @@ trait HasNotificationTracking
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -396,6 +397,8 @@ trait HasNotificationTracking
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
@@ -442,12 +445,15 @@ trait HasNotificationTracking
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -581,6 +587,7 @@ trait HasNotificationTracking
 =======
 >>>>>>> 98d837b9 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 1487fe812 (.)
 =======
 =======
@@ -614,6 +621,9 @@ trait HasNotificationTracking
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 
                 // Ignora link di unsubscribe, anchor e link relativi
                 if (
@@ -630,8 +640,11 @@ trait HasNotificationTracking
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 26d39e2eb (.)
                         !Str::startsWith($url, ['http://', 'https://'])
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -965,8 +978,11 @@ trait HasNotificationTracking
 <<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 26d39e2eb (.)
                         ! Str::startsWith($url, ['http://', 'https://'])
 =======
                         !Str::startsWith($url, ['http://', 'https://'])
@@ -979,8 +995,11 @@ trait HasNotificationTracking
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
@@ -993,6 +1012,7 @@ trait HasNotificationTracking
 =======
 >>>>>>> 2effe245 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 4689a827 (.)
@@ -1416,14 +1436,20 @@ trait HasNotificationTracking
 =======
 =======
 =======
+>>>>>>> 26d39e2eb (.)
+=======
 =======
 >>>>>>> origin/develop
+<<<<<<< HEAD
 >>>>>>> f813254 (.)
+=======
+>>>>>>> 2effe245 (.)
                 
                 // Ignora link di unsubscribe, anchor e link relativi
                 if (
                     Str::contains($url, ['unsubscribe', 'mailto:', 'tel:', '#'])
                     || !Str::startsWith($url, ['http://', 'https://'])
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
@@ -1445,6 +1471,8 @@ trait HasNotificationTracking
 =======
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 2effe245 (.)
 >>>>>>> a12f125f4a (.)
 =======
 
@@ -1464,6 +1492,7 @@ trait HasNotificationTracking
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 75179b85 (.)
@@ -1544,6 +1573,10 @@ trait HasNotificationTracking
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
                 ) {
                     return $matches[0];
                 }
@@ -1648,6 +1681,7 @@ trait HasNotificationTracking
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1808,6 +1842,10 @@ trait HasNotificationTracking
             $html,
 =======
 >>>>>>> f2e64178 (.)
+=======
+            $html,
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
             $html,
@@ -1885,12 +1923,15 @@ trait HasNotificationTracking
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
             $html,
@@ -2040,6 +2081,7 @@ trait HasNotificationTracking
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
             $html,
 >>>>>>> 985c7bda (.)
@@ -2160,6 +2202,8 @@ trait HasNotificationTracking
             $html,
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
         );
     }
 
@@ -2682,6 +2726,7 @@ trait HasNotificationTracking
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2842,6 +2887,10 @@ trait HasNotificationTracking
 }
 =======
 >>>>>>> f2e64178 (.)
+=======
+}
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
 }
@@ -2919,12 +2968,15 @@ trait HasNotificationTracking
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 }
@@ -3074,6 +3126,7 @@ trait HasNotificationTracking
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 }
 >>>>>>> 985c7bda (.)
@@ -3196,3 +3249,5 @@ trait HasNotificationTracking
 }
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)

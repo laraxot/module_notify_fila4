@@ -108,6 +108,7 @@ use Illuminate\Support\Facades\Schema;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -163,6 +164,8 @@ use Illuminate\Support\Facades\Schema;
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -904,6 +907,10 @@ use Illuminate\Support\Facades\Schema;
 >>>>>>> 888799d0 (.)
 =======
 =======
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 =======
@@ -927,6 +934,7 @@ use Illuminate\Support\Facades\DB;
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
 >>>>>>> 23f115647 (.)
@@ -937,7 +945,12 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 // ----- bases ----
 use Modules\Xot\Database\Migrations\XotBaseMigration;
 
@@ -1047,6 +1060,7 @@ return new class() extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 888799d0 (.)
@@ -1092,6 +1106,8 @@ return new class extends XotBaseMigration
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1719,6 +1735,12 @@ return new class() extends XotBaseMigration {
 >>>>>>> 888799d0 (.)
 =======
 =======
+=======
+return new class extends XotBaseMigration
+{
+=======
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
 return new class() extends XotBaseMigration {
 =======
 <<<<<<< HEAD
@@ -1739,14 +1761,18 @@ return new class () extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> f2e64178 (.)
 =======
 =======
 return new class() extends XotBaseMigration {
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
@@ -1801,6 +1827,10 @@ return new class() extends XotBaseMigration {
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
     /**
      * Run the migrations.
      */
@@ -1908,6 +1938,7 @@ return new class() extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1994,6 +2025,8 @@ return new class() extends XotBaseMigration {
 =======
 >>>>>>> f2e64178 (.)
 =======
+>>>>>>> 2effe245 (.)
+=======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
@@ -2047,12 +2080,15 @@ return new class() extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -2267,6 +2303,7 @@ return new class() extends XotBaseMigration {
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -2306,6 +2343,10 @@ return new class() extends XotBaseMigration {
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
         });
 
         // -- UPDATE -- Aggiornamento della tabella esistente
@@ -2410,6 +2451,7 @@ return new class() extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -3693,6 +3735,7 @@ return new class() extends XotBaseMigration {
 >>>>>>> f2e64178 (.)
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 10292b60a (.)
@@ -3723,6 +3766,19 @@ return new class() extends XotBaseMigration {
 >>>>>>> 4d2eb53e (.)
 >>>>>>> 2f135ef98 (.)
             if (! $this->hasColumn('name')) {
+=======
+>>>>>>> 2effe245 (.)
+            if (! $this->hasColumn('name')) {
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+            if (!$this->hasColumn('name')) {
+>>>>>>> f813254 (.)
+>>>>>>> 26d39e2eb (.)
                 $table->string('name');
             }
             if (! $this->hasColumn('slug')) {
@@ -3735,6 +3791,7 @@ return new class() extends XotBaseMigration {
                 $table->json('sms_template')->nullable();
             }
             if (! $this->hasColumn('counter')) {
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 95531e1 (.)
@@ -3743,6 +3800,40 @@ return new class() extends XotBaseMigration {
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
             if (!$this->hasColumn('name')) {
+=======
+                $table->integer('counter')->default(0);
+            }
+
+            $this->updateTimestamps(table: $table, hasSoftDeletes: true);
+        });
+    }
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+<<<<<<< HEAD
+=======
+=======
+            if (! $this->hasColumn('name')) {
+=======
+            if (!$this->hasColumn('name')) {
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 26d39e2eb (.)
                 $table->string('name');
             }
             if (!$this->hasColumn('slug')) {
@@ -3755,6 +3846,7 @@ return new class() extends XotBaseMigration {
                 $table->json('sms_template')->nullable();
             }
             if (!$this->hasColumn('counter')) {
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
                 $table->integer('counter')->default(0);
             }
@@ -3893,6 +3985,23 @@ return new class() extends XotBaseMigration {
 =======
 =======
 >>>>>>> 23f115647 (.)
+=======
+                $table->integer('counter')->default(0);
+            }
+
+            $this->updateTimestamps(
+                table: $table,
+                hasSoftDeletes: true,
+            );
+        });
+    }
+<<<<<<< HEAD
+
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> 26d39e2eb (.)
             if (! $this->hasColumn('name')) {
                 $table->string('name');
             }
@@ -3913,6 +4022,7 @@ return new class() extends XotBaseMigration {
         });
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
@@ -3939,6 +4049,11 @@ return new class() extends XotBaseMigration {
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 };
 =======
 >>>>>>> 301ad8b44 (.)

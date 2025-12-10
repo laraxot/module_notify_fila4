@@ -125,6 +125,7 @@ class Pdf
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -279,6 +280,7 @@ class Pdf
 =======
 >>>>>>> 98d837b9 (.)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 3f39ac8b (.)
 <<<<<<< HEAD
@@ -291,6 +293,19 @@ class Pdf
 =======
         $file_name = Str::slug($notify_theme_data->subject) . '.pdf';
 >>>>>>> f5f1cb1 (.)
+=======
+>>>>>>> 2effe245 (.)
+        $file_name = Str::slug($notify_theme_data->subject).'.pdf';
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+        $file_name = Str::slug($notify_theme_data->subject) . '.pdf';
+>>>>>>> f813254 (.)
+>>>>>>> 26d39e2eb (.)
         if (isset($view_params[$file_name])) {
             $file_name = $view_params[$file_name];
         }
@@ -711,6 +726,7 @@ class Pdf
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -727,6 +743,7 @@ class Pdf
 =======
 >>>>>>> f2e64178 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2effe245 (.)
 =======
@@ -754,6 +771,10 @@ class Pdf
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
         $file_name = Str::slug($notify_theme_data->subject).'.pdf';
 =======
@@ -797,12 +818,15 @@ class Pdf
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -835,6 +859,7 @@ class Pdf
 =======
 >>>>>>> 2effe245 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
@@ -918,6 +943,8 @@ class Pdf
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
         $file_name = Str::slug($notify_theme_data->subject).'.pdf';
         if (isset($view_params[$file_name])) {
             $file_name = $view_params[$file_name];
@@ -967,6 +994,7 @@ class Pdf
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -979,6 +1007,8 @@ class Pdf
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1162,6 +1192,7 @@ class Pdf
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
 =======
@@ -1279,6 +1310,8 @@ class Pdf
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
     }
 }
 =======

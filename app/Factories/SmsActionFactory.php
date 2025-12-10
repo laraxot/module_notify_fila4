@@ -154,6 +154,7 @@ final class SmsActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -174,6 +175,8 @@ final class SmsActionFactory
 >>>>>>> a070a65a5 (.)
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -349,6 +352,16 @@ final class SmsActionFactory
 =======
 >>>>>>> f2e64178 (.)
 =======
+    public function create(?string $driver = null): SmsActionContract
+=======
+<<<<<<< HEAD
+    public function create(null|string $driver = null): SmsActionContract
+>>>>>>> f813254 (.)
+    {
+        $driver ??= Config::get('sms.default', 'netfun');
+>>>>>>> 2effe245 (.)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -462,11 +475,15 @@ final class SmsActionFactory
 >>>>>>> f2e64178 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 26d39e2eb (.)
     public function create(null|string $driver = null): SmsActionContract
     {
         $driver ??= Config::get('sms.default', 'netfun');
 >>>>>>> 2effe245 (.)
 =======
+<<<<<<< HEAD
     public function create(null|string $driver = null): SmsActionContract
     {
         $driver ??= Config::get('sms.default', 'netfun');
@@ -509,9 +526,12 @@ final class SmsActionFactory
 =======
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
     public function create(?string $driver = null): SmsActionContract
     {
         $driver = $driver ?? Config::get('sms.default', 'netfun');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -535,6 +555,8 @@ final class SmsActionFactory
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> a12f125f4a (.)
 >>>>>>> d09cb759 (.)
 =======
@@ -580,6 +602,7 @@ final class SmsActionFactory
 >>>>>>> a12f125f4a (.)
 >>>>>>> 2effe245 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
 >>>>>>> d09cb759 (.)
 =======
@@ -625,9 +648,12 @@ final class SmsActionFactory
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
     public function create(null|string $driver = null): SmsActionContract
     {
         $driver ??= Config::get('sms.default', 'netfun');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -665,6 +691,8 @@ final class SmsActionFactory
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -688,6 +716,7 @@ final class SmsActionFactory
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 =======
@@ -714,6 +743,10 @@ final class SmsActionFactory
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b93ef594b4 (.)
 =======
     public function create(?string $driver = null): SmsActionContract
@@ -737,12 +770,15 @@ final class SmsActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
     public function create(null|string $driver = null): SmsActionContract
@@ -961,6 +997,7 @@ final class SmsActionFactory
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d45a0226 (.)
@@ -1062,6 +1099,8 @@ final class SmsActionFactory
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 
         // Normalizza il nome del driver e assicura formato camelCase
         $normalizedDriver = $this->normalizeDriverName(is_string($driver) ? $driver : '');
@@ -1169,6 +1208,7 @@ final class SmsActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1424,10 +1464,13 @@ final class SmsActionFactory
         if (! in_array($normalizedDriver, $this->supportedDrivers, strict: true)) {
             Log::warning('Attempting to use non-standard SMS driver: '.(is_string($driver) ? $driver : ''));
 =======
+<<<<<<< HEAD
         if (! in_array($normalizedDriver, $this->supportedDrivers, strict: true)) {
             Log::warning('Attempting to use non-standard SMS driver: '.(is_string($driver) ? $driver : ''));
 >>>>>>> 2effe245 (.)
 =======
+=======
+>>>>>>> 26d39e2eb (.)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1435,14 +1478,18 @@ final class SmsActionFactory
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> de02998b (.)
+=======
+>>>>>>> 26d39e2eb (.)
         if (!in_array($normalizedDriver, $this->supportedDrivers, strict: true)) {
             Log::warning('Attempting to use non-standard SMS driver: ' . (is_string($driver) ? $driver : ''));
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
         if (! in_array($normalizedDriver, $this->supportedDrivers, strict: true)) {
             Log::warning('Attempting to use non-standard SMS driver: '.(is_string($driver) ? $driver : ''));
@@ -1480,6 +1527,8 @@ final class SmsActionFactory
             Log::warning('Attempting to use non-standard SMS driver: '.(is_string($driver) ? $driver : ''));
 >>>>>>> f1c9518b (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 26d39e2eb (.)
         }
 
         // Costruisci il nome della classe seguendo la convenzione
@@ -1858,6 +1907,7 @@ final class SmsActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1922,6 +1972,8 @@ final class SmsActionFactory
 =======
 >>>>>>> 8c19c8df2 (.)
 =======
+>>>>>>> 26d39e2eb (.)
+=======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
@@ -1933,6 +1985,7 @@ final class SmsActionFactory
 =======
 >>>>>>> 2effe245 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> d09cb759 (.)
@@ -1954,6 +2007,8 @@ final class SmsActionFactory
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 =======
         if (!in_array($normalizedDriver, $this->supportedDrivers)) {
             Log::warning("Attempting to use non-standard SMS driver: " . (is_string($driver) ? $driver : ''));
@@ -1992,9 +2047,12 @@ final class SmsActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -2062,6 +2120,7 @@ final class SmsActionFactory
 <<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 82ae73be (.)
 >>>>>>> 10292b60a (.)
 =======
@@ -2089,6 +2148,10 @@ final class SmsActionFactory
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 26d39e2eb (.)
         if (!in_array($normalizedDriver, $this->supportedDrivers)) {
             Log::warning("Attempting to use non-standard SMS driver: " . (is_string($driver) ? $driver : ''));
         }
@@ -2138,6 +2201,7 @@ final class SmsActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -2150,6 +2214,8 @@ final class SmsActionFactory
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2336,6 +2402,7 @@ final class SmsActionFactory
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
 =======
@@ -2459,6 +2526,8 @@ final class SmsActionFactory
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
         }
 
         $instance = app($className);

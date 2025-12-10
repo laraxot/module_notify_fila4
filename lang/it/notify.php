@@ -273,6 +273,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1019,6 +1020,11 @@ return [
         'plural' => 'Notifiche', // Nome plurale
 =======
 >>>>>>> 22baa66d (rebase 210)
+=======
+        'name' => 'Notifica', // Nome singolare
+        'plural' => 'Notifiche', // Nome plurale
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
         'name' => 'Notifica', // Nome singolare
@@ -1263,6 +1269,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -1285,6 +1292,8 @@ return [
 >>>>>>> cd5474106 (.)
 =======
 >>>>>>> 01750b107 (.)
+=======
+>>>>>>> 26d39e2eb (.)
 >>>>>>> d09cb759 (.)
 =======
         'name' => 'Notifica', // Nome singolare
@@ -1517,6 +1526,7 @@ return [
 >>>>>>> 5b50927d (rebase 210)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 =======
         'name' => 'Notifica', // Nome singolare
         'plural' => 'Notifiche', // Nome plurale
@@ -2074,6 +2084,8 @@ return [
 >>>>>>> 01750b107 (.)
 =======
 >>>>>>> 5e028c03d (.)
+=======
+>>>>>>> 26d39e2eb (.)
         'group' => 'Sistema',
         'label' => 'Notifiche',
         'icon' => 'notify-bell-animated',

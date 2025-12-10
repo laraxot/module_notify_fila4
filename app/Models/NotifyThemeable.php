@@ -5,9 +5,28 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models;
 
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
 <<<<<<< HEAD
 use Modules\Xot\Contracts\ProfileContract;
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+use Illuminate\Database\Eloquent\Builder;
+<<<<<<< HEAD
+=======
+use Modules\Xot\Contracts\ProfileContract;
+=======
+<<<<<<< HEAD
+use Illuminate\Database\Eloquent\Builder;
+use Modules\Xot\Contracts\ProfileContract;
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
+>>>>>>> 82c6772 (.)
+>>>>>>> 26d39e2eb (.)
 use Illuminate\Support\Carbon;
 =======
 <<<<<<< HEAD
@@ -179,6 +198,12 @@ use Illuminate\Support\Carbon;
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+ *
+>>>>>>> 26d39e2eb (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -268,9 +293,15 @@ use Illuminate\Support\Carbon;
 <<<<<<< HEAD
 >>>>>>> 2effe245 (.)
 =======
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 26d39e2eb (.)
+=======
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -380,6 +411,9 @@ use Illuminate\Support\Carbon;
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 82c6772 (.)
+>>>>>>> 26d39e2eb (.)
  * @method static Builder|NotifyThemeable newModelQuery()
  * @method static Builder|NotifyThemeable newQuery()
  * @method static Builder|NotifyThemeable query()
@@ -513,6 +547,7 @@ use Illuminate\Support\Carbon;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f2e64178 (.)
 =======
@@ -549,6 +584,13 @@ use Illuminate\Support\Carbon;
 =======
 >>>>>>> 23f115647 (.)
 =======
+=======
+ *
+<<<<<<< HEAD
+>>>>>>> 6ba141fc (.)
+=======
+=======
+>>>>>>> 26d39e2eb (.)
 <<<<<<< HEAD
 =======
 =======
@@ -572,6 +614,7 @@ use Illuminate\Support\Carbon;
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -619,6 +662,9 @@ use Illuminate\Support\Carbon;
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 82c6772 (.)
+>>>>>>> 26d39e2eb (.)
  * @mixin IdeHelperNotifyThemeable
 =======
 <<<<<<< HEAD
