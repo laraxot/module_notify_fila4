@@ -154,6 +154,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -676,7 +677,20 @@ use Illuminate\Database\Eloquent\Model;
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+>>>>>>> d284d65 (.)
 namespace Modules\Notify\Models;
 
 use Illuminate\Database\Eloquent\Builder;
@@ -690,6 +704,7 @@ use Illuminate\Database\Eloquent\Model;
  * @method static Builder<static>|NotificationType newModelQuery()
  * @method static Builder<static>|NotificationType newQuery()
  * @method static Builder<static>|NotificationType query()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -752,6 +767,25 @@ use Illuminate\Database\Eloquent\Model;
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+ *
+=======
+>>>>>>> 99ff506 (.)
+=======
+=======
+=======
+namespace Modules\Notify\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+/**
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationType newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationType newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationType query()
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
+>>>>>>> f2e64178 (.)
  * @mixin IdeHelperNotificationType
 =======
 >>>>>>> 2cbbc069 (.)

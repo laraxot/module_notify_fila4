@@ -88,6 +88,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -244,6 +245,8 @@ use Override;
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
 use Carbon\Carbon;
 use Modules\User\Models\Profile;
 use Modules\Media\Models\Media;
@@ -530,6 +533,9 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f2e64178 (.)
 =======
 >>>>>>> f2e64178 (.)
 =======
@@ -539,6 +545,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -695,6 +702,8 @@ use Illuminate\Database\Eloquent\Builder;
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Override;
 use Carbon\Carbon;
@@ -729,6 +738,33 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 =======
 >>>>>>> f1c9518b (.)
 use Illuminate\Support\Facades\Blade;
+<<<<<<< HEAD
+=======
+=======
+=======
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Override;
+>>>>>>> b93ef594b4 (.)
+use Carbon\Carbon;
+use Modules\User\Models\Profile;
+use Modules\Media\Models\Media;
+use Illuminate\Database\Eloquent\Builder;
+use Modules\Notify\Database\Factories\NotificationTemplateFactory;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Support\Facades\Blade;
+>>>>>>> b93ef594b4 (.)
+=======
+use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Support\Facades\Blade;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
 use Modules\Notify\Enums\NotificationTypeEnum;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
@@ -796,6 +832,10 @@ use Spatie\Translatable\HasTranslations;
  * @property int $version
  * @property int|null $tenant_id
  * @property array|null $grapesjs_data
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
  * @property Carbon $created_at
  * @property Carbon $updated_at
  * @property Carbon|null $deleted_at
@@ -853,6 +893,7 @@ use Spatie\Translatable\HasTranslations;
  * @method static Builder<static>|NotificationTemplate whereJsonContainsLocales(string $column, array $locales, ?mixed $value, string $operand = '=')
  * @method static Builder<static>|NotificationTemplate whereLocale(string $column, string $locale)
  * @method static Builder<static>|NotificationTemplate whereLocales(string $column, array $locales)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -950,6 +991,14 @@ use Spatie\Translatable\HasTranslations;
 =======
 =======
 >>>>>>> 4689a827 (.)
+=======
+ *
+=======
+>>>>>>> 99ff506 (.)
+=======
+=======
+=======
+>>>>>>> f2e64178 (.)
  * @property \Carbon\Carbon $created_at
  * @property \Carbon\Carbon $updated_at
  * @property \Carbon\Carbon|null $deleted_at
@@ -975,6 +1024,7 @@ use Spatie\Translatable\HasTranslations;
  * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationTemplate whereLocales(string $column, array $locales)
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1074,6 +1124,9 @@ use Spatie\Translatable\HasTranslations;
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> f813254 (.)
+>>>>>>> f2e64178 (.)
  * @mixin IdeHelperNotificationTemplate
  * @mixin \Eloquent
  */
@@ -1292,6 +1345,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     #[Override]
 =======
 =======
@@ -1316,6 +1370,10 @@ class NotificationTemplate extends BaseModel implements HasMedia
     #[Override]
 =======
 >>>>>>> 4689a827 (.)
+=======
+    #[Override]
+=======
+>>>>>>> f2e64178 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1328,6 +1386,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1461,6 +1520,8 @@ class NotificationTemplate extends BaseModel implements HasMedia
 =======
     #[Override]
 >>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
     protected function casts(): array
     {
         return [
@@ -1494,6 +1555,12 @@ class NotificationTemplate extends BaseModel implements HasMedia
 >>>>>>> 75179b855 (.)
     public function registerMediaCollections(): void
     {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
         $this->addMediaCollection('attachments')->singleFile();
     }
 
@@ -1517,12 +1584,62 @@ class NotificationTemplate extends BaseModel implements HasMedia
      * return $this->hasMany(NotificationLog::class, 'template_id');
      * }
      */
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> origin/develop
+        $this->addMediaCollection('attachments')
+            ->singleFile();
+    }
+/*
+    public function versions(): HasMany
+    {
+        return $this->hasMany(NotificationTemplateVersion::class, 'template_id')
+            ->orderByDesc('version');
+    }
+
+    public function logs(): HasMany
+    {
+        return $this->hasMany(NotificationLog::class, 'template_id');
+    }
+*/
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+        $this->addMediaCollection('attachments')->singleFile();
+    }
+
+    /*
+     * public function versions(): HasMany
+     * {
+     * return $this->hasMany(NotificationTemplateVersion::class, 'template_id')
+     * ->orderByDesc('version');
+     * }
+     *
+     * public function logs(): HasMany
+     * {
+     * return $this->hasMany(NotificationLog::class, 'template_id');
+     * }
+     */
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
     /*
      * Create a new version of the template.
      *
      * @param string $createdBy The user who created the version
      * @param string|null $notes Optional notes about the changes
      * @return self
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> d284d65 (.)
      *
      * public function createNewVersion(string $createdBy, ?string $notes = null): self
      * {
@@ -1542,6 +1659,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
      * return $this;
      * }
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1592,10 +1710,13 @@ class NotificationTemplate extends BaseModel implements HasMedia
 =======
 >>>>>>> 4689a827 (.)
 =======
+>>>>>>> f2e64178 (.)
+=======
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/develop
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1624,6 +1745,8 @@ class NotificationTemplate extends BaseModel implements HasMedia
 =======
 =======
 >>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> f2e64178 (.)
      
     public function createNewVersion(string $createdBy, ?string $notes = null): self
     {
@@ -1653,6 +1776,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1677,12 +1801,15 @@ class NotificationTemplate extends BaseModel implements HasMedia
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
 >>>>>>> a12f125f4a (.)
 =======
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1703,6 +1830,8 @@ class NotificationTemplate extends BaseModel implements HasMedia
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
     /**
      * Compile the template with the given data.
      *
@@ -1837,7 +1966,23 @@ class NotificationTemplate extends BaseModel implements HasMedia
      * @param array<string, mixed> $data The data to compile with
      * @return string|null
      */
+<<<<<<< HEAD
     protected function compileString(null|string $template, array $data): null|string
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    protected function compileString(null|string $template, array $data): null|string
+=======
+    protected function compileString(?string $template, array $data): ?string
+>>>>>>> a12f125f4a (.)
+=======
+    protected function compileString(null|string $template, array $data): null|string
+>>>>>>> b93ef594b4 (.)
+=======
+    protected function compileString(?string $template, array $data): ?string
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
     {
         if (!$template) {
 >>>>>>> 99ff506 (.)
@@ -1884,10 +2029,14 @@ class NotificationTemplate extends BaseModel implements HasMedia
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f2e64178 (.)
      * @param  Builder  $query
 =======
 =======
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> f5f1cb1 (.)
      * @param Builder $query
@@ -1910,6 +2059,11 @@ class NotificationTemplate extends BaseModel implements HasMedia
 <<<<<<< HEAD
 >>>>>>> 2effe245 (.)
 =======
+     * @param Builder $query
+>>>>>>> 99ff506 (.)
+     * @return Builder
+>>>>>>> f2e64178 (.)
+=======
 <<<<<<< HEAD
      * @param Builder $query
      * @return Builder
@@ -1919,6 +2073,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
@@ -1926,6 +2081,8 @@ class NotificationTemplate extends BaseModel implements HasMedia
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> f2e64178 (.)
      */
     public function scopeActive(Builder $query): Builder
     {
@@ -1943,16 +2100,23 @@ class NotificationTemplate extends BaseModel implements HasMedia
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f2e64178 (.)
      * @param  Builder  $query
 =======
 =======
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> f5f1cb1 (.)
+=======
+>>>>>>> f2e64178 (.)
      * @param Builder $query
      * @param string $channel
 >>>>>>> 99ff506 (.)
      * @return Builder
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
@@ -1971,6 +2135,8 @@ class NotificationTemplate extends BaseModel implements HasMedia
 <<<<<<< HEAD
 >>>>>>> 2effe245 (.)
 =======
+>>>>>>> f2e64178 (.)
+=======
 <<<<<<< HEAD
      * @param Builder $query
      * @param string $channel
@@ -1982,6 +2148,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
@@ -1989,6 +2156,8 @@ class NotificationTemplate extends BaseModel implements HasMedia
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> f2e64178 (.)
      */
     public function scopeForChannel(Builder $query, string $channel): Builder
     {
@@ -2006,16 +2175,23 @@ class NotificationTemplate extends BaseModel implements HasMedia
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f2e64178 (.)
      * @param  Builder  $query
 =======
 =======
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> f5f1cb1 (.)
+=======
+>>>>>>> f2e64178 (.)
      * @param Builder $query
      * @param string $category
 >>>>>>> 99ff506 (.)
      * @return Builder
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
@@ -2034,6 +2210,8 @@ class NotificationTemplate extends BaseModel implements HasMedia
 <<<<<<< HEAD
 >>>>>>> 2effe245 (.)
 =======
+>>>>>>> f2e64178 (.)
+=======
 <<<<<<< HEAD
      * @param Builder $query
      * @param string $category
@@ -2045,6 +2223,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
@@ -2052,6 +2231,8 @@ class NotificationTemplate extends BaseModel implements HasMedia
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> f2e64178 (.)
      */
     public function scopeForCategory(Builder $query, string $category): Builder
     {
@@ -2068,6 +2249,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
      */
     public function getChannelsLabelAttribute(): string
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2130,6 +2312,8 @@ class NotificationTemplate extends BaseModel implements HasMedia
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
         return collect($this->channels)
 <<<<<<< HEAD
             ->map(fn ($channel) => __('notify::template.fields.channel.options.'.$channel.'.label'))
@@ -2138,6 +2322,29 @@ class NotificationTemplate extends BaseModel implements HasMedia
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
             ->implode(', ');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return collect($this->channels)
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+            ->implode(', ');
+=======
+        return collect($this->channels)->map(function ($channel) {
+            return __('notify::template.fields.channel.options.' . $channel . '.label');
+        })->implode(', ');
+>>>>>>> a12f125f4a (.)
+=======
+        return collect($this->channels)
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+            ->implode(', ');
+>>>>>>> b93ef594b4 (.)
+=======
+        return collect($this->channels)->map(function ($channel) {
+            return __('notify::template.fields.channel.options.' . $channel . '.label');
+        })->implode(', ');
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
     }
 
     /**

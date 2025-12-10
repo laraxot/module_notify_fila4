@@ -90,6 +90,7 @@ class NotifyThemeData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 888799d0 (.)
@@ -103,6 +104,8 @@ class NotifyThemeData extends Data
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
     public ?string $from_email = null; // from address
 
     public ?string $from = null; // from name
@@ -534,6 +537,15 @@ class NotifyThemeData extends Data
 =======
 =======
 >>>>>>> 0f07e6d (.)
+=======
+    public null|string $from_email = null; // from address
+
+    public null|string $from = null; // from name
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f813254 (.)
     public null|string $from_email = null; // from address
 
     public null|string $from = null; // from name
@@ -555,6 +567,9 @@ class NotifyThemeData extends Data
     public ?string $from = null; // from name
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f2e64178 (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 >>>>>>> 95531e1 (.)
@@ -562,7 +577,10 @@ class NotifyThemeData extends Data
 >>>>>>> 3f39ac8b (.)
 =======
 =======
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> f2e64178 (.)
 >>>>>>> a12f125f4a (.)
 >>>>>>> f813254 (.)
 =======
@@ -582,6 +600,7 @@ class NotifyThemeData extends Data
 >>>>>>> e11621f (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 888799d0 (.)
 =======
 =======
@@ -592,6 +611,9 @@ class NotifyThemeData extends Data
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+=======
+>>>>>>> f2e64178 (.)
 >>>>>>> b93ef594b4 (.)
 =======
     public ?string $from_email = null; // from address
@@ -600,6 +622,7 @@ class NotifyThemeData extends Data
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -909,6 +932,8 @@ class NotifyThemeData extends Data
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
 
     public string $subject;
 

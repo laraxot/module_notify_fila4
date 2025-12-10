@@ -86,6 +86,10 @@ namespace Modules\Notify\Models\Policies;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+class NotificationTemplatePolicy extends NotifyBasePolicy {}
+>>>>>>> f2e64178 (.)
 =======
 class NotificationTemplatePolicy extends NotifyBasePolicy {}
 >>>>>>> 888799d0 (.)
@@ -325,6 +329,15 @@ class NotificationTemplatePolicy extends NotifyBasePolicy {}
 =======
 =======
 >>>>>>> 0f07e6d (.)
+=======
+class NotificationTemplatePolicy extends NotifyBasePolicy
+{
+}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f813254 (.)
 class NotificationTemplatePolicy extends NotifyBasePolicy
 {
 }
@@ -822,6 +835,7 @@ class NotificationTemplatePolicy extends NotifyBasePolicy
 >>>>>>> f1c9518b (.)
 =======
 class NotificationTemplatePolicy extends NotifyBasePolicy {}
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 >>>>>>> 95531e1 (.)
@@ -830,9 +844,13 @@ class NotificationTemplatePolicy extends NotifyBasePolicy {}
 =======
 =======
 =======
+>>>>>>> a12f125f4a (.)
+>>>>>>> f813254 (.)
+=======
 class NotificationTemplatePolicy extends NotifyBasePolicy
 {
 }
+<<<<<<< HEAD
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
 <<<<<<< HEAD
@@ -843,4 +861,20 @@ class NotificationTemplatePolicy extends NotifyBasePolicy
 {
 }
 >>>>>>> e11621f (.)
+<<<<<<< HEAD
 >>>>>>> 888799d0 (.)
+=======
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+use Modules\Notify\Models\NotificationTemplate;
+use Modules\Xot\Contracts\UserContract;
+
+class NotificationTemplatePolicy extends NotifyBasePolicy
+{
+    
+}
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
+>>>>>>> f2e64178 (.)
