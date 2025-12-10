@@ -263,6 +263,7 @@ class EditNotification extends XotBaseEditRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -343,10 +344,13 @@ class EditNotification extends XotBaseEditRecord
 >>>>>>> 80f054e0 (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 6b6b9e41 (.)
 =======
 
 >>>>>>> b19cd40 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1064,4 +1068,7 @@ class EditNotification extends \Modules\Xot\Filament\Resources\Pages\XotBaseEdit
 
 >>>>>>> b19cd40 (.)
 >>>>>>> 6d08c01b (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
 }

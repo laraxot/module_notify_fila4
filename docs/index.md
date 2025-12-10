@@ -334,6 +334,7 @@ This document serves as the central index for the Notify module, providing guida
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 888799d0 (.)
 =======
@@ -344,6 +345,8 @@ This document serves as the central index for the Notify module, providing guida
 >>>>>>> 909e45af (.)
 =======
 >>>>>>> 6d08c01b (.)
+=======
+>>>>>>> 6b6b9e41 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -557,6 +560,7 @@ This document serves as the central index for the Notify module, providing guida
 =======
 >>>>>>> d5c4b93 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6d08c01b (.)
 =======
 =======
@@ -730,6 +734,12 @@ This document serves as the central index for the Notify module, providing guida
 =======
 >>>>>>> d5c4b93 (.)
 >>>>>>> 6d08c01b (.)
+=======
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 2e67a2a (.)
+>>>>>>> 6b6b9e41 (.)
 # Indice della Documentazione - Modulo Notify
 
 ## Panoramica
@@ -2571,6 +2581,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
@@ -2606,7 +2617,16 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> d5c4b93 (.)
+<<<<<<< HEAD
 >>>>>>> 6d08c01b (.)
+=======
+=======
+=======
+>>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 2e67a2a (.)
+>>>>>>> 6b6b9e41 (.)
 
 ## Sottocartelle
 
@@ -2804,6 +2824,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2863,6 +2884,8 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 6d08c01b (.)
+=======
+>>>>>>> 6b6b9e41 (.)
 Ultimo aggiornamento: 14 Maggio 2025
 
 ## Risoluzione conflitti e standard
@@ -3127,12 +3150,16 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 =======
 >>>>>>> d5c4b93 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6d08c01b (.)
 =======
+=======
+>>>>>>> 6b6b9e41 (.)
 =======
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 2e67a2a (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6b6b9e41 (.)
 =======
@@ -3297,6 +3324,8 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 =======
 >>>>>>> d5c4b93 (.)
 >>>>>>> 6d08c01b (.)
+=======
+>>>>>>> 6b6b9e41 (.)
 ## Risoluzione Conflitti e Standard
 - **Gennaio 2025**: Risoluzione sistematica di tutti i conflitti Git nei file di documentazione:
   - `index.md` - Unificato contenuto italiano e inglese mantenendo struttura completa
@@ -3355,6 +3384,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> f3086887 (rebase 210)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3663,10 +3693,13 @@ Ultimo aggiornamento: 14 Maggio 2025
 =======
 >>>>>>> 6d08c01b (.)
 =======
+>>>>>>> 6b6b9e41 (.)
+=======
 >>>>>>> f813254 (.)
 =======
 >>>>>>> d5c4b93 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4388,6 +4421,10 @@ Ultimo aggiornamento: 14 Maggio 2025
 =======
 =======
 >>>>>>> 6d08c01b (.)
+=======
+>>>>>>> 2e67a2a (.)
+=======
+>>>>>>> 6b6b9e41 (.)
 Ultimo aggiornamento: 14 Maggio 2025
 
 ## Risoluzione conflitti e standard
@@ -4398,6 +4435,7 @@ Ultimo aggiornamento: 14 Maggio 2025
 - Vedi anche: [../../../../project_docs/README.md](../../../../project_docs/README.md)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4484,6 +4522,8 @@ Ultimo aggiornamento: 14 Maggio 2025
 =======
 >>>>>>> 3f39ac8b (.)
 =======
+=======
+>>>>>>> 6b6b9e41 (.)
 >>>>>>> 95531e1 (.)
 =======
 =======
@@ -4525,4 +4565,11 @@ Ultimo aggiornamento: 14 Maggio 2025
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 >>>>>>> b19cd40 (.)
 >>>>>>> d5c4b93 (.)
+<<<<<<< HEAD
 >>>>>>> 6d08c01b (.)
+=======
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 2e67a2a (.)
+>>>>>>> 6b6b9e41 (.)
