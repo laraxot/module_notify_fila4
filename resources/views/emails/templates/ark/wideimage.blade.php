@@ -329,6 +329,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -2625,7 +2626,12 @@ declare(strict_types=1);
 =======
 <tr>
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> c5a0a4b2 (.)
+=======
+=======
+>>>>>>> c8eedbbb (.)
+>>>>>>> a1962ca9 (.)
 	<td class="w580" width="580" colspan="3">
 		<img width="640" class="w640" id="toppbild" src="{{ $src }}" alt="" height="{{ $height }}" />
 	</td>
@@ -2995,6 +3001,7 @@ declare(strict_types=1);
 </tr>
 </tr>
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4940,4 +4947,10 @@ declare(strict_types=1);
 </tr>
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 >>>>>>> 6e2169a3 (.)
+=======
+=======
+</tr>
+>>>>>>> c8eedbbb (.)
+>>>>>>> a1962ca9 (.)

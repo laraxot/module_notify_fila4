@@ -338,6 +338,7 @@ class="block">
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -2799,7 +2800,13 @@ declare(strict_types=1);
 =======
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> c5a0a4b2 (.)
+=======
+=======
+class="block">
+>>>>>>> c8eedbbb (.)
+>>>>>>> a1962ca9 (.)
 	<!-- Full + text -->
 	<table width="100%" bgcolor="#f6f4f5" cellpadding="0" cellspacing="0" border="0" id="backgroundTable" st-sortable="fullimage">
 		<tbody>
@@ -3465,6 +3472,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
 =======
@@ -5067,4 +5075,10 @@ declare(strict_types=1);
 								<tbody>
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 >>>>>>> 6e2169a3 (.)
+=======
+=======
+								<tbody>
+>>>>>>> c8eedbbb (.)
+>>>>>>> a1962ca9 (.)
