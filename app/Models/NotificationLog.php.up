@@ -41,10 +41,14 @@ class NotificationLog extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2fc60436 (.)
     use \Modules\Xot\Models\Traits\HasXotFactory;
 =======
     use HasFactory;
 >>>>>>> 82ae73b (.)
+<<<<<<< HEAD
 =======
     use HasFactory;
 >>>>>>> 82ae73be (.)
@@ -71,6 +75,8 @@ class NotificationLog extends BaseModel
     use \Modules\Xot\Models\Traits\HasXotFactory;
 >>>>>>> e6c7fb3 (.)
 >>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> 2fc60436 (.)
     use Updater;
 
     public const STATUS_PENDING = 'pending';
@@ -89,10 +95,14 @@ class NotificationLog extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2fc60436 (.)
     /** @var list<string> */
 =======
     /** @var array<int, string> */
 >>>>>>> 82ae73b (.)
+<<<<<<< HEAD
 =======
     /** @var array<int, string> */
 >>>>>>> 82ae73be (.)
@@ -119,6 +129,8 @@ class NotificationLog extends BaseModel
     /** @var list<string> */
 >>>>>>> e6c7fb3 (.)
 >>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> 2fc60436 (.)
     protected $fillable = [
         'template_id',
         'notifiable_type',
@@ -156,14 +168,20 @@ class NotificationLog extends BaseModel
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2fc60436 (.)
         // Prima cerca il MailTemplate, altrimenti NotificationTemplate
         $mailTemplate = $this->belongsTo(MailTemplate::class, 'template_id')->first();
         return $mailTemplate
             ? $this->belongsTo(MailTemplate::class, 'template_id')
             : $this->belongsTo(NotificationTemplate::class, 'template_id');
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> 2fc60436 (.)
         // Prova prima con MailTemplate
         $mailTemplate = $this->belongsTo(MailTemplate::class, 'template_id')->first();
         if ($mailTemplate) {
@@ -173,9 +191,13 @@ class NotificationLog extends BaseModel
         // Se non trova MailTemplate, prova con NotificationTemplate
         return $this->belongsTo(NotificationTemplate::class, 'template_id');
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 82ae73b (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> 82ae73b (.)
+>>>>>>> 2fc60436 (.)
     }
 
     public function scopeWithStatus($query, string $status)

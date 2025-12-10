@@ -168,6 +168,7 @@ namespace Modules\Notify\Tests\Unit\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -296,10 +297,13 @@ namespace Modules\Notify\Tests\Unit\Models;
 >>>>>>> f81a620f (.)
 =======
 >>>>>>> 3ee54c5d (.)
+=======
+>>>>>>> 2fc60436 (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\NotifyThemeable;
 use Tests\TestCase;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -426,10 +430,13 @@ use Tests\TestCase;
 >>>>>>> 77edd94a (.)
 =======
 >>>>>>> f81a620f (.)
+=======
+>>>>>>> 2fc60436 (.)
 use Tests\TestCase;
 use Modules\Notify\Models\NotifyThemeable;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1532,6 +1539,8 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\NotifyThemeable;
 use Tests\TestCase;
 >>>>>>> 4b544042 (.)
+=======
+>>>>>>> 2fc60436 (.)
 
 class NotifyThemeableTest extends TestCase
 {
@@ -1783,6 +1792,7 @@ class NotifyThemeableTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1915,12 +1925,15 @@ class NotifyThemeableTest extends TestCase
 >>>>>>> f81a620f (.)
 =======
 >>>>>>> 06e3078e (.)
+=======
+>>>>>>> 2fc60436 (.)
         $found = NotifyThemeable::where('model_type', 'App\Models\User')->where('model_id', 123)->first();
 =======
         $found = NotifyThemeable::where('model_type', 'App\Models\User')
             ->where('model_id', 123)
             ->first();
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2644,6 +2657,8 @@ class NotifyThemeableTest extends TestCase
 =======
         $found = NotifyThemeable::where('model_type', 'App\Models\User')->where('model_id', 123)->first();
 >>>>>>> 4b544042 (.)
+=======
+>>>>>>> 2fc60436 (.)
 
         $this->assertNotNull($found);
         $this->assertEquals($themeable->id, $found->id);
@@ -3087,6 +3102,7 @@ class NotifyThemeableTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 06e3078e (.)
 =======
@@ -3412,6 +3428,9 @@ class NotifyThemeableTest extends TestCase
 >>>>>>> f81a620f (.)
 =======
 >>>>>>> 3ee54c5d (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
 
 
 
@@ -3419,6 +3438,7 @@ class NotifyThemeableTest extends TestCase
 
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4034,3 +4054,6 @@ class NotifyThemeableTest extends TestCase
 >>>>>>> 3ee54c5d (.)
 =======
 >>>>>>> 4b544042 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)

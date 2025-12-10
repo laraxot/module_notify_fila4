@@ -62,6 +62,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -78,6 +79,8 @@ use Override;
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> 2fc60436 (.)
 use GuzzleHttp\Client;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SMS\AgiletelecomData;
@@ -121,6 +124,8 @@ use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Override;
 >>>>>>> 92ecc28 (.)
 =======
+=======
+>>>>>>> 82ae73b (.)
 use Override;
 use GuzzleHttp\Client;
 use Illuminate\Support\Facades\Http;
@@ -721,6 +726,14 @@ use Modules\Notify\Datas\SmsData;
 >>>>>>> c8b1c8bf (.)
 use Modules\Notify\Datas\SMS\AgiletelecomData;
 use Modules\Notify\Datas\SmsData;
+=======
+
+use GuzzleHttp\Client;
+use Modules\Notify\Datas\SmsData;
+use Illuminate\Support\Facades\Http;
+use Modules\Notify\Datas\SMS\AgiletelecomData;
+use Modules\Notify\Contracts\SMS\SmsActionContract;
+>>>>>>> b19cd40 (.)
 
 /**
  * Azione per l'invio di SMS tramite Agile Telecom.
@@ -742,6 +755,7 @@ use Modules\Notify\Datas\SmsData;
  */
 class SendAgiletelecomSMSv1Action implements SmsActionContract
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1005,6 +1019,10 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
 >>>>>>> fbed41ac (.)
 =======
 =======
+>>>>>>> 2fc60436 (.)
+=======
+=======
+>>>>>>> 82ae73b (.)
     #[Override]
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
@@ -1080,6 +1098,7 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4d2eb53e (.)
 =======
@@ -1176,10 +1195,14 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
     public function execute(SmsData $data): array{
         
         $base_uri='https://secure.agiletelecom.com/';
         $relative_path='securesend_v1.aspx';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1286,6 +1309,8 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 2fc60436 (.)
 
         $agile=AgiletelecomData::make();
         $phone=app(NormalizePhoneNumberAction::class)->execute($data->to);
@@ -1304,6 +1329,7 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
             "Accept-Encoding" => "gzip, deflate",
             "Cache-Control" => "no-cache",
             "Connection" => "keep-alive",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1481,6 +1507,9 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
         ];
 
         $client = new Client([
@@ -1491,6 +1520,7 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
         ]);
 
         $connection = $client->request('POST', $relative_path);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1583,10 +1613,13 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 2fc60436 (.)
 
         return [];
     }
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1705,11 +1738,14 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 2fc60436 (.)
         
         return [];
 
     }
     
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1974,4 +2010,7 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
         return [];
     }
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
 }

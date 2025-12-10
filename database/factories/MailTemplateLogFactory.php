@@ -54,6 +54,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -290,9 +291,13 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 >>>>>>> 2941b0bd (.)
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 2fc60436 (.)
 declare(strict_types=1);
 
 
+=======
+>>>>>>> b19cd40 (.)
 namespace Modules\Notify\Database\Factories;
 
 <<<<<<< HEAD
@@ -428,6 +433,7 @@ class MailTemplateLogFactory extends Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -640,3 +646,8 @@ class MailTemplateLogFactory extends Factory
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+=======
+
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)

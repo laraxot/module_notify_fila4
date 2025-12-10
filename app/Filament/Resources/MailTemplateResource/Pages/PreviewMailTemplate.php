@@ -58,6 +58,7 @@ use Filament\Resources\Pages\Page;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -94,12 +95,15 @@ use Filament\Resources\Pages\Page;
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 2fc60436 (.)
 use Modules\Notify\Filament\Resources\MailTemplateResource;
 use Modules\Notify\Models\MailTemplate;
 =======
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Filament\Resources\MailTemplateResource;
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -369,6 +373,8 @@ use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Filament\Resources\MailTemplateResource;
 use Modules\Notify\Models\MailTemplate;
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
 
 /**
  * @property MailTemplate $record
@@ -391,6 +397,7 @@ class PreviewMailTemplate extends Page
                 ->label(__('notify::mail.template.preview.actions.back.label'))
                 ->icon(__('notify::mail.template.preview.actions.back.icon'))
                 ->color(__('notify::mail.template.preview.actions.back.color'))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -637,14 +644,19 @@ class PreviewMailTemplate extends Page
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
 =======
+=======
+>>>>>>> 2fc60436 (.)
                 ->url(fn () => MailTemplateResource::getUrl('edit', ['record' => $this->record])),
 =======
+=======
+>>>>>>> 82ae73b (.)
                 ->url(fn() => MailTemplateResource::getUrl('edit', ['record' => $this->record])),
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
         ];
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -763,10 +775,14 @@ class PreviewMailTemplate extends Page
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
                 ->url(fn () => MailTemplateResource::getUrl('edit', ['record' => $this->record])),
         ];
     }
 } 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1037,3 +1053,6 @@ class PreviewMailTemplate extends Page
     }
 }
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)

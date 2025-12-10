@@ -322,9 +322,11 @@ use Webmozart\Assert\Assert;
 >>>>>>> c8b1c8bf (.)
 use Filament\Schemas\Components\Section;
 use Filament\Forms;
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Enums\ContactTypeEnum;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -485,11 +487,17 @@ use Webmozart\Assert\Assert;
 =======
 >>>>>>> de02998b (.)
 =======
+=======
+>>>>>>> 75179b8 (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
 use Webmozart\Assert\Assert;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Enums\ContactTypeEnum;
 
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -622,6 +630,9 @@ use Modules\Notify\Enums\ContactTypeEnum;
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 82ae73b (.)
+>>>>>>> 2fc60436 (.)
 
 // use Squire\Models\Country;
 
@@ -685,6 +696,7 @@ class ContactSection extends Section
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1017,8 +1029,15 @@ class ContactSection extends Forms\Components\Section
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
 =======
+=======
+>>>>>>> 2fc60436 (.)
     // protected string $view = 'filament-forms::components.group';
 =======
+=======
+=======
+
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73b (.)
     //protected string $view = 'filament-forms::components.group';
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
@@ -1247,6 +1266,7 @@ class ContactSection extends Forms\Components\Section
         $this->columns(2);
     }
 
+<<<<<<< HEAD
     protected function getFormSchema(): array
     {
 <<<<<<< HEAD
@@ -1290,6 +1310,7 @@ class ContactSection extends Forms\Components\Section
      * $record->touch();
      * }
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1471,12 +1492,18 @@ class ContactSection extends Forms\Components\Section
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+=======
+
+
+>>>>>>> 2fc60436 (.)
     protected function getFormSchema(): array
     {
         $res=ContactTypeEnum::getFormSchema(); 
         return $res;   
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1511,12 +1538,15 @@ class ContactSection extends Forms\Components\Section
 >>>>>>> de02998b (.)
 =======
 >>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 2fc60436 (.)
 
 
     /*
     public function saveRelationships(): void
     {
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1595,6 +1625,8 @@ class ContactSection extends Forms\Components\Section
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 2fc60436 (.)
         $state = $this->getState();
         $record = $this->getRecord();
         $relationship = $record->{$this->getRelationship()}();
@@ -1612,6 +1644,7 @@ class ContactSection extends Forms\Components\Section
     }
     */
     
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1822,4 +1855,7 @@ class ContactSection extends Forms\Components\Section
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
 }

@@ -126,6 +126,7 @@ namespace Modules\Notify\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -444,6 +445,8 @@ use Filament\Forms\Components\TextInput;
 >>>>>>> fbed41ac (.)
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 2fc60436 (.)
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
 <<<<<<< HEAD
@@ -1356,6 +1359,7 @@ class NotificationTemplateResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             TextInput::make('name')
 >>>>>>> 75179b85 (.)
 =======
@@ -1475,13 +1479,22 @@ use Override;
 >>>>>>> 9fe19a6 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+=======
+>>>>>>> 82ae73b (.)
+>>>>>>> 2fc60436 (.)
 use Override;
+=======
+>>>>>>> b19cd40 (.)
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
 use Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages\PreviewNotificationTemplate;
+<<<<<<< HEAD
 use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
+=======
+>>>>>>> b19cd40 (.)
 use Filament\Forms;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1568,10 +1581,15 @@ use Modules\Notify\Enums\NotificationTypeEnum;
 use Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages;
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Xot\Filament\Resources\XotBaseResource;
+<<<<<<< HEAD
+=======
+use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
+>>>>>>> b19cd40 (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
 
 class NotificationTemplateResource extends XotBaseResource
 {
+<<<<<<< HEAD
     protected static null|string $model = NotificationTemplate::class;
 <<<<<<< HEAD
 =======
@@ -3870,8 +3888,79 @@ class NotificationTemplateResource extends XotBaseResource
 =======
 =======
     #[Override]
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
+=======
+=======
+=======
+    protected static ?string $model = NotificationTemplate::class;
+
+
+
+    public static function getFormSchema(): array
+    {
+        return [
+                    TextInput::make('name')
+                        ->required()
+                        ->maxLength(255)
+                        ->unique(ignoreRecord: true)
+                        ->helperText(__('notify::template.form.name.helper'))
+                        ->columnSpan(['lg' => 2]),
+
+                    TextInput::make('subject')
+                        ->required()
+                        ->maxLength(255)
+                        ->helperText(__('notify::template.form.subject.helper'))
+                        ->columnSpan(['lg' => 2])
+                        ->translateLabel(),
+
+                    Select::make('type')
+                        ->options(collect(NotificationTypeEnum::cases())->mapWithKeys(fn ($type) => [$type->value => $type->label()]))
+                        ->required()
+                        ->default(NotificationTypeEnum::EMAIL->value)
+                        ->helperText(__('notify::template.form.type.helper'))
+                        ->columnSpan(['lg' => 1]),
+
+                    Textarea::make('body_text')
+                        ->required()
+                        ->maxLength(65535)
+                        ->columnSpan(['lg' => 3])
+                        ->helperText(__('notify::template.form.body_text.helper'))
+                        ->rows(5)
+                        ->translateLabel(),
+
+                    Textarea::make('body_html')
+                        ->required()
+                        ->maxLength(65535)
+                        ->columnSpan(['lg' => 3])
+                        ->helperText(__('notify::template.form.body_html.helper'))
+                        ->rows(10)
+                        ->translateLabel(),
+
+                    Textarea::make('preview_data')
+                        ->json()
+                        ->columnSpan(['lg' => 3])
+                        ->helperText(__('notify::template.form.preview_data.helper'))
+                        ->rows(5),
+
+                    SpatieMediaLibraryFileUpload::make('attachments')
+                        ->collection('attachments')
+                        ->multiple()
+                        ->maxFiles(5)
+                        ->maxSize(5120)
+                        ->acceptedFileTypes(['application/pdf', 'image/*'])
+                        ->columnSpan(['lg' => 3])
+                        ->helperText(__('notify::template.form.attachments.helper')),
+        ];
+    }
+
+
+
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73b (.)
+>>>>>>> 2fc60436 (.)
     public static function getPages(): array
     {
         return [
@@ -3881,6 +3970,7 @@ class NotificationTemplateResource extends XotBaseResource
     }
 
     /*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4334,12 +4424,15 @@ class NotificationTemplateResource extends XotBaseResource
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
      * public static function getEloquentQuery(): Builder
      * {
      * return parent::getEloquentQuery()
      * ->orderBy('name');
      * }
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4670,12 +4763,16 @@ class NotificationTemplateResource extends XotBaseResource
 >>>>>>> a9bf0423 (rebase 210)
 =======
 >>>>>>> 2effe245 (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
     public static function getEloquentQuery(): Builder
     {
         return parent::getEloquentQuery()
             ->orderBy('name');
     }
             */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5101,4 +5198,7 @@ class NotificationTemplateResource extends XotBaseResource
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
 }

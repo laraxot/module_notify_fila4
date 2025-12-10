@@ -64,6 +64,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -308,6 +309,8 @@ use Eloquent;
 >>>>>>> 58816034 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 2fc60436 (.)
 use Modules\Xot\Models\Traits\HasXotFactory;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
@@ -375,6 +378,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73b (.)
 =======
@@ -405,7 +409,13 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
 >>>>>>> 2941b0bd (.)
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+=======
+>>>>>>> 82ae73b (.)
+>>>>>>> 2fc60436 (.)
 use Override;
+=======
+>>>>>>> b19cd40 (.)
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\NotifyThemeFactory;
 use Illuminate\Database\Eloquent\Builder;
@@ -1192,6 +1202,7 @@ class NotifyTheme extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1638,9 +1649,20 @@ class NotifyTheme extends BaseModel
 =======
 >>>>>>> fbed41ac (.)
 =======
+=======
+>>>>>>> 2fc60436 (.)
     public function getLogoAttribute(null|array $value): array
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
+=======
+=======
+=======
+    public function getLogoAttribute(?array $value): array
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73b (.)
+>>>>>>> 2fc60436 (.)
     {
         return [
             // 'path' => asset(strval($this->logo_src)),
@@ -1659,6 +1681,7 @@ class NotifyTheme extends BaseModel
     }
 
     /** @return array<string, string> */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1931,10 +1954,16 @@ class NotifyTheme extends BaseModel
     #[Override]
 >>>>>>> 75179b8 (.)
 =======
+=======
+    #[Override]
+>>>>>>> 75179b8 (.)
+>>>>>>> 2fc60436 (.)
+=======
     #[Override]
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73b (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
 =======
@@ -2021,6 +2050,8 @@ class NotifyTheme extends BaseModel
     #[Override]
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 2fc60436 (.)
     protected function casts(): array
     {
         return [
@@ -2029,6 +2060,7 @@ class NotifyTheme extends BaseModel
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2465,9 +2497,18 @@ class NotifyTheme extends BaseModel
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2fc60436 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
+=======
+
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+
+>>>>>>> b19cd40 (.)
             // 'published_at' => 'datetime:Y-m-d', // da verificare
 >>>>>>> 75179b85 (.)
 =======

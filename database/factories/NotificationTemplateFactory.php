@@ -52,6 +52,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -138,6 +139,8 @@
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -362,6 +365,8 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 =======
 =======
 
+=======
+>>>>>>> b19cd40 (.)
 namespace Modules\Notify\Database\Factories;
 
 use Modules\Notify\Models\NotificationTemplate;
@@ -436,6 +441,7 @@ class NotificationTemplateFactory extends Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -644,3 +650,8 @@ class NotificationTemplateFactory extends Factory
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+=======
+
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)

@@ -159,6 +159,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -651,11 +652,14 @@
 >>>>>>> 3ee54c5d (.)
 =======
 >>>>>>> 4b544042 (.)
+=======
+>>>>>>> 2fc60436 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1441,6 +1445,10 @@ declare(strict_types=1);
 >>>>>>> 3ee54c5d (.)
 =======
 >>>>>>> 4b544042 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
 {{-- Visualizzazione parametri come badge --}}
 @if(!empty($params))
     <div class="space-y-2">
@@ -1654,6 +1662,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1786,10 +1795,13 @@ declare(strict_types=1);
 >>>>>>> f81a620f (.)
 =======
 >>>>>>> 06e3078e (.)
+=======
+>>>>>>> 2fc60436 (.)
 @endif
 =======
 @endif 
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2509,3 +2521,5 @@ declare(strict_types=1);
 =======
 @endif
 >>>>>>> 4b544042 (.)
+=======
+>>>>>>> 2fc60436 (.)

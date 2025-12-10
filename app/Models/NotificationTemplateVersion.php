@@ -64,6 +64,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -213,10 +214,13 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 =======
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 2fc60436 (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Override;
 use RuntimeException;
 use Modules\User\Models\Profile;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -478,10 +482,13 @@ use Modules\User\Models\Profile;
 =======
 >>>>>>> 4d2eb53e (.)
 =======
+>>>>>>> 2fc60436 (.)
+=======
 use RuntimeException;
 use Modules\User\Models\Profile;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -554,6 +561,8 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 2fc60436 (.)
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\NotificationTemplateVersionFactory;
 use Illuminate\Database\Eloquent\Builder;
@@ -941,6 +950,7 @@ class NotificationTemplateVersion extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1229,6 +1239,11 @@ class NotificationTemplateVersion extends BaseModel
 =======
     #[Override]
 >>>>>>> c8b1c8bf (.)
+=======
+    #[Override]
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
     protected function casts(): array
     {
         return [
@@ -1246,6 +1261,7 @@ class NotificationTemplateVersion extends BaseModel
     public function restore(): NotificationTemplate
     {
         $template = $this->template;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1598,11 +1614,14 @@ class NotificationTemplateVersion extends BaseModel
 >>>>>>> 2941b0bd (.)
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 2fc60436 (.)
 
         if (!$template) {
             throw new RuntimeException('Template not found for version ' . $this->id);
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1749,12 +1768,15 @@ class NotificationTemplateVersion extends BaseModel
 =======
 >>>>>>> 4d2eb53e (.)
 =======
+>>>>>>> 2fc60436 (.)
+=======
         
         if (!$template) {
             throw new RuntimeException('Template not found for version ' . $this->id);
         }
         
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1813,6 +1835,8 @@ class NotificationTemplateVersion extends BaseModel
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 2fc60436 (.)
         $template->update([
             'subject' => $this->subject ?? null,
             'body_html' => $this->body_html ?? null,
@@ -2174,5 +2198,12 @@ class NotificationTemplateVersion extends BaseModel
 =======
         return $template;
     }
+<<<<<<< HEAD
 }
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
+=======
+=======
+} 
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)

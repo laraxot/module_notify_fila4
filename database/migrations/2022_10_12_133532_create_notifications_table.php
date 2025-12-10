@@ -64,6 +64,7 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 888799d0 (.)
@@ -458,18 +459,30 @@ return new class() extends XotBaseMigration {
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
 =======
+=======
+>>>>>>> 2fc60436 (.)
 return new class extends XotBaseMigration
 {
 =======
 return new class() extends XotBaseMigration {
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
+=======
+=======
+return new class() extends XotBaseMigration {
+=======
+return new class () extends XotBaseMigration {
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73b (.)
+>>>>>>> 2fc60436 (.)
     /**
      * Run the migrations.
      */
     public function up(): void
     {
         // -- CREATE --
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -679,6 +692,8 @@ return new class() extends XotBaseMigration {
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
         $this->tableCreate(function (Blueprint $table): void {
             $table->uuid('id')->primary();
             $table->string('type');
@@ -693,6 +708,7 @@ return new class() extends XotBaseMigration {
                 hasSoftDeletes: true,
             );
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -840,6 +856,9 @@ return new class() extends XotBaseMigration {
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
         $this->tableCreate(
             function (Blueprint $table): void {
                 $table->uuid('id')->primary();
@@ -855,6 +874,7 @@ return new class() extends XotBaseMigration {
                 $this->updateTimestamps(table: $table, hasSoftDeletes: true);
             }
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1053,5 +1073,8 @@ return new class() extends XotBaseMigration {
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
     }
 };

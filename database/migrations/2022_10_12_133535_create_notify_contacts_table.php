@@ -64,6 +64,7 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 888799d0 (.)
@@ -108,6 +109,8 @@ return new class extends XotBaseMigration
 =======
 =======
 =======
+=======
+>>>>>>> 2fc60436 (.)
 return new class extends XotBaseMigration
 {
     protected ?string $model_class = Contact::class;
@@ -445,17 +448,22 @@ return new class() extends XotBaseMigration {
 >>>>>>> 75179b8 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
 =======
 =======
 >>>>>>> 207ac35 (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
 return new class() extends XotBaseMigration {
     protected null|string $model_class = Contact::class;
 =======
 return new class () extends XotBaseMigration {
     protected ?string $model_class = Contact::class;
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 82ae73b (.)
 <<<<<<< HEAD
@@ -536,6 +544,9 @@ return new class extends XotBaseMigration
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 82ae73b (.)
+>>>>>>> 2fc60436 (.)
 
     /**
      * Run the migrations.
@@ -543,6 +554,7 @@ return new class extends XotBaseMigration
     public function up(): void
     {
         // -- CREATE --
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -752,6 +764,8 @@ return new class extends XotBaseMigration
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
         $this->tableCreate(function (Blueprint $table): void {
             $table->increments('id');
             $table->uuidMorphs('model');
@@ -801,6 +815,7 @@ return new class extends XotBaseMigration
                 hasSoftDeletes: true,
             );
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -948,6 +963,9 @@ return new class extends XotBaseMigration
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
         $this->tableCreate(
             function (Blueprint $table): void {
                 $table->increments('id');
@@ -966,6 +984,7 @@ return new class extends XotBaseMigration
                 $this->updateTimestamps(table: $table, hasSoftDeletes: true);
             }
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1163,5 +1182,8 @@ return new class extends XotBaseMigration
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
     }
 };

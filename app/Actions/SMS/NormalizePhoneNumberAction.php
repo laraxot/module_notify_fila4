@@ -94,6 +94,7 @@ use Modules\Notify\Datas\SmsData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 
@@ -112,6 +113,8 @@ use Modules\Notify\Datas\SmsData;
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> 2fc60436 (.)
 
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
@@ -131,6 +134,7 @@ use Modules\Notify\Datas\SmsData;
 >>>>>>> c8b1c8bf (.)
 use function Safe\preg_match;
 use function Safe\preg_replace;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -288,9 +292,12 @@ use function Safe\preg_replace;
 =======
 >>>>>>> 2fc60436 (.)
 =======
+>>>>>>> 2fc60436 (.)
+=======
 use function Safe\preg_replace;
 use function Safe\preg_match;
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -519,10 +526,13 @@ use function Safe\preg_match;
 use function Safe\preg_match;
 use function Safe\preg_replace;
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
 
 /**
  * Azione per l'invio di SMS tramite Agile Telecom.
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -920,7 +930,12 @@ class NormalizePhoneNumberAction
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> 2fc60436 (.)
 class NormalizePhoneNumberAction
+=======
+class NormalizePhoneNumberAction 
+>>>>>>> b19cd40 (.)
 {
 <<<<<<< HEAD
     public function execute(string|array $phoneNumber): string
@@ -946,6 +961,7 @@ class NormalizePhoneNumberAction
 >>>>>>> 4ad63a5 (.)
 >>>>>>> 677a6ab7 (.)
         // Rimuove parentesi e il loro contenuto
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1147,6 +1163,8 @@ class NormalizePhoneNumberAction
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
         $phoneNumber = preg_replace("/\([0-9]+?\)/", '', $phoneNumber);
 
         // Rimuove spazi e caratteri non numerici
@@ -1225,6 +1243,7 @@ class NormalizePhoneNumberAction
         // Prefisso italiano
         $prefix = '39';
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1413,6 +1432,8 @@ class NormalizePhoneNumberAction
 =======
 >>>>>>> 2effe245 (.)
 =======
+>>>>>>> 2fc60436 (.)
+=======
         $phoneNumber = preg_replace("/\([0-9]+?\)/", "", $phoneNumber);
         
         // Rimuove spazi e caratteri non numerici
@@ -1424,6 +1445,7 @@ class NormalizePhoneNumberAction
         // Prefisso italiano
         $prefix = "39";
         
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1585,6 +1607,9 @@ class NormalizePhoneNumberAction
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
         // Verifica se il numero non inizia già con il prefisso corretto
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1667,6 +1692,7 @@ class NormalizePhoneNumberAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1699,6 +1725,8 @@ class NormalizePhoneNumberAction
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 2fc60436 (.)
 
         return "+{$phoneNumber}";
 =======
@@ -1706,6 +1734,7 @@ class NormalizePhoneNumberAction
         return "+$phoneNumber";
         
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2024,5 +2053,7 @@ class NormalizePhoneNumberAction
 
         return "+{$phoneNumber}";
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
     }
 }

@@ -302,6 +302,7 @@ use Illuminate\Support\Arr;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
 =======
 <<<<<<< HEAD
@@ -316,6 +317,8 @@ use Illuminate\Support\Arr;
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2fc60436 (.)
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
@@ -344,6 +347,7 @@ class TwilioData extends Data
              * $data = TenantService::getConfig('sms');
              * $data = Arr::get($data, 'drivers.twilio', []);
              */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -638,6 +642,8 @@ class TwilioData extends Data
 =======
 >>>>>>> 2effe245 (.)
 =======
+>>>>>>> 2fc60436 (.)
+=======
 use Spatie\LaravelData\Data;
 use Webmozart\Assert\Assert;
 use Illuminate\Support\Facades\Config;
@@ -660,6 +666,7 @@ class TwilioData extends Data
             $data = TenantService::getConfig('sms');
             $data = Arr::get($data, 'drivers.twilio', []);
             */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -760,6 +767,9 @@ class TwilioData extends Data
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
             $data = Config::array('sms.drivers.twilio');
             self::$instance = self::from($data);
         }
@@ -921,12 +931,20 @@ class TwilioData extends Data
                     'Authorization' => 'Basic '.base64_encode($this->account_sid.':'.$this->auth_token),
 =======
                     'Authorization' => 'Basic ' . base64_encode($this->account_sid . ':' . $this->auth_token),
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 82ae73b (.)
+>>>>>>> 2fc60436 (.)
                     'Content-Type' => 'application/x-www-form-urlencoded',
 =======
                     'Content-Type' => 'application/x-www-form-urlencoded'
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1205,6 +1223,8 @@ class TwilioData extends Data
 >>>>>>> f5f1cb1 (.)
                     'Content-Type' => 'application/x-www-form-urlencoded',
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
                 ];
         }
     }

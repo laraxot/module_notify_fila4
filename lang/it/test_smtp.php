@@ -161,6 +161,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -627,6 +628,8 @@
 >>>>>>> 3ee54c5d (.)
 =======
 >>>>>>> 4b544042 (.)
+=======
+>>>>>>> 2fc60436 (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -770,6 +773,7 @@ return [
         'subject_required' => 'L\'oggetto della email è obbligatorio',
     ],
 ];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1250,6 +1254,9 @@ return [
 >>>>>>> f81a620f (.)
 =======
 >>>>>>> 3ee54c5d (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
 return array (
   'navigation' => 
   array (
@@ -1369,6 +1376,7 @@ return array (
     'subject_required' => 'L\'oggetto della email è obbligatorio',
   ),
 );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1984,3 +1992,6 @@ return array (
 >>>>>>> 3ee54c5d (.)
 =======
 >>>>>>> 4b544042 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)

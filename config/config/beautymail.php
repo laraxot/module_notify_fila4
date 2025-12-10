@@ -66,6 +66,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -278,10 +279,13 @@ return [
 >>>>>>> 69fa7d37 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 2fc60436 (.)
      * 'css' => [
      * '.button-content .button { background: red }',
      * ],
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2247,10 +2251,14 @@ return [
 =======
 =======
 >>>>>>> 69fa7d37 (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
         'css' => [
             '.button-content .button { background: red }',
         ],
     */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3997,6 +4005,9 @@ return [
 >>>>>>> 677a6ab7 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
 
     'colors' => [
         'highlight' => '#004ca3',
@@ -4280,6 +4291,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 43c0079b (rebase 210)
@@ -6194,6 +6206,11 @@ return [
 >>>>>>> 677a6ab7 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+=======
+
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
     'view' => [
         'senderName' => null,
         'reminder' => null,
@@ -6477,6 +6494,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 43c0079b (rebase 210)
@@ -8391,6 +8409,11 @@ return [
 >>>>>>> 677a6ab7 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+=======
+
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
         'logo' => [
             'path' => '%PUBLIC%/vendor/beautymail/assets/images/sunny/logo.png',
             'width' => '',
@@ -8674,6 +8697,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 43c0079b (rebase 210)
@@ -10588,6 +10612,11 @@ return [
 >>>>>>> 677a6ab7 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+=======
+
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
         'twitter' => null,
         'facebook' => null,
         'flickr' => null,

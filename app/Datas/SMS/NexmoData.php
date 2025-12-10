@@ -302,6 +302,7 @@ use Illuminate\Support\Arr;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
 =======
 <<<<<<< HEAD
@@ -316,6 +317,8 @@ use Illuminate\Support\Arr;
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2fc60436 (.)
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
@@ -344,6 +347,7 @@ class NexmoData extends Data
              * $data = TenantService::getConfig('sms');
              * $data = Arr::get($data, 'drivers.nexmo', []);
              */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -638,6 +642,8 @@ class NexmoData extends Data
 =======
 >>>>>>> 2effe245 (.)
 =======
+>>>>>>> 2fc60436 (.)
+=======
 use Spatie\LaravelData\Data;
 use Webmozart\Assert\Assert;
 use Illuminate\Support\Facades\Config;
@@ -660,6 +666,7 @@ class NexmoData extends Data
             $data = TenantService::getConfig('sms');
             $data = Arr::get($data, 'drivers.nexmo', []);
             */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -760,6 +767,9 @@ class NexmoData extends Data
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
             $data = Config::array('sms.drivers.nexmo');
             self::$instance = self::from($data);
         }
@@ -921,12 +931,20 @@ class NexmoData extends Data
                     'Authorization' => 'Basic '.base64_encode($this->key.':'.$this->secret),
 =======
                     'Authorization' => 'Basic ' . base64_encode($this->key . ':' . $this->secret),
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 82ae73b (.)
+>>>>>>> 2fc60436 (.)
                     'Content-Type' => 'application/json',
 =======
                     'Content-Type' => 'application/json'
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1205,6 +1223,8 @@ class NexmoData extends Data
 >>>>>>> f5f1cb1 (.)
                     'Content-Type' => 'application/json',
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
                 ];
         }
     }

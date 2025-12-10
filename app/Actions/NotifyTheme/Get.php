@@ -84,6 +84,7 @@ class Get
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -197,6 +198,8 @@ class Get
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 2fc60436 (.)
         if (! isset($view_params['post_id'])) {
             $view_params['post_id'] = 0;
         }
@@ -205,6 +208,7 @@ class Get
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 95531e1 (.)
@@ -243,10 +247,15 @@ class Get
 =======
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+=======
+>>>>>>> 82ae73b (.)
+>>>>>>> 2fc60436 (.)
         if (!isset($view_params['post_id'])) {
             $view_params['post_id'] = 0;
         }
         if (!isset($view_params['lang'])) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -772,11 +781,17 @@ class Get
 =======
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 75179b8 (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
         if (! isset($view_params['post_id'])) {
             $view_params['post_id'] = 0;
         }
         if (! isset($view_params['lang'])) {
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -858,6 +873,9 @@ class Get
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 82ae73b (.)
+>>>>>>> 2fc60436 (.)
             $view_params['lang'] = app()->getLocale();
         }
 
@@ -920,6 +938,7 @@ class Get
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -956,10 +975,13 @@ class Get
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 2fc60436 (.)
             ['view_params' => []],
 =======
             ['view_params' => []]
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1191,6 +1213,8 @@ class Get
 =======
             ['view_params' => []],
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
         );
 
         $module_name_low = Str::lower($xotData->main_module);
@@ -1253,6 +1277,7 @@ class Get
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1703,6 +1728,8 @@ class Get
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 2fc60436 (.)
         $trad_mod = $module_name_low.'::'.$type.'.'.$name;
 
         if ($theme->subject === null) {
@@ -1959,10 +1986,13 @@ class Get
 =======
 >>>>>>> d45a0226 (.)
 =======
+=======
+>>>>>>> 82ae73b (.)
         $trad_mod = $module_name_low . '::' . $type . '.' . $name;
 
         if ($theme->subject === null) {
             $subject = trans($trad_mod . '.subject');
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 =======
@@ -1986,6 +2016,17 @@ class Get
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b8 (.)
+=======
+=======
+        $trad_mod = $module_name_low.'::'.$type.'.'.$name;
+
+        if ($theme->subject === null) {
+            $subject = trans($trad_mod.'.subject');
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73b (.)
+>>>>>>> 2fc60436 (.)
             $theme->update(['subject' => $subject]);
         }
 
@@ -2479,6 +2520,7 @@ class Get
 =======
         if ($theme->body_html === null) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             $html = trans($trad_mod.'.body_html');
             if (isset($view_params['body_html']) && $html === ($trad_mod.'.body_html')) {
 <<<<<<< HEAD
@@ -2508,6 +2550,7 @@ class Get
 >>>>>>> 75179b8 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
 =======
@@ -2515,12 +2558,16 @@ class Get
 >>>>>>> 207ac35 (.)
 =======
 >>>>>>> 011072e4 (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
             $html = trans($trad_mod . '.body_html');
             if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
 =======
             $html = trans($trad_mod.'.body_html');
             if (isset($view_params['body_html']) && $html === $trad_mod.'.body_html') {
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 82ae73b (.)
@@ -2663,6 +2710,9 @@ class Get
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 82ae73b (.)
+>>>>>>> 2fc60436 (.)
                 $html = '##body_html##';
             }
 
@@ -2759,6 +2809,7 @@ class Get
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2811,6 +2862,8 @@ class Get
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
             $view_params['logo'] =
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2842,6 +2895,7 @@ class Get
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3221,6 +3275,11 @@ class Get
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+=======
+            $view_params['logo'] = '<img src="'.$logoPath.'" width="'.$logoWidth.'" height="'.$logoHeight.'" />';
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
             // $view_params['logo'] = '<img src="'.\Request::getSchemeAndHttpHost().'/uploads/6/logo_VERITAS_piccolo.png" width="' . $theme->logo['width'] . ' "height="' . $theme->logo['height'] . '" />';
         }
 
@@ -3228,6 +3287,7 @@ class Get
 
         foreach ($view_params as $k => $v) {
             if (is_string($v)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3738,13 +3798,26 @@ class Get
 =======
 >>>>>>> d45a0226 (.)
 =======
+=======
+>>>>>>> 2fc60436 (.)
                 $body_html = (string) Str::replace('##'.$k.'##', $v, (string) $body_html);
                 $subject = (string) Str::replace('##'.$k.'##', $v, (string) $subject);
 =======
                 $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
                 $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
+=======
+=======
+                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
+=======
+                $body_html = (string) Str::replace('##'.$k.'##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##'.$k.'##', $v, (string) $subject);
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73b (.)
+>>>>>>> 2fc60436 (.)
             }
         }
 
@@ -3754,6 +3827,7 @@ class Get
             $theme->update(['view_params' => $view_params]);
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4002,6 +4076,8 @@ class Get
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
         return NotifyThemeData::from([
             'from_email' => $theme->from_email,
 >>>>>>> 75179b85 (.)
@@ -4036,6 +4112,7 @@ class Get
             'body_html' => $body_html,
             'view_params' => $view_params,
         ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4184,6 +4261,9 @@ class Get
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
         return NotifyThemeData::from(
             [
                 'from_email' => $theme->from_email,
@@ -4193,6 +4273,7 @@ class Get
                 'view_params' => $view_params,
             ]
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4384,5 +4465,8 @@ class Get
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
     }
 }

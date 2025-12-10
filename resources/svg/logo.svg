@@ -224,6 +224,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -538,6 +539,91 @@
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 160 160"
+     role="img"
+     aria-label="Notify communication hub logo"
+     focusable="false">
+    <defs>
+        <linearGradient id="notify-spectrum" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#0066CC"/>
+            <stop offset="55%" stop-color="#00AA66"/>
+            <stop offset="100%" stop-color="#00C7B1"/>
+        </linearGradient>
+        <radialGradient id="notify-pulse" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.8"/>
+            <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+        </radialGradient>
+    </defs>
+
+    <style>
+        :root {
+            --notify-primary: #0066CC;
+            --notify-secondary: #00AA66;
+            --notify-accent: #00C7B1;
+            --notify-dark: #041B2E;
+        }
+        .ring {
+            fill: none;
+            stroke: url(#notify-spectrum);
+            stroke-width: 6;
+            stroke-linecap: round;
+        }
+        .orbit {
+            fill: none;
+            stroke: var(--notify-primary);
+            stroke-dasharray: 8 10;
+            stroke-width: 2;
+            opacity: 0.35;
+        }
+        .hub {
+            fill: var(--notify-dark);
+            stroke: url(#notify-spectrum);
+            stroke-width: 1.6;
+        }
+        .channel {
+            fill: var(--notify-primary);
+            stroke: none;
+        }
+        .channel--sms { fill: var(--notify-secondary); }
+        .channel--push { fill: var(--notify-accent); }
+        .pulse {
+            fill: url(#notify-pulse);
+        }
+        @media (prefers-color-scheme: dark) {
+            .hub { fill: #0A253F; }
+            .orbit { opacity: 0.5; }
+        }
+        @media (prefers-reduced-motion: reduce) {
+            .orbit { stroke-dasharray: none; }
+        }
+    </style>
+
+    <!-- Communication rings -->
+    <circle class="ring" cx="80" cy="80" r="70"/>
+    <circle class="orbit" cx="80" cy="80" r="52"/>
+    <circle class="orbit" cx="80" cy="80" r="35"/>
+
+    <!-- Channels -->
+    <rect class="channel" x="108" y="38" width="26" height="18" rx="4" aria-label="Email channel"/>
+    <rect class="channel channel--sms" x="28" y="100" width="22" height="28" rx="5" aria-label="SMS channel"/>
+    <circle class="channel channel--push" cx="128" cy="106" r="11" aria-label="Push channel"/>
+
+    <!-- Connectors -->
+    <path d="M120 47 L103 62" stroke="url(#notify-spectrum)" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M128 100 L104 92" stroke="url(#notify-spectrum)" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M39 108 L60 96" stroke="url(#notify-spectrum)" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- Hub -->
+    <polygon class="hub" points="80,42 110,62 110,98 80,118 50,98 50,62"/>
+    <circle class="pulse" cx="80" cy="80" r="26"/>
+
+    <!-- Signal chevrons -->
+    <path d="M80 58 L92 80 L80 102 L68 80 Z" fill="#FFFFFF" opacity="0.9"/>
+    <path d="M80 65 L88 80 L80 95 L72 80 Z" fill="url(#notify-spectrum)"/>
+>>>>>>> 2fc60436 (.)
 </svg>
 =======
 <<<<<<< HEAD
@@ -3098,15 +3184,20 @@
 =======
 >>>>>>> 75179b8 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
 =======
 =======
 >>>>>>> 207ac35 (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
 </svg>
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 9777d1b (.)
 =======
@@ -3329,6 +3420,8 @@
 =======
 >>>>>>> 954a7fa (.)
 >>>>>>> 51182e3c (rebase 210)
+=======
+>>>>>>> 2fc60436 (.)
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" 
      fill="none" 
@@ -3424,6 +3517,7 @@
         <circle cx="12" cy="12" r="8" stroke-width="0.5" opacity="0.3" stroke-dasharray="3 6" />
         <circle cx="12" cy="12" r="12" stroke-width="0.5" opacity="0.2" stroke-dasharray="4 8" />
     </g>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3857,3 +3951,8 @@
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+=======
+</svg>
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73b (.)
+>>>>>>> 2fc60436 (.)

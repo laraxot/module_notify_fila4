@@ -76,6 +76,7 @@ class NotificationManagerTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         $this->notificationManager = new NotificationManager;
 >>>>>>> 98d837b9 (.)
@@ -365,20 +366,27 @@ class NotificationManagerTest extends TestCase
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> 2fc60436 (.)
         $this->notificationManager = new NotificationManager;
 =======
         $this->notificationManager = new NotificationManager();
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
 =======
 =======
 >>>>>>> 207ac35 (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
         $this->notificationManager = new NotificationManager();
 =======
         $this->notificationManager = new NotificationManager;
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 82ae73b (.)
 <<<<<<< HEAD
@@ -471,6 +479,9 @@ class NotificationManagerTest extends TestCase
         $this->notificationManager = new NotificationManager();
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 82ae73b (.)
+>>>>>>> 2fc60436 (.)
     }
 
     protected function tearDown(): void
@@ -492,6 +503,7 @@ class NotificationManagerTest extends TestCase
         $template->shouldReceive('getAttribute')->with('code')->andReturn($templateCode);
 
         $action = Mockery::mock(SendNotificationAction::class);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -592,12 +604,15 @@ class NotificationManagerTest extends TestCase
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> 2fc60436 (.)
         $action->shouldReceive('execute')->with($recipient, $templateCode, $data, $channels, $options)->once();
 =======
         $action->shouldReceive('execute')
             ->with($recipient, $templateCode, $data, $channels, $options)
             ->once();
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -833,6 +848,8 @@ class NotificationManagerTest extends TestCase
 =======
         $action->shouldReceive('execute')->with($recipient, $templateCode, $data, $channels, $options)->once();
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
 
         app()->instance(SendNotificationAction::class, $action);
 
