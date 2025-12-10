@@ -247,6 +247,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1843,11 +1844,15 @@ declare(strict_types=1);
 >>>>>>> d284d65 (.)
 >>>>>>> bd804d67 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ec4cda261 (.)
 =======
 
 declare(strict_types=1);
 
 >>>>>>> 116df547 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 51182e3c (rebase 210)
 =======
@@ -2257,6 +2262,8 @@ declare(strict_types=1);
 >>>>>>> 968ed47cd (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+>>>>>>> ec4cda261 (.)
 return [
     'navigation' => [
         'group' => 'Sistema',

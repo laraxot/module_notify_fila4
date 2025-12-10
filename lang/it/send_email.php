@@ -344,6 +344,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -958,6 +959,7 @@ declare(strict_types=1);
 =======
 >>>>>>> bd804d67 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 116df547 (.)
 =======
@@ -1006,6 +1008,10 @@ declare(strict_types=1);
 >>>>>>> 968ed47cd (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+=======
+>>>>>>> 116df547 (.)
+>>>>>>> ec4cda261 (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -1427,10 +1433,6 @@ return [
         'cancelled' => 'Annullata',
     ],
     'priority_labels' => [
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
         'normal' => 'Normale',
         'high' => 'Alta',
         'urgent' => 'Urgente',
@@ -1456,6 +1458,7 @@ return [
     'categories' => [
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3394,6 +3397,7 @@ return array (
 =======
 >>>>>>> bd804d67 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 116df547 (.)
 >>>>>>> laraxot/develop
@@ -3474,6 +3478,10 @@ return array (
 >>>>>>> 968ed47cd (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+=======
+>>>>>>> 116df547 (.)
+>>>>>>> ec4cda261 (.)
         'marketing' => 'Marketing',
         'transactional' => 'Transazionale',
         'notification' => 'Notifica',
@@ -3481,6 +3489,7 @@ return array (
         'system' => 'Sistema',
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4215,6 +4224,7 @@ return array (
 >>>>>>> 7a2f131f (.)
 =======
 >>>>>>> bd804d67 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 116df547 (.)
@@ -4509,6 +4519,10 @@ return array (
 >>>>>>> 968ed47cd (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+=======
+>>>>>>> 116df547 (.)
+>>>>>>> ec4cda261 (.)
     ],
     'placeholders' => [
         'email_template' => 'Seleziona un template email predefinito',
@@ -4520,6 +4534,7 @@ return array (
 ];
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6438,6 +6453,7 @@ return array (
 =======
 >>>>>>> bd804d67 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 116df547 (.)
 >>>>>>> laraxot/develop
@@ -6520,3 +6536,7 @@ return array (
 >>>>>>> 968ed47cd (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+=======
+>>>>>>> 116df547 (.)
+>>>>>>> ec4cda261 (.)

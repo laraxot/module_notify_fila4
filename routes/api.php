@@ -246,6 +246,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -532,6 +533,7 @@ declare(strict_types=1);
 >>>>>>> 7a2f131f (.)
 =======
 >>>>>>> bd804d67 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 116df547 (.)
@@ -1024,6 +1026,10 @@ declare(strict_types=1);
 >>>>>>> 968ed47cd (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+=======
+>>>>>>> 116df547 (.)
+>>>>>>> ec4cda261 (.)
 
 /*--work in progress
  * use Modules\Notify\Http\Controllers\TelegramNotificationController;
@@ -1038,6 +1044,7 @@ declare(strict_types=1);
  */
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2791,6 +2798,7 @@ Route::middleware('guest')->group(function () {
 =======
 >>>>>>> bd804d67 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 116df547 (.)
 >>>>>>> laraxot/develop
@@ -2873,3 +2881,7 @@ Route::middleware('guest')->group(function () {
 >>>>>>> 968ed47cd (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+=======
+>>>>>>> 116df547 (.)
+>>>>>>> ec4cda261 (.)

@@ -443,6 +443,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -850,6 +851,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> bd804d67 (.)
 =======
 >>>>>>> 116df547 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> f3086887 (rebase 210)
 =======
@@ -947,6 +949,8 @@ class EditNotificationTemplate extends XotBaseEditRecord
 =======
 >>>>>>> bd804d67 (.)
 >>>>>>> 848f79b79 (.)
+=======
+>>>>>>> ec4cda261 (.)
 - [Architettura Filament](../../../../docs/architecture/filament.md)
 - [Gestione Pagine](../../../../docs/architecture/pages.md)
 
@@ -956,6 +960,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 - [XotBaseEditRecord](../../Xot/docs/filament-pages.md#XotBaseEditRecord)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1756,6 +1761,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> d284d65 (.)
 >>>>>>> bd804d67 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 116df547 (.)
 =======
@@ -2228,6 +2234,10 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+=======
+>>>>>>> 116df547 (.)
+>>>>>>> ec4cda261 (.)
 - [NotificationTemplateResource](./filament-resources.md)
 
 ## Note Importanti
@@ -2239,6 +2249,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 <<<<<<< HEAD
 5. I namespace seguono le convenzioni standard 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2727,6 +2738,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 =======
 5. I namespace seguono le convenzioni standard 
 >>>>>>> 712617d3 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 116df547 (.)
@@ -2997,3 +3009,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> b215d516b (.)
 =======
 >>>>>>> 731b801a8 (.)
+=======
+=======
+>>>>>>> 116df547 (.)
+>>>>>>> ec4cda261 (.)

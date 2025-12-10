@@ -251,6 +251,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1499,10 +1500,14 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 =======
 >>>>>>> bd804d67 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ec4cda261 (.)
 =======
 use Modules\Notify\Filament\Resources\NotificationTemplateResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 >>>>>>> 116df547 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 51182e3c (rebase 210)
 =======
@@ -1827,12 +1832,15 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 >>>>>>> 968ed47cd (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+>>>>>>> ec4cda261 (.)
 
 class EditNotificationTemplate extends XotBaseEditRecord
 {
     protected static string $resource = NotificationTemplateResource::class;
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2563,6 +2571,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 =======
 >>>>>>> bd804d67 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 116df547 (.)
 =======
@@ -2856,6 +2865,10 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> 968ed47cd (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+=======
+>>>>>>> 116df547 (.)
+>>>>>>> ec4cda261 (.)
 
     /*
      * protected function getRedirectUrl(): string
@@ -2877,6 +2890,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 }
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4644,6 +4658,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 =======
 >>>>>>> bd804d67 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 116df547 (.)
 >>>>>>> laraxot/develop
@@ -4726,3 +4741,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> 968ed47cd (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+=======
+>>>>>>> 116df547 (.)
+>>>>>>> ec4cda261 (.)

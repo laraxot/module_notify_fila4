@@ -420,6 +420,7 @@ abstract class BasePivot extends XotBasePivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2306,11 +2307,15 @@ abstract class BasePivot extends XotBasePivot
 =======
 >>>>>>> bd804d67 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ec4cda261 (.)
 =======
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
 >>>>>>> 116df547 (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -2377,6 +2382,8 @@ abstract class BasePivot extends XotBasePivot
 >>>>>>> 968ed47cd (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+>>>>>>> ec4cda261 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',

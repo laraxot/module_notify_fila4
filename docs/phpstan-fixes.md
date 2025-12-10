@@ -176,6 +176,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -358,6 +359,7 @@ Risultato finale: `./vendor/bin/phpstan analyse Modules/Notify --memory-limit=2G
 =======
 >>>>>>> bd804d67 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 116df547 (.)
 =======
@@ -473,6 +475,10 @@ Risultato finale: `./vendor/bin/phpstan analyse Modules/Notify --memory-limit=2G
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+=======
+>>>>>>> 116df547 (.)
+>>>>>>> ec4cda261 (.)
 # Notify Module - PHPStan Level 7 Fixes - Gennaio 2025
 
 ## 🔄 **Stato In Corso**
@@ -782,6 +788,7 @@ $decodedData = base64_decode($encodedData);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 12a7e2462 (.)
 =======
@@ -834,6 +841,8 @@ $decodedData = base64_decode($encodedData);
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+>>>>>>> ec4cda261 (.)
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1329,6 +1338,7 @@ private static function processArray(array $data): array
 >>>>>>> bd804d67 (.)
 =======
 >>>>>>> 116df547 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> f3086887 (rebase 210)
@@ -2529,3 +2539,5 @@ private static function processArray(array $data): array
 >>>>>>> d284d65 (.)
 >>>>>>> bd804d67 (.)
 >>>>>>> 848f79b79 (.)
+=======
+>>>>>>> ec4cda261 (.)

@@ -214,6 +214,7 @@ use Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1611,11 +1612,15 @@ use Tests\TestCase;
 =======
 >>>>>>> bd804d67 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ec4cda261 (.)
 =======
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\NotifyTheme;
 use Tests\TestCase;
 >>>>>>> 116df547 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> a9bf0423 (rebase 210)
 =======
@@ -2154,6 +2159,8 @@ use Tests\TestCase;
 >>>>>>> 968ed47cd (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+>>>>>>> ec4cda261 (.)
 
 class NotifyThemeTest extends TestCase
 {
@@ -2931,6 +2938,7 @@ class NotifyThemeTest extends TestCase
 }
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4385,6 +4393,7 @@ class NotifyThemeTest extends TestCase
 =======
 >>>>>>> bd804d67 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 116df547 (.)
 >>>>>>> laraxot/develop
@@ -4457,3 +4466,7 @@ class NotifyThemeTest extends TestCase
 >>>>>>> 968ed47cd (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+=======
+>>>>>>> 116df547 (.)
+>>>>>>> ec4cda261 (.)

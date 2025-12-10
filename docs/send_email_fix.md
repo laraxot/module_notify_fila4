@@ -817,6 +817,7 @@ class SmtpData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1700,11 +1701,15 @@ class SmtpData extends Data
 >>>>>>> d284d65 (.)
 >>>>>>> bd804d67 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ec4cda261 (.)
 =======
 - [Documentazione Laravel Mail](https://laravel.com/docs/mail)
 - [Documentazione Filament Forms](https://filamentphp.com/docs/forms)
 - [Best Practices SMTP](https://laravel.com/docs/mail#smtp-configuration)
 >>>>>>> 116df547 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> f3086887 (rebase 210)
@@ -2138,6 +2143,8 @@ class SmtpData extends Data
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+>>>>>>> ec4cda261 (.)
 
 ## ⚠️ Note Importanti
 
@@ -2157,6 +2164,7 @@ class SmtpData extends Data
 <<<<<<< HEAD
    - Verificare configurazione SMTP 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2638,6 +2646,7 @@ class SmtpData extends Data
 =======
    - Verificare configurazione SMTP 
 >>>>>>> 712617d3 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 116df547 (.)
@@ -2913,3 +2922,7 @@ class SmtpData extends Data
 >>>>>>> b215d516b (.)
 =======
 >>>>>>> 731b801a8 (.)
+=======
+=======
+>>>>>>> 116df547 (.)
+>>>>>>> ec4cda261 (.)

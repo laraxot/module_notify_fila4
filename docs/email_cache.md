@@ -844,6 +844,7 @@ class MailCacheDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1374,11 +1375,15 @@ class MailCacheDebugger
 >>>>>>> d284d65 (.)
 >>>>>>> bd804d67 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ec4cda261 (.)
 =======
 - [Laravel Cache](https://laravel.com/docs/cache)
 - [Laravel Events](https://laravel.com/docs/events)
 - [Laravel Observers](https://laravel.com/docs/eloquent#observers) 
 >>>>>>> 116df547 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> f3086887 (rebase 210)
@@ -2129,3 +2134,5 @@ class MailCacheDebugger
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+>>>>>>> ec4cda261 (.)

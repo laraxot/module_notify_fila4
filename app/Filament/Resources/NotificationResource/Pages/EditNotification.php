@@ -79,12 +79,12 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> 99ff506 (.)
 >>>>>>> e53a56570 (.)
 
-<<<<<<< HEAD
 class EditNotification extends XotBaseEditRecord
 {
     protected static string $resource = NotificationResource::class;
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1064,6 +1064,7 @@ class EditNotification extends \Modules\Xot\Filament\Resources\Pages\XotBaseEdit
 =======
 >>>>>>> bd804d67 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 116df547 (.)
 =======
@@ -1398,6 +1399,10 @@ class EditNotification extends \Modules\Xot\Filament\Resources\Pages\XotBaseEdit
 >>>>>>> 968ed47cd (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+=======
+>>>>>>> 116df547 (.)
+>>>>>>> ec4cda261 (.)
 }
 =======
 >>>>>>> 301ad8b44 (.)

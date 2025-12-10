@@ -252,6 +252,7 @@ use Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2161,11 +2162,15 @@ use Tests\TestCase;
 =======
 >>>>>>> bd804d67 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ec4cda261 (.)
 =======
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\NotificationType;
 use Tests\TestCase;
 >>>>>>> 116df547 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 51182e3c (rebase 210)
 =======
@@ -2545,6 +2550,8 @@ use Tests\TestCase;
 >>>>>>> 968ed47cd (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+>>>>>>> ec4cda261 (.)
 
 class NotificationTypeTest extends TestCase
 {

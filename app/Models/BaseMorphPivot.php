@@ -291,6 +291,7 @@ abstract class BaseMorphPivot extends MorphPivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1456,10 +1457,14 @@ abstract class BaseMorphPivot extends MorphPivot
 =======
 >>>>>>> bd804d67 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ec4cda261 (.)
 =======
         'post_id',
         'post_type',
 >>>>>>> 116df547 (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -1520,6 +1525,8 @@ abstract class BaseMorphPivot extends MorphPivot
 >>>>>>> 968ed47cd (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+>>>>>>> ec4cda261 (.)
         'related_type',
         'user_id',
         'note',
@@ -1726,6 +1733,7 @@ abstract class BaseMorphPivot extends MorphPivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -2130,6 +2138,7 @@ abstract class BaseMorphPivot extends MorphPivot
 >>>>>>> 7a2f131f (.)
 =======
 >>>>>>> bd804d67 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 116df547 (.)
@@ -2558,6 +2567,10 @@ abstract class BaseMorphPivot extends MorphPivot
 >>>>>>> 968ed47cd (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+=======
+>>>>>>> 116df547 (.)
+>>>>>>> ec4cda261 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',

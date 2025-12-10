@@ -825,6 +825,7 @@ class AnalyzeTranslationFiles extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1473,6 +1474,7 @@ class AnalyzeTranslationFiles extends Command
 =======
 >>>>>>> bd804d67 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             if (str_contains($file, '/send_')) {
 >>>>>>> 116df547 (.)
@@ -1678,6 +1680,11 @@ class AnalyzeTranslationFiles extends Command
 >>>>>>> 968ed47cd (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 116df547 (.)
+>>>>>>> ec4cda261 (.)
                 $sendFiles[] = $file;
             } else {
                 $resourceFiles[] = $file;
@@ -1871,6 +1878,7 @@ class AnalyzeTranslationFiles extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -1913,7 +1921,10 @@ class AnalyzeTranslationFiles extends Command
 >>>>>>> 968ed47cd (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+>>>>>>> ec4cda261 (.)
                 if (str_starts_with((string) $key, 'navigation.')) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2001,6 +2012,8 @@ class AnalyzeTranslationFiles extends Command
 >>>>>>> 2641c2944 (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+>>>>>>> ec4cda261 (.)
 =======
                 if (strpos((string) $key, 'navigation.') === 0) {
 >>>>>>> b19cd40 (.)
@@ -2310,6 +2323,7 @@ class AnalyzeTranslationFiles extends Command
 =======
 >>>>>>> bd804d67 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 116df547 (.)
 =======
@@ -2348,6 +2362,10 @@ class AnalyzeTranslationFiles extends Command
 >>>>>>> 968ed47cd (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+=======
+>>>>>>> 116df547 (.)
+>>>>>>> ec4cda261 (.)
                     $navigationKeys[] = str_replace('navigation.', '', (string) $key);
 =======
                     $navigationKeys[] = str_replace('navigation.', '', (string) $key);

@@ -520,6 +520,7 @@ MailTemplate::create([
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Compatibilità**: Laravel 12.x, Filament 4.x, Spatie Mail Templates
 =======
 **Compatibilità**: Laravel 12.x, Filament 3.x, Spatie Mail Templates
@@ -1406,6 +1407,7 @@ MailTemplate::create([
 >>>>>>> d284d65 (.)
 >>>>>>> bd804d67 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 **Compatibilità**: Laravel 12.x, Filament 4.x, Spatie Mail Templates
 >>>>>>> 116df547 (.)
@@ -1521,3 +1523,8 @@ MailTemplate::create([
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+=======
+**Compatibilità**: Laravel 12.x, Filament 4.x, Spatie Mail Templates
+>>>>>>> 116df547 (.)
+>>>>>>> ec4cda261 (.)
