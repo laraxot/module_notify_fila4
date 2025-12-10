@@ -184,6 +184,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -748,6 +749,8 @@
 >>>>>>> 7325acf3 (.)
 =======
 >>>>>>> 4c323e61 (.)
+=======
+>>>>>>> 9cdf6146 (.)
 # ==============================================
 # LARAXOT MODULE NOTIFY - .GITIGNORE
 # ==============================================
@@ -2734,6 +2737,7 @@ lerna-debug.log*
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d09cb759 (.)
 =======
@@ -3237,6 +3241,8 @@ lerna-debug.log*
 >>>>>>> b93ef594b4 (.)
 >>>>>>> 7325acf3 (.)
 =======
+>>>>>>> 9cdf6146 (.)
+=======
 # Dependencies and packages
 /vendor/
 /node_modules/
@@ -3261,6 +3267,7 @@ npm-debug.log
 build/
 
 # Laravel specific
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3929,6 +3936,9 @@ build/
 >>>>>>> 7325acf3 (.)
 =======
 >>>>>>> 4c323e61 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9cdf6146 (.)
 bootstrap/compiled.php
 app/storage/
 public/storage
@@ -4126,6 +4136,7 @@ storage/*.key
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -4682,6 +4693,8 @@ storage/*.key
 >>>>>>> 7325acf3 (.)
 =======
 >>>>>>> 4c323e61 (.)
+=======
+>>>>>>> 9cdf6146 (.)
 .env.*
 !.env.example
 
@@ -6439,6 +6452,7 @@ public_html
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d09cb759 (.)
 =======
@@ -6854,6 +6868,8 @@ public_html
 =======
 >>>>>>> 7325acf3 (.)
 =======
+>>>>>>> 9cdf6146 (.)
+=======
 
 # Local configurations
 Homestead.yaml
@@ -6882,6 +6898,7 @@ Homestead.json
 docs/phpstan/
 docs/cache/
 cache/
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7550,3 +7567,6 @@ cache/
 >>>>>>> 7325acf3 (.)
 =======
 >>>>>>> 4c323e61 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9cdf6146 (.)

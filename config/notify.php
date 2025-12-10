@@ -190,6 +190,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -754,6 +755,8 @@ return [
 >>>>>>> 7325acf3 (.)
 =======
 >>>>>>> 4c323e61 (.)
+=======
+>>>>>>> 9cdf6146 (.)
      * |--------------------------------------------------------------------------
      * | Company Configuration
      * |--------------------------------------------------------------------------
@@ -950,6 +953,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d67cabd (.)
 =======
@@ -1312,6 +1316,9 @@ return [
 >>>>>>> e7a9a2bf (.)
 =======
 >>>>>>> 7325acf3 (.)
+=======
+=======
+>>>>>>> 9cdf6146 (.)
     |--------------------------------------------------------------------------
     | Company Configuration
     |--------------------------------------------------------------------------
@@ -1320,6 +1327,7 @@ return [
     | per project without modifying the module code.
     |
     */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2026,6 +2034,9 @@ return [
 >>>>>>> 7325acf3 (.)
 =======
 >>>>>>> 4c323e61 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9cdf6146 (.)
     'company' => [
         'name' => env('COMPANY_NAME', 'Default Company'),
         'team' => env('COMPANY_TEAM', 'Default Team'),
@@ -2222,6 +2233,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2778,6 +2790,8 @@ return [
 >>>>>>> 7325acf3 (.)
 =======
 >>>>>>> 4c323e61 (.)
+=======
+>>>>>>> 9cdf6146 (.)
     /*
      * |--------------------------------------------------------------------------
      * | Default Test Data
@@ -2787,6 +2801,7 @@ return [
      * | across different projects.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3336,6 +3351,9 @@ return [
 >>>>>>> e7a9a2bf (.)
 =======
 >>>>>>> 7325acf3 (.)
+=======
+=======
+>>>>>>> 9cdf6146 (.)
 
     /*
     |--------------------------------------------------------------------------
@@ -3346,6 +3364,7 @@ return [
     | across different projects.
     |
     */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4061,6 +4080,9 @@ return [
 >>>>>>> 7325acf3 (.)
 =======
 >>>>>>> 4c323e61 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9cdf6146 (.)
     'test_data' => [
         'default_subject' => 'Benvenuto su {{company_name}}',
         'default_content' => 'Grazie per esserti registrato al nostro servizio.',
@@ -4261,6 +4283,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -4817,6 +4840,8 @@ return [
 >>>>>>> 7325acf3 (.)
 =======
 >>>>>>> 4c323e61 (.)
+=======
+>>>>>>> 9cdf6146 (.)
     /*
      * |--------------------------------------------------------------------------
      * | Webhook Configuration
@@ -4825,6 +4850,7 @@ return [
      * | Default webhook endpoints that can be customized per project.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5374,6 +5400,9 @@ return [
 >>>>>>> e7a9a2bf (.)
 =======
 >>>>>>> 7325acf3 (.)
+=======
+=======
+>>>>>>> 9cdf6146 (.)
 
     /*
     |--------------------------------------------------------------------------
@@ -5383,6 +5412,7 @@ return [
     | Default webhook endpoints that can be customized per project.
     |
     */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6097,6 +6127,9 @@ return [
 >>>>>>> 7325acf3 (.)
 =======
 >>>>>>> 4c323e61 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9cdf6146 (.)
     'webhooks' => [
         'notification_delivered' => '{{webhook_base}}/webhooks/notification-delivered',
         'notification_bounced' => '{{webhook_base}}/webhooks/notification-bounced',
@@ -6291,6 +6324,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -6847,6 +6881,8 @@ return [
 >>>>>>> 7325acf3 (.)
 =======
 >>>>>>> 4c323e61 (.)
+=======
+>>>>>>> 9cdf6146 (.)
     /*
      * |--------------------------------------------------------------------------
      * | Email Configuration
@@ -6855,6 +6891,7 @@ return [
      * | Default email settings that can be customized per project.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7404,6 +7441,9 @@ return [
 >>>>>>> e7a9a2bf (.)
 =======
 >>>>>>> 7325acf3 (.)
+=======
+=======
+>>>>>>> 9cdf6146 (.)
 
     /*
     |--------------------------------------------------------------------------
@@ -7413,6 +7453,7 @@ return [
     | Default email settings that can be customized per project.
     |
     */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8127,6 +8168,9 @@ return [
 >>>>>>> 7325acf3 (.)
 =======
 >>>>>>> 4c323e61 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9cdf6146 (.)
     'email' => [
         'default_from_address' => env('MAIL_FROM_ADDRESS', 'noreply@example.com'),
         'default_from_name' => env('MAIL_FROM_NAME', '{{company_name}}'),
@@ -8322,6 +8366,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -8878,6 +8923,8 @@ return [
 >>>>>>> 7325acf3 (.)
 =======
 >>>>>>> 4c323e61 (.)
+=======
+>>>>>>> 9cdf6146 (.)
     /*
      * |--------------------------------------------------------------------------
      * | Path Configuration
@@ -8886,6 +8933,7 @@ return [
      * | Default paths that can be customized per project.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9435,6 +9483,9 @@ return [
 >>>>>>> e7a9a2bf (.)
 =======
 >>>>>>> 7325acf3 (.)
+=======
+=======
+>>>>>>> 9cdf6146 (.)
 
     /*
     |--------------------------------------------------------------------------
@@ -9444,6 +9495,7 @@ return [
     | Default paths that can be customized per project.
     |
     */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10158,6 +10210,9 @@ return [
 >>>>>>> 7325acf3 (.)
 =======
 >>>>>>> 4c323e61 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9cdf6146 (.)
     'paths' => [
         'default_avatar_path' => env('DEFAULT_AVATAR_PATH', '/images/avatars/default.svg'),
         'default_image_path' => env('DEFAULT_IMAGE_PATH', '/images/default.jpg'),
@@ -10351,6 +10406,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -10907,6 +10963,8 @@ return [
 >>>>>>> 7325acf3 (.)
 =======
 >>>>>>> 4c323e61 (.)
+=======
+>>>>>>> 9cdf6146 (.)
     /*
      * |--------------------------------------------------------------------------
      * | Template Variables
@@ -10915,6 +10973,7 @@ return [
      * | Available template variables that can be used in notification templates.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11464,6 +11523,9 @@ return [
 >>>>>>> e7a9a2bf (.)
 =======
 >>>>>>> 7325acf3 (.)
+=======
+=======
+>>>>>>> 9cdf6146 (.)
 
     /*
     |--------------------------------------------------------------------------
@@ -11473,6 +11535,7 @@ return [
     | Available template variables that can be used in notification templates.
     |
     */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12187,6 +12250,9 @@ return [
 >>>>>>> 7325acf3 (.)
 =======
 >>>>>>> 4c323e61 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9cdf6146 (.)
     'template_variables' => [
         'company_name' => '{{company_name}}',
         'team_name' => '{{team_name}}',
@@ -12386,6 +12452,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -12538,10 +12605,13 @@ return [
 >>>>>>> e7a9a2bf (.)
 =======
 >>>>>>> 9d67cabd (.)
+=======
+>>>>>>> 9cdf6146 (.)
 ];
 =======
 ]; 
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13367,3 +13437,5 @@ return [
 =======
 ];
 >>>>>>> 4c323e61 (.)
+=======
+>>>>>>> 9cdf6146 (.)

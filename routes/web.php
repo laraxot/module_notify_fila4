@@ -189,6 +189,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> e790eb33 (.)
@@ -1738,6 +1739,8 @@ declare(strict_types=1);
 >>>>>>> 7325acf3 (.)
 =======
 >>>>>>> 4c323e61 (.)
+=======
+>>>>>>> 9cdf6146 (.)
 declare(strict_types=1);
 
 /*
@@ -1750,6 +1753,7 @@ declare(strict_types=1);
  * | contains the "web" middleware group. Now create something great!
  * |
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1947,6 +1951,9 @@ declare(strict_types=1);
 >>>>>>> e7a9a2bf (.)
 =======
 >>>>>>> 7325acf3 (.)
+=======
+=======
+>>>>>>> 9cdf6146 (.)
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -1957,6 +1964,7 @@ declare(strict_types=1);
 | contains the "web" middleware group. Now create something great!
 |
 */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2042,6 +2050,9 @@ declare(strict_types=1);
 >>>>>>> 7325acf3 (.)
 =======
 >>>>>>> 4c323e61 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9cdf6146 (.)
 
 // Filament will handle all routes for this module
 =======

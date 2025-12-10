@@ -160,6 +160,7 @@ namespace Modules\Notify\Tests\Unit\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -282,6 +283,8 @@ namespace Modules\Notify\Tests\Unit\Models;
 >>>>>>> de02998b (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> 9cdf6146 (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\Notification;
 use Tests\TestCase;
@@ -343,6 +346,7 @@ use Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -403,10 +407,13 @@ use Tests\TestCase;
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> de02998b (.)
+=======
+>>>>>>> 9cdf6146 (.)
 use Tests\TestCase;
 use Modules\Notify\Models\Notification;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1434,6 +1441,8 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\Notification;
 use Tests\TestCase;
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 9cdf6146 (.)
 
 use function Safe\json_encode;
 
