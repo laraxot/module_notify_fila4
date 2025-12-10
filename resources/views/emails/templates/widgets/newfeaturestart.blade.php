@@ -524,6 +524,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -1349,6 +1350,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 545977c8 (rebase 210)
 =======
 >>>>>>> 9e7ba5b6 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 4df23e8b (rebase 210)
 =======
@@ -1898,6 +1900,8 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 =======
 >>>>>>> 545977c8 (rebase 210)
 >>>>>>> ad905ce9c (.)
+=======
+>>>>>>> ff78f10a5 (.)
 <?php
 
 declare(strict_types=1);
@@ -3101,6 +3105,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -3179,6 +3184,8 @@ declare(strict_types=1);
 >>>>>>> 2a700966d (.)
 =======
 >>>>>>> ad905ce9c (.)
+=======
+>>>>>>> ff78f10a5 (.)
 =======
 e width="100%" cellpadding="0" cellspacing="0" border="0">
 <<<<<<< HEAD
@@ -4167,6 +4174,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 545977c8 (rebase 210)
 =======
 >>>>>>> 9e7ba5b6 (rebase 210)
+<<<<<<< HEAD
 =======
 =======
 e width="100%" cellpadding="0" cellspacing="0" border="0">
@@ -4707,6 +4715,8 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 1b106b4e4 (.)
 =======
 >>>>>>> ad905ce9c (.)
+=======
+>>>>>>> ff78f10a5 (.)
 	<tr>
 		<td bgcolor="{{ isset($color) ? $color : '#85bdad' }}" nowrap>
 			<img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="5" height="1">
@@ -5246,6 +5256,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
 =======
@@ -5491,6 +5502,8 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 5e028c03d (.)
 =======
 >>>>>>> ad905ce9c (.)
+=======
+>>>>>>> ff78f10a5 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -6781,6 +6794,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 					<td bgcolor="#ffffff" class="contentblock">
 >>>>>>> bf479cc (.)
 >>>>>>> 545977c8 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 					<td bgcolor="#ffffff" class="contentblock">
@@ -8291,3 +8305,8 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 5e028c03d (.)
 =======
 >>>>>>> ad905ce9c (.)
+=======
+=======
+					<td bgcolor="#ffffff" class="contentblock">
+>>>>>>> 9e7ba5b6 (rebase 210)
+>>>>>>> ff78f10a5 (.)

@@ -155,6 +155,7 @@ Questo documento definisce l'architettura e gli standard per l'implementazione d
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Architettura WhatsApp Provider per <nome progetto>
 
 Questo documento definisce l'architettura e gli standard per l'implementazione dei provider WhatsApp nel modulo Notify di <nome progetto>, mantenendo coerenza con le architetture esistenti per SMS ed email.
@@ -706,11 +707,15 @@ Questo documento definisce l'architettura e gli standard per l'implementazione d
 =======
 >>>>>>> 545977c8 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ff78f10a5 (.)
 =======
 # Architettura WhatsApp Provider per SaluteOra
 
 Questo documento definisce l'architettura e gli standard per l'implementazione dei provider WhatsApp nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS ed email.
 >>>>>>> 9e7ba5b6 (rebase 210)
+<<<<<<< HEAD
 =======
 # Architettura WhatsApp Provider per SaluteOra
 
@@ -1083,6 +1088,8 @@ Questo documento definisce l'architettura e gli standard per l'implementazione d
 >>>>>>> c31e900eb (.)
 =======
 >>>>>>> ad905ce9c (.)
+=======
+>>>>>>> ff78f10a5 (.)
 
 ## Principi Architetturali Fondamentali
 
@@ -1245,6 +1252,7 @@ L'architettura dei provider WhatsApp segue gli stessi principi dei provider SMS 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/
 =======
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
@@ -1741,6 +1749,7 @@ L'architettura dei provider WhatsApp segue gli stessi principi dei provider SMS 
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/
 >>>>>>> 9e7ba5b6 (rebase 210)
+<<<<<<< HEAD
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/
 >>>>>>> 36ac4fc1 (.)
@@ -1935,6 +1944,8 @@ L'architettura dei provider WhatsApp segue gli stessi principi dei provider SMS 
 =======
 >>>>>>> 545977c8 (rebase 210)
 >>>>>>> ad905ce9c (.)
+=======
+>>>>>>> ff78f10a5 (.)
 ├── app/
 │   ├── Actions/
 │   │   └── WhatsApp/

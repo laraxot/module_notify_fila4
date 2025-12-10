@@ -334,6 +334,7 @@ class OtpSmsNotification extends NetfunSmsNotification
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             sender: '<nome progetto>'
 <<<<<<< HEAD
 =======
@@ -693,6 +694,7 @@ class OtpSmsNotification extends NetfunSmsNotification
 =======
 >>>>>>> 545977c8 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             sender: 'SALUTEORA'
 >>>>>>> 9e7ba5b6 (rebase 210)
@@ -1005,6 +1007,11 @@ class OtpSmsNotification extends NetfunSmsNotification
 >>>>>>> c31e900eb (.)
 =======
 >>>>>>> ad905ce9c (.)
+=======
+=======
+            sender: 'SALUTEORA'
+>>>>>>> 9e7ba5b6 (rebase 210)
+>>>>>>> ff78f10a5 (.)
         );
     }
 
@@ -1318,6 +1325,7 @@ class AppointmentReminderNotification extends NetfunSmsNotification
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             sender: '<nome progetto>'
 <<<<<<< HEAD
 =======
@@ -1677,6 +1685,7 @@ class AppointmentReminderNotification extends NetfunSmsNotification
 =======
 >>>>>>> 545977c8 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             sender: 'SALUTEORA'
 >>>>>>> 9e7ba5b6 (rebase 210)
@@ -1989,6 +1998,11 @@ class AppointmentReminderNotification extends NetfunSmsNotification
 >>>>>>> c31e900eb (.)
 =======
 >>>>>>> ad905ce9c (.)
+=======
+=======
+            sender: 'SALUTEORA'
+>>>>>>> 9e7ba5b6 (rebase 210)
+>>>>>>> ff78f10a5 (.)
         );
     }
 
@@ -2377,6 +2391,7 @@ public function sendBulkSms(Request $request)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             sender: '<nome progetto>',
 <<<<<<< HEAD
 =======
@@ -2736,6 +2751,7 @@ public function sendBulkSms(Request $request)
 =======
 >>>>>>> 545977c8 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             sender: 'SALUTEORA',
 >>>>>>> 9e7ba5b6 (rebase 210)
@@ -3048,6 +3064,11 @@ public function sendBulkSms(Request $request)
 >>>>>>> c31e900eb (.)
 =======
 >>>>>>> ad905ce9c (.)
+=======
+=======
+            sender: 'SALUTEORA',
+>>>>>>> 9e7ba5b6 (rebase 210)
+>>>>>>> ff78f10a5 (.)
             batchSize: 100,
             delayBetweenBatches: 1
         )->onQueue('bulk-sms')->execute();

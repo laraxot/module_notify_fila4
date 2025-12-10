@@ -476,6 +476,7 @@ class AppointmentReminder extends Notification
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             sender: '<nome progetto>',
 =======
             sender: '',
@@ -835,6 +836,7 @@ class AppointmentReminder extends Notification
 =======
 >>>>>>> 545977c8 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             sender: 'SaluteOra',
 >>>>>>> 9e7ba5b6 (rebase 210)
@@ -1147,6 +1149,11 @@ class AppointmentReminder extends Notification
 >>>>>>> c31e900eb (.)
 =======
 >>>>>>> ad905ce9c (.)
+=======
+=======
+            sender: 'SaluteOra',
+>>>>>>> 9e7ba5b6 (rebase 210)
+>>>>>>> ff78f10a5 (.)
             reference: 'app_' . $this->appointment->id
         );
         
