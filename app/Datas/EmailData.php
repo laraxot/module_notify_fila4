@@ -3155,6 +3155,7 @@ class EmailData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 677a6ab7 (.)
@@ -4047,12 +4048,17 @@ class EmailData extends Data
 >>>>>>> 161887a2 (.)
 =======
 =======
+=======
+>>>>>>> 0f81dc21 (.)
         $email = new MimeEmail()
             ->from($this->getFrom())
             ->to($this->to)
             ->subject(strip_tags($this->subject))
+<<<<<<< HEAD
 >>>>>>> 518c702 (.)
 >>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 0f81dc21 (.)
             ->html($this->body_html)
             ->text($this->body);
 
