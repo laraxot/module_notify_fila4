@@ -271,6 +271,7 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -865,6 +866,7 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> 77edd94a (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -1140,6 +1142,8 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 >>>>>>> 5e028c03d (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 2e1ac1f20 (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -1498,6 +1502,7 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 23f115647 (.)
 =======
@@ -1596,6 +1601,8 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 >>>>>>> 5e028c03d (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 2e1ac1f20 (.)
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -2015,6 +2022,7 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 =======
 >>>>>>> 77edd94a (.)
 =======
+<<<<<<< HEAD
 >>>>>>> eea68ec9 (.)
 =======
 >>>>>>> e790eb33 (.)
@@ -2198,11 +2206,14 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 2e1ac1f20 (.)
 namespace Modules\Notify\Filament\Resources\MailTemplateResource\Pages;
 
 use Modules\Notify\Filament\Resources\MailTemplateResource;
 use Filament\Actions;
 use Modules\Lang\Filament\Resources\Pages\LangBaseEditRecord;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2358,6 +2369,8 @@ use Modules\Lang\Filament\Resources\Pages\LangBaseEditRecord;
 >>>>>>> 01750b107 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 2e1ac1f20 (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2970,6 +2983,7 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 77edd94a (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -3288,6 +3302,8 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 >>>>>>> 5e028c03d (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 2e1ac1f20 (.)
 
 class EditMailTemplate extends LangBaseEditRecord
 {
@@ -3556,6 +3572,7 @@ class EditMailTemplate extends LangBaseEditRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3628,6 +3645,7 @@ class EditMailTemplate extends LangBaseEditRecord
 =======
 >>>>>>> 030c9674 (rebase 210)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 77edd94a (.)
 =======
@@ -3827,6 +3845,10 @@ class EditMailTemplate extends LangBaseEditRecord
 >>>>>>> 17f6b8617 (.)
 =======
 >>>>>>> db6bec044 (.)
+=======
+>>>>>>> 77edd94a (.)
+=======
+>>>>>>> 2e1ac1f20 (.)
 
     
 >>>>>>> b19cd40 (.)
@@ -3942,6 +3964,7 @@ class EditMailTemplate extends LangBaseEditRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -3994,6 +4017,8 @@ class EditMailTemplate extends LangBaseEditRecord
 >>>>>>> 17f6b8617 (.)
 =======
 >>>>>>> db6bec044 (.)
+=======
+>>>>>>> 2e1ac1f20 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -4613,6 +4638,7 @@ class EditMailTemplate extends LangBaseEditRecord
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> 77edd94a (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -4892,6 +4918,8 @@ class EditMailTemplate extends LangBaseEditRecord
 >>>>>>> 5e028c03d (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 2e1ac1f20 (.)
 }
 =======
 >>>>>>> 301ad8b44 (.)
