@@ -1312,8 +1312,8 @@ test('html template contains optional function', function (): void {
 =======
 >>>>>>> ce26f84e (.)
 
-use Tests\TestCase;
 use Illuminate\Support\Facades\File;
+use Tests\TestCase;
 
 uses(TestCase::class);
 
