@@ -187,8 +187,6 @@ Durante la risoluzione:
 **Verificato**:  S� - PHPStan passa senza errori
 **Testato**:  S� - Analisi completa su 3715 file
 **Committato**: � Da verificare
-<<<<<<< HEAD
-=======
 >>>>>>> d09cb759 (.)
 >>>>>>> 75179b85 (.)
 >>>>>>> d09cb759 (.)
@@ -433,4 +431,3 @@ I pattern di type safety implementati possono essere applicati a:
 >>>>>>> dceba960 (.)
 >>>>>>> bd804d67 (.)
 >>>>>>> 301ad8b44 (.)
->>>>>>> 02a2ea3c10 (.)

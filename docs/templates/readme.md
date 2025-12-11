@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 # Template Email
 
 ## Panoramica
@@ -143,4 +141,3 @@ Per contribuire alla documentazione, seguire le [Linee Guida](../../../../docs/l
 
 ## Collegamenti Completi
 Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../../docs/README_links.md). 
->>>>>>> 02a2ea3c10 (.)
