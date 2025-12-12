@@ -21,8 +21,7 @@ class ContactSection extends XotBaseSection
     protected function setUp(): void
     {
         parent::setUp();
-        $schema = $this->getFormSchema();
-        $this->schema($schema);
+        $this->schema(fn (): array => $this->getFormSchema());
         $this->columns(2);
     }
 

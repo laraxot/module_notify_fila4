@@ -66,12 +66,12 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @method static Builder|NotifyTheme whereViewParams($value)
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
- * @mixin Eloquent
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
  * @method static Builder<static>|NotifyTheme whereDeletedAt($value)
  * @method static Builder<static>|NotifyTheme whereDeletedBy($value)
  * @mixin IdeHelperNotifyTheme
+ * @property-read \Modules\TechPlanner\Models\Profile|null $deleter
  * @mixin Eloquent
  */
 class NotifyTheme extends BaseModel

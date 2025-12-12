@@ -1,6 +1,6 @@
 # Notify Module - Filament v4 Upgrade Notes
 
-This document outlines specific considerations and changes for the `Notify` module during the Filament v4 upgrade. For a comprehensive overview of the Filament v4 upgrade process, refer to the main project documentation: [`docs/Filament_Upgrade_v4.md`](../../docs/Filament_Upgrade_v4.md).
+This document outlines specific considerations and changes for the `Notify` module during the Filament v4 upgrade. For a comprehensive overview of the Filament v4 upgrade process, refer to the main project documentation: [`docs/filament_v4_upgrade.md`](../../docs/Filament_Upgrade_v4.md).
 
 ## **Key Changes and Action Items for `Notify` Module**
 
@@ -28,11 +28,54 @@ This document outlines specific considerations and changes for the `Notify` modu
     *   If `make()` was overridden to provide default configuration, it's now recommended to override the `setUp()` method instead.
 *   **Action Required:** Review `Notify` module's custom Filament components (if any, in addition to `ContactTypeEnum` itself) for `make()` method overrides. Refactor them to use `getDefaultName()` or `setUp()` as appropriate to maintain compatibility and reduce future maintenance burden.
 
----
-**DRY (Don't Repeat Yourself) / KISS (Keep It Simple, Stupid) Principles:**
+### **4. Adherence to Laraxot `XotBaseSection` Rule**
 
-*   **Centralized Enums:** `ContactTypeEnum` effectively centralizes contact type definitions, promoting consistency.
-*   **Dynamic Icon Generation:** The pattern of dynamically generating icon names (`$contact_type->getIcon()`) from enums is a good DRY practice, but it relies heavily on the underlying icon system's stability.
-*   **Service Provider Configuration:** Post-upgrade, utilizing `configureUsing()` in `AppServiceProvider` for global component behavior can centralize common configurations and reduce repetition across many Filament components.
 
-By adhering to these principles, the `Notify` module remains maintainable and aligned with the project's architectural standards.
+
+*   **Rule:** According to Laraxot philosophy, all custom Filament Section components **must extend `Modules\Xot\Filament\Schemas\Components\XotBaseSection`** instead of directly extending `Filament\Schemas\Components\Section`. This ensures architectural consistency and leverages shared `XotBaseSection` functionalities.
+
+*   **Status:** `ContactSection` (`Modules\Notify\Filament\Forms\Components\ContactSection.php`) already correctly extends `XotBaseSection`.
+
+
+
+### **5. Resolution of `BadMethodCallException` (`disableLiveUpdates`)**
+
+
+
+*   **Issue:** A `BadMethodCallException` occurred, indicating that `disableLiveUpdates()` was being called on a component that did not possess this method in Filament v4. This was resolved by adding a compatibility shim (empty `public function disableLiveUpdates(): static`) to `Modules\Xot\Filament\Schemas\Components\XotBaseSection.php`. This fix ensures smooth operation of `ContactSection` and other `XotBaseSection`-derived components.
+
+
+
+### **6. Filament v4 Section Component Behavior (`columnSpanFull`)**
+
+
+
+*   **Issue:** In Filament v3, `Section` components automatically spanned the full width of their parent grid. In Filament v4, `Section` components now only consume one column by default.
+
+*   **Action Required:** Review all instances where `ContactSection` is used within `Notify` module forms. If a `ContactSection` is intended to span the full width, the `->columnSpanFull()` method must be explicitly called on its instance.
+
+    ```php
+
+    use Modules\Notify\Filament\Forms\Components\ContactSection;
+
+
+
+    // ... in your form schema
+
+    ContactSection::make('contact')
+
+        ->columnSpanFull(),
+
+    ```
+
+    For a global return to v3 behavior, this can be configured in a service provider (e.g., `AppServiceProvider`):
+
+    ```php
+
+    use Filament\Schemas\Components\Section;
+
+
+
+    Section::configureUsing(fn (Section $section) => $section->columnSpanFull());
+
+    ```
