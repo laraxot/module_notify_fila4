@@ -176,7 +176,6 @@ enum ContactTypeEnum: string implements HasColor, HasIcon, HasLabel
             self::PEC->value,
             self::WHATSAPP->value,
             self::FAX->value,
-            self::NOTES->value,
         ]);
     }
 
@@ -194,7 +193,6 @@ enum ContactTypeEnum: string implements HasColor, HasIcon, HasLabel
             self::PEC->value,
             self::WHATSAPP->value,
             self::FAX->value,
-            self::NOTES->value,
         ];
     }
 
@@ -235,11 +233,6 @@ enum ContactTypeEnum: string implements HasColor, HasIcon, HasLabel
                 $table->string(self::FAX->value)
                     ->nullable()
                     ->comment('Fax number');
-            },
-            self::NOTES->value => static function (Blueprint $table): void {
-                $table->text(self::NOTES->value)
-                    ->nullable()
-                    ->comment('Contact notes');
             },
         ];
     }
