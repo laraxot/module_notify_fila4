@@ -18,18 +18,18 @@ return [
         'description' => 'Numéro de téléphone mobile',
     ],
     'email' => [
-        'label' => 'Email',
+        'label' => 'E-mail',
         'icon' => 'heroicon-o-envelope',
         'color' => 'text-blue-600',
         'hex_color' => '#2563eb',
-        'description' => 'Adresse email',
+        'description' => 'Adresse e-mail',
     ],
     'pec' => [
         'label' => 'PEC',
         'icon' => 'heroicon-o-shield-check',
         'color' => 'text-orange-600',
         'hex_color' => '#ea580c',
-        'description' => 'Poste Électronique Certifié',
+        'description' => 'Courrier électronique certifié',
     ],
     'whatsapp' => [
         'label' => 'WhatsApp',
@@ -43,7 +43,7 @@ return [
         'icon' => 'heroicon-o-printer',
         'color' => 'text-gray-600',
         'hex_color' => '#6b7280',
-        'description' => 'Numéro fax',
+        'description' => 'Numéro de fax',
     ],
     'notes' => [
         'label' => 'Notes',
