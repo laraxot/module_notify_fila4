@@ -18,10 +18,10 @@ declare(strict_types=1);
         <x-slot name="footer">
             <div class="flex items-center justify-between gap-x-3">
                 <div>
-                    <x-filament::loading-indicator class="h-5 w-5" wire:loading wire:target="sendNotification()" />
+                    <x-filament::loading-indicator class="h-5 w-5" wire:loading wire:target="sendNotification" />
                 </div>
                 <div>
-                    <x-filament-panels::form.actions :actions="$this->getNotificationFormActions()" />
+                    <x-filament::actions :actions="$this->getNotificationFormActions()" />
                 </div>
             </div>
         </x-slot>
