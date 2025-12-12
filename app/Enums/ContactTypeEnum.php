@@ -37,7 +37,7 @@ enum ContactTypeEnum: string implements HasColor, HasIcon, HasLabel
     case PEC = 'pec';
     case WHATSAPP = 'whatsapp';
     case FAX = 'fax';
-    case NOTES = 'notes';
+    //case NOTES = 'notes';
 
     public function getLabel(): string
     {

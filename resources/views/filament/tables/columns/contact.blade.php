@@ -15,8 +15,7 @@ declare(strict_types=1);
     @endphp
     @if($contact_value)
     <div class="flex items-center space-x-2">
-        <x-filament::icon
-        :icon="$contact_type->getIcon()"
+        <x-heroicon-o-chat-bubble-oval-left-ellipsis
         :label="$contact_type->getLabel()"
         :color="$contact_type->getColor()"
         class="w-4 h-4 flex-shrink-0"
