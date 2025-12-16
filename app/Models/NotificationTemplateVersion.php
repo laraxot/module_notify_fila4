@@ -1562,7 +1562,7 @@ use Modules\Xot\Traits\Updater;
 >>>>>>> f15c41e60 (.)
 >>>>>>> 331118f25 (.)
  * @mixin IdeHelperNotificationTemplateVersion
- * @property-read \Modules\TechPlanner\Models\Profile|null $deleter
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $deleter
  * @mixin \Eloquent
  */
 <<<<<<< HEAD

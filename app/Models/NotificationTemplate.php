@@ -1740,7 +1740,7 @@ use Spatie\Translatable\HasTranslations;
 >>>>>>> 7ceb00286 (.)
 >>>>>>> 331118f25 (.)
  * @mixin IdeHelperNotificationTemplate
- * @property-read \Modules\TechPlanner\Models\Profile|null $deleter
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $deleter
  * @mixin \Eloquent
  */
 <<<<<<< HEAD

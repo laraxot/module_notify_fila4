@@ -1492,7 +1492,7 @@ class NotifyTheme extends BaseModel implements HasMedia
  * @method static Builder<static>|NotifyTheme whereDeletedBy($value)
 <<<<<<< HEAD
  * @mixin IdeHelperNotifyTheme
- * @property-read \Modules\TechPlanner\Models\Profile|null $deleter
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $deleter
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD

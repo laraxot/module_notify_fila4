@@ -1513,7 +1513,7 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 >>>>>>> f15c41e60 (.)
 >>>>>>> 331118f25 (.)
  * @mixin IdeHelperMailTemplateLog
- * @property-read \Modules\TechPlanner\Models\Profile|null $deleter
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $deleter
  * @mixin \Eloquent
  */
 <<<<<<< HEAD
