@@ -1,28 +1,13 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
 use Modules\Xot\Datas\XotData;
-=======
-<<<<<<< HEAD
-use Modules\Xot\Datas\XotData;
-=======
->>>>>>> laraxot/develop
->>>>>>> 331118f25 (.)
 use Filament\Facades\Filament;
 use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin;
 use Livewire\Livewire;
 use Modules\Notify\Filament\Resources\MailTemplateResource\Pages\ListMailTemplates;
 use Modules\Notify\Models\MailTemplate;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-use Modules\Xot\Datas\XotData;
->>>>>>> laraxot/develop
->>>>>>> 331118f25 (.)
 
 use function Pest\Laravel\actingAs;
 
@@ -63,5 +48,3 @@ test('ListMailTemplates renders without plugin registration error', function () 
         ->assertSuccessful()
         ->assertCanSeeTableRecords(MailTemplate::all());
 });
-=======
->>>>>>> 301ad8b44 (.)

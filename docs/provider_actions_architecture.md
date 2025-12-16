@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Architettura delle Azioni dei Provider in Notify
 
 ## Struttura e Principi Fondamentali
@@ -21,81 +20,7 @@ Questo assicura che qualsiasi client possa utilizzare qualsiasi provider senza m
 ### 2. Posizione delle Azioni
 
 Le azioni specifiche dei provider SMS si trovano nella directory:
-<<<<<<< HEAD
 - `/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/`
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-- `/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/SMS/`
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-- `/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/SMS/`
-=======
-- `/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/`
->>>>>>> f963d2c0 (.)
-=======
-- `/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/`
->>>>>>> f963d2c0 (.)
-=======
-- `/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/`
->>>>>>> f963d2c0 (.)
-=======
-- `/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/`
->>>>>>> f963d2c0 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-- `/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/SMS/`
-=======
-=======
-- `/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/SMS/`
-=======
->>>>>>> 36ac4fc1 (.)
-=======
-=======
-- `/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/SMS/`
-=======
->>>>>>> fea359347 (.)
-<<<<<<< HEAD
-- `/var/www/html/<directory progetto>/laravel/Modules/Notify/app/Actions/SMS/`
-=======
-- `/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/`
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 36ac4fc1 (.)
-=======
-- `/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/`
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 36ac4fc1 (.)
-=======
-- `/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/`
->>>>>>> f963d2c0 (.)
-=======
-- `/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/`
->>>>>>> f963d2c0 (.)
->>>>>>> laraxot/develop
-=======
->>>>>>> 12a7e2462 (.)
-=======
->>>>>>> 36ac4fc1 (.)
->>>>>>> fea359347 (.)
-=======
-- `/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/SMS/`
->>>>>>> a55aa5e96 (.)
->>>>>>> 331118f25 (.)
 
 ### 3. Convenzioni di Nomenclatura
 
@@ -185,5 +110,3 @@ Tutte le azioni devono gestire correttamente gli errori:
 1. Log appropriati degli errori
 2. Lancio di eccezioni in caso di errori critici
 3. Restituzione di un array con `'success' => false` in caso di errori non critici
-=======
->>>>>>> 301ad8b44 (.)

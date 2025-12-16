@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Architettura delle Interfacce (Contracts) in Notify
 
 ## Principi Architetturali Fondamentali
@@ -9,136 +8,11 @@ Le interfacce **DEVONO** essere posizionate nella directory `app/Contracts/`, **
 
 ```
 ✅ CORRETTO:
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 36ac4fc1 (.)
-=======
->>>>>>> 36ac4fc1 (.)
->>>>>>> laraxot/develop
-=======
->>>>>>> 12a7e2462 (.)
-=======
-=======
->>>>>>> 36ac4fc1 (.)
->>>>>>> fea359347 (.)
-=======
->>>>>>> a55aa5e96 (.)
-/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Contracts/SmsProviderActionInterface.php
-
-❌ ERRATO:
-/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/SMS/SmsActionInterface.php
-/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Contracts/SMS/SmsActionInterface.php (sottocartella non corretta)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> f963d2c0 (.)
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 36ac4fc1 (.)
-/var/www/html/<directory progetto>/laravel/Modules/Notify/app/Contracts/SmsProviderActionInterface.php
-
-❌ ERRATO:
-/var/www/html/<directory progetto>/laravel/Modules/Notify/app/Actions/SMS/SmsActionInterface.php
-/var/www/html/<directory progetto>/laravel/Modules/Notify/app/Contracts/SMS/SmsActionInterface.php (sottocartella non corretta)
-=======
-<<<<<<< HEAD
->>>>>>> 36ac4fc1 (.)
-=======
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 36ac4fc1 (.)
-=======
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> f963d2c0 (.)
-=======
-<<<<<<< HEAD
-/var/www/html/<directory progetto>/laravel/Modules/Notify/app/Contracts/SmsProviderActionInterface.php
-
-❌ ERRATO:
-/var/www/html/<directory progetto>/laravel/Modules/Notify/app/Actions/SMS/SmsActionInterface.php
-/var/www/html/<directory progetto>/laravel/Modules/Notify/app/Contracts/SMS/SmsActionInterface.php (sottocartella non corretta)
-=======
->>>>>>> 36ac4fc1 (.)
->>>>>>> 331118f25 (.)
 /var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/SmsProviderActionInterface.php
 
 ❌ ERRATO:
 /var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/SmsActionInterface.php
 /var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/SMS/SmsActionInterface.php (sottocartella non corretta)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 12a7e2462 (.)
-=======
->>>>>>> fea359347 (.)
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
->>>>>>> 36ac4fc1 (.)
-<<<<<<< HEAD
-=======
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
->>>>>>> 36ac4fc1 (.)
-=======
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> f963d2c0 (.)
->>>>>>> laraxot/develop
-=======
->>>>>>> fea359347 (.)
-=======
->>>>>>> a55aa5e96 (.)
->>>>>>> 331118f25 (.)
 ```
 
 ### 2. Namespace Unificati per le Interfacce
@@ -179,81 +53,7 @@ SendSmsInterface
 ## Struttura di Directory Corretta
 
 ```
-<<<<<<< HEAD
 /var/www/html/saluteora/laravel/Modules/Notify/
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-/var/www/html/<nome progetto>/laravel/Modules/Notify/
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-/var/www/html/<nome progetto>/laravel/Modules/Notify/
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> f963d2c0 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> f963d2c0 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> f963d2c0 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> f963d2c0 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-/var/www/html/<nome progetto>/laravel/Modules/Notify/
-=======
-=======
-/var/www/html/<nome progetto>/laravel/Modules/Notify/
-=======
->>>>>>> 36ac4fc1 (.)
-=======
-=======
-/var/www/html/<nome progetto>/laravel/Modules/Notify/
-=======
->>>>>>> fea359347 (.)
-<<<<<<< HEAD
-/var/www/html/<directory progetto>/laravel/Modules/Notify/
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 36ac4fc1 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 36ac4fc1 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> f963d2c0 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> f963d2c0 (.)
->>>>>>> laraxot/develop
-=======
->>>>>>> 12a7e2462 (.)
-=======
->>>>>>> 36ac4fc1 (.)
->>>>>>> fea359347 (.)
-=======
-/var/www/html/<nome progetto>/laravel/Modules/Notify/
->>>>>>> a55aa5e96 (.)
->>>>>>> 331118f25 (.)
 ├── app/
 │   ├── Actions/
 │   │   ├── Email/
@@ -288,5 +88,3 @@ SendSmsInterface
 2. Normalizzare tutte le implementazioni per utilizzare `SmsProviderActionInterface`
 3. Rimuovere tutti i riferimenti obsoleti alle interfacce non corrette
 4. Aggiornare documentazione e implementazioni per riflettere questa architettura
-=======
->>>>>>> 301ad8b44 (.)

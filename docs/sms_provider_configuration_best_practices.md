@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Best Practices per la Configurazione dei Provider SMS
 
 ## Struttura Corretta della Configurazione
@@ -74,81 +73,7 @@ Per parametri critici come `sender`, non utilizzare valori predefiniti:
 
 ```php
 // ❌ ERRATO
-<<<<<<< HEAD
 'sender' => env('NETFUN_SENDER', 'SaluteOra'),
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-'sender' => env('NETFUN_SENDER', '<nome progetto>'),
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-'sender' => env('NETFUN_SENDER', '<nome progetto>'),
-=======
-'sender' => env('NETFUN_SENDER', 'SaluteOra'),
->>>>>>> f963d2c0 (.)
-=======
-'sender' => env('NETFUN_SENDER', 'SaluteOra'),
->>>>>>> f963d2c0 (.)
-=======
-'sender' => env('NETFUN_SENDER', 'SaluteOra'),
->>>>>>> f963d2c0 (.)
-=======
-'sender' => env('NETFUN_SENDER', 'SaluteOra'),
->>>>>>> f963d2c0 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-'sender' => env('NETFUN_SENDER', '<nome progetto>'),
-=======
-=======
-'sender' => env('NETFUN_SENDER', '<nome progetto>'),
-=======
->>>>>>> 36ac4fc1 (.)
-=======
-=======
-'sender' => env('NETFUN_SENDER', '<nome progetto>'),
-=======
->>>>>>> fea359347 (.)
-<<<<<<< HEAD
-'sender' => env('NETFUN_SENDER', '<main module>'),
-=======
-'sender' => env('NETFUN_SENDER', 'SaluteOra'),
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 36ac4fc1 (.)
-=======
-'sender' => env('NETFUN_SENDER', 'SaluteOra'),
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 36ac4fc1 (.)
-=======
-'sender' => env('NETFUN_SENDER', 'SaluteOra'),
->>>>>>> f963d2c0 (.)
-=======
-'sender' => env('NETFUN_SENDER', 'SaluteOra'),
->>>>>>> f963d2c0 (.)
->>>>>>> laraxot/develop
-=======
->>>>>>> 12a7e2462 (.)
-=======
->>>>>>> 36ac4fc1 (.)
->>>>>>> fea359347 (.)
-=======
-'sender' => env('NETFUN_SENDER', '<nome progetto>'),
->>>>>>> a55aa5e96 (.)
->>>>>>> 331118f25 (.)
 
 // ✅ CORRETTO
 'sender' => env('NETFUN_SENDER'),
@@ -190,5 +115,3 @@ $token = config('services.netfun.token');
 - [SMS Implementation](./SMS_IMPLEMENTATION.md)
 - [SMS Best Practices](./SMS_BEST_PRACTICES.md)
 - [Netfun Authentication Methods](./NETFUN_AUTHENTICATION_METHODS.md)
-=======
->>>>>>> 301ad8b44 (.)

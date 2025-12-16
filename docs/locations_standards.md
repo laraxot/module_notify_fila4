@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Standard di Posizionamento dei File in Notify
 
 ## Organizzazione Directory Principali
@@ -18,81 +17,7 @@ Le interfacce devono sempre essere collocate nella directory `/app/Contracts/`, 
 ### Corretta Organizzazione delle Interfacce
 
 ```
-<<<<<<< HEAD
 /var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Contracts/
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Contracts/
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/
->>>>>>> f963d2c0 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/
->>>>>>> f963d2c0 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/
->>>>>>> f963d2c0 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/
->>>>>>> f963d2c0 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Contracts/
-=======
-=======
-/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Contracts/
-=======
->>>>>>> 36ac4fc1 (.)
-=======
-=======
-/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Contracts/
-=======
->>>>>>> fea359347 (.)
-<<<<<<< HEAD
-/var/www/html/<directory progetto>/laravel/Modules/Notify/app/Contracts/
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 36ac4fc1 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 36ac4fc1 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/
->>>>>>> f963d2c0 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/
->>>>>>> f963d2c0 (.)
->>>>>>> laraxot/develop
-=======
->>>>>>> 12a7e2462 (.)
-=======
->>>>>>> 36ac4fc1 (.)
->>>>>>> fea359347 (.)
-=======
-/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Contracts/
->>>>>>> a55aa5e96 (.)
->>>>>>> 331118f25 (.)
 ├── SmsProviderActionInterface.php   ✅ CORRETTO
 ├── NotificationChannelInterface.php ✅ CORRETTO
 └── ...
@@ -101,81 +26,7 @@ Le interfacce devono sempre essere collocate nella directory `/app/Contracts/`, 
 ### Errori da Evitare
 
 ```
-<<<<<<< HEAD
 /var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/SMS/
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/SMS/
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/
->>>>>>> f963d2c0 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/
->>>>>>> f963d2c0 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/
->>>>>>> f963d2c0 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/
->>>>>>> f963d2c0 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/SMS/
-=======
-=======
-/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/SMS/
-=======
->>>>>>> 36ac4fc1 (.)
-=======
-=======
-/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/SMS/
-=======
->>>>>>> fea359347 (.)
-<<<<<<< HEAD
-/var/www/html/<directory progetto>/laravel/Modules/Notify/app/Actions/SMS/
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 36ac4fc1 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 36ac4fc1 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/
->>>>>>> f963d2c0 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/
->>>>>>> f963d2c0 (.)
->>>>>>> laraxot/develop
-=======
->>>>>>> 12a7e2462 (.)
-=======
->>>>>>> 36ac4fc1 (.)
->>>>>>> fea359347 (.)
-=======
-/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/SMS/
->>>>>>> a55aa5e96 (.)
->>>>>>> 331118f25 (.)
 ├── SmsActionInterface.php           ❌ ERRATO
 └── ...
 ```
@@ -226,5 +77,3 @@ final class SendNetfunSMSAction implements SmsActionInterface
 3. **Consistenza**:
    - Tutte le interfacce dello stesso tipo devono essere nello stesso namespace
    - Il pattern di organizzazione deve essere coerente in tutto il modulo
-=======
->>>>>>> 301ad8b44 (.)

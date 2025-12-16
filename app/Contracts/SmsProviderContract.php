@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -16,67 +15,8 @@ interface SmsProviderContract
     /**
      * Invia un SMS utilizzando il provider specifico.
      *
-<<<<<<< HEAD
      * @param SmsData $smsData I dati del messaggio SMS
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @param SmsData $smsData I dati del messaggio SMS
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> c8b1c8bf (.)
-=======
->>>>>>> 7ceb00286 (.)
-     * @param  SmsData  $smsData  I dati del messaggio SMS
-=======
-     * @param SmsData $smsData I dati del messaggio SMS
->>>>>>> 75179b8 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-     * @param SmsData $smsData I dati del messaggio SMS
->>>>>>> 75179b85 (.)
-=======
-     * @param  SmsData  $smsData  I dati del messaggio SMS
-=======
-     * @param SmsData $smsData I dati del messaggio SMS
->>>>>>> 99ff506 (.)
->>>>>>> f1c9518b (.)
-=======
->>>>>>> c8b1c8bf (.)
-=======
-     * @param SmsData $smsData I dati del messaggio SMS
->>>>>>> 75179b85 (.)
-=======
-     * @param SmsData $smsData I dati del messaggio SMS
->>>>>>> 75179b855 (.)
-=======
-     * @param  SmsData  $smsData  I dati del messaggio SMS
-=======
-     * @param SmsData $smsData I dati del messaggio SMS
->>>>>>> 99ff506 (.)
->>>>>>> f1c9518b (.)
->>>>>>> laraxot/develop
-=======
-     * @param  SmsData  $smsData  I dati del messaggio SMS
-=======
-     * @param SmsData $smsData I dati del messaggio SMS
->>>>>>> 99ff506 (.)
->>>>>>> e53a56570 (.)
-=======
->>>>>>> 7ceb00286 (.)
->>>>>>> 331118f25 (.)
      * @return array Risultato dell'operazione
      */
     public function execute(SmsData $smsData): array;
 }
-=======
->>>>>>> 301ad8b44 (.)
