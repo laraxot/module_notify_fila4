@@ -26,7 +26,11 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
  * @method static Builder<static>|MailTemplateLog newQuery()
  * @method static Builder<static>|MailTemplateLog query()
  * @mixin IdeHelperMailTemplateLog
+<<<<<<< HEAD
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $deleter
+=======
+ * @property-read \Modules\TechPlanner\Models\Profile|null $deleter
+>>>>>>> c8903a55c (.)
  * @mixin \Eloquent
  */
 class MailTemplateLog extends BaseModel

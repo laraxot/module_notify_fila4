@@ -110,7 +110,11 @@ use Illuminate\Support\Carbon;
  * @method static Builder<static>|Contact whereDeletedAt($value)
  * @method static Builder<static>|Contact whereDeletedBy($value)
  * @mixin IdeHelperContact
+<<<<<<< HEAD
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $deleter
+=======
+ * @property-read \Modules\TechPlanner\Models\Profile|null $deleter
+>>>>>>> c8903a55c (.)
  * @mixin \Eloquent
  */
 class Contact extends BaseModel

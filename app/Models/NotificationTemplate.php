@@ -64,7 +64,11 @@ use Spatie\Translatable\HasTranslations;
  * @method static Builder<static>|NotificationTemplate whereLocale(string $column, string $locale)
  * @method static Builder<static>|NotificationTemplate whereLocales(string $column, array $locales)
  * @mixin IdeHelperNotificationTemplate
+<<<<<<< HEAD
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $deleter
+=======
+ * @property-read \Modules\TechPlanner\Models\Profile|null $deleter
+>>>>>>> c8903a55c (.)
  * @mixin \Eloquent
  */
 class NotificationTemplate extends BaseModel implements HasMedia

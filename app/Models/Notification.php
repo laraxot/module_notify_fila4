@@ -53,7 +53,11 @@ use Modules\Xot\Models\BaseModel;
  * @method static Builder<static>|Notification whereUpdatedAt($value)
  * @method static Builder<static>|Notification whereUpdatedBy($value)
  * @mixin IdeHelperNotification
+<<<<<<< HEAD
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $deleter
+=======
+ * @property-read \Modules\TechPlanner\Models\Profile|null $deleter
+>>>>>>> c8903a55c (.)
  * @mixin \Eloquent
  */
 class Notification extends BaseModel

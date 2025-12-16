@@ -37,7 +37,11 @@ use Illuminate\Support\Carbon;
  * @method static Builder<static>|NotifyThemeable whereDeletedAt($value)
  * @method static Builder<static>|NotifyThemeable whereDeletedBy($value)
  * @mixin IdeHelperNotifyThemeable
+<<<<<<< HEAD
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $deleter
+=======
+ * @property-read \Modules\TechPlanner\Models\Profile|null $deleter
+>>>>>>> c8903a55c (.)
  * @mixin \Eloquent
  */
 class NotifyThemeable extends BaseMorphPivot

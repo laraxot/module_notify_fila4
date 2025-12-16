@@ -97,8 +97,8 @@ Grazie,<br>
 // app/Filament/Resources/EmailTemplateResource.php
 use Filament\Forms\Components\Builder;
 
-<<<<<<< HEAD
 public static function form(Form $form): Form
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -171,6 +171,10 @@ public static function form(Form $form): Form
 <<<<<<< HEAD
 =======
 >>>>>>> 331118f25 (.)
+=======
+public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+public static function form(Form $form): Form
+>>>>>>> c8903a55c (.)
 public static function form(Form $form): Form
 public static function form(Form $form): Form
 public static function form(Form $form): Form
@@ -191,6 +195,7 @@ public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\S
 public static function form(Form $form): Form
 public static function form(Form $form): Form
 public static function form(Form $form): Form
+<<<<<<< HEAD
 <<<<<<< HEAD
 public static function form(Form $form): Form
 public static function form(Form $form): Form
@@ -219,28 +224,17 @@ public static function form(Form $form): Form
 =======
 >>>>>>> f963d2c0 (.)
 =======
-public static function form(Form $form): Form
->>>>>>> 75179b855 (.)
 =======
+>>>>>>> c8903a55c (.)
 public static function form(Form $form): Form
->>>>>>> f963d2c0 (.)
-=======
 public static function form(Form $form): Form
->>>>>>> ee18dd92 (.)
-=======
 public static function form(Form $form): Form
->>>>>>> 66453ace (.)
-=======
 public static function form(Form $form): Form
->>>>>>> 2a97406c (.)
-=======
 public static function form(Form $form): Form
->>>>>>> 4f042b88 (.)
-=======
 public static function form(Form $form): Form
->>>>>>> 36321fcb (.)
-=======
 public static function form(Form $form): Form
+public static function form(Form $form): Form
+<<<<<<< HEAD
 >>>>>>> 712617d3 (.)
 >>>>>>> laraxot/develop
 =======
@@ -299,6 +293,24 @@ public static function form(Form $form): Form
 >>>>>>> f963d2c (.)
 >>>>>>> 379ffe3f3 (.)
 >>>>>>> 331118f25 (.)
+=======
+public static function form(Form $form): Form
+public static function form(Form $form): Form
+public static function form(Form $form): Form
+public static function form(Form $form): Form
+public static function form(Form $form): Form
+public static function form(Form $form): Form
+public static function form(Form $form): Form
+public static function form(Form $form): Form
+public static function form(Form $form): Form
+public static function form(Form $form): Form
+public static function form(Form $form): Form
+public static function form(Form $form): Form
+public static function form(Form $form): Form
+public static function form(Form $form): Form
+public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+public static function form(Form $form): Form
+>>>>>>> c8903a55c (.)
 {
     return $form->schema([
         Builder::make('content')

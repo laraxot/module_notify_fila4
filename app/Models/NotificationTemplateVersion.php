@@ -26,7 +26,11 @@ use Modules\Xot\Traits\Updater;
  * @method static Builder<static>|NotificationTemplateVersion newQuery()
  * @method static Builder<static>|NotificationTemplateVersion query()
  * @mixin IdeHelperNotificationTemplateVersion
+<<<<<<< HEAD
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $deleter
+=======
+ * @property-read \Modules\TechPlanner\Models\Profile|null $deleter
+>>>>>>> c8903a55c (.)
  * @mixin \Eloquent
  */
 class NotificationTemplateVersion extends BaseModel
