@@ -4,6 +4,10 @@ declare(strict_types=1);
 
 use Modules\Xot\Models\BaseModel;
 use Modules\Notify\Models\Notification;
+<<<<<<< HEAD
+=======
+use ReflectionClass;
+>>>>>>> c8903a55c (.)
 
 describe('Notification Business Logic', function () {
     test('notification extends xot base model', function () {
@@ -11,7 +15,12 @@ describe('Notification Business Logic', function () {
     });
 
     test('notification can store polymorphic notifiable relationships', function () {
+<<<<<<< HEAD
         $notification = new Notification();
+=======
+        $reflection = new ReflectionClass(Notification::class);
+        $notification = $reflection->newInstanceWithoutConstructor();
+>>>>>>> c8903a55c (.)
         $notification->notifiable_type = 'App\\Models\\User';
         $notification->notifiable_id = 1;
 
@@ -20,14 +29,24 @@ describe('Notification Business Logic', function () {
     });
 
     test('notification has notification type', function () {
+<<<<<<< HEAD
         $notification = new Notification();
+=======
+        $reflection = new ReflectionClass(Notification::class);
+        $notification = $reflection->newInstanceWithoutConstructor();
+>>>>>>> c8903a55c (.)
         $notification->type = 'App\\Notifications\\OrderConfirmation';
 
         expect($notification->type)->toBe('App\\Notifications\\OrderConfirmation');
     });
 
     test('notification can store data payload', function () {
+<<<<<<< HEAD
         $notification = new Notification();
+=======
+        $reflection = new ReflectionClass(Notification::class);
+        $notification = $reflection->newInstanceWithoutConstructor();
+>>>>>>> c8903a55c (.)
         $notification->data = ['title' => 'Test', 'message' => 'Hello World'];
 
         expect($notification->data)->toBeArray();
@@ -35,14 +54,24 @@ describe('Notification Business Logic', function () {
     });
 
     test('notification can track read status', function () {
+<<<<<<< HEAD
         $notification = new Notification();
+=======
+        $reflection = new ReflectionClass(Notification::class);
+        $notification = $reflection->newInstanceWithoutConstructor();
+>>>>>>> c8903a55c (.)
         $notification->read_at = '2023-01-01 12:00:00';
 
         expect($notification->read_at)->toBe('2023-01-01 12:00:00');
     });
 
     test('notification can track tenant and user', function () {
+<<<<<<< HEAD
         $notification = new Notification();
+=======
+        $reflection = new ReflectionClass(Notification::class);
+        $notification = $reflection->newInstanceWithoutConstructor();
+>>>>>>> c8903a55c (.)
         $notification->tenant_id = 1;
         $notification->user_id = 5;
 
@@ -51,7 +80,12 @@ describe('Notification Business Logic', function () {
     });
 
     test('notification can store polymorphic subject relationships', function () {
+<<<<<<< HEAD
         $notification = new Notification();
+=======
+        $reflection = new ReflectionClass(Notification::class);
+        $notification = $reflection->newInstanceWithoutConstructor();
+>>>>>>> c8903a55c (.)
         $notification->subject_type = 'App\\Models\\Order';
         $notification->subject_id = 123;
 
@@ -60,7 +94,12 @@ describe('Notification Business Logic', function () {
     });
 
     test('notification can track multiple channels', function () {
+<<<<<<< HEAD
         $notification = new Notification();
+=======
+        $reflection = new ReflectionClass(Notification::class);
+        $notification = $reflection->newInstanceWithoutConstructor();
+>>>>>>> c8903a55c (.)
         $notification->channels = ['mail', 'sms', 'database'];
 
         expect($notification->channels)->toBeArray();
@@ -69,7 +108,12 @@ describe('Notification Business Logic', function () {
     });
 
     test('notification can track status and sent time', function () {
+<<<<<<< HEAD
         $notification = new Notification();
+=======
+        $reflection = new ReflectionClass(Notification::class);
+        $notification = $reflection->newInstanceWithoutConstructor();
+>>>>>>> c8903a55c (.)
         $notification->status = 'sent';
         $notification->sent_at = '2023-01-01 14:00:00';
 
