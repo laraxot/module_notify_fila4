@@ -1,11 +1,1018 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
 namespace Modules\Notify\Models\Policies;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
 use Modules\User\Models\Policies\UserBasePolicy;
 
+<<<<<<< HEAD
 abstract class NotifyBasePolicy extends UserBasePolicy
 {
 }
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+}
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> a070a65a5 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 3f39ac8b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+=======
+>>>>>>> 4d2eb53e (.)
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
+abstract class NotifyBasePolicy extends UserBasePolicy {}
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy {}
+>>>>>>> f1c9518b (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+abstract class NotifyBasePolicy extends UserBasePolicy {}
+>>>>>>> d45a0226 (.)
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy {}
+>>>>>>> c8b1c8bf (.)
+=======
+<<<<<<< HEAD
+abstract class NotifyBasePolicy extends UserBasePolicy {}
+>>>>>>> f1c9518b (.)
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy {}
+>>>>>>> d45a0226 (.)
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy {}
+>>>>>>> c8b1c8bf (.)
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy {}
+>>>>>>> f1c9518b (.)
+=======
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy {}
+>>>>>>> d45a0226 (.)
+=======
+>>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+}
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy {}
+>>>>>>> a12f125f4a (.)
+>>>>>>> 2effe245 (.)
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+}
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy {}
+>>>>>>> a12f125f4a (.)
+>>>>>>> 2effe245 (.)
+=======
+=======
+>>>>>>> e53a56570 (.)
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+<<<<<<< HEAD
+}
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy {}
+>>>>>>> a12f125f4a (.)
+>>>>>>> 2effe245 (.)
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+}
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8c19c8df2 (.)
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+}
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+    
+}
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+}
+>>>>>>> 75179b85 (.)
+=======
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+=======
+>>>>>>> 011072e4 (.)
+>>>>>>> 1619767d8 (.)
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+}
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy {}
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 1619767d8 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 207ac35e (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 1619767d8 (.)
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+}
+>>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 1619767d8 (.)
+>>>>>>> 207ac35e (.)
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+}
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+}
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> f2e64178 (.)
+>>>>>>> 99ff506 (.)
+<<<<<<< HEAD
+>>>>>>> f2e64178 (.)
+=======
+=======
+>>>>>>> 0f07e6d (.)
+=======
+=======
+>>>>>>> 3f39ac8b (.)
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+}
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy {}
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+}
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+=======
+>>>>>>> 207ac35 (.)
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+}
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy {}
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+}
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+>>>>>>> 99ff506 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f1c9518b (.)
+=======
+=======
+=======
+>>>>>>> 0f07e6d (.)
+=======
+=======
+>>>>>>> 3f39ac8b (.)
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+}
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy {}
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 95531e1 (.)
+<<<<<<< HEAD
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 95531e1 (.)
+>>>>>>> 4d2eb53e (.)
+=======
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+}
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 0f07e6d (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 4d2eb53e (.)
+=======
+=======
+>>>>>>> 888799d0 (.)
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+}
+>>>>>>> e11621f (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 888799d0 (.)
+=======
+=======
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> b93ef594b4 (.)
+=======
+use Illuminate\Support\Str;
+use Modules\Xot\Datas\XotData;
+use Modules\User\Models\Permission;
+use Modules\Xot\Contracts\UserContract;
+use Illuminate\Auth\Access\HandlesAuthorization;
+>>>>>>> d284d65 (.)
+use Modules\User\Models\Policies\UserBasePolicy;
+
+<<<<<<< HEAD
+abstract class NotifyBasePolicy extends UserBasePolicy {}
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+}
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
+=======
+=======
+=======
+=======
+>>>>>>> f2e64178 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+    
+}
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f2e64178 (.)
+=======
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy {}
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
+=======
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
+=======
+=======
+>>>>>>> 207ac35 (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+}
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy {}
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 82ae73b (.)
+<<<<<<< HEAD
+>>>>>>> 2fc60436 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 82ae73b (.)
+>>>>>>> ce89c8bb (.)
+=======
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+}
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce89c8bb (.)
+=======
+=======
+>>>>>>> 58816034 (.)
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+}
+>>>>>>> 9777d1b (.)
+<<<<<<< HEAD
+>>>>>>> 58816034 (.)
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+}
+>>>>>>> 75179b85 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 99ff506 (.)
+>>>>>>> 98d837b9 (.)
+=======
+=======
+>>>>>>> 0f07e6d (.)
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+}
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy {}
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+}
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+}
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy {}
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+}
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> 95531e1 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy {}
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 82ae73b (.)
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 95531e1 (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+}
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 10292b60a (.)
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+}
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy {}
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+}
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+}
+>>>>>>> 75179b855 (.)
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+}
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy {}
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+}
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3f537838 (.)
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+}
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy {}
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 011072e4 (.)
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+}
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+>>>>>>> 99ff506 (.)
+<<<<<<< HEAD
+>>>>>>> f1c9518b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 95531e1 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 0f07e6d (.)
+<<<<<<< HEAD
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+=======
+=======
+>>>>>>> 0f07e6d (.)
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+}
+<<<<<<< HEAD
+>>>>>>> e11621f (.)
+<<<<<<< HEAD
+>>>>>>> 888799d0 (.)
+=======
+=======
+=======
+    
+}
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
+<<<<<<< HEAD
+>>>>>>> f2e64178 (.)
+=======
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> 98d837b9 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 301ad8b44 (.)
+=======
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
+=======
+=======
+>>>>>>> 207ac35e (.)
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+=======
+>>>>>>> 2941b0bd (.)
+>>>>>>> a070a65a5 (.)
+=======
+>>>>>>> e53a56570 (.)
+=======
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy {}
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+>>>>>>> 95531e1 (.)
+<<<<<<< HEAD
+>>>>>>> 3f39ac8b (.)
+<<<<<<< HEAD
+>>>>>>> f87b41c3b (.)
+=======
+=======
+=======
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+}
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 0f07e6d (.)
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+>>>>>>> 2f135ef98 (.)
+=======
+=======
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+}
+>>>>>>> e11621f (.)
+<<<<<<< HEAD
+>>>>>>> 888799d0 (.)
+=======
+=======
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+use Illuminate\Support\Str;
+use Modules\Xot\Datas\XotData;
+use Modules\User\Models\Permission;
+use Modules\Xot\Contracts\UserContract;
+use Illuminate\Auth\Access\HandlesAuthorization;
+>>>>>>> d284d65 (.)
+use Modules\User\Models\Policies\UserBasePolicy;
+
+<<<<<<< HEAD
+abstract class NotifyBasePolicy extends UserBasePolicy {}
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+<<<<<<< HEAD
+}
+>>>>>>> 2effe245 (.)
+=======
+    
+}
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f2e64178 (.)
+<<<<<<< HEAD
+>>>>>>> 23f115647 (.)
+=======
+=======
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
+>>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+>>>>>>> 26d39e2eb (.)
+=======
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy {}
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
+<<<<<<< HEAD
+>>>>>>> f15c41e60 (.)
+=======
+=======
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+>>>>>>> 7ceb00286 (.)
+=======
+=======
+=======
+=======
+>>>>>>> 207ac35 (.)
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+}
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy {}
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+>>>>>>> 82ae73b (.)
+<<<<<<< HEAD
+>>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
+>>>>>>> be698cf2c (.)
+=======
+=======
+=======
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+}
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+}
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)

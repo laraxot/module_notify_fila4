@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Troubleshooting Notification Issues in Laravel Modules
 
 ## Overview
@@ -33,6 +34,121 @@ This document provides guidance on diagnosing and resolving common issues encoun
 - **Diagnosis**: Check environment variables and configuration files for typos or missing values.
 - **Fix**: Update configurations with correct values and restart application if necessary.
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 4bec160e6 (.)
+=======
+>>>>>>> 138485550 (.)
+=======
+>>>>>>> 998e6866b (.)
+=======
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 70175d0c4 (.)
+=======
+>>>>>>> 731b801a8 (.)
+=======
+>>>>>>> b85076e48 (.)
+=======
+>>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> ce1853afd (.)
+=======
+>>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> c31e900eb (.)
+=======
+>>>>>>> fea359347 (.)
+=======
+>>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> 602b8a0a9 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 ### 5. ParseError durante composer update - Assert::string con assegnazione inline
 - **Symptoms**: Errore `ParseError: syntax error, unexpected token "->"` durante `composer update -W` o `php artisan package:discover`.
 - **Diagnosis**: Il problema si verifica quando si usa `Assert::string()` con un'assegnazione inline seguita immediatamente da una chiamata a metodo con `->`.
@@ -84,6 +200,189 @@ This document provides guidance on diagnosing and resolving common issues encoun
 - **Prevenzione**: Utilizzare sempre tipizzazione esplicita per array e verificare tipi prima di accedere a offset su valori mixed
 - **Documentazione completa**: Vedi [phpstan-level10-analysis.md](./phpstan-level10-analysis.md)
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> ee18dd92 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 36321fcb (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> fd1fcc4c (.)
+=======
+>>>>>>> 4f3927d7 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 36321fcb (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fd1fcc4c (.)
+=======
+>>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 36321fcb (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 712617d3 (.)
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> f963d2c0 (.)
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 4bec160e6 (.)
+=======
+>>>>>>> 138485550 (.)
+=======
+=======
+>>>>>>> 2a97406c (.)
+>>>>>>> 998e6866b (.)
+=======
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 70175d0c4 (.)
+=======
+=======
+>>>>>>> 712617d3 (.)
+>>>>>>> 731b801a8 (.)
+=======
+=======
+>>>>>>> fdb24863 (rebase 210)
+>>>>>>> b85076e48 (.)
+=======
+>>>>>>> 43dd68f4b (.)
+=======
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+>>>>>>> ce1853afd (.)
+=======
+>>>>>>> 7a142b4f5 (.)
+=======
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+>>>>>>> c31e900eb (.)
+=======
+>>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> fd1fcc4c (.)
+>>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> 602b8a0a9 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 ## Testing and Verification
 - Use sandbox environments or test modes provided by notification services to simulate sends without affecting real users.
 - Verify fixes by sending test notifications after applying changes.
@@ -98,3 +397,5 @@ This document provides guidance on diagnosing and resolving common issues encoun
 - [Notification Channels Implementation](./NOTIFICATION_CHANNELS_IMPLEMENTATION.md)
 - [Email Templates](./EMAIL_TEMPLATES.md)
 - [SMS Implementation](./SMS_IMPLEMENTATION.md)
+=======
+>>>>>>> 301ad8b44 (.)

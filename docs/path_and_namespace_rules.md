@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Regole per Path e Namespace nel Modulo Notify
 
 > **ATTENZIONE:** In nessun caso il namespace deve contenere il segmento `App`, anche se il file si trova nella cartella `app/`. Questa è una regola fondamentale e ogni violazione può causare errori di autoloading, incompatibilità con PSR-4 e problemi di coerenza nel progetto. Consulta sempre questa sezione prima di creare nuovi file o correggere errori di namespace.
@@ -7,19 +8,255 @@
 ### ✅ Path Corretti
 
 ```
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/SMS
+/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Http/Controllers
+/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Providers
+/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Models
+/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Filament
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 36ac4fc1 (.)
+/var/www/html/<directory progetto>/laravel/Modules/Notify/app/Actions/SMS
+/var/www/html/<directory progetto>/laravel/Modules/Notify/app/Http/Controllers
+/var/www/html/<directory progetto>/laravel/Modules/Notify/app/Providers
+/var/www/html/<directory progetto>/laravel/Modules/Notify/app/Models
+/var/www/html/<directory progetto>/laravel/Modules/Notify/app/Filament
+=======
+<<<<<<< HEAD
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+<<<<<<< HEAD
+/var/www/html/<directory progetto>/laravel/Modules/Notify/app/Actions/SMS
+/var/www/html/<directory progetto>/laravel/Modules/Notify/app/Http/Controllers
+/var/www/html/<directory progetto>/laravel/Modules/Notify/app/Providers
+/var/www/html/<directory progetto>/laravel/Modules/Notify/app/Models
+/var/www/html/<directory progetto>/laravel/Modules/Notify/app/Filament
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> 331118f25 (.)
 /var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS
 /var/www/html/saluteora/laravel/Modules/Notify/app/Http/Controllers
 /var/www/html/saluteora/laravel/Modules/Notify/app/Providers
 /var/www/html/saluteora/laravel/Modules/Notify/app/Models
 /var/www/html/saluteora/laravel/Modules/Notify/app/Filament
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> fea359347 (.)
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+>>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> fea359347 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 ```
 
 ### ❌ Path Errati
 
 ```
+<<<<<<< HEAD
 /var/www/html/saluteora/laravel/Modules/Notify/App/Actions/SMS
 /var/www/html/saluteora/laravel/Modules/Notify/App/Http/Controllers
 /var/www/html/saluteora/laravel/Modules/Notify/App/Providers
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 12a7e2462 (.)
+=======
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+/var/www/html/<nome progetto>/laravel/Modules/Notify/App/Actions/SMS
+/var/www/html/<nome progetto>/laravel/Modules/Notify/App/Http/Controllers
+/var/www/html/<nome progetto>/laravel/Modules/Notify/App/Providers
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+/var/www/html/<nome progetto>/laravel/Modules/Notify/App/Actions/SMS
+/var/www/html/<nome progetto>/laravel/Modules/Notify/App/Http/Controllers
+/var/www/html/<nome progetto>/laravel/Modules/Notify/App/Providers
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fea359347 (.)
+/var/www/html/saluteora/laravel/Modules/Notify/App/Actions/SMS
+/var/www/html/saluteora/laravel/Modules/Notify/App/Http/Controllers
+/var/www/html/saluteora/laravel/Modules/Notify/App/Providers
+>>>>>>> f963d2c0 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/App/Actions/SMS
+/var/www/html/saluteora/laravel/Modules/Notify/App/Http/Controllers
+/var/www/html/saluteora/laravel/Modules/Notify/App/Providers
+>>>>>>> f963d2c0 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/App/Actions/SMS
+/var/www/html/saluteora/laravel/Modules/Notify/App/Http/Controllers
+/var/www/html/saluteora/laravel/Modules/Notify/App/Providers
+>>>>>>> f963d2c0 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/App/Actions/SMS
+/var/www/html/saluteora/laravel/Modules/Notify/App/Http/Controllers
+/var/www/html/saluteora/laravel/Modules/Notify/App/Providers
+>>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> fea359347 (.)
+/var/www/html/<directory progetto>/laravel/Modules/Notify/App/Actions/SMS
+/var/www/html/<directory progetto>/laravel/Modules/Notify/App/Http/Controllers
+/var/www/html/<directory progetto>/laravel/Modules/Notify/App/Providers
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/App/Actions/SMS
+/var/www/html/saluteora/laravel/Modules/Notify/App/Http/Controllers
+/var/www/html/saluteora/laravel/Modules/Notify/App/Providers
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 36ac4fc1 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/App/Actions/SMS
+/var/www/html/saluteora/laravel/Modules/Notify/App/Http/Controllers
+/var/www/html/saluteora/laravel/Modules/Notify/App/Providers
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/App/Actions/SMS
+/var/www/html/saluteora/laravel/Modules/Notify/App/Http/Controllers
+/var/www/html/saluteora/laravel/Modules/Notify/App/Providers
+>>>>>>> f963d2c0 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/App/Actions/SMS
+/var/www/html/saluteora/laravel/Modules/Notify/App/Http/Controllers
+/var/www/html/saluteora/laravel/Modules/Notify/App/Providers
+>>>>>>> f963d2c0 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/App/Actions/SMS
+/var/www/html/<nome progetto>/laravel/Modules/Notify/App/Http/Controllers
+/var/www/html/<nome progetto>/laravel/Modules/Notify/App/Providers
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 ```
 
 ## Struttura Corretta dei Namespace
@@ -54,7 +291,81 @@ namespace Modules\Notify\App\Datas;
 
 **Path fisico corretto:**
 ```
+<<<<<<< HEAD
 /var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/SendNetfunSmsAction.php
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/SMS/SendNetfunSmsAction.php
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/SMS/SendNetfunSmsAction.php
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/SendNetfunSmsAction.php
+>>>>>>> f963d2c0 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/SendNetfunSmsAction.php
+>>>>>>> f963d2c0 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/SendNetfunSmsAction.php
+>>>>>>> f963d2c0 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/SendNetfunSmsAction.php
+>>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/SMS/SendNetfunSmsAction.php
+=======
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/SMS/SendNetfunSmsAction.php
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/SMS/SendNetfunSmsAction.php
+=======
+>>>>>>> fea359347 (.)
+<<<<<<< HEAD
+/var/www/html/<directory progetto>/laravel/Modules/Notify/app/Actions/SMS/SendNetfunSmsAction.php
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/SendNetfunSmsAction.php
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 36ac4fc1 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/SendNetfunSmsAction.php
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/SendNetfunSmsAction.php
+>>>>>>> f963d2c0 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/SendNetfunSmsAction.php
+>>>>>>> f963d2c0 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/SMS/SendNetfunSmsAction.php
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 ```
 
 **Namespace corretto:**
@@ -66,7 +377,81 @@ namespace Modules\Notify\Actions\SMS;
 
 **Path fisico corretto:**
 ```
+<<<<<<< HEAD
 /var/www/html/saluteora/laravel/Modules/Notify/app/Http/Controllers/NotificationController.php
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Http/Controllers/NotificationController.php
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Http/Controllers/NotificationController.php
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Http/Controllers/NotificationController.php
+>>>>>>> f963d2c0 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Http/Controllers/NotificationController.php
+>>>>>>> f963d2c0 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Http/Controllers/NotificationController.php
+>>>>>>> f963d2c0 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Http/Controllers/NotificationController.php
+>>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Http/Controllers/NotificationController.php
+=======
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Http/Controllers/NotificationController.php
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Http/Controllers/NotificationController.php
+=======
+>>>>>>> fea359347 (.)
+<<<<<<< HEAD
+/var/www/html/<directory progetto>/laravel/Modules/Notify/app/Http/Controllers/NotificationController.php
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Http/Controllers/NotificationController.php
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 36ac4fc1 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Http/Controllers/NotificationController.php
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Http/Controllers/NotificationController.php
+>>>>>>> f963d2c0 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Http/Controllers/NotificationController.php
+>>>>>>> f963d2c0 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Http/Controllers/NotificationController.php
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 ```
 
 **Namespace corretto:**
@@ -78,7 +463,81 @@ namespace Modules\Notify\Http\Controllers;
 
 **Path fisico corretto:**
 ```
+<<<<<<< HEAD
 /var/www/html/saluteora/laravel/Modules/Notify/app/Providers/NotifyServiceProvider.php
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Providers/NotifyServiceProvider.php
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Providers/NotifyServiceProvider.php
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Providers/NotifyServiceProvider.php
+>>>>>>> f963d2c0 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Providers/NotifyServiceProvider.php
+>>>>>>> f963d2c0 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Providers/NotifyServiceProvider.php
+>>>>>>> f963d2c0 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Providers/NotifyServiceProvider.php
+>>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Providers/NotifyServiceProvider.php
+=======
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Providers/NotifyServiceProvider.php
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Providers/NotifyServiceProvider.php
+=======
+>>>>>>> fea359347 (.)
+<<<<<<< HEAD
+/var/www/html/<directory progetto>/laravel/Modules/Notify/app/Providers/NotifyServiceProvider.php
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Providers/NotifyServiceProvider.php
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 36ac4fc1 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Providers/NotifyServiceProvider.php
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Providers/NotifyServiceProvider.php
+>>>>>>> f963d2c0 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Providers/NotifyServiceProvider.php
+>>>>>>> f963d2c0 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Providers/NotifyServiceProvider.php
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 ```
 
 **Namespace corretto:**
@@ -90,7 +549,81 @@ namespace Modules\Notify\Providers;
 
 **Path fisico corretto:**
 ```
+<<<<<<< HEAD
 /var/www/html/saluteora/laravel/Modules/Notify/app/Datas/NetfunSMSMessage.php
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Datas/NetfunSMSMessage.php
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Datas/NetfunSMSMessage.php
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Datas/NetfunSMSMessage.php
+>>>>>>> f963d2c0 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Datas/NetfunSMSMessage.php
+>>>>>>> f963d2c0 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Datas/NetfunSMSMessage.php
+>>>>>>> f963d2c0 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Datas/NetfunSMSMessage.php
+>>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Datas/NetfunSMSMessage.php
+=======
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Datas/NetfunSMSMessage.php
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Datas/NetfunSMSMessage.php
+=======
+>>>>>>> fea359347 (.)
+<<<<<<< HEAD
+/var/www/html/<directory progetto>/laravel/Modules/Notify/app/Datas/NetfunSMSMessage.php
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Datas/NetfunSMSMessage.php
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 36ac4fc1 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Datas/NetfunSMSMessage.php
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Datas/NetfunSMSMessage.php
+>>>>>>> f963d2c0 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Datas/NetfunSMSMessage.php
+>>>>>>> f963d2c0 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Datas/NetfunSMSMessage.php
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 ```
 
 **Namespace corretto:**
@@ -107,7 +640,81 @@ namespace Modules\Notify\App\Datas;
 
 ## Motivo di questa Regola
 
+<<<<<<< HEAD
 Questa struttura di namespace mantiene compatibilità con la convenzione di Laravel e il sistema di moduli Nwidart, anche se i file sono fisicamente organizzati in modo diverso. Questo approccio è stato adottato per standardizzare i namespace in tutto il progetto SaluteOra.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+Questa struttura di namespace mantiene compatibilità con la convenzione di Laravel e il sistema di moduli Nwidart, anche se i file sono fisicamente organizzati in modo diverso. Questo approccio è stato adottato per standardizzare i namespace in tutto il progetto <nome progetto>.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+Questa struttura di namespace mantiene compatibilità con la convenzione di Laravel e il sistema di moduli Nwidart, anche se i file sono fisicamente organizzati in modo diverso. Questo approccio è stato adottato per standardizzare i namespace in tutto il progetto <nome progetto>.
+=======
+Questa struttura di namespace mantiene compatibilità con la convenzione di Laravel e il sistema di moduli Nwidart, anche se i file sono fisicamente organizzati in modo diverso. Questo approccio è stato adottato per standardizzare i namespace in tutto il progetto SaluteOra.
+>>>>>>> f963d2c0 (.)
+=======
+Questa struttura di namespace mantiene compatibilità con la convenzione di Laravel e il sistema di moduli Nwidart, anche se i file sono fisicamente organizzati in modo diverso. Questo approccio è stato adottato per standardizzare i namespace in tutto il progetto SaluteOra.
+>>>>>>> f963d2c0 (.)
+=======
+Questa struttura di namespace mantiene compatibilità con la convenzione di Laravel e il sistema di moduli Nwidart, anche se i file sono fisicamente organizzati in modo diverso. Questo approccio è stato adottato per standardizzare i namespace in tutto il progetto SaluteOra.
+>>>>>>> f963d2c0 (.)
+=======
+Questa struttura di namespace mantiene compatibilità con la convenzione di Laravel e il sistema di moduli Nwidart, anche se i file sono fisicamente organizzati in modo diverso. Questo approccio è stato adottato per standardizzare i namespace in tutto il progetto SaluteOra.
+>>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Questa struttura di namespace mantiene compatibilità con la convenzione di Laravel e il sistema di moduli Nwidart, anche se i file sono fisicamente organizzati in modo diverso. Questo approccio è stato adottato per standardizzare i namespace in tutto il progetto <nome progetto>.
+=======
+=======
+Questa struttura di namespace mantiene compatibilità con la convenzione di Laravel e il sistema di moduli Nwidart, anche se i file sono fisicamente organizzati in modo diverso. Questo approccio è stato adottato per standardizzare i namespace in tutto il progetto <nome progetto>.
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+=======
+Questa struttura di namespace mantiene compatibilità con la convenzione di Laravel e il sistema di moduli Nwidart, anche se i file sono fisicamente organizzati in modo diverso. Questo approccio è stato adottato per standardizzare i namespace in tutto il progetto <nome progetto>.
+=======
+>>>>>>> fea359347 (.)
+<<<<<<< HEAD
+Questa struttura di namespace mantiene compatibilità con la convenzione di Laravel e il sistema di moduli Nwidart, anche se i file sono fisicamente organizzati in modo diverso. Questo approccio è stato adottato per standardizzare i namespace in tutto il progetto <main module>.
+=======
+Questa struttura di namespace mantiene compatibilità con la convenzione di Laravel e il sistema di moduli Nwidart, anche se i file sono fisicamente organizzati in modo diverso. Questo approccio è stato adottato per standardizzare i namespace in tutto il progetto SaluteOra.
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 36ac4fc1 (.)
+=======
+Questa struttura di namespace mantiene compatibilità con la convenzione di Laravel e il sistema di moduli Nwidart, anche se i file sono fisicamente organizzati in modo diverso. Questo approccio è stato adottato per standardizzare i namespace in tutto il progetto SaluteOra.
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+Questa struttura di namespace mantiene compatibilità con la convenzione di Laravel e il sistema di moduli Nwidart, anche se i file sono fisicamente organizzati in modo diverso. Questo approccio è stato adottato per standardizzare i namespace in tutto il progetto SaluteOra.
+>>>>>>> f963d2c0 (.)
+=======
+Questa struttura di namespace mantiene compatibilità con la convenzione di Laravel e il sistema di moduli Nwidart, anche se i file sono fisicamente organizzati in modo diverso. Questo approccio è stato adottato per standardizzare i namespace in tutto il progetto SaluteOra.
+>>>>>>> f963d2c0 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+Questa struttura di namespace mantiene compatibilità con la convenzione di Laravel e il sistema di moduli Nwidart, anche se i file sono fisicamente organizzati in modo diverso. Questo approccio è stato adottato per standardizzare i namespace in tutto il progetto <nome progetto>.
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 
 ## Esempio per Datas
 
@@ -139,7 +746,81 @@ Per le regole generali e condivise tra tutti i moduli, consulta anche:
 
 **Path fisico corretto:**
 ```
+<<<<<<< HEAD
 /var/www/html/saluteora/laravel/Modules/Notify/app/Console/Commands/AnalyzeTranslationFiles.php
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Console/Commands/AnalyzeTranslationFiles.php
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Console/Commands/AnalyzeTranslationFiles.php
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Console/Commands/AnalyzeTranslationFiles.php
+>>>>>>> f963d2c0 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Console/Commands/AnalyzeTranslationFiles.php
+>>>>>>> f963d2c0 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Console/Commands/AnalyzeTranslationFiles.php
+>>>>>>> f963d2c0 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Console/Commands/AnalyzeTranslationFiles.php
+>>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Console/Commands/AnalyzeTranslationFiles.php
+=======
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Console/Commands/AnalyzeTranslationFiles.php
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Console/Commands/AnalyzeTranslationFiles.php
+=======
+>>>>>>> fea359347 (.)
+<<<<<<< HEAD
+/var/www/html/<directory progetto>/laravel/Modules/Notify/app/Console/Commands/AnalyzeTranslationFiles.php
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Console/Commands/AnalyzeTranslationFiles.php
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 36ac4fc1 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Console/Commands/AnalyzeTranslationFiles.php
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Console/Commands/AnalyzeTranslationFiles.php
+>>>>>>> f963d2c0 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Console/Commands/AnalyzeTranslationFiles.php
+>>>>>>> f963d2c0 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Console/Commands/AnalyzeTranslationFiles.php
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 ```
 
 **Namespace corretto:**
@@ -157,3 +838,5 @@ namespace Modules\Notify\App\Console\Commands;
 ---
 
 *Ultimo aggiornamento: 2025-05-12*
+=======
+>>>>>>> 301ad8b44 (.)

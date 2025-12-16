@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Guida all'Implementazione delle Notifiche 
 
 Questa documentazione descrive come implementare correttamente le notifiche utilizzando Laravel Notifications nel modulo Notify.
@@ -45,7 +46,81 @@ class RecordNotification extends Notification implements ShouldQueue
     public function toMail(object $notifiable): MailMessage
     {
         return (new MailMessage)
+<<<<<<< HEAD
             ->subject('Notifica da <nome progetto>')
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            ->subject('Notifica da <nome progetto>')
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            ->subject('Notifica da <nome progetto>')
+=======
+            ->subject('Notifica da SaluteOra')
+>>>>>>> f963d2c0 (.)
+=======
+            ->subject('Notifica da SaluteOra')
+>>>>>>> f963d2c0 (.)
+=======
+            ->subject('Notifica da SaluteOra')
+>>>>>>> f963d2c0 (.)
+=======
+            ->subject('Notifica da SaluteOra')
+>>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            ->subject('Notifica da <nome progetto>')
+=======
+=======
+            ->subject('Notifica da <nome progetto>')
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+=======
+            ->subject('Notifica da <nome progetto>')
+=======
+>>>>>>> fea359347 (.)
+<<<<<<< HEAD
+            ->subject('Notifica da <main module>')
+=======
+            ->subject('Notifica da SaluteOra')
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 36ac4fc1 (.)
+=======
+            ->subject('Notifica da SaluteOra')
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+            ->subject('Notifica da SaluteOra')
+>>>>>>> f963d2c0 (.)
+=======
+            ->subject('Notifica da SaluteOra')
+>>>>>>> f963d2c0 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+            ->subject('Notifica da <nome progetto>')
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
             ->greeting('Ciao ' . $this->record->name)
             ->line('Contenuto della notifica...')
             ->action('Visualizza', url('/'))
@@ -161,3 +236,5 @@ public function toMail(object $notifiable): \Illuminate\Mail\Mailable
 - [ATTACHMENTS_USAGE.md](../email-sending/ATTACHMENTS_USAGE.md)
 - [EMAIL_LAYOUTS_BEST_PRACTICES.md](../mail-templates/EMAIL_LAYOUTS_BEST_PRACTICES.md)
 - [EMAIL_TROUBLESHOOTING.md](../email-sending/EMAIL_TROUBLESHOOTING.md)
+=======
+>>>>>>> 301ad8b44 (.)

@@ -1,3 +1,320 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 36321fcb (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> 36321fcb (.)
+=======
+>>>>>>> b99af5a8 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> 36321fcb (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 2a97406c (.)
+>>>>>>> 998e6866b (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+=======
+>>>>>>> 4f042b88 (.)
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+=======
+>>>>>>> 36321fcb (.)
+>>>>>>> 70175d0c4 (.)
+=======
+>>>>>>> 47bbf2b1c (.)
+=======
+=======
+>>>>>>> 712617d3 (.)
+>>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+=======
+>>>>>>> fdb24863 (rebase 210)
+<<<<<<< HEAD
+>>>>>>> b85076e48 (.)
+=======
+=======
+>>>>>>> 3d462363 (rebase 210)
+>>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 43dd68f4b (.)
+=======
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+>>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
+=======
+=======
+>>>>>>> eb62d6cf (rebase 210)
+>>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+>>>>>>> c31e900eb (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 # Sistema Monitoraggio Email 
 
 ## Panoramica
@@ -815,7 +1132,975 @@ class MailMonitoringDebugger
 - [Email Plugins Analysis](email-plugins-analysis.md)
 
 ## Vedi Anche
+<<<<<<< HEAD
 - [Laravel Cache](https://laravel.com/docs/cache)
 - [Laravel Events](https://laravel.com/docs/events)
 - [Laravel Commands](https://laravel.com/docs/artisan) 
 - [Laravel Events](https://laravel.com/docs/events) 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+- [Laravel Events](https://laravel.com/docs/events) 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fbed41ac (.)
+=======
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> e2f1a4045 (.)
+=======
+>>>>>>> 4bec160e6 (.)
+=======
+>>>>>>> 01af324fe (.)
+=======
+>>>>>>> 138485550 (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 998e6866b (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 70175d0c4 (.)
+=======
+>>>>>>> 47bbf2b1c (.)
+=======
+>>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> b85076e48 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> c31e900eb (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+>>>>>>> fea359347 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+- [Laravel Events](https://laravel.com/docs/events) 
+=======
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 6608a1a0 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 31f5d28f (.)
+>>>>>>> e2f1a4045 (.)
+=======
+>>>>>>> 01af324fe (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+=======
+>>>>>>> 909e45af (.)
+>>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+=======
+>>>>>>> 3d462363 (rebase 210)
+>>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+=======
+>>>>>>> 545977c8 (rebase 210)
+>>>>>>> ad905ce9c (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+- [Laravel Cache](https://laravel.com/project_docs/cache)
+- [Laravel Events](https://laravel.com/project_docs/events)
+- [Laravel Commands](https://laravel.com/project_docs/artisan) 
+- [Laravel Events](https://laravel.com/project_docs/events) 
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> fbed41ac (.)
+=======
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> b99af5a8 (.)
+>>>>>>> 47bbf2b1c (.)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
+>>>>>>> 43dd68f4b (.)
+=======
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
+- [Laravel Cache](https://laravel.com/project_docs/cache)
+- [Laravel Events](https://laravel.com/project_docs/events)
+- [Laravel Commands](https://laravel.com/project_docs/artisan) 
+- [Laravel Events](https://laravel.com/project_docs/events) 
+>>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+- [Laravel Events](https://laravel.com/docs/events) 
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> e2f1a4045 (.)
+=======
+>>>>>>> 01af324fe (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 47bbf2b1c (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+>>>>>>> 75179b85 (.)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+- [Laravel Events](https://laravel.com/docs/events) 
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+- [Laravel Events](https://laravel.com/docs/events) 
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+- [Laravel Events](https://laravel.com/docs/events) 
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+- [Laravel Events](https://laravel.com/docs/events) 
+>>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 31f5d28f (.)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+- [Laravel Events](https://laravel.com/docs/events) 
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+- [Laravel Events](https://laravel.com/docs/events) 
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+- [Laravel Events](https://laravel.com/docs/events) 
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 36136dcfa (.)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+- [Laravel Events](https://laravel.com/docs/events) 
+>>>>>>> 4f042b88 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+- [Laravel Events](https://laravel.com/docs/events) 
+>>>>>>> 36321fcb (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+- [Laravel Events](https://laravel.com/docs/events) 
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+- [Laravel Events](https://laravel.com/docs/events) 
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+<<<<<<< HEAD
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ce1853afd (.)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+- [Laravel Events](https://laravel.com/docs/events) 
+>>>>>>> 9c45d9bd (rebase 210)
+<<<<<<< HEAD
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+- [Laravel Events](https://laravel.com/docs/events) 
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+- [Laravel Events](https://laravel.com/docs/events) 
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+- [Laravel Events](https://laravel.com/docs/events) 
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+- [Laravel Events](https://laravel.com/docs/events) 
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+- [Laravel Events](https://laravel.com/docs/events) 
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+- [Laravel Events](https://laravel.com/docs/events) 
+>>>>>>> ee18dd92 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+- [Laravel Events](https://laravel.com/docs/events) 
+>>>>>>> 66453ace (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+- [Laravel Events](https://laravel.com/docs/events) 
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+- [Laravel Events](https://laravel.com/docs/events) 
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+- [Laravel Events](https://laravel.com/docs/events) 
+>>>>>>> 36321fcb (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b99af5a8 (.)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+- [Laravel Events](https://laravel.com/docs/events) 
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+- [Laravel Events](https://laravel.com/docs/events) 
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+- [Laravel Events](https://laravel.com/docs/events) 
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7a142b4f5 (.)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+- [Laravel Events](https://laravel.com/docs/events) 
+>>>>>>> eb62d6cf (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+- [Laravel Events](https://laravel.com/docs/events) 
+>>>>>>> 8c8937e7 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+- [Laravel Events](https://laravel.com/docs/events) 
+>>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 379ffe3f3 (.)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+- [Laravel Events](https://laravel.com/docs/events) 
+>>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+- [Laravel Events](https://laravel.com/docs/events) 
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+- [Laravel Events](https://laravel.com/docs/events) 
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+- [Laravel Events](https://laravel.com/docs/events) 
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+- [Laravel Events](https://laravel.com/docs/events) 
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+- [Laravel Events](https://laravel.com/docs/events) 
+>>>>>>> 2a97406c (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 909e45af (.)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+- [Laravel Events](https://laravel.com/docs/events) 
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+- [Laravel Events](https://laravel.com/docs/events) 
+>>>>>>> 36321fcb (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+- [Laravel Events](https://laravel.com/docs/events) 
+>>>>>>> 712617d3 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 301ad8b44 (.)
+=======
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+=======
+>>>>>>> 31f5d28f (.)
+>>>>>>> e2f1a4045 (.)
+=======
+>>>>>>> 4bec160e6 (.)
+=======
+=======
+>>>>>>> 6608a1a0 (.)
+>>>>>>> 01af324fe (.)
+=======
+>>>>>>> 138485550 (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 998e6866b (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 36136dcfa (.)
+=======
+=======
+>>>>>>> bb7e77c2 (.)
+>>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 70175d0c4 (.)
+=======
+=======
+>>>>>>> b99af5a8 (.)
+>>>>>>> 47bbf2b1c (.)
+=======
+>>>>>>> 731b801a8 (.)
+=======
+=======
+>>>>>>> f3086887 (rebase 210)
+>>>>>>> 74eb2e964 (.)
+=======
+=======
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+- [Laravel Events](https://laravel.com/docs/events) 
+>>>>>>> fdb24863 (rebase 210)
+>>>>>>> b85076e48 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 7a142b4f5 (.)
+=======
+=======
+>>>>>>> 6e12a84b (rebase 210)
+>>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> c31e900eb (.)
+=======
+=======
+>>>>>>> 545977c8 (rebase 210)
+>>>>>>> ad905ce9c (.)
+=======
+>>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> 69fa7d37 (.)
+>>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+- [Laravel Events](https://laravel.com/docs/events) 
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)

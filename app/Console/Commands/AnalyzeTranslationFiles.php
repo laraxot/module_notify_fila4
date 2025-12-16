@@ -7,7 +7,44 @@ namespace Modules\Notify\Console\Commands;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
 use Symfony\Component\Console\Helper\Table;
+<<<<<<< HEAD
 use Webmozart\Assert\Assert;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Webmozart\Assert\Assert;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Webmozart\Assert\Assert;
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
+=======
+use Webmozart\Assert\Assert;
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 
 class AnalyzeTranslationFiles extends Command
 {
@@ -40,31 +77,319 @@ class AnalyzeTranslationFiles extends Command
 
         // Collect all files and their keys
         foreach ($languages as $langDir) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
             /** @var string $langDirPath */
             $langDirPath = is_string($langDir) ? $langDir : (string) $langDir;
             $lang = basename($langDirPath);
             $files = File::files($langDirPath);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+            $lang = basename($langDir);
+            $files = File::files($langDir);
+>>>>>>> 75179b85 (.)
+=======
+            $lang = basename($langDir);
+            $files = File::files($langDir);
+>>>>>>> 75179b85 (.)
+=======
+            $lang = basename($langDir);
+            $files = File::files($langDir);
+>>>>>>> 75179b85 (.)
+=======
+            $lang = basename($langDir);
+            $files = File::files($langDir);
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+=======
+            $lang = basename($langDir);
+            $files = File::files($langDir);
+>>>>>>> 5fd545e4 (.)
+=======
+            $lang = basename($langDir);
+            $files = File::files($langDir);
+>>>>>>> 54220b28 (rebase 210)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+            $lang = basename((string) $langDir);
+            $files = File::files((string) $langDir);
+=======
+            $lang = basename($langDir);
+            $files = File::files($langDir);
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
+            $lang = basename($langDir);
+            $files = File::files($langDir);
+>>>>>>> 75179b85 (.)
+=======
+            $lang = basename($langDir);
+            $files = File::files($langDir);
+>>>>>>> 5fd545e4 (.)
+=======
+            $lang = basename($langDir);
+            $files = File::files($langDir);
+>>>>>>> 54220b28 (rebase 210)
+=======
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
+            $lang = basename($langDir);
+            $files = File::files($langDir);
+>>>>>>> 75179b85 (.)
+=======
+            $lang = basename($langDir);
+            $files = File::files($langDir);
+>>>>>>> 75179b855 (.)
+=======
+            $lang = basename($langDir);
+            $files = File::files($langDir);
+>>>>>>> 5fd545e4 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
+=======
+            $lang = basename((string) $langDir);
+            $files = File::files((string) $langDir);
+=======
+            $lang = basename($langDir);
+            $files = File::files($langDir);
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 
             foreach ($files as $file) {
                 $filename = $file->getFilename();
                 $filePath = $file->getPathname();
 
                 // Skip non-PHP files
+<<<<<<< HEAD
                 if (!str_ends_with($filename, '.php')) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                if (!str_ends_with($filename, '.php')) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
+                if (! str_ends_with($filename, '.php')) {
+=======
+                if (!str_ends_with($filename, '.php')) {
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                if (!str_ends_with($filename, '.php')) {
+>>>>>>> 75179b85 (.)
+=======
+                if (! str_ends_with($filename, '.php')) {
+=======
+                if (!str_ends_with($filename, '.php')) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+                if (!str_ends_with($filename, '.php')) {
+>>>>>>> 75179b85 (.)
+=======
+                if (!str_ends_with($filename, '.php')) {
+>>>>>>> 75179b855 (.)
+=======
+                if (! str_ends_with($filename, '.php')) {
+=======
+                if (!str_ends_with($filename, '.php')) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> laraxot/develop
+=======
+                if (! str_ends_with($filename, '.php')) {
+=======
+                if (!str_ends_with($filename, '.php')) {
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+                if (!str_ends_with($filename, '.php')) {
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
                     continue;
                 }
 
                 $translations = require $filePath;
 
+<<<<<<< HEAD
                 if (!is_array($translations)) {
                     $this->warn("File {$lang}/{$filename} does not return an array.");
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                if (!is_array($translations)) {
+                    $this->warn("File {$lang}/{$filename} does not return an array.");
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+                if (! is_array($translations)) {
+                    $this->warn("File {$lang}/{$filename} does not return an array.");
+
+=======
+                if (!is_array($translations)) {
+                    $this->warn("File {$lang}/{$filename} does not return an array.");
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b8 (.)
+=======
+                if (!is_array($translations)) {
+                    $this->warn("File {$lang}/{$filename} does not return an array.");
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+=======
+                if (!is_array($translations)) {
+                    $this->warn("File {$lang}/{$filename} does not return an array.");
+>>>>>>> 75179b85 (.)
+=======
+                if (!is_array($translations)) {
+                    $this->warn("File {$lang}/{$filename} does not return an array.");
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> 7ceb00286 (.)
+=======
+                if (!is_array($translations)) {
+                    $this->warn("File {$lang}/{$filename} does not return an array.");
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
                     continue;
                 }
 
                 $allFiles["{$lang}/{$filename}"] = $this->flattenArray($translations);
 
                 // Collect all unique keys
+<<<<<<< HEAD
                 foreach (array_keys($this->flattenArray($translations)) as $key) {
+=======
+                foreach (array_keys($this->flattenArray($translations)) as $key) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                foreach (array_keys($this->flattenArray($translations)) as $key) {
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
+                $flattenedKeys = $this->flattenArray($translations);
+                foreach (array_keys($flattenedKeys) as $key) {
+=======
+                foreach (array_keys($this->flattenArray($translations)) as $key) {
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
+                foreach (array_keys($this->flattenArray($translations)) as $key) {
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+                foreach (array_keys($this->flattenArray($translations)) as $key) {
+>>>>>>> 75179b85 (.)
+=======
+                foreach (array_keys($this->flattenArray($translations)) as $key) {
+>>>>>>> 75179b855 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
                     $allKeys[$key] = true;
                 }
             }
@@ -116,21 +441,190 @@ class AnalyzeTranslationFiles extends Command
         $patterns = [];
 
         foreach ($allFiles as $file => $keys) {
+<<<<<<< HEAD
             if (!is_array($keys)) {
                 continue;
             }
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            if (!is_array($keys)) {
+                continue;
+            }
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            if (!is_array($keys)) {
+                continue;
+            }
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+            $topLevelKeys = [];
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> 5fd545e4 (.)
+            foreach (array_keys($keys) as $key) {
+                $parts = explode('.', (string) $key);
+                $topLevelKeys[$parts[0]] = true;
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+            if (is_array($keys)) {
+                foreach (array_keys($keys) as $key) {
+                    $parts = explode('.', (string) $key);
+                    $topLevelKeys[$parts[0]] = true;
+                }
+=======
+            foreach (array_keys($keys) as $key) {
+                $parts = explode('.', (string) $key);
+                $topLevelKeys[$parts[0]] = true;
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
+=======
+            if (!is_array($keys)) {
+                continue;
+            }
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
             $topLevelKeys = [];
 
             foreach (array_keys($keys) as $key) {
                 $parts = explode('.', (string) $key);
                 $topLevelKeys[$parts[0]] = true;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
+>>>>>>> laraxot/develop
+=======
+=======
+<<<<<<< HEAD
+            if (is_array($keys)) {
+                foreach (array_keys($keys) as $key) {
+                    $parts = explode('.', (string) $key);
+                    $topLevelKeys[$parts[0]] = true;
+                }
+=======
+            foreach (array_keys($keys) as $key) {
+                $parts = explode('.', (string) $key);
+                $topLevelKeys[$parts[0]] = true;
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
             }
 
             $pattern = implode(',', array_keys($topLevelKeys));
             $patterns[$pattern][] = $file;
         }
 
+<<<<<<< HEAD
         $this->info('Found ' . count($patterns) . ' different structure patterns:');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $this->info('Found ' . count($patterns) . ' different structure patterns:');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
+        $this->info('Found '.count($patterns).' different structure patterns:');
+=======
+        $this->info('Found ' . count($patterns) . ' different structure patterns:');
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        $this->info('Found ' . count($patterns) . ' different structure patterns:');
+>>>>>>> 75179b85 (.)
+=======
+        $this->info('Found '.count($patterns).' different structure patterns:');
+=======
+        $this->info('Found ' . count($patterns) . ' different structure patterns:');
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+        $this->info('Found ' . count($patterns) . ' different structure patterns:');
+>>>>>>> 75179b85 (.)
+=======
+        $this->info('Found ' . count($patterns) . ' different structure patterns:');
+>>>>>>> 75179b855 (.)
+=======
+        $this->info('Found '.count($patterns).' different structure patterns:');
+=======
+        $this->info('Found ' . count($patterns) . ' different structure patterns:');
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> laraxot/develop
+=======
+        $this->info('Found '.count($patterns).' different structure patterns:');
+=======
+        $this->info('Found ' . count($patterns) . ' different structure patterns:');
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+        $this->info('Found ' . count($patterns) . ' different structure patterns:');
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 
         $table = new Table($this->output);
         $table->setHeaders(['Pattern', 'Files']);
@@ -162,13 +656,159 @@ class AnalyzeTranslationFiles extends Command
         $table->setHeaders($headers);
 
         foreach ($allKeys as $key) {
+<<<<<<< HEAD
             Assert::string($key);
             $row = [$key];
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            Assert::string($key);
+            $row = [$key];
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            Assert::string($key);
+            $row = [$key];
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+            Assert::string($key);
+            $row = [$key];
+
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
             foreach (array_keys($allFiles) as $file) {
                 /** @var array<string, mixed>|null $fileData */
                 $fileData = $allFiles[$file] ?? null;
                 $row[] = (is_array($fileData) && isset($fileData[$key])) ? '✓' : '✗';
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+            $row = [$key];
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
+            // Type narrowing: assicura che $key sia string|int
+            if (! is_string($key) && ! is_int($key)) {
+                continue;
+            }
+>>>>>>> c8b1c8bf (.)
+
+            foreach (array_keys($allFiles) as $file) {
+                $row[] = isset($allFiles[$file][$key]) ? '✓' : '✗';
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+            $row = [$key];
+
+<<<<<<< HEAD
+            foreach (array_keys($allFiles) as $file) {
+                $row[] = isset($allFiles[$file][$key]) ? '✓' : '✗';
+>>>>>>> 5fd545e4 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 1487fe812 (.)
+            $row = [$key];
+
+            foreach (array_keys($allFiles) as $file) {
+                $row[] = isset($allFiles[$file][$key]) ? '✓' : '✗';
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 54220b28 (rebase 210)
+=======
+                    continue;
+                }
+                $row[] = isset($fileData[$key]) ? '✓' : '✗';
+=======
+            foreach (array_keys($allFiles) as $file) {
+                $row[] = isset($allFiles[$file][$key]) ? '✓' : '✗';
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
             }
 
             $table->addRow($row);
@@ -189,19 +829,1195 @@ class AnalyzeTranslationFiles extends Command
         $resourceFiles = [];
 
         foreach (array_keys($allFiles) as $file) {
+<<<<<<< HEAD
             if (str_contains($file, '/send_')) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            if (str_contains($file, '/send_')) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 6d08c01b (.)
+=======
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> 3b4c9907 (.)
+=======
+>>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> 8e5817bc (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 6d08c01b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> 3b4c9907 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> 8e5817bc (.)
+=======
+>>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 6d08c01b (.)
+=======
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> 3b4c9907 (.)
+=======
+>>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> 8e5817bc (.)
+=======
+>>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 10292b60a (.)
+=======
+=======
+>>>>>>> 207ac35e (.)
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+=======
+>>>>>>> 3f39ac8b (.)
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 138fcd4b0 (.)
+=======
+=======
+>>>>>>> 6b6b9e41 (.)
+>>>>>>> be45a0b8d (.)
+=======
+>>>>>>> db0bc148f (.)
+=======
+=======
+>>>>>>> 5fe4f466 (.)
+>>>>>>> 49639b815 (.)
+=======
+>>>>>>> 2641c2944 (.)
+=======
+=======
+>>>>>>> e0d9c9be (.)
+>>>>>>> 968ed47cd (.)
+=======
+>>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
+            if (str_contains($file, '/send_')) {
+=======
+            if (strpos($file, '/send_') !== false) {
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 138fcd4b0 (.)
+=======
+>>>>>>> be45a0b8d (.)
+=======
+>>>>>>> db0bc148f (.)
+=======
+>>>>>>> 49639b815 (.)
+=======
+>>>>>>> 2641c2944 (.)
+=======
+>>>>>>> 968ed47cd (.)
+=======
+>>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 9777d1b3 (.)
+=======
+            if (str_contains($file, '/send_')) {
+=======
+=======
+            if (str_contains($file, '/send_')) {
+=======
+>>>>>>> d09cb759 (.)
+=======
+            if (str_contains($file, '/send_')) {
+=======
+>>>>>>> d09cb759 (.)
+=======
+            if (str_contains($file, '/send_')) {
+=======
+>>>>>>> 4689a827 (.)
+=======
+            if (str_contains($file, '/send_')) {
+=======
+>>>>>>> f2e64178 (.)
+=======
+            if (str_contains($file, '/send_')) {
+=======
+>>>>>>> c4bdacbf (.)
+=======
+            if (str_contains($file, '/send_')) {
+=======
+>>>>>>> dceba960 (.)
+=======
+            if (str_contains($file, '/send_')) {
+=======
+>>>>>>> bd804d67 (.)
+=======
+            if (str_contains($file, '/send_')) {
+=======
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+=======
+            if (str_contains($file, '/send_')) {
+=======
+>>>>>>> 4689a827 (.)
+=======
+            if (str_contains($file, '/send_')) {
+=======
+>>>>>>> f2e64178 (.)
+=======
+            if (str_contains($file, '/send_')) {
+=======
+>>>>>>> c4bdacbf (.)
+=======
+            if (str_contains($file, '/send_')) {
+=======
+>>>>>>> dceba960 (.)
+=======
+            if (str_contains($file, '/send_')) {
+=======
+>>>>>>> bd804d67 (.)
+=======
+            if (str_contains($file, '/send_')) {
+=======
+>>>>>>> 2effe245 (.)
+=======
+            if (str_contains($file, '/send_')) {
+=======
+>>>>>>> d09cb759 (.)
+=======
+            if (str_contains($file, '/send_')) {
+=======
+>>>>>>> 4689a827 (.)
+=======
+            if (str_contains($file, '/send_')) {
+=======
+>>>>>>> f2e64178 (.)
+=======
+            if (str_contains($file, '/send_')) {
+=======
+>>>>>>> c4bdacbf (.)
+=======
+            if (str_contains($file, '/send_')) {
+=======
+>>>>>>> dceba960 (.)
+=======
+            if (str_contains($file, '/send_')) {
+=======
+>>>>>>> bd804d67 (.)
+=======
+            if (str_contains($file, '/send_')) {
+=======
+>>>>>>> 2effe245 (.)
+=======
+            if (str_contains($file, '/send_')) {
+=======
+>>>>>>> d09cb759 (.)
+=======
+            if (str_contains($file, '/send_')) {
+=======
+>>>>>>> d09cb759 (.)
+=======
+            if (str_contains($file, '/send_')) {
+=======
+>>>>>>> 4689a827 (.)
+=======
+            if (str_contains($file, '/send_')) {
+=======
+>>>>>>> f2e64178 (.)
+=======
+            if (str_contains($file, '/send_')) {
+=======
+>>>>>>> c4bdacbf (.)
+=======
+            if (str_contains($file, '/send_')) {
+=======
+>>>>>>> dceba960 (.)
+=======
+            if (str_contains($file, '/send_')) {
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 510809c6f (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            if (str_contains($file, '/send_')) {
+=======
+            if (strpos($file, '/send_') !== false) {
+>>>>>>> a12f125f4a (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> b93ef594b4 (.)
+=======
+            if (strpos($file, '/send_') !== false) {
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> a115e2aad (.)
+=======
+>>>>>>> 9cb55171f (.)
+=======
+>>>>>>> 848f79b79 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+>>>>>>> d09cb759 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 3f537838 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 3f537838 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 6d08c01b (.)
+=======
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> c6c33175 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 4e4a7796 (.)
+=======
+>>>>>>> 3b4c9907 (.)
+=======
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 5fe4f466 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 503981fd (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 9d84f153 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8e5817bc (.)
+=======
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+<<<<<<< HEAD
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 7a2f131f (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 116df547 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 58816034 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 6d08c01b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> be45a0b8d (.)
+=======
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+<<<<<<< HEAD
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> c6c33175 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 4e4a7796 (.)
+=======
+>>>>>>> 3b4c9907 (.)
+=======
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 5fe4f466 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 503981fd (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 9d84f153 (.)
+=======
+>>>>>>> 8e5817bc (.)
+=======
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 7a2f131f (.)
+=======
+>>>>>>> bd804d67 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 116df547 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 58816034 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 3f537838 (.)
+=======
+<<<<<<< HEAD
+            if (str_contains($file, '/send_')) {
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 6d08c01b (.)
+=======
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> c6c33175 (.)
+=======
+>>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 4e4a7796 (.)
+=======
+>>>>>>> 3b4c9907 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 49639b815 (.)
+=======
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 5fe4f466 (.)
+<<<<<<< HEAD
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 503981fd (.)
+=======
+>>>>>>> dceba960 (.)
+<<<<<<< HEAD
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 9d84f153 (.)
+=======
+>>>>>>> 8e5817bc (.)
+=======
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 7a2f131f (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 116df547 (.)
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+=======
+            if (str_contains($file, '/send_')) {
+<<<<<<< HEAD
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
+=======
+>>>>>>> de02998b (.)
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 2941b0bd (.)
+>>>>>>> a070a65a5 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 138fcd4b0 (.)
+=======
+>>>>>>> be45a0b8d (.)
+=======
+>>>>>>> a115e2aad (.)
+=======
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 4e4a7796 (.)
+>>>>>>> 09f5337a8 (.)
+=======
+>>>>>>> db0bc148f (.)
+=======
+>>>>>>> 49639b815 (.)
+=======
+>>>>>>> 9cb55171f (.)
+=======
+>>>>>>> bc2faa05b (.)
+=======
+=======
+>>>>>>> 8e5817bc (.)
+>>>>>>> 2641c2944 (.)
+=======
+>>>>>>> 968ed47cd (.)
+=======
+>>>>>>> 848f79b79 (.)
+=======
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 116df547 (.)
+>>>>>>> ec4cda261 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
+>>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
                 $sendFiles[] = $file;
             } else {
                 $resourceFiles[] = $file;
             }
         }
 
+<<<<<<< HEAD
         $this->info('Files with send_ prefix (' . count($sendFiles) . '):');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $this->info('Files with send_ prefix (' . count($sendFiles) . '):');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
+        $this->info('Files with send_ prefix ('.count($sendFiles).'):');
+=======
+        $this->info('Files with send_ prefix (' . count($sendFiles) . '):');
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        $this->info('Files with send_ prefix (' . count($sendFiles) . '):');
+>>>>>>> 75179b85 (.)
+=======
+        $this->info('Files with send_ prefix ('.count($sendFiles).'):');
+=======
+        $this->info('Files with send_ prefix (' . count($sendFiles) . '):');
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+        $this->info('Files with send_ prefix (' . count($sendFiles) . '):');
+>>>>>>> 75179b85 (.)
+=======
+        $this->info('Files with send_ prefix (' . count($sendFiles) . '):');
+>>>>>>> 75179b855 (.)
+=======
+        $this->info('Files with send_ prefix ('.count($sendFiles).'):');
+=======
+        $this->info('Files with send_ prefix (' . count($sendFiles) . '):');
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> laraxot/develop
+=======
+        $this->info('Files with send_ prefix ('.count($sendFiles).'):');
+=======
+        $this->info('Files with send_ prefix (' . count($sendFiles) . '):');
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+        $this->info('Files with send_ prefix (' . count($sendFiles) . '):');
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
         foreach ($sendFiles as $file) {
             $this->line(" - {$file}");
         }
 
+<<<<<<< HEAD
         $this->info('Resource files (' . count($resourceFiles) . '):');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $this->info('Resource files (' . count($resourceFiles) . '):');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
+        $this->info('Resource files ('.count($resourceFiles).'):');
+=======
+        $this->info('Resource files (' . count($resourceFiles) . '):');
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        $this->info('Resource files (' . count($resourceFiles) . '):');
+>>>>>>> 75179b85 (.)
+=======
+        $this->info('Resource files ('.count($resourceFiles).'):');
+=======
+        $this->info('Resource files (' . count($resourceFiles) . '):');
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+        $this->info('Resource files (' . count($resourceFiles) . '):');
+>>>>>>> 75179b85 (.)
+=======
+        $this->info('Resource files (' . count($resourceFiles) . '):');
+>>>>>>> 75179b855 (.)
+=======
+        $this->info('Resource files ('.count($resourceFiles).'):');
+=======
+        $this->info('Resource files (' . count($resourceFiles) . '):');
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> laraxot/develop
+=======
+        $this->info('Resource files ('.count($resourceFiles).'):');
+=======
+        $this->info('Resource files (' . count($resourceFiles) . '):');
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+        $this->info('Resource files (' . count($resourceFiles) . '):');
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
         foreach ($resourceFiles as $file) {
             $this->line(" - {$file}");
         }
@@ -228,25 +2044,823 @@ class AnalyzeTranslationFiles extends Command
         $navigationStructures = [];
 
         foreach ($allFiles as $file => $keys) {
+<<<<<<< HEAD
             if (!is_array($keys)) {
                 continue;
             }
             $navigationKeys = [];
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            if (!is_array($keys)) {
+                continue;
+            }
+            $navigationKeys = [];
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a55aa5e96 (.)
+            if (!is_array($keys)) {
+                continue;
+            }
+            $navigationKeys = [];
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+            foreach (array_keys($keys) as $key) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> a070a65a5 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 138fcd4b0 (.)
+=======
+>>>>>>> be45a0b8d (.)
+=======
+>>>>>>> a115e2aad (.)
+=======
+>>>>>>> 09f5337a8 (.)
+=======
+>>>>>>> db0bc148f (.)
+=======
+>>>>>>> 49639b815 (.)
+=======
+>>>>>>> 9cb55171f (.)
+=======
+>>>>>>> bc2faa05b (.)
+=======
+>>>>>>> 2641c2944 (.)
+=======
+>>>>>>> 968ed47cd (.)
+=======
+>>>>>>> 848f79b79 (.)
+=======
+>>>>>>> ec4cda261 (.)
+                if (str_starts_with((string) $key, 'navigation.')) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> a070a65a5 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 138fcd4b0 (.)
+=======
+>>>>>>> a115e2aad (.)
+=======
+>>>>>>> 09f5337a8 (.)
+=======
+>>>>>>> db0bc148f (.)
+=======
+>>>>>>> 9cb55171f (.)
+=======
+>>>>>>> bc2faa05b (.)
+=======
+>>>>>>> 2641c2944 (.)
+=======
+>>>>>>> 848f79b79 (.)
+=======
+>>>>>>> ec4cda261 (.)
+=======
+                if (strpos((string) $key, 'navigation.') === 0) {
+>>>>>>> b19cd40 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> be45a0b8d (.)
+=======
+>>>>>>> 49639b815 (.)
+=======
+>>>>>>> 968ed47cd (.)
+            $navigationKeys = [];
+
+            foreach (array_keys($keys) as $key) {
+<<<<<<< HEAD
+                if (str_starts_with((string) $key, 'navigation.')) {
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+=======
+                if (strpos((string) $key, 'navigation.') === 0) {
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+                if (str_starts_with((string) $key, 'navigation.')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
+            if (is_array($keys)) {
+                foreach (array_keys($keys) as $key) {
+                    if (str_starts_with((string) $key, 'navigation.')) {
+                        $navigationKeys[] = str_replace('navigation.', '', (string) $key);
+                    }
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
+=======
+            foreach (array_keys($keys) as $key) {
+<<<<<<< HEAD
+                if (str_starts_with((string) $key, 'navigation.')) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                if (str_starts_with((string) $key, 'navigation.')) {
+=======
+                if (strpos((string) $key, 'navigation.') === 0) {
+>>>>>>> a12f125f4a (.)
+=======
+                if (str_starts_with((string) $key, 'navigation.')) {
+>>>>>>> b93ef594b4 (.)
+=======
+                if (strpos((string) $key, 'navigation.') === 0) {
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> a115e2aad (.)
+=======
+>>>>>>> 9cb55171f (.)
+=======
+>>>>>>> 848f79b79 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+=======
+                if (strpos((string) $key, 'navigation.') === 0) {
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+                if (str_starts_with((string) $key, 'navigation.')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
+=======
+=======
+                if (strpos((string) $key, 'navigation.') === 0) {
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+                if (str_starts_with((string) $key, 'navigation.')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3f537838 (.)
+=======
+=======
+                if (strpos((string) $key, 'navigation.') === 0) {
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1619767d8 (.)
+=======
+                if (str_starts_with((string) $key, 'navigation.')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2941b0bd (.)
+=======
+=======
+                if (strpos((string) $key, 'navigation.') === 0) {
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+                if (str_starts_with((string) $key, 'navigation.')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 98d837b9 (.)
+=======
+=======
+                if (strpos((string) $key, 'navigation.') === 0) {
+>>>>>>> b19cd40 (.)
+>>>>>>> 6d08c01b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> be45a0b8d (.)
+=======
+                if (str_starts_with((string) $key, 'navigation.')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> c6c33175 (.)
+=======
+>>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e4a7796 (.)
+=======
+=======
+                if (strpos((string) $key, 'navigation.') === 0) {
+>>>>>>> b19cd40 (.)
+>>>>>>> 3b4c9907 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 49639b815 (.)
+=======
+                if (str_starts_with((string) $key, 'navigation.')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 5fe4f466 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 503981fd (.)
+=======
+>>>>>>> dceba960 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9d84f153 (.)
+=======
+=======
+                if (strpos((string) $key, 'navigation.') === 0) {
+>>>>>>> b19cd40 (.)
+>>>>>>> 8e5817bc (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 968ed47cd (.)
+=======
+                if (str_starts_with((string) $key, 'navigation.')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 7a2f131f (.)
+=======
+>>>>>>> bd804d67 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 116df547 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 138fcd4b0 (.)
+=======
+>>>>>>> be45a0b8d (.)
+=======
+>>>>>>> a115e2aad (.)
+=======
+=======
+>>>>>>> 4e4a7796 (.)
+>>>>>>> 09f5337a8 (.)
+=======
+>>>>>>> db0bc148f (.)
+=======
+>>>>>>> 49639b815 (.)
+=======
+>>>>>>> 9cb55171f (.)
+=======
+=======
+>>>>>>> 9d84f153 (.)
+>>>>>>> bc2faa05b (.)
+=======
+>>>>>>> 2641c2944 (.)
+=======
+>>>>>>> 968ed47cd (.)
+=======
+>>>>>>> 848f79b79 (.)
+=======
+=======
+>>>>>>> 116df547 (.)
+>>>>>>> ec4cda261 (.)
+                    $navigationKeys[] = str_replace('navigation.', '', (string) $key);
+=======
+                    $navigationKeys[] = str_replace('navigation.', '', (string) $key);
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> d45a0226 (.)
+=======
+=======
+>>>>>>> f15c41e60 (.)
             foreach (array_keys($keys) as $key) {
                 if (str_starts_with((string) $key, 'navigation.')) {
+                    $navigationKeys[] = str_replace('navigation.', '', (string) $key);
+>>>>>>> f5f1cb1 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d45a0226 (.)
+=======
+                    $navigationKeys[] = str_replace('navigation.', '', (string) $key);
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+=======
+>>>>>>> f15c41e60 (.)
+>>>>>>> d45a0226 (.)
+                }
+            }
+
+<<<<<<< HEAD
+            if (! empty($navigationKeys)) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            $navigationKeys = [];
+
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+            $navigationKeys = [];
+
+>>>>>>> 75179b85 (.)
+=======
+            $navigationKeys = [];
+
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
+            foreach (array_keys($keys) as $key) {
+                if (str_starts_with((string) $key, 'navigation.')) {
+=======
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+=======
+>>>>>>> 2941b0bd (.)
+>>>>>>> a070a65a5 (.)
+                    $navigationKeys[] = str_replace('navigation.', '', (string) $key);
+=======
+                    $navigationKeys[] = str_replace('navigation.', '', (string) $key);
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
+                }
+            }
+
+<<<<<<< HEAD
+            if (!empty($navigationKeys)) {
+=======
+<<<<<<< HEAD
+            if (!empty($navigationKeys)) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            if (!empty($navigationKeys)) {
+<<<<<<< HEAD
+>>>>>>> 75179b8 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> f1c9518b (.)
+            if (! empty($navigationKeys)) {
+=======
+            if (!empty($navigationKeys)) {
+>>>>>>> 99ff506 (.)
+<<<<<<< HEAD
+>>>>>>> f1c9518b (.)
+=======
+            if (!empty($navigationKeys)) {
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+=======
+            if (!empty($navigationKeys)) {
+>>>>>>> 75179b85 (.)
+=======
+            if (!empty($navigationKeys)) {
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> laraxot/develop
+=======
+            if (!empty($navigationKeys)) {
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
+=======
+            foreach (array_keys($keys) as $key) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+                if (str_starts_with((string) $key, 'navigation.')) {
+=======
+                if (strpos((string) $key, 'navigation.') === 0) {
+>>>>>>> b19cd40 (.)
+=======
+                if (str_starts_with((string) $key, 'navigation.')) {
+>>>>>>> 4e2ebfb (.)
                     $navigationKeys[] = str_replace('navigation.', '', (string) $key);
                 }
             }
 
             if (!empty($navigationKeys)) {
+<<<<<<< HEAD
+>>>>>>> 75179b8 (.)
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
                 sort($navigationKeys);
                 $structure = implode(',', $navigationKeys);
                 $navigationStructures[$structure][] = $file;
             }
         }
 
+<<<<<<< HEAD
         $this->info('Found ' . count($navigationStructures) . ' different navigation structures:');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $this->info('Found ' . count($navigationStructures) . ' different navigation structures:');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
+        $this->info('Found '.count($navigationStructures).' different navigation structures:');
+=======
+        $this->info('Found ' . count($navigationStructures) . ' different navigation structures:');
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        $this->info('Found ' . count($navigationStructures) . ' different navigation structures:');
+>>>>>>> 75179b85 (.)
+=======
+        $this->info('Found '.count($navigationStructures).' different navigation structures:');
+=======
+        $this->info('Found ' . count($navigationStructures) . ' different navigation structures:');
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+        $this->info('Found ' . count($navigationStructures) . ' different navigation structures:');
+>>>>>>> 75179b85 (.)
+=======
+        $this->info('Found ' . count($navigationStructures) . ' different navigation structures:');
+>>>>>>> 75179b855 (.)
+=======
+        $this->info('Found '.count($navigationStructures).' different navigation structures:');
+=======
+        $this->info('Found ' . count($navigationStructures) . ' different navigation structures:');
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> laraxot/develop
+=======
+        $this->info('Found '.count($navigationStructures).' different navigation structures:');
+=======
+        $this->info('Found ' . count($navigationStructures) . ' different navigation structures:');
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+        $this->info('Found ' . count($navigationStructures) . ' different navigation structures:');
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 
         $table = new Table($this->output);
         $table->setHeaders(['Structure', 'Files']);

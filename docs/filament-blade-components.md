@@ -1,5 +1,624 @@
+<<<<<<< HEAD
 # Standard <nome progetto>: Componenti Blade Filament
 
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 998e6866b (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 70175d0c4 (.)
+=======
+>>>>>>> 47bbf2b1c (.)
+=======
+>>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> b85076e48 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+# Standard <nome progetto>: Componenti Blade Filament
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> e2f1a4045 (.)
+=======
+>>>>>>> 4bec160e6 (.)
+=======
+>>>>>>> 01af324fe (.)
+=======
+>>>>>>> 138485550 (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
+>>>>>>> 31f5d28f (.)
+=======
+In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
+>>>>>>> 31f5d28f (.)
+=======
+In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
+>>>>>>> 31f5d28f (.)
+=======
+In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f963d2c0 (.)
+=======
+In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
+>>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ee18dd92 (.)
+=======
+In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
+>>>>>>> 6608a1a0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 66453ace (.)
+=======
+In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
+>>>>>>> 23cbbaf5 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 998e6866b (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+>>>>>>> 2a97406c (.)
+<<<<<<< HEAD
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+<<<<<<< HEAD
+In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
+>>>>>>> 909e45af (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+>>>>>>> 4f042b88 (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+<<<<<<< HEAD
+In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
+>>>>>>> bb7e77c2 (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+>>>>>>> 36321fcb (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
+>>>>>>> b99af5a8 (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+>>>>>>> 712617d3 (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
+>>>>>>> f3086887 (rebase 210)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+>>>>>>> fdb24863 (rebase 210)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
+>>>>>>> 3d462363 (rebase 210)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
+>>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ce1853afd (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+>>>>>>> 9c45d9bd (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6ad5224fb (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
+>>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+>>>>>>> eb62d6cf (rebase 210)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
+>>>>>>> 6e12a84b (rebase 210)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
+>>>>>>> 545977c8 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fea359347 (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+>>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c7d5eaf96 (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
+>>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> fbed41ac (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
+>>>>>>> c8b1c8bf (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+>>>>>>> 9cf0dc90 (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
+>>>>>>> 75179b85 (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+>>>>>>> f963d2c0 (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
+>>>>>>> 31f5d28f (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+>>>>>>> ee18dd92 (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
+>>>>>>> 6608a1a0 (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+>>>>>>> 66453ace (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
+>>>>>>> 23cbbaf5 (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+>>>>>>> 2a97406c (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
+>>>>>>> 909e45af (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 36136dcfa (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+>>>>>>> 4f042b88 (.)
+<<<<<<< HEAD
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
+>>>>>>> bb7e77c2 (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+>>>>>>> 36321fcb (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
+>>>>>>> b99af5a8 (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+>>>>>>> 712617d3 (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
+>>>>>>> f3086887 (rebase 210)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+>>>>>>> fdb24863 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
+>>>>>>> 3d462363 (rebase 210)
+<<<<<<< HEAD
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+>>>>>>> eb62d6cf (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
+>>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c31e900eb (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+>>>>>>> 8c8937e7 (rebase 210)
+<<<<<<< HEAD
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
+>>>>>>> 545977c8 (rebase 210)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+>>>>>>> 36ac4fc1 (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> fbed41ac (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 379ffe3f3 (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+>>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
+>>>>>>> 75179b85 (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+>>>>>>> f963d2c0 (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
+>>>>>>> 75179b855 (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+>>>>>>> f963d2c0 (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
+>>>>>>> 31f5d28f (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+>>>>>>> ee18dd92 (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
+>>>>>>> 6608a1a0 (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+>>>>>>> 66453ace (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
+>>>>>>> 23cbbaf5 (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+>>>>>>> 2a97406c (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
+>>>>>>> 909e45af (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+>>>>>>> 4f042b88 (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
+>>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 70175d0c4 (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+>>>>>>> 36321fcb (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 47bbf2b1c (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
+>>>>>>> b99af5a8 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 731b801a8 (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+>>>>>>> 712617d3 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
+>>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> f963d2c0 (.)
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> e2f1a4045 (.)
+=======
+=======
+>>>>>>> ee18dd92 (.)
+>>>>>>> 4bec160e6 (.)
+=======
+>>>>>>> 01af324fe (.)
+=======
+=======
+>>>>>>> 66453ace (.)
+>>>>>>> 138485550 (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 998e6866b (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 70175d0c4 (.)
+=======
+>>>>>>> 47bbf2b1c (.)
+=======
+>>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> b85076e48 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> c31e900eb (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+>>>>>>> fea359347 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/docs/3.x/support/blade-components/overview).
 
 ## Vantaggi rispetto a componenti custom
@@ -22,6 +641,750 @@ In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [co
 - Collegare questa pagina da ogni README e guida tecnica del modulo
 
 ## Collegamenti
+<<<<<<< HEAD
 - [Documentazione Filament Blade Components](https://filamentphp.com/docs/3.x/support/blade-components/overview)
 - [README Notify](README.md)
 - [queueable-action.md](queueable-action.md)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/project_docs/3.x/support/blade-components/overview)
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/project_docs/3.x/support/blade-components/overview)
+>>>>>>> 31f5d28f (.)
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/project_docs/3.x/support/blade-components/overview)
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/project_docs/3.x/support/blade-components/overview)
+>>>>>>> 31f5d28f (.)
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/project_docs/3.x/support/blade-components/overview)
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/project_docs/3.x/support/blade-components/overview)
+>>>>>>> 31f5d28f (.)
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/project_docs/3.x/support/blade-components/overview)
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+>>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
+>>>>>>> 12a7e2462 (.)
+=======
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/project_docs/3.x/support/blade-components/overview)
+>>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
+>>>>>>> e2f1a4045 (.)
+=======
+=======
+>>>>>>> ee18dd92 (.)
+>>>>>>> 4bec160e6 (.)
+- [Documentazione Filament Blade Components](https://filamentphp.com/docs/3.x/support/blade-components/overview)
+- [README Notify](README.md)
+- [queueable-action.md](queueable-action.md)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/project_docs/3.x/support/blade-components/overview)
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/project_docs/3.x/support/blade-components/overview)
+>>>>>>> 31f5d28f (.)
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/project_docs/3.x/support/blade-components/overview)
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/project_docs/3.x/support/blade-components/overview)
+>>>>>>> 31f5d28f (.)
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/project_docs/3.x/support/blade-components/overview)
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/project_docs/3.x/support/blade-components/overview)
+>>>>>>> 31f5d28f (.)
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/project_docs/3.x/support/blade-components/overview)
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/project_docs/3.x/support/blade-components/overview)
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/project_docs/3.x/support/blade-components/overview)
+>>>>>>> 6608a1a0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 66453ace (.)
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/project_docs/3.x/support/blade-components/overview)
+>>>>>>> 23cbbaf5 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 01af324fe (.)
+=======
+=======
+>>>>>>> 66453ace (.)
+>>>>>>> 138485550 (.)
+=======
+>>>>>>> 53eef8d8d (.)
+- [Documentazione Filament Blade Components](https://filamentphp.com/docs/3.x/support/blade-components/overview)
+- [README Notify](README.md)
+- [queueable-action.md](queueable-action.md)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/docs/3.x/support/blade-components/overview)
+- [README Notify](README.md)
+- [queueable-action.md](queueable-action.md)
+>>>>>>> 2a97406c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 7aae79847 (.)
+=======
+=======
+>>>>>>> b99af5a8 (.)
+>>>>>>> 47bbf2b1c (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> 43dd68f4b (.)
+=======
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+=======
+>>>>>>> 545977c8 (rebase 210)
+>>>>>>> ad905ce9c (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+- [Documentazione Filament Blade Components](https://filamentphp.com/project_docs/3.x/support/blade-components/overview)
+=======
+>>>>>>> fbed41ac (.)
+- [Documentazione Filament Blade Components](https://filamentphp.com/docs/3.x/support/blade-components/overview)
+- [README Notify](README.md)
+- [queueable-action.md](queueable-action.md)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> 6ad5224fb (.)
+>>>>>>> 909e45af (.)
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/docs/3.x/support/blade-components/overview)
+- [README Notify](README.md)
+- [queueable-action.md](queueable-action.md)
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 70175d0c4 (.)
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/docs/3.x/support/blade-components/overview)
+- [README Notify](README.md)
+- [queueable-action.md](queueable-action.md)
+>>>>>>> 36321fcb (.)
+<<<<<<< HEAD
+=======
+>>>>>>> b99af5a8 (.)
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/docs/3.x/support/blade-components/overview)
+- [README Notify](README.md)
+- [queueable-action.md](queueable-action.md)
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/docs/3.x/support/blade-components/overview)
+- [README Notify](README.md)
+- [queueable-action.md](queueable-action.md)
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ce1853afd (.)
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/docs/3.x/support/blade-components/overview)
+- [README Notify](README.md)
+- [queueable-action.md](queueable-action.md)
+>>>>>>> 9c45d9bd (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/docs/3.x/support/blade-components/overview)
+- [README Notify](README.md)
+- [queueable-action.md](queueable-action.md)
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/docs/3.x/support/blade-components/overview)
+- [README Notify](README.md)
+- [queueable-action.md](queueable-action.md)
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/docs/3.x/support/blade-components/overview)
+- [README Notify](README.md)
+- [queueable-action.md](queueable-action.md)
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+<<<<<<< HEAD
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> 69fa7d37 (.)
+- [Documentazione Filament Blade Components](https://filamentphp.com/project_docs/3.x/support/blade-components/overview)
+=======
+>>>>>>> fbed41ac (.)
+- [Documentazione Filament Blade Components](https://filamentphp.com/docs/3.x/support/blade-components/overview)
+- [README Notify](README.md)
+- [queueable-action.md](queueable-action.md)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/docs/3.x/support/blade-components/overview)
+- [README Notify](README.md)
+- [queueable-action.md](queueable-action.md)
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/docs/3.x/support/blade-components/overview)
+- [README Notify](README.md)
+- [queueable-action.md](queueable-action.md)
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/docs/3.x/support/blade-components/overview)
+- [README Notify](README.md)
+- [queueable-action.md](queueable-action.md)
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/docs/3.x/support/blade-components/overview)
+- [README Notify](README.md)
+- [queueable-action.md](queueable-action.md)
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/docs/3.x/support/blade-components/overview)
+- [README Notify](README.md)
+- [queueable-action.md](queueable-action.md)
+>>>>>>> 2a97406c (.)
+=======
+=======
+>>>>>>> 47bbf2b1c (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+>>>>>>> 909e45af (.)
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/docs/3.x/support/blade-components/overview)
+- [README Notify](README.md)
+- [queueable-action.md](queueable-action.md)
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/docs/3.x/support/blade-components/overview)
+- [README Notify](README.md)
+- [queueable-action.md](queueable-action.md)
+>>>>>>> 36321fcb (.)
+=======
+>>>>>>> b99af5a8 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 731b801a8 (.)
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/docs/3.x/support/blade-components/overview)
+- [README Notify](README.md)
+- [queueable-action.md](queueable-action.md)
+>>>>>>> 712617d3 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/docs/3.x/support/blade-components/overview)
+- [README Notify](README.md)
+- [queueable-action.md](queueable-action.md)
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/docs/3.x/support/blade-components/overview)
+- [README Notify](README.md)
+- [queueable-action.md](queueable-action.md)
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/docs/3.x/support/blade-components/overview)
+- [README Notify](README.md)
+- [queueable-action.md](queueable-action.md)
+>>>>>>> eb62d6cf (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/docs/3.x/support/blade-components/overview)
+- [README Notify](README.md)
+- [queueable-action.md](queueable-action.md)
+>>>>>>> 8c8937e7 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/docs/3.x/support/blade-components/overview)
+- [README Notify](README.md)
+- [queueable-action.md](queueable-action.md)
+>>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+=======
+>>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+- [Documentazione Filament Blade Components](https://filamentphp.com/project_docs/3.x/support/blade-components/overview)
+- [Documentazione Filament Blade Components](https://filamentphp.com/docs/3.x/support/blade-components/overview)
+- [README Notify](README.md)
+- [queueable-action.md](queueable-action.md)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/docs/3.x/support/blade-components/overview)
+- [README Notify](README.md)
+- [queueable-action.md](queueable-action.md)
+>>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/docs/3.x/support/blade-components/overview)
+- [README Notify](README.md)
+- [queueable-action.md](queueable-action.md)
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/docs/3.x/support/blade-components/overview)
+- [README Notify](README.md)
+- [queueable-action.md](queueable-action.md)
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/docs/3.x/support/blade-components/overview)
+- [README Notify](README.md)
+- [queueable-action.md](queueable-action.md)
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/docs/3.x/support/blade-components/overview)
+- [README Notify](README.md)
+- [queueable-action.md](queueable-action.md)
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/docs/3.x/support/blade-components/overview)
+- [README Notify](README.md)
+- [queueable-action.md](queueable-action.md)
+>>>>>>> 2a97406c (.)
+=======
+=======
+>>>>>>> 0a5473e16 (.)
+>>>>>>> 909e45af (.)
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/docs/3.x/support/blade-components/overview)
+- [README Notify](README.md)
+- [queueable-action.md](queueable-action.md)
+>>>>>>> 4f042b88 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/docs/3.x/support/blade-components/overview)
+- [README Notify](README.md)
+- [queueable-action.md](queueable-action.md)
+>>>>>>> 36321fcb (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/docs/3.x/support/blade-components/overview)
+- [README Notify](README.md)
+- [queueable-action.md](queueable-action.md)
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 301ad8b44 (.)
+=======
+>>>>>>> 998e6866b (.)
+=======
+>>>>>>> 909e45af (.)
+>>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 70175d0c4 (.)
+=======
+>>>>>>> 47bbf2b1c (.)
+=======
+>>>>>>> 731b801a8 (.)
+=======
+=======
+>>>>>>> f3086887 (rebase 210)
+>>>>>>> 74eb2e964 (.)
+=======
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/docs/3.x/support/blade-components/overview)
+- [README Notify](README.md)
+- [queueable-action.md](queueable-action.md)
+>>>>>>> fdb24863 (rebase 210)
+<<<<<<< HEAD
+>>>>>>> b85076e48 (.)
+=======
+=======
+>>>>>>> 3d462363 (rebase 210)
+>>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> ce1853afd (.)
+=======
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 7a142b4f5 (.)
+=======
+=======
+>>>>>>> 6e12a84b (rebase 210)
+>>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> c31e900eb (.)
+=======
+=======
+>>>>>>> 545977c8 (rebase 210)
+>>>>>>> ad905ce9c (.)
+=======
+>>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> 69fa7d37 (.)
+>>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/docs/3.x/support/blade-components/overview)
+- [README Notify](README.md)
+- [queueable-action.md](queueable-action.md)
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)

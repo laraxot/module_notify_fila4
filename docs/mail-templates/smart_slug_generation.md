@@ -1,8 +1,83 @@
+<<<<<<< HEAD
 # Generazione Intelligente di Slug in Filament
 
 ## Introduzione
 
+<<<<<<< HEAD
 Questo documento analizza un approccio avanzato per la generazione di slug da titoli nei form Filament, con particolare attenzione alla preservazione degli slug per i contenuti già pubblicati. Questa metodologia è particolarmente rilevante per il modulo Notify di <nome progetto>, in particolare per la gestione dei template email.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+Questo documento analizza un approccio avanzato per la generazione di slug da titoli nei form Filament, con particolare attenzione alla preservazione degli slug per i contenuti già pubblicati. Questa metodologia è particolarmente rilevante per il modulo Notify di <nome progetto>, in particolare per la gestione dei template email.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+Questo documento analizza un approccio avanzato per la generazione di slug da titoli nei form Filament, con particolare attenzione alla preservazione degli slug per i contenuti già pubblicati. Questa metodologia è particolarmente rilevante per il modulo Notify di <nome progetto>, in particolare per la gestione dei template email.
+=======
+Questo documento analizza un approccio avanzato per la generazione di slug da titoli nei form Filament, con particolare attenzione alla preservazione degli slug per i contenuti già pubblicati. Questa metodologia è particolarmente rilevante per il modulo Notify di SaluteOra, in particolare per la gestione dei template email.
+>>>>>>> f963d2c0 (.)
+=======
+Questo documento analizza un approccio avanzato per la generazione di slug da titoli nei form Filament, con particolare attenzione alla preservazione degli slug per i contenuti già pubblicati. Questa metodologia è particolarmente rilevante per il modulo Notify di SaluteOra, in particolare per la gestione dei template email.
+>>>>>>> f963d2c0 (.)
+=======
+Questo documento analizza un approccio avanzato per la generazione di slug da titoli nei form Filament, con particolare attenzione alla preservazione degli slug per i contenuti già pubblicati. Questa metodologia è particolarmente rilevante per il modulo Notify di SaluteOra, in particolare per la gestione dei template email.
+>>>>>>> f963d2c0 (.)
+=======
+Questo documento analizza un approccio avanzato per la generazione di slug da titoli nei form Filament, con particolare attenzione alla preservazione degli slug per i contenuti già pubblicati. Questa metodologia è particolarmente rilevante per il modulo Notify di SaluteOra, in particolare per la gestione dei template email.
+>>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Questo documento analizza un approccio avanzato per la generazione di slug da titoli nei form Filament, con particolare attenzione alla preservazione degli slug per i contenuti già pubblicati. Questa metodologia è particolarmente rilevante per il modulo Notify di <nome progetto>, in particolare per la gestione dei template email.
+=======
+=======
+Questo documento analizza un approccio avanzato per la generazione di slug da titoli nei form Filament, con particolare attenzione alla preservazione degli slug per i contenuti già pubblicati. Questa metodologia è particolarmente rilevante per il modulo Notify di <nome progetto>, in particolare per la gestione dei template email.
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+=======
+Questo documento analizza un approccio avanzato per la generazione di slug da titoli nei form Filament, con particolare attenzione alla preservazione degli slug per i contenuti già pubblicati. Questa metodologia è particolarmente rilevante per il modulo Notify di <nome progetto>, in particolare per la gestione dei template email.
+=======
+>>>>>>> fea359347 (.)
+<<<<<<< HEAD
+Questo documento analizza un approccio avanzato per la generazione di slug da titoli nei form Filament, con particolare attenzione alla preservazione degli slug per i contenuti già pubblicati. Questa metodologia è particolarmente rilevante per il modulo Notify di <main module>, in particolare per la gestione dei template email.
+=======
+Questo documento analizza un approccio avanzato per la generazione di slug da titoli nei form Filament, con particolare attenzione alla preservazione degli slug per i contenuti già pubblicati. Questa metodologia è particolarmente rilevante per il modulo Notify di SaluteOra, in particolare per la gestione dei template email.
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 36ac4fc1 (.)
+=======
+Questo documento analizza un approccio avanzato per la generazione di slug da titoli nei form Filament, con particolare attenzione alla preservazione degli slug per i contenuti già pubblicati. Questa metodologia è particolarmente rilevante per il modulo Notify di SaluteOra, in particolare per la gestione dei template email.
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+Questo documento analizza un approccio avanzato per la generazione di slug da titoli nei form Filament, con particolare attenzione alla preservazione degli slug per i contenuti già pubblicati. Questa metodologia è particolarmente rilevante per il modulo Notify di SaluteOra, in particolare per la gestione dei template email.
+>>>>>>> f963d2c0 (.)
+=======
+Questo documento analizza un approccio avanzato per la generazione di slug da titoli nei form Filament, con particolare attenzione alla preservazione degli slug per i contenuti già pubblicati. Questa metodologia è particolarmente rilevante per il modulo Notify di SaluteOra, in particolare per la gestione dei template email.
+>>>>>>> f963d2c0 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+Questo documento analizza un approccio avanzato per la generazione di slug da titoli nei form Filament, con particolare attenzione alla preservazione degli slug per i contenuti già pubblicati. Questa metodologia è particolarmente rilevante per il modulo Notify di <nome progetto>, in particolare per la gestione dei template email.
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 
 ## Concetto Base
 
@@ -181,7 +256,81 @@ In alternativa o in aggiunta, è possibile implementare un sistema di reindirizz
 
 L'implementazione di una generazione intelligente di slug per i template email migliora significativamente la stabilità e l'usabilità del sistema. Preservando gli slug dei template pubblicati, si prevengono problemi di accessibilità e si garantisce un'esperienza utente coerente.
 
+<<<<<<< HEAD
 Per il modulo Notify di <nome progetto>, questa soluzione rappresenta un equilibrio ottimale tra automazione e controllo, con particolare attenzione alla preservazione dei link esistenti.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+Per il modulo Notify di <nome progetto>, questa soluzione rappresenta un equilibrio ottimale tra automazione e controllo, con particolare attenzione alla preservazione dei link esistenti.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+Per il modulo Notify di <nome progetto>, questa soluzione rappresenta un equilibrio ottimale tra automazione e controllo, con particolare attenzione alla preservazione dei link esistenti.
+=======
+Per il modulo Notify di SaluteOra, questa soluzione rappresenta un equilibrio ottimale tra automazione e controllo, con particolare attenzione alla preservazione dei link esistenti.
+>>>>>>> f963d2c0 (.)
+=======
+Per il modulo Notify di SaluteOra, questa soluzione rappresenta un equilibrio ottimale tra automazione e controllo, con particolare attenzione alla preservazione dei link esistenti.
+>>>>>>> f963d2c0 (.)
+=======
+Per il modulo Notify di SaluteOra, questa soluzione rappresenta un equilibrio ottimale tra automazione e controllo, con particolare attenzione alla preservazione dei link esistenti.
+>>>>>>> f963d2c0 (.)
+=======
+Per il modulo Notify di SaluteOra, questa soluzione rappresenta un equilibrio ottimale tra automazione e controllo, con particolare attenzione alla preservazione dei link esistenti.
+>>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Per il modulo Notify di <nome progetto>, questa soluzione rappresenta un equilibrio ottimale tra automazione e controllo, con particolare attenzione alla preservazione dei link esistenti.
+=======
+=======
+Per il modulo Notify di <nome progetto>, questa soluzione rappresenta un equilibrio ottimale tra automazione e controllo, con particolare attenzione alla preservazione dei link esistenti.
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+=======
+Per il modulo Notify di <nome progetto>, questa soluzione rappresenta un equilibrio ottimale tra automazione e controllo, con particolare attenzione alla preservazione dei link esistenti.
+=======
+>>>>>>> fea359347 (.)
+<<<<<<< HEAD
+Per il modulo Notify di <main module>, questa soluzione rappresenta un equilibrio ottimale tra automazione e controllo, con particolare attenzione alla preservazione dei link esistenti.
+=======
+Per il modulo Notify di SaluteOra, questa soluzione rappresenta un equilibrio ottimale tra automazione e controllo, con particolare attenzione alla preservazione dei link esistenti.
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 36ac4fc1 (.)
+=======
+Per il modulo Notify di SaluteOra, questa soluzione rappresenta un equilibrio ottimale tra automazione e controllo, con particolare attenzione alla preservazione dei link esistenti.
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+Per il modulo Notify di SaluteOra, questa soluzione rappresenta un equilibrio ottimale tra automazione e controllo, con particolare attenzione alla preservazione dei link esistenti.
+>>>>>>> f963d2c0 (.)
+=======
+Per il modulo Notify di SaluteOra, questa soluzione rappresenta un equilibrio ottimale tra automazione e controllo, con particolare attenzione alla preservazione dei link esistenti.
+>>>>>>> f963d2c0 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+Per il modulo Notify di <nome progetto>, questa soluzione rappresenta un equilibrio ottimale tra automazione e controllo, con particolare attenzione alla preservazione dei link esistenti.
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 
 ## Riferimenti
 
@@ -190,3 +339,5 @@ Per il modulo Notify di <nome progetto>, questa soluzione rappresenta un equilib
 - [Implementazione Modello con Slug](./MODEL_SLUG_IMPLEMENTATION.md)
 - [Componente TitleWithSlug](./TITLE_WITH_SLUG_COMPONENT.md)
 - [Miglioramenti UI/UX per Slug](./UI_UX_ENHANCEMENTS.md)
+=======
+>>>>>>> 301ad8b44 (.)

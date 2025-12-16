@@ -1,7 +1,1763 @@
+<<<<<<< HEAD
 # Implementazione di Notifiche Multi-Canale 
 
 Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
 Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+# Implementazione di Notifiche Multi-Canale 
+
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 998e6866b (.)
+=======
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 731b801a8 (.)
+=======
+>>>>>>> b85076e48 (.)
+# Implementazione di Notifiche Multi-Canale 
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 4bec160e6 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> d3a8af4d5 (.)
+=======
+>>>>>>> 4f19d70d2 (.)
+=======
+>>>>>>> 138485550 (.)
+=======
+>>>>>>> 2e9bd58c3 (.)
+=======
+>>>>>>> c22b35d1e (.)
+=======
+>>>>>>> 8f2456941 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 138fcd4b0 (.)
+=======
+>>>>>>> 2641c2944 (.)
+=======
+>>>>>>> 13655a7ed (.)
+=======
+>>>>>>> 903e3e2cd (.)
+=======
+>>>>>>> 5d49e093a (.)
+=======
+>>>>>>> 17f6b8617 (.)
+=======
+>>>>>>> 2e1ac1f20 (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 01af324fe (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> a2f3c239e (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+=======
+=======
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+>>>>>>> 82ae73be (.)
+=======
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1619767d8 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> b19cd40 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 161887a2 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> e7a9a2bf (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4f19d70d2 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> b19cd40 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 9d67cabd (.)
+<<<<<<< HEAD
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> ba564870 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9cdf6146 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> b19cd40 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 80f054e0 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 7c39b1fe (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> b19cd40 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 888799d0 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 6d08c01b (.)
+<<<<<<< HEAD
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> c6c33175 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 8e5817bc (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 7a2f131f (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 51182e3c (rebase 210)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 1c0eb9c7 (rebase 210)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> a9bf0423 (rebase 210)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 4d253d2c (rebase 210)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> b4f93b3a (rebase 210)
+<<<<<<< HEAD
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 52cd5f85 (rebase 210)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> c5c038f2 (rebase 210)
+<<<<<<< HEAD
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> bb00ab64 (rebase 210)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 77edd94a (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 59916c8f (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 161887a2 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> e7a9a2bf (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> ba564870 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9cdf6146 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 7c39b1fe (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 888799d0 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 6d08c01b (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> c6c33175 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 8e5817bc (.)
+<<<<<<< HEAD
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 7a2f131f (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 51182e3c (rebase 210)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 1c0eb9c7 (rebase 210)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> a9bf0423 (rebase 210)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 4d253d2c (rebase 210)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> b4f93b3a (rebase 210)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 52cd5f85 (rebase 210)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> c5c038f2 (rebase 210)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> bb00ab64 (rebase 210)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 77edd94a (.)
+<<<<<<< HEAD
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 59916c8f (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 161887a2 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> e7a9a2bf (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> ba564870 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9cdf6146 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 7c39b1fe (.)
+=======
+>>>>>>> 8f2456941 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+>>>>>>> 3f39ac8b (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 888799d0 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 6d08c01b (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> c6c33175 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 8e5817bc (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 7a2f131f (.)
+=======
+<<<<<<< HEAD
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> d3a8af4d5 (.)
+=======
+>>>>>>> 4f19d70d2 (.)
+=======
+>>>>>>> c22b35d1e (.)
+=======
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 80f054e0 (.)
+>>>>>>> 8f2456941 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 138fcd4b0 (.)
+=======
+>>>>>>> 2641c2944 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 51182e3c (rebase 210)
+<<<<<<< HEAD
+>>>>>>> 13655a7ed (.)
+=======
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 1c0eb9c7 (rebase 210)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> a9bf0423 (rebase 210)
+>>>>>>> 903e3e2cd (.)
+=======
+>>>>>>> 5d49e093a (.)
+=======
+>>>>>>> 17f6b8617 (.)
+=======
+>>>>>>> 2e1ac1f20 (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+>>>>>>> 75179b85 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+>>>>>>> f963d2c0 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> d284d65 (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+>>>>>>> 75179b85 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+<<<<<<< HEAD
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> d284d65 (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+>>>>>>> 75179b85 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+<<<<<<< HEAD
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> d284d65 (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+>>>>>>> 75179b85 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4689a827 (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> d284d65 (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+>>>>>>> ee18dd92 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 7325acf3 (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> d284d65 (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+>>>>>>> 66453ace (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Implementazione di Notifiche Multi-Canale 
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+=======
+>>>>>>> b19cd40 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+>>>>>>> 2a97406c (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
+=======
+# Implementazione di Notifiche Multi-Canale 
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+=======
+>>>>>>> b19cd40 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+>>>>>>> 4f042b88 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+=======
+# Implementazione di Notifiche Multi-Canale 
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+=======
+>>>>>>> b19cd40 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cb85c538 (rebase 210)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+>>>>>>> 712617d3 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> f3086887 (rebase 210)
+=======
+# Implementazione di Notifiche Multi-Canale 
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 47a873f13 (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+=======
+>>>>>>> b19cd40 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+>>>>>>> fdb24863 (rebase 210)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 3d462363 (rebase 210)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ce1853afd (.)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+# Implementazione di Notifiche Multi-Canale 
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+=======
+>>>>>>> b19cd40 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1375c94d (rebase 210)
+=======
+=======
+>>>>>>> 7a9167faf (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+>>>>>>> c188e2a18 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1375c94d (rebase 210)
+>>>>>>> 7a9167faf (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+# Implementazione di Notifiche Multi-Canale 
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+=======
+>>>>>>> b19cd40 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 030c9674 (rebase 210)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+>>>>>>> eb62d6cf (rebase 210)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 6e12a84b (rebase 210)
+=======
+# Implementazione di Notifiche Multi-Canale 
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dad70a87 (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+=======
+>>>>>>> b19cd40 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> eea68ec9 (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 545977c8 (rebase 210)
+=======
+# Implementazione di Notifiche Multi-Canale 
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+=======
+>>>>>>> b19cd40 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+>>>>>>> 36ac4fc1 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 69fa7d37 (.)
+=======
+# Implementazione di Notifiche Multi-Canale 
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+=======
+>>>>>>> b19cd40 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 9d67cabd (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+>>>>>>> fd1fcc4c (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> eb71492d (.)
+=======
+>>>>>>> cca10a64 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+=======
+>>>>>>> 9cf0dc90 (.)
+>>>>>>> 379ffe3f3 (.)
+# Implementazione di Notifiche Multi-Canale 
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+=======
+>>>>>>> b19cd40 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 80f054e0 (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+# Implementazione di Notifiche Multi-Canale 
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+=======
+>>>>>>> b19cd40 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+>>>>>>> ee18dd92 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+# Implementazione di Notifiche Multi-Canale 
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+=======
+>>>>>>> b19cd40 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+>>>>>>> 66453ace (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+=======
+# Implementazione di Notifiche Multi-Canale 
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+=======
+>>>>>>> b19cd40 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+>>>>>>> 2a97406c (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
+=======
+# Implementazione di Notifiche Multi-Canale 
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+=======
+>>>>>>> b19cd40 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cb85c538 (rebase 210)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+>>>>>>> 4f042b88 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+=======
+# Implementazione di Notifiche Multi-Canale 
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+=======
+>>>>>>> b19cd40 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+>>>>>>> 712617d3 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> f3086887 (rebase 210)
+=======
+# Implementazione di Notifiche Multi-Canale 
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+=======
+>>>>>>> b19cd40 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1375c94d (rebase 210)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+>>>>>>> fdb24863 (rebase 210)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 3d462363 (rebase 210)
+=======
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+# Implementazione di Notifiche Multi-Canale 
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+=======
+>>>>>>> b19cd40 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 030c9674 (rebase 210)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+# Implementazione di Notifiche Multi-Canale 
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> db6bec044 (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+=======
+>>>>>>> b19cd40 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
+>>>>>>> eea68ec9 (.)
+=======
+>>>>>>> 030c9674 (rebase 210)
+>>>>>>> db6bec044 (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+>>>>>>> eb62d6cf (rebase 210)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 6e12a84b (rebase 210)
+=======
+# Implementazione di Notifiche Multi-Canale 
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+=======
+>>>>>>> b19cd40 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 545977c8 (rebase 210)
+=======
+# Implementazione di Notifiche Multi-Canale 
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+=======
+>>>>>>> b19cd40 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 9d67cabd (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+>>>>>>> 36ac4fc1 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 69fa7d37 (.)
+=======
+# Implementazione di Notifiche Multi-Canale 
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+=======
+>>>>>>> b19cd40 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 80f054e0 (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+>>>>>>> fd1fcc4c (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> eb71492d (.)
+=======
+>>>>>>> cca10a64 (.)
+=======
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+# Implementazione di Notifiche Multi-Canale 
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+=======
+>>>>>>> b19cd40 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+=======
+>>>>>>> f963d2c0 (.)
+# Implementazione di Notifiche Multi-Canale 
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+=======
+>>>>>>> b19cd40 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+# Implementazione di Notifiche Multi-Canale 
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+=======
+>>>>>>> b19cd40 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+>>>>>>> ee18dd92 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+# Implementazione di Notifiche Multi-Canale 
+
+<<<<<<< HEAD
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> d284d65 (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+>>>>>>> 66453ace (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+=======
+# Implementazione di Notifiche Multi-Canale 
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+=======
+>>>>>>> b19cd40 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+>>>>>>> 2a97406c (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Implementazione di Notifiche Multi-Canale 
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+=======
+>>>>>>> b19cd40 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+>>>>>>> 4f042b88 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
+=======
+# Implementazione di Notifiche Multi-Canale 
+
+<<<<<<< HEAD
+=======
+>>>>>>> e0836b102 (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+=======
+>>>>>>> b19cd40 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cb85c538 (rebase 210)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+>>>>>>> 712617d3 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
+=======
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> b19cd40 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 4e2ebfb (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+>>>>>>> 75179b85 (.)
+>>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> e2f1a4045 (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
+>>>>>>> 12a7e2462 (.)
+=======
+=======
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+>>>>>>> e2f1a4045 (.)
+=======
+=======
+=======
+>>>>>>> 4689a827 (.)
+>>>>>>> 8dc1f2ed6 (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> d284d65 (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+>>>>>>> ee18dd92 (.)
+>>>>>>> 4bec160e6 (.)
+=======
+>>>>>>> 01af324fe (.)
+=======
+=======
+=======
+>>>>>>> 7325acf3 (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> d284d65 (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+>>>>>>> 66453ace (.)
+>>>>>>> 138485550 (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+=======
+# Implementazione di Notifiche Multi-Canale 
+
+<<<<<<< HEAD
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> d284d65 (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+>>>>>>> 2a97406c (.)
+>>>>>>> 998e6866b (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+=======
+# Implementazione di Notifiche Multi-Canale 
+
+<<<<<<< HEAD
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> d284d65 (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+>>>>>>> 4f042b88 (.)
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+=======
+>>>>>>> 848f79b79 (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> d284d65 (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+>>>>>>> 712617d3 (.)
+>>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+=======
+>>>>>>> 3e757cee2 (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> d284d65 (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+>>>>>>> fdb24863 (rebase 210)
+<<<<<<< HEAD
+>>>>>>> b85076e48 (.)
+=======
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 3d462363 (rebase 210)
+>>>>>>> 0a5473e16 (.)
+=======
+# Implementazione di Notifiche Multi-Canale 
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> b19cd40 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 4e2ebfb (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
+>>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
+>>>>>>> 43dd68f4b (.)
+=======
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+<<<<<<< HEAD
+>>>>>>> ce1853afd (.)
+=======
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
+=======
+=======
+>>>>>>> cd5474106 (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> d284d65 (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+>>>>>>> eb62d6cf (rebase 210)
+<<<<<<< HEAD
+>>>>>>> 7a142b4f5 (.)
+=======
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 6e12a84b (rebase 210)
+>>>>>>> 1c96b91fe (.)
+=======
+=======
+>>>>>>> 01750b107 (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> d284d65 (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+>>>>>>> 8c8937e7 (rebase 210)
+<<<<<<< HEAD
+>>>>>>> c31e900eb (.)
+=======
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 545977c8 (rebase 210)
+>>>>>>> ad905ce9c (.)
+=======
+=======
+>>>>>>> 26d39e2eb (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> d284d65 (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+>>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
+>>>>>>> fea359347 (.)
+=======
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 69fa7d37 (.)
+>>>>>>> c7d5eaf96 (.)
+=======
+=======
+>>>>>>> 2dab69c8a (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> d284d65 (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+>>>>>>> fd1fcc4c (.)
+<<<<<<< HEAD
+>>>>>>> d9e649ac3 (.)
+=======
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> eb71492d (.)
+>>>>>>> a2f3c239e (.)
+=======
+# Implementazione di Notifiche Multi-Canale 
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+=======
+>>>>>>> b19cd40 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> 4e2ebfb (.)
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+>>>>>>> 7ceb00286 (.)
+=======
+=======
+>>>>>>> 9cf0dc90 (.)
+>>>>>>> 379ffe3f3 (.)
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 
 ## Indice
 
@@ -16,8 +1772,1694 @@ Questa documentazione descrive come implementare correttamente notifiche multi-c
 
 ## Introduzione
 
+<<<<<<< HEAD
 <nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
 <nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 01af324fe (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> a2f3c239e (.)
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+=======
+=======
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+>>>>>>> 82ae73be (.)
+=======
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1619767d8 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 161887a2 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> e7a9a2bf (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4f19d70d2 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 9d67cabd (.)
+<<<<<<< HEAD
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> ba564870 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9cdf6146 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8f2456941 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 80f054e0 (.)
+<<<<<<< HEAD
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 7c39b1fe (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 888799d0 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 6d08c01b (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+<<<<<<< HEAD
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> c6c33175 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 8e5817bc (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 968ed47cd (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+<<<<<<< HEAD
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 7a2f131f (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 51182e3c (rebase 210)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cb85c538 (rebase 210)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 1c0eb9c7 (rebase 210)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> a9bf0423 (rebase 210)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 4d253d2c (rebase 210)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> b4f93b3a (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7a9167faf (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1375c94d (rebase 210)
+<<<<<<< HEAD
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 52cd5f85 (rebase 210)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> c5c038f2 (rebase 210)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 030c9674 (rebase 210)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> bb00ab64 (rebase 210)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 77edd94a (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> eea68ec9 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 59916c8f (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9cdf6146 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 80f054e0 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 7c39b1fe (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 888799d0 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 6d08c01b (.)
+<<<<<<< HEAD
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> c6c33175 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 8e5817bc (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 7a2f131f (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 51182e3c (rebase 210)
+<<<<<<< HEAD
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cb85c538 (rebase 210)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 1c0eb9c7 (rebase 210)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> a9bf0423 (rebase 210)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 4d253d2c (rebase 210)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> b4f93b3a (rebase 210)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1375c94d (rebase 210)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 52cd5f85 (rebase 210)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> c5c038f2 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> db6bec044 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 030c9674 (rebase 210)
+<<<<<<< HEAD
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> bb00ab64 (rebase 210)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 77edd94a (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dad70a87 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> eea68ec9 (.)
+<<<<<<< HEAD
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 59916c8f (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 6d08c01b (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> c6c33175 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 8e5817bc (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 7a2f131f (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> d3a8af4d5 (.)
+=======
+>>>>>>> 4f19d70d2 (.)
+=======
+>>>>>>> c22b35d1e (.)
+=======
+>>>>>>> 8f2456941 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 138fcd4b0 (.)
+=======
+>>>>>>> be45a0b8d (.)
+=======
+>>>>>>> 2641c2944 (.)
+=======
+>>>>>>> 968ed47cd (.)
+=======
+>>>>>>> 13655a7ed (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 51182e3c (rebase 210)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cb85c538 (rebase 210)
+<<<<<<< HEAD
+>>>>>>> e0836b102 (.)
+=======
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 1c0eb9c7 (rebase 210)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> a9bf0423 (rebase 210)
+<<<<<<< HEAD
+>>>>>>> 903e3e2cd (.)
+=======
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
+>>>>>>> 47a873f13 (.)
+=======
+>>>>>>> 5d49e093a (.)
+=======
+>>>>>>> 7a9167faf (.)
+=======
+>>>>>>> 17f6b8617 (.)
+=======
+>>>>>>> db6bec044 (.)
+=======
+>>>>>>> 2e1ac1f20 (.)
+=======
+>>>>>>> 6dad70a87 (.)
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 75179b85 (.)
+=======
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> f963d2c0 (.)
+=======
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> d284d65 (.)
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 75179b85 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+<<<<<<< HEAD
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> d284d65 (.)
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 75179b85 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+<<<<<<< HEAD
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> d284d65 (.)
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 75179b85 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+<<<<<<< HEAD
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4689a827 (.)
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> d284d65 (.)
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> ee18dd92 (.)
+=======
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 7325acf3 (.)
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> d284d65 (.)
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 66453ace (.)
+=======
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> f2e64178 (.)
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> d284d65 (.)
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 2a97406c (.)
+=======
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> c4bdacbf (.)
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> d284d65 (.)
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 4f042b88 (.)
+=======
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+=======
+=======
+>>>>>>> bd804d67 (.)
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> d284d65 (.)
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 712617d3 (.)
+=======
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> bf479cc (.)
+>>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 229a065a (rebase 210)
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> d284d65 (.)
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> fdb24863 (rebase 210)
+=======
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> bf479cc (.)
+>>>>>>> 3d462363 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+=======
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> efb0f8d9 (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> d284d65 (.)
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+<<<<<<< HEAD
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+<<<<<<< HEAD
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+=======
+>>>>>>> 5aedc39c (rebase 210)
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> d284d65 (.)
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> eb62d6cf (rebase 210)
+=======
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> bf479cc (.)
+>>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 22baa66d (rebase 210)
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> d284d65 (.)
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> bf479cc (.)
+>>>>>>> 545977c8 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 2effe245 (.)
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> d284d65 (.)
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 36ac4fc1 (.)
+=======
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> bf479cc (.)
+>>>>>>> 69fa7d37 (.)
+=======
+=======
+>>>>>>> e790eb33 (.)
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> d284d65 (.)
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> fd1fcc4c (.)
+=======
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> bf479cc (.)
+>>>>>>> eb71492d (.)
+<<<<<<< HEAD
+=======
+>>>>>>> cca10a64 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> c8b1c8bf (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+<<<<<<< HEAD
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+<<<<<<< HEAD
+>>>>>>> 9cf0dc90 (.)
+=======
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> d284d65 (.)
+=======
+>>>>>>> 510809c6f (.)
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 75179b85 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+<<<<<<< HEAD
+<<<<<<< HEAD
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+=======
+>>>>>>> e7a9a2bf (.)
+=======
+>>>>>>> 9d67cabd (.)
+=======
+>>>>>>> ba564870 (.)
+=======
+>>>>>>> 7325acf3 (.)
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> d284d65 (.)
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> ee18dd92 (.)
+=======
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+<<<<<<< HEAD
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+<<<<<<< HEAD
+>>>>>>> 66453ace (.)
+=======
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+=======
+=======
+>>>>>>> f2e64178 (.)
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> d284d65 (.)
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 2a97406c (.)
+=======
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c4bdacbf (.)
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> d284d65 (.)
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 4f042b88 (.)
+=======
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> bd804d67 (.)
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> d284d65 (.)
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 712617d3 (.)
+=======
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> bf479cc (.)
+>>>>>>> f3086887 (rebase 210)
+=======
+=======
+>>>>>>> 229a065a (rebase 210)
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> d284d65 (.)
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> fdb24863 (rebase 210)
+=======
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> bf479cc (.)
+>>>>>>> 3d462363 (rebase 210)
+=======
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> efb0f8d9 (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> d284d65 (.)
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+<<<<<<< HEAD
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5aedc39c (rebase 210)
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> d284d65 (.)
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> eb62d6cf (rebase 210)
+=======
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> bf479cc (.)
+>>>>>>> 6e12a84b (rebase 210)
+=======
+=======
+>>>>>>> 22baa66d (rebase 210)
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> d284d65 (.)
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> bf479cc (.)
+>>>>>>> 545977c8 (rebase 210)
+=======
+=======
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> d284d65 (.)
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 36ac4fc1 (.)
+=======
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> bf479cc (.)
+>>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> e790eb33 (.)
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> d284d65 (.)
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> fd1fcc4c (.)
+=======
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> bf479cc (.)
+>>>>>>> eb71492d (.)
+=======
+>>>>>>> cca10a64 (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> d284d65 (.)
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> c8b1c8bf (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> d284d65 (.)
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 9cf0dc90 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+<<<<<<< HEAD
+<<<<<<< HEAD
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> d284d65 (.)
+=======
+>>>>>>> e2f1a4045 (.)
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+<<<<<<< HEAD
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+<<<<<<< HEAD
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+<<<<<<< HEAD
+>>>>>>> 75179b855 (.)
+=======
+=======
+>>>>>>> e7a9a2bf (.)
+=======
+>>>>>>> 9d67cabd (.)
+=======
+>>>>>>> ba564870 (.)
+=======
+>>>>>>> 7325acf3 (.)
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> d284d65 (.)
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> f963d2c0 (.)
+=======
+=======
+>>>>>>> e2f1a4045 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+<<<<<<< HEAD
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+<<<<<<< HEAD
+>>>>>>> ee18dd92 (.)
+=======
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+=======
+>>>>>>> 9cdf6146 (.)
+=======
+>>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 7c39b1fe (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> d284d65 (.)
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 66453ace (.)
+=======
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+<<<<<<< HEAD
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+<<<<<<< HEAD
+>>>>>>> 2a97406c (.)
+=======
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
+=======
+=======
+>>>>>>> c4bdacbf (.)
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> d284d65 (.)
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 4f042b88 (.)
+=======
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+=======
+=======
+>>>>>>> bd804d67 (.)
+<<<<<<< HEAD
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> d284d65 (.)
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 712617d3 (.)
+=======
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> bf479cc (.)
+>>>>>>> f3086887 (rebase 210)
+>>>>>>> laraxot/develop
+=======
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 4e2ebfb (.)
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 75179b85 (.)
+>>>>>>> 1487fe812 (.)
+=======
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> f963d2c0 (.)
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> e2f1a4045 (.)
+=======
+=======
+=======
+>>>>>>> 4689a827 (.)
+>>>>>>> 8dc1f2ed6 (.)
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> d284d65 (.)
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> ee18dd92 (.)
+>>>>>>> 4bec160e6 (.)
+=======
+>>>>>>> 01af324fe (.)
+=======
+=======
+=======
+>>>>>>> 7325acf3 (.)
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> d284d65 (.)
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 66453ace (.)
+>>>>>>> 138485550 (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+=======
+=======
+>>>>>>> f2e64178 (.)
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> d284d65 (.)
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 2a97406c (.)
+>>>>>>> 998e6866b (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+=======
+=======
+>>>>>>> c4bdacbf (.)
+>>>>>>> a115e2aad (.)
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> d284d65 (.)
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 4f042b88 (.)
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+=======
+=======
+>>>>>>> 848f79b79 (.)
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> d284d65 (.)
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 712617d3 (.)
+>>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+=======
+=======
+>>>>>>> 229a065a (rebase 210)
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> d284d65 (.)
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> fdb24863 (rebase 210)
+>>>>>>> b85076e48 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+=======
+=======
+>>>>>>> a0788fa28 (.)
+=======
+=======
+>>>>>>> 8a8a8e2f (rebase 210)
+>>>>>>> 69f695548 (.)
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 4e2ebfb (.)
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
+=======
+=======
+>>>>>>> 6ad5224fb (.)
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+<<<<<<< HEAD
+>>>>>>> 9c45d9bd (rebase 210)
+<<<<<<< HEAD
+>>>>>>> ce1853afd (.)
+=======
+=======
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
+=======
+=======
+=======
+>>>>>>> 5aedc39c (rebase 210)
+>>>>>>> cd5474106 (.)
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> d284d65 (.)
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> eb62d6cf (rebase 210)
+>>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+=======
+=======
+>>>>>>> 22baa66d (rebase 210)
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> d284d65 (.)
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 8c8937e7 (rebase 210)
+>>>>>>> c31e900eb (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+=======
+=======
+>>>>>>> 26d39e2eb (.)
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> d284d65 (.)
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+=======
+=======
+=======
+>>>>>>> e790eb33 (.)
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> d284d65 (.)
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> fd1fcc4c (.)
+>>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> a2f3c239e (.)
+=======
+=======
+=======
+>>>>>>> 2fc60436 (.)
+>>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 4e2ebfb (.)
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 9cf0dc90 (.)
+>>>>>>> 379ffe3f3 (.)
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 
 ## Architettura delle Notifiche
 
@@ -86,8 +3528,1694 @@ public function toMail($notifiable): SpatieEmail
 
 ### Configurazione Provider SMS
 
+<<<<<<< HEAD
 <nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
 <nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 01af324fe (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> a2f3c239e (.)
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+=======
+=======
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+>>>>>>> 82ae73be (.)
+=======
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1619767d8 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 161887a2 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> e7a9a2bf (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4f19d70d2 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 9d67cabd (.)
+<<<<<<< HEAD
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> ba564870 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9cdf6146 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8f2456941 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 80f054e0 (.)
+<<<<<<< HEAD
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 7c39b1fe (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 888799d0 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 6d08c01b (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+<<<<<<< HEAD
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> c6c33175 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 8e5817bc (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 968ed47cd (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+<<<<<<< HEAD
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 7a2f131f (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 51182e3c (rebase 210)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cb85c538 (rebase 210)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 1c0eb9c7 (rebase 210)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> a9bf0423 (rebase 210)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 4d253d2c (rebase 210)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> b4f93b3a (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7a9167faf (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1375c94d (rebase 210)
+<<<<<<< HEAD
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 52cd5f85 (rebase 210)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> c5c038f2 (rebase 210)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 030c9674 (rebase 210)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> bb00ab64 (rebase 210)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 77edd94a (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 4e2ebfb (.)
+>>>>>>> eea68ec9 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 59916c8f (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9cdf6146 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 80f054e0 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 7c39b1fe (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 888799d0 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 6d08c01b (.)
+<<<<<<< HEAD
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> c6c33175 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 8e5817bc (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 7a2f131f (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 51182e3c (rebase 210)
+<<<<<<< HEAD
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cb85c538 (rebase 210)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 1c0eb9c7 (rebase 210)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> a9bf0423 (rebase 210)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 4d253d2c (rebase 210)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> b4f93b3a (rebase 210)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1375c94d (rebase 210)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 52cd5f85 (rebase 210)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> c5c038f2 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> db6bec044 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 030c9674 (rebase 210)
+<<<<<<< HEAD
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> bb00ab64 (rebase 210)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 77edd94a (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dad70a87 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 4e2ebfb (.)
+>>>>>>> eea68ec9 (.)
+<<<<<<< HEAD
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 59916c8f (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 6d08c01b (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> c6c33175 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 8e5817bc (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 7a2f131f (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> d3a8af4d5 (.)
+=======
+>>>>>>> 4f19d70d2 (.)
+=======
+>>>>>>> c22b35d1e (.)
+=======
+>>>>>>> 8f2456941 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 138fcd4b0 (.)
+=======
+>>>>>>> be45a0b8d (.)
+=======
+>>>>>>> 2641c2944 (.)
+=======
+>>>>>>> 968ed47cd (.)
+=======
+>>>>>>> 13655a7ed (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 51182e3c (rebase 210)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cb85c538 (rebase 210)
+<<<<<<< HEAD
+>>>>>>> e0836b102 (.)
+=======
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 1c0eb9c7 (rebase 210)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> a9bf0423 (rebase 210)
+<<<<<<< HEAD
+>>>>>>> 903e3e2cd (.)
+=======
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
+>>>>>>> 47a873f13 (.)
+=======
+>>>>>>> 5d49e093a (.)
+=======
+>>>>>>> 7a9167faf (.)
+=======
+>>>>>>> 17f6b8617 (.)
+=======
+>>>>>>> db6bec044 (.)
+=======
+>>>>>>> 2e1ac1f20 (.)
+=======
+>>>>>>> 6dad70a87 (.)
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 75179b85 (.)
+=======
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> f963d2c0 (.)
+=======
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> d284d65 (.)
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 75179b85 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+<<<<<<< HEAD
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> d284d65 (.)
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 75179b85 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+<<<<<<< HEAD
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> d284d65 (.)
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 75179b85 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+<<<<<<< HEAD
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4689a827 (.)
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> d284d65 (.)
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> ee18dd92 (.)
+=======
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 7325acf3 (.)
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> d284d65 (.)
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 66453ace (.)
+=======
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> f2e64178 (.)
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> d284d65 (.)
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 2a97406c (.)
+=======
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> c4bdacbf (.)
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> d284d65 (.)
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 4f042b88 (.)
+=======
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+=======
+=======
+>>>>>>> bd804d67 (.)
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> d284d65 (.)
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 712617d3 (.)
+=======
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> bf479cc (.)
+>>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 229a065a (rebase 210)
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> d284d65 (.)
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> fdb24863 (rebase 210)
+=======
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> bf479cc (.)
+>>>>>>> 3d462363 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+=======
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> efb0f8d9 (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> d284d65 (.)
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+<<<<<<< HEAD
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+<<<<<<< HEAD
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+=======
+>>>>>>> 5aedc39c (rebase 210)
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> d284d65 (.)
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> eb62d6cf (rebase 210)
+=======
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> bf479cc (.)
+>>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 22baa66d (rebase 210)
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> d284d65 (.)
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> bf479cc (.)
+>>>>>>> 545977c8 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 2effe245 (.)
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> d284d65 (.)
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 36ac4fc1 (.)
+=======
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> bf479cc (.)
+>>>>>>> 69fa7d37 (.)
+=======
+=======
+>>>>>>> e790eb33 (.)
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> d284d65 (.)
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> fd1fcc4c (.)
+=======
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> bf479cc (.)
+>>>>>>> eb71492d (.)
+<<<<<<< HEAD
+=======
+>>>>>>> cca10a64 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> c8b1c8bf (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+<<<<<<< HEAD
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+<<<<<<< HEAD
+>>>>>>> 9cf0dc90 (.)
+=======
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> d284d65 (.)
+=======
+>>>>>>> 510809c6f (.)
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 75179b85 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+<<<<<<< HEAD
+<<<<<<< HEAD
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+=======
+>>>>>>> e7a9a2bf (.)
+=======
+>>>>>>> 9d67cabd (.)
+=======
+>>>>>>> ba564870 (.)
+=======
+>>>>>>> 7325acf3 (.)
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> d284d65 (.)
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> ee18dd92 (.)
+=======
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+<<<<<<< HEAD
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+<<<<<<< HEAD
+>>>>>>> 66453ace (.)
+=======
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+=======
+=======
+>>>>>>> f2e64178 (.)
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> d284d65 (.)
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 2a97406c (.)
+=======
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c4bdacbf (.)
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> d284d65 (.)
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 4f042b88 (.)
+=======
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> bd804d67 (.)
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> d284d65 (.)
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 712617d3 (.)
+=======
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> bf479cc (.)
+>>>>>>> f3086887 (rebase 210)
+=======
+=======
+>>>>>>> 229a065a (rebase 210)
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> d284d65 (.)
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> fdb24863 (rebase 210)
+=======
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> bf479cc (.)
+>>>>>>> 3d462363 (rebase 210)
+=======
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> efb0f8d9 (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> d284d65 (.)
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+<<<<<<< HEAD
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5aedc39c (rebase 210)
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> d284d65 (.)
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> eb62d6cf (rebase 210)
+=======
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> bf479cc (.)
+>>>>>>> 6e12a84b (rebase 210)
+=======
+=======
+>>>>>>> 22baa66d (rebase 210)
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> d284d65 (.)
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> bf479cc (.)
+>>>>>>> 545977c8 (rebase 210)
+=======
+=======
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> d284d65 (.)
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 36ac4fc1 (.)
+=======
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> bf479cc (.)
+>>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> e790eb33 (.)
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> d284d65 (.)
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> fd1fcc4c (.)
+=======
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> bf479cc (.)
+>>>>>>> eb71492d (.)
+=======
+>>>>>>> cca10a64 (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> d284d65 (.)
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> c8b1c8bf (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> d284d65 (.)
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 9cf0dc90 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+<<<<<<< HEAD
+<<<<<<< HEAD
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> d284d65 (.)
+=======
+>>>>>>> e2f1a4045 (.)
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+<<<<<<< HEAD
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+<<<<<<< HEAD
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+<<<<<<< HEAD
+>>>>>>> 75179b855 (.)
+=======
+=======
+>>>>>>> e7a9a2bf (.)
+=======
+>>>>>>> 9d67cabd (.)
+=======
+>>>>>>> ba564870 (.)
+=======
+>>>>>>> 7325acf3 (.)
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> d284d65 (.)
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> f963d2c0 (.)
+=======
+=======
+>>>>>>> e2f1a4045 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+<<<<<<< HEAD
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+<<<<<<< HEAD
+>>>>>>> ee18dd92 (.)
+=======
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+=======
+>>>>>>> 9cdf6146 (.)
+=======
+>>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 7c39b1fe (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> d284d65 (.)
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 66453ace (.)
+=======
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+<<<<<<< HEAD
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+<<<<<<< HEAD
+>>>>>>> 2a97406c (.)
+=======
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
+=======
+=======
+>>>>>>> c4bdacbf (.)
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> d284d65 (.)
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 4f042b88 (.)
+=======
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+=======
+=======
+>>>>>>> bd804d67 (.)
+<<<<<<< HEAD
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> d284d65 (.)
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 712617d3 (.)
+=======
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> bf479cc (.)
+>>>>>>> f3086887 (rebase 210)
+>>>>>>> laraxot/develop
+=======
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 4e2ebfb (.)
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 75179b85 (.)
+>>>>>>> 1487fe812 (.)
+=======
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> f963d2c0 (.)
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> e2f1a4045 (.)
+=======
+=======
+=======
+>>>>>>> 4689a827 (.)
+>>>>>>> 8dc1f2ed6 (.)
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> d284d65 (.)
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> ee18dd92 (.)
+>>>>>>> 4bec160e6 (.)
+=======
+>>>>>>> 01af324fe (.)
+=======
+=======
+=======
+>>>>>>> 7325acf3 (.)
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> d284d65 (.)
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 66453ace (.)
+>>>>>>> 138485550 (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+=======
+=======
+>>>>>>> f2e64178 (.)
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> d284d65 (.)
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 2a97406c (.)
+>>>>>>> 998e6866b (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+=======
+=======
+>>>>>>> c4bdacbf (.)
+>>>>>>> a115e2aad (.)
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> d284d65 (.)
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 4f042b88 (.)
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+=======
+=======
+>>>>>>> 848f79b79 (.)
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> d284d65 (.)
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 712617d3 (.)
+>>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+=======
+=======
+>>>>>>> 229a065a (rebase 210)
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> d284d65 (.)
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> fdb24863 (rebase 210)
+>>>>>>> b85076e48 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+=======
+=======
+>>>>>>> a0788fa28 (.)
+=======
+=======
+>>>>>>> 8a8a8e2f (rebase 210)
+>>>>>>> 69f695548 (.)
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 4e2ebfb (.)
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
+=======
+=======
+>>>>>>> 6ad5224fb (.)
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+<<<<<<< HEAD
+>>>>>>> 9c45d9bd (rebase 210)
+<<<<<<< HEAD
+>>>>>>> ce1853afd (.)
+=======
+=======
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
+=======
+=======
+=======
+>>>>>>> 5aedc39c (rebase 210)
+>>>>>>> cd5474106 (.)
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> d284d65 (.)
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> eb62d6cf (rebase 210)
+>>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+=======
+=======
+>>>>>>> 22baa66d (rebase 210)
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> d284d65 (.)
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 8c8937e7 (rebase 210)
+>>>>>>> c31e900eb (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+=======
+=======
+>>>>>>> 26d39e2eb (.)
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> d284d65 (.)
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+=======
+=======
+=======
+>>>>>>> e790eb33 (.)
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> d284d65 (.)
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> fd1fcc4c (.)
+>>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> a2f3c239e (.)
+=======
+=======
+=======
+>>>>>>> 2fc60436 (.)
+>>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+=======
+>>>>>>> b19cd40 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 4e2ebfb (.)
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 9cf0dc90 (.)
+>>>>>>> 379ffe3f3 (.)
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 
 1. Installazione del provider scelto:
    ```bash
@@ -243,8 +5371,1694 @@ class AppointmentNotification extends Notification
 
 ## Implementazione Netfun SMS
 
+<<<<<<< HEAD
 Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
 Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 01af324fe (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> a2f3c239e (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+=======
+=======
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+>>>>>>> 82ae73be (.)
+=======
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1619767d8 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 161887a2 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> e7a9a2bf (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4f19d70d2 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 9d67cabd (.)
+<<<<<<< HEAD
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> ba564870 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9cdf6146 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8f2456941 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 80f054e0 (.)
+<<<<<<< HEAD
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 7c39b1fe (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 888799d0 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 6d08c01b (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+<<<<<<< HEAD
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> c6c33175 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 8e5817bc (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 968ed47cd (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+<<<<<<< HEAD
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 7a2f131f (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 51182e3c (rebase 210)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cb85c538 (rebase 210)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 1c0eb9c7 (rebase 210)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> a9bf0423 (rebase 210)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 4d253d2c (rebase 210)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> b4f93b3a (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7a9167faf (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1375c94d (rebase 210)
+<<<<<<< HEAD
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 52cd5f85 (rebase 210)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> c5c038f2 (rebase 210)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 030c9674 (rebase 210)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> bb00ab64 (rebase 210)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 77edd94a (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> eea68ec9 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 59916c8f (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9cdf6146 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 80f054e0 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 7c39b1fe (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 888799d0 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 6d08c01b (.)
+<<<<<<< HEAD
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> c6c33175 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 8e5817bc (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 7a2f131f (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 51182e3c (rebase 210)
+<<<<<<< HEAD
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cb85c538 (rebase 210)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 1c0eb9c7 (rebase 210)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> a9bf0423 (rebase 210)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 4d253d2c (rebase 210)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> b4f93b3a (rebase 210)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1375c94d (rebase 210)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 52cd5f85 (rebase 210)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> c5c038f2 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> db6bec044 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 030c9674 (rebase 210)
+<<<<<<< HEAD
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> bb00ab64 (rebase 210)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 77edd94a (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dad70a87 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> eea68ec9 (.)
+<<<<<<< HEAD
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 59916c8f (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 6d08c01b (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> c6c33175 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 8e5817bc (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 7a2f131f (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> d3a8af4d5 (.)
+=======
+>>>>>>> 4f19d70d2 (.)
+=======
+>>>>>>> c22b35d1e (.)
+=======
+>>>>>>> 8f2456941 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 138fcd4b0 (.)
+=======
+>>>>>>> be45a0b8d (.)
+=======
+>>>>>>> 2641c2944 (.)
+=======
+>>>>>>> 968ed47cd (.)
+=======
+>>>>>>> 13655a7ed (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 51182e3c (rebase 210)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cb85c538 (rebase 210)
+<<<<<<< HEAD
+>>>>>>> e0836b102 (.)
+=======
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 1c0eb9c7 (rebase 210)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> a9bf0423 (rebase 210)
+<<<<<<< HEAD
+>>>>>>> 903e3e2cd (.)
+=======
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
+>>>>>>> 47a873f13 (.)
+=======
+>>>>>>> 5d49e093a (.)
+=======
+>>>>>>> 7a9167faf (.)
+=======
+>>>>>>> 17f6b8617 (.)
+=======
+>>>>>>> db6bec044 (.)
+=======
+>>>>>>> 2e1ac1f20 (.)
+=======
+>>>>>>> 6dad70a87 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 75179b85 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> f963d2c0 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> d284d65 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 75179b85 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+<<<<<<< HEAD
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> d284d65 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 75179b85 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+<<<<<<< HEAD
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> d284d65 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 75179b85 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+<<<<<<< HEAD
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4689a827 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> d284d65 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> ee18dd92 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 7325acf3 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> d284d65 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 66453ace (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> f2e64178 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> d284d65 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 2a97406c (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> c4bdacbf (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> d284d65 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 4f042b88 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+=======
+=======
+>>>>>>> bd804d67 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> d284d65 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 712617d3 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> bf479cc (.)
+>>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 229a065a (rebase 210)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> d284d65 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> fdb24863 (rebase 210)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> bf479cc (.)
+>>>>>>> 3d462363 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+=======
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> efb0f8d9 (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> d284d65 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+<<<<<<< HEAD
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+<<<<<<< HEAD
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+=======
+>>>>>>> 5aedc39c (rebase 210)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> d284d65 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> eb62d6cf (rebase 210)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> bf479cc (.)
+>>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 22baa66d (rebase 210)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> d284d65 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> bf479cc (.)
+>>>>>>> 545977c8 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 2effe245 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> d284d65 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 36ac4fc1 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> bf479cc (.)
+>>>>>>> 69fa7d37 (.)
+=======
+=======
+>>>>>>> e790eb33 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> d284d65 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> fd1fcc4c (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> bf479cc (.)
+>>>>>>> eb71492d (.)
+<<<<<<< HEAD
+=======
+>>>>>>> cca10a64 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> c8b1c8bf (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+<<<<<<< HEAD
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+<<<<<<< HEAD
+>>>>>>> 9cf0dc90 (.)
+=======
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> d284d65 (.)
+=======
+>>>>>>> 510809c6f (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 75179b85 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+<<<<<<< HEAD
+<<<<<<< HEAD
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+=======
+>>>>>>> e7a9a2bf (.)
+=======
+>>>>>>> 9d67cabd (.)
+=======
+>>>>>>> ba564870 (.)
+=======
+>>>>>>> 7325acf3 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> d284d65 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> ee18dd92 (.)
+=======
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+<<<<<<< HEAD
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+<<<<<<< HEAD
+>>>>>>> 66453ace (.)
+=======
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+=======
+=======
+>>>>>>> f2e64178 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> d284d65 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 2a97406c (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c4bdacbf (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> d284d65 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 4f042b88 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> bd804d67 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> d284d65 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 712617d3 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> bf479cc (.)
+>>>>>>> f3086887 (rebase 210)
+=======
+=======
+>>>>>>> 229a065a (rebase 210)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> d284d65 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> fdb24863 (rebase 210)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> bf479cc (.)
+>>>>>>> 3d462363 (rebase 210)
+=======
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> efb0f8d9 (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> d284d65 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+<<<<<<< HEAD
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5aedc39c (rebase 210)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> d284d65 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> eb62d6cf (rebase 210)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> bf479cc (.)
+>>>>>>> 6e12a84b (rebase 210)
+=======
+=======
+>>>>>>> 22baa66d (rebase 210)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> d284d65 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> bf479cc (.)
+>>>>>>> 545977c8 (rebase 210)
+=======
+=======
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> d284d65 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 36ac4fc1 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> bf479cc (.)
+>>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> e790eb33 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> d284d65 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> fd1fcc4c (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> bf479cc (.)
+>>>>>>> eb71492d (.)
+=======
+>>>>>>> cca10a64 (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> d284d65 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> c8b1c8bf (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> d284d65 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 9cf0dc90 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+<<<<<<< HEAD
+<<<<<<< HEAD
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> d284d65 (.)
+=======
+>>>>>>> e2f1a4045 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+<<<<<<< HEAD
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+<<<<<<< HEAD
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+<<<<<<< HEAD
+>>>>>>> 75179b855 (.)
+=======
+=======
+>>>>>>> e7a9a2bf (.)
+=======
+>>>>>>> 9d67cabd (.)
+=======
+>>>>>>> ba564870 (.)
+=======
+>>>>>>> 7325acf3 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> d284d65 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> f963d2c0 (.)
+=======
+=======
+>>>>>>> e2f1a4045 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+<<<<<<< HEAD
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+<<<<<<< HEAD
+>>>>>>> ee18dd92 (.)
+=======
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+=======
+>>>>>>> 9cdf6146 (.)
+=======
+>>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 7c39b1fe (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> d284d65 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 66453ace (.)
+=======
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+<<<<<<< HEAD
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+<<<<<<< HEAD
+>>>>>>> 2a97406c (.)
+=======
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
+=======
+=======
+>>>>>>> c4bdacbf (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> d284d65 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 4f042b88 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+=======
+=======
+>>>>>>> bd804d67 (.)
+<<<<<<< HEAD
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> d284d65 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 712617d3 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> bf479cc (.)
+>>>>>>> f3086887 (rebase 210)
+>>>>>>> laraxot/develop
+=======
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 4e2ebfb (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 75179b85 (.)
+>>>>>>> 1487fe812 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> f963d2c0 (.)
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> e2f1a4045 (.)
+=======
+=======
+=======
+>>>>>>> 4689a827 (.)
+>>>>>>> 8dc1f2ed6 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> d284d65 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> ee18dd92 (.)
+>>>>>>> 4bec160e6 (.)
+=======
+>>>>>>> 01af324fe (.)
+=======
+=======
+=======
+>>>>>>> 7325acf3 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> d284d65 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 66453ace (.)
+>>>>>>> 138485550 (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+=======
+=======
+>>>>>>> f2e64178 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> d284d65 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 2a97406c (.)
+>>>>>>> 998e6866b (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+=======
+=======
+>>>>>>> c4bdacbf (.)
+>>>>>>> a115e2aad (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> d284d65 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 4f042b88 (.)
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+=======
+=======
+>>>>>>> 848f79b79 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> d284d65 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 712617d3 (.)
+>>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+=======
+=======
+>>>>>>> 229a065a (rebase 210)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> d284d65 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> fdb24863 (rebase 210)
+>>>>>>> b85076e48 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+=======
+=======
+>>>>>>> a0788fa28 (.)
+=======
+=======
+>>>>>>> 8a8a8e2f (rebase 210)
+>>>>>>> 69f695548 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 4e2ebfb (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
+=======
+=======
+>>>>>>> 6ad5224fb (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+<<<<<<< HEAD
+>>>>>>> 9c45d9bd (rebase 210)
+<<<<<<< HEAD
+>>>>>>> ce1853afd (.)
+=======
+=======
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
+=======
+=======
+=======
+>>>>>>> 5aedc39c (rebase 210)
+>>>>>>> cd5474106 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> d284d65 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> eb62d6cf (rebase 210)
+>>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+=======
+=======
+>>>>>>> 22baa66d (rebase 210)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> d284d65 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 8c8937e7 (rebase 210)
+>>>>>>> c31e900eb (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+=======
+=======
+>>>>>>> 26d39e2eb (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> d284d65 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+=======
+=======
+=======
+>>>>>>> e790eb33 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> d284d65 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> fd1fcc4c (.)
+>>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> a2f3c239e (.)
+=======
+=======
+=======
+>>>>>>> 2fc60436 (.)
+>>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+=======
+>>>>>>> b19cd40 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 4e2ebfb (.)
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 9cf0dc90 (.)
+>>>>>>> 379ffe3f3 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 
 ### 1. Configurazione
 
@@ -258,8 +7072,1694 @@ return [
     'netfun' => [
         'username' => env('NETFUN_USERNAME'),
         'password' => env('NETFUN_PASSWORD'),
+<<<<<<< HEAD
         'sender' => env('NETFUN_SENDER', '<nome progetto>'),
         'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 01af324fe (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> a2f3c239e (.)
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+=======
+=======
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+>>>>>>> 82ae73be (.)
+=======
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1619767d8 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 161887a2 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> e7a9a2bf (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4f19d70d2 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 9d67cabd (.)
+<<<<<<< HEAD
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> ba564870 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9cdf6146 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8f2456941 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 80f054e0 (.)
+<<<<<<< HEAD
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 7c39b1fe (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 888799d0 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 6d08c01b (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+<<<<<<< HEAD
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> c6c33175 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 8e5817bc (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 968ed47cd (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+<<<<<<< HEAD
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 7a2f131f (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 51182e3c (rebase 210)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cb85c538 (rebase 210)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 1c0eb9c7 (rebase 210)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> a9bf0423 (rebase 210)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 4d253d2c (rebase 210)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> b4f93b3a (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7a9167faf (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1375c94d (rebase 210)
+<<<<<<< HEAD
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 52cd5f85 (rebase 210)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> c5c038f2 (rebase 210)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 030c9674 (rebase 210)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> bb00ab64 (rebase 210)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 77edd94a (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 4e2ebfb (.)
+>>>>>>> eea68ec9 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 59916c8f (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9cdf6146 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 80f054e0 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 7c39b1fe (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 888799d0 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 6d08c01b (.)
+<<<<<<< HEAD
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> c6c33175 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 8e5817bc (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 7a2f131f (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 51182e3c (rebase 210)
+<<<<<<< HEAD
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cb85c538 (rebase 210)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 1c0eb9c7 (rebase 210)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> a9bf0423 (rebase 210)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 4d253d2c (rebase 210)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> b4f93b3a (rebase 210)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1375c94d (rebase 210)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 52cd5f85 (rebase 210)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> c5c038f2 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> db6bec044 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 030c9674 (rebase 210)
+<<<<<<< HEAD
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> bb00ab64 (rebase 210)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 77edd94a (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dad70a87 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 4e2ebfb (.)
+>>>>>>> eea68ec9 (.)
+<<<<<<< HEAD
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 59916c8f (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 6d08c01b (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> c6c33175 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 8e5817bc (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 7a2f131f (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> d3a8af4d5 (.)
+=======
+>>>>>>> 4f19d70d2 (.)
+=======
+>>>>>>> c22b35d1e (.)
+=======
+>>>>>>> 8f2456941 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 138fcd4b0 (.)
+=======
+>>>>>>> be45a0b8d (.)
+=======
+>>>>>>> 2641c2944 (.)
+=======
+>>>>>>> 968ed47cd (.)
+=======
+>>>>>>> 13655a7ed (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 51182e3c (rebase 210)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cb85c538 (rebase 210)
+<<<<<<< HEAD
+>>>>>>> e0836b102 (.)
+=======
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 1c0eb9c7 (rebase 210)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> a9bf0423 (rebase 210)
+<<<<<<< HEAD
+>>>>>>> 903e3e2cd (.)
+=======
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
+>>>>>>> 47a873f13 (.)
+=======
+>>>>>>> 5d49e093a (.)
+=======
+>>>>>>> 7a9167faf (.)
+=======
+>>>>>>> 17f6b8617 (.)
+=======
+>>>>>>> db6bec044 (.)
+=======
+>>>>>>> 2e1ac1f20 (.)
+=======
+>>>>>>> 6dad70a87 (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> 75179b85 (.)
+=======
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> f963d2c0 (.)
+=======
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> d284d65 (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> 75179b85 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+<<<<<<< HEAD
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> d284d65 (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> 75179b85 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+<<<<<<< HEAD
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> d284d65 (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> 75179b85 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+<<<<<<< HEAD
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4689a827 (.)
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> d284d65 (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> ee18dd92 (.)
+=======
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 7325acf3 (.)
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> d284d65 (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> 66453ace (.)
+=======
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> f2e64178 (.)
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> d284d65 (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> 2a97406c (.)
+=======
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> c4bdacbf (.)
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> d284d65 (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> 4f042b88 (.)
+=======
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+=======
+=======
+>>>>>>> bd804d67 (.)
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> d284d65 (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> 712617d3 (.)
+=======
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> bf479cc (.)
+>>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 229a065a (rebase 210)
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> d284d65 (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> fdb24863 (rebase 210)
+=======
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> bf479cc (.)
+>>>>>>> 3d462363 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+=======
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> efb0f8d9 (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> d284d65 (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+<<<<<<< HEAD
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+<<<<<<< HEAD
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+=======
+>>>>>>> 5aedc39c (rebase 210)
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> d284d65 (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> eb62d6cf (rebase 210)
+=======
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> bf479cc (.)
+>>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 22baa66d (rebase 210)
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> d284d65 (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> bf479cc (.)
+>>>>>>> 545977c8 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 2effe245 (.)
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> d284d65 (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> 36ac4fc1 (.)
+=======
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> bf479cc (.)
+>>>>>>> 69fa7d37 (.)
+=======
+=======
+>>>>>>> e790eb33 (.)
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> d284d65 (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> fd1fcc4c (.)
+=======
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> bf479cc (.)
+>>>>>>> eb71492d (.)
+<<<<<<< HEAD
+=======
+>>>>>>> cca10a64 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> c8b1c8bf (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+<<<<<<< HEAD
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+<<<<<<< HEAD
+>>>>>>> 9cf0dc90 (.)
+=======
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> d284d65 (.)
+=======
+>>>>>>> 510809c6f (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> 75179b85 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+<<<<<<< HEAD
+<<<<<<< HEAD
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+=======
+>>>>>>> e7a9a2bf (.)
+=======
+>>>>>>> 9d67cabd (.)
+=======
+>>>>>>> ba564870 (.)
+=======
+>>>>>>> 7325acf3 (.)
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> d284d65 (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> ee18dd92 (.)
+=======
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+<<<<<<< HEAD
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+<<<<<<< HEAD
+>>>>>>> 66453ace (.)
+=======
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+=======
+=======
+>>>>>>> f2e64178 (.)
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> d284d65 (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> 2a97406c (.)
+=======
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c4bdacbf (.)
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> d284d65 (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> 4f042b88 (.)
+=======
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> bd804d67 (.)
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> d284d65 (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> 712617d3 (.)
+=======
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> bf479cc (.)
+>>>>>>> f3086887 (rebase 210)
+=======
+=======
+>>>>>>> 229a065a (rebase 210)
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> d284d65 (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> fdb24863 (rebase 210)
+=======
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> bf479cc (.)
+>>>>>>> 3d462363 (rebase 210)
+=======
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> efb0f8d9 (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> d284d65 (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+<<<<<<< HEAD
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5aedc39c (rebase 210)
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> d284d65 (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> eb62d6cf (rebase 210)
+=======
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> bf479cc (.)
+>>>>>>> 6e12a84b (rebase 210)
+=======
+=======
+>>>>>>> 22baa66d (rebase 210)
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> d284d65 (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> bf479cc (.)
+>>>>>>> 545977c8 (rebase 210)
+=======
+=======
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> d284d65 (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> 36ac4fc1 (.)
+=======
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> bf479cc (.)
+>>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> e790eb33 (.)
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> d284d65 (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> fd1fcc4c (.)
+=======
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> bf479cc (.)
+>>>>>>> eb71492d (.)
+=======
+>>>>>>> cca10a64 (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> d284d65 (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> c8b1c8bf (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> d284d65 (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> 9cf0dc90 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+<<<<<<< HEAD
+<<<<<<< HEAD
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> d284d65 (.)
+=======
+>>>>>>> e2f1a4045 (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+<<<<<<< HEAD
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+<<<<<<< HEAD
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+<<<<<<< HEAD
+>>>>>>> 75179b855 (.)
+=======
+=======
+>>>>>>> e7a9a2bf (.)
+=======
+>>>>>>> 9d67cabd (.)
+=======
+>>>>>>> ba564870 (.)
+=======
+>>>>>>> 7325acf3 (.)
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> d284d65 (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> f963d2c0 (.)
+=======
+=======
+>>>>>>> e2f1a4045 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+<<<<<<< HEAD
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+<<<<<<< HEAD
+>>>>>>> ee18dd92 (.)
+=======
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+=======
+>>>>>>> 9cdf6146 (.)
+=======
+>>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 7c39b1fe (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> d284d65 (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> 66453ace (.)
+=======
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+<<<<<<< HEAD
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+<<<<<<< HEAD
+>>>>>>> 2a97406c (.)
+=======
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
+=======
+=======
+>>>>>>> c4bdacbf (.)
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> d284d65 (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> 4f042b88 (.)
+=======
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+=======
+=======
+>>>>>>> bd804d67 (.)
+<<<<<<< HEAD
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> d284d65 (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> 712617d3 (.)
+=======
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> bf479cc (.)
+>>>>>>> f3086887 (rebase 210)
+>>>>>>> laraxot/develop
+=======
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 4e2ebfb (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> 75179b85 (.)
+>>>>>>> 1487fe812 (.)
+=======
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> f963d2c0 (.)
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> e2f1a4045 (.)
+=======
+=======
+=======
+>>>>>>> 4689a827 (.)
+>>>>>>> 8dc1f2ed6 (.)
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> d284d65 (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> ee18dd92 (.)
+>>>>>>> 4bec160e6 (.)
+=======
+>>>>>>> 01af324fe (.)
+=======
+=======
+=======
+>>>>>>> 7325acf3 (.)
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> d284d65 (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> 66453ace (.)
+>>>>>>> 138485550 (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+=======
+=======
+>>>>>>> f2e64178 (.)
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> d284d65 (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> 2a97406c (.)
+>>>>>>> 998e6866b (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+=======
+=======
+>>>>>>> c4bdacbf (.)
+>>>>>>> a115e2aad (.)
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> d284d65 (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> 4f042b88 (.)
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+=======
+=======
+>>>>>>> 848f79b79 (.)
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> d284d65 (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> 712617d3 (.)
+>>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+=======
+=======
+>>>>>>> 229a065a (rebase 210)
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> d284d65 (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> fdb24863 (rebase 210)
+>>>>>>> b85076e48 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+=======
+=======
+>>>>>>> a0788fa28 (.)
+=======
+=======
+>>>>>>> 8a8a8e2f (rebase 210)
+>>>>>>> 69f695548 (.)
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 4e2ebfb (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
+=======
+=======
+>>>>>>> 6ad5224fb (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+<<<<<<< HEAD
+>>>>>>> 9c45d9bd (rebase 210)
+<<<<<<< HEAD
+>>>>>>> ce1853afd (.)
+=======
+=======
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
+=======
+=======
+=======
+>>>>>>> 5aedc39c (rebase 210)
+>>>>>>> cd5474106 (.)
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> d284d65 (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> eb62d6cf (rebase 210)
+>>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+=======
+=======
+>>>>>>> 22baa66d (rebase 210)
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> d284d65 (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> 8c8937e7 (rebase 210)
+>>>>>>> c31e900eb (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+=======
+=======
+>>>>>>> 26d39e2eb (.)
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> d284d65 (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+=======
+=======
+=======
+>>>>>>> e790eb33 (.)
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> d284d65 (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> fd1fcc4c (.)
+>>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> a2f3c239e (.)
+=======
+=======
+=======
+>>>>>>> 2fc60436 (.)
+>>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 4e2ebfb (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> 9cf0dc90 (.)
+>>>>>>> 379ffe3f3 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
         'api_url' => env('NETFUN_API_URL', 'https://api.netfun.it/sms/v1/'),
     ],
 ];
@@ -270,8 +8770,1694 @@ Assicurati di aggiungere le corrispondenti variabili al tuo file `.env`:
 ```
 NETFUN_USERNAME=your_username
 NETFUN_PASSWORD=your_password
+<<<<<<< HEAD
 NETFUN_SENDER=<nome progetto>
 NETFUN_SENDER=<nome progetto>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+NETFUN_SENDER=<nome progetto>
+NETFUN_SENDER=<nome progetto>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+NETFUN_SENDER=<nome progetto>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 01af324fe (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> a2f3c239e (.)
+NETFUN_SENDER=<nome progetto>
+=======
+=======
+=======
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+>>>>>>> 82ae73be (.)
+=======
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1619767d8 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> 161887a2 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> e7a9a2bf (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4f19d70d2 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 9d67cabd (.)
+<<<<<<< HEAD
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> ba564870 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9cdf6146 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8f2456941 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 80f054e0 (.)
+<<<<<<< HEAD
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> 7c39b1fe (.)
+=======
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> 888799d0 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 6d08c01b (.)
+=======
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+<<<<<<< HEAD
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> c6c33175 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 8e5817bc (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 968ed47cd (.)
+=======
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+<<<<<<< HEAD
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> 7a2f131f (.)
+=======
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 51182e3c (rebase 210)
+=======
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cb85c538 (rebase 210)
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> 1c0eb9c7 (rebase 210)
+=======
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> a9bf0423 (rebase 210)
+=======
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> 4d253d2c (rebase 210)
+=======
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> b4f93b3a (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7a9167faf (.)
+=======
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1375c94d (rebase 210)
+<<<<<<< HEAD
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> 52cd5f85 (rebase 210)
+=======
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> c5c038f2 (rebase 210)
+=======
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 030c9674 (rebase 210)
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> bb00ab64 (rebase 210)
+=======
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 77edd94a (.)
+=======
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> 4e2ebfb (.)
+>>>>>>> eea68ec9 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> 59916c8f (.)
+=======
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9cdf6146 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 80f054e0 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> 7c39b1fe (.)
+=======
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> 888799d0 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 6d08c01b (.)
+<<<<<<< HEAD
+=======
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> c6c33175 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 8e5817bc (.)
+=======
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> 7a2f131f (.)
+=======
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 51182e3c (rebase 210)
+<<<<<<< HEAD
+=======
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cb85c538 (rebase 210)
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> 1c0eb9c7 (rebase 210)
+=======
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> a9bf0423 (rebase 210)
+=======
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> 4d253d2c (rebase 210)
+=======
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> b4f93b3a (rebase 210)
+=======
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1375c94d (rebase 210)
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> 52cd5f85 (rebase 210)
+=======
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> c5c038f2 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> db6bec044 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 030c9674 (rebase 210)
+<<<<<<< HEAD
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> bb00ab64 (rebase 210)
+=======
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 77edd94a (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dad70a87 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> 4e2ebfb (.)
+>>>>>>> eea68ec9 (.)
+<<<<<<< HEAD
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> 59916c8f (.)
+=======
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 6d08c01b (.)
+=======
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> c6c33175 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 8e5817bc (.)
+=======
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> 7a2f131f (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> d3a8af4d5 (.)
+=======
+>>>>>>> 4f19d70d2 (.)
+=======
+>>>>>>> c22b35d1e (.)
+=======
+>>>>>>> 8f2456941 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 138fcd4b0 (.)
+=======
+>>>>>>> be45a0b8d (.)
+=======
+>>>>>>> 2641c2944 (.)
+=======
+>>>>>>> 968ed47cd (.)
+=======
+>>>>>>> 13655a7ed (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 51182e3c (rebase 210)
+=======
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cb85c538 (rebase 210)
+<<<<<<< HEAD
+>>>>>>> e0836b102 (.)
+=======
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> 1c0eb9c7 (rebase 210)
+=======
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> a9bf0423 (rebase 210)
+<<<<<<< HEAD
+>>>>>>> 903e3e2cd (.)
+=======
+=======
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
+>>>>>>> 47a873f13 (.)
+=======
+>>>>>>> 5d49e093a (.)
+=======
+>>>>>>> 7a9167faf (.)
+=======
+>>>>>>> 17f6b8617 (.)
+=======
+>>>>>>> db6bec044 (.)
+=======
+>>>>>>> 2e1ac1f20 (.)
+=======
+>>>>>>> 6dad70a87 (.)
+NETFUN_SENDER=SaluteOra
+>>>>>>> 75179b85 (.)
+=======
+NETFUN_SENDER=SaluteOra
+>>>>>>> f963d2c0 (.)
+=======
+NETFUN_SENDER=SaluteOra
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
+NETFUN_SENDER=SaluteOra
+>>>>>>> 75179b85 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+<<<<<<< HEAD
+NETFUN_SENDER=SaluteOra
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
+NETFUN_SENDER=SaluteOra
+>>>>>>> 75179b85 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+<<<<<<< HEAD
+NETFUN_SENDER=SaluteOra
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
+NETFUN_SENDER=SaluteOra
+>>>>>>> 75179b85 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+<<<<<<< HEAD
+NETFUN_SENDER=SaluteOra
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4689a827 (.)
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
+NETFUN_SENDER=SaluteOra
+>>>>>>> ee18dd92 (.)
+=======
+NETFUN_SENDER=SaluteOra
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 7325acf3 (.)
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
+NETFUN_SENDER=SaluteOra
+>>>>>>> 66453ace (.)
+=======
+NETFUN_SENDER=SaluteOra
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> f2e64178 (.)
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
+NETFUN_SENDER=SaluteOra
+>>>>>>> 2a97406c (.)
+=======
+NETFUN_SENDER=SaluteOra
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> c4bdacbf (.)
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
+NETFUN_SENDER=SaluteOra
+>>>>>>> 4f042b88 (.)
+=======
+NETFUN_SENDER=SaluteOra
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+=======
+=======
+>>>>>>> bd804d67 (.)
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
+NETFUN_SENDER=SaluteOra
+>>>>>>> 712617d3 (.)
+=======
+NETFUN_SENDER=SaluteOra
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 229a065a (rebase 210)
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
+NETFUN_SENDER=SaluteOra
+>>>>>>> fdb24863 (rebase 210)
+=======
+NETFUN_SENDER=SaluteOra
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> 3d462363 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+=======
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> efb0f8d9 (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
+NETFUN_SENDER=SaluteOra
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+NETFUN_SENDER=<nome progetto>
+<<<<<<< HEAD
+NETFUN_SENDER=SaluteOra
+<<<<<<< HEAD
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+=======
+>>>>>>> 5aedc39c (rebase 210)
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
+NETFUN_SENDER=SaluteOra
+>>>>>>> eb62d6cf (rebase 210)
+=======
+NETFUN_SENDER=SaluteOra
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 22baa66d (rebase 210)
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
+NETFUN_SENDER=SaluteOra
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+NETFUN_SENDER=SaluteOra
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> 545977c8 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 2effe245 (.)
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
+NETFUN_SENDER=SaluteOra
+>>>>>>> 36ac4fc1 (.)
+=======
+NETFUN_SENDER=SaluteOra
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> 69fa7d37 (.)
+=======
+=======
+>>>>>>> e790eb33 (.)
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
+NETFUN_SENDER=SaluteOra
+>>>>>>> fd1fcc4c (.)
+=======
+NETFUN_SENDER=SaluteOra
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> eb71492d (.)
+<<<<<<< HEAD
+=======
+>>>>>>> cca10a64 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+NETFUN_SENDER=SaluteOra
+>>>>>>> c8b1c8bf (.)
+=======
+NETFUN_SENDER=<nome progetto>
+<<<<<<< HEAD
+NETFUN_SENDER=SaluteOra
+<<<<<<< HEAD
+>>>>>>> 9cf0dc90 (.)
+=======
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
+=======
+>>>>>>> 510809c6f (.)
+NETFUN_SENDER=SaluteOra
+>>>>>>> 75179b85 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+<<<<<<< HEAD
+<<<<<<< HEAD
+NETFUN_SENDER=SaluteOra
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+=======
+>>>>>>> e7a9a2bf (.)
+=======
+>>>>>>> 9d67cabd (.)
+=======
+>>>>>>> ba564870 (.)
+=======
+>>>>>>> 7325acf3 (.)
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
+NETFUN_SENDER=SaluteOra
+>>>>>>> ee18dd92 (.)
+=======
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+<<<<<<< HEAD
+NETFUN_SENDER=SaluteOra
+<<<<<<< HEAD
+>>>>>>> 66453ace (.)
+=======
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+=======
+=======
+>>>>>>> f2e64178 (.)
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
+NETFUN_SENDER=SaluteOra
+>>>>>>> 2a97406c (.)
+=======
+NETFUN_SENDER=SaluteOra
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c4bdacbf (.)
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
+NETFUN_SENDER=SaluteOra
+>>>>>>> 4f042b88 (.)
+=======
+NETFUN_SENDER=SaluteOra
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> bd804d67 (.)
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
+NETFUN_SENDER=SaluteOra
+>>>>>>> 712617d3 (.)
+=======
+NETFUN_SENDER=SaluteOra
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> f3086887 (rebase 210)
+=======
+=======
+>>>>>>> 229a065a (rebase 210)
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
+NETFUN_SENDER=SaluteOra
+>>>>>>> fdb24863 (rebase 210)
+=======
+NETFUN_SENDER=SaluteOra
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> 3d462363 (rebase 210)
+=======
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> efb0f8d9 (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
+NETFUN_SENDER=SaluteOra
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+NETFUN_SENDER=<nome progetto>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+NETFUN_SENDER=SaluteOra
+<<<<<<< HEAD
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5aedc39c (rebase 210)
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
+NETFUN_SENDER=SaluteOra
+>>>>>>> eb62d6cf (rebase 210)
+=======
+NETFUN_SENDER=SaluteOra
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> 6e12a84b (rebase 210)
+=======
+=======
+>>>>>>> 22baa66d (rebase 210)
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
+NETFUN_SENDER=SaluteOra
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+NETFUN_SENDER=SaluteOra
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> 545977c8 (rebase 210)
+=======
+=======
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
+NETFUN_SENDER=SaluteOra
+>>>>>>> 36ac4fc1 (.)
+=======
+NETFUN_SENDER=SaluteOra
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> e790eb33 (.)
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
+NETFUN_SENDER=SaluteOra
+>>>>>>> fd1fcc4c (.)
+=======
+NETFUN_SENDER=SaluteOra
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> eb71492d (.)
+=======
+>>>>>>> cca10a64 (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
+NETFUN_SENDER=SaluteOra
+>>>>>>> c8b1c8bf (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
+NETFUN_SENDER=SaluteOra
+>>>>>>> 9cf0dc90 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+<<<<<<< HEAD
+<<<<<<< HEAD
+NETFUN_SENDER=SaluteOra
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
+=======
+>>>>>>> e2f1a4045 (.)
+NETFUN_SENDER=SaluteOra
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+<<<<<<< HEAD
+NETFUN_SENDER=<nome progetto>
+<<<<<<< HEAD
+NETFUN_SENDER=SaluteOra
+<<<<<<< HEAD
+>>>>>>> 75179b855 (.)
+=======
+=======
+>>>>>>> e7a9a2bf (.)
+=======
+>>>>>>> 9d67cabd (.)
+=======
+>>>>>>> ba564870 (.)
+=======
+>>>>>>> 7325acf3 (.)
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
+NETFUN_SENDER=SaluteOra
+>>>>>>> f963d2c0 (.)
+=======
+=======
+>>>>>>> e2f1a4045 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
+=======
+NETFUN_SENDER=<nome progetto>
+<<<<<<< HEAD
+NETFUN_SENDER=SaluteOra
+<<<<<<< HEAD
+>>>>>>> ee18dd92 (.)
+=======
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+=======
+>>>>>>> 9cdf6146 (.)
+=======
+>>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 7c39b1fe (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
+NETFUN_SENDER=SaluteOra
+>>>>>>> 66453ace (.)
+=======
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+<<<<<<< HEAD
+NETFUN_SENDER=SaluteOra
+<<<<<<< HEAD
+>>>>>>> 2a97406c (.)
+=======
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
+=======
+=======
+>>>>>>> c4bdacbf (.)
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
+NETFUN_SENDER=SaluteOra
+>>>>>>> 4f042b88 (.)
+=======
+NETFUN_SENDER=SaluteOra
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+=======
+=======
+>>>>>>> bd804d67 (.)
+<<<<<<< HEAD
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
+NETFUN_SENDER=SaluteOra
+>>>>>>> 712617d3 (.)
+=======
+NETFUN_SENDER=SaluteOra
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> f3086887 (rebase 210)
+>>>>>>> laraxot/develop
+=======
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> 4e2ebfb (.)
+NETFUN_SENDER=SaluteOra
+>>>>>>> 75179b85 (.)
+>>>>>>> 1487fe812 (.)
+=======
+NETFUN_SENDER=SaluteOra
+>>>>>>> f963d2c0 (.)
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> e2f1a4045 (.)
+=======
+=======
+=======
+>>>>>>> 4689a827 (.)
+>>>>>>> 8dc1f2ed6 (.)
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
+NETFUN_SENDER=SaluteOra
+>>>>>>> ee18dd92 (.)
+>>>>>>> 4bec160e6 (.)
+=======
+>>>>>>> 01af324fe (.)
+=======
+=======
+=======
+>>>>>>> 7325acf3 (.)
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
+NETFUN_SENDER=SaluteOra
+>>>>>>> 66453ace (.)
+>>>>>>> 138485550 (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+=======
+=======
+>>>>>>> f2e64178 (.)
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
+NETFUN_SENDER=SaluteOra
+>>>>>>> 2a97406c (.)
+>>>>>>> 998e6866b (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+=======
+=======
+>>>>>>> c4bdacbf (.)
+>>>>>>> a115e2aad (.)
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
+NETFUN_SENDER=SaluteOra
+>>>>>>> 4f042b88 (.)
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+=======
+=======
+>>>>>>> 848f79b79 (.)
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
+NETFUN_SENDER=SaluteOra
+>>>>>>> 712617d3 (.)
+>>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+=======
+=======
+>>>>>>> 229a065a (rebase 210)
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
+NETFUN_SENDER=SaluteOra
+>>>>>>> fdb24863 (rebase 210)
+>>>>>>> b85076e48 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+=======
+=======
+>>>>>>> a0788fa28 (.)
+=======
+=======
+>>>>>>> 8a8a8e2f (rebase 210)
+>>>>>>> 69f695548 (.)
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> 4e2ebfb (.)
+NETFUN_SENDER=SaluteOra
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
+=======
+=======
+>>>>>>> 6ad5224fb (.)
+NETFUN_SENDER=SaluteOra
+<<<<<<< HEAD
+>>>>>>> 9c45d9bd (rebase 210)
+<<<<<<< HEAD
+>>>>>>> ce1853afd (.)
+=======
+=======
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
+=======
+=======
+=======
+>>>>>>> 5aedc39c (rebase 210)
+>>>>>>> cd5474106 (.)
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
+NETFUN_SENDER=SaluteOra
+>>>>>>> eb62d6cf (rebase 210)
+>>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+=======
+=======
+>>>>>>> 22baa66d (rebase 210)
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
+NETFUN_SENDER=SaluteOra
+>>>>>>> 8c8937e7 (rebase 210)
+>>>>>>> c31e900eb (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+=======
+=======
+>>>>>>> 26d39e2eb (.)
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
+NETFUN_SENDER=SaluteOra
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+=======
+=======
+=======
+>>>>>>> e790eb33 (.)
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
+NETFUN_SENDER=SaluteOra
+>>>>>>> fd1fcc4c (.)
+>>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> a2f3c239e (.)
+=======
+=======
+=======
+>>>>>>> 2fc60436 (.)
+>>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> 4e2ebfb (.)
+NETFUN_SENDER=SaluteOra
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+NETFUN_SENDER=SaluteOra
+>>>>>>> 9cf0dc90 (.)
+>>>>>>> 379ffe3f3 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+NETFUN_SENDER=<nome progetto>
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 ```
 
 ### 2. Creazione della Queueable Action
@@ -602,8 +10788,1694 @@ class AppointmentReminder extends Notification
         $date = $this->appointment->date->format('d/m/Y H:i');
         
         return (new NetfunSMSMessage())
+<<<<<<< HEAD
             ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
             ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 01af324fe (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> a2f3c239e (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+=======
+=======
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+>>>>>>> 82ae73be (.)
+=======
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1619767d8 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> 161887a2 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> e7a9a2bf (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4f19d70d2 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 9d67cabd (.)
+<<<<<<< HEAD
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> ba564870 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9cdf6146 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8f2456941 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 80f054e0 (.)
+<<<<<<< HEAD
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> 7c39b1fe (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> 888799d0 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 6d08c01b (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+<<<<<<< HEAD
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> c6c33175 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 8e5817bc (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 968ed47cd (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+<<<<<<< HEAD
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> 7a2f131f (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 51182e3c (rebase 210)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cb85c538 (rebase 210)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> 1c0eb9c7 (rebase 210)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> a9bf0423 (rebase 210)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> 4d253d2c (rebase 210)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> b4f93b3a (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7a9167faf (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1375c94d (rebase 210)
+<<<<<<< HEAD
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> 52cd5f85 (rebase 210)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> c5c038f2 (rebase 210)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 030c9674 (rebase 210)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> bb00ab64 (rebase 210)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 77edd94a (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> eea68ec9 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> 59916c8f (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9cdf6146 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 80f054e0 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> 7c39b1fe (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> 888799d0 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 6d08c01b (.)
+<<<<<<< HEAD
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> c6c33175 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 8e5817bc (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> 7a2f131f (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 51182e3c (rebase 210)
+<<<<<<< HEAD
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cb85c538 (rebase 210)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> 1c0eb9c7 (rebase 210)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> a9bf0423 (rebase 210)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> 4d253d2c (rebase 210)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> b4f93b3a (rebase 210)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1375c94d (rebase 210)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> 52cd5f85 (rebase 210)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> c5c038f2 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> db6bec044 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 030c9674 (rebase 210)
+<<<<<<< HEAD
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> bb00ab64 (rebase 210)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 77edd94a (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dad70a87 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> eea68ec9 (.)
+<<<<<<< HEAD
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> 59916c8f (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 6d08c01b (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> c6c33175 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 8e5817bc (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> 7a2f131f (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> d3a8af4d5 (.)
+=======
+>>>>>>> 4f19d70d2 (.)
+=======
+>>>>>>> c22b35d1e (.)
+=======
+>>>>>>> 8f2456941 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 138fcd4b0 (.)
+=======
+>>>>>>> be45a0b8d (.)
+=======
+>>>>>>> 2641c2944 (.)
+=======
+>>>>>>> 968ed47cd (.)
+=======
+>>>>>>> 13655a7ed (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 51182e3c (rebase 210)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cb85c538 (rebase 210)
+<<<<<<< HEAD
+>>>>>>> e0836b102 (.)
+=======
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> 1c0eb9c7 (rebase 210)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> a9bf0423 (rebase 210)
+<<<<<<< HEAD
+>>>>>>> 903e3e2cd (.)
+=======
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
+>>>>>>> 47a873f13 (.)
+=======
+>>>>>>> 5d49e093a (.)
+=======
+>>>>>>> 7a9167faf (.)
+=======
+>>>>>>> 17f6b8617 (.)
+=======
+>>>>>>> db6bec044 (.)
+=======
+>>>>>>> 2e1ac1f20 (.)
+=======
+>>>>>>> 6dad70a87 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> 75179b85 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> f963d2c0 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> 75179b85 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+<<<<<<< HEAD
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> 75179b85 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+<<<<<<< HEAD
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> 75179b85 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+<<<<<<< HEAD
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4689a827 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> ee18dd92 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 7325acf3 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> 66453ace (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> f2e64178 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> 2a97406c (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> c4bdacbf (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> 4f042b88 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+=======
+=======
+>>>>>>> bd804d67 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> 712617d3 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 229a065a (rebase 210)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> fdb24863 (rebase 210)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 3d462363 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+=======
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> efb0f8d9 (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+<<<<<<< HEAD
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+<<<<<<< HEAD
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+=======
+>>>>>>> 5aedc39c (rebase 210)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> eb62d6cf (rebase 210)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 22baa66d (rebase 210)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 545977c8 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 2effe245 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> 36ac4fc1 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 69fa7d37 (.)
+=======
+=======
+>>>>>>> e790eb33 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> fd1fcc4c (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> eb71492d (.)
+<<<<<<< HEAD
+=======
+>>>>>>> cca10a64 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> c8b1c8bf (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+<<<<<<< HEAD
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+<<<<<<< HEAD
+>>>>>>> 9cf0dc90 (.)
+=======
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+=======
+>>>>>>> 510809c6f (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> 75179b85 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+<<<<<<< HEAD
+<<<<<<< HEAD
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+=======
+>>>>>>> e7a9a2bf (.)
+=======
+>>>>>>> 9d67cabd (.)
+=======
+>>>>>>> ba564870 (.)
+=======
+>>>>>>> 7325acf3 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> ee18dd92 (.)
+=======
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+<<<<<<< HEAD
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+<<<<<<< HEAD
+>>>>>>> 66453ace (.)
+=======
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+=======
+=======
+>>>>>>> f2e64178 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> 2a97406c (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c4bdacbf (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> 4f042b88 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> bd804d67 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> 712617d3 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> f3086887 (rebase 210)
+=======
+=======
+>>>>>>> 229a065a (rebase 210)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> fdb24863 (rebase 210)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 3d462363 (rebase 210)
+=======
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> efb0f8d9 (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+<<<<<<< HEAD
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5aedc39c (rebase 210)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> eb62d6cf (rebase 210)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 6e12a84b (rebase 210)
+=======
+=======
+>>>>>>> 22baa66d (rebase 210)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 545977c8 (rebase 210)
+=======
+=======
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> 36ac4fc1 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> e790eb33 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> fd1fcc4c (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> eb71492d (.)
+=======
+>>>>>>> cca10a64 (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> c8b1c8bf (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> 9cf0dc90 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+<<<<<<< HEAD
+<<<<<<< HEAD
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+=======
+>>>>>>> e2f1a4045 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+<<<<<<< HEAD
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+<<<<<<< HEAD
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+<<<<<<< HEAD
+>>>>>>> 75179b855 (.)
+=======
+=======
+>>>>>>> e7a9a2bf (.)
+=======
+>>>>>>> 9d67cabd (.)
+=======
+>>>>>>> ba564870 (.)
+=======
+>>>>>>> 7325acf3 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> f963d2c0 (.)
+=======
+=======
+>>>>>>> e2f1a4045 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+<<<<<<< HEAD
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+<<<<<<< HEAD
+>>>>>>> ee18dd92 (.)
+=======
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+=======
+>>>>>>> 9cdf6146 (.)
+=======
+>>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 7c39b1fe (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> 66453ace (.)
+=======
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+<<<<<<< HEAD
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+<<<<<<< HEAD
+>>>>>>> 2a97406c (.)
+=======
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
+=======
+=======
+>>>>>>> c4bdacbf (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> 4f042b88 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+=======
+=======
+>>>>>>> bd804d67 (.)
+<<<<<<< HEAD
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> 712617d3 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> f3086887 (rebase 210)
+>>>>>>> laraxot/develop
+=======
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> 75179b85 (.)
+>>>>>>> 1487fe812 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> f963d2c0 (.)
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> e2f1a4045 (.)
+=======
+=======
+=======
+>>>>>>> 4689a827 (.)
+>>>>>>> 8dc1f2ed6 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> ee18dd92 (.)
+>>>>>>> 4bec160e6 (.)
+=======
+>>>>>>> 01af324fe (.)
+=======
+=======
+=======
+>>>>>>> 7325acf3 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> 66453ace (.)
+>>>>>>> 138485550 (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+=======
+=======
+>>>>>>> f2e64178 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> 2a97406c (.)
+>>>>>>> 998e6866b (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+=======
+=======
+>>>>>>> c4bdacbf (.)
+>>>>>>> a115e2aad (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> 4f042b88 (.)
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+=======
+=======
+>>>>>>> 848f79b79 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> 712617d3 (.)
+>>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+=======
+=======
+>>>>>>> 229a065a (rebase 210)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> fdb24863 (rebase 210)
+>>>>>>> b85076e48 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+=======
+=======
+>>>>>>> a0788fa28 (.)
+=======
+=======
+>>>>>>> 8a8a8e2f (rebase 210)
+>>>>>>> 69f695548 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
+=======
+=======
+>>>>>>> 6ad5224fb (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+<<<<<<< HEAD
+>>>>>>> 9c45d9bd (rebase 210)
+<<<<<<< HEAD
+>>>>>>> ce1853afd (.)
+=======
+=======
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
+=======
+=======
+=======
+>>>>>>> 5aedc39c (rebase 210)
+>>>>>>> cd5474106 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> eb62d6cf (rebase 210)
+>>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+=======
+=======
+>>>>>>> 22baa66d (rebase 210)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> 8c8937e7 (rebase 210)
+>>>>>>> c31e900eb (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+=======
+=======
+>>>>>>> 26d39e2eb (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+=======
+=======
+=======
+>>>>>>> e790eb33 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> fd1fcc4c (.)
+>>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> a2f3c239e (.)
+=======
+=======
+=======
+>>>>>>> 2fc60436 (.)
+>>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> 9cf0dc90 (.)
+>>>>>>> 379ffe3f3 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
             ->reference('app_' . $this->appointment->id);
     }
     
@@ -648,8 +12520,1694 @@ class NetfunSMSTest extends TestCase
         $action = app(SendNetfunSMSAction::class);
         
         $message = (new NetfunSMSMessage())
+<<<<<<< HEAD
             ->content('Test SMS da <nome progetto>')
             ->content('Test SMS da <nome progetto>')
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            ->content('Test SMS da <nome progetto>')
+            ->content('Test SMS da <nome progetto>')
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            ->content('Test SMS da <nome progetto>')
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 01af324fe (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> a2f3c239e (.)
+            ->content('Test SMS da <nome progetto>')
+=======
+=======
+=======
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+>>>>>>> 82ae73be (.)
+=======
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1619767d8 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> 161887a2 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> e7a9a2bf (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4f19d70d2 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 9d67cabd (.)
+<<<<<<< HEAD
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> ba564870 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9cdf6146 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8f2456941 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 80f054e0 (.)
+<<<<<<< HEAD
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> 7c39b1fe (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> 888799d0 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 6d08c01b (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+<<<<<<< HEAD
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> c6c33175 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 8e5817bc (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 968ed47cd (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+<<<<<<< HEAD
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> 7a2f131f (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 51182e3c (rebase 210)
+=======
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cb85c538 (rebase 210)
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> 1c0eb9c7 (rebase 210)
+=======
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> a9bf0423 (rebase 210)
+=======
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> 4d253d2c (rebase 210)
+=======
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> b4f93b3a (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7a9167faf (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1375c94d (rebase 210)
+<<<<<<< HEAD
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> 52cd5f85 (rebase 210)
+=======
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> c5c038f2 (rebase 210)
+=======
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 030c9674 (rebase 210)
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> bb00ab64 (rebase 210)
+=======
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 77edd94a (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> 4e2ebfb (.)
+>>>>>>> eea68ec9 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> 59916c8f (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9cdf6146 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 80f054e0 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> 7c39b1fe (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> 888799d0 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 6d08c01b (.)
+<<<<<<< HEAD
+=======
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> c6c33175 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 8e5817bc (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> 7a2f131f (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 51182e3c (rebase 210)
+<<<<<<< HEAD
+=======
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cb85c538 (rebase 210)
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> 1c0eb9c7 (rebase 210)
+=======
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> a9bf0423 (rebase 210)
+=======
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> 4d253d2c (rebase 210)
+=======
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> b4f93b3a (rebase 210)
+=======
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1375c94d (rebase 210)
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> 52cd5f85 (rebase 210)
+=======
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> c5c038f2 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> db6bec044 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 030c9674 (rebase 210)
+<<<<<<< HEAD
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> bb00ab64 (rebase 210)
+=======
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 77edd94a (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dad70a87 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> 4e2ebfb (.)
+>>>>>>> eea68ec9 (.)
+<<<<<<< HEAD
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> 59916c8f (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 6d08c01b (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> c6c33175 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 8e5817bc (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> 7a2f131f (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> d3a8af4d5 (.)
+=======
+>>>>>>> 4f19d70d2 (.)
+=======
+>>>>>>> c22b35d1e (.)
+=======
+>>>>>>> 8f2456941 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 138fcd4b0 (.)
+=======
+>>>>>>> be45a0b8d (.)
+=======
+>>>>>>> 2641c2944 (.)
+=======
+>>>>>>> 968ed47cd (.)
+=======
+>>>>>>> 13655a7ed (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 51182e3c (rebase 210)
+=======
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cb85c538 (rebase 210)
+<<<<<<< HEAD
+>>>>>>> e0836b102 (.)
+=======
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> 1c0eb9c7 (rebase 210)
+=======
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> a9bf0423 (rebase 210)
+<<<<<<< HEAD
+>>>>>>> 903e3e2cd (.)
+=======
+=======
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
+>>>>>>> 47a873f13 (.)
+=======
+>>>>>>> 5d49e093a (.)
+=======
+>>>>>>> 7a9167faf (.)
+=======
+>>>>>>> 17f6b8617 (.)
+=======
+>>>>>>> db6bec044 (.)
+=======
+>>>>>>> 2e1ac1f20 (.)
+=======
+>>>>>>> 6dad70a87 (.)
+            ->content('Test SMS da SaluteOra')
+>>>>>>> 75179b85 (.)
+=======
+            ->content('Test SMS da SaluteOra')
+>>>>>>> f963d2c0 (.)
+=======
+            ->content('Test SMS da SaluteOra')
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> d284d65 (.)
+            ->content('Test SMS da SaluteOra')
+>>>>>>> 75179b85 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+<<<<<<< HEAD
+            ->content('Test SMS da SaluteOra')
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> d284d65 (.)
+            ->content('Test SMS da SaluteOra')
+>>>>>>> 75179b85 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+<<<<<<< HEAD
+            ->content('Test SMS da SaluteOra')
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> d284d65 (.)
+            ->content('Test SMS da SaluteOra')
+>>>>>>> 75179b85 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+<<<<<<< HEAD
+            ->content('Test SMS da SaluteOra')
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4689a827 (.)
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> d284d65 (.)
+            ->content('Test SMS da SaluteOra')
+>>>>>>> ee18dd92 (.)
+=======
+            ->content('Test SMS da SaluteOra')
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 7325acf3 (.)
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> d284d65 (.)
+            ->content('Test SMS da SaluteOra')
+>>>>>>> 66453ace (.)
+=======
+            ->content('Test SMS da SaluteOra')
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> f2e64178 (.)
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> d284d65 (.)
+            ->content('Test SMS da SaluteOra')
+>>>>>>> 2a97406c (.)
+=======
+            ->content('Test SMS da SaluteOra')
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> c4bdacbf (.)
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> d284d65 (.)
+            ->content('Test SMS da SaluteOra')
+>>>>>>> 4f042b88 (.)
+=======
+            ->content('Test SMS da SaluteOra')
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+=======
+=======
+>>>>>>> bd804d67 (.)
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> d284d65 (.)
+            ->content('Test SMS da SaluteOra')
+>>>>>>> 712617d3 (.)
+=======
+            ->content('Test SMS da SaluteOra')
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> bf479cc (.)
+>>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 229a065a (rebase 210)
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> d284d65 (.)
+            ->content('Test SMS da SaluteOra')
+>>>>>>> fdb24863 (rebase 210)
+=======
+            ->content('Test SMS da SaluteOra')
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> bf479cc (.)
+>>>>>>> 3d462363 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+=======
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> efb0f8d9 (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> d284d65 (.)
+            ->content('Test SMS da SaluteOra')
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+            ->content('Test SMS da <nome progetto>')
+<<<<<<< HEAD
+            ->content('Test SMS da SaluteOra')
+<<<<<<< HEAD
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+=======
+>>>>>>> 5aedc39c (rebase 210)
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> d284d65 (.)
+            ->content('Test SMS da SaluteOra')
+>>>>>>> eb62d6cf (rebase 210)
+=======
+            ->content('Test SMS da SaluteOra')
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> bf479cc (.)
+>>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 22baa66d (rebase 210)
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> d284d65 (.)
+            ->content('Test SMS da SaluteOra')
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+            ->content('Test SMS da SaluteOra')
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> bf479cc (.)
+>>>>>>> 545977c8 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 2effe245 (.)
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> d284d65 (.)
+            ->content('Test SMS da SaluteOra')
+>>>>>>> 36ac4fc1 (.)
+=======
+            ->content('Test SMS da SaluteOra')
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> bf479cc (.)
+>>>>>>> 69fa7d37 (.)
+=======
+=======
+>>>>>>> e790eb33 (.)
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> d284d65 (.)
+            ->content('Test SMS da SaluteOra')
+>>>>>>> fd1fcc4c (.)
+=======
+            ->content('Test SMS da SaluteOra')
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> bf479cc (.)
+>>>>>>> eb71492d (.)
+<<<<<<< HEAD
+=======
+>>>>>>> cca10a64 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+            ->content('Test SMS da SaluteOra')
+>>>>>>> c8b1c8bf (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+<<<<<<< HEAD
+            ->content('Test SMS da SaluteOra')
+<<<<<<< HEAD
+>>>>>>> 9cf0dc90 (.)
+=======
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> d284d65 (.)
+=======
+>>>>>>> 510809c6f (.)
+            ->content('Test SMS da SaluteOra')
+>>>>>>> 75179b85 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+<<<<<<< HEAD
+<<<<<<< HEAD
+            ->content('Test SMS da SaluteOra')
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+=======
+>>>>>>> e7a9a2bf (.)
+=======
+>>>>>>> 9d67cabd (.)
+=======
+>>>>>>> ba564870 (.)
+=======
+>>>>>>> 7325acf3 (.)
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> d284d65 (.)
+            ->content('Test SMS da SaluteOra')
+>>>>>>> ee18dd92 (.)
+=======
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+<<<<<<< HEAD
+            ->content('Test SMS da SaluteOra')
+<<<<<<< HEAD
+>>>>>>> 66453ace (.)
+=======
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+=======
+=======
+>>>>>>> f2e64178 (.)
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> d284d65 (.)
+            ->content('Test SMS da SaluteOra')
+>>>>>>> 2a97406c (.)
+=======
+            ->content('Test SMS da SaluteOra')
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c4bdacbf (.)
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> d284d65 (.)
+            ->content('Test SMS da SaluteOra')
+>>>>>>> 4f042b88 (.)
+=======
+            ->content('Test SMS da SaluteOra')
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> bd804d67 (.)
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> d284d65 (.)
+            ->content('Test SMS da SaluteOra')
+>>>>>>> 712617d3 (.)
+=======
+            ->content('Test SMS da SaluteOra')
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> bf479cc (.)
+>>>>>>> f3086887 (rebase 210)
+=======
+=======
+>>>>>>> 229a065a (rebase 210)
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> d284d65 (.)
+            ->content('Test SMS da SaluteOra')
+>>>>>>> fdb24863 (rebase 210)
+=======
+            ->content('Test SMS da SaluteOra')
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> bf479cc (.)
+>>>>>>> 3d462363 (rebase 210)
+=======
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> efb0f8d9 (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> d284d65 (.)
+            ->content('Test SMS da SaluteOra')
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+            ->content('Test SMS da <nome progetto>')
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            ->content('Test SMS da SaluteOra')
+<<<<<<< HEAD
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5aedc39c (rebase 210)
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> d284d65 (.)
+            ->content('Test SMS da SaluteOra')
+>>>>>>> eb62d6cf (rebase 210)
+=======
+            ->content('Test SMS da SaluteOra')
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> bf479cc (.)
+>>>>>>> 6e12a84b (rebase 210)
+=======
+=======
+>>>>>>> 22baa66d (rebase 210)
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> d284d65 (.)
+            ->content('Test SMS da SaluteOra')
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+            ->content('Test SMS da SaluteOra')
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> bf479cc (.)
+>>>>>>> 545977c8 (rebase 210)
+=======
+=======
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> d284d65 (.)
+            ->content('Test SMS da SaluteOra')
+>>>>>>> 36ac4fc1 (.)
+=======
+            ->content('Test SMS da SaluteOra')
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> bf479cc (.)
+>>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> e790eb33 (.)
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> d284d65 (.)
+            ->content('Test SMS da SaluteOra')
+>>>>>>> fd1fcc4c (.)
+=======
+            ->content('Test SMS da SaluteOra')
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> bf479cc (.)
+>>>>>>> eb71492d (.)
+=======
+>>>>>>> cca10a64 (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> d284d65 (.)
+            ->content('Test SMS da SaluteOra')
+>>>>>>> c8b1c8bf (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> d284d65 (.)
+            ->content('Test SMS da SaluteOra')
+>>>>>>> 9cf0dc90 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+<<<<<<< HEAD
+<<<<<<< HEAD
+            ->content('Test SMS da SaluteOra')
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> d284d65 (.)
+=======
+>>>>>>> e2f1a4045 (.)
+            ->content('Test SMS da SaluteOra')
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+<<<<<<< HEAD
+            ->content('Test SMS da <nome progetto>')
+<<<<<<< HEAD
+            ->content('Test SMS da SaluteOra')
+<<<<<<< HEAD
+>>>>>>> 75179b855 (.)
+=======
+=======
+>>>>>>> e7a9a2bf (.)
+=======
+>>>>>>> 9d67cabd (.)
+=======
+>>>>>>> ba564870 (.)
+=======
+>>>>>>> 7325acf3 (.)
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> d284d65 (.)
+            ->content('Test SMS da SaluteOra')
+>>>>>>> f963d2c0 (.)
+=======
+=======
+>>>>>>> e2f1a4045 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
+=======
+            ->content('Test SMS da <nome progetto>')
+<<<<<<< HEAD
+            ->content('Test SMS da SaluteOra')
+<<<<<<< HEAD
+>>>>>>> ee18dd92 (.)
+=======
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+=======
+>>>>>>> 9cdf6146 (.)
+=======
+>>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 7c39b1fe (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> d284d65 (.)
+            ->content('Test SMS da SaluteOra')
+>>>>>>> 66453ace (.)
+=======
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+<<<<<<< HEAD
+            ->content('Test SMS da SaluteOra')
+<<<<<<< HEAD
+>>>>>>> 2a97406c (.)
+=======
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
+=======
+=======
+>>>>>>> c4bdacbf (.)
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> d284d65 (.)
+            ->content('Test SMS da SaluteOra')
+>>>>>>> 4f042b88 (.)
+=======
+            ->content('Test SMS da SaluteOra')
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+=======
+=======
+>>>>>>> bd804d67 (.)
+<<<<<<< HEAD
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> d284d65 (.)
+            ->content('Test SMS da SaluteOra')
+>>>>>>> 712617d3 (.)
+=======
+            ->content('Test SMS da SaluteOra')
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> bf479cc (.)
+>>>>>>> f3086887 (rebase 210)
+>>>>>>> laraxot/develop
+=======
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> 4e2ebfb (.)
+            ->content('Test SMS da SaluteOra')
+>>>>>>> 75179b85 (.)
+>>>>>>> 1487fe812 (.)
+=======
+            ->content('Test SMS da SaluteOra')
+>>>>>>> f963d2c0 (.)
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> e2f1a4045 (.)
+=======
+=======
+=======
+>>>>>>> 4689a827 (.)
+>>>>>>> 8dc1f2ed6 (.)
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> d284d65 (.)
+            ->content('Test SMS da SaluteOra')
+>>>>>>> ee18dd92 (.)
+>>>>>>> 4bec160e6 (.)
+=======
+>>>>>>> 01af324fe (.)
+=======
+=======
+=======
+>>>>>>> 7325acf3 (.)
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> d284d65 (.)
+            ->content('Test SMS da SaluteOra')
+>>>>>>> 66453ace (.)
+>>>>>>> 138485550 (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+=======
+=======
+>>>>>>> f2e64178 (.)
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> d284d65 (.)
+            ->content('Test SMS da SaluteOra')
+>>>>>>> 2a97406c (.)
+>>>>>>> 998e6866b (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+=======
+=======
+>>>>>>> c4bdacbf (.)
+>>>>>>> a115e2aad (.)
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> d284d65 (.)
+            ->content('Test SMS da SaluteOra')
+>>>>>>> 4f042b88 (.)
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+=======
+=======
+>>>>>>> 848f79b79 (.)
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> d284d65 (.)
+            ->content('Test SMS da SaluteOra')
+>>>>>>> 712617d3 (.)
+>>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+=======
+=======
+>>>>>>> 229a065a (rebase 210)
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> d284d65 (.)
+            ->content('Test SMS da SaluteOra')
+>>>>>>> fdb24863 (rebase 210)
+>>>>>>> b85076e48 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+=======
+=======
+>>>>>>> a0788fa28 (.)
+=======
+=======
+>>>>>>> 8a8a8e2f (rebase 210)
+>>>>>>> 69f695548 (.)
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> 4e2ebfb (.)
+            ->content('Test SMS da SaluteOra')
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
+=======
+=======
+>>>>>>> 6ad5224fb (.)
+            ->content('Test SMS da SaluteOra')
+<<<<<<< HEAD
+>>>>>>> 9c45d9bd (rebase 210)
+<<<<<<< HEAD
+>>>>>>> ce1853afd (.)
+=======
+=======
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
+=======
+=======
+=======
+>>>>>>> 5aedc39c (rebase 210)
+>>>>>>> cd5474106 (.)
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> d284d65 (.)
+            ->content('Test SMS da SaluteOra')
+>>>>>>> eb62d6cf (rebase 210)
+>>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+=======
+=======
+>>>>>>> 22baa66d (rebase 210)
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> d284d65 (.)
+            ->content('Test SMS da SaluteOra')
+>>>>>>> 8c8937e7 (rebase 210)
+>>>>>>> c31e900eb (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+=======
+=======
+>>>>>>> 26d39e2eb (.)
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> d284d65 (.)
+            ->content('Test SMS da SaluteOra')
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+=======
+=======
+=======
+>>>>>>> e790eb33 (.)
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> d284d65 (.)
+            ->content('Test SMS da SaluteOra')
+>>>>>>> fd1fcc4c (.)
+>>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> a2f3c239e (.)
+=======
+=======
+=======
+>>>>>>> 2fc60436 (.)
+>>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
+            ->content('Test SMS da <nome progetto>')
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> 4e2ebfb (.)
+            ->content('Test SMS da SaluteOra')
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+            ->content('Test SMS da SaluteOra')
+>>>>>>> 9cf0dc90 (.)
+>>>>>>> 379ffe3f3 (.)
+=======
+            ->content('Test SMS da <nome progetto>')
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
             ->reference('test_123');
         
         $result = $action->execute(
@@ -685,8 +14243,1694 @@ class AppointmentReminderController extends Controller
         $sendSMSAction = app(SendNetfunSMSAction::class);
         
         $message = (new NetfunSMSMessage())
+<<<<<<< HEAD
             ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
             ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 01af324fe (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> a2f3c239e (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+=======
+=======
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+>>>>>>> 82ae73be (.)
+=======
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1619767d8 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> 161887a2 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> e7a9a2bf (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4f19d70d2 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 9d67cabd (.)
+<<<<<<< HEAD
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> ba564870 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9cdf6146 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8f2456941 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 80f054e0 (.)
+<<<<<<< HEAD
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> 7c39b1fe (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> 888799d0 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 6d08c01b (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+<<<<<<< HEAD
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> c6c33175 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 8e5817bc (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 968ed47cd (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+<<<<<<< HEAD
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> 7a2f131f (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 51182e3c (rebase 210)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cb85c538 (rebase 210)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> 1c0eb9c7 (rebase 210)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> a9bf0423 (rebase 210)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> 4d253d2c (rebase 210)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> b4f93b3a (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7a9167faf (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1375c94d (rebase 210)
+<<<<<<< HEAD
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> 52cd5f85 (rebase 210)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> c5c038f2 (rebase 210)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 030c9674 (rebase 210)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> bb00ab64 (rebase 210)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 77edd94a (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> eea68ec9 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> 59916c8f (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9cdf6146 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 80f054e0 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> 7c39b1fe (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> 888799d0 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 6d08c01b (.)
+<<<<<<< HEAD
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> c6c33175 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 8e5817bc (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> 7a2f131f (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 51182e3c (rebase 210)
+<<<<<<< HEAD
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cb85c538 (rebase 210)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> 1c0eb9c7 (rebase 210)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> a9bf0423 (rebase 210)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> 4d253d2c (rebase 210)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> b4f93b3a (rebase 210)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1375c94d (rebase 210)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> 52cd5f85 (rebase 210)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> c5c038f2 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> db6bec044 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 030c9674 (rebase 210)
+<<<<<<< HEAD
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> bb00ab64 (rebase 210)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 77edd94a (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dad70a87 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> eea68ec9 (.)
+<<<<<<< HEAD
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> 59916c8f (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 6d08c01b (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> c6c33175 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 8e5817bc (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> 7a2f131f (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> d3a8af4d5 (.)
+=======
+>>>>>>> 4f19d70d2 (.)
+=======
+>>>>>>> c22b35d1e (.)
+=======
+>>>>>>> 8f2456941 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 138fcd4b0 (.)
+=======
+>>>>>>> be45a0b8d (.)
+=======
+>>>>>>> 2641c2944 (.)
+=======
+>>>>>>> 968ed47cd (.)
+=======
+>>>>>>> 13655a7ed (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 51182e3c (rebase 210)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cb85c538 (rebase 210)
+<<<<<<< HEAD
+>>>>>>> e0836b102 (.)
+=======
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> 1c0eb9c7 (rebase 210)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> a9bf0423 (rebase 210)
+<<<<<<< HEAD
+>>>>>>> 903e3e2cd (.)
+=======
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
+>>>>>>> 47a873f13 (.)
+=======
+>>>>>>> 5d49e093a (.)
+=======
+>>>>>>> 7a9167faf (.)
+=======
+>>>>>>> 17f6b8617 (.)
+=======
+>>>>>>> db6bec044 (.)
+=======
+>>>>>>> 2e1ac1f20 (.)
+=======
+>>>>>>> 6dad70a87 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> 75179b85 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> f963d2c0 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> 75179b85 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+<<<<<<< HEAD
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> 75179b85 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+<<<<<<< HEAD
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> 75179b85 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+<<<<<<< HEAD
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4689a827 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> ee18dd92 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 7325acf3 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> 66453ace (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> f2e64178 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> 2a97406c (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> c4bdacbf (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> 4f042b88 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+=======
+=======
+>>>>>>> bd804d67 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> 712617d3 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 229a065a (rebase 210)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> fdb24863 (rebase 210)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 3d462363 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+=======
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> efb0f8d9 (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+<<<<<<< HEAD
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+<<<<<<< HEAD
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+=======
+>>>>>>> 5aedc39c (rebase 210)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> eb62d6cf (rebase 210)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 22baa66d (rebase 210)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 545977c8 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 2effe245 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> 36ac4fc1 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 69fa7d37 (.)
+=======
+=======
+>>>>>>> e790eb33 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> fd1fcc4c (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> eb71492d (.)
+<<<<<<< HEAD
+=======
+>>>>>>> cca10a64 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> c8b1c8bf (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+<<<<<<< HEAD
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+<<<<<<< HEAD
+>>>>>>> 9cf0dc90 (.)
+=======
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+=======
+>>>>>>> 510809c6f (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> 75179b85 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+<<<<<<< HEAD
+<<<<<<< HEAD
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+=======
+>>>>>>> e7a9a2bf (.)
+=======
+>>>>>>> 9d67cabd (.)
+=======
+>>>>>>> ba564870 (.)
+=======
+>>>>>>> 7325acf3 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> ee18dd92 (.)
+=======
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+<<<<<<< HEAD
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+<<<<<<< HEAD
+>>>>>>> 66453ace (.)
+=======
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+=======
+=======
+>>>>>>> f2e64178 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> 2a97406c (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c4bdacbf (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> 4f042b88 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> bd804d67 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> 712617d3 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> f3086887 (rebase 210)
+=======
+=======
+>>>>>>> 229a065a (rebase 210)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> fdb24863 (rebase 210)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 3d462363 (rebase 210)
+=======
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> efb0f8d9 (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+<<<<<<< HEAD
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5aedc39c (rebase 210)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> eb62d6cf (rebase 210)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 6e12a84b (rebase 210)
+=======
+=======
+>>>>>>> 22baa66d (rebase 210)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 545977c8 (rebase 210)
+=======
+=======
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> 36ac4fc1 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> e790eb33 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> fd1fcc4c (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> eb71492d (.)
+=======
+>>>>>>> cca10a64 (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> c8b1c8bf (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> 9cf0dc90 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+<<<<<<< HEAD
+<<<<<<< HEAD
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+=======
+>>>>>>> e2f1a4045 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+<<<<<<< HEAD
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+<<<<<<< HEAD
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+<<<<<<< HEAD
+>>>>>>> 75179b855 (.)
+=======
+=======
+>>>>>>> e7a9a2bf (.)
+=======
+>>>>>>> 9d67cabd (.)
+=======
+>>>>>>> ba564870 (.)
+=======
+>>>>>>> 7325acf3 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> f963d2c0 (.)
+=======
+=======
+>>>>>>> e2f1a4045 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+<<<<<<< HEAD
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+<<<<<<< HEAD
+>>>>>>> ee18dd92 (.)
+=======
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+=======
+>>>>>>> 9cdf6146 (.)
+=======
+>>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 7c39b1fe (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> 66453ace (.)
+=======
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+<<<<<<< HEAD
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+<<<<<<< HEAD
+>>>>>>> 2a97406c (.)
+=======
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
+=======
+=======
+>>>>>>> c4bdacbf (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> 4f042b88 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+=======
+=======
+>>>>>>> bd804d67 (.)
+<<<<<<< HEAD
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> 712617d3 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> f3086887 (rebase 210)
+>>>>>>> laraxot/develop
+=======
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> 75179b85 (.)
+>>>>>>> 1487fe812 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> f963d2c0 (.)
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> e2f1a4045 (.)
+=======
+=======
+=======
+>>>>>>> 4689a827 (.)
+>>>>>>> 8dc1f2ed6 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> ee18dd92 (.)
+>>>>>>> 4bec160e6 (.)
+=======
+>>>>>>> 01af324fe (.)
+=======
+=======
+=======
+>>>>>>> 7325acf3 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> 66453ace (.)
+>>>>>>> 138485550 (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+=======
+=======
+>>>>>>> f2e64178 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> 2a97406c (.)
+>>>>>>> 998e6866b (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+=======
+=======
+>>>>>>> c4bdacbf (.)
+>>>>>>> a115e2aad (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> 4f042b88 (.)
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+=======
+=======
+>>>>>>> 848f79b79 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> 712617d3 (.)
+>>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+=======
+=======
+>>>>>>> 229a065a (rebase 210)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> fdb24863 (rebase 210)
+>>>>>>> b85076e48 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+=======
+=======
+>>>>>>> a0788fa28 (.)
+=======
+=======
+>>>>>>> 8a8a8e2f (rebase 210)
+>>>>>>> 69f695548 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
+=======
+=======
+>>>>>>> 6ad5224fb (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+<<<<<<< HEAD
+>>>>>>> 9c45d9bd (rebase 210)
+<<<<<<< HEAD
+>>>>>>> ce1853afd (.)
+=======
+=======
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
+=======
+=======
+=======
+>>>>>>> 5aedc39c (rebase 210)
+>>>>>>> cd5474106 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> eb62d6cf (rebase 210)
+>>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+=======
+=======
+>>>>>>> 22baa66d (rebase 210)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> 8c8937e7 (rebase 210)
+>>>>>>> c31e900eb (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+=======
+=======
+>>>>>>> 26d39e2eb (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+=======
+=======
+=======
+>>>>>>> e790eb33 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> d284d65 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> fd1fcc4c (.)
+>>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> a2f3c239e (.)
+=======
+=======
+=======
+>>>>>>> 2fc60436 (.)
+>>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+=======
+>>>>>>> b19cd40 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> 4e2ebfb (.)
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> 9cf0dc90 (.)
+>>>>>>> 379ffe3f3 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
             ->reference('app_' . $appointment->id);
         
         // Esecuzione asincrona
@@ -793,3 +16037,219 @@ TELEGRAM_BOT_TOKEN=12345:ABC...
 - [NOTIFICATIONS_IMPLEMENTATION_GUIDE.md](./NOTIFICATIONS_IMPLEMENTATION_GUIDE.md)
 - [SMS_PROVIDER_CONFIGURATION.md](./SMS_PROVIDER_CONFIGURATION.md)
 - [TELEGRAM_NOTIFICATIONS_GUIDE.md](./TELEGRAM_NOTIFICATIONS_GUIDE.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 998e6866b (.)
+=======
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> ce1853afd (.)
+=======
+>>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> c31e900eb (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 2a97406c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> fd1fcc4c (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 731b801a8 (.)
+=======
+>>>>>>> b85076e48 (.)
+=======
+>>>>>>> fea359347 (.)
+=======
+>>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fd1fcc4c (.)
+=======
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 301ad8b44 (.)
+=======
+>>>>>>> 998e6866b (.)
+=======
+=======
+>>>>>>> 4f042b88 (.)
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 731b801a8 (.)
+=======
+=======
+>>>>>>> fdb24863 (rebase 210)
+>>>>>>> b85076e48 (.)
+=======
+>>>>>>> 43dd68f4b (.)
+=======
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+>>>>>>> ce1853afd (.)
+=======
+>>>>>>> 7a142b4f5 (.)
+=======
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+>>>>>>> c31e900eb (.)
+=======
+>>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> fd1fcc4c (.)
+>>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+=======
+>>>>>>> 9cf0dc90 (.)
+>>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)

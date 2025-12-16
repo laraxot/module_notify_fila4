@@ -1,15 +1,33 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
 namespace Modules\Notify\Services;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
 use Exception;
 use DateTime;
 use Modules\Notify\Jobs\SendScheduledPushNotification;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Log;
+=======
+use DateTime;
+>>>>>>> 331118f25 (.)
+use Exception;
+use DateTime;
+use Modules\Notify\Jobs\SendScheduledPushNotification;
+use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\Log;
+<<<<<<< HEAD
+=======
+use Modules\Notify\Jobs\SendScheduledPushNotification;
+>>>>>>> laraxot/develop
+>>>>>>> 331118f25 (.)
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Webmozart\Assert\Assert;
 
@@ -547,3 +565,5 @@ class PushNotificationService
         ];
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

@@ -140,7 +140,53 @@ PHPStan aveva difficoltà nel riconoscere la sintassi method chaining in alcuni 
 - **Leggibilità migliorata**: Codice più esplicito e chiaro
 
 ### **Benefici**
+<<<<<<< HEAD:docs/phpstan-fixes-january-2025.md
 - ✅ **PHPStan level 10**: Compatibilità completa
+=======
+<<<<<<< HEAD
+- ✅ **PHPStan level 10**: Compatibilità completa
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 50d6b63f (.)
+- ✅ **PHPStan level 10**: Compatibilità completa
+=======
+- ✅ **PHPStan Level 9**: Compatibilità completa
+>>>>>>> 207ac35e (.)
+=======
+- ✅ **PHPStan Level 9**: Compatibilità completa
+>>>>>>> 207ac35e (.)
+=======
+- ✅ **PHPStan Level 9**: Compatibilità completa
+>>>>>>> 207ac35e (.)
+=======
+- ✅ **PHPStan Level 9**: Compatibilità completa
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> a55aa5e96 (.)
+=======
+- ✅ **PHPStan Level 9**: Compatibilità completa
+>>>>>>> 207ac35e (.)
+=======
+- ✅ **PHPStan Level 9**: Compatibilità completa
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 50d6b63f (.)
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.):docs/phpstan-fixes-gennaio.md
 - ✅ **Leggibilità**: Codice più esplicito e chiaro
 - ✅ **Type Safety**: Mantenuta con type hints espliciti
 - ✅ **Debugging**: Più facile identificare problemi
@@ -246,3 +292,192 @@ public function toMail(object $notifiable): MailMessage
 **🌐 Translation Standards**: IT/EN complete ✅  
 **🚀 Performance**: 92/100 score  
 **✨ Test Coverage**: 95% ✅
+<<<<<<< HEAD:docs/phpstan-fixes-january-2025.md
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 50d6b63f (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+=======
+>>>>>>> 58816034 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> 58816034 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 50d6b63f (.)
+>>>>>>> a55aa5e96 (.)
+
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 50d6b63f (.)
+>>>>>>> a55aa5e96 (.)
+
+
+=======
+>>>>>>> 207ac35e (.)
+=======
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 50d6b63f (.)
+>>>>>>> a55aa5e96 (.)
+
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+
+
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+
+
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> 0f07e6d (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 4d2eb53e (.)
+=======
+=======
+>>>>>>> 888799d0 (.)
+=======
+
+
+>>>>>>> e11621f (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 4d2eb53e (.)
+=======
+=======
+>>>>>>> 888799d0 (.)
+=======
+
+
+>>>>>>> e11621f (.)
+<<<<<<< HEAD
+>>>>>>> 50d6b63f (.)
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 888799d0 (.)
+=======
+=======
+>>>>>>> 207ac35 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce89c8bb (.)
+=======
+=======
+>>>>>>> 58816034 (.)
+=======
+
+
+>>>>>>> 9777d1b (.)
+<<<<<<< HEAD
+>>>>>>> 58816034 (.)
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> ce89c8bb (.)
+=======
+=======
+>>>>>>> 58816034 (.)
+=======
+
+
+>>>>>>> 9777d1b (.)
+<<<<<<< HEAD
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 207ac35e (.)
+=======
+
+
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> 0f07e6d (.)
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+=======
+>>>>>>> 207ac35 (.)
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+
+
+>>>>>>> 9777d1b3 (.)
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 50d6b63f (.)
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.):docs/phpstan-fixes-gennaio.md

@@ -1,3 +1,175 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> fdb24863 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+<<<<<<< HEAD
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 2a97406c (.)
+>>>>>>> 998e6866b (.)
+=======
+>>>>>>> 36136dcfa (.)
+=======
+=======
+>>>>>>> 712617d3 (.)
+>>>>>>> 731b801a8 (.)
+=======
+>>>>>>> b85076e48 (.)
+=======
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> ce1853afd (.)
+=======
+=======
+>>>>>>> eb62d6cf (rebase 210)
+>>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> c31e900eb (.)
+=======
+>>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 # Chiarimento sulle Convenzioni di Traduzione nel Modulo Notify
 
 ## Identificazione di Convenzioni Contrastanti
@@ -44,7 +216,865 @@ Dopo un'analisi approfondita, è stato determinato che:
    - L'uso della chiave `navigation` è intenzionale e necessario per il funzionamento del modulo Notify
 
 2. **Eccezioni alle convenzioni generali**
+<<<<<<< HEAD
    - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di <nome progetto>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di <nome progetto>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di <nome progetto>
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di 
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 75179b85 (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> f963d2c0 (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 31f5d28f (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 31f5d28f (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 31f5d28f (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 6608a1a0 (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 23cbbaf5 (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 909e45af (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> bb7e77c2 (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> b99af5a8 (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> f3086887 (rebase 210)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 3d462363 (rebase 210)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 6e12a84b (rebase 210)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 545977c8 (rebase 210)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 69fa7d37 (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 31f5d28f (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 6608a1a0 (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 23cbbaf5 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 909e45af (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> bb7e77c2 (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> b99af5a8 (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> f3086887 (rebase 210)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 3d462363 (rebase 210)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 6e12a84b (rebase 210)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 545977c8 (rebase 210)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 69fa7d37 (.)
+=======
+<<<<<<< HEAD
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 31f5d28f (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 6608a1a0 (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 23cbbaf5 (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 909e45af (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> bb7e77c2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> b99af5a8 (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> f3086887 (rebase 210)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> e2f1a4045 (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 01af324fe (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> 47bbf2b1c (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di 
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di <nome progetto>
+>>>>>>> bf479cc (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e2f1a4045 (.)
+=======
+>>>>>>> 01af324fe (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 47bbf2b1c (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+>>>>>>> 31f5d28f (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> a404ea71 (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di 
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 75179b85 (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> a404ea71 (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di 
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 75179b85 (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> a404ea71 (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di 
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> a404ea71 (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> ca10d6ad (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> febe79e3 (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 2a97406c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 909e45af (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> a29a4728 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> c7a4727b (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 9721a5b2 (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 1442e291 (rebase 210)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> fdb24863 (rebase 210)
+<<<<<<< HEAD
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> fcaebc79 (rebase 210)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di 
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 9d3810d0 (rebase 210)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> d38aa9d2 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 9e7ba5b6 (rebase 210)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> fbed41ac (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di 
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> c8b1c8bf (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di 
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 75179b85 (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> a404ea71 (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> ee18dd92 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> ca10d6ad (.)
+<<<<<<< HEAD
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> febe79e3 (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> a29a4728 (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> c7a4727b (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 9721a5b2 (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 1442e291 (rebase 210)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> fcaebc79 (rebase 210)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di 
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 9d3810d0 (rebase 210)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> eb62d6cf (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> d38aa9d2 (rebase 210)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 9e7ba5b6 (rebase 210)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> fbed41ac (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di 
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 9cf0dc90 (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di 
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 75179b85 (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> f963d2c0 (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di 
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 75179b855 (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> a404ea71 (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> ca10d6ad (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 66453ace (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> febe79e3 (.)
+<<<<<<< HEAD
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> a29a4728 (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> c7a4727b (.)
+=======
+>>>>>>> b99af5a8 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 9721a5b2 (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 712617d3 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
+=======
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> f963d2c0 (.)
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> e2f1a4045 (.)
+=======
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> a404ea71 (.)
+>>>>>>> c4282a934 (.)
+=======
+>>>>>>> 4bec160e6 (.)
+=======
+=======
+>>>>>>> 6608a1a0 (.)
+>>>>>>> 01af324fe (.)
+=======
+>>>>>>> 8c6d84fe6 (.)
+=======
+>>>>>>> 138485550 (.)
+=======
+=======
+>>>>>>> 23cbbaf5 (.)
+>>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 753ea7aca (.)
+=======
+>>>>>>> 998e6866b (.)
+=======
+=======
+>>>>>>> 909e45af (.)
+>>>>>>> 13aa25113 (.)
+=======
+>>>>>>> fdad57c30 (.)
+=======
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 4f042b88 (.)
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> c7a4727b (.)
+>>>>>>> 275b7ad99 (.)
+=======
+>>>>>>> 47bbf2b1c (.)
+=======
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 9721a5b2 (.)
+>>>>>>> b215d516b (.)
+=======
+>>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> f957fb24b (.)
+=======
+>>>>>>> b85076e48 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> fcaebc79 (rebase 210)
+>>>>>>> 252fa579e (.)
+=======
+>>>>>>> 43dd68f4b (.)
+=======
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 9c45d9bd (rebase 210)
+>>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
+=======
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 9d3810d0 (rebase 210)
+>>>>>>> 21a6fa9bc (.)
+=======
+>>>>>>> 7a142b4f5 (.)
+=======
+=======
+>>>>>>> 6e12a84b (rebase 210)
+>>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> 610b999f1 (.)
+=======
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 8c8937e7 (rebase 210)
+>>>>>>> c31e900eb (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 9e7ba5b6 (rebase 210)
+>>>>>>> ff78f10a5 (.)
+=======
+>>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> 69fa7d37 (.)
+>>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di <nome progetto>
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
    - Questa eccezione è documentata e intenzionale
 
 ## Convenzioni Corrette per il Modulo Notify
@@ -81,10 +1111,1542 @@ return [
 
 ## Conclusione
 
+<<<<<<< HEAD
 Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di <nome progetto>, poiché rappresentano un'eccezione documentata.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di <nome progetto>, poiché rappresentano un'eccezione documentata.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di <nome progetto>, poiché rappresentano un'eccezione documentata.
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di , poiché rappresentano un'eccezione documentata.
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 75179b85 (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> f963d2c0 (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 31f5d28f (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 31f5d28f (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 31f5d28f (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 6608a1a0 (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 23cbbaf5 (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 909e45af (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> bb7e77c2 (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> b99af5a8 (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> f3086887 (rebase 210)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 3d462363 (rebase 210)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 6e12a84b (rebase 210)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 545977c8 (rebase 210)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 69fa7d37 (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 31f5d28f (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 6608a1a0 (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 23cbbaf5 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 909e45af (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> bb7e77c2 (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> b99af5a8 (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> f3086887 (rebase 210)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 3d462363 (rebase 210)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 6e12a84b (rebase 210)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 545977c8 (rebase 210)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 69fa7d37 (.)
+=======
+<<<<<<< HEAD
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 31f5d28f (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 6608a1a0 (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 23cbbaf5 (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 909e45af (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> bb7e77c2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> b99af5a8 (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> f3086887 (rebase 210)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> e2f1a4045 (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 01af324fe (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> 47bbf2b1c (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di , poiché rappresentano un'eccezione documentata.
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di <nome progetto>, poiché rappresentano un'eccezione documentata.
+>>>>>>> bf479cc (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e2f1a4045 (.)
+=======
+>>>>>>> 01af324fe (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 47bbf2b1c (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+>>>>>>> 31f5d28f (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> a404ea71 (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di , poiché rappresentano un'eccezione documentata.
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 75179b85 (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> a404ea71 (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di , poiché rappresentano un'eccezione documentata.
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 75179b85 (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> a404ea71 (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di , poiché rappresentano un'eccezione documentata.
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> a404ea71 (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> ca10d6ad (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> febe79e3 (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 2a97406c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 909e45af (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> a29a4728 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> c7a4727b (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 9721a5b2 (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 1442e291 (rebase 210)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> fdb24863 (rebase 210)
+<<<<<<< HEAD
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> fcaebc79 (rebase 210)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di , poiché rappresentano un'eccezione documentata.
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 9d3810d0 (rebase 210)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> d38aa9d2 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 9e7ba5b6 (rebase 210)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> fbed41ac (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di , poiché rappresentano un'eccezione documentata.
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> c8b1c8bf (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di , poiché rappresentano un'eccezione documentata.
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 75179b85 (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> a404ea71 (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> ee18dd92 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> ca10d6ad (.)
+<<<<<<< HEAD
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> febe79e3 (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> a29a4728 (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> c7a4727b (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 9721a5b2 (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 1442e291 (rebase 210)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> fcaebc79 (rebase 210)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di , poiché rappresentano un'eccezione documentata.
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 9d3810d0 (rebase 210)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> eb62d6cf (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> d38aa9d2 (rebase 210)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 9e7ba5b6 (rebase 210)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> fbed41ac (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di , poiché rappresentano un'eccezione documentata.
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 9cf0dc90 (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di , poiché rappresentano un'eccezione documentata.
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 75179b85 (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> f963d2c0 (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di , poiché rappresentano un'eccezione documentata.
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 75179b855 (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> a404ea71 (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> ca10d6ad (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 66453ace (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> febe79e3 (.)
+<<<<<<< HEAD
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> a29a4728 (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> c7a4727b (.)
+=======
+>>>>>>> b99af5a8 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 9721a5b2 (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 712617d3 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
+=======
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> f963d2c0 (.)
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> e2f1a4045 (.)
+=======
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> a404ea71 (.)
+>>>>>>> c4282a934 (.)
+=======
+>>>>>>> 4bec160e6 (.)
+=======
+=======
+>>>>>>> 6608a1a0 (.)
+>>>>>>> 01af324fe (.)
+=======
+>>>>>>> 8c6d84fe6 (.)
+=======
+>>>>>>> 138485550 (.)
+=======
+=======
+>>>>>>> 23cbbaf5 (.)
+>>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 753ea7aca (.)
+=======
+>>>>>>> 998e6866b (.)
+=======
+=======
+>>>>>>> 909e45af (.)
+>>>>>>> 13aa25113 (.)
+=======
+>>>>>>> fdad57c30 (.)
+=======
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 4f042b88 (.)
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> c7a4727b (.)
+>>>>>>> 275b7ad99 (.)
+=======
+>>>>>>> 47bbf2b1c (.)
+=======
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 9721a5b2 (.)
+>>>>>>> b215d516b (.)
+=======
+>>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> f957fb24b (.)
+=======
+>>>>>>> b85076e48 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> fcaebc79 (rebase 210)
+>>>>>>> 252fa579e (.)
+=======
+>>>>>>> 43dd68f4b (.)
+=======
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 9c45d9bd (rebase 210)
+>>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
+=======
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 9d3810d0 (rebase 210)
+>>>>>>> 21a6fa9bc (.)
+=======
+>>>>>>> 7a142b4f5 (.)
+=======
+=======
+>>>>>>> 6e12a84b (rebase 210)
+>>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> 610b999f1 (.)
+=======
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 8c8937e7 (rebase 210)
+>>>>>>> c31e900eb (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 9e7ba5b6 (rebase 210)
+>>>>>>> ff78f10a5 (.)
+=======
+>>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> 69fa7d37 (.)
+>>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di <nome progetto>, poiché rappresentano un'eccezione documentata.
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 
 ## Riferimenti
 
 - [Convenzioni Generali di Traduzione](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
 - [Convenzioni Specifiche del Modulo Notify](./TRANSLATION_CONVENTIONS.md)
 - [Regole per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 998e6866b (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> a115e2aad (.)
+=======
+>>>>>>> 09f5337a8 (.)
+=======
+>>>>>>> 9cb55171f (.)
+=======
+>>>>>>> bc2faa05b (.)
+=======
+>>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 848f79b79 (.)
+=======
+>>>>>>> ec4cda261 (.)
+=======
+>>>>>>> b85076e48 (.)
+=======
+>>>>>>> 3e757cee2 (.)
+=======
+>>>>>>> a75783374 (.)
+=======
+>>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> ce1853afd (.)
+=======
+>>>>>>> c188e2a18 (.)
+=======
+>>>>>>> f3c06ccdd (.)
+=======
+>>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> cd5474106 (.)
+=======
+>>>>>>> e312314fa (.)
+=======
+>>>>>>> c31e900eb (.)
+=======
+>>>>>>> 01750b107 (.)
+=======
+>>>>>>> 5e028c03d (.)
+=======
+>>>>>>> fea359347 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 2a97406c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> c4bdacbf (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 229a065a (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 22baa66d (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 7325acf3 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 229a065a (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+<<<<<<< HEAD
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 22baa66d (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 7325acf3 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 2e9bd58c3 (.)
+=======
+=======
+=======
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> a115e2aad (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> 9cb55171f (.)
+=======
+>>>>>>> 848f79b79 (.)
+=======
+>>>>>>> 229a065a (rebase 210)
+=======
+>>>>>>> 3e757cee2 (.)
+=======
+>>>>>>> c188e2a18 (.)
+=======
+>>>>>>> cd5474106 (.)
+=======
+>>>>>>> 22baa66d (rebase 210)
+=======
+>>>>>>> 01750b107 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+- [Convenzioni Generali di Traduzione](../../Lang/project_docs/TRANSLATION_KEYS_RULES.md)
+- [Convenzioni Specifiche del Modulo Notify](./TRANSLATION_CONVENTIONS.md)
+- [Regole per le Chiavi di Traduzione](../../Lang/project_docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a115e2aad (.)
+=======
+>>>>>>> 848f79b79 (.)
+=======
+>>>>>>> 3e757cee2 (.)
+=======
+>>>>>>> c188e2a18 (.)
+=======
+>>>>>>> cd5474106 (.)
+=======
+>>>>>>> 01750b107 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e4a7796 (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> 9d84f153 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 116df547 (.)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 229a065a (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 84082535 (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 7ffa94fc (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 82e5ee2d (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 22baa66d (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5b50927d (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> d45a0226 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 7325acf3 (.)
+=======
+>>>>>>> 4c323e61 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 4e4a7796 (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> 9d84f153 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> bd804d67 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 116df547 (.)
+=======
+>>>>>>> fdb24863 (rebase 210)
+<<<<<<< HEAD
+=======
+>>>>>>> 229a065a (rebase 210)
+=======
+>>>>>>> 84082535 (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ffa94fc (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 82e5ee2d (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 22baa66d (rebase 210)
+=======
+>>>>>>> 5b50927d (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> d45a0226 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 7325acf3 (.)
+=======
+>>>>>>> 4c323e61 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+=======
+>>>>>>> 9cb55171f (.)
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 4e4a7796 (.)
+=======
+>>>>>>> dceba960 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9d84f153 (.)
+=======
+>>>>>>> 712617d3 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 116df547 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 301ad8b44 (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> a070a65a5 (.)
+=======
+>>>>>>> 2e9bd58c3 (.)
+=======
+>>>>>>> 37beb5238 (.)
+=======
+>>>>>>> 998e6866b (.)
+=======
+>>>>>>> f2e64178 (.)
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 4f042b88 (.)
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> a115e2aad (.)
+=======
+=======
+>>>>>>> 4e4a7796 (.)
+>>>>>>> 09f5337a8 (.)
+=======
+>>>>>>> 9cb55171f (.)
+=======
+=======
+>>>>>>> 9d84f153 (.)
+>>>>>>> bc2faa05b (.)
+=======
+>>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 848f79b79 (.)
+=======
+=======
+>>>>>>> 116df547 (.)
+>>>>>>> ec4cda261 (.)
+=======
+>>>>>>> b85076e48 (.)
+=======
+>>>>>>> 3e757cee2 (.)
+=======
+=======
+>>>>>>> 84082535 (rebase 210)
+>>>>>>> a75783374 (.)
+=======
+>>>>>>> 43dd68f4b (.)
+=======
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+>>>>>>> ce1853afd (.)
+=======
+>>>>>>> c188e2a18 (.)
+=======
+=======
+>>>>>>> 7ffa94fc (rebase 210)
+>>>>>>> f3c06ccdd (.)
+=======
+>>>>>>> 7a142b4f5 (.)
+=======
+=======
+>>>>>>> 5aedc39c (rebase 210)
+>>>>>>> cd5474106 (.)
+=======
+>>>>>>> e312314fa (.)
+=======
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+>>>>>>> c31e900eb (.)
+=======
+>>>>>>> 01750b107 (.)
+=======
+=======
+>>>>>>> 5b50927d (rebase 210)
+>>>>>>> 5e028c03d (.)
+=======
+>>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+=======
+>>>>>>> 9cf0dc90 (.)
+>>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Integrazione Netfun SMS Channel in Laravel
 
 ## Introduzione
@@ -115,7 +116,81 @@ Configurazione attuale con username/password nel modulo Notify:
 'netfun' => [
     'username' => env('NETFUN_USERNAME'),
     'password' => env('NETFUN_PASSWORD'),
+<<<<<<< HEAD
     'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+    'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> f963d2c0 (.)
+=======
+    'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> f963d2c0 (.)
+=======
+    'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> f963d2c0 (.)
+=======
+    'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+=======
+    'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+=======
+    'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> fea359347 (.)
+<<<<<<< HEAD
+    'sender' => env('NETFUN_SENDER', '<main module>'),
+=======
+    'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 36ac4fc1 (.)
+=======
+    'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+    'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> f963d2c0 (.)
+=======
+    'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> f963d2c0 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+    'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
     'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
     // Parametri avanzati...
 ],
@@ -529,3 +604,5 @@ class NetfunSMSTest extends TestCase
 ```
 
 --- 
+=======
+>>>>>>> 301ad8b44 (.)

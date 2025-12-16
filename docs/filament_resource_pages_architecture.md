@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Architettura delle Pagine di Risorse Filament 
 
 ## Regola Fondamentale
@@ -107,11 +108,161 @@ Le classi base XotBase già implementano la maggior parte delle funzionalità ne
 Per verificare che tutte le pagine di risorse seguano questo pattern:
 
 ```bash
+<<<<<<< HEAD
 find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -path "*/Filament/Resources/*/Pages/*" -exec grep -l "extends.*\\\\Filament\\\\Resources\\\\Pages" {} \;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+find /var/www/html/<nome progetto>/laravel/Modules -type f -name "*.php" -path "*/Filament/Resources/*/Pages/*" -exec grep -l "extends.*\\\\Filament\\\\Resources\\\\Pages" {} \;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+find /var/www/html/<nome progetto>/laravel/Modules -type f -name "*.php" -path "*/Filament/Resources/*/Pages/*" -exec grep -l "extends.*\\\\Filament\\\\Resources\\\\Pages" {} \;
+=======
+find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -path "*/Filament/Resources/*/Pages/*" -exec grep -l "extends.*\\\\Filament\\\\Resources\\\\Pages" {} \;
+>>>>>>> f963d2c0 (.)
+=======
+find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -path "*/Filament/Resources/*/Pages/*" -exec grep -l "extends.*\\\\Filament\\\\Resources\\\\Pages" {} \;
+>>>>>>> f963d2c0 (.)
+=======
+find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -path "*/Filament/Resources/*/Pages/*" -exec grep -l "extends.*\\\\Filament\\\\Resources\\\\Pages" {} \;
+>>>>>>> f963d2c0 (.)
+=======
+find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -path "*/Filament/Resources/*/Pages/*" -exec grep -l "extends.*\\\\Filament\\\\Resources\\\\Pages" {} \;
+>>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+find /var/www/html/<nome progetto>/laravel/Modules -type f -name "*.php" -path "*/Filament/Resources/*/Pages/*" -exec grep -l "extends.*\\\\Filament\\\\Resources\\\\Pages" {} \;
+=======
+=======
+find /var/www/html/<nome progetto>/laravel/Modules -type f -name "*.php" -path "*/Filament/Resources/*/Pages/*" -exec grep -l "extends.*\\\\Filament\\\\Resources\\\\Pages" {} \;
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+=======
+find /var/www/html/<nome progetto>/laravel/Modules -type f -name "*.php" -path "*/Filament/Resources/*/Pages/*" -exec grep -l "extends.*\\\\Filament\\\\Resources\\\\Pages" {} \;
+=======
+>>>>>>> fea359347 (.)
+<<<<<<< HEAD
+find /var/www/html/<directory progetto>/laravel/Modules -type f -name "*.php" -path "*/Filament/Resources/*/Pages/*" -exec grep -l "extends.*\\\\Filament\\\\Resources\\\\Pages" {} \;
+=======
+find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -path "*/Filament/Resources/*/Pages/*" -exec grep -l "extends.*\\\\Filament\\\\Resources\\\\Pages" {} \;
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 36ac4fc1 (.)
+=======
+find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -path "*/Filament/Resources/*/Pages/*" -exec grep -l "extends.*\\\\Filament\\\\Resources\\\\Pages" {} \;
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -path "*/Filament/Resources/*/Pages/*" -exec grep -l "extends.*\\\\Filament\\\\Resources\\\\Pages" {} \;
+>>>>>>> f963d2c0 (.)
+=======
+find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -path "*/Filament/Resources/*/Pages/*" -exec grep -l "extends.*\\\\Filament\\\\Resources\\\\Pages" {} \;
+>>>>>>> f963d2c0 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+find /var/www/html/<nome progetto>/laravel/Modules -type f -name "*.php" -path "*/Filament/Resources/*/Pages/*" -exec grep -l "extends.*\\\\Filament\\\\Resources\\\\Pages" {} \;
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 ```
 
 ## Riferimenti
 
 - [Filament Resources Documentation](https://filamentphp.com/docs/3.x/panels/resources/getting-started)
+<<<<<<< HEAD
 - [SaluteOra XotBase Architecture](./FILAMENT_XOT_ARCHITECTURE.md)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [<nome progetto> XotBase Architecture](./FILAMENT_XOT_ARCHITECTURE.md)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [<nome progetto> XotBase Architecture](./FILAMENT_XOT_ARCHITECTURE.md)
+=======
+- [SaluteOra XotBase Architecture](./FILAMENT_XOT_ARCHITECTURE.md)
+>>>>>>> f963d2c0 (.)
+=======
+- [SaluteOra XotBase Architecture](./FILAMENT_XOT_ARCHITECTURE.md)
+>>>>>>> f963d2c0 (.)
+=======
+- [SaluteOra XotBase Architecture](./FILAMENT_XOT_ARCHITECTURE.md)
+>>>>>>> f963d2c0 (.)
+=======
+- [SaluteOra XotBase Architecture](./FILAMENT_XOT_ARCHITECTURE.md)
+>>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- [<nome progetto> XotBase Architecture](./FILAMENT_XOT_ARCHITECTURE.md)
+=======
+=======
+- [<nome progetto> XotBase Architecture](./FILAMENT_XOT_ARCHITECTURE.md)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+=======
+- [<nome progetto> XotBase Architecture](./FILAMENT_XOT_ARCHITECTURE.md)
+=======
+>>>>>>> fea359347 (.)
+<<<<<<< HEAD
+- [<main module> XotBase Architecture](./FILAMENT_XOT_ARCHITECTURE.md)
+=======
+- [SaluteOra XotBase Architecture](./FILAMENT_XOT_ARCHITECTURE.md)
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 36ac4fc1 (.)
+=======
+- [SaluteOra XotBase Architecture](./FILAMENT_XOT_ARCHITECTURE.md)
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+- [SaluteOra XotBase Architecture](./FILAMENT_XOT_ARCHITECTURE.md)
+>>>>>>> f963d2c0 (.)
+=======
+- [SaluteOra XotBase Architecture](./FILAMENT_XOT_ARCHITECTURE.md)
+>>>>>>> f963d2c0 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+- [<nome progetto> XotBase Architecture](./FILAMENT_XOT_ARCHITECTURE.md)
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 - [Pattern Architetturali in Laravel](https://laravel.com/docs/architecture)
+=======
+>>>>>>> 301ad8b44 (.)

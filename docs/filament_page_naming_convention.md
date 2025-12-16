@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Convenzioni di Naming per Pagine Filament
 
 ## Regola Fondamentale
@@ -53,10 +54,86 @@ Le pagine con nomi non conformi potrebbero:
 Eseguire il seguente comando per trovare pagine non conformi:
 
 ```bash
+<<<<<<< HEAD
 find /var/www/html/saluteora/laravel/Modules -path "*/Filament/*/Pages/*.php" | grep -v "Page.php$"
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+find /var/www/html/<nome progetto>/laravel/Modules -path "*/Filament/*/Pages/*.php" | grep -v "Page.php$"
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+find /var/www/html/<nome progetto>/laravel/Modules -path "*/Filament/*/Pages/*.php" | grep -v "Page.php$"
+=======
+find /var/www/html/saluteora/laravel/Modules -path "*/Filament/*/Pages/*.php" | grep -v "Page.php$"
+>>>>>>> f963d2c0 (.)
+=======
+find /var/www/html/saluteora/laravel/Modules -path "*/Filament/*/Pages/*.php" | grep -v "Page.php$"
+>>>>>>> f963d2c0 (.)
+=======
+find /var/www/html/saluteora/laravel/Modules -path "*/Filament/*/Pages/*.php" | grep -v "Page.php$"
+>>>>>>> f963d2c0 (.)
+=======
+find /var/www/html/saluteora/laravel/Modules -path "*/Filament/*/Pages/*.php" | grep -v "Page.php$"
+>>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+find /var/www/html/<nome progetto>/laravel/Modules -path "*/Filament/*/Pages/*.php" | grep -v "Page.php$"
+=======
+=======
+find /var/www/html/<nome progetto>/laravel/Modules -path "*/Filament/*/Pages/*.php" | grep -v "Page.php$"
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+=======
+find /var/www/html/<nome progetto>/laravel/Modules -path "*/Filament/*/Pages/*.php" | grep -v "Page.php$"
+=======
+>>>>>>> fea359347 (.)
+<<<<<<< HEAD
+find /var/www/html/<directory progetto>/laravel/Modules -path "*/Filament/*/Pages/*.php" | grep -v "Page.php$"
+=======
+find /var/www/html/saluteora/laravel/Modules -path "*/Filament/*/Pages/*.php" | grep -v "Page.php$"
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 36ac4fc1 (.)
+=======
+find /var/www/html/saluteora/laravel/Modules -path "*/Filament/*/Pages/*.php" | grep -v "Page.php$"
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+find /var/www/html/saluteora/laravel/Modules -path "*/Filament/*/Pages/*.php" | grep -v "Page.php$"
+>>>>>>> f963d2c0 (.)
+=======
+find /var/www/html/saluteora/laravel/Modules -path "*/Filament/*/Pages/*.php" | grep -v "Page.php$"
+>>>>>>> f963d2c0 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+find /var/www/html/<nome progetto>/laravel/Modules -path "*/Filament/*/Pages/*.php" | grep -v "Page.php$"
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 ```
 
 ## Riferimenti
 
 - [Filament Documentation](https://filamentphp.com/docs/3.x/panels/pages/getting-started)
 - [PSR-4 Autoloading Standard](https://www.php-fig.org/psr/psr-4/)
+=======
+>>>>>>> 301ad8b44 (.)

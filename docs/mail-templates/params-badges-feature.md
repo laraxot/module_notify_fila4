@@ -1,3 +1,364 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 36321fcb (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> fd1fcc4c (.)
+=======
+>>>>>>> eb71492d (.)
+=======
+>>>>>>> 4f3927d7 (.)
+=======
+>>>>>>> 0ebb7b01 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> 36321fcb (.)
+=======
+>>>>>>> b99af5a8 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fd1fcc4c (.)
+=======
+>>>>>>> eb71492d (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4f3927d7 (.)
+=======
+>>>>>>> 0ebb7b01 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> 36321fcb (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 2a97406c (.)
+>>>>>>> 998e6866b (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+=======
+>>>>>>> 4f042b88 (.)
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+=======
+>>>>>>> 36321fcb (.)
+>>>>>>> 70175d0c4 (.)
+=======
+>>>>>>> 47bbf2b1c (.)
+=======
+=======
+>>>>>>> 712617d3 (.)
+>>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+=======
+>>>>>>> fdb24863 (rebase 210)
+<<<<<<< HEAD
+>>>>>>> b85076e48 (.)
+=======
+=======
+>>>>>>> 3d462363 (rebase 210)
+>>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 43dd68f4b (.)
+=======
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+>>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
+=======
+=======
+>>>>>>> eb62d6cf (rebase 210)
+>>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+>>>>>>> c31e900eb (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+=======
+=======
+>>>>>>> fd1fcc4c (.)
+>>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> a2f3c239e (.)
+=======
+=======
+>>>>>>> 4f3927d7 (.)
+>>>>>>> 602b8a0a9 (.)
+=======
+>>>>>>> 1dc3e4fcd (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 # Visualizzazione Parametri come Badge - Mail Templates
 
 ## Panoramica
@@ -171,4 +532,956 @@ Badge: [user_name] [reset_link] [expiry_time]
 
 **Ultimo aggiornamento**: Gennaio 2025  
 **Versione**: 1.0  
+<<<<<<< HEAD
 **Compatibilità**: Filament 4.x, Laravel 10+ 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> 75179b85 (.)
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> f963d2c0 (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 7325acf3 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 229a065a (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 22baa66d (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> 3ee54c5d (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 7325acf3 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> bd804d67 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 229a065a (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+<<<<<<< HEAD
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 22baa66d (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> 3ee54c5d (.)
+<<<<<<< HEAD
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 7325acf3 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> 4689a827 (.)
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 2e9bd58c3 (.)
+=======
+=======
+>>>>>>> f2e64178 (.)
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> a115e2aad (.)
+=======
+=======
+>>>>>>> dceba960 (.)
+>>>>>>> 9cb55171f (.)
+=======
+>>>>>>> 848f79b79 (.)
+=======
+=======
+>>>>>>> 229a065a (rebase 210)
+>>>>>>> 3e757cee2 (.)
+=======
+>>>>>>> c188e2a18 (.)
+=======
+>>>>>>> cd5474106 (.)
+=======
+=======
+>>>>>>> 22baa66d (rebase 210)
+>>>>>>> 01750b107 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+=======
+=======
+>>>>>>> e790eb33 (.)
+>>>>>>> 2dab69c8a (.)
+=======
+>>>>>>> 763771402 (.)
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 2e9bd58c3 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> a115e2aad (.)
+=======
+>>>>>>> 9cb55171f (.)
+=======
+>>>>>>> 848f79b79 (.)
+=======
+>>>>>>> 3e757cee2 (.)
+=======
+>>>>>>> c188e2a18 (.)
+=======
+>>>>>>> cd5474106 (.)
+=======
+>>>>>>> 01750b107 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 2dab69c8a (.)
+=======
+>>>>>>> 763771402 (.)
+>>>>>>> d09cb759 (.)
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> 31f5d28f (.)
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> 75179b85 (.)
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> 31f5d28f (.)
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> 75179b85 (.)
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> 31f5d28f (.)
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> 31f5d28f (.)
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> 6608a1a0 (.)
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 7325acf3 (.)
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> 2a97406c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f2e64178 (.)
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> 909e45af (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> bb7e77c2 (.)
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> 36321fcb (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> b99af5a8 (.)
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> 712617d3 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bd804d67 (.)
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 229a065a (rebase 210)
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> 6e12a84b (rebase 210)
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> 8c8937e7 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 22baa66d (rebase 210)
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> 545977c8 (rebase 210)
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> 69fa7d37 (.)
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> fd1fcc4c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e790eb33 (.)
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> eb71492d (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> 4f3927d7 (.)
+=======
+>>>>>>> 3ee54c5d (.)
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> 0ebb7b01 (.)
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> c8b1c8bf (.)
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> 75179b85 (.)
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> 31f5d28f (.)
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> ee18dd92 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4689a827 (.)
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> 6608a1a0 (.)
+<<<<<<< HEAD
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 7325acf3 (.)
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> 909e45af (.)
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> bb7e77c2 (.)
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> 36321fcb (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> b99af5a8 (.)
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> f3086887 (rebase 210)
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 229a065a (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> eb62d6cf (rebase 210)
+<<<<<<< HEAD
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> 6e12a84b (rebase 210)
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 22baa66d (rebase 210)
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> 545977c8 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> 69fa7d37 (.)
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> fd1fcc4c (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> eb71492d (.)
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> 4f3927d7 (.)
+=======
+>>>>>>> 3ee54c5d (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> 0ebb7b01 (.)
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> 9cf0dc90 (.)
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> 75179b85 (.)
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> 75179b855 (.)
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> 31f5d28f (.)
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> 6608a1a0 (.)
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> 66453ace (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7325acf3 (.)
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> 23cbbaf5 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> 909e45af (.)
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> bb7e77c2 (.)
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> 36321fcb (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dceba960 (.)
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> b99af5a8 (.)
+<<<<<<< HEAD
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> f3086887 (rebase 210)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 301ad8b44 (.)
+=======
+>>>>>>> 1487fe812 (.)
+=======
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> f963d2c0 (.)
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> 31f5d28f (.)
+>>>>>>> e2f1a4045 (.)
+=======
+>>>>>>> 4bec160e6 (.)
+=======
+=======
+>>>>>>> 4689a827 (.)
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 01af324fe (.)
+=======
+>>>>>>> 138485550 (.)
+=======
+=======
+>>>>>>> 7325acf3 (.)
+>>>>>>> 2e9bd58c3 (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 998e6866b (.)
+=======
+=======
+>>>>>>> f2e64178 (.)
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> 4f042b88 (.)
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> a115e2aad (.)
+=======
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> bb7e77c2 (.)
+>>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 70175d0c4 (.)
+=======
+=======
+>>>>>>> dceba960 (.)
+>>>>>>> 9cb55171f (.)
+=======
+>>>>>>> 47bbf2b1c (.)
+=======
+>>>>>>> 731b801a8 (.)
+=======
+=======
+>>>>>>> bd804d67 (.)
+>>>>>>> 848f79b79 (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> fdb24863 (rebase 210)
+>>>>>>> b85076e48 (.)
+=======
+>>>>>>> 3e757cee2 (.)
+=======
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> 3d462363 (rebase 210)
+>>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 43dd68f4b (.)
+=======
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> 9c45d9bd (rebase 210)
+>>>>>>> ce1853afd (.)
+=======
+>>>>>>> c188e2a18 (.)
+=======
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> cd5474106 (.)
+=======
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> 6e12a84b (rebase 210)
+>>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> c31e900eb (.)
+=======
+=======
+>>>>>>> 22baa66d (rebase 210)
+>>>>>>> 01750b107 (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+=======
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> 69fa7d37 (.)
+>>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> d9e649ac3 (.)
+=======
+=======
+>>>>>>> e790eb33 (.)
+>>>>>>> 2dab69c8a (.)
+=======
+>>>>>>> a2f3c239e (.)
+=======
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> 4f3927d7 (.)
+>>>>>>> 602b8a0a9 (.)
+=======
+>>>>>>> 763771402 (.)
+=======
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> 0ebb7b01 (.)
+>>>>>>> 1dc3e4fcd (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)

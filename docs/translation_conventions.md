@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Convenzioni per le Traduzioni del Modulo Notify
 
 ## Regole Fondamentali
@@ -211,7 +212,81 @@ Per verificare se le traduzioni sono applicate correttamente:
 
 ## Riferimenti
 
+<<<<<<< HEAD
 - [SaluteOra Translation System](../../../../.cursor/rules/translations.rule)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [<nome progetto> Translation System](../../../../.cursor/rules/translations.rule)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [<nome progetto> Translation System](../../../../.cursor/rules/translations.rule)
+=======
+- [SaluteOra Translation System](../../../../.cursor/rules/translations.rule)
+>>>>>>> f963d2c0 (.)
+=======
+- [SaluteOra Translation System](../../../../.cursor/rules/translations.rule)
+>>>>>>> f963d2c0 (.)
+=======
+- [SaluteOra Translation System](../../../../.cursor/rules/translations.rule)
+>>>>>>> f963d2c0 (.)
+=======
+- [SaluteOra Translation System](../../../../.cursor/rules/translations.rule)
+>>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- [<nome progetto> Translation System](../../../../.cursor/rules/translations.rule)
+=======
+=======
+- [<nome progetto> Translation System](../../../../.cursor/rules/translations.rule)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+=======
+- [<nome progetto> Translation System](../../../../.cursor/rules/translations.rule)
+=======
+>>>>>>> fea359347 (.)
+<<<<<<< HEAD
+- [<main module> Translation System](../../../../.cursor/rules/translations.rule)
+=======
+- [SaluteOra Translation System](../../../../.cursor/rules/translations.rule)
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 36ac4fc1 (.)
+=======
+- [SaluteOra Translation System](../../../../.cursor/rules/translations.rule)
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+- [SaluteOra Translation System](../../../../.cursor/rules/translations.rule)
+>>>>>>> f963d2c0 (.)
+=======
+- [SaluteOra Translation System](../../../../.cursor/rules/translations.rule)
+>>>>>>> f963d2c0 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+- [<nome progetto> Translation System](../../../../.cursor/rules/translations.rule)
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 - [Filament Translations](../../../../.cursor/rules/filament-translations.rule)
 - [Laravel Localization](https://laravel.com/docs/10.x/localization)
 
@@ -233,3 +308,5 @@ Le traduzioni devono essere oneste, non ingannevoli, non manipolatorie e non off
 
 ## Zen
 La traduzione perfetta è quella che non si nota: è naturale, fluida, non distrae e non crea attrito. Ogni parola superflua va eliminata, ogni concetto va reso con la massima semplicità e armonia.
+=======
+>>>>>>> 301ad8b44 (.)

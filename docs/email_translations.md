@@ -1,3 +1,197 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> fdb24863 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fd1fcc4c (.)
+=======
+>>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+<<<<<<< HEAD
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> fd1fcc4c (.)
+=======
+>>>>>>> 4f3927d7 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 2a97406c (.)
+>>>>>>> 998e6866b (.)
+=======
+>>>>>>> 36136dcfa (.)
+=======
+=======
+>>>>>>> 712617d3 (.)
+>>>>>>> 731b801a8 (.)
+=======
+>>>>>>> b85076e48 (.)
+=======
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> ce1853afd (.)
+=======
+=======
+>>>>>>> eb62d6cf (rebase 210)
+>>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> c31e900eb (.)
+=======
+>>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> fd1fcc4c (.)
+>>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> 602b8a0a9 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 # Integrazione Traduzioni Email - il progetto
 
 ## Panoramica
@@ -179,7 +373,302 @@ class TranslatableFooterBlock extends Block
 ```php
 class MailTemplateResource extends XotBaseResource
 {
+<<<<<<< HEAD
     public static function form(Form $form): Form
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public static function form(Form $form): Form
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+    public static function form(Form $form): Form
+>>>>>>> 75179b85 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> f963d2c0 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 75179b85 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> f963d2c0 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    public static function form(Form $form): Form
+>>>>>>> f963d2c0 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> ee18dd92 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    public static function form(Form $form): Form
+>>>>>>> 66453ace (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 2a97406c (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 4f042b88 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 712617d3 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> fdb24863 (rebase 210)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 9c45d9bd (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    public static function form(Form $form): Form
+>>>>>>> eb62d6cf (rebase 210)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 8c8937e7 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    public static function form(Form $form): Form
+>>>>>>> 36ac4fc1 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> fd1fcc4c (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 4f3927d7 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> c8b1c8bf (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 9cf0dc90 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 75179b85 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> f963d2c0 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> ee18dd92 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 66453ace (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 2a97406c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    public static function form(Form $form): Form
+>>>>>>> 4f042b88 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 712617d3 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> fdb24863 (rebase 210)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+    public static function form(Form $form): Form
+>>>>>>> eb62d6cf (rebase 210)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 36ac4fc1 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> fd1fcc4c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    public static function form(Form $form): Form
+>>>>>>> 4f3927d7 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    public static function form(Form $form): Form
+>>>>>>> 9cf0dc90 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 75179b85 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> f963d2c0 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 75179b855 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> f963d2c0 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> ee18dd92 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 66453ace (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 2a97406c (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 4f042b88 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 712617d3 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
+=======
+=======
+    public static function form(Form $form): Form
+>>>>>>> f963d2c0 (.)
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 4bec160e6 (.)
+=======
+=======
+    public static function form(Form $form): Form
+>>>>>>> 66453ace (.)
+>>>>>>> 138485550 (.)
+=======
+>>>>>>> 998e6866b (.)
+=======
+=======
+    public static function form(Form $form): Form
+>>>>>>> 4f042b88 (.)
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 731b801a8 (.)
+=======
+=======
+    public static function form(Form $form): Form
+>>>>>>> fdb24863 (rebase 210)
+<<<<<<< HEAD
+>>>>>>> b85076e48 (.)
+=======
+=======
+    public static function form(Form $form): Form
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> ce1853afd (.)
+=======
+=======
+    public static function form(Form $form): Form
+>>>>>>> eb62d6cf (rebase 210)
+>>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> c31e900eb (.)
+=======
+=======
+    public static function form(Form $form): Form
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+>>>>>>> d9e649ac3 (.)
+=======
+=======
+    public static function form(Form $form): Form
+>>>>>>> 4f3927d7 (.)
+>>>>>>> 602b8a0a9 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+=======
+    public static function form(Form $form): Form
+>>>>>>> 9cf0dc90 (.)
+>>>>>>> 379ffe3f3 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
     {
         return $form->schema([
             Card::make()->schema([
@@ -379,6 +868,1681 @@ class TranslationValidator
 - [Email Plugins Analysis](email-plugins-analysis.md)
 
 ## Vedi Anche
+<<<<<<< HEAD
 - [Laravel Localization](https://laravel.com/docs/localization)
 - [Laravel Lang](https://github.com/Laravel-Lang/lang)
 - [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> a404ea71 (.)
+=======
+>>>>>>> a404ea71 (.)
+- [Laravel Localization](https://laravel.com/docs/localization)
+=======
+- [Laravel Localization](https://laravel.com/project_docs/localization)
+>>>>>>> 75179b85 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+>>>>>>> f963d2c0 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+=======
+- [Laravel Localization](https://laravel.com/project_docs/localization)
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+>>>>>>> 3f537838 (.)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+<<<<<<< HEAD
+=======
+- [Laravel Localization](https://laravel.com/project_docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> 75179b85 (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 7325acf3 (.)
+=======
+>>>>>>> 4c323e61 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 4e4a7796 (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> 9d84f153 (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 116df547 (.)
+=======
+>>>>>>> 229a065a (rebase 210)
+=======
+>>>>>>> 84082535 (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 7ffa94fc (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 82e5ee2d (rebase 210)
+=======
+>>>>>>> 22baa66d (rebase 210)
+=======
+>>>>>>> 5b50927d (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> d45a0226 (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> cb5f23b0 (.)
+=======
+>>>>>>> 3ee54c5d (.)
+=======
+>>>>>>> 4b544042 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 7325acf3 (.)
+=======
+>>>>>>> 4c323e61 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 4e4a7796 (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> 9d84f153 (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 116df547 (.)
+=======
+>>>>>>> 229a065a (rebase 210)
+=======
+>>>>>>> 84082535 (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 7ffa94fc (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 82e5ee2d (rebase 210)
+=======
+>>>>>>> 22baa66d (rebase 210)
+=======
+>>>>>>> 5b50927d (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> d45a0226 (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> cb5f23b0 (.)
+=======
+>>>>>>> 3ee54c5d (.)
+=======
+>>>>>>> 4b544042 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 7325acf3 (.)
+=======
+>>>>>>> 4c323e61 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 4e4a7796 (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> 9d84f153 (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 116df547 (.)
+=======
+>>>>>>> 510809c6f (.)
+- [Laravel Localization](https://laravel.com/docs/localization)
+=======
+>>>>>>> 11b43e822 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 7325acf3 (.)
+=======
+>>>>>>> 4c323e61 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 4e4a7796 (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> 9d84f153 (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 116df547 (.)
+=======
+>>>>>>> 229a065a (rebase 210)
+=======
+>>>>>>> 84082535 (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 7ffa94fc (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 82e5ee2d (rebase 210)
+=======
+>>>>>>> 22baa66d (rebase 210)
+=======
+>>>>>>> 5b50927d (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> d45a0226 (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> cb5f23b0 (.)
+=======
+>>>>>>> 3ee54c5d (.)
+=======
+>>>>>>> 4b544042 (.)
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 11b43e822 (.)
+=======
+>>>>>>> a070a65a5 (.)
+=======
+>>>>>>> 37beb5238 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 09f5337a8 (.)
+=======
+>>>>>>> ec4cda261 (.)
+=======
+>>>>>>> a75783374 (.)
+=======
+>>>>>>> f3c06ccdd (.)
+=======
+>>>>>>> e312314fa (.)
+=======
+>>>>>>> 5e028c03d (.)
+=======
+>>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 8db6adf75 (.)
+=======
+>>>>>>> a85ebf6cc (.)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> 31f5d28f (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> 31f5d28f (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 01af324fe (.)
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> 6608a1a0 (.)
+=======
+<<<<<<< HEAD
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> 23cbbaf5 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> 909e45af (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> bb7e77c2 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> b99af5a8 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> f3086887 (rebase 210)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> 3d462363 (rebase 210)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1c96b91fe (.)
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> 6e12a84b (rebase 210)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ad905ce9c (.)
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> 545977c8 (rebase 210)
+=======
+<<<<<<< HEAD
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> 69fa7d37 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> eb71492d (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> 0ebb7b01 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> 31f5d28f (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> 6608a1a0 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> 23cbbaf5 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 13aa25113 (.)
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> 909e45af (.)
+=======
+<<<<<<< HEAD
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> bb7e77c2 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> b99af5a8 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> f3086887 (rebase 210)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> 3d462363 (rebase 210)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> 6e12a84b (rebase 210)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> 545977c8 (rebase 210)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> 69fa7d37 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a2f3c239e (.)
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> eb71492d (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1dc3e4fcd (.)
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> 0ebb7b01 (.)
+=======
+<<<<<<< HEAD
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> 31f5d28f (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> 6608a1a0 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> 23cbbaf5 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> 909e45af (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> bb7e77c2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 47bbf2b1c (.)
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> b99af5a8 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 74eb2e964 (.)
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> f3086887 (rebase 210)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e2f1a4045 (.)
+=======
+>>>>>>> 01af324fe (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 47bbf2b1c (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> a2f3c239e (.)
+=======
+>>>>>>> 1dc3e4fcd (.)
+- [Laravel Localization](https://laravel.com/project_docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> bf479cc (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e2f1a4045 (.)
+=======
+>>>>>>> 01af324fe (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 47bbf2b1c (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> a2f3c239e (.)
+=======
+>>>>>>> 1dc3e4fcd (.)
+>>>>>>> 31f5d28f (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> a404ea71 (.)
+=======
+- [Laravel Localization](https://laravel.com/project_docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> 75179b85 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> a404ea71 (.)
+=======
+- [Laravel Localization](https://laravel.com/project_docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> a404ea71 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> ca10d6ad (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> 66453ace (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4c323e61 (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 753ea7aca (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> febe79e3 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> a29a4728 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 4e4a7796 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> c7a4727b (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> 9721a5b2 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> 712617d3 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 116df547 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f957fb24b (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> 1442e291 (rebase 210)
+<<<<<<< HEAD
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 84082535 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> fcaebc79 (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+- [Laravel Localization](https://laravel.com/project_docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ce1853afd (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> 9c45d9bd (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ffa94fc (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> 9d3810d0 (rebase 210)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 82e5ee2d (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> d38aa9d2 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c31e900eb (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> 8c8937e7 (rebase 210)
+<<<<<<< HEAD
+=======
+>>>>>>> 5b50927d (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> 9e7ba5b6 (rebase 210)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> d45a0226 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> fd1fcc4c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cb5f23b0 (.)
+=======
+>>>>>>> eb71492d (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> f9ec4f86 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> 4f3927d7 (.)
+=======
+>>>>>>> 4b544042 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 0ebb7b01 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> cccb594f (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+- [Laravel Localization](https://laravel.com/project_docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> 9cf0dc90 (.)
+=======
+- [Laravel Localization](https://laravel.com/project_docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> 75179b85 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c4282a934 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> a404ea71 (.)
+<<<<<<< HEAD
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> ca10d6ad (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 4c323e61 (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> febe79e3 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> 2a97406c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 909e45af (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fdad57c30 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> a29a4728 (.)
+<<<<<<< HEAD
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 4e4a7796 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> c7a4727b (.)
+=======
+>>>>>>> b99af5a8 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b215d516b (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> 9721a5b2 (.)
+<<<<<<< HEAD
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> 116df547 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> 1442e291 (rebase 210)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> fdb24863 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 84082535 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 252fa579e (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> fcaebc79 (rebase 210)
+<<<<<<< HEAD
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+- [Laravel Localization](https://laravel.com/project_docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> 7ffa94fc (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 21a6fa9bc (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> 9d3810d0 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7a142b4f5 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> eb62d6cf (rebase 210)
+<<<<<<< HEAD
+=======
+>>>>>>> 82e5ee2d (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> d38aa9d2 (rebase 210)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 5b50927d (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> 9e7ba5b6 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fea359347 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> d45a0226 (.)
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> fd1fcc4c (.)
+=======
+>>>>>>> cb5f23b0 (.)
+=======
+>>>>>>> eb71492d (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8134673e1 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> f9ec4f86 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 602b8a0a9 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 4b544042 (.)
+=======
+>>>>>>> 0ebb7b01 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> cccb594f (.)
+=======
+- [Laravel Localization](https://laravel.com/project_docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> c8b1c8bf (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
+=======
+- [Laravel Localization](https://laravel.com/project_docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> 75179b85 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+- [Laravel Localization](https://laravel.com/project_docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> 75179b855 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> a404ea71 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> ee18dd92 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 6608a1a0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8c6d84fe6 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> ca10d6ad (.)
+<<<<<<< HEAD
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 4c323e61 (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> febe79e3 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> a29a4728 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> 4f042b88 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e4a7796 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 275b7ad99 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> c7a4727b (.)
+<<<<<<< HEAD
+=======
+>>>>>>> b99af5a8 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> 9721a5b2 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> 116df547 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 301ad8b44 (.)
+=======
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
+=======
+>>>>>>> e2f1a4045 (.)
+=======
+>>>>>>> c4282a934 (.)
+=======
+>>>>>>> 4bec160e6 (.)
+=======
+=======
+>>>>>>> 2941b0bd (.)
+>>>>>>> a070a65a5 (.)
+=======
+>>>>>>> 01af324fe (.)
+=======
+>>>>>>> 8c6d84fe6 (.)
+=======
+>>>>>>> 138485550 (.)
+=======
+=======
+>>>>>>> 4c323e61 (.)
+>>>>>>> 37beb5238 (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 753ea7aca (.)
+=======
+>>>>>>> 998e6866b (.)
+=======
+=======
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+>>>>>>> fdad57c30 (.)
+=======
+>>>>>>> 36136dcfa (.)
+=======
+=======
+>>>>>>> 4e4a7796 (.)
+>>>>>>> 09f5337a8 (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 275b7ad99 (.)
+=======
+>>>>>>> 47bbf2b1c (.)
+=======
+>>>>>>> b215d516b (.)
+=======
+>>>>>>> 731b801a8 (.)
+=======
+=======
+>>>>>>> 116df547 (.)
+>>>>>>> ec4cda261 (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> f957fb24b (.)
+=======
+>>>>>>> b85076e48 (.)
+=======
+=======
+>>>>>>> 84082535 (rebase 210)
+>>>>>>> a75783374 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 252fa579e (.)
+=======
+>>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> ce1853afd (.)
+=======
+=======
+>>>>>>> 7ffa94fc (rebase 210)
+>>>>>>> f3c06ccdd (.)
+=======
+>>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 21a6fa9bc (.)
+=======
+>>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> e312314fa (.)
+=======
+=======
+>>>>>>> 6e12a84b (rebase 210)
+>>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> 610b999f1 (.)
+=======
+>>>>>>> c31e900eb (.)
+=======
+>>>>>>> 5e028c03d (.)
+=======
+=======
+>>>>>>> 545977c8 (rebase 210)
+>>>>>>> ad905ce9c (.)
+=======
+>>>>>>> ff78f10a5 (.)
+=======
+>>>>>>> fea359347 (.)
+=======
+>>>>>>> f15c41e60 (.)
+=======
+=======
+>>>>>>> 69fa7d37 (.)
+>>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> d9e649ac3 (.)
+=======
+=======
+>>>>>>> cb5f23b0 (.)
+>>>>>>> 8db6adf75 (.)
+=======
+>>>>>>> a2f3c239e (.)
+=======
+>>>>>>> 8134673e1 (.)
+=======
+>>>>>>> 602b8a0a9 (.)
+=======
+>>>>>>> a85ebf6cc (.)
+=======
+=======
+>>>>>>> 0ebb7b01 (.)
+>>>>>>> 1dc3e4fcd (.)
+=======
+>>>>>>> 3808094f6 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)

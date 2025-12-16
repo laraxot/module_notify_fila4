@@ -1,9 +1,1042 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
 namespace Modules\Notify\Models;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 4689a827 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+=======
+>>>>>>> 510809c6f (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1619767d8 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+=======
+>>>>>>> 2941b0bd (.)
+>>>>>>> a070a65a5 (.)
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Override;
+=======
+>>>>>>> f1c9518b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Override;
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> d45a0226 (.)
+=======
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Override;
+>>>>>>> f5f1cb1 (.)
+<<<<<<< HEAD
+>>>>>>> d45a0226 (.)
+=======
+>>>>>>> fbed41ac (.)
+=======
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 98d837b9 (.)
+=======
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Override;
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
+=======
+>>>>>>> fbed41ac (.)
+=======
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> e53a56570 (.)
+=======
+=======
+>>>>>>> 3f39ac8b (.)
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
+=======
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Override;
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
+=======
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Override;
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
+>>>>>>> f15c41e60 (.)
+use Carbon\Carbon;
+use Modules\User\Models\Profile;
+use Modules\Media\Models\Media;
+use Illuminate\Database\Eloquent\Builder;
+use Modules\Notify\Database\Factories\NotificationTemplateFactory;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Support\Facades\Blade;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use Modules\Media\Models\Media;
+use Modules\Notify\Database\Factories\NotificationTemplateFactory;
+>>>>>>> fbed41ac (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use Modules\Media\Models\Media;
+use Modules\Notify\Database\Factories\NotificationTemplateFactory;
+>>>>>>> fbed41ac (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> a070a65a5 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 011072e4 (.)
+=======
+=======
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 1619767d8 (.)
+use Carbon\Carbon;
+use Modules\User\Models\Profile;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
+use Modules\Media\Models\Media;
+use Illuminate\Database\Eloquent\Builder;
+use Modules\Notify\Database\Factories\NotificationTemplateFactory;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 4689a827 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
+=======
+use Modules\Media\Models\Media;
+use Modules\Notify\Database\Factories\NotificationTemplateFactory;
+=======
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
+=======
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
+=======
+=======
+=======
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Override;
+>>>>>>> b93ef594b4 (.)
+use Carbon\Carbon;
+use Modules\User\Models\Profile;
+use Modules\Media\Models\Media;
+use Illuminate\Database\Eloquent\Builder;
+use Modules\Notify\Database\Factories\NotificationTemplateFactory;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Support\Facades\Blade;
+>>>>>>> b93ef594b4 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 82ae73be (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> de02998b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 10292b60a (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+=======
+>>>>>>> 4689a827 (.)
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Support\Facades\Blade;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1619767d8 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 985c7bda (.)
+=======
+=======
+>>>>>>> f5f1cb1 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d45a0226 (.)
+=======
+=======
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
+=======
+use Modules\Media\Models\Media;
+use Modules\Notify\Database\Factories\NotificationTemplateFactory;
+>>>>>>> 985c7bda (.)
+=======
+use Modules\Media\Models\Media;
+use Modules\Notify\Database\Factories\NotificationTemplateFactory;
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
+=======
+=======
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
+=======
+>>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> d45a0226 (.)
+>>>>>>> f15c41e60 (.)
+use Modules\Notify\Enums\NotificationTypeEnum;
+use Spatie\MediaLibrary\HasMedia;
+use Spatie\MediaLibrary\InteractsWithMedia;
+<<<<<<< HEAD
+=======
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 95531e1 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 0f07e6d (.)
+<<<<<<< HEAD
+=======
+>>>>>>> e11621f (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f5f1cb1 (.)
+=======
+use Illuminate\Database\Eloquent\Builder;
+=======
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+use Illuminate\Database\Eloquent\Builder;
+=======
+=======
+>>>>>>> 82ae73b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2fc60436 (.)
+=======
+=======
+>>>>>>> ce89c8bb (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce89c8bb (.)
+=======
+=======
+>>>>>>> 9777d1b (.)
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> f1c9518b (.)
+=======
+=======
+>>>>>>> 95531e1 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 0f07e6d (.)
+<<<<<<< HEAD
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> 98d837b9 (.)
+=======
+use Illuminate\Database\Eloquent\Builder;
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> ce89c8bb (.)
+use Illuminate\Database\Eloquent\Builder;
+=======
+=======
+>>>>>>> 82ae73b (.)
+<<<<<<< HEAD
+>>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ce89c8bb (.)
+=======
+=======
+>>>>>>> 9777d1b (.)
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> f1c9518b (.)
+=======
+=======
+>>>>>>> 95531e1 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> 98d837b9 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> e53a56570 (.)
+=======
+=======
+>>>>>>> 95531e1 (.)
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> be698cf2c (.)
+=======
+=======
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Override;
 use Carbon\Carbon;
@@ -14,13 +1047,196 @@ use Modules\Notify\Database\Factories\NotificationTemplateFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> laraxot/develop
+=======
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 use Illuminate\Support\Facades\Blade;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> 4689a827 (.)
+<<<<<<< HEAD
+>>>>>>> 8dc1f2ed6 (.)
+=======
+=======
+>>>>>>> 2941b0bd (.)
+>>>>>>> a070a65a5 (.)
 use Modules\Notify\Enums\NotificationTypeEnum;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
+<<<<<<< HEAD
 use Spatie\Translatable\HasTranslations;
 
 /**
+=======
+<<<<<<< HEAD
+=======
+use Illuminate\Support\Facades\Blade;
+<<<<<<< HEAD
+=======
+>>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
+=======
+use Carbon\Carbon;
+use Modules\User\Models\Profile;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Modules\Media\Models\Media;
+use Illuminate\Database\Eloquent\Builder;
+use Modules\Notify\Database\Factories\NotificationTemplateFactory;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+=======
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Override;
+>>>>>>> b93ef594b4 (.)
+use Carbon\Carbon;
+use Modules\User\Models\Profile;
+use Modules\Media\Models\Media;
+use Illuminate\Database\Eloquent\Builder;
+use Modules\Notify\Database\Factories\NotificationTemplateFactory;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Support\Facades\Blade;
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> be698cf2c (.)
+use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Support\Facades\Blade;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
+use Modules\Notify\Enums\NotificationTypeEnum;
+use Spatie\MediaLibrary\HasMedia;
+use Spatie\MediaLibrary\InteractsWithMedia;
+<<<<<<< HEAD
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
+use Spatie\Translatable\HasTranslations;
+
+/**
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+use Spatie\Translatable\HasTranslations;
+
+/**
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fbed41ac (.)
+=======
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+=======
+use Spatie\Translatable\HasTranslations;
+
+/**
+>>>>>>> 75179b85 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+use Spatie\Translatable\HasTranslations;
+
+/**
+>>>>>>> 75179b85 (.)
+=======
+use Spatie\Translatable\HasTranslations;
+
+/**
+>>>>>>> 75179b855 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+use Spatie\Translatable\HasTranslations;
+
+/**
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
  * Class NotificationTemplate.
  *
  * @property int $id
@@ -40,6 +1256,10 @@ use Spatie\Translatable\HasTranslations;
  * @property int $version
  * @property int|null $tenant_id
  * @property array|null $grapesjs_data
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
  * @property Carbon $created_at
  * @property Carbon $updated_at
  * @property Carbon|null $deleted_at
@@ -52,6 +1272,61 @@ use Spatie\Translatable\HasTranslations;
  * @property-read mixed $translations
  * @property-read Profile|null $updater
  * @property-read int|null $versions_count
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
+ *
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+ *
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+ *
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> e53a56570 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
  * @method static Builder<static>|NotificationTemplate active()
  * @method static NotificationTemplateFactory factory($count = null, $state = [])
  * @method static Builder<static>|NotificationTemplate forCategory(string $category)
@@ -63,15 +1338,587 @@ use Spatie\Translatable\HasTranslations;
  * @method static Builder<static>|NotificationTemplate whereJsonContainsLocales(string $column, array $locales, ?mixed $value, string $operand = '=')
  * @method static Builder<static>|NotificationTemplate whereLocale(string $column, string $locale)
  * @method static Builder<static>|NotificationTemplate whereLocales(string $column, array $locales)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+=======
+ * @property \Carbon\Carbon $created_at
+ * @property \Carbon\Carbon $updated_at
+ * @property \Carbon\Carbon|null $deleted_at
+ * @property-read string $channels_label
+ * @property NotificationTypeEnum $type
+ * @property-read \Modules\User\Models\Profile|null $creator
+ * @property-read int|null $logs_count
+ * @property-read \Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection<int, \Modules\Media\Models\Media> $media
+ * @property-read int|null $media_count
+ * @property-read mixed $translations
+ * @property-read \Modules\User\Models\Profile|null $updater
+ * @property-read int|null $versions_count
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationTemplate active()
+ * @method static \Modules\Notify\Database\Factories\NotificationTemplateFactory factory($count = null, $state = [])
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationTemplate forCategory(string $category)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationTemplate forChannel(string $channel)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationTemplate newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationTemplate newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationTemplate query()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationTemplate whereJsonContainsLocale(string $column, string $locale, ?mixed $value, string $operand = '=')
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationTemplate whereJsonContainsLocales(string $column, array $locales, ?mixed $value, string $operand = '=')
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationTemplate whereLocale(string $column, string $locale)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationTemplate whereLocales(string $column, array $locales)
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> a070a65a5 (.)
+=======
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
+ *
+=======
+>>>>>>> 99ff506 (.)
+<<<<<<< HEAD
+>>>>>>> f1c9518b (.)
+<<<<<<< HEAD
+=======
+=======
+=======
+=======
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
+ *
+>>>>>>> f15c41e60 (.)
+<<<<<<< HEAD
+>>>>>>> e53a56570 (.)
+=======
+=======
+=======
+=======
+ *
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6ba141fc (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
+=======
+=======
+ * @property \Carbon\Carbon $created_at
+ * @property \Carbon\Carbon $updated_at
+ * @property \Carbon\Carbon|null $deleted_at
+ * @property-read string $channels_label
+ * @property NotificationTypeEnum $type
+ * @property-read \Modules\User\Models\Profile|null $creator
+ * @property-read int|null $logs_count
+ * @property-read \Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection<int, \Modules\Media\Models\Media> $media
+ * @property-read int|null $media_count
+ * @property-read mixed $translations
+ * @property-read \Modules\User\Models\Profile|null $updater
+ * @property-read int|null $versions_count
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationTemplate active()
+ * @method static \Modules\Notify\Database\Factories\NotificationTemplateFactory factory($count = null, $state = [])
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationTemplate forCategory(string $category)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationTemplate forChannel(string $channel)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationTemplate newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationTemplate newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationTemplate query()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationTemplate whereJsonContainsLocale(string $column, string $locale, ?mixed $value, string $operand = '=')
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationTemplate whereJsonContainsLocales(string $column, array $locales, ?mixed $value, string $operand = '=')
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationTemplate whereLocale(string $column, string $locale)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationTemplate whereLocales(string $column, array $locales)
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f2e64178 (.)
+<<<<<<< HEAD
+>>>>>>> 23f115647 (.)
+=======
+=======
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
+ * @mixin IdeHelperNotificationTemplate
+ * @mixin \Eloquent
+ */
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
+ *
+=======
+>>>>>>> 99ff506 (.)
+<<<<<<< HEAD
+>>>>>>> f1c9518b (.)
+=======
+=======
+=======
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
+ *
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ *
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6ba141fc (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+=======
+=======
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 98d837b9 (.)
+ *
+=======
+>>>>>>> 99ff506 (.)
+=======
+=======
+=======
+>>>>>>> f2e64178 (.)
+=======
+=======
+=======
+>>>>>>> 2effe245 (.)
+=======
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+=======
+=======
+>>>>>>> 4689a827 (.)
+=======
+ *
+=======
+>>>>>>> 99ff506 (.)
+=======
+=======
+=======
+>>>>>>> f2e64178 (.)
+ * @property \Carbon\Carbon $created_at
+ * @property \Carbon\Carbon $updated_at
+ * @property \Carbon\Carbon|null $deleted_at
+ * @property-read string $channels_label
+ * @property NotificationTypeEnum $type
+ * @property-read \Modules\User\Models\Profile|null $creator
+ * @property-read int|null $logs_count
+ * @property-read \Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection<int, \Modules\Media\Models\Media> $media
+ * @property-read int|null $media_count
+ * @property-read mixed $translations
+ * @property-read \Modules\User\Models\Profile|null $updater
+ * @property-read int|null $versions_count
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationTemplate active()
+ * @method static \Modules\Notify\Database\Factories\NotificationTemplateFactory factory($count = null, $state = [])
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationTemplate forCategory(string $category)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationTemplate forChannel(string $channel)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationTemplate newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationTemplate newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationTemplate query()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationTemplate whereJsonContainsLocale(string $column, string $locale, ?mixed $value, string $operand = '=')
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationTemplate whereJsonContainsLocales(string $column, array $locales, ?mixed $value, string $operand = '=')
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationTemplate whereLocale(string $column, string $locale)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationTemplate whereLocales(string $column, array $locales)
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f813254 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f2e64178 (.)
+=======
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 82c6772 (.)
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
+=======
+=======
+>>>>>>> 92ecc28 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 985c7bda (.)
+=======
+=======
+>>>>>>> d45a0226 (.)
+=======
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> b94a5f6 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d45a0226 (.)
+=======
+=======
+>>>>>>> 23161eb (.)
+=======
+>>>>>>> 5e14ac3 (.)
+<<<<<<< HEAD
+>>>>>>> fbed41ac (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+ *
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> f813254 (.)
+>>>>>>> f2e64178 (.)
+=======
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> f813254 (.)
+>>>>>>> 82c6772 (.)
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
+=======
+=======
+>>>>>>> 92ecc28 (.)
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
+=======
+>>>>>>> fbed41ac (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+ *
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> f813254 (.)
+>>>>>>> f2e64178 (.)
+=======
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 82c6772 (.)
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+=======
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> b94a5f6 (.)
+>>>>>>> d45a0226 (.)
+>>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+>>>>>>> 331118f25 (.)
  * @mixin IdeHelperNotificationTemplate
  * @property-read \Modules\TechPlanner\Models\Profile|null $deleter
  * @mixin \Eloquent
  */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+/**
+ * @property NotificationTypeEnum $type
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
+=======
+>>>>>>> e00d798d (.)
+=======
+>>>>>>> e00d798d (.)
+=======
+/**
+ * @property NotificationTypeEnum $type
+ * @property-read \Modules\Fixcity\Models\Profile|null $creator
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 7c1c276f (rebase 210)
+=======
+>>>>>>> e00d798d (.)
+=======
+/**
+ * @property NotificationTypeEnum $type
+ * @property-read \Modules\Fixcity\Models\Profile|null $creator
+>>>>>>> 2cbbc069 (.)
+=======
+/**
+ * @property NotificationTypeEnum $type
+ * @property-read \Modules\Fixcity\Models\Profile|null $creator
+>>>>>>> 7c1c276f (rebase 210)
+=======
+>>>>>>> e00d798d (.)
+=======
+/**
+ * @property NotificationTypeEnum $type
+ * @property-read \Modules\Fixcity\Models\Profile|null $creator
+>>>>>>> 2cbbc069 (.)
+ * @property-read string $channels_label
+ * @property-read MediaCollection<int, Media> $media
+ * @property-read int|null $media_count
+ * @property-read mixed $translations
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+=======
+ * @property-read \Modules\Fixcity\Models\Profile|null $updater
+>>>>>>> 7c1c276f (rebase 210)
+=======
+ * @property-read \Modules\Fixcity\Models\Profile|null $updater
+>>>>>>> e00d798d (.)
+=======
+ * @property-read \Modules\Fixcity\Models\Profile|null $updater
+>>>>>>> 2cbbc069 (.)
+=======
+ * @property-read \Modules\Fixcity\Models\Profile|null $updater
+>>>>>>> 7c1c276f (rebase 210)
+=======
+ * @property-read \Modules\Fixcity\Models\Profile|null $updater
+>>>>>>> e00d798d (.)
+=======
+ * @property-read \Modules\Fixcity\Models\Profile|null $updater
+>>>>>>> 2cbbc069 (.)
+ * @method static Builder<static>|NotificationTemplate active()
+ * @method static \Modules\Notify\Database\Factories\NotificationTemplateFactory factory($count = null, $state = [])
+ * @method static Builder<static>|NotificationTemplate forCategory(string $category)
+ * @method static Builder<static>|NotificationTemplate forChannel(string $channel)
+ * @method static Builder<static>|NotificationTemplate newModelQuery()
+ * @method static Builder<static>|NotificationTemplate newQuery()
+ * @method static Builder<static>|NotificationTemplate query()
+ * @method static Builder<static>|NotificationTemplate whereJsonContainsLocale(string $column, string $locale, ?mixed $value, string $operand = '=')
+ * @method static Builder<static>|NotificationTemplate whereJsonContainsLocales(string $column, array $locales, ?mixed $value, string $operand = '=')
+ * @method static Builder<static>|NotificationTemplate whereLocale(string $column, string $locale)
+ * @method static Builder<static>|NotificationTemplate whereLocales(string $column, array $locales)
+ * @mixin \Eloquent
+ */
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2cbbc069 (.)
+=======
+>>>>>>> 7c1c276f (rebase 210)
+=======
+>>>>>>> 6e550ff (.)
+>>>>>>> e00d798d (.)
+=======
+ * @mixin IdeHelperNotificationTemplate
+ * @mixin \Eloquent
+ */
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 2cbbc069 (.)
+=======
+>>>>>>> 7c1c276f (rebase 210)
+=======
+>>>>>>> 6e550ff (.)
+>>>>>>> e00d798d (.)
+=======
+ * @mixin IdeHelperNotificationTemplate
+ * @mixin \Eloquent
+ */
+>>>>>>> 75179b85 (.)
+=======
+ * @mixin IdeHelperNotificationTemplate
+ * @mixin \Eloquent
+ */
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> 2cbbc069 (.)
+>>>>>>> laraxot/develop
+=======
+ * @mixin IdeHelperNotificationTemplate
+ * @mixin \Eloquent
+ */
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 class NotificationTemplate extends BaseModel implements HasMedia
 {
     use HasTranslations;
     use InteractsWithMedia;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
+    public array $translatable = [
+        'subject',
+        'body_text',
+        'body_html',
+    ];
+
+=======
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
     protected $fillable = [
         'name',
         'code',
@@ -92,6 +1939,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
         'type',
     ];
 
+<<<<<<< HEAD
     /**
      * Get the attributes that should be cast.
      *
@@ -120,8 +1968,866 @@ class NotificationTemplate extends BaseModel implements HasMedia
         'body_html',
     ];
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 331118f25 (.)
     public function registerMediaCollections(): void
     {
+        $this->addMediaCollection('attachments')->singleFile();
+    }
+
+<<<<<<< HEAD
+=======
+    /**
+     * Compile the template with the given data.
+     *
+     * @param  array<string, mixed>  $data  The data to compile the template with
+     * @return array{subject: string, body_html: string|null, body_text: string|null}
+     */
+    public function compile(array $data = []): array
+    {
+        $subjectTranslation = $this->getTranslation('subject', app()->getLocale());
+        $subject = is_string($subjectTranslation) ? $subjectTranslation : null;
+
+        $bodyHtmlTranslation = $this->getTranslation('body_html', app()->getLocale());
+        $bodyHtml = is_string($bodyHtmlTranslation) ? $bodyHtmlTranslation : null;
+
+        $bodyTextTranslation = $this->getTranslation('body_text', app()->getLocale());
+        $bodyText = is_string($bodyTextTranslation) ? $bodyTextTranslation : null;
+
+        $subjectResult = $this->compileString($subject, $data);
+        $bodyHtmlResult = $this->compileString($bodyHtml, $data);
+        $bodyTextResult = $this->compileString($bodyText, $data);
+
+        return [
+            'subject' => $subjectResult ?? '',
+            'body_html' => $bodyHtmlResult,
+            'body_text' => $bodyTextResult,
+        ];
+    }
+
+    /**
+     * Check if the notification should be sent based on conditions.
+     *
+     * @param  array<string, mixed>  $data  The data to check conditions against
+     */
+    public function shouldSend(array $data = []): bool
+    {
+        $conditions = $this->getAttribute('conditions');
+        if (! $conditions) {
+            return true;
+        }
+
+        if (! is_array($conditions)) {
+            return true;
+        }
+
+        foreach ($conditions as $path => $value) {
+            $actual = data_get($data, $path);
+            if ($actual !== $value) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    /**
+     * Preview the template with the given data.
+     *
+     * @param  array<string, mixed>  $data  Additional data to merge with preview data
+     * @return array{subject: string, body_html: string|null, body_text: string|null}
+     */
+    public function preview(array $data = []): array
+    {
+        $previewData = $this->preview_data ?? [];
+        if (! is_array($previewData)) {
+            $previewData = [];
+        }
+
+        /** @var array<string, mixed> $safePreviewData */
+        $safePreviewData = $previewData;
+        /** @var array<string, mixed> $mergedData */
+        $mergedData = array_merge($safePreviewData, $data);
+
+        return $this->compile($mergedData);
+    }
+
+    /**
+     * Scope a query to only include active templates.
+     */
+    public function scopeActive(Builder $query): Builder
+    {
+        return $query->where('is_active', true);
+    }
+
+    /**
+     * Scope a query to only include templates for a specific channel.
+     */
+    public function scopeForChannel(Builder $query, string $channel): Builder
+    {
+        return $query->whereJsonContains('channels', $channel);
+    }
+
+    /**
+     * Scope a query to only include templates for a specific category.
+     */
+    public function scopeForCategory(Builder $query, string $category): Builder
+    {
+        return $query->where('category', $category);
+    }
+
+    /**
+     * Get the channels label attribute.
+     */
+    public function getChannelsLabelAttribute(): string
+    {
+        $channels = $this->getAttribute('channels');
+        if (! is_array($channels)) {
+            $channels = [];
+        }
+
+        return collect($channels)
+            ->map(fn ($channel) => __('notify::template.fields.channel.options.'.(is_string($channel) ? $channel : (string) $channel).'.label'))
+            ->implode(', ');
+    }
+
+    /**
+     * Get the GrapesJS data.
+     *
+     * @return array<string, mixed>
+     */
+    public function getGrapesJSData(): array
+    {
+        $data = $this->getAttribute('grapesjs_data') ?? [];
+        if (! is_array($data)) {
+            return [];
+        }
+
+        /** @var array<string, mixed> $data */
+        return $data;
+    }
+
+    /**
+     * Set the GrapesJS data.
+     *
+     * @param  array<string, mixed>  $data
+     */
+    public function setGrapesJSData(array $data): self
+    {
+        $this->setAttribute('grapesjs_data', $data);
+
+        return $this;
+    }
+
+    public function getPreviewData(): array
+    {
+        $previewData = $this->getAttribute('preview_data') ?? [];
+        if (! is_array($previewData)) {
+            return [];
+        }
+
+        return $previewData;
+    }
+
+    public function getPreviewSubject(): string
+    {
+        $result = $this->getTranslation('subject', app()->getLocale());
+
+        return is_string($result) ? $result : '';
+    }
+
+    public function getPreviewBodyText(): string
+    {
+        $result = $this->getTranslation('body_text', app()->getLocale());
+
+        return is_string($result) ? $result : '';
+    }
+
+    public function getPreviewBodyHtml(): string
+    {
+        $result = $this->getTranslation('body_html', app()->getLocale());
+
+        return is_string($result) ? $result : '';
+    }
+
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+    /**
+     * Get the attributes that should be cast.
+     *
+     * @return array<string, string>
+     */
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 207ac35e (.)
+>>>>>>> 1487fe812 (.)
+    #[Override]
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    #[Override]
+=======
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> fbed41ac (.)
+<<<<<<< HEAD
+    #[\Override]
+=======
+<<<<<<< HEAD
+    #[Override]
+=======
+=======
+    #[Override]
+=======
+>>>>>>> d09cb759 (.)
+=======
+    #[Override]
+=======
+>>>>>>> d09cb759 (.)
+=======
+    #[Override]
+=======
+>>>>>>> 4689a827 (.)
+=======
+    #[Override]
+=======
+>>>>>>> f2e64178 (.)
+=======
+    #[\Override]
+=======
+<<<<<<< HEAD
+    #[Override]
+=======
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    #[Override]
+=======
+>>>>>>> a12f125f4a (.)
+=======
+    #[Override]
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 82c6772 (.)
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+>>>>>>> 26d39e2eb (.)
+=======
+    #[Override]
+>>>>>>> 92ecc28 (.)
+<<<<<<< HEAD
+>>>>>>> 985c7bda (.)
+=======
+=======
+    #[\Override]
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
+=======
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+=======
+    #[Override]
+>>>>>>> 75179b8 (.)
+=======
+    #[Override]
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73b (.)
+<<<<<<< HEAD
+>>>>>>> 2fc60436 (.)
+=======
+=======
+    #[Override]
+=======
+>>>>>>> b19cd40 (.)
+=======
+    #[Override]
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+<<<<<<< HEAD
+>>>>>>> ce89c8bb (.)
+=======
+=======
+    #[Override]
+>>>>>>> 9777d1b (.)
+>>>>>>> 58816034 (.)
+=======
+    #[Override]
+>>>>>>> 75179b85 (.)
+=======
+    #[Override]
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+    #[Override]
+=======
+>>>>>>> b19cd40 (.)
+=======
+    #[Override]
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+    #[Override]
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+    #[Override]
+>>>>>>> 3f537838 (.)
+=======
+    #[Override]
+<<<<<<< HEAD
+>>>>>>> 75179b855 (.)
+=======
+    #[Override]
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+    #[Override]
+=======
+>>>>>>> b19cd40 (.)
+=======
+    #[Override]
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+    #[Override]
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+    #[Override]
+>>>>>>> 3f537838 (.)
+=======
+    #[Override]
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+    #[Override]
+=======
+>>>>>>> b19cd40 (.)
+=======
+    #[Override]
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+    #[Override]
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+    #[Override]
+>>>>>>> 2941b0bd (.)
+=======
+    #[Override]
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+    #[Override]
+=======
+>>>>>>> b19cd40 (.)
+=======
+    #[Override]
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+    #[Override]
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+    #[Override]
+>>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+>>>>>>> 1487fe812 (.)
+=======
+=======
+    #[Override]
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> 8c19c8df2 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 82c6772 (.)
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
+=======
+    #[\Override]
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
+=======
+=======
+    #[Override]
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+>>>>>>> 7ceb00286 (.)
+=======
+=======
+=======
+>>>>>>> ce89c8bb (.)
+=======
+    #[Override]
+>>>>>>> 75179b8 (.)
+=======
+    #[Override]
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73b (.)
+<<<<<<< HEAD
+>>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
+>>>>>>> be698cf2c (.)
+=======
+=======
+=======
+    #[Override]
+=======
+>>>>>>> b19cd40 (.)
+=======
+    #[Override]
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
+=======
+    #[Override]
+>>>>>>> a55aa5e96 (.)
+    protected function casts(): array
+    {
+        return [
+            'type' => NotificationTypeEnum::class,
+            'preview_data' => 'array',
+            'body_html' => 'string',
+            'body_text' => 'string',
+            'channels' => 'array',
+            'variables' => 'array',
+            'conditions' => 'array',
+            'metadata' => 'array',
+            'is_active' => 'boolean',
+            'grapesjs_data' => 'array',
+        ];
+    }
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public array $translatable = [
+        'subject',
+        'body_text',
+        'body_html',
+    ];
+
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
+>>>>>>> laraxot/develop
+    public function registerMediaCollections(): void
+    {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
+>>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
+        $this->addMediaCollection('attachments')->singleFile();
+    }
+
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
+>>>>>>> laraxot/develop
+>>>>>>> 331118f25 (.)
+    /*
+     * public function versions(): HasMany
+     * {
+     * return $this->hasMany(NotificationTemplateVersion::class, 'template_id')
+     * ->orderByDesc('version');
+     * }
+     *
+     * public function logs(): HasMany
+     * {
+     * return $this->hasMany(NotificationLog::class, 'template_id');
+     * }
+     */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+=======
+=======
+>>>>>>> origin/develop
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
+        $this->addMediaCollection('attachments')
+            ->singleFile();
+    }
+/*
+    public function versions(): HasMany
+    {
+        return $this->hasMany(NotificationTemplateVersion::class, 'template_id')
+            ->orderByDesc('version');
+    }
+
+    public function logs(): HasMany
+    {
+        return $this->hasMany(NotificationLog::class, 'template_id');
+    }
+*/
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> a12f125f4a (.)
+=======
         $this->addMediaCollection('attachments')->singleFile();
     }
 
@@ -137,12 +2843,219 @@ class NotificationTemplate extends BaseModel implements HasMedia
      * return $this->hasMany(NotificationLog::class, 'template_id');
      * }
      */
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
+>>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
+>>>>>>> 331118f25 (.)
     /*
      * Create a new version of the template.
      *
      * @param string $createdBy The user who created the version
      * @param string|null $notes Optional notes about the changes
      * @return self
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
+>>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
+>>>>>>> 331118f25 (.)
      *
      * public function createNewVersion(string $createdBy, ?string $notes = null): self
      * {
@@ -162,10 +3075,3093 @@ class NotificationTemplate extends BaseModel implements HasMedia
      * return $this;
      * }
      */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+=======
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/develop
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> d09cb759 (.)
+>>>>>>> 26d39e2eb (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
+     
+    public function createNewVersion(string $createdBy, ?string $notes = null): self
+    {
+        $this->versions()->create([
+            'subject' => $this->subject,
+            'body_html' => $this->body_html,
+            'body_text' => $this->body_text,
+            'channels' => $this->channels,
+            'variables' => $this->variables,
+            'conditions' => $this->conditions,
+            'version' => $this->version,
+            'created_by' => $createdBy,
+            'change_notes' => $notes,
+        ]);
+
+        $this->increment('version');
+        return $this;
+    }
+*/
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 26d39e2eb (.)
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+    /**
+     * Compile the template with the given data.
+     *
+<<<<<<< HEAD
+     * @param  array<string, mixed>  $data  The data to compile the template with
+=======
+     * @param array<string, mixed> $data The data to compile the template with
+>>>>>>> 99ff506 (.)
+<<<<<<< HEAD
+     * @return array{subject: string, body_html: string|null, body_text: string|null}
+     */
+    public function compile(array $data = []): array
+    {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
+        $subjectTranslation = $this->getTranslation('subject', app()->getLocale());
+        $subject = is_string($subjectTranslation) ? $subjectTranslation : null;
+
+        $bodyHtmlTranslation = $this->getTranslation('body_html', app()->getLocale());
+        $bodyHtml = is_string($bodyHtmlTranslation) ? $bodyHtmlTranslation : null;
+
+        $bodyTextTranslation = $this->getTranslation('body_text', app()->getLocale());
+        $bodyText = is_string($bodyTextTranslation) ? $bodyTextTranslation : null;
+
+        $subjectResult = $this->compileString($subject, $data);
+        $bodyHtmlResult = $this->compileString($bodyHtml, $data);
+        $bodyTextResult = $this->compileString($bodyText, $data);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        $subject = $this->compileString($this->subject, $data);
+        $bodyHtml = $this->compileString($this->body_html, $data);
+        $bodyText = $this->compileString($this->body_text, $data);
+>>>>>>> 6ba141fc (.)
+=======
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
+
+        return [
+            'subject' => $subjectResult ?? '',
+            'body_html' => $bodyHtmlResult,
+            'body_text' => $bodyTextResult,
+        ];
+    }
+
+    /**
+     * Check if the notification should be sent based on conditions.
+     *
+<<<<<<< HEAD
+     * @param  array<string, mixed>  $data  The data to check conditions against
+     */
+    public function shouldSend(array $data = []): bool
+    {
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $conditions = $this->getAttribute('conditions');
+        if (! $conditions) {
+=======
+        if (! $this->conditions) {
+=======
+     * @param array<string, mixed> $data The data to check conditions against
+     * @return bool
+     */
+    public function shouldSend(array $data = []): bool
+    {
+        if (!$this->conditions) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+            return true;
+        }
+
+        if (! is_array($conditions)) {
+            return true;
+        }
+
+        foreach ($conditions as $path => $value) {
+<<<<<<< HEAD
+=======
+=======
+        if (! $this->conditions) {
+            return true;
+        }
+
+        foreach ($this->conditions as $path => $value) {
+>>>>>>> 6ba141fc (.)
+=======
+        $conditions = $this->getAttribute('conditions');
+        if (! $conditions) {
+            return true;
+        }
+
+        if (! is_array($conditions)) {
+            return true;
+        }
+
+        foreach ($conditions as $path => $value) {
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
+            $actual = data_get($data, $path);
+            if ($actual !== $value) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    /**
+<<<<<<< HEAD
+=======
+     * Compile a string template with the given data.
+     *
+<<<<<<< HEAD
+     * @param  string|null  $template  The template to compile
+     * @param  array<string, mixed>  $data  The data to compile with
+     */
+<<<<<<< HEAD
+    protected function compileString(?string $template, array $data): ?string
+=======
+    protected function compileString(null|string $template, array $data): null|string
+>>>>>>> f5f1cb1 (.)
+    {
+        if (! $template) {
+=======
+     * @param string|null $template The template to compile
+     * @param array<string, mixed> $data The data to compile with
+     * @return string|null
+     */
+    protected function compileString(null|string $template, array $data): null|string
+    {
+        if (!$template) {
+>>>>>>> 99ff506 (.)
+            return null;
+        }
+
+        return Blade::render($template, $data);
+    }
+
+    /**
+>>>>>>> f1c9518b (.)
+     * Preview the template with the given data.
+     *
+<<<<<<< HEAD
+     * @param  array<string, mixed>  $data  Additional data to merge with preview data
+=======
+     * @param array<string, mixed> $data Additional data to merge with preview data
+>>>>>>> 99ff506 (.)
+     * @return array{subject: string, body_html: string|null, body_text: string|null}
+     */
+    public function preview(array $data = []): array
+    {
+        $previewData = $this->preview_data ?? [];
+        if (! is_array($previewData)) {
+            $previewData = [];
+        }
+
+        /** @var array<string, mixed> $safePreviewData */
+        $safePreviewData = $previewData;
+        /** @var array<string, mixed> $mergedData */
+        $mergedData = array_merge($safePreviewData, $data);
+
+        return $this->compile($mergedData);
+    }
+
+    /**
+     * Scope a query to only include active templates.
+<<<<<<< HEAD
+=======
+     *
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+     * @param  Builder  $query
+=======
+=======
+>>>>>>> f813254 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> f5f1cb1 (.)
+     * @param Builder $query
+>>>>>>> 99ff506 (.)
+     * @return Builder
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f1c9518b (.)
+=======
+=======
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
+     * @param  Builder  $query
+=======
+     * @param Builder $query
+>>>>>>> f5f1cb1 (.)
+     * @return Builder
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
+=======
+     * @param Builder $query
+>>>>>>> 99ff506 (.)
+     * @return Builder
+>>>>>>> f2e64178 (.)
+=======
+<<<<<<< HEAD
+     * @param Builder $query
+     * @return Builder
+=======
+     * @param \Illuminate\Database\Eloquent\Builder $query
+     * @return \Illuminate\Database\Eloquent\Builder
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+     */
+    public function scopeActive(Builder $query): Builder
+    {
+        return $query->where('is_active', true);
+    }
+
+    /**
+     * Scope a query to only include templates for a specific channel.
+<<<<<<< HEAD
+=======
+     *
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+     * @param  Builder  $query
+=======
+=======
+>>>>>>> f813254 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f5f1cb1 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> 98d837b9 (.)
+     * @param Builder $query
+     * @param string $channel
+>>>>>>> 99ff506 (.)
+     * @return Builder
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f1c9518b (.)
+=======
+=======
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
+     * @param  Builder  $query
+=======
+     * @param Builder $query
+     * @param string $channel
+>>>>>>> f5f1cb1 (.)
+     * @return Builder
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+<<<<<<< HEAD
+     * @param Builder $query
+     * @param string $channel
+     * @return Builder
+=======
+     * @param \Illuminate\Database\Eloquent\Builder $query
+     * @param string $channel
+     * @return \Illuminate\Database\Eloquent\Builder
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+     */
+    public function scopeForChannel(Builder $query, string $channel): Builder
+    {
+        return $query->whereJsonContains('channels', $channel);
+    }
+
+    /**
+     * Scope a query to only include templates for a specific category.
+<<<<<<< HEAD
+=======
+     *
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+     * @param  Builder  $query
+=======
+=======
+>>>>>>> f813254 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f5f1cb1 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> 98d837b9 (.)
+     * @param Builder $query
+     * @param string $category
+>>>>>>> 99ff506 (.)
+     * @return Builder
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f1c9518b (.)
+=======
+=======
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
+     * @param  Builder  $query
+=======
+     * @param Builder $query
+     * @param string $category
+>>>>>>> f5f1cb1 (.)
+     * @return Builder
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+<<<<<<< HEAD
+     * @param Builder $query
+     * @param string $category
+     * @return Builder
+=======
+     * @param \Illuminate\Database\Eloquent\Builder $query
+     * @param string $category
+     * @return \Illuminate\Database\Eloquent\Builder
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+     */
+    public function scopeForCategory(Builder $query, string $category): Builder
+    {
+        return $query->where('category', $category);
+    }
+
+    /**
+     * Get the channels label attribute.
+<<<<<<< HEAD
+=======
+     *
+     * @return string
+>>>>>>> 99ff506 (.)
+     */
+    public function getChannelsLabelAttribute(): string
+    {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+=======
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
+        $channels = $this->getAttribute('channels');
+        if (! is_array($channels)) {
+            $channels = [];
+        }
+
+        return collect($channels)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> fbed41ac (.)
+=======
+=======
+>>>>>>> 82c6772 (.)
+=======
+>>>>>>> 92ecc28 (.)
+        return collect($this->channels)
+>>>>>>> 6ba141fc (.)
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
+=======
+=======
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
+            ->map(fn ($channel) => __('notify::template.fields.channel.options.'.(is_string($channel) ? $channel : (string) $channel).'.label'))
+=======
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+        return collect($this->channels)
+<<<<<<< HEAD
+            ->map(fn ($channel) => __('notify::template.fields.channel.options.'.$channel.'.label'))
+=======
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+            ->implode(', ');
+    }
+
+    /**
+     * Get the GrapesJS data.
+     *
+     * @return array<string, mixed>
+     */
+    public function getGrapesJSData(): array
+    {
+        $data = $this->getAttribute('grapesjs_data') ?? [];
+        if (! is_array($data)) {
+            return [];
+        }
+
+        /** @var array<string, mixed> $data */
+        return $data;
+    }
+
+    /**
+     * Set the GrapesJS data.
+     *
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @param  array<string, mixed>  $data
+=======
+     * @param array<string, mixed> $data
+     * @return self
+>>>>>>> 99ff506 (.)
+     */
+    public function setGrapesJSData(array $data): self
+    {
+<<<<<<< HEAD
+        $this->setAttribute('grapesjs_data', $data);
+=======
+        $this->grapesjs_data = $data;
+<<<<<<< HEAD
+>>>>>>> f1c9518b (.)
+
+=======
+>>>>>>> 99ff506 (.)
+        return $this;
+    }
+
+    public function getPreviewData(): array
+    {
+        $previewData = $this->getAttribute('preview_data') ?? [];
+        if (! is_array($previewData)) {
+            return [];
+        }
+
+        return $previewData;
+    }
+
+    public function getPreviewSubject(): string
+    {
+        $result = $this->getTranslation('subject', app()->getLocale());
+<<<<<<< HEAD
+
+=======
+>>>>>>> 99ff506 (.)
+        return is_string($result) ? $result : '';
+    }
+
+    public function getPreviewBodyText(): string
+    {
+        $result = $this->getTranslation('body_text', app()->getLocale());
+<<<<<<< HEAD
+
+=======
+>>>>>>> 99ff506 (.)
+        return is_string($result) ? $result : '';
+    }
+
+    public function getPreviewBodyHtml(): string
+    {
+        $result = $this->getTranslation('body_html', app()->getLocale());
+<<<<<<< HEAD
+
+=======
+>>>>>>> 99ff506 (.)
+        return is_string($result) ? $result : '';
+    }
+
+=======
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+    /**
+     * Get the attributes that should be cast.
+     *
+     * @return array<string, string>
+     */
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 207ac35e (.)
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> a070a65a5 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+=======
+>>>>>>> 4d2eb53e (.)
+>>>>>>> 2f135ef98 (.)
+    #[Override]
+=======
+>>>>>>> b19cd40 (.)
+=======
+    #[Override]
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 2f135ef98 (.)
+>>>>>>> 75179b85 (.)
+=======
+    #[Override]
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+    #[Override]
+>>>>>>> 9777d1b3 (.)
+=======
+    #[Override]
+=======
+=======
+    #[Override]
+=======
+>>>>>>> d09cb759 (.)
+=======
+    #[Override]
+=======
+>>>>>>> d09cb759 (.)
+=======
+    #[Override]
+=======
+>>>>>>> 4689a827 (.)
+=======
+    #[Override]
+=======
+>>>>>>> f2e64178 (.)
+<<<<<<< HEAD
+=======
+    #[Override]
+=======
+>>>>>>> 4689a827 (.)
+=======
+    #[Override]
+=======
+>>>>>>> f2e64178 (.)
+=======
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> fbed41ac (.)
+    #[\Override]
+=======
+<<<<<<< HEAD
+    #[Override]
+=======
+>>>>>>> 2effe245 (.)
+=======
+    #[Override]
+=======
+>>>>>>> d09cb759 (.)
+=======
+    #[Override]
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 510809c6f (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    #[Override]
+=======
+>>>>>>> a12f125f4a (.)
+=======
+    #[Override]
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
+>>>>>>> d09cb759 (.)
+=======
+    #[Override]
+>>>>>>> 3f537838 (.)
+=======
+    #[Override]
+>>>>>>> 75179b85 (.)
+=======
+    #[Override]
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+    #[Override]
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+    #[Override]
+>>>>>>> 3f537838 (.)
+=======
+    #[Override]
+>>>>>>> 75179b85 (.)
+=======
+    #[Override]
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+=======
+    #[Override]
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    #[Override]
+>>>>>>> 3f537838 (.)
+=======
+    #[Override]
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+    #[Override]
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+    #[Override]
+>>>>>>> 2941b0bd (.)
+=======
+    #[Override]
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+=======
+    #[Override]
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+<<<<<<< HEAD
+=======
+    #[Override]
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 82c6772 (.)
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
+=======
+=======
+    #[Override]
+>>>>>>> 92ecc28 (.)
+<<<<<<< HEAD
+>>>>>>> 985c7bda (.)
+=======
+=======
+    #[\Override]
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
+=======
+=======
+    #[Override]
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+=======
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+=======
+    #[Override]
+>>>>>>> 75179b8 (.)
+=======
+    #[Override]
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73b (.)
+<<<<<<< HEAD
+>>>>>>> 2fc60436 (.)
+=======
+=======
+    #[Override]
+=======
+>>>>>>> b19cd40 (.)
+=======
+    #[Override]
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+<<<<<<< HEAD
+>>>>>>> ce89c8bb (.)
+=======
+=======
+    #[Override]
+>>>>>>> 9777d1b (.)
+>>>>>>> 58816034 (.)
+=======
+    #[Override]
+>>>>>>> 75179b85 (.)
+=======
+    #[Override]
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+    #[Override]
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+    #[Override]
+>>>>>>> 3f537838 (.)
+=======
+    #[Override]
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+    #[Override]
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    #[Override]
+>>>>>>> 2941b0bd (.)
+=======
+<<<<<<< HEAD
+=======
+    #[Override]
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+=======
+    #[Override]
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+=======
+    #[Override]
+>>>>>>> 2941b0bd (.)
+>>>>>>> a070a65a5 (.)
+=======
+    #[Override]
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
+    protected function casts(): array
+    {
+        return [
+            'type' => NotificationTypeEnum::class,
+            'preview_data' => 'array',
+            'body_html' => 'string',
+            'body_text' => 'string',
+            'channels' => 'array',
+            'variables' => 'array',
+            'conditions' => 'array',
+            'metadata' => 'array',
+            'is_active' => 'boolean',
+            'grapesjs_data' => 'array',
+        ];
+    }
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public array $translatable = [
+        'subject',
+        'body_text',
+        'body_html',
+    ];
+
+    public function registerMediaCollections(): void
+    {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> a070a65a5 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+=======
+>>>>>>> 510809c6f (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1619767d8 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+=======
+>>>>>>> 2941b0bd (.)
+>>>>>>> a070a65a5 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
+        $this->addMediaCollection('attachments')->singleFile();
+    }
+
+    /*
+     * public function versions(): HasMany
+     * {
+     * return $this->hasMany(NotificationTemplateVersion::class, 'template_id')
+     * ->orderByDesc('version');
+     * }
+     *
+     * public function logs(): HasMany
+     * {
+     * return $this->hasMany(NotificationLog::class, 'template_id');
+     * }
+     */
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> a070a65a5 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+=======
+>>>>>>> 4d2eb53e (.)
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+=======
+>>>>>>> 011072e4 (.)
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
+=======
+=======
+>>>>>>> 207ac35e (.)
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
+=======
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> origin/develop
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
+>>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> de02998b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4689a827 (.)
+=======
+=======
+>>>>>>> 3f39ac8b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 10292b60a (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+=======
+>>>>>>> 4689a827 (.)
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+=======
+>>>>>>> f2e64178 (.)
+>>>>>>> 23f115647 (.)
+        $this->addMediaCollection('attachments')
+            ->singleFile();
+    }
+/*
+    public function versions(): HasMany
+    {
+        return $this->hasMany(NotificationTemplateVersion::class, 'template_id')
+            ->orderByDesc('version');
+    }
+
+    public function logs(): HasMany
+    {
+        return $this->hasMany(NotificationLog::class, 'template_id');
+    }
+*/
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 23f115647 (.)
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> 4689a827 (.)
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
+>>>>>>> a12f125f4a (.)
+=======
+        $this->addMediaCollection('attachments')->singleFile();
+    }
+
+    /*
+     * public function versions(): HasMany
+     * {
+     * return $this->hasMany(NotificationTemplateVersion::class, 'template_id')
+     * ->orderByDesc('version');
+     * }
+     *
+     * public function logs(): HasMany
+     * {
+     * return $this->hasMany(NotificationLog::class, 'template_id');
+     * }
+     */
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1619767d8 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+=======
+>>>>>>> 2941b0bd (.)
+>>>>>>> a070a65a5 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
+    /*
+     * Create a new version of the template.
+     *
+     * @param string $createdBy The user who created the version
+     * @param string|null $notes Optional notes about the changes
+     * @return self
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> a070a65a5 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+=======
+>>>>>>> 510809c6f (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1619767d8 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+=======
+>>>>>>> 2941b0bd (.)
+>>>>>>> a070a65a5 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
+     *
+     * public function createNewVersion(string $createdBy, ?string $notes = null): self
+     * {
+     * $this->versions()->create([
+     * 'subject' => $this->subject,
+     * 'body_html' => $this->body_html,
+     * 'body_text' => $this->body_text,
+     * 'channels' => $this->channels,
+     * 'variables' => $this->variables,
+     * 'conditions' => $this->conditions,
+     * 'version' => $this->version,
+     * 'created_by' => $createdBy,
+     * 'change_notes' => $notes,
+     * ]);
+     *
+     * $this->increment('version');
+     * return $this;
+     * }
+     */
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> a070a65a5 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+=======
+>>>>>>> 4d2eb53e (.)
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+=======
+>>>>>>> 011072e4 (.)
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
+=======
+=======
+>>>>>>> 207ac35e (.)
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+=======
+>>>>>>> 510809c6f (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/develop
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
+>>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> de02998b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4689a827 (.)
+=======
+=======
+>>>>>>> 3f39ac8b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 10292b60a (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+=======
+>>>>>>> 4689a827 (.)
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+=======
+>>>>>>> f2e64178 (.)
+>>>>>>> 23f115647 (.)
+     
+    public function createNewVersion(string $createdBy, ?string $notes = null): self
+    {
+        $this->versions()->create([
+            'subject' => $this->subject,
+            'body_html' => $this->body_html,
+            'body_text' => $this->body_text,
+            'channels' => $this->channels,
+            'variables' => $this->variables,
+            'conditions' => $this->conditions,
+            'version' => $this->version,
+            'created_by' => $createdBy,
+            'change_notes' => $notes,
+        ]);
+
+        $this->increment('version');
+        return $this;
+    }
+*/
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 23f115647 (.)
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> 4689a827 (.)
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 985c7bda (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+    /**
+     * Compile the template with the given data.
+     *
+<<<<<<< HEAD
+     * @param array<string, mixed> $data The data to compile the template with
+=======
+<<<<<<< HEAD
+     * @param  array<string, mixed>  $data  The data to compile the template with
+=======
+     * @param array<string, mixed> $data The data to compile the template with
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+     * @return array{subject: string, body_html: string|null, body_text: string|null}
+     */
+    public function compile(array $data = []): array
+    {
+<<<<<<< HEAD
+        $subject = $this->compileString($this->subject, $data);
+        $bodyHtml = $this->compileString($this->body_html, $data);
+        $bodyText = $this->compileString($this->body_text, $data);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5e14ac3 (.)
+        $subjectTranslation = $this->getTranslation('subject', app()->getLocale());
+        $subject = is_string($subjectTranslation) ? $subjectTranslation : null;
+        
+        $bodyHtmlTranslation = $this->getTranslation('body_html', app()->getLocale());
+        $bodyHtml = is_string($bodyHtmlTranslation) ? $bodyHtmlTranslation : null;
+        
+        $bodyTextTranslation = $this->getTranslation('body_text', app()->getLocale());
+        $bodyText = is_string($bodyTextTranslation) ? $bodyTextTranslation : null;
+
+        $subjectResult = $this->compileString($subject, $data);
+        $bodyHtmlResult = $this->compileString($bodyHtml, $data);
+        $bodyTextResult = $this->compileString($bodyText, $data);
+<<<<<<< HEAD
+=======
+        $subject = $this->compileString($this->subject, $data);
+        $bodyHtml = $this->compileString($this->body_html, $data);
+        $bodyText = $this->compileString($this->body_text, $data);
+>>>>>>> 6ba141fc (.)
+=======
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
+
+        return [
+            'subject' => $subject ?? '',
+            'body_html' => $bodyHtml,
+            'body_text' => $bodyText,
+        ];
+    }
+
+    /**
+     * Check if the notification should be sent based on conditions.
+     *
+<<<<<<< HEAD
+     * @param array<string, mixed> $data The data to check conditions against
+     * @return bool
+     */
+    public function shouldSend(array $data = []): bool
+    {
+        if (!$this->conditions) {
+=======
+<<<<<<< HEAD
+     * @param  array<string, mixed>  $data  The data to check conditions against
+     */
+    public function shouldSend(array $data = []): bool
+    {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $conditions = $this->getAttribute('conditions');
+        if (! $conditions) {
+            return true;
+        }
+
+        if (! is_array($conditions)) {
+            return true;
+        }
+
+        foreach ($conditions as $path => $value) {
+=======
+>>>>>>> fbed41ac (.)
+        if (! $this->conditions) {
+=======
+     * @param array<string, mixed> $data The data to check conditions against
+     * @return bool
+     */
+    public function shouldSend(array $data = []): bool
+    {
+        if (!$this->conditions) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+            return true;
+        }
+
+        foreach ($this->conditions as $path => $value) {
+<<<<<<< HEAD
+=======
+>>>>>>> 6ba141fc (.)
+=======
+        $conditions = $this->getAttribute('conditions');
+        if (! $conditions) {
+            return true;
+        }
+
+        if (! is_array($conditions)) {
+            return true;
+        }
+
+        foreach ($conditions as $path => $value) {
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
+            $actual = data_get($data, $path);
+            if ($actual !== $value) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+=======
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
+    /**
+     * Compile a string template with the given data.
+     *
+<<<<<<< HEAD
+     * @param string|null $template The template to compile
+     * @param array<string, mixed> $data The data to compile with
+     * @return string|null
+=======
+<<<<<<< HEAD
+     * @param  string|null  $template  The template to compile
+     * @param  array<string, mixed>  $data  The data to compile with
+>>>>>>> f1c9518b (.)
+     */
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+    protected function compileString(null|string $template, array $data): null|string
+=======
+    protected function compileString(?string $template, array $data): ?string
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    protected function compileString(null|string $template, array $data): null|string
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+    protected function compileString(null|string $template, array $data): null|string
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+    protected function compileString(null|string $template, array $data): null|string
+>>>>>>> 9777d1b3 (.)
+=======
+    protected function compileString(null|string $template, array $data): null|string
+=======
+=======
+    protected function compileString(null|string $template, array $data): null|string
+=======
+>>>>>>> d09cb759 (.)
+=======
+    protected function compileString(null|string $template, array $data): null|string
+=======
+>>>>>>> d09cb759 (.)
+=======
+    protected function compileString(null|string $template, array $data): null|string
+=======
+>>>>>>> 4689a827 (.)
+=======
+    protected function compileString(?string $template, array $data): ?string
+=======
+<<<<<<< HEAD
+    protected function compileString(null|string $template, array $data): null|string
+=======
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    protected function compileString(null|string $template, array $data): null|string
+=======
+    protected function compileString(?string $template, array $data): ?string
+>>>>>>> a12f125f4a (.)
+=======
+    protected function compileString(null|string $template, array $data): null|string
+>>>>>>> b93ef594b4 (.)
+=======
+    protected function compileString(?string $template, array $data): ?string
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+    protected function compileString(null|string $template, array $data): null|string
+>>>>>>> 3f537838 (.)
+=======
+    protected function compileString(null|string $template, array $data): null|string
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+    protected function compileString(null|string $template, array $data): null|string
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+    protected function compileString(null|string $template, array $data): null|string
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+    protected function compileString(null|string $template, array $data): null|string
+>>>>>>> 3f537838 (.)
+=======
+    protected function compileString(null|string $template, array $data): null|string
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+    protected function compileString(null|string $template, array $data): null|string
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+    protected function compileString(null|string $template, array $data): null|string
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+    protected function compileString(null|string $template, array $data): null|string
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+=======
+    protected function compileString(null|string $template, array $data): null|string
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+    protected function compileString(null|string $template, array $data): null|string
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+    protected function compileString(null|string $template, array $data): null|string
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
+=======
+    protected function compileString(?string $template, array $data): ?string
+>>>>>>> 985c7bda (.)
+=======
+    protected function compileString(?string $template, array $data): ?string
+=======
+    protected function compileString(null|string $template, array $data): null|string
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
+    {
+<<<<<<< HEAD
+        if (!$template) {
+=======
+        if (! $template) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+    public array $translatable = [
+        'subject',
+        'body_text',
+        'body_html',
+    ];
+
+    public function registerMediaCollections(): void
+    {
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
+        $this->addMediaCollection('attachments')->singleFile();
+    }
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 7ceb00286 (.)
+    /*
+     * public function versions(): HasMany
+     * {
+     * return $this->hasMany(NotificationTemplateVersion::class, 'template_id')
+     * ->orderByDesc('version');
+     * }
+     *
+     * public function logs(): HasMany
+     * {
+     * return $this->hasMany(NotificationLog::class, 'template_id');
+     * }
+     */
+<<<<<<< HEAD
+=======
+        $this->addMediaCollection('attachments')
+            ->singleFile();
+    }
+/*
+    public function versions(): HasMany
+    {
+        return $this->hasMany(NotificationTemplateVersion::class, 'template_id')
+            ->orderByDesc('version');
+    }
+
+    public function logs(): HasMany
+    {
+        return $this->hasMany(NotificationLog::class, 'template_id');
+    }
+*/
+>>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+    /*
+     * Create a new version of the template.
+     *
+     * @param string $createdBy The user who created the version
+     * @param string|null $notes Optional notes about the changes
+     * @return self
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
+     *
+     * public function createNewVersion(string $createdBy, ?string $notes = null): self
+     * {
+     * $this->versions()->create([
+     * 'subject' => $this->subject,
+     * 'body_html' => $this->body_html,
+     * 'body_text' => $this->body_text,
+     * 'channels' => $this->channels,
+     * 'variables' => $this->variables,
+     * 'conditions' => $this->conditions,
+     * 'version' => $this->version,
+     * 'created_by' => $createdBy,
+     * 'change_notes' => $notes,
+     * ]);
+     *
+     * $this->increment('version');
+     * return $this;
+     * }
+     */
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1619767d8 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 2941b0bd (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> a070a65a5 (.)
+    /**
+     * Compile the template with the given data.
+     *
+<<<<<<< HEAD
+     * @param array<string, mixed> $data The data to compile the template with
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> laraxot/develop
+=======
+=======
+<<<<<<< HEAD
+     * @param  array<string, mixed>  $data  The data to compile the template with
+=======
+     * @param array<string, mixed> $data The data to compile the template with
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
+=======
+=======
+=======
+>>>>>>> cbb586cb0 (.)
+=======
+     
+    public function createNewVersion(string $createdBy, ?string $notes = null): self
+    {
+        $this->versions()->create([
+            'subject' => $this->subject,
+            'body_html' => $this->body_html,
+            'body_text' => $this->body_text,
+            'channels' => $this->channels,
+            'variables' => $this->variables,
+            'conditions' => $this->conditions,
+            'version' => $this->version,
+            'created_by' => $createdBy,
+            'change_notes' => $notes,
+        ]);
+
+        $this->increment('version');
+        return $this;
+    }
+*/
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+>>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cbb586cb0 (.)
+>>>>>>> 331118f25 (.)
     /**
      * Compile the template with the given data.
      *
      * @param array<string, mixed> $data The data to compile the template with
+>>>>>>> 7ceb00286 (.)
      * @return array{subject: string, body_html: string|null, body_text: string|null}
      */
     public function compile(array $data = []): array
@@ -184,12 +6180,50 @@ class NotificationTemplate extends BaseModel implements HasMedia
     /**
      * Check if the notification should be sent based on conditions.
      *
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
+=======
+>>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
      * @param array<string, mixed> $data The data to check conditions against
      * @return bool
      */
     public function shouldSend(array $data = []): bool
     {
         if (!$this->conditions) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> e53a56570 (.)
+=======
+<<<<<<< HEAD
+     * @param  array<string, mixed>  $data  The data to check conditions against
+     */
+    public function shouldSend(array $data = []): bool
+    {
+        if (! $this->conditions) {
+=======
+     * @param array<string, mixed> $data The data to check conditions against
+     * @return bool
+     */
+    public function shouldSend(array $data = []): bool
+    {
+        if (!$this->conditions) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
+=======
+>>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
             return true;
         }
 
@@ -206,30 +6240,516 @@ class NotificationTemplate extends BaseModel implements HasMedia
     /**
      * Compile a string template with the given data.
      *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
+     * @param string|null $template The template to compile
+     * @param array<string, mixed> $data The data to compile with
+     * @return string|null
+=======
+     * @param  string|null  $template  The template to compile
+     * @param  array<string, mixed>  $data  The data to compile with
+>>>>>>> f1c9518b (.)
+     */
+<<<<<<< HEAD
+<<<<<<< HEAD
+    protected function compileString(null|string $template, array $data): null|string
+=======
+    protected function compileString(?string $template, array $data): ?string
+>>>>>>> b19cd40 (.)
+=======
+    protected function compileString(null|string $template, array $data): null|string
+>>>>>>> 4e2ebfb (.)
+    {
+<<<<<<< HEAD
+        if (!$template) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+        if (! $template) {
+=======
+>>>>>>> laraxot/develop
+=======
+>>>>>>> e53a56570 (.)
+     * @param string|null $template The template to compile
+     * @param array<string, mixed> $data The data to compile with
+     * @return string|null
+=======
+<<<<<<< HEAD
+     * @param  string|null  $template  The template to compile
+     * @param  array<string, mixed>  $data  The data to compile with
+>>>>>>> f1c9518b (.)
+     */
+<<<<<<< HEAD
+    protected function compileString(null|string $template, array $data): null|string
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+    protected function compileString(null|string $template, array $data): null|string
+=======
+    protected function compileString(?string $template, array $data): ?string
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    protected function compileString(null|string $template, array $data): null|string
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+    protected function compileString(null|string $template, array $data): null|string
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+    protected function compileString(null|string $template, array $data): null|string
+>>>>>>> 9777d1b3 (.)
+=======
+    protected function compileString(null|string $template, array $data): null|string
+=======
+=======
+    protected function compileString(null|string $template, array $data): null|string
+=======
+>>>>>>> d09cb759 (.)
+=======
+    protected function compileString(null|string $template, array $data): null|string
+=======
+>>>>>>> d09cb759 (.)
+=======
+    protected function compileString(null|string $template, array $data): null|string
+=======
+>>>>>>> 4689a827 (.)
+=======
+    protected function compileString(?string $template, array $data): ?string
+=======
+<<<<<<< HEAD
+    protected function compileString(null|string $template, array $data): null|string
+=======
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    protected function compileString(null|string $template, array $data): null|string
+=======
+    protected function compileString(?string $template, array $data): ?string
+>>>>>>> a12f125f4a (.)
+=======
+    protected function compileString(null|string $template, array $data): null|string
+>>>>>>> b93ef594b4 (.)
+=======
+    protected function compileString(?string $template, array $data): ?string
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+    protected function compileString(null|string $template, array $data): null|string
+>>>>>>> 3f537838 (.)
+=======
+    protected function compileString(null|string $template, array $data): null|string
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+    protected function compileString(null|string $template, array $data): null|string
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+    protected function compileString(null|string $template, array $data): null|string
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+    protected function compileString(null|string $template, array $data): null|string
+>>>>>>> 3f537838 (.)
+=======
+    protected function compileString(null|string $template, array $data): null|string
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+>>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+<<<<<<< HEAD
+>>>>>>> 10292b60a (.)
+=======
+=======
+=======
+    protected function compileString(null|string $template, array $data): null|string
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+>>>>>>> bf5d31b0f (.)
+=======
+=======
+    protected function compileString(null|string $template, array $data): null|string
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+>>>>>>> 510809c6f (.)
+=======
+=======
+    protected function compileString(null|string $template, array $data): null|string
+>>>>>>> 3f537838 (.)
+<<<<<<< HEAD
+>>>>>>> 11b43e822 (.)
+=======
+=======
+>>>>>>> de02998b (.)
+<<<<<<< HEAD
+>>>>>>> b207a9b1a (.)
+=======
+=======
+=======
+    protected function compileString(null|string $template, array $data): null|string
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+>>>>>>> 1619767d8 (.)
+=======
+=======
+    protected function compileString(null|string $template, array $data): null|string
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+<<<<<<< HEAD
+>>>>>>> 8dc1f2ed6 (.)
+=======
+=======
+    protected function compileString(null|string $template, array $data): null|string
+>>>>>>> 2941b0bd (.)
+<<<<<<< HEAD
+>>>>>>> a070a65a5 (.)
+=======
+=======
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
+    {
+<<<<<<< HEAD
+        if (!$template) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> laraxot/develop
+=======
+=======
+        if (! $template) {
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
      * @param string|null $template The template to compile
      * @param array<string, mixed> $data The data to compile with
      * @return string|null
      */
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     protected function compileString(null|string $template, array $data): null|string
+=======
+    protected function compileString(?string $template, array $data): ?string
+>>>>>>> b19cd40 (.)
+=======
+    protected function compileString(null|string $template, array $data): null|string
+>>>>>>> 4e2ebfb (.)
+=======
+    protected function compileString(null|string $template, array $data): null|string
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    protected function compileString(null|string $template, array $data): null|string
+=======
+    protected function compileString(?string $template, array $data): ?string
+>>>>>>> a12f125f4a (.)
+=======
+    protected function compileString(null|string $template, array $data): null|string
+>>>>>>> b93ef594b4 (.)
+=======
+    protected function compileString(?string $template, array $data): ?string
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> 23f115647 (.)
+=======
+    protected function compileString(null|string $template, array $data): null|string
+>>>>>>> 8c19c8df2 (.)
     {
         if (!$template) {
+<<<<<<< HEAD
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+<<<<<<< HEAD
+>>>>>>> e53a56570 (.)
+=======
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
             return null;
         }
 
         return Blade::render($template, $data);
     }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
+>>>>>>> laraxot/develop
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 
     /**
      * Preview the template with the given data.
      *
+<<<<<<< HEAD
      * @param array<string, mixed> $data Additional data to merge with preview data
+=======
+     * @param array<string, mixed> $data Additional data to merge with preview data
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @param array<string, mixed> $data Additional data to merge with preview data
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> e53a56570 (.)
+     * @param  array<string, mixed>  $data  Additional data to merge with preview data
+=======
+     * @param array<string, mixed> $data Additional data to merge with preview data
+>>>>>>> 99ff506 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f1c9518b (.)
+=======
+     * @param array<string, mixed> $data Additional data to merge with preview data
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+=======
+     * @param array<string, mixed> $data Additional data to merge with preview data
+>>>>>>> 75179b85 (.)
+=======
+     * @param array<string, mixed> $data Additional data to merge with preview data
+>>>>>>> c8b1c8bf (.)
+=======
+     * @param array<string, mixed> $data Additional data to merge with preview data
+>>>>>>> 75179b85 (.)
+=======
+     * @param array<string, mixed> $data Additional data to merge with preview data
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
      * @return array{subject: string, body_html: string|null, body_text: string|null}
      */
     public function preview(array $data = []): array
     {
+<<<<<<< HEAD
         /** @var array<string, mixed> $previewData */
         $previewData = $this->preview_data ?? [];
         /** @var array<string, mixed> $mergedData */
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        /** @var array<string, mixed> $previewData */
+        $previewData = $this->preview_data ?? [];
+        /** @var array<string, mixed> $mergedData */
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        /** @var array<string, mixed> $previewData */
+        $previewData = $this->preview_data ?? [];
+        /** @var array<string, mixed> $mergedData */
+=======
+        $previewData = $this->preview_data ?? [];
+>>>>>>> 75179b85 (.)
+=======
+        $previewData = $this->preview_data ?? [];
+>>>>>>> 75179b85 (.)
+=======
+        $previewData = $this->preview_data ?? [];
+>>>>>>> 75179b85 (.)
+=======
+        $previewData = $this->preview_data ?? [];
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        $previewData = $this->preview_data ?? [];
+>>>>>>> c8b1c8bf (.)
+=======
+        $previewData = $this->preview_data ?? [];
+>>>>>>> 75179b85 (.)
+=======
+        $previewData = $this->preview_data ?? [];
+>>>>>>> c8b1c8bf (.)
+=======
+        $previewData = $this->preview_data ?? [];
+>>>>>>> 75179b85 (.)
+=======
+        $previewData = $this->preview_data ?? [];
+>>>>>>> 75179b855 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
+=======
+=======
+        $previewData = $this->preview_data ?? [];
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
+=======
+        /** @var array<string, mixed> $previewData */
+        $previewData = $this->preview_data ?? [];
+        /** @var array<string, mixed> $mergedData */
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
         $mergedData = array_merge($previewData, $data);
 
         return $this->compile($mergedData);
@@ -238,8 +6758,158 @@ class NotificationTemplate extends BaseModel implements HasMedia
     /**
      * Scope a query to only include active templates.
      *
+<<<<<<< HEAD
+     * @param Builder $query
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @param Builder $query
+=======
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+     * @param Builder $query
+=======
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
+     * @param  Builder  $query
+=======
+=======
+>>>>>>> f813254 (.)
+=======
+>>>>>>> f5f1cb1 (.)
+     * @param Builder $query
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+     * @param  Builder  $query
+=======
+<<<<<<< HEAD
+     * @param Builder $query
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+=======
+     * @param  Builder  $query
+>>>>>>> 985c7bda (.)
+=======
+     * @param  Builder  $query
+=======
+     * @param Builder $query
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+     * @param Builder $query
+>>>>>>> c8b1c8bf (.)
+=======
+     * @param Builder $query
+>>>>>>> 75179b85 (.)
+=======
+     * @param Builder $query
+>>>>>>> c8b1c8bf (.)
+=======
+     * @param Builder $query
+>>>>>>> 75179b85 (.)
+=======
+     * @param Builder $query
+>>>>>>> 75179b855 (.)
+=======
+=======
+>>>>>>> e53a56570 (.)
+     * @param  Builder  $query
+=======
+=======
+>>>>>>> f813254 (.)
+=======
+>>>>>>> f5f1cb1 (.)
+     * @param Builder $query
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
+=======
+>>>>>>> e53a56570 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
+=======
+=======
+     * @param Builder $query
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
+=======
+     * @param Builder $query
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
+     * @return Builder
+=======
+<<<<<<< HEAD
      * @param Builder $query
      * @return Builder
+=======
+     * @param \Illuminate\Database\Eloquent\Builder $query
+     * @return \Illuminate\Database\Eloquent\Builder
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
      */
     public function scopeActive($query)
     {
@@ -249,9 +6919,173 @@ class NotificationTemplate extends BaseModel implements HasMedia
     /**
      * Scope a query to only include templates for a specific channel.
      *
+<<<<<<< HEAD
+     * @param Builder $query
+     * @param string $channel
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @param Builder $query
+     * @param string $channel
+=======
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+     * @param Builder $query
+     * @param string $channel
+=======
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
+     * @param  Builder  $query
+=======
+=======
+>>>>>>> f813254 (.)
+=======
+>>>>>>> f5f1cb1 (.)
+     * @param Builder $query
+     * @param string $channel
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+     * @param  Builder  $query
+=======
+<<<<<<< HEAD
+     * @param Builder $query
+     * @param string $channel
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+=======
+     * @param  Builder  $query
+>>>>>>> 985c7bda (.)
+=======
+     * @param  Builder  $query
+=======
+     * @param Builder $query
+     * @param string $channel
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+     * @param Builder $query
+     * @param string $channel
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+=======
+     * @param Builder $query
+     * @param string $channel
+>>>>>>> 75179b85 (.)
+=======
+     * @param Builder $query
+     * @param string $channel
+>>>>>>> c8b1c8bf (.)
+=======
+     * @param Builder $query
+     * @param string $channel
+>>>>>>> 75179b85 (.)
+=======
+     * @param Builder $query
+     * @param string $channel
+>>>>>>> 75179b855 (.)
+=======
+=======
+>>>>>>> e53a56570 (.)
+     * @param  Builder  $query
+=======
+=======
+>>>>>>> f813254 (.)
+=======
+>>>>>>> f5f1cb1 (.)
+     * @param Builder $query
+     * @param string $channel
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
+=======
+>>>>>>> e53a56570 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+     * @param Builder $query
+     * @param string $channel
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
+     * @return Builder
+=======
+<<<<<<< HEAD
      * @param Builder $query
      * @param string $channel
      * @return Builder
+=======
+     * @param \Illuminate\Database\Eloquent\Builder $query
+     * @param string $channel
+     * @return \Illuminate\Database\Eloquent\Builder
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
      */
     public function scopeForChannel($query, string $channel)
     {
@@ -261,9 +7095,173 @@ class NotificationTemplate extends BaseModel implements HasMedia
     /**
      * Scope a query to only include templates for a specific category.
      *
+<<<<<<< HEAD
+     * @param Builder $query
+     * @param string $category
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @param Builder $query
+     * @param string $category
+=======
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+     * @param Builder $query
+     * @param string $category
+=======
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
+     * @param  Builder  $query
+=======
+=======
+>>>>>>> f813254 (.)
+=======
+>>>>>>> f5f1cb1 (.)
+     * @param Builder $query
+     * @param string $category
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+     * @param  Builder  $query
+=======
+<<<<<<< HEAD
+     * @param Builder $query
+     * @param string $category
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+=======
+     * @param  Builder  $query
+>>>>>>> 985c7bda (.)
+=======
+     * @param  Builder  $query
+=======
+     * @param Builder $query
+     * @param string $category
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+     * @param Builder $query
+     * @param string $category
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+=======
+     * @param Builder $query
+     * @param string $category
+>>>>>>> 75179b85 (.)
+=======
+     * @param Builder $query
+     * @param string $category
+>>>>>>> c8b1c8bf (.)
+=======
+     * @param Builder $query
+     * @param string $category
+>>>>>>> 75179b85 (.)
+=======
+     * @param Builder $query
+     * @param string $category
+>>>>>>> 75179b855 (.)
+=======
+=======
+>>>>>>> e53a56570 (.)
+     * @param  Builder  $query
+=======
+=======
+>>>>>>> f813254 (.)
+=======
+>>>>>>> f5f1cb1 (.)
+     * @param Builder $query
+     * @param string $category
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
+=======
+>>>>>>> e53a56570 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+     * @param Builder $query
+     * @param string $category
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
+     * @return Builder
+=======
+<<<<<<< HEAD
      * @param Builder $query
      * @param string $category
      * @return Builder
+=======
+     * @param \Illuminate\Database\Eloquent\Builder $query
+     * @param string $category
+     * @return \Illuminate\Database\Eloquent\Builder
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
      */
     public function scopeForCategory($query, string $category)
     {
@@ -272,6 +7270,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
 
     /**
      * Get the channels label attribute.
+<<<<<<< HEAD
      *
      * @return string
      */
@@ -282,6 +7281,968 @@ class NotificationTemplate extends BaseModel implements HasMedia
         return collect($channels)
             ->map(fn(string $channel): string => (string) __('notify::template.fields.channel.options.' . $channel . '.label'))
             ->implode(', ');
+=======
+     *
+     * @return string
+     */
+    public function getChannelsLabelAttribute(): string
+    {
+<<<<<<< HEAD
+        /** @var array<int, string> $channels */
+        $channels = $this->channels;
+        return collect($channels)
+            ->map(fn(string $channel): string => (string) __('notify::template.fields.channel.options.' . $channel . '.label'))
+            ->implode(', ');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     *
+     * @return string
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> f1c9518b (.)
+=======
+     *
+     * @return string
+>>>>>>> 99ff506 (.)
+<<<<<<< HEAD
+>>>>>>> f1c9518b (.)
+     */
+    public function getChannelsLabelAttribute(): string
+    {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        /** @var array<int, string> $channels */
+        $channels = $this->channels;
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 985c7bda (.)
+=======
+=======
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
+=======
+>>>>>>> 26d39e2eb (.)
+        $channels = $this->getAttribute('channels');
+        if (! is_array($channels)) {
+            $channels = [];
+        }
+
+>>>>>>> 2effe245 (.)
+=======
+        /** @var array<int, string> $channels */
+        $channels = $this->channels;
+>>>>>>> a55aa5e96 (.)
+        return collect($channels)
+            ->map(fn(string $channel): string => (string) __('notify::template.fields.channel.options.' . $channel . '.label'))
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+=======
+>>>>>>> 4d2eb53e (.)
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
+        return collect($this->channels)
+<<<<<<< HEAD
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+>>>>>>> 75179b85 (.)
+=======
+<<<<<<< HEAD
+            ->map(fn ($channel) => __('notify::template.fields.channel.options.'.$channel.'.label'))
+=======
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+            ->implode(', ');
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+        return collect($this->channels)->map(function ($channel) {
+            return __('notify::template.fields.channel.options.' . $channel . '.label');
+        })->implode(', ');
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 4d2eb53e (.)
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> fbed41ac (.)
+=======
+=======
+>>>>>>> 82c6772 (.)
+=======
+>>>>>>> 92ecc28 (.)
+=======
+=======
+>>>>>>> 82c6772 (.)
+>>>>>>> 26d39e2eb (.)
+        return collect($this->channels)
+<<<<<<< HEAD
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+=======
+>>>>>>> 6ba141fc (.)
+=======
+>>>>>>> 5e14ac3 (.)
+            ->map(fn ($channel) => __('notify::template.fields.channel.options.'.(is_string($channel) ? $channel : (string) $channel).'.label'))
+>>>>>>> fbed41ac (.)
+            ->implode(', ');
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+>>>>>>> 75179b85 (.)
+=======
+=======
+>>>>>>> 207ac35e (.)
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> 8dc1f2ed6 (.)
+        return collect($this->channels)
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+            ->implode(', ');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 4689a827 (.)
+        return collect($this->channels)
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+            ->implode(', ');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+        return collect($this->channels)
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+            ->implode(', ');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8dc1f2ed6 (.)
+>>>>>>> d09cb759 (.)
+        return collect($this->channels)
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+            ->implode(', ');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+        return collect($this->channels)
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+            ->implode(', ');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+        return collect($this->channels)
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+            ->implode(', ');
+=======
+        return collect($this->channels)
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+            ->implode(', ');
+>>>>>>> 82ae73be (.)
+=======
+        return collect($this->channels)
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+            ->implode(', ');
+>>>>>>> 82ae73be (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b207a9b1a (.)
+        return collect($this->channels)
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+            ->implode(', ');
+>>>>>>> de02998b (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> b207a9b1a (.)
+        return collect($this->channels)->map(function ($channel) {
+            return __('notify::template.fields.channel.options.' . $channel . '.label');
+        })->implode(', ');
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> b207a9b1a (.)
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+        return collect($this->channels)->map(function ($channel) {
+            return __('notify::template.fields.channel.options.' . $channel . '.label');
+        })->implode(', ');
+>>>>>>> a12f125f4a (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 510809c6f (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return collect($this->channels)
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+            ->implode(', ');
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 26d39e2eb (.)
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 8dc1f2ed6 (.)
+        return collect($this->channels)->map(function ($channel) {
+            return __('notify::template.fields.channel.options.' . $channel . '.label');
+        })->implode(', ');
+>>>>>>> a12f125f4a (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+        return collect($this->channels)
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+            ->implode(', ');
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> 4689a827 (.)
+>>>>>>> 8dc1f2ed6 (.)
+>>>>>>> b93ef594b4 (.)
+=======
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 23f115647 (.)
+        return collect($this->channels)->map(function ($channel) {
+            return __('notify::template.fields.channel.options.' . $channel . '.label');
+        })->implode(', ');
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+>>>>>>> d09cb759 (.)
+=======
+        return collect($this->channels)
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+            ->implode(', ');
+>>>>>>> 3f537838 (.)
+=======
+        return collect($this->channels)
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+            ->implode(', ');
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+        return collect($this->channels)
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+            ->implode(', ');
+>>>>>>> 3f537838 (.)
+=======
+        return collect($this->channels)
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+            ->implode(', ');
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+        return collect($this->channels)
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+            ->implode(', ');
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+<<<<<<< HEAD
+=======
+        return collect($this->channels)
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+            ->implode(', ');
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
+     *
+     * @return string
+=======
+>>>>>>> f1c9518b (.)
+     */
+    public function getChannelsLabelAttribute(): string
+    {
+        return collect($this->channels)
+<<<<<<< HEAD
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+=======
+<<<<<<< HEAD
+            ->map(fn ($channel) => __('notify::template.fields.channel.options.'.$channel.'.label'))
+=======
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+            ->implode(', ');
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return collect($this->channels)
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+            ->implode(', ');
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+=======
+>>>>>>> 26d39e2eb (.)
+        return collect($this->channels)->map(function ($channel) {
+            return __('notify::template.fields.channel.options.' . $channel . '.label');
+        })->implode(', ');
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2fc60436 (.)
+=======
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> a12f125f4a (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+        return collect($this->channels)
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+            ->implode(', ');
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+>>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> b93ef594b4 (.)
+=======
+        return collect($this->channels)->map(function ($channel) {
+            return __('notify::template.fields.channel.options.' . $channel . '.label');
+        })->implode(', ');
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+=======
+        return collect($this->channels)
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+            ->implode(', ');
+>>>>>>> 3f537838 (.)
+<<<<<<< HEAD
+>>>>>>> 11b43e822 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+        return collect($this->channels)
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+            ->implode(', ');
+>>>>>>> 2941b0bd (.)
+<<<<<<< HEAD
+>>>>>>> a070a65a5 (.)
+=======
+=======
+>>>>>>> 3f39ac8b (.)
+<<<<<<< HEAD
+>>>>>>> f87b41c3b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+>>>>>>> 2f135ef98 (.)
+=======
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+<<<<<<< HEAD
+>>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
+>>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+>>>>>>> 26d39e2eb (.)
+=======
+=======
+>>>>>>> 985c7bda (.)
+=======
+     *
+     * @return string
+     */
+    public function getChannelsLabelAttribute(): string
+    {
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return collect($this->channels)
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+            ->implode(', ');
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+>>>>>>> 7ceb00286 (.)
+=======
+=======
+=======
+        return collect($this->channels)->map(function ($channel) {
+            return __('notify::template.fields.channel.options.' . $channel . '.label');
+        })->implode(', ');
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+>>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
+>>>>>>> be698cf2c (.)
+=======
+=======
+=======
+        return collect($this->channels)
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+            ->implode(', ');
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
+=======
+            ->implode(', ');
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
     }
 
     /**
@@ -291,43 +8252,483 @@ class NotificationTemplate extends BaseModel implements HasMedia
      */
     public function getGrapesJSData(): array
     {
+<<<<<<< HEAD
         /** @var array<string, mixed> $data */
         $data = $this->grapesjs_data ?? [];
         return $data;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        /** @var array<string, mixed> $data */
+        $data = $this->grapesjs_data ?? [];
+        return $data;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        /** @var array<string, mixed> $data */
+        $data = $this->grapesjs_data ?? [];
+        return $data;
+=======
+        return $this->grapesjs_data ?? [];
+>>>>>>> 75179b85 (.)
+=======
+        return $this->grapesjs_data ?? [];
+>>>>>>> 75179b85 (.)
+=======
+        return $this->grapesjs_data ?? [];
+>>>>>>> 75179b85 (.)
+=======
+        return $this->grapesjs_data ?? [];
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> fbed41ac (.)
+        $data = $this->getAttribute('grapesjs_data') ?? [];
+=======
+        $data = $this->grapesjs_data ?? [];
+>>>>>>> 6ba141fc (.)
+=======
+        $data = $this->getAttribute('grapesjs_data') ?? [];
+>>>>>>> 5e14ac3 (.)
+        if (! is_array($data)) {
+            return [];
+        }
+
+        /** @var array<string, mixed> $safeData */
+        $safeData = $data;
+
+        return $safeData;
+>>>>>>> fbed41ac (.)
+=======
+        return $this->grapesjs_data ?? [];
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+=======
+        return $this->grapesjs_data ?? [];
+>>>>>>> 75179b85 (.)
+=======
+        return $this->grapesjs_data ?? [];
+>>>>>>> c8b1c8bf (.)
+=======
+        return $this->grapesjs_data ?? [];
+>>>>>>> 75179b85 (.)
+=======
+        return $this->grapesjs_data ?? [];
+>>>>>>> 75179b855 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+        /** @var array<string, mixed> $data */
+        $data = $this->grapesjs_data ?? [];
+        return $data;
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
     }
 
     /**
      * Set the GrapesJS data.
      *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @param array<string, mixed> $data
+     * @return self
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> f1c9518b (.)
+     * @param  array<string, mixed>  $data
+=======
+     * @param array<string, mixed> $data
+     * @return self
+>>>>>>> 99ff506 (.)
+<<<<<<< HEAD
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> f1c9518b (.)
+     */
+    public function setGrapesJSData(array $data): self
+    {
+<<<<<<< HEAD
+        $this->grapesjs_data = $data;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        $this->setAttribute('grapesjs_data', $data);
+>>>>>>> fbed41ac (.)
+
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+     * @param array<string, mixed> $data
+     * @return self
+=======
+<<<<<<< HEAD
+     * @param  array<string, mixed>  $data
+=======
+     * @param array<string, mixed> $data
+     * @return self
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+     */
+    public function setGrapesJSData(array $data): self
+    {
+<<<<<<< HEAD
+        $this->grapesjs_data = $data;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $this->grapesjs_data = $data;
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+        $this->setAttribute('grapesjs_data', $data);
+
+>>>>>>> fbed41ac (.)
+=======
+        $this->grapesjs_data = $data;
+>>>>>>> c8b1c8bf (.)
+=======
+        $this->grapesjs_data = $data;
+>>>>>>> 75179b85 (.)
+=======
+        $this->grapesjs_data = $data;
+>>>>>>> 75179b855 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> e53a56570 (.)
+
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
+=======
+>>>>>>> e53a56570 (.)
+=======
+=======
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
      * @param array<string, mixed> $data
      * @return self
      */
     public function setGrapesJSData(array $data): self
     {
         $this->grapesjs_data = $data;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
         return $this;
     }
 
     public function getPreviewData(): array
     {
+<<<<<<< HEAD
         return $this->preview_data ?? [];
+=======
+        return $this->preview_data ?? [];
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return $this->preview_data ?? [];
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fbed41ac (.)
+=======
+>>>>>>> 5e14ac3 (.)
+        $previewData = $this->getAttribute('preview_data') ?? [];
+        if (! is_array($previewData)) {
+            return [];
+        }
+
+        return $previewData;
+<<<<<<< HEAD
+=======
+        return $this->preview_data ?? [];
+>>>>>>> 6ba141fc (.)
+=======
+>>>>>>> 5e14ac3 (.)
+<<<<<<< HEAD
+>>>>>>> fbed41ac (.)
+=======
+        return $this->preview_data ?? [];
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+=======
+        return $this->preview_data ?? [];
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> fbed41ac (.)
+=======
+        return $this->preview_data ?? [];
+>>>>>>> c8b1c8bf (.)
+=======
+        return $this->preview_data ?? [];
+>>>>>>> 75179b85 (.)
+=======
+        return $this->preview_data ?? [];
+>>>>>>> 75179b855 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
     }
 
     public function getPreviewSubject(): string
     {
         $result = $this->getTranslation('subject', app()->getLocale());
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
+
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> e53a56570 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
         return is_string($result) ? $result : '';
     }
 
     public function getPreviewBodyText(): string
     {
         $result = $this->getTranslation('body_text', app()->getLocale());
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
+
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> e53a56570 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
         return is_string($result) ? $result : '';
     }
 
     public function getPreviewBodyHtml(): string
     {
         $result = $this->getTranslation('body_html', app()->getLocale());
+<<<<<<< HEAD
         return is_string($result) ? $result : '';
     }
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
+        return is_string($result) ? $result : '';
+    }
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+        return is_string($result) ? $result : '';
+    }
+=======
+=======
+>>>>>>> 7ceb00286 (.)
+        return is_string($result) ? $result : '';
+    }
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+=======
+        return is_string($result) ? $result : '';
+    }
+>>>>>>> 75179b85 (.)
+=======
+        return is_string($result) ? $result : '';
+    }
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+=======
+        return is_string($result) ? $result : '';
+    }
+>>>>>>> 75179b85 (.)
+=======
+        return is_string($result) ? $result : '';
+    }
+>>>>>>> 75179b855 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+        return is_string($result) ? $result : '';
+    }
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 }
+=======
+>>>>>>> 301ad8b44 (.)

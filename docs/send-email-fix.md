@@ -1,3 +1,320 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 36321fcb (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> 36321fcb (.)
+=======
+>>>>>>> b99af5a8 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> 36321fcb (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 2a97406c (.)
+>>>>>>> 998e6866b (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+=======
+>>>>>>> 4f042b88 (.)
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+=======
+>>>>>>> 36321fcb (.)
+>>>>>>> 70175d0c4 (.)
+=======
+>>>>>>> 47bbf2b1c (.)
+=======
+=======
+>>>>>>> 712617d3 (.)
+>>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+=======
+>>>>>>> fdb24863 (rebase 210)
+<<<<<<< HEAD
+>>>>>>> b85076e48 (.)
+=======
+=======
+>>>>>>> 3d462363 (rebase 210)
+>>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 43dd68f4b (.)
+=======
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+>>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
+=======
+=======
+>>>>>>> eb62d6cf (rebase 210)
+>>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+>>>>>>> c31e900eb (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 # Guida alla Correzione di SendEmail.php
 
 ## 🔍 Analisi del Problema
@@ -61,7 +378,486 @@ class SendEmail extends XotBasePage
         $this->smtpData = new SmtpData();
     }
 
+<<<<<<< HEAD
     public function form(Form $form): Form
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function form(Form $form): Form
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+    public function form(Form $form): Form
+>>>>>>> 75179b85 (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> f963d2c0 (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> 31f5d28f (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> 75179b85 (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> f963d2c0 (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> 31f5d28f (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    public function form(Form $form): Form
+>>>>>>> f963d2c0 (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    public function form(Form $form): Form
+>>>>>>> ee18dd92 (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> 6608a1a0 (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> 66453ace (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> 23cbbaf5 (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> 2a97406c (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> 909e45af (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> 4f042b88 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    public function form(Form $form): Form
+>>>>>>> bb7e77c2 (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> 36321fcb (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    public function form(Form $form): Form
+>>>>>>> b99af5a8 (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> 712617d3 (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> f3086887 (rebase 210)
+=======
+    public function form(Form $form): Form
+>>>>>>> fdb24863 (rebase 210)
+=======
+    public function form(Form $form): Form
+>>>>>>> 3d462363 (rebase 210)
+=======
+    public function form(Form $form): Form
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+    public function form(Form $form): Form
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+    public function form(Form $form): Form
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+    public function form(Form $form): Form
+>>>>>>> eb62d6cf (rebase 210)
+=======
+    public function form(Form $form): Form
+>>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    public function form(Form $form): Form
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+    public function form(Form $form): Form
+>>>>>>> 545977c8 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    public function form(Form $form): Form
+>>>>>>> 36ac4fc1 (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> 69fa7d37 (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> c8b1c8bf (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> 9cf0dc90 (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> 75179b85 (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> f963d2c0 (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> 31f5d28f (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> ee18dd92 (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> 6608a1a0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    public function form(Form $form): Form
+>>>>>>> 66453ace (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> 23cbbaf5 (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> 2a97406c (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> 909e45af (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> 4f042b88 (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> bb7e77c2 (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> 36321fcb (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> b99af5a8 (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> 712617d3 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    public function form(Form $form): Form
+>>>>>>> f3086887 (rebase 210)
+=======
+    public function form(Form $form): Form
+>>>>>>> fdb24863 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    public function form(Form $form): Form
+>>>>>>> 3d462363 (rebase 210)
+=======
+    public function form(Form $form): Form
+>>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    public function form(Form $form): Form
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+    public function form(Form $form): Form
+>>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    public function form(Form $form): Form
+>>>>>>> eb62d6cf (rebase 210)
+=======
+    public function form(Form $form): Form
+>>>>>>> 6e12a84b (rebase 210)
+=======
+    public function form(Form $form): Form
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+    public function form(Form $form): Form
+>>>>>>> 545977c8 (rebase 210)
+=======
+    public function form(Form $form): Form
+>>>>>>> 36ac4fc1 (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    public function form(Form $form): Form
+>>>>>>> c8b1c8bf (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
+=======
+    public function form(Form $form): Form
+>>>>>>> 75179b85 (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> f963d2c0 (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> 75179b855 (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> f963d2c0 (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> 31f5d28f (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> ee18dd92 (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> 6608a1a0 (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> 66453ace (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> 23cbbaf5 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    public function form(Form $form): Form
+>>>>>>> 2a97406c (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> 909e45af (.)
+<<<<<<< HEAD
+=======
+    public function form(Form $form): Form
+>>>>>>> 4f042b88 (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> bb7e77c2 (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> 36321fcb (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> b99af5a8 (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> 712617d3 (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> f3086887 (rebase 210)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
+=======
+=======
+    public function form(Form $form): Form
+>>>>>>> f963d2c0 (.)
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> e2f1a4045 (.)
+=======
+=======
+    public function form(Form $form): Form
+>>>>>>> ee18dd92 (.)
+>>>>>>> 4bec160e6 (.)
+=======
+>>>>>>> 01af324fe (.)
+=======
+=======
+    public function form(Form $form): Form
+>>>>>>> 66453ace (.)
+>>>>>>> 138485550 (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+=======
+    public function form(Form $form): Form
+>>>>>>> 2a97406c (.)
+>>>>>>> 998e6866b (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 36136dcfa (.)
+=======
+=======
+    public function form(Form $form): Form
+>>>>>>> bb7e77c2 (.)
+>>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 70175d0c4 (.)
+=======
+=======
+    public function form(Form $form): Form
+>>>>>>> b99af5a8 (.)
+>>>>>>> 47bbf2b1c (.)
+=======
+>>>>>>> 731b801a8 (.)
+=======
+=======
+    public function form(Form $form): Form
+>>>>>>> f3086887 (rebase 210)
+>>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> b85076e48 (.)
+=======
+=======
+    public function form(Form $form): Form
+>>>>>>> 3d462363 (rebase 210)
+>>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 43dd68f4b (.)
+=======
+=======
+    public function form(Form $form): Form
+>>>>>>> 9c45d9bd (rebase 210)
+>>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
+=======
+=======
+    public function form(Form $form): Form
+>>>>>>> eb62d6cf (rebase 210)
+>>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+=======
+    public function form(Form $form): Form
+>>>>>>> 8c8937e7 (rebase 210)
+>>>>>>> c31e900eb (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+=======
+    public function form(Form $form): Form
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+=======
+=======
+    public function form(Form $form): Form
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
     {
         return $form
             ->schema([
@@ -210,6 +1006,542 @@ class SmtpData extends Data
 
 ## 🔗 Collegamenti Utili
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+- [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
+- [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+- [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
+- [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
+>>>>>>> 31f5d28f (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+- [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
+- [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+- [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
+- [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
+>>>>>>> 31f5d28f (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+- [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
+- [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+- [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
+- [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
+>>>>>>> 31f5d28f (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+- [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
+- [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f963d2c0 (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+- [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
+- [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
+>>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ee18dd92 (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+- [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
+- [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+- [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
+- [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+- [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
+- [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+- [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
+- [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
+>>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 36321fcb (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+- [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
+- [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
+>>>>>>> b99af5a8 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 712617d3 (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+- [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
+- [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+- [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
+- [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
+>>>>>>> 3d462363 (rebase 210)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+- [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
+- [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
+>>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+- [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
+- [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
+>>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+- [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
+- [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
+>>>>>>> 6e12a84b (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+- [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
+- [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
+>>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c7d5eaf96 (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+- [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
+- [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
+>>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> fbed41ac (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+- [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
+- [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+- [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
+- [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+- [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
+- [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+- [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
+- [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
+>>>>>>> 6608a1a0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 66453ace (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+- [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
+- [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
+>>>>>>> 23cbbaf5 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 2a97406c (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+- [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
+- [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+- [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
+- [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> 36321fcb (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+- [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
+- [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+- [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
+- [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
+>>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+- [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
+- [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
+>>>>>>> 3d462363 (rebase 210)
+<<<<<<< HEAD
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+- [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
+- [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+- [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
+- [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+- [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
+- [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
+>>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+- [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
+- [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
+>>>>>>> 545977c8 (rebase 210)
+<<<<<<< HEAD
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+- [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
+- [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> fbed41ac (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+- [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
+- [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+- [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
+- [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+- [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
+- [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+- [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
+- [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+- [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
+- [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+- [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
+- [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 2a97406c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 13aa25113 (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+- [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
+- [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
+>>>>>>> 909e45af (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4f042b88 (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+- [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
+- [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> 36321fcb (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+- [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
+- [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+- [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
+- [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
+>>>>>>> f3086887 (rebase 210)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> f963d2c0 (.)
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> e2f1a4045 (.)
+=======
+=======
+>>>>>>> ee18dd92 (.)
+>>>>>>> 4bec160e6 (.)
+=======
+>>>>>>> 01af324fe (.)
+=======
+=======
+>>>>>>> 66453ace (.)
+>>>>>>> 138485550 (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 998e6866b (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+=======
+>>>>>>> 4f042b88 (.)
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+=======
+>>>>>>> 36321fcb (.)
+>>>>>>> 70175d0c4 (.)
+=======
+>>>>>>> 47bbf2b1c (.)
+=======
+=======
+>>>>>>> 712617d3 (.)
+>>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+=======
+>>>>>>> fdb24863 (rebase 210)
+>>>>>>> b85076e48 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 43dd68f4b (.)
+=======
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+>>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
+=======
+=======
+>>>>>>> eb62d6cf (rebase 210)
+>>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+>>>>>>> c31e900eb (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+>>>>>>> fea359347 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+=======
+>>>>>>> 9cf0dc90 (.)
+>>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 - [Documentazione Laravel Mail](https://laravel.com/docs/mail)
 - [Documentazione Filament Forms](https://filamentphp.com/docs/forms)
 - [Best Practices SMTP](https://laravel.com/docs/mail#smtp-configuration)
@@ -229,4 +1561,416 @@ class SmtpData extends Data
 3. **Manutenzione**
    - Aggiornare regolarmente le dipendenze
    - Monitorare log errori
+<<<<<<< HEAD
    - Verificare configurazione SMTP 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+   - Verificare configurazione SMTP 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 998e6866b (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
+   - Verificare configurazione SMTP 
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 2a97406c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 909e45af (.)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 4f042b88 (.)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> bb7e77c2 (.)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 36321fcb (.)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> b99af5a8 (.)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 712617d3 (.)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> fdb24863 (rebase 210)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 3d462363 (rebase 210)
+<<<<<<< HEAD
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> eb62d6cf (rebase 210)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 6e12a84b (rebase 210)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 545977c8 (rebase 210)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 36ac4fc1 (.)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> fbed41ac (.)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 9cf0dc90 (.)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 75179b85 (.)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> f963d2c0 (.)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 31f5d28f (.)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> ee18dd92 (.)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 6608a1a0 (.)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 66453ace (.)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 2a97406c (.)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 909e45af (.)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 4f042b88 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> bb7e77c2 (.)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 36321fcb (.)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> b99af5a8 (.)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 712617d3 (.)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> f3086887 (rebase 210)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> fdb24863 (rebase 210)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> eb62d6cf (rebase 210)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 545977c8 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 36ac4fc1 (.)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> fbed41ac (.)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> c8b1c8bf (.)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 9cf0dc90 (.)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 75179b85 (.)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> f963d2c0 (.)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 75179b855 (.)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> f963d2c0 (.)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 31f5d28f (.)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> ee18dd92 (.)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 6608a1a0 (.)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 66453ace (.)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 2a97406c (.)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 909e45af (.)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 4f042b88 (.)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> bb7e77c2 (.)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 36321fcb (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> b99af5a8 (.)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 712617d3 (.)
+<<<<<<< HEAD
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> f3086887 (rebase 210)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 301ad8b44 (.)
+=======
+>>>>>>> 998e6866b (.)
+=======
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 909e45af (.)
+>>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 36136dcfa (.)
+=======
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> bb7e77c2 (.)
+>>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 70175d0c4 (.)
+=======
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> b99af5a8 (.)
+>>>>>>> 47bbf2b1c (.)
+=======
+>>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> fdb24863 (rebase 210)
+>>>>>>> b85076e48 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 43dd68f4b (.)
+=======
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 9c45d9bd (rebase 210)
+>>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
+=======
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> eb62d6cf (rebase 210)
+>>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 8c8937e7 (rebase 210)
+>>>>>>> c31e900eb (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 9cf0dc90 (.)
+>>>>>>> 379ffe3f3 (.)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)

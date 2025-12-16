@@ -1,8 +1,134 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+# Convenzioni dei Path in Laravel e <nome progetto>
+
+## Regole Fondamentali per i Path di Cartelle
+
+In Laravel e <nome progetto>, i nomi delle cartelle principali (come definite nella struttura standard di Laravel) **DEVONO** rispettare il caso specifico definito dalle convenzioni di Laravel.
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 36ac4fc1 (.)
+# Convenzioni dei Path in Laravel e <main module>
+
+## Regole Fondamentali per i Path di Cartelle
+
+In Laravel e <main module>, i nomi delle cartelle principali (come definite nella struttura standard di Laravel) **DEVONO** rispettare il caso specifico definito dalle convenzioni di Laravel.
+=======
+<<<<<<< HEAD
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+<<<<<<< HEAD
+# Convenzioni dei Path in Laravel e <main module>
+
+## Regole Fondamentali per i Path di Cartelle
+
+In Laravel e <main module>, i nomi delle cartelle principali (come definite nella struttura standard di Laravel) **DEVONO** rispettare il caso specifico definito dalle convenzioni di Laravel.
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> 331118f25 (.)
 # Convenzioni dei Path in Laravel e SaluteOra
 
 ## Regole Fondamentali per i Path di Cartelle
 
 In Laravel e SaluteOra, i nomi delle cartelle principali (come definite nella struttura standard di Laravel) **DEVONO** rispettare il caso specifico definito dalle convenzioni di Laravel.
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> fea359347 (.)
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+>>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> fea359347 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 
 ## Cartelle Standard di Laravel e loro Casing Corretto
 
@@ -24,13 +150,161 @@ In Laravel e SaluteOra, i nomi delle cartelle principali (come definite nella st
 Le viste in Laravel devono essere collocate nella cartella `resources/views` (lowercase):
 
 ```
+<<<<<<< HEAD
 /var/www/html/saluteora/laravel/Modules/Notify/resources/views/
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+/var/www/html/<nome progetto>/laravel/Modules/Notify/resources/views/
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+/var/www/html/<nome progetto>/laravel/Modules/Notify/resources/views/
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/resources/views/
+>>>>>>> f963d2c0 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/resources/views/
+>>>>>>> f963d2c0 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/resources/views/
+>>>>>>> f963d2c0 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/resources/views/
+>>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/resources/views/
+=======
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/resources/views/
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/resources/views/
+=======
+>>>>>>> fea359347 (.)
+<<<<<<< HEAD
+/var/www/html/<directory progetto>/laravel/Modules/Notify/resources/views/
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/resources/views/
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 36ac4fc1 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/resources/views/
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/resources/views/
+>>>>>>> f963d2c0 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/resources/views/
+>>>>>>> f963d2c0 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/resources/views/
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 ```
 
 **NON** in:
 
 ```
+<<<<<<< HEAD
 /var/www/html/saluteora/laravel/Modules/Notify/Resources/views/
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+/var/www/html/<nome progetto>/laravel/Modules/Notify/Resources/views/
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+/var/www/html/<nome progetto>/laravel/Modules/Notify/Resources/views/
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/Resources/views/
+>>>>>>> f963d2c0 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/Resources/views/
+>>>>>>> f963d2c0 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/Resources/views/
+>>>>>>> f963d2c0 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/Resources/views/
+>>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/Resources/views/
+=======
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/Resources/views/
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/Resources/views/
+=======
+>>>>>>> fea359347 (.)
+<<<<<<< HEAD
+/var/www/html/<directory progetto>/laravel/Modules/Notify/Resources/views/
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/Resources/views/
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 36ac4fc1 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/Resources/views/
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/Resources/views/
+>>>>>>> f963d2c0 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/Resources/views/
+>>>>>>> f963d2c0 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/Resources/views/
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 ```
 
 ## Perché è Importante
@@ -49,7 +323,81 @@ Quando si fa riferimento a viste nei file PHP:
 protected static string $view = 'notify::filament.pages.send-sms';
 
 // Il path fisico corrispondente sarà:
+<<<<<<< HEAD
 // /var/www/html/saluteora/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+// /var/www/html/<nome progetto>/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+// /var/www/html/<nome progetto>/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
+=======
+// /var/www/html/saluteora/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
+>>>>>>> f963d2c0 (.)
+=======
+// /var/www/html/saluteora/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
+>>>>>>> f963d2c0 (.)
+=======
+// /var/www/html/saluteora/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
+>>>>>>> f963d2c0 (.)
+=======
+// /var/www/html/saluteora/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
+>>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+// /var/www/html/<nome progetto>/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
+=======
+=======
+// /var/www/html/<nome progetto>/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+=======
+// /var/www/html/<nome progetto>/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
+=======
+>>>>>>> fea359347 (.)
+<<<<<<< HEAD
+// /var/www/html/<directory progetto>/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
+=======
+// /var/www/html/saluteora/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 36ac4fc1 (.)
+=======
+// /var/www/html/saluteora/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+// /var/www/html/saluteora/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
+>>>>>>> f963d2c0 (.)
+=======
+// /var/www/html/saluteora/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
+>>>>>>> f963d2c0 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+// /var/www/html/<nome progetto>/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 ```
 
 ## Verifica e Correzione
@@ -66,3 +414,5 @@ Per verificare che tutti i path siano corretti:
 - [Struttura delle Cartelle in Laravel](https://laravel.com/docs/structure)
 - [Laravel Blade Templates](https://laravel.com/docs/blade)
 - [Laravel Modules](https://docs.laravelmodules.com/)
+=======
+>>>>>>> 301ad8b44 (.)

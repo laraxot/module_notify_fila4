@@ -1,3 +1,279 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 36321fcb (.)
+=======
+>>>>>>> 712617d3 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> fd1fcc4c (.)
+=======
+>>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 36321fcb (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> fd1fcc4c (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 4f3927d7 (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 36321fcb (.)
+=======
+>>>>>>> 712617d3 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> ee18dd92 (.)
+>>>>>>> 4bec160e6 (.)
+=======
+>>>>>>> 138485550 (.)
+=======
+=======
+>>>>>>> 2a97406c (.)
+>>>>>>> 998e6866b (.)
+=======
+>>>>>>> 36136dcfa (.)
+=======
+=======
+>>>>>>> 36321fcb (.)
+>>>>>>> 70175d0c4 (.)
+=======
+>>>>>>> 731b801a8 (.)
+=======
+=======
+>>>>>>> fdb24863 (rebase 210)
+>>>>>>> b85076e48 (.)
+=======
+>>>>>>> ce1853afd (.)
+=======
+=======
+>>>>>>> eb62d6cf (rebase 210)
+>>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> c31e900eb (.)
+=======
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+>>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> 602b8a0a9 (.)
+=======
+=======
+>>>>>>> 9cf0dc90 (.)
+>>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 # Correzioni PHPStan Livello 10 - Modulo Notify
 
 Questo documento traccia gli errori PHPStan di livello 10 identificati nel modulo Notify e le relative soluzioni implementate.
@@ -194,3 +470,768 @@ Fino ad ora, abbiamo risolto la maggior parte degli errori di livello 10 in entr
 4. Estendere le correzioni ad altri moduli utilizzando i pattern stabiliti
 
 5. Aggiornare le linee guida di sviluppo per prevenire errori simili in futuro 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 6608a1a0 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> eb71492d (.)
+=======
+>>>>>>> 0ebb7b01 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> eb71492d (.)
+=======
+>>>>>>> 0ebb7b01 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> b99af5a8 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 31f5d28f (.)
+>>>>>>> e2f1a4045 (.)
+=======
+>>>>>>> 01af324fe (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+=======
+>>>>>>> 909e45af (.)
+>>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 47bbf2b1c (.)
+=======
+=======
+>>>>>>> f3086887 (rebase 210)
+>>>>>>> 74eb2e964 (.)
+=======
+=======
+>>>>>>> 3d462363 (rebase 210)
+>>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 43dd68f4b (.)
+=======
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+=======
+>>>>>>> 545977c8 (rebase 210)
+>>>>>>> ad905ce9c (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+=======
+=======
+>>>>>>> eb71492d (.)
+>>>>>>> a2f3c239e (.)
+=======
+>>>>>>> 1dc3e4fcd (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
+# PHPStan Level 10 Fixes - Notify Module
+
+## Overview
+This document tracks PHPStan Level 10 compliance fixes for the Notify module.
+
+## Fixed Syntax Errors
+
+### Language Files Syntax Fixes
+
+#### Modules/Notify/resources/lang/it/mail.php
+- **Issue**: Multiple duplicate key declarations and syntax errors
+- **Fix**: Removed duplicate `tooltip` declarations and fixed array structure
+- **Before**: Multiple duplicate keys causing syntax errors
+- **After**: Clean array structure with unique keys
+
+#### Modules/Notify/resources/lang/it/notification.php
+- **Issue**: Extra closing brackets and semicolons
+- **Fix**: Removed extra `];` and `]; ];` at end of file
+- **Before**: Multiple closing brackets causing syntax errors
+- **After**: Proper single closing bracket structure
+
+#### Modules/Notify/resources/lang/it/template.php
+- **Issue**: Extra closing brackets and semicolons
+- **Fix**: Removed extra `];` and `]; ];` at end of file
+- **Before**: Multiple closing brackets causing syntax errors
+- **After**: Proper single closing bracket structure
+
+## Remaining PHPStan Errors
+
+After fixing the syntax errors, the following PHPStan errors remain in the Notify module:
+
+### Type-related Errors
+1. **Method return type declarations** - Various methods need proper return type hints
+2. **Parameter type declarations** - Method parameters need type hints
+3. **Property type declarations** - Class properties need type definitions
+
+### Database-related Errors
+1. **Eloquent relationship types** - Relationship methods need proper return types
+2. **Query builder types** - Database queries need proper type annotations
+
+### Configuration-related Errors
+1. **Config array access** - Proper array key existence checks needed
+2. **Configuration type safety** - Config values need proper type handling
+
+## Next Steps
+
+1. **Type Declarations**: Add proper PHP type hints to all methods and properties
+2. **Database Annotations**: Add proper PHPDoc annotations for Eloquent relationships
+3. **Configuration Safety**: Implement proper null checks for config access
+4. **Return Types**: Ensure all methods have explicit return type declarations
+
+## Testing
+
+Run PHPStan regularly to track progress:
+```bash
+COMPOSER_DISABLE_XDEBUG_WARN=1 ./vendor/bin/phpstan analyse Modules/Notify --level=10 --no-progress
+```
+
+## Status
+- ✅ Syntax errors fixed in language files
+- ⚠️ Type-related errors remain
+- ⚠️ Database-related errors remain
+<<<<<<< HEAD
+- ⚠️ Configuration-related errors remain
+- ⚠️ Configuration-related errors remain
+- ⚠️ Configuration-related errors remain
+- ⚠️ Configuration-related errors remain
+- ⚠️ Configuration-related errors remain
+- ⚠️ Configuration-related errors remain
+- ⚠️ Configuration-related errors remain
+- ⚠️ Configuration-related errors remain
+- ⚠️ Configuration-related errors remain
+- ⚠️ Configuration-related errors remain
+- ⚠️ Configuration-related errors remain
+- ⚠️ Configuration-related errors remain
+- ⚠️ Configuration-related errors remain
+- ⚠️ Configuration-related errors remain
+- ⚠️ Configuration-related errors remain
+- ⚠️ Configuration-related errors remain
+- ⚠️ Configuration-related errors remain
+- ⚠️ Configuration-related errors remain
+- ⚠️ Configuration-related errors remain
+- ⚠️ Configuration-related errors remain
+- ⚠️ Configuration-related errors remain
+- ⚠️ Configuration-related errors remain
+- ⚠️ Configuration-related errors remain
+- ⚠️ Configuration-related errors remain
+- ⚠️ Configuration-related errors remain
+- ⚠️ Configuration-related errors remain
+- ⚠️ Configuration-related errors remain
+- ⚠️ Configuration-related errors remain
+- ⚠️ Configuration-related errors remain
+- ⚠️ Configuration-related errors remain
+- ⚠️ Configuration-related errors remain
+- ⚠️ Configuration-related errors remain
+- ⚠️ Configuration-related errors remain
+- ⚠️ Configuration-related errors remain
+- ⚠️ Configuration-related errors remain
+- ⚠️ Configuration-related errors remain
+- ⚠️ Configuration-related errors remain
+- ⚠️ Configuration-related errors remain
+- ⚠️ Configuration-related errors remain
+- ⚠️ Configuration-related errors remain
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- ⚠️ Configuration-related errors remain
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> 31f5d28f (.)
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> 31f5d28f (.)
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> 31f5d28f (.)
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f963d2c0 (.)
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ee18dd92 (.)
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 36321fcb (.)
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> b99af5a8 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 712617d3 (.)
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> 6e12a84b (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> fd1fcc4c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> eb71492d (.)
+=======
+>>>>>>> 4f3927d7 (.)
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> 0ebb7b01 (.)
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> 6608a1a0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 66453ace (.)
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> 23cbbaf5 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> 36321fcb (.)
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> 3d462363 (rebase 210)
+<<<<<<< HEAD
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> 545977c8 (rebase 210)
+<<<<<<< HEAD
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> fd1fcc4c (.)
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> eb71492d (.)
+=======
+>>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> 0ebb7b01 (.)
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 2a97406c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> 4f042b88 (.)
+<<<<<<< HEAD
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> 36321fcb (.)
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> f3086887 (rebase 210)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 301ad8b44 (.)
+=======
+>>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> f963d2c0 (.)
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> e2f1a4045 (.)
+=======
+=======
+>>>>>>> ee18dd92 (.)
+>>>>>>> 4bec160e6 (.)
+=======
+>>>>>>> 01af324fe (.)
+=======
+=======
+>>>>>>> 66453ace (.)
+>>>>>>> 138485550 (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 998e6866b (.)
+=======
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> 909e45af (.)
+>>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+=======
+>>>>>>> 36321fcb (.)
+>>>>>>> 70175d0c4 (.)
+=======
+>>>>>>> 47bbf2b1c (.)
+=======
+=======
+>>>>>>> 712617d3 (.)
+>>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+=======
+>>>>>>> fdb24863 (rebase 210)
+>>>>>>> b85076e48 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 43dd68f4b (.)
+=======
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+>>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
+=======
+=======
+>>>>>>> eb62d6cf (rebase 210)
+>>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+>>>>>>> c31e900eb (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+>>>>>>> fea359347 (.)
+=======
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> 69fa7d37 (.)
+>>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> d9e649ac3 (.)
+=======
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> eb71492d (.)
+>>>>>>> a2f3c239e (.)
+=======
+>>>>>>> 602b8a0a9 (.)
+=======
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> 0ebb7b01 (.)
+>>>>>>> 1dc3e4fcd (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Generazione di Slug in Filament
 
 ## Panoramica
@@ -114,7 +115,121 @@ TextInput::make('name')
 
 ### 1. Form Resource
 ```php
+<<<<<<< HEAD
 public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+public static function form(Form $form): Form
+>>>>>>> f963d2c0 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> f963d2c0 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> f963d2c0 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 998e6866b (.)
+=======
+public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+public static function form(Form $form): Form
+>>>>>>> 7bac387 (.)
+>>>>>>> 2a97406c (.)
+<<<<<<< HEAD
+=======
+public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+public static function form(Form $form): Form
+>>>>>>> 7bac387 (.)
+>>>>>>> 36ac4fc1 (.)
+=======
+public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+public static function form(Form $form): Form
+>>>>>>> f963d2c (.)
+>>>>>>> 9cf0dc90 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> f963d2c0 (.)
+=======
+public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+public static function form(Form $form): Form
+>>>>>>> 7bac387 (.)
+>>>>>>> 2a97406c (.)
+=======
+public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+public static function form(Form $form): Form
+>>>>>>> 7bac387 (.)
+>>>>>>> 36ac4fc1 (.)
+=======
+public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+public static function form(Form $form): Form
+>>>>>>> f963d2c (.)
+>>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
+=======
+public static function form(Form $form): Form
+>>>>>>> f963d2c0 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> f963d2c0 (.)
+=======
+public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+public static function form(Form $form): Form
+>>>>>>> 7bac387 (.)
+>>>>>>> 2a97406c (.)
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 998e6866b (.)
+=======
+=======
+public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+public static function form(Form $form): Form
+>>>>>>> 7bac387 (.)
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
+=======
+public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 {
     return $form
         ->schema([
@@ -237,3 +352,5 @@ TextInput::make('name')
 - [Laravel News Article](https://laravel-news.com/generating-slugs-from-a-title-in-filament)
 - [Filament Documentation](https://filamentphp.com/docs)
 - [Laravel Str Helper](https://laravel.com/docs/helpers#method-str-slug) 
+=======
+>>>>>>> 301ad8b44 (.)

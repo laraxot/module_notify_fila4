@@ -1,6 +1,117 @@
+<<<<<<< HEAD
 # Architettura Telegram Provider per SaluteOra
 
 Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 12a7e2462 (.)
+=======
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+# Architettura Telegram Provider per <nome progetto>
+
+Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di <nome progetto>, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+# Architettura Telegram Provider per <nome progetto>
+
+Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di <nome progetto>, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fea359347 (.)
+# Architettura Telegram Provider per SaluteOra
+
+Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
+>>>>>>> f963d2c0 (.)
+=======
+# Architettura Telegram Provider per SaluteOra
+
+Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
+>>>>>>> f963d2c0 (.)
+=======
+# Architettura Telegram Provider per SaluteOra
+
+Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
+>>>>>>> f963d2c0 (.)
+=======
+# Architettura Telegram Provider per SaluteOra
+
+Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
+>>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> fea359347 (.)
+# Architettura Telegram Provider per <main module>
+
+Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di <main module>, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
+=======
+# Architettura Telegram Provider per SaluteOra
+
+Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 36ac4fc1 (.)
+=======
+# Architettura Telegram Provider per SaluteOra
+
+Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+# Architettura Telegram Provider per SaluteOra
+
+Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
+>>>>>>> f963d2c0 (.)
+=======
+# Architettura Telegram Provider per SaluteOra
+
+Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
+>>>>>>> f963d2c0 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+# Architettura Telegram Provider per <nome progetto>
+
+Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di <nome progetto>, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 
 ## Principi Architetturali Fondamentali
 
@@ -14,7 +125,81 @@ L'architettura dei provider Telegram segue gli stessi principi dei provider SMS,
 ## Struttura Directory e Namespace
 
 ```
+<<<<<<< HEAD
 /var/www/html/saluteora/laravel/Modules/Notify/
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+/var/www/html/<nome progetto>/laravel/Modules/Notify/
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+/var/www/html/<nome progetto>/laravel/Modules/Notify/
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/
+>>>>>>> f963d2c0 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/
+>>>>>>> f963d2c0 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/
+>>>>>>> f963d2c0 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/
+>>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/
+=======
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/
+=======
+>>>>>>> fea359347 (.)
+<<<<<<< HEAD
+/var/www/html/<directory progetto>/laravel/Modules/Notify/
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 36ac4fc1 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/
+>>>>>>> f963d2c0 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/
+>>>>>>> f963d2c0 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 ├── app/
 │   ├── Actions/
 │   │   └── Telegram/
@@ -704,3 +889,5 @@ In fase di installazione:
 3. **Errori di Formattazione**: Verificare la correttezza della sintassi HTML/Markdown
 4. **Errori Webhook**: Verificare che l'URL sia accessibile e con SSL valido
 5. **Dimensione File**: Rispettare i limiti di dimensione dei file
+=======
+>>>>>>> 301ad8b44 (.)

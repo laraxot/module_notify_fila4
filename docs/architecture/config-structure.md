@@ -1,0 +1,351 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Struttura di Configurazione nei Moduli 
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> a404ea71 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> ca10d6ad (.)
+=======
+>>>>>>> 7325acf3 (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> febe79e3 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> a29a4728 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> c7a4727b (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> 9721a5b2 (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> 1442e291 (rebase 210)
+=======
+# Struttura di Configurazione nei Moduli 
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> e2f1a4045 (.)
+=======
+>>>>>>> c4282a934 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 01af324fe (.)
+=======
+>>>>>>> 8c6d84fe6 (.)
+=======
+>>>>>>> 2e9bd58c3 (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 753ea7aca (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+>>>>>>> fdad57c30 (.)
+=======
+>>>>>>> a115e2aad (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 275b7ad99 (.)
+=======
+>>>>>>> 47bbf2b1c (.)
+=======
+>>>>>>> b215d516b (.)
+=======
+>>>>>>> 848f79b79 (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> f957fb24b (.)
+=======
+>>>>>>> 3e757cee2 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 252fa579e (.)
+=======
+# Struttura di Configurazione nei Moduli 
+>>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> c188e2a18 (.)
+=======
+>>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 21a6fa9bc (.)
+=======
+>>>>>>> cd5474106 (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> 610b999f1 (.)
+=======
+>>>>>>> 01750b107 (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+>>>>>>> ff78f10a5 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> a2f3c239e (.)
+=======
+>>>>>>> 1dc3e4fcd (.)
+# Struttura di Configurazione nei Moduli SaluteOra
+=======
+# Struttura di Configurazione nei Moduli 
+# Struttura di Configurazione nei Moduli <nome progetto>
+>>>>>>> bf479cc (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Struttura di Configurazione nei Moduli SaluteOra
+>>>>>>> 2dab69c8a (.)
+=======
+>>>>>>> a2f3c239e (.)
+=======
+# Struttura di Configurazione nei Moduli SaluteOra
+>>>>>>> 8134673e1 (.)
+=======
+# Struttura di Configurazione nei Moduli SaluteOra
+>>>>>>> 763771402 (.)
+=======
+>>>>>>> 1dc3e4fcd (.)
+=======
+# Struttura di Configurazione nei Moduli SaluteOra
+>>>>>>> 3808094f6 (.)
+=======
+# Struttura di Configurazione nei Moduli 
+# Struttura di Configurazione nei Moduli SaluteOra
+>>>>>>> 7ceb00286 (.)
+
+## Principi di Configurazione
+
+1. **Separazione tra Specifico e Generico**
+   - **Configurazione Specifica del Provider**: Credenziali e parametri di connessione specifici
+   - **Configurazione Generica**: Comportamenti applicabili a tutti i provider
+
+2. **Struttura di Configurazione in `config/sms.php`**
+   ```php
+   return [
+       'default' => env('SMS_DRIVER', 'default_driver'),
+       
+       // Specifico per provider - Solo parametri di autenticazione e identificazione
+       'drivers' => [
+           'provider1' => [
+               'api_key' => env('PROVIDER1_API_KEY'),
+               'sender' => env('PROVIDER1_SENDER'),
+               // Solo parametri specifici per la connessione!
+           ],
+           'provider2' => [
+               'username' => env('PROVIDER2_USERNAME'),
+               'password' => env('PROVIDER2_PASSWORD'),
+               // Solo parametri specifici per la connessione!
+           ],
+       ],
+       
+       // Configurazione generica - Applicabile a tutti i provider
+       'retry' => [
+           'attempts' => env('SMS_RETRY_ATTEMPTS', 3),
+           'delay' => env('SMS_RETRY_DELAY', 60),
+       ],
+       
+       'rate_limit' => [
+           'enabled' => env('SMS_RATE_LIMIT_ENABLED', true),
+           'max_attempts' => env('SMS_RATE_LIMIT_MAX_ATTEMPTS', 60),
+           'decay_minutes' => env('SMS_RATE_LIMIT_DECAY_MINUTES', 1),
+       ],
+       
+       // Altre configurazioni generiche
+   ];
+   ```
+
+## Errori Comuni da Evitare
+
+1. **MAI duplicare configurazioni generiche nelle sezioni dei provider specifici**
+   - ❌ ERRATO: Aggiungere `retry`, `rate_limit`, ecc. nella sezione del provider
+   - ✅ CORRETTO: Usare le sezioni generiche per comportamenti comuni
+
+2. **MAI aggiungere parametri non necessari nella configurazione del provider**
+   - ❌ ERRATO: Aggiungere threshold, timeout, debug nella configurazione del provider
+   - ✅ CORRETTO: Includere solo parametri essenziali (api_key, token, credenziali)
+
+3. **SEMPRE distinguere tra configurazione e implementazione**
+   - La configurazione definisce i parametri
+   - L'implementazione (Action, Service) gestisce la logica di utilizzo
+
+## Best Practices
+
+1. **Usa Variabili d'Ambiente per Tutti i Valori Sensibili**
+   ```php
+   'api_key' => env('PROVIDER_API_KEY'),
+   ```
+
+2. **Fornisci Valori di Default Sensati**
+   ```php
+   'timeout' => env('SMS_TIMEOUT', 30), // Default a 30 secondi
+   ```
+
+3. **Usa Commenti per Spiegare Unità di Misura e Significato**
+   ```php
+   'delay' => env('SMS_RETRY_DELAY', 60), // Secondi
+   ```
+
+4. **Centralizza Logiche Comuni**
+   - Rate limit, retry e circuit breaking dovrebbero essere configurati una volta sola
+   - L'implementazione dovrebbe utilizzare queste configurazioni generiche
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 2e9bd58c3 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> a115e2aad (.)
+=======
+>>>>>>> 848f79b79 (.)
+=======
+>>>>>>> 3e757cee2 (.)
+=======
+>>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> c188e2a18 (.)
+=======
+>>>>>>> cd5474106 (.)
+=======
+>>>>>>> 01750b107 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 2dab69c8a (.)
+=======
+>>>>>>> 763771402 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+>>>>>>> 331118f25 (.)

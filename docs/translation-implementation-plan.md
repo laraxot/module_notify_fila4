@@ -1,6 +1,1032 @@
+<<<<<<< HEAD
 # Piano di Implementazione per la Standardizzazione delle Traduzioni
 
 Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di <nome progetto>.
+=======
+# Piano di Implementazione per la Standardizzazione delle Traduzioni
+
+<<<<<<< HEAD
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di <nome progetto>.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 998e6866b (.)
+=======
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 731b801a8 (.)
+=======
+>>>>>>> b85076e48 (.)
+# Piano di Implementazione per la Standardizzazione delle Traduzioni
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> e2f1a4045 (.)
+=======
+>>>>>>> c4282a934 (.)
+=======
+>>>>>>> 4bec160e6 (.)
+=======
+>>>>>>> 01af324fe (.)
+=======
+>>>>>>> 8c6d84fe6 (.)
+=======
+>>>>>>> 138485550 (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 753ea7aca (.)
+=======
+>>>>>>> fdad57c30 (.)
+=======
+>>>>>>> 275b7ad99 (.)
+=======
+>>>>>>> 47bbf2b1c (.)
+=======
+>>>>>>> b215d516b (.)
+=======
+>>>>>>> f957fb24b (.)
+=======
+>>>>>>> 252fa579e (.)
+=======
+>>>>>>> 21a6fa9bc (.)
+=======
+>>>>>>> 610b999f1 (.)
+=======
+>>>>>>> ff78f10a5 (.)
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di <nome progetto>.
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di .
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> 75179b85 (.)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> f963d2c0 (.)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> 31f5d28f (.)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> 31f5d28f (.)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> 31f5d28f (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> 6608a1a0 (.)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> 23cbbaf5 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> b99af5a8 (.)
+=======
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 01af324fe (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> 47bbf2b1c (.)
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di .
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 01af324fe (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 47bbf2b1c (.)
+>>>>>>> 31f5d28f (.)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> a404ea71 (.)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di .
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> 75179b85 (.)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> a404ea71 (.)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di .
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> 75179b85 (.)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> a404ea71 (.)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di .
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> 75179b85 (.)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> a404ea71 (.)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> ca10d6ad (.)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> 66453ace (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> febe79e3 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Piano di Implementazione per la Standardizzazione delle Traduzioni
+
+<<<<<<< HEAD
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
+>>>>>>> 2a97406c (.)
+=======
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di .
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> a29a4728 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Piano di Implementazione per la Standardizzazione delle Traduzioni
+
+<<<<<<< HEAD
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
+>>>>>>> 4f042b88 (.)
+=======
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di .
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> c7a4727b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b99af5a8 (.)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> 9721a5b2 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Piano di Implementazione per la Standardizzazione delle Traduzioni
+
+<<<<<<< HEAD
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
+>>>>>>> 712617d3 (.)
+=======
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di .
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> f3086887 (rebase 210)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> 1442e291 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Piano di Implementazione per la Standardizzazione delle Traduzioni
+
+<<<<<<< HEAD
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
+>>>>>>> fdb24863 (rebase 210)
+=======
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di .
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 3d462363 (rebase 210)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> fcaebc79 (rebase 210)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
+# Piano di Implementazione per la Standardizzazione delle Traduzioni
+
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di .
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+# Piano di Implementazione per la Standardizzazione delle Traduzioni
+
+<<<<<<< HEAD
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di .
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> 9d3810d0 (rebase 210)
+=======
+# Piano di Implementazione per la Standardizzazione delle Traduzioni
+
+<<<<<<< HEAD
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
+>>>>>>> eb62d6cf (rebase 210)
+=======
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di .
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 6e12a84b (rebase 210)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> d38aa9d2 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Piano di Implementazione per la Standardizzazione delle Traduzioni
+
+<<<<<<< HEAD
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di .
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 545977c8 (rebase 210)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> 9e7ba5b6 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Piano di Implementazione per la Standardizzazione delle Traduzioni
+
+<<<<<<< HEAD
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
+>>>>>>> 36ac4fc1 (.)
+=======
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di .
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 69fa7d37 (.)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di <nome progetto>.
+>>>>>>> fbed41ac (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+# Piano di Implementazione per la Standardizzazione delle Traduzioni
+
+<<<<<<< HEAD
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+# Piano di Implementazione per la Standardizzazione delle Traduzioni
+
+<<<<<<< HEAD
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di .
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+<<<<<<< HEAD
+>>>>>>> 31f5d28f (.)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> a404ea71 (.)
+=======
+# Piano di Implementazione per la Standardizzazione delle Traduzioni
+
+<<<<<<< HEAD
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> ca10d6ad (.)
+=======
+# Piano di Implementazione per la Standardizzazione delle Traduzioni
+
+<<<<<<< HEAD
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
+>>>>>>> 66453ace (.)
+=======
+=======
+>>>>>>> 909e45af (.)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di .
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+<<<<<<< HEAD
+>>>>>>> 23cbbaf5 (.)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> febe79e3 (.)
+=======
+# Piano di Implementazione per la Standardizzazione delle Traduzioni
+
+<<<<<<< HEAD
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> a29a4728 (.)
+=======
+# Piano di Implementazione per la Standardizzazione delle Traduzioni
+
+<<<<<<< HEAD
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
+>>>>>>> 4f042b88 (.)
+=======
+=======
+>>>>>>> b99af5a8 (.)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di .
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+<<<<<<< HEAD
+>>>>>>> bb7e77c2 (.)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> c7a4727b (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> 9721a5b2 (.)
+=======
+# Piano di Implementazione per la Standardizzazione delle Traduzioni
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
+>>>>>>> 712617d3 (.)
+=======
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di .
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> f3086887 (rebase 210)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> 1442e291 (rebase 210)
+=======
+# Piano di Implementazione per la Standardizzazione delle Traduzioni
+
+<<<<<<< HEAD
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
+>>>>>>> fdb24863 (rebase 210)
+=======
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di .
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 3d462363 (rebase 210)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> fcaebc79 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+# Piano di Implementazione per la Standardizzazione delle Traduzioni
+
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di .
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
+>>>>>>> 7ceb00286 (.)
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+# Piano di Implementazione per la Standardizzazione delle Traduzioni
+
+<<<<<<< HEAD
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di .
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> 9d3810d0 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Piano di Implementazione per la Standardizzazione delle Traduzioni
+
+<<<<<<< HEAD
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
+>>>>>>> eb62d6cf (rebase 210)
+=======
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di .
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 6e12a84b (rebase 210)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> d38aa9d2 (rebase 210)
+=======
+# Piano di Implementazione per la Standardizzazione delle Traduzioni
+
+<<<<<<< HEAD
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di .
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 545977c8 (rebase 210)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> 9e7ba5b6 (rebase 210)
+=======
+# Piano di Implementazione per la Standardizzazione delle Traduzioni
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
+>>>>>>> 36ac4fc1 (.)
+=======
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di .
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 69fa7d37 (.)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di <nome progetto>.
+>>>>>>> fbed41ac (.)
+=======
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Piano di Implementazione per la Standardizzazione delle Traduzioni
+
+<<<<<<< HEAD
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+# Piano di Implementazione per la Standardizzazione delle Traduzioni
+
+<<<<<<< HEAD
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+# Piano di Implementazione per la Standardizzazione delle Traduzioni
+
+<<<<<<< HEAD
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+=======
+>>>>>>> e2f1a4045 (.)
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di .
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 31f5d28f (.)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> a404ea71 (.)
+=======
+# Piano di Implementazione per la Standardizzazione delle Traduzioni
+
+<<<<<<< HEAD
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> ca10d6ad (.)
+=======
+# Piano di Implementazione per la Standardizzazione delle Traduzioni
+
+<<<<<<< HEAD
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> febe79e3 (.)
+=======
+# Piano di Implementazione per la Standardizzazione delle Traduzioni
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
+>>>>>>> 2a97406c (.)
+=======
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di .
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 909e45af (.)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> a29a4728 (.)
+=======
+# Piano di Implementazione per la Standardizzazione delle Traduzioni
+
+<<<<<<< HEAD
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
+>>>>>>> c7a4727b (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> 9721a5b2 (.)
+=======
+>>>>>>> 731b801a8 (.)
+=======
+# Piano di Implementazione per la Standardizzazione delle Traduzioni
+
+=======
+>>>>>>> 74eb2e964 (.)
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
+>>>>>>> 712617d3 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di .
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> a404ea71 (.)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di .
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+>>>>>>> 1487fe812 (.)
+=======
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
+>>>>>>> 12a7e2462 (.)
+=======
+=======
+>>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
+>>>>>>> e2f1a4045 (.)
+=======
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> a404ea71 (.)
+<<<<<<< HEAD
+>>>>>>> c4282a934 (.)
+=======
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> ee18dd92 (.)
+>>>>>>> 4bec160e6 (.)
+=======
+>>>>>>> 01af324fe (.)
+=======
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> ca10d6ad (.)
+>>>>>>> 8c6d84fe6 (.)
+=======
+>>>>>>> 138485550 (.)
+=======
+=======
+>>>>>>> 23cbbaf5 (.)
+>>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 753ea7aca (.)
+=======
+=======
+# Piano di Implementazione per la Standardizzazione delle Traduzioni
+
+=======
+>>>>>>> 13aa25113 (.)
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
+>>>>>>> 2a97406c (.)
+<<<<<<< HEAD
+>>>>>>> 998e6866b (.)
+=======
+=======
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di .
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
+>>>>>>> 13aa25113 (.)
+=======
+>>>>>>> fdad57c30 (.)
+=======
+=======
+# Piano di Implementazione per la Standardizzazione delle Traduzioni
+
+<<<<<<< HEAD
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
+>>>>>>> 4f042b88 (.)
+<<<<<<< HEAD
+>>>>>>> 36136dcfa (.)
+=======
+=======
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di .
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+>>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 275b7ad99 (.)
+=======
+=======
+>>>>>>> b99af5a8 (.)
+>>>>>>> 47bbf2b1c (.)
+=======
+>>>>>>> b215d516b (.)
+=======
+>>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> f957fb24b (.)
+=======
+=======
+# Piano di Implementazione per la Standardizzazione delle Traduzioni
+
+<<<<<<< HEAD
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
+>>>>>>> fdb24863 (rebase 210)
+<<<<<<< HEAD
+>>>>>>> b85076e48 (.)
+=======
+=======
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di .
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 3d462363 (rebase 210)
+>>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 252fa579e (.)
+=======
+=======
+# Piano di Implementazione per la Standardizzazione delle Traduzioni
+
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di .
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
+>>>>>>> 43dd68f4b (.)
+=======
+=======
+# Piano di Implementazione per la Standardizzazione delle Traduzioni
+
+<<<<<<< HEAD
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
+>>>>>>> 9c45d9bd (rebase 210)
+<<<<<<< HEAD
+>>>>>>> ce1853afd (.)
+=======
+=======
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di .
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 21a6fa9bc (.)
+=======
+=======
+# Piano di Implementazione per la Standardizzazione delle Traduzioni
+
+<<<<<<< HEAD
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
+>>>>>>> eb62d6cf (rebase 210)
+<<<<<<< HEAD
+>>>>>>> 7a142b4f5 (.)
+=======
+=======
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di .
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 6e12a84b (rebase 210)
+>>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> 610b999f1 (.)
+=======
+=======
+# Piano di Implementazione per la Standardizzazione delle Traduzioni
+
+<<<<<<< HEAD
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
+>>>>>>> 8c8937e7 (rebase 210)
+<<<<<<< HEAD
+>>>>>>> c31e900eb (.)
+=======
+=======
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di .
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 545977c8 (rebase 210)
+>>>>>>> ad905ce9c (.)
+=======
+>>>>>>> ff78f10a5 (.)
+=======
+=======
+# Piano di Implementazione per la Standardizzazione delle Traduzioni
+
+=======
+>>>>>>> c7d5eaf96 (.)
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
+>>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
+>>>>>>> fea359347 (.)
+=======
+=======
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di .
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 69fa7d37 (.)
+>>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+=======
+# Piano di Implementazione per la Standardizzazione delle Traduzioni
+
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> 9cf0dc90 (.)
+>>>>>>> 379ffe3f3 (.)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di <nome progetto>.
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 
 ## Analisi della Situazione Attuale
 
@@ -70,6 +1096,242 @@ Dall'analisi dei file di traduzione esistenti, sono stati identificati i seguent
 ```bash
 
 # Rimozione dei file senza nome
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> e2f1a4045 (.)
+=======
+>>>>>>> c4282a934 (.)
+=======
+>>>>>>> 4bec160e6 (.)
+=======
+>>>>>>> 01af324fe (.)
+=======
+>>>>>>> 8c6d84fe6 (.)
+=======
+>>>>>>> 138485550 (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 753ea7aca (.)
+=======
+>>>>>>> 998e6866b (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+>>>>>>> fdad57c30 (.)
+=======
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 275b7ad99 (.)
+=======
+>>>>>>> 47bbf2b1c (.)
+=======
+>>>>>>> b215d516b (.)
+=======
+>>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> f957fb24b (.)
+=======
+>>>>>>> b85076e48 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 252fa579e (.)
+=======
+>>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 21a6fa9bc (.)
+=======
+>>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> 610b999f1 (.)
+=======
+>>>>>>> c31e900eb (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+>>>>>>> ff78f10a5 (.)
+=======
+>>>>>>> fea359347 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 rm -f /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/.php
 
 # Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
@@ -77,6 +1339,1815 @@ rm -f /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_s_m_s.ph
 rm -f /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_a_w_s_email.php
 rm -f /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_whats_app.php
 rm -f /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_netfun_s_m_s.php
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> 7ceb00286 (.)
+rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/send_s_m_s.php
+rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/send_a_w_s_email.php
+rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/send_whats_app.php
+rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/send_netfun_s_m_s.php
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> e2f1a4045 (.)
+=======
+=======
+>>>>>>> 6608a1a0 (.)
+>>>>>>> 01af324fe (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+=======
+>>>>>>> 909e45af (.)
+>>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+=======
+>>>>>>> b99af5a8 (.)
+>>>>>>> 47bbf2b1c (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+=======
+>>>>>>> 3d462363 (rebase 210)
+>>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 6ad5224fb (.)
+=======
+=======
+>>>>>>> 6e12a84b (rebase 210)
+>>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+=======
+>>>>>>> 69fa7d37 (.)
+>>>>>>> c7d5eaf96 (.)
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> a404ea71 (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> 75179b85 (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> f963d2c0 (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> a404ea71 (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> 75179b85 (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> f963d2c0 (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> a404ea71 (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c4282a934 (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> a404ea71 (.)
+<<<<<<< HEAD
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> ee18dd92 (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> ca10d6ad (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> 66453ace (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> febe79e3 (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> 2a97406c (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> a29a4728 (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> 4f042b88 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 275b7ad99 (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> c7a4727b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b215d516b (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> 9721a5b2 (.)
+<<<<<<< HEAD
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> 712617d3 (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> 1442e291 (rebase 210)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> fdb24863 (rebase 210)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> fcaebc79 (rebase 210)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> 9c45d9bd (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 21a6fa9bc (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> 9d3810d0 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7a142b4f5 (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> eb62d6cf (rebase 210)
+<<<<<<< HEAD
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> d38aa9d2 (rebase 210)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> 9e7ba5b6 (rebase 210)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> 36ac4fc1 (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> c8b1c8bf (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> 9cf0dc90 (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> 75179b85 (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> f963d2c0 (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> a404ea71 (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> ee18dd92 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8c6d84fe6 (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> ca10d6ad (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 138485550 (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> 66453ace (.)
+<<<<<<< HEAD
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> febe79e3 (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> 2a97406c (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> a29a4728 (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> 4f042b88 (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> c7a4727b (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> 9721a5b2 (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> 712617d3 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f957fb24b (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> 1442e291 (rebase 210)
+<<<<<<< HEAD
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> fdb24863 (rebase 210)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> fcaebc79 (rebase 210)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> 9d3810d0 (rebase 210)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> eb62d6cf (rebase 210)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> d38aa9d2 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c31e900eb (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> 8c8937e7 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ff78f10a5 (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> 9e7ba5b6 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fea359347 (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 379ffe3f3 (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> 75179b85 (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> f963d2c0 (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> 75179b855 (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> f963d2c0 (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> a404ea71 (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> ee18dd92 (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> ca10d6ad (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> 66453ace (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> febe79e3 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 998e6866b (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> 2a97406c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fdad57c30 (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> a29a4728 (.)
+<<<<<<< HEAD
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> 4f042b88 (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> c7a4727b (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> 9721a5b2 (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> 712617d3 (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> 1442e291 (rebase 210)
+=======
+<<<<<<< HEAD
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> c4282a934 (.)
+=======
+>>>>>>> 4bec160e6 (.)
+=======
+>>>>>>> 8c6d84fe6 (.)
+=======
+>>>>>>> 138485550 (.)
+=======
+>>>>>>> 753ea7aca (.)
+=======
+>>>>>>> 998e6866b (.)
+=======
+>>>>>>> fdad57c30 (.)
+=======
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 275b7ad99 (.)
+=======
+>>>>>>> b215d516b (.)
+=======
+>>>>>>> 731b801a8 (.)
+=======
+>>>>>>> f957fb24b (.)
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> fdb24863 (rebase 210)
+<<<<<<< HEAD
+>>>>>>> b85076e48 (.)
+=======
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> fcaebc79 (rebase 210)
+<<<<<<< HEAD
+>>>>>>> 252fa579e (.)
+=======
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> ce1853afd (.)
+=======
+>>>>>>> 21a6fa9bc (.)
+=======
+>>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> 610b999f1 (.)
+=======
+>>>>>>> c31e900eb (.)
+=======
+>>>>>>> ff78f10a5 (.)
+=======
+>>>>>>> fea359347 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_s_m_s.php
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_a_w_s_email.php
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_whats_app.php
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_netfun_s_m_s.php
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> e2f1a4045 (.)
+=======
+>>>>>>> c4282a934 (.)
+=======
+>>>>>>> 4bec160e6 (.)
+=======
+>>>>>>> 01af324fe (.)
+=======
+>>>>>>> 8c6d84fe6 (.)
+=======
+>>>>>>> 138485550 (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 753ea7aca (.)
+=======
+>>>>>>> 998e6866b (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+>>>>>>> fdad57c30 (.)
+=======
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 275b7ad99 (.)
+=======
+>>>>>>> 47bbf2b1c (.)
+=======
+>>>>>>> b215d516b (.)
+=======
+>>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> f957fb24b (.)
+=======
+>>>>>>> b85076e48 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 252fa579e (.)
+=======
+>>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 21a6fa9bc (.)
+=======
+>>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> 610b999f1 (.)
+=======
+>>>>>>> c31e900eb (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+>>>>>>> ff78f10a5 (.)
+=======
+>>>>>>> fea359347 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
+=======
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 31f5d28f (.)
+=======
+=======
+>>>>>>> 6608a1a0 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+=======
+>>>>>>> 909e45af (.)
+=======
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+=======
+>>>>>>> b99af5a8 (.)
+=======
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+=======
+>>>>>>> 3d462363 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+=======
+>>>>>>> 31f5d28f (.)
+=======
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+=======
+>>>>>>> 23cbbaf5 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 909e45af (.)
+=======
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+=======
+>>>>>>> b99af5a8 (.)
+=======
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+=======
+>>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+=======
+>>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+=======
+>>>>>>> 31f5d28f (.)
+=======
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+=======
+>>>>>>> 909e45af (.)
+=======
+=======
+>>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> b99af5a8 (.)
+=======
+=======
+>>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
+=======
+=======
+=======
+>>>>>>> 31f5d28f (.)
+>>>>>>> e2f1a4045 (.)
+=======
+>>>>>>> 01af324fe (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+=======
+=======
+>>>>>>> 909e45af (.)
+>>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+=======
+=======
+>>>>>>> b99af5a8 (.)
+>>>>>>> 47bbf2b1c (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+=======
+=======
+>>>>>>> 545977c8 (rebase 210)
+>>>>>>> ad905ce9c (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
+rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/send_s_m_s.php
+rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/send_a_w_s_email.php
+rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/send_whats_app.php
+rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/send_netfun_s_m_s.php
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> e2f1a4045 (.)
+=======
+>>>>>>> 01af324fe (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 47bbf2b1c (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> fbed41ac (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> fbed41ac (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e2f1a4045 (.)
+=======
+=======
+>>>>>>> 6608a1a0 (.)
+>>>>>>> 01af324fe (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+=======
+>>>>>>> 909e45af (.)
+>>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+=======
+>>>>>>> b99af5a8 (.)
+>>>>>>> 47bbf2b1c (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+=======
+>>>>>>> 3d462363 (rebase 210)
+<<<<<<< HEAD
+>>>>>>> 0a5473e16 (.)
+=======
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
+>>>>>>> 6ad5224fb (.)
+=======
+=======
+>>>>>>> 6e12a84b (rebase 210)
+>>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+=======
+>>>>>>> 69fa7d37 (.)
+>>>>>>> c7d5eaf96 (.)
+rm -f /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+rm -f /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_s_m_s.php
+rm -f /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_a_w_s_email.php
+rm -f /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_whats_app.php
+rm -f /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_netfun_s_m_s.php
+rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/send_s_m_s.php
+rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/send_a_w_s_email.php
+rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/send_whats_app.php
+rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/send_netfun_s_m_s.php
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> bf479cc (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e2f1a4045 (.)
+=======
+>>>>>>> 01af324fe (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 47bbf2b1c (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> a404ea71 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> a404ea71 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> a404ea71 (.)
+=======
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a404ea71 (.)
+=======
+>>>>>>> ee18dd92 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> ca10d6ad (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> febe79e3 (.)
+=======
+>>>>>>> 2a97406c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> a29a4728 (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c7a4727b (.)
+=======
+>>>>>>> b99af5a8 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9721a5b2 (.)
+=======
+>>>>>>> 712617d3 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> 1442e291 (rebase 210)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fcaebc79 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> 9d3810d0 (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d38aa9d2 (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> 9e7ba5b6 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> fbed41ac (.)
+=======
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> a404ea71 (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> ca10d6ad (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> febe79e3 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> a29a4728 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> c7a4727b (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> 9721a5b2 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> bf479cc (.)
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> 1442e291 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> fcaebc79 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+<<<<<<< HEAD
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> 9d3810d0 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 6e12a84b (rebase 210)
+=======
+>>>>>>> d38aa9d2 (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> 9e7ba5b6 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> fbed41ac (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> a404ea71 (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> ca10d6ad (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> febe79e3 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> a29a4728 (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> c7a4727b (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> 9721a5b2 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> f963d2c0 (.)
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> e2f1a4045 (.)
+=======
+=======
+>>>>>>> a404ea71 (.)
+>>>>>>> c4282a934 (.)
+=======
+>>>>>>> 4bec160e6 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+>>>>>>> 01af324fe (.)
+=======
+>>>>>>> 8c6d84fe6 (.)
+=======
+=======
+>>>>>>> 66453ace (.)
+>>>>>>> 138485550 (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+=======
+>>>>>>> febe79e3 (.)
+>>>>>>> 753ea7aca (.)
+=======
+>>>>>>> 998e6866b (.)
+=======
+=======
+>>>>>>> 909e45af (.)
+>>>>>>> 13aa25113 (.)
+=======
+>>>>>>> fdad57c30 (.)
+=======
+=======
+>>>>>>> 4f042b88 (.)
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+=======
+>>>>>>> c7a4727b (.)
+>>>>>>> 275b7ad99 (.)
+=======
+>>>>>>> 47bbf2b1c (.)
+=======
+=======
+>>>>>>> 9721a5b2 (.)
+>>>>>>> b215d516b (.)
+=======
+>>>>>>> 731b801a8 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+>>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> f957fb24b (.)
+=======
+=======
+>>>>>>> fdb24863 (rebase 210)
+>>>>>>> b85076e48 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+=======
+>>>>>>> fcaebc79 (rebase 210)
+>>>>>>> 252fa579e (.)
+=======
+>>>>>>> 43dd68f4b (.)
+=======
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+>>>>>>> ce1853afd (.)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 21a6fa9bc (.)
+=======
+=======
+>>>>>>> eb62d6cf (rebase 210)
+>>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+=======
+>>>>>>> d38aa9d2 (rebase 210)
+>>>>>>> 610b999f1 (.)
+=======
+>>>>>>> c31e900eb (.)
+=======
+=======
+>>>>>>> 545977c8 (rebase 210)
+>>>>>>> ad905ce9c (.)
+=======
+>>>>>>> ff78f10a5 (.)
+=======
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+=======
+>>>>>>> 9cf0dc90 (.)
+>>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 ```
 
 ### Template Standard per i File di Traduzione
@@ -122,3 +3193,205 @@ return [
 ## Conclusione
 
 L'implementazione di questo piano garantirà che le traduzioni nel modulo Notify seguano gli standard definiti, migliorando la manutenibilità e la coerenza del codice.
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 998e6866b (.)
+=======
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> ce1853afd (.)
+=======
+>>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> c31e900eb (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 2a97406c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 731b801a8 (.)
+=======
+>>>>>>> b85076e48 (.)
+=======
+>>>>>>> fea359347 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 301ad8b44 (.)
+=======
+>>>>>>> 998e6866b (.)
+=======
+=======
+>>>>>>> 4f042b88 (.)
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 731b801a8 (.)
+=======
+=======
+>>>>>>> fdb24863 (rebase 210)
+>>>>>>> b85076e48 (.)
+=======
+>>>>>>> 43dd68f4b (.)
+=======
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+>>>>>>> ce1853afd (.)
+=======
+>>>>>>> 7a142b4f5 (.)
+=======
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+>>>>>>> c31e900eb (.)
+=======
+>>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)

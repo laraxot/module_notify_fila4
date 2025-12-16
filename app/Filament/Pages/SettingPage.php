@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -9,9 +10,103 @@ use Modules\Xot\Filament\Widgets\EnvWidget;
 
 class SettingPage extends XotBasePage
 {
+<<<<<<< HEAD
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-document-text';
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-document-text';
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-document-text';
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-document-text';
+>>>>>>> 75179b85 (.)
+=======
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-document-text';
+>>>>>>> 75179b855 (.)
+=======
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-document-text';
+=======
+=======
+>>>>>>> f813254 (.)
+=======
+>>>>>>> f5f1cb1 (.)
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-document-text';
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> laraxot/develop
+=======
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
+<<<<<<< HEAD
+    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-document-text';
+=======
+=======
+>>>>>>> f813254 (.)
+=======
+>>>>>>> f5f1cb1 (.)
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-document-text';
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
+=======
+    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-document-text';
+=======
+<<<<<<< HEAD
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-document-text';
+>>>>>>> f813254 (.)
+>>>>>>> 26d39e2eb (.)
+=======
+    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-document-text';
+=======
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-document-text';
+>>>>>>> f5f1cb1 (.)
+>>>>>>> f15c41e60 (.)
+>>>>>>> 331118f25 (.)
+
+    protected string $view = 'notify::filament.pages.setting';
+=======
+<<<<<<< HEAD
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-document-text';
 
     protected string $view = 'notify::filament.pages.setting';
+=======
+    protected static ?string $navigationIcon = 'heroicon-o-document-text';
+
+    protected static string $view = 'notify::filament.pages.setting';
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
 
     public function getHeaderWidgets(): array
     {
@@ -26,3 +121,5 @@ class SettingPage extends XotBasePage
         ];
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

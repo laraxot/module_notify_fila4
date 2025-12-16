@@ -1,3 +1,332 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> fd1fcc4c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> eb71492d (.)
+=======
+>>>>>>> 4f3927d7 (.)
+=======
+>>>>>>> 0ebb7b01 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+<<<<<<< HEAD
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+<<<<<<< HEAD
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> fd1fcc4c (.)
+=======
+>>>>>>> eb71492d (.)
+=======
+>>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 0ebb7b01 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 2a97406c (.)
+>>>>>>> 998e6866b (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+=======
+>>>>>>> 4f042b88 (.)
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+=======
+>>>>>>> 712617d3 (.)
+>>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+=======
+>>>>>>> fdb24863 (rebase 210)
+>>>>>>> b85076e48 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 43dd68f4b (.)
+=======
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+>>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
+=======
+=======
+>>>>>>> eb62d6cf (rebase 210)
+>>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+>>>>>>> c31e900eb (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+>>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> 69fa7d37 (.)
+>>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> d9e649ac3 (.)
+=======
+=======
+>>>>>>> eb71492d (.)
+>>>>>>> a2f3c239e (.)
+=======
+>>>>>>> 602b8a0a9 (.)
+=======
+=======
+>>>>>>> 0ebb7b01 (.)
+>>>>>>> 1dc3e4fcd (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 # Stato Implementazione SpatieEmail
 
 Questo documento tiene traccia dello stato di implementazione delle email utilizzando il pacchetto Spatie per le email multilingua nel modulo Notify.
@@ -19,7 +348,612 @@ Questo documento tiene traccia dello stato di implementazione delle email utiliz
 
 ### SendSpatieEmail.php
 
+<<<<<<< HEAD
 Nel file `/var/www/html/base_<nome progetto>/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+Nel file `/var/www/html/base_<nome progetto>/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+Nel file `/var/www/html/base_<nome progetto>/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+=======
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 75179b85 (.)
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> f963d2c0 (.)
+=======
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_<nome progetto>/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 31f5d28f (.)
+=======
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 75179b85 (.)
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> f963d2c0 (.)
+=======
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_<nome progetto>/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 31f5d28f (.)
+=======
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 75179b85 (.)
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> f963d2c0 (.)
+=======
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_<nome progetto>/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 31f5d28f (.)
+=======
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> f963d2c0 (.)
+=======
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_<nome progetto>/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> ee18dd92 (.)
+=======
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_<nome progetto>/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 6608a1a0 (.)
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 66453ace (.)
+=======
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_<nome progetto>/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 23cbbaf5 (.)
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 2a97406c (.)
+=======
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_<nome progetto>/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 909e45af (.)
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 4f042b88 (.)
+=======
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_<nome progetto>/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 712617d3 (.)
+=======
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_<nome progetto>/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> fdb24863 (rebase 210)
+=======
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_<nome progetto>/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 3d462363 (rebase 210)
+=======
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_<nome progetto>/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> eb62d6cf (rebase 210)
+=======
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_<nome progetto>/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_<nome progetto>/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 545977c8 (rebase 210)
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 36ac4fc1 (.)
+=======
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_<nome progetto>/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 69fa7d37 (.)
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> fd1fcc4c (.)
+=======
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_<nome progetto>/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> eb71492d (.)
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1dc3e4fcd (.)
+=======
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_<nome progetto>/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 0ebb7b01 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 9cf0dc90 (.)
+=======
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 75179b85 (.)
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> f963d2c0 (.)
+=======
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_<nome progetto>/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 31f5d28f (.)
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> ee18dd92 (.)
+=======
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_<nome progetto>/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 6608a1a0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 66453ace (.)
+=======
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_<nome progetto>/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 23cbbaf5 (.)
+<<<<<<< HEAD
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 2a97406c (.)
+=======
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_<nome progetto>/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 909e45af (.)
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 4f042b88 (.)
+=======
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_<nome progetto>/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> bb7e77c2 (.)
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 712617d3 (.)
+=======
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_<nome progetto>/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> f3086887 (rebase 210)
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> fdb24863 (rebase 210)
+=======
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_<nome progetto>/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 3d462363 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 43dd68f4b (.)
+=======
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_<nome progetto>/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> eb62d6cf (rebase 210)
+=======
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_<nome progetto>/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 6e12a84b (rebase 210)
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_<nome progetto>/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 545977c8 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 36ac4fc1 (.)
+=======
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_<nome progetto>/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> fd1fcc4c (.)
+=======
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_<nome progetto>/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> eb71492d (.)
+<<<<<<< HEAD
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 4f3927d7 (.)
+=======
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_<nome progetto>/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 0ebb7b01 (.)
+=======
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> c8b1c8bf (.)
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
+=======
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 75179b85 (.)
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> f963d2c0 (.)
+=======
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 75179b855 (.)
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> f963d2c0 (.)
+=======
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_<nome progetto>/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 31f5d28f (.)
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> ee18dd92 (.)
+=======
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_<nome progetto>/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 6608a1a0 (.)
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 66453ace (.)
+=======
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_<nome progetto>/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 23cbbaf5 (.)
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 2a97406c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 13aa25113 (.)
+=======
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_<nome progetto>/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 909e45af (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 4f042b88 (.)
+=======
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_<nome progetto>/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> bb7e77c2 (.)
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 712617d3 (.)
+=======
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_<nome progetto>/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> f3086887 (rebase 210)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
+=======
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> f963d2c0 (.)
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> e2f1a4045 (.)
+=======
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> ee18dd92 (.)
+>>>>>>> 4bec160e6 (.)
+=======
+>>>>>>> 01af324fe (.)
+=======
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 66453ace (.)
+>>>>>>> 138485550 (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 998e6866b (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 4f042b88 (.)
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 712617d3 (.)
+>>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> fdb24863 (rebase 210)
+>>>>>>> b85076e48 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 43dd68f4b (.)
+=======
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 9c45d9bd (rebase 210)
+>>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
+=======
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> eb62d6cf (rebase 210)
+>>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 8c8937e7 (rebase 210)
+>>>>>>> c31e900eb (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+=======
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> fd1fcc4c (.)
+>>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> a2f3c239e (.)
+=======
+>>>>>>> 602b8a0a9 (.)
+=======
+>>>>>>> 1dc3e4fcd (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
+=======
+Nel file `/var/www/html/base_<nome progetto>/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 
 ```php
 // Errore di sintassi (manca ->)
@@ -55,13 +989,1564 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 
 ## Risorse di Riferimento
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> e2f1a4045 (.)
+=======
+>>>>>>> 4bec160e6 (.)
+=======
+>>>>>>> 01af324fe (.)
+=======
+>>>>>>> 138485550 (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 998e6866b (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> b85076e48 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> c31e900eb (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+>>>>>>> fea359347 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> a2f3c239e (.)
+=======
+>>>>>>> 602b8a0a9 (.)
+=======
+>>>>>>> 1dc3e4fcd (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 1. [Documentazione Laravel Translatable](/var/www/html/base_<nome progetto>/laravel/Modules/Lang/docs/translatable/index.md)
 2. [Gestione Traduzioni Mancanti](/var/www/html/base_<nome progetto>/laravel/Modules/Lang/docs/translatable/gestione-traduzioni-mancanti.md)
 3. [Implementazione nel Progetto](/var/www/html/base_<nome progetto>/laravel/Modules/Lang/docs/translatable/implementazione-nel-progetto.md)
 4. [Best Practices](/var/www/html/base_<nome progetto>/laravel/Modules/Lang/docs/translatable/best-practices.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 6608a1a0 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> eb71492d (.)
+=======
+>>>>>>> 0ebb7b01 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> eb71492d (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 0ebb7b01 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 31f5d28f (.)
+>>>>>>> e2f1a4045 (.)
+=======
+>>>>>>> 01af324fe (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+=======
+>>>>>>> 909e45af (.)
+>>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+=======
+>>>>>>> 3d462363 (rebase 210)
+<<<<<<< HEAD
+>>>>>>> 0a5473e16 (.)
+=======
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> 6ad5224fb (.)
+=======
+=======
+>>>>>>> 6e12a84b (rebase 210)
+>>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+=======
+>>>>>>> 69fa7d37 (.)
+>>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> a2f3c239e (.)
+=======
+=======
+>>>>>>> 0ebb7b01 (.)
+>>>>>>> 1dc3e4fcd (.)
+=======
+>>>>>>> 7ceb00286 (.)
+1. [Documentazione Laravel Translatable](../Lang/docs/translatable/index.md)
+2. [Gestione Traduzioni Mancanti](../Lang/docs/translatable/gestione-traduzioni-mancanti.md)
+3. [Implementazione nel Progetto](../Lang/docs/translatable/implementazione-nel-progetto.md)
+4. [Best Practices](../Lang/docs/translatable/best-practices.md)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> e2f1a4045 (.)
+=======
+>>>>>>> 01af324fe (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> a2f3c239e (.)
+=======
+>>>>>>> 1dc3e4fcd (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> ee18dd92 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> fd1fcc4c (.)
+=======
+>>>>>>> 4f3927d7 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> fd1fcc4c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4f3927d7 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> f963d2c0 (.)
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 4bec160e6 (.)
+=======
+>>>>>>> 138485550 (.)
+=======
+=======
+>>>>>>> 2a97406c (.)
+>>>>>>> 998e6866b (.)
+=======
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 731b801a8 (.)
+=======
+=======
+>>>>>>> fdb24863 (rebase 210)
+<<<<<<< HEAD
+>>>>>>> b85076e48 (.)
+=======
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> ce1853afd (.)
+=======
+=======
+>>>>>>> eb62d6cf (rebase 210)
+>>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> c31e900eb (.)
+=======
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+>>>>>>> d9e649ac3 (.)
+=======
+=======
+>>>>>>> 4f3927d7 (.)
+>>>>>>> 602b8a0a9 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+=======
+>>>>>>> 9cf0dc90 (.)
+>>>>>>> 379ffe3f3 (.)
+1. [Documentazione Laravel Translatable](/var/www/html/base_saluteora/laravel/Modules/Lang/docs/translatable/index.md)
+2. [Gestione Traduzioni Mancanti](/var/www/html/base_saluteora/laravel/Modules/Lang/docs/translatable/gestione-traduzioni-mancanti.md)
+3. [Implementazione nel Progetto](/var/www/html/base_saluteora/laravel/Modules/Lang/docs/translatable/implementazione-nel-progetto.md)
+4. [Best Practices](/var/www/html/base_saluteora/laravel/Modules/Lang/docs/translatable/best-practices.md)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 4bec160e6 (.)
+=======
+>>>>>>> 138485550 (.)
+=======
+>>>>>>> 998e6866b (.)
+=======
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 731b801a8 (.)
+=======
+>>>>>>> b85076e48 (.)
+=======
+>>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> ce1853afd (.)
+=======
+>>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> c31e900eb (.)
+=======
+>>>>>>> fea359347 (.)
+=======
+>>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> 602b8a0a9 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> eb71492d (.)
+=======
+>>>>>>> 0ebb7b01 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> eb71492d (.)
+=======
+>>>>>>> 0ebb7b01 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+<<<<<<< HEAD
+>>>>>>> e2f1a4045 (.)
+=======
+=======
+>>>>>>> 6608a1a0 (.)
+>>>>>>> 01af324fe (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+=======
+>>>>>>> 909e45af (.)
+>>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+=======
+>>>>>>> f3086887 (rebase 210)
+>>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> 3d462363 (rebase 210)
+<<<<<<< HEAD
+>>>>>>> 0a5473e16 (.)
+=======
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
+>>>>>>> 6ad5224fb (.)
+=======
+=======
+>>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
+>>>>>>> 1c96b91fe (.)
+=======
+=======
+>>>>>>> 545977c8 (rebase 210)
+>>>>>>> ad905ce9c (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+=======
+=======
+>>>>>>> eb71492d (.)
+>>>>>>> a2f3c239e (.)
+=======
+>>>>>>> 1dc3e4fcd (.)
+1. [Documentazione Laravel Translatable](/var/www/html/base_<nome progetto>/laravel/Modules/Lang/docs/translatable/index.md)
+2. [Gestione Traduzioni Mancanti](/var/www/html/base_<nome progetto>/laravel/Modules/Lang/docs/translatable/gestione-traduzioni-mancanti.md)
+3. [Implementazione nel Progetto](/var/www/html/base_<nome progetto>/laravel/Modules/Lang/docs/translatable/implementazione-nel-progetto.md)
+4. [Best Practices](/var/www/html/base_<nome progetto>/laravel/Modules/Lang/docs/translatable/best-practices.md)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e2f1a4045 (.)
+=======
+>>>>>>> 01af324fe (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> a2f3c239e (.)
+=======
+>>>>>>> 1dc3e4fcd (.)
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> 712617d3 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> fdb24863 (rebase 210)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 3d462363 (rebase 210)
 
 ## Timeline
 
 - **Completato**: Configurazione base, documentazione iniziale
 - **In corso**: Refactoring modelli, correzioni sintassi
 - **Pianificato**: Testing, documentazione completa
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 0a5473e16 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> fd1fcc4c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> eb71492d (.)
+=======
+>>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 0ebb7b01 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> fd1fcc4c (.)
+=======
+>>>>>>> eb71492d (.)
+=======
+>>>>>>> 4f3927d7 (.)
+=======
+>>>>>>> 0ebb7b01 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> f963d2c0 (.)
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> e2f1a4045 (.)
+=======
+=======
+>>>>>>> ee18dd92 (.)
+>>>>>>> 4bec160e6 (.)
+=======
+>>>>>>> 01af324fe (.)
+=======
+=======
+>>>>>>> 66453ace (.)
+>>>>>>> 138485550 (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+=======
+>>>>>>> 4f042b88 (.)
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 731b801a8 (.)
+=======
+=======
+>>>>>>> f3086887 (rebase 210)
+>>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> b85076e48 (.)
+=======
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> ce1853afd (.)
+=======
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 7a142b4f5 (.)
+=======
+=======
+>>>>>>> 6e12a84b (rebase 210)
+>>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> c31e900eb (.)
+=======
+=======
+>>>>>>> 545977c8 (rebase 210)
+>>>>>>> ad905ce9c (.)
+=======
+>>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> 69fa7d37 (.)
+>>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> d9e649ac3 (.)
+=======
+=======
+>>>>>>> eb71492d (.)
+>>>>>>> a2f3c239e (.)
+=======
+>>>>>>> 602b8a0a9 (.)
+=======
+=======
+>>>>>>> 0ebb7b01 (.)
+>>>>>>> 1dc3e4fcd (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+=======
+>>>>>>> 9cf0dc90 (.)
+>>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
+
+## Timeline
+
+- **Completato**: Configurazione base, documentazione iniziale
+- **In corso**: Refactoring modelli, correzioni sintassi
+- **Pianificato**: Testing, documentazione completa
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> fd1fcc4c (.)
+=======
+>>>>>>> eb71492d (.)
+=======
+>>>>>>> 4f3927d7 (.)
+=======
+>>>>>>> 0ebb7b01 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fd1fcc4c (.)
+=======
+>>>>>>> eb71492d (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4f3927d7 (.)
+=======
+>>>>>>> 0ebb7b01 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 301ad8b44 (.)
+=======
+=======
+=======
+>>>>>>> 2a97406c (.)
+>>>>>>> 998e6866b (.)
+
+## Timeline
+
+- **Completato**: Configurazione base, documentazione iniziale
+- **In corso**: Refactoring modelli, correzioni sintassi
+- **Pianificato**: Testing, documentazione completa
+<<<<<<< HEAD
+>>>>>>> 53eef8d8d (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 2a97406c (.)
+>>>>>>> 998e6866b (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+=======
+>>>>>>> 4f042b88 (.)
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+=======
+>>>>>>> 712617d3 (.)
+>>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+=======
+>>>>>>> fdb24863 (rebase 210)
+>>>>>>> b85076e48 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 43dd68f4b (.)
+=======
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+>>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
+=======
+=======
+>>>>>>> eb62d6cf (rebase 210)
+>>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+>>>>>>> c31e900eb (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+=======
+=======
+>>>>>>> fd1fcc4c (.)
+>>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> a2f3c239e (.)
+=======
+=======
+>>>>>>> 4f3927d7 (.)
+>>>>>>> 602b8a0a9 (.)
+=======
+>>>>>>> 1dc3e4fcd (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+=======
+>>>>>>> 9cf0dc90 (.)
+>>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)

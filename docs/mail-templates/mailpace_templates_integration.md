@@ -1,8 +1,83 @@
+<<<<<<< HEAD
 # Integrazione MailPace Templates
 
 ## Panoramica
 
+<<<<<<< HEAD
 Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di <nome progetto>. Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di <nome progetto>. Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di <nome progetto>. Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
+=======
+Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di SaluteOra. Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
+>>>>>>> f963d2c0 (.)
+=======
+Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di SaluteOra. Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
+>>>>>>> f963d2c0 (.)
+=======
+Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di SaluteOra. Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
+>>>>>>> f963d2c0 (.)
+=======
+Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di SaluteOra. Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
+>>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di <nome progetto>. Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
+=======
+=======
+Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di <nome progetto>. Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+=======
+Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di <nome progetto>. Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
+=======
+>>>>>>> fea359347 (.)
+<<<<<<< HEAD
+Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di <main module>. Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
+=======
+Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di SaluteOra. Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 36ac4fc1 (.)
+=======
+Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di SaluteOra. Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di SaluteOra. Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
+>>>>>>> f963d2c0 (.)
+=======
+Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di SaluteOra. Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
+>>>>>>> f963d2c0 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di <nome progetto>. Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 
 ## Template Disponibili
 
@@ -28,7 +103,81 @@ MailPace offre i seguenti template transazionali:
 ### Struttura della Directory
 
 ```
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/resources/mail-layouts/
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+/var/www/html/<nome progetto>/laravel/Modules/Notify/resources/mail-layouts/
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+/var/www/html/<nome progetto>/laravel/Modules/Notify/resources/mail-layouts/
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/
+>>>>>>> f963d2c0 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/
+>>>>>>> f963d2c0 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/
+>>>>>>> f963d2c0 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/
+>>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/resources/mail-layouts/
+=======
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/resources/mail-layouts/
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/resources/mail-layouts/
+=======
+>>>>>>> fea359347 (.)
+<<<<<<< HEAD
+/var/www/html/<directory progetto>/laravel/Modules/Notify/resources/mail-layouts/
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 36ac4fc1 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/
+>>>>>>> f963d2c0 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/
+>>>>>>> f963d2c0 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/resources/mail-layouts/
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 ├── default.html       # Layout base per la maggior parte delle email
 ├── main.html          # Alternativa semplificata
 ├── marketing.html     # Layout ottimizzato per email marketing
@@ -89,7 +238,81 @@ $mailTemplate->send($user->email, [
 1. **Mantieni la Struttura Base** - Non modificare la struttura HTML base per garantire compatibilità
 2. **Usa Variabili** - Utilizza variabili Blade per contenuti dinamici
 3. **Test Cross-Client** - Testa i template su diversi client email
+<<<<<<< HEAD
 4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per <nome progetto>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per <nome progetto>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per <nome progetto>
+=======
+4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per SaluteOra
+>>>>>>> f963d2c0 (.)
+=======
+4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per SaluteOra
+>>>>>>> f963d2c0 (.)
+=======
+4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per SaluteOra
+>>>>>>> f963d2c0 (.)
+=======
+4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per SaluteOra
+>>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per <nome progetto>
+=======
+=======
+4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per <nome progetto>
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+=======
+4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per <nome progetto>
+=======
+>>>>>>> fea359347 (.)
+<<<<<<< HEAD
+4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per <main module>
+=======
+4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per SaluteOra
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 36ac4fc1 (.)
+=======
+4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per SaluteOra
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per SaluteOra
+>>>>>>> f963d2c0 (.)
+=======
+4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per SaluteOra
+>>>>>>> f963d2c0 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per <nome progetto>
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 
 ## Riferimenti
 
@@ -97,3 +320,5 @@ $mailTemplate->send($user->email, [
 - [Repository MailPace Templates](https://github.com/mailpace/templates)
 - [Guida Spatie Email](../SPATIE_EMAIL_USAGE_GUIDE.md)
 - [Implementazione Slug Field](./SLUG_FIELD_IMPLEMENTATION.md)
+=======
+>>>>>>> 301ad8b44 (.)

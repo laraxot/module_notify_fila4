@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 /**
@@ -9,7 +10,127 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
+<<<<<<< HEAD
 use BackedEnum;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+use BackedEnum;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use BackedEnum;
+=======
+>>>>>>> 75179b85 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
+=======
+use BackedEnum;
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 use Filament\Schemas\Schema;
 use Filament\Schemas\Components\Section;
 use Filament\Forms\Components\TextInput;
@@ -18,6 +139,109 @@ use Exception;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
 use Filament\Forms;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
+=======
+use Exception;
+use Filament\Actions\Action;
+use Filament\Facades\Filament;
+=======
+use Filament\Schemas\Schema;
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+use Exception;
+use Filament\Actions\Action;
+use Filament\Facades\Filament;
+=======
+use Filament\Schemas\Schema;
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+=======
+use Exception;
+use Filament\Actions\Action;
+use Filament\Facades\Filament;
+=======
+use Filament\Schemas\Schema;
+
+>>>>>>> f1c9518b (.)
+=======
+use Exception;
+use Filament\Actions\Action;
+use Filament\Facades\Filament;
+=======
+use Filament\Schemas\Schema;
+>>>>>>> c8b1c8bf (.)
+=======
+use Exception;
+use Filament\Actions\Action;
+use Filament\Facades\Filament;
+=======
+use Filament\Schemas\Schema;
+
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+use Filament\Schemas\Components\Section;
+use Filament\Forms\Components\TextInput;
+use Filament\Forms\Components\RichEditor;
+use Exception;
+use Filament\Actions\Action;
+use Filament\Facades\Filament;
+use Filament\Forms;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Pages\Page;
@@ -29,6 +253,128 @@ use Modules\Notify\Filament\Clusters\Test;
 use Modules\Notify\Notifications\TelegramNotification;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use NotificationChannels\Telegram\TelegramMessage;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Telegram\Bot\Laravel\Facades\Telegram;
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> c8b1c8bf (.)
+use Webmozart\Assert\Assert;
+
+/**
+ * @property \Filament\Schemas\Schema $emailForm
+ */
+=======
+<<<<<<< HEAD
+use Webmozart\Assert\Assert;
+
+=======
+use Webmozart\Assert\Assert;
+
+>>>>>>> f1c9518b (.)
+=======
+use Webmozart\Assert\Assert;
+
+>>>>>>> f1c9518b (.)
+=======
+use Telegram\Bot\Laravel\Facades\Telegram;
+use Webmozart\Assert\Assert;
+
+/**
+ * 
+ */
+>>>>>>> 99ff506 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> f1c9518b (.)
+class SendTelegram extends Page implements HasForms
+{
+<<<<<<< HEAD
+=======
+    public array $data = [];
+
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+use Telegram\Bot\Laravel\Facades\Telegram;
+=======
+>>>>>>> c8b1c8bf (.)
+use Webmozart\Assert\Assert;
+
+/**
+ * @property \Filament\Schemas\Schema $emailForm
+ */
+=======
+<<<<<<< HEAD
+use Webmozart\Assert\Assert;
+
+=======
+use Telegram\Bot\Laravel\Facades\Telegram;
+use Webmozart\Assert\Assert;
+
+/**
+ * 
+ */
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+class SendTelegram extends Page implements HasForms
+{
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
+>>>>>>> laraxot/develop
+=======
+    public array $data = [];
+
+=======
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 use Telegram\Bot\Laravel\Facades\Telegram;
 use Webmozart\Assert\Assert;
 
@@ -37,10 +383,677 @@ use Webmozart\Assert\Assert;
  */
 class SendTelegram extends Page implements HasForms
 {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
     use InteractsWithForms;
 
     // use NavigationLabelTrait;
 
+<<<<<<< HEAD
+    public null|array $emailData = [];
+
+    protected static string | BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public null|array $emailData = [];
+=======
+    public ?array $emailData = [];
+>>>>>>> b19cd40 (.)
+=======
+    public null|array $emailData = [];
+>>>>>>> 4e2ebfb (.)
+=======
+    public null|array $emailData = [];
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public null|array $emailData = [];
+=======
+    public ?array $emailData = [];
+>>>>>>> a12f125f4a (.)
+=======
+    public null|array $emailData = [];
+>>>>>>> b93ef594b4 (.)
+>>>>>>> d284d65 (.)
+>>>>>>> 510809c6f (.)
+=======
+    public null|array $emailData = [];
+>>>>>>> 11b43e822 (.)
+=======
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
+    public null|array $emailData = [];
+=======
+<<<<<<< HEAD
+    public ?array $emailData = [];
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
+
+    protected static string | BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+    public null|array $emailData = [];
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> f1c9518b (.)
+    public ?array $emailData = [];
+<<<<<<< HEAD
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> b19cd40 (.)
+=======
+    public null|array $emailData = [];
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+    public null|array $emailData = [];
+>>>>>>> 9777d1b3 (.)
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    protected static string | BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
+=======
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
+>>>>>>> 75179b85 (.)
+=======
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
+>>>>>>> 75179b85 (.)
+=======
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
+>>>>>>> 75179b85 (.)
+=======
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
+>>>>>>> 331118f25 (.)
+
+    protected string $view = 'notify::filament.pages.send-email';
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    protected static null|string $cluster = Test::class;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> e53a56570 (.)
+=======
+    protected static ?string $cluster = Test::class;
+=======
+    public null|array $emailData = [];
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+    public ?array $emailData = [];
+=======
+    public null|array $emailData = [];
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
+=======
+=======
+>>>>>>> 207ac35 (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 207ac35e (.)
+    public null|array $emailData = [];
+=======
+    public ?array $emailData = [];
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 82ae73b (.)
+<<<<<<< HEAD
+>>>>>>> 2fc60436 (.)
+=======
+=======
+=======
+    public null|array $emailData = [];
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+<<<<<<< HEAD
+>>>>>>> ce89c8bb (.)
+=======
+=======
+    public null|array $emailData = [];
+>>>>>>> 9777d1b (.)
+>>>>>>> 58816034 (.)
+=======
+    public null|array $emailData = [];
+>>>>>>> 75179b85 (.)
+=======
+=======
+>>>>>>> 207ac35 (.)
+    public null|array $emailData = [];
+=======
+    public ?array $emailData = [];
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+>>>>>>> 82ae73be (.)
+=======
+    public null|array $emailData = [];
+=======
+<<<<<<< HEAD
+=======
+    public null|array $emailData = [];
+=======
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+    public null|array $emailData = [];
+=======
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public null|array $emailData = [];
+=======
+    public ?array $emailData = [];
+>>>>>>> a12f125f4a (.)
+=======
+    public null|array $emailData = [];
+>>>>>>> b93ef594b4 (.)
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+    public null|array $emailData = [];
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+    public ?array $emailData = [];
+=======
+    public null|array $emailData = [];
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73b (.)
+>>>>>>> 2fc60436 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 82ae73b (.)
+=======
+=======
+    public null|array $emailData = [];
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+<<<<<<< HEAD
+>>>>>>> ce89c8bb (.)
+=======
+=======
+    public null|array $emailData = [];
+>>>>>>> 9777d1b (.)
+>>>>>>> 58816034 (.)
+=======
+    public null|array $emailData = [];
+>>>>>>> 75179b85 (.)
+=======
+    public null|array $emailData = [];
+=======
+    public ?array $emailData = [];
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+    public null|array $emailData = [];
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+    public null|array $emailData = [];
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+    public null|array $emailData = [];
+>>>>>>> 3f537838 (.)
+=======
+    public null|array $emailData = [];
+>>>>>>> 75179b855 (.)
+=======
+    public null|array $emailData = [];
+=======
+    public ?array $emailData = [];
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+    public null|array $emailData = [];
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+    public null|array $emailData = [];
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+    public null|array $emailData = [];
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+=======
+=======
+=======
+>>>>>>> 207ac35 (.)
+    public null|array $emailData = [];
+=======
+    public ?array $emailData = [];
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+>>>>>>> 82ae73b (.)
+<<<<<<< HEAD
+>>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
+>>>>>>> be698cf2c (.)
+=======
+=======
+=======
+=======
+    public null|array $emailData = [];
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
+
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
+
+    protected string $view = 'notify::filament.pages.send-email';
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
+    protected static null|string $cluster = Test::class;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 7ceb00286 (.)
+    protected static ?string $cluster = Test::class;
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
+=======
+=======
+>>>>>>> 207ac35 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+=======
+>>>>>>> be698cf2c (.)
+    protected static null|string $cluster = Test::class;
+=======
+    protected static ?string $cluster = Test::class;
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 82ae73b (.)
+<<<<<<< HEAD
+>>>>>>> 2fc60436 (.)
+=======
+=======
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+<<<<<<< HEAD
+>>>>>>> ce89c8bb (.)
+=======
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> 9777d1b (.)
+>>>>>>> 58816034 (.)
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> 75179b85 (.)
+=======
+=======
+>>>>>>> 207ac35 (.)
+    protected static null|string $cluster = Test::class;
+=======
+    protected static ?string $cluster = Test::class;
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+>>>>>>> 82ae73be (.)
+=======
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+    protected static null|string $cluster = Test::class;
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> d09cb759 (.)
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> d09cb759 (.)
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> 510809c6f (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    protected static null|string $cluster = Test::class;
+=======
+    protected static ?string $cluster = Test::class;
+>>>>>>> a12f125f4a (.)
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> b93ef594b4 (.)
+=======
+    public ?array $emailData = [];
+
+    protected static ?string $navigationIcon = 'heroicon-o-paper-airplane';
+
+    protected static string $view = 'notify::filament.pages.send-email';
+
+    protected static ?string $cluster = Test::class;
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> 3f537838 (.)
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 82ae73b (.)
+>>>>>>> 2fc60436 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 82ae73b (.)
+=======
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+<<<<<<< HEAD
+>>>>>>> ce89c8bb (.)
+=======
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> 9777d1b (.)
+>>>>>>> 58816034 (.)
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> 75179b85 (.)
+=======
+=======
+>>>>>>> cbb586cb0 (.)
+    protected static null|string $cluster = Test::class;
+=======
+    protected static ?string $cluster = Test::class;
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+>>>>>>> 82ae73be (.)
+=======
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> 3f537838 (.)
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> 75179b855 (.)
+=======
+    protected static null|string $cluster = Test::class;
+=======
+    protected static ?string $cluster = Test::class;
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> 3f537838 (.)
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> laraxot/develop
+=======
+=======
+    protected static ?string $cluster = Test::class;
+>>>>>>> b19cd40 (.)
+>>>>>>> 10292b60a (.)
+=======
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> 11b43e822 (.)
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> cbb586cb0 (.)
+>>>>>>> 82ae73b (.)
+<<<<<<< HEAD
+>>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
+>>>>>>> be698cf2c (.)
+=======
+=======
+=======
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
+=======
     public null|array $emailData = [];
 
     protected static string | BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
@@ -48,12 +1061,38 @@ class SendTelegram extends Page implements HasForms
     protected string $view = 'notify::filament.pages.send-email';
 
     protected static null|string $cluster = Test::class;
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 
     public function mount(): void
     {
         $this->fillForms();
     }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
+=======
     public function emailForm(Schema $schema): Schema
     {
         /*
@@ -76,11 +1115,249 @@ class SendTelegram extends Page implements HasForms
             ->statePath('emailData');
     }
 
+=======
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
     public function sendEmail(): void
     {
         $data = $this->emailForm->getState();
         Assert::string($token = config('services.telegram-bot-api.token'));
+<<<<<<< HEAD
         $url = 'https://api.telegram.org/bot' . $token . '/getMe';
+=======
+<<<<<<< HEAD
+        $url = 'https://api.telegram.org/bot'.$token.'/getMe';
+=======
+<<<<<<< HEAD
+        $url = 'https://api.telegram.org/bot' . $token . '/getMe';
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+    public function emailForm(Schema $schema): Schema
+    {
+        /*
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
+         * dddx($response = Telegram::getMe());
+         * $response = $telegram->sendMessage([
+         * 'chat_id' => 'CHAT_ID',
+         * 'text' => 'Hello World',
+         * ]);
+         */
+<<<<<<< HEAD
+=======
+        dddx($response = Telegram::getMe());
+        $response = $telegram->sendMessage([
+            'chat_id' => 'CHAT_ID',
+            'text' => 'Hello World',
+        ]);
+        */
+>>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+        return $schema
+            ->components([
+                Section::make()
+                    // ->description('Update your account\'s profile information and email address.')
+                    ->schema([
+<<<<<<< HEAD
+<<<<<<< HEAD
+                        TextInput::make('to')->required(),
+                        RichEditor::make('body')->required(),
+=======
+                        TextInput::make('to')
+                            ->required(),
+                        RichEditor::make('body')
+                            ->required(),
+>>>>>>> b19cd40 (.)
+=======
+                        TextInput::make('to')->required(),
+                        RichEditor::make('body')->required(),
+>>>>>>> 4e2ebfb (.)
+                    ]),
+            ])
+            ->model($this->getUser())
+            ->statePath('emailData');
+    }
+
+=======
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> c8b1c8bf (.)
+    public function sendEmail(): void
+    {
+        $data = $this->emailForm->getState();
+        Assert::string($token = config('services.telegram-bot-api.token'));
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
+=======
+>>>>>>> e53a56570 (.)
+        $url = 'https://api.telegram.org/bot' . $token . '/getMe';
+=======
+<<<<<<< HEAD
+        $url = 'https://api.telegram.org/bot'.$token.'/getMe';
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $url = 'https://api.telegram.org/bot' . $token . '/getMe';
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> laraxot/develop
+>>>>>>> 331118f25 (.)
+    public function emailForm(Schema $schema): Schema
+    {
+        /*
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
+         * dddx($response = Telegram::getMe());
+         * $response = $telegram->sendMessage([
+         * 'chat_id' => 'CHAT_ID',
+         * 'text' => 'Hello World',
+         * ]);
+         */
+<<<<<<< HEAD
+=======
+        dddx($response = Telegram::getMe());
+        $response = $telegram->sendMessage([
+            'chat_id' => 'CHAT_ID',
+            'text' => 'Hello World',
+        ]);
+        */
+>>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+        return $schema
+            ->components([
+                Section::make()
+                    // ->description('Update your account\'s profile information and email address.')
+                    ->schema([
+<<<<<<< HEAD
+<<<<<<< HEAD
+                        TextInput::make('to')->required(),
+                        RichEditor::make('body')->required(),
+=======
+                        TextInput::make('to')
+                            ->required(),
+                        RichEditor::make('body')
+                            ->required(),
+>>>>>>> b19cd40 (.)
+=======
+                        TextInput::make('to')->required(),
+                        RichEditor::make('body')->required(),
+>>>>>>> 4e2ebfb (.)
+                    ]),
+            ])
+            ->model($this->getUser())
+            ->statePath('emailData');
+    }
+
+    public function sendEmail(): void
+    {
+        $data = $this->emailForm->getState();
+        Assert::string($token = config('services.telegram-bot-api.token'));
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
+        $url = 'https://api.telegram.org/bot' . $token . '/getMe';
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+        $url = 'https://api.telegram.org/bot'.$token.'/getMe';
+=======
+        $url = 'https://api.telegram.org/bot' . $token . '/getMe';
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+        $url = 'https://api.telegram.org/bot'.$token.'/getMe';
+=======
+        $url = 'https://api.telegram.org/bot' . $token . '/getMe';
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> laraxot/develop
+=======
+        $url = 'https://api.telegram.org/bot' . $token . '/getMe';
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
+=======
+=======
+>>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cbb586cb0 (.)
+        $url = 'https://api.telegram.org/bot' . $token . '/getMe';
+<<<<<<< HEAD
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
         Http::get($url);
         // dddx($response->json());
         /*
@@ -107,6 +1384,102 @@ class SendTelegram extends Page implements HasForms
         // Notification::sendNow($developers, new TelegramNotification());
         $message = is_string($data['body']) ? $data['body'] : '';
         Notification::route('telegram', $data['to'])->notify(new TelegramNotification($message));
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cbb586cb0 (.)
+=======
+<<<<<<< HEAD
+=======
+=======
+        $url = 'https://api.telegram.org/bot'.$token.'/getMe';
+=======
+        $url = 'https://api.telegram.org/bot' . $token . '/getMe';
+>>>>>>> b93ef594b4 (.)
+        Http::get($url);
+        // dddx($response->json());
+        /*
+         * "ok" => true
+         * "result" => array:8 [▼
+         * "id" =>
+         * "is_bot" => true
+         * "first_name" => " "
+         * "username" => " "
+         * "can_join_groups" => true
+         * "can_read_all_group_messages" => false
+         * "supports_inline_queries" => false
+         * "can_connect_to_business" => false
+         * ]
+         * ]
+         */
+        /*
+         * $res = TelegramMessage::create()
+         * // Optional recipient user id.
+         * ->to($data['to'])
+         * // Markdown supported.
+         * ->content($data['body']);
+         */
+        // Notification::sendNow($developers, new TelegramNotification());
+        $message = is_string($data['body']) ? $data['body'] : '';
+<<<<<<< HEAD
+        Notification::route('telegram', $data['to'])
+            ->notify(new TelegramNotification($message));
+>>>>>>> a12f125f4a (.)
+=======
+        Notification::route('telegram', $data['to'])->notify(new TelegramNotification($message));
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> be698cf2c (.)
+        $url = 'https://api.telegram.org/bot'.$token.'/getMe';
+        Http::get($url);
+        // dddx($response->json());
+        /*
+         "ok" => true
+            "result" => array:8 [▼
+            "id" =>
+            "is_bot" => true
+            "first_name" => " "
+            "username" => " "
+            "can_join_groups" => true
+            "can_read_all_group_messages" => false
+            "supports_inline_queries" => false
+            "can_connect_to_business" => false
+            ]
+        ]
+        */
+        /*
+        $res = TelegramMessage::create()
+            // Optional recipient user id.
+            ->to($data['to'])
+            // Markdown supported.
+            ->content($data['body']);
+        */
+        // Notification::sendNow($developers, new TelegramNotification());
+        $message = is_string($data['body']) ? $data['body'] : '';
+        Notification::route('telegram', $data['to'])
+            ->notify(new TelegramNotification($message));
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
     }
 
     protected function getForms(): array
@@ -120,7 +1493,292 @@ class SendTelegram extends Page implements HasForms
     {
         return [
             Action::make('emailFormActions')
+<<<<<<< HEAD
                 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
+                
+=======
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                
+=======
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+=======
+                
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
+=======
+=======
+>>>>>>> 207ac35 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+=======
+=======
+                
+>>>>>>> 75179b8 (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 207ac35e (.)
+                
+=======
+                //
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 82ae73b (.)
+<<<<<<< HEAD
+>>>>>>> 2fc60436 (.)
+=======
+=======
+=======
+                
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+<<<<<<< HEAD
+>>>>>>> ce89c8bb (.)
+=======
+=======
+                
+>>>>>>> 9777d1b (.)
+>>>>>>> 58816034 (.)
+=======
+                
+>>>>>>> 75179b85 (.)
+=======
+=======
+>>>>>>> 207ac35 (.)
+                
+=======
+                //
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+>>>>>>> 82ae73be (.)
+=======
+=======
+                
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+                
+>>>>>>> 9777d1b3 (.)
+=======
+                
+=======
+=======
+                
+=======
+>>>>>>> d09cb759 (.)
+=======
+                
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
+                
+=======
+                //
+>>>>>>> a12f125f4a (.)
+=======
+                
+>>>>>>> b93ef594b4 (.)
+=======
+                //
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+                
+>>>>>>> 3f537838 (.)
+=======
+=======
+                
+=======
+<<<<<<< HEAD
+>>>>>>> 7ceb00286 (.)
+=======
+                
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73b (.)
+>>>>>>> 2fc60436 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 82ae73b (.)
+=======
+=======
+                
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+<<<<<<< HEAD
+>>>>>>> ce89c8bb (.)
+=======
+=======
+                
+>>>>>>> 9777d1b (.)
+>>>>>>> 58816034 (.)
+=======
+                
+>>>>>>> 75179b85 (.)
+=======
+                
+=======
+                //
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+                
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+                
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+                
+>>>>>>> 3f537838 (.)
+=======
+                
+>>>>>>> 75179b855 (.)
+=======
+                
+=======
+                //
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+                
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+                
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+                
+>>>>>>> 3f537838 (.)
+>>>>>>> laraxot/develop
+=======
+                //
+>>>>>>> b19cd40 (.)
+>>>>>>> 10292b60a (.)
+=======
+=======
+                
+>>>>>>> 4e2ebfb (.)
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+                
+>>>>>>> 11b43e822 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+=======
+=======
+=======
+>>>>>>> cbb586cb0 (.)
+                
+=======
+                //
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+>>>>>>> 82ae73b (.)
+<<<<<<< HEAD
+>>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
+>>>>>>> be698cf2c (.)
+=======
+=======
+=======
+=======
+                
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
+=======
+                
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 
                 ->submit('emailFormActions'),
         ];
@@ -129,10 +1787,266 @@ class SendTelegram extends Page implements HasForms
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();
+<<<<<<< HEAD
         if (!($user instanceof Model)) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> d284d65 (.)
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
+        if (!($user instanceof Model)) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+        if (!($user instanceof Model)) {
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> f1c9518b (.)
+=======
+        if (!($user instanceof Model)) {
+=======
+<<<<<<< HEAD
+>>>>>>> e53a56570 (.)
+        if (! ($user instanceof Model)) {
+=======
+        if (!($user instanceof Model)) {
+>>>>>>> 99ff506 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f1c9518b (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+        if (! ($user instanceof Model)) {
+=======
+=======
+>>>>>>> 82ae73b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+=======
+>>>>>>> 9777d1b (.)
+        if (!($user instanceof Model)) {
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+=======
+        if (!($user instanceof Model)) {
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f1c9518b (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 58816034 (.)
+        if (! ($user instanceof Model)) {
+=======
+=======
+>>>>>>> 82ae73b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+=======
+>>>>>>> 9777d1b (.)
+        if (!($user instanceof Model)) {
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+=======
+        if (!($user instanceof Model)) {
+>>>>>>> 75179b85 (.)
+=======
+        if (!($user instanceof Model)) {
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
+=======
+=======
+=======
+>>>>>>> 2fc60436 (.)
+>>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
+        if (! ($user instanceof Model)) {
+=======
+=======
+>>>>>>> 82ae73b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+        if (!($user instanceof Model)) {
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
+=======
+        if (!($user instanceof Model)) {
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
             throw new Exception(
                 'The authenticated user object must be an Eloquent model to allow the profile page to update it.',
             );
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        if (! $user instanceof Model) {
+            throw new Exception('The authenticated user object must be an Eloquent model to allow the profile page to update it.');
+>>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+=======
+<<<<<<< HEAD
+=======
+        if (! $user instanceof Model) {
+            throw new Exception('The authenticated user object must be an Eloquent model to allow the profile page to update it.');
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+        if (! $user instanceof Model) {
+            throw new \Exception('The authenticated user object must be an Eloquent model to allow the profile page to update it.');
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
+=======
+=======
+>>>>>>> cbb586cb0 (.)
+=======
+        if (! $user instanceof Model) {
+            throw new Exception('The authenticated user object must be an Eloquent model to allow the profile page to update it.');
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+>>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cbb586cb0 (.)
         }
 
         return $user;
@@ -143,6 +2057,51 @@ class SendTelegram extends Page implements HasForms
         // $data = $this->getUser()->attributesToArray();
 
         // $this->editProfileForm->fill($data);
+<<<<<<< HEAD
         $this->emailForm->fill();
+=======
+        $this->emailForm->fill();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $this->emailForm->fill();
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
+        // Form data filled;
+=======
+        $this->emailForm->fill();
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
+        $this->emailForm->fill();
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+        $this->emailForm->fill();
+>>>>>>> 75179b85 (.)
+=======
+        $this->emailForm->fill();
+>>>>>>> 75179b855 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

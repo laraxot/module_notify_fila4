@@ -1,3 +1,52 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 4bec160e6 (.)
+=======
+>>>>>>> 138485550 (.)
+=======
+>>>>>>> 998e6866b (.)
+=======
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 70175d0c4 (.)
+=======
+>>>>>>> 731b801a8 (.)
+=======
+>>>>>>> b85076e48 (.)
+=======
+>>>>>>> ce1853afd (.)
+=======
+>>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> c31e900eb (.)
+=======
+>>>>>>> fea359347 (.)
+=======
+>>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> 602b8a0a9 (.)
+=======
+>>>>>>> ec82d0f4a (.)
 # Template Email
 
 ## Panoramica
@@ -48,29 +97,101 @@ Grazie,<br>
 // app/Filament/Resources/EmailTemplateResource.php
 use Filament\Forms\Components\Builder;
 
+<<<<<<< HEAD
+public static function form(Form $form): Form
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+public static function form(Form $form): Form
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
+>>>>>>> 331118f25 (.)
+public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+public static function form(Form $form): Form
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 331118f25 (.)
+public static function form(Form $form): Form
+public static function form(Form $form): Form
+public static function form(Form $form): Form
+public static function form(Form $form): Form
+public static function form(Form $form): Form
+public static function form(Form $form): Form
+public static function form(Form $form): Form
+public static function form(Form $form): Form
+public static function form(Form $form): Form
+public static function form(Form $form): Form
+public static function form(Form $form): Form
+public static function form(Form $form): Form
+public static function form(Form $form): Form
+public static function form(Form $form): Form
+public static function form(Form $form): Form
 public static function form(Form $form): Form
 public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 public static function form(Form $form): Form
 public static function form(Form $form): Form
 public static function form(Form $form): Form
-public static function form(Form $form): Form
-public static function form(Form $form): Form
-public static function form(Form $form): Form
-public static function form(Form $form): Form
-public static function form(Form $form): Form
-public static function form(Form $form): Form
-public static function form(Form $form): Form
-public static function form(Form $form): Form
-public static function form(Form $form): Form
-public static function form(Form $form): Form
-public static function form(Form $form): Form
-public static function form(Form $form): Form
-public static function form(Form $form): Form
-public static function form(Form $form): Form
-public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
-public static function form(Form $form): Form
-public static function form(Form $form): Form
-public static function form(Form $form): Form
+<<<<<<< HEAD
 public static function form(Form $form): Form
 public static function form(Form $form): Form
 public static function form(Form $form): Form
@@ -95,6 +216,89 @@ public static function form(Form $form): Form
 public static function form(Form $form): Form
 public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 public static function form(Form $form): Form
+=======
+>>>>>>> f963d2c0 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 75179b855 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> f963d2c0 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> ee18dd92 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 66453ace (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 2a97406c (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 4f042b88 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 36321fcb (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 712617d3 (.)
+>>>>>>> laraxot/develop
+=======
+public static function form(Form $form): Form
+>>>>>>> 1487fe812 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 12a7e2462 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 4bec160e6 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 138485550 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 998e6866b (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 36136dcfa (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 70175d0c4 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 731b801a8 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> b85076e48 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> ce1853afd (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 7a142b4f5 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> c31e900eb (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> fea359347 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> d9e649ac3 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 602b8a0a9 (.)
+=======
+public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+>>>>>>> ec82d0f4a (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+=======
+public static function form(Form $form): Form
+>>>>>>> f963d2c (.)
+>>>>>>> 379ffe3f3 (.)
+>>>>>>> 331118f25 (.)
 {
     return $form->schema([
         Builder::make('content')
@@ -187,3 +391,53 @@ Per contribuire alla documentazione, seguire le [Linee Guida](../../../../docs/l
 
 ## Collegamenti Completi
 Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../../docs/README_links.md). 
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 301ad8b44 (.)
+=======
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 4bec160e6 (.)
+=======
+>>>>>>> 138485550 (.)
+=======
+>>>>>>> 998e6866b (.)
+=======
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 70175d0c4 (.)
+=======
+>>>>>>> 731b801a8 (.)
+=======
+>>>>>>> b85076e48 (.)
+=======
+>>>>>>> ce1853afd (.)
+=======
+>>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> c31e900eb (.)
+=======
+>>>>>>> fea359347 (.)
+=======
+>>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> 602b8a0a9 (.)
+=======
+>>>>>>> ec82d0f4a (.)

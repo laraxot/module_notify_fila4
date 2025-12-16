@@ -1,3 +1,197 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> fdb24863 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fd1fcc4c (.)
+=======
+>>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+<<<<<<< HEAD
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> fd1fcc4c (.)
+=======
+>>>>>>> 4f3927d7 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 2a97406c (.)
+>>>>>>> 998e6866b (.)
+=======
+>>>>>>> 36136dcfa (.)
+=======
+=======
+>>>>>>> 712617d3 (.)
+>>>>>>> 731b801a8 (.)
+=======
+>>>>>>> b85076e48 (.)
+=======
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> ce1853afd (.)
+=======
+=======
+>>>>>>> eb62d6cf (rebase 210)
+>>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> c31e900eb (.)
+=======
+>>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> fd1fcc4c (.)
+>>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> 602b8a0a9 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 # Utilizzo di PHPStan nel Progetto <nome progetto>
 
 ## Esecuzione di PHPStan
@@ -116,7 +310,1459 @@ Il file `phpstan.neon` nella directory Laravel contiene le configurazioni person
 
 
 ## Collegamenti tra versioni di phpstan-usage.md
+<<<<<<< HEAD
 * [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> 75179b85 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> f963d2c0 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 3f537838 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> a404ea71 (.)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> 75179b85 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> f963d2c0 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 3f537838 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> a404ea71 (.)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> 75179b85 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> f963d2c0 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 3f537838 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> a404ea71 (.)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> f963d2c0 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 3f537838 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> a404ea71 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> ee18dd92 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> d284d65 (.)
+>>>>>>> 4689a827 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 2941b0bd (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> ca10d6ad (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 66453ace (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2e9bd58c3 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> d284d65 (.)
+>>>>>>> 7325acf3 (.)
+<<<<<<< HEAD
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 4c323e61 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> febe79e3 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 2a97406c (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> d284d65 (.)
+>>>>>>> f2e64178 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 98d837b9 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> a29a4728 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 4f042b88 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> d284d65 (.)
+>>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 4e4a7796 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> c7a4727b (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> d284d65 (.)
+>>>>>>> dceba960 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 9d84f153 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> bf479cc (.)
+>>>>>>> b99af5a8 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 9721a5b2 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 712617d3 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> d284d65 (.)
+>>>>>>> bd804d67 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 116df547 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> bf479cc (.)
+>>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 1442e291 (rebase 210)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> fdb24863 (rebase 210)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> d284d65 (.)
+>>>>>>> 229a065a (rebase 210)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 84082535 (rebase 210)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> bf479cc (.)
+>>>>>>> 3d462363 (rebase 210)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> fcaebc79 (rebase 210)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> d284d65 (.)
+>>>>>>> 9f8e680a (rebase 210)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 7ffa94fc (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6ad5224fb (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 9d3810d0 (rebase 210)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> eb62d6cf (rebase 210)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> d284d65 (.)
+>>>>>>> 5aedc39c (rebase 210)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 82e5ee2d (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> bf479cc (.)
+>>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> d38aa9d2 (rebase 210)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> d284d65 (.)
+>>>>>>> 22baa66d (rebase 210)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 5b50927d (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ad905ce9c (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> bf479cc (.)
+>>>>>>> 545977c8 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 9e7ba5b6 (rebase 210)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 36ac4fc1 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> d284d65 (.)
+>>>>>>> 2effe245 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> d45a0226 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c7d5eaf96 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> bf479cc (.)
+>>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> fd1fcc4c (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> d284d65 (.)
+>>>>>>> e790eb33 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> cb5f23b0 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> bf479cc (.)
+>>>>>>> eb71492d (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> f9ec4f86 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 4f3927d7 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> d284d65 (.)
+>>>>>>> 3ee54c5d (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 4b544042 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> bf479cc (.)
+>>>>>>> 0ebb7b01 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> cccb594f (.)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> c8b1c8bf (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 9cf0dc90 (.)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> 75179b85 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> f963d2c0 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 3f537838 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> a404ea71 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> ee18dd92 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> d284d65 (.)
+>>>>>>> 4689a827 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 2941b0bd (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> ca10d6ad (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 66453ace (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> d284d65 (.)
+>>>>>>> 7325acf3 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 4c323e61 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> febe79e3 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 2a97406c (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> d284d65 (.)
+>>>>>>> f2e64178 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 13aa25113 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> a29a4728 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 4f042b88 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> d284d65 (.)
+>>>>>>> c4bdacbf (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 4e4a7796 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> c7a4727b (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> d284d65 (.)
+>>>>>>> dceba960 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 9d84f153 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> bf479cc (.)
+>>>>>>> b99af5a8 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 9721a5b2 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 712617d3 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> d284d65 (.)
+>>>>>>> bd804d67 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 116df547 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> bf479cc (.)
+>>>>>>> f3086887 (rebase 210)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 1442e291 (rebase 210)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> fdb24863 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3e757cee2 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> d284d65 (.)
+>>>>>>> 229a065a (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 84082535 (rebase 210)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> bf479cc (.)
+>>>>>>> 3d462363 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> fcaebc79 (rebase 210)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> d284d65 (.)
+>>>>>>> 9f8e680a (rebase 210)
+<<<<<<< HEAD
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 7ffa94fc (rebase 210)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 9d3810d0 (rebase 210)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> eb62d6cf (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cd5474106 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> d284d65 (.)
+>>>>>>> 5aedc39c (rebase 210)
+<<<<<<< HEAD
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 82e5ee2d (rebase 210)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> bf479cc (.)
+>>>>>>> 6e12a84b (rebase 210)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> d38aa9d2 (rebase 210)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 8c8937e7 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 01750b107 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> d284d65 (.)
+>>>>>>> 22baa66d (rebase 210)
+<<<<<<< HEAD
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 5b50927d (rebase 210)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> bf479cc (.)
+>>>>>>> 545977c8 (rebase 210)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 9e7ba5b6 (rebase 210)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 26d39e2eb (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> d284d65 (.)
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> d45a0226 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> bf479cc (.)
+>>>>>>> 69fa7d37 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> fd1fcc4c (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> d284d65 (.)
+>>>>>>> e790eb33 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> cb5f23b0 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> bf479cc (.)
+>>>>>>> eb71492d (.)
+<<<<<<< HEAD
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> f9ec4f86 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 4f3927d7 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> d284d65 (.)
+>>>>>>> 3ee54c5d (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 4b544042 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> bf479cc (.)
+>>>>>>> 0ebb7b01 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> cccb594f (.)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 9cf0dc90 (.)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> 75179b85 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> f963d2c0 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 3f537838 (.)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> 75179b855 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> f963d2c0 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 3f537838 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> a404ea71 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> ee18dd92 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> d284d65 (.)
+>>>>>>> 4689a827 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 2941b0bd (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> ca10d6ad (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 66453ace (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> d284d65 (.)
+>>>>>>> 7325acf3 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 4c323e61 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> febe79e3 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 2a97406c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 23f115647 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> d284d65 (.)
+>>>>>>> f2e64178 (.)
+<<<<<<< HEAD
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 98d837b9 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> a29a4728 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 4f042b88 (.)
+<<<<<<< HEAD
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> d284d65 (.)
+>>>>>>> c4bdacbf (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 4e4a7796 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> c7a4727b (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> d284d65 (.)
+>>>>>>> dceba960 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 9d84f153 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> bf479cc (.)
+>>>>>>> b99af5a8 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 9721a5b2 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 712617d3 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 848f79b79 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> d284d65 (.)
+>>>>>>> bd804d67 (.)
+<<<<<<< HEAD
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 116df547 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> bf479cc (.)
+>>>>>>> f3086887 (rebase 210)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
+=======
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> f963d2c0 (.)
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
+=======
+>>>>>>> e2f1a4045 (.)
+=======
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> a404ea71 (.)
+>>>>>>> c4282a934 (.)
+=======
+>>>>>>> 4bec160e6 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 2941b0bd (.)
+>>>>>>> a070a65a5 (.)
+=======
+>>>>>>> 01af324fe (.)
+=======
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> ca10d6ad (.)
+>>>>>>> 8c6d84fe6 (.)
+=======
+>>>>>>> 138485550 (.)
+=======
+>>>>>>> 2e9bd58c3 (.)
+=======
+>>>>>>> 37beb5238 (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> febe79e3 (.)
+>>>>>>> 753ea7aca (.)
+=======
+>>>>>>> 998e6866b (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> a29a4728 (.)
+>>>>>>> fdad57c30 (.)
+=======
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> a115e2aad (.)
+=======
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 4e4a7796 (.)
+>>>>>>> 09f5337a8 (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> c7a4727b (.)
+>>>>>>> 275b7ad99 (.)
+=======
+>>>>>>> 9cb55171f (.)
+=======
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 9d84f153 (.)
+>>>>>>> bc2faa05b (.)
+=======
+>>>>>>> 47bbf2b1c (.)
+=======
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 9721a5b2 (.)
+>>>>>>> b215d516b (.)
+=======
+>>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 848f79b79 (.)
+=======
+>>>>>>> ec4cda261 (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> f957fb24b (.)
+=======
+>>>>>>> b85076e48 (.)
+=======
+>>>>>>> 3e757cee2 (.)
+=======
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 84082535 (rebase 210)
+>>>>>>> a75783374 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> fcaebc79 (rebase 210)
+>>>>>>> 252fa579e (.)
+=======
+>>>>>>> 43dd68f4b (.)
+=======
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 9c45d9bd (rebase 210)
+>>>>>>> ce1853afd (.)
+=======
+>>>>>>> c188e2a18 (.)
+=======
+>>>>>>> f3c06ccdd (.)
+=======
+>>>>>>> 6ad5224fb (.)
+=======
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 9d3810d0 (rebase 210)
+>>>>>>> 21a6fa9bc (.)
+=======
+>>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> cd5474106 (.)
+=======
+>>>>>>> e312314fa (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> d38aa9d2 (rebase 210)
+>>>>>>> 610b999f1 (.)
+=======
+>>>>>>> c31e900eb (.)
+=======
+>>>>>>> 01750b107 (.)
+=======
+>>>>>>> 5e028c03d (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 9e7ba5b6 (rebase 210)
+>>>>>>> ff78f10a5 (.)
+=======
+>>>>>>> fea359347 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> f15c41e60 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+=======
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> fd1fcc4c (.)
+>>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> 2dab69c8a (.)
+=======
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> cb5f23b0 (.)
+>>>>>>> 8db6adf75 (.)
+=======
+>>>>>>> a2f3c239e (.)
+=======
+>>>>>>> 8134673e1 (.)
+=======
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 4f3927d7 (.)
+>>>>>>> 602b8a0a9 (.)
+=======
+>>>>>>> 763771402 (.)
+=======
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 4b544042 (.)
+>>>>>>> a85ebf6cc (.)
+=======
+>>>>>>> 1dc3e4fcd (.)
+=======
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> cccb594f (.)
+>>>>>>> 3808094f6 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 9cf0dc90 (.)
+>>>>>>> 379ffe3f3 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 
 
 ### Versione Incoming
@@ -124,3 +1770,231 @@ Il file `phpstan.neon` nella directory Laravel contiene le configurazioni person
 
 ---
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 998e6866b (.)
+=======
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> ce1853afd (.)
+=======
+>>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> c31e900eb (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 2a97406c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> fd1fcc4c (.)
+=======
+>>>>>>> 4f3927d7 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 731b801a8 (.)
+=======
+>>>>>>> b85076e48 (.)
+=======
+>>>>>>> fea359347 (.)
+=======
+>>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> 602b8a0a9 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fd1fcc4c (.)
+=======
+>>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 301ad8b44 (.)
+=======
+>>>>>>> 998e6866b (.)
+=======
+=======
+>>>>>>> 4f042b88 (.)
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 731b801a8 (.)
+=======
+=======
+>>>>>>> fdb24863 (rebase 210)
+>>>>>>> b85076e48 (.)
+=======
+>>>>>>> 43dd68f4b (.)
+=======
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+>>>>>>> ce1853afd (.)
+=======
+>>>>>>> 7a142b4f5 (.)
+=======
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+>>>>>>> c31e900eb (.)
+=======
+>>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> fd1fcc4c (.)
+>>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> 602b8a0a9 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)

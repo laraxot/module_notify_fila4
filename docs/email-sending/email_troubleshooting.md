@@ -1,3 +1,138 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> fd1fcc4c (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> fd1fcc4c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 2a97406c (.)
+>>>>>>> 998e6866b (.)
+=======
+>>>>>>> 36136dcfa (.)
+=======
+=======
+>>>>>>> eb62d6cf (rebase 210)
+>>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> c31e900eb (.)
+=======
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+>>>>>>> d9e649ac3 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 # Risoluzione dei Problemi nelle Email 
 
 Questa documentazione fornisce soluzioni per i problemi comuni che possono verificarsi durante l'invio di email nel modulo Notify.
@@ -14,9 +149,2115 @@ La classe `SpatieEmail` ora utilizza l'API moderna di Laravel per gli allegati t
 // Preparazione degli allegati
 $attachments = [
     [
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
         'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 70e8274e (.)
+=======
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 4bec160e6 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> d3a8af4d5 (.)
+=======
+>>>>>>> 4f19d70d2 (.)
+=======
+>>>>>>> 138485550 (.)
+=======
+>>>>>>> 2e9bd58c3 (.)
+=======
+>>>>>>> c22b35d1e (.)
+=======
+>>>>>>> 8f2456941 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 998e6866b (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> 138fcd4b0 (.)
+=======
+>>>>>>> be45a0b8d (.)
+=======
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> a115e2aad (.)
+=======
+>>>>>>> db0bc148f (.)
+=======
+>>>>>>> 49639b815 (.)
+=======
+>>>>>>> 9cb55171f (.)
+=======
+>>>>>>> 5d49e093a (.)
+=======
+>>>>>>> 7a9167faf (.)
+=======
+>>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> cd5474106 (.)
+=======
+>>>>>>> 17f6b8617 (.)
+=======
+>>>>>>> db6bec044 (.)
+=======
+>>>>>>> c31e900eb (.)
+=======
+>>>>>>> 01750b107 (.)
+=======
+>>>>>>> fea359347 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 2e1ac1f20 (.)
+=======
+>>>>>>> 6dad70a87 (.)
+=======
+>>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> 2dab69c8a (.)
+=======
+>>>>>>> e95dfc210 (.)
+=======
+>>>>>>> ec24613a1 (.)
+>>>>>>> 331118f25 (.)
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+<<<<<<< HEAD
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> 75179b85 (.)
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> f963d2c0 (.)
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+<<<<<<< HEAD
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+=======
+>>>>>>> 3b4c9907 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> dceba960 (.)
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+>>>>>>> 9cb55171f (.)
+<<<<<<< HEAD
+=======
+>>>>>>> dceba960 (.)
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> 503981fd (.)
+=======
+>>>>>>> 3b4c9907 (.)
+=======
+>>>>>>> dceba960 (.)
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+<<<<<<< HEAD
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 207ac35e (.)
+=======
+=======
+>>>>>>> 3b4c9907 (.)
+=======
+>>>>>>> dceba960 (.)
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+<<<<<<< HEAD
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+>>>>>>> bf479cc (.)
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
+>>>>>>> 207ac35e (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+<<<<<<< HEAD
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+>>>>>>> bf479cc (.)
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 9777d1b3 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+<<<<<<< HEAD
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+>>>>>>> bf479cc (.)
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> f963d2c0 (.)
+=======
+=======
+>>>>>>> 9cdf6146 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> 503981fd (.)
+=======
+>>>>>>> c22b35d1e (.)
+=======
+=======
+>>>>>>> 3f39ac8b (.)
+>>>>>>> f87b41c3b (.)
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+<<<<<<< HEAD
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+>>>>>>> bf479cc (.)
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+<<<<<<< HEAD
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c22b35d1e (.)
+=======
+>>>>>>> f87b41c3b (.)
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+<<<<<<< HEAD
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+>>>>>>> bf479cc (.)
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+<<<<<<< HEAD
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+>>>>>>> bf479cc (.)
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 9777d1b3 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+<<<<<<< HEAD
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+>>>>>>> bf479cc (.)
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> db0bc148f (.)
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+<<<<<<< HEAD
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+>>>>>>> bf479cc (.)
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 9d67cabd (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> 1375c94d (rebase 210)
+<<<<<<< HEAD
+=======
+>>>>>>> 030c9674 (rebase 210)
+=======
+>>>>>>> 77edd94a (.)
+=======
+>>>>>>> eea68ec9 (.)
+=======
+>>>>>>> e790eb33 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> 503981fd (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 5fe4f466 (.)
+>>>>>>> 49639b815 (.)
+=======
+>>>>>>> 7a9167faf (.)
+=======
+>>>>>>> 2dab69c8a (.)
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+<<<<<<< HEAD
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+>>>>>>> bf479cc (.)
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+<<<<<<< HEAD
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+<<<<<<< HEAD
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 49639b815 (.)
+=======
+>>>>>>> 7a9167faf (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 9d67cabd (.)
+=======
+>>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> 1375c94d (rebase 210)
+=======
+<<<<<<< HEAD
+>>>>>>> 030c9674 (rebase 210)
+=======
+>>>>>>> eea68ec9 (.)
+=======
+=======
+>>>>>>> 7a9167faf (.)
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+<<<<<<< HEAD
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+>>>>>>> bf479cc (.)
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7a9167faf (.)
+>>>>>>> 207ac35e (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+<<<<<<< HEAD
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+>>>>>>> bf479cc (.)
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 9777d1b3 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+<<<<<<< HEAD
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+>>>>>>> bf479cc (.)
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> f963d2c0 (.)
+=======
+=======
+>>>>>>> 9cdf6146 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> f2e64178 (.)
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+<<<<<<< HEAD
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+>>>>>>> bf479cc (.)
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+<<<<<<< HEAD
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+<<<<<<< HEAD
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+>>>>>>> bf479cc (.)
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 75179b85 (.)
+>>>>>>> 7aae79847 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 9d67cabd (.)
+=======
+>>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 6d08c01b (.)
+=======
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> c4bdacbf (.)
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+<<<<<<< HEAD
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+>>>>>>> bf479cc (.)
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+<<<<<<< HEAD
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+<<<<<<< HEAD
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+>>>>>>> bf479cc (.)
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 161887a2 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+<<<<<<< HEAD
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+>>>>>>> bf479cc (.)
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> ee18dd92 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+<<<<<<< HEAD
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+>>>>>>> bf479cc (.)
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+>>>>>>> 4689a827 (.)
+=======
+=======
+>>>>>>> 1375c94d (rebase 210)
+=======
+>>>>>>> 030c9674 (rebase 210)
+=======
+>>>>>>> 77edd94a (.)
+=======
+>>>>>>> eea68ec9 (.)
+=======
+>>>>>>> e790eb33 (.)
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+<<<<<<< HEAD
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+>>>>>>> bf479cc (.)
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+<<<<<<< HEAD
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> e7a9a2bf (.)
+=======
+>>>>>>> 9d67cabd (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+<<<<<<< HEAD
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+>>>>>>> bf479cc (.)
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> ba564870 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+<<<<<<< HEAD
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+>>>>>>> bf479cc (.)
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 66453ace (.)
+=======
+=======
+>>>>>>> e7a9a2bf (.)
+=======
+>>>>>>> 7325acf3 (.)
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+<<<<<<< HEAD
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+>>>>>>> bf479cc (.)
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> 7325acf3 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9cdf6146 (.)
+=======
+>>>>>>> 80f054e0 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+<<<<<<< HEAD
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+>>>>>>> bf479cc (.)
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 7c39b1fe (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+<<<<<<< HEAD
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+>>>>>>> bf479cc (.)
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 888799d0 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+<<<<<<< HEAD
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+>>>>>>> bf479cc (.)
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> f2e64178 (.)
+=======
+<<<<<<< HEAD
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+<<<<<<< HEAD
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+>>>>>>> bf479cc (.)
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 75179b85 (.)
+>>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 9d67cabd (.)
+=======
+>>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 6b6b9e41 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 1375c94d (rebase 210)
+=======
+>>>>>>> 030c9674 (rebase 210)
+<<<<<<< HEAD
+>>>>>>> db6bec044 (.)
+=======
+=======
+>>>>>>> 77edd94a (.)
+<<<<<<< HEAD
+>>>>>>> 2e1ac1f20 (.)
+=======
+=======
+>>>>>>> eea68ec9 (.)
+<<<<<<< HEAD
+>>>>>>> 6dad70a87 (.)
+=======
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 207ac35e (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 9777d1b3 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> f963d2c0 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> ce89c8bb (.)
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 161887a2 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> ee18dd92 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> d284d65 (.)
+>>>>>>> 4689a827 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> b19cd40 (.)
+>>>>>>> e7a9a2bf (.)
+=======
+>>>>>>> 9d67cabd (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> ba564870 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 66453ace (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> d284d65 (.)
+>>>>>>> 7325acf3 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9cdf6146 (.)
+=======
+>>>>>>> 80f054e0 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 7c39b1fe (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 888799d0 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> cbb586cb0 (.)
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6d08c01b (.)
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 6dad70a87 (.)
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 2e1ac1f20 (.)
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> db6bec044 (.)
+=======
+>>>>>>> 6b6b9e41 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> c6c33175 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 4f042b88 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> d284d65 (.)
+>>>>>>> c4bdacbf (.)
+=======
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> b19cd40 (.)
+>>>>>>> 3b4c9907 (.)
+=======
+>>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> 503981fd (.)
+=======
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> d284d65 (.)
+>>>>>>> dceba960 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> b19cd40 (.)
+>>>>>>> b4f93b3a (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1375c94d (rebase 210)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 52cd5f85 (rebase 210)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> eb62d6cf (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cd5474106 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> d284d65 (.)
+>>>>>>> 5aedc39c (rebase 210)
+<<<<<<< HEAD
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> b19cd40 (.)
+>>>>>>> c5c038f2 (rebase 210)
+=======
+>>>>>>> 030c9674 (rebase 210)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> bb00ab64 (rebase 210)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> d284d65 (.)
+>>>>>>> 22baa66d (rebase 210)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 36ac4fc1 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> d284d65 (.)
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 77edd94a (.)
+=======
+>>>>>>> eea68ec9 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 59916c8f (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> fd1fcc4c (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> e790eb33 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 06e3078e (.)
+=======
+>>>>>>> 06e3078e (.)
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f81a620f (.)
+=======
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 9d67cabd (.)
+=======
+>>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> 1375c94d (rebase 210)
+=======
+>>>>>>> 030c9674 (rebase 210)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> eea68ec9 (.)
+=======
+>>>>>>> 06e3078e (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 9d67cabd (.)
+=======
+>>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> 5fe4f466 (.)
+=======
+=======
+>>>>>>> db6bec044 (.)
+=======
+>>>>>>> eea68ec9 (.)
+=======
+>>>>>>> 6dad70a87 (.)
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+<<<<<<< HEAD
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+>>>>>>> bf479cc (.)
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 06e3078e (.)
+=======
+>>>>>>> 70e8274e (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> d284d65 (.)
+>>>>>>> 3ee54c5d (.)
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> 7d765981 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> be698cf2c (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> ce89c8bb (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 58816034 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 9cf0dc90 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 75179b85 (.)
+=======
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 9d67cabd (.)
+=======
+>>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 6b6b9e41 (.)
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 82ae73be (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 9d67cabd (.)
+=======
+>>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> 5fe4f466 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> db6bec044 (.)
+=======
+>>>>>>> 6dad70a87 (.)
+>>>>>>> 207ac35e (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 8f2456941 (.)
+>>>>>>> 9777d1b3 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> f963d2c0 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 161887a2 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> ee18dd92 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> d284d65 (.)
+>>>>>>> 4689a827 (.)
+<<<<<<< HEAD
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> b19cd40 (.)
+>>>>>>> e7a9a2bf (.)
+=======
+>>>>>>> 9d67cabd (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> ba564870 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 66453ace (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> d284d65 (.)
+>>>>>>> 7325acf3 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9cdf6146 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 80f054e0 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 7c39b1fe (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 888799d0 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 2a97406c (.)
+<<<<<<< HEAD
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 6d08c01b (.)
+=======
+>>>>>>> 6b6b9e41 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> c6c33175 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> c4bdacbf (.)
+=======
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> b19cd40 (.)
+>>>>>>> 3b4c9907 (.)
+=======
+>>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> 503981fd (.)
+=======
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> d284d65 (.)
+>>>>>>> dceba960 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> b19cd40 (.)
+>>>>>>> b4f93b3a (rebase 210)
+=======
+>>>>>>> 1375c94d (rebase 210)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 52cd5f85 (rebase 210)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> eb62d6cf (rebase 210)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> d284d65 (.)
+>>>>>>> 5aedc39c (rebase 210)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> b19cd40 (.)
+>>>>>>> c5c038f2 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 030c9674 (rebase 210)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> bb00ab64 (rebase 210)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 8c8937e7 (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 01750b107 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> d284d65 (.)
+>>>>>>> 22baa66d (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fea359347 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 77edd94a (.)
+=======
+>>>>>>> eea68ec9 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 59916c8f (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> fd1fcc4c (.)
+<<<<<<< HEAD
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> e95dfc210 (.)
+=======
+=======
+>>>>>>> 06e3078e (.)
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+>>>>>>> f81a620f (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ce89c8bb (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
+>>>>>>> cbb586cb0 (.)
+>>>>>>> 06e3078e (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 70e8274e (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> d284d65 (.)
+>>>>>>> 3ee54c5d (.)
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> 7d765981 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> c8b1c8bf (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 58816034 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 75179b85 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 9777d1b3 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> f963d2c0 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 75179b855 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 1619767d8 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 4f19d70d2 (.)
+>>>>>>> 207ac35e (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 9777d1b3 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> f963d2c0 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+>>>>>>> b207a9b1a (.)
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 011072e4 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 161887a2 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> ee18dd92 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> d284d65 (.)
+>>>>>>> 4689a827 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> b19cd40 (.)
+>>>>>>> e7a9a2bf (.)
+=======
+>>>>>>> 9d67cabd (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> ba564870 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 66453ace (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 7325acf3 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> b19cd40 (.)
+>>>>>>> 9cdf6146 (.)
+=======
+>>>>>>> 80f054e0 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 7c39b1fe (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 888799d0 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 2a97406c (.)
+=======
+<<<<<<< HEAD
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> d284d65 (.)
+>>>>>>> f2e64178 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> b19cd40 (.)
+>>>>>>> 6d08c01b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b6b9e41 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> c6c33175 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 4f042b88 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a115e2aad (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> d284d65 (.)
+>>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> db0bc148f (.)
+=======
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> b19cd40 (.)
+>>>>>>> 3b4c9907 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> 503981fd (.)
+=======
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> d284d65 (.)
+>>>>>>> dceba960 (.)
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
+=======
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+>>>>>>> bf5d31b0f (.)
+=======
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 9777d1b3 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
+>>>>>>> 12a7e2462 (.)
+=======
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+=======
+>>>>>>> 011072e4 (.)
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 4bec160e6 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> b19cd40 (.)
+>>>>>>> e7a9a2bf (.)
+<<<<<<< HEAD
+>>>>>>> d3a8af4d5 (.)
+=======
+=======
+>>>>>>> 9d67cabd (.)
+>>>>>>> 4f19d70d2 (.)
+=======
+>>>>>>> 138485550 (.)
+=======
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> d284d65 (.)
+>>>>>>> 7325acf3 (.)
+>>>>>>> 2e9bd58c3 (.)
+=======
+>>>>>>> c22b35d1e (.)
+=======
+=======
+>>>>>>> 80f054e0 (.)
+>>>>>>> 8f2456941 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+=======
+>>>>>>> 4d2eb53e (.)
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 998e6866b (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> f2e64178 (.)
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> 138fcd4b0 (.)
+=======
+=======
+>>>>>>> 6b6b9e41 (.)
+>>>>>>> be45a0b8d (.)
+=======
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> a115e2aad (.)
+=======
+>>>>>>> db0bc148f (.)
+=======
+=======
+>>>>>>> 5fe4f466 (.)
+>>>>>>> 49639b815 (.)
+=======
+>>>>>>> 9cb55171f (.)
+=======
+>>>>>>> 5d49e093a (.)
+=======
+=======
+>>>>>>> 1375c94d (rebase 210)
+>>>>>>> 7a9167faf (.)
+=======
+>>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> cd5474106 (.)
+=======
+>>>>>>> 17f6b8617 (.)
+=======
+=======
+>>>>>>> 030c9674 (rebase 210)
+>>>>>>> db6bec044 (.)
+=======
+>>>>>>> c31e900eb (.)
+=======
+>>>>>>> 01750b107 (.)
+=======
+>>>>>>> fea359347 (.)
+=======
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> d284d65 (.)
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+>>>>>>> 26d39e2eb (.)
+=======
+=======
+>>>>>>> 77edd94a (.)
+<<<<<<< HEAD
+>>>>>>> 2e1ac1f20 (.)
+=======
+=======
+>>>>>>> eea68ec9 (.)
+>>>>>>> 6dad70a87 (.)
+=======
+>>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> 2dab69c8a (.)
+=======
+>>>>>>> e95dfc210 (.)
+=======
+=======
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 06e3078e (.)
+<<<<<<< HEAD
+>>>>>>> ec24613a1 (.)
+=======
+=======
+>>>>>>> 70e8274e (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> d284d65 (.)
+>>>>>>> 3ee54c5d (.)
+>>>>>>> 763771402 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
         'as' => 'logo.svg',
         'mime' => 'image/svg+xml',
     ],
@@ -207,3 +2448,158 @@ public function test_can_send_email_with_attachments()
 - [ATTACHMENTS_USAGE.md](./ATTACHMENTS_USAGE.md)
 - [EMAIL_LAYOUTS_BEST_PRACTICES.md](../mail-templates/EMAIL_LAYOUTS_BEST_PRACTICES.md)
 - [SPATIE_MAIL_TEMPLATES_STRUCTURE.md](../mail-templates/SPATIE_MAIL_TEMPLATES_STRUCTURE.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 998e6866b (.)
+=======
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 2a97406c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> fd1fcc4c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> c31e900eb (.)
+=======
+>>>>>>> fea359347 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> fd1fcc4c (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 301ad8b44 (.)
+=======
+>>>>>>> 998e6866b (.)
+=======
+=======
+>>>>>>> 4f042b88 (.)
+>>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7a142b4f5 (.)
+=======
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+>>>>>>> c31e900eb (.)
+=======
+>>>>>>> fea359347 (.)
+=======
+>>>>>>> d9e649ac3 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)

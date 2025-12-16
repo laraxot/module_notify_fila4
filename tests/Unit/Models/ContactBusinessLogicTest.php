@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -11,7 +12,64 @@ describe('Contact Business Logic', function () {
     });
 
     test('contact can store polymorphic model relationships', function () {
+<<<<<<< HEAD
         $contact = new Contact();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $contact = new Contact();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
+        $contact = new Contact;
+=======
+        $contact = new Contact();
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        $contact = new Contact();
+>>>>>>> 75179b85 (.)
+=======
+        $contact = new Contact;
+=======
+        $contact = new Contact();
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+        $contact = new Contact();
+>>>>>>> 75179b85 (.)
+=======
+        $contact = new Contact();
+>>>>>>> 75179b855 (.)
+=======
+        $contact = new Contact;
+=======
+        $contact = new Contact();
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> laraxot/develop
+=======
+        $contact = new Contact;
+=======
+        $contact = new Contact();
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+>>>>>>> 331118f25 (.)
         $contact->model_type = 'App\\Models\\User';
         $contact->model_id = '1';
 
@@ -20,7 +78,64 @@ describe('Contact Business Logic', function () {
     });
 
     test('contact can store contact information with type', function () {
+<<<<<<< HEAD
         $contact = new Contact();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $contact = new Contact();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
+        $contact = new Contact;
+=======
+        $contact = new Contact();
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        $contact = new Contact();
+>>>>>>> 75179b85 (.)
+=======
+        $contact = new Contact;
+=======
+        $contact = new Contact();
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+        $contact = new Contact();
+>>>>>>> 75179b85 (.)
+=======
+        $contact = new Contact();
+>>>>>>> 75179b855 (.)
+=======
+        $contact = new Contact;
+=======
+        $contact = new Contact();
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> laraxot/develop
+=======
+        $contact = new Contact;
+=======
+        $contact = new Contact();
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+>>>>>>> 331118f25 (.)
         $contact->contact_type = 'email';
         $contact->value = 'test@example.com';
 
@@ -29,7 +144,64 @@ describe('Contact Business Logic', function () {
     });
 
     test('contact can track sms communication', function () {
+<<<<<<< HEAD
         $contact = new Contact();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $contact = new Contact();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
+        $contact = new Contact;
+=======
+        $contact = new Contact();
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        $contact = new Contact();
+>>>>>>> 75179b85 (.)
+=======
+        $contact = new Contact;
+=======
+        $contact = new Contact();
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+        $contact = new Contact();
+>>>>>>> 75179b85 (.)
+=======
+        $contact = new Contact();
+>>>>>>> 75179b855 (.)
+=======
+        $contact = new Contact;
+=======
+        $contact = new Contact();
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> laraxot/develop
+=======
+        $contact = new Contact;
+=======
+        $contact = new Contact();
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+>>>>>>> 331118f25 (.)
         $contact->sms_count = 5;
         $contact->sms_status_code = '200';
         $contact->sms_status_txt = 'Success';
@@ -40,7 +212,64 @@ describe('Contact Business Logic', function () {
     });
 
     test('contact can track email communication', function () {
+<<<<<<< HEAD
         $contact = new Contact();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $contact = new Contact();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
+        $contact = new Contact;
+=======
+        $contact = new Contact();
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        $contact = new Contact();
+>>>>>>> 75179b85 (.)
+=======
+        $contact = new Contact;
+=======
+        $contact = new Contact();
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+        $contact = new Contact();
+>>>>>>> 75179b85 (.)
+=======
+        $contact = new Contact();
+>>>>>>> 75179b855 (.)
+=======
+        $contact = new Contact;
+=======
+        $contact = new Contact();
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> laraxot/develop
+=======
+        $contact = new Contact;
+=======
+        $contact = new Contact();
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+>>>>>>> 331118f25 (.)
         $contact->mail_count = 3;
         $contact->mail_sent_at = '2023-01-01 10:00:00';
 
@@ -49,7 +278,64 @@ describe('Contact Business Logic', function () {
     });
 
     test('contact can store personal information', function () {
+<<<<<<< HEAD
         $contact = new Contact();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $contact = new Contact();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
+        $contact = new Contact;
+=======
+        $contact = new Contact();
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        $contact = new Contact();
+>>>>>>> 75179b85 (.)
+=======
+        $contact = new Contact;
+=======
+        $contact = new Contact();
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+        $contact = new Contact();
+>>>>>>> 75179b85 (.)
+=======
+        $contact = new Contact();
+>>>>>>> 75179b855 (.)
+=======
+        $contact = new Contact;
+=======
+        $contact = new Contact();
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> laraxot/develop
+=======
+        $contact = new Contact;
+=======
+        $contact = new Contact();
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+>>>>>>> 331118f25 (.)
         $contact->first_name = 'Mario';
         $contact->last_name = 'Rossi';
 
@@ -58,7 +344,64 @@ describe('Contact Business Logic', function () {
     });
 
     test('contact has verification tracking', function () {
+<<<<<<< HEAD
         $contact = new Contact();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $contact = new Contact();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
+        $contact = new Contact;
+=======
+        $contact = new Contact();
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        $contact = new Contact();
+>>>>>>> 75179b85 (.)
+=======
+        $contact = new Contact;
+=======
+        $contact = new Contact();
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+        $contact = new Contact();
+>>>>>>> 75179b85 (.)
+=======
+        $contact = new Contact();
+>>>>>>> 75179b855 (.)
+=======
+        $contact = new Contact;
+=======
+        $contact = new Contact();
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> laraxot/develop
+=======
+        $contact = new Contact;
+=======
+        $contact = new Contact();
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+>>>>>>> 331118f25 (.)
         $contact->token = 'abc123';
         $contact->verified_at = '2023-01-01 12:00:00';
 
@@ -67,7 +410,64 @@ describe('Contact Business Logic', function () {
     });
 
     test('contact has flexible attribute storage', function () {
+<<<<<<< HEAD
         $contact = new Contact();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $contact = new Contact();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
+        $contact = new Contact;
+=======
+        $contact = new Contact();
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        $contact = new Contact();
+>>>>>>> 75179b85 (.)
+=======
+        $contact = new Contact;
+=======
+        $contact = new Contact();
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+        $contact = new Contact();
+>>>>>>> 75179b85 (.)
+=======
+        $contact = new Contact();
+>>>>>>> 75179b855 (.)
+=======
+        $contact = new Contact;
+=======
+        $contact = new Contact();
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> laraxot/develop
+=======
+        $contact = new Contact;
+=======
+        $contact = new Contact();
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+>>>>>>> 331118f25 (.)
         $contact->attribute_1 = 'value1';
         $contact->attribute_2 = 'value2';
 
@@ -76,16 +476,234 @@ describe('Contact Business Logic', function () {
     });
 
     test('contact can track duplicate count', function () {
+<<<<<<< HEAD
         $contact = new Contact();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $contact = new Contact();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
+        $contact = new Contact;
+=======
+        $contact = new Contact();
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        $contact = new Contact();
+>>>>>>> 75179b85 (.)
+=======
+        $contact = new Contact;
+=======
+        $contact = new Contact();
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+        $contact = new Contact();
+>>>>>>> 75179b85 (.)
+=======
+        $contact = new Contact();
+>>>>>>> 75179b855 (.)
+=======
+        $contact = new Contact;
+=======
+        $contact = new Contact();
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> laraxot/develop
+=======
+        $contact = new Contact;
+=======
+        $contact = new Contact();
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+>>>>>>> 331118f25 (.)
         $contact->duplicate_count = 2;
 
         expect($contact->duplicate_count)->toBe(2);
     });
 
     test('contact has order column for sorting', function () {
+<<<<<<< HEAD
         $contact = new Contact();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $contact = new Contact();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
+        $contact = new Contact;
+=======
+        $contact = new Contact();
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        $contact = new Contact();
+>>>>>>> 75179b85 (.)
+=======
+        $contact = new Contact;
+=======
+        $contact = new Contact();
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+        $contact = new Contact();
+>>>>>>> 75179b85 (.)
+=======
+        $contact = new Contact();
+>>>>>>> 75179b855 (.)
+=======
+        $contact = new Contact;
+=======
+        $contact = new Contact();
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> laraxot/develop
+=======
+        $contact = new Contact;
+=======
+        $contact = new Contact();
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+>>>>>>> 331118f25 (.)
         $contact->order_column = 1;
 
         expect($contact->order_column)->toBe(1);
     });
 });
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 301ad8b44 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> a115e2aad (.)
+=======
+>>>>>>> 9cb55171f (.)
+=======
+>>>>>>> 848f79b79 (.)
+=======
+>>>>>>> c188e2a18 (.)
+=======
+>>>>>>> cd5474106 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 2dab69c8a (.)
+=======
+>>>>>>> 763771402 (.)
+=======
+=======
+        
+        expect($contact->order_column)->toBe(1);
+    });
+});
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> a070a65a5 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> a115e2aad (.)
+=======
+>>>>>>> 09f5337a8 (.)
+=======
+>>>>>>> 9cb55171f (.)
+=======
+>>>>>>> bc2faa05b (.)
+=======
+>>>>>>> 848f79b79 (.)
+=======
+>>>>>>> ec4cda261 (.)
+=======
+>>>>>>> c188e2a18 (.)
+=======
+>>>>>>> f3c06ccdd (.)
+=======
+>>>>>>> cd5474106 (.)
+=======
+>>>>>>> e312314fa (.)
+=======
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 2dab69c8a (.)
+=======
+>>>>>>> 8db6adf75 (.)
+=======
+>>>>>>> 763771402 (.)
+=======
+>>>>>>> a85ebf6cc (.)

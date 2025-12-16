@@ -1,0 +1,699 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 2e9bd58c3 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> a115e2aad (.)
+=======
+>>>>>>> 848f79b79 (.)
+=======
+>>>>>>> 3e757cee2 (.)
+=======
+>>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> c188e2a18 (.)
+=======
+>>>>>>> cd5474106 (.)
+=======
+>>>>>>> 01750b107 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 2dab69c8a (.)
+=======
+>>>>>>> 763771402 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+# Struttura della Configurazione SMS 
+
+## Introduzione
+
+Questo documento definisce la struttura corretta del file di configurazione SMS (`config/sms.php`) nel modulo Notify, con particolare attenzione alla gestione delle configurazioni generiche vs specifiche per provider.
+
+## Struttura Generale
+
+Il file `config/sms.php` è organizzato in sezioni distinte:
+
+```php
+return [
+    // Driver predefinito
+    'default' => env('SMS_DRIVER', 'default_provider'),
+    
+    // Configurazione dei driver/provider
+    'drivers' => [
+        // Configurazioni specifiche per provider...
+    ],
+    
+    // Configurazioni generiche per tutti i provider
+    'queue' => env('SMS_QUEUE', 'default'),
+    'retry' => [...],
+    'rate_limit' => [...],
+    'logging' => [...],
+    'validation' => [...],
+];
+```
+
+## Configurazioni Generiche vs Specifiche
+
+### 1. Configurazioni Generiche
+
+Le configurazioni generiche si applicano a **tutti** i provider SMS e sono definite a livello di root nel file di configurazione:
+
+```php
+'retry' => [
+    'attempts' => env('SMS_RETRY_ATTEMPTS', 3),
+    'delay' => env('SMS_RETRY_DELAY', 60),
+],
+
+'rate_limit' => [
+    'enabled' => env('SMS_RATE_LIMIT_ENABLED', true),
+    'max_attempts' => env('SMS_RATE_LIMIT_MAX_ATTEMPTS', 60),
+    'decay_minutes' => env('SMS_RATE_LIMIT_DECAY_MINUTES', 1),
+],
+```
+
+### 2. Configurazioni Specifiche per Provider
+
+Le configurazioni specifiche per provider sono definite all'interno della sezione `drivers` e contengono **solo** i parametri specifici per quel provider:
+
+```php
+'drivers' => [
+    'netfun' => [
+        // Credenziali e parametri di connessione
+        'username' => env('NETFUN_USERNAME'),
+        'password' => env('NETFUN_PASSWORD'),
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'sender' => env('NETFUN_SENDER', ''),
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> a404ea71 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> ca10d6ad (.)
+=======
+>>>>>>> 7325acf3 (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> febe79e3 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> a29a4728 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> c7a4727b (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> 9721a5b2 (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> 1442e291 (rebase 210)
+=======
+        'sender' => env('NETFUN_SENDER', ''),
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> e2f1a4045 (.)
+=======
+>>>>>>> c4282a934 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 01af324fe (.)
+=======
+>>>>>>> 8c6d84fe6 (.)
+=======
+>>>>>>> 2e9bd58c3 (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 753ea7aca (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+>>>>>>> fdad57c30 (.)
+=======
+>>>>>>> a115e2aad (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 275b7ad99 (.)
+=======
+>>>>>>> 47bbf2b1c (.)
+=======
+>>>>>>> b215d516b (.)
+=======
+>>>>>>> 848f79b79 (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> f957fb24b (.)
+=======
+>>>>>>> 3e757cee2 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 252fa579e (.)
+=======
+        'sender' => env('NETFUN_SENDER', ''),
+>>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> c188e2a18 (.)
+=======
+>>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 21a6fa9bc (.)
+=======
+>>>>>>> cd5474106 (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> 610b999f1 (.)
+=======
+>>>>>>> 01750b107 (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+>>>>>>> ff78f10a5 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> a2f3c239e (.)
+=======
+>>>>>>> 1dc3e4fcd (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+=======
+        'sender' => env('NETFUN_SENDER', ''),
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> bf479cc (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> 2dab69c8a (.)
+=======
+>>>>>>> a2f3c239e (.)
+=======
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> 8134673e1 (.)
+=======
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> 763771402 (.)
+=======
+>>>>>>> 1dc3e4fcd (.)
+=======
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> 3808094f6 (.)
+=======
+        'sender' => env('NETFUN_SENDER', ''),
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> 7ceb00286 (.)
+        'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
+        
+        // Configurazioni avanzate specifiche per Netfun
+        'circuit_breaker' => [
+            'threshold' => env('NETFUN_CIRCUIT_BREAKER_THRESHOLD', 5),
+            'timeout' => env('NETFUN_CIRCUIT_BREAKER_TIMEOUT', 60),
+        ],
+    ],
+    
+    'twilio' => [
+        'account_sid' => env('TWILIO_ACCOUNT_SID'),
+        'auth_token' => env('TWILIO_AUTH_TOKEN'),
+        'from' => env('TWILIO_FROM'),
+    ],
+    
+    // Altri provider...
+],
+```
+
+## Regola Fondamentale: Evitare Duplicazioni
+
+**IMPORTANTE**: Evitare di duplicare le configurazioni generiche all'interno delle configurazioni specifiche per provider. Ad esempio:
+
+❌ **ERRATO**:
+```php
+'drivers' => [
+    'netfun' => [
+        // ...
+        'max_retries' => env('NETFUN_MAX_RETRIES', 3),      // Duplica 'retry.attempts'
+        'retry_delay' => env('NETFUN_RETRY_DELAY', 1),      // Duplica 'retry.delay'
+        'rate_limit' => env('NETFUN_RATE_LIMIT', 100),      // Duplica 'rate_limit.max_attempts'
+        'rate_limit_window' => env('NETFUN_RATE_LIMIT_WINDOW', 60), // Duplica 'rate_limit.decay_minutes'
+        // ...
+    ],
+],
+```
+
+✅ **CORRETTO**:
+```php
+// Configurazioni generiche a livello di root
+'retry' => [
+    'attempts' => env('SMS_RETRY_ATTEMPTS', 3),
+    'delay' => env('SMS_RETRY_DELAY', 60),
+],
+
+'rate_limit' => [
+    'enabled' => env('SMS_RATE_LIMIT_ENABLED', true),
+    'max_attempts' => env('SMS_RATE_LIMIT_MAX_ATTEMPTS', 60),
+    'decay_minutes' => env('SMS_RATE_LIMIT_DECAY_MINUTES', 1),
+],
+
+// Solo configurazioni specifiche per provider nella sezione 'drivers'
+'drivers' => [
+    'netfun' => [
+        'username' => env('NETFUN_USERNAME'),
+        'password' => env('NETFUN_PASSWORD'),
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'sender' => env('NETFUN_SENDER', ''),
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> a404ea71 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> ca10d6ad (.)
+=======
+>>>>>>> 7325acf3 (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> febe79e3 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> a29a4728 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> c7a4727b (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> 9721a5b2 (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> 1442e291 (rebase 210)
+=======
+        'sender' => env('NETFUN_SENDER', ''),
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> e2f1a4045 (.)
+=======
+>>>>>>> c4282a934 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 01af324fe (.)
+=======
+>>>>>>> 8c6d84fe6 (.)
+=======
+>>>>>>> 2e9bd58c3 (.)
+=======
+>>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 753ea7aca (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> 13aa25113 (.)
+=======
+>>>>>>> fdad57c30 (.)
+=======
+>>>>>>> a115e2aad (.)
+=======
+>>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 275b7ad99 (.)
+=======
+>>>>>>> 47bbf2b1c (.)
+=======
+>>>>>>> b215d516b (.)
+=======
+>>>>>>> 848f79b79 (.)
+=======
+>>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> f957fb24b (.)
+=======
+>>>>>>> 3e757cee2 (.)
+=======
+>>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 252fa579e (.)
+=======
+        'sender' => env('NETFUN_SENDER', ''),
+>>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> c188e2a18 (.)
+=======
+>>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 21a6fa9bc (.)
+=======
+>>>>>>> cd5474106 (.)
+=======
+>>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> 610b999f1 (.)
+=======
+>>>>>>> 01750b107 (.)
+=======
+>>>>>>> ad905ce9c (.)
+=======
+>>>>>>> ff78f10a5 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> a2f3c239e (.)
+=======
+>>>>>>> 1dc3e4fcd (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+=======
+        'sender' => env('NETFUN_SENDER', ''),
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> bf479cc (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> 2dab69c8a (.)
+=======
+>>>>>>> a2f3c239e (.)
+=======
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> 8134673e1 (.)
+=======
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> 763771402 (.)
+=======
+>>>>>>> 1dc3e4fcd (.)
+=======
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> 3808094f6 (.)
+=======
+        'sender' => env('NETFUN_SENDER', ''),
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> 7ceb00286 (.)
+        'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
+        
+        // Solo configurazioni veramente specifiche per Netfun
+        'circuit_breaker' => [
+            'threshold' => env('NETFUN_CIRCUIT_BREAKER_THRESHOLD', 5),
+            'timeout' => env('NETFUN_CIRCUIT_BREAKER_TIMEOUT', 60),
+        ],
+    ],
+],
+```
+
+## Gestione Precedenze
+
+Quando sia le configurazioni generiche che quelle specifiche per provider sono presenti:
+
+1. Le configurazioni specifiche per provider hanno **precedenza** sulle configurazioni generiche
+2. Il codice che utilizza queste configurazioni deve implementare questa logica di precedenza
+
+Esempio di implementazione della logica di precedenza:
+
+```php
+// In una classe che gestisce l'invio SMS
+$retryAttempts = $config['drivers'][$driver]['max_retries'] ?? $config['retry']['attempts'];
+$retryDelay = $config['drivers'][$driver]['retry_delay'] ?? $config['retry']['delay'];
+```
+
+## Checklist di Verifica
+
+- [ ] Configurazioni generiche (retry, rate_limit, ecc.) definite a livello di root
+- [ ] Configurazioni specifiche per provider definite solo nella sezione `drivers`
+- [ ] Nessuna duplicazione tra configurazioni generiche e specifiche
+- [ ] Logica di precedenza implementata nel codice che utilizza queste configurazioni
+
+## Collegamenti
+
+- [Configurazione Netfun](./NETFUN_CONFIG_REQUIREMENTS.md)
+- [Provider SMS Supportati](./notifications/SMS_PROVIDER_CONFIGURATION.md)
+
+---
+
+*Ultimo aggiornamento: 2025-05-12*
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 2e9bd58c3 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> a115e2aad (.)
+=======
+>>>>>>> 848f79b79 (.)
+=======
+>>>>>>> 3e757cee2 (.)
+=======
+>>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> c188e2a18 (.)
+=======
+>>>>>>> cd5474106 (.)
+=======
+>>>>>>> 01750b107 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 2dab69c8a (.)
+=======
+>>>>>>> 763771402 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+>>>>>>> 331118f25 (.)

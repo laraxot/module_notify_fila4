@@ -1,6 +1,81 @@
+<<<<<<< HEAD
 # Standard per le Traduzioni 
 
+<<<<<<< HEAD
 Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di SaluteOra, con particolare attenzione al modulo Notify.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di <nome progetto>, con particolare attenzione al modulo Notify.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di <nome progetto>, con particolare attenzione al modulo Notify.
+=======
+Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di SaluteOra, con particolare attenzione al modulo Notify.
+>>>>>>> f963d2c0 (.)
+=======
+Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di SaluteOra, con particolare attenzione al modulo Notify.
+>>>>>>> f963d2c0 (.)
+=======
+Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di SaluteOra, con particolare attenzione al modulo Notify.
+>>>>>>> f963d2c0 (.)
+=======
+Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di SaluteOra, con particolare attenzione al modulo Notify.
+>>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di <nome progetto>, con particolare attenzione al modulo Notify.
+=======
+=======
+Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di <nome progetto>, con particolare attenzione al modulo Notify.
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+=======
+Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di <nome progetto>, con particolare attenzione al modulo Notify.
+=======
+>>>>>>> fea359347 (.)
+<<<<<<< HEAD
+Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di <main module>, con particolare attenzione al modulo Notify.
+=======
+Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di SaluteOra, con particolare attenzione al modulo Notify.
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 36ac4fc1 (.)
+=======
+Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di SaluteOra, con particolare attenzione al modulo Notify.
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di SaluteOra, con particolare attenzione al modulo Notify.
+>>>>>>> f963d2c0 (.)
+=======
+Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di SaluteOra, con particolare attenzione al modulo Notify.
+>>>>>>> f963d2c0 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di <nome progetto>, con particolare attenzione al modulo Notify.
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 
 ## Struttura delle Cartelle
 
@@ -128,3 +203,5 @@ protected static ?string $navigationLabel = 'Invio SMS'; // Hardcoded
 1. **Laravel Translation Manager**: Per gestire e sincronizzare le traduzioni
 2. **Laravel Lang**: Per traduzioni comuni di Laravel
 3. **Script Personalizzati**: Per verificare la completezza e consistenza delle traduzioni
+=======
+>>>>>>> 301ad8b44 (.)

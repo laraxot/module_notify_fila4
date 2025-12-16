@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Note di Implementazione Email
 
 ## Errori Comuni e Soluzioni
@@ -29,12 +30,160 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
    ```php
    $attachments = [
        [
+<<<<<<< HEAD
            'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+           'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+           'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
+=======
+           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+>>>>>>> f963d2c0 (.)
+=======
+           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+>>>>>>> f963d2c0 (.)
+=======
+           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+>>>>>>> f963d2c0 (.)
+=======
+           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+>>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+           'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
+=======
+=======
+           'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+=======
+           'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
+=======
+>>>>>>> fea359347 (.)
+<<<<<<< HEAD
+           'path' => '/var/www/html/<directory progetto>/public_html/images/avatars/default-3.svg',
+=======
+           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 36ac4fc1 (.)
+=======
+           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+>>>>>>> f963d2c0 (.)
+=======
+           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+>>>>>>> f963d2c0 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+           'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
            'as' => 'logo.png',
            'mime' => 'image/png'
        ],
        [
+<<<<<<< HEAD
            'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+           'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+           'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
+=======
+           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+>>>>>>> f963d2c0 (.)
+=======
+           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+>>>>>>> f963d2c0 (.)
+=======
+           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+>>>>>>> f963d2c0 (.)
+=======
+           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+>>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+           'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
+=======
+=======
+           'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+=======
+           'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
+=======
+>>>>>>> fea359347 (.)
+<<<<<<< HEAD
+           'path' => '/var/www/html/<directory progetto>/public_html/images/avatars/default-3.svg',
+=======
+           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 36ac4fc1 (.)
+=======
+           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+>>>>>>> f963d2c0 (.)
+=======
+           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+>>>>>>> f963d2c0 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+           'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
            'as' => 'logo.png',
            'mime' => 'image/png'
        ]
@@ -181,3 +330,5 @@ L'implementazione corretta dimostra che:
 Input: "name, email, company, date"
 Output: [name] [email] [company] [date] (come badge blu)
 ``` 
+=======
+>>>>>>> 301ad8b44 (.)

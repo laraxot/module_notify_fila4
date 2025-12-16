@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Esempi Pratici Netfun
 
 ## 1. Invio SMS OTP
@@ -34,7 +35,72 @@ class OtpSmsNotification extends NetfunSmsNotification
 
         parent::__construct(
             message: "Il tuo codice OTP è: {$otp}. Valido fino alle {$this->expiresAt->format('H:i')}.",
+<<<<<<< HEAD
             sender: 'SALUTEORA'
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            sender: '<nome progetto>'
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            sender: '<nome progetto>'
+=======
+            sender: 'SALUTEORA'
+>>>>>>> f963d2c0 (.)
+=======
+            sender: 'SALUTEORA'
+>>>>>>> f963d2c0 (.)
+=======
+            sender: 'SALUTEORA'
+>>>>>>> f963d2c0 (.)
+=======
+            sender: 'SALUTEORA'
+>>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fea359347 (.)
+=======
+            sender: '<nome progetto>'
+=======
+            sender: 'SALUTEORA'
+>>>>>>> 7bac387 (.)
+>>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
+=======
+            sender: 'SALUTEORA'
+>>>>>>> f963d2c0 (.)
+=======
+            sender: '<nome progetto>'
+=======
+            sender: 'SALUTEORA'
+>>>>>>> 7bac387 (.)
+>>>>>>> 36ac4fc1 (.)
+=======
+            sender: 'SALUTEORA'
+>>>>>>> f963d2c0 (.)
+=======
+            sender: 'SALUTEORA'
+>>>>>>> f963d2c0 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> fea359347 (.)
+=======
+            sender: '<nome progetto>'
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
         );
     }
 
@@ -200,7 +266,72 @@ class AppointmentReminderNotification extends NetfunSmsNotification
 
         parent::__construct(
             message: $message,
+<<<<<<< HEAD
             sender: 'SALUTEORA'
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            sender: '<nome progetto>'
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            sender: '<nome progetto>'
+=======
+            sender: 'SALUTEORA'
+>>>>>>> f963d2c0 (.)
+=======
+            sender: 'SALUTEORA'
+>>>>>>> f963d2c0 (.)
+=======
+            sender: 'SALUTEORA'
+>>>>>>> f963d2c0 (.)
+=======
+            sender: 'SALUTEORA'
+>>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fea359347 (.)
+=======
+            sender: '<nome progetto>'
+=======
+            sender: 'SALUTEORA'
+>>>>>>> 7bac387 (.)
+>>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
+=======
+            sender: 'SALUTEORA'
+>>>>>>> f963d2c0 (.)
+=======
+            sender: '<nome progetto>'
+=======
+            sender: 'SALUTEORA'
+>>>>>>> 7bac387 (.)
+>>>>>>> 36ac4fc1 (.)
+=======
+            sender: 'SALUTEORA'
+>>>>>>> f963d2c0 (.)
+=======
+            sender: 'SALUTEORA'
+>>>>>>> f963d2c0 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> fea359347 (.)
+=======
+            sender: '<nome progetto>'
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
         );
     }
 
@@ -441,7 +572,72 @@ public function sendBulkSms(Request $request)
         $results = SendBulkSmsAction::make(
             users: $users,
             message: $request->message,
+<<<<<<< HEAD
             sender: 'SALUTEORA',
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            sender: '<nome progetto>',
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            sender: '<nome progetto>',
+=======
+            sender: 'SALUTEORA',
+>>>>>>> f963d2c0 (.)
+=======
+            sender: 'SALUTEORA',
+>>>>>>> f963d2c0 (.)
+=======
+            sender: 'SALUTEORA',
+>>>>>>> f963d2c0 (.)
+=======
+            sender: 'SALUTEORA',
+>>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fea359347 (.)
+=======
+            sender: '<nome progetto>',
+=======
+            sender: 'SALUTEORA',
+>>>>>>> 7bac387 (.)
+>>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
+=======
+            sender: 'SALUTEORA',
+>>>>>>> f963d2c0 (.)
+=======
+            sender: '<nome progetto>',
+=======
+            sender: 'SALUTEORA',
+>>>>>>> 7bac387 (.)
+>>>>>>> 36ac4fc1 (.)
+=======
+            sender: 'SALUTEORA',
+>>>>>>> f963d2c0 (.)
+=======
+            sender: 'SALUTEORA',
+>>>>>>> f963d2c0 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> fea359347 (.)
+=======
+            sender: '<nome progetto>',
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
             batchSize: 100,
             delayBetweenBatches: 1
         )->onQueue('bulk-sms')->execute();
@@ -924,3 +1120,5 @@ class NetfunNotificationIntegrationTest extends TestCase
 - [Laravel Logging](https://laravel.com/docs/logging)
 - [Laravel Cache](https://laravel.com/docs/cache)
 - [Prometheus PHP Client](https://github.com/promphp/prometheus_client_php) 
+=======
+>>>>>>> 301ad8b44 (.)

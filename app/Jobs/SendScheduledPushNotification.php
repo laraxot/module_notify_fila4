@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -5,7 +6,14 @@ declare(strict_types=1);
 namespace Modules\Notify\Jobs;
 
 use Exception;
+<<<<<<< HEAD
 use Throwable;
+=======
+<<<<<<< HEAD
+use Throwable;
+=======
+>>>>>>> laraxot/develop
+>>>>>>> 331118f25 (.)
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
@@ -14,6 +22,16 @@ use Illuminate\Queue\SerializesModels;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Log;
 use Modules\Notify\Services\PushNotificationService;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+use Throwable;
+=======
+>>>>>>> 5fd545e4 (.)
+>>>>>>> laraxot/develop
+>>>>>>> 331118f25 (.)
 use Webmozart\Assert\Assert;
 
 /**
@@ -98,3 +116,5 @@ class SendScheduledPushNotification implements ShouldQueue
         Cache::forget("scheduled_push:{$this->jobId}");
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

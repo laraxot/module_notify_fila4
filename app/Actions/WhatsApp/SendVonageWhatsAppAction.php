@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -8,23 +9,1590 @@ use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Facades\Log;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use Illuminate\Support\Str;
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+>>>>>>> e53a56570 (.)
+=======
+=======
+=======
+use Illuminate\Support\Str;
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 use Modules\Notify\Datas\WhatsAppData;
 use Spatie\QueueableAction\QueueableAction;
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use Illuminate\Support\Str;
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+=======
+use Illuminate\Support\Str;
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+=======
+=======
+use Illuminate\Support\Str;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+=======
+use Illuminate\Support\Str;
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> e53a56570 (.)
+=======
+=======
+use Illuminate\Support\Str;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> 331118f25 (.)
+use Modules\Notify\Datas\WhatsAppData;
+use Spatie\QueueableAction\QueueableAction;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 2f135ef98 (.)
+
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b19cd40 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+use Illuminate\Support\Str;
+=======
+=======
+use Illuminate\Support\Str;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+use Modules\Notify\Datas\WhatsAppData;
+use Spatie\QueueableAction\QueueableAction;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a070a65a5 (.)
+=======
+>>>>>>> f87b41c3b (.)
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> a070a65a5 (.)
+>>>>>>> 75179b85 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 1619767d8 (.)
+>>>>>>> 82ae73be (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+=======
+>>>>>>> 510809c6f (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+=======
+use Illuminate\Support\Str;
+use Modules\Notify\Datas\WhatsAppData;
+use Spatie\QueueableAction\QueueableAction;
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f87b41c3b (.)
+>>>>>>> 75179b85 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8dc1f2ed6 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cbb586cb0 (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 58816034 (.)
+=======
+use Illuminate\Support\Str;
+use Modules\Notify\Datas\WhatsAppData;
+use Spatie\QueueableAction\QueueableAction;
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 3f537838 (.)
+=======
+use Illuminate\Support\Str;
+use Modules\Notify\Datas\WhatsAppData;
+use Spatie\QueueableAction\QueueableAction;
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+>>>>>>> 75179b855 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 161887a2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f87b41c3b (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+<<<<<<< HEAD
+>>>>>>> 11b43e822 (.)
+=======
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 4689a827 (.)
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> a070a65a5 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 use function Safe\json_decode;
 
 final class SendVonageWhatsAppAction
 {
     use QueueableAction;
 
+<<<<<<< HEAD
     private string $apiKey;
     private string $apiSecret;
     private string $baseUrl = 'https://api.nexmo.com/v1/messages';
+=======
+    private string $apiKey;
+    private string $apiSecret;
+    private string $baseUrl = 'https://api.nexmo.com/v1/messages';
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    private string $apiKey;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+    protected bool $debug;
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> f1c9518b (.)
+
+>>>>>>> f1c9518b (.)
+    private string $apiSecret;
+    private string $baseUrl = 'https://api.nexmo.com/v1/messages';
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
     /** @var array<string, mixed> */
     private array $vars = [];
     protected bool $debug;
     protected int $timeout;
+<<<<<<< HEAD
     protected ?string $defaultSender;
+=======
+    protected ?string $defaultSender;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 26d39e2eb (.)
+    protected ?string $defaultSender;
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
+=======
+    private string $apiSecret;
+    private string $baseUrl = 'https://api.nexmo.com/v1/messages';
+>>>>>>> f1c9518b (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> e53a56570 (.)
+    private array $vars = [];
+    protected bool $debug;
+    protected int $timeout;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> a070a65a5 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
+    protected null|string $defaultSender;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> a070a65a5 (.)
+=======
+>>>>>>> e53a56570 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
+>>>>>>> 75179b85 (.)
+=======
+=======
+    protected ?string $defaultSender;
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 1619767d8 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+    protected null|string $defaultSender;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 4689a827 (.)
+=======
+=======
+>>>>>>> 510809c6f (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    protected null|string $defaultSender;
+=======
+    protected ?string $defaultSender;
+>>>>>>> a12f125f4a (.)
+=======
+    protected null|string $defaultSender;
+>>>>>>> b93ef594b4 (.)
+=======
+    protected ?string $defaultSender;
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+=======
+    protected ?string $defaultSender;
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+    private array $vars = [];
+    protected bool $debug;
+    protected int $timeout;
+<<<<<<< HEAD
+<<<<<<< HEAD
+    protected null|string $defaultSender;
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+=======
+    protected ?string $defaultSender;
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+    protected null|string $defaultSender;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+=======
+    protected ?string $defaultSender;
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+    protected null|string $defaultSender;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
+=======
+=======
+    protected ?string $defaultSender;
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+=======
+    protected null|string $defaultSender;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+=======
+    protected ?string $defaultSender;
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+=======
+    protected null|string $defaultSender;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2941b0bd (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 98d837b9 (.)
+=======
+    protected null|string $defaultSender;
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 23f115647 (.)
+>>>>>>> 99ff506 (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+    protected ?string $defaultSender;
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 95531e1 (.)
+<<<<<<< HEAD
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+>>>>>>> 95531e1 (.)
+>>>>>>> 4d2eb53e (.)
+=======
+=======
+    protected null|string $defaultSender;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 0f07e6d (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 4d2eb53e (.)
+=======
+=======
+>>>>>>> e11621f (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 888799d0 (.)
+=======
+=======
+=======
+=======
+<<<<<<< HEAD
+
+    protected ?string $defaultSender;
+=======
+<<<<<<< HEAD
+    protected null|string $defaultSender;
+=======
+>>>>>>> 2effe245 (.)
+=======
+=======
+=======
+>>>>>>> f2e64178 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    protected null|string $defaultSender;
+=======
+    protected ?string $defaultSender;
+>>>>>>> a12f125f4a (.)
+=======
+    protected null|string $defaultSender;
+>>>>>>> b93ef594b4 (.)
+=======
+    protected ?string $defaultSender;
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f2e64178 (.)
+=======
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+
+    protected ?string $defaultSender;
+>>>>>>> 985c7bda (.)
+=======
+
+<<<<<<< HEAD
+    protected ?string $defaultSender;
+=======
+    protected null|string $defaultSender;
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
+=======
+    private string $apiSecret;
+
+    private string $baseUrl = 'https://api.nexmo.com/v1/messages';
+
+    private array $vars = [];
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
+    private string $apiKey;
+    private string $apiSecret;
+    private string $baseUrl = 'https://api.nexmo.com/v1/messages';
+    private array $vars = [];
+    protected bool $debug;
+    protected int $timeout;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    protected null|string $defaultSender;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
+=======
+=======
+    protected ?string $defaultSender;
+<<<<<<< HEAD
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 82ae73b (.)
+<<<<<<< HEAD
+>>>>>>> 2fc60436 (.)
+=======
+=======
+=======
+    protected null|string $defaultSender;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+<<<<<<< HEAD
+>>>>>>> ce89c8bb (.)
+=======
+=======
+>>>>>>> 9777d1b (.)
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+=======
+    protected ?string $defaultSender;
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+    protected null|string $defaultSender;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 4689a827 (.)
+=======
+<<<<<<< HEAD
+
+    protected ?string $defaultSender;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    protected null|string $defaultSender;
+>>>>>>> 2effe245 (.)
+=======
+    protected null|string $defaultSender;
+>>>>>>> d09cb759 (.)
+=======
+<<<<<<< HEAD
+    protected null|string $defaultSender;
+>>>>>>> d09cb759 (.)
+=======
+    protected null|string $defaultSender;
+>>>>>>> 4689a827 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    protected null|string $defaultSender;
+=======
+    protected ?string $defaultSender;
+>>>>>>> a12f125f4a (.)
+=======
+    protected null|string $defaultSender;
+>>>>>>> b93ef594b4 (.)
+=======
+    protected ?string $defaultSender;
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+=======
+    protected ?string $defaultSender;
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+<<<<<<< HEAD
+=======
+=======
+    protected null|string $defaultSender;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+=======
+=======
+>>>>>>> f1c9518b (.)
+    private string $apiSecret;
+    private string $baseUrl = 'https://api.nexmo.com/v1/messages';
+    private array $vars = [];
+    protected bool $debug;
+    protected int $timeout;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    protected null|string $defaultSender;
+<<<<<<< HEAD
+>>>>>>> 99ff506 (.)
+<<<<<<< HEAD
+>>>>>>> f1c9518b (.)
+=======
+=======
+=======
+    protected ?string $defaultSender;
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+>>>>>>> 95531e1 (.)
+<<<<<<< HEAD
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+=======
+    protected null|string $defaultSender;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 0f07e6d (.)
+<<<<<<< HEAD
+>>>>>>> 4d2eb53e (.)
+=======
+=======
+>>>>>>> e11621f (.)
+<<<<<<< HEAD
+>>>>>>> 888799d0 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> f2e64178 (.)
+=======
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
+=======
+
+    protected ?string $defaultSender;
+>>>>>>> 985c7bda (.)
+=======
+
+    protected ?string $defaultSender;
+=======
+    protected null|string $defaultSender;
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+    protected null|string $defaultSender;
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
+=======
+=======
+    protected ?string $defaultSender;
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+>>>>>>> 82ae73b (.)
+<<<<<<< HEAD
+>>>>>>> 2fc60436 (.)
+=======
+=======
+=======
+    protected null|string $defaultSender;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+<<<<<<< HEAD
+>>>>>>> ce89c8bb (.)
+=======
+=======
+>>>>>>> 9777d1b (.)
+>>>>>>> 58816034 (.)
+=======
+    protected null|string $defaultSender;
+>>>>>>> 75179b85 (.)
+=======
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 011072e4 (.)
+    protected null|string $defaultSender;
+=======
+    protected ?string $defaultSender;
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 82ae73be (.)
+=======
+=======
+    protected null|string $defaultSender;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+    protected null|string $defaultSender;
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+    protected null|string $defaultSender;
+>>>>>>> 3f537838 (.)
+=======
+    protected null|string $defaultSender;
+>>>>>>> 75179b855 (.)
+=======
+    protected null|string $defaultSender;
+=======
+    protected ?string $defaultSender;
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+    protected null|string $defaultSender;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+    protected null|string $defaultSender;
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+    protected null|string $defaultSender;
+>>>>>>> 3f537838 (.)
+=======
+    protected null|string $defaultSender;
+=======
+    protected ?string $defaultSender;
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+=======
+    protected null|string $defaultSender;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+=======
+    protected null|string $defaultSender;
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+    protected null|string $defaultSender;
+>>>>>>> 2941b0bd (.)
+=======
+    protected null|string $defaultSender;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> 95531e1 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+=======
+>>>>>>> e11621f (.)
+>>>>>>> 888799d0 (.)
+=======
+=======
+>>>>>>> 23f115647 (.)
+=======
+=======
+=======
+<<<<<<< HEAD
+
+    protected ?string $defaultSender;
+=======
+<<<<<<< HEAD
+    protected null|string $defaultSender;
+=======
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    protected null|string $defaultSender;
+=======
+    protected ?string $defaultSender;
+>>>>>>> a12f125f4a (.)
+=======
+    protected null|string $defaultSender;
+>>>>>>> b93ef594b4 (.)
+=======
+    protected ?string $defaultSender;
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+>>>>>>> f2e64178 (.)
+=======
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> d09cb759 (.)
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+=======
+>>>>>>> 2941b0bd (.)
+>>>>>>> a070a65a5 (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
+=======
+>>>>>>> 99ff506 (.)
+=======
+=======
+    protected ?string $defaultSender;
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+>>>>>>> 95531e1 (.)
+<<<<<<< HEAD
+>>>>>>> 3f39ac8b (.)
+<<<<<<< HEAD
+>>>>>>> f87b41c3b (.)
+=======
+=======
+=======
+=======
+    protected null|string $defaultSender;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 0f07e6d (.)
+>>>>>>> 4d2eb53e (.)
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> f2e64178 (.)
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+>>>>>>> 26d39e2eb (.)
+=======
+=======
+
+    protected ?string $defaultSender;
+>>>>>>> 985c7bda (.)
+=======
+
+<<<<<<< HEAD
+    protected ?string $defaultSender;
+=======
+    protected null|string $defaultSender;
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
+<<<<<<< HEAD
+>>>>>>> f15c41e60 (.)
+=======
+=======
+    private string $apiSecret;
+
+    private string $baseUrl = 'https://api.nexmo.com/v1/messages';
+
+    private array $vars = [];
+=======
+    private string $apiKey;
+    private string $apiSecret;
+    private string $baseUrl = 'https://api.nexmo.com/v1/messages';
+    private array $vars = [];
+    protected bool $debug;
+    protected int $timeout;
+<<<<<<< HEAD
+<<<<<<< HEAD
+    protected null|string $defaultSender;
+<<<<<<< HEAD
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+>>>>>>> 7ceb00286 (.)
+=======
+=======
+=======
+=======
+    protected ?string $defaultSender;
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+>>>>>>> 82ae73b (.)
+<<<<<<< HEAD
+>>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
+>>>>>>> be698cf2c (.)
+=======
+=======
+=======
+=======
+    protected null|string $defaultSender;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 
     /**
      * Create a new action instance.
@@ -32,13 +1600,145 @@ final class SendVonageWhatsAppAction
     public function __construct()
     {
         $apiKey = config('services.vonage.api_key');
+<<<<<<< HEAD
         if (!is_string($apiKey)) {
+=======
+        if (!is_string($apiKey)) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if (!is_string($apiKey)) {
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> e53a56570 (.)
+        if (! is_string($apiKey)) {
+=======
+        if (!is_string($apiKey)) {
+>>>>>>> 99ff506 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f1c9518b (.)
+=======
+        if (! is_string($apiKey)) {
+=======
+        if (!is_string($apiKey)) {
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+=======
+        if (!is_string($apiKey)) {
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f1c9518b (.)
+=======
+        if (! is_string($apiKey)) {
+=======
+        if (!is_string($apiKey)) {
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+=======
+        if (!is_string($apiKey)) {
+>>>>>>> 75179b85 (.)
+=======
+        if (!is_string($apiKey)) {
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
             throw new Exception('put [VONAGE_KEY] variable to your .env and config [services.vonage.api_key]');
         }
         $this->apiKey = $apiKey;
 
         $apiSecret = config('services.vonage.api_secret');
+<<<<<<< HEAD
         if (!is_string($apiSecret)) {
+=======
+        if (!is_string($apiSecret)) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if (!is_string($apiSecret)) {
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> e53a56570 (.)
+        if (! is_string($apiSecret)) {
+=======
+        if (!is_string($apiSecret)) {
+>>>>>>> 99ff506 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f1c9518b (.)
+=======
+        if (! is_string($apiSecret)) {
+=======
+        if (!is_string($apiSecret)) {
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+=======
+        if (!is_string($apiSecret)) {
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f1c9518b (.)
+=======
+        if (! is_string($apiSecret)) {
+=======
+        if (!is_string($apiSecret)) {
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+=======
+        if (!is_string($apiSecret)) {
+>>>>>>> 75179b85 (.)
+=======
+        if (!is_string($apiSecret)) {
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
             throw new Exception('put [VONAGE_SECRET] variable to your .env and config [services.vonage.api_secret]');
         }
         $this->apiSecret = $apiSecret;
@@ -48,20 +1748,1533 @@ final class SendVonageWhatsAppAction
         $defaultSender = config('whatsapp.from');
         $this->defaultSender = $defaultSender;
         $this->debug = (bool) config('whatsapp.debug', false);
+<<<<<<< HEAD
         $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> a070a65a5 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 75179b85 (.)
+=======
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+=======
+>>>>>>> 011072e4 (.)
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 2f135ef98 (.)
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 2f135ef98 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 9777d1b3 (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> d09cb759 (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> d09cb759 (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> d09cb759 (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 4689a827 (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> f2e64178 (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 2effe245 (.)
+=======
+<<<<<<< HEAD
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 4689a827 (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> f2e64178 (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 2effe245 (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> d09cb759 (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 4689a827 (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> f2e64178 (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 2effe245 (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> d09cb759 (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> d09cb759 (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 4689a827 (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> f2e64178 (.)
+=======
+=======
+>>>>>>> 510809c6f (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
+>>>>>>> a12f125f4a (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> b93ef594b4 (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+>>>>>>> d09cb759 (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 3f537838 (.)
+=======
+=======
+>>>>>>> 207ac35 (.)
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+>>>>>>> de02998b (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 75179b85 (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 3f537838 (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 75179b85 (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 3f537838 (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 3f537838 (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 2941b0bd (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+<<<<<<< HEAD
+=======
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 985c7bda (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> 2fc60436 (.)
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
+=======
+=======
+>>>>>>> 207ac35 (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 82ae73b (.)
+<<<<<<< HEAD
+>>>>>>> 2fc60436 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 82ae73b (.)
+>>>>>>> ce89c8bb (.)
+=======
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce89c8bb (.)
+=======
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 9777d1b (.)
+>>>>>>> 58816034 (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 75179b85 (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 3f537838 (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 2941b0bd (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 985c7bda (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73b (.)
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 9777d1b (.)
+>>>>>>> 58816034 (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 75179b85 (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 3f537838 (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+<<<<<<< HEAD
+>>>>>>> 75179b855 (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 3f537838 (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+=======
+>>>>>>> b207a9b1a (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1619767d8 (.)
+=======
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 2941b0bd (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 2941b0bd (.)
+>>>>>>> a070a65a5 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+=======
+=======
+=======
+>>>>>>> 207ac35 (.)
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+>>>>>>> 82ae73b (.)
+<<<<<<< HEAD
+>>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
+>>>>>>> be698cf2c (.)
+=======
+=======
+=======
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
     }
 
     /**
      * Execute the action.
      *
+<<<<<<< HEAD
      * @param WhatsAppData $whatsAppData I dati del messaggio WhatsApp
      * @return array<string, mixed> Risultato dell'operazione
+=======
+     * @param WhatsAppData $whatsAppData I dati del messaggio WhatsApp
+<<<<<<< HEAD
+     * @return array<string, mixed> Risultato dell'operazione
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @param WhatsAppData $whatsAppData I dati del messaggio WhatsApp
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @return array<string, mixed> Risultato dell'operazione
+=======
+     * @return array Risultato dell'operazione
+>>>>>>> 75179b85 (.)
+=======
+     * @return array Risultato dell'operazione
+>>>>>>> 75179b85 (.)
+=======
+     * @return array Risultato dell'operazione
+>>>>>>> 75179b85 (.)
+=======
+     * @return array Risultato dell'operazione
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+=======
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> f1c9518b (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+     * @param  WhatsAppData  $whatsAppData  I dati del messaggio WhatsApp
+     * @return array Risultato dell'operazione
+     *
+=======
+     * @param WhatsAppData $whatsAppData I dati del messaggio WhatsApp
+     * @return array Risultato dell'operazione
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+=======
+     * @param WhatsAppData $whatsAppData I dati del messaggio WhatsApp
+     * @return array Risultato dell'operazione
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+=======
+     * @param WhatsAppData $whatsAppData I dati del messaggio WhatsApp
+     * @return array Risultato dell'operazione
+>>>>>>> 75179b85 (.)
+=======
+     * @param WhatsAppData $whatsAppData I dati del messaggio WhatsApp
+     * @return array Risultato dell'operazione
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+     * @return array<string, mixed> Risultato dell'operazione
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
      * @throws Exception In caso di errore durante l'invio
      */
     public function execute(WhatsAppData $whatsAppData): array
     {
         $from = $whatsAppData->from ?? $this->defaultSender;
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
+=======
+=======
+>>>>>>> 207ac35e (.)
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+=======
+>>>>>>> 3f39ac8b (.)
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
+
+=======
+        
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
+=======
+
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+
+=======
+=======
+
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+=======
+>>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+=======
+
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+=======
+>>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> 2effe245 (.)
+=======
+
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+=======
+>>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> 2effe245 (.)
+=======
+
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 510809c6f (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+        
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+>>>>>>> d09cb759 (.)
+=======
+
+>>>>>>> 3f537838 (.)
+=======
+
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+>>>>>>> 3f537838 (.)
+=======
+
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+=======
+
+>>>>>>> 58816034 (.)
+=======
+
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cbb586cb0 (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 58816034 (.)
+=======
+
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+>>>>>>> 3f537838 (.)
+=======
+<<<<<<< HEAD
+
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+
+>>>>>>> 98d837b9 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+=======
+
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
+=======
+>>>>>>> de02998b (.)
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+=======
+
+>>>>>>> 2941b0bd (.)
+>>>>>>> a070a65a5 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+=======
+
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
+=======
+
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
         // Log di debug se abilitato
         if ($this->debug) {
             Log::debug('Invio WhatsApp Vonage', [
@@ -70,15 +3283,1735 @@ final class SendVonageWhatsAppAction
                 'message_length' => strlen($whatsAppData->body),
             ]);
         }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
+=======
+=======
+>>>>>>> 207ac35e (.)
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+=======
+>>>>>>> 3f39ac8b (.)
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
+
+=======
+        
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
+=======
+
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+
+=======
+=======
+
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+=======
+>>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+=======
+
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+=======
+>>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> 2effe245 (.)
+=======
+
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+=======
+>>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> 2effe245 (.)
+=======
+
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 510809c6f (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+        
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+>>>>>>> d09cb759 (.)
+=======
+
+>>>>>>> 3f537838 (.)
+=======
+
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+>>>>>>> 3f537838 (.)
+=======
+
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+=======
+
+>>>>>>> 58816034 (.)
+=======
+
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cbb586cb0 (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 58816034 (.)
+=======
+
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+>>>>>>> 3f537838 (.)
+=======
+<<<<<<< HEAD
+
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+
+>>>>>>> 98d837b9 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+=======
+
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
+=======
+>>>>>>> de02998b (.)
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+=======
+
+>>>>>>> 2941b0bd (.)
+>>>>>>> a070a65a5 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+=======
+
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
+=======
+
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
         $client = new Client([
             'timeout' => $this->timeout,
             'headers' => [
                 'Content-Type' => 'application/json',
                 'Accept' => 'application/json',
+<<<<<<< HEAD
             ],
         ]);
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+>>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+<<<<<<< HEAD
+>>>>>>> 10292b60a (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+>>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> de02998b (.)
+>>>>>>> b207a9b1a (.)
+            ],
+        ]);
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> a070a65a5 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 4689a827 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> f2e64178 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+=======
+>>>>>>> 3f39ac8b (.)
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> be698cf2c (.)
+            ],
+        ]);
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> de02998b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> be698cf2c (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+<<<<<<< HEAD
+>>>>>>> b207a9b1a (.)
+=======
+=======
+>>>>>>> 3f39ac8b (.)
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2fc60436 (.)
+>>>>>>> be698cf2c (.)
+            ]
+        ]);
+        
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> be698cf2c (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+=======
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> f2e64178 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 4689a827 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+=======
+>>>>>>> 4d2eb53e (.)
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> cbb586cb0 (.)
+            ],
+        ]);
+
+=======
+            ]
+        ]);
+        
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+>>>>>>> a12f125f4a (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> cbb586cb0 (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> f2e64178 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 2f135ef98 (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+>>>>>>> f2e64178 (.)
+=======
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> cbb586cb0 (.)
+            ],
+        ]);
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> cbb586cb0 (.)
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+            ],
+        ]);
+
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> 4689a827 (.)
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
+>>>>>>> b93ef594b4 (.)
+=======
+            ]
+        ]);
+        
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+>>>>>>> d09cb759 (.)
+=======
+            ],
+        ]);
+
+>>>>>>> 3f537838 (.)
+=======
+            ],
+        ]);
+
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+            ],
+        ]);
+
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+            ],
+        ]);
+
+>>>>>>> 3f537838 (.)
+=======
+            ],
+        ]);
+
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+=======
+            ],
+        ]);
+
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+            ],
+        ]);
+
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+            ],
+        ]);
+
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a070a65a5 (.)
+=======
+            ],
+        ]);
+
+>>>>>>> 2941b0bd (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+            ],
+        ]);
+
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+            ],
+        ]);
+
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+=======
+            ],
+        ]);
+
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+=======
+            ],
+        ]);
+
+>>>>>>> 58816034 (.)
+=======
+            ],
+        ]);
+
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+            ],
+        ]);
+
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 11b43e822 (.)
+=======
+            ],
+        ]);
+
+>>>>>>> 3f537838 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+            ],
+        ]);
+
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+            ],
+        ]);
+
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+=======
+            ],
+        ]);
+
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+            ],
+        ]);
+
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+            ],
+        ]);
+
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
+=======
+            ],
+        ]);
+
+>>>>>>> 58816034 (.)
+=======
+            ],
+        ]);
+
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+            ],
+        ]);
+
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+            ],
+        ]);
+
+>>>>>>> 3f537838 (.)
+=======
+<<<<<<< HEAD
+            ],
+        ]);
+
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+            ],
+        ]);
+
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+            ],
+        ]);
+
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+=======
+            ],
+        ]);
+
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+            ],
+        ]);
+
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+            ],
+        ]);
+
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8c19c8df2 (.)
+=======
+            ],
+        ]);
+
+>>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
+=======
+>>>>>>> de02998b (.)
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> a070a65a5 (.)
+=======
+=======
+>>>>>>> 3f39ac8b (.)
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
+=======
+            ],
+        ]);
+
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
         $payload = [
             'from' => [
                 'type' => 'whatsapp',
@@ -95,13 +5028,1143 @@ final class SendVonageWhatsAppAction
                 ],
             ],
         ];
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 
         // Gestione diversi tipi di messaggi
         if ($whatsAppData->type === 'media' && !empty($whatsAppData->media)) {
             /** @var string $mediaUrl */
             $mediaUrl = is_string($whatsAppData->media[0]) ? $whatsAppData->media[0] : (string) $whatsAppData->media[0];
             $mediaType = $this->determineMediaType($mediaUrl);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 510809c6f (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 11b43e822 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> b207a9b1a (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 1619767d8 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 8dc1f2ed6 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> a070a65a5 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> f87b41c3b (.)
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+=======
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
+>>>>>>> 331118f25 (.)
+
+=======
+        
+>>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
+>>>>>>> 2f135ef98 (.)
+=======
+
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 26d39e2eb (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+        
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+>>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 98d837b9 (.)
+
+>>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+=======
+
+=======
+        
+>>>>>>> b19cd40 (.)
+>>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
+        // Gestione diversi tipi di messaggi
+<<<<<<< HEAD
+        if ($whatsAppData->type === 'media' && !empty($whatsAppData->media)) {
+            /** @var string $mediaUrl */
+            $mediaUrl = is_string($whatsAppData->media[0]) ? $whatsAppData->media[0] : (string) $whatsAppData->media[0];
+            $mediaType = $this->determineMediaType($mediaUrl);
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+        if ($whatsAppData->type === 'media' && !empty($whatsAppData->media)) {
+            /** @var string $mediaUrl */
+            $mediaUrl = is_string($whatsAppData->media[0]) ? $whatsAppData->media[0] : (string) $whatsAppData->media[0];
+<<<<<<< HEAD
+=======
+            $mediaUrl = $whatsAppData->media[0];
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+<<<<<<< HEAD
+        if ($whatsAppData->type === 'media' && ! empty($whatsAppData->media)) {
+            $mediaUrl = is_string($whatsAppData->media[0] ?? null) ? $whatsAppData->media[0] : '';
+=======
+        if ($whatsAppData->type === 'media' && !empty($whatsAppData->media)) {
+            $mediaUrl = $whatsAppData->media[0];
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+            $mediaType = $this->determineMediaType($mediaUrl);
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> be698cf2c (.)
+
+<<<<<<< HEAD
+>>>>>>> 2f135ef98 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+        if ($whatsAppData->type === 'media' && ! empty($whatsAppData->media)) {
+            $mediaUrl = is_string($whatsAppData->media[0] ?? null) ? $whatsAppData->media[0] : '';
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
+=======
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+        
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> 8dc1f2ed6 (.)
+        // Gestione diversi tipi di messaggi
+>>>>>>> 510809c6f (.)
+        if ($whatsAppData->type === 'media' && !empty($whatsAppData->media)) {
+            $mediaUrl = $whatsAppData->media[0];
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> c8b1c8bf (.)
+            $mediaType = $this->determineMediaType($mediaUrl);
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            
+>>>>>>> b19cd40 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+
+=======
+>>>>>>> f87b41c3b (.)
+=======
+        
+>>>>>>> b19cd40 (.)
+        // Gestione diversi tipi di messaggi
+<<<<<<< HEAD
+        if ($whatsAppData->type === 'media' && !empty($whatsAppData->media)) {
+=======
+<<<<<<< HEAD
+        if ($whatsAppData->type === 'media' && ! empty($whatsAppData->media)) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if ($whatsAppData->type === 'media' && !empty($whatsAppData->media)) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+            $mediaUrl = $whatsAppData->media[0];
+=======
+            $mediaUrl = $whatsAppData->media[0] ?? null;
+            if (! is_string($mediaUrl)) {
+                throw new \Exception('Invalid media URL');
+            }
+>>>>>>> 05bc3ad (.)
+=======
+            $mediaUrl = $whatsAppData->media[0];
+>>>>>>> ab15d0e (.)
+=======
+            $mediaUrl = is_string($whatsAppData->media[0] ?? null) ? $whatsAppData->media[0] : '';
+>>>>>>> 6a92a74 (.)
+            $mediaType = $this->determineMediaType($mediaUrl);
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 8c19c8df2 (.)
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
+>>>>>>> 75179b85 (.)
+=======
+=======
+            
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+            
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+            
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+=======
+            
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cbb586cb0 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+=======
+            
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+=======
+            
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+=======
+            
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+=======
+            
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cbb586cb0 (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 58816034 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
+
+=======
+        
+>>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
+=======
+>>>>>>> a070a65a5 (.)
+        // Gestione diversi tipi di messaggi
+        if ($whatsAppData->type === 'media' && !empty($whatsAppData->media)) {
+=======
+        if ($whatsAppData->type === 'media' && ! empty($whatsAppData->media)) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if ($whatsAppData->type === 'media' && !empty($whatsAppData->media)) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+            $mediaUrl = $whatsAppData->media[0];
+=======
+            $mediaUrl = $whatsAppData->media[0] ?? null;
+            if (! is_string($mediaUrl)) {
+                throw new \Exception('Invalid media URL');
+            }
+>>>>>>> 05bc3ad (.)
+=======
+            $mediaUrl = $whatsAppData->media[0];
+>>>>>>> ab15d0e (.)
+=======
+            $mediaUrl = is_string($whatsAppData->media[0] ?? null) ? $whatsAppData->media[0] : '';
+>>>>>>> 6a92a74 (.)
+            $mediaType = $this->determineMediaType($mediaUrl);
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
+>>>>>>> 75179b85 (.)
+=======
+=======
+            
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+=======
+>>>>>>> 510809c6f (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+            
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+            
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+=======
+            
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+=======
+            
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+=======
+            
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+
+        // Gestione diversi tipi di messaggi
+<<<<<<< HEAD
+        if ($whatsAppData->type === 'media' && !empty($whatsAppData->media)) {
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> e53a56570 (.)
+        if ($whatsAppData->type === 'media' && ! empty($whatsAppData->media)) {
+=======
+        if ($whatsAppData->type === 'media' && !empty($whatsAppData->media)) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+            $mediaUrl = $whatsAppData->media[0];
+            $mediaType = $this->determineMediaType($mediaUrl);
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a070a65a5 (.)
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 11b43e822 (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a070a65a5 (.)
+>>>>>>> 75179b85 (.)
+=======
+=======
+            
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+            
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+            
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+=======
+            
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+<<<<<<< HEAD
+=======
+            
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2941b0bd (.)
+=======
+=======
+            
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 98d837b9 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+>>>>>>> 1487fe812 (.)
+=======
+=======
+=======
+            
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+<<<<<<< HEAD
+>>>>>>> 10292b60a (.)
+=======
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+>>>>>>> bf5d31b0f (.)
+=======
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+>>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+<<<<<<< HEAD
+>>>>>>> 11b43e822 (.)
+=======
+=======
+=======
+            
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+=======
+>>>>>>> 2941b0bd (.)
+>>>>>>> a070a65a5 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
             $payload['message']['content'] = [
                 'type' => $mediaType,
                 $mediaType => [
@@ -109,81 +6172,6441 @@ final class SendVonageWhatsAppAction
                     'caption' => $whatsAppData->body,
                 ],
             ];
+<<<<<<< HEAD
         } elseif ($whatsAppData->type === 'template' && !empty($whatsAppData->template)) {
+=======
+        } elseif ($whatsAppData->type === 'template' && !empty($whatsAppData->template)) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        } elseif ($whatsAppData->type === 'template' && !empty($whatsAppData->template)) {
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> e53a56570 (.)
+        } elseif ($whatsAppData->type === 'template' && ! empty($whatsAppData->template)) {
+=======
+        } elseif ($whatsAppData->type === 'template' && !empty($whatsAppData->template)) {
+>>>>>>> 99ff506 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f1c9518b (.)
+=======
+        } elseif ($whatsAppData->type === 'template' && ! empty($whatsAppData->template)) {
+=======
+        } elseif ($whatsAppData->type === 'template' && !empty($whatsAppData->template)) {
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+=======
+        } elseif ($whatsAppData->type === 'template' && !empty($whatsAppData->template)) {
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f1c9518b (.)
+=======
+        } elseif ($whatsAppData->type === 'template' && ! empty($whatsAppData->template)) {
+=======
+        } elseif ($whatsAppData->type === 'template' && !empty($whatsAppData->template)) {
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+=======
+        } elseif ($whatsAppData->type === 'template' && !empty($whatsAppData->template)) {
+>>>>>>> 75179b85 (.)
+=======
+        } elseif ($whatsAppData->type === 'template' && !empty($whatsAppData->template)) {
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
             $payload['message']['content'] = [
                 'type' => 'template',
                 'template' => $whatsAppData->template,
             ];
         }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
+=======
+=======
+>>>>>>> 207ac35e (.)
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+=======
+>>>>>>> 3f39ac8b (.)
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
+
+=======
+        
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
+=======
+
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+
+=======
+=======
+
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+=======
+>>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+=======
+
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+=======
+>>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> 2effe245 (.)
+=======
+
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+=======
+>>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> 2effe245 (.)
+=======
+
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 510809c6f (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+        
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+>>>>>>> d09cb759 (.)
+=======
+
+>>>>>>> 3f537838 (.)
+=======
+
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+>>>>>>> 3f537838 (.)
+=======
+
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+=======
+
+>>>>>>> 58816034 (.)
+=======
+
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cbb586cb0 (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 58816034 (.)
+=======
+
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+>>>>>>> 3f537838 (.)
+=======
+<<<<<<< HEAD
+
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+
+>>>>>>> 98d837b9 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+=======
+
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
+=======
+>>>>>>> de02998b (.)
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+=======
+
+>>>>>>> 2941b0bd (.)
+>>>>>>> a070a65a5 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+=======
+
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
+=======
+
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
         try {
             $response = $client->post($this->baseUrl, [
                 'json' => $payload,
                 'auth' => [$this->apiKey, $this->apiSecret],
             ]);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 331118f25 (.)
 
             $statusCode = $response->getStatusCode();
             $responseContent = $response->getBody()->getContents();
             /** @var array<string, mixed> $responseData */
             $responseData = json_decode($responseContent, true) ?: [];
 
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a55aa5e96 (.)
+
+            $statusCode = $response->getStatusCode();
+            $responseContent = $response->getBody()->getContents();
+            /** @var array<string, mixed> $responseData */
+            $responseData = json_decode($responseContent, true) ?: [];
+
+<<<<<<< HEAD
+=======
+            
+>>>>>>> b19cd40 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
+
+=======
+            
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4e2ebfb (.)
+=======
+
+=======
+=======
+
+=======
+>>>>>>> 23f115647 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+            
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+            
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+>>>>>>> 8dc1f2ed6 (.)
+=======
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+
+<<<<<<< HEAD
+>>>>>>> a070a65a5 (.)
+=======
+=======
+            
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+>>>>>>> f87b41c3b (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+
+<<<<<<< HEAD
+>>>>>>> 8c19c8df2 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+            
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+            
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> be698cf2c (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cbb586cb0 (.)
+            $statusCode = $response->getStatusCode();
+            $responseContent = $response->getBody()->getContents();
+            /** @var array $responseData */
+            $responseData = json_decode($responseContent, true);
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> a070a65a5 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> a070a65a5 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 23f115647 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 8c19c8df2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 26d39e2eb (.)
+=======
+<<<<<<< HEAD
+>>>>>>> be698cf2c (.)
+>>>>>>> 75179b85 (.)
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
+
+=======
+            
+>>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
+=======
+
+=======
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+            
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+            
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+>>>>>>> 510809c6f (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 3f537838 (.)
+
+>>>>>>> 11b43e822 (.)
+            $statusCode = $response->getStatusCode();
+            $responseContent = $response->getBody()->getContents();
+            /** @var array $responseData */
+            $responseData = json_decode($responseContent, true);
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
+>>>>>>> 75179b85 (.)
+=======
+=======
+            
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+=======
+            
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+=======
+            
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
             // Salva i dati della risposta nelle variabili dell'azione
             $this->vars['status_code'] = $statusCode;
             $this->vars['status_txt'] = $responseContent;
             $this->vars['response_data'] = $responseData;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 3f39ac8b (.)
 
+=======
+            
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            // Salva i dati della risposta nelle variabili dell'azione
+            $this->vars['status_code'] = $statusCode;
+            $this->vars['status_txt'] = $responseContent;
+            $this->vars['response_data'] = $responseData;
+=======
+>>>>>>> 207ac35e (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 4689a827 (.)
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f2e64178 (.)
+=======
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+
+=======
+            
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b19cd40 (.)
+=======
+
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 4e2ebfb (.)
+=======
+>>>>>>> 1619767d8 (.)
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 510809c6f (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+            
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+            
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
+=======
+=======
+            
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+<<<<<<< HEAD
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+=======
+            
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+=======
+            
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+=======
+            
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+=======
+            
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3f537838 (.)
+=======
+=======
+            
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+=======
+            
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+=======
+            
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+=======
+            
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 75179b855 (.)
+=======
+=======
+            
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+=======
+>>>>>>> b207a9b1a (.)
+=======
+            
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+=======
+            
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> be698cf2c (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
+            // Salva i dati della risposta nelle variabili dell'azione
+            $this->vars['status_code'] = $statusCode;
+            $this->vars['status_txt'] = $responseContent;
+            $this->vars['response_data'] = $responseData;
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 82ae73be (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 10292b60a (.)
+=======
+=======
+>>>>>>> de02998b (.)
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> be698cf2c (.)
+
+=======
+            
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
+            // Salva i dati della risposta nelle variabili dell'azione
+            $this->vars['status_code'] = $statusCode;
+            $this->vars['status_txt'] = $responseContent;
+            $this->vars['response_data'] = $responseData;
+=======
+>>>>>>> 207ac35e (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 4689a827 (.)
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f2e64178 (.)
+=======
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 4689a827 (.)
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f2e64178 (.)
+=======
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 4689a827 (.)
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 510809c6f (.)
+<<<<<<< HEAD
+
+=======
+            
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
+>>>>>>> b19cd40 (.)
+=======
+
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 4e2ebfb (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 510809c6f (.)
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+            
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+=======
+            
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 161887a2 (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 888799d0 (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
+            // Salva i dati della risposta nelle variabili dell'azione
+            $this->vars['status_code'] = $statusCode;
+            $this->vars['status_txt'] = $responseContent;
+            $this->vars['response_data'] = $responseData;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+>>>>>>> 207ac35e (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+>>>>>>> 011072e4 (.)
+=======
+
+>>>>>>> 4d2eb53e (.)
+=======
+
+>>>>>>> ce89c8bb (.)
+=======
+
+>>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 011072e4 (.)
+=======
+
+>>>>>>> 4d2eb53e (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+>>>>>>> ce89c8bb (.)
+=======
+
+>>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 011072e4 (.)
+=======
+
+>>>>>>> 4d2eb53e (.)
+=======
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> cbb586cb0 (.)
+            
+>>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> cbb586cb0 (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+            // Salva i dati della risposta nelle variabili dell'azione
+            $this->vars['status_code'] = $statusCode;
+            $this->vars['status_txt'] = $responseContent;
+            $this->vars['response_data'] = $responseData;
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+            
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+            
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+=======
+            
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+>>>>>>> 3f537838 (.)
+=======
+
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+
+>>>>>>> 58816034 (.)
+=======
+
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ce89c8bb (.)
+=======
+
+>>>>>>> 58816034 (.)
+=======
+
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+>>>>>>> 3f537838 (.)
+=======
+<<<<<<< HEAD
+
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+
+>>>>>>> 98d837b9 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+=======
+
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
+=======
+>>>>>>> de02998b (.)
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+=======
+
+>>>>>>> 2941b0bd (.)
+>>>>>>> a070a65a5 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+=======
+>>>>>>> 4d2eb53e (.)
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+=======
+
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
+=======
+
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
             Log::info('WhatsApp Vonage inviato con successo', [
                 'to' => $whatsAppData->to,
                 'response_code' => $statusCode,
             ]);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 331118f25 (.)
 
             return [
                 'success' => $statusCode >= 200 && $statusCode < 300,
                 'message_id' => isset($responseData['message_uuid']) && is_string($responseData['message_uuid'])
                     ? $responseData['message_uuid']
                     : null,
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a55aa5e96 (.)
+
+            return [
+                'success' => $statusCode >= 200 && $statusCode < 300,
+                'message_id' => isset($responseData['message_uuid']) && is_string($responseData['message_uuid'])
+                    ? $responseData['message_uuid']
+                    : null,
+<<<<<<< HEAD
+=======
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+            return [
+                'success' => $statusCode >= 200 && $statusCode < 300,
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+            
+            return [
+                'success' => ($statusCode >= 200 && $statusCode < 300),
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> d09cb759 (.)
+=======
+
+            return [
+                'success' => $statusCode >= 200 && $statusCode < 300,
+<<<<<<< HEAD
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+            
+            return [
+                'success' => ($statusCode >= 200 && $statusCode < 300),
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+                'message_id' => $responseData['message_uuid'] ?? null,
+>>>>>>> 75179b85 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> de02998b (.)
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+=======
+>>>>>>> 3f39ac8b (.)
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> be698cf2c (.)
+
+            return [
+                'success' => $statusCode >= 200 && $statusCode < 300,
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> be698cf2c (.)
+            
+            return [
+                'success' => ($statusCode >= 200 && $statusCode < 300),
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1619767d8 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
+
+            return [
+                'success' => $statusCode >= 200 && $statusCode < 300,
+=======
+            
+            return [
+                'success' => ($statusCode >= 200 && $statusCode < 300),
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> cbb586cb0 (.)
+=======
+
+            return [
+                'success' => $statusCode >= 200 && $statusCode < 300,
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 4e2ebfb (.)
+=======
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
+>>>>>>> b93ef594b4 (.)
+=======
+            
+            return [
+                'success' => ($statusCode >= 200 && $statusCode < 300),
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+
+            return [
+                'success' => $statusCode >= 200 && $statusCode < 300,
+>>>>>>> 11b43e822 (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+
+            return [
+                'success' => $statusCode >= 200 && $statusCode < 300,
+>>>>>>> a070a65a5 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+
+            return [
+                'success' => $statusCode >= 200 && $statusCode < 300,
+<<<<<<< HEAD
+>>>>>>> 8c19c8df2 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+            return [
+                'success' => $statusCode >= 200 && $statusCode < 300,
+=======
+            
+            return [
+                'success' => ($statusCode >= 200 && $statusCode < 300),
+>>>>>>> a12f125f4a (.)
+=======
+
+            return [
+                'success' => $statusCode >= 200 && $statusCode < 300,
+>>>>>>> b93ef594b4 (.)
+=======
+            
+            return [
+                'success' => ($statusCode >= 200 && $statusCode < 300),
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> be698cf2c (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cbb586cb0 (.)
+                'message_id' => $responseData['message_uuid'] ?? null,
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 1487fe812 (.)
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
                 'response' => $responseData,
                 'vars' => $this->vars,
             ];
         } catch (ClientException $e) {
             $response = $e->getResponse();
             $statusCode = $response->getStatusCode();
+<<<<<<< HEAD
             /** @var array<string, mixed> $responseBody */
             $responseBody = json_decode($response->getBody()->getContents(), true) ?: [];
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            /** @var array<string, mixed> $responseBody */
+            $responseBody = json_decode($response->getBody()->getContents(), true) ?: [];
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            /** @var array<string, mixed> $responseBody */
+            $responseBody = json_decode($response->getBody()->getContents(), true) ?: [];
+=======
+            /** @var array $responseBody */
+            $responseBody = json_decode($response->getBody()->getContents(), true);
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> cbb586cb0 (.)
+>>>>>>> 75179b85 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 82ae73be (.)
+
+=======
+            
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+=======
+            /** @var array $responseBody */
+            $responseBody = json_decode($response->getBody()->getContents(), true);
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 11b43e822 (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> a070a65a5 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> be698cf2c (.)
+>>>>>>> 75179b85 (.)
+=======
+=======
+            
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+
+=======
+=======
+
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+=======
+>>>>>>> f2e64178 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+=======
+
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+=======
+>>>>>>> f2e64178 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+=======
+
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+=======
+>>>>>>> f2e64178 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+=======
+
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 510809c6f (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+            
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+            
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+>>>>>>> d09cb759 (.)
+=======
+
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 82ae73be (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+=======
+            
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+=======
+            
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 985c7bda (.)
+=======
+=======
+            
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
+=======
+            /** @var array $responseBody */
+            $responseBody = json_decode($response->getBody()->getContents(), true);
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+=======
+            
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+=======
+            
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+=======
+            
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> f2e64178 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+=======
+            
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
+=======
+            /** @var array $responseBody */
+            $responseBody = json_decode($response->getBody()->getContents(), true);
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+=======
+            
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+            /** @var array $responseBody */
+            $responseBody = json_decode($response->getBody()->getContents(), true);
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+>>>>>>> 75179b855 (.)
+=======
+=======
+            
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+=======
+
+=======
+>>>>>>> 4689a827 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+            
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+            
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+=======
+            
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 4689a827 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2941b0bd (.)
+=======
+=======
+            
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+<<<<<<< HEAD
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 10292b60a (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+>>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+<<<<<<< HEAD
+>>>>>>> 11b43e822 (.)
+=======
+=======
+=======
+            
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+=======
+>>>>>>> 2941b0bd (.)
+>>>>>>> a070a65a5 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> be698cf2c (.)
+=======
+            /** @var array<string, mixed> $responseBody */
+            $responseBody = json_decode($response->getBody()->getContents(), true) ?: [];
+
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
             // Salva i dati dell'errore nelle variabili dell'azione
             $this->vars['error_code'] = $statusCode;
             $this->vars['error_message'] = $e->getMessage();
             $this->vars['error_response'] = $responseBody;
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 82ae73be (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 3f39ac8b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 10292b60a (.)
+=======
+=======
+>>>>>>> de02998b (.)
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
+>>>>>>> be698cf2c (.)
+
+=======
+            
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
+            // Salva i dati dell'errore nelle variabili dell'azione
+            $this->vars['error_code'] = $statusCode;
+            $this->vars['error_message'] = $e->getMessage();
+            $this->vars['error_response'] = $responseBody;
+=======
+>>>>>>> 207ac35e (.)
+=======
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 4689a827 (.)
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f2e64178 (.)
+=======
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 4689a827 (.)
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f2e64178 (.)
+=======
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 4689a827 (.)
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f2e64178 (.)
+=======
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 4689a827 (.)
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 510809c6f (.)
+<<<<<<< HEAD
+
+=======
+            
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+>>>>>>> b19cd40 (.)
+=======
+
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 4e2ebfb (.)
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> 4689a827 (.)
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+            
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+            /** @var array $responseBody */
+            $responseBody = json_decode($response->getBody()->getContents(), true);
+
+>>>>>>> 75179b85 (.)
+=======
+=======
+            
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+            /** @var array $responseBody */
+            $responseBody = json_decode($response->getBody()->getContents(), true);
+
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+
+>>>>>>> 161887a2 (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+
+>>>>>>> 888799d0 (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+=======
+
+>>>>>>> 58816034 (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 161887a2 (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+
+>>>>>>> 888799d0 (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+=======
+
+>>>>>>> 58816034 (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+
+>>>>>>> 161887a2 (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 888799d0 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
+            // Salva i dati dell'errore nelle variabili dell'azione
+            $this->vars['error_code'] = $statusCode;
+            $this->vars['error_message'] = $e->getMessage();
+            $this->vars['error_response'] = $responseBody;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+>>>>>>> 207ac35e (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+>>>>>>> 011072e4 (.)
+=======
+
+>>>>>>> 4d2eb53e (.)
+=======
+
+>>>>>>> ce89c8bb (.)
+=======
+
+>>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 011072e4 (.)
+=======
+
+>>>>>>> 4d2eb53e (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+>>>>>>> ce89c8bb (.)
+=======
+
+>>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 011072e4 (.)
+=======
+
+>>>>>>> 4d2eb53e (.)
+=======
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> cbb586cb0 (.)
+            
+>>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> cbb586cb0 (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+            // Salva i dati dell'errore nelle variabili dell'azione
+            $this->vars['error_code'] = $statusCode;
+            $this->vars['error_message'] = $e->getMessage();
+            $this->vars['error_response'] = $responseBody;
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+            
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+            
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+=======
+            
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+>>>>>>> 3f537838 (.)
+=======
+
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+>>>>>>> 2941b0bd (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+
+>>>>>>> 58816034 (.)
+=======
+
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ce89c8bb (.)
+=======
+
+>>>>>>> 58816034 (.)
+=======
+
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+>>>>>>> 3f537838 (.)
+=======
+<<<<<<< HEAD
+
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+
+>>>>>>> 98d837b9 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+=======
+
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
+=======
+>>>>>>> de02998b (.)
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> a070a65a5 (.)
+=======
+=======
+>>>>>>> 3f39ac8b (.)
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+=======
+
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
+=======
+
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
             Log::warning('Errore invio WhatsApp Vonage', [
                 'to' => $whatsAppData->to,
                 'status' => $statusCode,
                 'response' => $responseBody,
             ]);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 331118f25 (.)
 
             return [
                 'success' => false,
                 'error' => isset($responseBody['title']) && is_string($responseBody['title'])
                     ? $responseBody['title']
                     : 'Errore sconosciuto',
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+
+            return [
+                'success' => false,
+                'error' => isset($responseBody['title']) && is_string($responseBody['title'])
+                    ? $responseBody['title']
+                    : 'Errore sconosciuto',
+<<<<<<< HEAD
+=======
+                'error' => $responseBody['title'] ?? 'Errore sconosciuto',
+>>>>>>> 75179b85 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> de02998b (.)
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+=======
+>>>>>>> 3f39ac8b (.)
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
+
+=======
+            
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4e2ebfb (.)
+=======
+
+=======
+=======
+
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+
+=======
+>>>>>>> 23f115647 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+            
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+            
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+
+>>>>>>> 11b43e822 (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+
+>>>>>>> a070a65a5 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+
+<<<<<<< HEAD
+>>>>>>> 8c19c8df2 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+            
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+            
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> be698cf2c (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cbb586cb0 (.)
+            return [
+                'success' => false,
+                'error' => $responseBody['title'] ?? 'Errore sconosciuto',
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
+>>>>>>> 75179b85 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+
+=======
+            
+>>>>>>> b19cd40 (.)
+            return [
+                'success' => false,
+                'error' => $responseBody['title'] ?? 'Errore sconosciuto',
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
+=======
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
                 'status_code' => $statusCode,
                 'vars' => $this->vars,
             ];
         }
     }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 10292b60a (.)
+=======
+=======
+>>>>>>> 207ac35e (.)
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+=======
+>>>>>>> 011072e4 (.)
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+=======
+>>>>>>> 4d2eb53e (.)
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> be698cf2c (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
+
+=======
+    
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
+=======
+
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+
+=======
+=======
+
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+=======
+>>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+=======
+
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+=======
+>>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> 2effe245 (.)
+=======
+
+=======
+>>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 510809c6f (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+    
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+    
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+>>>>>>> d09cb759 (.)
+=======
+
+>>>>>>> 3f537838 (.)
+=======
+
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+>>>>>>> 3f537838 (.)
+=======
+
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1619767d8 (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+=======
+
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+
+>>>>>>> 98d837b9 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+=======
+
+<<<<<<< HEAD
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+=======
+
+>>>>>>> 2941b0bd (.)
+>>>>>>> a070a65a5 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+=======
+
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
+>>>>>>> be698cf2c (.)
+=======
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
+    /**
+     * Determina il tipo di media basato sull'URL o sull'estensione del file.
+     *
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+     * @param string $url URL del media
+=======
+<<<<<<< HEAD
+     * @param  string  $url  URL del media
+=======
+     * @param string $url URL del media
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
+=======
+     * @param  string  $url  URL del media
+=======
+     * @param string $url URL del media
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+>>>>>>> laraxot/develop
+>>>>>>> 331118f25 (.)
+
+    /**
+     * Determina il tipo di media basato sull'URL o sull'estensione del file.
+     *
+<<<<<<< HEAD
+     * @param string $url URL del media
+=======
+<<<<<<< HEAD
+     * @param string $url URL del media
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @param string $url URL del media
+>>>>>>> 75179b85 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> f1c9518b (.)
+     * @param  string  $url  URL del media
+=======
+     * @param string $url URL del media
+>>>>>>> 99ff506 (.)
+<<<<<<< HEAD
+>>>>>>> f1c9518b (.)
+=======
+     * @param  string  $url  URL del media
+=======
+     * @param string $url URL del media
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+=======
+     * @param string $url URL del media
+>>>>>>> 75179b85 (.)
+=======
+     * @param string $url URL del media
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
+=======
 
     /**
      * Determina il tipo di media basato sull'URL o sull'estensione del file.
      *
      * @param string $url URL del media
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
      * @return string Tipo di media (image, video, audio, file)
      */
     private function determineMediaType(string $url): string
     {
         $extension = strtolower(pathinfo($url, PATHINFO_EXTENSION));
+<<<<<<< HEAD
 
         return match ($extension) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+        return match ($extension) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
+=======
+=======
+>>>>>>> 207ac35e (.)
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+=======
+>>>>>>> 3f39ac8b (.)
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
+
+        return match ($extension) {
+=======
+        
+        return match($extension) {
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
+=======
+
+        return match ($extension) {
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> cbb586cb0 (.)
+
+        return match ($extension) {
+>>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> cbb586cb0 (.)
+>>>>>>> 207ac35e (.)
+=======
+
+        return match ($extension) {
+>>>>>>> 9777d1b3 (.)
+=======
+
+        return match ($extension) {
+=======
+=======
+
+        return match ($extension) {
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+        return match ($extension) {
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+        return match ($extension) {
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+        return match ($extension) {
+=======
+>>>>>>> f2e64178 (.)
+=======
+
+        return match ($extension) {
+=======
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+=======
+
+        return match ($extension) {
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+        return match ($extension) {
+=======
+>>>>>>> f2e64178 (.)
+=======
+
+        return match ($extension) {
+=======
+>>>>>>> 2effe245 (.)
+=======
+
+        return match ($extension) {
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+        return match ($extension) {
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+        return match ($extension) {
+=======
+>>>>>>> f2e64178 (.)
+=======
+
+        return match ($extension) {
+=======
+>>>>>>> 2effe245 (.)
+=======
+
+        return match ($extension) {
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+        return match ($extension) {
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+        return match ($extension) {
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+        return match ($extension) {
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 510809c6f (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+        return match ($extension) {
+=======
+        
+        return match($extension) {
+>>>>>>> a12f125f4a (.)
+=======
+
+        return match ($extension) {
+>>>>>>> b93ef594b4 (.)
+=======
+        
+        return match($extension) {
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+>>>>>>> d09cb759 (.)
+=======
+
+        return match ($extension) {
+>>>>>>> 3f537838 (.)
+=======
+
+        return match ($extension) {
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+
+        return match ($extension) {
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+        return match ($extension) {
+>>>>>>> 3f537838 (.)
+=======
+
+        return match ($extension) {
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+=======
+
+        return match ($extension) {
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+        return match ($extension) {
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+
+        return match ($extension) {
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a070a65a5 (.)
+=======
+
+        return match ($extension) {
+>>>>>>> 2941b0bd (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+
+        return match ($extension) {
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+
+        return match ($extension) {
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+=======
+
+        return match ($extension) {
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> ce89c8bb (.)
+=======
+
+        return match ($extension) {
+>>>>>>> 58816034 (.)
+=======
+
+        return match ($extension) {
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+
+        return match ($extension) {
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 11b43e822 (.)
+=======
+
+        return match ($extension) {
+>>>>>>> 3f537838 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+
+        return match ($extension) {
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+        return match ($extension) {
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+=======
+
+        return match ($extension) {
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+
+        return match ($extension) {
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+
+        return match ($extension) {
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
+=======
+
+        return match ($extension) {
+>>>>>>> 58816034 (.)
+=======
+
+        return match ($extension) {
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+
+        return match ($extension) {
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+        return match ($extension) {
+>>>>>>> 3f537838 (.)
+=======
+<<<<<<< HEAD
+
+        return match ($extension) {
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+
+        return match ($extension) {
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+        return match ($extension) {
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+=======
+
+        return match ($extension) {
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+        return match ($extension) {
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+
+        return match ($extension) {
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8c19c8df2 (.)
+=======
+
+        return match ($extension) {
+>>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
+=======
+>>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
+=======
+>>>>>>> de02998b (.)
+>>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> a070a65a5 (.)
+=======
+=======
+>>>>>>> 3f39ac8b (.)
+>>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
+=======
+
+        return match ($extension) {
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
             'jpg', 'jpeg', 'png', 'gif', 'webp' => 'image',
             'mp4', 'mov', 'avi', 'webm' => 'video',
             'mp3', 'wav', 'ogg' => 'audio',
@@ -191,3 +12614,5 @@ final class SendVonageWhatsAppAction
         };
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

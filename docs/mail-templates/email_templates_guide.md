@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Guida ai Template Email Responsive
 
 Questa guida descrive i template email responsive disponibili nel modulo Notify, la loro struttura e come utilizzarli nelle comunicazioni con gli utenti.
@@ -14,7 +15,81 @@ Questa guida descrive i template email responsive disponibili nel modulo Notify,
 
 ## Introduzione
 
+<<<<<<< HEAD
 I template email responsive di <nome progetto> sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+I template email responsive di <nome progetto> sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+I template email responsive di <nome progetto> sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> f963d2c0 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> f963d2c0 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> f963d2c0 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+I template email responsive di <nome progetto> sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+=======
+=======
+I template email responsive di <nome progetto> sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+=======
+I template email responsive di <nome progetto> sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+=======
+>>>>>>> fea359347 (.)
+<<<<<<< HEAD
+I template email responsive di <main module> sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 36ac4fc1 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> f963d2c0 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> f963d2c0 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
+=======
+I template email responsive di <nome progetto> sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 
 - **Responsive**: ottimizzati per qualsiasi dispositivo (desktop, tablet, mobile)
 - **Accessibili**: strutturati per garantire accessibilità secondo gli standard WCAG
@@ -121,7 +196,72 @@ Tutti i template utilizzano il motore di templating Blade di Laravel. Le variabi
 | `$name` | Nome destinatario | "Utente" |
 | `$intro_text` | Testo introduttivo | Varia per template |
 | `$outro_text` | Testo conclusivo | Varia per template |
+<<<<<<< HEAD
 | `$contact_email` | Email di contatto | "supporto@<nome progetto>.it" |
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+| `$contact_email` | Email di contatto | "supporto@<nome progetto>.it" |
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+| `$contact_email` | Email di contatto | "supporto@<nome progetto>.it" |
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> f963d2c0 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> f963d2c0 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> f963d2c0 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fea359347 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@<nome progetto>.it" |
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 7bac387 (.)
+>>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> f963d2c0 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@<nome progetto>.it" |
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 7bac387 (.)
+>>>>>>> 36ac4fc1 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> f963d2c0 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> f963d2c0 (.)
+>>>>>>> laraxot/develop
+=======
+>>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> fea359347 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@<nome progetto>.it" |
+>>>>>>> a55aa5e96 (.)
+>>>>>>> 331118f25 (.)
 | `$contact_phone` | Telefono di contatto | "+39 06 1234567" |
 | `$office_hours` | Orari ufficio | "Lun-Ven: 9:00-19:00, Sab: 9:00-13:00" |
 
@@ -200,3 +340,5 @@ class SendAppointmentConfirmationAction
 - [EMAIL_BEST_PRACTICES.md](./EMAIL_BEST_PRACTICES.md) - Best practices per email transazionali
 - [RESPONSIVE_EMAIL_TEMPLATES.md](../RESPONSIVE_EMAIL_TEMPLATES.md) - Guide dettagliate sul design responsive
 - [MAILPACE_TEMPLATES_INTEGRATION.md](./MAILPACE_TEMPLATES_INTEGRATION.md) - Integrazione con template esterni
+=======
+>>>>>>> 301ad8b44 (.)
