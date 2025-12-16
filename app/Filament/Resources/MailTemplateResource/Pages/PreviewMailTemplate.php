@@ -5,14 +5,14 @@ declare(strict_types=1);
 namespace Modules\Notify\Filament\Resources\MailTemplateResource\Pages;
 
 use Filament\Actions\Action;
-use Filament\Resources\Pages\Page;
 use Modules\Notify\Filament\Resources\MailTemplateResource;
 use Modules\Notify\Models\MailTemplate;
+use Modules\Xot\Filament\Resources\Pages\XotBaseResourcePage;
 
 /**
  * @property MailTemplate $record
  */
-class PreviewMailTemplate extends Page
+class PreviewMailTemplate extends XotBaseResourcePage
 {
     protected static string $resource = MailTemplateResource::class;
 
