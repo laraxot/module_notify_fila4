@@ -17,7 +17,8 @@ abstract class BaseModel extends XotBaseModel
 
 ## Template
 
-### Struttura
+### Struttura Template
+
 ```php
 final class Template extends BaseModel
 {
@@ -30,12 +31,20 @@ final class Template extends BaseModel
         'code',
     ];
 
-    protected $casts = [
-        'status' => TemplateStatus::class,
-        'type' => TemplateType::class,
-        'created_at' => 'datetime',
-        'updated_at' => 'datetime',
-    ];
+    /**
+     * Get the attributes that should be cast.
+     *
+     * @return array<string, string>
+     */
+    protected function casts(): array
+    {
+        return [
+            'status' => TemplateStatus::class,
+            'type' => TemplateType::class,
+            'created_at' => 'datetime',
+            'updated_at' => 'datetime',
+        ];
+    }
 
     public function versions(): HasMany
     {
@@ -55,6 +64,7 @@ final class Template extends BaseModel
 ```
 
 ### Enum
+
 ```php
 enum TemplateStatus: string
 {
@@ -73,7 +83,8 @@ enum TemplateType: string
 
 ## TemplateVersion
 
-### Struttura
+### Struttura TemplateVersion
+
 ```php
 final class TemplateVersion extends BaseModel
 {
@@ -84,11 +95,19 @@ final class TemplateVersion extends BaseModel
         'metadata',
     ];
 
-    protected $casts = [
-        'metadata' => 'array',
-        'created_at' => 'datetime',
-        'updated_at' => 'datetime',
-    ];
+    /**
+     * Get the attributes that should be cast.
+     *
+     * @return array<string, string>
+     */
+    protected function casts(): array
+    {
+        return [
+            'metadata' => 'array',
+            'created_at' => 'datetime',
+            'updated_at' => 'datetime',
+        ];
+    }
 
     public function template(): BelongsTo
     {
@@ -104,7 +123,8 @@ final class TemplateVersion extends BaseModel
 
 ## TemplateTranslation
 
-### Struttura
+### Struttura TemplateTranslation
+
 ```php
 final class TemplateTranslation extends BaseModel
 {
@@ -115,10 +135,18 @@ final class TemplateTranslation extends BaseModel
         'content',
     ];
 
-    protected $casts = [
-        'created_at' => 'datetime',
-        'updated_at' => 'datetime',
-    ];
+    /**
+     * Get the attributes that should be cast.
+     *
+     * @return array<string, string>
+     */
+    protected function casts(): array
+    {
+        return [
+            'created_at' => 'datetime',
+            'updated_at' => 'datetime',
+        ];
+    }
 
     public function version(): BelongsTo
     {
@@ -129,7 +157,8 @@ final class TemplateTranslation extends BaseModel
 
 ## NotificationLog
 
-### Struttura
+### Struttura NotificationLog
+
 ```php
 final class NotificationLog extends BaseModel
 {
@@ -147,16 +176,24 @@ final class NotificationLog extends BaseModel
         'clicked_at',
     ];
 
-    protected $casts = [
-        'data' => 'array',
-        'channels' => 'array',
-        'sent_at' => 'datetime',
-        'delivered_at' => 'datetime',
-        'opened_at' => 'datetime',
-        'clicked_at' => 'datetime',
-        'created_at' => 'datetime',
-        'updated_at' => 'datetime',
-    ];
+    /**
+     * Get the attributes that should be cast.
+     *
+     * @return array<string, string>
+     */
+    protected function casts(): array
+    {
+        return [
+            'data' => 'array',
+            'channels' => 'array',
+            'sent_at' => 'datetime',
+            'delivered_at' => 'datetime',
+            'opened_at' => 'datetime',
+            'clicked_at' => 'datetime',
+            'created_at' => 'datetime',
+            'updated_at' => 'datetime',
+        ];
+    }
 
     public function template(): BelongsTo
     {
@@ -177,7 +214,8 @@ final class NotificationLog extends BaseModel
 
 ## TemplateAnalytics
 
-### Struttura
+### Struttura TemplateAnalytics
+
 ```php
 final class TemplateAnalytics extends BaseModel
 {
@@ -189,12 +227,20 @@ final class TemplateAnalytics extends BaseModel
         'occurred_at',
     ];
 
-    protected $casts = [
-        'event_data' => 'array',
-        'occurred_at' => 'datetime',
-        'created_at' => 'datetime',
-        'updated_at' => 'datetime',
-    ];
+    /**
+     * Get the attributes that should be cast.
+     *
+     * @return array<string, string>
+     */
+    protected function casts(): array
+    {
+        return [
+            'event_data' => 'array',
+            'occurred_at' => 'datetime',
+            'created_at' => 'datetime',
+            'updated_at' => 'datetime',
+        ];
+    }
 
     public function template(): BelongsTo
     {
@@ -211,7 +257,8 @@ final class TemplateAnalytics extends BaseModel
 ## Relazioni tra Modelli
 
 ### Diagramma
-```
+
+```text
 Template 1 --- * TemplateVersion
 TemplateVersion 1 --- * TemplateTranslation
 Template 1 --- * NotificationLog
@@ -221,6 +268,7 @@ NotificationLog 1 --- * TemplateAnalytics
 ### Query Examples
 
 #### Recupero Template con Versioni
+
 ```php
 $template = Template::with(['versions' => function($query) {
     $query->latest('version');
@@ -228,6 +276,7 @@ $template = Template::with(['versions' => function($query) {
 ```
 
 #### Recupero Analytics per Periodo
+
 ```php
 $analytics = TemplateAnalytics::where('template_id', $templateId)
     ->whereBetween('occurred_at', [$startDate, $endDate])
@@ -237,6 +286,7 @@ $analytics = TemplateAnalytics::where('template_id', $templateId)
 ## Traits e Scopes
 
 ### HasVersions
+
 ```php
 trait HasVersions
 {
@@ -260,6 +310,7 @@ trait HasVersions
 ```
 
 ### TemplateScopes
+
 ```php
 trait TemplateScopes
 {
@@ -278,6 +329,7 @@ trait TemplateScopes
 ## Eventi
 
 ### Template Events
+
 ```php
 final class TemplateWasPublished
 {
@@ -297,6 +349,7 @@ final class TemplateWasArchived
 ## Validazione
 
 ### Rules
+
 ```php
 final class TemplateRules
 {
@@ -311,4 +364,4 @@ final class TemplateRules
         ];
     }
 }
-``` 
+```
