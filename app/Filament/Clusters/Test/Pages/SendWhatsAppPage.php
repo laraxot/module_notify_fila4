@@ -75,7 +75,7 @@ class SendWhatsAppPage extends XotBasePage
     public function getWhatsAppFormSchema(): array
     {
         return [
-            'to' => TextInput::make('to')
+            'recipient' => TextInput::make('recipient')
                 ->tel()
                 ->required()
                 ->helperText('Inserisci il numero di telefono con prefisso internazionale (es. +39)'),
@@ -110,7 +110,7 @@ class SendWhatsAppPage extends XotBasePage
 
             $message = is_string($data['message']) ? $data['message'] : '';
 
-            Notification::route('whatsapp', $data['to'])->notify(
+            Notification::route('whatsapp', $data['recipient'])->notify(
                 new WhatsAppNotification($message, [
                     'driver' => $data['driver'],
                     'template' => $data['template'] ?? null,

@@ -11,6 +11,9 @@ return [
         'emailFormActions' => [
             'label' => 'emailFormActions',
         ],
+        'logout' => [
+            'tooltip' => 'logout',
+        ],
     ],
     'fields' => [
         'body_html' => [

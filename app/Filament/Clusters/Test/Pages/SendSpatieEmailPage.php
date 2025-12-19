@@ -72,7 +72,7 @@ class SendSpatieEmailPage extends XotBasePage
     public function getEmailFormSchema(): array
     {
         return [
-            'to' => TextInput::make('to')->email()->required(),
+            'recipient' => TextInput::make('recipient')->email()->required(),
             /*
              * 'subject' => Forms\Components\TextInput::make('subject')
              * ->required(),
@@ -90,7 +90,7 @@ class SendSpatieEmailPage extends XotBasePage
         /*
          * $email_data = EmailData::from($data);
          *
-         * Mail::to($data['to'])->send(
+         * Mail::to($data['recipient'])->send(
          * new EmailDataEmail($email_data)
          * );
          *
@@ -109,23 +109,24 @@ class SendSpatieEmailPage extends XotBasePage
                 'mime' => 'image/png',
             ],
         ];
-        // Mail::to($data['to'])->locale('it')->send((new SpatieEmail($user,'due'))->addAttachments($attachments));
+        // Mail::to($data['recipient'])->locale('it')->send((new SpatieEmail($user,'due'))->addAttachments($attachments));
         /*
          * // Create and send the email
          * $email = new SpatieEmail($user, 'uno');
          * $email->addAttachments($attachments);
          *
-         * Mail::to($data['to'])
+         * Mail::to($data['recipient'])
          * ->locale('it')
          * ->send($email);
          */
         $mail_template_slug = $data['mail_template_slug'];
         Assert::string($mail_template_slug, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        // RecordNotification resolves MailTemplate internally from slug (lazy resolution)
+        // No need to pre-load MailTemplate - pass slug directly
         $recordNotification = new RecordNotification($user, $mail_template_slug);
         $notify = $recordNotification->mergeData($data);
 
-        Notification::route('mail', $data['to'])
-            // ->locale('it')
+        Notification::route('mail', $data['recipient'])
             ->notify($notify);
 
         FilamentNotification::make()

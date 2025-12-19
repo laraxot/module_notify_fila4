@@ -17,7 +17,6 @@ use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
-use Filament\Pages\Page;
 use Filament\Schemas\Components\Section;
 use Filament\Schemas\Schema;
 use Illuminate\Contracts\Auth\Authenticatable;
@@ -26,6 +25,7 @@ use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Notification;
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\Notify\Notifications\TelegramNotification;
+use Modules\Xot\Filament\Pages\XotBasePage;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use NotificationChannels\Telegram\TelegramMessage;
 use Telegram\Bot\Laravel\Facades\Telegram;
@@ -34,7 +34,7 @@ use Webmozart\Assert\Assert;
 /**
  * @property \Filament\Schemas\Schema $emailForm
  */
-class SendTelegram extends Page implements HasForms
+class SendTelegram extends XotBasePage implements HasForms
 {
     use InteractsWithForms;
 
@@ -67,7 +67,7 @@ class SendTelegram extends Page implements HasForms
                 Section::make()
                     // ->description('Update your account\'s profile information and email address.')
                     ->schema([
-                        TextInput::make('to')->required(),
+                        TextInput::make('recipient')->required(),
                         RichEditor::make('body')->required(),
                     ]),
             ])
@@ -99,13 +99,13 @@ class SendTelegram extends Page implements HasForms
         /*
          * $res = TelegramMessage::create()
          * // Optional recipient user id.
-         * ->to($data['to'])
+         * ->to($data['recipient'])
          * // Markdown supported.
          * ->content($data['body']);
          */
         // Notification::sendNow($developers, new TelegramNotification());
         $message = is_string($data['body']) ? $data['body'] : '';
-        Notification::route('telegram', $data['to'])->notify(new TelegramNotification($message));
+        Notification::route('telegram', $data['recipient'])->notify(new TelegramNotification($message));
     }
 
     protected function getForms(): array

@@ -77,7 +77,7 @@ class SendSmsPage extends XotBasePage
     public function getSmsFormSchema(): array
     {
         return [
-            'to' => TextInput::make('to')
+            'recipient' => TextInput::make('recipient')
                 ->tel()
                 ->required()
                 ->helperText(__('notify::sms.fields.to.helper_text')),
@@ -109,12 +109,12 @@ class SendSmsPage extends XotBasePage
              */
             $template_slug = $data['template_slug'];
             Assert::string($template_slug, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+            // RecordNotification resolves MailTemplate internally from slug (lazy resolution)
+            // No need to pre-load MailTemplate - pass slug directly
             $recordNotification = new RecordNotification($user, $template_slug);
             $notify = $recordNotification->mergeData($data);
 
-            Notification::route('sms', $data['to'])
-                // ->locale('it')
-                // ->notify(new RecordNotification($user,'due'))
+            Notification::route('sms', $data['recipient'])
                 ->notify($notify);
 
             FilamentNotification::make()
