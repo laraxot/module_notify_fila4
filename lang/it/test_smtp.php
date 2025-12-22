@@ -14,6 +14,12 @@ return [
         ],
         'emailFormActions' => [
             'tooltip' => 'emailFormActions',
+            'icon' => 'emailFormActions',
+            'label' => 'emailFormActions',
+        ],
+        'profile' => [
+            'tooltip' => 'profile',
+            'icon' => 'profile',
         ],
     ],
     'fields' => [

@@ -15,6 +15,9 @@ use Modules\Xot\Filament\Tables\Actions\XotBaseBulkAction;
 use Modules\Notify\Filament\Forms\Components\MailTemplateSelect;
 use Modules\Notify\Filament\Forms\Components\ChannelCheckboxList;
 
+/**
+ * ---
+ */
 class SendRecordsNotificationBulkAction extends XotBaseBulkAction
 {
     /**

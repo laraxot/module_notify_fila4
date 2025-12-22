@@ -123,7 +123,9 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
      */
     public function getSlugOptions(): SlugOptions
     {
-        return SlugOptions::create()->generateSlugsFrom('name')->saveSlugsTo('slug');
+        return SlugOptions::create()
+        ->generateSlugsFrom('subject')
+        ->saveSlugsTo('slug');
     }
 
     public function scopeForMailable(Builder $query, Mailable $mailable): Builder

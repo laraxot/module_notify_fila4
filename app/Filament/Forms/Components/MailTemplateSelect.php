@@ -13,7 +13,7 @@ class MailTemplateSelect extends Select
     {
         parent::setUp();
 
-        $this->label(__('notify::form.mail_template'))
+        $this
             ->options(
                 /** @return array<string, string> */
                 fn (): array => MailTemplate::query()

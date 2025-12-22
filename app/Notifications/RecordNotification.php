@@ -10,9 +10,14 @@ use Illuminate\Support\Str;
 use Modules\Notify\Channels\SmsChannel;
 use Modules\Notify\Datas\SmsData;
 use Modules\Notify\Emails\SpatieEmail;
+use Illuminate\Bus\Queueable;
+use Illuminate\Contracts\Queue\ShouldQueue;
 
-class RecordNotification extends Notification
+class RecordNotification extends Notification implements ShouldQueue
 {
+
+    use Queueable;
+
     protected Model $record;
 
     protected string $slug;

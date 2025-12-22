@@ -39,26 +39,25 @@ class SendRecordNotificationAction
                 continue;
             }
 
-            try {
-                $laravelChannel = $channelEnum->getNotificationChannel();
+            
+            $laravelChannel = $channelEnum->getNotificationChannel();
 
-                // Determine recipient based on channel and record
-                $to = $channelEnum->getRecipient($record);
-                if ($to === null || $to === '') {
-                    // Log: Recipient not found for channel
-                    continue;
-                }
-                $to = 'marco.sottana@gmail.com';//4 debug
-                // Use Notification::route() for both standard and custom channels
-                // This is the Laravel-recommended way to send notifications to specific addresses/numbers
-                $res = Notification::route($laravelChannel, $to)->notify($notification);
-
-
-            } catch (Throwable $e) {
-                // Log or report error for this specific notification attempt
-                report($e);
-                dddx($e);
+            // Determine recipient based on channel and record
+            $to = $channelEnum->getRecipient($record);
+            if ($to === null || $to === '') {
+                // Log: Recipient not found for channel
+                continue;
             }
+            
+            //$to = 'marco.sottana@gmail.com';//4 debug
+            //$to = 'e_ele88@hotmail.it';//4 debug
+            //$to = 'studio@sottana.com';//4 debug
+            // Use Notification::route() for both standard and custom channels
+            // This is the Laravel-recommended way to send notifications to specific addresses/numbers
+            Notification::route($laravelChannel, $to)->notify($notification);
+
+
+            
         }
     }
 
