@@ -59,13 +59,14 @@ class SendRecordsNotificationAction
         foreach ($records as $record) {
             try {
                 // Convert string channels to ChannelEnum instances
+                /** @var array<int, ChannelEnum> $channelEnums */
                 $channelEnums = [];
                 foreach ($channels as $channel) {
                     if ($channelEnum = ChannelEnum::tryFrom($channel)) {
                         $channelEnums[] = $channelEnum;
                     }
                 }
-                
+
                 // SendRecordNotificationAction::execute() now returns void
                 // It handles errors internally via report(), so we assume success if no exception
                 // Pass slug string, not MailTemplate instance - RecordNotification resolves it internally

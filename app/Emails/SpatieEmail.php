@@ -147,6 +147,7 @@ class SpatieEmail extends TemplateMailable
         $mailTemplate = $this->getMailTemplate();
 
         // Get the layout path, defaulting to a safe value if null
+        /** @var string $layoutPath */
         $layoutPath = $mailTemplate->html_layout_path ?? 'mail.html';
         Assert::string($layoutPath, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
 
