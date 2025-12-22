@@ -31,16 +31,8 @@ class ChannelCheckboxList extends CheckboxList
     {
         parent::setUp();
 
-        $this->label(__('notify::form.channels'))
-            ->options(
-                /** @return array<string, string> */
-                fn (): array => collect(ChannelEnum::cases())
-                    ->mapWithKeys(function (ChannelEnum $enum): array {
-                        $label = $enum->getLabel();
-                        return [$enum->value => is_string($label) ? $label : $enum->value];
-                    })
-                    ->all()
-            )
+        $this
+            ->options(ChannelEnum::class)
             ->columns(3)
             ->required();
     }

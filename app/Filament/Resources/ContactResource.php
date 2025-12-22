@@ -44,19 +44,5 @@ class ContactResource extends XotBaseResource
         ];
     }
 
-    #[Override]
-    public static function getRelations(): array
-    {
-        return [];
-    }
 
-    #[Override]
-    public static function getPages(): array
-    {
-        return [
-            'index' => ListContacts::route('/'),
-            'create' => CreateContact::route('/create'),
-            'edit' => EditContact::route('/{record}/edit'),
-        ];
-    }
 }

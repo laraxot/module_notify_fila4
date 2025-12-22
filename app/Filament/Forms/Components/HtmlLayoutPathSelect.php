@@ -4,23 +4,31 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Forms\Components;
 
+use Modules\Xot\Datas\XotData;
+use Illuminate\Support\Facades\File;
 use Filament\Forms\Components\Select;
 use Modules\Notify\Models\MailTemplate;
 
-class MailTemplateSelect extends Select
+class HtmlLayoutPathSelect extends Select
 {
     protected function setUp(): void
     {
         parent::setUp();
 
-        $this->label(__('notify::form.mail_template'))
-            ->options(
-                /** @return array<string, string> */
-                fn (): array => MailTemplate::query()
-                    ->orderBy('slug')
-                    ->pluck('slug', 'slug')
-                    ->all()
-            )
+        $xot = XotData::make();
+        $path = $xot->getMailHtmlLayoutPath();
+
+        $files = File::files($path);
+        $options = [];
+        foreach ($files as $file) {
+            if ($file->getExtension() !== 'html') {
+                continue;
+            }
+            $options[$file->getFilename()] = $file->getFilename();
+        }
+
+        $this
+            ->options($options)
             ->required();
     }
 
@@ -32,7 +40,7 @@ class MailTemplateSelect extends Select
      */
     public static function make(?string $name = null): static
     {
-        $name = $name ?? 'mail_template_slug';
+        $name = $name ?? 'html_layout_path';
         return parent::make($name);
     }
 }

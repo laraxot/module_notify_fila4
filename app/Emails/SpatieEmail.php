@@ -4,23 +4,23 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Emails;
 
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Mail\Mailables\Attachment;
-use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Support\Arr;
-use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
-use Modules\Notify\Models\MailTemplate;
-use Modules\Xot\Actions\Cast\SafeArrayByModelCastAction;
-use Modules\Xot\Actions\Cast\SafeStringCastAction;
+use Webmozart\Assert\Assert;
+use Modules\Xot\Datas\XotData;
 use Modules\Xot\Datas\MetatagData;
+use Illuminate\Support\Facades\File;
+use Symfony\Component\Mime\MimeTypes;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Mail\Mailables\Envelope;
+use Modules\Notify\Models\MailTemplate;
+use Illuminate\Mail\Mailables\Attachment;
+use Spatie\MailTemplates\TemplateMailable;
+use Modules\Xot\Actions\Cast\SafeStringCastAction;
+use Modules\Xot\Actions\Cast\SafeArrayByModelCastAction;
+use Spatie\MailTemplates\Interfaces\MailTemplateInterface;
 
 use function Safe\file_get_contents;
-
-use Spatie\MailTemplates\Interfaces\MailTemplateInterface;
-use Spatie\MailTemplates\TemplateMailable;
-use Symfony\Component\Mime\MimeTypes;
-use Webmozart\Assert\Assert;
 
 /**
  * @see https://github.com/spatie/laravel-database-mail-templates
@@ -144,10 +144,11 @@ class SpatieEmail extends TemplateMailable
     {
         /** @var MailTemplate $mailTemplate */
         $mailTemplate = $this->getMailTemplate();
-        
+
         // Assicurarsi che html_layout_path sia una stringa prima di passarlo a base_path
-        $htmlLayoutPathValue = $mailTemplate->html_layout_path;
-        $html_layout_path = base_path(is_string($htmlLayoutPathValue) ? $htmlLayoutPathValue : '');
+
+        $html_layout_path = XotData::make()->getMailHtmlLayoutPath($mailTemplate->html_layout_path);
+
 
         return file_get_contents($html_layout_path);
     }
