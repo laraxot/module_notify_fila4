@@ -19,14 +19,14 @@ use Modules\Xot\Actions\Cast\SafeEloquentCastAction;
  *
  * Questa action compone SendRecordNotificationAction per ogni record, seguendo il pattern DRY:
  * - Un'Action per un singolo record: SendRecordNotificationAction
- * - Un'Action per più record: SendRecordsNotificationBulkAction (questa)
+ * - Un'Action per più record: SendRecordsNotificationAction (questa)
  *
  * Pattern simile a SendMailByRecordsAction che compone SendMailByRecordAction.
  *
  * @example
  * ```php
  * // Utilizzo sincrono
- * $action = app(SendRecordsNotificationBulkAction::class);
+ * $action = app(SendRecordsNotificationAction::class);
  * $action->execute($records, 'template-slug', ['mail', 'sms', 'whatsapp']);
  *
  * // Utilizzo asincrono
@@ -58,19 +58,27 @@ class SendRecordsNotificationAction
 
         foreach ($records as $record) {
             try {
+                // Convert string channels to ChannelEnum instances
+                $channelEnums = [];
+                foreach ($channels as $channel) {
+                    if ($channelEnum = ChannelEnum::tryFrom($channel)) {
+                        $channelEnums[] = $channelEnum;
+                    }
+                }
+                
                 // SendRecordNotificationAction::execute() now returns void
                 // It handles errors internally via report(), so we assume success if no exception
                 // Pass slug string, not MailTemplate instance - RecordNotification resolves it internally
-                $singleRecordAction->execute($record, $templateSlug, $channels);
-                $successCount += count($channels);
+                $singleRecordAction->execute($record, $templateSlug, $channelEnums);
+                $successCount += count($channelEnums);
             } catch (Exception $e) {
                 // If exception is thrown, count all channels as failed for this record
-                $errorCount += count($channels);
+                $errorCount += count($channelEnums);
                 $recordName = $this->getRecordName($record);
-                foreach ($channels as $channelItem) {
+                foreach ($channelEnums as $channelItem) {
                     $errors->push([
                         'record' => $recordName,
-                        'channel' => $channelItem,
+                        'channel' => $channelItem->value,
                         'error' => $e->getMessage(),
                     ]);
                 }
@@ -78,7 +86,7 @@ class SendRecordsNotificationAction
                 logger()->error('Errore invio notifica bulk', [
                     'record' => $record::class,
                     'record_id' => $record->getKey(),
-                    'channels' => array_map(fn (ChannelEnum $ce) => $ce->value, $channels),
+                    'channels' => array_map(fn (ChannelEnum $ce) => $ce->value, $channelEnums),
                     'template_slug' => $templateSlug,
                     'error' => $e->getMessage(),
                 ]);

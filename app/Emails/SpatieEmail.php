@@ -4,23 +4,24 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Emails;
 
-use Illuminate\Support\Arr;
-use Illuminate\Support\Str;
-use Webmozart\Assert\Assert;
-use Modules\Xot\Datas\XotData;
-use Modules\Xot\Datas\MetatagData;
-use Illuminate\Support\Facades\File;
-use Symfony\Component\Mime\MimeTypes;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Mail\Mailables\Envelope;
-use Modules\Notify\Models\MailTemplate;
 use Illuminate\Mail\Mailables\Attachment;
-use Spatie\MailTemplates\TemplateMailable;
-use Modules\Xot\Actions\Cast\SafeStringCastAction;
+use Illuminate\Mail\Mailables\Envelope;
+use Illuminate\Support\Arr;
+use Illuminate\Support\Facades\File;
+use Illuminate\Support\Str;
+use Modules\Notify\Models\MailTemplate;
 use Modules\Xot\Actions\Cast\SafeArrayByModelCastAction;
-use Spatie\MailTemplates\Interfaces\MailTemplateInterface;
+use Modules\Xot\Actions\Cast\SafeStringCastAction;
+use Modules\Xot\Datas\MetatagData;
+use Modules\Xot\Datas\XotData;
 
 use function Safe\file_get_contents;
+
+use Spatie\MailTemplates\Interfaces\MailTemplateInterface;
+use Spatie\MailTemplates\TemplateMailable;
+use Symfony\Component\Mime\MimeTypes;
+use Webmozart\Assert\Assert;
 
 /**
  * @see https://github.com/spatie/laravel-database-mail-templates
@@ -49,7 +50,7 @@ class SpatieEmail extends TemplateMailable
 
         $tpl = MailTemplate::firstOrCreate(
             [
-                'mailable' => SpatieEmail::class,
+                'mailable' => self::class,
                 'slug' => $this->slug,
             ],
             [
@@ -93,7 +94,7 @@ class SpatieEmail extends TemplateMailable
         }
 
         $mime = File::mimeType($path);
-        if (! is_string($mime)) {
+        if (! \is_string($mime)) {
             $mime = 'application/octet-stream';
         }
         $filename = basename($path);
@@ -110,7 +111,7 @@ class SpatieEmail extends TemplateMailable
         $this->data = array_merge($this->data, $data);
         $this->setAdditionalData($this->data);
         $params = implode(',', array_keys($this->data));
-        MailTemplate::where(['slug' => $this->slug, 'mailable' => SpatieEmail::class])->update(['params' => $params]);
+        MailTemplate::where(['slug' => $this->slug, 'mailable' => self::class])->update(['params' => $params]);
 
         return $this;
     }
@@ -145,10 +146,11 @@ class SpatieEmail extends TemplateMailable
         /** @var MailTemplate $mailTemplate */
         $mailTemplate = $this->getMailTemplate();
 
-        // Assicurarsi che html_layout_path sia una stringa prima di passarlo a base_path
+        // Get the layout path, defaulting to a safe value if null
+        $layoutPath = $mailTemplate->html_layout_path ?? 'mail.html';
+        Assert::string($layoutPath, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
 
-        $html_layout_path = XotData::make()->getMailHtmlLayoutPath($mailTemplate->html_layout_path);
-
+        $html_layout_path = XotData::make()->getMailHtmlLayoutPath($layoutPath);
 
         return file_get_contents($html_layout_path);
     }
@@ -183,14 +185,14 @@ class SpatieEmail extends TemplateMailable
 
     public function getAttachmentFromData(array $attachment): Attachment
     {
-        $res = Attachment::fromData(fn () => $attachment['data']);
+        $res = Attachment::fromData(static fn () => $attachment['data']);
         /** @var string|null $asRaw */
         $asRaw = $attachment['as'] ?? null;
-        $as = is_string($asRaw) ? $asRaw : '';
+        $as = \is_string($asRaw) ? $asRaw : '';
 
         $mime = Arr::get($attachment, 'mime', null); // ?? File::mimeType($as);   file vuole un file esistente
         /** @var string $asForPathinfo */
-        $asForPathinfo = is_string($attachment['as']) ? $attachment['as'] : '';
+        $asForPathinfo = \is_string($attachment['as']) ? $attachment['as'] : '';
         $info = pathinfo($asForPathinfo);
         if (null === $mime && isset($info['extension'])) {
             $mime = Arr::first(MimeTypes::getDefault()->getMimeTypes($info['extension']));
@@ -201,7 +203,7 @@ class SpatieEmail extends TemplateMailable
         Assert::string($mime, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
 
         /** @var string|null $asForMethod */
-        $asForMethod = is_string($asRaw) ? $asRaw : null;
+        $asForMethod = \is_string($asRaw) ? $asRaw : null;
         $res = $res->as($asForMethod)->withMime($mime);
 
         return $res;

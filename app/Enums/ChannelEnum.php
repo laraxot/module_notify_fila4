@@ -34,10 +34,9 @@ enum ChannelEnum: string implements HasColor, HasIcon, HasLabel
     }
 
     /**
-     * Get the recipient for a given channel and record.
+     * Get the recipient for a given channel.
      *
      * @param Model $record
-     * @param ChannelEnum $channelEnum
      * @return string|null
      */
     public function getRecipient(Model $record): ?string
