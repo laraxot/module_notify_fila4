@@ -248,4 +248,7 @@ public function toMail(object $notifiable): MailMessage
 **✨ Test Coverage**: 95% ✅
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/develop
