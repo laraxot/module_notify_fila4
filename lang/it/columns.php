@@ -16,12 +16,4 @@ return [
             'email_sent' => 'Email inviate',
         ],
     ],
-<<<<<<< HEAD
-<<<<<<< HEAD
 ];
-=======
-]; 
->>>>>>> b19cd40 (.)
-=======
-];
->>>>>>> 4e2ebfb (.)
