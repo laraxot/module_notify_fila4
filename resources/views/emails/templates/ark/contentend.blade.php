@@ -1,9 +1,13 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
 ?>
 </div>
+=======
+>
+>>>>>>> 0db165c (.)
 					</td>
 				</tr>
 			</tbody>
@@ -13,4 +17,8 @@ declare(strict_types=1);
 </tr>
 <tr>
 	<td colspan="3" height="30"></td>
+<<<<<<< HEAD
 </tr>
+=======
+</tr>
+>>>>>>> 0db165c (.)
