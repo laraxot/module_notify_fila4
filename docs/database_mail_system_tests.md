@@ -345,9 +345,12 @@ class MailTemplateSecurityTest extends TestCase
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
 # Esegui tutti i test
 php artisan test --filter=MailTemplate
 
@@ -379,6 +382,9 @@ php artisan test --coverage --filter=MailTemplate
 ## Collegamenti
 - [Database Mail System](database-mail-system.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
 - [Testing Guide](../../../docs/testing-guide.md)
 - [CI/CD Pipeline](../../../docs/ci-cd.md)
 
@@ -386,6 +392,7 @@ php artisan test --coverage --filter=MailTemplate
 - [Laravel Testing](https://laravel.com/docs/testing)
 - [PHPUnit Documentation](https://phpunit.de/documentation.html)
 - [Pest PHP](https://pestphp.com/docs) 
+<<<<<<< HEAD
 =======
 - [Testing Guide](../../../project_docs/testing-guide.md)
 - [CI/CD Pipeline](../../../project_docs/ci-cd.md)
@@ -394,3 +401,5 @@ php artisan test --coverage --filter=MailTemplate
 - [Laravel Testing](https://laravel.com/project_docs/testing)
 - [PHPUnit Documentation](https://phpunit.de/documentation.html)
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)

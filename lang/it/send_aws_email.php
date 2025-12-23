@@ -11,18 +11,24 @@ return [
         'sort' => 10,
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
     'model' => [
         'label' => 'Email AWS',
         'plural' => 'Email AWS',
         'description' => 'Gestione invio email tramite servizio Amazon SES',
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
     'fields' => [
         'to' => [
             'label' => 'Destinatario Email',
@@ -51,9 +57,12 @@ return [
         ],
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
     'actions' => [
         'send_email' => [
             'label' => 'Invia Email',
@@ -72,9 +81,12 @@ return [
         ],
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
     'messages' => [
         'loading' => 'Preparazione email in corso...',
         'sent' => 'Email inviata correttamente',

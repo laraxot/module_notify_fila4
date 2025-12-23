@@ -1,11 +1,17 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 
 =======
 >>>>>>> b19cd40 (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 4e2ebfb (.)
 namespace Modules\Notify\Notifications\Channels;
 
 use Exception;
@@ -44,10 +50,14 @@ class TelegramChannel
         Log::info('Telegram notification would be sent', [
             'chat_id' => $chatId,
 <<<<<<< HEAD
+<<<<<<< HEAD
             'message' => $message,
 =======
             'message' => $message
 >>>>>>> b19cd40 (.)
+=======
+            'message' => $message,
+>>>>>>> 4e2ebfb (.)
         ]);
     }
 }
