@@ -18,35 +18,14 @@ final class PushNotificationDebugData extends Data implements Arrayable
         private readonly CanReceivePushNotifications $notifiable,
         private readonly MobilePushNotification $notification,
         private readonly MulticastSendReport $sendReport,
-<<<<<<< HEAD
-<<<<<<< HEAD
     ) {}
-=======
-    ) {
-    }
->>>>>>> b19cd40 (.)
-=======
-    ) {}
->>>>>>> 4e2ebfb (.)
 
     public static function make(
         CanReceivePushNotifications $notifiable,
         MobilePushNotification $notification,
         MulticastSendReport $sendReport,
     ): self {
-<<<<<<< HEAD
-<<<<<<< HEAD
         return new self($notifiable, $notification, $sendReport);
-=======
-        return new self(
-            $notifiable,
-            $notification,
-            $sendReport,
-        );
->>>>>>> b19cd40 (.)
-=======
-        return new self($notifiable, $notification, $sendReport);
->>>>>>> 4e2ebfb (.)
     }
 
     /**
@@ -63,10 +42,6 @@ final class PushNotificationDebugData extends Data implements Arrayable
                 'total' => $this->sendReport->count(),
                 'successes' => $this->sendReport->successes()->count(),
                 'failures' => $this->sendReport->failures()->count(),
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
                 'successes_tokens' => $this->sendReport
                     ->successes()
                     ->map(static fn (SendReport $report): array => [
@@ -89,40 +64,6 @@ final class PushNotificationDebugData extends Data implements Arrayable
                     'target' => $report->target()->value(),
                     'result' => $report->result(),
                 ]),
-<<<<<<< HEAD
-=======
-                'successes_tokens' => $this->sendReport->successes()
-                    ->map(
-                        static fn (SendReport $report): array => [
-                            'type' => $report->target()->type(),
-                            'value' => $report->target()->value(),
-                        ]
-                    ),
-                'failure_tokens' => $this->sendReport->failures()
-                    ->map(
-                        static fn (SendReport $report): array => [
-                            'type' => $report->target()->type(),
-                            'value' => $report->target()->value(),
-                        ]
-                    ),
-                'unknown_tokens' => $this->sendReport
-                    ->filter(static fn (SendReport $report): bool => $report->messageWasSentToUnknownToken())
-                    ->map(
-                        static fn (SendReport $report): array => [
-                            'type' => $report->target()->type(),
-                            'value' => $report->target()->value(),
-                        ]
-                    ),
-                'results' => $this->sendReport
-                    ->map(
-                        static fn (SendReport $report): array => [
-                            'target' => $report->target()->value(),
-                            'result' => $report->result(),
-                        ]
-                    ),
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
             ],
         ];
     }

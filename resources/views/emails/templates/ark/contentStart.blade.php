@@ -1,17 +1,8 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
-<<<<<<< HEAD
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
 <tr>
 	<td class="w50" width="50"></td>
 	<td class="w560" width="560">
@@ -20,12 +11,4 @@ declare(strict_types=1);
 			<tr><td class="w560" height="15" width="560"></td></tr>
 			<tr>
 				<td class="w560" width="560">
-<<<<<<< HEAD
-<<<<<<< HEAD
 					<div class="article-content" align="left">
-=======
-					<div class="article-content" align="left">
->>>>>>> b19cd40 (.)
-=======
-					<div class="article-content" align="left">
->>>>>>> 4e2ebfb (.)
