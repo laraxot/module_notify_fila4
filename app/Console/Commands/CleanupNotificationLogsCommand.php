@@ -5,8 +5,8 @@ declare(strict_types=1);
 namespace Modules\Notify\Console\Commands;
 
 use Illuminate\Console\Command;
-use Modules\Notify\Models\NotificationLog;
 use Modules\Notify\Enums\NotificationLogStatusEnum;
+use Modules\Notify\Models\NotificationLog;
 
 class CleanupNotificationLogsCommand extends Command
 {
@@ -50,7 +50,7 @@ class CleanupNotificationLogsCommand extends Command
 
         $totalDeleted = 0;
         $query->chunkById($batchSize, function ($logs) use (&$totalDeleted) {
-            $count = $logs->count(); /** @phpstan-ignore method.nonObject */
+            $count = $logs->count(); /* @phpstan-ignore method.nonObject */
             $logs->each->delete();
             $totalDeleted += $count;
             $this->info("Eliminati {$count} log...");
