@@ -92,6 +92,10 @@ app(SendAppointmentNotificationAction::class)->execute(
 ### Esecuzione manuale dei promemoria
 
 ```bash
+<<<<<<< HEAD
+=======
+
+>>>>>>> b19cd40 (.)
 # Invio promemoria per appuntamenti di domani
 php artisan dental:send-appointment-reminders --days=1
 

@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
 ?>
+=======
+>>>>>>> b19cd40 (.)
 @extends('notify::emails.templates.widgets')
 
 @section('content')
@@ -22,4 +25,8 @@ declare(strict_types=1);
 
 	@include('notify::emails.templates.widgets.newfeatureEnd')
 
+<<<<<<< HEAD
 @stop
+=======
+@stop
+>>>>>>> b19cd40 (.)
