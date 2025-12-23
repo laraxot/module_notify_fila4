@@ -60,7 +60,7 @@ final class SendPlivoSMSAction implements SmsActionContract
     public function execute(SmsData $smsData): array
     {
         // Normalizza il numero di telefono
-        $to = (string) $smsData->recipient;
+        $to = (string) $smsData->to;
         if (Str::startsWith($to, '00')) {
             $to = $to !== '' ? ('+'.substr($to, 2)) : $to;
         }

@@ -1,104 +1,6 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 4f042b88 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 36321fcb (.)
-=======
->>>>>>> 712617d3 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 4fc21b78 (rebase 210)
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 8c8937e7 (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 36ac4fc1 (.)
-=======
->>>>>>> fd1fcc4c (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4f3927d7 (.)
-=======
->>>>>>> c8b1c8bf (.)
-=======
->>>>>>> 9cf0dc90 (.)
+
+
+
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -119,31 +21,12 @@
 >>>>>>> fdb24863 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-<<<<<<< HEAD
-=======
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 36ac4fc1 (.)
-=======
->>>>>>> fd1fcc4c (.)
+
 =======
 >>>>>>> 4f3927d7 (.)
 =======
 >>>>>>> c8b1c8bf (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 9cf0dc90 (.)
-=======
->>>>>>> 75179b85 (.)
-=======
->>>>>>> f963d2c0 (.)
+
 =======
 >>>>>>> 75179b855 (.)
 =======
@@ -367,246 +250,7 @@ Log::debug('SMS Debug', [
 - [Plivo](https://www.plivo.com/docs)
 
 ### 2. Risorse Utili
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [Laravel Notifications](https://laravel.com/docs/notifications)
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Logging](https://laravel.com/docs/logging)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 75179b85 (.)
-=======
->>>>>>> 82ae73be (.)
+
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -617,22 +261,9 @@ Log::debug('SMS Debug', [
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> 82ae73be (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> bf5d31b0f (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35e (.)
-<<<<<<< HEAD
+
 =======
 >>>>>>> 9777d1b3 (.)
-=======
->>>>>>> de02998b (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 161887a2 (.)
@@ -646,22 +277,9 @@ Log::debug('SMS Debug', [
 >>>>>>> ba564870 (.)
 =======
 >>>>>>> 9cdf6146 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 8f2456941 (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 80f054e0 (.)
-<<<<<<< HEAD
+
 =======
 >>>>>>> 7c39b1fe (.)
-=======
->>>>>>> 3f39ac8b (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 888799d0 (.)
@@ -675,22 +293,9 @@ Log::debug('SMS Debug', [
 >>>>>>> c6c33175 (.)
 =======
 >>>>>>> 3b4c9907 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49639b815 (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 5fe4f466 (.)
-<<<<<<< HEAD
+
 =======
 >>>>>>> 503981fd (.)
-=======
->>>>>>> 8e5817bc (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
 >>>>>>> e0d9c9be (.)
 =======
 >>>>>>> 7a2f131f (.)
@@ -704,106 +309,26 @@ Log::debug('SMS Debug', [
 >>>>>>> 1c0eb9c7 (rebase 210)
 =======
 >>>>>>> a9bf0423 (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 47a873f13 (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 460b8f5b (rebase 210)
-<<<<<<< HEAD
-=======
->>>>>>> 4d253d2c (rebase 210)
-=======
->>>>>>> 9fe1b60e (rebase 210)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 8a8a8e2f (rebase 210)
-=======
->>>>>>> efb0f8d9 (rebase 210)
-=======
->>>>>>> b4f93b3a (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 7a9167faf (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 1375c94d (rebase 210)
-<<<<<<< HEAD
-=======
->>>>>>> 52cd5f85 (rebase 210)
-=======
->>>>>>> c5c038f2 (rebase 210)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 030c9674 (rebase 210)
-=======
->>>>>>> bb00ab64 (rebase 210)
-=======
->>>>>>> 77edd94a (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 6dad70a87 (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> eea68ec9 (.)
-<<<<<<< HEAD
+
+
 =======
 >>>>>>> 59916c8f (.)
-=======
->>>>>>> f81a620f (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
 >>>>>>> 06e3078e (.)
 =======
 >>>>>>> 70e8274e (.)
 =======
 >>>>>>> 2fc60436 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> cbb586cb0 (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> ce89c8bb (.)
-<<<<<<< HEAD
+
 =======
 >>>>>>> 58816034 (.)
-=======
->>>>>>> 82ae73be (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> de02998b (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 1619767d8 (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 011072e4 (.)
-<<<<<<< HEAD
+
 =======
 >>>>>>> 161887a2 (.)
-=======
->>>>>>> e7a9a2bf (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
 >>>>>>> 9d67cabd (.)
 =======
 >>>>>>> ba564870 (.)
@@ -817,22 +342,9 @@ Log::debug('SMS Debug', [
 >>>>>>> 7c39b1fe (.)
 =======
 >>>>>>> 3f39ac8b (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 2f135ef98 (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 4d2eb53e (.)
-<<<<<<< HEAD
+
 =======
 >>>>>>> 888799d0 (.)
-=======
->>>>>>> 6d08c01b (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
 >>>>>>> 6b6b9e41 (.)
 =======
 >>>>>>> c6c33175 (.)
@@ -846,22 +358,9 @@ Log::debug('SMS Debug', [
 >>>>>>> 503981fd (.)
 =======
 >>>>>>> 8e5817bc (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 968ed47cd (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> e0d9c9be (.)
-<<<<<<< HEAD
+
 =======
 >>>>>>> 7a2f131f (.)
-=======
->>>>>>> 51182e3c (rebase 210)
-=======
-=======
->>>>>>> 4e2ebfb (.)
 >>>>>>> cb85c538 (rebase 210)
 =======
 >>>>>>> 1c0eb9c7 (rebase 210)
@@ -875,64 +374,14 @@ Log::debug('SMS Debug', [
 >>>>>>> 4d253d2c (rebase 210)
 =======
 >>>>>>> 9fe1b60e (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 69f695548 (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 8a8a8e2f (rebase 210)
-<<<<<<< HEAD
-=======
->>>>>>> efb0f8d9 (rebase 210)
-=======
->>>>>>> b4f93b3a (rebase 210)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 1375c94d (rebase 210)
-=======
->>>>>>> 52cd5f85 (rebase 210)
-=======
->>>>>>> c5c038f2 (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> db6bec044 (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 030c9674 (rebase 210)
-<<<<<<< HEAD
-=======
->>>>>>> bb00ab64 (rebase 210)
-=======
->>>>>>> 77edd94a (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> eea68ec9 (.)
+
 =======
 >>>>>>> 59916c8f (.)
 =======
 >>>>>>> f81a620f (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> ec24613a1 (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 06e3078e (.)
-<<<<<<< HEAD
+
 =======
 >>>>>>> 70e8274e (.)
-=======
->>>>>>> 2fc60436 (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
@@ -962,22 +411,9 @@ Log::debug('SMS Debug', [
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> e7a9a2bf (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4f19d70d2 (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 9d67cabd (.)
-<<<<<<< HEAD
+
 =======
 >>>>>>> ba564870 (.)
-=======
->>>>>>> 9cdf6146 (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
 >>>>>>> 80f054e0 (.)
 =======
 >>>>>>> 7c39b1fe (.)
@@ -991,22 +427,9 @@ Log::debug('SMS Debug', [
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> 6d08c01b (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> be45a0b8d (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 6b6b9e41 (.)
-<<<<<<< HEAD
+
 =======
 >>>>>>> c6c33175 (.)
-=======
->>>>>>> 3b4c9907 (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
 >>>>>>> 5fe4f466 (.)
 =======
 >>>>>>> 503981fd (.)
@@ -1019,12 +442,7 @@ Log::debug('SMS Debug', [
 =======
 >>>>>>> 7a2f131f (.)
 =======
-<<<<<<< HEAD
 >>>>>>> 10292b60a (.)
-=======
->>>>>>> bf5d31b0f (.)
-=======
->>>>>>> b207a9b1a (.)
 =======
 >>>>>>> 1619767d8 (.)
 =======
@@ -1053,12 +471,7 @@ Log::debug('SMS Debug', [
 >>>>>>> 968ed47cd (.)
 =======
 >>>>>>> 51182e3c (rebase 210)
-<<<<<<< HEAD
 >>>>>>> 13655a7ed (.)
-=======
-=======
-=======
->>>>>>> 4e2ebfb (.)
 >>>>>>> cb85c538 (rebase 210)
 >>>>>>> e0836b102 (.)
 =======
@@ -1092,63 +505,7 @@ Log::debug('SMS Debug', [
 - [Laravel Notifications](https://laravel.com/docs/notifications)
 - [Laravel Queue](https://laravel.com/docs/queues)
 - [Laravel Logging](https://laravel.com/docs/logging)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 510809c6f (.)
-=======
->>>>>>> 8dc1f2ed6 (.)
-=======
->>>>>>> 2e9bd58c3 (.)
+
 =======
 >>>>>>> 23f115647 (.)
 =======
@@ -1173,23 +530,7 @@ Log::debug('SMS Debug', [
 >>>>>>> 763771402 (.)
 - [Laravel Notifications](https://laravel.com/project_docs/notifications)
 - [Laravel Logging](https://laravel.com/docs/logging)- [Laravel Notifications](https://laravel.com/project_docs/notifications)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 207ac35e (.)
-=======
-- [Laravel Notifications](https://laravel.com/project_docs/notifications)
->>>>>>> b19cd40 (.)
-=======
-<<<<<<< HEAD
->>>>>>> 75179b85 (.)
-=======
-=======
-- [Laravel Notifications](https://laravel.com/project_docs/notifications)
->>>>>>> b19cd40 (.)
+
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 4e2ebfb (.)
@@ -1216,32 +557,12 @@ Log::debug('SMS Debug', [
 - [Laravel Notifications](https://laravel.com/docs/notifications)
 - [Laravel Queue](https://laravel.com/docs/queues)
 - [Laravel Logging](https://laravel.com/docs/logging)
-<<<<<<< HEAD
 =======
 - [Laravel Notifications](https://laravel.com/docs/notifications)
 - [Laravel Queue](https://laravel.com/docs/queues)
 - [Laravel Logging](https://laravel.com/docs/logging)
 >>>>>>> 75179b85 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 12a7e2462 (.)
-=======
-- [Laravel Notifications](https://laravel.com/docs/notifications)
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Logging](https://laravel.com/docs/logging)
->>>>>>> f963d2c0 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d09cb759 (.)
-=======
-- [Laravel Notifications](https://laravel.com/docs/notifications)
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Logging](https://laravel.com/docs/logging)
->>>>>>> ee18dd92 (.)
-=======
->>>>>>> 4689a827 (.)
+
 =======
 - [Laravel Notifications](https://laravel.com/docs/notifications)
 - [Laravel Queue](https://laravel.com/docs/queues)
@@ -1256,26 +577,7 @@ Log::debug('SMS Debug', [
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> f2e64178 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 36136dcfa (.)
-=======
-- [Laravel Notifications](https://laravel.com/docs/notifications)
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Logging](https://laravel.com/docs/logging)
->>>>>>> 4f042b88 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> c4bdacbf (.)
-=======
-- [Laravel Notifications](https://laravel.com/docs/notifications)
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Logging](https://laravel.com/docs/logging)
->>>>>>> 36321fcb (.)
-=======
->>>>>>> dceba960 (.)
+
 =======
 - [Laravel Notifications](https://laravel.com/docs/notifications)
 - [Laravel Queue](https://laravel.com/docs/queues)
@@ -1300,53 +602,8 @@ Log::debug('SMS Debug', [
 - [Laravel Queue](https://laravel.com/docs/queues)
 - [Laravel Logging](https://laravel.com/docs/logging)
 >>>>>>> 9c45d9bd (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 9f8e680a (rebase 210)
-=======
-- [Laravel Notifications](https://laravel.com/docs/notifications)
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Logging](https://laravel.com/docs/logging)
->>>>>>> eb62d6cf (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5aedc39c (rebase 210)
-=======
-- [Laravel Notifications](https://laravel.com/docs/notifications)
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Logging](https://laravel.com/docs/logging)
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 22baa66d (rebase 210)
-=======
-- [Laravel Notifications](https://laravel.com/docs/notifications)
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Logging](https://laravel.com/docs/logging)
->>>>>>> 36ac4fc1 (.)
-=======
->>>>>>> 2effe245 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d9e649ac3 (.)
-=======
-- [Laravel Notifications](https://laravel.com/docs/notifications)
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Logging](https://laravel.com/docs/logging)
->>>>>>> fd1fcc4c (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> e790eb33 (.)
-=======
-- [Laravel Notifications](https://laravel.com/docs/notifications)
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Logging](https://laravel.com/docs/logging)
->>>>>>> 4f3927d7 (.)
-=======
->>>>>>> 3ee54c5d (.)
+
+
 =======
 - [Laravel Notifications](https://laravel.com/docs/notifications)
 - [Laravel Queue](https://laravel.com/docs/queues)
@@ -1357,17 +614,11 @@ Log::debug('SMS Debug', [
 - [Laravel Queue](https://laravel.com/docs/queues)
 - [Laravel Logging](https://laravel.com/docs/logging)
 >>>>>>> 9cf0dc90 (.)
-<<<<<<< HEAD
 =======
 - [Laravel Notifications](https://laravel.com/docs/notifications)
 - [Laravel Queue](https://laravel.com/docs/queues)
 - [Laravel Logging](https://laravel.com/docs/logging)
 >>>>>>> 75179b85 (.)
-=======
-- [Laravel Notifications](https://laravel.com/docs/notifications)
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Logging](https://laravel.com/docs/logging)
->>>>>>> f963d2c0 (.)
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1375,17 +626,7 @@ Log::debug('SMS Debug', [
 - [Laravel Queue](https://laravel.com/docs/queues)
 - [Laravel Logging](https://laravel.com/docs/logging)
 >>>>>>> ee18dd92 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4689a827 (.)
-=======
-- [Laravel Notifications](https://laravel.com/docs/notifications)
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Logging](https://laravel.com/docs/logging)
->>>>>>> 66453ace (.)
-=======
->>>>>>> 7325acf3 (.)
+
 =======
 - [Laravel Notifications](https://laravel.com/docs/notifications)
 - [Laravel Queue](https://laravel.com/docs/queues)
@@ -1405,68 +646,7 @@ Log::debug('SMS Debug', [
 - [Laravel Queue](https://laravel.com/docs/queues)
 - [Laravel Logging](https://laravel.com/docs/logging)
 >>>>>>> 36321fcb (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dceba960 (.)
-=======
-- [Laravel Notifications](https://laravel.com/docs/notifications)
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Logging](https://laravel.com/docs/logging)
->>>>>>> 712617d3 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> bd804d67 (.)
-=======
-- [Laravel Notifications](https://laravel.com/docs/notifications)
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Logging](https://laravel.com/docs/logging)
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 229a065a (rebase 210)
-=======
-- [Laravel Notifications](https://laravel.com/docs/notifications)
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Logging](https://laravel.com/docs/logging)
->>>>>>> 4fc21b78 (rebase 210)
-<<<<<<< HEAD
-=======
-- [Laravel Notifications](https://laravel.com/docs/notifications)
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Logging](https://laravel.com/docs/logging)
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> 9f8e680a (rebase 210)
-=======
-- [Laravel Notifications](https://laravel.com/docs/notifications)
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Logging](https://laravel.com/docs/logging)
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 5aedc39c (rebase 210)
-=======
-- [Laravel Notifications](https://laravel.com/docs/notifications)
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Logging](https://laravel.com/docs/logging)
->>>>>>> 8c8937e7 (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 22baa66d (rebase 210)
-=======
-- [Laravel Notifications](https://laravel.com/docs/notifications)
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Logging](https://laravel.com/docs/logging)
->>>>>>> 36ac4fc1 (.)
-<<<<<<< HEAD
-=======
->>>>>>> 2effe245 (.)
-=======
-- [Laravel Notifications](https://laravel.com/docs/notifications)
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Logging](https://laravel.com/docs/logging)
->>>>>>> fd1fcc4c (.)
+
 =======
 >>>>>>> e790eb33 (.)
 =======
@@ -1474,26 +654,7 @@ Log::debug('SMS Debug', [
 - [Laravel Queue](https://laravel.com/docs/queues)
 - [Laravel Logging](https://laravel.com/docs/logging)
 >>>>>>> 4f3927d7 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 3ee54c5d (.)
-=======
-- [Laravel Notifications](https://laravel.com/docs/notifications)
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Logging](https://laravel.com/docs/logging)
->>>>>>> c8b1c8bf (.)
-<<<<<<< HEAD
-=======
-- [Laravel Notifications](https://laravel.com/docs/notifications)
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Logging](https://laravel.com/docs/logging)
->>>>>>> 9cf0dc90 (.)
-=======
-- [Laravel Notifications](https://laravel.com/docs/notifications)
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Logging](https://laravel.com/docs/logging)
->>>>>>> 75179b85 (.)
+
 =======
 - [Laravel Notifications](https://laravel.com/docs/notifications)
 - [Laravel Queue](https://laravel.com/docs/queues)
@@ -1525,23 +686,7 @@ Log::debug('SMS Debug', [
 - [Laravel Queue](https://laravel.com/docs/queues)
 - [Laravel Logging](https://laravel.com/docs/logging)
 >>>>>>> 66453ace (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 7325acf3 (.)
-=======
-- [Laravel Notifications](https://laravel.com/docs/notifications)
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Logging](https://laravel.com/docs/logging)
->>>>>>> 2a97406c (.)
-<<<<<<< HEAD
-=======
->>>>>>> f2e64178 (.)
-=======
-- [Laravel Notifications](https://laravel.com/docs/notifications)
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Logging](https://laravel.com/docs/logging)
->>>>>>> 4f042b88 (.)
+
 =======
 >>>>>>> c4bdacbf (.)
 =======
@@ -1558,12 +703,7 @@ Log::debug('SMS Debug', [
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> bd804d67 (.)
-<<<<<<< HEAD
 >>>>>>> laraxot/develop
-=======
->>>>>>> 1487fe812 (.)
-=======
->>>>>>> 12a7e2462 (.)
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -1608,12 +748,7 @@ Log::debug('SMS Debug', [
 - [Laravel Queue](https://laravel.com/docs/queues)
 - [Laravel Logging](https://laravel.com/docs/logging)
 >>>>>>> fdb24863 (rebase 210)
-<<<<<<< HEAD
 >>>>>>> b85076e48 (.)
-=======
-=======
->>>>>>> 229a065a (rebase 210)
->>>>>>> 3e757cee2 (.)
 =======
 >>>>>>> 43dd68f4b (.)
 =======
@@ -1661,43 +796,7 @@ Log::debug('SMS Debug', [
 >>>>>>> a55aa5e96 (.)
 - [Laravel Notifications](https://laravel.com/project_docs/notifications)
 - [Laravel Logging](https://laravel.com/docs/logging)- [Laravel Notifications](https://laravel.com/project_docs/notifications)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 1619767d8 (.)
-=======
->>>>>>> 4f19d70d2 (.)
-=======
->>>>>>> 8f2456941 (.)
+
 =======
 >>>>>>> 2f135ef98 (.)
 =======
@@ -1727,26 +826,7 @@ Log::debug('SMS Debug', [
 >>>>>>> b19cd40 (.)
 =======
 >>>>>>> 4e2ebfb (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-- [Laravel Notifications](https://laravel.com/project_docs/notifications)
->>>>>>> b19cd40 (.)
->>>>>>> b207a9b1a (.)
+
 =======
 >>>>>>> 1619767d8 (.)
 =======
@@ -1849,150 +929,15 @@ Log::debug('SMS Debug', [
 >>>>>>> cbb586cb0 (.)
 - [Laravel Queue](https://laravel.com/project_docs/queues)
 - [Laravel Logging](https://laravel.com/project_docs/logging)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 75179b85 (.)
-=======
->>>>>>> f963d2c0 (.)
+
 =======
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 75179b85 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> f963d2c0 (.)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> d09cb759 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> ee18dd92 (.)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> 4689a827 (.)
+
+
 =======
 >>>>>>> 66453ace (.)
 =======
@@ -2011,22 +956,8 @@ Log::debug('SMS Debug', [
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> c4bdacbf (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 36321fcb (.)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> dceba960 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 712617d3 (.)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> bd804d67 (.)
+
+
 =======
 >>>>>>> fdb24863 (rebase 210)
 =======
@@ -2035,46 +966,12 @@ Log::debug('SMS Debug', [
 >>>>>>> 229a065a (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> 9f8e680a (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> eb62d6cf (rebase 210)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> 5aedc39c (rebase 210)
-=======
->>>>>>> 8c8937e7 (rebase 210)
-=======
-=======
->>>>>>> d284d65 (.)
+
 >>>>>>> 22baa66d (rebase 210)
 =======
 >>>>>>> 36ac4fc1 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 26d39e2eb (.)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> 2effe245 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> fd1fcc4c (.)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> e790eb33 (.)
+
+
 =======
 >>>>>>> 4f3927d7 (.)
 =======
@@ -2083,14 +980,7 @@ Log::debug('SMS Debug', [
 >>>>>>> 3ee54c5d (.)
 =======
 >>>>>>> c8b1c8bf (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 9cf0dc90 (.)
-=======
->>>>>>> 75179b85 (.)
-=======
->>>>>>> f963d2c0 (.)
+
 =======
 =======
 >>>>>>> d284d65 (.)
@@ -2101,20 +991,9 @@ Log::debug('SMS Debug', [
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> 4689a827 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 66453ace (.)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> 7325acf3 (.)
-<<<<<<< HEAD
+
 =======
 >>>>>>> 2a97406c (.)
-=======
-=======
->>>>>>> d284d65 (.)
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 4f042b88 (.)
@@ -2134,43 +1013,9 @@ Log::debug('SMS Debug', [
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> bd804d67 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> fdb24863 (rebase 210)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> 229a065a (rebase 210)
-<<<<<<< HEAD
-=======
->>>>>>> 4fc21b78 (rebase 210)
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> 9f8e680a (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-=======
-=======
->>>>>>> d284d65 (.)
+
 >>>>>>> 5aedc39c (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 8c8937e7 (rebase 210)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> 22baa66d (rebase 210)
-<<<<<<< HEAD
-=======
->>>>>>> 36ac4fc1 (.)
-=======
-=======
->>>>>>> d284d65 (.)
+
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> fd1fcc4c (.)
@@ -2178,21 +1023,9 @@ Log::debug('SMS Debug', [
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> e790eb33 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4f3927d7 (.)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> 3ee54c5d (.)
-<<<<<<< HEAD
+
 =======
 >>>>>>> c8b1c8bf (.)
-=======
->>>>>>> 9cf0dc90 (.)
-=======
->>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -2221,22 +1054,8 @@ Log::debug('SMS Debug', [
 >>>>>>> 7325acf3 (.)
 =======
 >>>>>>> 2a97406c (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 23f115647 (.)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> f2e64178 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4f042b88 (.)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> c4bdacbf (.)
+
+
 =======
 >>>>>>> 36321fcb (.)
 =======
@@ -2371,69 +1190,7 @@ Log::debug('SMS Debug', [
 - Check periodici
 - Alert system
 - Report mensili 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 998e6866b (.)
-=======
->>>>>>> 36136dcfa (.)
+
 =======
 >>>>>>> 43dd68f4b (.)
 =======
@@ -2446,34 +1203,14 @@ Log::debug('SMS Debug', [
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> 36321fcb (.)
-=======
->>>>>>> 712617d3 (.)
+
 =======
 >>>>>>> fdb24863 (rebase 210)
 =======
 >>>>>>> 54220b28 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 36ac4fc1 (.)
-=======
->>>>>>> fd1fcc4c (.)
+
 =======
 >>>>>>> 4f3927d7 (.)
 =======
@@ -2510,43 +1247,7 @@ Log::debug('SMS Debug', [
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> 36321fcb (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 712617d3 (.)
-=======
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 54220b28 (rebase 210)
-=======
->>>>>>> 4fc21b78 (rebase 210)
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 36ac4fc1 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> fd1fcc4c (.)
-=======
->>>>>>> 4f3927d7 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> c8b1c8bf (.)
-=======
->>>>>>> 9cf0dc90 (.)
-<<<<<<< HEAD
-=======
->>>>>>> 75179b85 (.)
-=======
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 75179b855 (.)
+
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -2565,12 +1266,7 @@ Log::debug('SMS Debug', [
 >>>>>>> 36321fcb (.)
 =======
 >>>>>>> 712617d3 (.)
-<<<<<<< HEAD
 >>>>>>> laraxot/develop
-=======
->>>>>>> 301ad8b44 (.)
-=======
->>>>>>> 998e6866b (.)
 =======
 =======
 >>>>>>> 4f042b88 (.)

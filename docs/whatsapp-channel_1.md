@@ -1,104 +1,6 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 4f042b88 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 36321fcb (.)
-=======
->>>>>>> 712617d3 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 4fc21b78 (rebase 210)
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 8c8937e7 (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 36ac4fc1 (.)
-=======
->>>>>>> fd1fcc4c (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4f3927d7 (.)
-=======
->>>>>>> c8b1c8bf (.)
-=======
->>>>>>> 9cf0dc90 (.)
+
+
+
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -119,31 +21,12 @@
 >>>>>>> fdb24863 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-<<<<<<< HEAD
-=======
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 36ac4fc1 (.)
-=======
->>>>>>> fd1fcc4c (.)
+
 =======
 >>>>>>> 4f3927d7 (.)
 =======
 >>>>>>> c8b1c8bf (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 9cf0dc90 (.)
-=======
->>>>>>> 75179b85 (.)
-=======
->>>>>>> f963d2c0 (.)
+
 =======
 >>>>>>> 75179b855 (.)
 =======
@@ -533,149 +416,12 @@ class WhatsAppTest extends TestCase
 
 - [Twilio WhatsApp API](https://www.twilio.com/whatsapp)
 - [Vonage WhatsApp API](https://developer.vonage.com/messaging/whatsapp/overview)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 75179b85 (.)
-=======
->>>>>>> f963d2c0 (.)
+
 =======
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 75179b85 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> d09cb759 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> ee18dd92 (.)
-=======
->>>>>>> 4689a827 (.)
-=======
->>>>>>> 66453ace (.)
+
 =======
 >>>>>>> 7325acf3 (.)
 =======
@@ -686,84 +432,18 @@ class WhatsAppTest extends TestCase
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> c4bdacbf (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 36321fcb (.)
-=======
->>>>>>> dceba960 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 712617d3 (.)
-=======
->>>>>>> bd804d67 (.)
-=======
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 229a065a (rebase 210)
-=======
->>>>>>> 4fc21b78 (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> 9f8e680a (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 5aedc39c (rebase 210)
-=======
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 22baa66d (rebase 210)
-=======
->>>>>>> 36ac4fc1 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 2effe245 (.)
-=======
->>>>>>> fd1fcc4c (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> e790eb33 (.)
-=======
->>>>>>> 4f3927d7 (.)
-=======
->>>>>>> 3ee54c5d (.)
+
 =======
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 9cf0dc90 (.)
-<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
-=======
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> d09cb759 (.)
 =======
 >>>>>>> ee18dd92 (.)
 =======
 >>>>>>> 4689a827 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 66453ace (.)
-=======
->>>>>>> 7325acf3 (.)
-<<<<<<< HEAD
-=======
->>>>>>> 2a97406c (.)
-=======
->>>>>>> f2e64178 (.)
-=======
->>>>>>> 4f042b88 (.)
+
 =======
 >>>>>>> c4bdacbf (.)
 =======
@@ -774,53 +454,14 @@ class WhatsAppTest extends TestCase
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> bd804d67 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 229a065a (rebase 210)
-<<<<<<< HEAD
-=======
->>>>>>> 4fc21b78 (rebase 210)
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> 9f8e680a (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 5aedc39c (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 22baa66d (rebase 210)
-<<<<<<< HEAD
-=======
->>>>>>> 36ac4fc1 (.)
-=======
->>>>>>> 2effe245 (.)
+
 =======
 >>>>>>> fd1fcc4c (.)
 =======
 >>>>>>> e790eb33 (.)
 =======
 >>>>>>> 4f3927d7 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 3ee54c5d (.)
-=======
->>>>>>> c8b1c8bf (.)
-<<<<<<< HEAD
-=======
->>>>>>> 9cf0dc90 (.)
-=======
->>>>>>> 75179b85 (.)
-=======
->>>>>>> f963d2c0 (.)
+
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -839,19 +480,7 @@ class WhatsAppTest extends TestCase
 >>>>>>> 7325acf3 (.)
 =======
 >>>>>>> 2a97406c (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> f2e64178 (.)
-=======
->>>>>>> 4f042b88 (.)
-<<<<<<< HEAD
-=======
->>>>>>> c4bdacbf (.)
-=======
->>>>>>> 36321fcb (.)
-=======
->>>>>>> dceba960 (.)
+
 =======
 >>>>>>> 712617d3 (.)
 =======
@@ -955,295 +584,7 @@ class WhatsAppTest extends TestCase
 - [Laravel Testing](https://laravel.com/project_docs/testing)
 - [Laravel Logging](https://laravel.com/project_docs/logging)
 - [Laravel Cache](https://laravel.com/project_docs/cache) 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 75179b85 (.)
-=======
->>>>>>> 82ae73be (.)
+
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -1274,22 +615,9 @@ class WhatsAppTest extends TestCase
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 75179b85 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 82ae73be (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35e (.)
-<<<<<<< HEAD
+
 =======
 >>>>>>> 9777d1b3 (.)
-=======
->>>>>>> f963d2c0 (.)
-=======
-=======
->>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> de02998b (.)
@@ -1307,22 +635,9 @@ class WhatsAppTest extends TestCase
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> e7a9a2bf (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4f19d70d2 (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 9d67cabd (.)
-<<<<<<< HEAD
+
 =======
 >>>>>>> ba564870 (.)
-=======
->>>>>>> 66453ace (.)
-=======
-=======
->>>>>>> d284d65 (.)
 >>>>>>> 7325acf3 (.)
 =======
 >>>>>>> 9cdf6146 (.)
@@ -1342,22 +657,8 @@ class WhatsAppTest extends TestCase
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> 2a97406c (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 23f115647 (.)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> f2e64178 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 6d08c01b (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 6b6b9e41 (.)
+
+
 =======
 >>>>>>> c6c33175 (.)
 =======
@@ -1368,22 +669,9 @@ class WhatsAppTest extends TestCase
 >>>>>>> c4bdacbf (.)
 =======
 >>>>>>> 3b4c9907 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49639b815 (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 5fe4f466 (.)
-<<<<<<< HEAD
+
 =======
 >>>>>>> 503981fd (.)
-=======
->>>>>>> 36321fcb (.)
-=======
-=======
->>>>>>> d284d65 (.)
 >>>>>>> dceba960 (.)
 =======
 >>>>>>> 8e5817bc (.)
@@ -1401,111 +689,16 @@ class WhatsAppTest extends TestCase
 >>>>>>> bd804d67 (.)
 =======
 >>>>>>> 51182e3c (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> e0836b102 (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> cb85c538 (rebase 210)
-<<<<<<< HEAD
-=======
->>>>>>> 1c0eb9c7 (rebase 210)
-=======
->>>>>>> fdb24863 (rebase 210)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> 229a065a (rebase 210)
-=======
->>>>>>> a9bf0423 (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 47a873f13 (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 460b8f5b (rebase 210)
-<<<<<<< HEAD
-=======
->>>>>>> 4d253d2c (rebase 210)
-=======
->>>>>>> 4fc21b78 (rebase 210)
-=======
->>>>>>> 9fe1b60e (rebase 210)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 8a8a8e2f (rebase 210)
-=======
->>>>>>> efb0f8d9 (rebase 210)
-=======
->>>>>>> 9c45d9bd (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> c188e2a18 (.)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> 9f8e680a (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b4f93b3a (rebase 210)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 1375c94d (rebase 210)
-=======
->>>>>>> 52cd5f85 (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-=======
-=======
->>>>>>> d284d65 (.)
+
 >>>>>>> 5aedc39c (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> c5c038f2 (rebase 210)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 030c9674 (rebase 210)
-<<<<<<< HEAD
-=======
->>>>>>> bb00ab64 (rebase 210)
-=======
->>>>>>> 8c8937e7 (rebase 210)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> 22baa66d (rebase 210)
-=======
->>>>>>> 36ac4fc1 (.)
+
 =======
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> 2effe245 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 77edd94a (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> eea68ec9 (.)
-<<<<<<< HEAD
+
 =======
 >>>>>>> 59916c8f (.)
-=======
->>>>>>> fd1fcc4c (.)
-=======
-=======
->>>>>>> d284d65 (.)
 >>>>>>> e790eb33 (.)
 =======
 >>>>>>> f81a620f (.)
@@ -1517,55 +710,23 @@ class WhatsAppTest extends TestCase
 >>>>>>> 70e8274e (.)
 =======
 >>>>>>> 4f3927d7 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 763771402 (.)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> 3ee54c5d (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> c8b1c8bf (.)
-=======
->>>>>>> 2fc60436 (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
+
+
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
 =======
 >>>>>>> 9cf0dc90 (.)
-<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
-=======
->>>>>>> 82ae73be (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> f963d2c0 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 510809c6f (.)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> d09cb759 (.)
-<<<<<<< HEAD
+
 =======
 >>>>>>> de02998b (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 161887a2 (.)
@@ -1585,41 +746,17 @@ class WhatsAppTest extends TestCase
 >>>>>>> ba564870 (.)
 =======
 >>>>>>> 66453ace (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 2e9bd58c3 (.)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> 7325acf3 (.)
-<<<<<<< HEAD
+
 =======
 >>>>>>> 9cdf6146 (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
 >>>>>>> 80f054e0 (.)
 =======
 >>>>>>> 7c39b1fe (.)
 =======
 >>>>>>> 3f39ac8b (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 2f135ef98 (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 4d2eb53e (.)
-<<<<<<< HEAD
+
 =======
 >>>>>>> 888799d0 (.)
-=======
->>>>>>> 2a97406c (.)
-=======
-=======
->>>>>>> d284d65 (.)
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 6d08c01b (.)
@@ -1627,14 +764,8 @@ class WhatsAppTest extends TestCase
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 6b6b9e41 (.)
-<<<<<<< HEAD
 =======
 >>>>>>> c6c33175 (.)
-=======
->>>>>>> 4f042b88 (.)
-=======
-=======
->>>>>>> d284d65 (.)
 >>>>>>> c4bdacbf (.)
 =======
 >>>>>>> 3b4c9907 (.)
@@ -1646,22 +777,8 @@ class WhatsAppTest extends TestCase
 >>>>>>> 503981fd (.)
 =======
 >>>>>>> 36321fcb (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 9cb55171f (.)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> dceba960 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 8e5817bc (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> e0d9c9be (.)
+
+
 =======
 >>>>>>> 7a2f131f (.)
 =======
@@ -1680,57 +797,10 @@ class WhatsAppTest extends TestCase
 >>>>>>> 1c0eb9c7 (rebase 210)
 =======
 >>>>>>> fdb24863 (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 3e757cee2 (.)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> 229a065a (rebase 210)
-<<<<<<< HEAD
-=======
->>>>>>> a9bf0423 (rebase 210)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 460b8f5b (rebase 210)
-=======
->>>>>>> 4d253d2c (rebase 210)
-=======
->>>>>>> 4fc21b78 (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 9fe1b60e (rebase 210)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 8a8a8e2f (rebase 210)
-<<<<<<< HEAD
-=======
->>>>>>> efb0f8d9 (rebase 210)
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> 9f8e680a (rebase 210)
-=======
->>>>>>> b4f93b3a (rebase 210)
-=======
-=======
->>>>>>> 4e2ebfb (.)
+
 >>>>>>> 1375c94d (rebase 210)
-<<<<<<< HEAD
 =======
 >>>>>>> 52cd5f85 (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-<<<<<<< HEAD
-=======
-=======
->>>>>>> d284d65 (.)
 >>>>>>> 5aedc39c (rebase 210)
 =======
 >>>>>>> c5c038f2 (rebase 210)
@@ -1742,22 +812,7 @@ class WhatsAppTest extends TestCase
 >>>>>>> bb00ab64 (rebase 210)
 =======
 >>>>>>> 8c8937e7 (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 01750b107 (.)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> 22baa66d (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 36ac4fc1 (.)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> 2effe245 (.)
+
 =======
 >>>>>>> 77edd94a (.)
 =======
@@ -1768,50 +823,18 @@ class WhatsAppTest extends TestCase
 >>>>>>> 59916c8f (.)
 =======
 >>>>>>> fd1fcc4c (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 2dab69c8a (.)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> e790eb33 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> f81a620f (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 06e3078e (.)
-<<<<<<< HEAD
+
+
 =======
 >>>>>>> 70e8274e (.)
-=======
->>>>>>> 4f3927d7 (.)
-=======
-=======
->>>>>>> d284d65 (.)
 >>>>>>> 3ee54c5d (.)
 =======
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 2fc60436 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> cbb586cb0 (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> ce89c8bb (.)
-<<<<<<< HEAD
+
 =======
 >>>>>>> 58816034 (.)
-=======
->>>>>>> 9cf0dc90 (.)
-=======
->>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1827,13 +850,7 @@ class WhatsAppTest extends TestCase
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
 =======
-<<<<<<< HEAD
 >>>>>>> 75179b855 (.)
-=======
->>>>>>> 82ae73be (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
@@ -1849,25 +866,14 @@ class WhatsAppTest extends TestCase
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
-<<<<<<< HEAD
 =======
 >>>>>>> 161887a2 (.)
-=======
->>>>>>> ee18dd92 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 8dc1f2ed6 (.)
 =======
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> 4689a827 (.)
-<<<<<<< HEAD
 =======
 >>>>>>> e7a9a2bf (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
 >>>>>>> 9d67cabd (.)
 =======
 >>>>>>> ba564870 (.)
@@ -1879,22 +885,9 @@ class WhatsAppTest extends TestCase
 >>>>>>> 7325acf3 (.)
 =======
 >>>>>>> 9cdf6146 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 8f2456941 (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 80f054e0 (.)
-<<<<<<< HEAD
+
 =======
 >>>>>>> 7c39b1fe (.)
-=======
->>>>>>> 3f39ac8b (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 888799d0 (.)
@@ -1914,20 +907,9 @@ class WhatsAppTest extends TestCase
 >>>>>>> c6c33175 (.)
 =======
 >>>>>>> 4f042b88 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> a115e2aad (.)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> c4bdacbf (.)
-<<<<<<< HEAD
+
 =======
 >>>>>>> 3b4c9907 (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
 >>>>>>> 5fe4f466 (.)
 =======
 >>>>>>> 503981fd (.)
@@ -1943,26 +925,13 @@ class WhatsAppTest extends TestCase
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> e0d9c9be (.)
-<<<<<<< HEAD
 =======
 >>>>>>> 7a2f131f (.)
-=======
->>>>>>> 712617d3 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 848f79b79 (.)
 =======
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> bd804d67 (.)
-<<<<<<< HEAD
 >>>>>>> laraxot/develop
-=======
->>>>>>> 1487fe812 (.)
-=======
-=======
->>>>>>> 82ae73be (.)
 >>>>>>> 10292b60a (.)
 =======
 >>>>>>> bf5d31b0f (.)
@@ -2115,297 +1084,7 @@ class WhatsAppTest extends TestCase
 - [Laravel Testing](https://laravel.com/docs/testing)
 - [Laravel Logging](https://laravel.com/docs/logging)
 - [Laravel Cache](https://laravel.com/docs/cache) 
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [Laravel Cache](https://laravel.com/docs/cache) 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [Laravel Cache](https://laravel.com/docs/cache) 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 10292b60a (.)
-=======
->>>>>>> bf5d31b0f (.)
+
 =======
 >>>>>>> b207a9b1a (.)
 =======
@@ -2514,30 +1193,11 @@ class WhatsAppTest extends TestCase
 =======
 - [Laravel Cache](https://laravel.com/docs/cache) 
 >>>>>>> 75179b85 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 10292b60a (.)
-=======
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 82ae73be (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> bf5d31b0f (.)
-=======
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
+
+
 >>>>>>> 207ac35e (.)
-<<<<<<< HEAD
 =======
 >>>>>>> 9777d1b3 (.)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
->>>>>>> f963d2c0 (.)
 =======
 - [Laravel Cache](https://laravel.com/docs/cache) 
 =======
@@ -2567,22 +1227,10 @@ class WhatsAppTest extends TestCase
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> e7a9a2bf (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4f19d70d2 (.)
-=======
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
+
 >>>>>>> 9d67cabd (.)
-<<<<<<< HEAD
 =======
 >>>>>>> ba564870 (.)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
->>>>>>> 66453ace (.)
 =======
 - [Laravel Cache](https://laravel.com/docs/cache) 
 =======
@@ -2606,22 +1254,10 @@ class WhatsAppTest extends TestCase
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 3f39ac8b (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 2f135ef98 (.)
-=======
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
+
 >>>>>>> 4d2eb53e (.)
-<<<<<<< HEAD
 =======
 >>>>>>> 888799d0 (.)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
->>>>>>> 2a97406c (.)
 =======
 - [Laravel Cache](https://laravel.com/docs/cache) 
 =======
@@ -2642,29 +1278,9 @@ class WhatsAppTest extends TestCase
 =======
 - [Laravel Cache](https://laravel.com/docs/cache) 
 >>>>>>> 4f042b88 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
+
+
 =======
->>>>>>> a115e2aad (.)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
-=======
->>>>>>> d284d65 (.)
->>>>>>> c4bdacbf (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> db0bc148f (.)
-=======
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 3b4c9907 (.)
-<<<<<<< HEAD
-=======
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
 >>>>>>> 5fe4f466 (.)
 =======
 >>>>>>> 503981fd (.)
@@ -2700,26 +1316,10 @@ class WhatsAppTest extends TestCase
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 51182e3c (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> e0836b102 (.)
-=======
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
+
 >>>>>>> cb85c538 (rebase 210)
-<<<<<<< HEAD
 =======
 >>>>>>> 1c0eb9c7 (rebase 210)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
->>>>>>> fdb24863 (rebase 210)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
-=======
->>>>>>> d284d65 (.)
 >>>>>>> 229a065a (rebase 210)
 =======
 =======
@@ -2731,28 +1331,13 @@ class WhatsAppTest extends TestCase
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 460b8f5b (rebase 210)
-<<<<<<< HEAD
 =======
 >>>>>>> 4d253d2c (rebase 210)
-=======
->>>>>>> 54220b28 (rebase 210)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
->>>>>>> 4fc21b78 (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> a0788fa28 (.)
 =======
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 9fe1b60e (rebase 210)
-<<<<<<< HEAD
 =======
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
 >>>>>>> 8a8a8e2f (rebase 210)
 =======
 >>>>>>> efb0f8d9 (rebase 210)
@@ -2779,66 +1364,14 @@ class WhatsAppTest extends TestCase
 =======
 - [Laravel Cache](https://laravel.com/docs/cache) 
 >>>>>>> eb62d6cf (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> cd5474106 (.)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
-=======
->>>>>>> d284d65 (.)
->>>>>>> 5aedc39c (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 17f6b8617 (.)
-=======
-=======
->>>>>>> b19cd40 (.)
->>>>>>> c5c038f2 (rebase 210)
-<<<<<<< HEAD
-=======
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 030c9674 (rebase 210)
-=======
->>>>>>> bb00ab64 (rebase 210)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
->>>>>>> 8c8937e7 (rebase 210)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
-=======
->>>>>>> d284d65 (.)
+
 >>>>>>> 22baa66d (rebase 210)
 =======
 - [Laravel Cache](https://laravel.com/docs/cache) 
 >>>>>>> 36ac4fc1 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
+
+
 =======
->>>>>>> 26d39e2eb (.)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
-=======
->>>>>>> d284d65 (.)
->>>>>>> 2effe245 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 2e1ac1f20 (.)
-=======
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 77edd94a (.)
-<<<<<<< HEAD
-=======
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
 >>>>>>> eea68ec9 (.)
 =======
 >>>>>>> 59916c8f (.)
@@ -2854,22 +1387,10 @@ class WhatsAppTest extends TestCase
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> f81a620f (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> ec24613a1 (.)
-=======
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
+
 >>>>>>> 06e3078e (.)
-<<<<<<< HEAD
 =======
 >>>>>>> 70e8274e (.)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
->>>>>>> 4f3927d7 (.)
 =======
 - [Laravel Cache](https://laravel.com/docs/cache) 
 =======
@@ -2882,22 +1403,10 @@ class WhatsAppTest extends TestCase
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 2fc60436 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> cbb586cb0 (.)
-=======
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
+
 >>>>>>> ce89c8bb (.)
-<<<<<<< HEAD
 =======
 >>>>>>> 58816034 (.)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
->>>>>>> 9cf0dc90 (.)
 =======
 - [Laravel Cache](https://laravel.com/docs/cache) 
 >>>>>>> 75179b85 (.)
@@ -2916,20 +1425,8 @@ class WhatsAppTest extends TestCase
 =======
 - [Laravel Cache](https://laravel.com/docs/cache) 
 >>>>>>> f963d2c0 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 =======
->>>>>>> 510809c6f (.)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
-=======
->>>>>>> d284d65 (.)
->>>>>>> d09cb759 (.)
-<<<<<<< HEAD
-=======
-=======
->>>>>>> b19cd40 (.)
->>>>>>> de02998b (.)
 =======
 =======
 >>>>>>> b19cd40 (.)
@@ -2961,29 +1458,9 @@ class WhatsAppTest extends TestCase
 =======
 - [Laravel Cache](https://laravel.com/docs/cache) 
 >>>>>>> 66453ace (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
+
+
 =======
->>>>>>> 2e9bd58c3 (.)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
-=======
->>>>>>> d284d65 (.)
->>>>>>> 7325acf3 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> c22b35d1e (.)
-=======
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 9cdf6146 (.)
-<<<<<<< HEAD
-=======
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
 >>>>>>> 80f054e0 (.)
 =======
 >>>>>>> 7c39b1fe (.)
@@ -3004,20 +1481,8 @@ class WhatsAppTest extends TestCase
 =======
 - [Laravel Cache](https://laravel.com/docs/cache) 
 >>>>>>> 2a97406c (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 =======
->>>>>>> 23f115647 (.)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
-=======
->>>>>>> d284d65 (.)
->>>>>>> f2e64178 (.)
-<<<<<<< HEAD
-=======
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 6d08c01b (.)
 =======
 =======
 >>>>>>> b19cd40 (.)
@@ -3044,26 +1509,10 @@ class WhatsAppTest extends TestCase
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 5fe4f466 (.)
-<<<<<<< HEAD
 =======
 >>>>>>> 503981fd (.)
+
 =======
-- [Laravel Cache](https://laravel.com/docs/cache) 
->>>>>>> 36321fcb (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 9cb55171f (.)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
-=======
->>>>>>> d284d65 (.)
->>>>>>> dceba960 (.)
-<<<<<<< HEAD
-=======
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 8e5817bc (.)
 =======
 =======
 >>>>>>> b19cd40 (.)
@@ -3095,40 +1544,7 @@ class WhatsAppTest extends TestCase
 =======
 - [Laravel Cache](https://laravel.com/docs/cache) 
 >>>>>>> fdb24863 (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 3e757cee2 (.)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
-=======
->>>>>>> d284d65 (.)
->>>>>>> 229a065a (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 903e3e2cd (.)
-=======
-=======
->>>>>>> b19cd40 (.)
->>>>>>> a9bf0423 (rebase 210)
-<<<<<<< HEAD
-=======
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 460b8f5b (rebase 210)
-=======
->>>>>>> 4d253d2c (rebase 210)
-=======
->>>>>>> 54220b28 (rebase 210)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
->>>>>>> 4fc21b78 (rebase 210)
-=======
-=======
->>>>>>> b19cd40 (.)
+
 >>>>>>> 9fe1b60e (rebase 210)
 =======
 =======
@@ -3136,49 +1552,17 @@ class WhatsAppTest extends TestCase
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 8a8a8e2f (rebase 210)
-<<<<<<< HEAD
 =======
 >>>>>>> efb0f8d9 (rebase 210)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
->>>>>>> 9c45d9bd (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> c188e2a18 (.)
 =======
 - [Laravel Cache](https://laravel.com/docs/cache) 
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> 9f8e680a (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5d49e093a (.)
-=======
-=======
->>>>>>> b19cd40 (.)
->>>>>>> b4f93b3a (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 7a9167faf (.)
-=======
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
+
 >>>>>>> 1375c94d (rebase 210)
-<<<<<<< HEAD
 =======
 >>>>>>> 52cd5f85 (rebase 210)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
->>>>>>> eb62d6cf (rebase 210)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
-=======
->>>>>>> d284d65 (.)
 >>>>>>> 5aedc39c (rebase 210)
 =======
 =======
@@ -3190,29 +1574,16 @@ class WhatsAppTest extends TestCase
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 030c9674 (rebase 210)
-<<<<<<< HEAD
 =======
 >>>>>>> bb00ab64 (rebase 210)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
->>>>>>> 8c8937e7 (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 01750b107 (.)
 =======
 - [Laravel Cache](https://laravel.com/docs/cache) 
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> 22baa66d (rebase 210)
-<<<<<<< HEAD
 =======
 - [Laravel Cache](https://laravel.com/docs/cache) 
 >>>>>>> 36ac4fc1 (.)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
-=======
->>>>>>> d284d65 (.)
 >>>>>>> 2effe245 (.)
 =======
 =======
@@ -3224,26 +1595,10 @@ class WhatsAppTest extends TestCase
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> eea68ec9 (.)
-<<<<<<< HEAD
 =======
 >>>>>>> 59916c8f (.)
+
 =======
-- [Laravel Cache](https://laravel.com/docs/cache) 
->>>>>>> fd1fcc4c (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 2dab69c8a (.)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
-=======
->>>>>>> d284d65 (.)
->>>>>>> e790eb33 (.)
-<<<<<<< HEAD
-=======
-=======
->>>>>>> b19cd40 (.)
->>>>>>> f81a620f (.)
 =======
 =======
 >>>>>>> b19cd40 (.)
@@ -3255,23 +1610,8 @@ class WhatsAppTest extends TestCase
 =======
 - [Laravel Cache](https://laravel.com/docs/cache) 
 >>>>>>> 4f3927d7 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 763771402 (.)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
-=======
->>>>>>> d284d65 (.)
->>>>>>> 3ee54c5d (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
->>>>>>> c8b1c8bf (.)
-=======
-=======
->>>>>>> b19cd40 (.)
+
+
 >>>>>>> 2fc60436 (.)
 =======
 =======
@@ -3284,13 +1624,9 @@ class WhatsAppTest extends TestCase
 =======
 - [Laravel Cache](https://laravel.com/docs/cache) 
 >>>>>>> 9cf0dc90 (.)
-<<<<<<< HEAD
 =======
 - [Laravel Cache](https://laravel.com/docs/cache) 
 >>>>>>> 75179b85 (.)
-=======
-=======
->>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
 =======
 =======
@@ -3309,12 +1645,8 @@ class WhatsAppTest extends TestCase
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
 =======
-<<<<<<< HEAD
 - [Laravel Cache](https://laravel.com/docs/cache) 
 >>>>>>> 75179b855 (.)
-=======
-=======
->>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
 =======
 =======
@@ -3342,26 +1674,10 @@ class WhatsAppTest extends TestCase
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
-<<<<<<< HEAD
 =======
 >>>>>>> 161887a2 (.)
+
 =======
-- [Laravel Cache](https://laravel.com/docs/cache) 
->>>>>>> ee18dd92 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 8dc1f2ed6 (.)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
-=======
->>>>>>> d284d65 (.)
->>>>>>> 4689a827 (.)
-<<<<<<< HEAD
-=======
-=======
->>>>>>> b19cd40 (.)
->>>>>>> e7a9a2bf (.)
 =======
 =======
 >>>>>>> b19cd40 (.)
@@ -3388,14 +1704,8 @@ class WhatsAppTest extends TestCase
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 80f054e0 (.)
-<<<<<<< HEAD
 =======
 >>>>>>> 7c39b1fe (.)
-=======
->>>>>>> 5fd545e4 (.)
-=======
-=======
->>>>>>> b19cd40 (.)
 >>>>>>> 3f39ac8b (.)
 =======
 =======
@@ -3417,22 +1727,10 @@ class WhatsAppTest extends TestCase
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 6d08c01b (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> be45a0b8d (.)
-=======
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
+
 >>>>>>> 6b6b9e41 (.)
-<<<<<<< HEAD
 =======
 >>>>>>> c6c33175 (.)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
->>>>>>> 4f042b88 (.)
 =======
 - [Laravel Cache](https://laravel.com/docs/cache) 
 =======
@@ -3462,37 +1760,12 @@ class WhatsAppTest extends TestCase
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 8e5817bc (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 968ed47cd (.)
-=======
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
+
 >>>>>>> e0d9c9be (.)
-<<<<<<< HEAD
 =======
 >>>>>>> 7a2f131f (.)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
->>>>>>> 712617d3 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 848f79b79 (.)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
-=======
->>>>>>> d284d65 (.)
->>>>>>> bd804d67 (.)
-<<<<<<< HEAD
+
 >>>>>>> laraxot/develop
-=======
->>>>>>> 301ad8b44 (.)
-=======
->>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 10292b60a (.)
 =======

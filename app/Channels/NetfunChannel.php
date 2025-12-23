@@ -31,8 +31,8 @@ class NetfunChannel
             return null;
         }
 
-        $recipient = $notifiable->routeNotificationForNetfun($notification);
-        if (! $recipient) {
+        $to = $notifiable->routeNotificationForNetfun($notification);
+        if (! $to) {
             return null;
         }
 
@@ -45,11 +45,11 @@ class NetfunChannel
 
         // Crea i dati SMS
         $smsData = SmsData::from([
-            'recipient' => $recipient,
+            'to' => $to,
             'body' => is_string($message)
                 ? $message
                 : (is_object($message) && method_exists($message, 'getContent') ? $message->getContent() : ''),
-            'from' => '',
+            'from' => null,
         ]);
 
         // Esegui l'invio tramite la Queueable Action

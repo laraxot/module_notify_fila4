@@ -12,6 +12,7 @@ use Filament\Forms\Components\TextInput;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Notifications\Notification;
+use Filament\Pages\Page;
 use Filament\Schemas\Components\Section;
 use Filament\Schemas\Schema;
 use Illuminate\Contracts\Auth\Authenticatable;
@@ -21,12 +22,11 @@ use Modules\Notify\Datas\EmailData;
 use Modules\Notify\Emails\EmailDataEmail;
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
-use Modules\Xot\Filament\Pages\XotBasePage;
 
 /**
  * @property \Filament\Schemas\Schema $emailForm
  */
-class SendEmail extends XotBasePage implements HasForms
+class SendEmail extends Page implements HasForms
 {
     use InteractsWithForms;
 
@@ -52,7 +52,7 @@ class SendEmail extends XotBasePage implements HasForms
                 Section::make()
                     // ->description('Update your account\'s profile information and email address.')
                     ->schema([
-                        TextInput::make('recipient')
+                        TextInput::make('to')
                             // ->unique(ignoreRecord: true)
                             ->email()
                             ->required(),
@@ -70,7 +70,7 @@ class SendEmail extends XotBasePage implements HasForms
         $email_data = EmailData::from($data);
         // $from_address = config('mail.from.address');
 
-        Mail::to($data['recipient'])->send(new EmailDataEmail($email_data));
+        Mail::to($data['to'])->send(new EmailDataEmail($email_data));
 
         Notification::make()
             ->success()

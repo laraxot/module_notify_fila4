@@ -24,7 +24,8 @@ class NetfunChannel
         $netfunSendAction = app(NetfunSendAction::class);
         Assert::isInstanceOf($netfunSendAction, NetfunSendAction::class);
 
-        // Eseguiamo l'action (restituisce sempre un array)
+        // Eseguiamo l'action - restituisce sempre un array
+        /** @var array<string, mixed> $data */
         $data = $netfunSendAction->execute($smsData);
 
         // Incrementiamo il contatore SMS

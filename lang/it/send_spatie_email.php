@@ -10,16 +10,6 @@ return [
     'actions' => [
         'emailFormActions' => [
             'label' => 'emailFormActions',
-            'tooltip' => 'emailFormActions',
-        ],
-        'logout' => [
-            'tooltip' => 'logout',
-            'icon' => 'logout',
-            'label' => 'logout',
-        ],
-        'profile' => [
-            'tooltip' => 'profile',
-            'icon' => 'profile',
         ],
     ],
     'fields' => [
@@ -51,12 +41,6 @@ return [
             'helper_text' => 'mail_template_slug',
             'placeholder' => 'mail_template_slug',
             'label' => 'mail_template_slug',
-        ],
-        'recipient' => [
-            'description' => 'recipient',
-            'helper_text' => 'recipient',
-            'placeholder' => 'recipient',
-            'label' => 'recipient',
         ],
     ],
 ];

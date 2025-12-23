@@ -18,7 +18,7 @@ class NotificationData extends Data
 
     public ?string $from_email = null;
 
-    public string $recipient;
+    public string $to;
 
     public ?string $subject = null;
 
@@ -46,14 +46,14 @@ class NotificationData extends Data
             return app(NotificationModel::class);
         }
 
-        return $this->recipient;
+        return $this->to;
     }
 
     public function getSmsData(): SmsData
     {
         return SmsData::from([
             'from' => $this->from,
-            'recipient' => $this->recipient,
+            'to' => $this->to,
             'body' => $this->body,
         ]);
     }

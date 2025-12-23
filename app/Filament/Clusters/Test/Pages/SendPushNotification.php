@@ -14,7 +14,7 @@ use Filament\Forms\Components\TextInput;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Notifications\Notification;
-use Modules\Xot\Filament\Pages\XotBasePage;
+use Filament\Pages\Page;
 use Filament\Schemas\Schema;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
@@ -32,7 +32,7 @@ use function Safe\json_encode;
 /**
  * @property \Filament\Schemas\Schema $notificationForm
  */
-class SendPushNotification extends XotBasePage implements HasForms
+class SendPushNotification extends Page implements HasForms
 {
     use InteractsWithForms;
 

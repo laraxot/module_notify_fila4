@@ -72,7 +72,7 @@ final class SendVonageWhatsAppAction
         // Log di debug se abilitato
         if ($this->debug) {
             Log::debug('Invio WhatsApp Vonage', [
-                'to' => $whatsAppData->recipient,
+                'to' => $whatsAppData->to,
                 'from' => $from,
                 'message_length' => strlen($whatsAppData->body),
             ]);
@@ -93,7 +93,7 @@ final class SendVonageWhatsAppAction
             ],
             'to' => [
                 'type' => 'whatsapp',
-                'number' => $whatsAppData->recipient,
+                'number' => $whatsAppData->to,
             ],
             'message' => [
                 'content' => [
@@ -140,7 +140,7 @@ final class SendVonageWhatsAppAction
             $this->vars['response_data'] = $responseData;
 
             Log::info('WhatsApp Vonage inviato con successo', [
-                'to' => $whatsAppData->recipient,
+                'to' => $whatsAppData->to,
                 'response_code' => $statusCode,
             ]);
 
@@ -164,7 +164,7 @@ final class SendVonageWhatsAppAction
             $this->vars['error_response'] = $responseBody;
 
             Log::warning('Errore invio WhatsApp Vonage', [
-                'to' => $whatsAppData->recipient,
+                'to' => $whatsAppData->to,
                 'status' => $statusCode,
                 'response' => $responseBody,
             ]);

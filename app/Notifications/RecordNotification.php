@@ -10,14 +10,9 @@ use Illuminate\Support\Str;
 use Modules\Notify\Channels\SmsChannel;
 use Modules\Notify\Datas\SmsData;
 use Modules\Notify\Emails\SpatieEmail;
-use Illuminate\Bus\Queueable;
-use Illuminate\Contracts\Queue\ShouldQueue;
 
-class RecordNotification extends Notification implements ShouldQueue
+class RecordNotification extends Notification
 {
-
-    use Queueable;
-
     protected Model $record;
 
     protected string $slug;
@@ -35,15 +30,10 @@ class RecordNotification extends Notification implements ShouldQueue
     }
 
     /**
-     * Get the notification's delivery channels.
-     *
-     * Determines channels based on the notifiable's routing capabilities.
-     * Uses `routeNotificationFor()` method to check if the notifiable supports each channel.
-     *
-     * @param object $notifiable The entity to be notified
+     * @param  object  $notifiable
      * @return array<string|class-string>
      */
-    public function via(object $notifiable): array
+    public function via($notifiable): array
     {
         $channels = [];
         if (! method_exists($notifiable, 'routeNotificationFor')) {
@@ -60,28 +50,21 @@ class RecordNotification extends Notification implements ShouldQueue
     }
 
     /**
-     * Get the mail representation of the notification.
-     *
-     * Delegates completely to SpatieEmail for content generation.
-     * This follows the Zen Delegation pattern: RecordNotification is a bridge,
-     * SpatieEmail handles all template resolution, placeholder replacement, and layout logic.
-     *
-     * @param object $notifiable The entity to be notified
-     * @return SpatieEmail Configured SpatieEmail instance ready to send
+     * @param  object  $notifiable
      */
-    public function toMail(object $notifiable): SpatieEmail
+    public function toMail($notifiable): SpatieEmail
     {
         $email = new SpatieEmail($this->record, $this->slug);
         $email = $email->mergeData($this->data);
 
         $email = $email->addAttachments($this->attachments);
 
-        // Set recipient for envelope() method in SpatieEmail
-        // Note: Laravel's Notification system handles recipient routing via Notification::route(),
-        // but we set it here for SpatieEmail's envelope() method which uses $this->recipient
+        // Importante: garantisci che ci sia sempre un destinatario
         if (method_exists($notifiable, 'routeNotificationFor')) {
+            // Ottieni l'email dal notifiable
             $to = $notifiable->routeNotificationFor('mail');
-            if (is_string($to) && $to !== '') {
+            if (is_string($to)) {
+                $email->to($to);
                 $email->setRecipient($to);
             }
         }
@@ -113,26 +96,17 @@ class RecordNotification extends Notification implements ShouldQueue
             return null;
         }
 
-        // Build SMS content using SpatieEmail (which handles template resolution and placeholder replacement)
-        $smsBody = $email->buildSms();
-
-        // Wrap in SmsData for the SmsChannel (ensure all values are strings for type safety)
-        /** @var array<string, string> $smsDataArray */
-        $smsDataArray = [
+        $smsData = SmsData::from([
             'from' => 'Xot',
-            'recipient' => $to,
-            'body' => $smsBody,
-        ];
-        $smsData = SmsData::from($smsDataArray);
+            'to' => $to,
+            'body' => $email->buildSms(),
+        ]);
 
         return $smsData;
     }
 
     /**
-     * Merge additional data with record attributes for placeholder replacement.
-     *
-     * @param array<string, mixed> $data Additional data to merge
-     * @return $this
+     * @param  array<string, mixed>  $data
      */
     public function mergeData(array $data): self
     {
@@ -142,10 +116,7 @@ class RecordNotification extends Notification implements ShouldQueue
     }
 
     /**
-     * Add attachments to the notification.
-     *
-     * @param array<int, array<string, string>> $attachments Array of attachment data
-     * @return $this
+     * @param  array<int, array<string, string>>  $attachments
      */
     public function addAttachments(array $attachments): self
     {

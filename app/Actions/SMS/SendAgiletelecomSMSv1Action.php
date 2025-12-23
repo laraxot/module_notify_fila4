@@ -20,13 +20,15 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
     #[Override]
     public function execute(SmsData $data): array
     {
-        $agile = AgiletelecomData::make();
-        $url = 'https://secure.agiletelecom.com/securesend_v1.aspx';
-        $recipient = app(NormalizePhoneNumberAction::class)->execute($data->recipient);
+        $base_uri = 'https://secure.agiletelecom.com/';
+        $relative_path = 'securesend_v1.aspx';
 
-        $payload = [
+        $agile = AgiletelecomData::make();
+        $phone = app(NormalizePhoneNumberAction::class)->execute($data->to);
+
+        $data = [
             'smsTEXT' => $data->body,
-            'smsNUMBER' => $recipient,
+            'smsNUMBER' => $phone,
             'smsSENDER' => $agile->sender,
             'smsGATEWAY' => 'H', // M = Qualità standard, H = Qualità Alta
             'smsUSER' => $agile->username,
@@ -40,11 +42,13 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
         ];
 
         $client = new Client([
+            'base_uri' => $base_uri,
             'timeout' => 2.0,
+            'form_params' => $data,
             'headers' => $headers,
         ]);
 
-        $client->post($url, ['form_params' => $payload]);
+        $connection = $client->request('POST', $relative_path);
 
         return [];
     }

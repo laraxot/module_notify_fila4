@@ -74,7 +74,7 @@ class SendNetfunSmsPage extends XotBasePage
     public function getSmsFormSchema(): array
     {
         return [
-            'recipient' => TextInput::make('recipient')
+            'to' => TextInput::make('to')
                 ->label(__('notify::sms.form.to.label'))
                 ->tel()
                 ->required()
@@ -112,10 +112,15 @@ class SendNetfunSmsPage extends XotBasePage
         $data = $this->smsForm->getState();
 
         $smsData = SmsData::from($data);
+        /*
+         * $smsData->to = $data['to'];
+         * $smsData->from = $data['from'];
+         * $smsData->body = $data['body'];
+         */
         $provider = $data['provider'] ?? 'netfun';
 
         try {
-            Notification::route('sms', $data['recipient'])->notify(new SmsNotification($smsData, ['provider' => $provider]));
+            Notification::route('sms', $data['to'])->notify(new SmsNotification($smsData, ['provider' => $provider]));
 
             FilamentNotification::make()
                 ->success()
@@ -124,14 +129,14 @@ class SendNetfunSmsPage extends XotBasePage
                 ->send();
 
             Log::info('SMS inviato con successo', [
-                'recipient' => $data['recipient'],
+                'to' => $data['to'],
                 'from' => $data['from'],
                 'provider' => $provider,
             ]);
         } catch (Exception $e) {
             Log::error('Errore durante l\'invio dell\'SMS', [
                 'error' => $e->getMessage(),
-                'recipient' => $data['recipient'],
+                'to' => $data['to'],
                 'from' => $data['from'],
                 'provider' => $provider,
             ]);

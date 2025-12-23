@@ -74,7 +74,7 @@ class SendAwsEmailPage extends XotBasePage
     public function getEmailFormSchema(): array
     {
         return [
-            'recipient' => TextInput::make('recipient')
+            'to' => TextInput::make('to')
                 ->label(__('notify::email.form.to.label'))
                 ->email()
                 ->required()
@@ -112,17 +112,17 @@ class SendAwsEmailPage extends XotBasePage
         $data = $this->emailForm->getState();
 
         try {
-            $recipient = is_string($data['recipient']) ? $data['recipient'] : '';
+            $to = is_string($data['to']) ? $data['to'] : '';
             $subject = is_string($data['subject']) ? $data['subject'] : '';
             $bodyHtml = is_string($data['body_html']) ? $data['body_html'] : '';
 
-            $emailData = new EmailData($recipient, $subject, $bodyHtml);
+            $emailData = new EmailData($to, $subject, $bodyHtml);
 
             // Configurare lo specifico driver AWS SES per questo test
             config(['mail.default' => 'ses']);
 
             // Invia l'email utilizzando il servizio SES
-            Mail::to($recipient)->send(new EmailDataEmail($emailData));
+            Mail::to($to)->send(new EmailDataEmail($emailData));
 
             FilamentNotification::make()
                 ->success()

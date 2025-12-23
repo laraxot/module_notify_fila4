@@ -17,7 +17,7 @@ use Kreait\Firebase\Messaging\Message;
 use Kreait\Firebase\Messaging\Notification as FirebaseNotification;
 use Modules\Notify\Contracts\MobilePushNotification;
 use Modules\Notify\Datas\FirebaseNotificationData;
-use NotificationChannels\Fcm\FcmChannel;
+use Modules\Notify\Notifications\Channels\FirebaseCloudMessagingChannel;
 use Override;
 
 /**
@@ -46,7 +46,8 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
     public function via(object $_notifiable): array
     {
         return [
-            FcmChannel::class,
+            // 'firebase',
+            FirebaseCloudMessagingChannel::class,
         ];
     }
 

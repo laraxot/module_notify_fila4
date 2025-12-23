@@ -78,7 +78,7 @@ class TestSmtpPage extends XotBasePage implements HasForms
                         ->required(),
                     TextInput::make('from'),
                     // ->default(config('mail.from.name'))
-                    TextInput::make('recipient')
+                    TextInput::make('to')
                         // ->default($defaultEmail)
                         ->email()
                         ->required(),

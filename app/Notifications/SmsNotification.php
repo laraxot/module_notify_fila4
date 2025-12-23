@@ -41,14 +41,15 @@ class SmsNotification extends Notification implements ShouldQueue
         if ($content instanceof SmsData) {
             $this->smsData = $content;
         } else {
-            $recipient = $config['recipient'] ?? ($config['to'] ?? '');
+            $to = $config['to'] ?? '';
             $from = $config['from'] ?? '';
 
-            $this->smsData = SmsData::from([
-                'body' => $content,
-                'recipient' => (string) $recipient,
-                'from' => (string) $from,
-            ]);
+            $this->smsData = new SmsData;
+            $this->smsData->body = $content;
+            /** @phpstan-ignore-next-line */
+            $this->smsData->to = (string) $to;
+            /** @phpstan-ignore-next-line */
+            $this->smsData->from = (string) $from;
         }
 
         $this->config = $config;
@@ -57,15 +58,12 @@ class SmsNotification extends Notification implements ShouldQueue
     /**
      * Get the notification's delivery channels.
      *
-     * @param  mixed  $notifiable  The entity to be notified (l'entità da notificare)
+     * @param  mixed  $_notifiable  The entity to be notified (l'entità da notificare)
      * @return array<int, string>
      */
-    public function via(mixed $notifiable): array
+    public function via(mixed $_notifiable): array
     {
-        if (is_object($notifiable) && method_exists($notifiable, 'routeNotificationFor')) {
-            return ['sms'];
-        }
-
+        // TODO: Implementare SmsChannel quando disponibile
         return ['sms'];
     }
 
@@ -78,7 +76,7 @@ class SmsNotification extends Notification implements ShouldQueue
         // we'll use that to get the destination phone number
         if (is_object($notifiable) && method_exists($notifiable, 'routeNotificationForSms')) {
             $routeResult = $notifiable->routeNotificationForSms($this);
-            $this->smsData->recipient = (string) ($routeResult ?? '');
+            $this->smsData->to = (string) ($routeResult ?? '');
         }
 
         return $this->smsData;

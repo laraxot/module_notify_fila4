@@ -42,12 +42,12 @@ class WhatsAppNotification extends Notification implements ShouldQueue
         if ($content instanceof WhatsAppData) {
             $this->whatsappData = $content;
         } else {
-            $recipient = $config['recipient'] ?? ($config['to'] ?? '');
+            $to = $config['to'] ?? '';
             $from = $config['from'] ?? null;
 
             /** @phpstan-ignore-next-line */
             $this->whatsappData = new WhatsAppData(
-                recipient: SafeStringCastAction::cast($recipient),
+                to: SafeStringCastAction::cast($to),
                 body: $content,
                 from: $from !== null ? SafeStringCastAction::cast($from) : null,
             );
@@ -77,7 +77,7 @@ class WhatsAppNotification extends Notification implements ShouldQueue
         // we'll use that to get the destination phone number
         if (is_object($notifiable) && method_exists($notifiable, 'routeNotificationForWhatsApp')) {
             $routeResult = $notifiable->routeNotificationForWhatsApp($this);
-            $this->whatsappData->recipient = app(SafeStringCastAction::class)->execute($routeResult);
+            $this->whatsappData->to = app(SafeStringCastAction::class)->execute($routeResult);
         }
 
         return $this->whatsappData;

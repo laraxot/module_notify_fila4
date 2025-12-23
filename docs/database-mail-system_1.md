@@ -1,104 +1,6 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 4f042b88 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 36321fcb (.)
-=======
->>>>>>> 712617d3 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 4fc21b78 (rebase 210)
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 8c8937e7 (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 36ac4fc1 (.)
-=======
->>>>>>> fd1fcc4c (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4f3927d7 (.)
-=======
->>>>>>> c8b1c8bf (.)
-=======
->>>>>>> 9cf0dc90 (.)
+
+
+
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -119,31 +21,12 @@
 >>>>>>> fdb24863 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-<<<<<<< HEAD
-=======
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 36ac4fc1 (.)
-=======
->>>>>>> fd1fcc4c (.)
+
 =======
 >>>>>>> 4f3927d7 (.)
 =======
 >>>>>>> c8b1c8bf (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 9cf0dc90 (.)
-=======
->>>>>>> 75179b85 (.)
-=======
->>>>>>> f963d2c0 (.)
+
 =======
 >>>>>>> 75179b855 (.)
 =======
@@ -334,102 +217,12 @@ class MailTemplateResource extends XotBaseResource
 {
     protected static ?string $model = MailTemplate::class;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public static function form(Form $form): Form
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+
 =======
     public static function form(Form $form): Form
 >>>>>>> 75179b85 (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> f963d2c0 (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> 75179b85 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    public static function form(Form $form): Form
->>>>>>> f963d2c0 (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> ee18dd92 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    public static function form(Form $form): Form
->>>>>>> 66453ace (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> 2a97406c (.)
+
+
 =======
     public static function form(Form $form): Form
 >>>>>>> 4f042b88 (.)
@@ -445,25 +238,7 @@ class MailTemplateResource extends XotBaseResource
 =======
     public static function form(Form $form): Form
 >>>>>>> 4fc21b78 (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    public static function form(Form $form): Form
->>>>>>> 9c45d9bd (rebase 210)
-=======
-    public static function form(Form $form): Form
->>>>>>> eb62d6cf (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    public static function form(Form $form): Form
->>>>>>> 8c8937e7 (rebase 210)
-=======
-    public static function form(Form $form): Form
->>>>>>> 36ac4fc1 (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> fd1fcc4c (.)
+
 =======
     public static function form(Form $form): Form
 >>>>>>> 4f3927d7 (.)
@@ -488,14 +263,7 @@ class MailTemplateResource extends XotBaseResource
 =======
     public static function form(Form $form): Form
 >>>>>>> 2a97406c (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    public static function form(Form $form): Form
->>>>>>> 4f042b88 (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> 36321fcb (.)
+
 =======
     public static function form(Form $form): Form
 >>>>>>> 712617d3 (.)
@@ -517,29 +285,11 @@ class MailTemplateResource extends XotBaseResource
 =======
     public static function form(Form $form): Form
 >>>>>>> 36ac4fc1 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    public static function form(Form $form): Form
->>>>>>> fd1fcc4c (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> 4f3927d7 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    public static function form(Form $form): Form
->>>>>>> c8b1c8bf (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> 9cf0dc90 (.)
-<<<<<<< HEAD
+
+
 =======
     public static function form(Form $form): Form
 >>>>>>> 75179b85 (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> f963d2c0 (.)
 =======
     public static function form(Form $form): Form
 >>>>>>> 75179b855 (.)
@@ -561,20 +311,7 @@ class MailTemplateResource extends XotBaseResource
 =======
     public static function form(Form $form): Form
 >>>>>>> 36321fcb (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    public static function form(Form $form): Form
->>>>>>> 712617d3 (.)
-<<<<<<< HEAD
->>>>>>> laraxot/develop
-=======
->>>>>>> 1487fe812 (.)
-=======
-=======
-    public static function form(Form $form): Form
->>>>>>> f963d2c0 (.)
->>>>>>> 12a7e2462 (.)
+
 =======
 >>>>>>> 4bec160e6 (.)
 =======
@@ -757,304 +494,11 @@ class TreatmentComplete extends Mailable
 ## Comandi Artisan
 
 ```bash
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 =======
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 207ac35e (.)
-=======
->>>>>>> 207ac35e (.)
-=======
-<<<<<<< HEAD
->>>>>>> 207ac35e (.)
-=======
->>>>>>> 011072e4 (.)
-=======
->>>>>>> 9d67cabd (.)
 =======
 >>>>>>> 80f054e0 (.)
 =======
@@ -1064,32 +508,9 @@ class TreatmentComplete extends Mailable
 =======
 >>>>>>> 5fe4f466 (.)
 =======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> e0d9c9be (.)
+
 =======
->>>>>>> cb85c538 (rebase 210)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 460b8f5b (rebase 210)
-=======
->>>>>>> 8a8a8e2f (rebase 210)
-=======
->>>>>>> 1375c94d (rebase 210)
-=======
->>>>>>> 030c9674 (rebase 210)
-=======
->>>>>>> eea68ec9 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 06e3078e (.)
-=======
->>>>>>> ce89c8bb (.)
-=======
-<<<<<<< HEAD
->>>>>>> 207ac35e (.)
+
 =======
 >>>>>>> 011072e4 (.)
 =======
@@ -1099,13 +520,7 @@ class TreatmentComplete extends Mailable
 =======
 >>>>>>> 4d2eb53e (.)
 =======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6b6b9e41 (.)
-=======
->>>>>>> 5fe4f466 (.)
-=======
->>>>>>> e0d9c9be (.)
+
 =======
 >>>>>>> cb85c538 (rebase 210)
 =======
@@ -1113,16 +528,7 @@ class TreatmentComplete extends Mailable
 =======
 >>>>>>> 8a8a8e2f (rebase 210)
 =======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 1375c94d (rebase 210)
-=======
->>>>>>> 030c9674 (rebase 210)
-=======
-<<<<<<< HEAD
->>>>>>> eea68ec9 (.)
-=======
->>>>>>> 06e3078e (.)
+
 =======
 >>>>>>> ce89c8bb (.)
 =======
@@ -1134,13 +540,7 @@ class TreatmentComplete extends Mailable
 =======
 >>>>>>> 9d67cabd (.)
 =======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 80f054e0 (.)
-=======
->>>>>>> 4d2eb53e (.)
-=======
->>>>>>> 6b6b9e41 (.)
+
 =======
 >>>>>>> 5fe4f466 (.)
 =======
@@ -1193,71 +593,7 @@ class TreatmentComplete extends Mailable
 
 >>>>>>> b19cd40 (.)
 =======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> bf5d31b0f (.)
-=======
->>>>>>> 1619767d8 (.)
-=======
->>>>>>> 4f19d70d2 (.)
+
 =======
 >>>>>>> 8f2456941 (.)
 =======
@@ -1323,22 +659,8 @@ class TreatmentComplete extends Mailable
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 75179b85 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 10292b60a (.)
-=======
-=======
 
->>>>>>> b19cd40 (.)
->>>>>>> 82ae73be (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35e (.)
-=======
->>>>>>> 9777d1b3 (.)
+
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -1354,26 +676,14 @@ class TreatmentComplete extends Mailable
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
-<<<<<<< HEAD
 =======
 >>>>>>> 161887a2 (.)
-=======
->>>>>>> ee18dd92 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 8dc1f2ed6 (.)
 =======
 =======
 
 >>>>>>> d284d65 (.)
 >>>>>>> 4689a827 (.)
-<<<<<<< HEAD
 =======
-=======
-
->>>>>>> b19cd40 (.)
->>>>>>> e7a9a2bf (.)
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 9d67cabd (.)
@@ -1404,26 +714,14 @@ class TreatmentComplete extends Mailable
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
-<<<<<<< HEAD
 =======
 >>>>>>> 888799d0 (.)
-=======
->>>>>>> 2a97406c (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 23f115647 (.)
 =======
 =======
 
 >>>>>>> d284d65 (.)
 >>>>>>> f2e64178 (.)
-<<<<<<< HEAD
 =======
-=======
-
->>>>>>> b19cd40 (.)
->>>>>>> 6d08c01b (.)
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 6b6b9e41 (.)
@@ -1461,28 +759,14 @@ class TreatmentComplete extends Mailable
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> e0d9c9be (.)
-<<<<<<< HEAD
 =======
 >>>>>>> 7a2f131f (.)
-=======
->>>>>>> 712617d3 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 848f79b79 (.)
 =======
 =======
 
 >>>>>>> d284d65 (.)
 >>>>>>> bd804d67 (.)
-<<<<<<< HEAD
 =======
-=======
-
->>>>>>> b19cd40 (.)
->>>>>>> 51182e3c (rebase 210)
-=======
->>>>>>> 4e2ebfb (.)
 >>>>>>> cb85c538 (rebase 210)
 =======
 >>>>>>> 1c0eb9c7 (rebase 210)
@@ -1498,36 +782,11 @@ class TreatmentComplete extends Mailable
 
 >>>>>>> b19cd40 (.)
 >>>>>>> a9bf0423 (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 460b8f5b (rebase 210)
-=======
->>>>>>> 4d253d2c (rebase 210)
-=======
->>>>>>> 4fc21b78 (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> a0788fa28 (.)
-=======
-=======
 
->>>>>>> b19cd40 (.)
 >>>>>>> 9fe1b60e (rebase 210)
-<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 8a8a8e2f (rebase 210)
-=======
->>>>>>> efb0f8d9 (rebase 210)
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
-=======
-
->>>>>>> d284d65 (.)
 >>>>>>> 9f8e680a (rebase 210)
 =======
 =======
@@ -1537,28 +796,14 @@ class TreatmentComplete extends Mailable
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 1375c94d (rebase 210)
-<<<<<<< HEAD
 =======
 >>>>>>> 52cd5f85 (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> cd5474106 (.)
 =======
 =======
 
 >>>>>>> d284d65 (.)
 >>>>>>> 5aedc39c (rebase 210)
-<<<<<<< HEAD
 =======
-=======
-
->>>>>>> b19cd40 (.)
->>>>>>> c5c038f2 (rebase 210)
-=======
->>>>>>> 4e2ebfb (.)
 >>>>>>> 030c9674 (rebase 210)
 =======
 >>>>>>> bb00ab64 (rebase 210)
@@ -1571,32 +816,11 @@ class TreatmentComplete extends Mailable
 >>>>>>> 22baa66d (rebase 210)
 =======
 >>>>>>> 36ac4fc1 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 26d39e2eb (.)
-=======
-=======
 
->>>>>>> d284d65 (.)
->>>>>>> 2effe245 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 2e1ac1f20 (.)
-=======
-=======
 
->>>>>>> b19cd40 (.)
->>>>>>> 77edd94a (.)
-<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> eea68ec9 (.)
-=======
->>>>>>> 59916c8f (.)
-=======
->>>>>>> fd1fcc4c (.)
 =======
 =======
 
@@ -1610,27 +834,15 @@ class TreatmentComplete extends Mailable
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 06e3078e (.)
-<<<<<<< HEAD
 =======
 >>>>>>> 70e8274e (.)
-=======
->>>>>>> 4f3927d7 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 763771402 (.)
 =======
 =======
 
 >>>>>>> d284d65 (.)
 >>>>>>> 3ee54c5d (.)
-<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
-=======
-=======
-
->>>>>>> b19cd40 (.)
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> 4e2ebfb (.)
@@ -1639,13 +851,8 @@ class TreatmentComplete extends Mailable
 >>>>>>> 58816034 (.)
 =======
 >>>>>>> 9cf0dc90 (.)
-<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
-=======
-=======
-
->>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 4e2ebfb (.)
@@ -1654,21 +861,8 @@ class TreatmentComplete extends Mailable
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> f963d2c0 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 510809c6f (.)
-=======
-=======
 
->>>>>>> d284d65 (.)
->>>>>>> d09cb759 (.)
-<<<<<<< HEAD
 =======
-=======
-
->>>>>>> b19cd40 (.)
->>>>>>> de02998b (.)
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
@@ -1686,21 +880,10 @@ class TreatmentComplete extends Mailable
 
 >>>>>>> b19cd40 (.)
 >>>>>>> e7a9a2bf (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 9d67cabd (.)
-=======
->>>>>>> ba564870 (.)
+
 =======
 >>>>>>> 66453ace (.)
-<<<<<<< HEAD
 =======
-=======
-
->>>>>>> d284d65 (.)
->>>>>>> 7325acf3 (.)
 =======
 =======
 
@@ -1733,30 +916,11 @@ class TreatmentComplete extends Mailable
 
 >>>>>>> b19cd40 (.)
 >>>>>>> 6d08c01b (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 6b6b9e41 (.)
-=======
->>>>>>> c6c33175 (.)
+
 =======
 >>>>>>> 4f042b88 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> a115e2aad (.)
-=======
-=======
 
->>>>>>> d284d65 (.)
->>>>>>> c4bdacbf (.)
-<<<<<<< HEAD
 =======
-=======
-
->>>>>>> b19cd40 (.)
->>>>>>> 3b4c9907 (.)
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 5fe4f466 (.)
@@ -1774,14 +938,9 @@ class TreatmentComplete extends Mailable
 
 >>>>>>> b19cd40 (.)
 >>>>>>> 8e5817bc (.)
-<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> e0d9c9be (.)
-=======
->>>>>>> 7a2f131f (.)
-=======
->>>>>>> 712617d3 (.)
 =======
 =======
 
@@ -1792,32 +951,9 @@ class TreatmentComplete extends Mailable
 
 >>>>>>> b19cd40 (.)
 >>>>>>> 51182e3c (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> cb85c538 (rebase 210)
-=======
->>>>>>> 1c0eb9c7 (rebase 210)
-=======
->>>>>>> fdb24863 (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 3e757cee2 (.)
-=======
-=======
 
->>>>>>> d284d65 (.)
 >>>>>>> 229a065a (rebase 210)
-<<<<<<< HEAD
 =======
-=======
-
->>>>>>> b19cd40 (.)
->>>>>>> a9bf0423 (rebase 210)
-=======
->>>>>>> 4e2ebfb (.)
 >>>>>>> 460b8f5b (rebase 210)
 =======
 >>>>>>> 4d253d2c (rebase 210)
@@ -1831,72 +967,25 @@ class TreatmentComplete extends Mailable
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 8a8a8e2f (rebase 210)
-<<<<<<< HEAD
 =======
 >>>>>>> efb0f8d9 (rebase 210)
-=======
->>>>>>> 9c45d9bd (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> c188e2a18 (.)
 =======
 =======
 
 >>>>>>> d284d65 (.)
 >>>>>>> 9f8e680a (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5d49e093a (.)
-=======
-=======
 
->>>>>>> b19cd40 (.)
->>>>>>> b4f93b3a (rebase 210)
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
 >>>>>>> 1375c94d (rebase 210)
-=======
->>>>>>> 52cd5f85 (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-=======
-=======
-
->>>>>>> d284d65 (.)
 >>>>>>> 5aedc39c (rebase 210)
 =======
 =======
 
 >>>>>>> b19cd40 (.)
 >>>>>>> c5c038f2 (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 030c9674 (rebase 210)
-=======
->>>>>>> bb00ab64 (rebase 210)
-=======
->>>>>>> 8c8937e7 (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 01750b107 (.)
-=======
-=======
 
->>>>>>> d284d65 (.)
 >>>>>>> 22baa66d (rebase 210)
-<<<<<<< HEAD
 =======
 >>>>>>> 36ac4fc1 (.)
-=======
-=======
-
->>>>>>> d284d65 (.)
 >>>>>>> 2effe245 (.)
 =======
 =======
@@ -1906,37 +995,17 @@ class TreatmentComplete extends Mailable
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> eea68ec9 (.)
-<<<<<<< HEAD
 =======
 >>>>>>> 59916c8f (.)
-=======
->>>>>>> fd1fcc4c (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 2dab69c8a (.)
 =======
 =======
 
 >>>>>>> d284d65 (.)
 >>>>>>> e790eb33 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> e95dfc210 (.)
-=======
-=======
 
->>>>>>> b19cd40 (.)
->>>>>>> f81a620f (.)
-<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 06e3078e (.)
-=======
->>>>>>> 70e8274e (.)
-=======
->>>>>>> 4f3927d7 (.)
 =======
 =======
 
@@ -1944,22 +1013,8 @@ class TreatmentComplete extends Mailable
 >>>>>>> 3ee54c5d (.)
 =======
 >>>>>>> c8b1c8bf (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> be698cf2c (.)
-=======
-=======
 
->>>>>>> b19cd40 (.)
->>>>>>> 2fc60436 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> ce89c8bb (.)
-=======
->>>>>>> 58816034 (.)
+
 =======
 >>>>>>> 9cf0dc90 (.)
 =======
@@ -1982,12 +1037,7 @@ class TreatmentComplete extends Mailable
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
 =======
-<<<<<<< HEAD
 >>>>>>> 75179b855 (.)
-=======
-=======
-
->>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 4e2ebfb (.)
@@ -2008,14 +1058,9 @@ class TreatmentComplete extends Mailable
 
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)
-<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
-=======
->>>>>>> 161887a2 (.)
-=======
->>>>>>> ee18dd92 (.)
 =======
 =======
 
@@ -2038,35 +1083,16 @@ class TreatmentComplete extends Mailable
 
 >>>>>>> d284d65 (.)
 >>>>>>> 7325acf3 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> c22b35d1e (.)
-=======
-=======
 
->>>>>>> b19cd40 (.)
->>>>>>> 9cdf6146 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 80f054e0 (.)
-=======
->>>>>>> 7c39b1fe (.)
+
 =======
 =======
 
 >>>>>>> b19cd40 (.)
 >>>>>>> 3f39ac8b (.)
-<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
-=======
->>>>>>> 888799d0 (.)
-=======
->>>>>>> 2a97406c (.)
 =======
 =======
 
@@ -2094,30 +1120,11 @@ class TreatmentComplete extends Mailable
 
 >>>>>>> b19cd40 (.)
 >>>>>>> 3b4c9907 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 5fe4f466 (.)
-=======
->>>>>>> 503981fd (.)
+
 =======
 >>>>>>> 36321fcb (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 9cb55171f (.)
-=======
-=======
 
->>>>>>> d284d65 (.)
->>>>>>> dceba960 (.)
-<<<<<<< HEAD
 =======
-=======
-
->>>>>>> b19cd40 (.)
->>>>>>> 8e5817bc (.)
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> e0d9c9be (.)
@@ -2342,309 +1349,30 @@ php artisan notify:mail-template:test
 - [Mail Queue](mail-queue.md)
 
 ## Vedi Anche
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
 - [Spatie Packages](https://spatie.be/open-source)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 82ae73be (.)
-=======
->>>>>>> 207ac35e (.)
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-<<<<<<< HEAD
-- [Spatie Packages](https://spatie.be/open-source)
-=======
-<<<<<<< HEAD
-- [Laravel Mail](https://laravel.com/project_docs/mail)
-- [Filament Forms](https://filamentphp.com/project_docs/forms)
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 207ac35e (.)
-=======
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-<<<<<<< HEAD
-- [Spatie Packages](https://spatie.be/open-source)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 75179b85 (.)
-=======
->>>>>>> 82ae73be (.)
+
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
 =======
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
-<<<<<<< HEAD
 - [Spatie Packages](https://spatie.be/open-source)
-<<<<<<< HEAD
->>>>>>> 9777d1b3 (.)
-=======
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-<<<<<<< HEAD
-- [Spatie Packages](https://spatie.be/open-source)
-<<<<<<< HEAD
->>>>>>> f963d2c0 (.)
+
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
 =======
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
-<<<<<<< HEAD
 - [Spatie Packages](https://spatie.be/open-source)
-<<<<<<< HEAD
->>>>>>> 75179b85 (.)
-=======
+
 =======
 >>>>>>> 207ac35e (.)
-=======
->>>>>>> 207ac35e (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 011072e4 (.)
-=======
->>>>>>> 9d67cabd (.)
-=======
->>>>>>> 9cdf6146 (.)
+
 =======
 >>>>>>> 80f054e0 (.)
 =======
@@ -2653,50 +1381,18 @@ php artisan notify:mail-template:test
 >>>>>>> 4d2eb53e (.)
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
-<<<<<<< HEAD
 - [Spatie Packages](https://spatie.be/open-source)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 6b6b9e41 (.)
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [Spatie Packages](https://spatie.be/open-source)
-<<<<<<< HEAD
->>>>>>> 82ae73be (.)
-=======
-=======
->>>>>>> 5fe4f466 (.)
+
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
-<<<<<<< HEAD
 - [Spatie Packages](https://spatie.be/open-source)
-<<<<<<< HEAD
->>>>>>> de02998b (.)
-=======
-=======
->>>>>>> e0d9c9be (.)
+
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
-<<<<<<< HEAD
 - [Spatie Packages](https://spatie.be/open-source)
-<<<<<<< HEAD
->>>>>>> e7a9a2bf (.)
-=======
-=======
->>>>>>> cb85c538 (rebase 210)
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-<<<<<<< HEAD
-- [Spatie Packages](https://spatie.be/open-source)
-<<<<<<< HEAD
->>>>>>> 6d08c01b (.)
+
 =======
 =======
 >>>>>>> 460b8f5b (rebase 210)
@@ -2704,69 +1400,19 @@ php artisan notify:mail-template:test
 >>>>>>> 8a8a8e2f (rebase 210)
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
-<<<<<<< HEAD
 - [Spatie Packages](https://spatie.be/open-source)
-<<<<<<< HEAD
->>>>>>> 3b4c9907 (.)
-=======
-=======
->>>>>>> 1375c94d (rebase 210)
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-<<<<<<< HEAD
-- [Spatie Packages](https://spatie.be/open-source)
-<<<<<<< HEAD
->>>>>>> 8e5817bc (.)
+
 =======
 =======
 >>>>>>> 030c9674 (rebase 210)
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
-<<<<<<< HEAD
 - [Spatie Packages](https://spatie.be/open-source)
-<<<<<<< HEAD
->>>>>>> 51182e3c (rebase 210)
-=======
+
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
-<<<<<<< HEAD
 - [Spatie Packages](https://spatie.be/open-source)
-<<<<<<< HEAD
->>>>>>> a9bf0423 (rebase 210)
-=======
-=======
->>>>>>> eea68ec9 (.)
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-<<<<<<< HEAD
-- [Spatie Packages](https://spatie.be/open-source)
-<<<<<<< HEAD
->>>>>>> 9fe1b60e (rebase 210)
-=======
-=======
->>>>>>> 06e3078e (.)
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-<<<<<<< HEAD
-- [Spatie Packages](https://spatie.be/open-source)
-<<<<<<< HEAD
->>>>>>> b4f93b3a (rebase 210)
-=======
-=======
->>>>>>> ce89c8bb (.)
-=======
->>>>>>> 207ac35e (.)
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-<<<<<<< HEAD
-- [Spatie Packages](https://spatie.be/open-source)
-<<<<<<< HEAD
->>>>>>> c5c038f2 (rebase 210)
-=======
-=======
->>>>>>> 011072e4 (.)
-=======
->>>>>>> 9d67cabd (.)
+
 =======
 >>>>>>> 9cdf6146 (.)
 =======
@@ -2777,66 +1423,30 @@ php artisan notify:mail-template:test
 >>>>>>> 4d2eb53e (.)
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
-<<<<<<< HEAD
 - [Spatie Packages](https://spatie.be/open-source)
-<<<<<<< HEAD
->>>>>>> 77edd94a (.)
-=======
-=======
->>>>>>> 9d67cabd (.)
+
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
-<<<<<<< HEAD
 - [Spatie Packages](https://spatie.be/open-source)
-<<<<<<< HEAD
->>>>>>> f81a620f (.)
-=======
-=======
->>>>>>> 80f054e0 (.)
+
 =======
 >>>>>>> 4d2eb53e (.)
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
-<<<<<<< HEAD
 - [Spatie Packages](https://spatie.be/open-source)
-<<<<<<< HEAD
->>>>>>> 2fc60436 (.)
-=======
-=======
->>>>>>> 6b6b9e41 (.)
+
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
-<<<<<<< HEAD
 - [Spatie Packages](https://spatie.be/open-source)
-<<<<<<< HEAD
->>>>>>> 82ae73be (.)
-=======
-=======
->>>>>>> 5fe4f466 (.)
+
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
-<<<<<<< HEAD
 - [Spatie Packages](https://spatie.be/open-source)
-<<<<<<< HEAD
->>>>>>> de02998b (.)
-=======
-=======
->>>>>>> e0d9c9be (.)
+
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
-<<<<<<< HEAD
 - [Spatie Packages](https://spatie.be/open-source)
-<<<<<<< HEAD
->>>>>>> e7a9a2bf (.)
-=======
-=======
->>>>>>> cb85c538 (rebase 210)
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-<<<<<<< HEAD
-- [Spatie Packages](https://spatie.be/open-source)
-<<<<<<< HEAD
->>>>>>> 9cdf6146 (.)
+
 =======
 =======
 >>>>>>> 460b8f5b (rebase 210)
@@ -2844,135 +1454,48 @@ php artisan notify:mail-template:test
 >>>>>>> 8a8a8e2f (rebase 210)
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
-<<<<<<< HEAD
 - [Spatie Packages](https://spatie.be/open-source)
-<<<<<<< HEAD
->>>>>>> 3f39ac8b (.)
-=======
-=======
->>>>>>> 1375c94d (rebase 210)
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-<<<<<<< HEAD
-- [Spatie Packages](https://spatie.be/open-source)
-<<<<<<< HEAD
->>>>>>> 6d08c01b (.)
+
 =======
 =======
 >>>>>>> 030c9674 (rebase 210)
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
-<<<<<<< HEAD
 - [Spatie Packages](https://spatie.be/open-source)
-<<<<<<< HEAD
->>>>>>> 3b4c9907 (.)
-=======
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-<<<<<<< HEAD
-- [Spatie Packages](https://spatie.be/open-source)
-<<<<<<< HEAD
->>>>>>> 8e5817bc (.)
+
 =======
 =======
 >>>>>>> eea68ec9 (.)
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
-<<<<<<< HEAD
 - [Spatie Packages](https://spatie.be/open-source)
-<<<<<<< HEAD
->>>>>>> 51182e3c (rebase 210)
-=======
-=======
->>>>>>> 06e3078e (.)
+
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
-<<<<<<< HEAD
 - [Spatie Packages](https://spatie.be/open-source)
-<<<<<<< HEAD
->>>>>>> a9bf0423 (rebase 210)
-=======
-=======
->>>>>>> ce89c8bb (.)
-=======
->>>>>>> 207ac35e (.)
+
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
-<<<<<<< HEAD
 - [Spatie Packages](https://spatie.be/open-source)
-<<<<<<< HEAD
->>>>>>> 9fe1b60e (rebase 210)
-=======
-=======
->>>>>>> 207ac35e (.)
-=======
->>>>>>> bf5d31b0f (.)
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-<<<<<<< HEAD
-- [Spatie Packages](https://spatie.be/open-source)
-<<<<<<< HEAD
->>>>>>> b4f93b3a (rebase 210)
-=======
-=======
->>>>>>> 011072e4 (.)
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-<<<<<<< HEAD
-- [Spatie Packages](https://spatie.be/open-source)
-<<<<<<< HEAD
->>>>>>> c5c038f2 (rebase 210)
-=======
-=======
->>>>>>> 9d67cabd (.)
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-<<<<<<< HEAD
-- [Spatie Packages](https://spatie.be/open-source)
-<<<<<<< HEAD
->>>>>>> 77edd94a (.)
-=======
-=======
->>>>>>> 80f054e0 (.)
+
 =======
 >>>>>>> 4d2eb53e (.)
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
-<<<<<<< HEAD
 - [Spatie Packages](https://spatie.be/open-source)
-<<<<<<< HEAD
->>>>>>> f81a620f (.)
-=======
-=======
->>>>>>> 6b6b9e41 (.)
+
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
-<<<<<<< HEAD
 - [Spatie Packages](https://spatie.be/open-source)
-<<<<<<< HEAD
->>>>>>> 2fc60436 (.)
-=======
-=======
->>>>>>> 5fe4f466 (.)
+
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
-<<<<<<< HEAD
 - [Spatie Packages](https://spatie.be/open-source)
-<<<<<<< HEAD
->>>>>>> 82ae73be (.)
-=======
-=======
->>>>>>> e0d9c9be (.)
+
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
-<<<<<<< HEAD
 - [Spatie Packages](https://spatie.be/open-source)
-<<<<<<< HEAD
->>>>>>> 82ae73be (.)
-=======
-=======
-=======
->>>>>>> 011072e4 (.)
+
 >>>>>>> 1619767d8 (.)
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
@@ -3009,48 +1532,21 @@ php artisan notify:mail-template:test
 - [Spatie Packages](https://spatie.be/open-source)
 >>>>>>> 8e5817bc (.)
 =======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 23f115647 (.)
-=======
-=======
->>>>>>> 6b6b9e41 (.)
->>>>>>> be45a0b8d (.)
+
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
 =======
 >>>>>>> a115e2aad (.)
 - [Spatie Packages](https://spatie.be/open-source)
-<<<<<<< HEAD
 >>>>>>> 82ae73be (.)
-=======
-=======
->>>>>>> 5fe4f466 (.)
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
-<<<<<<< HEAD
 - [Spatie Packages](https://spatie.be/open-source)
-<<<<<<< HEAD
->>>>>>> de02998b (.)
-=======
-=======
->>>>>>> e0d9c9be (.)
+
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
-<<<<<<< HEAD
 - [Spatie Packages](https://spatie.be/open-source)
-<<<<<<< HEAD
->>>>>>> e7a9a2bf (.)
-=======
-=======
->>>>>>> cb85c538 (rebase 210)
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-<<<<<<< HEAD
-- [Spatie Packages](https://spatie.be/open-source)
-<<<<<<< HEAD
->>>>>>> 6d08c01b (.)
+
 =======
 =======
 >>>>>>> 460b8f5b (rebase 210)
@@ -3058,65 +1554,15 @@ php artisan notify:mail-template:test
 >>>>>>> 8a8a8e2f (rebase 210)
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
-<<<<<<< HEAD
 - [Spatie Packages](https://spatie.be/open-source)
-<<<<<<< HEAD
->>>>>>> 3b4c9907 (.)
-=======
-=======
->>>>>>> 1375c94d (rebase 210)
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-<<<<<<< HEAD
-- [Spatie Packages](https://spatie.be/open-source)
-<<<<<<< HEAD
->>>>>>> 8e5817bc (.)
+
 =======
 =======
 >>>>>>> 030c9674 (rebase 210)
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
-<<<<<<< HEAD
 - [Spatie Packages](https://spatie.be/open-source)
-<<<<<<< HEAD
->>>>>>> 51182e3c (rebase 210)
-=======
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-<<<<<<< HEAD
-- [Spatie Packages](https://spatie.be/open-source)
-<<<<<<< HEAD
->>>>>>> a9bf0423 (rebase 210)
-=======
-=======
->>>>>>> eea68ec9 (.)
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-<<<<<<< HEAD
-- [Spatie Packages](https://spatie.be/open-source)
-<<<<<<< HEAD
->>>>>>> 9fe1b60e (rebase 210)
-=======
-=======
->>>>>>> 06e3078e (.)
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-<<<<<<< HEAD
-- [Spatie Packages](https://spatie.be/open-source)
-<<<<<<< HEAD
->>>>>>> b4f93b3a (rebase 210)
-=======
-=======
->>>>>>> ce89c8bb (.)
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Spatie Packages](https://spatie.be/open-source)
->>>>>>> c5c038f2 (rebase 210)
-=======
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Spatie Packages](https://spatie.be/open-source)
->>>>>>> 77edd94a (.)
+
 =======
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
@@ -3131,123 +1577,7 @@ php artisan notify:mail-template:test
 - [Laravel Mail](https://laravel.com/project_docs/mail)
 - [Filament Forms](https://filamentphp.com/project_docs/forms)
 >>>>>>> b19cd40 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 10292b60a (.)
-=======
->>>>>>> bf5d31b0f (.)
-=======
->>>>>>> b207a9b1a (.)
+
 =======
 >>>>>>> 1619767d8 (.)
 =======
@@ -3307,14 +1637,7 @@ php artisan notify:mail-template:test
 =======
 >>>>>>> 207ac35e (.)
 =======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 011072e4 (.)
-=======
->>>>>>> 9d67cabd (.)
-=======
-<<<<<<< HEAD
->>>>>>> 80f054e0 (.)
+
 =======
 >>>>>>> 4d2eb53e (.)
 =======
@@ -3330,16 +1653,7 @@ php artisan notify:mail-template:test
 =======
 >>>>>>> 8a8a8e2f (rebase 210)
 =======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 1375c94d (rebase 210)
-=======
->>>>>>> 030c9674 (rebase 210)
-=======
-<<<<<<< HEAD
->>>>>>> eea68ec9 (.)
-=======
->>>>>>> 06e3078e (.)
+
 =======
 >>>>>>> ce89c8bb (.)
 =======
@@ -3351,13 +1665,7 @@ php artisan notify:mail-template:test
 =======
 >>>>>>> 80f054e0 (.)
 =======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 4d2eb53e (.)
-=======
->>>>>>> 6b6b9e41 (.)
-=======
->>>>>>> 5fe4f466 (.)
+
 =======
 >>>>>>> e0d9c9be (.)
 =======
@@ -3373,14 +1681,7 @@ php artisan notify:mail-template:test
 =======
 >>>>>>> eea68ec9 (.)
 =======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 06e3078e (.)
-=======
->>>>>>> ce89c8bb (.)
-=======
-<<<<<<< HEAD
->>>>>>> 207ac35e (.)
+
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -3394,16 +1695,7 @@ php artisan notify:mail-template:test
 =======
 >>>>>>> 6b6b9e41 (.)
 =======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5fe4f466 (.)
-=======
->>>>>>> e0d9c9be (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> bf5d31b0f (.)
+
 =======
 >>>>>>> 011072e4 (.)
 =======
@@ -3427,12 +1719,7 @@ php artisan notify:mail-template:test
 =======
 >>>>>>> cb85c538 (rebase 210)
 =======
-<<<<<<< HEAD
 >>>>>>> e0836b102 (.)
-=======
->>>>>>> 460b8f5b (rebase 210)
-=======
->>>>>>> 47a873f13 (.)
 =======
 >>>>>>> 69f695548 (.)
 =======
@@ -3453,69 +1740,7 @@ php artisan notify:mail-template:test
 - [Filament Forms](https://filamentphp.com/docs/forms)
 - [Spatie Packages](https://spatie.be/open-source)
 >>>>>>> 4e2ebfb (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> bf5d31b0f (.)
-=======
->>>>>>> 1619767d8 (.)
-=======
->>>>>>> 4f19d70d2 (.)
+
 =======
 >>>>>>> 8f2456941 (.)
 =======
@@ -3564,39 +1789,10 @@ php artisan notify:mail-template:test
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
+
+
 =======
->>>>>>> 207ac35e (.)
-=======
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Spatie Packages](https://spatie.be/open-source)
->>>>>>> 9777d1b3 (.)
-=======
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Spatie Packages](https://spatie.be/open-source)
->>>>>>> f963d2c0 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 510809c6f (.)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> d09cb759 (.)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> de02998b (.)
-=======
->>>>>>> 011072e4 (.)
-=======
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Spatie Packages](https://spatie.be/open-source)
->>>>>>> 161887a2 (.)
+
 =======
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
@@ -3629,43 +1825,14 @@ php artisan notify:mail-template:test
 - [Filament Forms](https://filamentphp.com/project_docs/forms)
 >>>>>>> b19cd40 (.)
 >>>>>>> 9cdf6146 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 80f054e0 (.)
-=======
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Spatie Packages](https://spatie.be/open-source)
->>>>>>> 7c39b1fe (.)
-=======
->>>>>>> 5fd545e4 (.)
+
 =======
 - [Laravel Mail](https://laravel.com/project_docs/mail)
 - [Filament Forms](https://filamentphp.com/project_docs/forms)
 >>>>>>> b19cd40 (.)
 >>>>>>> 3f39ac8b (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4d2eb53e (.)
-=======
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Spatie Packages](https://spatie.be/open-source)
->>>>>>> 888799d0 (.)
-=======
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Spatie Packages](https://spatie.be/open-source)
->>>>>>> 2a97406c (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d284d65 (.)
->>>>>>> f2e64178 (.)
-=======
->>>>>>> 6d08c01b (.)
+
+
 =======
 >>>>>>> 6b6b9e41 (.)
 =======
@@ -3682,23 +1849,7 @@ php artisan notify:mail-template:test
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> c4bdacbf (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 3b4c9907 (.)
-=======
->>>>>>> 5fe4f466 (.)
-<<<<<<< HEAD
-=======
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Spatie Packages](https://spatie.be/open-source)
->>>>>>> 503981fd (.)
-=======
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Spatie Packages](https://spatie.be/open-source)
->>>>>>> 36321fcb (.)
+
 =======
 =======
 >>>>>>> d284d65 (.)
@@ -3723,120 +1874,26 @@ php artisan notify:mail-template:test
 >>>>>>> bd804d67 (.)
 =======
 >>>>>>> 51182e3c (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> cb85c538 (rebase 210)
-=======
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Spatie Packages](https://spatie.be/open-source)
->>>>>>> 1c0eb9c7 (rebase 210)
-=======
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Spatie Packages](https://spatie.be/open-source)
->>>>>>> fdb24863 (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 3e757cee2 (.)
-=======
-=======
->>>>>>> d284d65 (.)
+
 >>>>>>> 229a065a (rebase 210)
-<<<<<<< HEAD
 =======
 >>>>>>> a9bf0423 (rebase 210)
-=======
->>>>>>> 460b8f5b (rebase 210)
-=======
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Spatie Packages](https://spatie.be/open-source)
->>>>>>> 4d253d2c (rebase 210)
-=======
->>>>>>> 54220b28 (rebase 210)
-=======
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Spatie Packages](https://spatie.be/open-source)
->>>>>>> 4fc21b78 (rebase 210)
-=======
->>>>>>> 9fe1b60e (rebase 210)
-=======
->>>>>>> 8a8a8e2f (rebase 210)
-<<<<<<< HEAD
-=======
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Spatie Packages](https://spatie.be/open-source)
->>>>>>> efb0f8d9 (rebase 210)
-=======
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Spatie Packages](https://spatie.be/open-source)
->>>>>>> 9c45d9bd (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> c188e2a18 (.)
 =======
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> 9f8e680a (rebase 210)
-<<<<<<< HEAD
 =======
 >>>>>>> b4f93b3a (rebase 210)
-=======
->>>>>>> 1375c94d (rebase 210)
-=======
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Spatie Packages](https://spatie.be/open-source)
->>>>>>> 52cd5f85 (rebase 210)
-=======
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Spatie Packages](https://spatie.be/open-source)
->>>>>>> eb62d6cf (rebase 210)
-=======
-=======
->>>>>>> d284d65 (.)
 >>>>>>> 5aedc39c (rebase 210)
 =======
 >>>>>>> c5c038f2 (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 030c9674 (rebase 210)
-=======
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Spatie Packages](https://spatie.be/open-source)
->>>>>>> bb00ab64 (rebase 210)
-=======
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Spatie Packages](https://spatie.be/open-source)
->>>>>>> 8c8937e7 (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 01750b107 (.)
-=======
-=======
->>>>>>> d284d65 (.)
+
 >>>>>>> 22baa66d (rebase 210)
-<<<<<<< HEAD
 =======
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
 - [Spatie Packages](https://spatie.be/open-source)
 >>>>>>> 36ac4fc1 (.)
-=======
-=======
->>>>>>> d284d65 (.)
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 77edd94a (.)
@@ -3856,23 +1913,7 @@ php artisan notify:mail-template:test
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> e790eb33 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> f81a620f (.)
-=======
->>>>>>> 06e3078e (.)
-<<<<<<< HEAD
-=======
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Spatie Packages](https://spatie.be/open-source)
->>>>>>> 70e8274e (.)
-=======
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Spatie Packages](https://spatie.be/open-source)
->>>>>>> 4f3927d7 (.)
+
 =======
 =======
 >>>>>>> d284d65 (.)
@@ -3882,23 +1923,7 @@ php artisan notify:mail-template:test
 - [Filament Forms](https://filamentphp.com/docs/forms)
 - [Spatie Packages](https://spatie.be/open-source)
 >>>>>>> c8b1c8bf (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 2fc60436 (.)
-=======
->>>>>>> ce89c8bb (.)
-<<<<<<< HEAD
-=======
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Spatie Packages](https://spatie.be/open-source)
->>>>>>> 58816034 (.)
-=======
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Spatie Packages](https://spatie.be/open-source)
->>>>>>> 9cf0dc90 (.)
+
 =======
 =======
 >>>>>>> 1487fe812 (.)
@@ -3906,16 +1931,8 @@ php artisan notify:mail-template:test
 - [Filament Forms](https://filamentphp.com/docs/forms)
 - [Spatie Packages](https://spatie.be/open-source)
 >>>>>>> 75179b85 (.)
-<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
-=======
->>>>>>> 207ac35e (.)
-=======
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Spatie Packages](https://spatie.be/open-source)
->>>>>>> 9777d1b3 (.)
 =======
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
@@ -3939,48 +1956,16 @@ php artisan notify:mail-template:test
 - [Filament Forms](https://filamentphp.com/docs/forms)
 - [Spatie Packages](https://spatie.be/open-source)
 >>>>>>> ee18dd92 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 8dc1f2ed6 (.)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> 4689a827 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> e7a9a2bf (.)
-=======
->>>>>>> 9d67cabd (.)
-=======
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Spatie Packages](https://spatie.be/open-source)
->>>>>>> ba564870 (.)
+
+
 =======
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
 - [Spatie Packages](https://spatie.be/open-source)
 >>>>>>> 66453ace (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 2e9bd58c3 (.)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> 7325acf3 (.)
-<<<<<<< HEAD
+
 =======
 >>>>>>> 9cdf6146 (.)
-=======
->>>>>>> 80f054e0 (.)
-=======
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Spatie Packages](https://spatie.be/open-source)
->>>>>>> 7c39b1fe (.)
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -4003,20 +1988,7 @@ php artisan notify:mail-template:test
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 6d08c01b (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 6b6b9e41 (.)
-=======
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Spatie Packages](https://spatie.be/open-source)
->>>>>>> c6c33175 (.)
-=======
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Spatie Packages](https://spatie.be/open-source)
->>>>>>> 4f042b88 (.)
+
 =======
 =======
 >>>>>>> d284d65 (.)
@@ -4035,173 +2007,32 @@ php artisan notify:mail-template:test
 - [Filament Forms](https://filamentphp.com/docs/forms)
 - [Spatie Packages](https://spatie.be/open-source)
 >>>>>>> 36321fcb (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 9cb55171f (.)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> dceba960 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 8e5817bc (.)
-=======
->>>>>>> e0d9c9be (.)
-=======
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Spatie Packages](https://spatie.be/open-source)
->>>>>>> 7a2f131f (.)
+
+
 =======
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
 - [Spatie Packages](https://spatie.be/open-source)
 >>>>>>> 712617d3 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 848f79b79 (.)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> bd804d67 (.)
-<<<<<<< HEAD
+
 =======
 >>>>>>> 51182e3c (rebase 210)
-=======
->>>>>>> cb85c538 (rebase 210)
-=======
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Spatie Packages](https://spatie.be/open-source)
->>>>>>> 1c0eb9c7 (rebase 210)
-=======
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Spatie Packages](https://spatie.be/open-source)
->>>>>>> fdb24863 (rebase 210)
-=======
-=======
->>>>>>> d284d65 (.)
 >>>>>>> 229a065a (rebase 210)
 =======
 >>>>>>> a9bf0423 (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 460b8f5b (rebase 210)
-=======
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Spatie Packages](https://spatie.be/open-source)
->>>>>>> 4d253d2c (rebase 210)
-=======
->>>>>>> 54220b28 (rebase 210)
-=======
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Spatie Packages](https://spatie.be/open-source)
->>>>>>> 4fc21b78 (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 9fe1b60e (rebase 210)
-=======
->>>>>>> 8a8a8e2f (rebase 210)
-=======
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Spatie Packages](https://spatie.be/open-source)
->>>>>>> efb0f8d9 (rebase 210)
-=======
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Spatie Packages](https://spatie.be/open-source)
->>>>>>> 9c45d9bd (rebase 210)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> 9f8e680a (rebase 210)
-=======
->>>>>>> b4f93b3a (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 1375c94d (rebase 210)
-=======
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Spatie Packages](https://spatie.be/open-source)
->>>>>>> 52cd5f85 (rebase 210)
-=======
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Spatie Packages](https://spatie.be/open-source)
->>>>>>> eb62d6cf (rebase 210)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> cd5474106 (.)
-=======
-=======
->>>>>>> d284d65 (.)
+
 >>>>>>> 5aedc39c (rebase 210)
-<<<<<<< HEAD
 =======
 >>>>>>> c5c038f2 (rebase 210)
-=======
->>>>>>> 030c9674 (rebase 210)
-=======
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Spatie Packages](https://spatie.be/open-source)
->>>>>>> bb00ab64 (rebase 210)
-=======
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Spatie Packages](https://spatie.be/open-source)
->>>>>>> 8c8937e7 (rebase 210)
-=======
-=======
->>>>>>> d284d65 (.)
 >>>>>>> 22baa66d (rebase 210)
 =======
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
 - [Spatie Packages](https://spatie.be/open-source)
 >>>>>>> 36ac4fc1 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
+
+
 =======
->>>>>>> 26d39e2eb (.)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> 2effe245 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 77edd94a (.)
-=======
->>>>>>> eea68ec9 (.)
-<<<<<<< HEAD
-=======
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Spatie Packages](https://spatie.be/open-source)
->>>>>>> 59916c8f (.)
-=======
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Spatie Packages](https://spatie.be/open-source)
->>>>>>> fd1fcc4c (.)
-<<<<<<< HEAD
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> e790eb33 (.)
 =======
 >>>>>>> f81a620f (.)
 =======
@@ -4216,24 +2047,12 @@ php artisan notify:mail-template:test
 - [Filament Forms](https://filamentphp.com/docs/forms)
 - [Spatie Packages](https://spatie.be/open-source)
 >>>>>>> 4f3927d7 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 763771402 (.)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> 3ee54c5d (.)
-<<<<<<< HEAD
+
 =======
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
 - [Spatie Packages](https://spatie.be/open-source)
 >>>>>>> c8b1c8bf (.)
-=======
->>>>>>> 2fc60436 (.)
-=======
->>>>>>> ce89c8bb (.)
 =======
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
@@ -4244,16 +2063,11 @@ php artisan notify:mail-template:test
 - [Filament Forms](https://filamentphp.com/docs/forms)
 - [Spatie Packages](https://spatie.be/open-source)
 >>>>>>> 9cf0dc90 (.)
-<<<<<<< HEAD
 =======
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
 - [Spatie Packages](https://spatie.be/open-source)
 >>>>>>> 75179b85 (.)
-=======
->>>>>>> 82ae73be (.)
-=======
->>>>>>> 207ac35e (.)
 =======
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
@@ -4269,15 +2083,10 @@ php artisan notify:mail-template:test
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
 =======
-<<<<<<< HEAD
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
 - [Spatie Packages](https://spatie.be/open-source)
 >>>>>>> 75179b855 (.)
-=======
->>>>>>> 82ae73be (.)
-=======
->>>>>>> 207ac35e (.)
 =======
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
@@ -4296,17 +2105,11 @@ php artisan notify:mail-template:test
 >>>>>>> de02998b (.)
 =======
 >>>>>>> 011072e4 (.)
-<<<<<<< HEAD
 =======
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
 - [Spatie Packages](https://spatie.be/open-source)
 >>>>>>> 161887a2 (.)
-=======
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Spatie Packages](https://spatie.be/open-source)
->>>>>>> ee18dd92 (.)
 =======
 =======
 >>>>>>> d284d65 (.)
@@ -4315,17 +2118,11 @@ php artisan notify:mail-template:test
 >>>>>>> e7a9a2bf (.)
 =======
 >>>>>>> 9d67cabd (.)
-<<<<<<< HEAD
 =======
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
 - [Spatie Packages](https://spatie.be/open-source)
 >>>>>>> ba564870 (.)
-=======
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Spatie Packages](https://spatie.be/open-source)
->>>>>>> 66453ace (.)
 =======
 =======
 >>>>>>> d284d65 (.)
@@ -4373,11 +2170,7 @@ php artisan notify:mail-template:test
 - [Filament Forms](https://filamentphp.com/docs/forms)
 - [Spatie Packages](https://spatie.be/open-source)
 >>>>>>> 4f042b88 (.)
-<<<<<<< HEAD
 =======
-=======
->>>>>>> d284d65 (.)
->>>>>>> c4bdacbf (.)
 =======
 >>>>>>> 3b4c9907 (.)
 =======
@@ -4400,17 +2193,11 @@ php artisan notify:mail-template:test
 >>>>>>> 8e5817bc (.)
 =======
 >>>>>>> e0d9c9be (.)
-<<<<<<< HEAD
 =======
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
 - [Spatie Packages](https://spatie.be/open-source)
 >>>>>>> 7a2f131f (.)
-=======
-- [Laravel Mail](https://laravel.com/docs/mail)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Spatie Packages](https://spatie.be/open-source)
->>>>>>> 712617d3 (.)
 =======
 =======
 >>>>>>> d284d65 (.)

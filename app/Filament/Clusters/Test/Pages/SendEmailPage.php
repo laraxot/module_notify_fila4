@@ -59,7 +59,7 @@ class SendEmailPage extends XotBasePage
             'section' => Section::make()
                 // ->description('Update your account\'s profile information and email address.')
                 ->schema([
-                    'recipient' => TextInput::make('recipient')
+                    'to' => TextInput::make('to')
                         // ->unique(ignoreRecord: true)
                         ->email()
                         ->required(),
@@ -74,7 +74,7 @@ class SendEmailPage extends XotBasePage
         $data = $this->emailForm->getState();
         $email_data = EmailData::from($data);
 
-        Mail::to($data['recipient'])->send(new EmailDataEmail($email_data));
+        Mail::to($data['to'])->send(new EmailDataEmail($email_data));
 
         Notification::make()
             ->success()

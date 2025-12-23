@@ -53,11 +53,6 @@ return [
             'error' => 'Errore durante l\'invio dell\'email',
             'confirmation' => 'L\'email verrà inviata immediatamente',
         ],
-        'logout' => [
-            'tooltip' => 'logout',
-            'icon' => 'logout',
-            'label' => 'logout',
-        ],
     ],
     'messages' => [
         'loading' => 'Preparazione email in corso...',

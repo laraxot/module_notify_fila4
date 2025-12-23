@@ -60,7 +60,7 @@ final class SendTwilioSMSAction implements SmsActionContract
     public function execute(SmsData $smsData): array
     {
         // Normalizza il numero di telefono
-        $to = (string) $smsData->recipient;
+        $to = (string) $smsData->to;
         if (Str::startsWith($to, '00')) {
             $to = '+39'.mb_substr($to, 2);
         }
