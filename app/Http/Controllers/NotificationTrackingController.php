@@ -4,8 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Http\Controllers;
 
-use function Safe\base64_decode;
-use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Routing\Controller;
@@ -41,9 +39,9 @@ class NotificationTrackingController extends Controller
      *
      * @param Request $request
      * @param string $id
-     * @return RedirectResponse
+     * @return \Illuminate\Http\RedirectResponse
      */
-    public function trackClick(Request $request, string $id): RedirectResponse
+    public function trackClick(Request $request, string $id): \Illuminate\Http\RedirectResponse
     {
         $log = NotificationLog::find($id);
         $url = $request->get('url', '');
