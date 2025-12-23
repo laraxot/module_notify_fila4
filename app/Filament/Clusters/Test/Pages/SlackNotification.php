@@ -5,10 +5,10 @@ declare(strict_types=1);
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
 use BackedEnum;
-use Filament\Pages\Page;
+use Modules\Xot\Filament\Pages\XotBasePage;
 use Modules\Notify\Filament\Clusters\Test;
 
-class SlackNotification extends Page
+class SlackNotification extends XotBasePage
 {
     protected static string|BackedEnum|null $navigationIcon = 'heroicon-o-paper-airplane';
 

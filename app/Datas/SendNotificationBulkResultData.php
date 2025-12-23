@@ -8,7 +8,7 @@ use Illuminate\Support\Collection;
 use Spatie\LaravelData\Data;
 
 /**
- * Data Transfer Object per il risultato di SendRecordsNotificationAction.
+ * Data Transfer Object per il risultato di SendRecordsNotificationBulkAction.
  */
 class SendNotificationBulkResultData extends Data
 {
