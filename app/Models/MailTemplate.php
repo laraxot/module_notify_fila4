@@ -72,7 +72,6 @@ use Spatie\Translatable\HasTranslations;
  * @method static Builder<static>|MailTemplate whereSmsTemplate($value)
  * @method static Builder<static>|MailTemplate whereWhatsappTemplate($value)
  *
- * @mixin IdeHelperMailTemplate
  * @mixin \Eloquent
  */
 class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface

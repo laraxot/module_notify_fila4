@@ -22,7 +22,7 @@ class NotificationTemplateResource extends XotBaseResource
     #[Override]
     public static function getFormSchema(): array
     {
-        return [
+        return array_values([
             'name' => TextInput::make('name')
                 ->required()
                 ->maxLength(255)
@@ -69,8 +69,7 @@ class NotificationTemplateResource extends XotBaseResource
                 ->acceptedFileTypes(['application/pdf', 'image/*'])
                 ->columnSpan(['lg' => 3])
                 ->helperText(__('notify::template.form.attachments.helper')),
-        ];
-    }
+        ]);}
 
     #[Override]
     public static function getPages(): array
