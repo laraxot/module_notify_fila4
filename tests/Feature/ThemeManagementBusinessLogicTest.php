@@ -637,7 +637,11 @@ describe('Theme Management Business Logic', function (): void {
         ]);
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
 });
 =======
 }
 >>>>>>> b19cd40 (.)
+=======
+});
+>>>>>>> 4e2ebfb (.)
