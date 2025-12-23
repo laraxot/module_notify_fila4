@@ -1,18 +1,26 @@
 <?php
 <<<<<<< HEAD
+<<<<<<< HEAD
 use function Safe\base64_decode;
 
 =======
 >>>>>>> 22f1446 (.)
+=======
+>>>>>>> 5bed4d4 (.)
 declare(strict_types=1);
 
 namespace Modules\Notify\Http\Controllers;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use function Safe\base64_decode;
 
 >>>>>>> 22f1446 (.)
+=======
+use function Safe\base64_decode;
+
+>>>>>>> 5bed4d4 (.)
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
