@@ -1,26 +1,8 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> d284d65 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
 	<tr>
 		<td bgcolor="{{ isset($color) ? $color : '#85bdad' }}" nowrap>
@@ -30,20 +12,4 @@ declare(strict_types=1);
 
 			<table width="100%" cellpadding="20" cellspacing="0" border="0">
 				<tr>
-<<<<<<< HEAD
 					<td bgcolor="#ffffff" class="contentblock">
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-					<td bgcolor="#ffffff" class="contentblock">
-=======
-					<td bgcolor="#ffffff" class="contentblock">
->>>>>>> a12f125f4a (.)
-=======
-					<td bgcolor="#ffffff" class="contentblock">
->>>>>>> b93ef594b4 (.)
-=======
-					<td bgcolor="#ffffff" class="contentblock">
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
