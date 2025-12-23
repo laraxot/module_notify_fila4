@@ -10,11 +10,19 @@ return [
         'color' => 'primary',
         'sort' => 10,
     ],
+<<<<<<< HEAD
+=======
+
+>>>>>>> b19cd40 (.)
     'model' => [
         'label' => 'Email AWS',
         'plural' => 'Email AWS',
         'description' => 'Gestione invio email tramite servizio Amazon SES',
     ],
+<<<<<<< HEAD
+=======
+
+>>>>>>> b19cd40 (.)
     'fields' => [
         'to' => [
             'label' => 'Destinatario Email',
@@ -42,6 +50,10 @@ return [
             'help' => 'File allegati che verranno inviati insieme all\'email',
         ],
     ],
+<<<<<<< HEAD
+=======
+
+>>>>>>> b19cd40 (.)
     'actions' => [
         'send_email' => [
             'label' => 'Invia Email',
@@ -59,6 +71,10 @@ return [
             'label' => 'logout',
         ],
     ],
+<<<<<<< HEAD
+=======
+
+>>>>>>> b19cd40 (.)
     'messages' => [
         'loading' => 'Preparazione email in corso...',
         'sent' => 'Email inviata correttamente',

@@ -5,10 +5,17 @@ declare(strict_types=1);
 namespace Modules\Notify\Tests\Feature;
 
 use RuntimeException;
+<<<<<<< HEAD
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Models\MailTemplateVersion;
 use Tests\TestCase;
+=======
+use Modules\Notify\Models\MailTemplateVersion;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+>>>>>>> b19cd40 (.)
 
 class MailTemplateVersionBusinessLogicTest extends TestCase
 {
@@ -18,7 +25,11 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
     public function it_can_create_mail_template_version_with_basic_information(): void
     {
         $template = MailTemplate::factory()->create();
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b19cd40 (.)
         $versionData = [
             'template_id' => $template->id,
             'mailable' => 'AppointmentConfirmation',
@@ -108,7 +119,11 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
     public function it_can_manage_version_metadata_and_tracking(): void
     {
         $template = MailTemplate::factory()->create();
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b19cd40 (.)
         $version = MailTemplateVersion::factory()->create([
             'template_id' => $template->id,
             'version' => '1.5.2',
@@ -118,10 +133,14 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 
         $this->assertEquals('1.5.2', $version->version);
         $this->assertEquals('developer@' . config('app.domain', 'example.com'), $version->created_by);
+<<<<<<< HEAD
         $this->assertEquals(
             'Correzione bug nella formattazione HTML e ottimizzazione per mobile',
             $version->change_notes,
         );
+=======
+        $this->assertEquals('Correzione bug nella formattazione HTML e ottimizzazione per mobile', $version->change_notes);
+>>>>>>> b19cd40 (.)
         $this->assertNotNull($version->created_at);
         $this->assertNotNull($version->updated_at);
     }
@@ -130,7 +149,11 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
     public function it_can_handle_complex_html_templates(): void
     {
         $template = MailTemplate::factory()->create();
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b19cd40 (.)
         $complexHtmlTemplate = '
         <!DOCTYPE html>
         <html lang="it">
@@ -181,7 +204,11 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
     public function it_can_handle_text_template_variants(): void
     {
         $template = MailTemplate::factory()->create();
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b19cd40 (.)
         $textTemplate = '
         CONFERMA APPUNTAMENTO
         =====================
@@ -275,7 +302,11 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
     public function it_can_handle_mailable_class_management(): void
     {
         $template = MailTemplate::factory()->create();
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b19cd40 (.)
         $mailableClasses = [
             'AppointmentConfirmation',
             'AppointmentReminder',
@@ -309,10 +340,17 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 
         // Verifica che il modello supporti soft delete
         $this->assertTrue($version->trashed() === false);
+<<<<<<< HEAD
 
         // Soft delete
         $version->delete();
 
+=======
+        
+        // Soft delete
+        $version->delete();
+        
+>>>>>>> b19cd40 (.)
         $this->assertTrue($version->trashed());
         $this->assertDatabaseHas('mail_template_versions', [
             'id' => $version->id,
@@ -347,10 +385,17 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
     public function it_can_validate_template_variable_consistency(): void
     {
         $template = MailTemplate::factory()->create();
+<<<<<<< HEAD
 
         $htmlTemplate = '<p>Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}} con il dottore {{doctor_name}}.</p>';
         $textTemplate = 'Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}} con il dottore {{doctor_name}}.';
 
+=======
+        
+        $htmlTemplate = '<p>Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}} con il dottore {{doctor_name}}.</p>';
+        $textTemplate = 'Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}} con il dottore {{doctor_name}}.';
+        
+>>>>>>> b19cd40 (.)
         $version = MailTemplateVersion::factory()->create([
             'template_id' => $template->id,
             'html_template' => $htmlTemplate,
@@ -361,7 +406,11 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
         // Verifica che le variabili siano consistenti tra HTML e testo
         $htmlVariables = $this->extractVariables($htmlTemplate);
         $textVariables = $this->extractVariables($textTemplate);
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b19cd40 (.)
         $this->assertEquals($htmlVariables, $textVariables);
         $this->assertContains('patient_name', $htmlVariables);
         $this->assertContains('appointment_date', $htmlVariables);
@@ -372,7 +421,11 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
     public function it_can_manage_version_numbering_schemes(): void
     {
         $template = MailTemplate::factory()->create();
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b19cd40 (.)
         $versionSchemes = [
             '1.0' => 'Versione iniziale',
             '1.1' => 'Correzione bug minori',
