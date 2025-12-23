@@ -4,12 +4,728 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Feature;
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+=======
+>>>>>>> 58816034 (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\Contact;
 use Modules\Notify\Models\ContactGroup;
 use Tests\TestCase;
+<<<<<<< HEAD
+>>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+=======
+>>>>>>> 70e8274e (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> 3ee54c5d (.)
+=======
+>>>>>>> 4b544042 (.)
+=======
+use function Safe\json_encode;
+
+>>>>>>> 7d765981 (.)
+=======
+>>>>>>> 2fc60436 (.)
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Modules\Notify\Models\ContactGroup;
+use Tests\TestCase;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 06e3078e (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+=======
+>>>>>>> 59916c8f (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> cb5f23b0 (.)
+=======
+>>>>>>> f81a620f (.)
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Modules\Notify\Models\ContactGroup;
+use Tests\TestCase;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> eea68ec9 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+=======
+>>>>>>> 52cd5f85 (rebase 210)
+=======
+=======
+>>>>>>> 2effe245 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 82e5ee2d (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 77edd94a (.)
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Modules\Notify\Models\ContactGroup;
+use Tests\TestCase;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 1375c94d (rebase 210)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+=======
+>>>>>>> efb0f8d9 (rebase 210)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 7ffa94fc (rebase 210)
+=======
+>>>>>>> b4f93b3a (rebase 210)
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Modules\Notify\Models\ContactGroup;
+use Tests\TestCase;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8a8a8e2f (rebase 210)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+=======
+>>>>>>> 7a2f131f (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 116df547 (.)
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Modules\Notify\Models\ContactGroup;
+use Tests\TestCase;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> e0d9c9be (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+=======
+>>>>>>> 503981fd (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> 9d84f153 (.)
+=======
+>>>>>>> 8e5817bc (.)
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Modules\Notify\Models\ContactGroup;
+use Tests\TestCase;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5fe4f466 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+=======
+>>>>>>> c6c33175 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 4e4a7796 (.)
+=======
+>>>>>>> 3b4c9907 (.)
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Modules\Notify\Models\ContactGroup;
+use Tests\TestCase;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6b6b9e41 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 6d08c01b (.)
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Modules\Notify\Models\ContactGroup;
+use Tests\TestCase;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Modules\Notify\Models\ContactGroup;
+use Tests\TestCase;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Modules\Notify\Models\ContactGroup;
+use Tests\TestCase;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Modules\Notify\Models\ContactGroup;
+use Tests\TestCase;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> 3ee54c5d (.)
+=======
+=======
+=======
+>>>>>>> origin/develop
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+=======
+>>>>>>> 6d08c01b (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+=======
+>>>>>>> 3b4c9907 (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+=======
+>>>>>>> 8e5817bc (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+=======
+>>>>>>> b4f93b3a (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+=======
+>>>>>>> 77edd94a (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+=======
+>>>>>>> f81a620f (.)
+=======
+>>>>>>> 3ee54c5d (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
+use Modules\Notify\Models\Contact;
+use Modules\Notify\Models\ContactGroup;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> 3ee54c5d (.)
+>>>>>>> a12f125f4a (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Modules\Notify\Models\ContactGroup;
+use Tests\TestCase;
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
 
 use function Safe\json_encode;
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 6d08c01b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> c6c33175 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 4e4a7796 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3b4c9907 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> 503981fd (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> 9d84f153 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 8e5817bc (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 7a2f131f (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 116df547 (.)
+
+use function Safe\json_encode;
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9fe1b60e (rebase 210)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> efb0f8d9 (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 7ffa94fc (rebase 210)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> b4f93b3a (rebase 210)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1375c94d (rebase 210)
+=======
+>>>>>>> 52cd5f85 (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 82e5ee2d (rebase 210)
+
+use function Safe\json_encode;
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 77edd94a (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> eea68ec9 (.)
+=======
+>>>>>>> 59916c8f (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> cb5f23b0 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> f81a620f (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 06e3078e (.)
+=======
+>>>>>>> 70e8274e (.)
+=======
+>>>>>>> 3ee54c5d (.)
+=======
+>>>>>>> 4b544042 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
 
 class ContactManagementBusinessLogicTest extends TestCase
 {
@@ -31,7 +747,6 @@ class ContactManagementBusinessLogicTest extends TestCase
         $contact = Contact::create($contactData);
 
         // Assert
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('contacts', [
             'id' => $contact->id,
             'name' => 'Mario Rossi',
@@ -41,11 +756,8 @@ class ContactManagementBusinessLogicTest extends TestCase
             'is_active' => true,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('Mario Rossi', $contact->name);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('mario.rossi@example.com', $contact->email);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue($contact->is_active);
     }
 
@@ -63,7 +775,6 @@ class ContactManagementBusinessLogicTest extends TestCase
         $group = ContactGroup::create($groupData);
 
         // Assert
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('contact_groups', [
             'id' => $group->id,
             'name' => 'Dottori Specialisti',
@@ -71,11 +782,8 @@ class ContactManagementBusinessLogicTest extends TestCase
             'is_active' => true,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('Dottori Specialisti', $group->name);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('Gruppo per dottori specialisti', $group->description);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue($group->is_active);
     }
 
@@ -83,8 +791,7 @@ class ContactManagementBusinessLogicTest extends TestCase
     public function it_can_manage_contact_notification_preferences(): void
     {
         // Arrange
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $contact = Contact/** @phpstan-ignore-line */ ::factory()->create();
+        $contact = Contact::factory()->create();
         $preferences = [
             'email' => true,
             'sms' => false,
@@ -98,29 +805,20 @@ class ContactManagementBusinessLogicTest extends TestCase
         ];
 
         // Act
-        /** @phpstan-ignore-next-line method.nonObject */
         $contact->update(['preferences' => $preferences]);
 
         // Assert
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('contacts', [
             'id' => $contact->id,
             'preferences' => json_encode($preferences),
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue($contact->fresh()->preferences['email']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertFalse($contact->fresh()->preferences['sms']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue($contact->fresh()->preferences['push']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('daily', $contact->fresh()->preferences['frequency']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('22:00', $contact->fresh()->preferences['quiet_hours']['start']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('08:00', $contact->fresh()->preferences['quiet_hours']['end']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('Europe/Rome', $contact->fresh()->preferences['timezone']);
     }
 
@@ -128,8 +826,7 @@ class ContactManagementBusinessLogicTest extends TestCase
     public function it_can_manage_contact_demographics(): void
     {
         // Arrange
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $contact = Contact/** @phpstan-ignore-line */ ::factory()->create();
+        $contact = Contact::factory()->create();
         $demographics = [
             'age' => 35,
             'gender' => 'M',
@@ -141,29 +838,20 @@ class ContactManagementBusinessLogicTest extends TestCase
         ];
 
         // Act
-        /** @phpstan-ignore-next-line method.nonObject */
         $contact->update(['demographics' => $demographics]);
 
         // Assert
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('contacts', [
             'id' => $contact->id,
             'demographics' => json_encode($demographics),
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals(35, $contact->fresh()->demographics['age']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('M', $contact->fresh()->demographics['gender']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('Milano, Italia', $contact->fresh()->demographics['location']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('it', $contact->fresh()->demographics['language']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertContains('dentistry', $contact->fresh()->demographics['interests']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('Dentist', $contact->fresh()->demographics['profession']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals(8, $contact->fresh()->demographics['experience_years']);
     }
 
@@ -171,12 +859,19 @@ class ContactManagementBusinessLogicTest extends TestCase
     public function it_can_manage_contact_communication_history(): void
     {
         // Arrange
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $contact = Contact/** @phpstan-ignore-line */ ::factory()->create();
+        $contact = Contact::factory()->create();
         $communicationHistory = [
             [
                 'type' => 'email',
+<<<<<<< HEAD
                 'subject' => 'Benvenuto su '.config('app.name', 'Our Platform'),
+=======
+                'subject' => 'Benvenuto su ' . config('app.name', 'Our Platform'),
+<<<<<<< HEAD
+>>>>>>> 99ff506 (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
                 'sent_at' => now()->subDays(5)->toISOString(),
                 'status' => 'delivered',
                 'opened' => true,
@@ -193,29 +888,600 @@ class ContactManagementBusinessLogicTest extends TestCase
         ];
 
         // Act
-        /** @phpstan-ignore-next-line method.nonObject */
         $contact->update(['communication_history' => $communicationHistory]);
 
         // Assert
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('contacts', [
             'id' => $contact->id,
             'communication_history' => json_encode($communicationHistory),
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(2, $contact->fresh()->communication_history);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('email', $contact->fresh()->communication_history[0]['type']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> 3ee54c5d (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 6d08c01b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> c6c33175 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 4e4a7796 (.)
+=======
+>>>>>>> 3b4c9907 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> 503981fd (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> 9d84f153 (.)
+=======
+>>>>>>> 8e5817bc (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 7a2f131f (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 116df547 (.)
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> efb0f8d9 (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 7ffa94fc (rebase 210)
+=======
+>>>>>>> b4f93b3a (rebase 210)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1375c94d (rebase 210)
+=======
+>>>>>>> 52cd5f85 (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 82e5ee2d (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 77edd94a (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> eea68ec9 (.)
+=======
+>>>>>>> 59916c8f (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> cb5f23b0 (.)
+=======
+>>>>>>> f81a620f (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 06e3078e (.)
+=======
+>>>>>>> 70e8274e (.)
+=======
+>>>>>>> 3ee54c5d (.)
+=======
+>>>>>>> 4b544042 (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
         $this->assertEquals(
+<<<<<<< HEAD
             'Benvenuto su '.config('app.name', 'Our Platform'),
-            /** @phpstan-ignore-next-line method.nonObject */
+=======
+            'Benvenuto su ' . config('app.name', 'Our Platform'),
+<<<<<<< HEAD
+>>>>>>> 99ff506 (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
             $contact->fresh()->communication_history[0]['subject'],
         );
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> 1375c94d (rebase 210)
+=======
+>>>>>>> eea68ec9 (.)
+=======
+>>>>>>> 06e3078e (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+        $this->assertEquals('Benvenuto su ' . config('app.name', 'Our Platform'), $contact->fresh()->communication_history[0]['subject']);
+>>>>>>> b19cd40 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+=======
+        $this->assertEquals('Benvenuto su ' . config('app.name', 'Our Platform'), $contact->fresh()->communication_history[0]['subject']);
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> 3ee54c5d (.)
+=======
+<<<<<<< HEAD
+=======
+        $this->assertEquals('Benvenuto su ' . config('app.name', 'Our Platform'), $contact->fresh()->communication_history[0]['subject']);
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+        $this->assertEquals('Benvenuto su ' . config('app.name', 'Our Platform'), $contact->fresh()->communication_history[0]['subject']);
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+=======
+        $this->assertEquals('Benvenuto su ' . config('app.name', 'Our Platform'), $contact->fresh()->communication_history[0]['subject']);
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+=======
+        $this->assertEquals('Benvenuto su ' . config('app.name', 'Our Platform'), $contact->fresh()->communication_history[0]['subject']);
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+=======
+        $this->assertEquals('Benvenuto su ' . config('app.name', 'Our Platform'), $contact->fresh()->communication_history[0]['subject']);
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+=======
+        $this->assertEquals('Benvenuto su ' . config('app.name', 'Our Platform'), $contact->fresh()->communication_history[0]['subject']);
+>>>>>>> b19cd40 (.)
+>>>>>>> 6d08c01b (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> c6c33175 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 4e4a7796 (.)
+=======
+=======
+        $this->assertEquals('Benvenuto su ' . config('app.name', 'Our Platform'), $contact->fresh()->communication_history[0]['subject']);
+>>>>>>> b19cd40 (.)
+>>>>>>> 3b4c9907 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> 503981fd (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> 9d84f153 (.)
+=======
+=======
+        $this->assertEquals('Benvenuto su ' . config('app.name', 'Our Platform'), $contact->fresh()->communication_history[0]['subject']);
+>>>>>>> b19cd40 (.)
+>>>>>>> 8e5817bc (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 7a2f131f (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 116df547 (.)
+=======
+=======
+        $this->assertEquals('Benvenuto su ' . config('app.name', 'Our Platform'), $contact->fresh()->communication_history[0]['subject']);
+>>>>>>> b19cd40 (.)
+>>>>>>> 9fe1b60e (rebase 210)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> efb0f8d9 (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 7ffa94fc (rebase 210)
+=======
+=======
+        $this->assertEquals('Benvenuto su ' . config('app.name', 'Our Platform'), $contact->fresh()->communication_history[0]['subject']);
+>>>>>>> b19cd40 (.)
+>>>>>>> b4f93b3a (rebase 210)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1375c94d (rebase 210)
+=======
+>>>>>>> 52cd5f85 (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 82e5ee2d (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+=======
+        $this->assertEquals('Benvenuto su ' . config('app.name', 'Our Platform'), $contact->fresh()->communication_history[0]['subject']);
+>>>>>>> b19cd40 (.)
+>>>>>>> 77edd94a (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> eea68ec9 (.)
+=======
+>>>>>>> 59916c8f (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> cb5f23b0 (.)
+=======
+=======
+        $this->assertEquals('Benvenuto su ' . config('app.name', 'Our Platform'), $contact->fresh()->communication_history[0]['subject']);
+>>>>>>> b19cd40 (.)
+>>>>>>> f81a620f (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 06e3078e (.)
+=======
+>>>>>>> 70e8274e (.)
+=======
+>>>>>>> 3ee54c5d (.)
+=======
+>>>>>>> 4b544042 (.)
+=======
+=======
+        $this->assertEquals('Benvenuto su ' . config('app.name', 'Our Platform'), $contact->fresh()->communication_history[0]['subject']);
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
         $this->assertEquals('sms', $contact->fresh()->communication_history[1]['type']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue($contact->fresh()->communication_history[1]['clicked']);
     }
 
@@ -223,8 +1489,7 @@ class ContactManagementBusinessLogicTest extends TestCase
     public function it_can_manage_contact_tags(): void
     {
         // Arrange
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $contact = Contact/** @phpstan-ignore-line */ ::factory()->create();
+        $contact = Contact::factory()->create();
         $tags = [
             'vip' => 'Cliente VIP',
             'new' => 'Nuovo cliente',
@@ -233,25 +1498,18 @@ class ContactManagementBusinessLogicTest extends TestCase
         ];
 
         // Act
-        /** @phpstan-ignore-next-line method.nonObject */
         $contact->update(['tags' => $tags]);
 
         // Assert
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('contacts', [
             'id' => $contact->id,
             'tags' => json_encode($tags),
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(4, $contact->fresh()->tags);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('Cliente VIP', $contact->fresh()->tags['vip']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('Nuovo cliente', $contact->fresh()->tags['new']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('Piano premium', $contact->fresh()->tags['premium']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('Cliente attivo', $contact->fresh()->tags['active']);
     }
 
@@ -259,8 +1517,7 @@ class ContactManagementBusinessLogicTest extends TestCase
     public function it_can_manage_contact_custom_fields(): void
     {
         // Arrange
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $contact = Contact/** @phpstan-ignore-line */ ::factory()->create();
+        $contact = Contact::factory()->create();
         $customFields = [
             'specialization' => 'Ortodonzia',
             'university' => 'Università di Milano',
@@ -271,25 +1528,18 @@ class ContactManagementBusinessLogicTest extends TestCase
         ];
 
         // Act
-        /** @phpstan-ignore-next-line method.nonObject */
         $contact->update(['custom_fields' => $customFields]);
 
         // Assert
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('contacts', [
             'id' => $contact->id,
             'custom_fields' => json_encode($customFields),
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('Ortodonzia', $contact->fresh()->custom_fields['specialization']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('Università di Milano', $contact->fresh()->custom_fields['university']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertContains('Invisalign', $contact->fresh()->custom_fields['certifications']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('mattina', $contact->fresh()->custom_fields['preferred_contact_time']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('+39 987 654 3210', $contact->fresh()->custom_fields['emergency_contact']);
     }
 
@@ -297,8 +1547,7 @@ class ContactManagementBusinessLogicTest extends TestCase
     public function it_can_manage_contact_subscription_status(): void
     {
         // Arrange
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $contact = Contact/** @phpstan-ignore-line */ ::factory()->create();
+        $contact = Contact::factory()->create();
         $subscriptionData = [
             'subscribed' => true,
             'subscription_date' => now()->subMonths(3),
@@ -310,11 +1559,9 @@ class ContactManagementBusinessLogicTest extends TestCase
         ];
 
         // Act
-        /** @phpstan-ignore-next-line method.nonObject */
         $contact->update($subscriptionData);
 
         // Assert
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('contacts', [
             'id' => $contact->id,
             'subscribed' => true,
@@ -322,19 +1569,13 @@ class ContactManagementBusinessLogicTest extends TestCase
             'double_optin' => true,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue($contact->fresh()->subscribed);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('website_form', $contact->fresh()->subscription_source);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue($contact->fresh()->double_optin);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNotNull($contact->fresh()->subscription_date);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($contact->fresh()->unsubscribe_date);
 
         // Act - Unsubscribe
-        /** @phpstan-ignore-next-line method.nonObject */
         $contact->update([
             'subscribed' => false,
             'unsubscribe_date' => now(),
@@ -342,11 +1583,8 @@ class ContactManagementBusinessLogicTest extends TestCase
         ]);
 
         // Assert
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertFalse($contact->fresh()->subscribed);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNotNull($contact->fresh()->unsubscribe_date);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('Troppe email', $contact->fresh()->unsubscribe_reason);
     }
 
@@ -354,8 +1592,7 @@ class ContactManagementBusinessLogicTest extends TestCase
     public function it_can_manage_contact_engagement_score(): void
     {
         // Arrange
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $contact = Contact/** @phpstan-ignore-line */ ::factory()->create();
+        $contact = Contact::factory()->create();
         $engagementData = [
             'engagement_score' => 85,
             'last_interaction' => now()->subDays(2),
@@ -367,11 +1604,9 @@ class ContactManagementBusinessLogicTest extends TestCase
         ];
 
         // Act
-        /** @phpstan-ignore-next-line method.nonObject */
         $contact->update($engagementData);
 
         // Assert
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('contacts', [
             'id' => $contact->id,
             'engagement_score' => 85,
@@ -382,17 +1617,11 @@ class ContactManagementBusinessLogicTest extends TestCase
             'lifetime_value' => 2500.00,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals(85, $contact->fresh()->engagement_score);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals(15, $contact->fresh()->interaction_count);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals(78.5, $contact->fresh()->response_rate);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('email', $contact->fresh()->preferred_channel);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('high', $contact->fresh()->engagement_level);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals(2500.00, $contact->fresh()->lifetime_value);
     }
 
@@ -400,8 +1629,7 @@ class ContactManagementBusinessLogicTest extends TestCase
     public function it_can_manage_contact_privacy_settings(): void
     {
         // Arrange
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $contact = Contact/** @phpstan-ignore-line */ ::factory()->create();
+        $contact = Contact::factory()->create();
         $privacySettings = [
             'gdpr_consent' => true,
             'consent_date' => now()->subMonths(6),
@@ -414,27 +1642,19 @@ class ContactManagementBusinessLogicTest extends TestCase
         ];
 
         // Act
-        /** @phpstan-ignore-next-line method.nonObject */
         $contact->update(['privacy_settings' => $privacySettings]);
 
         // Assert
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('contacts', [
             'id' => $contact->id,
             'privacy_settings' => json_encode($privacySettings),
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue($contact->fresh()->privacy_settings['gdpr_consent']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue($contact->fresh()->privacy_settings['data_processing_consent']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue($contact->fresh()->privacy_settings['marketing_consent']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertFalse($contact->fresh()->privacy_settings['third_party_sharing']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('5_years', $contact->fresh()->privacy_settings['data_retention_preference']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue($contact->fresh()->privacy_settings['data_portability']);
     }
 
@@ -442,17 +1662,675 @@ class ContactManagementBusinessLogicTest extends TestCase
     public function it_can_search_contacts_by_preferences(): void
     {
         // Arrange
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $emailContact = Contact/** @phpstan-ignore-line */ ::factory()->create([
+        $emailContact = Contact::factory()->create([
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> 3ee54c5d (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 6d08c01b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> c6c33175 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 4e4a7796 (.)
+=======
+>>>>>>> 3b4c9907 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> 503981fd (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> 9d84f153 (.)
+=======
+>>>>>>> 8e5817bc (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 7a2f131f (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 116df547 (.)
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> efb0f8d9 (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 7ffa94fc (rebase 210)
+=======
+>>>>>>> b4f93b3a (rebase 210)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1375c94d (rebase 210)
+=======
+>>>>>>> 52cd5f85 (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 82e5ee2d (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 77edd94a (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> eea68ec9 (.)
+=======
+>>>>>>> 59916c8f (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> cb5f23b0 (.)
+=======
+>>>>>>> f81a620f (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 06e3078e (.)
+=======
+>>>>>>> 70e8274e (.)
+=======
+>>>>>>> 3ee54c5d (.)
+=======
+>>>>>>> 4b544042 (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
             'preferences' => ['email' => true, 'sms' => false],
         ]);
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $smsContact = Contact/** @phpstan-ignore-line */ ::factory()->create([
+        $smsContact = Contact::factory()->create([
             'preferences' => ['email' => false, 'sms' => true],
         ]);
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $bothContact = Contact/** @phpstan-ignore-line */ ::factory()->create([
+        $bothContact = Contact::factory()->create([
             'preferences' => ['email' => true, 'sms' => true],
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> 3ee54c5d (.)
+=======
+=======
+            'preferences' => ['email' => true, 'sms' => false]
+=======
+            'preferences' => ['email' => true, 'sms' => false],
+>>>>>>> b93ef594b4 (.)
+        ]);
+        $smsContact = Contact::factory()->create([
+            'preferences' => ['email' => false, 'sms' => true],
+        ]);
+        $bothContact = Contact::factory()->create([
+<<<<<<< HEAD
+            'preferences' => ['email' => true, 'sms' => true]
+>>>>>>> a12f125f4a (.)
+=======
+            'preferences' => ['email' => true, 'sms' => true],
+>>>>>>> b93ef594b4 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 6d08c01b (.)
+=======
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 3b4c9907 (.)
+=======
+>>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> 8e5817bc (.)
+=======
+>>>>>>> e0d9c9be (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+=======
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> b4f93b3a (rebase 210)
+=======
+>>>>>>> 1375c94d (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 77edd94a (.)
+=======
+>>>>>>> eea68ec9 (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> f81a620f (.)
+=======
+>>>>>>> 06e3078e (.)
+=======
+>>>>>>> 3ee54c5d (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+            'preferences' => ['email' => true, 'sms' => false]
+        ]);
+        $smsContact = Contact::factory()->create([
+            'preferences' => ['email' => false, 'sms' => true]
+        ]);
+        $bothContact = Contact::factory()->create([
+            'preferences' => ['email' => true, 'sms' => true]
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 6d08c01b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> c6c33175 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 4e4a7796 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3b4c9907 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> 503981fd (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> 9d84f153 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 8e5817bc (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 7a2f131f (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 116df547 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9fe1b60e (rebase 210)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> efb0f8d9 (rebase 210)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 7ffa94fc (rebase 210)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> b4f93b3a (rebase 210)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1375c94d (rebase 210)
+=======
+>>>>>>> 52cd5f85 (rebase 210)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 82e5ee2d (rebase 210)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 77edd94a (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> eea68ec9 (.)
+=======
+>>>>>>> 59916c8f (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> cb5f23b0 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> f81a620f (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 06e3078e (.)
+=======
+>>>>>>> 70e8274e (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> 3ee54c5d (.)
+=======
+>>>>>>> 4b544042 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
         ]);
 
         // Act
@@ -465,13 +2343,9 @@ class ContactManagementBusinessLogicTest extends TestCase
             ->get();
 
         // Assert
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $emailOnlyContacts);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $smsOnlyContacts);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue($emailOnlyContacts->contains($emailContact));
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue($smsOnlyContacts->contains($smsContact));
     }
 
@@ -479,13 +2353,687 @@ class ContactManagementBusinessLogicTest extends TestCase
     public function it_can_search_contacts_by_tags(): void
     {
         // Arrange
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $vipContact = Contact/** @phpstan-ignore-line */ ::factory()->create([
+        $vipContact = Contact::factory()->create([
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> 3ee54c5d (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 6d08c01b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> c6c33175 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 4e4a7796 (.)
+=======
+>>>>>>> 3b4c9907 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> 503981fd (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> 9d84f153 (.)
+=======
+>>>>>>> 8e5817bc (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 7a2f131f (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 116df547 (.)
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> efb0f8d9 (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 7ffa94fc (rebase 210)
+=======
+>>>>>>> b4f93b3a (rebase 210)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1375c94d (rebase 210)
+=======
+>>>>>>> 52cd5f85 (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 82e5ee2d (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 77edd94a (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> eea68ec9 (.)
+=======
+>>>>>>> 59916c8f (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> cb5f23b0 (.)
+=======
+>>>>>>> f81a620f (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 06e3078e (.)
+=======
+>>>>>>> 70e8274e (.)
+=======
+>>>>>>> 3ee54c5d (.)
+=======
+>>>>>>> 4b544042 (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
             'tags' => ['vip' => 'Cliente VIP', 'premium' => 'Piano premium'],
         ]);
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $newContact = Contact/** @phpstan-ignore-line */ ::factory()->create([
+        $newContact = Contact::factory()->create([
             'tags' => ['new' => 'Nuovo cliente', 'active' => 'Cliente attivo'],
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 06e3078e (.)
+=======
+>>>>>>> eea68ec9 (.)
+=======
+>>>>>>> 1375c94d (rebase 210)
+=======
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> 3ee54c5d (.)
+=======
+=======
+=======
+>>>>>>> origin/develop
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+=======
+>>>>>>> 6d08c01b (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+=======
+>>>>>>> 3b4c9907 (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+=======
+>>>>>>> 8e5817bc (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+=======
+>>>>>>> b4f93b3a (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+=======
+>>>>>>> 77edd94a (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+=======
+>>>>>>> f81a620f (.)
+=======
+>>>>>>> 3ee54c5d (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
+            'tags' => ['vip' => 'Cliente VIP', 'premium' => 'Piano premium']
+        ]);
+        $newContact = Contact::factory()->create([
+            'tags' => ['new' => 'Nuovo cliente', 'active' => 'Cliente attivo']
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> 3ee54c5d (.)
+>>>>>>> a12f125f4a (.)
+=======
+            'tags' => ['vip' => 'Cliente VIP', 'premium' => 'Piano premium'],
+        ]);
+        $newContact = Contact::factory()->create([
+            'tags' => ['new' => 'Nuovo cliente', 'active' => 'Cliente attivo'],
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 6d08c01b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> c6c33175 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 4e4a7796 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3b4c9907 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> 503981fd (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> 9d84f153 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 8e5817bc (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 7a2f131f (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 116df547 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9fe1b60e (rebase 210)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> efb0f8d9 (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 7ffa94fc (rebase 210)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> b4f93b3a (rebase 210)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1375c94d (rebase 210)
+=======
+>>>>>>> 52cd5f85 (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 82e5ee2d (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 77edd94a (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> eea68ec9 (.)
+=======
+>>>>>>> 59916c8f (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> cb5f23b0 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> f81a620f (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 06e3078e (.)
+=======
+>>>>>>> 70e8274e (.)
+=======
+>>>>>>> 3ee54c5d (.)
+=======
+>>>>>>> 4b544042 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
         ]);
 
         // Act
@@ -493,13 +3041,9 @@ class ContactManagementBusinessLogicTest extends TestCase
         $newContacts = Contact::whereJsonContains('tags->new', 'Nuovo cliente')->get();
 
         // Assert
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $vipContacts);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $newContacts);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue($vipContacts->contains($vipContact));
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue($newContacts->contains($newContact));
     }
 
@@ -507,25 +3051,18 @@ class ContactManagementBusinessLogicTest extends TestCase
     public function it_can_search_contacts_by_engagement_level(): void
     {
         // Arrange
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $highEngagementContact = Contact/** @phpstan-ignore-line */ ::factory()->create(['engagement_level' => 'high']);
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $mediumEngagementContact = Contact/** @phpstan-ignore-line */ ::factory()->create(['engagement_level' => 'medium']);
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $lowEngagementContact = Contact/** @phpstan-ignore-line */ ::factory()->create(['engagement_level' => 'low']);
+        $highEngagementContact = Contact::factory()->create(['engagement_level' => 'high']);
+        $mediumEngagementContact = Contact::factory()->create(['engagement_level' => 'medium']);
+        $lowEngagementContact = Contact::factory()->create(['engagement_level' => 'low']);
 
         // Act
         $highEngagementContacts = Contact::where('engagement_level', 'high')->get();
         $mediumEngagementContacts = Contact::where('engagement_level', 'medium')->get();
 
         // Assert
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $highEngagementContacts);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $mediumEngagementContacts);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue($highEngagementContacts->contains($highEngagementContact));
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue($mediumEngagementContacts->contains($mediumEngagementContact));
     }
 
@@ -533,23 +3070,17 @@ class ContactManagementBusinessLogicTest extends TestCase
     public function it_can_get_contacts_with_related_data(): void
     {
         // Arrange
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $contact = Contact/** @phpstan-ignore-line */ ::factory()->create();
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $group = ContactGroup/** @phpstan-ignore-line */ ::factory()->create();
+        $contact = Contact::factory()->create();
+        $group = ContactGroup::factory()->create();
 
-        /** @phpstan-ignore-next-line method.nonObject */
         $contact->update(['group_id' => $group->id]);
 
         // Act
         $contactWithGroup = Contact::with('group')->find($contact->id);
 
         // Assert
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNotNull($contactWithGroup);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue($contactWithGroup->relationLoaded('group'));
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($group->id, $contactWithGroup->group->id);
     }
 
@@ -557,8 +3088,7 @@ class ContactManagementBusinessLogicTest extends TestCase
     public function it_can_manage_contact_import_export(): void
     {
         // Arrange
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $contact = Contact/** @phpstan-ignore-line */ ::factory()->create();
+        $contact = Contact::factory()->create();
         $importData = [
             'import_source' => 'csv_upload',
             'import_date' => now()->subDays(10),
@@ -575,26 +3105,19 @@ class ContactManagementBusinessLogicTest extends TestCase
         ];
 
         // Act
-        /** @phpstan-ignore-next-line method.nonObject */
         $contact->update($importData);
 
         // Assert
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('contacts', [
             'id' => $contact->id,
             'import_source' => 'csv_upload',
             'import_batch_id' => 'batch_001',
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('csv_upload', $contact->fresh()->import_source);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('batch_001', $contact->fresh()->import_batch_id);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('Importazione da sistema legacy', $contact->fresh()->import_notes);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $contact->fresh()->export_history);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('csv', $contact->fresh()->export_history[0]['export_format']);
     }
 
@@ -602,8 +3125,7 @@ class ContactManagementBusinessLogicTest extends TestCase
     public function it_can_manage_contact_activity_tracking(): void
     {
         // Arrange
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $contact = Contact/** @phpstan-ignore-line */ ::factory()->create();
+        $contact = Contact::factory()->create();
         $activityData = [
             'last_activity' => now()->subHours(2),
             'activity_count' => 25,
@@ -615,11 +3137,9 @@ class ContactManagementBusinessLogicTest extends TestCase
         ];
 
         // Act
-        /** @phpstan-ignore-next-line method.nonObject */
         $contact->update($activityData);
 
         // Assert
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('contacts', [
             'id' => $contact->id,
             'activity_count' => 25,
@@ -628,19 +3148,12 @@ class ContactManagementBusinessLogicTest extends TestCase
             'conversion_rate' => 8.2,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals(25, $contact->fresh()->activity_count);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(3, $contact->fresh()->activity_types);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertContains('email_open', $contact->fresh()->activity_types);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertContains('/dashboard', $contact->fresh()->favorite_pages);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals(1800, $contact->fresh()->session_duration);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals(15.5, $contact->fresh()->bounce_rate);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals(8.2, $contact->fresh()->conversion_rate);
     }
 }

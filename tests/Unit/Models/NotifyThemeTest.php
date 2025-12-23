@@ -4,11 +4,656 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Models;
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 9cdf6146 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 6d08c01b (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 3b4c9907 (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> 8e5817bc (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> a9bf0423 (rebase 210)
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> b4f93b3a (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 77edd94a (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> f81a620f (.)
+=======
+>>>>>>> 3ee54c5d (.)
+=======
+use function Safe\json_encode;
+
+>>>>>>> 7d765981 (.)
+=======
+>>>>>>> 2fc60436 (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\NotifyTheme;
 use Tests\TestCase;
-
-use function Safe\json_encode;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 9cdf6146 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 6d08c01b (.)
+=======
+>>>>>>> 3b4c9907 (.)
+=======
+>>>>>>> 8e5817bc (.)
+=======
+>>>>>>> a9bf0423 (rebase 210)
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+=======
+>>>>>>> b4f93b3a (rebase 210)
+=======
+>>>>>>> 77edd94a (.)
+=======
+>>>>>>> f81a620f (.)
+=======
+>>>>>>> 2fc60436 (.)
+use Tests\TestCase;
+use Modules\Notify\Models\NotifyTheme;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+=======
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> e0d9c9be (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 460b8f5b (rebase 210)
+=======
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 1375c94d (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> eea68ec9 (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> 06e3078e (.)
+=======
+>>>>>>> 3ee54c5d (.)
+=======
+>>>>>>> ce89c8bb (.)
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+=======
+use Tests\TestCase;
+use Modules\Notify\Models\NotifyTheme;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> e0d9c9be (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 460b8f5b (rebase 210)
+=======
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 1375c94d (rebase 210)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> eea68ec9 (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> 06e3078e (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 3ee54c5d (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> 3ee54c5d (.)
+>>>>>>> b93ef594b4 (.)
+=======
+use Tests\TestCase;
+use Modules\Notify\Models\NotifyTheme;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+>>>>>>> 3f537838 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 9cdf6146 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 80f054e0 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+>>>>>>> 7c39b1fe (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 6d08c01b (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+>>>>>>> c6c33175 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+>>>>>>> 4e4a7796 (.)
+=======
+>>>>>>> 3b4c9907 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 5fe4f466 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+>>>>>>> 503981fd (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+>>>>>>> 9d84f153 (.)
+=======
+>>>>>>> 8e5817bc (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+>>>>>>> 7a2f131f (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+>>>>>>> 116df547 (.)
+=======
+>>>>>>> a9bf0423 (rebase 210)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+>>>>>>> 4d253d2c (rebase 210)
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+>>>>>>> efb0f8d9 (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+>>>>>>> 7ffa94fc (rebase 210)
+=======
+>>>>>>> b4f93b3a (rebase 210)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1375c94d (rebase 210)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+>>>>>>> 52cd5f85 (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+>>>>>>> 82e5ee2d (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 77edd94a (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> eea68ec9 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+>>>>>>> 59916c8f (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+>>>>>>> cb5f23b0 (.)
+=======
+>>>>>>> f81a620f (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 06e3078e (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+>>>>>>> 70e8274e (.)
+=======
+>>>>>>> 3ee54c5d (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+>>>>>>> 4b544042 (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+>>>>>>> 58816034 (.)
 
 class NotifyThemeTest extends TestCase
 {
@@ -17,7 +662,6 @@ class NotifyThemeTest extends TestCase
     protected function setUp(): void
     {
         parent::setUp();
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->withoutExceptionHandling();
     }
 
@@ -45,7 +689,6 @@ class NotifyThemeTest extends TestCase
             ],
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('notify_themes', [
             'id' => $theme->id,
             'lang' => 'it',
@@ -68,14 +711,17 @@ class NotifyThemeTest extends TestCase
             ]),
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertInstanceOf(NotifyTheme::class, $theme);
     }
 
     /** @test */
     public function it_has_correct_fillable_fields(): void
     {
+<<<<<<< HEAD
         $theme = new NotifyTheme;
+=======
+        $theme = new NotifyTheme();
+>>>>>>> 75179b8 (.)
 
         $expectedFillable = [
             'id',
@@ -95,14 +741,17 @@ class NotifyThemeTest extends TestCase
             'view_params',
         ];
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($expectedFillable, $theme->getFillable());
     }
 
     /** @test */
     public function it_has_correct_casts(): void
     {
+<<<<<<< HEAD
         $theme = new NotifyTheme;
+=======
+        $theme = new NotifyTheme();
+>>>>>>> 75179b8 (.)
 
         $expectedCasts = [
             'id' => 'string',
@@ -116,18 +765,20 @@ class NotifyThemeTest extends TestCase
             'view_params' => 'array',
         ];
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($expectedCasts, $theme->casts());
     }
 
     /** @test */
     public function it_has_logo_appended_attribute(): void
     {
+<<<<<<< HEAD
         $theme = new NotifyTheme;
+=======
+        $theme = new NotifyTheme();
+>>>>>>> 75179b8 (.)
 
         $expectedAppends = ['logo'];
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($expectedAppends, $theme->getAppends());
     }
 
@@ -156,21 +807,15 @@ class NotifyThemeTest extends TestCase
             'view_params' => $viewParams,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('notify_themes', [
             'id' => $theme->id,
             'view_params' => json_encode($viewParams),
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($theme->view_params);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('Test Company', $theme->view_params['company_name']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('#ef4444', $theme->view_params['primary_color']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('Inter', $theme->view_params['fonts']['primary']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('1200px', $theme->view_params['layout']['max_width']);
     }
 
@@ -187,17 +832,11 @@ class NotifyThemeTest extends TestCase
 
         $logo = $theme->logo;
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($logo);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertArrayHasKey('path', $logo);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertArrayHasKey('width', $logo);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertArrayHasKey('height', $logo);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(300, $logo['width']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(120, $logo['height']);
     }
 
@@ -212,9 +851,7 @@ class NotifyThemeTest extends TestCase
 
         $logo = $theme->logo;
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(50, $logo['width']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(50, $logo['height']);
     }
 
@@ -229,7 +866,6 @@ class NotifyThemeTest extends TestCase
             'view_params' => ['original' => true],
         ]);
 
-        /** @phpstan-ignore-next-line method.nonObject */
         $theme->update([
             'subject' => 'Updated Subject',
             'body' => 'Updated body text',
@@ -237,7 +873,6 @@ class NotifyThemeTest extends TestCase
             'view_params' => ['updated' => true, 'version' => '2.0'],
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('notify_themes', [
             'id' => $theme->id,
             'subject' => 'Updated Subject',
@@ -246,13 +881,9 @@ class NotifyThemeTest extends TestCase
             'view_params' => json_encode(['updated' => true, 'version' => '2.0']),
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('Updated Subject', $theme->fresh()->subject);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('Updated body text', $theme->fresh()->body);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('updated', $theme->fresh()->theme);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals(['updated' => true, 'version' => '2.0'], $theme->fresh()->view_params);
     }
 
@@ -281,17 +912,11 @@ class NotifyThemeTest extends TestCase
         $englishThemes = NotifyTheme::where('lang', 'en')->get();
         $germanThemes = NotifyTheme::where('lang', 'de')->get();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $italianThemes);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $englishThemes);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $germanThemes);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('it', $italianThemes[0]->lang);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('en', $englishThemes[0]->lang);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('de', $germanThemes[0]->lang);
     }
 
@@ -320,17 +945,11 @@ class NotifyThemeTest extends TestCase
         $smsThemes = NotifyTheme::where('type', 'sms')->get();
         $pushThemes = NotifyTheme::where('type', 'push')->get();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $emailThemes);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $smsThemes);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $pushThemes);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('email', $emailThemes[0]->type);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('sms', $smsThemes[0]->type);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('push', $pushThemes[0]->type);
     }
 
@@ -359,17 +978,11 @@ class NotifyThemeTest extends TestCase
         $darkThemes = NotifyTheme::where('theme', 'dark')->get();
         $customThemes = NotifyTheme::where('theme', 'custom')->get();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $defaultThemes);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $darkThemes);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $customThemes);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('default', $defaultThemes[0]->theme);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('dark', $darkThemes[0]->theme);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('custom', $customThemes[0]->theme);
     }
 
@@ -401,17 +1014,11 @@ class NotifyThemeTest extends TestCase
         $companyThemes = NotifyTheme::where('post_type', 'App\Models\Company')->get();
         $orderThemes = NotifyTheme::where('post_type', 'App\Models\Order')->get();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $userThemes);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $companyThemes);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $orderThemes);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('App\Models\User', $userThemes[0]->post_type);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('App\Models\Company', $companyThemes[0]->post_type);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('App\Models\Order', $orderThemes[0]->post_type);
     }
 
@@ -439,15 +1046,10 @@ class NotifyThemeTest extends TestCase
         $welcomeThemes = NotifyTheme::where('subject', 'like', '%Welcome%')->get();
         $orderThemes = NotifyTheme::where('subject', 'like', '%Order%')->get();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(2, $welcomeThemes);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $orderThemes);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertStringContainsString('Welcome', $welcomeThemes[0]->subject);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertStringContainsString('Welcome', $welcomeThemes[1]->subject);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertStringContainsString('Order', $orderThemes[0]->subject);
     }
 
@@ -479,17 +1081,11 @@ class NotifyThemeTest extends TestCase
         $marketingThemes = NotifyTheme::where('from_email', 'marketing@example.com')->get();
         $supportThemes = NotifyTheme::where('from_email', 'support@example.com')->get();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $systemThemes);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $marketingThemes);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $supportThemes);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('system@example.com', $systemThemes[0]->from_email);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('marketing@example.com', $marketingThemes[0]->from_email);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('support@example.com', $supportThemes[0]->from_email);
     }
 
@@ -526,13 +1122,9 @@ class NotifyThemeTest extends TestCase
         $highPriorityThemes = NotifyTheme::whereJsonPath('view_params.priority', 'high')->get();
         $securityThemes = NotifyTheme::whereJsonPath('view_params.category', 'security')->get();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $highPriorityThemes);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $securityThemes);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('high', $highPriorityThemes[0]->view_params['priority']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('security', $securityThemes[0]->view_params['category']);
     }
 
@@ -577,15 +1169,10 @@ class NotifyThemeTest extends TestCase
             ->whereJsonPath('view_params.priority', 'high')
             ->get();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $italianEmailHighPriority);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('it', $italianEmailHighPriority[0]->lang);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('email', $italianEmailHighPriority[0]->type);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('high', $italianEmailHighPriority[0]->view_params['priority']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('Italian High Priority Security', $italianEmailHighPriority[0]->subject);
     }
 
@@ -609,29 +1196,17 @@ class NotifyThemeTest extends TestCase
             'view_params' => null,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($theme->lang);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($theme->body);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($theme->body_html);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($theme->from);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($theme->from_email);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($theme->post_type);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($theme->post_id);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($theme->theme);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($theme->logo_src);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($theme->logo_width);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($theme->logo_height);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($theme->view_params);
     }
 
@@ -644,15 +1219,12 @@ class NotifyThemeTest extends TestCase
             'view_params' => [],
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('notify_themes', [
             'id' => $theme->id,
             'view_params' => json_encode([]),
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($theme->view_params);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEmpty($theme->view_params);
     }
 
@@ -715,23 +1287,487 @@ class NotifyThemeTest extends TestCase
             'view_params' => $complexParams,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('notify_themes', [
             'id' => $theme->id,
             'view_params' => json_encode($complexParams),
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('/images/logo.png', $theme->view_params['branding']['logo']['url']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('#3b82f6', $theme->view_params['branding']['colors']['primary']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('Inter', $theme->view_params['branding']['fonts']['heading']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('1200px', $theme->view_params['layout']['container']['max_width']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue($theme->view_params['features']['dark_mode']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertFalse($theme->view_params['features']['animations']);
     }
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 06e3078e (.)
+=======
+>>>>>>> eea68ec9 (.)
+=======
+>>>>>>> 1375c94d (rebase 210)
+=======
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> 460b8f5b (rebase 210)
+=======
+>>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> 3ee54c5d (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/develop
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+=======
+>>>>>>> 9cdf6146 (.)
+=======
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+=======
+>>>>>>> 6d08c01b (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+=======
+>>>>>>> 3b4c9907 (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+=======
+>>>>>>> 8e5817bc (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+=======
+>>>>>>> a9bf0423 (rebase 210)
+=======
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+=======
+>>>>>>> b4f93b3a (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+=======
+>>>>>>> 77edd94a (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+=======
+>>>>>>> f81a620f (.)
+=======
+>>>>>>> 3ee54c5d (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
+
+
+
+
+
+
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> 3ee54c5d (.)
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9cdf6146 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 7c39b1fe (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 6d08c01b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> c6c33175 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 4e4a7796 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3b4c9907 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> 503981fd (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> 9d84f153 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 8e5817bc (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 7a2f131f (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 116df547 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> a9bf0423 (rebase 210)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
+=======
+>>>>>>> 4d253d2c (rebase 210)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9fe1b60e (rebase 210)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> efb0f8d9 (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 7ffa94fc (rebase 210)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> b4f93b3a (rebase 210)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1375c94d (rebase 210)
+=======
+>>>>>>> 52cd5f85 (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 82e5ee2d (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 77edd94a (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> eea68ec9 (.)
+=======
+>>>>>>> 59916c8f (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> cb5f23b0 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> f81a620f (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 06e3078e (.)
+=======
+>>>>>>> 70e8274e (.)
+=======
+>>>>>>> 3ee54c5d (.)
+=======
+>>>>>>> 4b544042 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)

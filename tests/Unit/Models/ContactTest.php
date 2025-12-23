@@ -4,9 +4,792 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Models;
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> e7a9a2bf (.)
+=======
+>>>>>>> 7325acf3 (.)
+=======
+>>>>>>> 9cdf6146 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 6d08c01b (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 3b4c9907 (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> 8e5817bc (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 51182e3c (rebase 210)
+=======
+>>>>>>> 229a065a (rebase 210)
+=======
+>>>>>>> a9bf0423 (rebase 210)
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> b4f93b3a (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> c5c038f2 (rebase 210)
+=======
+>>>>>>> 22baa66d (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 77edd94a (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> f81a620f (.)
+=======
+>>>>>>> 3ee54c5d (.)
+=======
+>>>>>>> 2fc60436 (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\Contact;
 use Tests\TestCase;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> e7a9a2bf (.)
+=======
+>>>>>>> 9cdf6146 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 6d08c01b (.)
+=======
+>>>>>>> 3b4c9907 (.)
+=======
+>>>>>>> 8e5817bc (.)
+=======
+>>>>>>> 51182e3c (rebase 210)
+=======
+>>>>>>> a9bf0423 (rebase 210)
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+=======
+>>>>>>> b4f93b3a (rebase 210)
+=======
+>>>>>>> c5c038f2 (rebase 210)
+=======
+>>>>>>> 77edd94a (.)
+=======
+>>>>>>> f81a620f (.)
+=======
+>>>>>>> 2fc60436 (.)
+use Tests\TestCase;
+use Modules\Notify\Models\Contact;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+=======
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 9d67cabd (.)
+=======
+>>>>>>> 7325acf3 (.)
+=======
+>>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> e0d9c9be (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> cb85c538 (rebase 210)
+=======
+>>>>>>> 229a065a (rebase 210)
+=======
+>>>>>>> 460b8f5b (rebase 210)
+=======
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 1375c94d (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 030c9674 (rebase 210)
+=======
+>>>>>>> 22baa66d (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> eea68ec9 (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> 06e3078e (.)
+=======
+>>>>>>> 3ee54c5d (.)
+=======
+>>>>>>> ce89c8bb (.)
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Tests\TestCase;
+=======
+use Tests\TestCase;
+use Modules\Notify\Models\Contact;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 9d67cabd (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 7325acf3 (.)
+=======
+>>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> e0d9c9be (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> cb85c538 (rebase 210)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 229a065a (rebase 210)
+=======
+>>>>>>> 460b8f5b (rebase 210)
+=======
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 1375c94d (rebase 210)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 030c9674 (rebase 210)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 22baa66d (rebase 210)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> eea68ec9 (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> 06e3078e (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 3ee54c5d (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Tests\TestCase;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Tests\TestCase;
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 7325acf3 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 229a065a (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 22baa66d (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> 3ee54c5d (.)
+>>>>>>> b93ef594b4 (.)
+=======
+use Tests\TestCase;
+use Modules\Notify\Models\Contact;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Tests\TestCase;
+>>>>>>> 3f537838 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Tests\TestCase;
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Tests\TestCase;
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Tests\TestCase;
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Tests\TestCase;
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Tests\TestCase;
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> e7a9a2bf (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 9d67cabd (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Tests\TestCase;
+>>>>>>> ba564870 (.)
+=======
+>>>>>>> 7325acf3 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Tests\TestCase;
+>>>>>>> 4c323e61 (.)
+=======
+>>>>>>> 9cdf6146 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 80f054e0 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Tests\TestCase;
+>>>>>>> 7c39b1fe (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Tests\TestCase;
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Tests\TestCase;
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 6d08c01b (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Tests\TestCase;
+>>>>>>> c6c33175 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Tests\TestCase;
+>>>>>>> 4e4a7796 (.)
+=======
+>>>>>>> 3b4c9907 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 5fe4f466 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Tests\TestCase;
+>>>>>>> 503981fd (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Tests\TestCase;
+>>>>>>> 9d84f153 (.)
+=======
+>>>>>>> 8e5817bc (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Tests\TestCase;
+>>>>>>> 7a2f131f (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Tests\TestCase;
+>>>>>>> 116df547 (.)
+=======
+>>>>>>> 51182e3c (rebase 210)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cb85c538 (rebase 210)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Tests\TestCase;
+>>>>>>> 1c0eb9c7 (rebase 210)
+=======
+>>>>>>> 229a065a (rebase 210)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Tests\TestCase;
+>>>>>>> 84082535 (rebase 210)
+=======
+>>>>>>> a9bf0423 (rebase 210)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Tests\TestCase;
+>>>>>>> 4d253d2c (rebase 210)
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Tests\TestCase;
+>>>>>>> efb0f8d9 (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Tests\TestCase;
+>>>>>>> 7ffa94fc (rebase 210)
+=======
+>>>>>>> b4f93b3a (rebase 210)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1375c94d (rebase 210)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Tests\TestCase;
+>>>>>>> 52cd5f85 (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Tests\TestCase;
+>>>>>>> 82e5ee2d (rebase 210)
+=======
+>>>>>>> c5c038f2 (rebase 210)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 030c9674 (rebase 210)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Tests\TestCase;
+>>>>>>> bb00ab64 (rebase 210)
+=======
+>>>>>>> 22baa66d (rebase 210)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Tests\TestCase;
+>>>>>>> 5b50927d (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Tests\TestCase;
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 77edd94a (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> eea68ec9 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Tests\TestCase;
+>>>>>>> 59916c8f (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Tests\TestCase;
+>>>>>>> cb5f23b0 (.)
+=======
+>>>>>>> f81a620f (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 06e3078e (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Tests\TestCase;
+>>>>>>> 70e8274e (.)
+=======
+>>>>>>> 3ee54c5d (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Tests\TestCase;
+>>>>>>> 4b544042 (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Tests\TestCase;
+>>>>>>> 58816034 (.)
 
 class ContactTest extends TestCase
 {
@@ -15,7 +798,6 @@ class ContactTest extends TestCase
     protected function setUp(): void
     {
         parent::setUp();
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->withoutExceptionHandling();
     }
 
@@ -51,7 +833,6 @@ class ContactTest extends TestCase
             'order_column' => 1,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('contacts', [
             'id' => $contact->id,
             'model_type' => 'App\Models\User',
@@ -76,14 +857,17 @@ class ContactTest extends TestCase
             'order_column' => 1,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertInstanceOf(Contact::class, $contact);
     }
 
     /** @test */
     public function it_has_correct_fillable_fields(): void
     {
+<<<<<<< HEAD
         $contact = new Contact;
+=======
+        $contact = new Contact();
+>>>>>>> 75179b8 (.)
 
         $expectedFillable = [
             'model_id',
@@ -99,14 +883,17 @@ class ContactTest extends TestCase
             'token',
         ];
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($expectedFillable, $contact->getFillable());
     }
 
     /** @test */
     public function it_has_correct_casts(): void
     {
+<<<<<<< HEAD
         $contact = new Contact;
+=======
+        $contact = new Contact();
+>>>>>>> 75179b8 (.)
 
         $expectedCasts = [
             'id' => 'string',
@@ -121,7 +908,6 @@ class ContactTest extends TestCase
             'user_id' => 'string',
         ];
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($expectedCasts, $contact->casts());
     }
 
@@ -135,7 +921,6 @@ class ContactTest extends TestCase
             'value' => '+393331234567',
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('contacts', [
             'id' => $contact->id,
             'model_type' => 'App\Models\User',
@@ -144,7 +929,6 @@ class ContactTest extends TestCase
             'value' => '+393331234567',
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertInstanceOf(Contact::class, $contact);
     }
 
@@ -189,7 +973,6 @@ class ContactTest extends TestCase
             'order_column' => 2,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('contacts', [
             'id' => $contact->id,
             'model_type' => 'App\Models\Company',
@@ -237,7 +1020,6 @@ class ContactTest extends TestCase
             'mobile_phone' => '+393330000000',
         ]);
 
-        /** @phpstan-ignore-next-line method.nonObject */
         $contact->update([
             'value' => 'new@example.com',
             'first_name' => 'New Name',
@@ -248,7 +1030,6 @@ class ContactTest extends TestCase
             'token' => 'new-token-123',
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('contacts', [
             'id' => $contact->id,
             'value' => 'new@example.com',
@@ -258,9 +1039,7 @@ class ContactTest extends TestCase
             'mobile_phone' => '+393331111111',
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNotNull($contact->fresh()->verified_at);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('new-token-123', $contact->fresh()->token);
     }
 
@@ -274,15 +1053,543 @@ class ContactTest extends TestCase
             'value' => 'test@example.com',
         ]);
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> e7a9a2bf (.)
+=======
+>>>>>>> 9d67cabd (.)
+=======
+>>>>>>> 9cdf6146 (.)
+=======
+>>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 6d08c01b (.)
+=======
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> 3b4c9907 (.)
+=======
+>>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> 8e5817bc (.)
+=======
+>>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 51182e3c (rebase 210)
+=======
+>>>>>>> cb85c538 (rebase 210)
+=======
+>>>>>>> a9bf0423 (rebase 210)
+=======
+>>>>>>> 460b8f5b (rebase 210)
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+=======
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> b4f93b3a (rebase 210)
+=======
+>>>>>>> 1375c94d (rebase 210)
+=======
+>>>>>>> c5c038f2 (rebase 210)
+=======
+>>>>>>> 030c9674 (rebase 210)
+=======
+>>>>>>> 77edd94a (.)
+=======
+>>>>>>> eea68ec9 (.)
+=======
+>>>>>>> f81a620f (.)
+=======
+>>>>>>> 06e3078e (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
         $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')
+            ->where('model_id', '123')
+            ->first();
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> 9777d1b3 (.)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+=======
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+=======
+>>>>>>> d09cb759 (.)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+=======
+>>>>>>> 4689a827 (.)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+=======
+>>>>>>> 7325acf3 (.)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+=======
+>>>>>>> f2e64178 (.)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+=======
+>>>>>>> c4bdacbf (.)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+=======
+>>>>>>> dceba960 (.)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+=======
+>>>>>>> bd804d67 (.)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+=======
+>>>>>>> 229a065a (rebase 210)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+=======
+>>>>>>> 22baa66d (rebase 210)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+=======
+>>>>>>> 2effe245 (.)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+=======
+>>>>>>> e790eb33 (.)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+=======
+>>>>>>> 3ee54c5d (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')
+            ->where('model_id', '123')
+            ->first();
+>>>>>>> a12f125f4a (.)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> b93ef594b4 (.)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')
+            ->where('model_id', '123')
+            ->first();
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> 3f537838 (.)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> e7a9a2bf (.)
+=======
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 9d67cabd (.)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> ba564870 (.)
+=======
+>>>>>>> 7325acf3 (.)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> 4c323e61 (.)
+=======
+>>>>>>> 9cdf6146 (.)
+=======
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 80f054e0 (.)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> 7c39b1fe (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 6d08c01b (.)
+=======
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> c6c33175 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> 4e4a7796 (.)
+=======
+>>>>>>> 3b4c9907 (.)
+=======
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 5fe4f466 (.)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> 503981fd (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> 9d84f153 (.)
+=======
+>>>>>>> 8e5817bc (.)
+=======
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> 7a2f131f (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> 116df547 (.)
+=======
+>>>>>>> 51182e3c (rebase 210)
+=======
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cb85c538 (rebase 210)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> 1c0eb9c7 (rebase 210)
+=======
+>>>>>>> 229a065a (rebase 210)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> 84082535 (rebase 210)
+=======
+>>>>>>> a9bf0423 (rebase 210)
+=======
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> 4d253d2c (rebase 210)
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+=======
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> efb0f8d9 (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> 7ffa94fc (rebase 210)
+=======
+>>>>>>> b4f93b3a (rebase 210)
+=======
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1375c94d (rebase 210)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> 52cd5f85 (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> 82e5ee2d (rebase 210)
+=======
+>>>>>>> c5c038f2 (rebase 210)
+=======
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 030c9674 (rebase 210)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> bb00ab64 (rebase 210)
+=======
+>>>>>>> 22baa66d (rebase 210)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> 5b50927d (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 77edd94a (.)
+=======
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> 4e2ebfb (.)
+>>>>>>> eea68ec9 (.)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> 59916c8f (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> cb5f23b0 (.)
+=======
+>>>>>>> f81a620f (.)
+=======
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 06e3078e (.)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> 70e8274e (.)
+=======
+>>>>>>> 3ee54c5d (.)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> 4b544042 (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> 58816034 (.)
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNotNull($foundContact);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($contact->id, $foundContact->id);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('App\Models\User', $foundContact->model_type);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('123', $foundContact->model_id);
     }
 
@@ -313,13 +1620,9 @@ class ContactTest extends TestCase
         $emailContacts = Contact::where('contact_type', 'email')->get();
         $phoneContacts = Contact::where('contact_type', 'phone')->get();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(2, $emailContacts);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $phoneContacts);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('email', $emailContacts[0]->contact_type);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('phone', $phoneContacts[0]->contact_type);
     }
 
@@ -353,15 +1656,10 @@ class ContactTest extends TestCase
         $user456Contacts = Contact::where('user_id', '456')->get();
         $user789Contacts = Contact::where('user_id', '789')->get();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(2, $user456Contacts);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $user789Contacts);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('456', $user456Contacts[0]->user_id);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('456', $user456Contacts[1]->user_id);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('789', $user789Contacts[0]->user_id);
     }
 
@@ -378,11 +1676,8 @@ class ContactTest extends TestCase
 
         $foundContact = Contact::where('email', 'test@example.com')->first();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNotNull($foundContact);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($contact->id, $foundContact->id);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('test@example.com', $foundContact->email);
     }
 
@@ -399,11 +1694,8 @@ class ContactTest extends TestCase
 
         $foundContact = Contact::where('mobile_phone', '+393331234567')->first();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNotNull($foundContact);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($contact->id, $foundContact->id);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('+393331234567', $foundContact->mobile_phone);
     }
 
@@ -441,15 +1733,10 @@ class ContactTest extends TestCase
         $doeContacts = Contact::where('last_name', 'like', '%Doe%')->get();
         $jContacts = Contact::where('first_name', 'like', 'J%')->get();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $johnContacts);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $doeContacts);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(2, $jContacts); // John and Jane
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('John', $johnContacts[0]->first_name);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('Doe', $doeContacts[0]->last_name);
     }
 
@@ -466,11 +1753,8 @@ class ContactTest extends TestCase
 
         $foundContact = Contact::where('token', 'unique-token-123')->first();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNotNull($foundContact);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($contact->id, $foundContact->id);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('unique-token-123', $foundContact->token);
     }
 
@@ -496,13 +1780,9 @@ class ContactTest extends TestCase
         $verifiedContacts = Contact::whereNotNull('verified_at')->get();
         $unverifiedContacts = Contact::whereNull('verified_at')->get();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $verifiedContacts);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $unverifiedContacts);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertNotNull($verifiedContacts[0]->verified_at);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertNull($unverifiedContacts[0]->verified_at);
     }
 
@@ -530,17 +1810,11 @@ class ContactTest extends TestCase
         $deliveredSms = Contact::where('sms_status_code', '200')->get();
         $failedSms = Contact::where('sms_status_code', '400')->get();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $deliveredSms);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $failedSms);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('200', $deliveredSms[0]->sms_status_code);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('400', $failedSms[0]->sms_status_code);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('Delivered', $deliveredSms[0]->sms_status_txt);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('Failed', $failedSms[0]->sms_status_txt);
     }
 
@@ -568,13 +1842,9 @@ class ContactTest extends TestCase
         $lowSmsContacts = Contact::where('sms_count', '<=', 5)->get();
         $highMailContacts = Contact::where('mail_count', '>=', 20)->get();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $lowSmsContacts);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $highMailContacts);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(1, $lowSmsContacts[0]->sms_count);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(25, $highMailContacts[0]->mail_count);
     }
 
@@ -604,15 +1874,10 @@ class ContactTest extends TestCase
         $managers = Contact::where('attribute_2', 'Manager')->get();
         $itDepartment = Contact::where('attribute_3', 'IT Department')->get();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $managers);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(2, $itDepartment);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('Manager', $managers[0]->attribute_2);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('IT Department', $itDepartment[0]->attribute_3);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('IT Department', $itDepartment[1]->attribute_3);
     }
 
@@ -644,13 +1909,9 @@ class ContactTest extends TestCase
             ->where('sms_count', '>=', 3)
             ->get();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $verifiedManagers);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('verified@example.com', $verifiedManagers[0]->value);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('Manager', $verifiedManagers[0]->attribute_1);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(5, $verifiedManagers[0]->sms_count);
     }
 
@@ -670,17 +1931,11 @@ class ContactTest extends TestCase
             'token' => null,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($contact->first_name);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($contact->last_name);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($contact->email);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($contact->mobile_phone);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($contact->verified_at);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($contact->token);
     }
 
@@ -713,19 +1968,585 @@ class ContactTest extends TestCase
 
         $orderedContacts = Contact::orderBy('order_column')->get();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(3, $orderedContacts);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('first@example.com', $orderedContacts[0]->value);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('second@example.com', $orderedContacts[1]->value);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('third@example.com', $orderedContacts[2]->value);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(1, $orderedContacts[0]->order_column);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(2, $orderedContacts[1]->order_column);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(3, $orderedContacts[2]->order_column);
     }
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 06e3078e (.)
+=======
+>>>>>>> eea68ec9 (.)
+=======
+>>>>>>> 030c9674 (rebase 210)
+=======
+>>>>>>> 1375c94d (rebase 210)
+=======
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> 460b8f5b (rebase 210)
+=======
+>>>>>>> cb85c538 (rebase 210)
+=======
+>>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 9d67cabd (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 7325acf3 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 229a065a (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 22baa66d (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> 3ee54c5d (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/develop
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+=======
+>>>>>>> e7a9a2bf (.)
+=======
+>>>>>>> 7325acf3 (.)
+=======
+=======
+>>>>>>> 9cdf6146 (.)
+=======
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+=======
+>>>>>>> 6d08c01b (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+=======
+>>>>>>> 3b4c9907 (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+=======
+>>>>>>> 8e5817bc (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+=======
+>>>>>>> 51182e3c (rebase 210)
+=======
+>>>>>>> 229a065a (rebase 210)
+=======
+=======
+>>>>>>> a9bf0423 (rebase 210)
+=======
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+=======
+>>>>>>> b4f93b3a (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+=======
+>>>>>>> c5c038f2 (rebase 210)
+=======
+>>>>>>> 22baa66d (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+=======
+>>>>>>> 77edd94a (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+=======
+>>>>>>> f81a620f (.)
+=======
+>>>>>>> 3ee54c5d (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
+
+
+
+
+
+
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 7325acf3 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 229a065a (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 22baa66d (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> 3ee54c5d (.)
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> e7a9a2bf (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 9d67cabd (.)
+=======
+>>>>>>> ba564870 (.)
+=======
+>>>>>>> 7325acf3 (.)
+=======
+>>>>>>> 4c323e61 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9cdf6146 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 7c39b1fe (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 6d08c01b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> c6c33175 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 4e4a7796 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3b4c9907 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> 503981fd (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> 9d84f153 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 8e5817bc (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 7a2f131f (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 116df547 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 51182e3c (rebase 210)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cb85c538 (rebase 210)
+=======
+>>>>>>> 1c0eb9c7 (rebase 210)
+=======
+>>>>>>> 229a065a (rebase 210)
+=======
+>>>>>>> 84082535 (rebase 210)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> a9bf0423 (rebase 210)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
+=======
+>>>>>>> 4d253d2c (rebase 210)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9fe1b60e (rebase 210)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> efb0f8d9 (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 7ffa94fc (rebase 210)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> b4f93b3a (rebase 210)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1375c94d (rebase 210)
+=======
+>>>>>>> 52cd5f85 (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 82e5ee2d (rebase 210)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> c5c038f2 (rebase 210)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 030c9674 (rebase 210)
+=======
+>>>>>>> bb00ab64 (rebase 210)
+=======
+>>>>>>> 22baa66d (rebase 210)
+=======
+>>>>>>> 5b50927d (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 77edd94a (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> eea68ec9 (.)
+=======
+>>>>>>> 59916c8f (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> cb5f23b0 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> f81a620f (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 06e3078e (.)
+=======
+>>>>>>> 70e8274e (.)
+=======
+>>>>>>> 3ee54c5d (.)
+=======
+>>>>>>> 4b544042 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)

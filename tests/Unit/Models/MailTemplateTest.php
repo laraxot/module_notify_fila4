@@ -4,11 +4,656 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Models;
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 9cdf6146 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 6d08c01b (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 3b4c9907 (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> 8e5817bc (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> a9bf0423 (rebase 210)
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> b4f93b3a (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 77edd94a (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> f81a620f (.)
+=======
+>>>>>>> 3ee54c5d (.)
+=======
+use function Safe\json_encode;
+
+>>>>>>> 7d765981 (.)
+=======
+>>>>>>> 2fc60436 (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\MailTemplate;
 use Tests\TestCase;
-
-use function Safe\json_encode;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 9cdf6146 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 6d08c01b (.)
+=======
+>>>>>>> 3b4c9907 (.)
+=======
+>>>>>>> 8e5817bc (.)
+=======
+>>>>>>> a9bf0423 (rebase 210)
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+=======
+>>>>>>> b4f93b3a (rebase 210)
+=======
+>>>>>>> 77edd94a (.)
+=======
+>>>>>>> f81a620f (.)
+=======
+>>>>>>> 2fc60436 (.)
+use Tests\TestCase;
+use Modules\Notify\Models\MailTemplate;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+=======
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> e0d9c9be (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 460b8f5b (rebase 210)
+=======
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 1375c94d (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> eea68ec9 (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> 06e3078e (.)
+=======
+>>>>>>> 3ee54c5d (.)
+=======
+>>>>>>> ce89c8bb (.)
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+=======
+use Tests\TestCase;
+use Modules\Notify\Models\MailTemplate;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> e0d9c9be (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 460b8f5b (rebase 210)
+=======
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 1375c94d (rebase 210)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> eea68ec9 (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> 06e3078e (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 3ee54c5d (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> 3ee54c5d (.)
+>>>>>>> b93ef594b4 (.)
+=======
+use Tests\TestCase;
+use Modules\Notify\Models\MailTemplate;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+>>>>>>> 3f537838 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 9cdf6146 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 80f054e0 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+>>>>>>> 7c39b1fe (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 6d08c01b (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+>>>>>>> c6c33175 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+>>>>>>> 4e4a7796 (.)
+=======
+>>>>>>> 3b4c9907 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 5fe4f466 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+>>>>>>> 503981fd (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+>>>>>>> 9d84f153 (.)
+=======
+>>>>>>> 8e5817bc (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+>>>>>>> 7a2f131f (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+>>>>>>> 116df547 (.)
+=======
+>>>>>>> a9bf0423 (rebase 210)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+>>>>>>> 4d253d2c (rebase 210)
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+>>>>>>> efb0f8d9 (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+>>>>>>> 7ffa94fc (rebase 210)
+=======
+>>>>>>> b4f93b3a (rebase 210)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1375c94d (rebase 210)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+>>>>>>> 52cd5f85 (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+>>>>>>> 82e5ee2d (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 77edd94a (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> eea68ec9 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+>>>>>>> 59916c8f (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+>>>>>>> cb5f23b0 (.)
+=======
+>>>>>>> f81a620f (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 06e3078e (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+>>>>>>> 70e8274e (.)
+=======
+>>>>>>> 3ee54c5d (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+>>>>>>> 4b544042 (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+>>>>>>> 58816034 (.)
 
 class MailTemplateTest extends TestCase
 {
@@ -17,7 +662,6 @@ class MailTemplateTest extends TestCase
     protected function setUp(): void
     {
         parent::setUp();
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->withoutExceptionHandling();
     }
 
@@ -38,7 +682,6 @@ class MailTemplateTest extends TestCase
             'counter' => 0,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('mail_templates', [
             'id' => $template->id,
             'mailable' => 'App\Mail\WelcomeMail',
@@ -50,14 +693,17 @@ class MailTemplateTest extends TestCase
             'counter' => 0,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertInstanceOf(MailTemplate::class, $template);
     }
 
     /** @test */
     public function it_has_correct_fillable_fields(): void
     {
+<<<<<<< HEAD
         $template = new MailTemplate;
+=======
+        $template = new MailTemplate();
+>>>>>>> 75179b8 (.)
 
         $expectedFillable = [
             'mailable',
@@ -71,14 +717,17 @@ class MailTemplateTest extends TestCase
             'counter',
         ];
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($expectedFillable, $template->getFillable());
     }
 
     /** @test */
     public function it_has_correct_casts(): void
     {
+<<<<<<< HEAD
         $template = new MailTemplate;
+=======
+        $template = new MailTemplate();
+>>>>>>> 75179b8 (.)
 
         $expectedCasts = [
             'created_at' => 'datetime',
@@ -86,14 +735,17 @@ class MailTemplateTest extends TestCase
             'deleted_at' => 'datetime',
         ];
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($expectedCasts, $template->casts());
     }
 
     /** @test */
     public function it_has_translatable_fields(): void
     {
+<<<<<<< HEAD
         $template = new MailTemplate;
+=======
+        $template = new MailTemplate();
+>>>>>>> 75179b8 (.)
 
         $expectedTranslatable = [
             'subject',
@@ -102,16 +754,18 @@ class MailTemplateTest extends TestCase
             'sms_template',
         ];
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($expectedTranslatable, $template->translatable);
     }
 
     /** @test */
     public function it_uses_notify_connection(): void
     {
+<<<<<<< HEAD
         $template = new MailTemplate;
+=======
+        $template = new MailTemplate();
+>>>>>>> 75179b8 (.)
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('notify', $template->getConnectionName());
     }
 
@@ -127,9 +781,7 @@ class MailTemplateTest extends TestCase
             'counter' => 0,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('test-email-template', $template->slug);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('mail_templates', [
             'id' => $template->id,
             'slug' => 'test-email-template',
@@ -150,23 +802,16 @@ class MailTemplateTest extends TestCase
             'counter' => 0,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('mail_templates', [
             'id' => $template->id,
             'params' => json_encode($params),
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($template->params);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(4, $template->params);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertContains('name', $template->params);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertContains('email', $template->params);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertContains('company', $template->params);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertContains('role', $template->params);
     }
 
@@ -190,21 +835,15 @@ class MailTemplateTest extends TestCase
             'counter' => 0,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('mail_templates', [
             'id' => $template->id,
             'sms_template' => json_encode($smsTemplate),
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($template->sms_template);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('Benvenuto {{name}}! La tua email è {{email}}', $template->sms_template['message']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals(['name', 'email'], $template->sms_template['variables']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals(160, $template->sms_template['max_length']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('GSM7', $template->sms_template['encoding']);
     }
 
@@ -220,17 +859,12 @@ class MailTemplateTest extends TestCase
             'counter' => 0,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals(0, $template->counter);
 
-        /** @phpstan-ignore-next-line method.nonObject */
         $template->increment('counter');
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals(1, $template->fresh()->counter);
 
-        /** @phpstan-ignore-next-line method.nonObject */
         $template->increment('counter', 5);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals(6, $template->fresh()->counter);
     }
 
@@ -246,7 +880,6 @@ class MailTemplateTest extends TestCase
             'counter' => 0,
         ]);
 
-        /** @phpstan-ignore-next-line method.nonObject */
         $template->update([
             'name' => 'Updated Name',
             'subject' => 'Updated Subject',
@@ -254,7 +887,6 @@ class MailTemplateTest extends TestCase
             'params' => ['updated'],
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('mail_templates', [
             'id' => $template->id,
             'name' => 'Updated Name',
@@ -263,7 +895,6 @@ class MailTemplateTest extends TestCase
             'params' => json_encode(['updated']),
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('updated-name', $template->fresh()->slug);
     }
 
@@ -283,13 +914,9 @@ class MailTemplateTest extends TestCase
             ->where('slug', 'find-test-template')
             ->first();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNotNull($foundTemplate);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($template->id, $foundTemplate->id);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('App\Mail\FindMail', $foundTemplate->mailable);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('find-test-template', $foundTemplate->slug);
     }
 
@@ -307,11 +934,8 @@ class MailTemplateTest extends TestCase
 
         $foundTemplate = MailTemplate::where('name', 'Name Search Template')->first();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNotNull($foundTemplate);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($template->id, $foundTemplate->id);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('Name Search Template', $foundTemplate->name);
     }
 
@@ -329,9 +953,7 @@ class MailTemplateTest extends TestCase
 
         $foundTemplates = MailTemplate::where('subject', 'like', '%Welcome%')->get();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $foundTemplates);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('Welcome to our platform', $foundTemplates[0]->subject);
     }
 
@@ -349,11 +971,8 @@ class MailTemplateTest extends TestCase
 
         $foundTemplates = MailTemplate::whereJsonContains('params', 'name')->get();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $foundTemplates);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals($template->id, $foundTemplates[0]->id);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertContains('name', $foundTemplates[0]->params);
     }
 
@@ -381,13 +1000,9 @@ class MailTemplateTest extends TestCase
         $lowCounterTemplates = MailTemplate::where('counter', '<=', 10)->get();
         $highCounterTemplates = MailTemplate::where('counter', '>=', 25)->get();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $lowCounterTemplates);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $highCounterTemplates);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(5, $lowCounterTemplates[0]->counter);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(50, $highCounterTemplates[0]->counter);
     }
 
@@ -403,9 +1018,7 @@ class MailTemplateTest extends TestCase
             'counter' => 0,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($template->params);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEmpty($template->params);
     }
 
@@ -422,9 +1035,7 @@ class MailTemplateTest extends TestCase
             'counter' => 0,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($template->sms_template);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEmpty($template->sms_template);
     }
 
@@ -458,21 +1069,15 @@ class MailTemplateTest extends TestCase
             'counter' => 0,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('mail_templates', [
             'id' => $template->id,
             'sms_template' => json_encode($complexSmsTemplate),
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('Benvenuto {{name}}!', $template->sms_template['message']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals(['name', 'email'], $template->sms_template['variables']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals(160, $template->sms_template['max_length']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue($template->sms_template['fallback']['enabled']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('high', $template->sms_template['delivery_options']['priority']);
     }
 
@@ -502,11 +1107,8 @@ class MailTemplateTest extends TestCase
             ->where('counter', '>=', 15)
             ->get();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $foundTemplates);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('Another Multi Criteria Template', $foundTemplates[0]->name);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(20, $foundTemplates[0]->counter);
     }
 
@@ -524,13 +1126,9 @@ class MailTemplateTest extends TestCase
             'counter' => 0,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($template->subject);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($template->text_template);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($template->sms_template);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($template->params);
     }
 
@@ -557,11 +1155,8 @@ class MailTemplateTest extends TestCase
 
         $templates = MailTemplate::where('name', 'Test Template')->get();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(2, $templates);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('test-template', $templates[0]->slug);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('test-template-1', $templates[1]->slug);
     }
 }

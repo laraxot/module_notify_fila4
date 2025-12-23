@@ -4,11 +4,338 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Feature;
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use RuntimeException;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+=======
+=======
+<<<<<<< HEAD
+use RuntimeException;
+>>>>>>> 2effe245 (.)
+=======
+<<<<<<< HEAD
+use RuntimeException;
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Models\MailTemplateVersion;
+=======
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
+=======
+>>>>>>> c8b1c8bf (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Models\MailTemplateVersion;
 use RuntimeException;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f813254 (.)
+=======
+>>>>>>> f5f1cb1 (.)
+=======
+>>>>>>> d45a0226 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+use RuntimeException;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Models\MailTemplateVersion;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> 75179b8 (.)
 use Tests\TestCase;
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+use Tests\TestCase;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+<<<<<<< HEAD
+use RuntimeException;
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Models\MailTemplateVersion;
+use Tests\TestCase;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+<<<<<<< HEAD
+use RuntimeException;
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Models\MailTemplateVersion;
+use Tests\TestCase;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+=======
+=======
+>>>>>>> origin/develop
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
+use Modules\Notify\Models\MailTemplateVersion;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> a12f125f4a (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Models\MailTemplateVersion;
+use Tests\TestCase;
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
 
 class MailTemplateVersionBusinessLogicTest extends TestCase
 {
@@ -17,9 +344,186 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
     /** @test */
     public function it_can_create_mail_template_version_with_basic_information(): void
     {
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $template = MailTemplate/** @phpstan-ignore-line */ ::factory()->create();
+        $template = MailTemplate::factory()->create();
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
 
+=======
+        
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+
+=======
+=======
+
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+=======
+>>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+        
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+
+>>>>>>> 3f537838 (.)
+=======
+
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+=======
+
+>>>>>>> 58816034 (.)
         $versionData = [
             'template_id' => $template->id,
             'mailable' => 'AppointmentConfirmation',
@@ -27,61 +531,80 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
             'html_template' => '<!DOCTYPE html><html><body><h1>Conferma Appuntamento</h1><p>Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}}.</p></body></html>',
             'text_template' => 'Conferma Appuntamento\n\nGentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}}.',
             'version' => '2.0',
+<<<<<<< HEAD
+<<<<<<< HEAD
+            'created_by' => 'admin@' . config('app.domain', 'example.com'),
+=======
+<<<<<<< HEAD
             'created_by' => 'admin@'.config('app.domain', 'example.com'),
+=======
+            'created_by' => 'admin@' . config('app.domain', 'example.com'),
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+            'created_by' => 'admin@'.config('app.domain', 'example.com'),
+=======
+            'created_by' => 'admin@' . config('app.domain', 'example.com'),
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
             'change_notes' => 'Aggiornamento design email e aggiunta variabile appointment_date',
         ];
 
         $version = MailTemplateVersion::create($versionData);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('mail_template_versions', [
             'id' => $version->id,
             'template_id' => $template->id,
             'mailable' => 'AppointmentConfirmation',
             'subject' => 'Conferma Appuntamento - Versione 2.0',
             'version' => '2.0',
+<<<<<<< HEAD
+<<<<<<< HEAD
+            'created_by' => 'admin@' . config('app.domain', 'example.com'),
+=======
+<<<<<<< HEAD
             'created_by' => 'admin@'.config('app.domain', 'example.com'),
+=======
+            'created_by' => 'admin@' . config('app.domain', 'example.com'),
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+            'created_by' => 'admin@'.config('app.domain', 'example.com'),
+=======
+            'created_by' => 'admin@' . config('app.domain', 'example.com'),
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
             'change_notes' => 'Aggiornamento design email e aggiunta variabile appointment_date',
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('2.0', $version->version);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('AppointmentConfirmation', $version->mailable);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertStringContainsString('{{patient_name}}', $version->html_template);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertStringContainsString('{{appointment_date}}', $version->text_template);
     }
 
     /** @test */
     public function it_can_manage_mail_template_version_relationships(): void
     {
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $template = MailTemplate/** @phpstan-ignore-line */ ::factory()->create();
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $version = MailTemplateVersion/** @phpstan-ignore-line */ ::factory()->create([
+        $template = MailTemplate::factory()->create();
+        $version = MailTemplateVersion::factory()->create([
             'template_id' => $template->id,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertInstanceOf(MailTemplate::class, $version->template);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($template->id, $version->template->id);
     }
 
     /** @test */
     public function it_can_restore_mail_template_from_version(): void
     {
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $template = MailTemplate/** @phpstan-ignore-line */ ::factory()->create([
+        $template = MailTemplate::factory()->create([
             'subject' => 'Versione Corrente',
             'html_template' => '<p>Template corrente</p>',
             'text_template' => 'Template corrente',
         ]);
 
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $version = MailTemplateVersion/** @phpstan-ignore-line */ ::factory()->create([
+        $version = MailTemplateVersion::factory()->create([
             'template_id' => $template->id,
             'subject' => 'Versione Precedente',
             'html_template' => '<p>Template versione precedente</p>',
@@ -89,7 +612,6 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
         ]);
 
         // Aggiorna il template corrente
-        /** @phpstan-ignore-next-line method.nonObject */
         $template->update([
             'subject' => 'Versione Aggiornata',
             'html_template' => '<p>Template aggiornato</p>',
@@ -97,69 +619,738 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
         ]);
 
         // Restaura dalla versione
-        /** @phpstan-ignore-next-line method.nonObject */
         $restoredTemplate = $version->restore();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('Versione Precedente', $restoredTemplate->subject);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('<p>Template versione precedente</p>', $restoredTemplate->html_template);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('Template versione precedente', $restoredTemplate->text_template);
     }
 
     /** @test */
     public function it_throws_exception_when_restoring_without_template(): void
     {
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $version = MailTemplateVersion/** @phpstan-ignore-line */ ::factory()->create([
+        $version = MailTemplateVersion::factory()->create([
             'template_id' => 99999, // Template inesistente
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->expectException(RuntimeException::class);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->expectExceptionMessage('Template non trovato per questa versione');
 
-        /** @phpstan-ignore-next-line method.nonObject */
         $version->restore();
     }
 
     /** @test */
     public function it_can_manage_version_metadata_and_tracking(): void
     {
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $template = MailTemplate/** @phpstan-ignore-line */ ::factory()->create();
+        $template = MailTemplate::factory()->create();
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
 
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $version = MailTemplateVersion/** @phpstan-ignore-line */ ::factory()->create([
+=======
+        
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+
+=======
+=======
+
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+=======
+>>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+        
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+
+>>>>>>> 3f537838 (.)
+=======
+
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+=======
+
+>>>>>>> 58816034 (.)
+        $version = MailTemplateVersion::factory()->create([
             'template_id' => $template->id,
             'version' => '1.5.2',
+<<<<<<< HEAD
+<<<<<<< HEAD
+            'created_by' => 'developer@' . config('app.domain', 'example.com'),
+=======
+<<<<<<< HEAD
             'created_by' => 'developer@'.config('app.domain', 'example.com'),
+=======
+            'created_by' => 'developer@' . config('app.domain', 'example.com'),
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+            'created_by' => 'developer@'.config('app.domain', 'example.com'),
+=======
+            'created_by' => 'developer@' . config('app.domain', 'example.com'),
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
             'change_notes' => 'Correzione bug nella formattazione HTML e ottimizzazione per mobile',
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('1.5.2', $version->version);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $this->assertEquals('developer@' . config('app.domain', 'example.com'), $version->created_by);
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> 4689a827 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 2effe245 (.)
         $this->assertEquals('developer@'.config('app.domain', 'example.com'), $version->created_by);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+=======
+        $this->assertEquals('developer@' . config('app.domain', 'example.com'), $version->created_by);
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 99ff506 (.)
+<<<<<<< HEAD
+>>>>>>> f1c9518b (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 95531e1 (.)
+<<<<<<< HEAD
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 0f07e6d (.)
+<<<<<<< HEAD
+>>>>>>> 4d2eb53e (.)
+=======
+=======
+>>>>>>> e11621f (.)
+<<<<<<< HEAD
+>>>>>>> 888799d0 (.)
+=======
+=======
+=======
+>>>>>>> 2effe245 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f2e64178 (.)
+=======
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+        $this->assertEquals('developer@'.config('app.domain', 'example.com'), $version->created_by);
+>>>>>>> 985c7bda (.)
+=======
+        $this->assertEquals('developer@'.config('app.domain', 'example.com'), $version->created_by);
+=======
+        $this->assertEquals('developer@' . config('app.domain', 'example.com'), $version->created_by);
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
+=======
+        $this->assertEquals('developer@'.config('app.domain', 'example.com'), $version->created_by);
+=======
+        $this->assertEquals('developer@' . config('app.domain', 'example.com'), $version->created_by);
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 82ae73b (.)
+<<<<<<< HEAD
+>>>>>>> 2fc60436 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+<<<<<<< HEAD
+>>>>>>> ce89c8bb (.)
+=======
+=======
+>>>>>>> 9777d1b (.)
+>>>>>>> 58816034 (.)
         $this->assertEquals(
             'Correzione bug nella formattazione HTML e ottimizzazione per mobile',
             $version->change_notes,
         );
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+        $this->assertEquals('Correzione bug nella formattazione HTML e ottimizzazione per mobile', $version->change_notes);
+>>>>>>> b19cd40 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+=======
+        $this->assertEquals('Correzione bug nella formattazione HTML e ottimizzazione per mobile', $version->change_notes);
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+<<<<<<< HEAD
+=======
+        $this->assertEquals('Correzione bug nella formattazione HTML e ottimizzazione per mobile', $version->change_notes);
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+        $this->assertEquals('Correzione bug nella formattazione HTML e ottimizzazione per mobile', $version->change_notes);
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+=======
+        $this->assertEquals('Correzione bug nella formattazione HTML e ottimizzazione per mobile', $version->change_notes);
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+=======
+        $this->assertEquals('Correzione bug nella formattazione HTML e ottimizzazione per mobile', $version->change_notes);
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+=======
+        $this->assertEquals('Correzione bug nella formattazione HTML e ottimizzazione per mobile', $version->change_notes);
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+=======
+        $this->assertEquals('Correzione bug nella formattazione HTML e ottimizzazione per mobile', $version->change_notes);
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
         $this->assertNotNull($version->created_at);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNotNull($version->updated_at);
     }
 
     /** @test */
     public function it_can_handle_complex_html_templates(): void
     {
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $template = MailTemplate/** @phpstan-ignore-line */ ::factory()->create();
+        $template = MailTemplate::factory()->create();
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
 
+=======
+        
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+
+=======
+=======
+
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+=======
+>>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+        
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+
+>>>>>>> 3f537838 (.)
+=======
+
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+=======
+
+>>>>>>> 58816034 (.)
         $complexHtmlTemplate = '
         <!DOCTYPE html>
         <html lang="it">
@@ -193,34 +1384,208 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
         </body>
         </html>';
 
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $version = MailTemplateVersion/** @phpstan-ignore-line */ ::factory()->create([
+        $version = MailTemplateVersion::factory()->create([
             'template_id' => $template->id,
             'html_template' => $complexHtmlTemplate,
             'version' => '3.0',
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertStringContainsString('{{clinic_name}}', $version->html_template);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertStringContainsString('{{patient_name}}', $version->html_template);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertStringContainsString('{{appointment_date}}', $version->html_template);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertStringContainsString('{{doctor_name}}', $version->html_template);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertStringContainsString('background-color: #001F3F', $version->html_template);
     }
 
     /** @test */
     public function it_can_handle_text_template_variants(): void
     {
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $template = MailTemplate/** @phpstan-ignore-line */ ::factory()->create();
+        $template = MailTemplate::factory()->create();
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
 
+=======
+        
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+
+=======
+=======
+
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+=======
+>>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+        
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+
+>>>>>>> 3f537838 (.)
+=======
+
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+=======
+
+>>>>>>> 58816034 (.)
         $textTemplate = '
         CONFERMA APPUNTAMENTO
+<<<<<<< HEAD
+=======
         =====================
+>>>>>>> 75179b8 (.)
         
         Gentile {{patient_name}},
         
@@ -245,38 +1610,30 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
         {{clinic_name}}
         ';
 
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $version = MailTemplateVersion/** @phpstan-ignore-line */ ::factory()->create([
+        $version = MailTemplateVersion::factory()->create([
             'template_id' => $template->id,
             'text_template' => $textTemplate,
             'version' => '2.1',
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertStringContainsString('{{patient_name}}', $version->text_template);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertStringContainsString('{{appointment_date}}', $version->text_template);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertStringContainsString('{{doctor_name}}', $version->text_template);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertStringContainsString('{{clinic_name}}', $version->text_template);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertStringContainsString('Arrivare 15 minuti prima', $version->text_template);
     }
 
     /** @test */
     public function it_can_manage_version_history_and_rollback(): void
     {
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $template = MailTemplate/** @phpstan-ignore-line */ ::factory()->create([
+        $template = MailTemplate::factory()->create([
             'subject' => 'Versione Corrente',
             'html_template' => '<p>Template corrente</p>',
             'text_template' => 'Template corrente',
         ]);
 
         // Crea multiple versioni
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $version1 = MailTemplateVersion/** @phpstan-ignore-line */ ::factory()->create([
+        $version1 = MailTemplateVersion::factory()->create([
             'template_id' => $template->id,
             'version' => '1.0',
             'subject' => 'Versione Iniziale',
@@ -285,8 +1642,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
             'change_notes' => 'Prima versione del template',
         ]);
 
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $version2 = MailTemplateVersion/** @phpstan-ignore-line */ ::factory()->create([
+        $version2 = MailTemplateVersion::factory()->create([
             'template_id' => $template->id,
             'version' => '1.1',
             'subject' => 'Versione 1.1',
@@ -295,8 +1651,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
             'change_notes' => 'Aggiunta variabile clinic_address',
         ]);
 
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $version3 = MailTemplateVersion/** @phpstan-ignore-line */ ::factory()->create([
+        $version3 = MailTemplateVersion::factory()->create([
             'template_id' => $template->id,
             'version' => '2.0',
             'subject' => 'Versione 2.0',
@@ -305,32 +1660,201 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
             'change_notes' => 'Rifattorizzazione completa del template',
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(3, $template->versions);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('1.0', $version1->version);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('1.1', $version2->version);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('2.0', $version3->version);
 
         // Test rollback alla versione 1.1
-        /** @phpstan-ignore-next-line method.nonObject */
         $restoredTemplate = $version2->restore();
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('Versione 1.1', $restoredTemplate->subject);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('<p>Template versione 1.1</p>', $restoredTemplate->html_template);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('Template versione 1.1', $restoredTemplate->text_template);
     }
 
     /** @test */
     public function it_can_handle_mailable_class_management(): void
     {
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $template = MailTemplate/** @phpstan-ignore-line */ ::factory()->create();
+        $template = MailTemplate::factory()->create();
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
 
+=======
+        
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+
+=======
+=======
+
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+=======
+>>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+        
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+
+>>>>>>> 3f537838 (.)
+=======
+
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+=======
+
+>>>>>>> 58816034 (.)
         $mailableClasses = [
             'AppointmentConfirmation',
             'AppointmentReminder',
@@ -341,92 +1865,720 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
         ];
 
         foreach ($mailableClasses as $index => $mailableClass) {
+<<<<<<< HEAD
+            $version = MailTemplateVersion::factory()->create([
+=======
             /** @var \Illuminate\Database\Eloquent\Collection */
             $version = MailTemplateVersion/** @phpstan-ignore-line */ ::factory()->create([
+>>>>>>> 7d765981 (.)
                 'template_id' => $template->id,
                 'mailable' => $mailableClass,
+<<<<<<< HEAD
+<<<<<<< HEAD
+                'version' => '1.' . $index,
+                'subject' => 'Template per ' . $mailableClass,
+                'html_template' => '<p>Template per ' . $mailableClass . '</p>',
+            ]);
+
+            $this->assertEquals($mailableClass, $version->mailable);
+            $this->assertEquals('Template per ' . $mailableClass, $version->subject);
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
                 'version' => '1.'.$index,
                 'subject' => 'Template per '.$mailableClass,
                 'html_template' => '<p>Template per '.$mailableClass.'</p>',
             ]);
 
-            /** @phpstan-ignore-next-line property.notFound, method.nonObject */
             $this->assertEquals($mailableClass, $version->mailable);
-            /** @phpstan-ignore-next-line property.notFound, method.nonObject */
             $this->assertEquals('Template per '.$mailableClass, $version->subject);
+=======
+                'version' => '1.' . $index,
+                'subject' => 'Template per ' . $mailableClass,
+                'html_template' => '<p>Template per ' . $mailableClass . '</p>',
+            ]);
+
+            $this->assertEquals($mailableClass, $version->mailable);
+            $this->assertEquals('Template per ' . $mailableClass, $version->subject);
+<<<<<<< HEAD
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
         }
     }
 
     /** @test */
     public function it_can_manage_soft_deletes(): void
     {
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $template = MailTemplate/** @phpstan-ignore-line */ ::factory()->create();
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $version = MailTemplateVersion/** @phpstan-ignore-line */ ::factory()->create([
+        $template = MailTemplate::factory()->create();
+        $version = MailTemplateVersion::factory()->create([
             'template_id' => $template->id,
         ]);
 
         // Verifica che il modello supporti soft delete
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue($version->trashed() === false);
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+=======
+>>>>>>> 58816034 (.)
 
         // Soft delete
-        /** @phpstan-ignore-next-line method.nonObject */
         $version->delete();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+<<<<<<< HEAD
+>>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
+
+        // Soft delete
+        $version->delete();
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+
+        // Soft delete
+        $version->delete();
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+
+        // Soft delete
+        $version->delete();
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+
+        // Soft delete
+        $version->delete();
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+=======
+=======
+>>>>>>> origin/develop
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
+        
+        // Soft delete
+        $version->delete();
+        
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> a12f125f4a (.)
+=======
+
+        // Soft delete
+        $version->delete();
+
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
         $this->assertTrue($version->trashed());
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('mail_template_versions', [
             'id' => $version->id,
             'deleted_at' => $version->deleted_at,
         ]);
 
         // Restore
-        /** @phpstan-ignore-next-line method.nonObject */
         $version->restore();
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertFalse($version->trashed());
     }
 
     /** @test */
     public function it_can_handle_empty_or_null_values_gracefully(): void
     {
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $template = MailTemplate/** @phpstan-ignore-line */ ::factory()->create();
+        $template = MailTemplate::factory()->create();
 
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $version = MailTemplateVersion/** @phpstan-ignore-line */ ::factory()->create([
+        $version = MailTemplateVersion::factory()->create([
             'template_id' => $template->id,
             'subject' => null,
             'text_template' => null,
             'change_notes' => null,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($version->subject);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($version->text_template);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($version->change_notes);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNotNull($version->html_template); // Campo obbligatorio
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNotNull($version->version); // Campo obbligatorio
     }
 
     /** @test */
     public function it_can_validate_template_variable_consistency(): void
     {
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $template = MailTemplate/** @phpstan-ignore-line */ ::factory()->create();
+        $template = MailTemplate::factory()->create();
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+=======
+>>>>>>> 58816034 (.)
 
         $htmlTemplate = '<p>Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}} con il dottore {{doctor_name}}.</p>';
         $textTemplate = 'Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}} con il dottore {{doctor_name}}.';
 
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $version = MailTemplateVersion/** @phpstan-ignore-line */ ::factory()->create([
+<<<<<<< HEAD
+>>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
+
+        $htmlTemplate = '<p>Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}} con il dottore {{doctor_name}}.</p>';
+        $textTemplate = 'Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}} con il dottore {{doctor_name}}.';
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+
+        $htmlTemplate = '<p>Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}} con il dottore {{doctor_name}}.</p>';
+        $textTemplate = 'Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}} con il dottore {{doctor_name}}.';
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+
+        $htmlTemplate = '<p>Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}} con il dottore {{doctor_name}}.</p>';
+        $textTemplate = 'Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}} con il dottore {{doctor_name}}.';
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+
+        $htmlTemplate = '<p>Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}} con il dottore {{doctor_name}}.</p>';
+        $textTemplate = 'Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}} con il dottore {{doctor_name}}.';
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+=======
+=======
+>>>>>>> origin/develop
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
+        
+        $htmlTemplate = '<p>Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}} con il dottore {{doctor_name}}.</p>';
+        $textTemplate = 'Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}} con il dottore {{doctor_name}}.';
+        
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> a12f125f4a (.)
+=======
+
+        $htmlTemplate = '<p>Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}} con il dottore {{doctor_name}}.</p>';
+        $textTemplate = 'Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}} con il dottore {{doctor_name}}.';
+
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+        $version = MailTemplateVersion::factory()->create([
             'template_id' => $template->id,
             'html_template' => $htmlTemplate,
             'text_template' => $textTemplate,
@@ -434,27 +2586,376 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
         ]);
 
         // Verifica che le variabili siano consistenti tra HTML e testo
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $htmlVariables = $this->extractVariables($htmlTemplate);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $textVariables = $this->extractVariables($textTemplate);
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+=======
+        
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+
+=======
+=======
+
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+=======
+>>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+        
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+
+>>>>>>> 3f537838 (.)
+=======
+
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+=======
+
+>>>>>>> 58816034 (.)
         $this->assertEquals($htmlVariables, $textVariables);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertContains('patient_name', $htmlVariables);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertContains('appointment_date', $htmlVariables);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertContains('doctor_name', $htmlVariables);
     }
 
     /** @test */
     public function it_can_manage_version_numbering_schemes(): void
     {
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $template = MailTemplate/** @phpstan-ignore-line */ ::factory()->create();
+        $template = MailTemplate::factory()->create();
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
 
+=======
+        
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+
+=======
+=======
+
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+=======
+>>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+        
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+
+>>>>>>> 3f537838 (.)
+=======
+
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+=======
+
+>>>>>>> 58816034 (.)
         $versionSchemes = [
             '1.0' => 'Versione iniziale',
             '1.1' => 'Correzione bug minori',
@@ -465,16 +2966,18 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
         ];
 
         foreach ($versionSchemes as $versionNumber => $description) {
+<<<<<<< HEAD
+            $version = MailTemplateVersion::factory()->create([
+=======
             /** @var \Illuminate\Database\Eloquent\Collection */
             $version = MailTemplateVersion/** @phpstan-ignore-line */ ::factory()->create([
+>>>>>>> 7d765981 (.)
                 'template_id' => $template->id,
                 'version' => $versionNumber,
                 'change_notes' => $description,
             ]);
 
-            /** @phpstan-ignore-next-line property.notFound, method.nonObject */
             $this->assertEquals($versionNumber, $version->version);
-            /** @phpstan-ignore-next-line property.notFound, method.nonObject */
             $this->assertEquals($description, $version->change_notes);
         }
     }
@@ -485,8 +2988,19 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
     private function extractVariables(string $template): array
     {
         preg_match_all('/\{\{([^}]+)\}\}/', $template, $matches);
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
 
-        /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
         return array_unique($matches[1] ?? []);
     }
 }

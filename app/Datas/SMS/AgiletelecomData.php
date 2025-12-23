@@ -47,9 +47,6 @@ class AgiletelecomData extends Data
         return self::$instance;
     }
 
-    /**
-     * @return array<string, mixed>
-     */
     public function getAuthHeaders(): array
     {
         switch ($this->auth_type) {

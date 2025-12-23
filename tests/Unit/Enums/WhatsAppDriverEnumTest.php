@@ -12,16 +12,11 @@ class WhatsAppDriverEnumTest extends TestCase
     /** @test */
     public function it_has_correct_cases(): void
     {
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(4, WhatsAppDriverEnum::cases());
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('twilio', WhatsAppDriverEnum::TWILIO->value);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('messagebird', WhatsAppDriverEnum::MESSAGEBIRD->value);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('vonage', WhatsAppDriverEnum::VONAGE->value);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('infobip', WhatsAppDriverEnum::INFOBIP->value);
     }
 
@@ -30,17 +25,11 @@ class WhatsAppDriverEnumTest extends TestCase
     {
         $options = WhatsAppDriverEnum::options();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($options);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(4, $options);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('Twilio', $options['twilio']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('MessageBird', $options['messagebird']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('Vonage', $options['vonage']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('Infobip', $options['infobip']);
     }
 
@@ -49,43 +38,29 @@ class WhatsAppDriverEnumTest extends TestCase
     {
         $labels = WhatsAppDriverEnum::labels();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($labels);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(4, $labels);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertArrayHasKey('twilio', $labels);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertArrayHasKey('messagebird', $labels);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertArrayHasKey('vonage', $labels);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertArrayHasKey('infobip', $labels);
     }
 
     /** @test */
     public function is_supported_returns_true_for_valid_drivers(): void
     {
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue(WhatsAppDriverEnum::isSupported('twilio'));
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue(WhatsAppDriverEnum::isSupported('messagebird'));
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue(WhatsAppDriverEnum::isSupported('vonage'));
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue(WhatsAppDriverEnum::isSupported('infobip'));
     }
 
     /** @test */
     public function is_supported_returns_false_for_invalid_drivers(): void
     {
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertFalse(WhatsAppDriverEnum::isSupported('invalid'));
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertFalse(WhatsAppDriverEnum::isSupported(''));
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertFalse(WhatsAppDriverEnum::isSupported('TWILIO'));
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertFalse(WhatsAppDriverEnum::isSupported('Twilio'));
     }
 
@@ -94,19 +69,216 @@ class WhatsAppDriverEnumTest extends TestCase
     {
         $default = WhatsAppDriverEnum::getDefault();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertInstanceOf(WhatsAppDriverEnum::class, $default);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertContains($default, WhatsAppDriverEnum::cases());
     }
 
     /** @test */
     public function each_case_has_unique_value(): void
     {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+        $values = array_map(fn($case) => $case->value, WhatsAppDriverEnum::cases());
+=======
         $values = array_map(fn ($case) => $case->value, WhatsAppDriverEnum::cases());
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        $values = array_map(fn($case) => $case->value, WhatsAppDriverEnum::cases());
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+        $values = array_map(fn($case) => $case->value, WhatsAppDriverEnum::cases());
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+        $values = array_map(fn($case) => $case->value, WhatsAppDriverEnum::cases());
+>>>>>>> 9777d1b3 (.)
+=======
+        $values = array_map(fn($case) => $case->value, WhatsAppDriverEnum::cases());
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+        $values = array_map(fn($case) => $case->value, WhatsAppDriverEnum::cases());
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+        $values = array_map(fn($case) => $case->value, WhatsAppDriverEnum::cases());
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+=======
+        $values = array_map(fn($case) => $case->value, WhatsAppDriverEnum::cases());
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+        $values = array_map(fn($case) => $case->value, WhatsAppDriverEnum::cases());
+>>>>>>> 161887a2 (.)
+=======
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+        $values = array_map(fn ($case) => $case->value, WhatsAppDriverEnum::cases());
+=======
+=======
+>>>>>>> f813254 (.)
+=======
+>>>>>>> f5f1cb1 (.)
+        $values = array_map(fn($case) => $case->value, WhatsAppDriverEnum::cases());
+>>>>>>> 99ff506 (.)
+<<<<<<< HEAD
+>>>>>>> f1c9518b (.)
+=======
+=======
+=======
+>>>>>>> 0f07e6d (.)
+        $values = array_map(fn($case) => $case->value, WhatsAppDriverEnum::cases());
+=======
+        $values = array_map(fn ($case) => $case->value, WhatsAppDriverEnum::cases());
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+>>>>>>> 95531e1 (.)
+<<<<<<< HEAD
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+=======
+        $values = array_map(fn($case) => $case->value, WhatsAppDriverEnum::cases());
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 0f07e6d (.)
+<<<<<<< HEAD
+>>>>>>> 4d2eb53e (.)
+=======
+=======
+        $values = array_map(fn($case) => $case->value, WhatsAppDriverEnum::cases());
+>>>>>>> e11621f (.)
+>>>>>>> 888799d0 (.)
+=======
+        $values = array_map(fn ($case) => $case->value, WhatsAppDriverEnum::cases());
+=======
+<<<<<<< HEAD
+        $values = array_map(fn($case) => $case->value, WhatsAppDriverEnum::cases());
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
+=======
+        $values = array_map(fn ($case) => $case->value, WhatsAppDriverEnum::cases());
+>>>>>>> 985c7bda (.)
+=======
+        $values = array_map(fn ($case) => $case->value, WhatsAppDriverEnum::cases());
+=======
+        $values = array_map(fn($case) => $case->value, WhatsAppDriverEnum::cases());
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+        $values = array_map(fn ($case) => $case->value, WhatsAppDriverEnum::cases());
+=======
+        $values = array_map(fn($case) => $case->value, WhatsAppDriverEnum::cases());
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
+=======
+=======
+>>>>>>> 207ac35 (.)
+        $values = array_map(fn($case) => $case->value, WhatsAppDriverEnum::cases());
+=======
+        $values = array_map(fn ($case) => $case->value, WhatsAppDriverEnum::cases());
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+>>>>>>> 82ae73b (.)
+<<<<<<< HEAD
+>>>>>>> 2fc60436 (.)
+=======
+=======
+=======
+        $values = array_map(fn($case) => $case->value, WhatsAppDriverEnum::cases());
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+<<<<<<< HEAD
+>>>>>>> ce89c8bb (.)
+=======
+=======
+        $values = array_map(fn($case) => $case->value, WhatsAppDriverEnum::cases());
+>>>>>>> 9777d1b (.)
+>>>>>>> 58816034 (.)
         $uniqueValues = array_unique($values);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(count($values), $uniqueValues, 'All enum cases should have unique values');
     }
 
@@ -115,13 +287,10 @@ class WhatsAppDriverEnumTest extends TestCase
     {
         $cases = WhatsAppDriverEnum::cases();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($cases);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(4, $cases);
 
         foreach ($cases as $case) {
-            /** @phpstan-ignore-next-line property.notFound, method.nonObject */
             $this->assertInstanceOf(WhatsAppDriverEnum::class, $case);
         }
     }
@@ -130,7 +299,6 @@ class WhatsAppDriverEnumTest extends TestCase
     public function all_cases_have_required_methods(): void
     {
         foreach (WhatsAppDriverEnum::cases() as $case) {
-            /** @phpstan-ignore-next-line property.notFound, method.nonObject */
             $this->assertIsString($case->value);
         }
     }

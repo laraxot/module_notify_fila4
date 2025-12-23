@@ -4,11 +4,654 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Models;
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 9cdf6146 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 6d08c01b (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 3b4c9907 (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> 8e5817bc (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> a9bf0423 (rebase 210)
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> b4f93b3a (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 77edd94a (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> f81a620f (.)
+=======
+>>>>>>> 3ee54c5d (.)
+=======
+>>>>>>> 7d765981 (.)
+=======
+>>>>>>> 2fc60436 (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\Notification;
 use Tests\TestCase;
-
-use function Safe\json_encode;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 9cdf6146 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 6d08c01b (.)
+=======
+>>>>>>> 3b4c9907 (.)
+=======
+>>>>>>> 8e5817bc (.)
+=======
+>>>>>>> a9bf0423 (rebase 210)
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+=======
+>>>>>>> b4f93b3a (rebase 210)
+=======
+>>>>>>> 77edd94a (.)
+=======
+>>>>>>> f81a620f (.)
+=======
+>>>>>>> 2fc60436 (.)
+use Tests\TestCase;
+use Modules\Notify\Models\Notification;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+=======
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> e0d9c9be (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 460b8f5b (rebase 210)
+=======
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 1375c94d (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> eea68ec9 (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> 06e3078e (.)
+=======
+>>>>>>> 3ee54c5d (.)
+=======
+>>>>>>> ce89c8bb (.)
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Notification;
+use Tests\TestCase;
+=======
+use Tests\TestCase;
+use Modules\Notify\Models\Notification;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> e0d9c9be (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 460b8f5b (rebase 210)
+=======
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 1375c94d (rebase 210)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> eea68ec9 (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> 06e3078e (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 3ee54c5d (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Notification;
+use Tests\TestCase;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Notification;
+use Tests\TestCase;
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> 3ee54c5d (.)
+>>>>>>> b93ef594b4 (.)
+=======
+use Tests\TestCase;
+use Modules\Notify\Models\Notification;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Notification;
+use Tests\TestCase;
+>>>>>>> 3f537838 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Notification;
+use Tests\TestCase;
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Notification;
+use Tests\TestCase;
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Notification;
+use Tests\TestCase;
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Notification;
+use Tests\TestCase;
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Notification;
+use Tests\TestCase;
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 9cdf6146 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 80f054e0 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Notification;
+use Tests\TestCase;
+>>>>>>> 7c39b1fe (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Notification;
+use Tests\TestCase;
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Notification;
+use Tests\TestCase;
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 6d08c01b (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Notification;
+use Tests\TestCase;
+>>>>>>> c6c33175 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Notification;
+use Tests\TestCase;
+>>>>>>> 4e4a7796 (.)
+=======
+>>>>>>> 3b4c9907 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 5fe4f466 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Notification;
+use Tests\TestCase;
+>>>>>>> 503981fd (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Notification;
+use Tests\TestCase;
+>>>>>>> 9d84f153 (.)
+=======
+>>>>>>> 8e5817bc (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Notification;
+use Tests\TestCase;
+>>>>>>> 7a2f131f (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Notification;
+use Tests\TestCase;
+>>>>>>> 116df547 (.)
+=======
+>>>>>>> a9bf0423 (rebase 210)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Notification;
+use Tests\TestCase;
+>>>>>>> 4d253d2c (rebase 210)
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Notification;
+use Tests\TestCase;
+>>>>>>> efb0f8d9 (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Notification;
+use Tests\TestCase;
+>>>>>>> 7ffa94fc (rebase 210)
+=======
+>>>>>>> b4f93b3a (rebase 210)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1375c94d (rebase 210)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Notification;
+use Tests\TestCase;
+>>>>>>> 52cd5f85 (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Notification;
+use Tests\TestCase;
+>>>>>>> 82e5ee2d (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Notification;
+use Tests\TestCase;
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 77edd94a (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> eea68ec9 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Notification;
+use Tests\TestCase;
+>>>>>>> 59916c8f (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Notification;
+use Tests\TestCase;
+>>>>>>> cb5f23b0 (.)
+=======
+>>>>>>> f81a620f (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 06e3078e (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Notification;
+use Tests\TestCase;
+>>>>>>> 70e8274e (.)
+=======
+>>>>>>> 3ee54c5d (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Notification;
+use Tests\TestCase;
+>>>>>>> 4b544042 (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Notification;
+use Tests\TestCase;
+>>>>>>> 58816034 (.)
 
 class NotificationTest extends TestCase
 {
@@ -17,7 +660,6 @@ class NotificationTest extends TestCase
     protected function setUp(): void
     {
         parent::setUp();
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->withoutExceptionHandling();
     }
 
@@ -42,7 +684,6 @@ class NotificationTest extends TestCase
             ],
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('notifications', [
             'id' => $notification->id,
             'message' => 'Test notification message',
@@ -54,14 +695,17 @@ class NotificationTest extends TestCase
             'status' => 'pending',
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertInstanceOf(Notification::class, $notification);
     }
 
     /** @test */
     public function it_has_correct_fillable_fields(): void
     {
+<<<<<<< HEAD
         $notification = new Notification;
+=======
+        $notification = new Notification();
+>>>>>>> 75179b8 (.)
 
         $expectedFillable = [
             'message',
@@ -77,14 +721,17 @@ class NotificationTest extends TestCase
             'data',
         ];
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($expectedFillable, $notification->getFillable());
     }
 
     /** @test */
     public function it_has_correct_casts(): void
     {
+<<<<<<< HEAD
         $notification = new Notification;
+=======
+        $notification = new Notification();
+>>>>>>> 75179b8 (.)
 
         $expectedCasts = [
             'read_at' => 'datetime',
@@ -96,7 +743,6 @@ class NotificationTest extends TestCase
             'deleted_at' => 'datetime',
         ];
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($expectedCasts, $notification->casts());
     }
 
@@ -122,23 +768,16 @@ class NotificationTest extends TestCase
             'data' => $data,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('notifications', [
             'id' => $notification->id,
             'data' => json_encode($data),
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($notification->data);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('Welcome to our platform', $notification->data['title']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('Thank you for joining us!', $notification->data['body']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('high', $notification->data['priority']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('registration', $notification->data['metadata']['source']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals(['welcome', 'onboarding'], $notification->data['metadata']['tags']);
     }
 
@@ -153,23 +792,16 @@ class NotificationTest extends TestCase
             'channels' => $channels,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('notifications', [
             'id' => $notification->id,
             'channels' => json_encode($channels),
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($notification->channels);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(4, $notification->channels);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertContains('mail', $notification->channels);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertContains('database', $notification->channels);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertContains('sms', $notification->channels);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertContains('push', $notification->channels);
     }
 
@@ -181,18 +813,13 @@ class NotificationTest extends TestCase
             'type' => 'info',
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($notification->read_at);
 
-        /** @phpstan-ignore-next-line method.nonObject */
         $notification->update(['read_at' => now()]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNotNull($notification->fresh()->read_at);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('notifications', [
             'id' => $notification->id,
-            /** @phpstan-ignore-next-line method.nonObject */
             'read_at' => $notification->fresh()->read_at,
         ]);
     }
@@ -206,23 +833,17 @@ class NotificationTest extends TestCase
             'status' => 'pending',
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($notification->sent_at);
 
-        /** @phpstan-ignore-next-line method.nonObject */
         $notification->update([
             'sent_at' => now(),
             'status' => 'sent',
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNotNull($notification->fresh()->sent_at);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('sent', $notification->fresh()->status);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('notifications', [
             'id' => $notification->id,
-            /** @phpstan-ignore-next-line method.nonObject */
             'sent_at' => $notification->fresh()->sent_at,
             'status' => 'sent',
         ]);
@@ -237,7 +858,6 @@ class NotificationTest extends TestCase
             'status' => 'pending',
         ]);
 
-        /** @phpstan-ignore-next-line method.nonObject */
         $notification->update([
             'message' => 'Updated message',
             'type' => 'warning',
@@ -245,7 +865,6 @@ class NotificationTest extends TestCase
             'data' => ['updated' => true],
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('notifications', [
             'id' => $notification->id,
             'message' => 'Updated message',
@@ -253,13 +872,9 @@ class NotificationTest extends TestCase
             'status' => 'sent',
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('Updated message', $notification->fresh()->message);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('warning', $notification->fresh()->type);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('sent', $notification->fresh()->status);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals(['updated' => true], $notification->fresh()->data);
     }
 
@@ -285,17 +900,11 @@ class NotificationTest extends TestCase
         $warningNotifications = Notification::where('type', 'warning')->get();
         $errorNotifications = Notification::where('type', 'error')->get();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $infoNotifications);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $warningNotifications);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $errorNotifications);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('info', $infoNotifications[0]->type);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('warning', $warningNotifications[0]->type);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('error', $errorNotifications[0]->type);
     }
 
@@ -324,17 +933,11 @@ class NotificationTest extends TestCase
         $sentNotifications = Notification::where('status', 'sent')->get();
         $failedNotifications = Notification::where('status', 'failed')->get();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $pendingNotifications);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $sentNotifications);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $failedNotifications);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('pending', $pendingNotifications[0]->status);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('sent', $sentNotifications[0]->status);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('failed', $failedNotifications[0]->status);
     }
 
@@ -362,15 +965,10 @@ class NotificationTest extends TestCase
         $tenant1Notifications = Notification::where('tenant_id', 1)->get();
         $tenant2Notifications = Notification::where('tenant_id', 2)->get();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(2, $tenant1Notifications);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $tenant2Notifications);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(1, $tenant1Notifications[0]->tenant_id);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(1, $tenant1Notifications[1]->tenant_id);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(2, $tenant2Notifications[0]->tenant_id);
     }
 
@@ -398,15 +996,10 @@ class NotificationTest extends TestCase
         $user123Notifications = Notification::where('user_id', 123)->get();
         $user456Notifications = Notification::where('user_id', 456)->get();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(2, $user123Notifications);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $user456Notifications);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(123, $user123Notifications[0]->user_id);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(123, $user123Notifications[1]->user_id);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(456, $user456Notifications[0]->user_id);
     }
 
@@ -437,15 +1030,10 @@ class NotificationTest extends TestCase
         $userSubjectNotifications = Notification::where('subject_type', 'App\Models\User')->get();
         $companySubjectNotifications = Notification::where('subject_type', 'App\Models\Company')->get();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(2, $userSubjectNotifications);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $companySubjectNotifications);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('App\Models\User', $userSubjectNotifications[0]->subject_type);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('App\Models\User', $userSubjectNotifications[1]->subject_type);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('App\Models\Company', $companySubjectNotifications[0]->subject_type);
     }
 
@@ -474,11 +1062,8 @@ class NotificationTest extends TestCase
         $smsNotifications = Notification::whereJsonContains('channels', 'sms')->get();
         $databaseNotifications = Notification::whereJsonContains('channels', 'database')->get();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(2, $mailNotifications);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(2, $smsNotifications);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $databaseNotifications);
     }
 
@@ -515,13 +1100,9 @@ class NotificationTest extends TestCase
         $highPriorityNotifications = Notification::whereJsonPath('data.priority', 'high')->get();
         $securityNotifications = Notification::whereJsonPath('data.category', 'security')->get();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $highPriorityNotifications);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $securityNotifications);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('high', $highPriorityNotifications[0]->data['priority']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('security', $securityNotifications[0]->data['category']);
     }
 
@@ -549,15 +1130,10 @@ class NotificationTest extends TestCase
         $unreadNotifications = Notification::whereNull('read_at')->get();
         $readNotifications = Notification::whereNotNull('read_at')->get();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(2, $unreadNotifications);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $readNotifications);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertNull($unreadNotifications[0]->read_at);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertNull($unreadNotifications[1]->read_at);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertNotNull($readNotifications[0]->read_at);
     }
 
@@ -585,15 +1161,10 @@ class NotificationTest extends TestCase
         $unsentNotifications = Notification::whereNull('sent_at')->get();
         $sentNotifications = Notification::whereNotNull('sent_at')->get();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(2, $unsentNotifications);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $sentNotifications);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertNull($unsentNotifications[0]->sent_at);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertNull($unsentNotifications[1]->sent_at);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertNotNull($sentNotifications[0]->sent_at);
     }
 
@@ -622,15 +1193,11 @@ class NotificationTest extends TestCase
             'created_at' => $tomorrow,
         ]);
 
-        /** @phpstan-ignore-next-line method.nonObject */
         $todayNotifications = Notification::whereDate('created_at', $today->toDateString())->get();
         $recentNotifications = Notification::where('created_at', '>=', $yesterday)->get();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $todayNotifications);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(2, $recentNotifications); // yesterday and today
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('Today notification', $todayNotifications[0]->message);
     }
 
@@ -675,15 +1242,10 @@ class NotificationTest extends TestCase
             ->whereJsonPath('data.priority', 'high')
             ->get();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $pendingHighPriorityTenant1);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('High priority security alert', $pendingHighPriorityTenant1[0]->message);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('pending', $pendingHighPriorityTenant1[0]->status);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(1, $pendingHighPriorityTenant1[0]->tenant_id);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('high', $pendingHighPriorityTenant1[0]->data['priority']);
     }
 
@@ -696,15 +1258,12 @@ class NotificationTest extends TestCase
             'data' => [],
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('notifications', [
             'id' => $notification->id,
             'data' => json_encode([]),
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($notification->data);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEmpty($notification->data);
     }
 
@@ -717,15 +1276,12 @@ class NotificationTest extends TestCase
             'channels' => [],
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('notifications', [
             'id' => $notification->id,
             'channels' => json_encode([]),
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($notification->channels);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEmpty($notification->channels);
     }
 
@@ -745,21 +1301,13 @@ class NotificationTest extends TestCase
             'data' => null,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($notification->tenant_id);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($notification->user_id);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($notification->subject_type);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($notification->subject_id);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($notification->channels);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($notification->status);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($notification->sent_at);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($notification->data);
     }
 }
