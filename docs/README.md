@@ -1,209 +1,4 @@
-<<<<<<< HEAD
-### 1. Invio Email Semplice
-
-```php
-use Modules\Notify\Emails\SpatieEmail;
-use Illuminate\Support\Facades\Mail;
-
-$user = User::find(1);
-$email = new SpatieEmail($user, 'welcome');
-
-Mail::to('user@example.com')->send($email);
-```
-
-### 2. Email con Allegato PDF Dinamico ⭐
-
-```php
-use Modules\Notify\Notifications\RecordNotification;
-use Modules\Xot\Actions\Pdf\GetPdfContentByRecordAction;
-use Illuminate\Support\Facades\Notification;
-
-// Genera PDF binario
-$pdfContent = app(GetPdfContentByRecordAction::class)->execute($record);
-
-// Prepara allegato
-$attachments = [
-    [
-        'data' => $pdfContent,           // Contenuto binario PDF
-        'as' => 'documento.pdf',         // Nome file nell'email
-        'mime' => 'application/pdf',     // MIME type
-    ],
-];
-
-// Crea e invia notifica
-$notify = new RecordNotification($record, 'template-slug');
-$notify = $notify->addAttachments($attachments);
-
-Notification::route('mail', 'destinatario@example.com')->notify($notify);
-```
-
-### 3. Email con File Esistente
-
-```php
-$attachments = [
-    [
-        'path' => storage_path('pdfs/contratto.pdf'),
-        'as' => 'contratto.pdf',
-        'mime' => 'application/pdf',
-    ],
-];
-
-$email = new SpatieEmail($user, 'contract-template');
-$email->addAttachments($attachments);
-
-Mail::to($user->email)->send($email);
-```
-
-### 4. Notifica Multi-Canale
-
-```php
-use Modules\Notify\Notifications\RecordNotification;
-
-$notify = new RecordNotification($record, 'multi-channel-template');
-
-// Invia via Email + SMS + WhatsApp
-Notification::route('mail', 'user@example.com')
-    ->route('sms', '+393331234567')
-    ->route('whatsapp', '+393331234567')
-    ->notify($notify);
-```
-
----
-
-## 💡 Pattern e Best Practices
-
-### Pattern 1: Allegati Binari (Raccomandato)
-
-**Quando usare:**
-- PDF generati dinamicamente
-- File creati al volo
-- Contenuti non salvati su filesystem
-
-**Vantaggi:**
-- ✅ No file temporanei
-- ✅ Performance migliori
-- ✅ Thread-safe
-- ✅ Scalabilità
-
-```php
-$attachments = [
-    [
-        'data' => $binaryContent,    // Contenuto binario
-        'as' => 'filename.pdf',
-        'mime' => 'application/pdf',
-    ],
-];
-```
-
-### Pattern 2: Allegati da Path
-
-**Quando usare:**
-- File esistenti su filesystem
-- PDF pre-generati e cachati
-- Asset statici
-
-```php
-$attachments = [
-    [
-        'path' => storage_path('files/doc.pdf'),
-        'as' => 'documento.pdf',
-        'mime' => 'application/pdf',
-    ],
-];
-```
-
-### Pattern 3: RecordNotification (Raccomandato)
-
-**Quando usare:**
-- Notifiche basate su record Eloquent
-- Template dinamici da database
-- Multi-canale support
-
-```php
-$notify = new RecordNotification($record, 'template-slug');
-$notify = $notify->mergeData(['custom_var' => 'value']);
-$notify = $notify->addAttachments($attachments);
-
-Notification::route('mail', 'to@example.com')->notify($notify);
-```
-
----
-
-## 🔗 Collegamenti
-
-### Moduli Correlati
-
-#### Ptv (Schede Valutazione)
-- **[Complete PDF Email Guide](../../Ptv/docs/pdf-email-attachments-complete-guide.md)**  
-  Caso d'uso completo: invio schede valutazione con PDF
-
-- **[SendMailByRecord Action](../../Ptv/app/Actions/Scheda/SendMailByRecord.php)**  
-  Implementation reference
-
-#### Xot (Core Framework)
-- **[GetPdfContentByRecordAction](../../Xot/docs/actions/pdf-content-generation-technical.md)**  
-  Generazione PDF binario da record
-
-- **[PDF Actions](../../Xot/app/Actions/Pdf/)**  
-  Actions per gestione PDF
-
-### Documentazione Interna
-
-#### Email System
-- [Email Layouts Best Practices](./mail-templates/EMAIL_LAYOUTS_BEST_PRACTICES.md)
-- [Spatie Mail Templates Structure](./mail-templates/SPATIE_MAIL_TEMPLATES_STRUCTURE.md)
-- [Email Troubleshooting](./email-sending/EMAIL_TROUBLESHOOTING.md)
-
-#### Notifications
-- [Notifications Implementation Guide](./notifications/notifications_implementation_guide.md)
-- [Notification Management Business Logic](./notifications/notification-management-business-logic.md)
-
----
-
-## 🧪 Testing
-
-### Test Email con Allegati
-
-```php
-use Tests\TestCase;
-use Modules\Notify\Emails\SpatieEmail;
-
-class SpatieEmailTest extends TestCase
-{
-    /** @test */
-    public function it_attaches_binary_pdf_content(): void
-    {
-        $pdfContent = '%PDF-1.4...'; // Mock binary
-        
-        $attachments = [
-            [
-                'data' => $pdfContent,
-                'as' => 'test.pdf',
-                'mime' => 'application/pdf',
-            ],
-        ];
-        
-        $email = new SpatieEmail($record, 'test-template');
-        $email->addAttachments($attachments);
-        
-        $this->assertCount(1, $email->attachments());
-    }
-}
-```
-
-### Test Notifiche
-
-```bash
-php artisan test --filter=RecordNotificationTest
-```
-
----
-
-=======
-=======
-=======
 # Modulo Notify - Analisi Completa
-=======
 # 📧 **Notify Module** - Sistema Avanzato di Notifiche
 
 [![Laravel 12.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
@@ -334,7 +129,6 @@ return [
     'queue' => [
         'connection' => 'redis',
         'queue' => 'notifications',
-=======
 ## 🛠️ Troubleshooting
 
 ### Email Non Arriva
@@ -437,19 +231,7 @@ Log::channel('email')->info('Email sent', [
 **Versione:** 2.1.0  
 **Stato:** ✅ Production Ready  
 **PHPStan Level:** 10
-=======
-=======
-=======
-=======
-=======
-=======
-=======
-=======
-=======
-=======
-=======
 # Modulo Notify - Analisi Completa
-=======
 # Modulo Notify - Documentazione
 
 ## 📚 Overview
@@ -684,8 +466,6 @@ Notification::route('mail', 'to@example.com')->notify($notify);
 
 ---
 
-=======
-=======
 ### 🏆 **Achievements**
 
 - **🏅 PHPStan Level 9**: File core certificati ✅
@@ -711,28 +491,11 @@ Notification::route('mail', 'to@example.com')->notify($notify);
 **🐛 PHPStan Level 9**: File core certificati ✅  
 **🌐 Translation Standards**: File traduzione certificati ✅  
 **🚀 Performance**: 96/100 score
-=======
-=======
-=======
-=======
-=======
-=======
-=======
-=======
-=======
-=======
-=======
-=======
-=======
-=======
-=======
-=======
 **Ultimo aggiornamento**: Novembre 2025 (PSR-4 fixes)  
 **Versione**: 1.1  
 **Stato**: PSR-4 compliant, test business logic completati (95% copertura)  
 **Prossimi passi**: Completamento test modelli base  
 **Changelog**: [CHANGELOG.md](./CHANGELOG.md)
-=======
 ## 🔗 Collegamenti
 
 ### Moduli Correlati
@@ -905,7 +668,6 @@ Log::channel('email')->info('Email sent', [
 **Versione:** 2.1.0  
 **Stato:** ✅ Production Ready  
 **PHPStan Level:** 10
-=======
 # Modulo Notify - Analisi Completa
 
 ## Panoramica del Modulo
@@ -1197,4 +959,3 @@ Il modulo **Notify** gestisce il sistema completo di notifiche per progetti Lara
 **Versione**: 1.0  
 **Stato**: Test business logic completati (95% copertura)  
 **Prossimi passi**: Completamento test modelli base (BaseModel, BaseMorphPivot, BasePivot)
->>>>>>> laraxot/develop
