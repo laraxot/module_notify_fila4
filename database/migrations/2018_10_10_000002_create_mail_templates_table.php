@@ -3,51 +3,15 @@
 declare(strict_types=1);
 
 use Illuminate\Database\Schema\Blueprint;
-<<<<<<< HEAD
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Schema;
-=======
-use Illuminate\Support\Facades\Schema;
-use Illuminate\Support\Facades\DB;
->>>>>>> a12f125f4a (.)
-=======
-use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Schema;
->>>>>>> b93ef594b4 (.)
-=======
-use Illuminate\Support\Facades\Schema;
-use Illuminate\Support\Facades\DB;
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 // ----- bases ----
 use Modules\Xot\Database\Migrations\XotBaseMigration;
 
 /*
  * Class CreateMailTemplatesTable.
  */
-<<<<<<< HEAD
 return new class() extends XotBaseMigration {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-return new class() extends XotBaseMigration {
-=======
-return new class () extends XotBaseMigration {
->>>>>>> a12f125f4a (.)
-=======
-return new class() extends XotBaseMigration {
->>>>>>> b93ef594b4 (.)
-=======
-return new class () extends XotBaseMigration {
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
     /**
      * Run the migrations.
      */
@@ -63,30 +27,10 @@ return new class () extends XotBaseMigration {
             $table->json('html_template')->nullable();
             $table->json('text_template')->nullable();
             $table->string('version')->default('1.0.0');
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
-
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         });
 
         // -- UPDATE -- Aggiornamento della tabella esistente
         $this->tableUpdate(function (Blueprint $table): void {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
             if (!$this->hasColumn('name')) {
                 $table->string('name');
             }
@@ -100,42 +44,4 @@ return new class () extends XotBaseMigration {
             );
         });
     }
-<<<<<<< HEAD
-=======
-=======
-            if (! $this->hasColumn('name')) {
-=======
-            if (!$this->hasColumn('name')) {
->>>>>>> b93ef594b4 (.)
-                $table->string('name');
-            }
-            if (!$this->hasColumn('slug')) {
-                $table->string('slug')->unique();
-            }
-
-            $this->updateTimestamps(
-                table: $table,
-                hasSoftDeletes: true,
-            );
-        });
-    }
-<<<<<<< HEAD
-
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
-            if (! $this->hasColumn('name')) {
-                $table->string('name');
-            }
-            if (! $this->hasColumn('slug')) {
-                $table->string('slug')->unique();
-            }
-
-            $this->updateTimestamps(table: $table, hasSoftDeletes: true);
-        });
-    }
-
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 };
