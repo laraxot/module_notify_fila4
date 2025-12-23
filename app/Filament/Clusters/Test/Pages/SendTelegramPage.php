@@ -59,32 +59,32 @@ class SendTelegramPage extends XotBasePage implements HasForms
     public function getTelegramFormSchema(): array
     {
         return [
-            'chat_id' => TextInput::make('chat_id')->required()->helperText('ID della chat o username del canale'),
-            'text' => TextInput::make('text')
+            TextInput::make('chat_id')->required()->helperText('ID della chat o username del canale'),
+            TextInput::make('text')
                 ->required()
                 ->maxLength(4096)
                 ->helperText('Il messaggio non può superare i 4096 caratteri'),
-            'driver' => Select::make('driver')
+            Select::make('driver')
                 ->options([
                     'bot' => 'Bot API',
                     'webhook' => 'Webhook',
                 ])
                 ->default('bot')
                 ->required(),
-            'parse_mode' => Select::make('parse_mode')
+            Select::make('parse_mode')
                 ->options([
                     'HTML' => 'HTML',
                     'Markdown' => 'Markdown',
                     'MarkdownV2' => 'MarkdownV2',
                 ])
                 ->helperText('Formato del testo (opzionale)'),
-            'disable_web_page_preview' => Toggle::make('disable_web_page_preview')->helperText('Disabilita l\'anteprima dei link'),
-            'disable_notification' => Toggle::make('disable_notification')->helperText('Invia il messaggio silenziosamente'),
-            'reply_to_message_id' => TextInput::make('reply_to_message_id')
+            Toggle::make('disable_web_page_preview')->helperText('Disabilita l\'anteprima dei link'),
+            Toggle::make('disable_notification')->helperText('Invia il messaggio silenziosamente'),
+            TextInput::make('reply_to_message_id')
                 ->numeric()
                 ->helperText('ID del messaggio a cui rispondere'),
-            'media_url' => TextInput::make('media_url')->url()->helperText('URL del media (opzionale)'),
-            'media_type' => Select::make('media_type')
+            TextInput::make('media_url')->url()->helperText('URL del media (opzionale)'),
+            Select::make('media_type')
                 ->options([
                     'photo' => 'Foto',
                     'video' => 'Video',
@@ -92,7 +92,7 @@ class SendTelegramPage extends XotBasePage implements HasForms
                     'audio' => 'Audio',
                 ])
                 ->helperText('Tipo di media (opzionale)'),
-            'caption' => TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
         ];
     }
 
