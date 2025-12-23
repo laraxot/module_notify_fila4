@@ -502,4 +502,8 @@ describe('Template Management Business Logic', function (): void {
             'validation_messages' => json_encode($validationData['validation_messages']),
         ]);
     });
+<<<<<<< HEAD
 });
+=======
+}
+>>>>>>> b19cd40 (.)
