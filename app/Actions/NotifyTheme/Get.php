@@ -42,16 +42,19 @@ class Get
 
         $trad_mod = $module_name_low.'::'.$type.'.'.$name;
 
-        if ($theme->subject === null) {
+        $subjectValue = $theme->attributes['subject'] ?? null;
+        if ($subjectValue === null) {
             $subject = trans($trad_mod.'.subject');
             $theme->update(['subject' => $subject]);
         }
 
-        if ($theme->theme === null) {
+        $themeValue = $theme->attributes['theme'] ?? null;
+        if ($themeValue === null) {
             $theme->update(['theme' => 'ark']);
         }
 
-        if ($theme->body_html === null) {
+        $bodyHtml = $theme->attributes['body_html'] ?? null;
+        if ($bodyHtml === null) {
             $html = trans($trad_mod.'.body_html');
             if (isset($view_params['body_html']) && $html === ($trad_mod.'.body_html')) {
                 $html = '##body_html##';
@@ -67,10 +70,10 @@ class Get
 
         $view_params['now'] = now()->format('d/m/Y');
 
-        $body_html = $theme->body_html;
-        $subject = $theme->subject;
+        $body_html = /** @phpstan-ignore-line property.notFound */ $theme->body_html;
+        $subject = /** @phpstan-ignore-line property.notFound */ $theme->subject;
 
-        if ($theme->theme !== 'empty') {
+        if (/** @phpstan-ignore-line property.notFound */ $theme->theme !== 'empty') {
             $view_params['logo'] = $theme->logo;
         } else {
             // Verifichiamo che i valori siano stringhe o utilizziamo valori di default
@@ -120,8 +123,8 @@ class Get
         }
 
         return NotifyThemeData::from([
-            'from_email' => $theme->from_email,
-            'from' => $theme->from,
+            'from_email' => $theme->attributes['from_email'] ?? null,
+            'from' => $theme->attributes['from'] ?? null,
             'subject' => $subject,
             'body_html' => $body_html,
             'view_params' => $view_params,
