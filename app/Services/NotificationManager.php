@@ -8,6 +8,7 @@ use Exception;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Actions\SendNotificationAction;
+use Modules\Notify\Models\NotificationLog;
 use Modules\Notify\Models\NotificationTemplate;
 
 class NotificationManager
@@ -20,6 +21,7 @@ class NotificationManager
      * @param  array<string, mixed>  $data  I dati per compilare il template
      * @param  array<int, string>  $channels  I canali da utilizzare (opzionale)
      * @param  array<string, mixed>  $options  Opzioni aggiuntive per l'invio
+     * @return array<string, mixed>
      */
     public function send(
         Model $recipient,
@@ -34,15 +36,8 @@ class NotificationManager
             throw new Exception("Template not found: {$templateCode}");
         }
 
-        /** @var array<string, mixed> $safeData */
-        $safeData = $data;
-        /** @var array<int, string> $safeChannels */
-        $safeChannels = array_values($channels);
-        /** @var array<string, mixed> $safeOptions */
-        $safeOptions = $options;
-
         $action = app(SendNotificationAction::class);
-        $action->execute($recipient, $templateCode, $safeData, $safeChannels, $safeOptions);
+        $action->execute($recipient, $templateCode, $data, $channels, $options);
 
         return [];
     }
@@ -50,12 +45,12 @@ class NotificationManager
     /**
      * Invia una notifica a più destinatari.
      *
-     * @param  array<Model>  $recipients  I destinatari delle notifiche
+     * @param  array<int, Model>  $recipients  I destinatari delle notifiche
      * @param  string  $templateCode  Il codice del template da utilizzare
      * @param  array<string, mixed>  $data  I dati per compilare il template
      * @param  array<int, string>  $channels  I canali da utilizzare (opzionale)
      * @param  array<string, mixed>  $options  Opzioni aggiuntive per l'invio
-     * @return array<array>
+     * @return array<int, array<string, mixed>>
      */
     public function sendMultiple(
         array $recipients,
@@ -64,12 +59,14 @@ class NotificationManager
         array $channels = [],
         array $options = [],
     ): array {
+        /** @var array<int, array<string, mixed>> $logs */
         $logs = [];
 
         foreach ($recipients as $recipient) {
-            if ($recipient instanceof Model) {
-                $logs[] = $this->send($recipient, $templateCode, $data, $channels, $options);
+            if (! ($recipient instanceof Model)) {
+                continue;
             }
+            $logs[] = $this->send($recipient, $templateCode, $data, $channels, $options);
         }
 
         return $logs;
@@ -91,7 +88,7 @@ class NotificationManager
      * @param  string  $category  La categoria dei template
      * @return Collection<NotificationTemplate>
      */
-    public function getTemplatesByCategory(string $category): Collection
+    public function getTemplatesByCategory(string $category)
     {
         return NotificationTemplate::where('category', $category)->where('is_active', true)->get();
     }
@@ -102,7 +99,7 @@ class NotificationManager
      * @param  string  $channel  Il canale di notifica
      * @return Collection<NotificationTemplate>
      */
-    public function getTemplatesByChannel(string $channel): Collection
+    public function getTemplatesByChannel(string $channel)
     {
         return NotificationTemplate::forChannel($channel)->where('is_active', true)->get();
     }

@@ -25,13 +25,14 @@ class RecordNotificationData extends Data
     {
         switch ($this->channel) {
             case 'mail':
-                Assert::string($email = $this->record->email, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+                Assert::string($email = $this->record->email, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
 
                 return $email;
             case 'sms':
-                Assert::string($phone = $this->record->phone, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+                Assert::string($phone = $this->record->phone, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+                $phone = app(NormalizePhoneNumberAction::class)->execute($phone);
 
-                return app(NormalizePhoneNumberAction::class)->execute($phone);
+                return $phone;
         }
         throw new Exception('Channel ['.$this->channel.'] not supported');
     }

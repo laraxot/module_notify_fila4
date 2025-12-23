@@ -19,17 +19,18 @@ final class SendBotmanTelegramAction
 {
     use QueueableAction;
 
+    private string $token;
+
+    private string $apiUrl;
+
+    /** @var array<string, mixed> */
+    private array $vars = [];
+
     protected bool $debug;
 
     protected int $timeout;
 
     protected ?string $parseMode;
-
-    private string $token;
-
-    private string $apiUrl;
-
-    private array $vars = [];
 
     /**
      * Create a new action instance.
@@ -58,7 +59,7 @@ final class SendBotmanTelegramAction
      * Execute the action.
      *
      * @param  TelegramData  $telegramData  I dati del messaggio Telegram
-     * @return array Risultato dell'operazione
+     * @return array<string, mixed> Risultato dell'operazione
      *
      * @throws Exception In caso di errore durante l'invio
      */
@@ -109,7 +110,7 @@ final class SendBotmanTelegramAction
             $payload['disable_web_page_preview'] = $telegramData->disableWebPagePreview;
         } elseif (
             in_array($telegramData->type, ['photo', 'video', 'document', 'audio', 'animation'], strict: true) &&
-                ! empty($telegramData->media)
+            ! empty($telegramData->media)
         ) {
             $mediaType = $telegramData->type;
             $payload[$mediaType] = $telegramData->media[0];
@@ -124,8 +125,8 @@ final class SendBotmanTelegramAction
 
             $statusCode = $response->getStatusCode();
             $responseContent = $response->getBody()->getContents();
-            /** @var array{ok?: bool, result?: array{message_id?: int}} $responseData */
-            $responseData = json_decode($responseContent, true);
+            /** @var array<string, mixed> $responseData */
+            $responseData = json_decode($responseContent, true) ?: [];
 
             // Salva i dati della risposta nelle variabili dell'azione
             $this->vars['status_code'] = $statusCode;
@@ -137,14 +138,13 @@ final class SendBotmanTelegramAction
                 'response_code' => $statusCode,
             ]);
 
-            // Extract message_id safely
-            $messageId = null;
-            if (isset($responseData['result']) && is_array($responseData['result']) && isset($responseData['result']['message_id'])) {
-                $messageId = is_int($responseData['result']['message_id']) ? $responseData['result']['message_id'] : (int) $responseData['result']['message_id'];
-            }
+            /** @var array<string, mixed> $result */
+            $result = $responseData['result'] ?? [];
+            /** @var int|null $messageId */
+            $messageId = isset($result['message_id']) && is_int($result['message_id']) ? $result['message_id'] : null;
 
             return [
-                'success' => $responseData['ok'] ?? false,
+                'success' => ($responseData['ok'] ?? false) === true,
                 'message_id' => $messageId,
                 'response' => $responseData,
                 'vars' => $this->vars,
@@ -152,8 +152,8 @@ final class SendBotmanTelegramAction
         } catch (ClientException $e) {
             $response = $e->getResponse();
             $statusCode = $response->getStatusCode();
-            /** @var array $responseBody */
-            $responseBody = json_decode($response->getBody()->getContents(), true);
+            /** @var array<string, mixed> $responseBody */
+            $responseBody = json_decode($response->getBody()->getContents(), true) ?: [];
 
             // Salva i dati dell'errore nelle variabili dell'azione
             $this->vars['error_code'] = $statusCode;
@@ -168,8 +168,12 @@ final class SendBotmanTelegramAction
 
             return [
                 'success' => false,
-                'error' => $responseBody['description'] ?? 'Errore sconosciuto',
-                'error_code' => $responseBody['error_code'] ?? null,
+                'error' => isset($responseBody['description']) && is_string($responseBody['description'])
+                    ? $responseBody['description']
+                    : 'Errore sconosciuto',
+                'error_code' => isset($responseBody['error_code']) && is_int($responseBody['error_code'])
+                    ? $responseBody['error_code']
+                    : null,
                 'status_code' => $statusCode,
                 'vars' => $this->vars,
             ];

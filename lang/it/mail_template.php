@@ -142,6 +142,9 @@ return [
         'counter' => [
             'label' => 'counter',
         ],
+        'html_layout_path' => [
+            'description' => 'html_layout_path',
+        ],
     ],
     'actions' => [
         'preview' => [
@@ -177,31 +180,6 @@ return [
         'activeLocale' => [
             'label' => 'activeLocale',
         ],
-        'logout' => [
-            'tooltip' => 'logout',
-            'icon' => 'logout',
-            'label' => 'logout',
-        ],
-        'profile' => [
-            'tooltip' => 'profile',
-            'icon' => 'profile',
-            'label' => 'profile',
-        ],
-        'cancel' => [
-            'tooltip' => 'cancel',
-            'icon' => 'cancel',
-            'label' => 'cancel',
-        ],
-        'reorderRecords' => [
-            'tooltip' => 'reorderRecords',
-            'icon' => 'reorderRecords',
-            'label' => 'reorderRecords',
-        ],
-        'save' => [
-            'tooltip' => 'save',
-            'icon' => 'save',
-            'label' => 'save',
-        ],
     ],
     'messages' => [
         'success' => 'Operazione completata con successo',
@@ -223,5 +201,4 @@ return [
     'model' => [
         'label' => 'mail template.model',
     ],
-    'label' => 'mail template',
 ];

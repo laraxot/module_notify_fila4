@@ -65,14 +65,7 @@ class SendNotificationJob implements ShouldQueue
      */
     public function handle(SendNotificationAction $action): void
     {
-        /** @var array<string, mixed> $data */
-        $data = $this->data;
-        /** @var array<int, string> $channels */
-        $channels = array_values($this->channels);
-        /** @var array<string, mixed> $options */
-        $options = $this->options;
-
-        $action->execute($this->recipient, $this->templateCode, $data, $channels, $options);
+        $action->execute($this->recipient, $this->templateCode, $this->data, $this->channels, $this->options);
     }
 
     /**

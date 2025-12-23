@@ -4,7 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models;
 
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Carbon;
+use Modules\Notify\Database\Factories\ContactFactory;
+use Modules\Xot\Contracts\ProfileContract;
+use Override;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
 
@@ -51,16 +55,71 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
  * @property int|null $duplicate_count
  * @property int|null $order_column
  *
+ * @method static ContactFactory factory($count = null, $state = [])
+ * @method static Builder|Contact newModelQuery()
+ * @method static Builder|Contact newQuery()
+ * @method static Builder|Contact query()
+ * @method static Builder|Contact whereContactType($value)
+ * @method static Builder|Contact whereCreatedAt($value)
+ * @method static Builder|Contact whereCreatedBy($value)
+ * @method static Builder|Contact whereId($value)
+ * @method static Builder|Contact whereModelId($value)
+ * @method static Builder|Contact whereModelType($value)
+ * @method static Builder|Contact whereLastName($value)
+ * @method static Builder|Contact whereMailCount($value)
+ * @method static Builder|Contact whereMailSentAt($value)
+ * @method static Builder|Contact whereMobilePhone($value)
+ * @method static Builder|Contact whereOrderColumn($value)
+ * @method static Builder|Contact whereSmsCount($value)
+ * @method static Builder|Contact whereSmsSentAt($value)
+ * @method static Builder|Contact whereSmsStatusCode($value)
+ * @method static Builder|Contact whereSmsStatusTxt($value)
+ * @method static Builder|Contact whereSurveyPdfId($value)
+ * @method static Builder|Contact whereToken($value)
+ * @method static Builder|Contact whereUpdatedAt($value)
+ * @method static Builder|Contact whereUpdatedBy($value)
+ * @method static Builder|Contact whereUserId($value)
+ * @method static Builder|Contact whereValue($value)
+ * @method static Builder|Contact whereVerifiedAt($value)
+ *
  * @mixin Eloquent
  *
  * @property string|null $email
  * @property string|null $mobile_phone
+ *
+ * @method static Builder|Contact whereAttribute1($value)
+ * @method static Builder|Contact whereAttribute10($value)
+ * @method static Builder|Contact whereAttribute11($value)
+ * @method static Builder|Contact whereAttribute12($value)
+ * @method static Builder|Contact whereAttribute13($value)
+ * @method static Builder|Contact whereAttribute14($value)
+ * @method static Builder|Contact whereAttribute2($value)
+ * @method static Builder|Contact whereAttribute3($value)
+ * @method static Builder|Contact whereAttribute4($value)
+ * @method static Builder|Contact whereAttribute5($value)
+ * @method static Builder|Contact whereAttribute6($value)
+ * @method static Builder|Contact whereAttribute7($value)
+ * @method static Builder|Contact whereAttribute8($value)
+ * @method static Builder|Contact whereAttribute9($value)
+ * @method static Builder|Contact whereDuplicateCount($value)
+ * @method static Builder|Contact whereEmail($value)
+ * @method static Builder|Contact whereFirstName($value)
+ * @method static Builder|Contact whereUsesleft($value)
+ *
+ * @property ProfileContract|null $creator
+ * @property ProfileContract|null $updater
  * @property MediaCollection<int, Media> $media
  * @property int|null $media_count
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
  *
+ * @method static Builder<static>|Contact whereDeletedAt($value)
+ * @method static Builder<static>|Contact whereDeletedBy($value)
+ *
  * @mixin IdeHelperContact
+ *
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $deleter
+ *
  * @mixin \Eloquent
  */
 class Contact extends BaseModel
@@ -80,6 +139,8 @@ class Contact extends BaseModel
         'token',
     ];
 
+    /** @return array<string, string> */
+    #[Override]
     protected function casts(): array
     {
         return [

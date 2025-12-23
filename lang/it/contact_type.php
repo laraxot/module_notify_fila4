@@ -40,5 +40,11 @@ return [
             'helper_text' => '',
             'description' => 'fax',
         ],
+        'notes' => [
+            'description' => 'notes',
+            'helper_text' => 'notes',
+            'placeholder' => 'notes',
+            'label' => 'notes',
+        ],
     ],
 ];

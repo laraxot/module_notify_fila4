@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
+use BackedEnum;
 use Exception;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
@@ -24,16 +25,17 @@ use Modules\Notify\Filament\Clusters\Test;
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Notifications\RecordNotification;
 use Modules\Xot\Filament\Pages\XotBasePage;
+use Override;
 use Webmozart\Assert\Assert;
 
 /**
- * @property Schema $emailForm
+ * @property \Filament\Schemas\Schema $emailForm
  */
 class SendSpatieEmailPage extends XotBasePage
 {
     public ?array $emailData = [];
 
-    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-paper-airplane';
+    protected static string|BackedEnum|null $navigationIcon = 'heroicon-o-paper-airplane';
 
     protected string $view = 'notify::filament.pages.send-email';
 
@@ -59,18 +61,26 @@ class SendSpatieEmailPage extends XotBasePage
         $this->emailForm->fill();
     }
 
+    public function emailForm(Schema $schema): Schema
+    {
+        return $schema->schema($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
+    }
+
+    /**
+     * @return array<string, \Filament\Forms\Components\TextInput|\Filament\Forms\Components\Select|\Filament\Forms\Components\RichEditor>
+     */
     public function getEmailFormSchema(): array
     {
         return [
-            TextInput::make('to')->email()->required(),
+            'recipient' => TextInput::make('recipient')->email()->required(),
             /*
-             * Forms\Components\TextInput::make('subject')
+             * 'subject' => Forms\Components\TextInput::make('subject')
              * ->required(),
              */
-            Select::make('mail_template_slug')
+            'mail_template_slug' => Select::make('mail_template_slug')
                 ->options(MailTemplate::all()->pluck('slug', 'slug'))
                 ->required(),
-            RichEditor::make('body_html')->required(),
+            'body_html' => RichEditor::make('body_html')->required(),
         ];
     }
 
@@ -80,7 +90,7 @@ class SendSpatieEmailPage extends XotBasePage
         /*
          * $email_data = EmailData::from($data);
          *
-         * Mail::to($data['to'])->send(
+         * Mail::to($data['recipient'])->send(
          * new EmailDataEmail($email_data)
          * );
          *
@@ -99,22 +109,24 @@ class SendSpatieEmailPage extends XotBasePage
                 'mime' => 'image/png',
             ],
         ];
-        // Mail::to($data['to'])->locale('it')->send((new SpatieEmail($user,'due'))->addAttachments($attachments));
+        // Mail::to($data['recipient'])->locale('it')->send((new SpatieEmail($user,'due'))->addAttachments($attachments));
         /*
          * // Create and send the email
          * $email = new SpatieEmail($user, 'uno');
          * $email->addAttachments($attachments);
          *
-         * Mail::to($data['to'])
+         * Mail::to($data['recipient'])
          * ->locale('it')
          * ->send($email);
          */
-        Assert::string($mail_template_slug = $data['mail_template_slug'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
-        $notify = new RecordNotification($user, $mail_template_slug);
-        $notify->mergeData($data);
+        $mail_template_slug = $data['mail_template_slug'];
+        Assert::string($mail_template_slug, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        // RecordNotification resolves MailTemplate internally from slug (lazy resolution)
+        // No need to pre-load MailTemplate - pass slug directly
+        $recordNotification = new RecordNotification($user, $mail_template_slug);
+        $notify = $recordNotification->mergeData($data);
 
-        Notification::route('mail', $data['to'])
-            // ->locale('it')
+        Notification::route('mail', $data['recipient'])
             ->notify($notify);
 
         FilamentNotification::make()
@@ -131,7 +143,7 @@ class SendSpatieEmailPage extends XotBasePage
         ];
     }
 
-    #[\Override]
+    #[Override]
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();

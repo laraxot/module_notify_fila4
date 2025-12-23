@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Jobs;
 
+use Exception;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
@@ -12,6 +13,7 @@ use Illuminate\Queue\SerializesModels;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Log;
 use Modules\Notify\Services\PushNotificationService;
+use Throwable;
 use Webmozart\Assert\Assert;
 
 /**
@@ -71,7 +73,7 @@ class SendScheduledPushNotification implements ShouldQueue
 
             // Rimuovi notifica programmata
             Cache::forget("scheduled_push:{$this->jobId}");
-        } catch (\Exception $e) {
+        } catch (Exception $e) {
             Log::error('Scheduled push notification failed', [
                 'job_id' => $this->jobId,
                 'error' => $e->getMessage(),
@@ -85,7 +87,7 @@ class SendScheduledPushNotification implements ShouldQueue
     /**
      * Handle a job failure.
      */
-    public function failed(\Throwable $exception): void
+    public function failed(Throwable $exception): void
     {
         Log::error('Scheduled push notification job failed permanently', [
             'job_id' => $this->jobId,

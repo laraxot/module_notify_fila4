@@ -10,7 +10,6 @@ use Modules\Notify\Actions\NotifyTheme\Get;
 use Modules\Notify\Datas\AttachmentData;
 use Spatie\LaravelData\DataCollection;
 use Spatie\QueueableAction\QueueableAction;
-use Webmozart\Assert\Assert;
 
 class BuildMailMessageAction
 {
@@ -32,22 +31,27 @@ class BuildMailMessageAction
         $theme = app(Get::class)->execute($name, $type, $view_params);
         $view_html = 'notify::email';
         // dddx([$theme, $view_params]);
-        $params = [
-            'from_address' => $theme->view_params['from_email'] ?? $theme->from_email,
-            'from_name' => $theme->view_params['from'] ?? $theme->from,
-            'subject' => $view_params['subject'] ?? $theme->subject,
-        ];
+        $fromAddress = $theme->view_params['from_email'] ?? $theme->from_email;
+        $fromName = $theme->view_params['from'] ?? $theme->from;
+        $subject = $view_params['subject'] ?? $theme->subject;
 
-        Assert::keyExists($params, 'from_address');
-        Assert::keyExists($params, 'from_name');
-        Assert::keyExists($params, 'subject');
-        Assert::string($params['from_address'], 'from_address must be string');
-        Assert::nullOrString($params['from_name'], 'from_name must be string or null');
-        Assert::string($params['subject'], 'subject must be string');
+        // Utilizziamo asserzioni per verificare che i valori siano stringhe
+        if (! is_string($fromAddress)) {
+            $fromAddress = '';
+        }
+
+        // Il nome del mittente può essere null
+        if ($fromName !== null && ! is_string($fromName)) {
+            $fromName = '';
+        }
+
+        if (! is_string($subject)) {
+            $subject = 'Notifica';
+        }
 
         $email = (new MailMessage)
-            ->from($params['from_address'], $params['from_name'])
-            ->subject($params['subject'])
+            ->from($fromAddress, $fromName)
+            ->subject($subject)
             ->view($view_html, $theme->view_params);
 
         if ($dataCollection instanceof DataCollection) {

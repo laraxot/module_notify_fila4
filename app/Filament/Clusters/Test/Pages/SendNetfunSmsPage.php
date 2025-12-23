@@ -21,9 +21,10 @@ use Modules\Notify\Datas\SmsData;
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\Notify\Notifications\SmsNotification;
 use Modules\Xot\Filament\Pages\XotBasePage;
+use Override;
 
 /**
- * @property Schema $smsForm
+ * @property \Filament\Schemas\Schema $smsForm
  */
 class SendNetfunSmsPage extends XotBasePage
 {
@@ -62,10 +63,18 @@ class SendNetfunSmsPage extends XotBasePage
         $this->smsForm->fill();
     }
 
+    public function smsForm(Schema $schema): Schema
+    {
+        return $schema->schema($this->getSmsFormSchema())->model($this->getUser())->statePath('smsData');
+    }
+
+    /**
+     * @return array<string, \Filament\Forms\Components\TextInput|\Filament\Forms\Components\Textarea|\Filament\Forms\Components\Select>
+     */
     public function getSmsFormSchema(): array
     {
         return [
-            'to' => TextInput::make('to')
+            'recipient' => TextInput::make('recipient')
                 ->label(__('notify::sms.form.to.label'))
                 ->tel()
                 ->required()
@@ -103,15 +112,10 @@ class SendNetfunSmsPage extends XotBasePage
         $data = $this->smsForm->getState();
 
         $smsData = SmsData::from($data);
-        /*
-         * $smsData->to = $data['to'];
-         * $smsData->from = $data['from'];
-         * $smsData->body = $data['body'];
-         */
         $provider = $data['provider'] ?? 'netfun';
 
         try {
-            Notification::route('sms', $data['to'])->notify(new SmsNotification($smsData, ['provider' => $provider]));
+            Notification::route('sms', $data['recipient'])->notify(new SmsNotification($smsData, ['provider' => $provider]));
 
             FilamentNotification::make()
                 ->success()
@@ -120,14 +124,14 @@ class SendNetfunSmsPage extends XotBasePage
                 ->send();
 
             Log::info('SMS inviato con successo', [
-                'to' => $data['to'],
+                'recipient' => $data['recipient'],
                 'from' => $data['from'],
                 'provider' => $provider,
             ]);
         } catch (Exception $e) {
             Log::error('Errore durante l\'invio dell\'SMS', [
                 'error' => $e->getMessage(),
-                'to' => $data['to'],
+                'recipient' => $data['recipient'],
                 'from' => $data['from'],
                 'provider' => $provider,
             ]);
@@ -147,7 +151,7 @@ class SendNetfunSmsPage extends XotBasePage
         ];
     }
 
-    #[\Override]
+    #[Override]
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();

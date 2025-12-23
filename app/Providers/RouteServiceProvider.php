@@ -8,6 +8,9 @@ use Modules\Xot\Providers\XotBaseRouteServiceProvider;
 
 class RouteServiceProvider extends XotBaseRouteServiceProvider
 {
+    /**
+     * The module name.
+     */
     public string $name = 'Notify';
 
     /**

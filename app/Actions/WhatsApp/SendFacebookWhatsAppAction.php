@@ -17,17 +17,18 @@ final class SendFacebookWhatsAppAction
 {
     use QueueableAction;
 
-    protected bool $debug;
-
-    protected int $timeout;
-
     private string $accessToken;
 
     private string $phoneNumberId;
 
     private string $baseUrl = 'https://graph.facebook.com/v17.0';
 
+    /** @var array<string, mixed> */
     private array $vars = [];
+
+    protected bool $debug;
+
+    protected int $timeout;
 
     /**
      * Create a new action instance.
@@ -59,7 +60,7 @@ final class SendFacebookWhatsAppAction
      * Execute the action.
      *
      * @param  WhatsAppData  $whatsAppData  I dati del messaggio WhatsApp
-     * @return array Risultato dell'operazione
+     * @return array<string, mixed> Risultato dell'operazione
      *
      * @throws Exception In caso di errore durante l'invio
      */
@@ -68,7 +69,7 @@ final class SendFacebookWhatsAppAction
         // Log di debug se abilitato
         if ($this->debug) {
             Log::debug('Invio WhatsApp Facebook', [
-                'to' => $whatsAppData->to,
+                'to' => $whatsAppData->recipient,
                 'message_length' => strlen($whatsAppData->body),
                 'type' => $whatsAppData->type,
             ]);
@@ -87,7 +88,7 @@ final class SendFacebookWhatsAppAction
         $payload = [
             'messaging_product' => 'whatsapp',
             'recipient_type' => 'individual',
-            'to' => $whatsAppData->to,
+            'to' => $whatsAppData->recipient,
         ];
 
         // Gestione diversi tipi di messaggi
@@ -103,7 +104,7 @@ final class SendFacebookWhatsAppAction
         } elseif ($whatsAppData->type === 'media' && ! empty($whatsAppData->media)) {
             $payload['type'] = 'image'; // o video, document, audio
             $payload['image'] = [
-                'link' => is_string($whatsAppData->media[0] ?? null) ? $whatsAppData->media[0] : '',
+                'link' => $whatsAppData->media[0],
             ];
         }
 
@@ -114,8 +115,8 @@ final class SendFacebookWhatsAppAction
 
             $statusCode = $response->getStatusCode();
             $responseContent = $response->getBody()->getContents();
-            /** @var array{messages?: array<int, array{id?: string}>, errors?: array<int, array{message?: string}>} $responseData */
-            $responseData = json_decode($responseContent, true);
+            /** @var array<string, mixed> $responseData */
+            $responseData = json_decode($responseContent, true) ?: [];
 
             // Salva i dati della risposta nelle variabili dell'azione
             $this->vars['status_code'] = $statusCode;
@@ -123,15 +124,18 @@ final class SendFacebookWhatsAppAction
             $this->vars['response_data'] = $responseData;
 
             Log::info('WhatsApp Facebook inviato con successo', [
-                'to' => $whatsAppData->to,
+                'to' => $whatsAppData->recipient,
                 'response_code' => $statusCode,
             ]);
 
-            // Extract message_id safely
-            $messageId = null;
-            if (isset($responseData['messages']) && is_array($responseData['messages']) && isset($responseData['messages'][0]['id'])) {
-                $messageId = is_string($responseData['messages'][0]['id']) ? $responseData['messages'][0]['id'] : (string) ($responseData['messages'][0]['id'] ?? '');
-            }
+            /** @var array<string, mixed>|null $messages */
+            $messages = $responseData['messages'] ?? null;
+            /** @var array<string, mixed>|null $firstMessage */
+            $firstMessage = (is_array($messages) && isset($messages[0]) && is_array($messages[0])) ? $messages[0] : null;
+            /** @var string|null $messageId */
+            $messageId = (is_array($firstMessage) && isset($firstMessage['id']) && is_string($firstMessage['id']))
+                ? $firstMessage['id']
+                : null;
 
             return [
                 'success' => $statusCode >= 200 && $statusCode < 300,
@@ -142,8 +146,8 @@ final class SendFacebookWhatsAppAction
         } catch (ClientException $e) {
             $response = $e->getResponse();
             $statusCode = $response->getStatusCode();
-            /** @var array $responseBody */
-            $responseBody = json_decode($response->getBody()->getContents(), true);
+            /** @var array<string, mixed> $responseBody */
+            $responseBody = json_decode($response->getBody()->getContents(), true) ?: [];
 
             // Salva i dati dell'errore nelle variabili dell'azione
             $this->vars['error_code'] = $statusCode;
@@ -151,16 +155,17 @@ final class SendFacebookWhatsAppAction
             $this->vars['error_response'] = $responseBody;
 
             Log::warning('Errore invio WhatsApp Facebook', [
-                'to' => $whatsAppData->to,
+                'to' => $whatsAppData->recipient,
                 'status' => $statusCode,
                 'response' => $responseBody,
             ]);
 
-            // Extract error message safely
-            $errorMessage = 'Errore sconosciuto';
-            if (is_array($responseBody) && isset($responseBody['error']) && is_array($responseBody['error']) && isset($responseBody['error']['message'])) {
-                $errorMessage = is_string($responseBody['error']['message']) ? $responseBody['error']['message'] : 'Errore sconosciuto';
-            }
+            /** @var array<string, mixed>|null $error */
+            $error = $responseBody['error'] ?? null;
+            /** @var string $errorMessage */
+            $errorMessage = (is_array($error) && isset($error['message']) && is_string($error['message']))
+                ? $error['message']
+                : 'Errore sconosciuto';
 
             return [
                 'success' => false,

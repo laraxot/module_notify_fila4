@@ -1,85 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg"
-     viewBox="0 0 160 160"
-     role="img"
-     aria-label="Notify communication hub logo"
-     focusable="false">
-    <defs>
-        <linearGradient id="notify-spectrum" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stop-color="#0066CC"/>
-            <stop offset="55%" stop-color="#00AA66"/>
-            <stop offset="100%" stop-color="#00C7B1"/>
-        </linearGradient>
-        <radialGradient id="notify-pulse" cx="50%" cy="50%" r="50%">
-            <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.8"/>
-            <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
-        </radialGradient>
-    </defs>
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 160 40"
+    role="img"
+    aria-labelledby="notifyTitle notifyDesc"
+>
+  <title id="notifyTitle">Notify - Notification System</title>
+  <desc id="notifyDesc">
+    Minimal logo for the Notify module: envelope icon and wordmark.
+  </desc>
 
-    <style>
-        :root {
-            --notify-primary: #0066CC;
-            --notify-secondary: #00AA66;
-            --notify-accent: #00C7B1;
-            --notify-dark: #041B2E;
-        }
-        .ring {
-            fill: none;
-            stroke: url(#notify-spectrum);
-            stroke-width: 6;
-            stroke-linecap: round;
-        }
-        .orbit {
-            fill: none;
-            stroke: var(--notify-primary);
-            stroke-dasharray: 8 10;
-            stroke-width: 2;
-            opacity: 0.35;
-        }
-        .hub {
-            fill: var(--notify-dark);
-            stroke: url(#notify-spectrum);
-            stroke-width: 1.6;
-        }
-        .channel {
-            fill: var(--notify-primary);
-            stroke: none;
-        }
-        .channel--sms { fill: var(--notify-secondary); }
-        .channel--push { fill: var(--notify-accent); }
-        .pulse {
-            fill: url(#notify-pulse);
-        }
-        @media (prefers-color-scheme: dark) {
-            .hub { fill: #0A253F; }
-            .orbit { opacity: 0.5; }
-        }
-        @media (prefers-reduced-motion: reduce) {
-            .orbit { stroke-dasharray: none; }
-        }
-    </style>
+  <!-- Background (optional, transparent by default) -->
+  <rect x="0" y="0" width="160" height="40" fill="none" rx="4" ry="4" />
 
-    <!-- Communication rings -->
-    <circle class="ring" cx="80" cy="80" r="70"/>
-    <circle class="orbit" cx="80" cy="80" r="52"/>
-    <circle class="orbit" cx="80" cy="80" r="35"/>
+  <!-- Envelope Icon -->
+  <g transform="translate(8,8)">
+    <!-- Envelope body -->
+    <rect x="0" y="4" width="24" height="16" rx="2" ry="2" fill="#0f766e" />
+    <!-- Envelope flap -->
+    <path
+      d="M0 6 L12 14 L24 6"
+      fill="none"
+      stroke="#e0f2f1"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <!-- Envelope inner highlight -->
+    <path
+      d="M0 18 L9 12 M24 18 L15 12"
+      fill="none"
+      stroke="#14b8a6"
+      stroke-width="1.6"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <!-- Notification dot -->
+    <circle cx="21" cy="5" r="4" fill="#f97316" />
+    <circle cx="21" cy="5" r="2.4" fill="#fef3c7" />
+  </g>
 
-    <!-- Channels -->
-    <rect class="channel" x="108" y="38" width="26" height="18" rx="4" aria-label="Email channel"/>
-    <rect class="channel channel--sms" x="28" y="100" width="22" height="28" rx="5" aria-label="SMS channel"/>
-    <circle class="channel channel--push" cx="128" cy="106" r="11" aria-label="Push channel"/>
-
-    <!-- Connectors -->
-    <path d="M120 47 L103 62" stroke="url(#notify-spectrum)" stroke-width="2.5" stroke-linecap="round"/>
-    <path d="M128 100 L104 92" stroke="url(#notify-spectrum)" stroke-width="2.5" stroke-linecap="round"/>
-    <path d="M39 108 L60 96" stroke="url(#notify-spectrum)" stroke-width="2.5" stroke-linecap="round"/>
-
-    <!-- Hub -->
-    <polygon class="hub" points="80,42 110,62 110,98 80,118 50,98 50,62"/>
-    <circle class="pulse" cx="80" cy="80" r="26"/>
-
-    <!-- Signal chevrons -->
-    <path d="M80 58 L92 80 L80 102 L68 80 Z" fill="#FFFFFF" opacity="0.9"/>
-    <path d="M80 65 L88 80 L80 95 L72 80 Z" fill="url(#notify-spectrum)"/>
+  <!-- Wordmark -->
+  <g transform="translate(44,12)">
+    <!-- N -->
+    <path
+      d="M0 18 L0 0 L4.5 0 L9 11 L9 0 L12 0 L12 18 L7.5 18 L3 7 L3 18 Z"
+      fill="#0f172a"
+    />
+    <!-- o -->
+    <path
+      d="M18 7 C18 3.5 20.4 1 23.8 1 C27.2 1 29.6 3.5 29.6 7 C29.6 10.5 27.2 13 23.8 13 C20.4 13 18 10.5 18 7 Z
+         M21.2 7 C21.2 8.8 22.2 9.9 23.8 9.9 C25.4 9.9 26.4 8.8 26.4 7 C26.4 5.2 25.4 4.1 23.8 4.1 C22.2 4.1 21.2 5.2 21.2 7 Z"
+      fill="#0f172a"
+    />
+    <!-- t -->
+    <path
+      d="M33 3.2 C33 1.5 34.4 0.4 36.6 0.4 C37.4 0.4 38.1 0.5 38.8 0.7 L38.4 3.4
+         C38 3.3 37.6 3.2 37.2 3.2 C36.3 3.2 35.8 3.7 35.8 4.5 L35.8 10.4 L39.2 10.4 L39.2 13.2
+         L35.8 13.2 L35.8 18 L32.6 18 L32.6 3.2 Z"
+      fill="#0f172a"
+    />
+    <!-- i -->
+    <rect x="42" y="6" width="3.2" height="7.2" fill="#0f172a" />
+    <circle cx="43.6" cy="3" r="1.6" fill="#0f172a" />
+    <!-- f -->
+    <path
+      d="M50 3.2 C50 1.5 51.3 0.4 53.5 0.4 C54.3 0.4 55 0.5 55.7 0.7 L55.3 3.4
+         C54.9 3.3 54.5 3.2 54.1 3.2 C53.2 3.2 52.7 3.7 52.7 4.5 L52.7 18 L49.5 18 L49.5 3.2 Z"
+      fill="#0f172a"
+    />
+    <!-- y -->
+    <path
+      d="M58.8 6 L61.7 13 L64.6 6 L68 6 L62.9 18.5 C61.9 20.9 60.5 22 58.3 22
+         C57.4 22 56.6 21.9 55.8 21.6 L56.3 18.7 C56.7 18.9 57.2 19 57.7 19
+         C58.6 19 59.1 18.6 59.5 17.8 L59.8 17.1 L55.2 6 Z"
+      fill="#0f172a"
+    />
+  </g>
 </svg>
+
 

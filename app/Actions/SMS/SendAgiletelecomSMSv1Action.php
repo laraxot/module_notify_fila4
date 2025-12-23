@@ -5,9 +5,10 @@ declare(strict_types=1);
 namespace Modules\Notify\Actions\SMS;
 
 use GuzzleHttp\Client;
-use Modules\Notify\Contracts\SmsActionContract;
+use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SMS\AgiletelecomData;
 use Modules\Notify\Datas\SmsData;
+use Override;
 
 /**
  * Azione per l'invio di SMS tramite Agile Telecom.
@@ -16,17 +17,16 @@ use Modules\Notify\Datas\SmsData;
  */
 class SendAgiletelecomSMSv1Action implements SmsActionContract
 {
+    #[Override]
     public function execute(SmsData $data): array
     {
-        $base_uri = 'https://secure.agiletelecom.com/';
-        $relative_path = 'securesend_v1.aspx';
-
         $agile = AgiletelecomData::make();
-        $phone = app(NormalizePhoneNumberAction::class)->execute($data->to);
+        $url = 'https://secure.agiletelecom.com/securesend_v1.aspx';
+        $recipient = app(NormalizePhoneNumberAction::class)->execute($data->recipient);
 
-        $data = [
+        $payload = [
             'smsTEXT' => $data->body,
-            'smsNUMBER' => $phone,
+            'smsNUMBER' => $recipient,
             'smsSENDER' => $agile->sender,
             'smsGATEWAY' => 'H', // M = Qualità standard, H = Qualità Alta
             'smsUSER' => $agile->username,
@@ -40,13 +40,11 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
         ];
 
         $client = new Client([
-            'base_uri' => $base_uri,
             'timeout' => 2.0,
-            'form_params' => $data,
             'headers' => $headers,
         ]);
 
-        $connection = $client->request('POST', $relative_path);
+        $client->post($url, ['form_params' => $payload]);
 
         return [];
     }

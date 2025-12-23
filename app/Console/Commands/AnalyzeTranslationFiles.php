@@ -7,6 +7,7 @@ namespace Modules\Notify\Console\Commands;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
 use Symfony\Component\Console\Helper\Table;
+use Webmozart\Assert\Assert;
 
 class AnalyzeTranslationFiles extends Command
 {
@@ -39,8 +40,10 @@ class AnalyzeTranslationFiles extends Command
 
         // Collect all files and their keys
         foreach ($languages as $langDir) {
-            $lang = basename((string) $langDir);
-            $files = File::files((string) $langDir);
+            /** @var string $langDirPath */
+            $langDirPath = is_string($langDir) ? $langDir : (string) $langDir;
+            $lang = basename($langDirPath);
+            $files = File::files($langDirPath);
 
             foreach ($files as $file) {
                 $filename = $file->getFilename();
@@ -62,8 +65,7 @@ class AnalyzeTranslationFiles extends Command
                 $allFiles["{$lang}/{$filename}"] = $this->flattenArray($translations);
 
                 // Collect all unique keys
-                $flattenedKeys = $this->flattenArray($translations);
-                foreach (array_keys($flattenedKeys) as $key) {
+                foreach (array_keys($this->flattenArray($translations)) as $key) {
                     $allKeys[$key] = true;
                 }
             }
@@ -115,13 +117,14 @@ class AnalyzeTranslationFiles extends Command
         $patterns = [];
 
         foreach ($allFiles as $file => $keys) {
+            if (! is_array($keys)) {
+                continue;
+            }
             $topLevelKeys = [];
 
-            if (is_array($keys)) {
-                foreach (array_keys($keys) as $key) {
-                    $parts = explode('.', (string) $key);
-                    $topLevelKeys[$parts[0]] = true;
-                }
+            foreach (array_keys($keys) as $key) {
+                $parts = explode('.', (string) $key);
+                $topLevelKeys[$parts[0]] = true;
             }
 
             $pattern = implode(',', array_keys($topLevelKeys));
@@ -160,22 +163,13 @@ class AnalyzeTranslationFiles extends Command
         $table->setHeaders($headers);
 
         foreach ($allKeys as $key) {
+            Assert::string($key);
             $row = [$key];
 
-            // Type narrowing: assicura che $key sia string|int
-            if (! is_string($key) && ! is_int($key)) {
-                continue;
-            }
-
             foreach (array_keys($allFiles) as $file) {
-                // array_keys() restituisce sempre array di string|int
-                $fileData = $allFiles[$file] ?? [];
-                if (! is_array($fileData)) {
-                    $row[] = '✗';
-
-                    continue;
-                }
-                $row[] = isset($fileData[$key]) ? '✓' : '✗';
+                /** @var array<string, mixed>|null $fileData */
+                $fileData = $allFiles[$file] ?? null;
+                $row[] = (is_array($fileData) && isset($fileData[$key])) ? '✓' : '✗';
             }
 
             $table->addRow($row);
@@ -235,13 +229,14 @@ class AnalyzeTranslationFiles extends Command
         $navigationStructures = [];
 
         foreach ($allFiles as $file => $keys) {
+            if (! is_array($keys)) {
+                continue;
+            }
             $navigationKeys = [];
 
-            if (is_array($keys)) {
-                foreach (array_keys($keys) as $key) {
-                    if (str_starts_with((string) $key, 'navigation.')) {
-                        $navigationKeys[] = str_replace('navigation.', '', (string) $key);
-                    }
+            foreach (array_keys($keys) as $key) {
+                if (str_starts_with((string) $key, 'navigation.')) {
+                    $navigationKeys[] = str_replace('navigation.', '', (string) $key);
                 }
             }
 

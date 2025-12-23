@@ -8,18 +8,24 @@ use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Str;
-use Modules\Notify\Contracts\SmsActionContract;
+use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SMS\NexmoData;
 use Modules\Notify\Datas\SmsData;
+use Override;
+use Spatie\QueueableAction\QueueableAction;
 
 final class SendNexmoSMSAction implements SmsActionContract
 {
-    private NexmoData $nexmoData;
+    use QueueableAction;
 
-    private ?string $defaultSender = null;
+    private NexmoData $nexmoData;
 
     /** @var array<string, mixed> */
     private array $vars = [];
+
+    protected bool $debug;
+
+    protected ?string $defaultSender = null;
 
     /**
      * Create a new action instance.
@@ -39,6 +45,7 @@ final class SendNexmoSMSAction implements SmsActionContract
         // Parametri a livello di root
         $sender = config('sms.from');
         $this->defaultSender = is_string($sender) ? $sender : null;
+        $this->debug = (bool) config('sms.debug', false);
     }
 
     /**
@@ -49,6 +56,7 @@ final class SendNexmoSMSAction implements SmsActionContract
      *
      * @throws Exception In caso di errore durante l'invio
      */
+    #[Override]
     public function execute(SmsData $smsData): array
     {
         $headers = [
@@ -56,9 +64,9 @@ final class SendNexmoSMSAction implements SmsActionContract
         ];
 
         // Normalizza il numero di telefono
-        $to = (string) $smsData->to;
+        $to = (string) $smsData->recipient;
         if (Str::startsWith($to, '00')) {
-            $to = $to !== '' ? '+'.substr($to, 2) : $to;
+            $to = $to !== '' ? ('+'.substr($to, 2)) : $to;
         }
 
         if (! Str::startsWith($to, '+')) {

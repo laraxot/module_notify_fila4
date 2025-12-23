@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests;
 
+require_once __DIR__.'/../../Xot/tests/CreatesApplication.php';
+
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 use Modules\Notify\Providers\NotifyServiceProvider;
@@ -22,12 +24,6 @@ abstract class TestCase extends BaseTestCase
     protected function setUp(): void
     {
         parent::setUp();
-
-        // Load Notify module specific configurations
-        $this->loadLaravelMigrations();
-
-        // Seed any required data for Notify tests
-        $this->artisan('module:seed', ['module' => 'Notify']);
     }
 
     /**

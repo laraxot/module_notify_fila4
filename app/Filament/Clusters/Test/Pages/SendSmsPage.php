@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
+use BackedEnum;
 use Exception;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
@@ -22,16 +23,17 @@ use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Notifications\RecordNotification;
 use Modules\Notify\Notifications\SmsNotification;
 use Modules\Xot\Filament\Pages\XotBasePage;
+use Override;
 use Webmozart\Assert\Assert;
 
 /**
- * @property Schema $smsForm
+ * @property \Filament\Schemas\Schema $smsForm
  */
 class SendSmsPage extends XotBasePage
 {
     public ?array $smsData = [];
 
-    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-device-phone-mobile';
+    protected static string|BackedEnum|null $navigationIcon = 'heroicon-o-device-phone-mobile';
 
     protected string $view = 'notify::filament.pages.send-sms';
 
@@ -64,10 +66,18 @@ class SendSmsPage extends XotBasePage
         $this->smsForm->fill();
     }
 
+    public function smsForm(Schema $schema): Schema
+    {
+        return $schema->schema($this->getSmsFormSchema())->model($this->getUser())->statePath('smsData');
+    }
+
+    /**
+     * @return array<string, \Filament\Forms\Components\TextInput|\Filament\Forms\Components\Select>
+     */
     public function getSmsFormSchema(): array
     {
         return [
-            'to' => TextInput::make('to')
+            'recipient' => TextInput::make('recipient')
                 ->tel()
                 ->required()
                 ->helperText(__('notify::sms.fields.to.helper_text')),
@@ -97,13 +107,14 @@ class SendSmsPage extends XotBasePage
              * 'driver' => $data['driver']
              * ]));
              */
-            Assert::string($template_slug = $data['template_slug'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
-            $notify = new RecordNotification($user, $template_slug);
-            $notify->mergeData($data);
+            $template_slug = $data['template_slug'];
+            Assert::string($template_slug, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+            // RecordNotification resolves MailTemplate internally from slug (lazy resolution)
+            // No need to pre-load MailTemplate - pass slug directly
+            $recordNotification = new RecordNotification($user, $template_slug);
+            $notify = $recordNotification->mergeData($data);
 
-            Notification::route('sms', $data['to'])
-                // ->locale('it')
-                // ->notify(new RecordNotification($user,'due'))
+            Notification::route('sms', $data['recipient'])
                 ->notify($notify);
 
             FilamentNotification::make()
@@ -138,7 +149,7 @@ class SendSmsPage extends XotBasePage
         ];
     }
 
-    #[\Override]
+    #[Override]
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();

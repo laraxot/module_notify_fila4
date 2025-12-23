@@ -4,14 +4,17 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Resources;
 
-use Filament\Forms\Components\RichEditor;
-use Filament\Forms\Components\Textarea;
-use Filament\Forms\Components\TextInput;
-use Filament\Schemas\Components\Group;
-use Filament\Schemas\Components\View;
+use Override;
 use Illuminate\Support\Str;
-use Modules\Lang\Filament\Resources\LangBaseResource;
+use Filament\Schemas\Components\View;
+use Filament\Schemas\Components\Group;
+use Filament\Forms\Components\Textarea;
 use Modules\Notify\Models\MailTemplate;
+use Filament\Forms\Components\TextInput;
+use Filament\Forms\Components\RichEditor;
+use Filament\Schemas\Components\Utilities\Set;
+use Modules\Lang\Filament\Resources\LangBaseResource;
+use Modules\Notify\Filament\Forms\Components\HtmlLayoutPathSelect;
 
 class MailTemplateResource extends LangBaseResource
 {
@@ -25,20 +28,29 @@ class MailTemplateResource extends LangBaseResource
      * - Le etichette, i placeholder e i testi di aiuto sono gestiti tramite LangServiceProvider
      * - File di traduzione: Modules/Notify/resources/lang/{locale}/mail_template.php
      */
-    #[\Override]
+    #[Override]
     public static function getFormSchema(): array
     {
         return [
+            'mailable_slug_group' => Group::make()
+                ->schema([
             'mailable' => TextInput::make('mailable')
-                ->default('Modules\Notify\Emails\SpatieEmail')
-                ->required()
-                ->maxLength(255),
-            'name_group' => Group::make()
+                    ->default('Modules\Notify\Emails\SpatieEmail')
+                    ->required()
+                    ->readonly()
+                    ->maxLength(255),
+            'slug' => TextInput::make('slug')
+                    ->required()
+                    ->unique(ignoreRecord: true),
+            ])
+            ->columns(2),
+            /*
+            'name_slug_group' => Group::make()
                 ->schema([
                     TextInput::make('name')
                         ->label('Nome Template')
                         ->required()
-                        ->afterStateUpdated(function (string $state, \Filament\Schemas\Components\Utilities\Set $set): void {
+                        ->afterStateUpdated(function (string $state, Set $set): void {
                             $set('slug', Str::slug($state));
                         }),
                     TextInput::make('slug')
@@ -47,9 +59,14 @@ class MailTemplateResource extends LangBaseResource
                         ->unique(ignoreRecord: true),
                 ])
                 ->columns(2),
+            */
+
             'subject' => TextInput::make('subject')
                 ->required()
                 ->maxLength(255),
+            'html_layout_path' => HtmlLayoutPathSelect::make('html_layout_path')
+                ->required()
+                ,
             'html_template' => RichEditor::make('html_template')
                 ->required()
                 ->columnSpanFull(),

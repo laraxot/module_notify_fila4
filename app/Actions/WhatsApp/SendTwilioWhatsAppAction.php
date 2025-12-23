@@ -18,12 +18,6 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 {
     use QueueableAction;
 
-    protected bool $debug;
-
-    protected int $timeout;
-
-    protected ?string $defaultSender = null;
-
     private string $accountSid;
 
     private string $authToken;
@@ -32,6 +26,12 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 
     /** @var array<string, mixed> */
     private array $vars = [];
+
+    protected bool $debug;
+
+    protected int $timeout;
+
+    protected ?string $defaultSender = null;
 
     /**
      * Create a new action instance.
@@ -72,7 +72,7 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
     public function execute(WhatsAppData $whatsAppData): array
     {
         $from = 'whatsapp:'.($whatsAppData->from ?? $this->defaultSender);
-        $to = 'whatsapp:'.$whatsAppData->to;
+        $to = 'whatsapp:'.$whatsAppData->recipient;
 
         // Log di debug se abilitato
         if ($this->debug) {
@@ -117,7 +117,7 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
             $this->vars['response_data'] = $responseData;
 
             Log::info('WhatsApp Twilio inviato con successo', [
-                'to' => $whatsAppData->to,
+                'to' => $whatsAppData->recipient,
                 'response_code' => $statusCode,
             ]);
 
@@ -141,7 +141,7 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
             $this->vars['error_response'] = $responseBody;
 
             Log::warning('Errore invio WhatsApp Twilio', [
-                'to' => $whatsAppData->to,
+                'to' => $whatsAppData->recipient,
                 'status' => $statusCode,
                 'response' => $responseBody,
             ]);

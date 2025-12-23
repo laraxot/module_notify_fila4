@@ -9,33 +9,40 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
+use BackedEnum;
 use Exception;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
+use Filament\Forms\Components\RichEditor;
+use Filament\Forms\Components\TextInput;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
-use Filament\Pages\Page;
+use Filament\Schemas\Components\Section;
+use Filament\Schemas\Schema;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Notification;
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\Notify\Notifications\TelegramNotification;
+use Modules\Xot\Filament\Pages\XotBasePage;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use NotificationChannels\Telegram\TelegramMessage;
+use Telegram\Bot\Laravel\Facades\Telegram;
 use Webmozart\Assert\Assert;
 
-class SendTelegram extends Page implements HasForms
+/**
+ * @property \Filament\Schemas\Schema $emailForm
+ */
+class SendTelegram extends XotBasePage implements HasForms
 {
-    public array $data = [];
-
     use InteractsWithForms;
 
     // use NavigationLabelTrait;
 
     public ?array $emailData = [];
 
-    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-paper-airplane';
+    protected static string|BackedEnum|null $navigationIcon = 'heroicon-o-paper-airplane';
 
     protected string $view = 'notify::filament.pages.send-email';
 
@@ -46,9 +53,31 @@ class SendTelegram extends Page implements HasForms
         $this->fillForms();
     }
 
+    public function emailForm(Schema $schema): Schema
+    {
+        /*
+         * dddx($response = Telegram::getMe());
+         * $response = $telegram->sendMessage([
+         * 'chat_id' => 'CHAT_ID',
+         * 'text' => 'Hello World',
+         * ]);
+         */
+        return $schema
+            ->components([
+                Section::make()
+                    // ->description('Update your account\'s profile information and email address.')
+                    ->schema([
+                        TextInput::make('recipient')->required(),
+                        RichEditor::make('body')->required(),
+                    ]),
+            ])
+            ->model($this->getUser())
+            ->statePath('emailData');
+    }
+
     public function sendEmail(): void
     {
-        $data = $this->data;
+        $data = $this->emailForm->getState();
         Assert::string($token = config('services.telegram-bot-api.token'));
         $url = 'https://api.telegram.org/bot'.$token.'/getMe';
         Http::get($url);
@@ -70,13 +99,13 @@ class SendTelegram extends Page implements HasForms
         /*
          * $res = TelegramMessage::create()
          * // Optional recipient user id.
-         * ->to($data['to'])
+         * ->to($data['recipient'])
          * // Markdown supported.
          * ->content($data['body']);
          */
         // Notification::sendNow($developers, new TelegramNotification());
         $message = is_string($data['body']) ? $data['body'] : '';
-        Notification::route('telegram', $data['to'])->notify(new TelegramNotification($message));
+        Notification::route('telegram', $data['recipient'])->notify(new TelegramNotification($message));
     }
 
     protected function getForms(): array
@@ -112,6 +141,6 @@ class SendTelegram extends Page implements HasForms
         // $data = $this->getUser()->attributesToArray();
 
         // $this->editProfileForm->fill($data);
-        // Form data filled;
+        $this->emailForm->fill();
     }
 }

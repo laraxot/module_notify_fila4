@@ -22,6 +22,16 @@ final class WhatsAppActionFactory
      * Crea un'azione WhatsApp basata sul driver specificato o su quello predefinito.
      *
      * @param  string|null  $driver  Driver WhatsApp da utilizzare (se null, viene utilizzato quello predefinito)
+     * @return WhatsAppProviderActionInterface Azione WhatsApp corrispondente al driver
+     *
+     * @throws Exception Se il driver specificato non è supportato
+     */
+    /**
+     * Crea un'azione WhatsApp basata sul driver specificato o su quello predefinito.
+     * Utilizza una formula per calcolare il nome della classe dell'azione.
+     *
+     * @param  string|null  $driver  Driver WhatsApp da utilizzare (se null, viene utilizzato quello predefinito)
+     * @return WhatsAppProviderActionInterface Azione WhatsApp corrispondente al driver
      *
      * @throws Exception Se il driver specificato non è supportato o la classe non esiste
      */
@@ -30,11 +40,7 @@ final class WhatsAppActionFactory
         $driver ??= Config::get('whatsapp.default', 'twilio');
 
         // Gestione speciale per driver con caratteri non alfanumerici (es. 360dialog)
-        $normalizedDriver = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower((string) $driver)));
-
-        if ($normalizedDriver === '') {
-            $normalizedDriver = 'Twilio';
-        }
+        $normalizedDriver = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower(is_string($driver) ? $driver : '')));
 
         // Costruisci il nome completo della classe
         $className = "\\Modules\\Notify\\Actions\\WhatsApp\\Send{$normalizedDriver}WhatsAppAction";
@@ -53,13 +59,9 @@ final class WhatsAppActionFactory
             throw new Exception("Class {$className} does not implement WhatsAppProviderActionInterface.");
         }
 
+        /** @var WhatsAppProviderActionInterface $instance */
         $instance = app($className);
 
-        if (! $instance instanceof WhatsAppProviderActionInterface) {
-            throw new Exception("Failed to create instance of {$className}.");
-        }
-
-        /** @var WhatsAppProviderActionInterface $instance */
         return $instance;
     }
 }

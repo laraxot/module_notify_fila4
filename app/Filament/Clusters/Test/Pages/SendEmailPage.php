@@ -20,9 +20,10 @@ use Modules\Notify\Emails\EmailDataEmail;
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\Xot\Filament\Pages\XotBasePage;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
+use Override;
 
 /**
- * @property Schema $emailForm
+ * @property \Filament\Schemas\Schema $emailForm
  */
 class SendEmailPage extends XotBasePage
 {
@@ -41,13 +42,24 @@ class SendEmailPage extends XotBasePage
         $this->fillForms();
     }
 
+    public function emailForm(Schema $schema): Schema
+    {
+        /** @var array<string, \Filament\Schemas\Components\Component> $formSchema */
+        $formSchema = $this->getEmailFormSchema();
+
+        return $schema->components($formSchema)->model($this->getUser())->statePath('emailData');
+    }
+
+    /**
+     * @return array<string, \Filament\Schemas\Components\Component>
+     */
     public function getEmailFormSchema(): array
     {
         return [
             'section' => Section::make()
                 // ->description('Update your account\'s profile information and email address.')
                 ->schema([
-                    'to' => TextInput::make('to')
+                    'recipient' => TextInput::make('recipient')
                         // ->unique(ignoreRecord: true)
                         ->email()
                         ->required(),
@@ -62,7 +74,7 @@ class SendEmailPage extends XotBasePage
         $data = $this->emailForm->getState();
         $email_data = EmailData::from($data);
 
-        Mail::to($data['to'])->send(new EmailDataEmail($email_data));
+        Mail::to($data['recipient'])->send(new EmailDataEmail($email_data));
 
         Notification::make()
             ->success()
@@ -87,7 +99,7 @@ class SendEmailPage extends XotBasePage
         ];
     }
 
-    #[\Override]
+    #[Override]
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();

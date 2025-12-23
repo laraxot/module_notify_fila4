@@ -9,6 +9,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
+use BackedEnum;
 use Exception;
 use Filament\Actions\Action;
 use Filament\Forms\Components\Select;
@@ -36,7 +37,7 @@ class SendTelegramPage extends XotBasePage implements HasForms
 
     public ?array $telegramData = [];
 
-    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-paper-airplane';
+    protected static string|BackedEnum|null $navigationIcon = 'heroicon-o-paper-airplane';
 
     protected string $view = 'notify::filament.pages.send-telegram';
 
@@ -49,44 +50,41 @@ class SendTelegramPage extends XotBasePage implements HasForms
 
     public function telegramForm(Schema $schema): Schema
     {
-        /** @var array<\Illuminate\Contracts\Support\Htmlable|string> $components */
-        $components = array_values($this->getTelegramFormSchema());
-
-        return $schema
-            ->components($components)
-            ->model($this->getUser())
-            ->statePath('telegramData');
+        return $schema->schema($this->getTelegramFormSchema())->model($this->getUser())->statePath('telegramData');
     }
 
+    /**
+     * @return array<string, \Filament\Forms\Components\Select|\Filament\Forms\Components\TextInput|\Filament\Forms\Components\Toggle>
+     */
     public function getTelegramFormSchema(): array
     {
         return [
-            TextInput::make('chat_id')->required()->helperText('ID della chat o username del canale'),
-            TextInput::make('text')
+            'chat_id' => TextInput::make('chat_id')->required()->helperText('ID della chat o username del canale'),
+            'text' => TextInput::make('text')
                 ->required()
                 ->maxLength(4096)
                 ->helperText('Il messaggio non può superare i 4096 caratteri'),
-            Select::make('driver')
+            'driver' => Select::make('driver')
                 ->options([
                     'bot' => 'Bot API',
                     'webhook' => 'Webhook',
                 ])
                 ->default('bot')
                 ->required(),
-            Select::make('parse_mode')
+            'parse_mode' => Select::make('parse_mode')
                 ->options([
                     'HTML' => 'HTML',
                     'Markdown' => 'Markdown',
                     'MarkdownV2' => 'MarkdownV2',
                 ])
                 ->helperText('Formato del testo (opzionale)'),
-            Toggle::make('disable_web_page_preview')->helperText('Disabilita l\'anteprima dei link'),
-            Toggle::make('disable_notification')->helperText('Invia il messaggio silenziosamente'),
-            TextInput::make('reply_to_message_id')
+            'disable_web_page_preview' => Toggle::make('disable_web_page_preview')->helperText('Disabilita l\'anteprima dei link'),
+            'disable_notification' => Toggle::make('disable_notification')->helperText('Invia il messaggio silenziosamente'),
+            'reply_to_message_id' => TextInput::make('reply_to_message_id')
                 ->numeric()
                 ->helperText('ID del messaggio a cui rispondere'),
-            TextInput::make('media_url')->url()->helperText('URL del media (opzionale)'),
-            Select::make('media_type')
+            'media_url' => TextInput::make('media_url')->url()->helperText('URL del media (opzionale)'),
+            'media_type' => Select::make('media_type')
                 ->options([
                     'photo' => 'Foto',
                     'video' => 'Video',
@@ -94,7 +92,7 @@ class SendTelegramPage extends XotBasePage implements HasForms
                     'audio' => 'Audio',
                 ])
                 ->helperText('Tipo di media (opzionale)'),
-            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+            'caption' => TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
         ];
     }
 

@@ -4,12 +4,13 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Forms\Components;
 
-use Filament\Schemas\Components\Section;
+use Filament\Forms;
 use Modules\Notify\Enums\ContactTypeEnum;
+use Modules\Xot\Filament\Schemas\Components\XotBaseSection;
 
 // use Squire\Models\Country;
 
-class ContactSection extends Section
+class ContactSection extends XotBaseSection
 {
     // protected string $view = 'filament-forms::components.group';
 
@@ -18,12 +19,13 @@ class ContactSection extends Section
     protected function setUp(): void
     {
         parent::setUp();
-        /** @var array<\Illuminate\Contracts\Support\Htmlable|string> $schema */
-        $schema = array_values($this->getFormSchema());
-        $this->schema($schema);
+        $this->schema(fn (): array => $this->getFormSchema());
         $this->columns(2);
     }
 
+    /**
+     * @return array<string, \Filament\Forms\Components\TextInput>
+     */
     protected function getFormSchema(): array
     {
         return ContactTypeEnum::getFormSchema();

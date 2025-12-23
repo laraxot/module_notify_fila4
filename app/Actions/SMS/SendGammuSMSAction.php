@@ -6,9 +6,10 @@ namespace Modules\Notify\Actions\SMS;
 
 use Exception;
 use Illuminate\Support\Str;
-use Modules\Notify\Contracts\SmsActionContract;
+use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SMS\GammuData;
 use Modules\Notify\Datas\SmsData;
+use Override;
 use Spatie\QueueableAction\QueueableAction;
 use Symfony\Component\Process\Process;
 
@@ -20,14 +21,14 @@ final class SendGammuSMSAction implements SmsActionContract
 {
     use QueueableAction;
 
-    protected bool $debug;
-
-    protected ?string $defaultSender = null;
-
     private GammuData $gammuData;
 
     /** @var array<string, mixed> */
     private array $vars = [];
+
+    protected bool $debug;
+
+    protected ?string $defaultSender = null;
 
     /**
      * Create a new action instance.
@@ -58,10 +59,11 @@ final class SendGammuSMSAction implements SmsActionContract
      *
      * @throws Exception In caso di errore durante l'invio
      */
+    #[Override]
     public function execute(SmsData $smsData): array
     {
         // Normalizza il numero di telefono
-        $to = (string) $smsData->to;
+        $to = (string) $smsData->recipient;
         if (Str::startsWith($to, '00')) {
             $to = '+'.mb_substr($to, 2);
         }

@@ -134,10 +134,6 @@ return [
                 'cancel' => 'No, annulla',
             ],
         ],
-        'logout' => [
-            'tooltip' => 'logout',
-            'icon' => 'logout',
-        ],
     ],
     'messages' => [
         'created' => [

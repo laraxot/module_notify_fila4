@@ -6,6 +6,7 @@ namespace Modules\Notify\Actions;
 
 use Exception;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Notification;
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Notify\Notifications\GenericNotification;
@@ -25,8 +26,8 @@ class SendNotificationAction
      * @param  Model  $recipient  Il destinatario della notifica
      * @param  string  $templateCode  Il codice del template da utilizzare
      * @param  array<string, mixed>  $data  I dati per compilare il template
-     * @param  array<int, string>  $channels  I canali da utilizzare
-     * @param  array<string, mixed>  $options  Opzioni aggiuntive
+     * @param  array<int, string>  $channels  I canali da utilizzare (opzionale, usa quelli del template se non specificati)
+     * @param  array<string, mixed>  $options  Opzioni aggiuntive per l'invio
      *
      * @throws Exception Se il template non esiste o non è attivo
      */
@@ -50,30 +51,25 @@ class SendNotificationAction
         }
 
         // Compila il template
+        /** @var array{subject: string, body_html: string|null, body_text: string|null} $compiled */
         $compiled = $template->compile($data);
 
-        // Determina i canali da utilizzare
-        $templateChannels = $template->getAttribute('channels') ?? [];
-        $effectiveChannels = $channels ? $channels : $templateChannels;
+        // Usa i canali specificati o quelli del template
+        /** @var array<int, string> $templateChannels */
+        $templateChannels = $template->channels;
+        /** @var array<int, string> $channelsToUse */
+        $channelsToUse = ! empty($channels) ? $channels : $templateChannels;
 
-        // Assicurati che i canali siano stringhe valide
-        $filteredChannels = [];
-        if (is_array($effectiveChannels)) {
-            foreach ($effectiveChannels as $channel) {
-                if (is_string($channel)) {
-                    $filteredChannels[] = $channel;
-                }
+        // Invia tramite ogni canale
+        foreach ($channelsToUse as $channel) {
+            if (! is_string($channel)) {
+                continue;
             }
-        }
-        $effectiveChannels = $filteredChannels;
-
-        // Processa ogni canale
-        foreach ($effectiveChannels as $channel) {
-            $stringChannel = $channel;
             try {
-                $this->sendViaChannel($recipient, $stringChannel, $compiled, $options);
+                $this->sendViaChannel($recipient, $channel, $compiled, $options);
             } catch (Exception $e) {
                 // Log dell'errore ma continua con altri canali
+                Log::error("Errore invio notifica via {$channel}: ".$e->getMessage());
 
                 continue;
             }
@@ -85,7 +81,7 @@ class SendNotificationAction
     /**
      * Invia la notifica attraverso un canale specifico.
      *
-     * @param  array<string, mixed>  $compiled
+     * @param  array{subject: string, body_html: string|null, body_text: string|null}  $compiled
      * @param  array<string, mixed>  $options
      */
     protected function sendViaChannel(Model $recipient, string $channel, array $compiled, array $options): void
@@ -107,9 +103,6 @@ class SendNotificationAction
 
     /**
      * Invia una notifica via email.
-     *
-     * @param  array<string, mixed>  $compiled
-     * @param  array<string, mixed>  $options
      */
     protected function sendMail(Model $recipient, array $compiled, array $options): void
     {
@@ -122,41 +115,35 @@ class SendNotificationAction
             throw new Exception('Email destinatario non disponibile');
         }
 
+        /** @var string|null $bodyHtml */
+        $bodyHtml = $compiled['body_html'];
+        /** @var string $body */
+        $body = $bodyHtml ?? $compiled['body_text'] ?? '';
+        /** @var string|null $bodyText */
+        $bodyText = $compiled['body_text'];
+
+        /** @var string $subject */
+        $subject = $compiled['subject'];
+        /** @var array<string, mixed> $notificationData */
+        $notificationData = array_merge($options, [
+            'text_view' => $bodyText,
+        ]);
+
         // Usa il sistema di notifiche di Laravel
         if (method_exists($recipient, 'notify')) {
-            $subject = is_string($compiled['subject'] ?? null) ? $compiled['subject'] : (string) ($compiled['subject'] ?? '');
-            $bodyHtml = is_string($compiled['body_html'] ?? null) ? $compiled['body_html'] : '';
-            $bodyText = is_string($compiled['body_text'] ?? null) ? $compiled['body_text'] : '';
-            $body = $bodyHtml ? $bodyHtml : $bodyText;
-
-            /** @var array<string, mixed> $mergedOptions */
-            $mergedOptions = array_merge($options, [
-                'text_view' => $bodyText,
-            ]);
-
             $recipient->notify(new GenericNotification(
                 $subject,
                 $body,
                 ['mail'],
-                $mergedOptions,
+                $notificationData,
             ));
         } else {
             // Fallback per modelli che non implementano Notifiable
-            $subject = is_string($compiled['subject'] ?? null) ? $compiled['subject'] : (string) ($compiled['subject'] ?? '');
-            $bodyHtml = is_string($compiled['body_html'] ?? null) ? $compiled['body_html'] : '';
-            $bodyText = is_string($compiled['body_text'] ?? null) ? $compiled['body_text'] : '';
-            $body = $bodyHtml ? $bodyHtml : $bodyText;
-
-            /** @var array<string, mixed> $mergedOptions */
-            $mergedOptions = array_merge($options, [
-                'text_view' => $bodyText,
-            ]);
-
             Notification::send($recipient, new GenericNotification(
                 $subject,
                 $body,
                 ['mail'],
-                $mergedOptions,
+                $notificationData,
             ));
         }
     }
@@ -164,29 +151,30 @@ class SendNotificationAction
     /**
      * Invia una notifica nel database.
      *
-     * @param  array<string, mixed>  $compiled
+     * @param  array{subject: string, body_html: string|null, body_text: string|null}  $compiled
      * @param  array<string, mixed>  $options
      */
     protected function sendDatabase(Model $recipient, array $compiled, array $options): void
     {
-        $subject = is_string($compiled['subject'] ?? null) ? $compiled['subject'] : (string) ($compiled['subject'] ?? '');
-        $bodyText = is_string($compiled['body_text'] ?? null) ? $compiled['body_text'] : '';
-        $bodyHtml = is_string($compiled['body_html'] ?? null) ? $compiled['body_html'] : '';
-        $message = $bodyText ? $bodyText : strip_tags($bodyHtml);
+        /** @var string|null $bodyHtml */
+        $bodyHtml = $compiled['body_html'];
+        /** @var string $message */
+        $message = $compiled['body_text'] ?? ($bodyHtml !== null ? strip_tags($bodyHtml) : '');
+        /** @var string $subject */
+        $subject = $compiled['subject'];
+        /** @var array<string, mixed> $notificationOptions */
+        $notificationOptions = $options;
 
         Notification::send($recipient, new GenericNotification(
             $subject,
             $message,
             ['database'],
-            $options,
+            $notificationOptions,
         ));
     }
 
     /**
      * Invia una notifica via SMS.
-     *
-     * @param  array<string, mixed>  $compiled
-     * @param  array<string, mixed>  $options
      */
     protected function sendSms(Model $recipient, array $compiled, array $options): void
     {
@@ -200,23 +188,26 @@ class SendNotificationAction
         }
 
         // Usa il testo plain o una versione senza HTML
-        $bodyTextRaw = is_string($compiled['body_text'] ?? null) ? $compiled['body_text'] : '';
-        $bodyHtmlRaw = is_string($compiled['body_html'] ?? null) ? $compiled['body_html'] : '';
-        $bodyText = $bodyTextRaw ? $bodyTextRaw : strip_tags($bodyHtmlRaw);
+        /** @var string|null $bodyHtml */
+        $bodyHtml = $compiled['body_html'];
+        /** @var string $message */
+        $message = $compiled['body_text'] ?? ($bodyHtml !== null ? strip_tags($bodyHtml) : '');
 
-        // Limita la lunghezza del messaggio SMS (tipicamente 160 caratteri)
-        $maxLength = 160;
-        if (mb_strlen($bodyText) > $maxLength) {
-            $bodyText = mb_substr($bodyText, 0, $maxLength - 3).'...';
+        // Limita la lunghezza del messaggio SMS
+        if (mb_strlen($message) > 320) {
+            $message = mb_substr($message, 0, 317).'...';
         }
 
-        $subject = is_string($compiled['subject'] ?? null) ? $compiled['subject'] : (string) ($compiled['subject'] ?? '');
+        /** @var string $subject */
+        $subject = $compiled['subject'];
+        /** @var array<string, mixed> $notificationOptions */
+        $notificationOptions = $options;
 
         Notification::send($recipient, new GenericNotification(
             $subject,
-            $bodyText,
+            $message,
             ['sms'],
-            $options
+            $notificationOptions,
         ));
     }
 }
