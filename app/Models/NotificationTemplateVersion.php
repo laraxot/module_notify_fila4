@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models;
 
+use Modules\Xot\Contracts\ProfileContract;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Modules\Media\Models\Media;
@@ -29,7 +30,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  *
  * @mixin IdeHelperNotificationTemplateVersion
  *
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $deleter
+ * @property-read ProfileContract|null $deleter
  *
  * @mixin \Eloquent
  */

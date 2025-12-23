@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Forms\Components;
 
+use Filament\Forms\Components\TextInput;
 use Filament\Forms;
 use Modules\Notify\Enums\ContactTypeEnum;
 use Modules\Xot\Filament\Schemas\Components\XotBaseSection;
@@ -24,7 +25,7 @@ class ContactSection extends XotBaseSection
     }
 
     /**
-     * @return array<string, \Filament\Forms\Components\TextInput>
+     * @return array<string, TextInput>
      */
     protected function getFormSchema(): array
     {

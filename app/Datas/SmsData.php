@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Datas;
 
+use Modules\Xot\Actions\Cast\SafeStringCastAction;
+
 class SmsData
 {
     public string $from;
@@ -17,9 +19,9 @@ class SmsData
      */
     public function __construct(array $data = [])
     {
-        $this->from = \Modules\Xot\Actions\Cast\SafeStringCastAction::cast($data['from'] ?? '');
-        $this->recipient = \Modules\Xot\Actions\Cast\SafeStringCastAction::cast($data['recipient'] ?? '');
-        $this->body = \Modules\Xot\Actions\Cast\SafeStringCastAction::cast($data['body'] ?? '');
+        $this->from = SafeStringCastAction::cast($data['from'] ?? '');
+        $this->recipient = SafeStringCastAction::cast($data['recipient'] ?? '');
+        $this->body = SafeStringCastAction::cast($data['body'] ?? '');
     }
 
     /**

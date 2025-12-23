@@ -4,6 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models;
 
+use Modules\Xot\Contracts\ProfileContract;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Modules\Media\Models\Media;
+use Modules\Notify\Database\Factories\NotificationLogFactory;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
@@ -33,15 +37,15 @@ use Modules\Notify\Enums\NotificationLogStatusEnum;
  * @property int $notifiable_id
  * @property string $title
  * @property string|null $error
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $deleter
- * @property-read \Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection<int, \Modules\Media\Models\Media> $media
+ * @property-read ProfileContract|null $creator
+ * @property-read ProfileContract|null $deleter
+ * @property-read MediaCollection<int, Media> $media
  * @property-read int|null $media_count
  * @property-read Model|\Eloquent $notifiable
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+ * @property-read ProfileContract|null $updater
  *
- * @method static \Modules\Notify\Database\Factories\NotificationLogFactory factory($count = null, $state = [])
- * @method static Builder<static>|NotificationLog forNotifiable(\Illuminate\Database\Eloquent\Model $notifiable)
+ * @method static NotificationLogFactory factory($count = null, $state = [])
+ * @method static Builder<static>|NotificationLog forNotifiable(Model $notifiable)
  * @method static Builder<static>|NotificationLog forTemplate(int $templateId)
  * @method static Builder<static>|NotificationLog newModelQuery()
  * @method static Builder<static>|NotificationLog newQuery()
@@ -58,7 +62,7 @@ use Modules\Notify\Enums\NotificationLogStatusEnum;
  * @method static Builder<static>|NotificationLog whereStatus($value)
  * @method static Builder<static>|NotificationLog whereTitle($value)
  * @method static Builder<static>|NotificationLog whereUpdatedAt($value)
- * @method static Builder<static>|NotificationLog withStatus(\Modules\Notify\Enums\NotificationLogStatusEnum $status)
+ * @method static Builder<static>|NotificationLog withStatus(NotificationLogStatusEnum $status)
  *
  * @mixin \Eloquent
  */

@@ -30,7 +30,7 @@ class SendAwsEmailPage extends XotBasePage
 {
     public ?array $emailData = [];
 
-    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-envelope';
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-envelope';
 
     protected string $view = 'notify::filament.pages.send-email';
 
@@ -65,7 +65,7 @@ class SendAwsEmailPage extends XotBasePage
 
     public function emailForm(Schema $schema): Schema
     {
-        return $schema->schema($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
+        return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
     }
 
     /**

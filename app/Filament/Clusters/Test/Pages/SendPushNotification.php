@@ -41,7 +41,7 @@ class SendPushNotification extends XotBasePage implements HasForms
     public ?array $notificationData = [];
 
     // protected static ?string $navigationIcon = 'heroicon-o-envelope';
-    protected static string|BackedEnum|null $navigationIcon = 'heroicon-o-paper-airplane';
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
 
     protected string $view = 'notify::filament.pages.send-push-notification';
 

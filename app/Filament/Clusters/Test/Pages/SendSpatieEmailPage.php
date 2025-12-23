@@ -35,7 +35,7 @@ class SendSpatieEmailPage extends XotBasePage
 {
     public ?array $emailData = [];
 
-    protected static string|BackedEnum|null $navigationIcon = 'heroicon-o-paper-airplane';
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
 
     protected string $view = 'notify::filament.pages.send-email';
 
@@ -63,7 +63,7 @@ class SendSpatieEmailPage extends XotBasePage
 
     public function emailForm(Schema $schema): Schema
     {
-        return $schema->schema($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
+        return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
     }
 
     /**

@@ -10,6 +10,7 @@ use Filament\Facades\Filament;
 use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\TextInput;
 use Filament\Notifications\Notification;
+use Filament\Schemas\Components\Component;
 use Filament\Schemas\Components\Section;
 use Filament\Schemas\Schema;
 use Illuminate\Contracts\Auth\Authenticatable;
@@ -44,14 +45,14 @@ class SendEmailPage extends XotBasePage
 
     public function emailForm(Schema $schema): Schema
     {
-        /** @var array<string, \Filament\Schemas\Components\Component> $formSchema */
+        /** @var array<string, Component> $formSchema */
         $formSchema = $this->getEmailFormSchema();
 
         return $schema->components($formSchema)->model($this->getUser())->statePath('emailData');
     }
 
     /**
-     * @return array<string, \Filament\Schemas\Components\Component>
+     * @return array<string, Component>
      */
     public function getEmailFormSchema(): array
     {

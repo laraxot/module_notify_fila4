@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models;
 
+use Modules\Xot\Contracts\ProfileContract;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Carbon;
@@ -33,8 +34,8 @@ use Override;
  * @property array<string>|string|null $channels
  * @property string|null $status
  * @property Carbon|null $sent_at
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+ * @property-read ProfileContract|null $creator
+ * @property-read ProfileContract|null $updater
  *
  * @method static NotificationFactory factory($count = null, $state = [])
  * @method static Builder<static>|Notification newModelQuery()
@@ -55,7 +56,7 @@ use Override;
  *
  * @mixin IdeHelperNotification
  *
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $deleter
+ * @property-read ProfileContract|null $deleter
  *
  * @mixin \Eloquent
  */

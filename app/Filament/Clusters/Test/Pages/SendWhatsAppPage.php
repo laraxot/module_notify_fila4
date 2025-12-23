@@ -31,7 +31,7 @@ class SendWhatsAppPage extends XotBasePage
 {
     public ?array $whatsappData = [];
 
-    protected static string|BackedEnum|null $navigationIcon = 'heroicon-o-chat-bubble-left-right';
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-chat-bubble-left-right';
 
     protected string $view = 'notify::filament.pages.send-whatsapp';
 
@@ -66,7 +66,7 @@ class SendWhatsAppPage extends XotBasePage
 
     public function whatsappForm(Schema $schema): Schema
     {
-        return $schema->schema($this->getWhatsAppFormSchema())->model($this->getUser())->statePath('whatsappData');
+        return $schema->components($this->getWhatsAppFormSchema())->model($this->getUser())->statePath('whatsappData');
     }
 
     /**

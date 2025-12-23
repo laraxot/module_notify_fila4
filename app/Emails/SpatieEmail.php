@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Emails;
 
+use Mustache_Engine;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Mail\Mailables\Attachment;
 use Illuminate\Mail\Mailables\Envelope;
@@ -254,7 +255,7 @@ class SpatieEmail extends TemplateMailable
         $sms_template = $mailTemplate->sms_template;
         /** @var string $smsTemplateString */
         $smsTemplateString = app(SafeStringCastAction::class)->execute($sms_template);
-        $mustache = app(\Mustache_Engine::class);
+        $mustache = app(Mustache_Engine::class);
         $sms = $mustache->render($smsTemplateString, $this->data);
 
         return $sms;

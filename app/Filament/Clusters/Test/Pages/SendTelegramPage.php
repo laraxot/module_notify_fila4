@@ -27,7 +27,7 @@ use Modules\Xot\Filament\Pages\XotBasePage;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 
 /**
- * @property \Filament\Schemas\Schema $telegramForm
+ * @property Schema $telegramForm
  */
 class SendTelegramPage extends XotBasePage implements HasForms
 {
@@ -37,7 +37,7 @@ class SendTelegramPage extends XotBasePage implements HasForms
 
     public ?array $telegramData = [];
 
-    protected static string|BackedEnum|null $navigationIcon = 'heroicon-o-paper-airplane';
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
 
     protected string $view = 'notify::filament.pages.send-telegram';
 
@@ -50,11 +50,11 @@ class SendTelegramPage extends XotBasePage implements HasForms
 
     public function telegramForm(Schema $schema): Schema
     {
-        return $schema->schema($this->getTelegramFormSchema())->model($this->getUser())->statePath('telegramData');
+        return $schema->components($this->getTelegramFormSchema())->model($this->getUser())->statePath('telegramData');
     }
 
     /**
-     * @return array<string, \Filament\Forms\Components\Select|\Filament\Forms\Components\TextInput|\Filament\Forms\Components\Toggle>
+     * @return array<string, Select|TextInput|Toggle>
      */
     public function getTelegramFormSchema(): array
     {

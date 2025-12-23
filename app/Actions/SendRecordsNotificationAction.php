@@ -62,7 +62,7 @@ class SendRecordsNotificationAction
                 // Pass slug string, not MailTemplate instance - RecordNotification resolves it internally
                 $singleRecordAction->execute($record, $templateSlug, $channels);
                 $successCount += \count($channels);
-            } catch (\Exception $e) {
+            } catch (Exception $e) {
                 // If exception is thrown, count all channels as failed for this record
                 $errorCount += \count($channels);
                 $recordName = $this->getRecordName($record);

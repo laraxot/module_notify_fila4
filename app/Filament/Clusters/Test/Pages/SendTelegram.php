@@ -42,7 +42,7 @@ class SendTelegram extends XotBasePage implements HasForms
 
     public ?array $emailData = [];
 
-    protected static string|BackedEnum|null $navigationIcon = 'heroicon-o-paper-airplane';
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
 
     protected string $view = 'notify::filament.pages.send-email';
 

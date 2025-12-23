@@ -33,7 +33,7 @@ class SendSmsPage extends XotBasePage
 {
     public ?array $smsData = [];
 
-    protected static string|BackedEnum|null $navigationIcon = 'heroicon-o-device-phone-mobile';
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-device-phone-mobile';
 
     protected string $view = 'notify::filament.pages.send-sms';
 
@@ -68,7 +68,7 @@ class SendSmsPage extends XotBasePage
 
     public function smsForm(Schema $schema): Schema
     {
-        return $schema->schema($this->getSmsFormSchema())->model($this->getUser())->statePath('smsData');
+        return $schema->components($this->getSmsFormSchema())->model($this->getUser())->statePath('smsData');
     }
 
     /**

@@ -2,6 +2,7 @@
 
 namespace Modules\Notify\Database\Factories;
 
+use Modules\Notify\Models\NotificationLog;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class NotificationLogFactory extends Factory
@@ -9,7 +10,7 @@ class NotificationLogFactory extends Factory
     /**
      * The name of the factory's corresponding model.
      */
-    protected $model = \Modules\Notify\Models\NotificationLog::class;
+    protected $model = NotificationLog::class;
 
     /**
      * Define the model's default state.
