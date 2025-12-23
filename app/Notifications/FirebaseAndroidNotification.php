@@ -95,11 +95,11 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
      * Get the array representation of the notification.
      *
      * @param  object|null  $notifiable  The entity to be notified
-     * @return array<string, mixed>
+     * @return array<int, string>
      */
     #[Override]
     /**
-     * @return array<string, mixed>
+     * @return array<int, string>
      */
     public function toArray(?object $notifiable): array
     {
