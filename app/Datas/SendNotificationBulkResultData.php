@@ -13,10 +13,7 @@ use Spatie\LaravelData\Data;
 class SendNotificationBulkResultData extends Data
 {
     /**
-     * @param int $successCount
-     * @param int $errorCount
-     * @param Collection<int, array{record: string, channel: string, error: string}> $errors
-     * @param int $totalProcessed
+     * @param  Collection<int, array{record: string, channel: string, error: string}>  $errors
      */
     public function __construct(
         public readonly int $successCount,
@@ -24,6 +21,5 @@ class SendNotificationBulkResultData extends Data
         /** @var Collection<int, array{record: string, channel: string, error: string}> */
         public readonly Collection $errors,
         public readonly int $totalProcessed,
-    ) {
-    }
+    ) {}
 }

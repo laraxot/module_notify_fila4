@@ -4,16 +4,16 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models;
 
-use Modules\Xot\Contracts\ProfileContract;
-use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
-use Modules\Media\Models\Media;
-use Modules\Notify\Database\Factories\NotificationLogFactory;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
+use Modules\Media\Models\Media;
+use Modules\Notify\Database\Factories\NotificationLogFactory;
 use Modules\Notify\Enums\NotificationLogStatusEnum;
+use Modules\Xot\Contracts\ProfileContract;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 
 /**
  * Modello per il logging delle notifiche.

@@ -2,8 +2,8 @@
 
 namespace Modules\Notify\Database\Factories;
 
-use Modules\Notify\Models\NotificationLog;
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Modules\Notify\Models\NotificationLog;
 
 class NotificationLogFactory extends Factory
 {

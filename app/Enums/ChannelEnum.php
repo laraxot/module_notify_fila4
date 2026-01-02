@@ -51,7 +51,7 @@ enum ChannelEnum: string implements HasColor, HasIcon, HasLabel
     private function getRecordEmail(Model $record): ?string
     {
         $email = app(SafeEloquentCastAction::class)->getStringAttribute($record, 'email', '');
-        if ('' !== $email && false !== filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        if ($email !== '' && filter_var($email, FILTER_VALIDATE_EMAIL) !== false) {
             return $email;
         }
 
@@ -68,21 +68,21 @@ enum ChannelEnum: string implements HasColor, HasIcon, HasLabel
         $phoneAttributes = ['phone', 'mobile', 'telephone', 'contact_phone'];
         foreach ($phoneAttributes as $attr) {
             $value = app(SafeEloquentCastAction::class)->getStringAttribute($record, $attr, '');
-            if ('' !== $value) {
+            if ($value !== '') {
                 $phoneNumber = $value;
                 break;
             }
         }
 
         // Try routeNotificationForSms method if model implements Notifiable trait and phone not found
-        if (null === $phoneNumber && method_exists($record, 'routeNotificationForSms')) {
+        if ($phoneNumber === null && method_exists($record, 'routeNotificationForSms')) {
             // Create temporary notification with slug to resolve recipient
             /** @var RecordNotification $tempNotification */
             $tempNotification = new RecordNotification($record, 'temp-sms-resolve');
             $phoneNumber = $record->routeNotificationForSms($tempNotification);
         }
 
-        if (null === $phoneNumber || ! \is_string($phoneNumber) || '' === $phoneNumber) {
+        if ($phoneNumber === null || ! \is_string($phoneNumber) || $phoneNumber === '') {
             return null;
         }
 
@@ -99,24 +99,24 @@ enum ChannelEnum: string implements HasColor, HasIcon, HasLabel
 
         // Try whatsapp attribute first
         $value = app(SafeEloquentCastAction::class)->getStringAttribute($record, 'whatsapp', '');
-        if ('' !== $value) {
+        if ($value !== '') {
             $whatsappNumber = $value;
         }
 
         // Fallback to phone if whatsapp not available
-        if (null === $whatsappNumber) {
+        if ($whatsappNumber === null) {
             $whatsappNumber = $this->getRecordPhone($record);
         }
 
         // Try routeNotificationForWhatsApp method if model implements Notifiable trait and whatsapp not found
-        if (null === $whatsappNumber && method_exists($record, 'routeNotificationForWhatsApp')) {
+        if ($whatsappNumber === null && method_exists($record, 'routeNotificationForWhatsApp')) {
             // Create temporary notification with slug to resolve recipient
             /** @var RecordNotification $tempNotification */
             $tempNotification = new RecordNotification($record, 'temp-whatsapp-resolve');
             $whatsappNumber = $record->routeNotificationForWhatsApp($tempNotification);
         }
 
-        if (null === $whatsappNumber || ! \is_string($whatsappNumber) || '' === $whatsappNumber) {
+        if ($whatsappNumber === null || ! \is_string($whatsappNumber) || $whatsappNumber === '') {
             return null;
         }
 

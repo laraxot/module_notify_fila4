@@ -40,7 +40,7 @@ class ChannelCheckboxList extends CheckboxList
     /**
      * Create a new ChannelCheckboxList instance.
      *
-     * @param string|null $name Field name (default: 'channels')
+     * @param  string|null  $name  Field name (default: 'channels')
      */
     public static function make(?string $name = null): static
     {

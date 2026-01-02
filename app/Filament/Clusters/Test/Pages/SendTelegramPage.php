@@ -9,7 +9,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
-use BackedEnum;
 use Exception;
 use Filament\Actions\Action;
 use Filament\Forms\Components\Select;
@@ -37,7 +36,7 @@ class SendTelegramPage extends XotBasePage implements HasForms
 
     public ?array $telegramData = [];
 
-    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
+    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-paper-airplane';
 
     protected string $view = 'notify::filament.pages.send-telegram';
 

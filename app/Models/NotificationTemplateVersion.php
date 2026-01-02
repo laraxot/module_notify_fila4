@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models;
 
-use Modules\Xot\Contracts\ProfileContract;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\NotificationTemplateVersionFactory;
 use Modules\User\Models\Profile;
+use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Traits\Updater;
 use Override;
 use RuntimeException;

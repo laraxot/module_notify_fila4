@@ -38,9 +38,8 @@ class SendRecordsNotificationAction
     /**
      * Process notifications for selected records.
      *
-     * @param Collection<int, Model> $records  Selected records (e.g., Clients).
-     * @param array<int, string>     $channels I canali selezionati: 'mail', 'sms', 'whatsapp'
-     *
+     * @param  Collection<int, Model>  $records  Selected records (e.g., Clients).
+     * @param  array<int, string>  $channels  I canali selezionati: 'mail', 'sms', 'whatsapp'
      * @return SendNotificationBulkResultData Risultato con successCount, errorCount, errors, totalProcessed
      */
     public function execute(
@@ -103,7 +102,7 @@ class SendRecordsNotificationAction
 
         foreach ($attributes as $attribute) {
             $value = $safeCast->getStringAttribute($record, $attribute, '');
-            if ('' !== $value) {
+            if ($value !== '') {
                 return $value;
             }
         }

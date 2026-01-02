@@ -5,8 +5,8 @@ declare(strict_types=1);
 namespace Modules\Notify\Models;
 
 // use Spatie\LaravelPackageTools\Concerns\Package\HasTranslations;
-use Exception;
 use Carbon\Carbon;
+use Exception;
 use Illuminate\Contracts\Mail\Mailable;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;
@@ -19,25 +19,25 @@ use Spatie\Sluggable\SlugOptions;
 use Spatie\Translatable\HasTranslations;
 
 /**
- * @property int                                  $id
- * @property string                               $mailable
- * @property string|null                          $subject
- * @property string|null                          $html_layout_path
- * @property string                               $html_template
- * @property string|null                          $text_template
- * @property int                                  $version
- * @property Carbon                               $created_at
- * @property Carbon                               $updated_at
- * @property Carbon|null                          $deleted_at
+ * @property int $id
+ * @property string $mailable
+ * @property string|null $subject
+ * @property string|null $html_layout_path
+ * @property string $html_template
+ * @property string|null $text_template
+ * @property int $version
+ * @property Carbon $created_at
+ * @property Carbon $updated_at
+ * @property Carbon|null $deleted_at
  * @property Collection<int, MailTemplateVersion> $versions
- * @property Collection<int, MailTemplateLog>     $logs
- * @property string|null                          $updated_by
- * @property string|null                          $created_by
- * @property string|null                          $deleted_by
- * @property string                               $name
- * @property string                               $slug
- * @property array                                $variables
- * @property mixed                                $translations
+ * @property Collection<int, MailTemplateLog> $logs
+ * @property string|null $updated_by
+ * @property string|null $created_by
+ * @property string|null $deleted_by
+ * @property string $name
+ * @property string $slug
+ * @property array $variables
+ * @property mixed $translations
  *
  * @method static Builder<static>|MailTemplate forMailable(Mailable $mailable)
  * @method static Builder<static>|MailTemplate newModelQuery()
@@ -67,7 +67,7 @@ use Spatie\Translatable\HasTranslations;
  *
  * @property string|null $sms_template
  * @property string|null $whatsapp_template
- * @property int         $counter
+ * @property int $counter
  *
  * @method static Builder<static>|MailTemplate whereCounter($value)
  * @method static Builder<static>|MailTemplate whereSmsTemplate($value)
@@ -125,8 +125,8 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
     public function getSlugOptions(): SlugOptions
     {
         return SlugOptions::create()
-        ->generateSlugsFrom('subject')
-        ->saveSlugsTo('slug');
+            ->generateSlugsFrom('subject')
+            ->saveSlugsTo('slug');
     }
 
     public function scopeForMailable(Builder $query, Mailable $mailable): Builder

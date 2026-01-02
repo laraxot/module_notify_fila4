@@ -17,9 +17,9 @@ class SendRecordNotificationAction
     /**
      * Send notifications to a single record for specified channels.
      *
-     * @param Model                          $record           The model (e.g., Client) to notify.
-     * @param string                         $mailTemplateSlug the slug identifier of the mail template to use for content
-     * @param array<int, ChannelEnum|string> $channels         an array of ChannelEnum cases for delivery
+     * @param  Model  $record  The model (e.g., Client) to notify.
+     * @param  string  $mailTemplateSlug  the slug identifier of the mail template to use for content
+     * @param  array<int, ChannelEnum|string>  $channels  an array of ChannelEnum cases for delivery
      */
     public function execute(
         Model $record,
@@ -39,7 +39,7 @@ class SendRecordNotificationAction
 
             // Determine recipient based on channel and record
             $to = $channelEnum->getRecipient($record);
-            if (null === $to || '' === $to) {
+            if ($to === null || $to === '') {
                 // Log: Recipient not found for channel
                 continue;
             }
