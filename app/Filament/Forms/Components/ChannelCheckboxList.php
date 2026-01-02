@@ -41,11 +41,11 @@ class ChannelCheckboxList extends CheckboxList
      * Create a new ChannelCheckboxList instance.
      *
      * @param string|null $name Field name (default: 'channels')
-     * @return static
      */
     public static function make(?string $name = null): static
     {
         $name = $name ?? 'channels';
+
         return parent::make($name);
     }
 }
