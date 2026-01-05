@@ -42,11 +42,12 @@ final class WhatsAppActionFactory
         Assert::string($driver, 'Driver must be a string');
 
         // Gestione speciale per driver con caratteri non alfanumerici (es. 360dialog)
-        $normalizedDriver = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower($driver)));
-        Assert::string($normalizedDriver, 'Failed to normalize driver name');
+        $normalizedDriverRaw = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower($driver)));
+        Assert::string($normalizedDriverRaw, 'Failed to normalize driver name');
+        $normalizedDriver = $normalizedDriverRaw;
 
         // Costruisci il nome completo della classe
-        $className = "\\Modules\\Notify\\Actions\\WhatsApp\\Send".(is_string($normalizedDriver) ? $normalizedDriver : '')."WhatsAppAction";
+        $className = "\\Modules\\Notify\\Actions\\WhatsApp\\Send{$normalizedDriver}WhatsAppAction";
 
         // Verifica se la classe esiste
         if (! class_exists($className)) {

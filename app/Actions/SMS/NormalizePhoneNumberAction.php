@@ -25,7 +25,7 @@ class NormalizePhoneNumberAction
         Assert::string($phoneNumber, 'Failed to remove non-numeric characters from phone number');
 
         // Rimuove gli zeri iniziali
-        $phoneNumber = ltrim((string) $phoneNumber, '0');
+        $phoneNumber = ltrim($phoneNumber, '0');
 
         // Prefisso italiano
         $prefix = '39';
