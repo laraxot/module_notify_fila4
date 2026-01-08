@@ -65,6 +65,7 @@ namespace Modules\Notify\Tests\Unit\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -574,6 +575,11 @@ use Tests\TestCase;
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 1375c94d (rebase 210)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyThemeable;
+use Tests\TestCase;
+>>>>>>> 52cd5f85 (rebase 210)
 
 class NotifyThemeableTest extends TestCase
 {
@@ -722,6 +728,7 @@ class NotifyThemeableTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1054,6 +1061,9 @@ class NotifyThemeableTest extends TestCase
         $found = NotifyThemeable::where('model_type', 'App\Models\User')->where('model_id', 123)->first();
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 1375c94d (rebase 210)
+=======
+        $found = NotifyThemeable::where('model_type', 'App\Models\User')->where('model_id', 123)->first();
+>>>>>>> 52cd5f85 (rebase 210)
 
         $this->assertNotNull($found);
         $this->assertEquals($themeable->id, $found->id);
@@ -1394,6 +1404,7 @@ class NotifyThemeableTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1375c94d (rebase 210)
 =======
@@ -1755,3 +1766,5 @@ class NotifyThemeableTest extends TestCase
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 1375c94d (rebase 210)
+=======
+>>>>>>> 52cd5f85 (rebase 210)
