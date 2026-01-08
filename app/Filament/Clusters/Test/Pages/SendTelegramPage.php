@@ -208,9 +208,6 @@ class SendTelegramPage extends XotBasePage implements HasForms
         return $schema->components($this->getTelegramFormSchema())->model($this->getUser())->statePath('telegramData');
     }
 
-    /**
-     * @return array<\Illuminate\Contracts\Support\Htmlable|string>
-     */
     public function getTelegramFormSchema(): array
     {
         return [
