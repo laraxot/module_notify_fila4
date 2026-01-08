@@ -24,6 +24,7 @@ class Dashboard extends XotBaseDashboard {}
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -121,6 +122,10 @@ use Modules\Xot\Filament\Pages\XotBasePage;
 >>>>>>> de02998b (.)
 =======
 >>>>>>> 011072e4 (.)
+=======
+use Modules\Xot\Filament\Pages\XotBaseDashboard;
+use Modules\Xot\Filament\Pages\XotBasePage;
+>>>>>>> 161887a2 (.)
 
 class Dashboard extends XotBaseDashboard
 {
@@ -131,6 +136,7 @@ class Dashboard extends XotBaseDashboard
     public function mount(): void
     {
         /*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -193,11 +199,14 @@ class Dashboard extends XotBaseDashboard
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
          * $user = auth()->user();
          * if (! $user->hasRole('super-admin')) {
          * redirect('/admin');
          * }
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -299,6 +308,8 @@ class Dashboard extends XotBaseDashboard
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
     }
 }
 >>>>>>> 75cb51873 (.)
