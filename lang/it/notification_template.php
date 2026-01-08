@@ -125,6 +125,9 @@ return [
     ],
     'actions' => [
         'preview' => 'Anteprima',
+        'openColumnManager' => [
+            'tooltip' => 'openColumnManager',
+        ],
     ],
     'enums' => [
         'notification_type' => [

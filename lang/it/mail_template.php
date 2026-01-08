@@ -255,6 +255,11 @@ return [
         'activeLocale' => [
             'label' => 'activeLocale',
         ],
+        'logout' => [
+            'tooltip' => 'logout',
+            'icon' => 'logout',
+            'label' => 'logout',
+        ],
     ],
     'messages' => [
         'success' => 'Operazione completata con successo',
@@ -276,6 +281,7 @@ return [
     'model' => [
         'label' => 'mail template.model',
     ],
+    'label' => 'mail template',
 ];
 <<<<<<< HEAD
 <<<<<<< HEAD

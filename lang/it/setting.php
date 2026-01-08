@@ -82,6 +82,11 @@ return [
         'label' => 'Impostazioni Notifiche',
         'group' => 'Notifiche',
     ],
+    'actions' => [
+        'logout' => [
+            'tooltip' => 'logout',
+        ],
+    ],
 ];
 <<<<<<< HEAD
 <<<<<<< HEAD
