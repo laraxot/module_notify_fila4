@@ -20,6 +20,7 @@ namespace Modules\Notify\Tests\Feature;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -34,10 +35,13 @@ namespace Modules\Notify\Tests\Feature;
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\Contact;
 use Modules\Notify\Models\ContactGroup;
 use Tests\TestCase;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -131,10 +135,14 @@ use Tests\TestCase;
 >>>>>>> de02998b (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+=======
+>>>>>>> 3f39ac8b (.)
 use Modules\Notify\Models\Contact;
 use Modules\Notify\Models\ContactGroup;
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -206,6 +214,9 @@ use Tests\TestCase;
 >>>>>>> 2941b0bd (.)
 
 use function Safe\json_encode;
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
 
 class ContactManagementBusinessLogicTest extends TestCase
 {
@@ -389,6 +400,7 @@ class ContactManagementBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -448,6 +460,8 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
         $this->assertEquals(
 <<<<<<< HEAD
             'Benvenuto su '.config('app.name', 'Our Platform'),
@@ -456,6 +470,7 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> 99ff506 (.)
             $contact->fresh()->communication_history[0]['subject'],
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -548,6 +563,11 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+=======
+        $this->assertEquals('Benvenuto su ' . config('app.name', 'Our Platform'), $contact->fresh()->communication_history[0]['subject']);
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
         $this->assertEquals('sms', $contact->fresh()->communication_history[1]['type']);
         $this->assertTrue($contact->fresh()->communication_history[1]['clicked']);
     }
@@ -748,6 +768,7 @@ class ContactManagementBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -799,6 +820,8 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
             'preferences' => ['email' => true, 'sms' => false],
         ]);
         $smsContact = Contact::factory()->create([
@@ -806,6 +829,7 @@ class ContactManagementBusinessLogicTest extends TestCase
         ]);
         $bothContact = Contact::factory()->create([
             'preferences' => ['email' => true, 'sms' => true],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -865,6 +889,8 @@ class ContactManagementBusinessLogicTest extends TestCase
 =======
 >>>>>>> 4689a827 (.)
 =======
+>>>>>>> 3f39ac8b (.)
+=======
             'preferences' => ['email' => true, 'sms' => false]
         ]);
         $smsContact = Contact::factory()->create([
@@ -872,6 +898,7 @@ class ContactManagementBusinessLogicTest extends TestCase
         ]);
         $bothContact = Contact::factory()->create([
             'preferences' => ['email' => true, 'sms' => true]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -930,6 +957,9 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
         ]);
 
         // Act
@@ -971,6 +1001,7 @@ class ContactManagementBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1022,10 +1053,13 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
             'tags' => ['vip' => 'Cliente VIP', 'premium' => 'Piano premium'],
         ]);
         $newContact = Contact::factory()->create([
             'tags' => ['new' => 'Nuovo cliente', 'active' => 'Cliente attivo'],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1074,10 +1108,14 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> de02998b (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+=======
+>>>>>>> 3f39ac8b (.)
             'tags' => ['vip' => 'Cliente VIP', 'premium' => 'Piano premium']
         ]);
         $newContact = Contact::factory()->create([
             'tags' => ['new' => 'Nuovo cliente', 'active' => 'Cliente attivo']
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1147,6 +1185,9 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
         ]);
 
         // Act

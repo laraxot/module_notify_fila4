@@ -119,6 +119,7 @@ app(SendAppointmentNotificationAction::class)->execute(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -219,6 +220,11 @@ app(SendAppointmentNotificationAction::class)->execute(
 >>>>>>> 80f054e0 (.)
 =======
 >>>>>>> 7c39b1fe (.)
+=======
+=======
+
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
 # Invio promemoria per appuntamenti di domani
 php artisan dental:send-appointment-reminders --days=1
 

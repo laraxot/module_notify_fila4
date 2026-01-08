@@ -46,6 +46,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -135,11 +136,14 @@
 >>>>>>> 80f054e0 (.)
 =======
 >>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 3f39ac8b (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -232,6 +236,10 @@ declare(strict_types=1);
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 80f054e0 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
 <<<<<<< HEAD
 <<<<<<< HEAD
