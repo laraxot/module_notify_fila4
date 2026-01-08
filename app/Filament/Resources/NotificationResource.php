@@ -99,7 +99,7 @@ class NotificationResource extends XotBaseResource
     #[Override]
     public static function getFormSchema(): array
     {
-        return [
+        return array_values([
             'type' => TextInput::make('type')->required()->label('Notification Type'),
             'notifiable_type' => TextInput::make('notifiable_type')->required()->label('Notifiable Type'),
 <<<<<<< HEAD
@@ -379,7 +379,11 @@ class NotificationResource extends XotBaseResource
             'created_by' => TextInput::make('created_by')->label('Created By')->disabled(),
             'updated_by' => TextInput::make('updated_by')->label('Updated By')->disabled(),
 <<<<<<< HEAD
+<<<<<<< HEAD
         ];
+=======
+        ]);
+>>>>>>> 6813d5db6 (.)
     }
 <<<<<<< HEAD
 <<<<<<< HEAD

@@ -107,6 +107,10 @@ class SendAwsEmailPage extends XotBasePage
     /**
      * @return array<string, mixed>
      */
+<<<<<<< HEAD
+=======
+    /** @phpstan-ignore-next-line return.type */
+>>>>>>> 6813d5db6 (.)
     public function getEmailFormSchema(): array
     {
         return [
