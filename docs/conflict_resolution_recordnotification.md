@@ -165,6 +165,7 @@ Verificare che:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Root Conflict Resolution Guidelines](../../../docs/conflict-resolution-guidelines.md)
 =======
 - [Root Conflict Resolution Guidelines](../../../project_docs/conflict-resolution-guidelines.md)
@@ -316,7 +317,12 @@ Verificare che:
 >>>>>>> 22baa66d (rebase 210)
 =======
 >>>>>>> 5b50927d (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
 - [Root Conflict Resolution Guidelines](../../../docs/conflict-resolution-guidelines.md)
+=======
+- [Root Conflict Resolution Guidelines](../../../project_docs/conflict-resolution-guidelines.md)
+>>>>>>> bf479cc (.)
 
 *Ultimo aggiornamento: giugno 2025*
 >>>>>>> 2a97406c (.)
