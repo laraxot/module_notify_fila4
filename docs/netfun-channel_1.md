@@ -391,6 +391,7 @@ NETFUN_ENDPOINT=https://v2.smsviainternet.it/api/rest/v1/sms-batch.json
 <<<<<<< HEAD
 <<<<<<< HEAD:docs/netfun-channel_1.md
 <<<<<<< HEAD:docs/netfun-channel_1.md
+<<<<<<< HEAD:docs/netfun-channel_1.md
 >>>>>>> 75cb51873 (.):docs/netfun_channel.md
 SMS_FROM_NAME=<nome progetto>
 SMS_FROM_NAME=<nome progetto>
@@ -483,6 +484,47 @@ SMS_FROM_NAME=<nome progetto>
 SMS_FROM_NAME=<nome progetto>
 SMS_FROM_NAME=<nome progetto>
 SMS_FROM_NAME=<nome progetto>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 9725cc0a0 (.):docs/netfun_channel.md
 SMS_FROM_NAME=<nome progetto>
 SMS_FROM_NAME=<nome progetto>
 =======
@@ -697,7 +739,96 @@ SMS_FROM_NAME=<nome progetto>
 >>>>>>> d284d65 (.)
 SMS_FROM_NAME=SaluteOra
 >>>>>>> ee18dd92 (.)
+<<<<<<< HEAD:docs/netfun-channel_1.md
 >>>>>>> 022fa8f1c (.):docs/netfun_channel.md
+=======
+=======
+SMS_FROM_NAME=SaluteOra
+=======
+SMS_FROM_NAME=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+=======
+>>>>>>> 7325acf3 (.)
+SMS_FROM_NAME=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
+SMS_FROM_NAME=SaluteOra
+>>>>>>> 66453ace (.)
+=======
+SMS_FROM_NAME=SaluteOra
+=======
+SMS_FROM_NAME=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+=======
+=======
+>>>>>>> f2e64178 (.)
+SMS_FROM_NAME=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
+SMS_FROM_NAME=SaluteOra
+>>>>>>> 2a97406c (.)
+=======
+SMS_FROM_NAME=SaluteOra
+=======
+SMS_FROM_NAME=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
+=======
+=======
+>>>>>>> c4bdacbf (.)
+SMS_FROM_NAME=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
+SMS_FROM_NAME=SaluteOra
+>>>>>>> 4f042b88 (.)
+=======
+SMS_FROM_NAME=SaluteOra
+=======
+SMS_FROM_NAME=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+=======
+=======
+>>>>>>> bd804d67 (.)
+SMS_FROM_NAME=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
+SMS_FROM_NAME=SaluteOra
+>>>>>>> 712617d3 (.)
+=======
+SMS_FROM_NAME=SaluteOra
+=======
+SMS_FROM_NAME=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> f3086887 (rebase 210)
+=======
+=======
+>>>>>>> 229a065a (rebase 210)
+SMS_FROM_NAME=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
+SMS_FROM_NAME=SaluteOra
+>>>>>>> fdb24863 (rebase 210)
+=======
+SMS_FROM_NAME=SaluteOra
+=======
+SMS_FROM_NAME=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> 3d462363 (rebase 210)
+=======
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+=======
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> efb0f8d9 (rebase 210)
+SMS_FROM_NAME=<nome progetto>
+SMS_FROM_NAME=SaluteOra
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 9725cc0a0 (.):docs/netfun_channel.md
 SMS_FROM_NUMBER=+393331234567
 SMS_DEBUG=false
 
@@ -1052,6 +1183,7 @@ Log::info('SMS inviato', [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d284d65 (.)
 =======
@@ -1109,7 +1241,106 @@ Log::info('SMS inviato', [
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD:docs/netfun-channel_1.md
 >>>>>>> c0f3d67cc (.):docs/netfun_channel.md
+=======
+=======
+>>>>>>> e7a9a2bf (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 9d67cabd (.)
+=======
+>>>>>>> ba564870 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 7325acf3 (.)
+=======
+>>>>>>> 9cdf6146 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 7c39b1fe (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 6d08c01b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> c6c33175 (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 8e5817bc (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 7a2f131f (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 51182e3c (rebase 210)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cb85c538 (rebase 210)
+=======
+>>>>>>> 1c0eb9c7 (rebase 210)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 229a065a (rebase 210)
+=======
+>>>>>>> a9bf0423 (rebase 210)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
+=======
+>>>>>>> 4d253d2c (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> efb0f8d9 (rebase 210)
+>>>>>>> 9725cc0a0 (.):docs/netfun_channel.md
 - [Laravel Notifications](https://laravel.com/docs/notifications)
 - [Laravel Queues](https://laravel.com/docs/queues)
 - [Laravel Testing](https://laravel.com/docs/testing)
@@ -1133,6 +1364,7 @@ Log::info('SMS inviato', [
 - [Laravel Cache](https://laravel.com/docs/cache) 
 <<<<<<< HEAD:docs/netfun-channel_1.md
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1296,4 +1528,116 @@ Log::info('SMS inviato', [
 >>>>>>> 7c39b1fe (.)
 =======
 >>>>>>> 5fd545e4 (.)
+<<<<<<< HEAD:docs/netfun-channel_1.md
 >>>>>>> ddee9d751 (.):docs/netfun_channel.md
+=======
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache) 
+>>>>>>> 2a97406c (.)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache) 
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> f2e64178 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 6d08c01b (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> c6c33175 (.)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache) 
+>>>>>>> 4f042b88 (.)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache) 
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> c4bdacbf (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 8e5817bc (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 7a2f131f (.)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache) 
+>>>>>>> 712617d3 (.)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache) 
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> bd804d67 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 51182e3c (rebase 210)
+=======
+=======
+>>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cb85c538 (rebase 210)
+=======
+>>>>>>> 1c0eb9c7 (rebase 210)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache) 
+>>>>>>> fdb24863 (rebase 210)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache) 
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 229a065a (rebase 210)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> a9bf0423 (rebase 210)
+=======
+=======
+>>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
+=======
+>>>>>>> 4d253d2c (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache) 
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9fe1b60e (rebase 210)
+=======
+=======
+>>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> efb0f8d9 (rebase 210)
+>>>>>>> 9725cc0a0 (.):docs/netfun_channel.md
