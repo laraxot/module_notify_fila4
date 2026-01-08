@@ -42,6 +42,7 @@ use Filament\Forms\Components\TextInput;
 use Filament\Schemas\Components\Component;
 use Modules\Notify\Models\Contact;
 use Modules\Xot\Filament\Resources\XotBaseResource;
+use Override;
 
 class ContactResource extends XotBaseResource
 {
