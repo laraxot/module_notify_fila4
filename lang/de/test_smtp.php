@@ -14,6 +14,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -26,6 +27,8 @@
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
 declare(strict_types=1);
 
 
@@ -35,6 +38,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -100,10 +104,13 @@ declare(strict_types=1);
 >>>>>>> 82ae73be (.)
 =======
 =======
+>>>>>>> 011072e4 (.)
+=======
 declare(strict_types=1);
 
 
 >>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
 >>>>>>> 207ac35e (.)
 =======
 declare(strict_types=1);
@@ -120,6 +127,8 @@ declare(strict_types=1);
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
 return [
     'navigation' => [
         'label' => 'Test SMTP',
