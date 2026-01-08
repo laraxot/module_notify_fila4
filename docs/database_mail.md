@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2a97406c (.)
 # Database Mail System
 
 ## Regola sulle rotte
@@ -187,6 +190,7 @@ class EmailTemplateResource extends Resource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
     public static function form(Form $form): Form
@@ -200,6 +204,9 @@ class EmailTemplateResource extends Resource
 =======
     public static function form(Form $form): Form
 >>>>>>> 66453ace (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 2a97406c (.)
     {
         return $form->schema([
             Card::make()->schema([
@@ -423,6 +430,7 @@ class ProcessDoctorModerationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -536,6 +544,8 @@ class ProcessDoctorModerationAction
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 888799d0 (.)
+=======
+>>>>>>> 2a97406c (.)
 # Registrazione Approvata
 
 Gentile {{ $doctor->name }},
@@ -590,6 +600,7 @@ Cordiali saluti,<br>
 
 ## Vedi Anche
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -835,3 +846,9 @@ Cordiali saluti,<br>
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 888799d0 (.)
+=======
+- [Laravel Mail](https://laravel.com/docs/mail)
+- [Spatie Mail Templates](https://github.com/spatie/laravel-database-mail-templates)
+- [TinyMCE](https://www.tiny.cloud)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+>>>>>>> 2a97406c (.)

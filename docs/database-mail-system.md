@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2a97406c (.)
 # Sistema di Gestione Email Basato su Database - il progetto
 
 ## Panoramica
@@ -133,6 +136,7 @@ class MailTemplateResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
     public static function form(Form $form): Form
@@ -146,6 +150,9 @@ class MailTemplateResource extends XotBaseResource
 =======
     public static function form(Form $form): Form
 >>>>>>> 66453ace (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 2a97406c (.)
     {
         return $form->schema([
             Card::make()->schema([
@@ -355,6 +362,7 @@ php artisan notify:mail-template:test
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -482,3 +490,6 @@ php artisan notify:mail-template:test
 =======
 - [Spatie Packages](https://spatie.be/open-source)
 >>>>>>> 888799d0 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 2a97406c (.)

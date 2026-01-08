@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2a97406c (.)
 # Test del Sistema di Gestione Email - il progetto
 
 ## Panoramica
@@ -411,6 +414,7 @@ php artisan test --coverage --filter=MailTemplate
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -538,3 +542,6 @@ php artisan test --coverage --filter=MailTemplate
 =======
 - [Pest PHP](https://pestphp.com/docs) 
 >>>>>>> 888799d0 (.)
+=======
+- [Pest PHP](https://pestphp.com/docs) 
+>>>>>>> 2a97406c (.)

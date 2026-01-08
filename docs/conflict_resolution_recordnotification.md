@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2a97406c (.)
 # Risoluzione Conflitti RecordNotification.php
 
 ## Contesto del Conflitto
@@ -82,6 +85,7 @@ Verificare che:
 <<<<<<< HEAD
 - [Root Conflict Resolution Guidelines](../../../project_docs/conflict-resolution-guidelines.md)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -192,3 +196,8 @@ Verificare che:
 *Ultimo aggiornamento: giugno 2025*
 =======
 >>>>>>> 5fd545e4 (.)
+=======
+- [Root Conflict Resolution Guidelines](../../../docs/conflict-resolution-guidelines.md)
+
+*Ultimo aggiornamento: giugno 2025*
+>>>>>>> 2a97406c (.)
