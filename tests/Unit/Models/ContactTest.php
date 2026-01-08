@@ -773,6 +773,7 @@ class ContactTest extends TestCase
     protected function setUp(): void
     {
         parent::setUp();
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->withoutExceptionHandling();
     }
 
@@ -808,6 +809,7 @@ class ContactTest extends TestCase
             'order_column' => 1,
         ]);
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('contacts', [
             'id' => $contact->id,
             'model_type' => 'App\Models\User',
@@ -832,6 +834,7 @@ class ContactTest extends TestCase
             'order_column' => 1,
         ]);
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertInstanceOf(Contact::class, $contact);
     }
 
@@ -854,6 +857,7 @@ class ContactTest extends TestCase
             'token',
         ];
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($expectedFillable, $contact->getFillable());
     }
 
@@ -875,6 +879,7 @@ class ContactTest extends TestCase
             'user_id' => 'string',
         ];
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($expectedCasts, $contact->casts());
     }
 
@@ -888,6 +893,7 @@ class ContactTest extends TestCase
             'value' => '+393331234567',
         ]);
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('contacts', [
             'id' => $contact->id,
             'model_type' => 'App\Models\User',
@@ -896,6 +902,7 @@ class ContactTest extends TestCase
             'value' => '+393331234567',
         ]);
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertInstanceOf(Contact::class, $contact);
     }
 
@@ -940,6 +947,7 @@ class ContactTest extends TestCase
             'order_column' => 2,
         ]);
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('contacts', [
             'id' => $contact->id,
             'model_type' => 'App\Models\Company',
@@ -987,6 +995,7 @@ class ContactTest extends TestCase
             'mobile_phone' => '+393330000000',
         ]);
 
+        /** @phpstan-ignore-next-line method.nonObject */
         $contact->update([
             'value' => 'new@example.com',
             'first_name' => 'New Name',
@@ -997,6 +1006,7 @@ class ContactTest extends TestCase
             'token' => 'new-token-123',
         ]);
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('contacts', [
             'id' => $contact->id,
             'value' => 'new@example.com',
@@ -1006,7 +1016,9 @@ class ContactTest extends TestCase
             'mobile_phone' => '+393331111111',
         ]);
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNotNull($contact->fresh()->verified_at);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('new-token-123', $contact->fresh()->token);
     }
 
@@ -1535,9 +1547,13 @@ class ContactTest extends TestCase
         $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
 >>>>>>> 4b544042 (.)
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNotNull($foundContact);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($contact->id, $foundContact->id);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('App\Models\User', $foundContact->model_type);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('123', $foundContact->model_id);
     }
 
@@ -1568,9 +1584,13 @@ class ContactTest extends TestCase
         $emailContacts = Contact::where('contact_type', 'email')->get();
         $phoneContacts = Contact::where('contact_type', 'phone')->get();
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(2, $emailContacts);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $phoneContacts);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('email', $emailContacts[0]->contact_type);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('phone', $phoneContacts[0]->contact_type);
     }
 
@@ -1604,10 +1624,15 @@ class ContactTest extends TestCase
         $user456Contacts = Contact::where('user_id', '456')->get();
         $user789Contacts = Contact::where('user_id', '789')->get();
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(2, $user456Contacts);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $user789Contacts);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('456', $user456Contacts[0]->user_id);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('456', $user456Contacts[1]->user_id);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('789', $user789Contacts[0]->user_id);
     }
 
@@ -1624,8 +1649,11 @@ class ContactTest extends TestCase
 
         $foundContact = Contact::where('email', 'test@example.com')->first();
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNotNull($foundContact);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($contact->id, $foundContact->id);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('test@example.com', $foundContact->email);
     }
 
@@ -1642,8 +1670,11 @@ class ContactTest extends TestCase
 
         $foundContact = Contact::where('mobile_phone', '+393331234567')->first();
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNotNull($foundContact);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($contact->id, $foundContact->id);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('+393331234567', $foundContact->mobile_phone);
     }
 
@@ -1681,10 +1712,15 @@ class ContactTest extends TestCase
         $doeContacts = Contact::where('last_name', 'like', '%Doe%')->get();
         $jContacts = Contact::where('first_name', 'like', 'J%')->get();
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $johnContacts);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $doeContacts);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(2, $jContacts); // John and Jane
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('John', $johnContacts[0]->first_name);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('Doe', $doeContacts[0]->last_name);
     }
 
@@ -1701,8 +1737,11 @@ class ContactTest extends TestCase
 
         $foundContact = Contact::where('token', 'unique-token-123')->first();
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNotNull($foundContact);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($contact->id, $foundContact->id);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('unique-token-123', $foundContact->token);
     }
 
@@ -1728,9 +1767,13 @@ class ContactTest extends TestCase
         $verifiedContacts = Contact::whereNotNull('verified_at')->get();
         $unverifiedContacts = Contact::whereNull('verified_at')->get();
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $verifiedContacts);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $unverifiedContacts);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertNotNull($verifiedContacts[0]->verified_at);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertNull($unverifiedContacts[0]->verified_at);
     }
 
@@ -1758,11 +1801,17 @@ class ContactTest extends TestCase
         $deliveredSms = Contact::where('sms_status_code', '200')->get();
         $failedSms = Contact::where('sms_status_code', '400')->get();
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $deliveredSms);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $failedSms);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('200', $deliveredSms[0]->sms_status_code);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('400', $failedSms[0]->sms_status_code);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('Delivered', $deliveredSms[0]->sms_status_txt);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('Failed', $failedSms[0]->sms_status_txt);
     }
 
@@ -1790,9 +1839,13 @@ class ContactTest extends TestCase
         $lowSmsContacts = Contact::where('sms_count', '<=', 5)->get();
         $highMailContacts = Contact::where('mail_count', '>=', 20)->get();
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $lowSmsContacts);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $highMailContacts);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(1, $lowSmsContacts[0]->sms_count);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(25, $highMailContacts[0]->mail_count);
     }
 
@@ -1822,10 +1875,15 @@ class ContactTest extends TestCase
         $managers = Contact::where('attribute_2', 'Manager')->get();
         $itDepartment = Contact::where('attribute_3', 'IT Department')->get();
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $managers);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(2, $itDepartment);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('Manager', $managers[0]->attribute_2);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('IT Department', $itDepartment[0]->attribute_3);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('IT Department', $itDepartment[1]->attribute_3);
     }
 
@@ -1857,9 +1915,13 @@ class ContactTest extends TestCase
             ->where('sms_count', '>=', 3)
             ->get();
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $verifiedManagers);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('verified@example.com', $verifiedManagers[0]->value);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('Manager', $verifiedManagers[0]->attribute_1);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(5, $verifiedManagers[0]->sms_count);
     }
 
@@ -1879,11 +1941,17 @@ class ContactTest extends TestCase
             'token' => null,
         ]);
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($contact->first_name);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($contact->last_name);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($contact->email);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($contact->mobile_phone);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($contact->verified_at);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($contact->token);
     }
 
@@ -1916,12 +1984,19 @@ class ContactTest extends TestCase
 
         $orderedContacts = Contact::orderBy('order_column')->get();
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(3, $orderedContacts);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('first@example.com', $orderedContacts[0]->value);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('second@example.com', $orderedContacts[1]->value);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('third@example.com', $orderedContacts[2]->value);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(1, $orderedContacts[0]->order_column);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(2, $orderedContacts[1]->order_column);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(3, $orderedContacts[2]->order_column);
     }
 }
