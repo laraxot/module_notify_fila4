@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
 # Risoluzione Conflitti SmsChannel.php
 
 ## Contesto del Conflitto
@@ -59,6 +62,7 @@ return $action->execute($smsData);
 <<<<<<< HEAD
 - [Root Conflict Resolution Guidelines](../../../project_docs/conflict-resolution-guidelines.md)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -187,3 +191,8 @@ return $action->execute($smsData);
 
 *Ultimo aggiornamento: giugno 2025*
 >>>>>>> 2a97406c (.)
+=======
+- [Root Conflict Resolution Guidelines](../../../docs/conflict-resolution-guidelines.md)
+
+*Ultimo aggiornamento: giugno 2025*
+>>>>>>> 4f042b88 (.)
