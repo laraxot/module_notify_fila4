@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD:.php-cs-fixer.dist - Copia.php
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -450,6 +451,8 @@ declare(strict_types=1);
 >>>>>>> f4acf543 (.)
 =======
 >>>>>>> e438127e (.)
+=======
+>>>>>>> 510e6e8b (.):.vscode/.php_cs
 $finder = PhpCsFixer\Finder::create()
     ->notPath('bootstrap/cache')
     ->notPath('storage')
@@ -459,33 +462,32 @@ $finder = PhpCsFixer\Finder::create()
     ->notName('*.blade.php')
     ->ignoreDotFiles(true)
     ->ignoreVCS(true)
+;
 
-$config = new PhpCsFixer\Config();
-
-$config
-    ->setRules([
+return PhpCsFixer\Config::create()
+    ->setRules(array(
         '@Symfony' => true,
         'array_indentation' => true,
         'function_typehint_space' => true,
         'declare_equal_normalize' => true,
-        'declare_strict_types' => true,
         'combine_consecutive_unsets' => true,
-        //'binary_operator_spaces' => ['align_double_arrow' => false],
+        'binary_operator_spaces' => ['align_double_arrow' => false],
         'array_syntax' => ['syntax' => 'short'],
         'linebreak_after_opening_tag' => true,
         'not_operator_with_successor_space' => true,
         'ordered_imports' => true,
         'phpdoc_order' => true,
         'php_unit_construct' => false,
-        'braces' => [
-            'position_after_functions_and_oop_constructs' => 'same',
+        'braces'=>[
+            'position_after_functions_and_oop_constructs'=>'same',
         ],
         'function_declaration' => true,
         'blank_line_after_namespace' => true,
         'class_definition' => true,
         'elseif' => true,
-    ])
+    ))
     ->setFinder($finder)
+<<<<<<< HEAD:.php-cs-fixer.dist - Copia.php
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -524,3 +526,6 @@ return $config;
 =======
 return $config;
 >>>>>>> 16b0038a (.)
+=======
+;
+>>>>>>> 510e6e8b (.):.vscode/.php_cs

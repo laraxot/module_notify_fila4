@@ -177,6 +177,8 @@ use Modules\Notify\Models\NotifyTheme;
 use Tests\TestCase;
 >>>>>>> 2941b0bd (.)
 
+use function Safe\json_encode;
+
 class NotifyThemeTest extends TestCase
 {
     use RefreshDatabase;

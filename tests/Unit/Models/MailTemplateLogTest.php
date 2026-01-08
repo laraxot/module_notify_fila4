@@ -177,6 +177,8 @@ use Modules\Notify\Models\MailTemplateLog;
 use Tests\TestCase;
 >>>>>>> 2941b0bd (.)
 
+use function Safe\json_encode;
+
 class MailTemplateLogTest extends TestCase
 {
     use RefreshDatabase;
