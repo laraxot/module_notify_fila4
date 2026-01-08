@@ -226,6 +226,7 @@ class NormalizePhoneNumberAction
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 {
+<<<<<<< HEAD
     public function execute(string|array $phoneNumber): string
     {
         // Convert array to string if needed
@@ -233,6 +234,10 @@ class NormalizePhoneNumberAction
             $phoneNumber = implode('', $phoneNumber);
         }
         
+=======
+    public function execute(string $phoneNumber): string
+    {
+>>>>>>> 62b0c9c (.)
         // Rimuove parentesi e il loro contenuto
 >>>>>>> c0f3d67cc (.)
 <<<<<<< HEAD
