@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 =======
@@ -17,6 +18,10 @@ use Illuminate\Database\Eloquent\Builder;
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> c0f3d67cc (.)
+=======
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> fb8e02b6b (.)
 use Modules\Notify\Models\NotificationType;
 
 describe('NotificationType Business Logic', function () {
@@ -72,11 +77,15 @@ describe('NotificationType Business Logic', function () {
 
     test('notification type model can be instantiated without errors', function () {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $notificationType = new NotificationType;
 =======
         $notificationType = new NotificationType();
 <<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+        $notificationType = new NotificationType;
+>>>>>>> fb8e02b6b (.)
 
         expect($notificationType)->toBeInstanceOf(NotificationType::class);
         expect($notificationType)->toBeInstanceOf(Model::class);

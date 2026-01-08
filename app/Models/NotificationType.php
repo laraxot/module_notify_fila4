@@ -115,6 +115,7 @@ use Illuminate\Database\Eloquent\Model;
  * @method static Builder<static>|NotificationType newQuery()
  * @method static Builder<static>|NotificationType query()
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
 =======
 <<<<<<< HEAD
@@ -131,6 +132,9 @@ use Illuminate\Database\Eloquent\Model;
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> c0f3d67cc (.)
+=======
+ *
+>>>>>>> fb8e02b6b (.)
  * @mixin IdeHelperNotificationType
  * @mixin \Eloquent
  */

@@ -92,6 +92,7 @@ test('html template contains optional function', function (): void {
     expect($content)
         ->toContain('optional($email_data)->subject', 'Il template html.blade.php non utilizza optional() per subject');
 
+<<<<<<< HEAD
     // Verifico che contiene la funzione optional per body_html
 <<<<<<< HEAD
     expect($content)
@@ -103,7 +104,10 @@ test('html template contains optional function', function (): void {
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
 use Tests\TestCase;
+=======
+>>>>>>> fb8e02b6b (.)
 use Illuminate\Support\Facades\File;
+use Tests\TestCase;
 
 uses(TestCase::class);
 <<<<<<< HEAD

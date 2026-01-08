@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use Modules\Xot\Models\BaseModel;
@@ -16,6 +17,10 @@ use Modules\Xot\Models\BaseModel;
 use Modules\Notify\Models\Notification;
 use Modules\Xot\Models\BaseModel;
 use ReflectionClass;
+=======
+use Modules\Notify\Models\Notification;
+use Modules\Xot\Models\BaseModel;
+>>>>>>> fb8e02b6b (.)
 
 describe('Notification Business Logic', function () {
     test('notification extends xot base model', function () {
@@ -31,8 +36,12 @@ describe('Notification Business Logic', function () {
     });
 
     test('notification can store polymorphic notifiable relationships', function () {
+<<<<<<< HEAD
         $reflection = new ReflectionClass(Notification::class);
         $notification = $reflection->newInstanceWithoutConstructor();
+=======
+        $notification = new Notification;
+>>>>>>> fb8e02b6b (.)
         $notification->notifiable_type = 'App\\Models\\User';
         $notification->notifiable_id = 1;
 <<<<<<< HEAD
@@ -49,8 +58,12 @@ describe('Notification Business Logic', function () {
     });
 
     test('notification has notification type', function () {
+<<<<<<< HEAD
         $reflection = new ReflectionClass(Notification::class);
         $notification = $reflection->newInstanceWithoutConstructor();
+=======
+        $notification = new Notification;
+>>>>>>> fb8e02b6b (.)
         $notification->type = 'App\\Notifications\\OrderConfirmation';
 <<<<<<< HEAD
 
@@ -65,8 +78,12 @@ describe('Notification Business Logic', function () {
     });
 
     test('notification can store data payload', function () {
+<<<<<<< HEAD
         $reflection = new ReflectionClass(Notification::class);
         $notification = $reflection->newInstanceWithoutConstructor();
+=======
+        $notification = new Notification;
+>>>>>>> fb8e02b6b (.)
         $notification->data = ['title' => 'Test', 'message' => 'Hello World'];
 <<<<<<< HEAD
 
@@ -82,8 +99,12 @@ describe('Notification Business Logic', function () {
     });
 
     test('notification can track read status', function () {
+<<<<<<< HEAD
         $reflection = new ReflectionClass(Notification::class);
         $notification = $reflection->newInstanceWithoutConstructor();
+=======
+        $notification = new Notification;
+>>>>>>> fb8e02b6b (.)
         $notification->read_at = '2023-01-01 12:00:00';
 <<<<<<< HEAD
 
@@ -98,8 +119,12 @@ describe('Notification Business Logic', function () {
     });
 
     test('notification can track tenant and user', function () {
+<<<<<<< HEAD
         $reflection = new ReflectionClass(Notification::class);
         $notification = $reflection->newInstanceWithoutConstructor();
+=======
+        $notification = new Notification;
+>>>>>>> fb8e02b6b (.)
         $notification->tenant_id = 1;
         $notification->user_id = 5;
 <<<<<<< HEAD
@@ -116,8 +141,12 @@ describe('Notification Business Logic', function () {
     });
 
     test('notification can store polymorphic subject relationships', function () {
+<<<<<<< HEAD
         $reflection = new ReflectionClass(Notification::class);
         $notification = $reflection->newInstanceWithoutConstructor();
+=======
+        $notification = new Notification;
+>>>>>>> fb8e02b6b (.)
         $notification->subject_type = 'App\\Models\\Order';
         $notification->subject_id = 123;
 <<<<<<< HEAD
@@ -134,8 +163,12 @@ describe('Notification Business Logic', function () {
     });
 
     test('notification can track multiple channels', function () {
+<<<<<<< HEAD
         $reflection = new ReflectionClass(Notification::class);
         $notification = $reflection->newInstanceWithoutConstructor();
+=======
+        $notification = new Notification;
+>>>>>>> fb8e02b6b (.)
         $notification->channels = ['mail', 'sms', 'database'];
 <<<<<<< HEAD
 
@@ -152,8 +185,12 @@ describe('Notification Business Logic', function () {
     });
 
     test('notification can track status and sent time', function () {
+<<<<<<< HEAD
         $reflection = new ReflectionClass(Notification::class);
         $notification = $reflection->newInstanceWithoutConstructor();
+=======
+        $notification = new Notification;
+>>>>>>> fb8e02b6b (.)
         $notification->status = 'sent';
         $notification->sent_at = '2023-01-01 14:00:00';
 <<<<<<< HEAD

@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Database\Seeders;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use Modules\Notify\Emails\SpatieEmail;
@@ -15,6 +16,8 @@ use Modules\Notify\Emails\SpatieEmail;
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> c0f3d67cc (.)
+=======
+>>>>>>> fb8e02b6b (.)
 use Illuminate\Database\Seeder;
 use Modules\Notify\Emails\SpatieEmail;
 use Modules\Notify\Models\MailTemplate;

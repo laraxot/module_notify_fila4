@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Notifications\Channels;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use Kreait\Firebase\Messaging\RegistrationToken;
@@ -17,6 +18,8 @@ use Kreait\Firebase\Messaging\RegistrationTokens;
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> c0f3d67cc (.)
+=======
+>>>>>>> fb8e02b6b (.)
 use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;

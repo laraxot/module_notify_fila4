@@ -221,7 +221,7 @@ class MailTemplateTest extends TestCase
     /** @test */
     public function it_has_correct_fillable_fields(): void
     {
-        $template = new MailTemplate();
+        $template = new MailTemplate;
 
         $expectedFillable = [
             'mailable',
@@ -241,7 +241,7 @@ class MailTemplateTest extends TestCase
     /** @test */
     public function it_has_correct_casts(): void
     {
-        $template = new MailTemplate();
+        $template = new MailTemplate;
 
         $expectedCasts = [
             'created_at' => 'datetime',
@@ -255,7 +255,7 @@ class MailTemplateTest extends TestCase
     /** @test */
     public function it_has_translatable_fields(): void
     {
-        $template = new MailTemplate();
+        $template = new MailTemplate;
 
         $expectedTranslatable = [
             'subject',
@@ -270,7 +270,7 @@ class MailTemplateTest extends TestCase
     /** @test */
     public function it_uses_notify_connection(): void
     {
-        $template = new MailTemplate();
+        $template = new MailTemplate;
 
         $this->assertEquals('notify', $template->getConnectionName());
     }

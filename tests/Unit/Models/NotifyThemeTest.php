@@ -239,7 +239,7 @@ class NotifyThemeTest extends TestCase
     /** @test */
     public function it_has_correct_fillable_fields(): void
     {
-        $theme = new NotifyTheme();
+        $theme = new NotifyTheme;
 
         $expectedFillable = [
             'id',
@@ -265,7 +265,7 @@ class NotifyThemeTest extends TestCase
     /** @test */
     public function it_has_correct_casts(): void
     {
-        $theme = new NotifyTheme();
+        $theme = new NotifyTheme;
 
         $expectedCasts = [
             'id' => 'string',
@@ -285,7 +285,7 @@ class NotifyThemeTest extends TestCase
     /** @test */
     public function it_has_logo_appended_attribute(): void
     {
-        $theme = new NotifyTheme();
+        $theme = new NotifyTheme;
 
         $expectedAppends = ['logo'];
 

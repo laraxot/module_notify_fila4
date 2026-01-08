@@ -12,11 +12,14 @@ use Modules\Xot\Contracts\ProfileContract;
 =======
 <<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
+<<<<<<< HEAD
 use Modules\Xot\Contracts\ProfileContract;
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> c0f3d67cc (.)
+=======
+>>>>>>> fb8e02b6b (.)
 use Illuminate\Support\Carbon;
 use Modules\Xot\Contracts\ProfileContract;
 
@@ -32,6 +35,7 @@ use Modules\Xot\Contracts\ProfileContract;
  * @property string|null $updated_by
  * @property int|null $notify_theme_id
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
 =======
 <<<<<<< HEAD
@@ -39,6 +43,9 @@ use Modules\Xot\Contracts\ProfileContract;
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
 >>>>>>> c0f3d67cc (.)
+=======
+ *
+>>>>>>> fb8e02b6b (.)
  * @method static Builder|NotifyThemeable newModelQuery()
  * @method static Builder|NotifyThemeable newQuery()
  * @method static Builder|NotifyThemeable query()
@@ -58,6 +65,7 @@ use Modules\Xot\Contracts\ProfileContract;
  *
  * @method static Builder<static>|NotifyThemeable whereDeletedAt($value)
  * @method static Builder<static>|NotifyThemeable whereDeletedBy($value)
+<<<<<<< HEAD
 <<<<<<< HEAD
  *
 =======
@@ -84,6 +92,9 @@ use Modules\Xot\Contracts\ProfileContract;
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> c0f3d67cc (.)
+=======
+ *
+>>>>>>> fb8e02b6b (.)
  * @mixin IdeHelperNotifyThemeable
  *
  * @property-read ProfileContract|null $deleter
