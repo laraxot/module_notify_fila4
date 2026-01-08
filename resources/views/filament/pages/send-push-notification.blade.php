@@ -201,6 +201,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bb7e77c2 (.)
 =======
@@ -469,6 +470,10 @@ declare(strict_types=1);
 >>>>>>> c7a4727b (.)
 =======
 >>>>>>> b99af5a8 (.)
+=======
+                <div>
+                    <x-filament::actions :actions="$this->getNotificationFormActions()" />
+>>>>>>> 9721a5b2 (.)
                 </div>
             </div>
         </div>
