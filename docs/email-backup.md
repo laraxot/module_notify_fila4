@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c417ace (.)
 # Sistema Backup Email 
@@ -645,3 +646,5 @@ class MailBackupDebugger
 =======
 - [Laravel Commands](https://laravel.com/docs/artisan) 
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)
