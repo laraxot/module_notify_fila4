@@ -713,8 +713,11 @@ php -l laravel/Modules/Notify/lang/de/sms_driver_enum.php
 >>>>>>> 8c8937e7 (rebase 210)
 =======
 - [Documentazione Traduzioni](../../Lang/docs/)
+<<<<<<< HEAD
 - [Documentazione Traduzioni](../../Lang/project_docs/)
 - [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
+=======
+>>>>>>> d284d65 (.)
 
 ---
 
