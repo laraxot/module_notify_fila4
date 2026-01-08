@@ -5,11 +5,12 @@ declare(strict_types=1);
 use Modules\Notify\Models\BaseModel;
 use Modules\Notify\Models\Contact;
 
-describe('Contact Business Logic', function () {
-    test('contact extends base model', function () {
+describe('Contact Business Logic', function (): void {
+    test('contact extends base model', function (): void {
         expect(Contact::class)->toBeSubclassOf(BaseModel::class);
     });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     test('contact can store polymorphic model relationships', function () {
@@ -20,6 +21,9 @@ describe('Contact Business Logic', function () {
 =======
     test('contact can store polymorphic model relationships', function () {
 >>>>>>> ab15d0e (.)
+=======
+    test('contact can store polymorphic model relationships', function (): void {
+>>>>>>> c42c734 (.)
         $contact = new Contact;
 =======
         $contact = new Contact();
@@ -33,6 +37,7 @@ describe('Contact Business Logic', function () {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test('contact can store contact information with type', function () {
 <<<<<<< HEAD
 =======
@@ -41,6 +46,9 @@ describe('Contact Business Logic', function () {
 =======
     test('contact can store contact information with type', function () {
 >>>>>>> ab15d0e (.)
+=======
+    test('contact can store contact information with type', function (): void {
+>>>>>>> c42c734 (.)
         $contact = new Contact;
 =======
         $contact = new Contact();
@@ -54,6 +62,7 @@ describe('Contact Business Logic', function () {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test('contact can track sms communication', function () {
 <<<<<<< HEAD
 =======
@@ -62,6 +71,9 @@ describe('Contact Business Logic', function () {
 =======
     test('contact can track sms communication', function () {
 >>>>>>> ab15d0e (.)
+=======
+    test('contact can track sms communication', function (): void {
+>>>>>>> c42c734 (.)
         $contact = new Contact;
 =======
         $contact = new Contact();
@@ -77,6 +89,7 @@ describe('Contact Business Logic', function () {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test('contact can track email communication', function () {
 <<<<<<< HEAD
 =======
@@ -85,6 +98,9 @@ describe('Contact Business Logic', function () {
 =======
     test('contact can track email communication', function () {
 >>>>>>> ab15d0e (.)
+=======
+    test('contact can track email communication', function (): void {
+>>>>>>> c42c734 (.)
         $contact = new Contact;
 =======
         $contact = new Contact();
@@ -98,6 +114,7 @@ describe('Contact Business Logic', function () {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test('contact can store personal information', function () {
 <<<<<<< HEAD
 =======
@@ -106,6 +123,9 @@ describe('Contact Business Logic', function () {
 =======
     test('contact can store personal information', function () {
 >>>>>>> ab15d0e (.)
+=======
+    test('contact can store personal information', function (): void {
+>>>>>>> c42c734 (.)
         $contact = new Contact;
 =======
         $contact = new Contact();
@@ -119,6 +139,7 @@ describe('Contact Business Logic', function () {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test('contact has verification tracking', function () {
 <<<<<<< HEAD
 =======
@@ -127,6 +148,9 @@ describe('Contact Business Logic', function () {
 =======
     test('contact has verification tracking', function () {
 >>>>>>> ab15d0e (.)
+=======
+    test('contact has verification tracking', function (): void {
+>>>>>>> c42c734 (.)
         $contact = new Contact;
 =======
         $contact = new Contact();
@@ -140,6 +164,7 @@ describe('Contact Business Logic', function () {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test('contact has flexible attribute storage', function () {
 <<<<<<< HEAD
 =======
@@ -148,6 +173,9 @@ describe('Contact Business Logic', function () {
 =======
     test('contact has flexible attribute storage', function () {
 >>>>>>> ab15d0e (.)
+=======
+    test('contact has flexible attribute storage', function (): void {
+>>>>>>> c42c734 (.)
         $contact = new Contact;
 =======
         $contact = new Contact();
@@ -161,6 +189,7 @@ describe('Contact Business Logic', function () {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test('contact can track duplicate count', function () {
 <<<<<<< HEAD
 =======
@@ -169,6 +198,9 @@ describe('Contact Business Logic', function () {
 =======
     test('contact can track duplicate count', function () {
 >>>>>>> ab15d0e (.)
+=======
+    test('contact can track duplicate count', function (): void {
+>>>>>>> c42c734 (.)
         $contact = new Contact;
 =======
         $contact = new Contact();
@@ -180,6 +212,7 @@ describe('Contact Business Logic', function () {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test('contact has order column for sorting', function () {
 <<<<<<< HEAD
 =======
@@ -188,6 +221,9 @@ describe('Contact Business Logic', function () {
 =======
     test('contact has order column for sorting', function () {
 >>>>>>> ab15d0e (.)
+=======
+    test('contact has order column for sorting', function (): void {
+>>>>>>> c42c734 (.)
         $contact = new Contact;
 =======
         $contact = new Contact();

@@ -35,29 +35,30 @@ use Illuminate\Database\Eloquent\Builder;
 use Modules\Notify\Models\MailTemplate;
 >>>>>>> 99ff506 (.)
 
-describe('MailTemplate Business Logic', function () {
-    test('mail template extends spatie mail template', function () {
+describe('MailTemplate Business Logic', function (): void {
+    test('mail template extends spatie mail template', function (): void {
         expect(MailTemplate::class)->toBeSubclassOf(\Spatie\MailTemplates\Models\MailTemplate::class);
     });
 
-    test('mail template has slug trait for url-friendly names', function () {
+    test('mail template has slug trait for url-friendly names', function (): void {
         $traits = class_uses(MailTemplate::class);
 
         expect($traits)->toHaveKey(HasSlug::class);
     });
 
-    test('mail template has translations trait', function () {
+    test('mail template has translations trait', function (): void {
         $traits = class_uses(MailTemplate::class);
 
         expect($traits)->toHaveKey(HasTranslations::class);
     });
 
-    test('mail template has soft deletes trait', function () {
+    test('mail template has soft deletes trait', function (): void {
         $traits = class_uses(MailTemplate::class);
 
         expect($traits)->toHaveKey(SoftDeletes::class);
     });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     test('mail template can store template content', function () {
@@ -68,6 +69,9 @@ describe('MailTemplate Business Logic', function () {
 =======
     test('mail template can store template content', function () {
 >>>>>>> ab15d0e (.)
+=======
+    test('mail template can store template content', function (): void {
+>>>>>>> c42c734 (.)
         $mailTemplate = new MailTemplate;
 =======
         $mailTemplate = new MailTemplate();
@@ -83,6 +87,7 @@ describe('MailTemplate Business Logic', function () {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test('mail template can link to mailable class', function () {
 <<<<<<< HEAD
 =======
@@ -91,6 +96,9 @@ describe('MailTemplate Business Logic', function () {
 =======
     test('mail template can link to mailable class', function () {
 >>>>>>> ab15d0e (.)
+=======
+    test('mail template can link to mailable class', function (): void {
+>>>>>>> c42c734 (.)
         $mailTemplate = new MailTemplate;
 =======
         $mailTemplate = new MailTemplate();
@@ -102,6 +110,7 @@ describe('MailTemplate Business Logic', function () {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test('mail template has version tracking', function () {
 <<<<<<< HEAD
 =======
@@ -110,6 +119,9 @@ describe('MailTemplate Business Logic', function () {
 =======
     test('mail template has version tracking', function () {
 >>>>>>> ab15d0e (.)
+=======
+    test('mail template has version tracking', function (): void {
+>>>>>>> c42c734 (.)
         $mailTemplate = new MailTemplate;
 =======
         $mailTemplate = new MailTemplate();
@@ -121,6 +133,7 @@ describe('MailTemplate Business Logic', function () {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test('mail template can store optional text template', function () {
 <<<<<<< HEAD
 =======
@@ -129,6 +142,9 @@ describe('MailTemplate Business Logic', function () {
 =======
     test('mail template can store optional text template', function () {
 >>>>>>> ab15d0e (.)
+=======
+    test('mail template can store optional text template', function (): void {
+>>>>>>> c42c734 (.)
         $mailTemplate = new MailTemplate;
 =======
         $mailTemplate = new MailTemplate();
@@ -138,13 +154,14 @@ describe('MailTemplate Business Logic', function () {
         expect($mailTemplate->text_template)->toBe('Welcome! This is plain text.');
     });
 
-    test('mail template can be queried by mailable', function () {
+    test('mail template can be queried by mailable', function (): void {
         $mailable = Mockery::mock(Mailable::class);
         $query = MailTemplate::forMailable($mailable);
 
         expect($query)->toBeInstanceOf(Builder::class);
     });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     test('mail template has creator and updater tracking', function () {
@@ -155,6 +172,9 @@ describe('MailTemplate Business Logic', function () {
 =======
     test('mail template has creator and updater tracking', function () {
 >>>>>>> ab15d0e (.)
+=======
+    test('mail template has creator and updater tracking', function (): void {
+>>>>>>> c42c734 (.)
         $mailTemplate = new MailTemplate;
 =======
         $mailTemplate = new MailTemplate();
