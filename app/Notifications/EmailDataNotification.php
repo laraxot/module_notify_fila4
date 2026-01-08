@@ -233,6 +233,7 @@ class EmailDataNotification extends Notification
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -424,10 +425,11 @@ class EmailDataNotification extends Notification
         $mailMessage = $mailMessage->subject($this->emailData->subject);
         $mailMessage = $mailMessage->line($this->emailData->body);
 =======
+=======
+>>>>>>> 0f81dc21 (.)
         $mailMessage = new MailMessage()
             ->subject($this->emailData->subject)
             ->line($this->emailData->body);
->>>>>>> 518c702 (.)
 
         if (!empty($this->emailData->body_html)) {
 <<<<<<< HEAD
