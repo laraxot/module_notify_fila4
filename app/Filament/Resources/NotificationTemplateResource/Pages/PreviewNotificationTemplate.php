@@ -11,7 +11,15 @@ class PreviewNotificationTemplate extends XotBaseResourcePage
 {
     protected static string $resource = NotificationTemplateResource::class;
 
+<<<<<<< HEAD
     protected string $view = 'notify::filament.resources.notification-template-resource.pages.preview-notification-template';
+=======
+<<<<<<< HEAD
+    protected string $view = 'notify::filament.resources.notification-template-resource.pages.preview-notification-template';
+=======
+    protected static string $view = 'notify::filament.resources.notification-template-resource.pages.preview-notification-template';
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
 
     public function getTitle(): string
     {

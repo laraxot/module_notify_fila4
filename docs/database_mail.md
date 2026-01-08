@@ -415,6 +415,7 @@ class ProcessDoctorModerationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -497,6 +498,11 @@ class ProcessDoctorModerationAction
 >>>>>>> ba564870 (.)
 =======
 >>>>>>> 66453ace (.)
+=======
+=======
+
+>>>>>>> d284d65 (.)
+>>>>>>> 7325acf3 (.)
 # Registrazione Approvata
 
 Gentile {{ $doctor->name }},
@@ -730,5 +736,11 @@ Cordiali saluti,<br>
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Spatie Mail Templates](https://github.com/spatie/laravel-database-mail-templates)
 - [TinyMCE](https://www.tiny.cloud)
+<<<<<<< HEAD
 - [Filament Forms](https://filamentphp.com/docs/forms)
+<<<<<<< HEAD
 >>>>>>> 66453ace (.)
+=======
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 7325acf3 (.)

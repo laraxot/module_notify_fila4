@@ -283,7 +283,11 @@ Per verificare se le traduzioni sono applicate correttamente:
 >>>>>>> ee18dd92 (.)
 >>>>>>> 022fa8f1c (.)
 - [Filament Translations](../../../../.cursor/rules/filament-translations.rule)
+<<<<<<< HEAD
 - [Laravel Localization](https://laravel.com/docs/10.x/localization)
+=======
+- [Laravel Localization](https://laravel.com/project_docs/10.x/localization)
+>>>>>>> d284d65 (.)
 
 ## Nota sui collegamenti
 
