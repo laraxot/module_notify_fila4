@@ -34,6 +34,7 @@ use Modules\Notify\Enums\NotificationLogStatusEnum;
 use Modules\Notify\Enums\NotificationLogStatusEnum;
 use Modules\Notify\Models\NotificationLog;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7ffa94fc (rebase 210)
 =======
@@ -55,6 +56,9 @@ use Modules\Notify\Enums\NotificationLogStatusEnum;
 use Modules\Notify\Enums\NotificationLogStatusEnum;
 >>>>>>> 1c9a755 (.)
 >>>>>>> 7ffa94fc (rebase 210)
+=======
+use Modules\Notify\Enums\NotificationLogStatusEnum;
+>>>>>>> cb5f23b0 (.)
 
 class CleanupNotificationLogsCommand extends Command
 {
