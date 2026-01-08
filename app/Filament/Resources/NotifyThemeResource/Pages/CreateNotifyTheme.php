@@ -6,10 +6,6 @@ namespace Modules\Notify\Filament\Resources\NotifyThemeResource\Pages;
 
 use Modules\Notify\Filament\Resources\NotifyThemeResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
-<<<<<<< HEAD
-=======
-use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
->>>>>>> 75179b8 (.)
 
 /**
  * --

@@ -38,14 +38,6 @@
             "Modules\\Notify\\Database\\Seeders\\": "database/seeders/"
         }
     },
-<<<<<<< HEAD
-    "autoload-dev": {
-        "psr-4": {
-            "Modules\\Notify\\Tests\\": "tests/"
-        }
-    },
-=======
->>>>>>> 75179b8 (.)
     "require": {
         "aws/aws-sdk-php": "*",
         "filament/filament": "*",

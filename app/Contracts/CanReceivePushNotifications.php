@@ -4,10 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Contracts;
 
-<<<<<<< HEAD
-=======
 use Illuminate\Database\Eloquent\Model;
->>>>>>> 75179b8 (.)
 use Illuminate\Support\Collection;
 
 /**
@@ -23,13 +20,8 @@ interface CanReceivePushNotifications
     /**
      * Get the value of the model's primary key.
      * non si puo usare mixed che cs lo cancella.
-<<<<<<< HEAD
-     */
-    public function getKey(): string|int|null;
-=======
      *
      * @return string|int|null
      */
     public function getKey();
->>>>>>> 75179b8 (.)
 }
