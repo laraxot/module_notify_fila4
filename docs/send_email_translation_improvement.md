@@ -429,7 +429,11 @@ cd /var/www/html/_bases/base_saluteora/laravel
 >>>>>>> d09cb759 (.)
 =======
 cd /var/www/html/_bases/base_<nome progetto>/laravel
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_saluteora/laravel
+=======
+cd /var/www/html/_bases/base_<nome progetto>/laravel
+>>>>>>> bf479cc (.)
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 >>>>>>> 75179b85 (.)
 =======
