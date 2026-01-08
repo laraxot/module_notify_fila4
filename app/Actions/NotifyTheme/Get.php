@@ -553,6 +553,10 @@ class Get
 >>>>>>> c0f3d67cc (.)
         $trad_mod = $module_name_low.'::'.$type.'.'.$name;
 
+<<<<<<< HEAD
+=======
+        /* @phpstan-ignore-next-line property.notFound */
+>>>>>>> 2cbbc069 (.)
         if ($theme->subject === null) {
             $subject = trans($trad_mod.'.subject');
 <<<<<<< HEAD
@@ -630,10 +634,15 @@ class Get
             $theme->update(['subject' => $subject]);
         }
 
+<<<<<<< HEAD
+=======
+        /* @phpstan-ignore-next-line property.notFound */
+>>>>>>> 2cbbc069 (.)
         if ($theme->theme === null) {
             $theme->update(['theme' => 'ark']);
         }
 
+<<<<<<< HEAD
         if ($theme->body_html === null) {
 <<<<<<< HEAD
             $html = trans($trad_mod.'.body_html');
@@ -667,6 +676,10 @@ class Get
             $html = trans($trad_mod . '.body_html');
             if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
 =======
+=======
+        /* @phpstan-ignore-next-line property.notFound */
+        if ($theme->body_html === null) {
+>>>>>>> 2cbbc069 (.)
             $html = trans($trad_mod.'.body_html');
             if (isset($view_params['body_html']) && $html === $trad_mod.'.body_html') {
 >>>>>>> b19cd40 (.)
@@ -1195,7 +1208,13 @@ class Get
 >>>>>>> 4689a827 (.)
 >>>>>>> c0f3d67cc (.)
         return NotifyThemeData::from([
+<<<<<<< HEAD
             'from_email' => $theme->from_email,
+=======
+            /* @phpstan-ignore-next-line property.notFound */
+            'from_email' => $theme->from_email,
+            /* @phpstan-ignore-next-line property.notFound */
+>>>>>>> 2cbbc069 (.)
             'from' => $theme->from,
             'subject' => $subject,
             'body_html' => $body_html,
