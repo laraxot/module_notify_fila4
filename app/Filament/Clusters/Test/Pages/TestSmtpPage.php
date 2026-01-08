@@ -4,6 +4,15 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
+<<<<<<< HEAD
+=======
+use Filament\Forms\Form;
+use Filament\Schemas\Schema;
+use Filament\Schemas\Components\Section;
+use Filament\Forms\Components\TextInput;
+use Filament\Forms\Components\RichEditor;
+use Override;
+>>>>>>> 6b649e02c (.)
 use Exception;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
@@ -121,6 +130,22 @@ class TestSmtpPage extends XotBasePage implements HasForms
         ];
     }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function emailForm(Schema $schema): Schema
+    {
+        /** @var Schema $result */
+        $result = $schema->components([])->model($this->getUser())->statePath('emailData');
+        return $result;
+    }
+
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> 6b649e02c (.)
     #[Override]
     protected function getUser(): Authenticatable&Model
     {

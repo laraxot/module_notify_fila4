@@ -238,6 +238,9 @@ class FormatSmsMessageAction
 >>>>>>> 4689a827 (.)
 >>>>>>> c0f3d67cc (.)
 {
+    /**
+     * @return array<string, mixed>
+     */
     public function execute(string $message): array
     {
         // Sanitizza i caratteri accentati

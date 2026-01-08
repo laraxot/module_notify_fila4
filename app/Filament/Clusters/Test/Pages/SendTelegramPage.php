@@ -64,6 +64,91 @@ class SendTelegramPage extends XotBasePage implements HasForms
                 ->maxLength(4096)
                 ->helperText('Il messaggio non può superare i 4096 caratteri'),
             'driver' => Select::make('driver')
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+        return $schema->components($this->getTelegramFormSchema())->model($this->getUser())->statePath('telegramData');
+    }
+
+    /**
+     * @return array<\Illuminate\Contracts\Support\Htmlable|string>
+     */
+    public function getTelegramFormSchema(): array
+    {
+        return [
+            TextInput::make('chat_id')->required()->helperText('ID della chat o username del canale'),
+            TextInput::make('text')
+                ->required()
+                ->maxLength(4096)
+                ->helperText('Il messaggio non può superare i 4096 caratteri'),
+            Select::make('driver')
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+=======
+            Forms\Components\TextInput::make('chat_id')
+                ->required()
+                ->helperText('ID della chat o username del canale'),
+            Forms\Components\TextInput::make('text')
+                ->required()
+                ->maxLength(4096)
+                ->helperText('Il messaggio non può superare i 4096 caratteri'),
+            Forms\Components\Select::make('driver')
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> 6b649e02c (.)
                 ->options([
                     'bot' => 'Bot API',
                     'webhook' => 'Webhook',

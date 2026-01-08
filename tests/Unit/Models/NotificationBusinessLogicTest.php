@@ -22,9 +22,14 @@ use Modules\Notify\Models\Notification;
 use Modules\Xot\Models\BaseModel;
 >>>>>>> fb8e02b6b (.)
 
+<<<<<<< HEAD
 describe('Notification Business Logic', function () {
     test('notification extends xot base model', function () {
 <<<<<<< HEAD
+=======
+describe('Notification Business Logic', function (): void {
+    test('notification extends xot base model', function (): void {
+>>>>>>> 6b649e02c (.)
         expect(Notification::class)->toBeSubclassOf(BaseModel::class);
 =======
 <<<<<<< HEAD
@@ -35,11 +40,15 @@ describe('Notification Business Logic', function () {
 >>>>>>> d284d65 (.)
     });
 
+<<<<<<< HEAD
     test('notification can store polymorphic notifiable relationships', function () {
 <<<<<<< HEAD
         $reflection = new ReflectionClass(Notification::class);
         $notification = $reflection->newInstanceWithoutConstructor();
 =======
+=======
+    test('notification can store polymorphic notifiable relationships', function (): void {
+>>>>>>> 6b649e02c (.)
         $notification = new Notification;
 >>>>>>> fb8e02b6b (.)
         $notification->notifiable_type = 'App\\Models\\User';
@@ -57,11 +66,15 @@ describe('Notification Business Logic', function () {
         expect($notification->notifiable_id)->toBe(1);
     });
 
+<<<<<<< HEAD
     test('notification has notification type', function () {
 <<<<<<< HEAD
         $reflection = new ReflectionClass(Notification::class);
         $notification = $reflection->newInstanceWithoutConstructor();
 =======
+=======
+    test('notification has notification type', function (): void {
+>>>>>>> 6b649e02c (.)
         $notification = new Notification;
 >>>>>>> fb8e02b6b (.)
         $notification->type = 'App\\Notifications\\OrderConfirmation';
@@ -77,11 +90,15 @@ describe('Notification Business Logic', function () {
         expect($notification->type)->toBe('App\\Notifications\\OrderConfirmation');
     });
 
+<<<<<<< HEAD
     test('notification can store data payload', function () {
 <<<<<<< HEAD
         $reflection = new ReflectionClass(Notification::class);
         $notification = $reflection->newInstanceWithoutConstructor();
 =======
+=======
+    test('notification can store data payload', function (): void {
+>>>>>>> 6b649e02c (.)
         $notification = new Notification;
 >>>>>>> fb8e02b6b (.)
         $notification->data = ['title' => 'Test', 'message' => 'Hello World'];
@@ -98,11 +115,15 @@ describe('Notification Business Logic', function () {
         expect($notification->data['title'])->toBe('Test');
     });
 
+<<<<<<< HEAD
     test('notification can track read status', function () {
 <<<<<<< HEAD
         $reflection = new ReflectionClass(Notification::class);
         $notification = $reflection->newInstanceWithoutConstructor();
 =======
+=======
+    test('notification can track read status', function (): void {
+>>>>>>> 6b649e02c (.)
         $notification = new Notification;
 >>>>>>> fb8e02b6b (.)
         $notification->read_at = '2023-01-01 12:00:00';
@@ -118,11 +139,15 @@ describe('Notification Business Logic', function () {
         expect($notification->read_at)->toBe('2023-01-01 12:00:00');
     });
 
+<<<<<<< HEAD
     test('notification can track tenant and user', function () {
 <<<<<<< HEAD
         $reflection = new ReflectionClass(Notification::class);
         $notification = $reflection->newInstanceWithoutConstructor();
 =======
+=======
+    test('notification can track tenant and user', function (): void {
+>>>>>>> 6b649e02c (.)
         $notification = new Notification;
 >>>>>>> fb8e02b6b (.)
         $notification->tenant_id = 1;
@@ -140,11 +165,15 @@ describe('Notification Business Logic', function () {
         expect($notification->user_id)->toBe(5);
     });
 
+<<<<<<< HEAD
     test('notification can store polymorphic subject relationships', function () {
 <<<<<<< HEAD
         $reflection = new ReflectionClass(Notification::class);
         $notification = $reflection->newInstanceWithoutConstructor();
 =======
+=======
+    test('notification can store polymorphic subject relationships', function (): void {
+>>>>>>> 6b649e02c (.)
         $notification = new Notification;
 >>>>>>> fb8e02b6b (.)
         $notification->subject_type = 'App\\Models\\Order';
@@ -162,11 +191,15 @@ describe('Notification Business Logic', function () {
         expect($notification->subject_id)->toBe(123);
     });
 
+<<<<<<< HEAD
     test('notification can track multiple channels', function () {
 <<<<<<< HEAD
         $reflection = new ReflectionClass(Notification::class);
         $notification = $reflection->newInstanceWithoutConstructor();
 =======
+=======
+    test('notification can track multiple channels', function (): void {
+>>>>>>> 6b649e02c (.)
         $notification = new Notification;
 >>>>>>> fb8e02b6b (.)
         $notification->channels = ['mail', 'sms', 'database'];
@@ -184,11 +217,15 @@ describe('Notification Business Logic', function () {
         expect($notification->channels)->toContain('sms');
     });
 
+<<<<<<< HEAD
     test('notification can track status and sent time', function () {
 <<<<<<< HEAD
         $reflection = new ReflectionClass(Notification::class);
         $notification = $reflection->newInstanceWithoutConstructor();
 =======
+=======
+    test('notification can track status and sent time', function (): void {
+>>>>>>> 6b649e02c (.)
         $notification = new Notification;
 >>>>>>> fb8e02b6b (.)
         $notification->status = 'sent';
@@ -206,7 +243,7 @@ describe('Notification Business Logic', function () {
         expect($notification->sent_at)->toBe('2023-01-01 14:00:00');
     });
 
-    test('notification has factory for testing', function () {
+    test('notification has factory for testing', function (): void {
         expect(method_exists(Notification::class, 'factory'))->toBeTrue();
     });
 <<<<<<< HEAD

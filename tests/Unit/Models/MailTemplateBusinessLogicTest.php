@@ -9,30 +9,30 @@ use Modules\Notify\Models\MailTemplate;
 use Spatie\Sluggable\HasSlug;
 use Spatie\Translatable\HasTranslations;
 
-describe('MailTemplate Business Logic', function () {
-    test('mail template extends spatie mail template', function () {
+describe('MailTemplate Business Logic', function (): void {
+    test('mail template extends spatie mail template', function (): void {
         expect(MailTemplate::class)->toBeSubclassOf(\Spatie\MailTemplates\Models\MailTemplate::class);
     });
 
-    test('mail template has slug trait for url-friendly names', function () {
+    test('mail template has slug trait for url-friendly names', function (): void {
         $traits = class_uses(MailTemplate::class);
 
         expect($traits)->toHaveKey(HasSlug::class);
     });
 
-    test('mail template has translations trait', function () {
+    test('mail template has translations trait', function (): void {
         $traits = class_uses(MailTemplate::class);
 
         expect($traits)->toHaveKey(HasTranslations::class);
     });
 
-    test('mail template has soft deletes trait', function () {
+    test('mail template has soft deletes trait', function (): void {
         $traits = class_uses(MailTemplate::class);
 
         expect($traits)->toHaveKey(SoftDeletes::class);
     });
 
-    test('mail template can store template content', function () {
+    test('mail template can store template content', function (): void {
         $mailTemplate = new MailTemplate;
         $mailTemplate->name = 'Welcome Email';
         $mailTemplate->subject = 'Welcome to our platform';
@@ -43,35 +43,35 @@ describe('MailTemplate Business Logic', function () {
         expect($mailTemplate->html_template)->toBe('<h1>Welcome!</h1>');
     });
 
-    test('mail template can link to mailable class', function () {
+    test('mail template can link to mailable class', function (): void {
         $mailTemplate = new MailTemplate;
         $mailTemplate->mailable = 'App\\Mail\\WelcomeMail';
 
         expect($mailTemplate->mailable)->toBe('App\\Mail\\WelcomeMail');
     });
 
-    test('mail template has version tracking', function () {
+    test('mail template has version tracking', function (): void {
         $mailTemplate = new MailTemplate;
         $mailTemplate->version = 2;
 
         expect($mailTemplate->version)->toBe(2);
     });
 
-    test('mail template can store optional text template', function () {
+    test('mail template can store optional text template', function (): void {
         $mailTemplate = new MailTemplate;
         $mailTemplate->text_template = 'Welcome! This is plain text.';
 
         expect($mailTemplate->text_template)->toBe('Welcome! This is plain text.');
     });
 
-    test('mail template can be queried by mailable', function () {
+    test('mail template can be queried by mailable', function (): void {
         $mailable = Mockery::mock(Mailable::class);
         $query = MailTemplate::forMailable($mailable);
 
         expect($query)->toBeInstanceOf(Builder::class);
     });
 
-    test('mail template has creator and updater tracking', function () {
+    test('mail template has creator and updater tracking', function (): void {
         $mailTemplate = new MailTemplate;
         $mailTemplate->created_by = 'user-1';
         $mailTemplate->updated_by = 'user-2';

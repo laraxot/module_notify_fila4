@@ -68,6 +68,7 @@ use Modules\Xot\Contracts\ProfileContract;
 <<<<<<< HEAD
 <<<<<<< HEAD
  *
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -99,6 +100,8 @@ use Modules\Xot\Contracts\ProfileContract;
  *
  * @property-read ProfileContract|null $deleter
  *
+=======
+>>>>>>> 6b649e02c (.)
  * @mixin \Eloquent
  */
 class NotifyThemeable extends BaseMorphPivot

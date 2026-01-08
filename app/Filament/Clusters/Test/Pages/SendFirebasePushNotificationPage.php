@@ -82,6 +82,111 @@ class SendFirebasePushNotificationPage extends XotBasePage
                 ->url()
                 ->helperText(__('notify::push.form.image_url.helper')),
             'notification_type' => Select::make('notification_type')
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+        return $schema->components($this->getPushFormSchema())->model($this->getUser())->statePath('pushData');
+    }
+
+    /**
+     * @return array<string, mixed>
+     */
+    public function getPushFormSchema(): array
+    {
+        return [
+            TextInput::make('token')
+                ->label(__('notify::push.form.token.label'))
+                ->required()
+                ->helperText(__('notify::push.form.token.helper')),
+            TextInput::make('title')
+                ->label(__('notify::push.form.title.label'))
+                ->required()
+                ->maxLength(100),
+            Textarea::make('body')
+                ->label(__('notify::push.form.body.label'))
+                ->required()
+                ->rows(3),
+            TextInput::make('image_url')
+                ->label(__('notify::push.form.image_url.label'))
+                ->url()
+                ->helperText(__('notify::push.form.image_url.helper')),
+            Select::make('notification_type')
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+=======
+            Forms\Components\TextInput::make('token')
+                ->label(__('notify::push.form.token.label'))
+                ->required()
+                ->helperText(__('notify::push.form.token.helper')),
+            Forms\Components\TextInput::make('title')
+                ->label(__('notify::push.form.title.label'))
+                ->required()
+                ->maxLength(100),
+            Forms\Components\Textarea::make('body')
+                ->label(__('notify::push.form.body.label'))
+                ->required()
+                ->rows(3),
+            Forms\Components\TextInput::make('image_url')
+                ->label(__('notify::push.form.image_url.label'))
+                ->url()
+                ->helperText(__('notify::push.form.image_url.helper')),
+            Forms\Components\Select::make('notification_type')
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> 6b649e02c (.)
                 ->label(__('notify::push.form.notification_type.label'))
                 ->options([
                     'message' => 'Message',

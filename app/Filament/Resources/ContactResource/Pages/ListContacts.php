@@ -287,6 +287,9 @@ class ListContacts extends XotBaseListRecords
 >>>>>>> 4689a827 (.)
 >>>>>>> c0f3d67cc (.)
     #[Override]
+    /**
+     * @return array<string, mixed>
+     */
     public function getTableColumns(): array
     {
         return [
@@ -302,6 +305,9 @@ class ListContacts extends XotBaseListRecords
     }
 
     #[Override]
+    /**
+     * @return array<string, mixed>
+     */
     public function getTableFilters(): array
     {
         return [

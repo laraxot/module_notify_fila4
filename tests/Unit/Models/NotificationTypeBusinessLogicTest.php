@@ -24,9 +24,14 @@ use Illuminate\Database\Eloquent\Model;
 >>>>>>> fb8e02b6b (.)
 use Modules\Notify\Models\NotificationType;
 
+<<<<<<< HEAD
 describe('NotificationType Business Logic', function () {
     test('notification type extends eloquent model', function () {
 <<<<<<< HEAD
+=======
+describe('NotificationType Business Logic', function (): void {
+    test('notification type extends eloquent model', function (): void {
+>>>>>>> 6b649e02c (.)
         expect(NotificationType::class)->toBeSubclassOf(Model::class);
 =======
 <<<<<<< HEAD
@@ -37,7 +42,7 @@ describe('NotificationType Business Logic', function () {
 >>>>>>> d284d65 (.)
     });
 
-    test('notification type has expected fillable fields', function () {
+    test('notification type has expected fillable fields', function (): void {
         $notificationType = new NotificationType;
         $expectedFillable = [
             'name',
@@ -56,7 +61,7 @@ describe('NotificationType Business Logic', function () {
         expect($notificationType->getFillable())->toEqual($expectedFillable);
     });
 
-    test('notification type can store basic information', function () {
+    test('notification type can store basic information', function (): void {
         $notificationType = new NotificationType;
         $notificationType->name = 'Email Verification';
         $notificationType->description = 'Email verification notification type';
@@ -75,9 +80,13 @@ describe('NotificationType Business Logic', function () {
         expect($notificationType->template)->toBe('email-verification-template');
     });
 
+<<<<<<< HEAD
     test('notification type model can be instantiated without errors', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+    test('notification type model can be instantiated without errors', function (): void {
+>>>>>>> 6b649e02c (.)
         $notificationType = new NotificationType;
 =======
         $notificationType = new NotificationType();
@@ -102,7 +111,7 @@ describe('NotificationType Business Logic', function () {
 >>>>>>> d284d65 (.)
     });
 
-    test('notification type can be queried', function () {
+    test('notification type can be queried', function (): void {
         $query = NotificationType::query();
 <<<<<<< HEAD
 =======
