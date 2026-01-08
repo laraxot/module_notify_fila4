@@ -90,6 +90,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -319,6 +320,8 @@
 =======
 =======
 >>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 7efe49a4 (rebase 210)
 <?php
 
 declare(strict_types=1);
@@ -730,8 +733,11 @@ declare(strict_types=1);
 >>>>>>> 878ac14d (rebase 210)
 =======
 <tr>
+<<<<<<< HEAD
 >>>>>>> 518c702 (.)
 >>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 7efe49a4 (rebase 210)
 	<td class="w40" width="40"></td>
 	<td class="w560" width="560">
 		<table class="w560" border="0" cellpadding="0" cellspacing="0" width="560">
@@ -740,6 +746,7 @@ declare(strict_types=1);
 			<tr><td class="w560" height="15" width="560"></td></tr>
 			<tr>
 				<td class="w560" width="560">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1290,3 +1297,6 @@ declare(strict_types=1);
 >>>>>>> 878ac14d (rebase 210)
 =======
 >>>>>>> fdb24863 (rebase 210)
+=======
+					<div class="article-content" align="left">
+>>>>>>> 7efe49a4 (rebase 210)
