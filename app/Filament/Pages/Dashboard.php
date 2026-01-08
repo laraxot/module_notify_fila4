@@ -26,6 +26,7 @@ class Dashboard extends XotBaseDashboard {}
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -135,29 +136,21 @@ use Modules\Xot\Filament\Pages\XotBasePage;
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+use Modules\Xot\Filament\Pages\XotBaseDashboard;
+use Modules\Xot\Filament\Pages\XotBasePage;
+>>>>>>> 2941b0bd (.)
 
 class Dashboard extends XotBaseDashboard
 {
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-home';
 
     protected string $view = 'notify::filament.pages.dashboard';
-<<<<<<< HEAD
-=======
-=======
-use Modules\Xot\Filament\Pages\XotBasePage;
-use Modules\Xot\Filament\Pages\XotBaseDashboard;
-
-class Dashboard extends XotBaseDashboard
-{
-    protected static ?string $navigationIcon = 'heroicon-o-home';
-
-    protected static string $view = 'notify::filament.pages.dashboard';
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 
     public function mount(): void
     {
         /*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -229,11 +222,14 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
          * $user = auth()->user();
          * if (! $user->hasRole('super-admin')) {
          * redirect('/admin');
          * }
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -350,6 +346,8 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
     }
 }
 >>>>>>> 75cb51873 (.)

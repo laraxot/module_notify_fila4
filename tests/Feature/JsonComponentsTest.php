@@ -4,22 +4,10 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
 use Tests\TestCase;
 use Illuminate\Support\Facades\File;
 
 uses(TestCase::class);
-<<<<<<< HEAD
-=======
-=======
-use Illuminate\Support\Facades\File;
-
-uses(Tests\TestCase::class);
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 
 test('components json is valid and contains expected components', function (): void {
     // Percorso del file
