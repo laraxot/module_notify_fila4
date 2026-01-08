@@ -9,6 +9,7 @@ namespace Modules\Notify\Tests\Feature;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use RuntimeException;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -61,21 +62,30 @@ use Modules\Notify\Models\MailTemplateVersion;
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Models\MailTemplateVersion;
 use RuntimeException;
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> f813254 (.)
 =======
 >>>>>>> f5f1cb1 (.)
+=======
+>>>>>>> d45a0226 (.)
 use RuntimeException;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Models\MailTemplateVersion;
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
 use Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -747,6 +757,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $this->assertEquals('developer@' . config('app.domain', 'example.com'), $version->created_by);
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -881,6 +892,12 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 =======
         $this->assertEquals('developer@'.config('app.domain', 'example.com'), $version->created_by);
 >>>>>>> 985c7bda (.)
+=======
+        $this->assertEquals('developer@'.config('app.domain', 'example.com'), $version->created_by);
+=======
+        $this->assertEquals('developer@' . config('app.domain', 'example.com'), $version->created_by);
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
         $this->assertEquals(
             'Correzione bug nella formattazione HTML e ottimizzazione per mobile',
             $version->change_notes,
