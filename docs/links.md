@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ----------------------------------------------------------------------------------
 Laravel Mailator for Configuring Email Scheduler & Templates
@@ -15,6 +16,8 @@ https://codebrisk.com/blog/catch-all-sent-email-show-them-on-laravel-application
 composer require creagia/laravel-web-mailer
 --------------------------------------------------------------------------------------
 =======
+=======
+>>>>>>> 022fa8f1c (.)
 # Collegamenti Notify
 
 ## Pacchetti Raccomandati
@@ -205,5 +208,8 @@ Notification::failed(function ($event) {
     ]);
 });
 ```
+<<<<<<< HEAD
 >>>>>>> bb96c993b (.)
+=======
+>>>>>>> 022fa8f1c (.)
 

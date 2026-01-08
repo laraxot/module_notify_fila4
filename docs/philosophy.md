@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Notify Module: Philosophy, Purpose, and Design Principles
 
 **Date:** December 23, 2025
@@ -55,6 +56,8 @@ The `Notify` module, as the application's voice, can significantly benefit from 
 
 By leveraging these MCPs, the `Notify` module can ensure its critical role in managing communication is more efficient, verifiable, and transparent, ultimately contributing to a reliable and trustworthy application.
 =======
+=======
+>>>>>>> 022fa8f1c (.)
 # Filosofia del Modulo Notify
 
 ## Politica
@@ -177,4 +180,7 @@ Questi principi si traducono in pratiche concrete:
    - Revisione regolare del codice
    - Aggiornamento della documentazione
    - Miglioramento continuo basato sui principi fondamentali
+<<<<<<< HEAD
 >>>>>>> bb96c993b (.)
+=======
+>>>>>>> 022fa8f1c (.)

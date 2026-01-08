@@ -63,7 +63,46 @@ module.exports = {
 ---
 
 ## 4. Best Practice
+<<<<<<< HEAD
 - Documentare ogni plugin in `/docs` e `/Themes/One/project_docs/`.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- Documentare ogni plugin in `/docs` e `/Themes/One/project_docs/`.
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+- Documentare ogni plugin in `/docs` e `/Themes/One/project_docs/`.
+>>>>>>> 31f5d28f (.)
+=======
+- Documentare ogni plugin in `/docs` e `/Themes/One/project_docs/`.
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+- Documentare ogni plugin in `/docs` e `/Themes/One/project_docs/`.
+>>>>>>> 31f5d28f (.)
+=======
+- Documentare ogni plugin in `/docs` e `/Themes/One/project_docs/`.
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+- Documentare ogni plugin in `/docs` e `/Themes/One/project_docs/`.
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> ee18dd92 (.)
+>>>>>>> 022fa8f1c (.)
 - Documentare ogni plugin in `/docs` e `/Themes/One/docs/`.
 - Usare i plugin per pattern condivisi (bottoni, alert, badge, card, ecc.).
 - Versionare e testare i plugin per evitare regressioni.
@@ -81,7 +120,46 @@ module.exports = {
 ---
 
 ## 6. Collegamenti e Risorse
+<<<<<<< HEAD
 - [Tailwind CSS Plugin Docs](https://tailwindcss.com/project_docs/plugins)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- [Tailwind CSS Plugin Docs](https://tailwindcss.com/project_docs/plugins)
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+- [Tailwind CSS Plugin Docs](https://tailwindcss.com/project_docs/plugins)
+>>>>>>> 31f5d28f (.)
+=======
+- [Tailwind CSS Plugin Docs](https://tailwindcss.com/project_docs/plugins)
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+- [Tailwind CSS Plugin Docs](https://tailwindcss.com/project_docs/plugins)
+>>>>>>> 31f5d28f (.)
+=======
+- [Tailwind CSS Plugin Docs](https://tailwindcss.com/project_docs/plugins)
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+- [Tailwind CSS Plugin Docs](https://tailwindcss.com/project_docs/plugins)
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> ee18dd92 (.)
+>>>>>>> 022fa8f1c (.)
 - [Tailwind CSS Plugin Docs](https://tailwindcss.com/docs/plugins)
 - [Webcrunch: Creare Plugin Tailwind](https://webcrunch.com/posts/create-a-tailwind-css-plugin-from-scratch)
 

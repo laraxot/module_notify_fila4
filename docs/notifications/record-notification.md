@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # `RecordNotification`
 
 This document describes the `RecordNotification` class, a Laravel Notification that acts as a **Bridge** between Laravel's notification system and the `SpatieEmail` mailable system. It delegates all template resolution, placeholder replacement, and layout logic to `SpatieEmail`, following the **Zen Delegation Pattern**.
@@ -196,6 +197,8 @@ SpatieEmail (Specialized Agent)
 *   [`SmsData` Documentation](../datas/sms-data.md)
 *   [Zen Delegation Strategy](../refactoring/record-notification-zen-delegation.md)
 =======
+=======
+>>>>>>> 022fa8f1c (.)
 # RecordNotification Documentation
 
 ## Overview
@@ -566,4 +569,7 @@ public function routeNotificationFor($channel)
 3. **Performance**: Implement attachment streaming for large files
 4. **Flexibility**: Add support for additional notification channels
 5. **Templates**: Support for dynamic template selection based on record type
+<<<<<<< HEAD
 >>>>>>> bb96c993b (.)
+=======
+>>>>>>> 022fa8f1c (.)

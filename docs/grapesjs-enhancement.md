@@ -66,7 +66,39 @@ class PageTemplate extends Model {
 
 ### 5.2 Filament Resource
 ```php
+<<<<<<< HEAD
 public static function form(Form $form): Form {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema {
+=======
+public static function form(Form $form): Form {
+>>>>>>> 75179b85 (.)
+=======
+public static function form(Form $form): Form {
+>>>>>>> f963d2c0 (.)
+=======
+public static function form(Form $form): Form {
+>>>>>>> 31f5d28f (.)
+=======
+public static function form(Form $form): Form {
+>>>>>>> 75179b85 (.)
+=======
+public static function form(Form $form): Form {
+>>>>>>> f963d2c0 (.)
+=======
+public static function form(Form $form): Form {
+>>>>>>> 31f5d28f (.)
+=======
+public static function form(Form $form): Form {
+>>>>>>> ee18dd92 (.)
+>>>>>>> 022fa8f1c (.)
     return $form->schema([
         TextInput::make('name')->required(),
         GrapesJsEditor::make('content_json')
@@ -130,5 +162,44 @@ class PublishPageTemplateAction {
 
 - Plugin ufficiale: https://filamentphp.com/plugins/dotswan-grapesjs
 - Repository: https://github.com/dotswan/filament-grapesjs
+<<<<<<< HEAD
 - GrapesJS Docs: https://grapesjs.com/project_docs/
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- GrapesJS Docs: https://grapesjs.com/project_docs/
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+- GrapesJS Docs: https://grapesjs.com/project_docs/
+>>>>>>> 31f5d28f (.)
+=======
+- GrapesJS Docs: https://grapesjs.com/project_docs/
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+- GrapesJS Docs: https://grapesjs.com/project_docs/
+>>>>>>> 31f5d28f (.)
+=======
+- GrapesJS Docs: https://grapesjs.com/project_docs/
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+- GrapesJS Docs: https://grapesjs.com/project_docs/
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> ee18dd92 (.)
+>>>>>>> 022fa8f1c (.)
 - GrapesJS Docs: https://grapesjs.com/docs/

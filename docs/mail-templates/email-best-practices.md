@@ -15,8 +15,77 @@ Questo documento descrive le best practices per la creazione e gestione di email
 
 ### 2. Branding Coerente
 
+<<<<<<< HEAD
 - **Elementi visuali**: Utilizzare logo, colori e font 
 - **Elementi visuali**: Utilizzare logo, colori e font SaluteOra
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- **Elementi visuali**: Utilizzare logo, colori e font <nome progetto>
+=======
+- **Elementi visuali**: Utilizzare logo, colori e font 
+- **Elementi visuali**: Utilizzare logo, colori e font SaluteOra
+>>>>>>> 75179b85 (.)
+=======
+- **Elementi visuali**: Utilizzare logo, colori e font SaluteOra
+>>>>>>> f963d2c0 (.)
+=======
+- **Elementi visuali**: Utilizzare logo, colori e font SaluteOra
+=======
+- **Elementi visuali**: Utilizzare logo, colori e font SaluteOra
+>>>>>>> 31f5d28f (.)
+=======
+- **Elementi visuali**: Utilizzare logo, colori e font SaluteOra
+>>>>>>> 31f5d28f (.)
+=======
+- **Elementi visuali**: Utilizzare logo, colori e font 
+- **Elementi visuali**: Utilizzare logo, colori e font <nome progetto>
+>>>>>>> bf479cc (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 31f5d28f (.)
+=======
+- **Elementi visuali**: Utilizzare logo, colori e font SaluteOra
+>>>>>>> a404ea71 (.)
+=======
+- **Elementi visuali**: Utilizzare logo, colori e font 
+- **Elementi visuali**: Utilizzare logo, colori e font SaluteOra
+>>>>>>> 75179b85 (.)
+=======
+- **Elementi visuali**: Utilizzare logo, colori e font SaluteOra
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+- **Elementi visuali**: Utilizzare logo, colori e font SaluteOra
+>>>>>>> a404ea71 (.)
+=======
+- **Elementi visuali**: Utilizzare logo, colori e font 
+- **Elementi visuali**: Utilizzare logo, colori e font SaluteOra
+>>>>>>> 75179b85 (.)
+=======
+- **Elementi visuali**: Utilizzare logo, colori e font SaluteOra
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+- **Elementi visuali**: Utilizzare logo, colori e font SaluteOra
+>>>>>>> a404ea71 (.)
+=======
+- **Elementi visuali**: Utilizzare logo, colori e font SaluteOra
+>>>>>>> ee18dd92 (.)
+>>>>>>> 022fa8f1c (.)
 - **Voce e tono**: Mantenere un tono professionale ma amichevole
 - **Firma coerente**: Includere sempre lo stesso formato di firma e disclaimer
 
@@ -62,9 +131,82 @@ I template di [mailpace/templates](https://github.com/mailpace/templates) integr
 
 ### Directory `mail-layouts`
 
+<<<<<<< HEAD
 La directory `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/mail-layouts/` contiene:
 La directory `/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/` contiene:
 La directory `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/mail-layouts/` contiene:
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+La directory `/var/www/html/<nome progetto>/laravel/Modules/Notify/resources/mail-layouts/` contiene:
+=======
+La directory `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/mail-layouts/` contiene:
+La directory `/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/` contiene:
+La directory `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/mail-layouts/` contiene:
+>>>>>>> 75179b85 (.)
+=======
+La directory `/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/` contiene:
+>>>>>>> f963d2c0 (.)
+=======
+La directory `/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/` contiene:
+=======
+La directory `/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/` contiene:
+>>>>>>> 31f5d28f (.)
+=======
+La directory `/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/` contiene:
+>>>>>>> 31f5d28f (.)
+=======
+La directory `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/mail-layouts/` contiene:
+La directory `/var/www/html/<nome progetto>/laravel/Modules/Notify/resources/mail-layouts/` contiene:
+La directory `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/mail-layouts/` contiene:
+>>>>>>> bf479cc (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 31f5d28f (.)
+=======
+La directory `/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/` contiene:
+>>>>>>> a404ea71 (.)
+=======
+La directory `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/mail-layouts/` contiene:
+La directory `/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/` contiene:
+La directory `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/mail-layouts/` contiene:
+>>>>>>> 75179b85 (.)
+=======
+La directory `/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/` contiene:
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+La directory `/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/` contiene:
+>>>>>>> a404ea71 (.)
+=======
+La directory `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/mail-layouts/` contiene:
+La directory `/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/` contiene:
+La directory `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/mail-layouts/` contiene:
+>>>>>>> 75179b85 (.)
+=======
+La directory `/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/` contiene:
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+La directory `/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/` contiene:
+>>>>>>> a404ea71 (.)
+=======
+La directory `/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/` contiene:
+>>>>>>> ee18dd92 (.)
+>>>>>>> 022fa8f1c (.)
 
 - **default.html**: Template base per la maggior parte delle comunicazioni
 - **main.html**: Alternativa minimalista
@@ -73,8 +215,77 @@ La directory `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/N
 
 ### Integrazione con Spatie Mail Templates
 
+<<<<<<< HEAD
 Seguendo le regole di progetto , ricordare di:
 Seguendo le regole di progetto SaluteOra, ricordare di:
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+Seguendo le regole di progetto <nome progetto>, ricordare di:
+=======
+Seguendo le regole di progetto , ricordare di:
+Seguendo le regole di progetto SaluteOra, ricordare di:
+>>>>>>> 75179b85 (.)
+=======
+Seguendo le regole di progetto SaluteOra, ricordare di:
+>>>>>>> f963d2c0 (.)
+=======
+Seguendo le regole di progetto SaluteOra, ricordare di:
+=======
+Seguendo le regole di progetto SaluteOra, ricordare di:
+>>>>>>> 31f5d28f (.)
+=======
+Seguendo le regole di progetto SaluteOra, ricordare di:
+>>>>>>> 31f5d28f (.)
+=======
+Seguendo le regole di progetto , ricordare di:
+Seguendo le regole di progetto <nome progetto>, ricordare di:
+>>>>>>> bf479cc (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 31f5d28f (.)
+=======
+Seguendo le regole di progetto SaluteOra, ricordare di:
+>>>>>>> a404ea71 (.)
+=======
+Seguendo le regole di progetto , ricordare di:
+Seguendo le regole di progetto SaluteOra, ricordare di:
+>>>>>>> 75179b85 (.)
+=======
+Seguendo le regole di progetto SaluteOra, ricordare di:
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+Seguendo le regole di progetto SaluteOra, ricordare di:
+>>>>>>> a404ea71 (.)
+=======
+Seguendo le regole di progetto , ricordare di:
+Seguendo le regole di progetto SaluteOra, ricordare di:
+>>>>>>> 75179b85 (.)
+=======
+Seguendo le regole di progetto SaluteOra, ricordare di:
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+Seguendo le regole di progetto SaluteOra, ricordare di:
+>>>>>>> a404ea71 (.)
+=======
+Seguendo le regole di progetto SaluteOra, ricordare di:
+>>>>>>> ee18dd92 (.)
+>>>>>>> 022fa8f1c (.)
 
 - NON creare controller personalizzati per gestire l'invio di email
 - Utilizzare il package `spatie/laravel-mail-templates`

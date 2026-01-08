@@ -175,8 +175,77 @@ class AppointmentReminder extends Notification
         $smsData = new NetfunSmsData(
             recipient: $phoneNumber,
             message: "Promemoria: appuntamento il {$this->appointment->date}",
+<<<<<<< HEAD
             sender: '',
             sender: 'SaluteOra',
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            sender: '<nome progetto>',
+=======
+            sender: '',
+            sender: 'SaluteOra',
+>>>>>>> 75179b85 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> f963d2c0 (.)
+=======
+            sender: 'SaluteOra',
+=======
+            sender: 'SaluteOra',
+>>>>>>> 31f5d28f (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 31f5d28f (.)
+=======
+            sender: '',
+            sender: '<nome progetto>',
+>>>>>>> bf479cc (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 31f5d28f (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> a404ea71 (.)
+=======
+            sender: '',
+            sender: 'SaluteOra',
+>>>>>>> 75179b85 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> a404ea71 (.)
+=======
+            sender: '',
+            sender: 'SaluteOra',
+>>>>>>> 75179b85 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> a404ea71 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> ee18dd92 (.)
+>>>>>>> 022fa8f1c (.)
             reference: 'app_' . $this->appointment->id
         );
         

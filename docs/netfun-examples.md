@@ -34,8 +34,76 @@ class OtpSmsNotification extends NetfunSmsNotification
 
         parent::__construct(
             message: "Il tuo codice OTP è: {$otp}. Valido fino alle {$this->expiresAt->format('H:i')}.",
+<<<<<<< HEAD
             sender: '<nome progetto>'
             sender: 'SALUTEORA'
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            sender: '<nome progetto>'
+<<<<<<< HEAD
+=======
+            sender: 'SALUTEORA'
+>>>>>>> 75179b85 (.)
+=======
+            sender: 'SALUTEORA'
+>>>>>>> f963d2c0 (.)
+=======
+            sender: 'SALUTEORA'
+=======
+            sender: 'SALUTEORA'
+>>>>>>> 31f5d28f (.)
+=======
+            sender: 'SALUTEORA'
+>>>>>>> 31f5d28f (.)
+=======
+            sender: '<nome progetto>'
+            sender: '<nome progetto>'
+>>>>>>> bf479cc (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 31f5d28f (.)
+=======
+            sender: 'SALUTEORA'
+>>>>>>> a404ea71 (.)
+=======
+            sender: '<nome progetto>'
+            sender: 'SALUTEORA'
+>>>>>>> 75179b85 (.)
+=======
+            sender: 'SALUTEORA'
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+            sender: 'SALUTEORA'
+>>>>>>> a404ea71 (.)
+=======
+            sender: '<nome progetto>'
+            sender: 'SALUTEORA'
+>>>>>>> 75179b85 (.)
+=======
+            sender: 'SALUTEORA'
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+            sender: 'SALUTEORA'
+>>>>>>> a404ea71 (.)
+=======
+            sender: 'SALUTEORA'
+>>>>>>> ee18dd92 (.)
+>>>>>>> 022fa8f1c (.)
         );
     }
 
@@ -201,8 +269,76 @@ class AppointmentReminderNotification extends NetfunSmsNotification
 
         parent::__construct(
             message: $message,
+<<<<<<< HEAD
             sender: '<nome progetto>'
             sender: 'SALUTEORA'
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            sender: '<nome progetto>'
+<<<<<<< HEAD
+=======
+            sender: 'SALUTEORA'
+>>>>>>> 75179b85 (.)
+=======
+            sender: 'SALUTEORA'
+>>>>>>> f963d2c0 (.)
+=======
+            sender: 'SALUTEORA'
+=======
+            sender: 'SALUTEORA'
+>>>>>>> 31f5d28f (.)
+=======
+            sender: 'SALUTEORA'
+>>>>>>> 31f5d28f (.)
+=======
+            sender: '<nome progetto>'
+            sender: '<nome progetto>'
+>>>>>>> bf479cc (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 31f5d28f (.)
+=======
+            sender: 'SALUTEORA'
+>>>>>>> a404ea71 (.)
+=======
+            sender: '<nome progetto>'
+            sender: 'SALUTEORA'
+>>>>>>> 75179b85 (.)
+=======
+            sender: 'SALUTEORA'
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+            sender: 'SALUTEORA'
+>>>>>>> a404ea71 (.)
+=======
+            sender: '<nome progetto>'
+            sender: 'SALUTEORA'
+>>>>>>> 75179b85 (.)
+=======
+            sender: 'SALUTEORA'
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+            sender: 'SALUTEORA'
+>>>>>>> a404ea71 (.)
+=======
+            sender: 'SALUTEORA'
+>>>>>>> ee18dd92 (.)
+>>>>>>> 022fa8f1c (.)
         );
     }
 
@@ -443,8 +579,76 @@ public function sendBulkSms(Request $request)
         $results = SendBulkSmsAction::make(
             users: $users,
             message: $request->message,
+<<<<<<< HEAD
             sender: '<nome progetto>',
             sender: 'SALUTEORA',
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            sender: '<nome progetto>',
+<<<<<<< HEAD
+=======
+            sender: 'SALUTEORA',
+>>>>>>> 75179b85 (.)
+=======
+            sender: 'SALUTEORA',
+>>>>>>> f963d2c0 (.)
+=======
+            sender: 'SALUTEORA',
+=======
+            sender: 'SALUTEORA',
+>>>>>>> 31f5d28f (.)
+=======
+            sender: 'SALUTEORA',
+>>>>>>> 31f5d28f (.)
+=======
+            sender: '<nome progetto>',
+            sender: '<nome progetto>',
+>>>>>>> bf479cc (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 31f5d28f (.)
+=======
+            sender: 'SALUTEORA',
+>>>>>>> a404ea71 (.)
+=======
+            sender: '<nome progetto>',
+            sender: 'SALUTEORA',
+>>>>>>> 75179b85 (.)
+=======
+            sender: 'SALUTEORA',
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+            sender: 'SALUTEORA',
+>>>>>>> a404ea71 (.)
+=======
+            sender: '<nome progetto>',
+            sender: 'SALUTEORA',
+>>>>>>> 75179b85 (.)
+=======
+            sender: 'SALUTEORA',
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+            sender: 'SALUTEORA',
+>>>>>>> a404ea71 (.)
+=======
+            sender: 'SALUTEORA',
+>>>>>>> ee18dd92 (.)
+>>>>>>> 022fa8f1c (.)
             batchSize: 100,
             delayBetweenBatches: 1
         )->onQueue('bulk-sms')->execute();

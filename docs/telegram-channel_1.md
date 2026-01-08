@@ -427,6 +427,22 @@ class TelegramTest extends TestCase
 
 - [Telegram Bot API](https://core.telegram.org/bots/api)
 - [Telegram Webhook API](https://core.telegram.org/bots/api#setwebhook)
+<<<<<<< HEAD:docs/telegram-channel_1.md
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> ee18dd92 (.)
+>>>>>>> 022fa8f1c (.):docs/telegram_channel.md
 - [Laravel Notifications](https://laravel.com/project_docs/notifications)
 - [Laravel Queues](https://laravel.com/project_docs/queues)
 - [Laravel Testing](https://laravel.com/project_docs/testing)
@@ -448,6 +464,7 @@ class TelegramTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -482,12 +499,31 @@ class TelegramTest extends TestCase
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> de02998b (.)
+<<<<<<< HEAD:docs/telegram-channel_1.md
 >>>>>>> 75cb51873 (.):docs/telegram_channel.md
+=======
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> ee18dd92 (.)
+>>>>>>> 022fa8f1c (.):docs/telegram_channel.md
 - [Laravel Notifications](https://laravel.com/docs/notifications)
 - [Laravel Queues](https://laravel.com/docs/queues)
 - [Laravel Testing](https://laravel.com/docs/testing)
 - [Laravel Logging](https://laravel.com/docs/logging)
 - [Laravel Cache](https://laravel.com/docs/cache) 
+<<<<<<< HEAD:docs/telegram-channel_1.md
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 022fa8f1c (.):docs/telegram_channel.md
 - [Laravel Cache](https://laravel.com/docs/cache) 
 <<<<<<< HEAD:docs/telegram-channel_1.md
 =======
@@ -619,4 +655,18 @@ class TelegramTest extends TestCase
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)
+<<<<<<< HEAD:docs/telegram-channel_1.md
 >>>>>>> 75cb51873 (.):docs/telegram_channel.md
+=======
+=======
+=======
+>>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache) 
+>>>>>>> ee18dd92 (.)
+>>>>>>> 022fa8f1c (.):docs/telegram_channel.md

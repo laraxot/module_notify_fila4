@@ -45,8 +45,77 @@ class RecordNotification extends Notification implements ShouldQueue
     public function toMail(object $notifiable): MailMessage
     {
         return (new MailMessage)
+<<<<<<< HEAD
             ->subject('Notifica da ')
             ->subject('Notifica da SaluteOra')
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            ->subject('Notifica da <nome progetto>')
+=======
+            ->subject('Notifica da ')
+            ->subject('Notifica da SaluteOra')
+>>>>>>> 75179b85 (.)
+=======
+            ->subject('Notifica da SaluteOra')
+>>>>>>> f963d2c0 (.)
+=======
+            ->subject('Notifica da SaluteOra')
+=======
+            ->subject('Notifica da SaluteOra')
+>>>>>>> 31f5d28f (.)
+=======
+            ->subject('Notifica da SaluteOra')
+>>>>>>> 31f5d28f (.)
+=======
+            ->subject('Notifica da ')
+            ->subject('Notifica da <nome progetto>')
+>>>>>>> bf479cc (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 31f5d28f (.)
+=======
+            ->subject('Notifica da SaluteOra')
+>>>>>>> a404ea71 (.)
+=======
+            ->subject('Notifica da ')
+            ->subject('Notifica da SaluteOra')
+>>>>>>> 75179b85 (.)
+=======
+            ->subject('Notifica da SaluteOra')
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+            ->subject('Notifica da SaluteOra')
+>>>>>>> a404ea71 (.)
+=======
+            ->subject('Notifica da ')
+            ->subject('Notifica da SaluteOra')
+>>>>>>> 75179b85 (.)
+=======
+            ->subject('Notifica da SaluteOra')
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+            ->subject('Notifica da SaluteOra')
+>>>>>>> a404ea71 (.)
+=======
+            ->subject('Notifica da SaluteOra')
+>>>>>>> ee18dd92 (.)
+>>>>>>> 022fa8f1c (.)
             ->greeting('Ciao ' . $this->record->name)
             ->line('Contenuto della notifica...')
             ->action('Visualizza', url('/'))

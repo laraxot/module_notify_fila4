@@ -16,7 +16,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD:docs/notifications/sms-provider-configuration_1.md
 >>>>>>> 75cb51873 (.):docs/notifications/sms_provider_configuration.md
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 022fa8f1c (.):docs/notifications/sms_provider_configuration.md
 Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di <nome progetto>, con focus sui diversi provider e sulla loro configurazione.
 Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di <nome progetto>, con focus sui diversi provider e sulla loro configurazione.
 <<<<<<< HEAD:docs/notifications/sms-provider-configuration_1.md
@@ -108,7 +114,14 @@ Questa documentazione descrive le opzioni disponibili per l'integrazione di serv
 Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di <nome progetto>, con focus sui diversi provider e sulla loro configurazione.
 >>>>>>> bf479cc (.)
 >>>>>>> 31f5d28f (.)
+<<<<<<< HEAD:docs/notifications/sms-provider-configuration_1.md
 >>>>>>> 75cb51873 (.):docs/notifications/sms_provider_configuration.md
+=======
+=======
+Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di <nome progetto>, con focus sui diversi provider e sulla loro configurazione.
+Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di SaluteOra, con focus sui diversi provider e sulla loro configurazione.
+>>>>>>> ee18dd92 (.)
+>>>>>>> 022fa8f1c (.):docs/notifications/sms_provider_configuration.md
 
 ## Indice
 
@@ -230,7 +243,13 @@ VONAGE_SECRET=xyz789...
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD:docs/notifications/sms-provider-configuration_1.md
 >>>>>>> 75cb51873 (.):docs/notifications/sms_provider_configuration.md
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 022fa8f1c (.):docs/notifications/sms_provider_configuration.md
 VONAGE_SMS_FROM=<nome progetto>
 VONAGE_SMS_FROM=<nome progetto>
 <<<<<<< HEAD:docs/notifications/sms-provider-configuration_1.md
@@ -322,7 +341,14 @@ VONAGE_SMS_FROM=SaluteOra
 VONAGE_SMS_FROM=<nome progetto>
 >>>>>>> bf479cc (.)
 >>>>>>> 31f5d28f (.)
+<<<<<<< HEAD:docs/notifications/sms-provider-configuration_1.md
 >>>>>>> 75cb51873 (.):docs/notifications/sms_provider_configuration.md
+=======
+=======
+VONAGE_SMS_FROM=<nome progetto>
+VONAGE_SMS_FROM=SaluteOra
+>>>>>>> ee18dd92 (.)
+>>>>>>> 022fa8f1c (.):docs/notifications/sms_provider_configuration.md
 ```
 
 ### Implementazione Notifica

@@ -1,5 +1,6 @@
 # Modulo Notify - Analisi Completa
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 📧 **Notify Module** - Sistema Avanzato di Notifiche
 
 [![Laravel 12.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
@@ -672,6 +673,8 @@ Log::channel('email')->info('Email sent', [
 # Modulo Notify - Analisi Completa
 =======
 >>>>>>> bb96c993b (.)
+=======
+>>>>>>> 022fa8f1c (.)
 
 ## Panoramica del Modulo
 

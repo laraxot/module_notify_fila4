@@ -43,8 +43,77 @@ Le azioni SMS sono organizzate secondo questa struttura:
 $smsData = new SmsData(
     to: '+393331234567',
     body: 'Il tuo codice OTP è: 123456',
+<<<<<<< HEAD
     from: ''
     from: 'SaluteOra'
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    from: '<nome progetto>'
+=======
+    from: ''
+    from: 'SaluteOra'
+>>>>>>> 75179b85 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> f963d2c0 (.)
+=======
+    from: 'SaluteOra'
+=======
+    from: 'SaluteOra'
+>>>>>>> 31f5d28f (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> 31f5d28f (.)
+=======
+    from: ''
+    from: '<nome progetto>'
+>>>>>>> bf479cc (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 31f5d28f (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> a404ea71 (.)
+=======
+    from: ''
+    from: 'SaluteOra'
+>>>>>>> 75179b85 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> a404ea71 (.)
+=======
+    from: ''
+    from: 'SaluteOra'
+>>>>>>> 75179b85 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> a404ea71 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> ee18dd92 (.)
+>>>>>>> 022fa8f1c (.)
 );
 
 $action = new SendNetfunSMSAction();

@@ -388,6 +388,7 @@ NETFUN_ENDPOINT=https://v2.smsviainternet.it/api/rest/v1/sms-batch.json
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD:docs/netfun-channel_1.md
 >>>>>>> 75cb51873 (.):docs/netfun_channel.md
 SMS_FROM_NAME=<nome progetto>
 SMS_FROM_NAME=<nome progetto>
@@ -484,6 +485,11 @@ SMS_FROM_NAME=<nome progetto>
 SMS_FROM_NAME=<nome progetto>
 SMS_FROM_NAME=<nome progetto>
 SMS_FROM_NAME=<nome progetto>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 022fa8f1c (.):docs/netfun_channel.md
 SMS_FROM_NAME=<nome progetto>
 SMS_FROM_NAME=<nome progetto>
 =======
@@ -525,6 +531,7 @@ SMS_FROM_NAME=<nome progetto>
 SMS_FROM_NAME=SaluteOra
 SMS_FROM_NAME=SaluteOra
 SMS_FROM_NAME=<nome progetto>
+<<<<<<< HEAD:docs/netfun-channel_1.md
 SMS_FROM_NAME=<nome progetto>
 SMS_FROM_NAME=SaluteOra
 SMS_FROM_NAME=SaluteOra
@@ -671,6 +678,14 @@ SMS_FROM_NAME=<nome progetto>
 SMS_FROM_NAME=SaluteOra
 SMS_FROM_NAME=<nome progetto>
 SMS_FROM_NAME=<nome progetto>
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+SMS_FROM_NAME=<nome progetto>
+SMS_FROM_NAME=SaluteOra
+>>>>>>> ee18dd92 (.)
+>>>>>>> 022fa8f1c (.):docs/netfun_channel.md
 SMS_FROM_NUMBER=+393331234567
 SMS_DEBUG=false
 
@@ -971,6 +986,31 @@ Log::info('SMS inviato', [
 - [API Netfun](https://v2.smsviainternet.it/api/rest/v1/)
 - [Spatie Queueable Action](https://github.com/spatie/laravel-queueable-action)
 - [Spatie Laravel Data](https://github.com/spatie/laravel-data)
+<<<<<<< HEAD:docs/netfun-channel_1.md
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> ee18dd92 (.)
+>>>>>>> 022fa8f1c (.):docs/netfun_channel.md
 - [Laravel Notifications](https://laravel.com/project_docs/notifications)
 - [Laravel Queues](https://laravel.com/project_docs/queues)
 - [Laravel Testing](https://laravel.com/project_docs/testing)
@@ -992,6 +1032,7 @@ Log::info('SMS inviato', [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d284d65 (.)
 =======
@@ -1031,12 +1072,34 @@ Log::info('SMS inviato', [
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> de02998b (.)
+<<<<<<< HEAD:docs/netfun-channel_1.md
 >>>>>>> 75cb51873 (.):docs/netfun_channel.md
+=======
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> ee18dd92 (.)
+>>>>>>> 022fa8f1c (.):docs/netfun_channel.md
 - [Laravel Notifications](https://laravel.com/docs/notifications)
 - [Laravel Queues](https://laravel.com/docs/queues)
 - [Laravel Testing](https://laravel.com/docs/testing)
 - [Laravel Logging](https://laravel.com/docs/logging)
 - [Laravel Cache](https://laravel.com/docs/cache) 
+<<<<<<< HEAD:docs/netfun-channel_1.md
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 022fa8f1c (.):docs/netfun_channel.md
 - [Laravel Cache](https://laravel.com/docs/cache) 
 <<<<<<< HEAD:docs/netfun-channel_1.md
 =======
@@ -1144,4 +1207,18 @@ Log::info('SMS inviato', [
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)
+<<<<<<< HEAD:docs/netfun-channel_1.md
 >>>>>>> 75cb51873 (.):docs/netfun_channel.md
+=======
+=======
+=======
+>>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache) 
+>>>>>>> ee18dd92 (.)
+>>>>>>> 022fa8f1c (.):docs/netfun_channel.md

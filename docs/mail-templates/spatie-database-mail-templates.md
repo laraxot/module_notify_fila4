@@ -23,9 +23,65 @@ Il pacchetto funziona con i seguenti componenti principali:
 In questo progetto, i layout HTML delle email sono memorizzati in:
 
 ```
+<<<<<<< HEAD
 /var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/mail-layouts/
 /var/www/html/base_saluteora/laravel/Modules/Notify/resources/mail-layouts/
 /var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/mail-layouts/
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+/var/www/html/base_<nome progetto>/laravel/Modules/Notify/resources/mail-layouts/
+=======
+/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/mail-layouts/
+/var/www/html/base_saluteora/laravel/Modules/Notify/resources/mail-layouts/
+/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/mail-layouts/
+>>>>>>> 75179b85 (.)
+=======
+/var/www/html/base_saluteora/laravel/Modules/Notify/resources/mail-layouts/
+>>>>>>> f963d2c0 (.)
+=======
+/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/mail-layouts/
+/var/www/html/base_<nome progetto>/laravel/Modules/Notify/resources/mail-layouts/
+/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/mail-layouts/
+>>>>>>> 31f5d28f (.)
+=======
+/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/mail-layouts/
+/var/www/html/base_saluteora/laravel/Modules/Notify/resources/mail-layouts/
+/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/mail-layouts/
+>>>>>>> 75179b85 (.)
+=======
+/var/www/html/base_saluteora/laravel/Modules/Notify/resources/mail-layouts/
+>>>>>>> f963d2c0 (.)
+=======
+/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/mail-layouts/
+/var/www/html/base_<nome progetto>/laravel/Modules/Notify/resources/mail-layouts/
+/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/mail-layouts/
+>>>>>>> 31f5d28f (.)
+=======
+/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/mail-layouts/
+/var/www/html/base_saluteora/laravel/Modules/Notify/resources/mail-layouts/
+/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/mail-layouts/
+>>>>>>> 75179b85 (.)
+=======
+/var/www/html/base_saluteora/laravel/Modules/Notify/resources/mail-layouts/
+>>>>>>> f963d2c0 (.)
+=======
+/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/mail-layouts/
+/var/www/html/base_<nome progetto>/laravel/Modules/Notify/resources/mail-layouts/
+/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/mail-layouts/
+>>>>>>> 31f5d28f (.)
+=======
+/var/www/html/base_saluteora/laravel/Modules/Notify/resources/mail-layouts/
+>>>>>>> ee18dd92 (.)
+>>>>>>> 022fa8f1c (.)
 ```
 
 Questi layout forniscono la struttura base per tutte le email, con un placeholder `{{{ body }}}` dove verrà inserito il contenuto specifico del template.
@@ -89,12 +145,81 @@ use Modules\Notify\Mail\WelcomeMail;
 
 MailTemplate::create([
     'mailable' => WelcomeMail::class,
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    'subject' => 'Benvenuto su <nome progetto>, {{ name }}',
+    'html_template' => '<h1>Ciao, {{ name }}!</h1><p>Benvenuto su <nome progetto>. Clicca <a href="{{ activationUrl }}">qui</a> per attivare il tuo account.</p>',
+    'text_template' => 'Ciao, {{ name }}! Benvenuto su <nome progetto>. Visita {{ activationUrl }} per attivare il tuo account.'
+<<<<<<< HEAD
+=======
+    'subject' => 'Benvenuto su SaluteOra, {{ name }}',
+    'html_template' => '<h1>Ciao, {{ name }}!</h1><p>Benvenuto su SaluteOra. Clicca <a href="{{ activationUrl }}">qui</a> per attivare il tuo account.</p>',
+    'text_template' => 'Ciao, {{ name }}! Benvenuto su SaluteOra. Visita {{ activationUrl }} per attivare il tuo account.'
+>>>>>>> 75179b85 (.)
+=======
+    'subject' => 'Benvenuto su SaluteOra, {{ name }}',
+    'html_template' => '<h1>Ciao, {{ name }}!</h1><p>Benvenuto su SaluteOra. Clicca <a href="{{ activationUrl }}">qui</a> per attivare il tuo account.</p>',
+    'text_template' => 'Ciao, {{ name }}! Benvenuto su SaluteOra. Visita {{ activationUrl }} per attivare il tuo account.'
+>>>>>>> f963d2c0 (.)
+=======
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 31f5d28f (.)
+    'subject' => 'Benvenuto su <nome progetto>, {{ name }}',
+    'html_template' => '<h1>Ciao, {{ name }}!</h1><p>Benvenuto su <nome progetto>. Clicca <a href="{{ activationUrl }}">qui</a> per attivare il tuo account.</p>',
+    'text_template' => 'Ciao, {{ name }}! Benvenuto su <nome progetto>. Visita {{ activationUrl }} per attivare il tuo account.'
+    'subject' => 'Benvenuto su <nome progetto>, {{ name }}',
+    'html_template' => '<h1>Ciao, {{ name }}!</h1><p>Benvenuto su <nome progetto>. Clicca <a href="{{ activationUrl }}">qui</a> per attivare il tuo account.</p>',
+    'text_template' => 'Ciao, {{ name }}! Benvenuto su <nome progetto>. Visita {{ activationUrl }} per attivare il tuo account.'
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 31f5d28f (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> 022fa8f1c (.)
     'subject' => 'Benvenuto su <nome progetto>, {{ name }}',
     'html_template' => '<h1>Ciao, {{ name }}!</h1><p>Benvenuto su <nome progetto>. Clicca <a href="{{ activationUrl }}">qui</a> per attivare il tuo account.</p>',
     'text_template' => 'Ciao, {{ name }}! Benvenuto su <nome progetto>. Visita {{ activationUrl }} per attivare il tuo account.'
     'subject' => 'Benvenuto su SaluteOra, {{ name }}',
     'html_template' => '<h1>Ciao, {{ name }}!</h1><p>Benvenuto su SaluteOra. Clicca <a href="{{ activationUrl }}">qui</a> per attivare il tuo account.</p>',
     'text_template' => 'Ciao, {{ name }}! Benvenuto su SaluteOra. Visita {{ activationUrl }} per attivare il tuo account.'
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+    'subject' => 'Benvenuto su SaluteOra, {{ name }}',
+    'html_template' => '<h1>Ciao, {{ name }}!</h1><p>Benvenuto su SaluteOra. Clicca <a href="{{ activationUrl }}">qui</a> per attivare il tuo account.</p>',
+    'text_template' => 'Ciao, {{ name }}! Benvenuto su SaluteOra. Visita {{ activationUrl }} per attivare il tuo account.'
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+    'subject' => 'Benvenuto su SaluteOra, {{ name }}',
+    'html_template' => '<h1>Ciao, {{ name }}!</h1><p>Benvenuto su SaluteOra. Clicca <a href="{{ activationUrl }}">qui</a> per attivare il tuo account.</p>',
+    'text_template' => 'Ciao, {{ name }}! Benvenuto su SaluteOra. Visita {{ activationUrl }} per attivare il tuo account.'
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+    'subject' => 'Benvenuto su SaluteOra, {{ name }}',
+    'html_template' => '<h1>Ciao, {{ name }}!</h1><p>Benvenuto su SaluteOra. Clicca <a href="{{ activationUrl }}">qui</a> per attivare il tuo account.</p>',
+    'text_template' => 'Ciao, {{ name }}! Benvenuto su SaluteOra. Visita {{ activationUrl }} per attivare il tuo account.'
+>>>>>>> ee18dd92 (.)
+>>>>>>> 022fa8f1c (.)
 ]);
 ```
 
@@ -127,8 +252,57 @@ Un layout HTML contiene l'intera struttura della mail, con un segnaposto `{{{ bo
 <html>
 <head>
     <meta charset="utf-8">
+<<<<<<< HEAD
     <title><nome progetto></title>
     <title>SaluteOra</title>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <title><nome progetto></title>
+<<<<<<< HEAD
+=======
+    <title>SaluteOra</title>
+>>>>>>> 75179b85 (.)
+=======
+    <title>SaluteOra</title>
+>>>>>>> f963d2c0 (.)
+=======
+    <title><nome progetto></title>
+    <title><nome progetto></title>
+>>>>>>> 31f5d28f (.)
+=======
+    <title><nome progetto></title>
+    <title>SaluteOra</title>
+>>>>>>> 75179b85 (.)
+=======
+    <title>SaluteOra</title>
+>>>>>>> f963d2c0 (.)
+=======
+    <title><nome progetto></title>
+    <title><nome progetto></title>
+>>>>>>> 31f5d28f (.)
+=======
+    <title><nome progetto></title>
+    <title>SaluteOra</title>
+>>>>>>> 75179b85 (.)
+=======
+    <title>SaluteOra</title>
+>>>>>>> f963d2c0 (.)
+=======
+    <title><nome progetto></title>
+    <title><nome progetto></title>
+>>>>>>> 31f5d28f (.)
+=======
+    <title>SaluteOra</title>
+>>>>>>> ee18dd92 (.)
+>>>>>>> 022fa8f1c (.)
     <style>
         /* Stili CSS inline */
         body { 
@@ -158,8 +332,57 @@ Un layout HTML contiene l'intera struttura della mail, con un segnaposto `{{{ bo
 </head>
 <body>
     <div class="header">
+<<<<<<< HEAD
         <h1><nome progetto></h1>
         <h1>SaluteOra</h1>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <h1><nome progetto></h1>
+<<<<<<< HEAD
+=======
+        <h1>SaluteOra</h1>
+>>>>>>> 75179b85 (.)
+=======
+        <h1>SaluteOra</h1>
+>>>>>>> f963d2c0 (.)
+=======
+        <h1><nome progetto></h1>
+        <h1><nome progetto></h1>
+>>>>>>> 31f5d28f (.)
+=======
+        <h1><nome progetto></h1>
+        <h1>SaluteOra</h1>
+>>>>>>> 75179b85 (.)
+=======
+        <h1>SaluteOra</h1>
+>>>>>>> f963d2c0 (.)
+=======
+        <h1><nome progetto></h1>
+        <h1><nome progetto></h1>
+>>>>>>> 31f5d28f (.)
+=======
+        <h1><nome progetto></h1>
+        <h1>SaluteOra</h1>
+>>>>>>> 75179b85 (.)
+=======
+        <h1>SaluteOra</h1>
+>>>>>>> f963d2c0 (.)
+=======
+        <h1><nome progetto></h1>
+        <h1><nome progetto></h1>
+>>>>>>> 31f5d28f (.)
+=======
+        <h1>SaluteOra</h1>
+>>>>>>> ee18dd92 (.)
+>>>>>>> 022fa8f1c (.)
     </div>
     
     <div class="content">
@@ -167,8 +390,57 @@ Un layout HTML contiene l'intera struttura della mail, con un segnaposto `{{{ bo
     </div>
     
     <div class="footer">
+<<<<<<< HEAD
         <p>© 2025 <nome progetto> - Tutti i diritti riservati</p>
         <p>© 2025 SaluteOra - Tutti i diritti riservati</p>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <p>© 2025 <nome progetto> - Tutti i diritti riservati</p>
+<<<<<<< HEAD
+=======
+        <p>© 2025 SaluteOra - Tutti i diritti riservati</p>
+>>>>>>> 75179b85 (.)
+=======
+        <p>© 2025 SaluteOra - Tutti i diritti riservati</p>
+>>>>>>> f963d2c0 (.)
+=======
+        <p>© 2025 <nome progetto> - Tutti i diritti riservati</p>
+        <p>© 2025 <nome progetto> - Tutti i diritti riservati</p>
+>>>>>>> 31f5d28f (.)
+=======
+        <p>© 2025 <nome progetto> - Tutti i diritti riservati</p>
+        <p>© 2025 SaluteOra - Tutti i diritti riservati</p>
+>>>>>>> 75179b85 (.)
+=======
+        <p>© 2025 SaluteOra - Tutti i diritti riservati</p>
+>>>>>>> f963d2c0 (.)
+=======
+        <p>© 2025 <nome progetto> - Tutti i diritti riservati</p>
+        <p>© 2025 <nome progetto> - Tutti i diritti riservati</p>
+>>>>>>> 31f5d28f (.)
+=======
+        <p>© 2025 <nome progetto> - Tutti i diritti riservati</p>
+        <p>© 2025 SaluteOra - Tutti i diritti riservati</p>
+>>>>>>> 75179b85 (.)
+=======
+        <p>© 2025 SaluteOra - Tutti i diritti riservati</p>
+>>>>>>> f963d2c0 (.)
+=======
+        <p>© 2025 <nome progetto> - Tutti i diritti riservati</p>
+        <p>© 2025 <nome progetto> - Tutti i diritti riservati</p>
+>>>>>>> 31f5d28f (.)
+=======
+        <p>© 2025 SaluteOra - Tutti i diritti riservati</p>
+>>>>>>> ee18dd92 (.)
+>>>>>>> 022fa8f1c (.)
         <p>Se hai ricevuto questa email per errore, per favore ignorala o contattaci.</p>
     </div>
 </body>
@@ -180,8 +452,57 @@ Un layout HTML contiene l'intera struttura della mail, con un segnaposto `{{{ bo
 Il template specifico dell'email (memorizzato nel campo `html_template` del modello `MailTemplate`):
 
 ```html
+<<<<<<< HEAD
 <h2>Benvenuto su <nome progetto>, {{ name }}!</h2>
 <h2>Benvenuto su SaluteOra, {{ name }}!</h2>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<h2>Benvenuto su <nome progetto>, {{ name }}!</h2>
+<<<<<<< HEAD
+=======
+<h2>Benvenuto su SaluteOra, {{ name }}!</h2>
+>>>>>>> 75179b85 (.)
+=======
+<h2>Benvenuto su SaluteOra, {{ name }}!</h2>
+>>>>>>> f963d2c0 (.)
+=======
+<h2>Benvenuto su <nome progetto>, {{ name }}!</h2>
+<h2>Benvenuto su <nome progetto>, {{ name }}!</h2>
+>>>>>>> 31f5d28f (.)
+=======
+<h2>Benvenuto su <nome progetto>, {{ name }}!</h2>
+<h2>Benvenuto su SaluteOra, {{ name }}!</h2>
+>>>>>>> 75179b85 (.)
+=======
+<h2>Benvenuto su SaluteOra, {{ name }}!</h2>
+>>>>>>> f963d2c0 (.)
+=======
+<h2>Benvenuto su <nome progetto>, {{ name }}!</h2>
+<h2>Benvenuto su <nome progetto>, {{ name }}!</h2>
+>>>>>>> 31f5d28f (.)
+=======
+<h2>Benvenuto su <nome progetto>, {{ name }}!</h2>
+<h2>Benvenuto su SaluteOra, {{ name }}!</h2>
+>>>>>>> 75179b85 (.)
+=======
+<h2>Benvenuto su SaluteOra, {{ name }}!</h2>
+>>>>>>> f963d2c0 (.)
+=======
+<h2>Benvenuto su <nome progetto>, {{ name }}!</h2>
+<h2>Benvenuto su <nome progetto>, {{ name }}!</h2>
+>>>>>>> 31f5d28f (.)
+=======
+<h2>Benvenuto su SaluteOra, {{ name }}!</h2>
+>>>>>>> ee18dd92 (.)
+>>>>>>> 022fa8f1c (.)
 
 <p>Siamo felici di darti il benvenuto sulla nostra piattaforma.</p>
 
@@ -196,8 +517,57 @@ Il template specifico dell'email (memorizzato nel campo `html_template` del mode
 <p>Se il pulsante non funziona, copia e incolla questo link nel tuo browser:</p>
 <p>{{ activationUrl }}</p>
 
+<<<<<<< HEAD
 <p>Grazie,<br>Il team di <nome progetto></p>
 <p>Grazie,<br>Il team di SaluteOra</p>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<p>Grazie,<br>Il team di <nome progetto></p>
+<<<<<<< HEAD
+=======
+<p>Grazie,<br>Il team di SaluteOra</p>
+>>>>>>> 75179b85 (.)
+=======
+<p>Grazie,<br>Il team di SaluteOra</p>
+>>>>>>> f963d2c0 (.)
+=======
+<p>Grazie,<br>Il team di <nome progetto></p>
+<p>Grazie,<br>Il team di <nome progetto></p>
+>>>>>>> 31f5d28f (.)
+=======
+<p>Grazie,<br>Il team di <nome progetto></p>
+<p>Grazie,<br>Il team di SaluteOra</p>
+>>>>>>> 75179b85 (.)
+=======
+<p>Grazie,<br>Il team di SaluteOra</p>
+>>>>>>> f963d2c0 (.)
+=======
+<p>Grazie,<br>Il team di <nome progetto></p>
+<p>Grazie,<br>Il team di <nome progetto></p>
+>>>>>>> 31f5d28f (.)
+=======
+<p>Grazie,<br>Il team di <nome progetto></p>
+<p>Grazie,<br>Il team di SaluteOra</p>
+>>>>>>> 75179b85 (.)
+=======
+<p>Grazie,<br>Il team di SaluteOra</p>
+>>>>>>> f963d2c0 (.)
+=======
+<p>Grazie,<br>Il team di <nome progetto></p>
+<p>Grazie,<br>Il team di <nome progetto></p>
+>>>>>>> 31f5d28f (.)
+=======
+<p>Grazie,<br>Il team di SaluteOra</p>
+>>>>>>> ee18dd92 (.)
+>>>>>>> 022fa8f1c (.)
 ```
 
 ## Best Practices

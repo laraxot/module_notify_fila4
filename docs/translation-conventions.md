@@ -211,8 +211,77 @@ Per verificare se le traduzioni sono applicate correttamente:
 
 ## Riferimenti
 
+<<<<<<< HEAD
 - [ Translation System](../../../../.cursor/rules/translations.rule)
 - [SaluteOra Translation System](../../../../.cursor/rules/translations.rule)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [<nome progetto> Translation System](../../../../.cursor/rules/translations.rule)
+=======
+- [ Translation System](../../../../.cursor/rules/translations.rule)
+- [SaluteOra Translation System](../../../../.cursor/rules/translations.rule)
+>>>>>>> 75179b85 (.)
+=======
+- [SaluteOra Translation System](../../../../.cursor/rules/translations.rule)
+>>>>>>> f963d2c0 (.)
+=======
+- [SaluteOra Translation System](../../../../.cursor/rules/translations.rule)
+=======
+- [SaluteOra Translation System](../../../../.cursor/rules/translations.rule)
+>>>>>>> 31f5d28f (.)
+=======
+- [SaluteOra Translation System](../../../../.cursor/rules/translations.rule)
+>>>>>>> 31f5d28f (.)
+=======
+- [ Translation System](../../../../.cursor/rules/translations.rule)
+- [<nome progetto> Translation System](../../../../.cursor/rules/translations.rule)
+>>>>>>> bf479cc (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 31f5d28f (.)
+=======
+- [SaluteOra Translation System](../../../../.cursor/rules/translations.rule)
+>>>>>>> a404ea71 (.)
+=======
+- [ Translation System](../../../../.cursor/rules/translations.rule)
+- [SaluteOra Translation System](../../../../.cursor/rules/translations.rule)
+>>>>>>> 75179b85 (.)
+=======
+- [SaluteOra Translation System](../../../../.cursor/rules/translations.rule)
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+- [SaluteOra Translation System](../../../../.cursor/rules/translations.rule)
+>>>>>>> a404ea71 (.)
+=======
+- [ Translation System](../../../../.cursor/rules/translations.rule)
+- [SaluteOra Translation System](../../../../.cursor/rules/translations.rule)
+>>>>>>> 75179b85 (.)
+=======
+- [SaluteOra Translation System](../../../../.cursor/rules/translations.rule)
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+- [SaluteOra Translation System](../../../../.cursor/rules/translations.rule)
+>>>>>>> a404ea71 (.)
+=======
+- [SaluteOra Translation System](../../../../.cursor/rules/translations.rule)
+>>>>>>> ee18dd92 (.)
+>>>>>>> 022fa8f1c (.)
 - [Filament Translations](../../../../.cursor/rules/filament-translations.rule)
 - [Laravel Localization](https://laravel.com/docs/10.x/localization)
 
