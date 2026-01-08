@@ -125,6 +125,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -434,6 +435,8 @@
 =======
 =======
 >>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 5511bf02 (rebase 210)
 <?php
 
 declare(strict_types=1);
@@ -992,14 +995,18 @@ declare(strict_types=1);
 >>>>>>> c3de2f6c (rebase 210)
 =======
 </td>
+<<<<<<< HEAD
 >>>>>>> 518c702 (.)
 >>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 5511bf02 (rebase 210)
 				</tr>
 			</table>
 
 		</td>
 	</tr>
 </table>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1746,3 +1753,6 @@ declare(strict_types=1);
 >>>>>>> c3de2f6c (rebase 210)
 =======
 >>>>>>> 8c8937e7 (rebase 210)
+=======
+<img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="1" height="15" class="divider"><br>
+>>>>>>> 5511bf02 (rebase 210)
