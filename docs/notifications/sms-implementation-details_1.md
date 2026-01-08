@@ -302,7 +302,11 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD:docs/notifications/sms-implementation-details_1.md
 >>>>>>> 022fa8f1c (.):docs/notifications/sms_implementation_details.md
+=======
+<<<<<<< HEAD
+>>>>>>> c0f3d67cc (.):docs/notifications/sms_implementation_details.md
         'sender' => env('SMSHOSTING_SENDER', '<nome progetto>'),
         'sender' => env('SMSHOSTING_SENDER', '<nome progetto>'),
 <<<<<<< HEAD:docs/notifications/sms-implementation-details_1.md
@@ -398,7 +402,11 @@ return [
 >>>>>>> 75cb51873 (.):docs/notifications/sms_implementation_details.md
 =======
 =======
+=======
+>>>>>>> 4689a827 (.)
         'sender' => env('SMSHOSTING_SENDER', '<nome progetto>'),
+=======
+>>>>>>> d284d65 (.)
         'sender' => env('SMSHOSTING_SENDER', 'SaluteOra'),
 >>>>>>> ee18dd92 (.)
 >>>>>>> 022fa8f1c (.):docs/notifications/sms_implementation_details.md
@@ -877,7 +885,11 @@ public function toTwilio($notifiable)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD:docs/notifications/sms-implementation-details_1.md
 >>>>>>> 022fa8f1c (.):docs/notifications/sms_implementation_details.md
+=======
+<<<<<<< HEAD
+>>>>>>> c0f3d67cc (.):docs/notifications/sms_implementation_details.md
         ->content("<nome progetto>: Promemoria appuntamento {$this->appointment->formatted_date}. 
         Per annullare rispondere NO. Per info: <nome progetto>.it/privacy");
         ->content("<nome progetto>: Promemoria appuntamento {$this->appointment->formatted_date}. 
@@ -987,8 +999,12 @@ public function toTwilio($notifiable)
 >>>>>>> 75cb51873 (.):docs/notifications/sms_implementation_details.md
 =======
 =======
+=======
+>>>>>>> 4689a827 (.)
         ->content("<nome progetto>: Promemoria appuntamento {$this->appointment->formatted_date}. 
         Per annullare rispondere NO. Per info: <nome progetto>.it/privacy");
+=======
+>>>>>>> d284d65 (.)
         ->content("SaluteOra: Promemoria appuntamento {$this->appointment->formatted_date}. 
         Per annullare rispondere NO. Per info: saluteora.it/privacy");
 >>>>>>> ee18dd92 (.)

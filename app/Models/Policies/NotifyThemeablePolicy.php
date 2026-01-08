@@ -21,6 +21,7 @@ class NotifyThemeablePolicy extends NotifyBasePolicy {}
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -33,10 +34,13 @@ class NotifyThemeablePolicy extends NotifyBasePolicy {}
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> de02998b (.)
+=======
+>>>>>>> 4689a827 (.)
 class NotifyThemeablePolicy extends NotifyBasePolicy
 {
 }
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -56,6 +60,13 @@ class NotifyThemeablePolicy extends NotifyBasePolicy {}
 =======
 <<<<<<< HEAD
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 4689a827 (.)
+>>>>>>> c0f3d67cc (.)
 class NotifyThemeablePolicy extends NotifyBasePolicy
 {
 }
@@ -63,13 +74,17 @@ class NotifyThemeablePolicy extends NotifyBasePolicy
 class NotifyThemeablePolicy extends NotifyBasePolicy {}
 >>>>>>> a12f125f4a (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
 =======
 class NotifyThemeablePolicy extends NotifyBasePolicy
 {
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -87,6 +102,8 @@ class NotifyThemeablePolicy extends NotifyBasePolicy
 =======
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
 >>>>>>> b93ef594b4 (.)
 =======
 use Modules\Notify\Models\NotifyThemeable;
@@ -99,6 +116,7 @@ class NotifyThemeablePolicy extends NotifyBasePolicy
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 class NotifyThemeablePolicy extends NotifyBasePolicy
@@ -138,4 +156,16 @@ class NotifyThemeablePolicy extends NotifyBasePolicy
 class NotifyThemeablePolicy extends NotifyBasePolicy {}
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)
+<<<<<<< HEAD
 >>>>>>> 75cb51873 (.)
+=======
+=======
+>>>>>>> 011072e4 (.)
+=======
+class NotifyThemeablePolicy extends NotifyBasePolicy
+{
+}
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+>>>>>>> c0f3d67cc (.)

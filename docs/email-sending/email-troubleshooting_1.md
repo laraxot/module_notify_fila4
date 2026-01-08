@@ -36,7 +36,11 @@ $attachments = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD:docs/email-sending/email-troubleshooting_1.md
 >>>>>>> 022fa8f1c (.):docs/email-sending/email_troubleshooting.md
+=======
+<<<<<<< HEAD
+>>>>>>> c0f3d67cc (.):docs/email-sending/email_troubleshooting.md
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
         'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
@@ -160,7 +164,18 @@ $attachments = [
         'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
         'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
 >>>>>>> ee18dd92 (.)
+<<<<<<< HEAD:docs/email-sending/email-troubleshooting_1.md
 >>>>>>> 022fa8f1c (.):docs/email-sending/email_troubleshooting.md
+=======
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> d284d65 (.)
+>>>>>>> 4689a827 (.)
+>>>>>>> c0f3d67cc (.):docs/email-sending/email_troubleshooting.md
         'as' => 'logo.svg',
         'mime' => 'image/svg+xml',
     ],

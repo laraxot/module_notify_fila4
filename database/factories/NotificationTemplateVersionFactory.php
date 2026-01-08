@@ -18,6 +18,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -36,6 +37,13 @@ declare(strict_types=1);
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> de02998b (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 4689a827 (.)
+>>>>>>> c0f3d67cc (.)
 declare(strict_types=1);
 
 
@@ -87,6 +95,32 @@ declare(strict_types=1);
 >>>>>>> 75cb51873 (.)
 namespace Modules\Notify\Database\Factories;
 
+<<<<<<< HEAD
+=======
+use Modules\Notify\Models\NotificationTemplateVersion;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+declare(strict_types=1);
+
+
+=======
+>>>>>>> a12f125f4a (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> b93ef594b4 (.)
+namespace Modules\Notify\Database\Factories;
+
+use Modules\Notify\Models\NotificationTemplateVersion;
+=======
+namespace Modules\Notify\Database\Factories;
+
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> c0f3d67cc (.)
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Modules\Notify\Models\NotificationTemplateVersion;
 
@@ -95,7 +129,15 @@ class NotificationTemplateVersionFactory extends Factory
     /**
      * The name of the factory's corresponding model.
      */
+<<<<<<< HEAD
     protected $model = NotificationTemplateVersion::class;
+=======
+<<<<<<< HEAD
+    protected $model = NotificationTemplateVersion::class;
+=======
+    protected $model = \Modules\Notify\Models\NotificationTemplateVersion::class;
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
 
     /**
      * Define the model's default state.
@@ -121,6 +163,7 @@ class NotificationTemplateVersionFactory extends Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -146,6 +189,8 @@ class NotificationTemplateVersionFactory extends Factory
 =======
 >>>>>>> d09cb759 (.)
 =======
+>>>>>>> 4689a827 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -158,6 +203,7 @@ class NotificationTemplateVersionFactory extends Factory
 
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
@@ -183,4 +229,14 @@ class NotificationTemplateVersionFactory extends Factory
 
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)
+<<<<<<< HEAD
 >>>>>>> 75cb51873 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+>>>>>>> c0f3d67cc (.)

@@ -4,11 +4,28 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Models;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
 use Modules\Notify\Models\BaseModel;
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Notify\Models\NotificationTemplateVersion;
+<<<<<<< HEAD
 use ReflectionClass;
 use ReflectionMethod;
+=======
+use PHPUnit\Framework\TestCase;
+<<<<<<< HEAD
+=======
+=======
+use Modules\Notify\Models\NotificationTemplateVersion;
+use Modules\Notify\Models\NotificationTemplate;
+use PHPUnit\Framework\TestCase;
+use Mockery;
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> c0f3d67cc (.)
 
 it('extends base model', function (): void {
     $reflection = new ReflectionClass(NotificationTemplateVersion::class);
@@ -35,6 +52,12 @@ it('extends base model', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> c0f3d67cc (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -53,6 +76,13 @@ it('extends base model', function (): void {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> de02998b (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 4689a827 (.)
+>>>>>>> c0f3d67cc (.)
         $version = new NotificationTemplateVersion();
 =======
         $version = new NotificationTemplateVersion;
@@ -143,6 +173,60 @@ it('has template relationship method', function (): void {
     expect(method_exists($version, 'template'))->toBeTrue();
 });
 =======
+<<<<<<< HEAD
+=======
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> 161887a2 (.)
+
+        $this->assertInstanceOf(BaseModel::class, $version);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $version = new NotificationTemplateVersion();
+=======
+        $version = new NotificationTemplateVersion;
+>>>>>>> a12f125f4a (.)
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> b93ef594b4 (.)
+
+        $this->assertInstanceOf(BaseModel::class, $version);
+=======
+        $version = new NotificationTemplateVersion();
+        
+        $this->assertInstanceOf(\Modules\Notify\Models\BaseModel::class, $version);
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+    }
+
+    /** @test */
+    public function it_uses_updater_trait(): void
+    {
+<<<<<<< HEAD
+        $reflection = new ReflectionClass(NotificationTemplateVersion::class);
+        $traits = $reflection->getTraitNames();
+
+=======
+<<<<<<< HEAD
+        $reflection = new ReflectionClass(NotificationTemplateVersion::class);
+        $traits = $reflection->getTraitNames();
+
+=======
+        $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
+        $traits = $reflection->getTraitNames();
+        
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+        $this->assertContains('Modules\Xot\Traits\Updater', $traits);
+    }
+
+>>>>>>> c0f3d67cc (.)
     /** @test */
     public function it_has_correct_fillable_attributes(): void
     {
@@ -158,6 +242,12 @@ it('has template relationship method', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> c0f3d67cc (.)
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -193,17 +283,31 @@ it('has template relationship method', function (): void {
 >>>>>>> 9777d1b3 (.)
 =======
 =======
+>>>>>>> 4689a827 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> de02998b (.)
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+>>>>>>> c0f3d67cc (.)
             'template_id',
             'subject',
             'body_html',
@@ -214,6 +318,7 @@ it('has template relationship method', function (): void {
             'version',
             'created_by',
             'change_notes',
+<<<<<<< HEAD
         ];
 
 <<<<<<< HEAD
@@ -248,6 +353,7 @@ it('has template relationship method', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -255,18 +361,29 @@ it('has template relationship method', function (): void {
 =======
 >>>>>>> d09cb759 (.)
 =======
+>>>>>>> 4689a827 (.)
+=======
 <<<<<<< HEAD
         ];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 4689a827 (.)
+>>>>>>> c0f3d67cc (.)
         $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
 =======
 =======
 >>>>>>> origin/develop
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
@@ -277,10 +394,13 @@ it('has template relationship method', function (): void {
 =======
 =======
 >>>>>>> de02998b (.)
+=======
+>>>>>>> 4689a827 (.)
             'template_id', 'subject', 'body_html', 'body_text', 'channels',
             'variables', 'conditions', 'version', 'created_by', 'change_notes',
         ];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -321,6 +441,8 @@ it('has template relationship method', function (): void {
 <<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
         $this->assertEquals($expectedFillable, (new NotificationTemplateVersion)->getFillable());
 >>>>>>> a12f125f4a (.)
 =======
@@ -332,6 +454,7 @@ it('has template relationship method', function (): void {
         $this->assertEquals($expectedFillable, (new NotificationTemplateVersion())->getFillable());
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
@@ -420,7 +543,15 @@ it('has template relationship method', function (): void {
         $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
 >>>>>>> 518c702 (.)
 >>>>>>> ee18dd92 (.)
+<<<<<<< HEAD
 >>>>>>> 022fa8f1c (.)
+=======
+=======
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+>>>>>>> 0f81dc21 (.)
+=======
+>>>>>>> 4689a827 (.)
+>>>>>>> c0f3d67cc (.)
     }
 
     /** @test */
@@ -440,6 +571,12 @@ it('has template relationship method', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> c0f3d67cc (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -479,6 +616,10 @@ it('has template relationship method', function (): void {
         $version = new NotificationTemplateVersion();
 =======
 >>>>>>> d09cb759 (.)
+=======
+        $version = new NotificationTemplateVersion();
+=======
+>>>>>>> 4689a827 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -493,6 +634,7 @@ it('has template relationship method', function (): void {
         $version = new NotificationTemplateVersion();
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
@@ -518,6 +660,19 @@ it('has template relationship method', function (): void {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> de02998b (.)
+<<<<<<< HEAD
+=======
+=======
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+>>>>>>> c0f3d67cc (.)
         $casts = $version->getCasts();
 >>>>>>> 75cb51873 (.)
 
@@ -546,6 +701,12 @@ it('has restore method', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> c0f3d67cc (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -564,6 +725,13 @@ it('has restore method', function (): void {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> de02998b (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 4689a827 (.)
+>>>>>>> c0f3d67cc (.)
         $version = new NotificationTemplateVersion();
 =======
         $version = new NotificationTemplateVersion;
@@ -603,9 +771,31 @@ it('has restore method', function (): void {
 >>>>>>> de02998b (.)
 >>>>>>> 75cb51873 (.)
 
+<<<<<<< HEAD
 it('restore method returns NotificationTemplate', function (): void {
     $reflection = new ReflectionClass(NotificationTemplateVersion::class);
     $version = $reflection->newInstanceWithoutConstructor();
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $version = new NotificationTemplateVersion();
+=======
+        $version = new NotificationTemplateVersion;
+>>>>>>> a12f125f4a (.)
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> b93ef594b4 (.)
+
+=======
+        $version = new NotificationTemplateVersion();
+        
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+        $this->assertTrue(method_exists($version, 'template'));
+    }
+>>>>>>> c0f3d67cc (.)
 
 <<<<<<< HEAD
     expect(method_exists($version, 'restore'))->toBeTrue();
@@ -627,6 +817,12 @@ it('restore method returns NotificationTemplate', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> c0f3d67cc (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -645,6 +841,13 @@ it('restore method returns NotificationTemplate', function (): void {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> de02998b (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 4689a827 (.)
+>>>>>>> c0f3d67cc (.)
         $version = new NotificationTemplateVersion();
 =======
         $version = new NotificationTemplateVersion;
@@ -684,8 +887,30 @@ it('restore method returns NotificationTemplate', function (): void {
 >>>>>>> de02998b (.)
 >>>>>>> 75cb51873 (.)
 
+<<<<<<< HEAD
     $method = new ReflectionMethod($version, 'restore');
     $returnType = $method->getReturnType();
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $version = new NotificationTemplateVersion();
+=======
+        $version = new NotificationTemplateVersion;
+>>>>>>> a12f125f4a (.)
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> b93ef594b4 (.)
+
+=======
+        $version = new NotificationTemplateVersion();
+        
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+        $this->assertTrue(method_exists($version, 'restore'));
+    }
+>>>>>>> c0f3d67cc (.)
 
 <<<<<<< HEAD
     expect($returnType)->not->toBeNull();
@@ -709,6 +934,12 @@ it('restore method returns NotificationTemplate', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> c0f3d67cc (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -748,6 +979,10 @@ it('restore method returns NotificationTemplate', function (): void {
         $version = new NotificationTemplateVersion();
 =======
 >>>>>>> d09cb759 (.)
+=======
+        $version = new NotificationTemplateVersion();
+=======
+>>>>>>> 4689a827 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -759,6 +994,7 @@ it('restore method returns NotificationTemplate', function (): void {
         $version = new NotificationTemplateVersion();
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
@@ -801,6 +1037,41 @@ it('has expected primary key', function (): void {
     expect($version->getKeyName())->toBe('id');
 });
 =======
+<<<<<<< HEAD
+=======
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+
+        $this->assertTrue(method_exists($version, 'restore'));
+
+        // Verifica che il metodo restituisca NotificationTemplate
+        $reflection = new ReflectionMethod($version, 'restore');
+        $returnType = $reflection->getReturnType();
+
+<<<<<<< HEAD
+=======
+=======
+        $version = new NotificationTemplateVersion();
+        
+        $this->assertTrue(method_exists($version, 'restore'));
+        
+        // Verifica che il metodo restituisca NotificationTemplate
+        $reflection = new \ReflectionMethod($version, 'restore');
+        $returnType = $reflection->getReturnType();
+        
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+        $this->assertEquals(NotificationTemplate::class, $returnType->getName());
+    }
+
+>>>>>>> c0f3d67cc (.)
     /** @test */
     public function it_has_table_name(): void
     {
@@ -818,6 +1089,12 @@ it('has expected primary key', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> c0f3d67cc (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -836,6 +1113,13 @@ it('has expected primary key', function (): void {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> de02998b (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 4689a827 (.)
+>>>>>>> c0f3d67cc (.)
         $version = new NotificationTemplateVersion();
 =======
         $version = new NotificationTemplateVersion;
@@ -875,9 +1159,31 @@ it('has expected primary key', function (): void {
 >>>>>>> de02998b (.)
 >>>>>>> 75cb51873 (.)
 
+<<<<<<< HEAD
 it('uses timestamps', function (): void {
     $reflection = new ReflectionClass(NotificationTemplateVersion::class);
     $version = $reflection->newInstanceWithoutConstructor();
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $version = new NotificationTemplateVersion();
+=======
+        $version = new NotificationTemplateVersion;
+>>>>>>> a12f125f4a (.)
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> b93ef594b4 (.)
+
+=======
+        $version = new NotificationTemplateVersion();
+        
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+        $this->assertEquals('notification_template_versions', $version->getTable());
+    }
+>>>>>>> c0f3d67cc (.)
 
 <<<<<<< HEAD
     expect($version->usesTimestamps())->toBeTrue();
@@ -900,6 +1206,12 @@ it('uses timestamps', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> c0f3d67cc (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -918,6 +1230,13 @@ it('uses timestamps', function (): void {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> de02998b (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 4689a827 (.)
+>>>>>>> c0f3d67cc (.)
         $version = new NotificationTemplateVersion();
 =======
         $version = new NotificationTemplateVersion;
@@ -957,9 +1276,31 @@ it('uses timestamps', function (): void {
 >>>>>>> de02998b (.)
 >>>>>>> 75cb51873 (.)
 
+<<<<<<< HEAD
 it('has uuids trait', function (): void {
     $reflection = new ReflectionClass(NotificationTemplateVersion::class);
     $traits = $reflection->getTraitNames();
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $version = new NotificationTemplateVersion();
+=======
+        $version = new NotificationTemplateVersion;
+>>>>>>> a12f125f4a (.)
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> b93ef594b4 (.)
+
+=======
+        $version = new NotificationTemplateVersion();
+        
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+        $this->assertEquals('id', $version->getKeyName());
+    }
+>>>>>>> c0f3d67cc (.)
 
 <<<<<<< HEAD
     expect($traits)->toContain('Illuminate\\Database\\Eloquent\\Concerns\\HasUuids');
@@ -982,6 +1323,12 @@ it('has uuids trait', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> c0f3d67cc (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1000,6 +1347,13 @@ it('has uuids trait', function (): void {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> de02998b (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 4689a827 (.)
+>>>>>>> c0f3d67cc (.)
         $version = new NotificationTemplateVersion();
 =======
         $version = new NotificationTemplateVersion;
@@ -1067,6 +1421,100 @@ it('has media relationship', function (): void {
     expect(method_exists($version, 'media'))->toBeTrue();
 });
 =======
+<<<<<<< HEAD
+=======
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> 161887a2 (.)
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $version = new NotificationTemplateVersion();
+=======
+        $version = new NotificationTemplateVersion;
+>>>>>>> a12f125f4a (.)
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> b93ef594b4 (.)
+
+=======
+        $version = new NotificationTemplateVersion();
+        
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+        $this->assertTrue($version->usesTimestamps());
+    }
+
+    /** @test */
+    public function it_has_soft_deletes(): void
+    {
+<<<<<<< HEAD
+        $reflection = new ReflectionClass(NotificationTemplateVersion::class);
+        $traits = $reflection->getTraitNames();
+
+=======
+<<<<<<< HEAD
+        $reflection = new ReflectionClass(NotificationTemplateVersion::class);
+        $traits = $reflection->getTraitNames();
+
+=======
+        $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
+        $traits = $reflection->getTraitNames();
+        
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+        $this->assertContains('Illuminate\Database\Eloquent\Concerns\HasUuids', $traits);
+    }
+
+    /** @test */
+    public function it_has_factory_trait(): void
+    {
+<<<<<<< HEAD
+        $reflection = new ReflectionClass(NotificationTemplateVersion::class);
+        $traits = $reflection->getTraitNames();
+
+=======
+<<<<<<< HEAD
+        $reflection = new ReflectionClass(NotificationTemplateVersion::class);
+        $traits = $reflection->getTraitNames();
+
+=======
+        $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
+        $traits = $reflection->getTraitNames();
+        
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+        $this->assertContains('Modules\Xot\Traits\HasFactory', $traits);
+    }
+
+    /** @test */
+    public function it_has_media_trait(): void
+    {
+<<<<<<< HEAD
+        $reflection = new ReflectionClass(NotificationTemplateVersion::class);
+        $traits = $reflection->getTraitNames();
+
+=======
+<<<<<<< HEAD
+        $reflection = new ReflectionClass(NotificationTemplateVersion::class);
+        $traits = $reflection->getTraitNames();
+
+=======
+        $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
+        $traits = $reflection->getTraitNames();
+        
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+        $this->assertContains('Spatie\MediaLibrary\HasMedia', $traits);
+    }
+
+>>>>>>> c0f3d67cc (.)
     /** @test */
     public function it_has_creator_and_updater_relationships(): void
     {
@@ -1084,6 +1532,12 @@ it('has media relationship', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> c0f3d67cc (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1102,6 +1556,13 @@ it('has media relationship', function (): void {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> de02998b (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 4689a827 (.)
+>>>>>>> c0f3d67cc (.)
         $version = new NotificationTemplateVersion();
 =======
         $version = new NotificationTemplateVersion;
@@ -1140,6 +1601,23 @@ it('has media relationship', function (): void {
 =======
 >>>>>>> de02998b (.)
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $version = new NotificationTemplateVersion();
+=======
+        $version = new NotificationTemplateVersion;
+>>>>>>> a12f125f4a (.)
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> b93ef594b4 (.)
+
+=======
+        $version = new NotificationTemplateVersion();
+        
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
         $this->assertTrue(method_exists($version, 'creator'));
         $this->assertTrue(method_exists($version, 'updater'));
     }
@@ -1161,6 +1639,12 @@ it('has media relationship', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> c0f3d67cc (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1179,6 +1663,13 @@ it('has media relationship', function (): void {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> de02998b (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 4689a827 (.)
+>>>>>>> c0f3d67cc (.)
         $version = new NotificationTemplateVersion();
 =======
         $version = new NotificationTemplateVersion;
@@ -1217,6 +1708,23 @@ it('has media relationship', function (): void {
 =======
 >>>>>>> de02998b (.)
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $version = new NotificationTemplateVersion();
+=======
+        $version = new NotificationTemplateVersion;
+>>>>>>> a12f125f4a (.)
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> b93ef594b4 (.)
+
+=======
+        $version = new NotificationTemplateVersion();
+        
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
         $this->assertTrue(method_exists($version, 'media'));
     }
 }

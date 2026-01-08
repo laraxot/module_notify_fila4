@@ -361,6 +361,7 @@ class MailTemplateSecurityTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -423,6 +424,11 @@ class MailTemplateSecurityTest extends TestCase
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> ee18dd92 (.)
+=======
+=======
+
+>>>>>>> d284d65 (.)
+>>>>>>> 4689a827 (.)
 # Esegui tutti i test
 php artisan test --filter=MailTemplate
 
@@ -513,6 +519,7 @@ php artisan test --coverage --filter=MailTemplate
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Pest PHP](https://pestphp.com/docs) 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -598,3 +605,8 @@ php artisan test --coverage --filter=MailTemplate
 =======
 - [Pest PHP](https://pestphp.com/docs) 
 >>>>>>> ee18dd92 (.)
+=======
+- [Pest PHP](https://pestphp.com/docs) 
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 4689a827 (.)

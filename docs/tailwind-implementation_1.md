@@ -378,6 +378,15 @@ Per contribuire alla documentazione, seguire le [Linee Guida](../../../docs/line
 ## Collegamenti Completi
 Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../docs/README_links.md). 
 <<<<<<< HEAD:docs/tailwind-implementation_1.md
+<<<<<<< HEAD:docs/tailwind-implementation_1.md
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> c0f3d67cc (.):docs/tailwind_implementation.md
 Per contribuire alla documentazione, seguire le [Linee Guida](../../../project_docs/linee-guida-documentazione.md) e le [Regole dei Collegamenti](../../../project_docs/regole_collegamenti_documentazione.md).
 Per contribuire alla documentazione, seguire le [Linee Guida](../../../project_docs/linee-guida-documentazione.md) e le [Regole dei Collegamenti](../../../project_docs/regole_collegamenti_documentazione.md).
 
@@ -428,11 +437,14 @@ Per una lista completa di tutti i collegamenti tra i README.md, consultare il fi
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 4689a827 (.)
 Per contribuire alla documentazione, seguire le [Linee Guida](../../../project_docs/linee-guida-documentazione.md) e le [Regole dei Collegamenti](../../../project_docs/regole_collegamenti_documentazione.md).
 Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../docs/README_links.md). Per contribuire alla documentazione, seguire le [Linee Guida](../../../project_docs/linee-guida-documentazione.md) e le [Regole dei Collegamenti](../../../project_docs/regole_collegamenti_documentazione.md).
 
 ## Collegamenti Completi
 Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../project_docs/README_links.md). 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -445,4 +457,11 @@ Per una lista completa di tutti i collegamenti tra i README.md, consultare il fi
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> ee18dd92 (.)
+<<<<<<< HEAD:docs/tailwind-implementation_1.md
 >>>>>>> 022fa8f1c (.):docs/tailwind_implementation.md
+=======
+=======
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 4689a827 (.)
+>>>>>>> c0f3d67cc (.):docs/tailwind_implementation.md
