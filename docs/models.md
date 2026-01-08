@@ -17,8 +17,12 @@ abstract class BaseModel extends XotBaseModel
 
 ## Template
 
+<<<<<<< HEAD
 ### Struttura Template
 
+=======
+### Struttura
+>>>>>>> bb96c993b (.)
 ```php
 final class Template extends BaseModel
 {
@@ -31,6 +35,7 @@ final class Template extends BaseModel
         'code',
     ];
 
+<<<<<<< HEAD
     /**
      * Get the attributes that should be cast.
      *
@@ -45,6 +50,14 @@ final class Template extends BaseModel
             'updated_at' => 'datetime',
         ];
     }
+=======
+    protected $casts = [
+        'status' => TemplateStatus::class,
+        'type' => TemplateType::class,
+        'created_at' => 'datetime',
+        'updated_at' => 'datetime',
+    ];
+>>>>>>> bb96c993b (.)
 
     public function versions(): HasMany
     {
@@ -64,7 +77,10 @@ final class Template extends BaseModel
 ```
 
 ### Enum
+<<<<<<< HEAD
 
+=======
+>>>>>>> bb96c993b (.)
 ```php
 enum TemplateStatus: string
 {
@@ -83,8 +99,12 @@ enum TemplateType: string
 
 ## TemplateVersion
 
+<<<<<<< HEAD
 ### Struttura TemplateVersion
 
+=======
+### Struttura
+>>>>>>> bb96c993b (.)
 ```php
 final class TemplateVersion extends BaseModel
 {
@@ -95,6 +115,7 @@ final class TemplateVersion extends BaseModel
         'metadata',
     ];
 
+<<<<<<< HEAD
     /**
      * Get the attributes that should be cast.
      *
@@ -108,6 +129,13 @@ final class TemplateVersion extends BaseModel
             'updated_at' => 'datetime',
         ];
     }
+=======
+    protected $casts = [
+        'metadata' => 'array',
+        'created_at' => 'datetime',
+        'updated_at' => 'datetime',
+    ];
+>>>>>>> bb96c993b (.)
 
     public function template(): BelongsTo
     {
@@ -123,8 +151,12 @@ final class TemplateVersion extends BaseModel
 
 ## TemplateTranslation
 
+<<<<<<< HEAD
 ### Struttura TemplateTranslation
 
+=======
+### Struttura
+>>>>>>> bb96c993b (.)
 ```php
 final class TemplateTranslation extends BaseModel
 {
@@ -135,6 +167,7 @@ final class TemplateTranslation extends BaseModel
         'content',
     ];
 
+<<<<<<< HEAD
     /**
      * Get the attributes that should be cast.
      *
@@ -147,6 +180,12 @@ final class TemplateTranslation extends BaseModel
             'updated_at' => 'datetime',
         ];
     }
+=======
+    protected $casts = [
+        'created_at' => 'datetime',
+        'updated_at' => 'datetime',
+    ];
+>>>>>>> bb96c993b (.)
 
     public function version(): BelongsTo
     {
@@ -157,8 +196,12 @@ final class TemplateTranslation extends BaseModel
 
 ## NotificationLog
 
+<<<<<<< HEAD
 ### Struttura NotificationLog
 
+=======
+### Struttura
+>>>>>>> bb96c993b (.)
 ```php
 final class NotificationLog extends BaseModel
 {
@@ -176,6 +219,7 @@ final class NotificationLog extends BaseModel
         'clicked_at',
     ];
 
+<<<<<<< HEAD
     /**
      * Get the attributes that should be cast.
      *
@@ -194,6 +238,18 @@ final class NotificationLog extends BaseModel
             'updated_at' => 'datetime',
         ];
     }
+=======
+    protected $casts = [
+        'data' => 'array',
+        'channels' => 'array',
+        'sent_at' => 'datetime',
+        'delivered_at' => 'datetime',
+        'opened_at' => 'datetime',
+        'clicked_at' => 'datetime',
+        'created_at' => 'datetime',
+        'updated_at' => 'datetime',
+    ];
+>>>>>>> bb96c993b (.)
 
     public function template(): BelongsTo
     {
@@ -214,8 +270,12 @@ final class NotificationLog extends BaseModel
 
 ## TemplateAnalytics
 
+<<<<<<< HEAD
 ### Struttura TemplateAnalytics
 
+=======
+### Struttura
+>>>>>>> bb96c993b (.)
 ```php
 final class TemplateAnalytics extends BaseModel
 {
@@ -227,6 +287,7 @@ final class TemplateAnalytics extends BaseModel
         'occurred_at',
     ];
 
+<<<<<<< HEAD
     /**
      * Get the attributes that should be cast.
      *
@@ -241,6 +302,14 @@ final class TemplateAnalytics extends BaseModel
             'updated_at' => 'datetime',
         ];
     }
+=======
+    protected $casts = [
+        'event_data' => 'array',
+        'occurred_at' => 'datetime',
+        'created_at' => 'datetime',
+        'updated_at' => 'datetime',
+    ];
+>>>>>>> bb96c993b (.)
 
     public function template(): BelongsTo
     {
@@ -257,8 +326,12 @@ final class TemplateAnalytics extends BaseModel
 ## Relazioni tra Modelli
 
 ### Diagramma
+<<<<<<< HEAD
 
 ```text
+=======
+```
+>>>>>>> bb96c993b (.)
 Template 1 --- * TemplateVersion
 TemplateVersion 1 --- * TemplateTranslation
 Template 1 --- * NotificationLog
@@ -268,7 +341,10 @@ NotificationLog 1 --- * TemplateAnalytics
 ### Query Examples
 
 #### Recupero Template con Versioni
+<<<<<<< HEAD
 
+=======
+>>>>>>> bb96c993b (.)
 ```php
 $template = Template::with(['versions' => function($query) {
     $query->latest('version');
@@ -276,7 +352,10 @@ $template = Template::with(['versions' => function($query) {
 ```
 
 #### Recupero Analytics per Periodo
+<<<<<<< HEAD
 
+=======
+>>>>>>> bb96c993b (.)
 ```php
 $analytics = TemplateAnalytics::where('template_id', $templateId)
     ->whereBetween('occurred_at', [$startDate, $endDate])
@@ -286,7 +365,10 @@ $analytics = TemplateAnalytics::where('template_id', $templateId)
 ## Traits e Scopes
 
 ### HasVersions
+<<<<<<< HEAD
 
+=======
+>>>>>>> bb96c993b (.)
 ```php
 trait HasVersions
 {
@@ -310,7 +392,10 @@ trait HasVersions
 ```
 
 ### TemplateScopes
+<<<<<<< HEAD
 
+=======
+>>>>>>> bb96c993b (.)
 ```php
 trait TemplateScopes
 {
@@ -329,7 +414,10 @@ trait TemplateScopes
 ## Eventi
 
 ### Template Events
+<<<<<<< HEAD
 
+=======
+>>>>>>> bb96c993b (.)
 ```php
 final class TemplateWasPublished
 {
@@ -349,7 +437,10 @@ final class TemplateWasArchived
 ## Validazione
 
 ### Rules
+<<<<<<< HEAD
 
+=======
+>>>>>>> bb96c993b (.)
 ```php
 final class TemplateRules
 {
@@ -364,4 +455,8 @@ final class TemplateRules
         ];
     }
 }
+<<<<<<< HEAD
 ```
+=======
+``` 
+>>>>>>> bb96c993b (.)
