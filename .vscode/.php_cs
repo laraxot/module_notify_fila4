@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ee3afc5b (rebase 210)
 =======
@@ -16,6 +17,8 @@
 >>>>>>> 5aedc39c (rebase 210)
 =======
 >>>>>>> 22baa66d (rebase 210)
+=======
+>>>>>>> 81ed8a35 (rebase 210)
 <<<<<<< HEAD:.php-cs-fixer.dist - Copia.php
 
 <<<<<<< HEAD
@@ -798,7 +801,12 @@ declare(strict_types=1);
 >>>>>>> daa931f (.)
 =======
 >>>>>>> 4ac6c3c (.)
+<<<<<<< HEAD
 >>>>>>> 22baa66d (rebase 210)
+=======
+=======
+>>>>>>> 145c039 (.)
+>>>>>>> 81ed8a35 (rebase 210)
 $finder = PhpCsFixer\Finder::create()
     ->notPath('bootstrap/cache')
     ->notPath('storage')

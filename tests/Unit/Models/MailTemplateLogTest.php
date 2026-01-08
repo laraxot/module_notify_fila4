@@ -509,6 +509,8 @@ use Modules\Notify\Models\MailTemplateLog;
 use Tests\TestCase;
 >>>>>>> 82e5ee2d (rebase 210)
 
+use function Safe\json_encode;
+
 class MailTemplateLogTest extends TestCase
 {
     use RefreshDatabase;
