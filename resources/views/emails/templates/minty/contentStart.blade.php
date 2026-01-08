@@ -57,6 +57,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -209,6 +210,8 @@
 >>>>>>> bb00ab64 (rebase 210)
 =======
 >>>>>>> 22baa66d (rebase 210)
+=======
+>>>>>>> 5b50927d (rebase 210)
 =======
 <<<<<<< HEAD
 =======
@@ -450,12 +453,18 @@
 =======
 =======
 >>>>>>> 4ac6c3c (.)
+<<<<<<< HEAD
 >>>>>>> 22baa66d (rebase 210)
+=======
+=======
+>>>>>>> 504d3d9 (.)
+>>>>>>> 5b50927d (rebase 210)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -758,6 +767,8 @@ declare(strict_types=1);
 >>>>>>> bb00ab64 (rebase 210)
 =======
 >>>>>>> 22baa66d (rebase 210)
+=======
+>>>>>>> 5b50927d (rebase 210)
 <div class="block">
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
@@ -774,6 +785,7 @@ declare(strict_types=1);
 					<tr>
 						<td>
 							<table width="540" align="center" cellspacing="0" cellpadding="0" border="0" class="devicewidthinner">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1044,6 +1056,8 @@ declare(strict_types=1);
 >>>>>>> bb00ab64 (rebase 210)
 =======
 >>>>>>> 22baa66d (rebase 210)
+=======
+>>>>>>> 5b50927d (rebase 210)
 =======
 								<tbody>
 >>>>>>> 99ff506 (.)
@@ -1388,4 +1402,10 @@ declare(strict_types=1);
 =======
 =======
 >>>>>>> 4ac6c3c (.)
+<<<<<<< HEAD
 >>>>>>> 22baa66d (rebase 210)
+=======
+=======
+								<tbody>
+>>>>>>> 504d3d9 (.)
+>>>>>>> 5b50927d (rebase 210)
