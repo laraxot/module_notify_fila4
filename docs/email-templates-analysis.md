@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Analisi Approfondita: Email Templates in Laravel per <nome progetto>
 
 ## 1. Panoramica Soluzioni Analizzate
@@ -129,6 +130,8 @@ Sono state analizzate le principali soluzioni open source, best practice e patte
 _Analisi aggiornata al 2025-05-05. Per dettagli e approfondimenti, consultare i README specifici delle soluzioni nella cartella email-templates._
 =======
 =======
+=======
+>>>>>>> c417ace (.)
 # Analisi dei Template Email in Laravel
 
 ## Panoramica
@@ -257,7 +260,10 @@ class PreviewController extends Controller
 ```php
 namespace Modules\Notify\Filament\Resources;
 
+<<<<<<< HEAD
 >>>>>>> f6b0523 (.)
+=======
+>>>>>>> c417ace (.)
 class TemplateResource extends Resource
 {
     protected static function getNavigationGroup(): ?string
@@ -270,10 +276,14 @@ class TemplateResource extends Resource
 ### 2. Form Builder
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
 public static function form(Form $form): Form
 >>>>>>> f6b0523 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> c417ace (.)
 {
     return $form->schema([
         TextInput::make('name')
@@ -321,8 +331,11 @@ public static function form(Form $form): Form
 - Monitorare le performance
 - Implementare logging appropriato 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7b1ccd1 (.)
 =======
 >>>>>>> c13e9db (.)
 =======
 >>>>>>> f6b0523 (.)
+=======
+>>>>>>> c417ace (.)

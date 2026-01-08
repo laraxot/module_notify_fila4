@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c417ace (.)
 # Analisi del Pacchetto Filament Title With Slug
 
 ## Panoramica
@@ -137,9 +140,13 @@ TitleWithSlugInput::make()
 use Camya\Filament\Forms\Components\TitleWithSlugInput;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 >>>>>>> 7b1ccd1 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> c417ace (.)
 {
     return $form
         ->schema([
@@ -206,5 +213,8 @@ TitleWithSlugInput::make()
 - Versioning
 - Testing
 - Documentazione 
+<<<<<<< HEAD
 =======
 >>>>>>> c13e9db (.)
+=======
+>>>>>>> c417ace (.)
