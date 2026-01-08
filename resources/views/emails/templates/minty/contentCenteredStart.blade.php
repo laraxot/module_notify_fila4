@@ -71,6 +71,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -576,11 +577,17 @@
 =======
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+=======
+=======
+>>>>>>> 82ae73b (.)
+>>>>>>> 2fc60436 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1013,6 +1020,10 @@ declare(strict_types=1);
 >>>>>>> b94a5f6 (.)
 >>>>>>> d45a0226 (.)
 =======
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
 <div class="block">
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
@@ -1031,6 +1042,7 @@ declare(strict_types=1);
 					<tr>
 						<td>
 							<table width="540" align="center" cellpadding="0" cellspacing="0" border="0" class="devicewidthinner">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1827,3 +1839,14 @@ declare(strict_types=1);
 								<tbody>
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+=======
+=======
+								<tbody>
+>>>>>>> 75179b8 (.)
+=======
+								<tbody>
+=======
+								<tbody>
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73b (.)
+>>>>>>> 2fc60436 (.)

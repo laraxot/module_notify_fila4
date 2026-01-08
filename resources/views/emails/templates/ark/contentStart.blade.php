@@ -71,6 +71,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -576,11 +577,17 @@
 =======
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+=======
+=======
+>>>>>>> 82ae73b (.)
+>>>>>>> 2fc60436 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1013,6 +1020,10 @@ declare(strict_types=1);
 >>>>>>> b94a5f6 (.)
 >>>>>>> d45a0226 (.)
 =======
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
 <tr>
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
@@ -1023,6 +1034,7 @@ declare(strict_types=1);
 			<tr><td class="w560" height="15" width="560"></td></tr>
 			<tr>
 				<td class="w560" width="560">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1819,3 +1831,14 @@ declare(strict_types=1);
 					<div class="article-content" align="left">
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+=======
+=======
+					<div class="article-content" align="left">
+>>>>>>> 75179b8 (.)
+=======
+					<div class="article-content" align="left">
+=======
+					<div class="article-content" align="left">
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73b (.)
+>>>>>>> 2fc60436 (.)

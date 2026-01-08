@@ -71,6 +71,7 @@ namespace Modules\Notify\Tests\Unit\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -127,10 +128,13 @@ namespace Modules\Notify\Tests\Unit\Models;
 use function Safe\json_encode;
 
 >>>>>>> 7d765981 (.)
+=======
+>>>>>>> 2fc60436 (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\MailTemplateLog;
 use Tests\TestCase;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -179,10 +183,13 @@ use Tests\TestCase;
 >>>>>>> 77edd94a (.)
 =======
 >>>>>>> f81a620f (.)
+=======
+>>>>>>> 2fc60436 (.)
 use Tests\TestCase;
 use Modules\Notify\Models\MailTemplateLog;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -629,6 +636,8 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\MailTemplateLog;
 use Tests\TestCase;
 >>>>>>> 4b544042 (.)
+=======
+>>>>>>> 2fc60436 (.)
 
 class MailTemplateLogTest extends TestCase
 {
@@ -1315,6 +1324,7 @@ class MailTemplateLogTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 06e3078e (.)
 =======
@@ -1450,6 +1460,9 @@ class MailTemplateLogTest extends TestCase
 >>>>>>> f81a620f (.)
 =======
 >>>>>>> 3ee54c5d (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
 
 
 
@@ -1457,6 +1470,7 @@ class MailTemplateLogTest extends TestCase
 
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1704,3 +1718,6 @@ class MailTemplateLogTest extends TestCase
 >>>>>>> 3ee54c5d (.)
 =======
 >>>>>>> 4b544042 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
