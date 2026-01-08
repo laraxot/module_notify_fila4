@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sistema Backup Email 
 
 ## Panoramica
@@ -635,3 +636,5 @@ class MailBackupDebugger
 - [Laravel Storage](https://laravel.com/docs/storage)
 - [Laravel Encryption](https://laravel.com/docs/encryption)
 - [Laravel Commands](https://laravel.com/docs/artisan) 
+=======
+>>>>>>> c13e9db (.)

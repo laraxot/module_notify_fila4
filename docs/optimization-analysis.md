@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # notify module documentation optimization analysis
 
 ## current state analysis
@@ -108,3 +109,5 @@ docs/
 - **better usability**: clear navigation by notification type
 - **consistent quality**: uniform documentation standards
 - **faster onboarding**: streamlined learning path
+=======
+>>>>>>> c13e9db (.)
