@@ -3,6 +3,9 @@
 declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1f80445 (.)
 use function Safe\class_uses;
 
 <<<<<<< HEAD
