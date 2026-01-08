@@ -144,7 +144,7 @@ return new class extends Migration {
      */
     public function up(): void
     {
-        Schema::create('notification_logs', function (Blueprint $table): void {
+        Schema::create('notification_logs', function (Blueprint $table) {
             $table->id();
             $table->string('notifiable_type');
             $table->unsignedBigInteger('notifiable_id');
