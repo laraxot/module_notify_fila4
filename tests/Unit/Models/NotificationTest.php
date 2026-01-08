@@ -67,6 +67,7 @@ namespace Modules\Notify\Tests\Unit\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -596,6 +597,11 @@ use Tests\TestCase;
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 06e3078e (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Notification;
+use Tests\TestCase;
+>>>>>>> 70e8274e (.)
 
 class NotificationTest extends TestCase
 {
