@@ -390,6 +390,8 @@ use Modules\Notify\Models\MailTemplate;
 use Tests\TestCase;
 >>>>>>> 116df547 (.)
 
+use function Safe\json_encode;
+
 class MailTemplateTest extends TestCase
 {
     use RefreshDatabase;
