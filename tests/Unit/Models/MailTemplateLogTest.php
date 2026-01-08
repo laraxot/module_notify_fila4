@@ -35,6 +35,7 @@ namespace Modules\Notify\Tests\Unit\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -59,10 +60,13 @@ namespace Modules\Notify\Tests\Unit\Models;
 >>>>>>> 6d08c01b (.)
 =======
 >>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 3b4c9907 (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\MailTemplateLog;
 use Tests\TestCase;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -83,10 +87,13 @@ use Tests\TestCase;
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 6d08c01b (.)
+=======
+>>>>>>> 3b4c9907 (.)
 use Tests\TestCase;
 use Modules\Notify\Models\MailTemplateLog;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -295,6 +302,8 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\MailTemplateLog;
 use Tests\TestCase;
 >>>>>>> 4e4a7796 (.)
+=======
+>>>>>>> 3b4c9907 (.)
 
 class MailTemplateLogTest extends TestCase
 {
@@ -946,6 +955,7 @@ class MailTemplateLogTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b6b9e41 (.)
 =======
@@ -1011,6 +1021,9 @@ class MailTemplateLogTest extends TestCase
 >>>>>>> 6d08c01b (.)
 =======
 >>>>>>> c4bdacbf (.)
+=======
+=======
+>>>>>>> 3b4c9907 (.)
 
 
 
@@ -1018,6 +1031,7 @@ class MailTemplateLogTest extends TestCase
 
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1132,3 +1146,6 @@ class MailTemplateLogTest extends TestCase
 >>>>>>> c4bdacbf (.)
 =======
 >>>>>>> 4e4a7796 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3b4c9907 (.)
