@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 <<<<<<< HEAD:.php-cs-fixer.dist - Copia.php
 
 <<<<<<< HEAD
@@ -453,6 +454,8 @@ declare(strict_types=1);
 >>>>>>> e438127e (.)
 =======
 >>>>>>> 510e6e8b (.):.vscode/.php_cs
+=======
+>>>>>>> f2e64178 (.)
 $finder = PhpCsFixer\Finder::create()
     ->notPath('bootstrap/cache')
     ->notPath('storage')
@@ -487,6 +490,7 @@ return PhpCsFixer\Config::create()
         'elseif' => true,
     ))
     ->setFinder($finder)
+<<<<<<< HEAD
 <<<<<<< HEAD:.php-cs-fixer.dist - Copia.php
 
 <<<<<<< HEAD
@@ -529,3 +533,6 @@ return $config;
 =======
 ;
 >>>>>>> 510e6e8b (.):.vscode/.php_cs
+=======
+;
+>>>>>>> f2e64178 (.)
