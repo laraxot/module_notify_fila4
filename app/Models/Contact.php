@@ -215,7 +215,6 @@ use Illuminate\Support\Carbon;
 <<<<<<< HEAD
 use Modules\Notify\Database\Factories\ContactFactory;
 use Modules\Xot\Contracts\ProfileContract;
-use Override;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
 =======
@@ -492,6 +491,7 @@ use Illuminate\Support\Carbon;
  * @property-read int|null $media_count
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
  *
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> e00d798d (.)
@@ -503,6 +503,8 @@ use Illuminate\Support\Carbon;
 >>>>>>> 7c1c276f (rebase 210)
 =======
 >>>>>>> e00d798d (.)
+=======
+>>>>>>> 7d765981 (.)
  * @method static \Modules\Notify\Database\Factories\ContactFactory factory($count = null, $state = [])
  * @method static Builder<static>|Contact newModelQuery()
  * @method static Builder<static>|Contact newQuery()
@@ -523,6 +525,7 @@ use Illuminate\Support\Carbon;
  * @method static Builder<static>|Contact whereVerifiedAt($value)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
  * @mixin \Eloquent
  */
@@ -532,6 +535,9 @@ use Illuminate\Support\Carbon;
  */
 >>>>>>> 7c1c276f (rebase 210)
 =======
+=======
+ *
+>>>>>>> 7d765981 (.)
  * @mixin \Eloquent
  */
 >>>>>>> 6e550ff (.)

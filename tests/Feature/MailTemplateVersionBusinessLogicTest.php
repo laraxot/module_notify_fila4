@@ -1668,7 +1668,12 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
         ];
 
         foreach ($mailableClasses as $index => $mailableClass) {
+<<<<<<< HEAD
             $version = MailTemplateVersion::factory()->create([
+=======
+            /** @var \Illuminate\Database\Eloquent\Collection */
+            $version = MailTemplateVersion/** @phpstan-ignore-line */ ::factory()->create([
+>>>>>>> 7d765981 (.)
                 'template_id' => $template->id,
                 'mailable' => $mailableClass,
 <<<<<<< HEAD
@@ -2657,7 +2662,12 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
         ];
 
         foreach ($versionSchemes as $versionNumber => $description) {
+<<<<<<< HEAD
             $version = MailTemplateVersion::factory()->create([
+=======
+            /** @var \Illuminate\Database\Eloquent\Collection */
+            $version = MailTemplateVersion/** @phpstan-ignore-line */ ::factory()->create([
+>>>>>>> 7d765981 (.)
                 'template_id' => $template->id,
                 'version' => $versionNumber,
                 'change_notes' => $description,
