@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Emails;
 
+use Mustache_Engine;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Mail\Mailables\Attachment;
 use Illuminate\Mail\Mailables\Envelope;
@@ -15,13 +16,13 @@ use Modules\Xot\Actions\Cast\SafeArrayByModelCastAction;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Modules\Xot\Datas\MetatagData;
 use Modules\Xot\Datas\XotData;
-use Mustache_Engine;
+
+use function Safe\file_get_contents;
+
 use Spatie\MailTemplates\Interfaces\MailTemplateInterface;
 use Spatie\MailTemplates\TemplateMailable;
 use Symfony\Component\Mime\MimeTypes;
 use Webmozart\Assert\Assert;
-
-use function Safe\file_get_contents;
 
 /**
  * @see https://github.com/spatie/laravel-database-mail-templates
@@ -67,7 +68,7 @@ class SpatieEmail extends TemplateMailable
             ],
         );
 
-        if ($tpl !== null) {
+        if (null !== $tpl) {
             $tpl->update(['counter' => $tpl->counter + 1]);
         }
         $lang = app()->getLocale();
@@ -131,7 +132,7 @@ class SpatieEmail extends TemplateMailable
      */
     public function envelope(): Envelope
     {
-        $envelope = new Envelope;
+        $envelope = new Envelope();
 
         // Set the recipient if available
         if ($this->recipient) {
@@ -159,7 +160,7 @@ class SpatieEmail extends TemplateMailable
     }
 
     /**
-     * @param  array{path: string, as?: string, mime?: string}  $attachment
+     * @param array{path: string, as?: string, mime?: string} $attachment
      */
     public function getAttachmentFromPath(array $attachment): Attachment
     {
@@ -172,7 +173,7 @@ class SpatieEmail extends TemplateMailable
         $filename = $attachment['as'] ?? ($info['basename'] ?? basename($path));
         /** @var string|null $mime */
         $mime = $attachment['mime'] ?? File::mimeType($path);
-        if ($mime === null) {
+        if (null === $mime) {
             $mime = 'application/octet-stream';
         }
 
@@ -192,10 +193,10 @@ class SpatieEmail extends TemplateMailable
         /** @var string $asForPathinfo */
         $asForPathinfo = \is_string($attachment['as']) ? $attachment['as'] : '';
         $info = pathinfo($asForPathinfo);
-        if ($mime === null && isset($info['extension'])) {
+        if (null === $mime && isset($info['extension'])) {
             $mime = Arr::first(MimeTypes::getDefault()->getMimeTypes($info['extension']));
         }
-        if ($mime === null) {
+        if (null === $mime) {
             $mime = 'application/octet-stream';
         }
         Assert::string($mime, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
@@ -210,7 +211,7 @@ class SpatieEmail extends TemplateMailable
     /**
      * Add attachments to the email.
      *
-     * @param  array<int, array<string, string>>  $attachments  Array of attachment data
+     * @param array<int, array<string, string>> $attachments Array of attachment data
      */
     public function addAttachments(array $attachments): self
     {
@@ -222,7 +223,7 @@ class SpatieEmail extends TemplateMailable
                 $attachment = $this->getAttachmentFromPath($item);
             }
 
-            if ($attachment === null && isset($item['data'])) {
+            if (null === $attachment && isset($item['data'])) {
                 $attachment = $this->getAttachmentFromData($item);
             }
 

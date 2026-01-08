@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Services;
 
+use GuzzleHttp\Promise\PromiseInterface;
+use Illuminate\Http\Client\Response;
 use DateTime;
 use Exception;
 use GuzzleHttp\Promise\PromiseInterface;
