@@ -174,6 +174,7 @@ class NotificationManagerTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -186,6 +187,8 @@ class NotificationManagerTest extends TestCase
 >>>>>>> de02998b (.)
 =======
 >>>>>>> 011072e4 (.)
+=======
+>>>>>>> 5fd545e4 (.)
         $action->shouldReceive('execute')->with($recipient, $templateCode, $data, $channels, $options)->once();
 =======
         $action->shouldReceive('execute')

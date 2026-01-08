@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Guida alla Correzione di SendEmail.php
 
 ## 🔍 Analisi del Problema
@@ -316,3 +317,5 @@ class SmtpData extends Data
    - Aggiornare regolarmente le dipendenze
    - Monitorare log errori
    - Verificare configurazione SMTP 
+=======
+>>>>>>> 5fd545e4 (.)

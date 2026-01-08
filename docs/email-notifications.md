@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sistema Notifiche Email - il progetto
 
 ## Panoramica
@@ -466,4 +467,18 @@ class NotificationDebugger
 - [Laravel Events](https://laravel.com/docs/events)
 - [Laravel Mail](https://laravel.com/docs/mail) 
 >>>>>>> ee18dd92 (.)
+<<<<<<< HEAD
 >>>>>>> 022fa8f1c (.)
+=======
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+- [Laravel Notifications](https://laravel.com/docs/notifications)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Mail](https://laravel.com/docs/mail) 
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)

@@ -447,10 +447,16 @@ class NotificationManager
 
         foreach ($recipients as $recipient) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> 75cb51873 (.)
+=======
+=======
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)
             $logs[] = $this->send($recipient, $templateCode, $data, $channels, $options);
         }
 

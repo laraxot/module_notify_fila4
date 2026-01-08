@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # test_smtp
 
 <!-- Contenuto migrato da _docs/test_smtp.txt -->
@@ -166,4 +167,47 @@ Mail::raw('Test SMTP', function($m){ $m->to('tuo@email.com')->subject('Test SMTP
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD:docs/_integration/test-smtp_1.md
 >>>>>>> c0f3d67cc (.):docs/_integration/test_smtp.md
+=======
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> e7a9a2bf (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+=======
+>>>>>>> b19cd40 (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 9d67cabd (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+>>>>>>> ba564870 (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 7325acf3 (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9cdf6146 (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+=======
+>>>>>>> b19cd40 (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 80f054e0 (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+>>>>>>> 7c39b1fe (.)
+=======
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.):docs/_integration/test_smtp.md

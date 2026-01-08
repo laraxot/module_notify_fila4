@@ -99,6 +99,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property Carbon $updated_at
  * @property-read NotificationTemplate|null $template
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
  * @property string $notifiable_type
  * @property int $notifiable_id
@@ -131,6 +132,8 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @method static Builder<static>|NotificationLog withStatus(\Modules\Notify\Enums\NotificationLogStatusEnum $status)
  *
  * @mixin \Eloquent
+=======
+>>>>>>> ddee9d751 (.)
  */
 final class NotificationLog extends BaseModel
 {
@@ -148,23 +151,15 @@ final class NotificationLog extends BaseModel
         'clicked_at',
     ];
 
-    /**
-     * Get the attributes that should be cast.
-     *
-     * @return array<string, string>
-     */
-    protected function casts(): array
-    {
-        return [
-            'data' => 'array',
-            'channels' => 'array',
-            'sent_at' => 'datetime',
-            'delivered_at' => 'datetime',
-            'opened_at' => 'datetime',
-            'clicked_at' => 'datetime',
-            'status' => NotificationLogStatusEnum::class,
-        ];
-    }
+    protected $casts = [
+        'data' => 'array',
+        'channels' => 'array',
+        'sent_at' => 'datetime',
+        'delivered_at' => 'datetime',
+        'opened_at' => 'datetime',
+        'clicked_at' => 'datetime',
+        'status' => NotificationLogStatusEnum::class,
+    ];
 
     /**
      * Ottiene il template associato a questo log.

@@ -136,9 +136,13 @@ class TestSmtpPage extends XotBasePage implements HasForms
 <<<<<<< HEAD
     public function emailForm(Schema $schema): Schema
     {
+<<<<<<< HEAD
         /** @var Schema $result */
         $result = $schema->components([])->model($this->getUser())->statePath('emailData');
         return $result;
+=======
+        return $schema->components([])->model($this->getUser())->statePath('emailData');
+>>>>>>> 5fd545e4 (.)
     }
 
 =======

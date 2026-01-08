@@ -200,6 +200,20 @@ class ConfigHelper
             /** @var array<string, mixed> $companyConfig */
             $companyConfig = SafeArrayCastAction::cast($companyConfigRaw);
 
+<<<<<<< HEAD
+=======
+            /* @var array<string, mixed> $companyConfig */
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)
             return self::replaceStringVariables($value, $companyConfig);
         }
 
@@ -222,6 +236,20 @@ class ConfigHelper
         /** @var array<string, mixed> $testData */
         $testData = SafeArrayCastAction::cast($testDataRaw);
 
+<<<<<<< HEAD
+=======
+        /* @var array<string, mixed> $testData */
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)
         return self::replaceTemplateVariables($testData);
     }
 
@@ -236,6 +264,20 @@ class ConfigHelper
         /** @var array<string, mixed> $companyConfig */
         $companyConfig = SafeArrayCastAction::cast($companyConfigRaw);
 
+<<<<<<< HEAD
+=======
+        /* @var array<string, mixed> $companyConfig */
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)
         return self::replaceTemplateVariables($companyConfig);
     }
 
@@ -250,6 +292,20 @@ class ConfigHelper
         /** @var array<string, mixed> $webhookConfig */
         $webhookConfig = SafeArrayCastAction::cast($webhookConfigRaw);
 
+<<<<<<< HEAD
+=======
+        /* @var array<string, mixed> $webhookConfig */
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)
         return self::replaceTemplateVariables($webhookConfig);
     }
 
@@ -264,6 +320,20 @@ class ConfigHelper
         /** @var array<string, mixed> $emailConfig */
         $emailConfig = SafeArrayCastAction::cast($emailConfigRaw);
 
+<<<<<<< HEAD
+=======
+        /* @var array<string, mixed> $emailConfig */
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)
         return self::replaceTemplateVariables($emailConfig);
     }
 
@@ -278,6 +348,20 @@ class ConfigHelper
         /** @var array<string, mixed> $pathConfig */
         $pathConfig = SafeArrayCastAction::cast($pathConfigRaw);
 
+<<<<<<< HEAD
+=======
+        /* @var array<string, mixed> $pathConfig */
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)
         return self::replaceTemplateVariables($pathConfig);
     }
 }

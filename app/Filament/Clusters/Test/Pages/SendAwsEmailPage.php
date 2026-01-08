@@ -104,6 +104,7 @@ class SendAwsEmailPage extends XotBasePage
         return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
     }
 
+<<<<<<< HEAD
     /**
      * @return array<string, mixed>
      */
@@ -111,6 +112,8 @@ class SendAwsEmailPage extends XotBasePage
 =======
     /** @phpstan-ignore-next-line return.type */
 >>>>>>> 6813d5db6 (.)
+=======
+>>>>>>> ddee9d751 (.)
     public function getEmailFormSchema(): array
     {
         return [

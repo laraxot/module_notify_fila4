@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Regole per il Testing delle Email
 
 ## 🎯 Scopo
@@ -337,4 +338,30 @@ public function sendEmail(): void
 =======
 - Seguire il principio "meno è più" 
 >>>>>>> ee18dd92 (.)
+<<<<<<< HEAD
 >>>>>>> 022fa8f1c (.)
+=======
+=======
+>>>>>>> 2941b0bd (.)
+=======
+=======
+- Seguire il principio "meno è più" 
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> ca10d6ad (.)
+=======
+- Seguire il principio "meno è più" 
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 4c323e61 (.)
+=======
+=======
+- Seguire il principio "meno è più" 
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> febe79e3 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)

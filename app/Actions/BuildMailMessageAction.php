@@ -40,6 +40,7 @@ class BuildMailMessageAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -136,7 +137,16 @@ class BuildMailMessageAction
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+        null|DataCollection $dataCollection = null,
+>>>>>>> 2941b0bd (.)
+=======
+        null|DataCollection $dataCollection = null,
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)
     ): MailMessage {
         $view_params = array_merge($model->toArray(), $view_params);
 
@@ -490,6 +500,7 @@ class BuildMailMessageAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $email = new MailMessage()
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -596,6 +607,21 @@ class BuildMailMessageAction
         $email = $email->subject($subject);
         $email = $email->view($view_html, $theme->view_params);
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 0f81dc21 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> ca10d6ad (.)
+=======
+>>>>>>> ce26f84e (.)
+=======
+>>>>>>> 7d903672 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)
         $email = new MailMessage()
 <<<<<<< HEAD
 =======

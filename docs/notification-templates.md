@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Template delle Notifiche
 
 ## Architettura
@@ -157,3 +158,5 @@ Il sistema di template delle notifiche è progettato seguendo i principi di:
 - [Documentazione Filament](../../../docs/filament.md)
 - [Documentazione Media Library](../../../docs/media-library.md)
 - [Documentazione Traduzioni](../../../docs/translations.md) 
+=======
+>>>>>>> 5fd545e4 (.)

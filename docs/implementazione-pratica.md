@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Implementazione Pratica del Modulo Notify
 
 ## 1. Setup Iniziale
@@ -855,3 +856,5 @@ class TemplateControllerTest extends TestCase
 - [MJML Documentation](https://mjml.io/documentation/)
 - [Mailgun API](https://documentation.mailgun.com/en/latest/api_reference.html)
 - [Filament Documentation](https://filamentphp.com/docs) 
+=======
+>>>>>>> 5fd545e4 (.)

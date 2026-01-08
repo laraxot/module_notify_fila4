@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Database Mail System
 
 ## Regola sulle rotte
@@ -788,3 +789,5 @@ Cordiali saluti,<br>
 >>>>>>> 80f054e0 (.)
 =======
 >>>>>>> 7c39b1fe (.)
+=======
+>>>>>>> 5fd545e4 (.)

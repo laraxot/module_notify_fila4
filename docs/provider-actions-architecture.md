@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Architettura delle Azioni dei Provider in Notify
 
 ## Struttura e Principi Fondamentali
@@ -185,3 +186,5 @@ Tutte le azioni devono gestire correttamente gli errori:
 1. Log appropriati degli errori
 2. Lancio di eccezioni in caso di errori critici
 3. Restituzione di un array con `'success' => false` in caso di errori non critici
+=======
+>>>>>>> 5fd545e4 (.)

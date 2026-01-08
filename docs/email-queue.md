@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sistema Code Email - il progetto
 
 ## Panoramica
@@ -503,4 +504,18 @@ class MailQueueManager
 - [Laravel Horizon](https://laravel.com/docs/horizon)
 - [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
 >>>>>>> ee18dd92 (.)
+<<<<<<< HEAD
 >>>>>>> 022fa8f1c (.)
+=======
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+- [Laravel Queue](https://laravel.com/docs/queues)
+- [Laravel Horizon](https://laravel.com/docs/horizon)
+- [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)

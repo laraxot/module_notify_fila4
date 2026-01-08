@@ -40,10 +40,36 @@ class AnalyzeTranslationFiles extends Command
 
         // Collect all files and their keys
         foreach ($languages as $langDir) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ddee9d751 (.)
             /** @var string $langDirPath */
             $langDirPath = is_string($langDir) ? $langDir : (string) $langDir;
             $lang = basename($langDirPath);
             $files = File::files($langDirPath);
+<<<<<<< HEAD
+=======
+=======
+            $lang = basename($langDir);
+            $files = File::files($langDir);
+>>>>>>> 75179b85 (.)
+=======
+            $lang = basename($langDir);
+            $files = File::files($langDir);
+>>>>>>> 75179b85 (.)
+=======
+            $lang = basename($langDir);
+            $files = File::files($langDir);
+>>>>>>> 75179b85 (.)
+=======
+            $lang = basename($langDir);
+            $files = File::files($langDir);
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)
 
             foreach ($files as $file) {
                 $filename = $file->getFilename();
@@ -163,6 +189,13 @@ class AnalyzeTranslationFiles extends Command
         $table->setHeaders($headers);
 
         foreach ($allKeys as $key) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ddee9d751 (.)
             Assert::string($key);
             $row = [$key];
 
@@ -170,6 +203,31 @@ class AnalyzeTranslationFiles extends Command
                 /** @var array<string, mixed>|null $fileData */
                 $fileData = $allFiles[$file] ?? null;
                 $row[] = (is_array($fileData) && isset($fileData[$key])) ? '✓' : '✗';
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+            $row = [$key];
+
+            foreach (array_keys($allFiles) as $file) {
+                $row[] = isset($allFiles[$file][$key]) ? '✓' : '✗';
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+            $row = [$key];
+
+            foreach (array_keys($allFiles) as $file) {
+                $row[] = isset($allFiles[$file][$key]) ? '✓' : '✗';
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)
             }
 
             $table->addRow($row);

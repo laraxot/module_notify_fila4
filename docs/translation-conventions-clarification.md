@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Chiarimento sulle Convenzioni di Traduzione nel Modulo Notify
 
 ## Identificazione di Convenzioni Contrastanti
@@ -228,3 +229,5 @@ Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono corre
 - [Convenzioni Generali di Traduzione](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
 - [Convenzioni Specifiche del Modulo Notify](./TRANSLATION_CONVENTIONS.md)
 - [Regole per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
+=======
+>>>>>>> 5fd545e4 (.)

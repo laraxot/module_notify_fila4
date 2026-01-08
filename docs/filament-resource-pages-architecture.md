@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Architettura delle Pagine di Risorse Filament 
 
 ## Regola Fondamentale
@@ -260,3 +261,5 @@ find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -path "*/Fila
 >>>>>>> ee18dd92 (.)
 >>>>>>> 022fa8f1c (.)
 - [Pattern Architetturali in Laravel](https://laravel.com/docs/architecture)
+=======
+>>>>>>> 5fd545e4 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ContactColumn - Implementazione DRY/KISS Centralizzata
 
 ## 🎯 Obiettivo
@@ -509,3 +510,5 @@ public function table(Table $table): Table
 5. **Aggiornare** le regole e memorie
 
 *Ultimo aggiornamento: 2025-01-06* 
+=======
+>>>>>>> 5fd545e4 (.)

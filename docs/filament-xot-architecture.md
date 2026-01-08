@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Architettura Filament : Pattern XotBase
 
 ## Introduzione
@@ -346,3 +347,5 @@ find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -exec grep -l
 ```
 
 Le pagine che violano questa regola devono essere immediatamente corrette sostituendo l'estensione con la classe XotBase appropriata.
+=======
+>>>>>>> 5fd545e4 (.)

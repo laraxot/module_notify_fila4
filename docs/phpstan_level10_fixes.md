@@ -10,6 +10,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -325,4 +326,17 @@ COMPOSER_DISABLE_XDEBUG_WARN=1 ./vendor/bin/phpstan analyse Modules/Notify --lev
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> ee18dd92 (.)
+<<<<<<< HEAD
 >>>>>>> 022fa8f1c (.)
+=======
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)

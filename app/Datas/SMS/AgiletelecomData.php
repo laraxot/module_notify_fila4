@@ -329,12 +329,20 @@ class AgiletelecomData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)
     public function getAuthHeaders(): array
     {
 =======

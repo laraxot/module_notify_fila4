@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Analisi del Pattern di Estensione per Componenti Filament
 
 ## Comprensione dell'Errore
@@ -302,4 +303,22 @@ Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di
 =======
 Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di SaluteOra. Seguire questo pattern garantisce coerenza, manutenibilità e estensibilità del codice. È essenziale comprendere non solo come implementare questo pattern, ma anche perché è importante per il successo a lungo termine del progetto.
 >>>>>>> ee18dd92 (.)
+<<<<<<< HEAD
 >>>>>>> 022fa8f1c (.)
+=======
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di SaluteOra. Seguire questo pattern garantisce coerenza, manutenibilità e estensibilità del codice. È essenziale comprendere non solo come implementare questo pattern, ma anche perché è importante per il successo a lungo termine del progetto.
+>>>>>>> ca10d6ad (.)
+=======
+Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di SaluteOra. Seguire questo pattern garantisce coerenza, manutenibilità e estensibilità del codice. È essenziale comprendere non solo come implementare questo pattern, ma anche perché è importante per il successo a lungo termine del progetto.
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di SaluteOra. Seguire questo pattern garantisce coerenza, manutenibilità e estensibilità del codice. È essenziale comprendere non solo come implementare questo pattern, ma anche perché è importante per il successo a lungo termine del progetto.
+>>>>>>> febe79e3 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)

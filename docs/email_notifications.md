@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sistema Notifiche Email - il progetto
 
 ## Panoramica
@@ -525,4 +526,43 @@ class NotificationDebugger
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+- [Laravel Notifications](https://laravel.com/docs/notifications)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Mail](https://laravel.com/docs/mail) 
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+- [Laravel Notifications](https://laravel.com/docs/notifications)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Mail](https://laravel.com/docs/mail) 
+>>>>>>> ca10d6ad (.)
+=======
+- [Laravel Notifications](https://laravel.com/docs/notifications)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Mail](https://laravel.com/docs/mail) 
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 7325acf3 (.)
+=======
+- [Laravel Notifications](https://laravel.com/docs/notifications)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Mail](https://laravel.com/docs/mail) 
+>>>>>>> 4c323e61 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+=======
+- [Laravel Notifications](https://laravel.com/docs/notifications)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Mail](https://laravel.com/docs/mail) 
+>>>>>>> febe79e3 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)

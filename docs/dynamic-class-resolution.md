@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Risoluzione Dinamica delle Classi nei Factory Pattern
 
 Questo documento analizza l'approccio di risoluzione dinamica delle classi nei factory pattern, confrontandolo con l'approccio basato su match esplicito.
@@ -219,4 +220,22 @@ Per il sistema di notifiche di SaluteOra, l'approccio dinamico rappresenta una s
 =======
 Per il sistema di notifiche di SaluteOra, l'approccio dinamico rappresenta una scelta ottimale, poiché facilita l'aggiunta di nuovi provider senza necessità di modificare il codice esistente, rispettando il principio Open/Closed e promuovendo una struttura di codice coerente e manutenibile.
 >>>>>>> ee18dd92 (.)
+<<<<<<< HEAD
 >>>>>>> 022fa8f1c (.)
+=======
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+Per il sistema di notifiche di SaluteOra, l'approccio dinamico rappresenta una scelta ottimale, poiché facilita l'aggiunta di nuovi provider senza necessità di modificare il codice esistente, rispettando il principio Open/Closed e promuovendo una struttura di codice coerente e manutenibile.
+>>>>>>> ca10d6ad (.)
+=======
+Per il sistema di notifiche di SaluteOra, l'approccio dinamico rappresenta una scelta ottimale, poiché facilita l'aggiunta di nuovi provider senza necessità di modificare il codice esistente, rispettando il principio Open/Closed e promuovendo una struttura di codice coerente e manutenibile.
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+Per il sistema di notifiche di SaluteOra, l'approccio dinamico rappresenta una scelta ottimale, poiché facilita l'aggiunta di nuovi provider senza necessità di modificare il codice esistente, rispettando il principio Open/Closed e promuovendo una struttura di codice coerente e manutenibile.
+>>>>>>> febe79e3 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)

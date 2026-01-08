@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Template Email e Layout - Modulo Notify
 
 ## Scopo
@@ -250,4 +251,42 @@ MailTemplate::create([
 **Compatibilità**: Laravel 12.x, Filament 3.x, Spatie Mail Templates
 >>>>>>> d284d65 (.)
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+**Compatibilità**: Laravel 12.x, Filament 4.x, Spatie Mail Templates
+>>>>>>> 2941b0bd (.)
+=======
+**Compatibilità**: Laravel 12.x, Filament 4.x, Spatie Mail Templates
+=======
+**Compatibilità**: Laravel 12.x, Filament 3.x, Spatie Mail Templates
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+**Compatibilità**: Laravel 12.x, Filament 4.x, Spatie Mail Templates
+>>>>>>> ca10d6ad (.)
+=======
+**Compatibilità**: Laravel 12.x, Filament 4.x, Spatie Mail Templates
+>>>>>>> 66453ace (.)
+=======
+**Compatibilità**: Laravel 12.x, Filament 4.x, Spatie Mail Templates
+=======
+**Compatibilità**: Laravel 12.x, Filament 3.x, Spatie Mail Templates
+>>>>>>> d284d65 (.)
+>>>>>>> 7325acf3 (.)
+=======
+**Compatibilità**: Laravel 12.x, Filament 4.x, Spatie Mail Templates
+>>>>>>> 4c323e61 (.)
+=======
+**Compatibilità**: Laravel 12.x, Filament 4.x, Spatie Mail Templates
+=======
+**Compatibilità**: Laravel 12.x, Filament 3.x, Spatie Mail Templates
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+=======
+**Compatibilità**: Laravel 12.x, Filament 4.x, Spatie Mail Templates
+>>>>>>> febe79e3 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)

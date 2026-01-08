@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # XotBaseServiceProvider: Analisi, Regole e Best Practice
 
 ## 1. Cos'è XotBaseServiceProvider
@@ -132,3 +133,5 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 ---
 
 > **Questa documentazione è stata aggiornata dopo un errore di override errato del metodo boot. Seguire SEMPRE queste regole per evitare errori futuri.**
+=======
+>>>>>>> 5fd545e4 (.)

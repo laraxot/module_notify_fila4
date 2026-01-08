@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Configurazione Provider SMS per le Notifiche 
 
 <<<<<<< HEAD:docs/notifications/sms-provider-configuration_1.md
@@ -726,3 +727,5 @@ Log::info('SMS sent', [
 - [MULTI_CHANNEL_NOTIFICATIONS.md](./MULTI_CHANNEL_NOTIFICATIONS.md)
 - [NOTIFICATIONS_IMPLEMENTATION_GUIDE.md](./NOTIFICATIONS_IMPLEMENTATION_GUIDE.md)
 - [TELEGRAM_NOTIFICATIONS_GUIDE.md](./TELEGRAM_NOTIFICATIONS_GUIDE.md)
+=======
+>>>>>>> 5fd545e4 (.)

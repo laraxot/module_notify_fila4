@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Notify Module: Philosophy, Purpose, and Design Principles
 
 **Date:** December 23, 2025
@@ -184,3 +185,5 @@ Questi principi si traducono in pratiche concrete:
 >>>>>>> bb96c993b (.)
 =======
 >>>>>>> 022fa8f1c (.)
+=======
+>>>>>>> ddee9d751 (.)

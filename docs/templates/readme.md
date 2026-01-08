@@ -49,6 +49,7 @@ Grazie,<br>
 use Filament\Forms\Components\Builder;
 
 public static function form(Form $form): Form
+<<<<<<< HEAD
 public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 public static function form(Form $form): Form
 public static function form(Form $form): Form
@@ -95,6 +96,8 @@ public static function form(Form $form): Form
 public static function form(Form $form): Form
 public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 public static function form(Form $form): Form
+=======
+>>>>>>> ddee9d751 (.)
 {
     return $form->schema([
         Builder::make('content')

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Integrazione Telegram 
 
 <<<<<<< HEAD
@@ -245,3 +246,5 @@ TELEGRAM_PARSE_MODE=HTML
 2. **Rate limiting**: Utilizzare il rate limiting per prevenire abusi
 3. **Validazione input**: Validare sempre i dati in ingresso prima dell'invio
 4. **Logging**: Registrare tutte le operazioni critiche nei log, ma evitare di loggare dati sensibili
+=======
+>>>>>>> 5fd545e4 (.)

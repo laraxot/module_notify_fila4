@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Analisi Plugin Email per Filament - il progetto
 
 ## Panoramica
@@ -414,4 +415,46 @@ class MailAnalytics
 >>>>>>> d284d65 (.)
 - [Spatie Packages](https://spatie.be/open-source) 
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+- [Laravel Mail](https://laravel.com/docs/mail)
+>>>>>>> 2941b0bd (.)
+=======
+- [Laravel Mail](https://laravel.com/docs/mail)
+=======
+- [Laravel Mail](https://laravel.com/project_docs/mail)
+- [Spatie Packages](https://spatie.be/open-source) 
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+- [Laravel Mail](https://laravel.com/docs/mail)
+>>>>>>> ca10d6ad (.)
+=======
+- [Laravel Mail](https://laravel.com/docs/mail)
+- [Spatie Packages](https://spatie.be/open-source) 
+>>>>>>> 66453ace (.)
+=======
+- [Laravel Mail](https://laravel.com/docs/mail)
+=======
+- [Laravel Mail](https://laravel.com/project_docs/mail)
+>>>>>>> d284d65 (.)
+- [Spatie Packages](https://spatie.be/open-source) 
+>>>>>>> 7325acf3 (.)
+=======
+- [Laravel Mail](https://laravel.com/docs/mail)
+>>>>>>> 4c323e61 (.)
+=======
+- [Laravel Mail](https://laravel.com/docs/mail)
+=======
+- [Laravel Mail](https://laravel.com/project_docs/mail)
+- [Spatie Packages](https://spatie.be/open-source) 
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+=======
+- [Laravel Mail](https://laravel.com/docs/mail)
+>>>>>>> febe79e3 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)

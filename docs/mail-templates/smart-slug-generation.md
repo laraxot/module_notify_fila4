@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Generazione Intelligente di Slug in Filament
 
 ## Introduzione
@@ -330,3 +331,5 @@ Per il modulo Notify di SaluteOra, questa soluzione rappresenta un equilibrio ot
 - [Implementazione Modello con Slug](./MODEL_SLUG_IMPLEMENTATION.md)
 - [Componente TitleWithSlug](./TITLE_WITH_SLUG_COMPONENT.md)
 - [Miglioramenti UI/UX per Slug](./UI_UX_ENHANCEMENTS.md)
+=======
+>>>>>>> 5fd545e4 (.)

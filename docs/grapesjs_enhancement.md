@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Integrazione GrapesJS Editor (Dotswan)
 
 Questo documento analizza il plugin [Dotswan GrapesJS](https://filamentphp.com/plugins/dotswan-grapesjs) per Filament e propone una versione in-house open source migliorata.
@@ -262,4 +263,42 @@ class PublishPageTemplateAction {
 - GrapesJS Docs: https://grapesjs.com/project_docs/
 >>>>>>> d284d65 (.)
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+- GrapesJS Docs: https://grapesjs.com/docs/
+>>>>>>> 2941b0bd (.)
+=======
+- GrapesJS Docs: https://grapesjs.com/docs/
+=======
+- GrapesJS Docs: https://grapesjs.com/project_docs/
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+- GrapesJS Docs: https://grapesjs.com/docs/
+>>>>>>> ca10d6ad (.)
+=======
+- GrapesJS Docs: https://grapesjs.com/docs/
+>>>>>>> 66453ace (.)
+=======
+- GrapesJS Docs: https://grapesjs.com/docs/
+=======
+- GrapesJS Docs: https://grapesjs.com/project_docs/
+>>>>>>> d284d65 (.)
+>>>>>>> 7325acf3 (.)
+=======
+- GrapesJS Docs: https://grapesjs.com/docs/
+>>>>>>> 4c323e61 (.)
+=======
+- GrapesJS Docs: https://grapesjs.com/docs/
+=======
+- GrapesJS Docs: https://grapesjs.com/project_docs/
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+=======
+- GrapesJS Docs: https://grapesjs.com/docs/
+>>>>>>> febe79e3 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)

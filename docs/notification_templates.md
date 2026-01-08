@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Template delle Notifiche
 
 ## Architettura
@@ -238,4 +239,43 @@ Il sistema di template delle notifiche è progettato seguendo i principi di:
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+- [Documentazione Filament](../../../docs/filament.md)
+- [Documentazione Media Library](../../../docs/media-library.md)
+- [Documentazione Traduzioni](../../../docs/translations.md) 
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+- [Documentazione Filament](../../../docs/filament.md)
+- [Documentazione Media Library](../../../docs/media-library.md)
+- [Documentazione Traduzioni](../../../docs/translations.md) 
+>>>>>>> ca10d6ad (.)
+=======
+- [Documentazione Filament](../../../docs/filament.md)
+- [Documentazione Media Library](../../../docs/media-library.md)
+- [Documentazione Traduzioni](../../../docs/translations.md) 
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 7325acf3 (.)
+=======
+- [Documentazione Filament](../../../docs/filament.md)
+- [Documentazione Media Library](../../../docs/media-library.md)
+- [Documentazione Traduzioni](../../../docs/translations.md) 
+>>>>>>> 4c323e61 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+=======
+- [Documentazione Filament](../../../docs/filament.md)
+- [Documentazione Media Library](../../../docs/media-library.md)
+- [Documentazione Traduzioni](../../../docs/translations.md) 
+>>>>>>> febe79e3 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)

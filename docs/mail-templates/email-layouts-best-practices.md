@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Email Layouts Best Practices 
 
 <<<<<<< HEAD
@@ -346,3 +347,5 @@ Il supporto per la Dark Mode migliora l'esperienza utente e riduce l'affaticamen
 - [Email Templates Guide](./EMAIL_TEMPLATES_GUIDE.md)
 - [Spatie Mail Templates Structure](./SPATIE_MAIL_TEMPLATES_STRUCTURE.md)
 - [Template Content Examples](./TEMPLATE_CONTENT_EXAMPLES.md)
+=======
+>>>>>>> 5fd545e4 (.)

@@ -43,6 +43,7 @@ class SendEmailPage extends XotBasePage
         $this->fillForms();
     }
 
+<<<<<<< HEAD
     public function emailForm(Schema $schema): Schema
     {
         /** @var array<string, Component> $formSchema */
@@ -54,6 +55,185 @@ class SendEmailPage extends XotBasePage
     /**
      * @return array<string, Component>
      */
+<<<<<<< HEAD
+=======
+=======
+        return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
+    }
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+=======
+>>>>>>> 207ac35e (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+<<<<<<< HEAD
+    public function emailForm(Schema $schema): Schema
+    {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> d09cb759 (.)
+        return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
+    }
+
+=======
+        return $schema
+            ->components($this->getEmailFormSchema())
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+    public function emailForm(Form $form): Form
+    {
+        return $form
+            ->schema($this->getEmailFormSchema())
+>>>>>>> origin/develop
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+        return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
+    }
+
+=======
+        return $schema
+            ->components($this->getEmailFormSchema())
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+        return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
+    }
+
+=======
+        return $schema
+            ->components($this->getEmailFormSchema())
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
+            ->model($this->getUser())
+            ->statePath('emailData');
+    }
+    
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 82ae73be (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> d09cb759 (.)
+=======
+        return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
+    }
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+        return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
+    }
+
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+        return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
+    }
+
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+        return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
+    }
+
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+        return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
+    }
+
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+        return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
+    }
+
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)
     public function getEmailFormSchema(): array
     {
         return [

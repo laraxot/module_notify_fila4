@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Analisi del Pattern Factory per la Selezione dei Provider SMS
 
 Questo documento analizza il pattern Factory attualmente implementato  per la selezione dei provider SMS, confrontandolo con l'alternativa di integrare la selezione nel DTO `SmsData`.
@@ -368,3 +369,5 @@ Questa scelta architetturale è coerente con i principi SOLID e con l'architettu
 >>>>>>> 022fa8f1c (.)
 
 Rispetto all'alternativa di spostare la logica nel DTO, il pattern Factory offre vantaggi che superano del 30-40% i suoi svantaggi, mentre spostare la logica nel DTO comporterebbe svantaggi che superano del 60-70% i potenziali vantaggi.
+=======
+>>>>>>> 5fd545e4 (.)

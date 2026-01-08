@@ -1909,10 +1909,16 @@ final class SendOfficialTelegramAction
                 'success' => $responseData['ok'] ?? false,
                 'message_id' => $responseData['result']['message_id'] ?? null,
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> 75cb51873 (.)
+=======
+=======
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)
                 'response' => $responseData,
                 'vars' => $this->vars,
             ];

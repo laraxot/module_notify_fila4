@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Analisi e Miglioramenti del Modulo Notify
 
 ## Analisi delle Soluzioni Esistenti
@@ -537,3 +538,5 @@ class TemplatePreview extends Component
 >>>>>>> 80f054e0 (.)
 =======
 >>>>>>> 7c39b1fe (.)
+=======
+>>>>>>> 5fd545e4 (.)

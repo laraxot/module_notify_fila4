@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Risoluzione Conflitti SmsChannel.php
 
 ## Contesto del Conflitto
@@ -163,3 +164,5 @@ return $action->execute($smsData);
 >>>>>>> c0f3d67cc (.)
 
 *Ultimo aggiornamento: giugno 2025*
+=======
+>>>>>>> 5fd545e4 (.)

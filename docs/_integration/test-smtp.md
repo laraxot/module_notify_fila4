@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # test_smtp
 
 <!-- Contenuto migrato da _docs/test_smtp.txt -->
@@ -110,4 +111,21 @@ Mail::raw('Test SMTP', function($m){ $m->to('tuo@email.com')->subject('Test SMTP
 >>>>>>> a404ea71 (.)
 =======
 >>>>>>> ee18dd92 (.)
+<<<<<<< HEAD
 >>>>>>> 022fa8f1c (.)
+=======
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> ca10d6ad (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> febe79e3 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)

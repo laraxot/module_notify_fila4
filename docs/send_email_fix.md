@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Guida alla Correzione di SendEmail.php
 
 ## 🔍 Analisi del Problema
@@ -436,4 +437,30 @@ class SmtpData extends Data
 =======
    - Verificare configurazione SMTP 
 >>>>>>> ee18dd92 (.)
+<<<<<<< HEAD
 >>>>>>> 022fa8f1c (.)
+=======
+=======
+>>>>>>> 2941b0bd (.)
+=======
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> ca10d6ad (.)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 4c323e61 (.)
+=======
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> febe79e3 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)

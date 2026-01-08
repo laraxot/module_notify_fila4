@@ -13,6 +13,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Convenzioni dei Path in Laravel e <nome progetto>
 
 ## Regole Fondamentali per i Path di Cartelle
@@ -409,3 +410,5 @@ Per verificare che tutti i path siano corretti:
 - [Struttura delle Cartelle in Laravel](https://laravel.com/docs/structure)
 - [Laravel Blade Templates](https://laravel.com/docs/blade)
 - [Laravel Modules](https://docs.laravelmodules.com/)
+=======
+>>>>>>> 5fd545e4 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Implementazione Canale Telegram
 
 ## 1. Struttura Base
@@ -695,4 +696,41 @@ class TelegramTest extends TestCase
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD:docs/telegram-channel_1.md
 >>>>>>> c0f3d67cc (.):docs/telegram_channel.md
+=======
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> e7a9a2bf (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 9d67cabd (.)
+=======
+>>>>>>> ba564870 (.)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache) 
+>>>>>>> 66453ace (.)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache) 
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 7325acf3 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9cdf6146 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 7c39b1fe (.)
+=======
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.):docs/telegram_channel.md

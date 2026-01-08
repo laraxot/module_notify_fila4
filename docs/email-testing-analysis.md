@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Analisi delle Pagine di Test Email
 
 ## 🎯 Panoramica
@@ -231,3 +232,5 @@ public function sendEmail(): void
 - [ ] Migliorare la documentazione
 - [ ] Aggiungere test unitari
 - [ ] Implementare caching 
+=======
+>>>>>>> 5fd545e4 (.)

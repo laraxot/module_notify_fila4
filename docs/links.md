@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ----------------------------------------------------------------------------------
 Laravel Mailator for Configuring Email Scheduler & Templates
@@ -213,3 +214,5 @@ Notification::failed(function ($event) {
 =======
 >>>>>>> 022fa8f1c (.)
 
+=======
+>>>>>>> ddee9d751 (.)

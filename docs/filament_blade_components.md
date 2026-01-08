@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Standard <nome progetto>: Componenti Blade Filament
 
 <<<<<<< HEAD
@@ -241,3 +242,5 @@ In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [co
 >>>>>>> c0f3d67cc (.)
 - [README Notify](README.md)
 - [queueable-action.md](queueable-action.md)
+=======
+>>>>>>> 5fd545e4 (.)

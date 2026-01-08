@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Implementazione Tailwind CSS nel Modulo Notify
 
 ## 1. Configurazione Base
@@ -393,3 +394,5 @@ Per una lista completa di tutti i collegamenti tra i README.md, consultare il fi
 >>>>>>> ee18dd92 (.)
 >>>>>>> 022fa8f1c (.)
 Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../docs/README_links.md). 
+=======
+>>>>>>> 5fd545e4 (.)

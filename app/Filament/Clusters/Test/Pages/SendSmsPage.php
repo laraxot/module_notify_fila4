@@ -65,6 +65,7 @@ class SendSmsPage extends XotBasePage
         $this->smsForm->fill();
     }
 
+<<<<<<< HEAD
     public function smsForm(Schema $schema): Schema
     {
         return $schema->components($this->getSmsFormSchema())->model($this->getUser())->statePath('smsData');
@@ -73,6 +74,44 @@ class SendSmsPage extends XotBasePage
     /**
      * @return array<string, \Filament\Forms\Components\TextInput|\Filament\Forms\Components\Select>
      */
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+        return $schema->components($this->getSmsFormSchema())->model($this->getUser())->statePath('smsData');
+    }
+
+>>>>>>> 75179b85 (.)
+=======
+        return $schema->components($this->getSmsFormSchema())->model($this->getUser())->statePath('smsData');
+    }
+
+>>>>>>> 75179b85 (.)
+=======
+        return $schema->components($this->getSmsFormSchema())->model($this->getUser())->statePath('smsData');
+    }
+
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)
     public function getSmsFormSchema(): array
     {
         return [

@@ -57,7 +57,11 @@ it('extends base model', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+<<<<<<< HEAD
+>>>>>>> ddee9d751 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -182,6 +186,9 @@ it('has template relationship method', function (): void {
 =======
         $version = new NotificationTemplateVersion();
 >>>>>>> 161887a2 (.)
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> 5fd545e4 (.)
 
         $this->assertInstanceOf(BaseModel::class, $version);
 =======
@@ -343,7 +350,15 @@ it('has template relationship method', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 022fa8f1c (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ddee9d751 (.)
         $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -551,7 +566,25 @@ it('has template relationship method', function (): void {
 >>>>>>> 0f81dc21 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+>>>>>>> ca10d6ad (.)
+=======
+>>>>>>> ce26f84e (.)
+=======
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+>>>>>>> 7d903672 (.)
+=======
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)
     }
 
     /** @test */
@@ -576,7 +609,11 @@ it('has template relationship method', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+<<<<<<< HEAD
+>>>>>>> ddee9d751 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -672,7 +709,16 @@ it('has template relationship method', function (): void {
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> 2941b0bd (.)
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)
         $casts = $version->getCasts();
 >>>>>>> 75cb51873 (.)
 
@@ -706,7 +752,11 @@ it('has restore method', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+<<<<<<< HEAD
+>>>>>>> ddee9d751 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -769,7 +819,21 @@ it('has restore method', function (): void {
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> de02998b (.)
+<<<<<<< HEAD
 >>>>>>> 75cb51873 (.)
+=======
+=======
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> 161887a2 (.)
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)
 
 <<<<<<< HEAD
 it('restore method returns NotificationTemplate', function (): void {
@@ -822,7 +886,11 @@ it('restore method returns NotificationTemplate', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+<<<<<<< HEAD
+>>>>>>> ddee9d751 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -885,7 +953,21 @@ it('restore method returns NotificationTemplate', function (): void {
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> de02998b (.)
+<<<<<<< HEAD
 >>>>>>> 75cb51873 (.)
+=======
+=======
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> 161887a2 (.)
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)
 
 <<<<<<< HEAD
     $method = new ReflectionMethod($version, 'restore');
@@ -939,7 +1021,11 @@ it('restore method returns NotificationTemplate', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+<<<<<<< HEAD
+>>>>>>> ddee9d751 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1048,6 +1134,15 @@ it('has expected primary key', function (): void {
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
+=======
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> 2941b0bd (.)
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)
 
         $this->assertTrue(method_exists($version, 'restore'));
 
@@ -1094,7 +1189,11 @@ it('has expected primary key', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+<<<<<<< HEAD
+>>>>>>> ddee9d751 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1157,7 +1256,21 @@ it('has expected primary key', function (): void {
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> de02998b (.)
+<<<<<<< HEAD
 >>>>>>> 75cb51873 (.)
+=======
+=======
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> 161887a2 (.)
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)
 
 <<<<<<< HEAD
 it('uses timestamps', function (): void {
@@ -1211,7 +1324,11 @@ it('uses timestamps', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+<<<<<<< HEAD
+>>>>>>> ddee9d751 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1274,7 +1391,21 @@ it('uses timestamps', function (): void {
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> de02998b (.)
+<<<<<<< HEAD
 >>>>>>> 75cb51873 (.)
+=======
+=======
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> 161887a2 (.)
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)
 
 <<<<<<< HEAD
 it('has uuids trait', function (): void {
@@ -1328,7 +1459,11 @@ it('has uuids trait', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+<<<<<<< HEAD
+>>>>>>> ddee9d751 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1430,6 +1565,9 @@ it('has media relationship', function (): void {
 =======
         $version = new NotificationTemplateVersion();
 >>>>>>> 161887a2 (.)
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> 5fd545e4 (.)
 
 =======
 <<<<<<< HEAD
@@ -1537,7 +1675,11 @@ it('has media relationship', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+<<<<<<< HEAD
+>>>>>>> ddee9d751 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1600,6 +1742,20 @@ it('has media relationship', function (): void {
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> de02998b (.)
+<<<<<<< HEAD
+=======
+=======
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> 161887a2 (.)
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)
 
 =======
 <<<<<<< HEAD
@@ -1644,7 +1800,11 @@ it('has media relationship', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+<<<<<<< HEAD
+>>>>>>> ddee9d751 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1707,6 +1867,20 @@ it('has media relationship', function (): void {
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> de02998b (.)
+<<<<<<< HEAD
+=======
+=======
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> 161887a2 (.)
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)
 
 =======
 <<<<<<< HEAD

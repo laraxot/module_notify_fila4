@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Approfondimento Completo: Tailwind CSS su Webcrunch
 
 Fonte: [Webcrunch Tailwind CSS Collection](https://webcrunch.com/collections/tailwind-css)
@@ -141,3 +142,5 @@ Tailwind CSS è un framework CSS utility-first che permette di costruire interfa
 - Usare plugin custom e componenti Blade per evitare duplicazione classi.
 - Documentare pattern e plugin condivisi.
 - Favorire accessibilità e coerenza tra moduli e temi.
+=======
+>>>>>>> 5fd545e4 (.)

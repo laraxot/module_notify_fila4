@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Integrazione Traduzioni Email - il progetto
 
 ## Panoramica
@@ -518,4 +519,30 @@ class TranslationValidator
 - [Laravel Lang](https://github.com/Laravel-Lang/lang)
 - [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
 >>>>>>> ee18dd92 (.)
+<<<<<<< HEAD
 >>>>>>> 022fa8f1c (.)
+=======
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> ca10d6ad (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 4c323e61 (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> febe79e3 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)

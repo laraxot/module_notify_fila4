@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Modelli e Relazioni del Modulo Notify
 
 ## BaseModel
@@ -539,3 +540,5 @@ final class TemplateRules
 =======
 ``` 
 >>>>>>> 022fa8f1c (.)
+=======
+>>>>>>> ddee9d751 (.)

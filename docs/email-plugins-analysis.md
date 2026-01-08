@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Analisi Plugin Email per Filament - il progetto
 
 ## Panoramica
@@ -343,3 +344,5 @@ class MailAnalytics
 >>>>>>> 022fa8f1c (.)
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Spatie Packages](https://spatie.be/open-source) 
+=======
+>>>>>>> 5fd545e4 (.)

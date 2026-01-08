@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Test Editor WYSIWYG Email - il progetto
 
 ## Test Unitari
@@ -475,4 +476,42 @@ class FileUploadSecurityTest extends TestCase
 >>>>>>> d284d65 (.)
 - [PHPUnit Documentation](https://phpunit.de/documentation.html) 
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+- [Laravel Testing Documentation](https://laravel.com/docs/testing)
+- [Dusk Documentation](https://laravel.com/docs/dusk)
+>>>>>>> 2941b0bd (.)
+=======
+- [PHPUnit Documentation](https://phpunit.de/documentation.html) 
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+- [Laravel Testing Documentation](https://laravel.com/docs/testing)
+- [Dusk Documentation](https://laravel.com/docs/dusk)
+>>>>>>> ca10d6ad (.)
+=======
+- [Laravel Testing Documentation](https://laravel.com/docs/testing)
+- [Dusk Documentation](https://laravel.com/docs/dusk)
+- [PHPUnit Documentation](https://phpunit.de/documentation.html) 
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> d284d65 (.)
+- [PHPUnit Documentation](https://phpunit.de/documentation.html) 
+>>>>>>> 7325acf3 (.)
+=======
+- [Laravel Testing Documentation](https://laravel.com/docs/testing)
+- [Dusk Documentation](https://laravel.com/docs/dusk)
+>>>>>>> 4c323e61 (.)
+=======
+- [PHPUnit Documentation](https://phpunit.de/documentation.html) 
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+=======
+- [Laravel Testing Documentation](https://laravel.com/docs/testing)
+- [Dusk Documentation](https://laravel.com/docs/dusk)
+>>>>>>> febe79e3 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)

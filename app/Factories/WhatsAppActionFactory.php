@@ -25,6 +25,7 @@ use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 
@@ -155,6 +156,13 @@ use function Safe\preg_replace;
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)
 
 =======
 <<<<<<< HEAD
@@ -542,6 +550,16 @@ final class WhatsAppActionFactory
 <<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ddee9d751 (.)
         /** @var WhatsAppProviderActionInterface $instance */
         $instance = app($className);
 
@@ -646,6 +664,12 @@ final class WhatsAppActionFactory
 
         return app($className);
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> 75cb51873 (.)
+=======
+=======
+        return app($className);
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)
     }
 }

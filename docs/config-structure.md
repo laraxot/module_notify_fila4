@@ -15,6 +15,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Struttura di Configurazione nei Moduli <nome progetto>
 =======
 # Struttura di Configurazione nei Moduli 
@@ -145,3 +146,5 @@
 4. **Centralizza Logiche Comuni**
    - Rate limit, retry e circuit breaking dovrebbero essere configurati una volta sola
    - L'implementazione dovrebbe utilizzare queste configurazioni generiche
+=======
+>>>>>>> 5fd545e4 (.)

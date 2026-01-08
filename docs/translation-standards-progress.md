@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Progresso Standardizzazione Traduzioni
 
 ## Stato Attuale - 12/05/2025
@@ -688,3 +689,5 @@
 >>>>>>> ee18dd92 (.)
 >>>>>>> 022fa8f1c (.)
 ```
+=======
+>>>>>>> 5fd545e4 (.)

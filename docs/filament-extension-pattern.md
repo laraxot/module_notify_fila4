@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Pattern di Estensione per Componenti Filament 
 
 <<<<<<< HEAD
@@ -346,3 +347,5 @@ Prima di ogni commit, verificare che:
 ## Conclusione
 
 Il pattern di estensione XotBase è fondamentale per la manutenibilità e la coerenza del codice . Seguire questo pattern garantisce che l'applicazione possa evolversi in modo controllato e che le personalizzazioni siano gestite in modo centralizzato.
+=======
+>>>>>>> 5fd545e4 (.)

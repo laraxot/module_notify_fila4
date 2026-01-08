@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Collegamento alle Traduzioni del Modulo Notify
 
 <<<<<<< HEAD
@@ -377,3 +378,5 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 >>>>>>> 4689a827 (.)
 >>>>>>> c0f3d67cc (.)
 
+=======
+>>>>>>> 5fd545e4 (.)

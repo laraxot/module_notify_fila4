@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Convenzioni per i Form Schema 
 
 ## Regola Fondamentale per Array di Schema
@@ -177,3 +178,5 @@ find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -exec grep -l
 
 - [Filament Form Schemas](https://filamentphp.com/docs/forms/defining-a-form)
 - [PHP Array Types](https://www.php.net/manual/en/language.types.array.php)
+=======
+>>>>>>> 5fd545e4 (.)

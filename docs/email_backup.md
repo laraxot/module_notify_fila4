@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sistema Backup Email 
 
 ## Panoramica
@@ -770,4 +771,43 @@ class MailBackupDebugger
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+- [Laravel Storage](https://laravel.com/docs/storage)
+- [Laravel Encryption](https://laravel.com/docs/encryption)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+- [Laravel Storage](https://laravel.com/docs/storage)
+- [Laravel Encryption](https://laravel.com/docs/encryption)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+>>>>>>> ca10d6ad (.)
+=======
+- [Laravel Storage](https://laravel.com/docs/storage)
+- [Laravel Encryption](https://laravel.com/docs/encryption)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 7325acf3 (.)
+=======
+- [Laravel Storage](https://laravel.com/docs/storage)
+- [Laravel Encryption](https://laravel.com/docs/encryption)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+>>>>>>> 4c323e61 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+=======
+- [Laravel Storage](https://laravel.com/docs/storage)
+- [Laravel Encryption](https://laravel.com/docs/encryption)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+>>>>>>> febe79e3 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)

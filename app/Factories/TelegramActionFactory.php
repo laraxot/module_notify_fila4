@@ -411,6 +411,16 @@ final class TelegramActionFactory
 <<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ddee9d751 (.)
         /** @var TelegramProviderActionInterface $instance */
         $instance = app($className);
 
@@ -515,6 +525,12 @@ final class TelegramActionFactory
 
         return app($className);
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> 75cb51873 (.)
+=======
+=======
+        return app($className);
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)
     }
 }

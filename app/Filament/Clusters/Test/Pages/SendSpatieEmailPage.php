@@ -60,6 +60,7 @@ class SendSpatieEmailPage extends XotBasePage
         $this->emailForm->fill();
     }
 
+<<<<<<< HEAD
     public function emailForm(Schema $schema): Schema
     {
         return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
@@ -68,6 +69,12 @@ class SendSpatieEmailPage extends XotBasePage
     /**
      * @return array<string, \Filament\Forms\Components\TextInput|\Filament\Forms\Components\Select|\Filament\Forms\Components\RichEditor>
      */
+<<<<<<< HEAD
+=======
+    /** @phpstan-ignore-next-line return.type */
+=======
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)
     public function getEmailFormSchema(): array
     {
         return [

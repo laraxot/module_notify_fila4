@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Error Mailer System
 
 ## Panoramica
@@ -522,3 +523,5 @@ return [
 - [Filament Forms](https://filamentphp.com/docs/forms)
 - [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
 - [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
+=======
+>>>>>>> 5fd545e4 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sistema di Code per Email - il progetto
 
 ## Panoramica
@@ -754,3 +755,5 @@ php artisan queue:restart
 =======
 - [Redis Documentation](https://redis.io/documentation)
 >>>>>>> 7c39b1fe (.)
+=======
+>>>>>>> 5fd545e4 (.)

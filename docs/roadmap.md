@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Notify Module Roadmap
 
 ## Module Progress Overview
@@ -583,3 +584,5 @@ Per una lista completa di tutti i collegamenti tra i README.md, consultare il fi
 
 ---
 
+=======
+>>>>>>> 5fd545e4 (.)

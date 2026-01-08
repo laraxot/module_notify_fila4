@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Error Mailer System
 
 ## Panoramica
@@ -607,4 +608,47 @@ return [
 >>>>>>> d284d65 (.)
 - [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+- [Laravel Exceptions](https://laravel.com/docs/errors)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
+>>>>>>> 2941b0bd (.)
+=======
+- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+- [Laravel Exceptions](https://laravel.com/docs/errors)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
+>>>>>>> ca10d6ad (.)
+=======
+- [Laravel Exceptions](https://laravel.com/docs/errors)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
+- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> d284d65 (.)
+- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
+>>>>>>> 7325acf3 (.)
+=======
+- [Laravel Exceptions](https://laravel.com/docs/errors)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
+>>>>>>> 4c323e61 (.)
+=======
+- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+=======
+- [Laravel Exceptions](https://laravel.com/docs/errors)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
+>>>>>>> febe79e3 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)

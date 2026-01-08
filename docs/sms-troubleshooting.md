@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Troubleshooting SMS
 
 ## Errori Comuni e Soluzioni
@@ -259,3 +260,5 @@ Log::debug('SMS Debug', [
 - Check periodici
 - Alert system
 - Report mensili 
+=======
+>>>>>>> 5fd545e4 (.)

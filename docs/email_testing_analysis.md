@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Analisi delle Pagine di Test Email
 
 ## 🎯 Panoramica
@@ -352,4 +353,30 @@ public function sendEmail(): void
 =======
 - [ ] Implementare caching 
 >>>>>>> ee18dd92 (.)
+<<<<<<< HEAD
 >>>>>>> 022fa8f1c (.)
+=======
+=======
+>>>>>>> 2941b0bd (.)
+=======
+=======
+- [ ] Implementare caching 
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> ca10d6ad (.)
+=======
+- [ ] Implementare caching 
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 4c323e61 (.)
+=======
+=======
+- [ ] Implementare caching 
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> febe79e3 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)

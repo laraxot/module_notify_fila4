@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sistema Code Email - il progetto
 
 ## Panoramica
@@ -562,4 +563,43 @@ class MailQueueManager
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+- [Laravel Queue](https://laravel.com/docs/queues)
+- [Laravel Horizon](https://laravel.com/docs/horizon)
+- [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+- [Laravel Queue](https://laravel.com/docs/queues)
+- [Laravel Horizon](https://laravel.com/docs/horizon)
+- [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
+>>>>>>> ca10d6ad (.)
+=======
+- [Laravel Queue](https://laravel.com/docs/queues)
+- [Laravel Horizon](https://laravel.com/docs/horizon)
+- [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 7325acf3 (.)
+=======
+- [Laravel Queue](https://laravel.com/docs/queues)
+- [Laravel Horizon](https://laravel.com/docs/horizon)
+- [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
+>>>>>>> 4c323e61 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+=======
+- [Laravel Queue](https://laravel.com/docs/queues)
+- [Laravel Horizon](https://laravel.com/docs/horizon)
+- [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
+>>>>>>> febe79e3 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)

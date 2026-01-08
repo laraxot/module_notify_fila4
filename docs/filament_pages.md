@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Pagine Filament del Modulo Notify
 
 ## Panoramica
@@ -299,4 +300,30 @@ class EditNotificationTemplate extends XotBaseEditRecord
 =======
 5. I namespace seguono le convenzioni standard 
 >>>>>>> ee18dd92 (.)
+<<<<<<< HEAD
 >>>>>>> 022fa8f1c (.)
+=======
+=======
+>>>>>>> 2941b0bd (.)
+=======
+=======
+5. I namespace seguono le convenzioni standard 
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> ca10d6ad (.)
+=======
+5. I namespace seguono le convenzioni standard 
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 4c323e61 (.)
+=======
+=======
+5. I namespace seguono le convenzioni standard 
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> febe79e3 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)

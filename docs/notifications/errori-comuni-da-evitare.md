@@ -15,6 +15,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Errori Comuni da Evitare nelle Implementazioni di Moduli <nome progetto>
 =======
 # Errori Comuni da Evitare nelle Implementazioni di Moduli 
@@ -243,3 +244,5 @@
    - Non duplicare configurazioni generiche
    - Riutilizzare componenti e logiche esistenti
    - Centralizzare comportamenti comuni
+=======
+>>>>>>> 5fd545e4 (.)

@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 # Filament Class Extension Rules
+=======
+<<<<<<< HEAD
+# Regole di Estensione delle Classi Filament
+>>>>>>> ddee9d751 (.)
 
 **Fundamental Principle**: Never extend Filament classes directly - always use XotBase classes.
 
@@ -188,6 +193,7 @@ find /var/www/html/saluteora/laravel/Modules -path "*/Filament/*/*.php" -type f 
 >>>>>>> 022fa8f1c (.)
 ```
 
+<<<<<<< HEAD
 ### Extending Third-Party Models
 
 ```php
@@ -319,3 +325,8 @@ app(CreateUserAction::class)->execute($data);
 ---
 
 **Philosophy**: DRY + KISS - Do not duplicate, do not complicate, always use base classes.
+=======
+Le pagine che violano questa regola devono essere immediatamente corrette per mantenere l'integrità dell'architettura.
+=======
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)

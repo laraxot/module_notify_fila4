@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Risoluzione Conflitto SmsDriverEnum
 
 ## Problema Identificato
@@ -402,4 +403,30 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 =======
 - **Scelta**: Versione HEAD (interfacce Filament + TransTrait) 
 >>>>>>> ee18dd92 (.)
+<<<<<<< HEAD
 >>>>>>> 022fa8f1c (.)
+=======
+=======
+>>>>>>> 2941b0bd (.)
+=======
+=======
+- **Scelta**: Versione HEAD (interfacce Filament + TransTrait) 
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> ca10d6ad (.)
+=======
+- **Scelta**: Versione HEAD (interfacce Filament + TransTrait) 
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 4c323e61 (.)
+=======
+=======
+- **Scelta**: Versione HEAD (interfacce Filament + TransTrait) 
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> febe79e3 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)

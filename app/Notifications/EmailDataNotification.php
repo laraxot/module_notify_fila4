@@ -55,6 +55,7 @@ class EmailDataNotification extends Notification
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -106,7 +107,14 @@ class EmailDataNotification extends Notification
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)
      * @param object $_notifiable The entity to be notified (not used in this method)
      * @return array<string>
      */
@@ -249,6 +257,7 @@ class EmailDataNotification extends Notification
 <<<<<<< HEAD
         $mailMessage = (new MailMessage)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -511,7 +520,19 @@ class EmailDataNotification extends Notification
 =======
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+>>>>>>> 2941b0bd (.)
+=======
+        $mailMessage = new MailMessage()
+            ->subject($this->emailData->subject)
+            ->line($this->emailData->body);
+
+        if (!empty($this->emailData->body_html)) {
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)
             $mailMessage->view('notify::emails.template', [
                 'content' => $this->emailData->body_html,
             ]);
@@ -520,6 +541,7 @@ class EmailDataNotification extends Notification
 <<<<<<< HEAD
         if (! empty($this->emailData->from_email) && ! empty($this->emailData->from)) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -631,7 +653,16 @@ class EmailDataNotification extends Notification
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+        if (!empty($this->emailData->from_email) && !empty($this->emailData->from)) {
+>>>>>>> 2941b0bd (.)
+=======
+        if (!empty($this->emailData->from_email) && !empty($this->emailData->from)) {
+>>>>>>> 5fd545e4 (.)
+>>>>>>> ddee9d751 (.)
             $mailMessage->from($this->emailData->from_email, $this->emailData->from);
         }
 

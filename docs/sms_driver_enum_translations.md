@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Traduzioni SmsDriverEnum - Modulo Notify
 
 ## Panoramica
@@ -371,3 +372,5 @@ php -l laravel/Modules/Notify/lang/de/sms_driver_enum.php
 
 ---
 
+=======
+>>>>>>> 5fd545e4 (.)

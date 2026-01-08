@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # BaseModel del Modulo Notify
 
 ## Panoramica
@@ -132,3 +133,5 @@ class NotificationTemplate extends BaseModel
 3. Il namespace non include il segmento `app`
 4. Le funzionalità comuni vanno implementate qui
 5. La documentazione va mantenuta aggiornata 
+=======
+>>>>>>> 5fd545e4 (.)

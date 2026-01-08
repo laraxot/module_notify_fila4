@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SmsFactorData Implementation Summary
 
 ## Overview
@@ -296,3 +297,5 @@ $this->assertEquals('Bearer test_token', $headers['Authorization']);
 ## Conclusion
 
 The implementation of `SmsFactorData` and the refactoring of `SendSmsFactorSMSAction` successfully follows the established pattern and provides a more maintainable, type-safe, and consistent approach to SMS provider configuration management. This change aligns with the project's architecture principles and makes the codebase more robust and easier to extend.
+=======
+>>>>>>> 5fd545e4 (.)

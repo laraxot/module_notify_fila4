@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Risoluzione dei Problemi nelle Email 
 
 Questa documentazione fornisce soluzioni per i problemi comuni che possono verificarsi durante l'invio di email nel modulo Notify.
@@ -374,3 +375,5 @@ public function test_can_send_email_with_attachments()
 - [ATTACHMENTS_USAGE.md](./ATTACHMENTS_USAGE.md)
 - [EMAIL_LAYOUTS_BEST_PRACTICES.md](../mail-templates/EMAIL_LAYOUTS_BEST_PRACTICES.md)
 - [SPATIE_MAIL_TEMPLATES_STRUCTURE.md](../mail-templates/SPATIE_MAIL_TEMPLATES_STRUCTURE.md)
+=======
+>>>>>>> 5fd545e4 (.)
