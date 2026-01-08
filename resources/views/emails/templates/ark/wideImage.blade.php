@@ -41,6 +41,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -183,11 +184,14 @@
 >>>>>>> bd804d67 (.)
 =======
 >>>>>>> 116df547 (.)
+=======
+>>>>>>> 51182e3c (rebase 210)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -409,6 +413,10 @@ declare(strict_types=1);
 >>>>>>> bd804d67 (.)
 =======
 >>>>>>> 116df547 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 51182e3c (rebase 210)
 <tr>
 	<td class="w580" width="580" colspan="3">
 		<img width="640" class="w640" id="toppbild" src="{{ $src }}" alt="" height="{{ $height }}" />
@@ -462,6 +470,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -498,10 +507,13 @@ declare(strict_types=1);
 >>>>>>> 8e5817bc (.)
 =======
 >>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 51182e3c (rebase 210)
 </tr>
 =======
 </tr>
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -707,3 +719,5 @@ declare(strict_types=1);
 =======
 </tr>
 >>>>>>> 116df547 (.)
+=======
+>>>>>>> 51182e3c (rebase 210)
