@@ -976,7 +976,9 @@ class RecordNotification extends Notification
         $email = new SpatieEmail($this->record, $this->slug);
         $email = $email->mergeData($this->data);
 
-        $email = $email->addAttachments($this->attachments);
+        /** @var array<int, array<string, string>> $attachments */
+        $attachments = array_values($this->attachments);
+        $email = $email->addAttachments($attachments);
 
         // Set recipient for envelope() method in SpatieEmail
         // Note: Laravel's Notification system handles recipient routing via Notification::route(),
@@ -1139,8 +1141,8 @@ class RecordNotification extends Notification
                 $email->setRecipient($recipient);
 =======
             $to = $notifiable->routeNotificationFor('mail');
-            $email->to($to);
-            if ($to) {
+            if (is_string($to)) {
+                $email->to($to);
                 $email->setRecipient($to);
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
