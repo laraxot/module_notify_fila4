@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -23,6 +24,8 @@
 =======
 >>>>>>> eb62d6cf (rebase 210)
 =======
+=======
+>>>>>>> fbed41ac (.)
 =======
 =======
 >>>>>>> 9ed014c (.)
@@ -137,7 +140,12 @@ Il modulo Notify gestisce l'intero sistema di notifiche multi-canale del progett
 >>>>>>> 6ba141fc (.)
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> 5e14ac3 (.)
+=======
+>>>>>>> fbed41ac (.)
 # Notify Module Roadmap
 
 ## Module Progress Overview
@@ -374,6 +382,7 @@ Overall Module Completion: 60%
 * [roadmap.md](../../../Activity/docs/roadmap.md)
 * [roadmap.md](../../../Patient/docs/roadmap.md)
 * [roadmap.md](../../../Cms/docs/roadmap.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -730,6 +739,8 @@ Overall Module Completion: 60%
 * [roadmap.md](../../../../Themes/One/docs/roadmap.md)
 >>>>>>> d284d65 (.)
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> fbed41ac (.)
 
 # Roadmap Implementazione
 
@@ -998,6 +1009,7 @@ Overall Module Completion: 60%
 Per contribuire alla documentazione, seguire le [Linee Guida](../../../docs/linee-guida-documentazione.md) e le [Regole dei Collegamenti](../../../docs/regole_collegamenti_documentazione.md).
 
 ## Collegamenti Completi
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1337,6 +1349,8 @@ Per una lista completa di tutti i collegamenti tra i README.md, consultare il fi
 >>>>>>> 36ac4fc1 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> fbed41ac (.)
 
 
 ### Versione Incoming

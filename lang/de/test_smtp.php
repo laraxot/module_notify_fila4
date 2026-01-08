@@ -201,6 +201,7 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 2effe245 (.)
@@ -259,6 +260,8 @@ declare(strict_types=1);
 
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> fbed41ac (.)
 return [
     'navigation' => [
         'label' => 'Test SMTP',

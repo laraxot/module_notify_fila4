@@ -169,6 +169,7 @@ use Filament\Forms\Components\TextInput;
 use Modules\Notify\Models\Notification;
 use Modules\Xot\Filament\Resources\XotBaseResource;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Override;
 <<<<<<< HEAD
@@ -176,6 +177,8 @@ use Override;
 >>>>>>> b94a5f6 (.)
 =======
 >>>>>>> 23161eb (.)
+=======
+>>>>>>> 5e14ac3 (.)
 
 class NotificationResource extends XotBaseResource
 {
