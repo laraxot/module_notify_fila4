@@ -4,35 +4,24 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models;
 
-use Illuminate\Database\Eloquent\Relations\Pivot;
-// //use Laravel\Scout\Searchable;
-use Modules\Xot\Traits\Updater;
+use Modules\Xot\Models\XotBasePivot;
 
 /**
- * Class BasePivot.
+ * Base Pivot for Notify module.
+ *
+ * Extends XotBasePivot which provides all standard properties and casts.
+ *
+ * @see \Modules\Xot\Models\XotBasePivot
  */
-abstract class BasePivot extends Pivot
+abstract class BasePivot extends XotBasePivot
 {
-    use Updater;
-
     /**
-     * Indicates whether attributes are snake cased on arrays.
+     * The connection name for the model.
      *
-     * @see https://laravel-news.com/6-eloquent-secrets
-     *
-     * @var bool
+     * @var string
      */
-    public static $snakeAttributes = true;
-
-    /** @var bool */
-    public $incrementing = true;
-
-    /** @var int */
-    protected $perPage = 30;
-
-    // use Searchable;
-    /** @var string */
     protected $connection = 'notify';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -271,4 +260,6 @@ abstract class BasePivot extends Pivot
 >>>>>>> 2cbbc069 (.)
 =======
 >>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 7c1c276f (rebase 210)
 }

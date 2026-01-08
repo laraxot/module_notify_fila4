@@ -359,15 +359,25 @@ use Spatie\Translatable\HasTranslations;
  * @mixin \Eloquent
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 /**
  * @property NotificationTypeEnum $type
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
+=======
+/**
+ * @property NotificationTypeEnum $type
+ * @property-read \Modules\Fixcity\Models\Profile|null $creator
+>>>>>>> 7c1c276f (rebase 210)
  * @property-read string $channels_label
  * @property-read MediaCollection<int, Media> $media
  * @property-read int|null $media_count
  * @property-read mixed $translations
+<<<<<<< HEAD
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+=======
+ * @property-read \Modules\Fixcity\Models\Profile|null $updater
+>>>>>>> 7c1c276f (rebase 210)
  * @method static Builder<static>|NotificationTemplate active()
  * @method static \Modules\Notify\Database\Factories\NotificationTemplateFactory factory($count = null, $state = [])
  * @method static Builder<static>|NotificationTemplate forCategory(string $category)
@@ -381,7 +391,10 @@ use Spatie\Translatable\HasTranslations;
  * @method static Builder<static>|NotificationTemplate whereLocales(string $column, array $locales)
  * @mixin \Eloquent
  */
+<<<<<<< HEAD
 >>>>>>> 2cbbc069 (.)
+=======
+>>>>>>> 7c1c276f (rebase 210)
 class NotificationTemplate extends BaseModel implements HasMedia
 {
     use HasTranslations;
