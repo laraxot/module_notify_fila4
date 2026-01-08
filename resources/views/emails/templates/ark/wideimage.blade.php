@@ -136,6 +136,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -474,6 +475,8 @@
 >>>>>>> 9e7ba5b6 (rebase 210)
 =======
 >>>>>>> 4df23e8b (rebase 210)
+=======
+>>>>>>> 43c0079b (rebase 210)
 <?php
 
 declare(strict_types=1);
@@ -827,6 +830,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> c8eedbbb (.)
@@ -1087,12 +1091,15 @@ declare(strict_types=1);
 =======
 >>>>>>> 0db165c (.)
 >>>>>>> 4df23e8b (rebase 210)
+=======
+>>>>>>> 43c0079b (rebase 210)
 	<td class="w580" width="580" colspan="3">
 		<img width="640" class="w640" id="toppbild" src="{{ $src }}" alt="" height="{{ $height }}" />
 	</td>
 </tr>
 <tr>
 	<td class="w640" height="10" width="640" colspan="3"></td>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1909,3 +1916,6 @@ declare(strict_types=1);
 </tr>
 >>>>>>> 0db165c (.)
 >>>>>>> 4df23e8b (rebase 210)
+=======
+</tr>
+>>>>>>> 43c0079b (rebase 210)

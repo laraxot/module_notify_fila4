@@ -85,6 +85,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e643df (.)
@@ -247,10 +248,13 @@ return [
 >>>>>>> 61c43cb (.)
 =======
 >>>>>>> d0f52fb (.)
+=======
+>>>>>>> f3a035b (.)
      * 'css' => [
      * '.button-content .button { background: red }',
      * ],
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1791,7 +1795,12 @@ return [
 =======
 >>>>>>> 0db165c (.)
 >>>>>>> d0f52fb (.)
+<<<<<<< HEAD
 >>>>>>> 4df23e8b (rebase 210)
+=======
+=======
+>>>>>>> f3a035b (.)
+>>>>>>> 43c0079b (rebase 210)
 
     'colors' => [
         'highlight' => '#004ca3',
@@ -1933,6 +1942,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -2306,6 +2316,8 @@ return [
 >>>>>>> 9e7ba5b6 (rebase 210)
 =======
 >>>>>>> 4df23e8b (rebase 210)
+=======
+>>>>>>> 43c0079b (rebase 210)
 
 =======
 >>>>>>> 99ff506 (.)
@@ -2906,7 +2918,12 @@ return [
 
 >>>>>>> 0db165c (.)
 >>>>>>> d0f52fb (.)
+<<<<<<< HEAD
 >>>>>>> 4df23e8b (rebase 210)
+=======
+=======
+>>>>>>> f3a035b (.)
+>>>>>>> 43c0079b (rebase 210)
     'view' => [
         'senderName' => null,
         'reminder' => null,
@@ -3048,6 +3065,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -3421,6 +3439,8 @@ return [
 >>>>>>> 9e7ba5b6 (rebase 210)
 =======
 >>>>>>> 4df23e8b (rebase 210)
+=======
+>>>>>>> 43c0079b (rebase 210)
 
 =======
 >>>>>>> 99ff506 (.)
@@ -4021,7 +4041,12 @@ return [
 
 >>>>>>> 0db165c (.)
 >>>>>>> d0f52fb (.)
+<<<<<<< HEAD
 >>>>>>> 4df23e8b (rebase 210)
+=======
+=======
+>>>>>>> f3a035b (.)
+>>>>>>> 43c0079b (rebase 210)
         'logo' => [
             'path' => '%PUBLIC%/vendor/beautymail/assets/images/sunny/logo.png',
             'width' => '',
@@ -4163,6 +4188,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -4536,6 +4562,8 @@ return [
 >>>>>>> 9e7ba5b6 (rebase 210)
 =======
 >>>>>>> 4df23e8b (rebase 210)
+=======
+>>>>>>> 43c0079b (rebase 210)
 
 =======
 >>>>>>> 99ff506 (.)
@@ -5136,7 +5164,12 @@ return [
 
 >>>>>>> 0db165c (.)
 >>>>>>> d0f52fb (.)
+<<<<<<< HEAD
 >>>>>>> 4df23e8b (rebase 210)
+=======
+=======
+>>>>>>> f3a035b (.)
+>>>>>>> 43c0079b (rebase 210)
         'twitter' => null,
         'facebook' => null,
         'flickr' => null,
