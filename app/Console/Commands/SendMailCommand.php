@@ -6,6 +6,7 @@ namespace Modules\Notify\Console\Commands;
 
 use Illuminate\Console\Command;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Notify\Datas\EmailData;
 use Modules\Notify\Datas\SmtpData;
 =======
@@ -16,6 +17,10 @@ use Modules\Notify\Datas\SmtpData;
 use Modules\Notify\Emails\EmailDataEmail;
 use Modules\Notify\Notifications\EmailDataNotification;
 >>>>>>> 8bc2fc9f (first)
+=======
+use Modules\Notify\Datas\EmailData;
+use Modules\Notify\Datas\SmtpData;
+>>>>>>> 20a3d3b (.)
 use Webmozart\Assert\Assert;
 
 class SendMailCommand extends Command

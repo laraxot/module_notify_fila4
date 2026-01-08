@@ -8,10 +8,14 @@ use Exception;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Log;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Notify\Contracts\SmsActionContract;
 =======
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 >>>>>>> 8bc2fc9f (first)
+=======
+use Modules\Notify\Contracts\SmsActionContract;
+>>>>>>> 20a3d3b (.)
 
 /**
  * Factory per la creazione di azioni SMS.
