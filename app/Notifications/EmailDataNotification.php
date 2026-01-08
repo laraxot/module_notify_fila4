@@ -346,6 +346,11 @@ class EmailDataNotification extends Notification
         $mailMessage = new MailMessage()
             ->subject($this->emailData->subject)
             ->line($this->emailData->body);
+        $mailMessage = new MailMessage()
+            ->subject($this->emailData->subject)
+            ->line($this->emailData->body);
+>>>>>>> 518c702 (.)
+>>>>>>> 7bac387 (.)
 
         if (!empty($this->emailData->body_html)) {
 <<<<<<< HEAD

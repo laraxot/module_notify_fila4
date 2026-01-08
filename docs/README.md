@@ -2,7 +2,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 📧 **Notify Module** - Sistema Avanzato di Notifiche
+=======
+# Modulo Notify - Documentazione
+>>>>>>> 125a2c2b8 (.)
 
 [![Laravel 12.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
 [![Filament 3.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
@@ -673,11 +677,17 @@ Log::channel('email')->info('Email sent', [
 **PHPStan Level:** 10
 # Modulo Notify - Analisi Completa
 =======
+<<<<<<< HEAD
 >>>>>>> bb96c993b (.)
 =======
 >>>>>>> 022fa8f1c (.)
 =======
 >>>>>>> fb8e02b6b (.)
+=======
+>>>>>>> 6ba141fc (.)
+=======
+# Modulo Notify - Analisi Completa
+>>>>>>> 125a2c2b8 (.)
 
 ## Panoramica del Modulo
 
@@ -685,6 +695,7 @@ Il modulo **Notify** gestisce il sistema completo di notifiche per progetti Lara
 
 **IMPORTANTE**: Questo modulo è completamente riutilizzabile tra progetti diversi e NON deve contenere riferimenti hardcoded a progetti specifici.
 
+<<<<<<< HEAD
 ## 🔧 Correzioni Recenti (2025-11-04)
 
 ### PSR-4 Namespace Fixes
@@ -717,6 +728,8 @@ namespace Modules\Notify\Jobs;
 
 ---
 
+=======
+>>>>>>> 125a2c2b8 (.)
 ## Struttura del Modulo
 
 ### Modelli Identificati (13 totali)
@@ -996,8 +1009,16 @@ namespace Modules\Notify\Jobs;
 
 ---
 
+<<<<<<< HEAD
 **Ultimo aggiornamento**: Novembre 2025 (PSR-4 fixes)  
 **Versione**: 1.1  
 **Stato**: PSR-4 compliant, test business logic completati (95% copertura)  
 **Prossimi passi**: Completamento test modelli base  
 **Changelog**: [CHANGELOG.md](./CHANGELOG.md)
+=======
+**Ultimo aggiornamento**: Dicembre 2024  
+**Versione**: 1.0  
+**Stato**: Test business logic completati (95% copertura)  
+**Prossimi passi**: Completamento test modelli base (BaseModel, BaseMorphPivot, BasePivot)
+>>>>>>> 9ed014c (.)
+>>>>>>> 125a2c2b8 (.)

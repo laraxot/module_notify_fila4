@@ -13,8 +13,12 @@ use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 // use Modules\<nome progetto>\Models\Appointment;
 =======
+=======
+>>>>>>> 518c702 (.)
+>>>>>>> 9ed014c (.)
 // use Modules\SaluteOra\Models\Appointment;
 >>>>>>> 6ba141fc (.)
 
@@ -32,7 +36,8 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
     /**
      * Crea una nuova istanza del messaggio.
      *
-     * @param  array<string, mixed>  $notificationData
+     * @param array<string, mixed> $notificationData
+>>>>>>> 518c702 (.)
      */
     public function __construct(array $notificationData)
     {
@@ -46,24 +51,29 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
     {
         $appointment = $this->notificationData['appointment'];
         $type = $this->notificationData['type'];
-
-        $subject = match ($type) {
+        
+        $subject = match($type) {
+>>>>>>> 518c702 (.)
             'confirmed' => 'Conferma Appuntamento',
             'reminder' => 'Promemoria Appuntamento',
             'cancelled' => 'Cancellazione Appuntamento',
             'rescheduled' => 'Modifica Appuntamento',
             default => 'Notifica Appuntamento',
         };
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 =======
         // PHPStan Level 10: isset() invece di property_exists() per Eloquent magic property
 >>>>>>> 6ba141fc (.)
+=======
+        
+>>>>>>> 9ed014c (.)
         if (is_object($appointment) && isset($appointment->id) && $appointment->id) {
-            $appointmentId = is_int($appointment->id) || is_string($appointment->id) ? $appointment->id : (string) $appointment->id;
-            $subject .= ' #'.$appointmentId;
+            $subject .= ' #' . $appointment->id;
         }
-
+        
+>>>>>>> 518c702 (.)
         return new Envelope(
             subject: $subject,
             tags: ['appointment', $type],
@@ -80,16 +90,18 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
     public function content(): Content
     {
         $type = $this->notificationData['type'];
-
+        
         // Determina il template da utilizzare in base al tipo di notifica
-        $view = match ($type) {
+        $view = match($type) {
+>>>>>>> 518c702 (.)
             'confirmed' => 'notify::emails.appointments.confirmed',
             'reminder' => 'notify::emails.appointments.reminder',
             'cancelled' => 'notify::emails.appointments.cancelled',
             'rescheduled' => 'notify::emails.appointments.rescheduled',
             default => 'notify::emails.appointments.generic',
         };
-
+        
+>>>>>>> 518c702 (.)
         return new Content(
             view: $view,
             with: [

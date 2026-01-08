@@ -1,4 +1,31 @@
+<<<<<<< HEAD
 # Struttura di Configurazione nei Moduli <main module>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+# Struttura di Configurazione nei Moduli <nome progetto>
+=======
+# Struttura di Configurazione nei Moduli SaluteOra
+>>>>>>> f963d2c0 (.)
+=======
+# Struttura di Configurazione nei Moduli SaluteOra
+>>>>>>> f963d2c0 (.)
+=======
+# Struttura di Configurazione nei Moduli SaluteOra
+>>>>>>> f963d2c0 (.)
+=======
+# Struttura di Configurazione nei Moduli <nome progetto>
+=======
+<<<<<<< HEAD
+# Struttura di Configurazione nei Moduli <main module>
+=======
+# Struttura di Configurazione nei Moduli SaluteOra
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> 125a2c2b8 (.)
 
 ## Principi di Configurazione
 

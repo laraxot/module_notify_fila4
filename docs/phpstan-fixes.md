@@ -21,8 +21,30 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
+=======
+# PHPStan Fixes - Notify
+=======
+=======
+>>>>>>> 9ed014c (.)
+<<<<<<< HEAD
+# PHPStan Fixes - Modulo Notify
+>>>>>>> 6ba141fc (.)
+
+## 2025-01-06
+
+| File | Intervento | Verifica |
+|------|------------|----------|
+| [`../app/Models/NotificationLog.php`](../app/Models/NotificationLog.php) | Creato modello mancante con metodi `markAsOpened()` / `markAsClicked()` e tipizzazione enum | `./vendor/bin/phpstan analyse Modules/Notify` |
+| [`../app/Console/Commands/CleanupNotificationLogsCommand.php`](../app/Console/Commands/CleanupNotificationLogsCommand.php) | Query tipizzate (`Collection`, enum `->value`) e chunk tipizzato | ✅ |
+| [`../app/Http/Controllers/NotificationTrackingController.php`](../app/Http/Controllers/NotificationTrackingController.php) | Controllo istanza log, gestione metadata con `Arr::get` | ✅ |
+| [`../database/factories/NotificationLogFactory.php`](../database/factories/NotificationLogFactory.php) | Factory tipizzata (`NotificationLogStatusEnum`) con stato coerente | ✅ |
+
+<<<<<<< HEAD
+Risultato finale: `./vendor/bin/phpstan analyse Modules/Notify --memory-limit=2G --no-progress` → **nessun errore**.
+>>>>>>> 36ac4fc1 (.)
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -720,6 +742,7 @@ L'errore `WhatsAppChannel not found` in `ChannelEnum.php` è stato risolto esegu
 <<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> d284d65 (.)
@@ -767,4 +790,195 @@ L'errore `WhatsAppChannel not found` in `ChannelEnum.php` è stato risolto esegu
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> ca10d6ad (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> a29a4728 (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 4e4a7796 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> c7a4727b (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> 9d84f153 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> 9721a5b2 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 116df547 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> 1442e291 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 7ffa94fc (rebase 210)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> 9d3810d0 (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 82e5ee2d (rebase 210)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 6e12a84b (rebase 210)
+=======
+>>>>>>> d38aa9d2 (rebase 210)
+=======
+>>>>>>> 9f953c6 (.)
+<<<<<<< HEAD
+>>>>>>> 6ba141fc (.)
+=======
+=======
+# Notify Module - PHPStan Level 7 Fixes - Gennaio 2025
+
+## 🔄 **Stato In Corso**
+
+Il modulo Notify ha ~6 errori PHPStan rimanenti, principalmente legati al safe casting da mixed types.
+
+## 🔧 **Correzioni Implementate**
+
+### Safe Casting Patterns
+Implementati pattern di safe casting per la maggior parte dei casi di conversione da mixed types:
+
+```php
+use \Modules\Xot\Actions\Cast\SafeStringCastAction;
+
+// Pattern di Safe Casting implementati
+private function safeCastToString(mixed $value): string
+{
+    return is_string($value) ? $value : (string) ($value ?? '');
+}
+
+// Utilizzo di SafeStringCastAction
+private function castWithAction(mixed $value): string
+{
+    return SafeStringCastAction::cast($value);
+}
+```
+
+### Filament Resources - Array Compatibility
+Tutte le risorse Filament del modulo sono state aggiornate per utilizzare array associativi con chiavi string.
+
+## 📋 **Errori Rimanenti (~6)**
+
+### Mixed Type Casting Issues
+- **Tipo**: `Cannot cast mixed to string/int/float`
+- **Localizzazione**: Principalmente in Actions e Services
+- **Soluzione**: Implementare pattern di safe casting con validazione
+
+### Pattern di Risoluzione Raccomandati
+```php
+// Per casting a string
+private function safeCastToString(mixed $value): string
+{
+    if (is_string($value)) {
+        return $value;
+    }
+    
+    if (is_null($value)) {
+        return '';
+    }
+    
+    return (string) $value;
+}
+
+// Per casting a int
+private function safeCastToInt(mixed $value): int
+{
+    if (is_int($value)) {
+        return $value;
+    }
+    
+    if (is_numeric($value)) {
+        return (int) $value;
+    }
+    
+    return 0;
+}
+
+// Utilizzo di SafeStringCastAction
+private function castNotificationData(mixed $data): string
+{
+    return SafeStringCastAction::cast($data);
+}
+```
+
+## 🎯 **Progressi**
+- **Errori Risolti**: ~75% (da ~24 errori iniziali a ~6)
+- **Array Compatibility**: ✅ Completato
+- **Method Signatures**: ✅ Completato
+- **Safe Casting**: 🔄 In corso (75% completato)
+
+## 📚 **Prossimi Passi**
+1. Identificare i 6 errori rimanenti con PHPStan
+2. Applicare pattern di safe casting ai punti critici
+3. Validare con PHPStan Level 7
+4. Aggiornare documentazione
+
+## 📋 **Best Practices Implementate**
+- **Array Associativi**: Chiavi string per azioni Filament
+- **Safe Casting**: Pattern di validazione prima del casting
+- **PHPDoc**: Tipi di ritorno precisi
+- **Validation**: Controlli di tipo robusti
+
+## 📚 **Documentazione di Riferimento**
+- `docs/phpstan-level7-guide.md`: Guida completa PHPStan Level 7
+- `docs/phpstan/safe-casting-patterns.md`: Pattern di casting sicuro
+- `\Modules\Xot\Actions\Cast\SafeStringCastAction`: Action per casting sicuro
+
+---
+*Ultimo aggiornamento: Gennaio 2025*
+*Stato: 🔄 In Corso - ~6 errori PHPStan rimanenti*
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> 125a2c2b8 (.)

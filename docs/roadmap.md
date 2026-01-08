@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -21,6 +22,122 @@
 >>>>>>> 9c45d9bd (rebase 210)
 =======
 >>>>>>> eb62d6cf (rebase 210)
+=======
+=======
+=======
+>>>>>>> 9ed014c (.)
+<<<<<<< HEAD
+# ROADMAP - Modulo Notify
+
+## Scopo del Progetto
+Il modulo Notify gestisce l'intero sistema di notifiche multi-canale del progetto. Fornisce notifiche push, email, SMS e in-app con template personalizzabili e tracking completo.
+
+## Business Logic
+- **Multi-Channel**: Push, Email, SMS, In-App notifications
+- **Template System**: Template personalizzabili per ogni canale
+- **Targeting**: Notifiche segmentate per utenti, ruoli, team
+- **Scheduling**: Notifiche programmate e ricorrenti
+- **Tracking**: Analytics complete su delivery e engagement
+- **A/B Testing**: Test di efficacia delle notifiche
+
+## Architettura Tecnica
+
+### Modelli Principali
+- **NotificationTemplate**: Template per ogni canale
+- **NotificationTemplateVersion**: Versioni dei template
+- **Notification**: Notifiche inviate
+- **NotificationLog**: Log delle notifiche
+- **NotificationChannel**: Configurazione canali
+
+### Servizi Core
+- **NotificationService**: Orchestrazione notifiche
+- **TemplateService**: Gestione template
+- **ChannelService**: Gestione canali
+- **AnalyticsService**: Analytics e reporting
+
+### Canali Supportati
+- **Email**: SMTP, Mailgun, SendGrid
+- **Push**: FCM, APNs
+- **SMS**: Twilio, Nexmo
+- **In-App**: Real-time via WebSocket
+- **Slack**: Integrazione team
+- **Discord**: Integrazione community
+
+## Roadmap di Sviluppo
+
+### Fase 1: Core Notification System (COMPLETATA)
+- ✅ Sistema base di notifiche
+- ✅ Template system
+- ✅ Multi-channel support
+- ✅ Basic tracking
+
+### Fase 2: Advanced Features (COMPLETATA)
+- ✅ Scheduling system
+- ✅ Template versioning
+- ✅ Channel configuration
+- ✅ Error handling
+
+### Fase 3: Analytics & Optimization (IN CORSO)
+- 🔄 Advanced analytics
+- 🔄 A/B testing framework
+- 🔄 Performance optimization
+- 🔄 Delivery optimization
+
+### Fase 4: AI Integration (PIANIFICATA)
+- 📋 Smart targeting
+- 📋 Content optimization
+- 📋 Timing optimization
+- 📋 Personalization engine
+
+### Fase 5: Enterprise Features (PIANIFICATA)
+- 📋 White-label templates
+- 📋 Advanced segmentation
+- 📋 Compliance reporting
+- 📋 Enterprise integrations
+
+## Tecnologie Utilizzate
+- **Email**: Laravel Mail, Mailgun, SendGrid
+- **Push**: Firebase Cloud Messaging
+- **SMS**: Twilio, Nexmo
+- **Queue**: Redis Queue
+- **Cache**: Redis
+- **WebSocket**: Laravel WebSockets
+- **Analytics**: Custom analytics engine
+
+## Metriche di Successo
+- **Delivery Rate**: > 99% per email, > 95% per push
+- **Open Rate**: > 25% per email, > 15% per push
+- **Click Rate**: > 5% per email, > 3% per push
+- **Performance**: < 100ms per notifica
+- **Reliability**: 99.9% uptime
+
+## Prossimi Passi
+1. ✅ Completare correzioni PHPStan (0 errori rimanenti - COMPLETATO)
+2. 🔄 Implementare analytics avanzate
+3. 📋 Sviluppare A/B testing
+4. 🔄 Ottimizzare performance
+5. 📋 Integrare AI per targeting
+
+## Team e Responsabilità
+- **Backend Lead**: API e business logic
+- **Frontend Lead**: Dashboard analytics
+- **DevOps**: Infrastruttura e monitoring
+- **QA**: Testing e quality assurance
+- **Product Manager**: Requisiti e roadmap
+
+## Risorse e Documentazione
+- [API Documentation](./api-docs.md)
+- [Template Guide](./templates.md)
+- [Channel Configuration](./channels.md)
+- [Analytics Guide](./analytics.md)
+- [Deployment Guide](./deployment.md)
+=======
+>>>>>>> 9f953c6 (.)
+<<<<<<< HEAD
+>>>>>>> 6ba141fc (.)
+=======
+=======
+>>>>>>> 36ac4fc1 (.)
 # Notify Module Roadmap
 
 ## Module Progress Overview
@@ -143,6 +260,7 @@ Overall Module Completion: 60%
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -239,6 +357,8 @@ Overall Module Completion: 60%
 >>>>>>> 52cd5f85 (rebase 210)
 =======
 >>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
 * [roadmap.md](bashscripts/docs/roadmap.md)
 * [roadmap.md](docs/roadmap.md)
 * [roadmap.md](../../../Gdpr/docs/roadmap.md)
@@ -273,6 +393,7 @@ Overall Module Completion: 60%
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -309,10 +430,13 @@ Overall Module Completion: 60%
 >>>>>>> eb62d6cf (rebase 210)
 =======
 >>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
 * [roadmap.md](../../../../Themes/One/docs/roadmap.md)* [roadmap.md](bashscripts/project_docs/roadmap.md)
 * [roadmap.md](../../../../Themes/One/docs/roadmap.md)
 * [roadmap.md](bashscripts/project_docs/roadmap.md)
 * [roadmap.md](../../../../Themes/One/docs/roadmap.md)* [roadmap.md](bashscripts/project_docs/roadmap.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -496,6 +620,8 @@ Overall Module Completion: 60%
 >>>>>>> 52cd5f85 (rebase 210)
 =======
 >>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
 * [roadmap.md](docs/roadmap.md)
 * [roadmap.md](../../../Gdpr/project_docs/roadmap.md)
 * [roadmap.md](../../../Notify/project_docs/roadmap.md)
@@ -511,6 +637,7 @@ Overall Module Completion: 60%
 * [roadmap.md](../../../Patient/project_docs/roadmap.md)
 * [roadmap.md](../../../Cms/project_docs/roadmap.md)
 * [roadmap.md](../../../../Themes/One/project_docs/roadmap.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -592,6 +719,8 @@ Overall Module Completion: 60%
 * [roadmap.md](../../../../Themes/One/docs/roadmap.md)
 >>>>>>> d284d65 (.)
 >>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
 
 # Roadmap Implementazione
 
@@ -780,6 +909,7 @@ Overall Module Completion: 60%
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -934,10 +1064,16 @@ Per contribuire alla documentazione, seguire le [Linee Guida](../../../docs/line
 >>>>>>> eb62d6cf (rebase 210)
 =======
 >>>>>>> 5aedc39c (rebase 210)
+=======
+Per contribuire alla documentazione, seguire le [Linee Guida](../../../docs/linee-guida-documentazione.md) e le [Regole dei Collegamenti](../../../docs/regole_collegamenti_documentazione.md).
+
+## Collegamenti Completi
+>>>>>>> 36ac4fc1 (.)
 Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../docs/README_links.md).Per contribuire alla documentazione, seguire le [Linee Guida](../../../project_docs/linee-guida-documentazione.md) e le [Regole dei Collegamenti](../../../project_docs/regole_collegamenti_documentazione.md).
 Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../docs/README_links.md).
 Per contribuire alla documentazione, seguire le [Linee Guida](../../../project_docs/linee-guida-documentazione.md) e le [Regole dei Collegamenti](../../../project_docs/regole_collegamenti_documentazione.md).
 Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../docs/README_links.md).Per contribuire alla documentazione, seguire le [Linee Guida](../../../project_docs/linee-guida-documentazione.md) e le [Regole dei Collegamenti](../../../project_docs/regole_collegamenti_documentazione.md).
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1181,6 +1317,11 @@ Per una lista completa di tutti i collegamenti tra i README.md, consultare il fi
 >>>>>>> eb62d6cf (rebase 210)
 =======
 >>>>>>> 5aedc39c (rebase 210)
+=======
+
+## Collegamenti Completi
+Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../project_docs/README_links.md).
+>>>>>>> 36ac4fc1 (.)
 
 
 ### Versione Incoming
@@ -1188,6 +1329,7 @@ Per una lista completa di tutti i collegamenti tra i README.md, consultare il fi
 
 ---
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1213,3 +1355,7 @@ Per una lista completa di tutti i collegamenti tra i README.md, consultare il fi
 >>>>>>> 9c45d9bd (rebase 210)
 =======
 >>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+>>>>>>> 36ac4fc1 (.)

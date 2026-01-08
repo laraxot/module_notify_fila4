@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ----------------------------------------------------------------------------------
 Laravel Mailator for Configuring Email Scheduler & Templates
@@ -19,6 +20,8 @@ composer require creagia/laravel-web-mailer
 =======
 =======
 >>>>>>> 022fa8f1c (.)
+=======
+>>>>>>> 125a2c2b8 (.)
 # Collegamenti Notify
 
 ## Pacchetti Raccomandati
@@ -210,9 +213,13 @@ Notification::failed(function ($event) {
 });
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> bb96c993b (.)
 =======
 >>>>>>> 022fa8f1c (.)
 
 =======
 >>>>>>> ddee9d751 (.)
+=======
+
+>>>>>>> 125a2c2b8 (.)

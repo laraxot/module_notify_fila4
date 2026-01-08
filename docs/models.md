@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 125a2c2b8 (.)
 # Modelli e Relazioni del Modulo Notify
 
 ## BaseModel
@@ -20,6 +23,7 @@ abstract class BaseModel extends XotBaseModel
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Struttura Template
 
 =======
@@ -28,6 +32,9 @@ abstract class BaseModel extends XotBaseModel
 =======
 ### Struttura
 >>>>>>> 022fa8f1c (.)
+=======
+### Struttura
+>>>>>>> 125a2c2b8 (.)
 ```php
 final class Template extends BaseModel
 {
@@ -40,6 +47,7 @@ final class Template extends BaseModel
         'code',
     ];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     /**
@@ -59,6 +67,8 @@ final class Template extends BaseModel
 =======
 =======
 >>>>>>> 022fa8f1c (.)
+=======
+>>>>>>> 125a2c2b8 (.)
     protected $casts = [
         'status' => TemplateStatus::class,
         'type' => TemplateType::class,
@@ -66,9 +76,12 @@ final class Template extends BaseModel
         'updated_at' => 'datetime',
     ];
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> bb96c993b (.)
 =======
 >>>>>>> 022fa8f1c (.)
+=======
+>>>>>>> 125a2c2b8 (.)
 
     public function versions(): HasMany
     {
@@ -90,11 +103,14 @@ final class Template extends BaseModel
 ### Enum
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> bb96c993b (.)
 =======
 >>>>>>> 022fa8f1c (.)
+=======
+>>>>>>> 125a2c2b8 (.)
 ```php
 enum TemplateStatus: string
 {
@@ -115,6 +131,7 @@ enum TemplateType: string
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Struttura TemplateVersion
 
 =======
@@ -123,6 +140,9 @@ enum TemplateType: string
 =======
 ### Struttura
 >>>>>>> 022fa8f1c (.)
+=======
+### Struttura
+>>>>>>> 125a2c2b8 (.)
 ```php
 final class TemplateVersion extends BaseModel
 {
@@ -133,6 +153,7 @@ final class TemplateVersion extends BaseModel
         'metadata',
     ];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     /**
@@ -151,15 +172,20 @@ final class TemplateVersion extends BaseModel
 =======
 =======
 >>>>>>> 022fa8f1c (.)
+=======
+>>>>>>> 125a2c2b8 (.)
     protected $casts = [
         'metadata' => 'array',
         'created_at' => 'datetime',
         'updated_at' => 'datetime',
     ];
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> bb96c993b (.)
 =======
 >>>>>>> 022fa8f1c (.)
+=======
+>>>>>>> 125a2c2b8 (.)
 
     public function template(): BelongsTo
     {
@@ -177,6 +203,7 @@ final class TemplateVersion extends BaseModel
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Struttura TemplateTranslation
 
 =======
@@ -185,6 +212,9 @@ final class TemplateVersion extends BaseModel
 =======
 ### Struttura
 >>>>>>> 022fa8f1c (.)
+=======
+### Struttura
+>>>>>>> 125a2c2b8 (.)
 ```php
 final class TemplateTranslation extends BaseModel
 {
@@ -195,6 +225,7 @@ final class TemplateTranslation extends BaseModel
         'content',
     ];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     /**
@@ -212,14 +243,19 @@ final class TemplateTranslation extends BaseModel
 =======
 =======
 >>>>>>> 022fa8f1c (.)
+=======
+>>>>>>> 125a2c2b8 (.)
     protected $casts = [
         'created_at' => 'datetime',
         'updated_at' => 'datetime',
     ];
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> bb96c993b (.)
 =======
 >>>>>>> 022fa8f1c (.)
+=======
+>>>>>>> 125a2c2b8 (.)
 
     public function version(): BelongsTo
     {
@@ -232,6 +268,7 @@ final class TemplateTranslation extends BaseModel
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Struttura NotificationLog
 
 =======
@@ -240,6 +277,9 @@ final class TemplateTranslation extends BaseModel
 =======
 ### Struttura
 >>>>>>> 022fa8f1c (.)
+=======
+### Struttura
+>>>>>>> 125a2c2b8 (.)
 ```php
 final class NotificationLog extends BaseModel
 {
@@ -257,6 +297,7 @@ final class NotificationLog extends BaseModel
         'clicked_at',
     ];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     /**
@@ -280,6 +321,8 @@ final class NotificationLog extends BaseModel
 =======
 =======
 >>>>>>> 022fa8f1c (.)
+=======
+>>>>>>> 125a2c2b8 (.)
     protected $casts = [
         'data' => 'array',
         'channels' => 'array',
@@ -291,9 +334,12 @@ final class NotificationLog extends BaseModel
         'updated_at' => 'datetime',
     ];
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> bb96c993b (.)
 =======
 >>>>>>> 022fa8f1c (.)
+=======
+>>>>>>> 125a2c2b8 (.)
 
     public function template(): BelongsTo
     {
@@ -316,6 +362,7 @@ final class NotificationLog extends BaseModel
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Struttura TemplateAnalytics
 
 =======
@@ -324,6 +371,9 @@ final class NotificationLog extends BaseModel
 =======
 ### Struttura
 >>>>>>> 022fa8f1c (.)
+=======
+### Struttura
+>>>>>>> 125a2c2b8 (.)
 ```php
 final class TemplateAnalytics extends BaseModel
 {
@@ -335,6 +385,7 @@ final class TemplateAnalytics extends BaseModel
         'occurred_at',
     ];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     /**
@@ -354,6 +405,8 @@ final class TemplateAnalytics extends BaseModel
 =======
 =======
 >>>>>>> 022fa8f1c (.)
+=======
+>>>>>>> 125a2c2b8 (.)
     protected $casts = [
         'event_data' => 'array',
         'occurred_at' => 'datetime',
@@ -361,9 +414,12 @@ final class TemplateAnalytics extends BaseModel
         'updated_at' => 'datetime',
     ];
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> bb96c993b (.)
 =======
 >>>>>>> 022fa8f1c (.)
+=======
+>>>>>>> 125a2c2b8 (.)
 
     public function template(): BelongsTo
     {
@@ -382,6 +438,7 @@ final class TemplateAnalytics extends BaseModel
 ### Diagramma
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ```text
 =======
@@ -390,6 +447,9 @@ final class TemplateAnalytics extends BaseModel
 =======
 ```
 >>>>>>> 022fa8f1c (.)
+=======
+```
+>>>>>>> 125a2c2b8 (.)
 Template 1 --- * TemplateVersion
 TemplateVersion 1 --- * TemplateTranslation
 Template 1 --- * NotificationLog
@@ -401,11 +461,14 @@ NotificationLog 1 --- * TemplateAnalytics
 #### Recupero Template con Versioni
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> bb96c993b (.)
 =======
 >>>>>>> 022fa8f1c (.)
+=======
+>>>>>>> 125a2c2b8 (.)
 ```php
 $template = Template::with(['versions' => function($query) {
     $query->latest('version');
@@ -415,11 +478,14 @@ $template = Template::with(['versions' => function($query) {
 #### Recupero Analytics per Periodo
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> bb96c993b (.)
 =======
 >>>>>>> 022fa8f1c (.)
+=======
+>>>>>>> 125a2c2b8 (.)
 ```php
 $analytics = TemplateAnalytics::where('template_id', $templateId)
     ->whereBetween('occurred_at', [$startDate, $endDate])
@@ -431,11 +497,14 @@ $analytics = TemplateAnalytics::where('template_id', $templateId)
 ### HasVersions
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> bb96c993b (.)
 =======
 >>>>>>> 022fa8f1c (.)
+=======
+>>>>>>> 125a2c2b8 (.)
 ```php
 trait HasVersions
 {
@@ -461,11 +530,14 @@ trait HasVersions
 ### TemplateScopes
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> bb96c993b (.)
 =======
 >>>>>>> 022fa8f1c (.)
+=======
+>>>>>>> 125a2c2b8 (.)
 ```php
 trait TemplateScopes
 {
@@ -486,11 +558,14 @@ trait TemplateScopes
 ### Template Events
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> bb96c993b (.)
 =======
 >>>>>>> 022fa8f1c (.)
+=======
+>>>>>>> 125a2c2b8 (.)
 ```php
 final class TemplateWasPublished
 {
@@ -512,11 +587,14 @@ final class TemplateWasArchived
 ### Rules
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> bb96c993b (.)
 =======
 >>>>>>> 022fa8f1c (.)
+=======
+>>>>>>> 125a2c2b8 (.)
 ```php
 final class TemplateRules
 {
@@ -533,6 +611,7 @@ final class TemplateRules
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ```
 =======
 ``` 
@@ -542,3 +621,6 @@ final class TemplateRules
 >>>>>>> 022fa8f1c (.)
 =======
 >>>>>>> ddee9d751 (.)
+=======
+``` 
+>>>>>>> 125a2c2b8 (.)

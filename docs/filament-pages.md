@@ -1,4 +1,62 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> 36321fcb (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> 125a2c2b8 (.)
 # Pagine Filament del Modulo Notify
 
 ## Panoramica
@@ -81,6 +139,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 31f5d28f (.)
@@ -126,7 +185,52 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> ee18dd92 (.)
+<<<<<<< HEAD
 >>>>>>> 022fa8f1c (.)
+=======
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> 36321fcb (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> 125a2c2b8 (.)
 - [Architettura Filament](../../../../docs/architecture/filament.md)
 - [Gestione Pagine](../../../../docs/architecture/pages.md)
 
@@ -142,6 +246,86 @@ class EditNotificationTemplate extends XotBaseEditRecord
 2. Non si sovrascrivono metodi se non necessario
 3. Si mantiene la coerenza con il resto del sistema
 4. La documentazione va mantenuta aggiornata
+<<<<<<< HEAD
 5. I namespace seguono le convenzioni standard 
 =======
 >>>>>>> 5fd545e4 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+5. I namespace seguono le convenzioni standard 
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+5. I namespace seguono le convenzioni standard 
+>>>>>>> 2a97406c (.)
+=======
+5. I namespace seguono le convenzioni standard 
+>>>>>>> 909e45af (.)
+=======
+5. I namespace seguono le convenzioni standard 
+>>>>>>> 4f042b88 (.)
+=======
+5. I namespace seguono le convenzioni standard 
+>>>>>>> bb7e77c2 (.)
+=======
+5. I namespace seguono le convenzioni standard 
+>>>>>>> 36321fcb (.)
+=======
+5. I namespace seguono le convenzioni standard 
+>>>>>>> b99af5a8 (.)
+=======
+5. I namespace seguono le convenzioni standard 
+>>>>>>> 712617d3 (.)
+=======
+5. I namespace seguono le convenzioni standard 
+>>>>>>> f3086887 (rebase 210)
+=======
+5. I namespace seguono le convenzioni standard 
+>>>>>>> fdb24863 (rebase 210)
+=======
+5. I namespace seguono le convenzioni standard 
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+5. I namespace seguono le convenzioni standard 
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+5. I namespace seguono le convenzioni standard 
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+5. I namespace seguono le convenzioni standard 
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+5. I namespace seguono le convenzioni standard 
+>>>>>>> eb62d6cf (rebase 210)
+=======
+5. I namespace seguono le convenzioni standard 
+>>>>>>> 6e12a84b (rebase 210)
+=======
+5. I namespace seguono le convenzioni standard 
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+5. I namespace seguono le convenzioni standard 
+>>>>>>> 545977c8 (rebase 210)
+=======
+5. I namespace seguono le convenzioni standard 
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> 125a2c2b8 (.)

@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Notify Module: Philosophy, Purpose, and Design Principles
 
 **Date:** December 23, 2025
@@ -59,6 +60,8 @@ By leveraging these MCPs, the `Notify` module can ensure its critical role in ma
 =======
 =======
 >>>>>>> 022fa8f1c (.)
+=======
+>>>>>>> 125a2c2b8 (.)
 # Filosofia del Modulo Notify
 
 ## Politica
@@ -182,8 +185,11 @@ Questi principi si traducono in pratiche concrete:
    - Aggiornamento della documentazione
    - Miglioramento continuo basato sui principi fondamentali
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> bb96c993b (.)
 =======
 >>>>>>> 022fa8f1c (.)
 =======
 >>>>>>> ddee9d751 (.)
+=======
+>>>>>>> 125a2c2b8 (.)

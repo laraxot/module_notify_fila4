@@ -1,4 +1,35 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> 125a2c2b8 (.)
 # Analisi Dettagliata del Modulo Notify - Parte 8: Note Finali
 
 ## 8. Note Finali
@@ -216,6 +247,7 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -329,7 +361,217 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+- [Laravel Telescope](https://laravel.com/docs/telescope)
+- [Laravel Horizon](https://laravel.com/docs/horizon)
+- [Laravel Dusk](https://laravel.com/docs/dusk)
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+- [Laravel Telescope](https://laravel.com/docs/telescope)
+- [Laravel Horizon](https://laravel.com/docs/horizon)
+- [Laravel Dusk](https://laravel.com/docs/dusk)
+>>>>>>> ca10d6ad (.)
+=======
+- [Laravel Telescope](https://laravel.com/docs/telescope)
+- [Laravel Horizon](https://laravel.com/docs/horizon)
+- [Laravel Dusk](https://laravel.com/docs/dusk)
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 7325acf3 (.)
+=======
+- [Laravel Telescope](https://laravel.com/docs/telescope)
+- [Laravel Horizon](https://laravel.com/docs/horizon)
+- [Laravel Dusk](https://laravel.com/docs/dusk)
+>>>>>>> 4c323e61 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+=======
+- [Laravel Telescope](https://laravel.com/docs/telescope)
+- [Laravel Horizon](https://laravel.com/docs/horizon)
+- [Laravel Dusk](https://laravel.com/docs/dusk)
+>>>>>>> febe79e3 (.)
+=======
+- [Laravel Telescope](https://laravel.com/docs/telescope)
+- [Laravel Horizon](https://laravel.com/docs/horizon)
+- [Laravel Dusk](https://laravel.com/docs/dusk)
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> f2e64178 (.)
+=======
+- [Laravel Telescope](https://laravel.com/docs/telescope)
+- [Laravel Horizon](https://laravel.com/docs/horizon)
+- [Laravel Dusk](https://laravel.com/docs/dusk)
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
+=======
+- [Laravel Telescope](https://laravel.com/docs/telescope)
+- [Laravel Horizon](https://laravel.com/docs/horizon)
+- [Laravel Dusk](https://laravel.com/docs/dusk)
+>>>>>>> a29a4728 (.)
+=======
+- [Laravel Telescope](https://laravel.com/docs/telescope)
+- [Laravel Horizon](https://laravel.com/docs/horizon)
+- [Laravel Dusk](https://laravel.com/docs/dusk)
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> c4bdacbf (.)
+=======
+- [Laravel Telescope](https://laravel.com/docs/telescope)
+- [Laravel Horizon](https://laravel.com/docs/horizon)
+- [Laravel Dusk](https://laravel.com/docs/dusk)
+>>>>>>> 4e4a7796 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+=======
+- [Laravel Telescope](https://laravel.com/docs/telescope)
+- [Laravel Horizon](https://laravel.com/docs/horizon)
+- [Laravel Dusk](https://laravel.com/docs/dusk)
+>>>>>>> c7a4727b (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> dceba960 (.)
+=======
+- [Laravel Telescope](https://laravel.com/docs/telescope)
+- [Laravel Horizon](https://laravel.com/docs/horizon)
+- [Laravel Dusk](https://laravel.com/docs/dusk)
+>>>>>>> 9d84f153 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> b99af5a8 (.)
+=======
+- [Laravel Telescope](https://laravel.com/docs/telescope)
+- [Laravel Horizon](https://laravel.com/docs/horizon)
+- [Laravel Dusk](https://laravel.com/docs/dusk)
+>>>>>>> 9721a5b2 (.)
+=======
+- [Laravel Telescope](https://laravel.com/docs/telescope)
+- [Laravel Horizon](https://laravel.com/docs/horizon)
+- [Laravel Dusk](https://laravel.com/docs/dusk)
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> bd804d67 (.)
+=======
+- [Laravel Telescope](https://laravel.com/docs/telescope)
+- [Laravel Horizon](https://laravel.com/docs/horizon)
+- [Laravel Dusk](https://laravel.com/docs/dusk)
+>>>>>>> 116df547 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> f3086887 (rebase 210)
+=======
+- [Laravel Telescope](https://laravel.com/docs/telescope)
+- [Laravel Horizon](https://laravel.com/docs/horizon)
+- [Laravel Dusk](https://laravel.com/docs/dusk)
+>>>>>>> 1442e291 (rebase 210)
+=======
+- [Laravel Telescope](https://laravel.com/docs/telescope)
+- [Laravel Horizon](https://laravel.com/docs/horizon)
+- [Laravel Dusk](https://laravel.com/docs/dusk)
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 229a065a (rebase 210)
+=======
+- [Laravel Telescope](https://laravel.com/docs/telescope)
+- [Laravel Horizon](https://laravel.com/docs/horizon)
+- [Laravel Dusk](https://laravel.com/docs/dusk)
+>>>>>>> 84082535 (rebase 210)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 3d462363 (rebase 210)
+=======
+- [Laravel Telescope](https://laravel.com/docs/telescope)
+- [Laravel Horizon](https://laravel.com/docs/horizon)
+- [Laravel Dusk](https://laravel.com/docs/dusk)
+>>>>>>> fcaebc79 (rebase 210)
+=======
+- [Laravel Telescope](https://laravel.com/project_docs/telescope)
+- [Laravel Horizon](https://laravel.com/project_docs/horizon)
+- [Laravel Dusk](https://laravel.com/project_docs/dusk)
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+- [Laravel Telescope](https://laravel.com/docs/telescope)
+- [Laravel Horizon](https://laravel.com/docs/horizon)
+- [Laravel Dusk](https://laravel.com/docs/dusk)
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 9f8e680a (rebase 210)
+=======
+- [Laravel Telescope](https://laravel.com/docs/telescope)
+- [Laravel Horizon](https://laravel.com/docs/horizon)
+- [Laravel Dusk](https://laravel.com/docs/dusk)
+>>>>>>> 7ffa94fc (rebase 210)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+- [Laravel Telescope](https://laravel.com/docs/telescope)
+- [Laravel Horizon](https://laravel.com/docs/horizon)
+- [Laravel Dusk](https://laravel.com/docs/dusk)
+>>>>>>> 9d3810d0 (rebase 210)
+=======
+- [Laravel Telescope](https://laravel.com/docs/telescope)
+- [Laravel Horizon](https://laravel.com/docs/horizon)
+- [Laravel Dusk](https://laravel.com/docs/dusk)
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 5aedc39c (rebase 210)
+=======
+- [Laravel Telescope](https://laravel.com/docs/telescope)
+- [Laravel Horizon](https://laravel.com/docs/horizon)
+- [Laravel Dusk](https://laravel.com/docs/dusk)
+>>>>>>> 82e5ee2d (rebase 210)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 6e12a84b (rebase 210)
+=======
+- [Laravel Telescope](https://laravel.com/docs/telescope)
+- [Laravel Horizon](https://laravel.com/docs/horizon)
+- [Laravel Dusk](https://laravel.com/docs/dusk)
+>>>>>>> d38aa9d2 (rebase 210)
+=======
+- [Laravel Telescope](https://laravel.com/docs/telescope)
+- [Laravel Horizon](https://laravel.com/docs/horizon)
+- [Laravel Dusk](https://laravel.com/docs/dusk)
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 22baa66d (rebase 210)
+=======
+- [Laravel Telescope](https://laravel.com/docs/telescope)
+- [Laravel Horizon](https://laravel.com/docs/horizon)
+- [Laravel Dusk](https://laravel.com/docs/dusk)
+>>>>>>> 5b50927d (rebase 210)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 545977c8 (rebase 210)
+=======
+- [Laravel Telescope](https://laravel.com/docs/telescope)
+- [Laravel Horizon](https://laravel.com/docs/horizon)
+- [Laravel Dusk](https://laravel.com/docs/dusk)
+>>>>>>> 9e7ba5b6 (rebase 210)
+=======
+- [Laravel Telescope](https://laravel.com/docs/telescope)
+- [Laravel Horizon](https://laravel.com/docs/horizon)
+- [Laravel Dusk](https://laravel.com/docs/dusk)
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> 125a2c2b8 (.)
 
 #### 8.5.4 Best Practices
 - [Laravel Best Practices](https://github.com/alexeymezenin/laravel-best-practices)
@@ -361,6 +603,7 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel Security](https://laravel.com/docs/security)
 =======
 - [Laravel Security](https://laravel.com/project_docs/security)
@@ -446,13 +689,221 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 - [Laravel Security](https://laravel.com/project_docs/security)
 >>>>>>> d284d65 (.)
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+>>>>>>> 2941b0bd (.)
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+=======
+- [Laravel Security](https://laravel.com/project_docs/security)
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+>>>>>>> ca10d6ad (.)
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+>>>>>>> 66453ace (.)
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+=======
+- [Laravel Security](https://laravel.com/project_docs/security)
+>>>>>>> d284d65 (.)
+>>>>>>> 7325acf3 (.)
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+>>>>>>> 4c323e61 (.)
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+=======
+- [Laravel Security](https://laravel.com/project_docs/security)
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+>>>>>>> febe79e3 (.)
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+>>>>>>> 2a97406c (.)
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+=======
+- [Laravel Security](https://laravel.com/project_docs/security)
+>>>>>>> d284d65 (.)
+>>>>>>> f2e64178 (.)
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+>>>>>>> 98d837b9 (.)
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+=======
+- [Laravel Security](https://laravel.com/project_docs/security)
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+>>>>>>> a29a4728 (.)
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+>>>>>>> 4f042b88 (.)
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+=======
+- [Laravel Security](https://laravel.com/project_docs/security)
+>>>>>>> d284d65 (.)
+>>>>>>> c4bdacbf (.)
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+>>>>>>> 4e4a7796 (.)
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+=======
+- [Laravel Security](https://laravel.com/project_docs/security)
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+>>>>>>> c7a4727b (.)
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+=======
+- [Laravel Security](https://laravel.com/project_docs/security)
+>>>>>>> d284d65 (.)
+>>>>>>> dceba960 (.)
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+>>>>>>> 9d84f153 (.)
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+=======
+- [Laravel Security](https://laravel.com/project_docs/security)
+>>>>>>> bf479cc (.)
+>>>>>>> b99af5a8 (.)
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+>>>>>>> 9721a5b2 (.)
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+>>>>>>> 712617d3 (.)
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+=======
+- [Laravel Security](https://laravel.com/project_docs/security)
+>>>>>>> d284d65 (.)
+>>>>>>> bd804d67 (.)
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+>>>>>>> 116df547 (.)
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+=======
+- [Laravel Security](https://laravel.com/project_docs/security)
+>>>>>>> bf479cc (.)
+>>>>>>> f3086887 (rebase 210)
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+>>>>>>> 1442e291 (rebase 210)
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+>>>>>>> fdb24863 (rebase 210)
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+=======
+- [Laravel Security](https://laravel.com/project_docs/security)
+>>>>>>> d284d65 (.)
+>>>>>>> 229a065a (rebase 210)
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+>>>>>>> 84082535 (rebase 210)
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+=======
+- [Laravel Security](https://laravel.com/project_docs/security)
+>>>>>>> bf479cc (.)
+>>>>>>> 3d462363 (rebase 210)
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+>>>>>>> fcaebc79 (rebase 210)
+=======
+- [Laravel Security](https://laravel.com/project_docs/security)
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+=======
+- [Laravel Security](https://laravel.com/project_docs/security)
+>>>>>>> d284d65 (.)
+>>>>>>> 9f8e680a (rebase 210)
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+>>>>>>> 7ffa94fc (rebase 210)
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+=======
+- [Laravel Security](https://laravel.com/project_docs/security)
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+>>>>>>> 9d3810d0 (rebase 210)
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+>>>>>>> eb62d6cf (rebase 210)
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+=======
+- [Laravel Security](https://laravel.com/project_docs/security)
+>>>>>>> d284d65 (.)
+>>>>>>> 5aedc39c (rebase 210)
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+>>>>>>> 82e5ee2d (rebase 210)
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+=======
+- [Laravel Security](https://laravel.com/project_docs/security)
+>>>>>>> bf479cc (.)
+>>>>>>> 6e12a84b (rebase 210)
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+>>>>>>> d38aa9d2 (rebase 210)
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+=======
+- [Laravel Security](https://laravel.com/project_docs/security)
+>>>>>>> d284d65 (.)
+>>>>>>> 22baa66d (rebase 210)
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+>>>>>>> 5b50927d (rebase 210)
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+=======
+- [Laravel Security](https://laravel.com/project_docs/security)
+>>>>>>> bf479cc (.)
+>>>>>>> 545977c8 (rebase 210)
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+>>>>>>> 9e7ba5b6 (rebase 210)
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> 125a2c2b8 (.)
 - [PHP Security](https://phpsecurity.readthedocs.io)
 
 #### 8.5.6 Testing
 - [PHPUnit](https://phpunit.de)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -507,6 +958,105 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 >>>>>>> ee18dd92 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> ca10d6ad (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 7325acf3 (.)
+=======
+>>>>>>> 4c323e61 (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> febe79e3 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> a29a4728 (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 4e4a7796 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> c7a4727b (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> 9d84f153 (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> 9721a5b2 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 116df547 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> 1442e291 (rebase 210)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 229a065a (rebase 210)
+=======
+>>>>>>> 84082535 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> fcaebc79 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 7ffa94fc (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> 9d3810d0 (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 82e5ee2d (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+>>>>>>> d38aa9d2 (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 22baa66d (rebase 210)
+=======
+>>>>>>> 5b50927d (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> 9e7ba5b6 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> 125a2c2b8 (.)
 - [Laravel Testing](https://laravel.com/docs/testing)
 - [Test-Driven Development](https://en.wikipedia.org/wiki/Test-driven_development)
 
@@ -529,6 +1079,57 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 125a2c2b8 (.)
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -622,7 +1223,127 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> ca10d6ad (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 7325acf3 (.)
+=======
+>>>>>>> 4c323e61 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> febe79e3 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> a29a4728 (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 4e4a7796 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> c7a4727b (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> 9d84f153 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> 9721a5b2 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 116df547 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> 1442e291 (rebase 210)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 229a065a (rebase 210)
+=======
+>>>>>>> 84082535 (rebase 210)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> fcaebc79 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 7ffa94fc (rebase 210)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> 9d3810d0 (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 82e5ee2d (rebase 210)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 6e12a84b (rebase 210)
+=======
+>>>>>>> d38aa9d2 (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 22baa66d (rebase 210)
+=======
+>>>>>>> 5b50927d (rebase 210)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> 9e7ba5b6 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> 125a2c2b8 (.)
 - [PHP Performance](https://www.php.net/manual/en/performance.php)
 - [Web Performance](https://web.dev/performance)
 
@@ -630,6 +1351,7 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 <<<<<<< HEAD
 - [Laravel Monitoring](https://laravel.com/project_docs/monitoring)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -740,3 +1462,117 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 - [Log Management](https://en.wikipedia.org/wiki/Log_management) 
 =======
 >>>>>>> 5fd545e4 (.)
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> a29a4728 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 4e4a7796 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> c7a4727b (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> 9d84f153 (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> 9721a5b2 (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 116df547 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> 1442e291 (rebase 210)
+=======
+>>>>>>> 229a065a (rebase 210)
+=======
+>>>>>>> 84082535 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> fcaebc79 (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 7ffa94fc (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> 9d3810d0 (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 82e5ee2d (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+>>>>>>> d38aa9d2 (rebase 210)
+=======
+>>>>>>> 22baa66d (rebase 210)
+=======
+>>>>>>> 5b50927d (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> 9e7ba5b6 (rebase 210)
+- [Laravel Monitoring](https://laravel.com/docs/monitoring)
+- [Application Monitoring](https://en.wikipedia.org/wiki/Application_performance_management)
+- [Log Management](https://en.wikipedia.org/wiki/Log_management) 
+>>>>>>> 2a97406c (.)
+=======
+- [Laravel Monitoring](https://laravel.com/docs/monitoring)
+- [Application Monitoring](https://en.wikipedia.org/wiki/Application_performance_management)
+- [Log Management](https://en.wikipedia.org/wiki/Log_management) 
+>>>>>>> 4f042b88 (.)
+=======
+- [Laravel Monitoring](https://laravel.com/docs/monitoring)
+- [Application Monitoring](https://en.wikipedia.org/wiki/Application_performance_management)
+- [Log Management](https://en.wikipedia.org/wiki/Log_management) 
+>>>>>>> 712617d3 (.)
+=======
+- [Laravel Monitoring](https://laravel.com/docs/monitoring)
+- [Application Monitoring](https://en.wikipedia.org/wiki/Application_performance_management)
+- [Log Management](https://en.wikipedia.org/wiki/Log_management) 
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+- [Laravel Monitoring](https://laravel.com/project_docs/monitoring)
+- [Application Monitoring](https://en.wikipedia.org/wiki/Application_performance_management)
+- [Log Management](https://en.wikipedia.org/wiki/Log_management) 
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+- [Laravel Monitoring](https://laravel.com/docs/monitoring)
+- [Application Monitoring](https://en.wikipedia.org/wiki/Application_performance_management)
+- [Log Management](https://en.wikipedia.org/wiki/Log_management) 
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+- [Laravel Monitoring](https://laravel.com/docs/monitoring)
+- [Application Monitoring](https://en.wikipedia.org/wiki/Application_performance_management)
+- [Log Management](https://en.wikipedia.org/wiki/Log_management) 
+>>>>>>> eb62d6cf (rebase 210)
+=======
+- [Laravel Monitoring](https://laravel.com/docs/monitoring)
+- [Application Monitoring](https://en.wikipedia.org/wiki/Application_performance_management)
+- [Log Management](https://en.wikipedia.org/wiki/Log_management) 
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+- [Laravel Monitoring](https://laravel.com/docs/monitoring)
+- [Application Monitoring](https://en.wikipedia.org/wiki/Application_performance_management)
+- [Log Management](https://en.wikipedia.org/wiki/Log_management) 
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> 125a2c2b8 (.)
