@@ -10,6 +10,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -30,6 +31,8 @@
 >>>>>>> 36ac4fc1 (.)
 =======
 >>>>>>> fd1fcc4c (.)
+=======
+>>>>>>> 4f3927d7 (.)
 # Risoluzione Conflitti RecordNotification.php
 
 ## Contesto del Conflitto
@@ -113,6 +116,7 @@ Verificare che:
 <<<<<<< HEAD
 - [Root Conflict Resolution Guidelines](../../../project_docs/conflict-resolution-guidelines.md)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -405,3 +409,8 @@ Verificare che:
 
 *Ultimo aggiornamento: giugno 2025*
 >>>>>>> fd1fcc4c (.)
+=======
+- [Root Conflict Resolution Guidelines](../../../docs/conflict-resolution-guidelines.md)
+
+*Ultimo aggiornamento: giugno 2025*
+>>>>>>> 4f3927d7 (.)
