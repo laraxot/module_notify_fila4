@@ -180,14 +180,14 @@ final class NotificationLog extends BaseModel
     protected function casts(): array
     {
         return [
-        'data' => 'array',
-        'channels' => 'array',
-        'sent_at' => 'datetime',
-        'delivered_at' => 'datetime',
-        'opened_at' => 'datetime',
-        'clicked_at' => 'datetime',
-        'status' => NotificationLogStatusEnum::class,
-    ];
+            'data' => 'array',
+            'channels' => 'array',
+            'sent_at' => 'datetime',
+            'delivered_at' => 'datetime',
+            'opened_at' => 'datetime',
+            'clicked_at' => 'datetime',
+            'status' => NotificationLogStatusEnum::class,
+        ];
     }
 
     /**
