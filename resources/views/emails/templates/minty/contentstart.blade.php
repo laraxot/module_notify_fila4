@@ -114,6 +114,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -339,6 +340,8 @@
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 1375c94d (rebase 210)
+=======
+>>>>>>> 48830c88 (rebase 210)
 <?php
 
 declare(strict_types=1);
@@ -937,8 +940,11 @@ class="block">
 >>>>>>> 703bb892 (rebase 210)
 =======
 <div class="block">
+<<<<<<< HEAD
 >>>>>>> 518c702 (.)
 >>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 48830c88 (rebase 210)
 	<!-- Full + text -->
 	<table width="100%" bgcolor="#f6f4f5" cellpadding="0" cellspacing="0" border="0" id="backgroundTable" st-sortable="fullimage">
 		<tbody>
@@ -1071,6 +1077,7 @@ class="block">
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1635,3 +1642,6 @@ class="block">
 >>>>>>> 703bb892 (rebase 210)
 =======
 >>>>>>> eb62d6cf (rebase 210)
+=======
+								<tbody>
+>>>>>>> 48830c88 (rebase 210)
