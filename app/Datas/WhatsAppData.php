@@ -389,5 +389,6 @@ class WhatsAppData extends Data
 >>>>>>> f1c9518b (.)
 >>>>>>> cf20697a6 (.)
         public string $type = 'text',
-    ) {}
+    ) {
+    }
 }

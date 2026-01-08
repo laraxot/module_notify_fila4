@@ -21,7 +21,8 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
      */
     public function __construct(
         private readonly array $notificationData,
-    ) {}
+    ) {
+    }
 
     public function envelope(): Envelope
     {
