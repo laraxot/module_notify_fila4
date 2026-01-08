@@ -179,10 +179,6 @@
 >>>>>>> 9725cc0a0 (.)
 declare(strict_types=1);
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 99ff506 (.)
 return [
     'fields' => [
         'mailable' => [
@@ -207,10 +203,6 @@ return [
         ],
         'cancel' => [
             'label' => 'cancel',
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> ab15d0e (.)
             'tooltip' => 'cancel',
         ],
         'logout' => [
@@ -222,11 +214,6 @@ return [
             'tooltip' => 'profile',
             'icon' => 'profile',
             'label' => 'profile',
-<<<<<<< HEAD
-=======
->>>>>>> 99ff506 (.)
-=======
->>>>>>> ab15d0e (.)
         ],
     ],
 ];

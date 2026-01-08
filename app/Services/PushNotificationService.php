@@ -2,15 +2,7 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 namespace Modules\Notify\Services;
-=======
-namespace Modules\Notify\App\Services;
->>>>>>> 05bc3ad (.)
-=======
-namespace Modules\Notify\Services;
->>>>>>> e6c7fb3 (.)
 
 use GuzzleHttp\Promise\PromiseInterface;
 use Illuminate\Http\Client\Response;
@@ -557,16 +549,3 @@ class PushNotificationService
         ];
     }
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-
-
-<<<<<<< HEAD
->>>>>>> 05bc3ad (.)
-=======
-
->>>>>>> 6fb15fa (.)
-=======
->>>>>>> d2c515f (.)

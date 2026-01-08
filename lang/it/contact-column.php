@@ -381,13 +381,9 @@ declare(strict_types=1);
 >>>>>>> efb0f8d9 (rebase 210)
 >>>>>>> 9725cc0a0 (.)
  * @author Laraxot Team
-<<<<<<< HEAD
  *
  * @version 1.0
  *
-=======
- * @version 1.0
->>>>>>> 99ff506 (.)
  * @since 2025-08-01
  */
 return [

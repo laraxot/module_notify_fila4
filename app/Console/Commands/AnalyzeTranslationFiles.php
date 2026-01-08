@@ -76,24 +76,15 @@ class AnalyzeTranslationFiles extends Command
                 $filePath = $file->getPathname();
 
                 // Skip non-PHP files
-<<<<<<< HEAD
                 if (! str_ends_with($filename, '.php')) {
-=======
-                if (!str_ends_with($filename, '.php')) {
->>>>>>> 99ff506 (.)
                     continue;
                 }
 
                 $translations = require $filePath;
 
-<<<<<<< HEAD
                 if (! is_array($translations)) {
                     $this->warn("File {$lang}/{$filename} does not return an array.");
 
-=======
-                if (!is_array($translations)) {
-                    $this->warn("File {$lang}/{$filename} does not return an array.");
->>>>>>> 99ff506 (.)
                     continue;
                 }
 
@@ -166,11 +157,7 @@ class AnalyzeTranslationFiles extends Command
             $patterns[$pattern][] = $file;
         }
 
-<<<<<<< HEAD
         $this->info('Found '.count($patterns).' different structure patterns:');
-=======
-        $this->info('Found ' . count($patterns) . ' different structure patterns:');
->>>>>>> 99ff506 (.)
 
         $table = new Table($this->output);
         $table->setHeaders(['Pattern', 'Files']);
@@ -382,20 +369,12 @@ class AnalyzeTranslationFiles extends Command
             }
         }
 
-<<<<<<< HEAD
         $this->info('Files with send_ prefix ('.count($sendFiles).'):');
-=======
-        $this->info('Files with send_ prefix (' . count($sendFiles) . '):');
->>>>>>> 99ff506 (.)
         foreach ($sendFiles as $file) {
             $this->line(" - {$file}");
         }
 
-<<<<<<< HEAD
         $this->info('Resource files ('.count($resourceFiles).'):');
-=======
-        $this->info('Resource files (' . count($resourceFiles) . '):');
->>>>>>> 99ff506 (.)
         foreach ($resourceFiles as $file) {
             $this->line(" - {$file}");
         }
@@ -529,22 +508,14 @@ class AnalyzeTranslationFiles extends Command
                 }
             }
 
-<<<<<<< HEAD
             if (! empty($navigationKeys)) {
-=======
-            if (!empty($navigationKeys)) {
->>>>>>> 99ff506 (.)
                 sort($navigationKeys);
                 $structure = implode(',', $navigationKeys);
                 $navigationStructures[$structure][] = $file;
             }
         }
 
-<<<<<<< HEAD
         $this->info('Found '.count($navigationStructures).' different navigation structures:');
-=======
-        $this->info('Found ' . count($navigationStructures) . ' different navigation structures:');
->>>>>>> 99ff506 (.)
 
         $table = new Table($this->output);
         $table->setHeaders(['Structure', 'Files']);

@@ -179,10 +179,6 @@
 >>>>>>> 9725cc0a0 (.)
 declare(strict_types=1);
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 99ff506 (.)
 return [
     'actions' => [
         'delete' => [

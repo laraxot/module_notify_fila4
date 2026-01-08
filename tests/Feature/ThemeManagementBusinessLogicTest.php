@@ -2,28 +2,16 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
 use Modules\Notify\Helpers\ConfigHelper;
 use Modules\Notify\Models\Theme;
-=======
-use Modules\Notify\Models\Theme;
-use Modules\Notify\Helpers\ConfigHelper;
->>>>>>> 99ff506 (.)
 
 describe('Theme Management Business Logic', function () {
     it('can create theme with basic information', function () {
         $testData = ConfigHelper::getTestData();
-<<<<<<< HEAD
 
         $themeData = [
             'name' => $testData['theme_name'] ?? (config('app.name', 'Our Platform').' Professional'),
             'description' => $testData['theme_description'] ?? ('Tema professionale per '.config('app.name', 'Our Platform')),
-=======
-        
-        $themeData = [
-            'name' => $testData['theme_name'] ?? (config('app.name', 'Our Platform') . ' Professional'),
-            'description' => $testData['theme_description'] ?? ('Tema professionale per ' . config('app.name', 'Our Platform')),
->>>>>>> 99ff506 (.)
             'version' => '1.0.0',
             'is_active' => true,
         ];
@@ -329,50 +317,14 @@ describe('Theme Management Business Logic', function () {
         $testData = ConfigHelper::getTestData();
         $theme = Theme::factory()->create();
         $metadata = [
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-            /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
->>>>>>> 05bc3ad (.)
-=======
->>>>>>> ab15d0e (.)
-=======
-            /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
->>>>>>> c42c734 (.)
-=======
->>>>>>> 625ad07 (.)
             'author' => $testData['team_name'] ?? ('Team '.config('app.name', 'Our Platform')),
-=======
-            'author' => $testData['team_name'] ?? ('Team ' . config('app.name', 'Our Platform')),
->>>>>>> 99ff506 (.)
             'created_date' => '2024-01-15',
             'last_modified' => '2024-12-01',
             'tags' => ['professional', 'healthcare', 'modern'],
             'category' => 'business',
             'compatibility' => ['Laravel 10', 'PHP 8.2+'],
             'license' => 'MIT',
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-            /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
->>>>>>> 05bc3ad (.)
-=======
->>>>>>> ab15d0e (.)
-=======
-            /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
->>>>>>> c42c734 (.)
-=======
->>>>>>> 625ad07 (.)
             'repository' => $testData['repository_url'] ?? ('https://github.com/'.strtolower(config('app.name', 'ourplatform')).'/themes'),
-=======
-            'repository' => $testData['repository_url'] ?? ('https://github.com/' . strtolower(config('app.name', 'ourplatform')) . '/themes'),
->>>>>>> 99ff506 (.)
         ];
 
         $theme->update(['metadata' => $metadata]);
@@ -465,33 +417,8 @@ describe('Theme Management Business Logic', function () {
         ]);
     });
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    it('can search themes by category', function (): void {
-        /** @var \Illuminate\Database\Eloquent\Collection */
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $businessTheme = Theme::factory()->create([
-<<<<<<< HEAD
-=======
-        $businessTheme = Theme/** @phpstan-ignore-line */ ::factory()->create([
->>>>>>> 6fb15fa (.)
-=======
-    it('can search themes by category', function () {
-=======
-    it('can search themes by category', function (): void {
-        /** @var \Illuminate\Database\Eloquent\Collection */
->>>>>>> c42c734 (.)
-        $businessTheme = Theme::factory()->create([
->>>>>>> ab15d0e (.)
-=======
-        $businessTheme = Theme/** @phpstan-ignore-line */ ::factory()->create([
->>>>>>> 1f80445 (.)
-=======
     it('can search themes by category', function () {
         $businessTheme = Theme::factory()->create([
->>>>>>> 625ad07 (.)
             'metadata' => ['category' => 'business'],
         ]);
         $healthcareTheme = Theme::factory()->create([
@@ -499,15 +426,6 @@ describe('Theme Management Business Logic', function () {
         ]);
         $modernTheme = Theme::factory()->create([
             'metadata' => ['category' => 'modern'],
-=======
-            'metadata' => ['category' => 'business']
-        ]);
-        $healthcareTheme = Theme::factory()->create([
-            'metadata' => ['category' => 'healthcare']
-        ]);
-        $modernTheme = Theme::factory()->create([
-            'metadata' => ['category' => 'modern']
->>>>>>> 99ff506 (.)
         ]);
 
         $businessThemes = Theme::whereJsonContains('metadata->category', 'business')->get();
@@ -519,43 +437,12 @@ describe('Theme Management Business Logic', function () {
             ->and($healthcareThemes->contains($healthcareTheme))->toBeTrue();
     });
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    it('can search themes by tags', function (): void {
-        /** @var \Illuminate\Database\Eloquent\Collection */
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $professionalTheme = Theme::factory()->create([
-<<<<<<< HEAD
-=======
-        $professionalTheme = Theme/** @phpstan-ignore-line */ ::factory()->create([
->>>>>>> 6fb15fa (.)
-=======
-    it('can search themes by tags', function () {
-=======
-    it('can search themes by tags', function (): void {
-        /** @var \Illuminate\Database\Eloquent\Collection */
->>>>>>> c42c734 (.)
-        $professionalTheme = Theme::factory()->create([
->>>>>>> ab15d0e (.)
-=======
-        $professionalTheme = Theme/** @phpstan-ignore-line */ ::factory()->create([
->>>>>>> 1f80445 (.)
-=======
     it('can search themes by tags', function () {
         $professionalTheme = Theme::factory()->create([
->>>>>>> 625ad07 (.)
             'metadata' => ['tags' => ['professional', 'business']],
         ]);
         $modernTheme = Theme::factory()->create([
             'metadata' => ['tags' => ['modern', 'clean']],
-=======
-            'metadata' => ['tags' => ['professional', 'business']]
-        ]);
-        $modernTheme = Theme::factory()->create([
-            'metadata' => ['tags' => ['modern', 'clean']]
->>>>>>> 99ff506 (.)
         ]);
 
         $professionalThemes = Theme::whereJsonContains('metadata->tags', 'professional')->get();
