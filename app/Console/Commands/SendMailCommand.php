@@ -5,8 +5,17 @@ declare(strict_types=1);
 namespace Modules\Notify\Console\Commands;
 
 use Illuminate\Console\Command;
+<<<<<<< HEAD
 use Modules\Notify\Datas\EmailData;
 use Modules\Notify\Datas\SmtpData;
+=======
+use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Notification;
+use Modules\Notify\Datas\EmailData;
+use Modules\Notify\Datas\SmtpData;
+use Modules\Notify\Emails\EmailDataEmail;
+use Modules\Notify\Notifications\EmailDataNotification;
+>>>>>>> 8bc2fc9f (first)
 use Webmozart\Assert\Assert;
 
 class SendMailCommand extends Command
