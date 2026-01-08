@@ -529,7 +529,7 @@ class ContactColumn extends ViewColumn
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
             ->label(__('notify::columns.contact.label'))
-            ->searchable(ContactTypeEnum::getSearchable())
+            ->searchable()
             ->sortable(false)
             ->toggleable(isToggledHiddenByDefault: false);
     }

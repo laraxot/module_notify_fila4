@@ -483,7 +483,7 @@ declare(strict_types=1);
 
 @section('content')
 
-    @include('notify::emails.templates.minty.contentStart')
+    @include('notify::emails.templates.minty.content-start')
     <tr>
         <td class="paragraph">
             {!! $html !!}
@@ -532,6 +532,6 @@ declare(strict_types=1);
     <tr>
         <td width="100%" height="25"></td>
     </tr> --}}
-    @include('notify::emails.templates.minty.contentEnd')
+    @include('notify::emails.templates.minty.content-end')
 
 @stop

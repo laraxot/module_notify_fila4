@@ -80,6 +80,7 @@ use Illuminate\Queue\SerializesModels;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e39a6f9 (.)
 =======
@@ -91,6 +92,9 @@ use Illuminate\Queue\SerializesModels;
 =======
 // use Modules\SaluteOra\Models\Appointment;
 >>>>>>> e6c7fb3 (.)
+=======
+// use Modules\<nome progetto>\Models\Appointment;
+>>>>>>> 6a92a74 (.)
 
 class AppointmentNotificationMail extends Mailable implements ShouldQueue
 {
@@ -189,6 +193,7 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 >>>>>>> 05bc3ad (.)
 =======
         if (is_object($appointment) && isset($appointment->id) && $appointment->id) {
+<<<<<<< HEAD
             $subject .= ' #'.$appointment->id;
 >>>>>>> ab15d0e (.)
 =======
@@ -199,6 +204,10 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
         if (is_object($appointment) && isset($appointment->id) && $appointment->id) {
             $subject .= ' #'.$appointment->id;
 >>>>>>> e6c7fb3 (.)
+=======
+            $appointmentId = is_int($appointment->id) || is_string($appointment->id) ? $appointment->id : (string) $appointment->id;
+            $subject .= ' #'.$appointmentId;
+>>>>>>> 6a92a74 (.)
         }
 
 =======
