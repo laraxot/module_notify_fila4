@@ -60,12 +60,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 77edd94a (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 75179b85 (.)
@@ -477,12 +480,18 @@
 =======
 =======
 >>>>>>> b94a5f6 (.)
+<<<<<<< HEAD
 >>>>>>> d45a0226 (.)
+=======
+=======
+>>>>>>> 3962ad4 (.)
+>>>>>>> 77edd94a (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -796,6 +805,12 @@ declare(strict_types=1);
 =======
 =======
 >>>>>>> d45a0226 (.)
+=======
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3962ad4 (.)
+>>>>>>> 77edd94a (.)
 <tr>
 =======
 <<<<<<< HEAD
@@ -889,6 +904,11 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+					<div class="article-content" align="left">
+=======
+>>>>>>> 77edd94a (.)
 <<<<<<< HEAD
 =======
 					<div class="article-content" align="left">
@@ -1474,4 +1494,13 @@ declare(strict_types=1);
 =======
 					<div class="article-content" align="left">
 >>>>>>> b94a5f6 (.)
+<<<<<<< HEAD
 >>>>>>> d45a0226 (.)
+=======
+=======
+					<div class="article-content" align="left">
+=======
+					<div class="article-content" align="left">
+>>>>>>> b19cd40 (.)
+>>>>>>> 3962ad4 (.)
+>>>>>>> 77edd94a (.)
