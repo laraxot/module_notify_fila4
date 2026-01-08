@@ -53,10 +53,6 @@ namespace Modules\Notify\Filament\Resources\NotifyThemeResource\RelationManagers
 use Override;
 >>>>>>> c0f3d67cc (.)
 use Filament\Forms\Components\TextInput;
-<<<<<<< HEAD
-=======
-use Filament\Schemas\Schema;
->>>>>>> b8140d8 (.)
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 =======
 <<<<<<< HEAD
