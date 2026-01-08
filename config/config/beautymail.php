@@ -64,6 +64,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1869,11 +1870,29 @@ return [
 >>>>>>> 2fdda20 (.)
 >>>>>>> 69fa7d37 (.)
 =======
+=======
+>>>>>>> 677a6ab7 (.)
     'css' => [
         '.button-content .button { background: red }',
     ],
     */
+<<<<<<< HEAD
 >>>>>>> fbed41ac (.)
+=======
+=======
+<<<<<<< HEAD
+     * 'css' => [
+     * '.button-content .button { background: red }',
+     * ],
+     */
+=======
+        'css' => [
+            '.button-content .button { background: red }',
+        ],
+    */
+>>>>>>> 0db165c (.)
+>>>>>>> 4ad63a5 (.)
+>>>>>>> 677a6ab7 (.)
 
     'colors' => [
         'highlight' => '#004ca3',
@@ -2014,6 +2033,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -2476,8 +2496,14 @@ return [
 =======
 =======
 
+=======
+<<<<<<< HEAD
+>>>>>>> 677a6ab7 (.)
+=======
+
 >>>>>>> 0db165c (.)
 >>>>>>> 4ad63a5 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d13ead25 (.)
 =======
@@ -2962,6 +2988,8 @@ return [
 =======
 
 >>>>>>> fbed41ac (.)
+=======
+>>>>>>> 677a6ab7 (.)
     'view' => [
         'senderName' => null,
         'reminder' => null,
@@ -3102,6 +3130,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -3564,8 +3593,14 @@ return [
 =======
 =======
 
+=======
+<<<<<<< HEAD
+>>>>>>> 677a6ab7 (.)
+=======
+
 >>>>>>> 0db165c (.)
 >>>>>>> 4ad63a5 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d13ead25 (.)
 =======
@@ -4050,6 +4085,8 @@ return [
 =======
 
 >>>>>>> fbed41ac (.)
+=======
+>>>>>>> 677a6ab7 (.)
         'logo' => [
             'path' => '%PUBLIC%/vendor/beautymail/assets/images/sunny/logo.png',
             'width' => '',
@@ -4190,6 +4227,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -4652,8 +4690,14 @@ return [
 =======
 =======
 
+=======
+<<<<<<< HEAD
+>>>>>>> 677a6ab7 (.)
+=======
+
 >>>>>>> 0db165c (.)
 >>>>>>> 4ad63a5 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d13ead25 (.)
 =======
@@ -5138,6 +5182,8 @@ return [
 =======
 
 >>>>>>> fbed41ac (.)
+=======
+>>>>>>> 677a6ab7 (.)
         'twitter' => null,
         'facebook' => null,
         'flickr' => null,
