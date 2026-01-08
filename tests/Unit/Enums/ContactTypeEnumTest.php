@@ -190,6 +190,7 @@ it('each case has a unique value', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -261,6 +262,8 @@ it('each case has a unique value', function (): void {
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
         $values = array_map(fn ($case) => $case->value, ContactTypeEnum::cases());
 =======
         $values = array_map(fn($case) => $case->value, ContactTypeEnum::cases());
@@ -285,7 +288,13 @@ it('each case has a unique value', function (): void {
         $values = array_map(fn($case) => $case->value, ContactTypeEnum::cases());
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+<<<<<<< HEAD
 >>>>>>> 4d2eb53e (.)
+=======
+=======
+        $values = array_map(fn($case) => $case->value, ContactTypeEnum::cases());
+>>>>>>> e11621f (.)
+>>>>>>> 888799d0 (.)
         $uniqueValues = array_unique($values);
 
         $this->assertCount(count($values), $uniqueValues, 'All enum cases should have unique values');
