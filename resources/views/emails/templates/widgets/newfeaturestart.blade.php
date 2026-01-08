@@ -94,6 +94,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -282,6 +283,8 @@
 >>>>>>> 84082535 (rebase 210)
 =======
 >>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> fcaebc79 (rebase 210)
 <?php
 
 declare(strict_types=1);
@@ -473,6 +476,7 @@ declare(strict_types=1);
 =======
 >>>>>>> 84082535 (rebase 210)
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -786,6 +790,8 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> bf479cc (.)
 >>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> fcaebc79 (rebase 210)
 	<tr>
 		<td bgcolor="{{ isset($color) ? $color : '#85bdad' }}" nowrap>
 			<img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="5" height="1">
@@ -893,6 +899,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1367,3 +1374,6 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 					<td bgcolor="#ffffff" class="contentblock">
 >>>>>>> bf479cc (.)
 >>>>>>> 3d462363 (rebase 210)
+=======
+					<td bgcolor="#ffffff" class="contentblock">
+>>>>>>> fcaebc79 (rebase 210)
