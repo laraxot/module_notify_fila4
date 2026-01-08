@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Jobs;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use Throwable;
@@ -15,6 +16,15 @@ use Throwable;
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> c0f3d67cc (.)
+=======
+use Throwable;
+=======
+<<<<<<< HEAD
+=======
+use Throwable;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Database\Eloquent\Model;
@@ -22,7 +32,17 @@ use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
 use Modules\Notify\Actions\SendNotificationAction;
+<<<<<<< HEAD
 use Throwable;
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+use Throwable;
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
 
 class SendNotificationJob implements ShouldQueue
 {
@@ -48,11 +68,53 @@ class SendNotificationJob implements ShouldQueue
     /**
      * Crea una nuova istanza del job.
      *
+<<<<<<< HEAD
      * @param  Model  $recipient  Il destinatario della notifica
      * @param  string  $templateCode  Il codice del template da utilizzare
      * @param  array<string, mixed>  $data  I dati per compilare il template
      * @param  array<int, string>  $channels  I canali da utilizzare
      * @param  array<string, mixed>  $options  Opzioni aggiuntive per l'invio
+=======
+<<<<<<< HEAD
+     * @param Model $recipient Il destinatario della notifica
+     * @param string $templateCode Il codice del template da utilizzare
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @param array<string, mixed> $data I dati per compilare il template
+     * @param array<int, string> $channels I canali da utilizzare
+     * @param array<string, mixed> $options Opzioni aggiuntive per l'invio
+=======
+     * @param array $data I dati per compilare il template
+     * @param array $channels I canali da utilizzare
+     * @param array $options Opzioni aggiuntive per l'invio
+>>>>>>> 75179b85 (.)
+=======
+     * @param array $data I dati per compilare il template
+     * @param array $channels I canali da utilizzare
+     * @param array $options Opzioni aggiuntive per l'invio
+>>>>>>> 75179b85 (.)
+=======
+     * @param array $data I dati per compilare il template
+     * @param array $channels I canali da utilizzare
+     * @param array $options Opzioni aggiuntive per l'invio
+>>>>>>> 75179b85 (.)
+=======
+<<<<<<< HEAD
+     * @param  Model  $recipient  Il destinatario della notifica
+     * @param  string  $templateCode  Il codice del template da utilizzare
+     * @param  array  $data  I dati per compilare il template
+     * @param  array  $channels  I canali da utilizzare
+     * @param  array  $options  Opzioni aggiuntive per l'invio
+=======
+     * @param Model $recipient Il destinatario della notifica
+     * @param string $templateCode Il codice del template da utilizzare
+     * @param array $data I dati per compilare il template
+     * @param array $channels I canali da utilizzare
+     * @param array $options Opzioni aggiuntive per l'invio
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
      */
     public function __construct(
         protected Model $recipient,
@@ -424,7 +486,10 @@ class SendNotificationJob implements ShouldQueue
     /**
      * Gestisce un fallimento del job.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> cf20697a6 (.)
      *
 <<<<<<< HEAD
 =======
@@ -432,7 +497,18 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> d284d65 (.)
      * @param Throwable $exception
      * @return void
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+     *
+     * @param Throwable $exception
+     * @return void
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
      */
     public function failed(Throwable $exception): void
 <<<<<<< HEAD

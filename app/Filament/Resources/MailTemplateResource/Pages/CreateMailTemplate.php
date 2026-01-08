@@ -68,8 +68,41 @@
 >>>>>>> c0f3d67cc (.)
 declare(strict_types=1);
 
+<<<<<<< HEAD
 namespace Modules\Notify\Filament\Resources\MailTemplateResource\Pages;
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+namespace Modules\Notify\Filament\Resources\MailTemplateResource\Pages;
+
+=======
+=======
+declare(strict_types=1);
+
+>>>>>>> 75179b85 (.)
+=======
+declare(strict_types=1);
+
+>>>>>>> 75179b85 (.)
+
+namespace Modules\Notify\Filament\Resources\MailTemplateResource\Pages;
+
+use Filament\Actions;
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+namespace Modules\Notify\Filament\Resources\MailTemplateResource\Pages;
+
+=======
+
+namespace Modules\Notify\Filament\Resources\MailTemplateResource\Pages;
+
+use Filament\Actions;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
 use Modules\Lang\Filament\Resources\Pages\LangBaseCreateRecord;
 use Modules\Notify\Filament\Resources\MailTemplateResource;
 <<<<<<< HEAD

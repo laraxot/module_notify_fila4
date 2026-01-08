@@ -16,7 +16,21 @@ class ConfigHelper
     /**
      * Sostituisce le variabili template nei dati di configurazione.
      *
+<<<<<<< HEAD
      * @param  array<string, mixed>  $data
+=======
+<<<<<<< HEAD
+     * @param array<string, mixed> $data
+     *
+=======
+<<<<<<< HEAD
+     * @param  array<string, mixed>  $data
+=======
+     * @param array<string, mixed> $data
+     *
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
      * @return array<string, mixed>
      */
     public static function replaceTemplateVariables(array $data): array
@@ -37,8 +51,25 @@ class ConfigHelper
     /**
      * Sostituisce ricorsivamente le variabili template in un array.
      *
+<<<<<<< HEAD
      * @param  array<string, mixed>  $data
      * @param  array<string, mixed>  $variables
+=======
+<<<<<<< HEAD
+     * @param array<string, mixed> $data
+     * @param array<string, mixed> $variables
+     *
+=======
+<<<<<<< HEAD
+     * @param  array<string, mixed>  $data
+     * @param  array<string, mixed>  $variables
+=======
+     * @param array<string, mixed> $data
+     * @param array<string, mixed> $variables
+     *
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
      * @return array<string, mixed>
      */
     private static function recursiveReplace(array $data, array $variables): array
@@ -62,7 +93,19 @@ class ConfigHelper
     /**
      * Sostituisce le variabili template in una stringa.
      *
+<<<<<<< HEAD
      * @param  array<string, mixed>  $variables
+=======
+<<<<<<< HEAD
+     * @param array<string, mixed> $variables
+=======
+<<<<<<< HEAD
+     * @param  array<string, mixed>  $variables
+=======
+     * @param array<string, mixed> $variables
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
      */
     private static function replaceStringVariables(string $string, array $variables): string
     {
@@ -70,6 +113,7 @@ class ConfigHelper
 <<<<<<< HEAD
             $placeholder = '{{'.$variable.'}}';
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -181,7 +225,19 @@ class ConfigHelper
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+            $placeholder = '{{' . $variable . '}}';
+>>>>>>> 2941b0bd (.)
+=======
+            $placeholder = '{{'.$variable.'}}';
+=======
+            $placeholder = '{{' . $variable . '}}';
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
             $string = str_replace($placeholder, (string) $value, $string);
         }
 

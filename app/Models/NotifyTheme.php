@@ -21,6 +21,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -108,6 +109,9 @@ use Override;
 >>>>>>> c0f3d67cc (.)
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\NotifyThemeFactory;
+=======
+use Eloquent;
+>>>>>>> f1c9518b (.)
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Contracts\ProfileContract;
 <<<<<<< HEAD
@@ -124,10 +128,30 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Illuminate\Support\Carbon;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> cf20697a6 (.)
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\NotifyThemeFactory;
 use Modules\Xot\Contracts\ProfileContract;
 use Override;
+<<<<<<< HEAD
+=======
+=======
+use Override;
+use Modules\Media\Models\Media;
+use Modules\Notify\Database\Factories\NotifyThemeFactory;
+use Illuminate\Database\Eloquent\Builder;
+use Modules\Xot\Contracts\ProfileContract;
+use Eloquent;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\MorphTo;
+use Illuminate\Support\Carbon;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 
 /**
@@ -160,7 +184,17 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property Model|Eloquent $linkable
  * @property MediaCollection<int, Media> $media
  * @property int|null $media_count
+<<<<<<< HEAD
  *
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+ *
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
  * @method static NotifyThemeFactory factory($count = null, $state = [])
  * @method static Builder|NotifyTheme newModelQuery()
  * @method static Builder|NotifyTheme newQuery()
@@ -184,7 +218,15 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @method static Builder|NotifyTheme whereUpdatedAt($value)
  * @method static Builder|NotifyTheme whereUpdatedBy($value)
  * @method static Builder|NotifyTheme whereViewParams($value)
+<<<<<<< HEAD
  *
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+ *
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
  * @property Carbon|null $deleted_at
@@ -192,6 +234,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  *
  * @method static Builder<static>|NotifyTheme whereDeletedAt($value)
  * @method static Builder<static>|NotifyTheme whereDeletedBy($value)
+<<<<<<< HEAD
 <<<<<<< HEAD
  *
 =======
@@ -234,6 +277,20 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+ *
+=======
+ * @property ProfileContract|null $creator
+ * @property ProfileContract|null $updater
+ * @mixin Eloquent
+ * @property Carbon|null $deleted_at
+ * @property string|null $deleted_by
+ * @method static Builder<static>|NotifyTheme whereDeletedAt($value)
+ * @method static Builder<static>|NotifyTheme whereDeletedBy($value)
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
  * @mixin IdeHelperNotifyTheme
  *
  * @property-read ProfileContract|null $deleter
@@ -344,6 +401,7 @@ class NotifyTheme extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -440,7 +498,19 @@ class NotifyTheme extends BaseModel
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+    public function getLogoAttribute(null|array $value): array
+>>>>>>> 2941b0bd (.)
+=======
+    public function getLogoAttribute(?array $value): array
+=======
+    public function getLogoAttribute(null|array $value): array
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
     {
         return [
             // 'path' => asset(strval($this->logo_src)),

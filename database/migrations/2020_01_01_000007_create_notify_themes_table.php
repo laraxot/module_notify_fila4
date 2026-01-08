@@ -28,6 +28,7 @@ return new class extends XotBaseMigration
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -124,7 +125,20 @@ return new class() extends XotBaseMigration {
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+return new class() extends XotBaseMigration {
+>>>>>>> 2941b0bd (.)
+=======
+return new class extends XotBaseMigration
+{
+=======
+return new class() extends XotBaseMigration {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
     // use XotBaseMigrationTrait;
     /**
      * Run the migrations.
@@ -221,7 +235,53 @@ return new class() extends XotBaseMigration {
 
         // -- UPDATE --
         $this->tableUpdate(function (Blueprint $table): void {
+<<<<<<< HEAD
             if (! $this->hasColumn('from')) {
+=======
+<<<<<<< HEAD
+            if (!$this->hasColumn('from')) {
+=======
+<<<<<<< HEAD
+            if (! $this->hasColumn('from')) {
+>>>>>>> f1c9518b (.)
+                $table->string('from')->nullable();
+            }
+
+            if (!$this->hasColumn('post_type')) {
+                $table->nullableMorphs('post');
+            }
+
+            if (!$this->hasColumn('body_html')) {
+                $table->text('body_html')->nullable();
+            }
+
+            if (!$this->hasColumn('theme')) {
+                $table->string('theme')->nullable();
+            }
+
+            if (!$this->hasColumn('from_email')) {
+                $table->string('from_email')->nullable();
+            }
+
+            if (!$this->hasColumn('logo_src')) {
+                $table->string('logo_src')->nullable();
+            }
+
+            if (!$this->hasColumn('logo_width')) {
+                $table->integer('logo_width')->nullable();
+            }
+
+            if (!$this->hasColumn('logo_height')) {
+                $table->integer('logo_height')->nullable();
+            }
+
+<<<<<<< HEAD
+            if (!$this->hasColumn('view_params')) {
+=======
+            if (! $this->hasColumn('view_params')) {
+=======
+            if (!$this->hasColumn('from')) {
+>>>>>>> cf20697a6 (.)
                 $table->string('from')->nullable();
             }
 
@@ -253,7 +313,13 @@ return new class() extends XotBaseMigration {
                 $table->integer('logo_height')->nullable();
             }
 
+<<<<<<< HEAD
             if (! $this->hasColumn('view_params')) {
+=======
+            if (!$this->hasColumn('view_params')) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
                 $table->json('view_params')->nullable();
             }
             $this->updateTimestamps(

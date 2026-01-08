@@ -60,6 +60,7 @@ use Tests\TestCase;
 uses(TestCase::class, RefreshDatabase::class);
 
 beforeEach(function () {
+<<<<<<< HEAD
     $this->baseModel = new class extends BaseModel {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -174,7 +175,20 @@ beforeEach(function () {
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+>>>>>>> 2941b0bd (.)
+=======
+<<<<<<< HEAD
+    $this->baseModel = new class extends BaseModel
+    {
+=======
+    $this->baseModel = new class extends BaseModel {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
         protected $table = 'test_notify_table';
     };
 });

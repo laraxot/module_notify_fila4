@@ -40,6 +40,7 @@ declare(strict_types=1);
 >>>>>>> c0f3d67cc (.)
 declare(strict_types=1);
 
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -158,6 +159,23 @@ declare(strict_types=1);
 namespace Modules\Notify\Datas;
 
 use Spatie\LaravelData\Data;
+<<<<<<< HEAD
+=======
+use Spatie\LaravelData\Optional;
+=======
+<<<<<<< HEAD
+namespace Modules\Notify\Datas;
+
+use Spatie\LaravelData\Data;
+=======
+
+namespace Modules\Notify\Datas;
+
+use Spatie\LaravelData\Data;
+use Spatie\LaravelData\Optional;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
 
 class NetfunSmsData extends Data
 {
@@ -169,6 +187,7 @@ class NetfunSmsData extends Data
         public ?string $reference = null,
         public ?string $scheduledDate = null,
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -294,6 +313,21 @@ class NetfunSmsData extends Data
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+        public null|string $reference = null,
+        public null|string $scheduledDate = null,
+>>>>>>> 2941b0bd (.)
+=======
+        public ?string $reference = null,
+        public ?string $scheduledDate = null,
+=======
+        public null|string $reference = null,
+        public null|string $scheduledDate = null,
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
     ) {}
 }

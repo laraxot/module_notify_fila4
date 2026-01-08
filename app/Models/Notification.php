@@ -77,6 +77,14 @@
 >>>>>>> c0f3d67cc (.)
 declare(strict_types=1);
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
 namespace Modules\Notify\Models;
 
 <<<<<<< HEAD
@@ -101,7 +109,11 @@ use Override;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+<<<<<<< HEAD
+>>>>>>> cf20697a6 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -176,7 +188,19 @@ namespace Modules\Notify\Models;
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+>>>>>>> 2941b0bd (.)
+=======
+=======
+
+namespace Modules\Notify\Models;
+
+use Override;
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
 use Illuminate\Support\Carbon;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Database\Factories\NotificationFactory;
@@ -197,7 +221,14 @@ namespace Modules\Notify\Models;
 >>>>>>> d284d65 (.)
 >>>>>>> c0f3d67cc (.)
 use Modules\Xot\Models\BaseModel;
+<<<<<<< HEAD
 use Override;
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
 
 /**
  * Notification model for the Notify module.
@@ -240,9 +271,21 @@ use Override;
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
  * @property Carbon|null $sent_at
+<<<<<<< HEAD
  * @property-read ProfileContract|null $creator
  * @property-read ProfileContract|null $updater
  *
+=======
+ * @property-read Model|null $creator
+ * @property-read Model|null $updater
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+ *
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
  * @method static NotificationFactory factory($count = null, $state = [])
  * @method static Builder<static>|Notification newModelQuery()
  * @method static Builder<static>|Notification newQuery()
@@ -259,6 +302,7 @@ use Override;
  * @method static Builder<static>|Notification whereType($value)
  * @method static Builder<static>|Notification whereUpdatedAt($value)
  * @method static Builder<static>|Notification whereUpdatedBy($value)
+<<<<<<< HEAD
 <<<<<<< HEAD
  *
 =======
@@ -287,6 +331,14 @@ use Override;
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+<<<<<<< HEAD
+ *
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
  * @mixin IdeHelperNotification
  *
  * @property-read ProfileContract|null $deleter

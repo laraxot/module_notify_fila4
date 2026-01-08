@@ -379,6 +379,7 @@ class TelegramChannel
     /**
      * Invia la notifica attraverso il canale Telegram.
      *
+<<<<<<< HEAD
      * @param mixed $notifiable Entità che riceve la notifica
 <<<<<<< HEAD
 =======
@@ -387,7 +388,22 @@ class TelegramChannel
      * @param Notification $notification Notifica da inviare
 >>>>>>> c0f3d67cc (.)
      * @return array|null Risultato dell'operazione o null in caso di errore
+<<<<<<< HEAD
      *
+=======
+=======
+<<<<<<< HEAD
+     * @param  mixed  $notifiable  Entità che riceve la notifica
+     * @param  Notification  $notification  Notifica da inviare
+     * @return array|null Risultato dell'operazione o null in caso di errore
+     *
+=======
+     * @param mixed $notifiable Entità che riceve la notifica
+     * @param Notification $notification Notifica da inviare
+     * @return array|null Risultato dell'operazione o null in caso di errore
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
      * @throws Exception Se la notifica non ha il metodo toTelegram o il driver non è supportato
      */
     public function send($notifiable, Notification $notification)
@@ -395,6 +411,7 @@ class TelegramChannel
 <<<<<<< HEAD
         if (! method_exists($notification, 'toTelegram')) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -511,7 +528,19 @@ class TelegramChannel
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+        if (!method_exists($notification, 'toTelegram')) {
+>>>>>>> 2941b0bd (.)
+=======
+        if (! method_exists($notification, 'toTelegram')) {
+=======
+        if (!method_exists($notification, 'toTelegram')) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
             throw new Exception('Notification does not have toTelegram method');
         }
 
@@ -587,7 +616,19 @@ class TelegramChannel
 >>>>>>> 4689a827 (.)
 >>>>>>> c0f3d67cc (.)
 
+<<<<<<< HEAD
         if (! ($telegramData instanceof TelegramData)) {
+=======
+<<<<<<< HEAD
+        if (!($telegramData instanceof TelegramData)) {
+=======
+<<<<<<< HEAD
+        if (! ($telegramData instanceof TelegramData)) {
+=======
+        if (!($telegramData instanceof TelegramData)) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
             throw new Exception('toTelegram method must return an instance of TelegramData');
         }
 

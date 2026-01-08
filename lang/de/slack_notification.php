@@ -40,6 +40,7 @@ declare(strict_types=1);
 >>>>>>> c0f3d67cc (.)
 declare(strict_types=1);
 
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -154,7 +155,21 @@ declare(strict_types=1);
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 2941b0bd (.)
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
 return [
     'navigation' => [
         'label' => 'Slack Notification',

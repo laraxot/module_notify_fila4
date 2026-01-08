@@ -21,6 +21,7 @@ namespace Modules\Notify\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -108,12 +109,33 @@ use Override;
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+use Override;
+>>>>>>> 2941b0bd (.)
+=======
+=======
+use Override;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
 use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+use Modules\Notify\Filament\Resources\NotifyThemeResource\Pages\CreateNotifyTheme;
+use Modules\Notify\Filament\Resources\NotifyThemeResource\Pages\EditNotifyTheme;
+use Modules\Notify\Filament\Resources\NotifyThemeResource\Pages\ListNotifyThemes;
+=======
+<<<<<<< HEAD
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
 use Modules\Notify\Models\NotifyTheme;
 use Modules\Xot\Filament\Resources\XotBaseResource;
 use Override;
@@ -123,6 +145,7 @@ class NotifyThemeResource extends XotBaseResource
 <<<<<<< HEAD
     protected static ?string $model = NotifyTheme::class;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -191,17 +214,37 @@ class NotifyThemeResource extends XotBaseResource
 >>>>>>> 4689a827 (.)
 >>>>>>> c0f3d67cc (.)
     protected static null|string $model = NotifyTheme::class;
+<<<<<<< HEAD
 >>>>>>> 75cb51873 (.)
+=======
+=======
+    protected static ?string $model = NotifyTheme::class;
+=======
+use Modules\Notify\Filament\Resources\NotifyThemeResource\Pages\CreateNotifyTheme;
+use Modules\Notify\Filament\Resources\NotifyThemeResource\Pages\EditNotifyTheme;
+use Modules\Notify\Filament\Resources\NotifyThemeResource\Pages\ListNotifyThemes;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Xot\Filament\Resources\XotBaseResource;
+
+class NotifyThemeResource extends XotBaseResource
+{
+    protected static null|string $model = NotifyTheme::class;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
 
     #[Override]
     public static function getFormSchema(): array
     {
         return [
 <<<<<<< HEAD
+<<<<<<< HEAD
             'lang' => Select::make('lang')->options(fn (): array => self::fieldOptions('lang')),
             'type' => Select::make('type')->options(fn (): array => self::fieldOptions('type')),
             'post_type' => Select::make('post_type')->options(fn (): array => self::fieldOptions('post_type')),
 =======
+=======
+>>>>>>> cf20697a6 (.)
             'lang' => Select::make('lang')->options(fn(): array => self::fieldOptions('lang')),
             'type' => Select::make('type')->options(fn(): array => self::fieldOptions('type')),
             'post_type' => Select::make('post_type')->options(fn(): array => self::fieldOptions('post_type')),
@@ -328,9 +371,16 @@ class NotifyThemeResource extends XotBaseResource
 >>>>>>> 4689a827 (.)
 >>>>>>> a12f125f4a (.)
 =======
+<<<<<<< HEAD
+            'lang' => Select::make('lang')->options(fn (): array => self::fieldOptions('lang')),
+            'type' => Select::make('type')->options(fn (): array => self::fieldOptions('type')),
+            'post_type' => Select::make('post_type')->options(fn (): array => self::fieldOptions('post_type')),
+>>>>>>> f1c9518b (.)
+=======
             'lang' => Select::make('lang')->options(fn(): array => self::fieldOptions('lang')),
             'type' => Select::make('type')->options(fn(): array => self::fieldOptions('type')),
             'post_type' => Select::make('post_type')->options(fn(): array => self::fieldOptions('post_type')),
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
@@ -369,7 +419,15 @@ class NotifyThemeResource extends XotBaseResource
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
             'post_id' => TextInput::make('post_id'),
             'subject' => TextInput::make('subject'),
             'from' => TextInput::make('from'),

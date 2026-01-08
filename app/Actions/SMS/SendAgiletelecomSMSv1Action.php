@@ -26,6 +26,7 @@ use Override;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -79,6 +80,8 @@ use Override;
 >>>>>>> 4689a827 (.)
 >>>>>>> c0f3d67cc (.)
 use Override;
+=======
+>>>>>>> f1c9518b (.)
 use GuzzleHttp\Client;
 use Illuminate\Support\Facades\Http;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
@@ -214,7 +217,25 @@ use Modules\Notify\Contracts\SMS\SmsActionContract;
 
 /**
  * Azione per l'invio di SMS tramite Agile Telecom.
+<<<<<<< HEAD
  *
+=======
+<<<<<<< HEAD
+=======
+ *
+=======
+use Override;
+use GuzzleHttp\Client;
+use Illuminate\Support\Facades\Http;
+use Modules\Notify\Contracts\SMS\SmsActionContract;
+use Modules\Notify\Datas\SMS\AgiletelecomData;
+use Modules\Notify\Datas\SmsData;
+
+/**
+ * Azione per l'invio di SMS tramite Agile Telecom.
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
  * @see https://account.agiletelecom.com/public/resources/HTTP_POST_IT.pdf
  */
 class SendAgiletelecomSMSv1Action implements SmsActionContract

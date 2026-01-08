@@ -27,6 +27,7 @@ namespace Modules\Notify\Filament\Resources\ContactResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82ae73be (.)
@@ -100,14 +101,40 @@ use Filament\Tables;
 use Override;
 use Filament\Tables;
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> 75cb51873 (.)
+=======
+=======
+=======
+use Override;
+use Filament\Tables;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
 use Filament\Tables\Columns\IconColumn;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\Filter;
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Notify\Filament\Resources\ContactResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
+<<<<<<< HEAD
 use Override;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Override;
+=======
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+>>>>>>> 75179b85 (.)
+=======
+use Override;
+=======
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
 
 <<<<<<< HEAD
 =======
@@ -415,6 +442,7 @@ class ListContacts extends XotBaseListRecords
     {
         return [
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -510,6 +538,16 @@ class ListContacts extends XotBaseListRecords
             'active' => Filter::make('active')->query(fn(Builder $query): Builder => $query->where('active', true)),
             'inactive' => Filter::make('inactive')->query(
                 fn(Builder $query): Builder => $query->where('active', false),
+=======
+            'active' => Filter::make('active')->query(fn (Builder $query): Builder => $query->where('active', true)),
+            'inactive' => Filter::make('inactive')->query(
+                fn (Builder $query): Builder => $query->where('active', false),
+=======
+            'active' => Filter::make('active')->query(fn(Builder $query): Builder => $query->where('active', true)),
+            'inactive' => Filter::make('inactive')->query(
+                fn(Builder $query): Builder => $query->where('active', false),
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
             ),
 >>>>>>> b93ef594b4 (.)
 =======

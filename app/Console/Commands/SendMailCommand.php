@@ -126,8 +126,11 @@ class SendMailCommand extends Command
         // Mail::to($emailData->recipient)->send(new EmailDataEmail($emailData));
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         $this->info('Email sent successfully to '.$emailData->recipient);
 =======
+=======
+>>>>>>> cf20697a6 (.)
         $this->info('Email sent successfully to ' . $emailData->to);
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -256,7 +259,19 @@ class SendMailCommand extends Command
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+>>>>>>> 2941b0bd (.)
+=======
+<<<<<<< HEAD
+        $this->info('Email sent successfully to '.$emailData->to);
+=======
+        $this->info('Email sent successfully to ' . $emailData->to);
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
 
         return Command::SUCCESS;
     }

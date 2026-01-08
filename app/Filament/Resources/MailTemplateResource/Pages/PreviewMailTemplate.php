@@ -193,6 +193,7 @@ class PreviewMailTemplate extends XotBaseResourcePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -246,6 +247,12 @@ class PreviewMailTemplate extends XotBaseResourcePage
 >>>>>>> 4689a827 (.)
 >>>>>>> c0f3d67cc (.)
                 ->url(fn() => MailTemplateResource::getUrl('edit', ['record' => $this->record])),
+=======
+                ->url(fn () => MailTemplateResource::getUrl('edit', ['record' => $this->record])),
+=======
+                ->url(fn() => MailTemplateResource::getUrl('edit', ['record' => $this->record])),
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
         ];
     }
 }

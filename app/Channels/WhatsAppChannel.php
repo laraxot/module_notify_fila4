@@ -379,6 +379,7 @@ class WhatsAppChannel
     /**
      * Invia la notifica attraverso il canale WhatsApp.
      *
+<<<<<<< HEAD
      * @param mixed $notifiable Entità che riceve la notifica
 <<<<<<< HEAD
 =======
@@ -387,7 +388,22 @@ class WhatsAppChannel
      * @param Notification $notification Notifica da inviare
 >>>>>>> c0f3d67cc (.)
      * @return array|null Risultato dell'operazione o null in caso di errore
+<<<<<<< HEAD
      *
+=======
+=======
+<<<<<<< HEAD
+     * @param  mixed  $notifiable  Entità che riceve la notifica
+     * @param  Notification  $notification  Notifica da inviare
+     * @return array|null Risultato dell'operazione o null in caso di errore
+     *
+=======
+     * @param mixed $notifiable Entità che riceve la notifica
+     * @param Notification $notification Notifica da inviare
+     * @return array|null Risultato dell'operazione o null in caso di errore
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
      * @throws Exception Se la notifica non ha il metodo toWhatsApp o il driver non è supportato
      */
     public function send($notifiable, Notification $notification)
@@ -395,6 +411,7 @@ class WhatsAppChannel
 <<<<<<< HEAD
         if (! method_exists($notification, 'toWhatsApp')) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -511,7 +528,19 @@ class WhatsAppChannel
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+        if (!method_exists($notification, 'toWhatsApp')) {
+>>>>>>> 2941b0bd (.)
+=======
+        if (! method_exists($notification, 'toWhatsApp')) {
+=======
+        if (!method_exists($notification, 'toWhatsApp')) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
             throw new Exception('Notification does not have toWhatsApp method');
         }
 
@@ -587,7 +616,19 @@ class WhatsAppChannel
 >>>>>>> 4689a827 (.)
 >>>>>>> c0f3d67cc (.)
 
+<<<<<<< HEAD
         if (! ($whatsAppData instanceof WhatsAppData)) {
+=======
+<<<<<<< HEAD
+        if (!($whatsAppData instanceof WhatsAppData)) {
+=======
+<<<<<<< HEAD
+        if (! ($whatsAppData instanceof WhatsAppData)) {
+=======
+        if (!($whatsAppData instanceof WhatsAppData)) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
             throw new Exception('toWhatsApp method must return an instance of WhatsAppData');
         }
 

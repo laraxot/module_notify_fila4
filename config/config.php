@@ -197,6 +197,7 @@ return [
 =======
 =======
     //'footer_text' => env('MAIL_FOOTER_TEXT', '© ' . date('Y') . ' ' . config('app.name') . '. All rights reserved.'),
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 =======
@@ -261,7 +262,13 @@ return [
     // Footer text for all emails
     //'footer_text' => env('MAIL_FOOTER_TEXT', '© ' . date('Y') . ' ' . config('app.name') . '. All rights reserved.'),
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> 75cb51873 (.)
+=======
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
 
     // Social media links
     'social_links' => [

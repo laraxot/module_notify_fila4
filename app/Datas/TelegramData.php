@@ -129,6 +129,12 @@ use Spatie\LaravelData\Data;
 class TelegramData extends Data
 {
     /**
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> cf20697a6 (.)
      * @param  string  $chatId  ID della chat o username del destinatario (es. 123456789 o @username)
      * @param  string  $text  Contenuto testuale del messaggio
      * @param  string|null  $parseMode  Modalità di parsing del testo ('Markdown', 'MarkdownV2', 'HTML')
@@ -138,12 +144,31 @@ class TelegramData extends Data
      * @param  array|null  $replyMarkup  Markup per tastiere inline, tastiere personalizzate, ecc.
      * @param  array|null  $media  Array di media da allegare al messaggio (immagini, video, documenti)
      * @param  string  $type  Tipo di messaggio: 'text', 'photo', 'video', 'document', 'audio', 'animation'
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> f1c9518b (.)
+     * @param string $chatId ID della chat o username del destinatario (es. 123456789 o @username)
+     * @param string $text Contenuto testuale del messaggio
+     * @param string|null $parseMode Modalità di parsing del testo ('Markdown', 'MarkdownV2', 'HTML')
+     * @param bool $disableWebPagePreview Se disabilitare l'anteprima dei link nel messaggio
+     * @param bool $disableNotification Se inviare il messaggio silenziosamente
+     * @param int|null $replyToMessageId ID del messaggio a cui rispondere
+     * @param array|null $replyMarkup Markup per tastiere inline, tastiere personalizzate, ecc.
+     * @param array|null $media Array di media da allegare al messaggio (immagini, video, documenti)
+     * @param string $type Tipo di messaggio: 'text', 'photo', 'video', 'document', 'audio', 'animation'
+<<<<<<< HEAD
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
      */
     public function __construct(
         public string $chatId,
         public string $text,
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -270,7 +295,12 @@ class TelegramData extends Data
 =======
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
         public ?string $parseMode = null,
         public bool $disableWebPagePreview = false,
         public bool $disableNotification = false,
@@ -279,6 +309,7 @@ class TelegramData extends Data
         public ?array $media = null,
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -306,12 +337,15 @@ class TelegramData extends Data
 >>>>>>> 4689a827 (.)
 >>>>>>> a12f125f4a (.)
 =======
+>>>>>>> f1c9518b (.)
+=======
         public null|string $parseMode = null,
         public bool $disableWebPagePreview = false,
         public bool $disableNotification = false,
         public null|int $replyToMessageId = null,
         public null|array $replyMarkup = null,
         public null|array $media = null,
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
@@ -350,7 +384,15 @@ class TelegramData extends Data
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
         public string $type = 'text',
     ) {}
 }

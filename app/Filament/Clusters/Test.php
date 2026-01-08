@@ -25,6 +25,13 @@ class Test extends Cluster
 <<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
+=======
+<<<<<<< HEAD
+    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-squares-2x2';
+=======
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-squares-2x2';
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD

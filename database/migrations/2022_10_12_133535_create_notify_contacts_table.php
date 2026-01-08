@@ -26,6 +26,7 @@ return new class extends XotBaseMigration
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -136,7 +137,23 @@ return new class() extends XotBaseMigration {
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+return new class() extends XotBaseMigration {
+    protected null|string $model_class = Contact::class;
+>>>>>>> 2941b0bd (.)
+=======
+return new class extends XotBaseMigration
+{
+    protected ?string $model_class = Contact::class;
+=======
+return new class() extends XotBaseMigration {
+    protected null|string $model_class = Contact::class;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
 
     /**
      * Run the migrations.
@@ -228,7 +245,19 @@ return new class() extends XotBaseMigration {
             $table->timestamp('verified_at')->nullable();
         });
         $this->tableUpdate(function (Blueprint $table): void {
+<<<<<<< HEAD
             if (! $this->hasColumn('token')) {
+=======
+<<<<<<< HEAD
+            if (!$this->hasColumn('token')) {
+=======
+<<<<<<< HEAD
+            if (! $this->hasColumn('token')) {
+=======
+            if (!$this->hasColumn('token')) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
                 $table->string('token')->nullable();
 <<<<<<< HEAD
 =======

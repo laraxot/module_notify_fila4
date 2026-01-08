@@ -164,6 +164,7 @@ class NotifyThemeableFactory extends Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -260,7 +261,19 @@ class NotifyThemeableFactory extends Factory
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+        return $this->state(fn(array $_attributes): array => [
+>>>>>>> 2941b0bd (.)
+=======
+        return $this->state(fn (array $_attributes): array => [
+=======
+        return $this->state(fn(array $_attributes): array => [
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
             'themeable_type' => 'Modules\\User\\Models\\User',
         ]);
     }
@@ -270,6 +283,7 @@ class NotifyThemeableFactory extends Factory
 <<<<<<< HEAD
         return $this->state(fn (array $_attributes): array => [
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -338,7 +352,16 @@ class NotifyThemeableFactory extends Factory
 >>>>>>> 4689a827 (.)
 >>>>>>> c0f3d67cc (.)
         return $this->state(fn(array $_attributes): array => [
+<<<<<<< HEAD
 >>>>>>> 75cb51873 (.)
+=======
+=======
+        return $this->state(fn (array $_attributes): array => [
+=======
+        return $this->state(fn(array $_attributes): array => [
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
             'themeable_type' => 'Modules\\User\\Models\\User', // Generic fallback
         ]);
     }

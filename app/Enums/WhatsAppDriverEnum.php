@@ -650,6 +650,7 @@ enum WhatsAppDriverEnum: string
 
     /**
      * Verifica se un driver è supportato
+<<<<<<< HEAD
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -776,6 +777,14 @@ enum WhatsAppDriverEnum: string
 >>>>>>> c0f3d67cc (.)
      * @param string $driver
      * @return bool
+=======
+<<<<<<< HEAD
+=======
+     *
+     * @param string $driver
+     * @return bool
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
      */
     public static function isSupported(string $driver): bool
     {
@@ -858,7 +867,10 @@ enum WhatsAppDriverEnum: string
     /**
      * Restituisce il driver predefinito dal file di configurazione
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> cf20697a6 (.)
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -988,7 +1000,17 @@ enum WhatsAppDriverEnum: string
 >>>>>>> 4689a827 (.)
 >>>>>>> c0f3d67cc (.)
      * @return self
+<<<<<<< HEAD
 >>>>>>> 75cb51873 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+     *
+     * @return self
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
      */
     public static function getDefault(): self
     {

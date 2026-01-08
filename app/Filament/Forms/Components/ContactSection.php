@@ -5,9 +5,16 @@ declare(strict_types=1);
 namespace Modules\Notify\Filament\Forms\Components;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Forms\Components\TextInput;
 =======
 <<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+use Filament\Forms;
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
 use Filament\Schemas\Components\Section;
 >>>>>>> c0f3d67cc (.)
 use Filament\Forms;
@@ -32,6 +39,7 @@ use Modules\Xot\Filament\Schemas\Components\XotBaseSection;
 >>>>>>> 207ac35e (.)
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Enums\ContactTypeEnum;
+<<<<<<< HEAD
 use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -186,7 +194,21 @@ use Webmozart\Assert\Assert;
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+>>>>>>> 2941b0bd (.)
+=======
+=======
+use Filament\Schemas\Components\Section;
+use Filament\Forms;
+use Illuminate\Database\Eloquent\Model;
+use Modules\Notify\Enums\ContactTypeEnum;
+use Webmozart\Assert\Assert;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
 
 // use Squire\Models\Country;
 
@@ -195,6 +217,7 @@ class ContactSection extends XotBaseSection
 <<<<<<< HEAD
     // protected string $view = 'filament-forms::components.group';
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -296,7 +319,16 @@ class ContactSection extends Forms\Components\Section
 >>>>>>> 4689a827 (.)
 >>>>>>> c0f3d67cc (.)
     //protected string $view = 'filament-forms::components.group';
+<<<<<<< HEAD
 >>>>>>> 75cb51873 (.)
+=======
+=======
+    // protected string $view = 'filament-forms::components.group';
+=======
+    //protected string $view = 'filament-forms::components.group';
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
 
     protected bool $disableLiveUpdates = false;
 
@@ -328,6 +360,7 @@ class ContactSection extends Forms\Components\Section
     protected function getFormSchema(): array
     {
         $res = ContactTypeEnum::getFormSchema();
+<<<<<<< HEAD
 >>>>>>> 5fd545e4 (.)
 
 <<<<<<< HEAD
@@ -405,6 +438,12 @@ class ContactSection extends Forms\Components\Section
     protected function getFormSchema(): array
     {
         $res = ContactTypeEnum::getFormSchema();
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
         return $res;
 <<<<<<< HEAD
 <<<<<<< HEAD

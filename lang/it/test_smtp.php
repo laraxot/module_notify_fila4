@@ -77,6 +77,10 @@
 >>>>>>> c0f3d67cc (.)
 declare(strict_types=1);
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 99ff506 (.)
 return [
     'navigation' => [
         'group' => 'test smtp.navigation',

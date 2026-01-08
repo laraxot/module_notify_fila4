@@ -22,6 +22,7 @@ use Modules\Xot\Contracts\ProfileContract;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -75,6 +76,14 @@ use Modules\Xot\Contracts\ProfileContract;
 >>>>>>> 4689a827 (.)
 >>>>>>> c0f3d67cc (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+=======
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Modules\Media\Models\Media;
+use Modules\Notify\Database\Factories\NotificationTemplateVersionFactory;
+use Modules\User\Models\Profile;
+use Modules\Xot\Traits\Updater;
+>>>>>>> f1c9518b (.)
 use Override;
 use RuntimeException;
 use Modules\User\Models\Profile;
@@ -111,6 +120,7 @@ use Modules\User\Models\Profile;
 use RuntimeException;
 use Modules\User\Models\Profile;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -163,17 +173,26 @@ use Modules\Notify\Database\Factories\NotificationTemplateVersionFactory;
 >>>>>>> 75cb51873 (.)
 use Illuminate\Database\Eloquent\Builder;
 =======
+<<<<<<< HEAD
 =======
 use RuntimeException;
 use Modules\User\Models\Profile;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> a12f125f4a (.)
 =======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> cf20697a6 (.)
+=======
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Override;
 use RuntimeException;
 use Modules\User\Models\Profile;
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\NotificationTemplateVersionFactory;
 use Illuminate\Database\Eloquent\Builder;
@@ -186,9 +205,16 @@ use Modules\Notify\Database\Factories\NotificationTemplateVersionFactory;
 use Modules\User\Models\Profile;
 use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Traits\Updater;
+<<<<<<< HEAD
 use Override;
 use RuntimeException;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
 
 // BaseModel in same namespace provides common behaviors
 /**
@@ -201,11 +227,22 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property-read int|null $media_count
  * @property-read NotificationTemplate|null $template
  * @property-read Profile|null $updater
+<<<<<<< HEAD
  *
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+ *
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
  * @method static NotificationTemplateVersionFactory factory($count = null, $state = [])
  * @method static Builder<static>|NotificationTemplateVersion newModelQuery()
  * @method static Builder<static>|NotificationTemplateVersion newQuery()
  * @method static Builder<static>|NotificationTemplateVersion query()
+<<<<<<< HEAD
 <<<<<<< HEAD
  *
 =======
@@ -224,6 +261,14 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+<<<<<<< HEAD
+ *
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
  * @mixin IdeHelperNotificationTemplateVersion
  *
  * @property-read ProfileContract|null $deleter
@@ -463,8 +508,23 @@ class NotificationTemplateVersion extends BaseModel
 >>>>>>> 4689a827 (.)
 >>>>>>> c0f3d67cc (.)
 
+<<<<<<< HEAD
         if (! $template) {
             throw new RuntimeException('Template not found for version '.$this->id);
+=======
+<<<<<<< HEAD
+        if (!$template) {
+            throw new RuntimeException('Template not found for version ' . $this->id);
+=======
+<<<<<<< HEAD
+        if (! $template) {
+            throw new RuntimeException('Template not found for version '.$this->id);
+=======
+        if (!$template) {
+            throw new RuntimeException('Template not found for version ' . $this->id);
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
         }
 
 <<<<<<< HEAD

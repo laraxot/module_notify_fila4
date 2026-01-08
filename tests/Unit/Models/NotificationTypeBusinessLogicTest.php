@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 =======
@@ -22,6 +23,14 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 >>>>>>> fb8e02b6b (.)
+=======
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Model;
+=======
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Builder;
+>>>>>>> 99ff506 (.)
+>>>>>>> cf20697a6 (.)
 use Modules\Notify\Models\NotificationType;
 
 <<<<<<< HEAD
@@ -42,8 +51,16 @@ describe('NotificationType Business Logic', function (): void {
 >>>>>>> d284d65 (.)
     });
 
+<<<<<<< HEAD
     test('notification type has expected fillable fields', function (): void {
+=======
+    test('notification type has expected fillable fields', function () {
+<<<<<<< HEAD
+>>>>>>> cf20697a6 (.)
         $notificationType = new NotificationType;
+=======
+        $notificationType = new NotificationType();
+>>>>>>> 99ff506 (.)
         $expectedFillable = [
             'name',
             'description',
@@ -61,8 +78,16 @@ describe('NotificationType Business Logic', function (): void {
         expect($notificationType->getFillable())->toEqual($expectedFillable);
     });
 
+<<<<<<< HEAD
     test('notification type can store basic information', function (): void {
+=======
+    test('notification type can store basic information', function () {
+<<<<<<< HEAD
+>>>>>>> cf20697a6 (.)
         $notificationType = new NotificationType;
+=======
+        $notificationType = new NotificationType();
+>>>>>>> 99ff506 (.)
         $notificationType->name = 'Email Verification';
         $notificationType->description = 'Email verification notification type';
         $notificationType->template = 'email-verification-template';
@@ -84,6 +109,7 @@ describe('NotificationType Business Logic', function (): void {
     test('notification type model can be instantiated without errors', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     test('notification type model can be instantiated without errors', function (): void {
 >>>>>>> 6b649e02c (.)
@@ -95,6 +121,12 @@ describe('NotificationType Business Logic', function (): void {
 =======
         $notificationType = new NotificationType;
 >>>>>>> fb8e02b6b (.)
+=======
+        $notificationType = new NotificationType;
+=======
+        $notificationType = new NotificationType();
+>>>>>>> 99ff506 (.)
+>>>>>>> cf20697a6 (.)
 
         expect($notificationType)->toBeInstanceOf(NotificationType::class);
         expect($notificationType)->toBeInstanceOf(Model::class);

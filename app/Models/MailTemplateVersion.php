@@ -22,6 +22,7 @@ use Carbon\Carbon;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -77,6 +78,8 @@ use Carbon\Carbon;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Override;
 use RuntimeException;
+=======
+>>>>>>> f1c9518b (.)
 use Carbon\Carbon;
 use Modules\User\Models\Profile;
 <<<<<<< HEAD
@@ -190,9 +193,31 @@ use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\MailTemplateVersionFactory;
 use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Traits\Updater;
+<<<<<<< HEAD
 use Override;
 use RuntimeException;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+=======
+<<<<<<< HEAD
+=======
+use Override;
+use RuntimeException;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+=======
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Override;
+use RuntimeException;
+use Carbon\Carbon;
+use Modules\User\Models\Profile;
+use Modules\Media\Models\Media;
+use Modules\Notify\Database\Factories\MailTemplateVersionFactory;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\SoftDeletes;
+use Modules\Xot\Traits\Updater;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
 
 /**
  * @property int $id
@@ -217,8 +242,19 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property-read MediaCollection<int, Media> $media
  * @property-read int|null $media_count
  * @property-read MailTemplate|null $template
+<<<<<<< HEAD
  * @property-read ProfileContract|null $updater
  *
+=======
+ * @property-read Profile|null $updater
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+ *
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
  * @method static MailTemplateVersionFactory factory($count = null, $state = [])
  * @method static Builder<static>|MailTemplateVersion newModelQuery()
  * @method static Builder<static>|MailTemplateVersion newQuery()
@@ -240,6 +276,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @method static Builder<static>|MailTemplateVersion whereVersion($value)
  * @method static Builder<static>|MailTemplateVersion withTrashed()
  * @method static Builder<static>|MailTemplateVersion withoutTrashed()
+<<<<<<< HEAD
 <<<<<<< HEAD
  *
 =======
@@ -280,6 +317,14 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+<<<<<<< HEAD
+ *
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
  * @mixin IdeHelperMailTemplateVersion
  *
  * @property-read ProfileContract|null $deleter

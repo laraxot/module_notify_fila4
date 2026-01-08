@@ -25,6 +25,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -112,7 +113,46 @@
 >>>>>>> 0f81dc21 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> ca10d6ad (.)
+=======
+>>>>>>> ce26f84e (.)
+=======
+>>>>>>> 7d903672 (.)
+=======
+>>>>>>> e7a9a2bf (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 9d67cabd (.)
+=======
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 152be84b (.)
+=======
+>>>>>>> 7325acf3 (.)
+=======
+>>>>>>> 4c323e61 (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> febe79e3 (.)
+=======
+>>>>>>> f4acf543 (.)
+=======
+>>>>>>> e438127e (.)
+=======
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
 <?php
 
 declare(strict_types=1);
@@ -149,7 +189,25 @@ declare(strict_types=1);
 >>>>>>> 022fa8f1c (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> cf20697a6 (.)
 =======
 >>>>>>> b19cd40 (.)
 =======
@@ -264,6 +322,10 @@ declare(strict_types=1);
 >>>>>>> 4689a827 (.)
 >>>>>>> c0f3d67cc (.)
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
+=======
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 	<tr>
 		<td bgcolor="{{ isset($color) ? $color : '#85bdad' }}" nowrap>
 			<img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="5" height="1">
@@ -275,6 +337,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 					<td bgcolor="#ffffff" class="contentblock">
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -386,4 +449,30 @@ declare(strict_types=1);
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+					<td bgcolor="#ffffff" class="contentblock">
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> e7a9a2bf (.)
+=======
+=======
+					<td bgcolor="#ffffff" class="contentblock">
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 9d67cabd (.)
+=======
+					<td bgcolor="#ffffff" class="contentblock">
+>>>>>>> ba564870 (.)
+=======
+>>>>>>> 7325acf3 (.)
+=======
+					<td bgcolor="#ffffff" class="contentblock">
+>>>>>>> 4c323e61 (.)
+=======
+=======
+					<td bgcolor="#ffffff" class="contentblock">
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)

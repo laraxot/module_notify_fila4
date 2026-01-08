@@ -24,6 +24,7 @@ use Override;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -46,6 +47,8 @@ use Override;
 >>>>>>> 4689a827 (.)
 >>>>>>> c0f3d67cc (.)
 use Override;
+=======
+>>>>>>> f1c9518b (.)
 use Modules\Notify\Filament\Resources\NotificationTemplateResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 =======
@@ -63,6 +66,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 =======
 >>>>>>> 4689a827 (.)
 use Override;
+<<<<<<< HEAD
 use Modules\Notify\Filament\Resources\NotificationTemplateResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 =======
@@ -111,7 +115,12 @@ use Modules\Notify\Filament\Resources\NotificationTemplateResource;
 >>>>>>> a12f125f4a (.)
 >>>>>>> 4689a827 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> cf20697a6 (.)
 use Override;
 use Modules\Notify\Filament\Resources\NotificationTemplateResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
@@ -123,7 +132,10 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+>>>>>>> cf20697a6 (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -191,7 +203,18 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+use Override;
+use Modules\Notify\Filament\Resources\NotificationTemplateResource;
+use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
 
 class ListNotificationTemplates extends XotBaseListRecords
 {

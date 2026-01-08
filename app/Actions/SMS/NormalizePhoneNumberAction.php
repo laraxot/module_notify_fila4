@@ -5,11 +5,14 @@ declare(strict_types=1);
 namespace Modules\Notify\Actions\SMS;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Webmozart\Assert\Assert;
 
 use function Safe\preg_match;
 use function Safe\preg_replace;
 =======
+=======
+>>>>>>> cf20697a6 (.)
 use Illuminate\Support\Facades\Http;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SmsData;
@@ -48,6 +51,15 @@ use Modules\Notify\Datas\SmsData;
 =======
 >>>>>>> 4689a827 (.)
 
+=======
+<<<<<<< HEAD
+=======
+use Illuminate\Support\Facades\Http;
+use Modules\Notify\Contracts\SMS\SmsActionContract;
+use Modules\Notify\Datas\SmsData;
+
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 use function Safe\preg_match;
 use function Safe\preg_replace;
 =======
@@ -235,8 +247,10 @@ class NormalizePhoneNumberAction
         if (is_array($phoneNumber)) {
             $phoneNumber = implode('', $phoneNumber);
         }
+<<<<<<< HEAD
         
 =======
+<<<<<<< HEAD
     public function execute(string $phoneNumber): string
     {
 >>>>>>> 62b0c9c (.)
@@ -248,6 +262,14 @@ class NormalizePhoneNumberAction
     public function execute(string $phoneNumber): string
     {
 >>>>>>> 372da3e (.)
+=======
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
         // Rimuove parentesi e il loro contenuto
 >>>>>>> c0f3d67cc (.)
 <<<<<<< HEAD
@@ -568,8 +590,23 @@ class NormalizePhoneNumberAction
 >>>>>>> 4689a827 (.)
 >>>>>>> c0f3d67cc (.)
         // Verifica se il numero non inizia già con il prefisso corretto
+<<<<<<< HEAD
         if (! preg_match('/^'.$prefix.'/', $phoneNumber)) {
             $phoneNumber = $prefix.$phoneNumber;
+=======
+<<<<<<< HEAD
+        if (!preg_match('/^' . $prefix . '/', $phoneNumber)) {
+            $phoneNumber = $prefix . $phoneNumber;
+=======
+<<<<<<< HEAD
+        if (! preg_match('/^'.$prefix.'/', $phoneNumber)) {
+            $phoneNumber = $prefix.$phoneNumber;
+=======
+        if (!preg_match('/^' . $prefix . '/', $phoneNumber)) {
+            $phoneNumber = $prefix . $phoneNumber;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
         }
 <<<<<<< HEAD
 

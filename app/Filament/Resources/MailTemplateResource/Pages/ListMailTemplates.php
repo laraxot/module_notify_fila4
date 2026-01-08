@@ -26,6 +26,7 @@ namespace Modules\Notify\Filament\Resources\MailTemplateResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -100,7 +101,12 @@ use Override;
 =======
 use Override;
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> 75cb51873 (.)
+=======
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
 use Filament\Tables\Columns\TextColumn;
 use Modules\Lang\Filament\Resources\Pages\LangBaseListRecords;
 use Modules\Notify\Filament\Resources\MailTemplateResource;
@@ -136,6 +142,7 @@ use Modules\Notify\Models\MailTemplate;
 >>>>>>> c0f3d67cc (.)
 use Override;
 =======
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 =======
@@ -278,7 +285,22 @@ use Filament\Tables\Table;
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+>>>>>>> 2941b0bd (.)
+=======
+use Override;
+use Filament\Tables\Columns\TextColumn;
+use Filament\Tables;
+use Filament\Tables\Table;
+use Modules\Lang\Filament\Resources\Pages\LangBaseListRecords;
+use Modules\Notify\Filament\Resources\MailTemplateResource;
+use Modules\Notify\Models\MailTemplate;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
 
 class ListMailTemplates extends LangBaseListRecords
 {

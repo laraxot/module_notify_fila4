@@ -292,10 +292,13 @@ return [
                 'cancel' => 'No, annulla',
             ],
         ],
+<<<<<<< HEAD
         'logout' => [
             'tooltip' => 'logout',
             'icon' => 'logout',
         ],
+=======
+>>>>>>> 99ff506 (.)
     ],
     'messages' => [
         'created' => [

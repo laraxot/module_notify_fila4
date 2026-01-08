@@ -46,6 +46,7 @@ declare(strict_types=1);
 >>>>>>> c0f3d67cc (.)
 declare(strict_types=1);
 
+<<<<<<< HEAD
 
 =======
 >>>>>>> b19cd40 (.)
@@ -111,7 +112,22 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> f1c9518b (.)
+namespace Modules\Notify\Database\Factories;
+
+use Modules\Notify\Models\MailTemplateLog;
+<<<<<<< HEAD
+use Illuminate\Database\Eloquent\Factories\Factory;
+=======
+=======
+
+>>>>>>> cf20697a6 (.)
 namespace Modules\Notify\Database\Factories;
 
 use Modules\Notify\Models\MailTemplateLog;
@@ -122,7 +138,12 @@ namespace Modules\Notify\Database\Factories;
 >>>>>>> d284d65 (.)
 >>>>>>> c0f3d67cc (.)
 use Illuminate\Database\Eloquent\Factories\Factory;
+<<<<<<< HEAD
 use Modules\Notify\Models\MailTemplateLog;
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
 
 class MailTemplateLogFactory extends Factory
 {

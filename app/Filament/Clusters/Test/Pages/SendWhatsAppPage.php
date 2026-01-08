@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
+<<<<<<< HEAD
 use Exception;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
@@ -24,6 +25,62 @@ use Modules\Notify\Notifications\WhatsAppNotification;
 use Modules\Xot\Filament\Pages\XotBasePage;
 use Override;
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use BackedEnum;
+=======
+>>>>>>> 75179b85 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+use Filament\Panel;
+use Filament\Schemas\Schema;
+=======
+use Exception;
+use Filament\Actions\Action;
+use Filament\Facades\Filament;
+use Filament\Forms\Components\KeyValue;
+use Filament\Forms\Components\Select;
+use Filament\Forms\Components\TextInput;
+use Filament\Notifications\Notification as FilamentNotification;
+use Filament\Panel;
+use Filament\Schemas\Schema;
+=======
+use Filament\Schemas\Schema;
+use Filament\Panel;
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\KeyValue;
@@ -42,6 +99,12 @@ use Exception;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> cf20697a6 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -79,6 +142,17 @@ use Exception;
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> de02998b (.)
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
 use Override;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
@@ -86,15 +160,27 @@ use Filament\Forms;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Notifications\Notification as FilamentNotification;
+<<<<<<< HEAD
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Notification;
+<<<<<<< HEAD
 use Modules\Notify\Datas\WhatsAppData;
+=======
+<<<<<<< HEAD
+=======
+use Modules\Notify\Datas\WhatsAppData;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 use Modules\Notify\Enums\WhatsAppDriverEnum;
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\Notify\Notifications\WhatsAppNotification;
 use Modules\Xot\Filament\Pages\XotBasePage;
+<<<<<<< HEAD
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -214,7 +300,23 @@ use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> de02998b (.)
+<<<<<<< HEAD
 >>>>>>> 75cb51873 (.)
+=======
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+<<<<<<< HEAD
+use Override;
+=======
+use Modules\Xot\Filament\Traits\NavigationLabelTrait;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
 
 /**
  * @property \Filament\Schemas\Schema $whatsappForm
@@ -227,6 +329,7 @@ class SendWhatsAppPage extends XotBasePage
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-chat-bubble-left-right';
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -290,8 +393,27 @@ class SendWhatsAppPage extends XotBasePage
 >>>>>>> 75179b85 (.)
 >>>>>>> 75cb51873 (.)
     protected string $view = 'notify::filament.pages.send-whatsapp';
+<<<<<<< HEAD
 
     protected static ?string $cluster = Test::class;
+=======
+    protected static null|string $cluster = Test::class;
+=======
+    public ?array $whatsappData = [];
+
+    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-chat-bubble-left-right';
+
+    protected string $view = 'notify::filament.pages.send-whatsapp';
+
+    protected static ?string $cluster = Test::class;
+=======
+    public null|array $whatsappData = [];
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-chat-bubble-left-right';
+    protected string $view = 'notify::filament.pages.send-whatsapp';
+    protected static null|string $cluster = Test::class;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
 
     /**
      * Get the slug of the page
@@ -1075,7 +1197,19 @@ class SendWhatsAppPage extends XotBasePage
 >>>>>>> de02998b (.)
 >>>>>>> 75cb51873 (.)
         } catch (Exception $e) {
+<<<<<<< HEAD
             Log::error('Errore nell\'invio WhatsApp: '.$e->getMessage());
+=======
+<<<<<<< HEAD
+            Log::error('Errore nell\'invio WhatsApp: ' . $e->getMessage());
+=======
+<<<<<<< HEAD
+            Log::error('Errore nell\'invio WhatsApp: '.$e->getMessage());
+=======
+            Log::error('Errore nell\'invio WhatsApp: ' . $e->getMessage());
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
 
             FilamentNotification::make()
                 ->danger()
@@ -1269,6 +1403,7 @@ class SendWhatsAppPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -1316,6 +1451,12 @@ class SendWhatsAppPage extends XotBasePage
 =======
 >>>>>>> de02998b (.)
         if (!($user instanceof Model)) {
+=======
+        if (! ($user instanceof Model)) {
+=======
+        if (!($user instanceof Model)) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
             throw new Exception(
                 'The authenticated user object must be an Eloquent model to allow the profile page to update it.',
             );

@@ -24,6 +24,7 @@ return new class extends XotBaseMigration
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -120,7 +121,20 @@ return new class() extends XotBaseMigration {
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+return new class() extends XotBaseMigration {
+>>>>>>> 2941b0bd (.)
+=======
+return new class extends XotBaseMigration
+{
+=======
+return new class() extends XotBaseMigration {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
     /**
      * Run the migrations.
      */
@@ -212,7 +226,19 @@ return new class() extends XotBaseMigration {
 >>>>>>> d284d65 (.)
         // -- UPDATE --
         $this->tableUpdate(function (Blueprint $table): void {
+<<<<<<< HEAD
             if (! $this->hasColumn('notify_theme_id')) {
+=======
+<<<<<<< HEAD
+            if (!$this->hasColumn('notify_theme_id')) {
+=======
+<<<<<<< HEAD
+            if (! $this->hasColumn('notify_theme_id')) {
+=======
+            if (!$this->hasColumn('notify_theme_id')) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
                 $table->integer('notify_theme_id')->nullable();
             }
             $this->updateTimestamps(

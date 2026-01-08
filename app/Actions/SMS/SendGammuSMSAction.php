@@ -21,6 +21,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -110,6 +111,18 @@ use Override;
 >>>>>>> 4689a827 (.)
 >>>>>>> c0f3d67cc (.)
 use Exception;
+<<<<<<< HEAD
+=======
+use Illuminate\Support\Facades\Log;
+=======
+use Exception;
+=======
+use Override;
+use Exception;
+use Illuminate\Support\Facades\Log;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
 use Illuminate\Support\Str;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 <<<<<<< HEAD
@@ -184,7 +197,17 @@ use Modules\Notify\Contracts\SMS\SmsActionContract;
 >>>>>>> c0f3d67cc (.)
 use Modules\Notify\Datas\SMS\GammuData;
 use Modules\Notify\Datas\SmsData;
+<<<<<<< HEAD
 use Override;
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+use Override;
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
 use Spatie\QueueableAction\QueueableAction;
 use Symfony\Component\Process\Process;
 
@@ -321,11 +344,30 @@ final class SendGammuSMSAction implements SmsActionContract
 {
     use QueueableAction;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    /** @var GammuData */
+=======
+<<<<<<< HEAD
+=======
+    /** @var GammuData */
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
     private GammuData $gammuData;
 
     /** @var array<string, mixed> */
     private array $vars = [];
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    /** @var bool */
+=======
+<<<<<<< HEAD
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
     protected bool $debug;
 
 <<<<<<< HEAD
@@ -365,6 +407,7 @@ final class SendGammuSMSAction implements SmsActionContract
     protected null|string $defaultSender = null;
 =======
     protected ?string $defaultSender = null;
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -448,7 +491,22 @@ final class SendGammuSMSAction implements SmsActionContract
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+    protected null|string $defaultSender = null;
+>>>>>>> 2941b0bd (.)
+=======
+=======
+    /** @var bool */
+    protected bool $debug;
+
+    /** @var string|null */
+    protected null|string $defaultSender = null;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
 
     /**
      * Create a new action instance.
@@ -486,6 +544,7 @@ final class SendGammuSMSAction implements SmsActionContract
 =======
 >>>>>>> de02998b (.)
 
+<<<<<<< HEAD
 =======
         
 >>>>>>> b19cd40 (.)
@@ -576,7 +635,26 @@ final class SendGammuSMSAction implements SmsActionContract
             throw new Exception('Path Gammu non configurato in sms.php');
         }
 
+<<<<<<< HEAD
         if (! $this->gammuData->config) {
+=======
+        if (!$this->gammuData->config) {
+=======
+<<<<<<< HEAD
+        if (! $this->gammuData->path) {
+            throw new Exception('Path Gammu non configurato in sms.php');
+        }
+
+        if (! $this->gammuData->config) {
+=======
+        if (!$this->gammuData->path) {
+            throw new Exception('Path Gammu non configurato in sms.php');
+        }
+
+        if (!$this->gammuData->config) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
             throw new Exception('Config Gammu non configurato in sms.php');
         }
 
@@ -589,9 +667,25 @@ final class SendGammuSMSAction implements SmsActionContract
     /**
      * Execute the action.
      *
+<<<<<<< HEAD
      * @param  SmsData  $smsData  I dati del messaggio SMS
      * @return array Risultato dell'operazione
      *
+=======
+<<<<<<< HEAD
+     * @param SmsData $smsData I dati del messaggio SMS
+     * @return array Risultato dell'operazione
+=======
+<<<<<<< HEAD
+     * @param  SmsData  $smsData  I dati del messaggio SMS
+     * @return array Risultato dell'operazione
+     *
+=======
+     * @param SmsData $smsData I dati del messaggio SMS
+     * @return array Risultato dell'operazione
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
      * @throws Exception In caso di errore durante l'invio
      */
 <<<<<<< HEAD
@@ -714,11 +808,35 @@ final class SendGammuSMSAction implements SmsActionContract
         // Normalizza il numero di telefono
         $to = (string) $smsData->recipient;
         if (Str::startsWith($to, '00')) {
+<<<<<<< HEAD
             $to = '+'.mb_substr($to, 2);
         }
 
         if (! Str::startsWith($to, '+')) {
             $to = '+39'.$to;
+=======
+<<<<<<< HEAD
+            $to = '+' . mb_substr($to, 2);
+        }
+
+        if (!Str::startsWith($to, '+')) {
+            $to = '+39' . $to;
+=======
+<<<<<<< HEAD
+            $to = '+'.mb_substr($to, 2);
+        }
+
+        if (! Str::startsWith($to, '+')) {
+            $to = '+39'.$to;
+=======
+            $to = '+' . mb_substr($to, 2);
+        }
+
+        if (!Str::startsWith($to, '+')) {
+            $to = '+39' . $to;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
         }
 
         // Prepara il messaggio per Gammu
@@ -984,8 +1102,23 @@ final class SendGammuSMSAction implements SmsActionContract
             // Rimuove il file temporaneo
             unlink($tempFile);
 
+<<<<<<< HEAD
             if (! $process->isSuccessful()) {
                 throw new Exception('Gammu error: '.$process->getErrorOutput());
+=======
+<<<<<<< HEAD
+            if (!$process->isSuccessful()) {
+                throw new Exception('Gammu error: ' . $process->getErrorOutput());
+=======
+<<<<<<< HEAD
+            if (! $process->isSuccessful()) {
+                throw new Exception('Gammu error: '.$process->getErrorOutput());
+=======
+            if (!$process->isSuccessful()) {
+                throw new Exception('Gammu error: ' . $process->getErrorOutput());
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
             }
 
             $this->vars['status_code'] = $process->getExitCode();
@@ -997,7 +1130,19 @@ final class SendGammuSMSAction implements SmsActionContract
             unlink($tempFile);
 
             throw new Exception(
+<<<<<<< HEAD
                 $exception->getMessage().'['.__LINE__.']['.class_basename($this).']',
+=======
+<<<<<<< HEAD
+                $exception->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
+=======
+<<<<<<< HEAD
+                $exception->getMessage().'['.__LINE__.']['.class_basename($this).']',
+=======
+                $exception->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
                 $exception->getCode(),
 <<<<<<< HEAD
                 $exception,

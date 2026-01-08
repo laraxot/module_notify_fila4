@@ -18,11 +18,17 @@ use Modules\Notify\Models\MailTemplateLog;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
 use Carbon\Carbon;
+=======
+=======
+use Carbon\Carbon;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Models\MailTemplateLog;
 <<<<<<< HEAD
@@ -1409,7 +1415,19 @@ describe('Mail Template Log Business Logic', function () {
                     'patient_name' => 'Mario Rossi',
                     'appointment_date' => '2024-12-15 10:00:00',
                     'doctor_name' => 'Dr. Bianchi',
+<<<<<<< HEAD
                     'clinic_name' => 'Studio Dentistico '.config('app.name', 'Our Platform'),
+=======
+<<<<<<< HEAD
+                    'clinic_name' => 'Studio Dentistico ' . config('app.name', 'Our Platform'),
+=======
+<<<<<<< HEAD
+                    'clinic_name' => 'Studio Dentistico '.config('app.name', 'Our Platform'),
+=======
+                    'clinic_name' => 'Studio Dentistico ' . config('app.name', 'Our Platform'),
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
                     'clinic_address' => 'Via Roma 123, Milano',
                     'clinic_phone' => '+39 02 1234567',
                 ],

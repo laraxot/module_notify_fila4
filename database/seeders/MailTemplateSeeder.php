@@ -6,6 +6,7 @@ namespace Modules\Notify\Database\Seeders;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use Modules\Notify\Emails\SpatieEmail;
@@ -18,8 +19,14 @@ use Modules\Notify\Emails\SpatieEmail;
 >>>>>>> c0f3d67cc (.)
 =======
 >>>>>>> fb8e02b6b (.)
+=======
+>>>>>>> cf20697a6 (.)
 use Illuminate\Database\Seeder;
 use Modules\Notify\Emails\SpatieEmail;
+=======
+use Modules\Notify\Emails\SpatieEmail;
+use Illuminate\Database\Seeder;
+>>>>>>> 99ff506 (.)
 use Modules\Notify\Models\MailTemplate;
 
 class MailTemplateSeeder extends Seeder

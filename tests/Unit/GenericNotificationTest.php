@@ -125,6 +125,7 @@ describe('GenericNotification getRecipientName', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -220,7 +221,20 @@ describe('GenericNotification getRecipientName', function (): void {
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+        $notifiable = new class {
+>>>>>>> 2941b0bd (.)
+=======
+        $notifiable = new class
+        {
+=======
+        $notifiable = new class {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
             public function getFullName(): string
             {
                 return 'John Doe';
@@ -263,6 +277,7 @@ describe('GenericNotification getRecipientName', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -361,7 +376,20 @@ describe('GenericNotification getRecipientName', function (): void {
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+        $model = new class extends Model {
+>>>>>>> 2941b0bd (.)
+=======
+        $model = new class extends Model
+        {
+=======
+        $model = new class extends Model {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
             protected $attributes = [
                 'full_name' => 'Jane Roe',
             ];
@@ -380,6 +408,7 @@ describe('GenericNotification getRecipientName', function (): void {
         // first_name present
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -486,7 +515,14 @@ describe('GenericNotification getRecipientName', function (): void {
 =======
 >>>>>>> de02998b (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 75cb51873 (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
         $model1 = new class extends Model
         {
             protected $attributes = ['first_name' => 'Alice'];
@@ -499,6 +535,11 @@ describe('GenericNotification getRecipientName', function (): void {
         // none present
         $model3 = new class extends Model
         {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> b19cd40 (.)
+>>>>>>> cf20697a6 (.)
 <<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
@@ -548,7 +589,25 @@ describe('GenericNotification getRecipientName', function (): void {
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+>>>>>>> 2941b0bd (.)
+=======
+=======
+        $model1 = new class extends Model {
+            protected $attributes = ['first_name' => 'Alice'];
+        };
+        // name present
+        $model2 = new class extends Model {
+            protected $attributes = ['name' => 'Bob'];
+        };
+        // none present
+        $model3 = new class extends Model {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
             protected $attributes = [];
         };
 =======

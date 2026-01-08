@@ -21,6 +21,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -76,6 +77,9 @@ namespace Modules\Notify\Models;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Override;
 use Modules\User\Models\Profile;
+=======
+use Illuminate\Database\Eloquent\Builder;
+>>>>>>> f1c9518b (.)
 use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -178,6 +182,7 @@ use Illuminate\Database\Eloquent\Model;
 >>>>>>> b93ef594b4 (.)
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\MailTemplateLogFactory;
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
 =======
 >>>>>>> origin/develop
@@ -185,11 +190,30 @@ use Illuminate\Database\Eloquent\Builder;
 >>>>>>> c0f3d67cc (.)
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
+<<<<<<< HEAD
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\MailTemplateLogFactory;
 use Modules\Xot\Contracts\ProfileContract;
 use Override;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+=======
+=======
+use Modules\User\Models\Profile;
+use Override;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+=======
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Override;
+use Modules\User\Models\Profile;
+use Illuminate\Database\Eloquent\Model;
+use Modules\Media\Models\Media;
+use Modules\Notify\Database\Factories\MailTemplateLogFactory;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\MorphTo;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
 
 /**
 <<<<<<< HEAD
@@ -205,12 +229,24 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property-read MediaCollection<int, Media> $media
  * @property-read int|null $media_count
  * @property-read MailTemplate|null $template
+<<<<<<< HEAD
  * @property-read ProfileContract|null $updater
  *
+=======
+ * @property-read Profile|null $updater
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+ *
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
  * @method static MailTemplateLogFactory factory($count = null, $state = [])
  * @method static Builder<static>|MailTemplateLog newModelQuery()
  * @method static Builder<static>|MailTemplateLog newQuery()
  * @method static Builder<static>|MailTemplateLog query()
+<<<<<<< HEAD
 <<<<<<< HEAD
  *
 =======
@@ -230,6 +266,14 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+<<<<<<< HEAD
+ *
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
  * @mixin IdeHelperMailTemplateLog
  *
  * @property-read ProfileContract|null $deleter

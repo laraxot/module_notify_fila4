@@ -21,6 +21,7 @@ namespace Modules\Notify\Filament\Resources\NotificationResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -109,14 +110,33 @@ use Override;
 >>>>>>> 4689a827 (.)
 >>>>>>> c0f3d67cc (.)
 use Filament\Tables;
+<<<<<<< HEAD
 >>>>>>> 75cb51873 (.)
+=======
+=======
+=======
+use Override;
+use Filament\Tables;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\Filter;
 use Filament\Tables\Filters\SelectFilter;
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Notify\Filament\Resources\NotificationResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
+<<<<<<< HEAD
 use Override;
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+use Override;
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
 
 class ListNotifications extends XotBaseListRecords
 {
@@ -392,6 +412,7 @@ class ListNotifications extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -533,10 +554,17 @@ class ListNotifications extends XotBaseListRecords
 >>>>>>> 4689a827 (.)
 >>>>>>> a12f125f4a (.)
 =======
+                ->query(fn (Builder $query): Builder => $query->where('read_at', '!=', null))
+                ->label('Read'),
+            'unread' => Filter::make('is_unread')
+                ->query(fn (Builder $query): Builder => $query->whereNull('read_at'))
+>>>>>>> f1c9518b (.)
+=======
                 ->query(fn(Builder $query): Builder => $query->where('read_at', '!=', null))
                 ->label('Read'),
             'unread' => Filter::make('is_unread')
                 ->query(fn(Builder $query): Builder => $query->whereNull('read_at'))
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
@@ -575,7 +603,15 @@ class ListNotifications extends XotBaseListRecords
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
                 ->label('Unread'),
             'type' => SelectFilter::make('type')
                 ->options([

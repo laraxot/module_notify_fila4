@@ -80,6 +80,7 @@ use Spatie\LaravelData\Data;
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
+<<<<<<< HEAD
 use Webmozart\Assert\Assert;
 
 class TwilioData extends Data
@@ -185,7 +186,13 @@ use Spatie\LaravelData\Data;
 use Webmozart\Assert\Assert;
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
+<<<<<<< HEAD
 >>>>>>> 75cb51873 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
 
 class TwilioData extends Data
 {
@@ -203,7 +210,32 @@ class TwilioData extends Data
 
     public static function make(): self
     {
+<<<<<<< HEAD
         if (! (self::$instance instanceof TwilioData)) {
+=======
+<<<<<<< HEAD
+        if (! self::$instance instanceof TwilioData) {
+=======
+        if (! (self::$instance instanceof TwilioData)) {
+=======
+use Webmozart\Assert\Assert;
+
+class TwilioData extends Data
+{
+    public null|string $account_sid;
+    public null|string $auth_token;
+    public null|string $base_url;
+    public string $auth_type = 'basic';
+    public int $timeout = 30;
+
+    private static null|self $instance = null;
+
+    public static function make(): self
+    {
+        if (!(self::$instance instanceof TwilioData)) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
             /*
 <<<<<<< HEAD
              * $data = TenantService::getConfig('sms');
@@ -286,9 +318,12 @@ class TwilioData extends Data
             default:
                 return [
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'Authorization' => 'Basic '.base64_encode($this->account_sid.':'.$this->auth_token),
                     'Content-Type' => 'application/x-www-form-urlencoded',
 =======
+=======
+>>>>>>> cf20697a6 (.)
                     'Authorization' => 'Basic ' . base64_encode($this->account_sid . ':' . $this->auth_token),
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -320,6 +355,18 @@ class TwilioData extends Data
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> de02998b (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 011072e4 (.)
+=======
+<<<<<<< HEAD
+                    'Authorization' => 'Basic '.base64_encode($this->account_sid.':'.$this->auth_token),
+=======
+                    'Authorization' => 'Basic ' . base64_encode($this->account_sid . ':' . $this->auth_token),
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
                     'Content-Type' => 'application/x-www-form-urlencoded',
 =======
                     'Content-Type' => 'application/x-www-form-urlencoded'

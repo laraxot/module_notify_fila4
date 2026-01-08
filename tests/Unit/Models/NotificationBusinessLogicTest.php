@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use Modules\Xot\Models\BaseModel;
@@ -21,6 +22,14 @@ use ReflectionClass;
 use Modules\Notify\Models\Notification;
 use Modules\Xot\Models\BaseModel;
 >>>>>>> fb8e02b6b (.)
+=======
+use Modules\Notify\Models\Notification;
+use Modules\Xot\Models\BaseModel;
+=======
+use Modules\Xot\Models\BaseModel;
+use Modules\Notify\Models\Notification;
+>>>>>>> 99ff506 (.)
+>>>>>>> cf20697a6 (.)
 
 <<<<<<< HEAD
 describe('Notification Business Logic', function () {
@@ -43,6 +52,7 @@ describe('Notification Business Logic', function (): void {
 <<<<<<< HEAD
     test('notification can store polymorphic notifiable relationships', function () {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $reflection = new ReflectionClass(Notification::class);
         $notification = $reflection->newInstanceWithoutConstructor();
 =======
@@ -51,6 +61,12 @@ describe('Notification Business Logic', function (): void {
 >>>>>>> 6b649e02c (.)
         $notification = new Notification;
 >>>>>>> fb8e02b6b (.)
+=======
+        $notification = new Notification;
+=======
+        $notification = new Notification();
+>>>>>>> 99ff506 (.)
+>>>>>>> cf20697a6 (.)
         $notification->notifiable_type = 'App\\Models\\User';
         $notification->notifiable_id = 1;
 <<<<<<< HEAD
@@ -69,6 +85,7 @@ describe('Notification Business Logic', function (): void {
 <<<<<<< HEAD
     test('notification has notification type', function () {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $reflection = new ReflectionClass(Notification::class);
         $notification = $reflection->newInstanceWithoutConstructor();
 =======
@@ -77,6 +94,12 @@ describe('Notification Business Logic', function (): void {
 >>>>>>> 6b649e02c (.)
         $notification = new Notification;
 >>>>>>> fb8e02b6b (.)
+=======
+        $notification = new Notification;
+=======
+        $notification = new Notification();
+>>>>>>> 99ff506 (.)
+>>>>>>> cf20697a6 (.)
         $notification->type = 'App\\Notifications\\OrderConfirmation';
 <<<<<<< HEAD
 
@@ -93,6 +116,7 @@ describe('Notification Business Logic', function (): void {
 <<<<<<< HEAD
     test('notification can store data payload', function () {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $reflection = new ReflectionClass(Notification::class);
         $notification = $reflection->newInstanceWithoutConstructor();
 =======
@@ -101,6 +125,12 @@ describe('Notification Business Logic', function (): void {
 >>>>>>> 6b649e02c (.)
         $notification = new Notification;
 >>>>>>> fb8e02b6b (.)
+=======
+        $notification = new Notification;
+=======
+        $notification = new Notification();
+>>>>>>> 99ff506 (.)
+>>>>>>> cf20697a6 (.)
         $notification->data = ['title' => 'Test', 'message' => 'Hello World'];
 <<<<<<< HEAD
 
@@ -118,6 +148,7 @@ describe('Notification Business Logic', function (): void {
 <<<<<<< HEAD
     test('notification can track read status', function () {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $reflection = new ReflectionClass(Notification::class);
         $notification = $reflection->newInstanceWithoutConstructor();
 =======
@@ -126,6 +157,12 @@ describe('Notification Business Logic', function (): void {
 >>>>>>> 6b649e02c (.)
         $notification = new Notification;
 >>>>>>> fb8e02b6b (.)
+=======
+        $notification = new Notification;
+=======
+        $notification = new Notification();
+>>>>>>> 99ff506 (.)
+>>>>>>> cf20697a6 (.)
         $notification->read_at = '2023-01-01 12:00:00';
 <<<<<<< HEAD
 
@@ -142,6 +179,7 @@ describe('Notification Business Logic', function (): void {
 <<<<<<< HEAD
     test('notification can track tenant and user', function () {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $reflection = new ReflectionClass(Notification::class);
         $notification = $reflection->newInstanceWithoutConstructor();
 =======
@@ -150,6 +188,12 @@ describe('Notification Business Logic', function (): void {
 >>>>>>> 6b649e02c (.)
         $notification = new Notification;
 >>>>>>> fb8e02b6b (.)
+=======
+        $notification = new Notification;
+=======
+        $notification = new Notification();
+>>>>>>> 99ff506 (.)
+>>>>>>> cf20697a6 (.)
         $notification->tenant_id = 1;
         $notification->user_id = 5;
 <<<<<<< HEAD
@@ -168,6 +212,7 @@ describe('Notification Business Logic', function (): void {
 <<<<<<< HEAD
     test('notification can store polymorphic subject relationships', function () {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $reflection = new ReflectionClass(Notification::class);
         $notification = $reflection->newInstanceWithoutConstructor();
 =======
@@ -176,6 +221,12 @@ describe('Notification Business Logic', function (): void {
 >>>>>>> 6b649e02c (.)
         $notification = new Notification;
 >>>>>>> fb8e02b6b (.)
+=======
+        $notification = new Notification;
+=======
+        $notification = new Notification();
+>>>>>>> 99ff506 (.)
+>>>>>>> cf20697a6 (.)
         $notification->subject_type = 'App\\Models\\Order';
         $notification->subject_id = 123;
 <<<<<<< HEAD
@@ -194,6 +245,7 @@ describe('Notification Business Logic', function (): void {
 <<<<<<< HEAD
     test('notification can track multiple channels', function () {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $reflection = new ReflectionClass(Notification::class);
         $notification = $reflection->newInstanceWithoutConstructor();
 =======
@@ -202,6 +254,12 @@ describe('Notification Business Logic', function (): void {
 >>>>>>> 6b649e02c (.)
         $notification = new Notification;
 >>>>>>> fb8e02b6b (.)
+=======
+        $notification = new Notification;
+=======
+        $notification = new Notification();
+>>>>>>> 99ff506 (.)
+>>>>>>> cf20697a6 (.)
         $notification->channels = ['mail', 'sms', 'database'];
 <<<<<<< HEAD
 
@@ -220,6 +278,7 @@ describe('Notification Business Logic', function (): void {
 <<<<<<< HEAD
     test('notification can track status and sent time', function () {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $reflection = new ReflectionClass(Notification::class);
         $notification = $reflection->newInstanceWithoutConstructor();
 =======
@@ -228,6 +287,12 @@ describe('Notification Business Logic', function (): void {
 >>>>>>> 6b649e02c (.)
         $notification = new Notification;
 >>>>>>> fb8e02b6b (.)
+=======
+        $notification = new Notification;
+=======
+        $notification = new Notification();
+>>>>>>> 99ff506 (.)
+>>>>>>> cf20697a6 (.)
         $notification->status = 'sent';
         $notification->sent_at = '2023-01-01 14:00:00';
 <<<<<<< HEAD

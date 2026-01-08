@@ -32,7 +32,15 @@ class SendSmsPage extends XotBasePage
 {
     public ?array $smsData = [];
 
+<<<<<<< HEAD
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-device-phone-mobile';
+=======
+<<<<<<< HEAD
+    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-device-phone-mobile';
+=======
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-device-phone-mobile';
+>>>>>>> 99ff506 (.)
+>>>>>>> cf20697a6 (.)
 
     protected string $view = 'notify::filament.pages.send-sms';
 

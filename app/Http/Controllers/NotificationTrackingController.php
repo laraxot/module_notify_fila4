@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 82ae73be (.)
@@ -15,6 +16,11 @@
 =======
 
 >>>>>>> d09cb759 (.)
+=======
+
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 declare(strict_types=1);
 
 namespace Modules\Notify\Http\Controllers;
@@ -25,8 +31,15 @@ namespace Modules\Notify\Http\Controllers;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use function Safe\base64_decode;
 
+=======
+=======
+use function Safe\base64_decode;
+
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 use Illuminate\Http\RedirectResponse;
 =======
 >>>>>>> 82ae73be (.)
@@ -45,14 +58,31 @@ use Illuminate\Http\Response;
 use Illuminate\Routing\Controller;
 use Modules\Notify\Models\NotificationLog;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+use function Safe\base64_decode;
+
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 class NotificationTrackingController extends Controller
 {
     /**
      * Traccia l'apertura di una notifica.
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> f1c9518b (.)
      *
      * @param Request $request
      * @param string $id
      * @return Response
+<<<<<<< HEAD
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
      */
     public function trackOpen(Request $request, string $id): Response
     {
@@ -72,6 +102,7 @@ class NotificationTrackingController extends Controller
 
     /**
      * Traccia il click su un link in una notifica.
+<<<<<<< HEAD
      *
      * @param Request $request
      * @param string $id
@@ -90,6 +121,15 @@ class NotificationTrackingController extends Controller
 =======
      * @return \Illuminate\Http\RedirectResponse
 >>>>>>> a404ea71 (.)
+=======
+<<<<<<< HEAD
+=======
+     *
+     * @param Request $request
+     * @param string $id
+     * @return RedirectResponse
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
      */
     public function trackClick(Request $request, string $id): \Illuminate\Http\RedirectResponse
     {
@@ -220,4 +260,12 @@ class NotificationTrackingController extends Controller
         return redirect()->away((string) $url);
 >>>>>>> 3f537838 (.)
     }
+<<<<<<< HEAD
 } 
+=======
+<<<<<<< HEAD
+}
+=======
+} 
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)

@@ -16,6 +16,7 @@ namespace Modules\Notify\Actions\Telegram;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
 >>>>>>> 75179b85 (.)
@@ -61,7 +62,18 @@ use Modules\Xot\Actions\Cast\SafeIntCastAction;
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+use Modules\Xot\Actions\Cast\SafeIntCastAction;
+>>>>>>> 2941b0bd (.)
+=======
+=======
+use Modules\Xot\Actions\Cast\SafeIntCastAction;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
@@ -134,6 +146,18 @@ use Illuminate\Support\Facades\Log;
 >>>>>>> c0f3d67cc (.)
 use Modules\Notify\Datas\TelegramData;
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+use Modules\Notify\Datas\TelegramData;
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
 use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\json_decode;
@@ -281,7 +305,15 @@ final class SendOfficialTelegramAction
     use QueueableAction;
 
     private string $token;
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
     private string $apiUrl;
 
     /** @var array<string, mixed> */
@@ -295,8 +327,12 @@ final class SendOfficialTelegramAction
 <<<<<<< HEAD
 =======
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+    private string $apiUrl;
+>>>>>>> f1c9518b (.)
     private array $vars = [];
     protected bool $debug;
     protected int $timeout;
@@ -307,6 +343,7 @@ final class SendOfficialTelegramAction
 >>>>>>> c0f3d67cc (.)
 <<<<<<< HEAD
     protected null|string $parseMode;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -430,7 +467,15 @@ final class SendOfficialTelegramAction
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
 
     /**
      * Create a new action instance.
@@ -438,7 +483,30 @@ final class SendOfficialTelegramAction
     public function __construct()
     {
         $token = config('services.telegram.token');
+<<<<<<< HEAD
         if (! is_string($token)) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if (! is_string($token)) {
+=======
+        if (!is_string($token)) {
+>>>>>>> 75179b85 (.)
+=======
+        if (!is_string($token)) {
+>>>>>>> 75179b85 (.)
+=======
+        if (!is_string($token)) {
+>>>>>>> 75179b85 (.)
+=======
+        if (! is_string($token)) {
+=======
+        if (!is_string($token)) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
             throw new Exception('put [TELEGRAM_BOT_TOKEN] variable to your .env and config [services.telegram.token]');
         }
         $this->token = $token;
@@ -583,9 +651,37 @@ final class SendOfficialTelegramAction
     /**
      * Execute the action.
      *
+<<<<<<< HEAD
      * @param  TelegramData  $telegramData  I dati del messaggio Telegram
      * @return array<string, mixed> Risultato dell'operazione
      *
+=======
+<<<<<<< HEAD
+     * @param TelegramData $telegramData I dati del messaggio Telegram
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @return array<string, mixed> Risultato dell'operazione
+=======
+     * @return array Risultato dell'operazione
+>>>>>>> 75179b85 (.)
+=======
+     * @return array Risultato dell'operazione
+>>>>>>> 75179b85 (.)
+=======
+     * @return array Risultato dell'operazione
+>>>>>>> 75179b85 (.)
+=======
+<<<<<<< HEAD
+     * @param  TelegramData  $telegramData  I dati del messaggio Telegram
+     * @return array Risultato dell'operazione
+     *
+=======
+     * @param TelegramData $telegramData I dati del messaggio Telegram
+     * @return array Risultato dell'operazione
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
      * @throws Exception In caso di errore durante l'invio
      */
     public function execute(TelegramData $telegramData): array
@@ -1209,7 +1305,22 @@ final class SendOfficialTelegramAction
 >>>>>>> 75cb51873 (.)
         } elseif (
             in_array($telegramData->type, ['photo', 'video', 'document', 'audio', 'animation'], strict: true) &&
+<<<<<<< HEAD
             ! empty($telegramData->media)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            ! empty($telegramData->media)
+=======
+                !empty($telegramData->media)
+>>>>>>> 75179b85 (.)
+=======
+                ! empty($telegramData->media)
+=======
+                !empty($telegramData->media)
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
         ) {
 <<<<<<< HEAD
 =======

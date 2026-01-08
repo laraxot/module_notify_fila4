@@ -129,19 +129,43 @@ use Spatie\LaravelData\Data;
 class WhatsAppData extends Data
 {
     /**
+<<<<<<< HEAD
      * @param  string  $recipient  Numero di telefono del destinatario in formato E.164 (es. +393401234567)
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+     * @param  string  $to  Numero di telefono del destinatario in formato E.164 (es. +393401234567)
+>>>>>>> cf20697a6 (.)
      * @param  string  $body  Contenuto testuale del messaggio
      * @param  string|null  $from  Numero di telefono del mittente (opzionale, può essere definito nella configurazione)
      * @param  array|null  $media  Array di URL di media da allegare al messaggio (immagini, video, documenti)
      * @param  array|null  $buttons  Array di pulsanti interattivi (supportati solo da alcuni provider)
      * @param  array|null  $template  Dati del template per messaggi strutturati (supportati solo da alcuni provider)
      * @param  string  $type  Tipo di messaggio: 'text', 'media', 'template', ecc.
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> f1c9518b (.)
+     * @param string $to Numero di telefono del destinatario in formato E.164 (es. +393401234567)
+     * @param string $body Contenuto testuale del messaggio
+     * @param string|null $from Numero di telefono del mittente (opzionale, può essere definito nella configurazione)
+     * @param array|null $media Array di URL di media da allegare al messaggio (immagini, video, documenti)
+     * @param array|null $buttons Array di pulsanti interattivi (supportati solo da alcuni provider)
+     * @param array|null $template Dati del template per messaggi strutturati (supportati solo da alcuni provider)
+     * @param string $type Tipo di messaggio: 'text', 'media', 'template', ecc.
+<<<<<<< HEAD
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
      */
     public function __construct(
         public string $recipient,
         public string $body,
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -272,13 +296,19 @@ class WhatsAppData extends Data
 =======
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
         public ?string $from = null,
         public ?array $media = null,
         public ?array $buttons = null,
         public ?array $template = null,
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -344,7 +374,20 @@ class WhatsAppData extends Data
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+>>>>>>> 2941b0bd (.)
+=======
+=======
+        public null|string $from = null,
+        public null|array $media = null,
+        public null|array $buttons = null,
+        public null|array $template = null,
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
         public string $type = 'text',
     ) {}
 }

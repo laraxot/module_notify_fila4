@@ -9,6 +9,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Services\MailEngines;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use InvalidArgumentException;
@@ -19,11 +20,30 @@ use InvalidArgumentException;
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> c0f3d67cc (.)
+=======
+use InvalidArgumentException;
+=======
+<<<<<<< HEAD
+=======
+use InvalidArgumentException;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
 use ErrorException;
 use Exception;
 use Illuminate\Mail\Message;
 use Illuminate\Support\Facades\Mail;
+<<<<<<< HEAD
 use InvalidArgumentException;
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+use InvalidArgumentException;
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
 use Webmozart\Assert\Assert;
 
 // ---------CSS------------
@@ -36,6 +56,7 @@ class MailtrapEngine
 <<<<<<< HEAD
     public ?string $from = null;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -147,7 +168,19 @@ class MailtrapEngine
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+    public null|string $from = null;
+>>>>>>> 2941b0bd (.)
+=======
+    public ?string $from = null;
+=======
+    public null|string $from = null;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
 
     public string $to;
 
@@ -155,6 +188,7 @@ class MailtrapEngine
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -293,7 +327,12 @@ class MailtrapEngine
 =======
 >>>>>>> 4689a827 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
     public ?string $body = null;
 
     private static ?self $instance = null;
@@ -301,9 +340,12 @@ class MailtrapEngine
     public static function getInstance(): self
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! (self::$instance instanceof self)) {
             self::$instance = new self;
 =======
+=======
+>>>>>>> cf20697a6 (.)
         if (! self::$instance instanceof self) {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -364,7 +406,24 @@ class MailtrapEngine
 >>>>>>> 4689a827 (.)
 >>>>>>> c0f3d67cc (.)
             self::$instance = new self();
+<<<<<<< HEAD
 >>>>>>> 75cb51873 (.)
+=======
+=======
+        if (! (self::$instance instanceof self)) {
+            self::$instance = new self;
+=======
+    public null|string $body = null;
+
+    private static null|self $instance = null;
+
+    public static function getInstance(): self
+    {
+        if (!(self::$instance instanceof self)) {
+            self::$instance = new self();
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
         }
 
         return self::$instance;
@@ -401,6 +460,7 @@ class MailtrapEngine
 <<<<<<< HEAD
         Assert::string($this->body, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -512,18 +572,41 @@ class MailtrapEngine
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+>>>>>>> 2941b0bd (.)
+=======
+        Assert::string($this->body, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+=======
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
         Mail::raw($this->body, function (Message $msg): void {
             // Verifichiamo che $this->to sia valido
             $to = $this->to;
 
             // Utilizziamo una condizione più appropriata
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (! $to) {
 =======
             if (!$to) {
 <<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+            if (!$to) {
+=======
+<<<<<<< HEAD
+            if (! $to) {
+=======
+            if (!$to) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
                 throw new InvalidArgumentException('Il destinatario email non è valido');
 =======
 <<<<<<< HEAD

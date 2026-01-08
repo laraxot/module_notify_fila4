@@ -257,7 +257,19 @@ use Modules\Xot\Filament\Traits\TransTrait;
  * Questo enum centralizza la gestione dei driver SMS disponibili
  * e fornisce metodi helper per ottenere le opzioni e le etichette.
  */
+<<<<<<< HEAD
 enum SmsDriverEnum: string implements HasColor, HasIcon, HasLabel
+=======
+<<<<<<< HEAD
+enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
+=======
+<<<<<<< HEAD
+enum SmsDriverEnum: string implements HasColor, HasIcon, HasLabel
+=======
+enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
 {
     use TransTrait;
 <<<<<<< HEAD
@@ -447,8 +459,11 @@ enum SmsDriverEnum: string implements HasColor, HasIcon, HasLabel
     public function getLabel(): string
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $this->transClass(self::class, $this->value.'.label');
 =======
+=======
+>>>>>>> cf20697a6 (.)
         return $this->transClass(self::class, $this->value . '.label');
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -575,7 +590,19 @@ enum SmsDriverEnum: string implements HasColor, HasIcon, HasLabel
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+>>>>>>> 2941b0bd (.)
+=======
+<<<<<<< HEAD
+        return $this->transClass(self::class, $this->value.'.label');
+=======
+        return $this->transClass(self::class, $this->value . '.label');
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
     }
 
     public function getColor(): string
@@ -598,6 +625,7 @@ enum SmsDriverEnum: string implements HasColor, HasIcon, HasLabel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -697,7 +725,19 @@ enum SmsDriverEnum: string implements HasColor, HasIcon, HasLabel
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+        return $this->transClass(self::class, $this->value . '.color');
+>>>>>>> 2941b0bd (.)
+=======
+        return $this->transClass(self::class, $this->value.'.color');
+=======
+        return $this->transClass(self::class, $this->value . '.color');
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
     }
 
     public function getIcon(): string
@@ -720,6 +760,7 @@ enum SmsDriverEnum: string implements HasColor, HasIcon, HasLabel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -816,7 +857,19 @@ enum SmsDriverEnum: string implements HasColor, HasIcon, HasLabel
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> c0f3d67cc (.)
+=======
+=======
+        return $this->transClass(self::class, $this->value . '.icon');
+>>>>>>> 2941b0bd (.)
+=======
+        return $this->transClass(self::class, $this->value.'.icon');
+=======
+        return $this->transClass(self::class, $this->value . '.icon');
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
     }
 
     public function getDescription(): string
@@ -824,6 +877,7 @@ enum SmsDriverEnum: string implements HasColor, HasIcon, HasLabel
 <<<<<<< HEAD
         return $this->transClass(self::class, $this->value.'.description');
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -892,13 +946,25 @@ enum SmsDriverEnum: string implements HasColor, HasIcon, HasLabel
 >>>>>>> 4689a827 (.)
 >>>>>>> c0f3d67cc (.)
         return $this->transClass(self::class, $this->value . '.description');
+<<<<<<< HEAD
 >>>>>>> 75cb51873 (.)
+=======
+=======
+        return $this->transClass(self::class, $this->value.'.description');
+=======
+        return $this->transClass(self::class, $this->value . '.description');
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
     }
 
     /**
      * Restituisce il driver predefinito dal file di configurazione
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> cf20697a6 (.)
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1028,7 +1094,17 @@ enum SmsDriverEnum: string implements HasColor, HasIcon, HasLabel
 >>>>>>> 4689a827 (.)
 >>>>>>> c0f3d67cc (.)
      * @return self
+<<<<<<< HEAD
 >>>>>>> 75cb51873 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+     *
+     * @return self
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> cf20697a6 (.)
      */
     public static function getDefault(): self
     {
