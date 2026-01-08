@@ -36,6 +36,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'from' => env('SMS_FROM', '<nome progetto>'),
 =======
 =======
@@ -143,6 +144,12 @@ return [
 >>>>>>> d284d65 (.)
     'from' => env('SMS_FROM', 'SaluteOra'),
 >>>>>>> ee18dd92 (.)
+=======
+    'from' => env('SMS_FROM', 'SaluteOra'),
+=======
+    'from' => env('SMS_FROM', '<nome progetto>'),
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
     'retry' => [
         'attempts' => env('SMS_RETRY_ATTEMPTS', 3),
         'delay' => env('SMS_RETRY_DELAY', 60),
@@ -183,6 +190,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 =======
 =======
@@ -290,6 +298,12 @@ return [
 >>>>>>> d284d65 (.)
             'sender' => env('NETFUN_SENDER', 'SaluteOra'),
 >>>>>>> ee18dd92 (.)
+=======
+            'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+=======
+            'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
             'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
         ],
         'twilio' => [
@@ -387,6 +401,7 @@ SMS_FROM=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 SMS_FROM=<nome progetto>
 =======
 =======
@@ -494,6 +509,12 @@ SMS_FROM=<nome progetto>
 >>>>>>> d284d65 (.)
 SMS_FROM=SaluteOra
 >>>>>>> ee18dd92 (.)
+=======
+SMS_FROM=SaluteOra
+=======
+SMS_FROM=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
 SMS_RETRY_ATTEMPTS=3
 SMS_RETRY_DELAY=60
 
@@ -525,6 +546,7 @@ NETFUN_SENDER=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 NETFUN_SENDER=<nome progetto>
 =======
 =======
@@ -632,6 +654,12 @@ NETFUN_SENDER=<nome progetto>
 >>>>>>> d284d65 (.)
 NETFUN_SENDER=SaluteOra
 >>>>>>> ee18dd92 (.)
+=======
+NETFUN_SENDER=SaluteOra
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
 NETFUN_API_URL=https://v2.smsviainternet.it/api/rest/v1/sms-batch.json
 
 # Twilio
