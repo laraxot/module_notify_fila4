@@ -94,10 +94,6 @@ use Override;
 =======
 use Override;
 use Filament\Forms\Components\TextInput;
-<<<<<<< HEAD
-=======
-use Filament\Schemas\Schema;
->>>>>>> b8140d8 (.)
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> 99ff506 (.)
 
