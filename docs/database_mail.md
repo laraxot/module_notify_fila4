@@ -457,6 +457,7 @@ class ProcessDoctorModerationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -474,9 +475,12 @@ class ProcessDoctorModerationAction
 =======
 >>>>>>> 5fe4f466 (.)
 =======
+>>>>>>> e0d9c9be (.)
+=======
 
 >>>>>>> b19cd40 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -622,6 +626,9 @@ class ProcessDoctorModerationAction
 
 >>>>>>> b19cd40 (.)
 >>>>>>> 8e5817bc (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
 # Registrazione Approvata
 
 Gentile {{ $doctor->name }},
@@ -676,6 +683,7 @@ Cordiali saluti,<br>
 
 ## Vedi Anche
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -779,11 +787,16 @@ Cordiali saluti,<br>
 >>>>>>> 503981fd (.)
 =======
 >>>>>>> 8e5817bc (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Spatie Mail Templates](https://github.com/spatie/laravel-database-mail-templates)
 - [TinyMCE](https://www.tiny.cloud)
 <<<<<<< HEAD
 - [Filament Forms](https://filamentphp.com/docs/forms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -844,10 +857,13 @@ Cordiali saluti,<br>
 =======
 >>>>>>> 8e5817bc (.)
 =======
+>>>>>>> e0d9c9be (.)
+=======
 - [Laravel Mail](https://laravel.com/project_docs/mail)
 - [Spatie Mail Templates](https://github.com/spatie/laravel-database-mail-templates)
 - [TinyMCE](https://www.tiny.cloud)
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1025,3 +1041,7 @@ Cordiali saluti,<br>
 >>>>>>> dceba960 (.)
 =======
 >>>>>>> 8e5817bc (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
