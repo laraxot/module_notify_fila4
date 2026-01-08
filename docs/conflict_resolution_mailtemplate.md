@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -279,3 +280,5 @@ Verificare che:
 
 *Ultimo aggiornamento: giugno 2025*
 >>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)

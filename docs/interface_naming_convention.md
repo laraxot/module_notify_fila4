@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -1973,3 +1974,5 @@ grep -r "interface.*Contract" --include="*.php" /var/www/html/_bases/base_techpl
 >>>>>>> 460b8f5b (rebase 210)
 =======
 >>>>>>> 4d253d2c (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)

@@ -285,9 +285,6 @@ final class PushNotificationDebugData extends Data implements Arrayable
 >>>>>>> c0f3d67cc (.)
     }
 
-    /**
-     * @return array<string, mixed>
-     */
     public function toArray(): array
     {
         return [

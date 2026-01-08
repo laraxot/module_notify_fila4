@@ -149,6 +149,7 @@ it('each case has a unique value', function (): void {
 
         foreach ($form as $component) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 75179b85 (.)
@@ -164,6 +165,8 @@ it('each case has a unique value', function (): void {
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 54220b28 (rebase 210)
             $this->assertInstanceOf(TextInput::class, $component);
         }
     }

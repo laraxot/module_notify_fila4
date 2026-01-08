@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -490,3 +491,5 @@ Ogni campo ora ha la struttura espansa completa:
 =======
 *Ultimo aggiornamento: 2025-01-06* 
 >>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)

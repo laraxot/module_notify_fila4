@@ -188,6 +188,7 @@ class NotificationTrackingController extends Controller
 <<<<<<< HEAD
             $metadata = $log->data ?? [];
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             $metadata = $log->metadata ?? [];
 >>>>>>> 82ae73be (.)
@@ -208,6 +209,8 @@ class NotificationTrackingController extends Controller
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 54220b28 (rebase 210)
             $metadata['clicked_links'] = array_merge(
                 $metadata['clicked_links'] ?? [],
                 [$url => now()->toIso8601String()]
