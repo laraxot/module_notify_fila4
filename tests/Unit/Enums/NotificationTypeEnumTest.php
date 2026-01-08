@@ -76,6 +76,7 @@ class NotificationTypeEnumTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -213,6 +214,8 @@ class NotificationTypeEnumTest extends TestCase
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
         $values = array_map(fn ($case) => $case->value, NotificationTypeEnum::cases());
 =======
         $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
@@ -237,7 +240,13 @@ class NotificationTypeEnumTest extends TestCase
         $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
+<<<<<<< HEAD
 >>>>>>> ce89c8bb (.)
+=======
+=======
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> 9777d1b (.)
+>>>>>>> 58816034 (.)
         $uniqueValues = array_unique($values);
 
         $this->assertCount(count($values), $uniqueValues, 'All enum cases should have unique values');
