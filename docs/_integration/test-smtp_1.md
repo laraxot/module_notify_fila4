@@ -46,4 +46,77 @@ Mail::raw('Test SMTP', function($m){ $m->to('tuo@email.com')->subject('Test SMTP
 - [TestSmtpPage vs SendEmail: differenze architetturali](./test_smtp.md)
 - [Best practice per la configurazione SMTP](./EMAIL_BEST_PRACTICES.md)
 - [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+<<<<<<< HEAD:docs/_integration/test-smtp_1.md
 - [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b19cd40 (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+>>>>>>> 9777d1b3 (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+>>>>>>> 75179b85 (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+=======
+>>>>>>> b19cd40 (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+>>>>>>> 9777d1b3 (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+>>>>>>> 75cb51873 (.):docs/_integration/test_smtp.md

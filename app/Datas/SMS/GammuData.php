@@ -5,9 +5,152 @@ declare(strict_types=1);
 namespace Modules\Notify\Datas\SMS;
 
 use Illuminate\Support\Arr;
+<<<<<<< HEAD
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+use Illuminate\Support\Facades\Config;
+use Modules\Tenant\Services\TenantService;
+use Spatie\LaravelData\Data;
+use Webmozart\Assert\Assert;
+
+class GammuData extends Data
+{
+    public null|string $path;
+    public null|string $config;
+    public int $timeout = 30;
+
+    private static null|self $instance = null;
+
+    public static function make(): self
+    {
+        if (!(self::$instance instanceof GammuData)) {
+            /*
+             * $data = TenantService::getConfig('sms');
+             * $data = Arr::get($data, 'drivers.gammu', []);
+             */
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+=======
+use Spatie\LaravelData\Data;
+use Webmozart\Assert\Assert;
+=======
+>>>>>>> b93ef594b4 (.)
+use Illuminate\Support\Facades\Config;
+use Modules\Tenant\Services\TenantService;
+use Spatie\LaravelData\Data;
+use Webmozart\Assert\Assert;
+
+class GammuData extends Data
+{
+    public null|string $path;
+    public null|string $config;
+    public int $timeout = 30;
+
+    private static null|self $instance = null;
+
+    public static function make(): self
+    {
+        if (!(self::$instance instanceof GammuData)) {
+            /*
+<<<<<<< HEAD
+            $data = TenantService::getConfig('sms');
+            $data = Arr::get($data, 'drivers.gammu', []);
+            */
+>>>>>>> a12f125f4a (.)
+=======
+             * $data = TenantService::getConfig('sms');
+             * $data = Arr::get($data, 'drivers.gammu', []);
+             */
+>>>>>>> b93ef594b4 (.)
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+use Spatie\LaravelData\Data;
+use Webmozart\Assert\Assert;
+use Illuminate\Support\Facades\Config;
+use Modules\Tenant\Services\TenantService;
+>>>>>>> 75cb51873 (.)
 
 class GammuData extends Data
 {
@@ -23,9 +166,59 @@ class GammuData extends Data
     {
         if (! (self::$instance instanceof GammuData)) {
             /*
+<<<<<<< HEAD
              * $data = TenantService::getConfig('sms');
              * $data = Arr::get($data, 'drivers.gammu', []);
              */
+=======
+            $data = TenantService::getConfig('sms');
+            $data = Arr::get($data, 'drivers.gammu', []);
+            */
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+>>>>>>> 75cb51873 (.)
             $data = Config::array('sms.drivers.gammu');
             self::$instance = self::from($data);
         }

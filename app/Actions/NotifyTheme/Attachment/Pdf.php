@@ -24,7 +24,63 @@ class Pdf
         $notify_theme_data = app(Get::class)->execute($post_type, 'pdf', $view_params);
         $html = $notify_theme_data->body_html;
 
+<<<<<<< HEAD
         $file_name = Str::slug($notify_theme_data->subject).'.pdf';
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+        $file_name = Str::slug($notify_theme_data->subject) . '.pdf';
+>>>>>>> 75cb51873 (.)
         if (isset($view_params[$file_name])) {
             $file_name = $view_params[$file_name];
         }
@@ -43,5 +99,127 @@ class Pdf
             'as' => $file_name,
             'mime' => 'application/pdf',
         ]);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+=======
+        $file_name = Str::slug($notify_theme_data->subject).'.pdf';
+=======
+        $file_name = Str::slug($notify_theme_data->subject) . '.pdf';
+>>>>>>> b93ef594b4 (.)
+        if (isset($view_params[$file_name])) {
+            $file_name = $view_params[$file_name];
+        }
+        Assert::string($file_name, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        $file_path = Storage::disk('cache')->path($file_name);
+
+        HtmlService::toPdf(
+            filename: $file_path,
+            html: $html,
+            out: 'file',
+            pdforientation: 'P',
+        );
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+
+        return AttachmentData::from([
+            'path' => $file_path,
+            'as' => $file_name,
+            'mime' => 'application/pdf',
+        ]);
+>>>>>>> b93ef594b4 (.)
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+        $file_name = Str::slug($notify_theme_data->subject).'.pdf';
+        if (isset($view_params[$file_name])) {
+            $file_name = $view_params[$file_name];
+        }
+        Assert::string($file_name);
+        $file_path = Storage::disk('cache')->path($file_name);
+
+        HtmlService::toPdf(filename: $file_path, html: $html, out: 'file', pdforientation: 'P');
+
+        return AttachmentData::from(
+            [
+                'path' => $file_path,
+                'as' => $file_name,
+                'mime' => 'application/pdf',
+            ]
+        );
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+>>>>>>> 75cb51873 (.)
     }
 }

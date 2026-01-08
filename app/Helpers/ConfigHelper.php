@@ -67,7 +67,102 @@ class ConfigHelper
     private static function replaceStringVariables(string $string, array $variables): string
     {
         foreach ($variables as $variable => $value) {
+<<<<<<< HEAD
             $placeholder = '{{'.$variable.'}}';
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
+            $placeholder = '{{' . $variable . '}}';
+=======
+            $placeholder = '{{'.$variable.'}}';
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            $placeholder = '{{' . $variable . '}}';
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+            $placeholder = '{{' . $variable . '}}';
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+            $placeholder = '{{' . $variable . '}}';
+>>>>>>> 9777d1b3 (.)
+=======
+            $placeholder = '{{' . $variable . '}}';
+=======
+=======
+            $placeholder = '{{' . $variable . '}}';
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            $placeholder = '{{' . $variable . '}}';
+=======
+            $placeholder = '{{'.$variable.'}}';
+>>>>>>> a12f125f4a (.)
+=======
+            $placeholder = '{{' . $variable . '}}';
+>>>>>>> b93ef594b4 (.)
+=======
+            $placeholder = '{{'.$variable.'}}';
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+            $placeholder = '{{' . $variable . '}}';
+>>>>>>> 3f537838 (.)
+=======
+            $placeholder = '{{' . $variable . '}}';
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+            $placeholder = '{{' . $variable . '}}';
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+            $placeholder = '{{' . $variable . '}}';
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+            $placeholder = '{{' . $variable . '}}';
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+>>>>>>> 75cb51873 (.)
             $string = str_replace($placeholder, (string) $value, $string);
         }
 

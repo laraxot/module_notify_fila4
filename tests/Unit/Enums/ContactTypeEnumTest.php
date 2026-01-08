@@ -67,5 +67,148 @@ it('each case has a unique value', function (): void {
     $values = array_map(static fn (ContactTypeEnum $case): string => $case->value, ContactTypeEnum::cases());
     $uniqueValues = array_unique($values);
 
+<<<<<<< HEAD
     expect($uniqueValues)->toHaveCount(count($values));
 });
+=======
+    /** @test */
+    public function it_has_trans_trait(): void
+    {
+        $reflection = new ReflectionClass(ContactTypeEnum::class);
+        $traits = $reflection->getTraitNames();
+
+        $this->assertContains('Modules\Xot\Filament\Traits\TransTrait', $traits);
+    }
+
+    /** @test */
+    public function it_has_required_methods(): void
+    {
+        $this->assertTrue(method_exists(ContactTypeEnum::class, 'getLabel'));
+        $this->assertTrue(method_exists(ContactTypeEnum::class, 'getColor'));
+        $this->assertTrue(method_exists(ContactTypeEnum::class, 'getIcon'));
+        $this->assertTrue(method_exists(ContactTypeEnum::class, 'getDescription'));
+        $this->assertTrue(method_exists(ContactTypeEnum::class, 'getSearchable'));
+        $this->assertTrue(method_exists(ContactTypeEnum::class, 'getFormSchema'));
+    }
+
+    /** @test */
+    public function get_searchable_returns_all_values(): void
+    {
+        $searchable = ContactTypeEnum::getSearchable();
+
+        $this->assertIsArray($searchable);
+        $this->assertCount(6, $searchable);
+        $this->assertContains('phone', $searchable);
+        $this->assertContains('mobile', $searchable);
+        $this->assertContains('email', $searchable);
+        $this->assertContains('pec', $searchable);
+        $this->assertContains('whatsapp', $searchable);
+        $this->assertContains('fax', $searchable);
+    }
+
+    /** @test */
+    public function get_form_schema_returns_text_inputs(): void
+    {
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $form = ContactTypeEnum::getFormSchema();
+
+        $this->assertIsArray($form);
+        $this->assertCount(6, $form);
+
+        foreach ($form as $component) {
+=======
+=======
+>>>>>>> 75179b85 (.)
+        $schema = ContactTypeEnum::getFormSchema();
+
+        $this->assertIsArray($schema);
+        $this->assertCount(6, $schema);
+
+        foreach ($schema as $component) {
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+            $this->assertInstanceOf(TextInput::class, $component);
+        }
+    }
+
+    /** @test */
+    public function each_case_has_unique_value(): void
+    {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+        $values = array_map(fn($case) => $case->value, ContactTypeEnum::cases());
+=======
+        $values = array_map(fn ($case) => $case->value, ContactTypeEnum::cases());
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        $values = array_map(fn($case) => $case->value, ContactTypeEnum::cases());
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+        $values = array_map(fn($case) => $case->value, ContactTypeEnum::cases());
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+        $values = array_map(fn($case) => $case->value, ContactTypeEnum::cases());
+>>>>>>> 9777d1b3 (.)
+=======
+        $values = array_map(fn($case) => $case->value, ContactTypeEnum::cases());
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+        $values = array_map(fn($case) => $case->value, ContactTypeEnum::cases());
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+        $values = array_map(fn($case) => $case->value, ContactTypeEnum::cases());
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> de02998b (.)
+        $uniqueValues = array_unique($values);
+
+        $this->assertCount(count($values), $uniqueValues, 'All enum cases should have unique values');
+    }
+}
+>>>>>>> 75cb51873 (.)

@@ -5,9 +5,154 @@ declare(strict_types=1);
 namespace Modules\Notify\Datas\SMS;
 
 use Illuminate\Support\Arr;
+<<<<<<< HEAD
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+use Illuminate\Support\Facades\Config;
+use Modules\Tenant\Services\TenantService;
+use Spatie\LaravelData\Data;
+use Webmozart\Assert\Assert;
+
+class SmsFactorData extends Data
+{
+    public null|string $token;
+    public null|string $base_url;
+    public string $auth_type = 'bearer';
+    public int $timeout = 30;
+
+    private static null|self $instance = null;
+
+    public static function make(): self
+    {
+        if (!(self::$instance instanceof SmsFactorData)) {
+            /*
+             * $data = TenantService::getConfig('sms');
+             * $data = Arr::get($data, 'drivers.smsfactor', []);
+             */
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+=======
+use Spatie\LaravelData\Data;
+use Webmozart\Assert\Assert;
+=======
+>>>>>>> b93ef594b4 (.)
+use Illuminate\Support\Facades\Config;
+use Modules\Tenant\Services\TenantService;
+use Spatie\LaravelData\Data;
+use Webmozart\Assert\Assert;
+
+class SmsFactorData extends Data
+{
+    public null|string $token;
+    public null|string $base_url;
+    public string $auth_type = 'bearer';
+    public int $timeout = 30;
+
+    private static null|self $instance = null;
+
+    public static function make(): self
+    {
+        if (!(self::$instance instanceof SmsFactorData)) {
+            /*
+<<<<<<< HEAD
+            $data = TenantService::getConfig('sms');
+            $data = Arr::get($data, 'drivers.smsfactor', []);
+            */
+>>>>>>> a12f125f4a (.)
+=======
+             * $data = TenantService::getConfig('sms');
+             * $data = Arr::get($data, 'drivers.smsfactor', []);
+             */
+>>>>>>> b93ef594b4 (.)
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+use Spatie\LaravelData\Data;
+use Webmozart\Assert\Assert;
+use Illuminate\Support\Facades\Config;
+use Modules\Tenant\Services\TenantService;
+>>>>>>> 75cb51873 (.)
 
 class SmsFactorData extends Data
 {
@@ -25,9 +170,59 @@ class SmsFactorData extends Data
     {
         if (! (self::$instance instanceof SmsFactorData)) {
             /*
+<<<<<<< HEAD
              * $data = TenantService::getConfig('sms');
              * $data = Arr::get($data, 'drivers.smsfactor', []);
              */
+=======
+            $data = TenantService::getConfig('sms');
+            $data = Arr::get($data, 'drivers.smsfactor', []);
+            */
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+>>>>>>> 75cb51873 (.)
             $data = Config::array('sms.drivers.smsfactor');
             self::$instance = self::from($data);
         }
@@ -43,7 +238,102 @@ class SmsFactorData extends Data
                 return [
                     'Authorization' => 'Bearer '.$this->token,
                     'Content-Type' => 'application/json',
+<<<<<<< HEAD
                     'Cache-Control' => 'no-cache',
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
+                    'Cache-Control' => 'no-cache',
+=======
+                    'Cache-Control' => 'no-cache'
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    'Cache-Control' => 'no-cache',
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+                    'Cache-Control' => 'no-cache',
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+                    'Cache-Control' => 'no-cache',
+>>>>>>> 9777d1b3 (.)
+=======
+                    'Cache-Control' => 'no-cache',
+=======
+=======
+                    'Cache-Control' => 'no-cache',
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                    'Cache-Control' => 'no-cache',
+=======
+                    'Cache-Control' => 'no-cache'
+>>>>>>> a12f125f4a (.)
+=======
+                    'Cache-Control' => 'no-cache',
+>>>>>>> b93ef594b4 (.)
+=======
+                    'Cache-Control' => 'no-cache'
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+                    'Cache-Control' => 'no-cache',
+>>>>>>> 3f537838 (.)
+=======
+                    'Cache-Control' => 'no-cache',
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+                    'Cache-Control' => 'no-cache',
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+                    'Cache-Control' => 'no-cache',
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+                    'Cache-Control' => 'no-cache',
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+>>>>>>> 75cb51873 (.)
                 ];
         }
     }
