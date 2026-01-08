@@ -445,10 +445,13 @@ return [
                 'cancel' => 'No, annulla',
             ],
         ],
+<<<<<<< HEAD
         'logout' => [
             'tooltip' => 'logout',
             'icon' => 'logout',
         ],
+=======
+>>>>>>> 75179b8 (.)
     ],
     'messages' => [
         'created' => [

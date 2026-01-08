@@ -150,6 +150,7 @@
 >>>>>>> 9725cc0a0 (.)
 declare(strict_types=1);
 
+<<<<<<< HEAD
 namespace Modules\Notify\Filament\Resources;
 
 <<<<<<< HEAD
@@ -167,6 +168,19 @@ use Filament\Forms\Components\DateTimePicker;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
 use Modules\Notify\Models\Notification;
+=======
+
+namespace Modules\Notify\Filament\Resources;
+
+use Override;
+use Filament\Forms\Components\DateTimePicker;
+use Filament\Forms\Components\KeyValue;
+use Filament\Forms\Components\Textarea;
+use Filament\Forms\Components\TextInput;
+use Modules\Notify\Filament\Resources\NotificationResource\Pages;
+use Modules\Notify\Models\Notification;
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+>>>>>>> 75179b8 (.)
 use Modules\Xot\Filament\Resources\XotBaseResource;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -182,9 +196,18 @@ use Override;
 
 class NotificationResource extends XotBaseResource
 {
+<<<<<<< HEAD
     protected static ?string $model = Notification::class;
 
+<<<<<<< HEAD
     #[\Override]
+=======
+=======
+    protected static null|string $model = Notification::class;
+
+    #[Override]
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
     public static function getFormSchema(): array
     {
         return [

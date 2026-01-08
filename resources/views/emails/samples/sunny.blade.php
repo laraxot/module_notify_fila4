@@ -414,11 +414,19 @@ declare(strict_types=1);
         'level' => 'h1',
     ])
 
+<<<<<<< HEAD
     @include('beautymail::templates.sunny.content-start')
 
         <p>Today will be a great day!</p>
 
     @include('beautymail::templates.sunny.content-end')
+=======
+    @include('beautymail::templates.sunny.contentStart')
+
+        <p>Today will be a great day!</p>
+
+    @include('beautymail::templates.sunny.contentEnd')
+>>>>>>> 75179b8 (.)
 
     @include('beautymail::templates.sunny.button', [
         	'title' => 'Click me',

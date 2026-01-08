@@ -179,6 +179,10 @@
 >>>>>>> 9725cc0a0 (.)
 declare(strict_types=1);
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 75179b8 (.)
 return [
     'resource' => [
         'name' => 'Invio SMS',

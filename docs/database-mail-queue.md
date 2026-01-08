@@ -10,6 +10,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -30,6 +31,8 @@
 >>>>>>> 8c8937e7 (rebase 210)
 =======
 >>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> c8b1c8bf (.)
 # Sistema di Code per Email - il progetto
 
 ## Panoramica
@@ -220,6 +223,10 @@ $users->each(function ($user) {
 ### 2. Gestione Worker
 
 ```bash
+<<<<<<< HEAD
+=======
+
+>>>>>>> c8b1c8bf (.)
 # Avvia worker dedicato
 php artisan queue:work --queue=emails
 
@@ -322,6 +329,7 @@ $this->call('queue:prune-batches', [
 ### 1. Orizzontale
 
 ```bash
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -894,13 +902,22 @@ command=php /var/www/html/_bases/base_techplanner_fila3_mono/laravel/artisan que
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> 2effe245 (.)
+=======
+# Supervisor config
+[program:<nome progetto>-worker]
+process_name=%(program_name)s_%(process_num)02d
+command=php /var/www/html/_bases/base_techplanner_fila3_mono/laravel/artisan queue:work redis --queue=emails
+>>>>>>> c8b1c8bf (.)
 
 # Supervisor config
 [program:<nome progetto>-worker]
 process_name=%(program_name)s_%(process_num)02d
 command=php /var/www/html/base_<nome progetto>/artisan queue:work redis --queue=emails
+<<<<<<< HEAD
 =======
 >>>>>>> fbed41ac (.)
+=======
+>>>>>>> c8b1c8bf (.)
 autostart=true
 autorestart=true
 numprocs=4
@@ -982,6 +999,10 @@ if ($failedJobs > $threshold) {
 ### 1. Pulizia
 
 ```bash
+<<<<<<< HEAD
+=======
+
+>>>>>>> c8b1c8bf (.)
 # Pulizia job vecchi
 php artisan queue:prune-failed --hours=168
 php artisan queue:prune-batches --hours=24
@@ -1016,6 +1037,7 @@ php artisan queue:restart
 ## Vedi Anche
 - [Laravel Queues](https://laravel.com/docs/queues)
 - [Horizon Documentation](https://laravel.com/docs/horizon)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1404,3 +1426,6 @@ php artisan queue:restart
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> 2effe245 (.)
+=======
+- [Redis Documentation](https://redis.io/documentation)
+>>>>>>> c8b1c8bf (.)

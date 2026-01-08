@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -36,6 +37,8 @@
 >>>>>>> fd1fcc4c (.)
 =======
 >>>>>>> 4f3927d7 (.)
+=======
+>>>>>>> c8b1c8bf (.)
 # Fix Traduzioni File send_email.php - Modulo Notify
 
 ## Problemi Identificati
@@ -163,6 +166,7 @@ Ogni campo ora ha la struttura espansa completa:
 
 ## Collegamenti
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -513,10 +517,16 @@ Ogni campo ora ha la struttura espansa completa:
 >>>>>>> 4f3927d7 (.)
 =======
 >>>>>>> 3ee54c5d (.)
+=======
+- [Documentazione Root](../docs/translation_standards_links.md)
+- [Regole Helper Text](../docs/translation-helper-text-standards.md)
+- [Best Practices Filament](../docs/filament_translation_best_practices.md)
+>>>>>>> c8b1c8bf (.)
 - [Documentazione Root](../project_docs/translation_standards_links.md)
 - [Best Practices Filament](../docs/filament_translation_best_practices.md)- [Documentazione Root](../project_docs/translation_standards_links.md)
 - [Regole Helper Text](../project_docs/translation-helper-text-standards.md)
 - [Best Practices Filament](../project_docs/filament_translation_best_practices.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -633,6 +643,8 @@ Ogni campo ora ha la struttura espansa completa:
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> 3ee54c5d (.)
+=======
+>>>>>>> c8b1c8bf (.)
 
 ## Note Importanti
 
@@ -655,6 +667,7 @@ Ogni campo ora ha la struttura espansa completa:
 ],
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -708,3 +721,6 @@ Ogni campo ora ha la struttura espansa completa:
 =======
 *Ultimo aggiornamento: 2025-01-06* 
 >>>>>>> 4f3927d7 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> c8b1c8bf (.)

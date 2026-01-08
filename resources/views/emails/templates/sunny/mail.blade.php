@@ -726,11 +726,19 @@ declare(strict_types=1);
         'level' => 'h1',
     ]) --}}
 
+<<<<<<< HEAD
     @include('notify::emails.templates.sunny.content-start')
 
     {!! $html !!}
 
     @include('notify::emails.templates.sunny.content-end')
+=======
+    @include('notify::emails.templates.sunny.contentStart')
+
+    {!! $html !!}
+
+    @include('notify::emails.templates.sunny.contentEnd')
+>>>>>>> 75179b8 (.)
 
     {{-- @include('beautymail::templates.sunny.button', [
         'title' => 'Click me',
