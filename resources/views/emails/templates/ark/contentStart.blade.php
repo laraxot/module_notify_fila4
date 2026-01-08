@@ -26,6 +26,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -117,6 +118,8 @@
 =======
 >>>>>>> c6c33175 (.)
 =======
+>>>>>>> c4bdacbf (.)
+=======
 <<<<<<< HEAD
 =======
 >>>>>>> 95531e1 (.)
@@ -136,12 +139,15 @@
 =======
 =======
 =======
+>>>>>>> 4e643df (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 >>>>>>> f813254 (.)
 <<<<<<< HEAD
 >>>>>>> f2e64178 (.)
@@ -165,12 +171,18 @@
 =======
 =======
 >>>>>>> 2bcb149 (.)
+<<<<<<< HEAD
 >>>>>>> c6c33175 (.)
+=======
+=======
+>>>>>>> 4e643df (.)
+>>>>>>> c4bdacbf (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -228,6 +240,8 @@ declare(strict_types=1);
 =======
 >>>>>>> f2e64178 (.)
 =======
+>>>>>>> c4bdacbf (.)
+=======
 <<<<<<< HEAD
 =======
 >>>>>>> a12f125f4a (.)
@@ -236,6 +250,7 @@ declare(strict_types=1);
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -323,6 +338,8 @@ declare(strict_types=1);
 >>>>>>> 6b6b9e41 (.)
 =======
 >>>>>>> c6c33175 (.)
+=======
+>>>>>>> c4bdacbf (.)
 <tr>
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
@@ -365,6 +382,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -511,6 +529,8 @@ declare(strict_types=1);
 =======
 >>>>>>> c6c33175 (.)
 =======
+>>>>>>> c4bdacbf (.)
+=======
 					<div class="article-content" align="left">
 >>>>>>> 99ff506 (.)
 =======
@@ -545,6 +565,9 @@ declare(strict_types=1);
 =======
 					<div class="article-content" align="left">
 =======
+					<div class="article-content" align="left">
+>>>>>>> 4e643df (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -559,6 +582,7 @@ declare(strict_types=1);
 					<div class="article-content" align="left">
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 >>>>>>> f813254 (.)
 <<<<<<< HEAD
 >>>>>>> f2e64178 (.)
@@ -589,4 +613,9 @@ declare(strict_types=1);
 =======
 					<div class="article-content" align="left">
 >>>>>>> 2bcb149 (.)
+<<<<<<< HEAD
 >>>>>>> c6c33175 (.)
+=======
+=======
+>>>>>>> 4e643df (.)
+>>>>>>> c4bdacbf (.)
