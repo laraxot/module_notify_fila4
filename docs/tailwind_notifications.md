@@ -22,16 +22,13 @@ Il sistema di notifiche del modulo Notify è stato reimplementato utilizzando i 
 ```
 
 ### Lista Notifiche
-```blade
 <x-filament::notifications.list>
     @foreach($notifications as $notification)
         <x-filament::notifications.notification
             :notification="$notification"
             :wire:key="$notification->id"
-        />
     @endforeach
 </x-filament::notifications.list>
-```
 
 ### Indicatore Notifiche
 ```blade
@@ -44,7 +41,6 @@ Il sistema di notifiche del modulo Notify è stato reimplementato utilizzando i 
 ## Tipi di Notifica
 
 ### Notifica Informativa
-```blade
 <x-filament::notification
     title="Informazione"
     description="Il processo è stato completato con successo"
@@ -117,12 +113,10 @@ class ProcessQueueAction implements QueueableAction
             ->pushOn($queue, new ProcessNotificationsJob());
     }
 }
-```
 
 ## Livewire Components
 
 ### Notification List
-```php
 class NotificationList extends Component implements HasForms
 {
     use InteractsWithForms;
@@ -140,7 +134,6 @@ class NotificationList extends Component implements HasForms
     public function markAsRead($id)
     {
         auth()->user()
-            ->notifications()
             ->findOrFail($id)
             ->markAsRead();
 
@@ -149,9 +142,7 @@ class NotificationList extends Component implements HasForms
 
     public function markAllAsRead()
     {
-        auth()->user()
             ->unreadNotifications
-            ->markAsRead();
 
         $this->dispatch('all-notifications-read');
     }
@@ -200,7 +191,7 @@ class SendNotificationActionTest extends TestCase
         Notification::fake();
 
         $action = app(SendNotificationAction::class);
-        
+
         $action->execute(NotificationData::from([
             'title' => 'Test',
             'message' => 'Test message',
@@ -234,14 +225,8 @@ class NotificationListTest extends TestCase
 
     public function test_it_marks_notification_as_read()
     {
-        $user = User::factory()->create();
-        $notification = Notification::factory()
             ->unread()
-            ->for($user)
-            ->create();
 
-        Livewire::actingAs($user)
-            ->test(NotificationList::class)
             ->call('markAsRead', $notification->id)
             ->assertEmitted('notification-read');
 

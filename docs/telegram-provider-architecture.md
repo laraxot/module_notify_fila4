@@ -1,229 +1,9 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Architettura Telegram Provider per <nome progetto>
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di <nome progetto>, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
-=======
-=======
->>>>>>> 75179b85 (.)
-=======
->>>>>>> 75179b85 (.)
->>>>>>> 022fa8f1c (.)
-# Architettura Telegram Provider per 
+# Architettura Telegram Provider per
 
 Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di , mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
 # Architettura Telegram Provider per SaluteOra
 
 Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 75179b85 (.)
-=======
-# Architettura Telegram Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
->>>>>>> f963d2c0 (.)
-=======
-# Architettura Telegram Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
-=======
-# Architettura Telegram Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
->>>>>>> 31f5d28f (.)
-=======
-# Architettura Telegram Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
->>>>>>> 31f5d28f (.)
-=======
-# Architettura Telegram Provider per 
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di , mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
-# Architettura Telegram Provider per <nome progetto>
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di <nome progetto>, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
->>>>>>> bf479cc (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 31f5d28f (.)
-=======
-# Architettura Telegram Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
->>>>>>> a404ea71 (.)
-=======
->>>>>>> 75179b85 (.)
-=======
-# Architettura Telegram Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
-# Architettura Telegram Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
->>>>>>> a404ea71 (.)
-=======
->>>>>>> 75179b85 (.)
-=======
-# Architettura Telegram Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
-# Architettura Telegram Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
->>>>>>> a404ea71 (.)
-=======
-# Architettura Telegram Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
->>>>>>> ee18dd92 (.)
-<<<<<<< HEAD
->>>>>>> 022fa8f1c (.)
-=======
-=======
->>>>>>> 6608a1a0 (.)
-=======
-# Architettura Telegram Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
->>>>>>> ca10d6ad (.)
-=======
-# Architettura Telegram Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
->>>>>>> 66453ace (.)
-=======
->>>>>>> 23cbbaf5 (.)
-=======
-# Architettura Telegram Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
->>>>>>> febe79e3 (.)
-=======
-# Architettura Telegram Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 909e45af (.)
-=======
-# Architettura Telegram Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
->>>>>>> a29a4728 (.)
-=======
-# Architettura Telegram Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> bb7e77c2 (.)
-=======
-# Architettura Telegram Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
->>>>>>> c7a4727b (.)
-=======
->>>>>>> b99af5a8 (.)
-=======
-# Architettura Telegram Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
->>>>>>> 9721a5b2 (.)
-=======
-# Architettura Telegram Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
->>>>>>> 712617d3 (.)
-=======
->>>>>>> f3086887 (rebase 210)
-=======
-# Architettura Telegram Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
->>>>>>> 1442e291 (rebase 210)
-=======
-# Architettura Telegram Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 3d462363 (rebase 210)
-=======
-# Architettura Telegram Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
->>>>>>> fcaebc79 (rebase 210)
-=======
->>>>>>> 4fc21b78 (rebase 210)
-=======
-# Architettura Telegram Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> 54ad93c4 (rebase 210)
-=======
-# Architettura Telegram Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
->>>>>>> 9d3810d0 (rebase 210)
-=======
-# Architettura Telegram Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 6e12a84b (rebase 210)
-=======
-# Architettura Telegram Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
->>>>>>> d38aa9d2 (rebase 210)
-=======
-# Architettura Telegram Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 545977c8 (rebase 210)
-=======
-# Architettura Telegram Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
->>>>>>> 9e7ba5b6 (rebase 210)
-=======
-# Architettura Telegram Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
 
 ## Principi Architetturali Fondamentali
 
@@ -237,168 +17,9 @@ L'architettura dei provider Telegram segue gli stessi principi dei provider SMS,
 ## Struttura Directory e Namespace
 
 ```
-<<<<<<< HEAD
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
 /var/www/html/saluteora/laravel/Modules/Notify/
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-/var/www/html/<nome progetto>/laravel/Modules/Notify/
-=======
-/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
-/var/www/html/saluteora/laravel/Modules/Notify/
-/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
->>>>>>> 75179b85 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> f963d2c0 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> 31f5d28f (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> 31f5d28f (.)
-=======
-/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
-/var/www/html/<nome progetto>/laravel/Modules/Notify/
-/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
->>>>>>> bf479cc (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 31f5d28f (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> a404ea71 (.)
-=======
-/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
-/var/www/html/saluteora/laravel/Modules/Notify/
-/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
->>>>>>> 75179b85 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> a404ea71 (.)
-=======
-/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
-/var/www/html/saluteora/laravel/Modules/Notify/
-/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
->>>>>>> 75179b85 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> a404ea71 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> ee18dd92 (.)
-<<<<<<< HEAD
->>>>>>> 022fa8f1c (.)
-=======
-=======
->>>>>>> 6608a1a0 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> ca10d6ad (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> 66453ace (.)
-=======
->>>>>>> 23cbbaf5 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> febe79e3 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 909e45af (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> a29a4728 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> bb7e77c2 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> c7a4727b (.)
-=======
->>>>>>> b99af5a8 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> 9721a5b2 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> 712617d3 (.)
-=======
->>>>>>> f3086887 (rebase 210)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> 1442e291 (rebase 210)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 3d462363 (rebase 210)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> fcaebc79 (rebase 210)
-=======
-/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
-/var/www/html/saluteora/laravel/Modules/Notify/
-/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
->>>>>>> 4fc21b78 (rebase 210)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> 54ad93c4 (rebase 210)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> 9d3810d0 (rebase 210)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 6e12a84b (rebase 210)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> d38aa9d2 (rebase 210)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 545977c8 (rebase 210)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> 9e7ba5b6 (rebase 210)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
 ├── app/
 │   ├── Actions/
 │   │   └── Telegram/
@@ -427,7 +48,7 @@ use Modules\Notify\Datas\TelegramData;
 
 /**
  * Interfaccia per tutte le azioni di invio Telegram.
- * 
+ *
  * Tutte le implementazioni di provider Telegram devono implementare questa interfaccia
  * per garantire una coerenza nel modo in cui vengono gestiti i messaggi
  * indipendentemente dal provider specifico utilizzato.
@@ -502,7 +123,7 @@ return [
     |
     */
     'default' => env('TELEGRAM_PROVIDER', 'bot'),
-    
+
     /*
     |--------------------------------------------------------------------------
     | Telegram Providers
@@ -517,7 +138,7 @@ return [
             'api_url' => env('TELEGRAM_API_URL', 'https://api.telegram.org'),
             'certificate_path' => env('TELEGRAM_CERTIFICATE_PATH'),
         ],
-        
+
         'api' => [
             'token' => env('TELEGRAM_API_TOKEN'),
             'api_id' => env('TELEGRAM_API_ID'),
@@ -525,7 +146,7 @@ return [
             'proxy' => env('TELEGRAM_PROXY'),
         ],
     ],
-    
+
     /*
     |--------------------------------------------------------------------------
     | Global Debug Mode
@@ -614,15 +235,15 @@ final class SendBotTelegramAction implements TelegramProviderActionInterface
     public function __construct()
     {
         $token = config('telegram.providers.bot.token');
-        
+
         if (!is_string($token)) {
             throw new Exception('Il token del bot Telegram deve essere configurato in config/telegram.php');
         }
-        
+
         $this->token = $token;
         $this->apiUrl = rtrim(config('telegram.providers.bot.api_url', 'https://api.telegram.org'), '/');
         $this->certificatePath = config('telegram.providers.bot.certificate_path');
-        
+
         // Parametri globali
         $this->debug = (bool) config('telegram.debug', false);
         $this->timeout = (int) config('telegram.timeout', 30);
@@ -642,31 +263,31 @@ final class SendBotTelegramAction implements TelegramProviderActionInterface
             'timeout' => $this->timeout,
             'http_errors' => false,
         ]);
-        
+
         try {
             // Prepara i parametri per la richiesta
             $params = [
                 'chat_id' => $telegramData->chatId,
                 'text' => $telegramData->text,
             ];
-            
+
             // Aggiungi parametri opzionali se presenti
             if ($telegramData->parseMode) {
                 $params['parse_mode'] = $telegramData->parseMode;
             }
-            
+
             if ($telegramData->disableWebPagePreview) {
                 $params['disable_web_page_preview'] = true;
             }
-            
+
             if ($telegramData->disableNotification) {
                 $params['disable_notification'] = true;
             }
-            
+
             if ($telegramData->replyToMessageId) {
                 $params['reply_to_message_id'] = $telegramData->replyToMessageId;
             }
-            
+
             // Gestione dei pulsanti
             if (!empty($telegramData->buttons)) {
                 $params['reply_markup'] = json_encode([
@@ -675,7 +296,7 @@ final class SendBotTelegramAction implements TelegramProviderActionInterface
             } elseif (!empty($telegramData->replyMarkup)) {
                 $params['reply_markup'] = json_encode($telegramData->replyMarkup);
             }
-            
+
             // Determina se inviare un messaggio semplice o con file
             if (empty($telegramData->files)) {
                 // Messaggio semplice
@@ -687,7 +308,7 @@ final class SendBotTelegramAction implements TelegramProviderActionInterface
                 // Messaggio con file (solo primo file supportato)
                 $file = $telegramData->files[0];
                 $method = $this->determineFileMethod($file);
-                
+
                 // Aggiunge il file come multipart
                 $multipart = [
                     [
@@ -699,14 +320,14 @@ final class SendBotTelegramAction implements TelegramProviderActionInterface
                         'contents' => $telegramData->text,
                     ],
                 ];
-                
+
                 // Aggiunge il file alla richiesta multipart
                 $multipart[] = [
                     'name' => $this->getFileParameterName($method),
                     'contents' => fopen($file['path'], 'r'),
                     'filename' => $file['name'] ?? basename($file['path']),
                 ];
-                
+
                 // Aggiunge parametri opzionali
                 if ($telegramData->parseMode) {
                     $multipart[] = [
@@ -714,7 +335,7 @@ final class SendBotTelegramAction implements TelegramProviderActionInterface
                         'contents' => $telegramData->parseMode,
                     ];
                 }
-                
+
                 if (!empty($telegramData->buttons)) {
                     $multipart[] = [
                         'name' => 'reply_markup',
@@ -723,17 +344,17 @@ final class SendBotTelegramAction implements TelegramProviderActionInterface
                         ]),
                     ];
                 }
-                
+
                 $response = $client->post(
                     "/bot{$this->token}/{$method}",
                     ['multipart' => $multipart]
                 );
             }
-            
+
             // Elabora la risposta
             $statusCode = $response->getStatusCode();
             $responseBody = json_decode((string) $response->getBody(), true);
-            
+
             if ($statusCode === 200 && ($responseBody['ok'] ?? false)) {
                 return [
                     'success' => true,
@@ -742,7 +363,7 @@ final class SendBotTelegramAction implements TelegramProviderActionInterface
                     'data' => $responseBody['result'] ?? [],
                 ];
             }
-            
+
             // Log in caso di errore
             if ($this->debug) {
                 Log::error('Telegram error', [
@@ -750,7 +371,7 @@ final class SendBotTelegramAction implements TelegramProviderActionInterface
                     'response' => $responseBody,
                 ]);
             }
-            
+
             return [
                 'success' => false,
                 'error' => $responseBody['description'] ?? 'Unknown error',
@@ -766,7 +387,7 @@ final class SendBotTelegramAction implements TelegramProviderActionInterface
                     'response' => $e->getResponse() ? (string) $e->getResponse()->getBody() : null,
                 ]);
             }
-            
+
             throw new Exception('Errore durante l\'invio del messaggio Telegram: ' . $e->getMessage(), 0, $e);
         } catch (Exception $e) {
             // Log dell'errore generico
@@ -775,11 +396,11 @@ final class SendBotTelegramAction implements TelegramProviderActionInterface
                     'exception' => $e->getMessage(),
                 ]);
             }
-            
+
             throw new Exception('Errore durante l\'invio del messaggio Telegram: ' . $e->getMessage(), 0, $e);
         }
     }
-    
+
     /**
      * Formatta i pulsanti per Telegram.
      *
@@ -790,32 +411,32 @@ final class SendBotTelegramAction implements TelegramProviderActionInterface
     {
         $formattedButtons = [];
         $row = [];
-        
+
         foreach ($buttons as $button) {
             $buttonData = [];
-            
+
             if (isset($button['text'])) {
                 $buttonData['text'] = $button['text'];
             }
-            
+
             if (isset($button['url'])) {
                 $buttonData['url'] = $button['url'];
             } elseif (isset($button['callback_data'])) {
                 $buttonData['callback_data'] = $button['callback_data'];
             }
-            
+
             $row[] = $buttonData;
-            
+
             // Se è impostato 'new_row' o è l'ultimo pulsante, aggiungi la riga
             if (($button['new_row'] ?? false) || end($buttons) === $button) {
                 $formattedButtons[] = $row;
                 $row = [];
             }
         }
-        
+
         return $formattedButtons;
     }
-    
+
     /**
      * Determina il metodo API appropriato per inviare un determinato tipo di file.
      *
@@ -825,7 +446,7 @@ final class SendBotTelegramAction implements TelegramProviderActionInterface
     private function determineFileMethod(array $file): string
     {
         $type = $file['type'] ?? $this->guessFileType($file['path']);
-        
+
         return match ($type) {
             'photo' => 'sendPhoto',
             'audio' => 'sendAudio',
@@ -837,7 +458,7 @@ final class SendBotTelegramAction implements TelegramProviderActionInterface
             default => 'sendDocument',
         };
     }
-    
+
     /**
      * Ottiene il nome del parametro per il file in base al metodo.
      *
@@ -857,7 +478,7 @@ final class SendBotTelegramAction implements TelegramProviderActionInterface
             default => 'document',
         };
     }
-    
+
     /**
      * Indovina il tipo di file in base all'estensione.
      *
@@ -867,7 +488,7 @@ final class SendBotTelegramAction implements TelegramProviderActionInterface
     private function guessFileType(string $path): string
     {
         $extension = strtolower(pathinfo($path, PATHINFO_EXTENSION));
-        
+
         return match ($extension) {
             'jpg', 'jpeg', 'png', 'gif', 'webp' => 'photo',
             'mp3', 'm4a', 'ogg' => 'audio',
@@ -929,20 +550,20 @@ class TelegramNotification extends Notification implements ShouldQueue
     public function toTelegram(object $notifiable): TelegramData
     {
         // Ottieni il chat_id dal notifiable o dalla configurazione predefinita
-        $chatId = $notifiable->routeNotificationForTelegram($this) 
+        $chatId = $notifiable->routeNotificationForTelegram($this)
             ?? config('telegram.default_chat_id');
-        
+
         if (!$chatId) {
             throw new \Exception('Nessun chat_id specificato per la notifica Telegram');
         }
-        
+
         // Prepara i parametri opzionali
         $parseMode = $this->options['parse_mode'] ?? 'HTML';
         $disableWebPagePreview = $this->options['disable_web_page_preview'] ?? false;
         $disableNotification = $this->options['disable_notification'] ?? false;
         $replyToMessageId = $this->options['reply_to_message_id'] ?? null;
         $replyMarkup = $this->options['reply_markup'] ?? [];
-        
+
         return new TelegramData(
             chatId: $chatId,
             text: $this->text,
@@ -1088,39 +709,3 @@ In fase di installazione:
 3. **Errori di Formattazione**: Verificare la correttezza della sintassi HTML/Markdown
 4. **Errori Webhook**: Verificare che l'URL sia accessibile e con SSL valido
 5. **Dimensione File**: Rispettare i limiti di dimensione dei file
-<<<<<<< HEAD
-=======
->>>>>>> 5fd545e4 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5fd545e4 (.)
-=======
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> 712617d3 (.)
-=======
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 54220b28 (rebase 210)
-=======
->>>>>>> 4fc21b78 (rebase 210)
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)

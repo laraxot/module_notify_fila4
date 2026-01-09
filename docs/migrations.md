@@ -156,8 +156,6 @@ Gli stati possibili per le email sono:
 ### Log Status
 - `queued`: Messa in coda
 - `sending`: In fase di invio
-- `sent`: Inviata con successo
-- `failed`: Invio fallito
 - `bounced`: Email rimbalzata
 - `spam`: Segnalata come spam
 - `opened`: Email aperta
@@ -173,12 +171,10 @@ $table->index('event');
 $table->index('is_active');
 
 // email_logs
-$table->index('event');
 $table->index('status');
 $table->index('sent_at');
 
 // email_queue
-$table->index('status');
 $table->index('scheduled_for');
 $table->index('processed_at');
 ```
@@ -211,9 +207,7 @@ public function template(): BelongsTo
 }
 
 // EmailQueue
-public function template(): BelongsTo
 {
-    return $this->belongsTo(EmailTemplate::class);
 }
 ```
 
@@ -223,15 +217,12 @@ public function template(): BelongsTo
 - [Database Mail](database-mail.md)
 ### Versione HEAD
 
-- [Email Events](events.md) 
+- [Email Events](events.md)
 
 ### Versione Incoming
 
-- [Email Events](events.md) 
 ## Collegamenti tra versioni di migrations.md
 * [migrations.md](../../Gdpr/docs/migrations.md)
 * [migrations.md](../../Activity/docs/database/migrations.md)
 
-
 ---
-

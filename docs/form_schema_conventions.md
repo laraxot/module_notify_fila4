@@ -1,4 +1,4 @@
-# Convenzioni per i Form Schema 
+# Convenzioni per i Form Schema
 
 ## Regola Fondamentale per Array di Schema
 
@@ -95,34 +95,7 @@ La classe `XotBasePage` è progettata per lavorare con array associativi nei met
 Per verificare che tutti i metodi schema rispettino questa convenzione:
 
 ```bash
-<<<<<<< HEAD
 find /var/www/html/<directory progetto>/laravel/Modules -type f -name "*.php" -exec grep -l "get.*FormSchema" {} \; | xargs grep -l "return \["
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-find /var/www/html/<nome progetto>/laravel/Modules -type f -name "*.php" -exec grep -l "get.*FormSchema" {} \; | xargs grep -l "return \["
-=======
-find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -exec grep -l "get.*FormSchema" {} \; | xargs grep -l "return \["
->>>>>>> f963d2c0 (.)
-=======
-find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -exec grep -l "get.*FormSchema" {} \; | xargs grep -l "return \["
->>>>>>> f963d2c0 (.)
-=======
-find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -exec grep -l "get.*FormSchema" {} \; | xargs grep -l "return \["
->>>>>>> f963d2c0 (.)
-=======
-find /var/www/html/<nome progetto>/laravel/Modules -type f -name "*.php" -exec grep -l "get.*FormSchema" {} \; | xargs grep -l "return \["
-=======
-<<<<<<< HEAD
-find /var/www/html/<directory progetto>/laravel/Modules -type f -name "*.php" -exec grep -l "get.*FormSchema" {} \; | xargs grep -l "return \["
-=======
-find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -exec grep -l "get.*FormSchema" {} \; | xargs grep -l "return \["
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
 ```
 
 ## Riferimenti

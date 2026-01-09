@@ -34,30 +34,7 @@ class OtpSmsNotification extends NetfunSmsNotification
 
         parent::__construct(
             message: "Il tuo codice OTP è: {$otp}. Valido fino alle {$this->expiresAt->format('H:i')}.",
-<<<<<<< HEAD
             sender: '<nome progetto>'
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            sender: '<nome progetto>'
-=======
-            sender: 'SALUTEORA'
->>>>>>> f963d2c0 (.)
-=======
-            sender: 'SALUTEORA'
->>>>>>> f963d2c0 (.)
-=======
-            sender: 'SALUTEORA'
->>>>>>> f963d2c0 (.)
-=======
-            sender: '<nome progetto>'
-=======
-            sender: 'SALUTEORA'
->>>>>>> 7bac387 (.)
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
         );
     }
 
@@ -106,13 +83,13 @@ public function sendOtp(User $user)
     try {
         // Genera OTP
         $otp = str_pad(random_int(0, 999999), 6, '0', STR_PAD_LEFT);
-        
+
         // Salva OTP nel database con scadenza
         $user->update([
             'otp' => $otp,
             'otp_expires_at' => now()->addMinutes(5)
         ]);
-        
+
         // Invia SMS
         $user->notify(new OtpSmsNotification($otp));
 
@@ -216,37 +193,14 @@ class AppointmentReminderNotification extends NetfunSmsNotification
 
         $message = "Promemoria: Hai un appuntamento con {$doctorName} il {$appointmentDate->format('d/m/Y H:i')}";
         $message .= " presso {$location}.";
-        
+
         if ($notes) {
             $message .= " Note: {$notes}";
         }
 
         parent::__construct(
             message: $message,
-<<<<<<< HEAD
             sender: '<nome progetto>'
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            sender: '<nome progetto>'
-=======
-            sender: 'SALUTEORA'
->>>>>>> f963d2c0 (.)
-=======
-            sender: 'SALUTEORA'
->>>>>>> f963d2c0 (.)
-=======
-            sender: 'SALUTEORA'
->>>>>>> f963d2c0 (.)
-=======
-            sender: '<nome progetto>'
-=======
-            sender: 'SALUTEORA'
->>>>>>> 7bac387 (.)
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
         );
     }
 
@@ -422,7 +376,7 @@ class SendBulkSmsAction
                     }
 
                     $result = NetfunSmsResponseData::fromArray($response->json());
-                    
+
                     if ($result->status !== 'success') {
                         throw new \Exception($result->error ?? 'Errore sconosciuto');
                     }
@@ -487,30 +441,7 @@ public function sendBulkSms(Request $request)
         $results = SendBulkSmsAction::make(
             users: $users,
             message: $request->message,
-<<<<<<< HEAD
             sender: '<nome progetto>',
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            sender: '<nome progetto>',
-=======
-            sender: 'SALUTEORA',
->>>>>>> f963d2c0 (.)
-=======
-            sender: 'SALUTEORA',
->>>>>>> f963d2c0 (.)
-=======
-            sender: 'SALUTEORA',
->>>>>>> f963d2c0 (.)
-=======
-            sender: '<nome progetto>',
-=======
-            sender: 'SALUTEORA',
->>>>>>> 7bac387 (.)
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
             batchSize: 100,
             delayBetweenBatches: 1
         )->onQueue('bulk-sms')->execute();
@@ -572,7 +503,7 @@ class SendNetfunSmsWithRetryAction extends SendNetfunSmsAction
         string $sender
     ) {
         parent::__construct($to, $message, $sender);
-        
+
         $this->maxRetries = config('notify.netfun.max_retries', 3);
         $this->retryDelay = config('notify.netfun.retry_delay', 1);
         $this->circuitBreakerThreshold = config('notify.netfun.circuit_breaker.threshold', 5);
@@ -598,10 +529,10 @@ class SendNetfunSmsWithRetryAction extends SendNetfunSmsAction
         while ($attempts < $this->maxRetries) {
             try {
                 $result = parent::execute();
-                
+
                 // Reset circuit breaker on success
                 $this->resetCircuitBreaker();
-                
+
                 return $result;
 
             } catch (\Exception $e) {
@@ -611,13 +542,13 @@ class SendNetfunSmsWithRetryAction extends SendNetfunSmsAction
                 if ($attempts === $this->maxRetries) {
                     // Increment circuit breaker counter
                     $this->incrementCircuitBreaker();
-                    
+
                     Log::error('Tentativi esauriti per invio SMS', [
                         'to' => $this->to,
                         'error' => $e->getMessage(),
                         'attempts' => $attempts
                     ]);
-                    
+
                     throw $e;
                 }
 
@@ -650,7 +581,7 @@ class SendNetfunSmsWithRetryAction extends SendNetfunSmsAction
     {
         $key = 'netfun_circuit_breaker_failures';
         $failures = Cache::get($key, 0) + 1;
-        
+
         Cache::put($key, $failures, $this->circuitBreakerTimeout);
 
         if ($failures >= $this->circuitBreakerThreshold) {
@@ -705,16 +636,16 @@ class SendNetfunSmsWithMetricsAction extends SendNetfunSmsAction
     public function execute(): NetfunSmsResponseData
     {
         $startTime = microtime(true);
-        
+
         try {
             $result = parent::execute();
-            
+
             // Registra metriche di successo
             $this->recordMetrics(true, microtime(true) - $startTime, [
                 'message_id' => $result->message_id,
                 'status' => $result->status
             ]);
-            
+
             return $result;
 
         } catch (\Exception $e) {
@@ -722,11 +653,11 @@ class SendNetfunSmsWithMetricsAction extends SendNetfunSmsAction
             $this->recordMetrics(false, microtime(true) - $startTime, [
                 'error' => $e->getMessage()
             ]);
-            
+
             throw $e;
         }
     }
-    
+
     /**
      * Registra le metriche
      *
@@ -810,7 +741,7 @@ class NetfunSmsActionTest extends TestCase
         $this->assertInstanceOf(NetfunSmsResponseData::class, $result);
         $this->assertEquals('success', $result->status);
         $this->assertEquals('123456', $result->message_id);
-        
+
         Http::assertSent(function ($request) {
             return $request->url() == config('notify.netfun.endpoint') &&
                    $request['messages'][0]['to'] == '+393331234567' &&
@@ -911,7 +842,7 @@ class NetfunNotificationIntegrationTest extends TestCase
         ]);
 
         $otp = '123456';
-        
+
         $user->notify(new OtpSmsNotification($otp));
 
         Http::assertSent(function ($request) use ($otp) {
@@ -992,4 +923,4 @@ class NetfunNotificationIntegrationTest extends TestCase
 - [Laravel Testing](https://laravel.com/docs/testing)
 - [Laravel Logging](https://laravel.com/docs/logging)
 - [Laravel Cache](https://laravel.com/docs/cache)
-- [Prometheus PHP Client](https://github.com/promphp/prometheus_client_php) 
+- [Prometheus PHP Client](https://github.com/promphp/prometheus_client_php)

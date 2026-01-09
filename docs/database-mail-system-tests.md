@@ -1,41 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> 36321fcb (.)
-=======
->>>>>>> 712617d3 (.)
-=======
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 4fc21b78 (rebase 210)
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 36ac4fc1 (.)
-=======
->>>>>>> c8b1c8bf (.)
-=======
->>>>>>> 9cf0dc90 (.)
 # Test del Sistema di Gestione Email - il progetto
 
 ## Panoramica
@@ -67,21 +29,15 @@ class MailTemplateTest extends TestCase
         ]);
 
         $this->assertDatabaseHas('notify_mail_templates', [
-            'name' => 'Test Template',
-            'mailable' => 'TestMail',
-        ]);
     }
 
-    /** @test */
     public function it_can_render_a_template_with_variables()
     {
-        $template = MailTemplate::factory()->create([
             'html_template' => '<h1>Hello {{ $user->name }}</h1>',
             'variables' => ['user' => 'App\Models\User'],
-        ]);
 
         $user = User::factory()->create(['name' => 'Test User']);
-        
+
         $rendered = app(MailTemplateManager::class)
             ->renderTemplate($template, ['user' => $user]);
 
@@ -96,7 +52,7 @@ class MailTemplateTest extends TestCase
         ]);
 
         $this->expectException(InvalidVariableException::class);
-        
+
         app(MailTemplateManager::class)
             ->renderTemplate($template, []);
     }
@@ -126,20 +82,14 @@ class MailTemplateManagerTest extends TestCase
         $this->assertEquals($template->id, $found->id);
     }
 
-    /** @test */
     public function it_falls_back_to_default_locale()
     {
-        $template = MailTemplate::factory()->create([
-            'mailable' => 'WelcomeMail',
             'locale' => 'en',
-        ]);
 
         app()->setLocale('it');
 
-        $found = app(MailTemplateManager::class)
             ->getTemplate('WelcomeMail');
 
-        $this->assertEquals($template->id, $found->id);
     }
 }
 ```
@@ -168,7 +118,6 @@ class MailTemplateResourceTest extends TestCase
         });
     }
 
-    /** @test */
     public function it_can_create_template()
     {
         $response = $this->post(route('filament.resources.mail-templates.create'), [
@@ -180,8 +129,6 @@ class MailTemplateResourceTest extends TestCase
 
         $response->assertRedirect();
         $this->assertDatabaseHas('notify_mail_templates', [
-            'name' => 'New Template',
-        ]);
     }
 }
 ```
@@ -217,9 +164,6 @@ class SendMailTemplateTest extends TestCase
     public function it_tracks_mail_statistics()
     {
         $template = MailTemplate::factory()->create();
-        $user = User::factory()->create();
-
-        Mail::to($user)->send(new WelcomeEmail($user));
 
         $this->assertDatabaseHas('notify_mail_stats', [
             'template_id' => $template->id,
@@ -254,12 +198,12 @@ class MailWorkflowTest extends TestCase
 
         // 3. Invia reminder
         Mail::fake();
-        
+
         $this->artisan('notify:send-appointment-reminders');
 
         // 4. Verifica
         Mail::assertSent(AppointmentReminder::class);
-        
+
         $this->assertDatabaseHas('notify_mail_stats', [
             'template_id' => $template->id,
             'status' => 'sent',
@@ -289,11 +233,10 @@ class MailTemplatePerformanceTest extends TestCase
         for ($i = 0; $i < 100; $i++) {
             app(MailTemplateManager::class)->renderTemplate($template, [
                 'user' => User::factory()->create(),
-            ]);
         }
 
         $time = microtime(true) - $start;
-        
+
         // Dovrebbe renderizzare 100 template in meno di 1 secondo
         $this->assertLessThan(1.0, $time);
     }
@@ -312,7 +255,7 @@ class MailTemplatePerformanceTest extends TestCase
         });
 
         $time = microtime(true) - $start;
-        
+
         // L'accodamento dovrebbe essere rapido
         $this->assertLessThan(0.5, $time);
     }
@@ -341,7 +284,6 @@ class MailTemplateSecurityTest extends TestCase
         $this->assertStringNotContainsString('<script>', $rendered);
     }
 
-    /** @test */
     public function it_validates_template_permissions()
     {
         $user = User::factory()->create();
@@ -350,7 +292,6 @@ class MailTemplateSecurityTest extends TestCase
         $response = $this->actingAs($user)
             ->put(route('filament.resources.mail-templates.edit', $template), [
                 'html_template' => 'New content',
-            ]);
 
         $response->assertForbidden();
     }
@@ -382,14 +323,7 @@ class MailTemplateSecurityTest extends TestCase
 ## Comandi per i Test
 
 ```bash
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> c8b1c8bf (.)
-=======
-
->>>>>>> 9cf0dc90 (.)
 # Esegui tutti i test
 php artisan test --filter=MailTemplate
 
@@ -426,416 +360,4 @@ php artisan test --coverage --filter=MailTemplate
 ## Vedi Anche
 - [Laravel Testing](https://laravel.com/docs/testing)
 - [PHPUnit Documentation](https://phpunit.de/documentation.html)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 207ac35e (.)
-=======
->>>>>>> 207ac35e (.)
-=======
->>>>>>> 011072e4 (.)
-=======
->>>>>>> 9d67cabd (.)
-=======
->>>>>>> 80f054e0 (.)
-=======
->>>>>>> 4d2eb53e (.)
-=======
->>>>>>> 6b6b9e41 (.)
-=======
->>>>>>> 5fe4f466 (.)
-=======
->>>>>>> e0d9c9be (.)
-=======
->>>>>>> cb85c538 (rebase 210)
-=======
->>>>>>> 460b8f5b (rebase 210)
-=======
->>>>>>> 8a8a8e2f (rebase 210)
-=======
->>>>>>> 1375c94d (rebase 210)
-=======
->>>>>>> 030c9674 (rebase 210)
-=======
->>>>>>> ce89c8bb (.)
-- [Pest PHP](https://pestphp.com/docs) 
-=======
->>>>>>> b19cd40 (.)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 75179b85 (.)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 82ae73be (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35e (.)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
->>>>>>> 9777d1b3 (.)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
->>>>>>> f963d2c0 (.)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
-=======
->>>>>>> d284d65 (.)
->>>>>>> d09cb759 (.)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
->>>>>>> 75179b85 (.)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 82ae73be (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35e (.)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
->>>>>>> 9777d1b3 (.)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
->>>>>>> f963d2c0 (.)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
-=======
->>>>>>> d284d65 (.)
->>>>>>> d09cb759 (.)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
-=======
->>>>>>> b19cd40 (.)
->>>>>>> de02998b (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 011072e4 (.)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
->>>>>>> 161887a2 (.)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
->>>>>>> ee18dd92 (.)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
-=======
->>>>>>> d284d65 (.)
->>>>>>> 4689a827 (.)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
-=======
->>>>>>> b19cd40 (.)
->>>>>>> e7a9a2bf (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 9d67cabd (.)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
->>>>>>> ba564870 (.)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
->>>>>>> 66453ace (.)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
-=======
->>>>>>> d284d65 (.)
->>>>>>> 7325acf3 (.)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 9cdf6146 (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 80f054e0 (.)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
->>>>>>> 7c39b1fe (.)
-=======
->>>>>>> 5fd545e4 (.)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 3f39ac8b (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 4d2eb53e (.)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
->>>>>>> 888799d0 (.)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
->>>>>>> 2a97406c (.)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
-=======
->>>>>>> d284d65 (.)
->>>>>>> f2e64178 (.)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 6d08c01b (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 6b6b9e41 (.)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
->>>>>>> c6c33175 (.)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
->>>>>>> 4f042b88 (.)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
-=======
->>>>>>> d284d65 (.)
->>>>>>> c4bdacbf (.)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 3b4c9907 (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 5fe4f466 (.)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
->>>>>>> 503981fd (.)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
->>>>>>> 36321fcb (.)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
-=======
->>>>>>> d284d65 (.)
->>>>>>> dceba960 (.)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 8e5817bc (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> e0d9c9be (.)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
->>>>>>> 7a2f131f (.)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
->>>>>>> 712617d3 (.)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
-=======
->>>>>>> d284d65 (.)
->>>>>>> bd804d67 (.)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 51182e3c (rebase 210)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> cb85c538 (rebase 210)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
->>>>>>> 1c0eb9c7 (rebase 210)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
->>>>>>> fdb24863 (rebase 210)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
-=======
->>>>>>> d284d65 (.)
->>>>>>> 229a065a (rebase 210)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
-=======
->>>>>>> b19cd40 (.)
->>>>>>> a9bf0423 (rebase 210)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 460b8f5b (rebase 210)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
->>>>>>> 4d253d2c (rebase 210)
-=======
->>>>>>> 54220b28 (rebase 210)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
->>>>>>> 4fc21b78 (rebase 210)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 9fe1b60e (rebase 210)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 8a8a8e2f (rebase 210)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
->>>>>>> efb0f8d9 (rebase 210)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
->>>>>>> 9c45d9bd (rebase 210)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
-=======
->>>>>>> d284d65 (.)
->>>>>>> 9f8e680a (rebase 210)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
-=======
->>>>>>> b19cd40 (.)
->>>>>>> b4f93b3a (rebase 210)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 1375c94d (rebase 210)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
->>>>>>> 52cd5f85 (rebase 210)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
->>>>>>> eb62d6cf (rebase 210)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
-=======
->>>>>>> d284d65 (.)
->>>>>>> 5aedc39c (rebase 210)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
-=======
->>>>>>> b19cd40 (.)
->>>>>>> c5c038f2 (rebase 210)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 030c9674 (rebase 210)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
->>>>>>> bb00ab64 (rebase 210)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
->>>>>>> 8c8937e7 (rebase 210)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
-=======
->>>>>>> d284d65 (.)
->>>>>>> 22baa66d (rebase 210)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
->>>>>>> 36ac4fc1 (.)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
-=======
->>>>>>> d284d65 (.)
->>>>>>> 2effe245 (.)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
->>>>>>> c8b1c8bf (.)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 2fc60436 (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> ce89c8bb (.)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
->>>>>>> 58816034 (.)
-=======
-- [Pest PHP](https://pestphp.com/docs) 
->>>>>>> 9cf0dc90 (.)
+- [Pest PHP](https://pestphp.com/docs)

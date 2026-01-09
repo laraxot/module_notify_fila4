@@ -57,7 +57,7 @@ if ($this->hasColumn('subject') && !$this->isColumnType('subject', 'json')) {
     if (!$this->hasColumn('subject_json')) {
         $table->json('subject_json')->nullable()->after('subject');
     }
-    
+
     // 2. Migra i dati solo se la colonna temporanea esiste
     if ($this->hasColumn('subject_json')) {
         DB::table('mail_templates')->chunkById(100, function ($records) {
@@ -72,7 +72,7 @@ if ($this->hasColumn('subject') && !$this->isColumnType('subject', 'json')) {
             }
         });
     }
-    
+
     // 3. Rimuovi e rinomina
     $table->dropColumn('subject');
     $table->renameColumn('subject_json', 'subject');
@@ -96,56 +96,22 @@ Quando si utilizza `Schema::hasColumn()` direttamente, si bypassa tutta questa l
 
 ## Come evitare errori
 
-1. **Verifica esistenza colonna**: 
+1. **Verifica esistenza colonna**:
    ```php
    $this->hasColumn('column_name')
    ```
 
-2. **Verifica tipo colonna**: 
+2. **Verifica tipo colonna**:
    ```php
    $this->isColumnType('column_name', 'expected_type')
    ```
 
-3. **Ottieni tipo colonna**: 
+3. **Ottieni tipo colonna**:
    ```php
    $this->getColumnType('column_name')
    ```
 
 ## Riferimenti
 
-<<<<<<< HEAD
 - [Xot Module Documentation](/var/www/html/<directory progetto>/laravel/Modules/Xot/docs/MIGRATIONS.md)
 - [JSON Migration Best Practices](/var/www/html/<directory progetto>/laravel/Modules/Notify/docs/mail-templates/JSON_MIGRATION_FIXES.md)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [Xot Module Documentation](/var/www/html/<nome progetto>/laravel/Modules/Xot/docs/MIGRATIONS.md)
-- [JSON Migration Best Practices](/var/www/html/<nome progetto>/laravel/Modules/Notify/docs/mail-templates/JSON_MIGRATION_FIXES.md)
-=======
-- [Xot Module Documentation](/var/www/html/saluteora/laravel/Modules/Xot/docs/MIGRATIONS.md)
-- [JSON Migration Best Practices](/var/www/html/saluteora/laravel/Modules/Notify/docs/mail-templates/JSON_MIGRATION_FIXES.md)
->>>>>>> f963d2c0 (.)
-=======
-- [Xot Module Documentation](/var/www/html/saluteora/laravel/Modules/Xot/docs/MIGRATIONS.md)
-- [JSON Migration Best Practices](/var/www/html/saluteora/laravel/Modules/Notify/docs/mail-templates/JSON_MIGRATION_FIXES.md)
->>>>>>> f963d2c0 (.)
-=======
-- [Xot Module Documentation](/var/www/html/saluteora/laravel/Modules/Xot/docs/MIGRATIONS.md)
-- [JSON Migration Best Practices](/var/www/html/saluteora/laravel/Modules/Notify/docs/mail-templates/JSON_MIGRATION_FIXES.md)
->>>>>>> f963d2c0 (.)
-=======
-- [Xot Module Documentation](/var/www/html/<nome progetto>/laravel/Modules/Xot/docs/MIGRATIONS.md)
-- [JSON Migration Best Practices](/var/www/html/<nome progetto>/laravel/Modules/Notify/docs/mail-templates/JSON_MIGRATION_FIXES.md)
-=======
-<<<<<<< HEAD
-- [Xot Module Documentation](/var/www/html/<directory progetto>/laravel/Modules/Xot/docs/MIGRATIONS.md)
-- [JSON Migration Best Practices](/var/www/html/<directory progetto>/laravel/Modules/Notify/docs/mail-templates/JSON_MIGRATION_FIXES.md)
-=======
-- [Xot Module Documentation](/var/www/html/saluteora/laravel/Modules/Xot/docs/MIGRATIONS.md)
-- [JSON Migration Best Practices](/var/www/html/saluteora/laravel/Modules/Notify/docs/mail-templates/JSON_MIGRATION_FIXES.md)
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)

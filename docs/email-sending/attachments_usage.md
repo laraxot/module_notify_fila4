@@ -16,71 +16,13 @@ Il metodo `addAttachments()` supporta **due formati** per gli allegati:
 // Formato corretto - allegato da file su filesystem
 $attachments = [
     [
-<<<<<<< HEAD
         'path' => '/var/www/html/<directory progetto>/public_html/images/avatars/default-3.svg',
-=======
-<<<<<<< HEAD
-        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
-=======
-<<<<<<< HEAD
-=======
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> f963d2c0 (.)
-```php
-// Formato corretto - un array di array di allegati
-$attachments = [
-    [
-        'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> f963d2c0 (.)
-=======
-<<<<<<< HEAD
-        'path' => '/var/www/html/<directory progetto>/public_html/images/avatars/default-3.svg',
-=======
-        'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
         'as' => 'logo.svg',  // Opzionale: nome del file da mostrare nell'email
         'mime' => 'image/svg+xml',  // Opzionale: MIME type del file
     ],
     // Eventualmente altri allegati...
     [
-<<<<<<< HEAD
         'path' => '/var/www/html/<directory progetto>/public_html/documents/terms.pdf',
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        'path' => '/var/www/html/<nome progetto>/public_html/documents/terms.pdf',
-=======
-        'path' => '/var/www/html/saluteora/public_html/documents/terms.pdf',
->>>>>>> f963d2c0 (.)
-=======
-        'path' => '/var/www/html/saluteora/public_html/documents/terms.pdf',
->>>>>>> f963d2c0 (.)
-=======
-        'path' => '/var/www/html/saluteora/public_html/documents/terms.pdf',
->>>>>>> f963d2c0 (.)
-=======
-        'path' => '/var/www/html/<nome progetto>/public_html/documents/terms.pdf',
-=======
-<<<<<<< HEAD
-        'path' => '/var/www/html/<directory progetto>/public_html/documents/terms.pdf',
-=======
-        'path' => '/var/www/html/saluteora/public_html/documents/terms.pdf',
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
         'as' => 'termini.pdf',
         'mime' => 'application/pdf',
     ],
@@ -123,27 +65,27 @@ La classe `SpatieEmail` utilizza la classe `Illuminate\Mail\Mailables\Attachment
 public function addAttachments(array $attachments): self
 {
     $attachmentObjects = [];
-    
+
     foreach ($attachments as $item) {
         $attachment = null;
-        
+
         // Priorità 1: Se esiste 'path' e il file esiste, usa getAttachmentFromPath()
         if (isset($item['path']) && file_exists($item['path'])) {
             $attachment = $this->getAttachmentFromPath($item);
         }
-        
+
         // Priorità 2: Se non c'è path o file non esiste, prova con 'data' (contenuto binario)
         if ($attachment === null && isset($item['data'])) {
             $attachment = $this->getAttachmentFromData($item);
         }
-        
+
         if ($attachment) {
             $attachmentObjects[] = $attachment;
         }
     }
-    
+
     $this->customAttachments = $attachmentObjects;
-    
+
     return $this;
 }
 
@@ -325,7 +267,7 @@ use Modules\Xot\Actions\Pdf\GetPdfContentByRecordAction;
 
 foreach ($records as $record) {
     $pdfContent = app(GetPdfContentByRecordAction::class)->execute($record);
-    
+
     $attachments = [
         [
             'data' => $pdfContent,
@@ -333,10 +275,10 @@ foreach ($records as $record) {
             'mime' => 'application/pdf',
         ],
     ];
-    
+
     $notify = new RecordNotification($record, 'bulk-template');
     $notify->addAttachments($attachments);
-    
+
     Notification::route('mail', $record->email)->notify($notify);
 }
 ```

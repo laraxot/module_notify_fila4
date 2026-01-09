@@ -1,35 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> 712617d3 (.)
-=======
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 4fc21b78 (rebase 210)
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
 # Esempi Pratici Netfun
 
 ## 1. Invio SMS OTP
@@ -66,161 +34,8 @@ class OtpSmsNotification extends NetfunSmsNotification
 
         parent::__construct(
             message: "Il tuo codice OTP è: {$otp}. Valido fino alle {$this->expiresAt->format('H:i')}.",
-<<<<<<< HEAD
             sender: '<nome progetto>'
             sender: 'SALUTEORA'
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            sender: '<nome progetto>'
-<<<<<<< HEAD
-=======
-            sender: 'SALUTEORA'
->>>>>>> 75179b85 (.)
-=======
-            sender: 'SALUTEORA'
->>>>>>> f963d2c0 (.)
-=======
-            sender: 'SALUTEORA'
-=======
-            sender: 'SALUTEORA'
->>>>>>> 31f5d28f (.)
-=======
-            sender: 'SALUTEORA'
->>>>>>> 31f5d28f (.)
-=======
-            sender: '<nome progetto>'
-            sender: '<nome progetto>'
->>>>>>> bf479cc (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 31f5d28f (.)
-=======
-            sender: 'SALUTEORA'
->>>>>>> a404ea71 (.)
-=======
-            sender: '<nome progetto>'
-            sender: 'SALUTEORA'
->>>>>>> 75179b85 (.)
-=======
-            sender: 'SALUTEORA'
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
-            sender: 'SALUTEORA'
->>>>>>> a404ea71 (.)
-=======
-            sender: '<nome progetto>'
-            sender: 'SALUTEORA'
->>>>>>> 75179b85 (.)
-=======
-            sender: 'SALUTEORA'
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
-            sender: 'SALUTEORA'
->>>>>>> a404ea71 (.)
-=======
-            sender: 'SALUTEORA'
->>>>>>> ee18dd92 (.)
-<<<<<<< HEAD
->>>>>>> 022fa8f1c (.)
-=======
-=======
->>>>>>> 6608a1a0 (.)
-=======
-            sender: 'SALUTEORA'
->>>>>>> ca10d6ad (.)
-=======
-            sender: 'SALUTEORA'
->>>>>>> 66453ace (.)
-=======
->>>>>>> 23cbbaf5 (.)
-=======
-            sender: 'SALUTEORA'
->>>>>>> febe79e3 (.)
-=======
-            sender: 'SALUTEORA'
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 909e45af (.)
-=======
-            sender: 'SALUTEORA'
->>>>>>> a29a4728 (.)
-=======
-            sender: 'SALUTEORA'
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> bb7e77c2 (.)
-=======
-            sender: 'SALUTEORA'
->>>>>>> c7a4727b (.)
-=======
->>>>>>> b99af5a8 (.)
-=======
-            sender: 'SALUTEORA'
->>>>>>> 9721a5b2 (.)
-=======
-            sender: 'SALUTEORA'
->>>>>>> 712617d3 (.)
-=======
->>>>>>> f3086887 (rebase 210)
-=======
-            sender: 'SALUTEORA'
->>>>>>> 1442e291 (rebase 210)
-=======
-            sender: 'SALUTEORA'
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 3d462363 (rebase 210)
-=======
-            sender: 'SALUTEORA'
->>>>>>> fcaebc79 (rebase 210)
-=======
-            sender: '<nome progetto>'
-            sender: 'SALUTEORA'
->>>>>>> 4fc21b78 (rebase 210)
-=======
-            sender: 'SALUTEORA'
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> 54ad93c4 (rebase 210)
-=======
-            sender: 'SALUTEORA'
->>>>>>> 9d3810d0 (rebase 210)
-=======
-            sender: 'SALUTEORA'
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 6e12a84b (rebase 210)
-=======
-            sender: 'SALUTEORA'
->>>>>>> d38aa9d2 (rebase 210)
-=======
-            sender: 'SALUTEORA'
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 545977c8 (rebase 210)
-=======
-            sender: 'SALUTEORA'
->>>>>>> 9e7ba5b6 (rebase 210)
-=======
-            sender: 'SALUTEORA'
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
         );
     }
 
@@ -269,13 +84,13 @@ public function sendOtp(User $user)
     try {
         // Genera OTP
         $otp = str_pad(random_int(0, 999999), 6, '0', STR_PAD_LEFT);
-        
+
         // Salva OTP nel database con scadenza
         $user->update([
             'otp' => $otp,
             'otp_expires_at' => now()->addMinutes(5)
         ]);
-        
+
         // Invia SMS
         $user->notify(new OtpSmsNotification($otp));
 
@@ -379,168 +194,15 @@ class AppointmentReminderNotification extends NetfunSmsNotification
 
         $message = "Promemoria: Hai un appuntamento con {$doctorName} il {$appointmentDate->format('d/m/Y H:i')}";
         $message .= " presso {$location}.";
-        
+
         if ($notes) {
             $message .= " Note: {$notes}";
         }
 
         parent::__construct(
             message: $message,
-<<<<<<< HEAD
             sender: '<nome progetto>'
             sender: 'SALUTEORA'
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            sender: '<nome progetto>'
-<<<<<<< HEAD
-=======
-            sender: 'SALUTEORA'
->>>>>>> 75179b85 (.)
-=======
-            sender: 'SALUTEORA'
->>>>>>> f963d2c0 (.)
-=======
-            sender: 'SALUTEORA'
-=======
-            sender: 'SALUTEORA'
->>>>>>> 31f5d28f (.)
-=======
-            sender: 'SALUTEORA'
->>>>>>> 31f5d28f (.)
-=======
-            sender: '<nome progetto>'
-            sender: '<nome progetto>'
->>>>>>> bf479cc (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 31f5d28f (.)
-=======
-            sender: 'SALUTEORA'
->>>>>>> a404ea71 (.)
-=======
-            sender: '<nome progetto>'
-            sender: 'SALUTEORA'
->>>>>>> 75179b85 (.)
-=======
-            sender: 'SALUTEORA'
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
-            sender: 'SALUTEORA'
->>>>>>> a404ea71 (.)
-=======
-            sender: '<nome progetto>'
-            sender: 'SALUTEORA'
->>>>>>> 75179b85 (.)
-=======
-            sender: 'SALUTEORA'
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
-            sender: 'SALUTEORA'
->>>>>>> a404ea71 (.)
-=======
-            sender: 'SALUTEORA'
->>>>>>> ee18dd92 (.)
-<<<<<<< HEAD
->>>>>>> 022fa8f1c (.)
-=======
-=======
->>>>>>> 6608a1a0 (.)
-=======
-            sender: 'SALUTEORA'
->>>>>>> ca10d6ad (.)
-=======
-            sender: 'SALUTEORA'
->>>>>>> 66453ace (.)
-=======
->>>>>>> 23cbbaf5 (.)
-=======
-            sender: 'SALUTEORA'
->>>>>>> febe79e3 (.)
-=======
-            sender: 'SALUTEORA'
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 909e45af (.)
-=======
-            sender: 'SALUTEORA'
->>>>>>> a29a4728 (.)
-=======
-            sender: 'SALUTEORA'
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> bb7e77c2 (.)
-=======
-            sender: 'SALUTEORA'
->>>>>>> c7a4727b (.)
-=======
->>>>>>> b99af5a8 (.)
-=======
-            sender: 'SALUTEORA'
->>>>>>> 9721a5b2 (.)
-=======
-            sender: 'SALUTEORA'
->>>>>>> 712617d3 (.)
-=======
->>>>>>> f3086887 (rebase 210)
-=======
-            sender: 'SALUTEORA'
->>>>>>> 1442e291 (rebase 210)
-=======
-            sender: 'SALUTEORA'
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 3d462363 (rebase 210)
-=======
-            sender: 'SALUTEORA'
->>>>>>> fcaebc79 (rebase 210)
-=======
-            sender: '<nome progetto>'
-            sender: 'SALUTEORA'
->>>>>>> 4fc21b78 (rebase 210)
-=======
-            sender: 'SALUTEORA'
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> 54ad93c4 (rebase 210)
-=======
-            sender: 'SALUTEORA'
->>>>>>> 9d3810d0 (rebase 210)
-=======
-            sender: 'SALUTEORA'
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 6e12a84b (rebase 210)
-=======
-            sender: 'SALUTEORA'
->>>>>>> d38aa9d2 (rebase 210)
-=======
-            sender: 'SALUTEORA'
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 545977c8 (rebase 210)
-=======
-            sender: 'SALUTEORA'
->>>>>>> 9e7ba5b6 (rebase 210)
-=======
-            sender: 'SALUTEORA'
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
         );
     }
 
@@ -716,7 +378,7 @@ class SendBulkSmsAction
                     }
 
                     $result = NetfunSmsResponseData::fromArray($response->json());
-                    
+
                     if ($result->status !== 'success') {
                         throw new \Exception($result->error ?? 'Errore sconosciuto');
                     }
@@ -781,161 +443,8 @@ public function sendBulkSms(Request $request)
         $results = SendBulkSmsAction::make(
             users: $users,
             message: $request->message,
-<<<<<<< HEAD
             sender: '<nome progetto>',
             sender: 'SALUTEORA',
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            sender: '<nome progetto>',
-<<<<<<< HEAD
-=======
-            sender: 'SALUTEORA',
->>>>>>> 75179b85 (.)
-=======
-            sender: 'SALUTEORA',
->>>>>>> f963d2c0 (.)
-=======
-            sender: 'SALUTEORA',
-=======
-            sender: 'SALUTEORA',
->>>>>>> 31f5d28f (.)
-=======
-            sender: 'SALUTEORA',
->>>>>>> 31f5d28f (.)
-=======
-            sender: '<nome progetto>',
-            sender: '<nome progetto>',
->>>>>>> bf479cc (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 31f5d28f (.)
-=======
-            sender: 'SALUTEORA',
->>>>>>> a404ea71 (.)
-=======
-            sender: '<nome progetto>',
-            sender: 'SALUTEORA',
->>>>>>> 75179b85 (.)
-=======
-            sender: 'SALUTEORA',
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
-            sender: 'SALUTEORA',
->>>>>>> a404ea71 (.)
-=======
-            sender: '<nome progetto>',
-            sender: 'SALUTEORA',
->>>>>>> 75179b85 (.)
-=======
-            sender: 'SALUTEORA',
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
-            sender: 'SALUTEORA',
->>>>>>> a404ea71 (.)
-=======
-            sender: 'SALUTEORA',
->>>>>>> ee18dd92 (.)
-<<<<<<< HEAD
->>>>>>> 022fa8f1c (.)
-=======
-=======
->>>>>>> 6608a1a0 (.)
-=======
-            sender: 'SALUTEORA',
->>>>>>> ca10d6ad (.)
-=======
-            sender: 'SALUTEORA',
->>>>>>> 66453ace (.)
-=======
->>>>>>> 23cbbaf5 (.)
-=======
-            sender: 'SALUTEORA',
->>>>>>> febe79e3 (.)
-=======
-            sender: 'SALUTEORA',
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 909e45af (.)
-=======
-            sender: 'SALUTEORA',
->>>>>>> a29a4728 (.)
-=======
-            sender: 'SALUTEORA',
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> bb7e77c2 (.)
-=======
-            sender: 'SALUTEORA',
->>>>>>> c7a4727b (.)
-=======
->>>>>>> b99af5a8 (.)
-=======
-            sender: 'SALUTEORA',
->>>>>>> 9721a5b2 (.)
-=======
-            sender: 'SALUTEORA',
->>>>>>> 712617d3 (.)
-=======
->>>>>>> f3086887 (rebase 210)
-=======
-            sender: 'SALUTEORA',
->>>>>>> 1442e291 (rebase 210)
-=======
-            sender: 'SALUTEORA',
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 3d462363 (rebase 210)
-=======
-            sender: 'SALUTEORA',
->>>>>>> fcaebc79 (rebase 210)
-=======
-            sender: '<nome progetto>',
-            sender: 'SALUTEORA',
->>>>>>> 4fc21b78 (rebase 210)
-=======
-            sender: 'SALUTEORA',
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> 54ad93c4 (rebase 210)
-=======
-            sender: 'SALUTEORA',
->>>>>>> 9d3810d0 (rebase 210)
-=======
-            sender: 'SALUTEORA',
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 6e12a84b (rebase 210)
-=======
-            sender: 'SALUTEORA',
->>>>>>> d38aa9d2 (rebase 210)
-=======
-            sender: 'SALUTEORA',
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 545977c8 (rebase 210)
-=======
-            sender: 'SALUTEORA',
->>>>>>> 9e7ba5b6 (rebase 210)
-=======
-            sender: 'SALUTEORA',
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
             batchSize: 100,
             delayBetweenBatches: 1
         )->onQueue('bulk-sms')->execute();
@@ -997,7 +506,7 @@ class SendNetfunSmsWithRetryAction extends SendNetfunSmsAction
         string $sender
     ) {
         parent::__construct($to, $message, $sender);
-        
+
         $this->maxRetries = config('notify.netfun.max_retries', 3);
         $this->retryDelay = config('notify.netfun.retry_delay', 1);
         $this->circuitBreakerThreshold = config('notify.netfun.circuit_breaker.threshold', 5);
@@ -1023,10 +532,10 @@ class SendNetfunSmsWithRetryAction extends SendNetfunSmsAction
         while ($attempts < $this->maxRetries) {
             try {
                 $result = parent::execute();
-                
+
                 // Reset circuit breaker on success
                 $this->resetCircuitBreaker();
-                
+
                 return $result;
 
             } catch (\Exception $e) {
@@ -1036,13 +545,13 @@ class SendNetfunSmsWithRetryAction extends SendNetfunSmsAction
                 if ($attempts === $this->maxRetries) {
                     // Increment circuit breaker counter
                     $this->incrementCircuitBreaker();
-                    
+
                     Log::error('Tentativi esauriti per invio SMS', [
                         'to' => $this->to,
                         'error' => $e->getMessage(),
                         'attempts' => $attempts
                     ]);
-                    
+
                     throw $e;
                 }
 
@@ -1075,7 +584,7 @@ class SendNetfunSmsWithRetryAction extends SendNetfunSmsAction
     {
         $key = 'netfun_circuit_breaker_failures';
         $failures = Cache::get($key, 0) + 1;
-        
+
         Cache::put($key, $failures, $this->circuitBreakerTimeout);
 
         if ($failures >= $this->circuitBreakerThreshold) {
@@ -1130,16 +639,16 @@ class SendNetfunSmsWithMetricsAction extends SendNetfunSmsAction
     public function execute(): NetfunSmsResponseData
     {
         $startTime = microtime(true);
-        
+
         try {
             $result = parent::execute();
-            
+
             // Registra metriche di successo
             $this->recordMetrics(true, microtime(true) - $startTime, [
                 'message_id' => $result->message_id,
                 'status' => $result->status
             ]);
-            
+
             return $result;
 
         } catch (\Exception $e) {
@@ -1147,11 +656,11 @@ class SendNetfunSmsWithMetricsAction extends SendNetfunSmsAction
             $this->recordMetrics(false, microtime(true) - $startTime, [
                 'error' => $e->getMessage()
             ]);
-            
+
             throw $e;
         }
     }
-    
+
     /**
      * Registra le metriche
      *
@@ -1235,7 +744,7 @@ class NetfunSmsActionTest extends TestCase
         $this->assertInstanceOf(NetfunSmsResponseData::class, $result);
         $this->assertEquals('success', $result->status);
         $this->assertEquals('123456', $result->message_id);
-        
+
         Http::assertSent(function ($request) {
             return $request->url() == config('notify.netfun.endpoint') &&
                    $request['messages'][0]['to'] == '+393331234567' &&
@@ -1336,7 +845,7 @@ class NetfunNotificationIntegrationTest extends TestCase
         ]);
 
         $otp = '123456';
-        
+
         $user->notify(new OtpSmsNotification($otp));
 
         Http::assertSent(function ($request) use ($otp) {
@@ -1417,40 +926,4 @@ class NetfunNotificationIntegrationTest extends TestCase
 - [Laravel Testing](https://laravel.com/docs/testing)
 - [Laravel Logging](https://laravel.com/docs/logging)
 - [Laravel Cache](https://laravel.com/docs/cache)
-- [Prometheus PHP Client](https://github.com/promphp/prometheus_client_php) 
-<<<<<<< HEAD
-=======
->>>>>>> 5fd545e4 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5fd545e4 (.)
-=======
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> 712617d3 (.)
-=======
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 54220b28 (rebase 210)
-=======
->>>>>>> 4fc21b78 (rebase 210)
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
+- [Prometheus PHP Client](https://github.com/promphp/prometheus_client_php)

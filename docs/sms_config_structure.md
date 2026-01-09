@@ -1,4 +1,4 @@
-# Struttura della Configurazione SMS 
+# Struttura della Configurazione SMS
 
 ## Introduzione
 
@@ -12,12 +12,12 @@ Il file `config/sms.php` è organizzato in sezioni distinte:
 return [
     // Driver predefinito
     'default' => env('SMS_DRIVER', 'default_provider'),
-    
+
     // Configurazione dei driver/provider
     'drivers' => [
         // Configurazioni specifiche per provider...
     ],
-    
+
     // Configurazioni generiche per tutti i provider
     'queue' => env('SMS_QUEUE', 'default'),
     'retry' => [...],
@@ -56,49 +56,22 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
         // Credenziali e parametri di connessione
         'username' => env('NETFUN_USERNAME'),
         'password' => env('NETFUN_PASSWORD'),
-<<<<<<< HEAD
         'sender' => env('NETFUN_SENDER', '<main module>'),
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
-=======
-        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
->>>>>>> f963d2c0 (.)
-=======
-        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
->>>>>>> f963d2c0 (.)
-=======
-        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
->>>>>>> f963d2c0 (.)
-=======
-        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
-=======
-<<<<<<< HEAD
-        'sender' => env('NETFUN_SENDER', '<main module>'),
-=======
-        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
         'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
-        
+
         // Configurazioni avanzate specifiche per Netfun
         'circuit_breaker' => [
             'threshold' => env('NETFUN_CIRCUIT_BREAKER_THRESHOLD', 5),
             'timeout' => env('NETFUN_CIRCUIT_BREAKER_TIMEOUT', 60),
         ],
     ],
-    
+
     'twilio' => [
         'account_sid' => env('TWILIO_ACCOUNT_SID'),
         'auth_token' => env('TWILIO_AUTH_TOKEN'),
         'from' => env('TWILIO_FROM'),
     ],
-    
+
     // Altri provider...
 ],
 ```
@@ -140,36 +113,9 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
     'netfun' => [
         'username' => env('NETFUN_USERNAME'),
         'password' => env('NETFUN_PASSWORD'),
-<<<<<<< HEAD
         'sender' => env('NETFUN_SENDER', '<main module>'),
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
-=======
-        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
->>>>>>> f963d2c0 (.)
-=======
-        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
->>>>>>> f963d2c0 (.)
-=======
-        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
->>>>>>> f963d2c0 (.)
-=======
-        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
-=======
-<<<<<<< HEAD
-        'sender' => env('NETFUN_SENDER', '<main module>'),
-=======
-        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
         'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
-        
+
         // Solo configurazioni veramente specifiche per Netfun
         'circuit_breaker' => [
             'threshold' => env('NETFUN_CIRCUIT_BREAKER_THRESHOLD', 5),

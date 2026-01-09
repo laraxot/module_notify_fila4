@@ -1,36 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> 712617d3 (.)
-=======
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 4fc21b78 (rebase 210)
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
-# Risoluzione dei Problemi nelle Email 
+# Risoluzione dei Problemi nelle Email
 
 Questa documentazione fornisce soluzioni per i problemi comuni che possono verificarsi durante l'invio di email nel modulo Notify.
 
@@ -46,168 +14,9 @@ La classe `SpatieEmail` ora utilizza l'API moderna di Laravel per gli allegati t
 // Preparazione degli allegati
 $attachments = [
     [
-<<<<<<< HEAD
         'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
         'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
         'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
-=======
-        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
-        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
-        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
->>>>>>> 75179b85 (.)
-=======
-        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
->>>>>>> f963d2c0 (.)
-=======
-        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
-=======
-        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
->>>>>>> 31f5d28f (.)
-=======
-        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
->>>>>>> 31f5d28f (.)
-=======
-        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
-        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
-        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
->>>>>>> bf479cc (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 31f5d28f (.)
-=======
-        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
->>>>>>> a404ea71 (.)
-=======
-        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
-        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
-        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
->>>>>>> 75179b85 (.)
-=======
-        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
-        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
->>>>>>> a404ea71 (.)
-=======
-        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
-        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
-        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
->>>>>>> 75179b85 (.)
-=======
-        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
-        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
->>>>>>> a404ea71 (.)
-=======
-        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
->>>>>>> ee18dd92 (.)
-<<<<<<< HEAD
->>>>>>> 022fa8f1c (.)
-=======
-=======
->>>>>>> 6608a1a0 (.)
-=======
-        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
->>>>>>> ca10d6ad (.)
-=======
-        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
->>>>>>> 66453ace (.)
-=======
->>>>>>> 23cbbaf5 (.)
-=======
-        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
->>>>>>> febe79e3 (.)
-=======
-        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 909e45af (.)
-=======
-        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
->>>>>>> a29a4728 (.)
-=======
-        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> bb7e77c2 (.)
-=======
-        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
->>>>>>> c7a4727b (.)
-=======
->>>>>>> b99af5a8 (.)
-=======
-        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
->>>>>>> 9721a5b2 (.)
-=======
-        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
->>>>>>> 712617d3 (.)
-=======
->>>>>>> f3086887 (rebase 210)
-=======
-        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
->>>>>>> 1442e291 (rebase 210)
-=======
-        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 3d462363 (rebase 210)
-=======
-        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
->>>>>>> fcaebc79 (rebase 210)
-=======
-        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
-        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
-        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
->>>>>>> 4fc21b78 (rebase 210)
-=======
-        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> 54ad93c4 (rebase 210)
-=======
-        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
->>>>>>> 9d3810d0 (rebase 210)
-=======
-        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 6e12a84b (rebase 210)
-=======
-        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
->>>>>>> d38aa9d2 (rebase 210)
-=======
-        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 545977c8 (rebase 210)
-=======
-        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
->>>>>>> 9e7ba5b6 (rebase 210)
-=======
-        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
         'as' => 'logo.svg',
         'mime' => 'image/svg+xml',
     ],
@@ -368,7 +177,7 @@ Esempio di test per verificare il corretto funzionamento dell'invio email:
 public function test_can_send_email_with_attachments()
 {
     Mail::fake();
-    
+
     $user = User::factory()->create();
     $attachments = [
         [
@@ -377,15 +186,15 @@ public function test_can_send_email_with_attachments()
             'mime' => 'text/plain',
         ],
     ];
-    
+
     // Crea il file test se non esiste
     if (!file_exists(public_path('test-file.txt'))) {
         file_put_contents(public_path('test-file.txt'), 'Test content');
     }
-    
+
     // Invia email
     Mail::to($user->email)->send((new SpatieEmail($user, 'test-template'))->addAttachments($attachments));
-    
+
     // Verifica che l'email sia stata inviata
     Mail::assertSent(SpatieEmail::class, function ($mail) use ($user) {
         return $mail->hasTo($user->email);
@@ -398,39 +207,3 @@ public function test_can_send_email_with_attachments()
 - [ATTACHMENTS_USAGE.md](./ATTACHMENTS_USAGE.md)
 - [EMAIL_LAYOUTS_BEST_PRACTICES.md](../mail-templates/EMAIL_LAYOUTS_BEST_PRACTICES.md)
 - [SPATIE_MAIL_TEMPLATES_STRUCTURE.md](../mail-templates/SPATIE_MAIL_TEMPLATES_STRUCTURE.md)
-<<<<<<< HEAD
-=======
->>>>>>> 5fd545e4 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5fd545e4 (.)
-=======
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> 712617d3 (.)
-=======
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 54220b28 (rebase 210)
-=======
->>>>>>> 4fc21b78 (rebase 210)
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)

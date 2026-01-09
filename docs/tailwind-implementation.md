@@ -1,38 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 125a2c2b8 (.)
-=======
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> 712617d3 (.)
-=======
->>>>>>> fdb24863 (rebase 210)
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 4fc21b78 (rebase 210)
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
 # Implementazione Tailwind CSS nel Modulo Notify
 
 ## 1. Configurazione Base
@@ -118,7 +83,7 @@ module.exports = {
 // resources/views/components/email/button.blade.php
 @props(['url', 'color' => 'primary'])
 
-<a href="{{ $url }}" 
+<a href="{{ $url }}"
    class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-notify-{{ $color }} hover:bg-notify-{{ $color }}-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-notify-{{ $color }}-500">
     {{ $slot }}
 </a>
@@ -319,11 +284,11 @@ class EmailTemplateTest extends TestCase
     public function test_welcome_email_renders_correctly()
     {
         $user = User::factory()->create();
-        
+
         $view = view('notifications::email.welcome', [
             'user' => $user
         ])->render();
-        
+
         $this->assertStringContainsString('Benvenuto', $view);
         $this->assertStringContainsString($user->name, $view);
         $this->assertStringContainsString('bg-white', $view);
@@ -341,7 +306,7 @@ class EmailResponsiveTest extends TestCase
         $view = view('notifications::email.appointment', [
             'appointment' => Appointment::factory()->create()
         ])->render();
-        
+
         $this->assertStringContainsString('sm:max-w-xl', $view);
         $this->assertStringContainsString('md:flex-row', $view);
     }
@@ -358,112 +323,8 @@ class EmailResponsiveTest extends TestCase
 Per contribuire alla documentazione, seguire le [Linee Guida](../../../docs/linee-guida-documentazione.md) e le [Regole dei Collegamenti](../../../docs/regole_collegamenti_documentazione.md).
 
 ## Collegamenti Completi
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 31f5d28f (.)
-=======
-=======
->>>>>>> 75179b85 (.)
-=======
-=======
->>>>>>> 31f5d28f (.)
-=======
->>>>>>> 75179b85 (.)
-=======
-=======
->>>>>>> 31f5d28f (.)
->>>>>>> 022fa8f1c (.)
 Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../docs/README_links.md). Per contribuire alla documentazione, seguire le [Linee Guida](../../../project_docs/linee-guida-documentazione.md) e le [Regole dei Collegamenti](../../../project_docs/regole_collegamenti_documentazione.md).
 
 ## Collegamenti Completi
-Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../project_docs/README_links.md). 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 75179b85 (.)
-=======
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> bf479cc (.)
->>>>>>> 31f5d28f (.)
-=======
->>>>>>> a404ea71 (.)
-=======
->>>>>>> 75179b85 (.)
-=======
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> bf479cc (.)
->>>>>>> 31f5d28f (.)
-=======
->>>>>>> a404ea71 (.)
-=======
->>>>>>> 75179b85 (.)
-=======
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> bf479cc (.)
->>>>>>> 31f5d28f (.)
-=======
->>>>>>> a404ea71 (.)
-=======
->>>>>>> ee18dd92 (.)
->>>>>>> 022fa8f1c (.)
-Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../docs/README_links.md). 
-=======
->>>>>>> 5fd545e4 (.)
-=======
-Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../docs/README_links.md). 
->>>>>>> 2a97406c (.)
-=======
-Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../docs/README_links.md). 
->>>>>>> 4f042b88 (.)
-=======
-Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../docs/README_links.md). 
->>>>>>> 712617d3 (.)
-=======
-Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../docs/README_links.md). 
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 54220b28 (rebase 210)
-<<<<<<< HEAD
-=======
-=======
-Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../docs/README_links.md). 
->>>>>>> 4fc21b78 (rebase 210)
-=======
-Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../docs/README_links.md). 
->>>>>>> 9c45d9bd (rebase 210)
-=======
-Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../docs/README_links.md). 
->>>>>>> eb62d6cf (rebase 210)
-=======
-Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../docs/README_links.md). 
->>>>>>> 8c8937e7 (rebase 210)
-=======
-Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../docs/README_links.md). 
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
+Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../project_docs/README_links.md).
+Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../docs/README_links.md).

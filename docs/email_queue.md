@@ -1,35 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> 712617d3 (.)
-=======
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 4fc21b78 (rebase 210)
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
 # Sistema Code Email - il progetto
 
 ## Panoramica
@@ -251,65 +219,7 @@ namespace Modules\Notify\Filament\Resources;
 
 class MailQueueResource extends XotBaseResource
 {
-<<<<<<< HEAD
     public static function form(Form $form): Form
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
-=======
-    public static function form(Form $form): Form
->>>>>>> 75179b85 (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> f963d2c0 (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> 75179b85 (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> f963d2c0 (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> ee18dd92 (.)
-<<<<<<< HEAD
->>>>>>> 022fa8f1c (.)
-=======
-=======
-    public static function form(Form $form): Form
->>>>>>> 66453ace (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> 2a97406c (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> 4f042b88 (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> 712617d3 (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> fdb24863 (rebase 210)
-=======
-    public static function form(Form $form): Form
->>>>>>> 4fc21b78 (rebase 210)
-=======
-    public static function form(Form $form): Form
->>>>>>> 9c45d9bd (rebase 210)
-=======
-    public static function form(Form $form): Form
->>>>>>> eb62d6cf (rebase 210)
-=======
-    public static function form(Form $form): Form
->>>>>>> 8c8937e7 (rebase 210)
-=======
-    public static function form(Form $form): Form
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
     {
         return $form->schema([
             Card::make()->schema([
@@ -318,25 +228,25 @@ class MailQueueResource extends XotBaseResource
                     Stat::make('In Coda', fn () => $this->getPendingCount())
                         ->description('Job in attesa')
                         ->descriptionIcon('heroicon-m-clock'),
-                        
+
                     Stat::make('In Elaborazione', fn () => $this->getProcessingCount())
                         ->description('Job in corso')
                         ->descriptionIcon('heroicon-m-arrow-path'),
-                        
+
                     Stat::make('Falliti', fn () => $this->getFailedCount())
                         ->description('Job falliti')
                         ->descriptionIcon('heroicon-m-x-circle'),
                 ]),
-                
+
                 // Grafici
                 Chart::make('Job per Ora')
                     ->type('line')
                     ->data($this->getJobsByHour()),
-                    
+
                 Chart::make('Tempo di Elaborazione')
                     ->type('bar')
                     ->data($this->getProcessingTime()),
-                    
+
                 Chart::make('Fallimenti per Causa')
                     ->type('pie')
                     ->data($this->getFailureReasons()),
@@ -368,22 +278,22 @@ class MailQueueManager
     protected function rateLimitTemplate(MailTemplate $template): void
     {
         $key = "mail:template:{$template->id}";
-        
+
         if (RateLimiter::tooManyAttempts($key, $template->hourly_limit)) {
             throw new \Exception('Template rate limit exceeded');
         }
-        
+
         RateLimiter::hit($key);
     }
 
     protected function rateLimitRecipient(string $recipient): void
     {
         $key = "mail:recipient:{$recipient}";
-        
+
         if (RateLimiter::tooManyAttempts($key, 5)) {
             throw new \Exception('Recipient rate limit exceeded');
         }
-        
+
         RateLimiter::hit($key);
     }
 }
@@ -490,352 +400,6 @@ class MailQueueManager
 - [Email Plugins Analysis](email-plugins-analysis.md)
 
 ## Vedi Anche
-<<<<<<< HEAD
 - [Laravel Queue](https://laravel.com/project_docs/queues)
 - [Laravel Horizon](https://laravel.com/project_docs/horizon)
-- [Laravel Supervisor](https://laravel.com/project_docs/queues#supervisor-configuration) 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d09cb759 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
->>>>>>> d09cb759 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
->>>>>>> d09cb759 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
->>>>>>> 4689a827 (.)
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Horizon](https://laravel.com/docs/horizon)
-- [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
-=======
-- [Laravel Queue](https://laravel.com/project_docs/queues)
-- [Laravel Horizon](https://laravel.com/project_docs/horizon)
-- [Laravel Supervisor](https://laravel.com/project_docs/queues#supervisor-configuration) 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 75179b85 (.)
-=======
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Horizon](https://laravel.com/docs/horizon)
-- [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> d284d65 (.)
->>>>>>> d09cb759 (.)
-=======
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Horizon](https://laravel.com/docs/horizon)
-- [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
->>>>>>> 3f537838 (.)
-=======
->>>>>>> bf479cc (.)
->>>>>>> 31f5d28f (.)
-=======
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Horizon](https://laravel.com/docs/horizon)
-- [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
->>>>>>> a404ea71 (.)
-=======
-- [Laravel Queue](https://laravel.com/project_docs/queues)
-- [Laravel Horizon](https://laravel.com/project_docs/horizon)
-- [Laravel Supervisor](https://laravel.com/project_docs/queues#supervisor-configuration) 
->>>>>>> 75179b85 (.)
-=======
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Horizon](https://laravel.com/docs/horizon)
-- [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> d284d65 (.)
->>>>>>> d09cb759 (.)
-=======
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Horizon](https://laravel.com/docs/horizon)
-- [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
->>>>>>> 3f537838 (.)
-=======
->>>>>>> bf479cc (.)
->>>>>>> 31f5d28f (.)
-=======
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Horizon](https://laravel.com/docs/horizon)
-- [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
->>>>>>> a404ea71 (.)
-=======
-- [Laravel Queue](https://laravel.com/project_docs/queues)
-- [Laravel Horizon](https://laravel.com/project_docs/horizon)
-- [Laravel Supervisor](https://laravel.com/project_docs/queues#supervisor-configuration) 
->>>>>>> 75179b85 (.)
-=======
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Horizon](https://laravel.com/docs/horizon)
-- [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> d284d65 (.)
->>>>>>> d09cb759 (.)
-=======
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Horizon](https://laravel.com/docs/horizon)
-- [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
->>>>>>> 3f537838 (.)
-=======
->>>>>>> bf479cc (.)
->>>>>>> 31f5d28f (.)
-=======
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Horizon](https://laravel.com/docs/horizon)
-- [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
->>>>>>> a404ea71 (.)
-=======
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Horizon](https://laravel.com/docs/horizon)
-- [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
->>>>>>> ee18dd92 (.)
-<<<<<<< HEAD
->>>>>>> 022fa8f1c (.)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> 4689a827 (.)
-<<<<<<< HEAD
->>>>>>> c0f3d67cc (.)
-=======
-=======
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Horizon](https://laravel.com/docs/horizon)
-- [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
->>>>>>> 2941b0bd (.)
-=======
->>>>>>> bf479cc (.)
->>>>>>> 6608a1a0 (.)
-=======
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Horizon](https://laravel.com/docs/horizon)
-- [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
->>>>>>> ca10d6ad (.)
-=======
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Horizon](https://laravel.com/docs/horizon)
-- [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
->>>>>>> 66453ace (.)
-=======
->>>>>>> d284d65 (.)
->>>>>>> 7325acf3 (.)
-=======
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Horizon](https://laravel.com/docs/horizon)
-- [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
->>>>>>> 4c323e61 (.)
-=======
->>>>>>> bf479cc (.)
->>>>>>> 23cbbaf5 (.)
-=======
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Horizon](https://laravel.com/docs/horizon)
-- [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
->>>>>>> febe79e3 (.)
-=======
->>>>>>> 5fd545e4 (.)
-<<<<<<< HEAD
->>>>>>> ddee9d751 (.)
-=======
-=======
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Horizon](https://laravel.com/docs/horizon)
-- [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
->>>>>>> 2a97406c (.)
-=======
->>>>>>> d284d65 (.)
->>>>>>> f2e64178 (.)
-=======
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Horizon](https://laravel.com/docs/horizon)
-- [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
->>>>>>> 98d837b9 (.)
-=======
->>>>>>> bf479cc (.)
->>>>>>> 909e45af (.)
-=======
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Horizon](https://laravel.com/docs/horizon)
-- [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
->>>>>>> a29a4728 (.)
-=======
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Horizon](https://laravel.com/docs/horizon)
-- [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> d284d65 (.)
->>>>>>> c4bdacbf (.)
-=======
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Horizon](https://laravel.com/docs/horizon)
-- [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
->>>>>>> 4e4a7796 (.)
-=======
->>>>>>> bf479cc (.)
->>>>>>> bb7e77c2 (.)
-=======
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Horizon](https://laravel.com/docs/horizon)
-- [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
->>>>>>> c7a4727b (.)
-=======
->>>>>>> bf479cc (.)
->>>>>>> b99af5a8 (.)
-=======
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Horizon](https://laravel.com/docs/horizon)
-- [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
->>>>>>> 9721a5b2 (.)
-=======
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Horizon](https://laravel.com/docs/horizon)
-- [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
->>>>>>> 712617d3 (.)
-=======
->>>>>>> d284d65 (.)
->>>>>>> bd804d67 (.)
-=======
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Horizon](https://laravel.com/docs/horizon)
-- [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
->>>>>>> 116df547 (.)
-=======
->>>>>>> bf479cc (.)
->>>>>>> f3086887 (rebase 210)
-=======
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Horizon](https://laravel.com/docs/horizon)
-- [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
->>>>>>> 1442e291 (rebase 210)
-=======
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Horizon](https://laravel.com/docs/horizon)
-- [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> d284d65 (.)
->>>>>>> 229a065a (rebase 210)
-=======
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Horizon](https://laravel.com/docs/horizon)
-- [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
->>>>>>> 84082535 (rebase 210)
-=======
->>>>>>> bf479cc (.)
->>>>>>> 3d462363 (rebase 210)
-=======
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Horizon](https://laravel.com/docs/horizon)
-- [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
->>>>>>> fcaebc79 (rebase 210)
-=======
->>>>>>> 54220b28 (rebase 210)
-=======
-- [Laravel Queue](https://laravel.com/project_docs/queues)
-- [Laravel Horizon](https://laravel.com/project_docs/horizon)
-- [Laravel Supervisor](https://laravel.com/project_docs/queues#supervisor-configuration) 
->>>>>>> 4fc21b78 (rebase 210)
-=======
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Horizon](https://laravel.com/docs/horizon)
-- [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> d284d65 (.)
->>>>>>> 9f8e680a (rebase 210)
-=======
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Horizon](https://laravel.com/docs/horizon)
-- [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
->>>>>>> 7ffa94fc (rebase 210)
-=======
->>>>>>> bf479cc (.)
->>>>>>> 54ad93c4 (rebase 210)
-=======
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Horizon](https://laravel.com/docs/horizon)
-- [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
->>>>>>> 9d3810d0 (rebase 210)
-=======
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Horizon](https://laravel.com/docs/horizon)
-- [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> d284d65 (.)
->>>>>>> 5aedc39c (rebase 210)
-=======
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Horizon](https://laravel.com/docs/horizon)
-- [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
->>>>>>> 82e5ee2d (rebase 210)
-=======
->>>>>>> bf479cc (.)
->>>>>>> 6e12a84b (rebase 210)
-=======
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Horizon](https://laravel.com/docs/horizon)
-- [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
->>>>>>> d38aa9d2 (rebase 210)
-=======
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Horizon](https://laravel.com/docs/horizon)
-- [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> d284d65 (.)
->>>>>>> 22baa66d (rebase 210)
-=======
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Horizon](https://laravel.com/docs/horizon)
-- [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
->>>>>>> 5b50927d (rebase 210)
-=======
->>>>>>> bf479cc (.)
->>>>>>> 545977c8 (rebase 210)
-=======
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Horizon](https://laravel.com/docs/horizon)
-- [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
->>>>>>> 9e7ba5b6 (rebase 210)
-=======
-- [Laravel Queue](https://laravel.com/docs/queues)
-- [Laravel Horizon](https://laravel.com/docs/horizon)
-- [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
+- [Laravel Supervisor](https://laravel.com/project_docs/queues#supervisor-configuration)

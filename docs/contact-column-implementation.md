@@ -1,265 +1,10 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 909e45af (.)
-=======
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> bb7e77c2 (.)
-=======
->>>>>>> 36321fcb (.)
-=======
->>>>>>> b99af5a8 (.)
-=======
->>>>>>> 712617d3 (.)
-=======
->>>>>>> f3086887 (rebase 210)
-=======
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 3d462363 (rebase 210)
-=======
->>>>>>> 4fc21b78 (rebase 210)
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> 54ad93c4 (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 6e12a84b (rebase 210)
-=======
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 545977c8 (rebase 210)
-=======
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
 # ContactColumn - Implementazione DRY/KISS Centralizzata
 
 ## 🎯 Obiettivo
 Implementare `ContactColumn.php` come colonna Filament riutilizzabile che utilizza `ContactTypeEnum` per il rendering centralizzato dei contatti seguendo i principi DRY e KISS.
 
 ## 🚨 **PROBLEMA CRITICO IDENTIFICATO** (2025-08-01)
-<<<<<<< HEAD
 **ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
->>>>>>> 75179b85 (.)
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
->>>>>>> f963d2c0 (.)
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
->>>>>>> d284d65 (.)
->>>>>>> d09cb759 (.)
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
->>>>>>> 31f5d28f (.)
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
->>>>>>> 75179b85 (.)
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
->>>>>>> f963d2c0 (.)
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
->>>>>>> d284d65 (.)
->>>>>>> d09cb759 (.)
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
->>>>>>> 31f5d28f (.)
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
->>>>>>> 75179b85 (.)
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
->>>>>>> f963d2c0 (.)
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
->>>>>>> d284d65 (.)
->>>>>>> d09cb759 (.)
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
->>>>>>> 31f5d28f (.)
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
->>>>>>> ee18dd92 (.)
-<<<<<<< HEAD
->>>>>>> 022fa8f1c (.)
-=======
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
->>>>>>> d284d65 (.)
->>>>>>> 4689a827 (.)
-<<<<<<< HEAD
->>>>>>> c0f3d67cc (.)
-=======
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
->>>>>>> 6608a1a0 (.)
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
->>>>>>> 66453ace (.)
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
->>>>>>> d284d65 (.)
->>>>>>> 7325acf3 (.)
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
->>>>>>> 23cbbaf5 (.)
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
->>>>>>> 2a97406c (.)
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
->>>>>>> d284d65 (.)
->>>>>>> f2e64178 (.)
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
->>>>>>> 909e45af (.)
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
->>>>>>> 4f042b88 (.)
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
->>>>>>> d284d65 (.)
->>>>>>> c4bdacbf (.)
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
->>>>>>> bb7e77c2 (.)
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
->>>>>>> 36321fcb (.)
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
->>>>>>> d284d65 (.)
->>>>>>> dceba960 (.)
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
->>>>>>> b99af5a8 (.)
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
->>>>>>> 712617d3 (.)
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
->>>>>>> d284d65 (.)
->>>>>>> bd804d67 (.)
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
->>>>>>> f3086887 (rebase 210)
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
->>>>>>> fdb24863 (rebase 210)
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
->>>>>>> d284d65 (.)
->>>>>>> 229a065a (rebase 210)
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
->>>>>>> 3d462363 (rebase 210)
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
->>>>>>> 4fc21b78 (rebase 210)
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
->>>>>>> 9c45d9bd (rebase 210)
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
->>>>>>> d284d65 (.)
->>>>>>> 9f8e680a (rebase 210)
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
->>>>>>> 54ad93c4 (rebase 210)
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
->>>>>>> eb62d6cf (rebase 210)
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
->>>>>>> d284d65 (.)
->>>>>>> 5aedc39c (rebase 210)
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
->>>>>>> 6e12a84b (rebase 210)
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
->>>>>>> 8c8937e7 (rebase 210)
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
->>>>>>> d284d65 (.)
->>>>>>> 22baa66d (rebase 210)
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
->>>>>>> 545977c8 (rebase 210)
-=======
-**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
 - 📋 **Analisi Completa**: [contact-column-icon-issue-analysis.md](./contact-column-icon-issue-analysis.md)
 - 🛠️ **Soluzione**: Sostituire `@svg()` con `<x-filament::icon>`
 - ⚡ **Priorità**: ALTA (Funzionalità core non funzionante)
@@ -269,209 +14,13 @@ Implementare `ContactColumn.php` come colonna Filament riutilizzabile che utiliz
 - [x] Eliminazione duplicazione codice (da 79 a 46 righe PHP)
 - [x] Pattern unificato per tutti i tipi di contatto
 - [x] Single source of truth per proprietà UI
-<<<<<<< HEAD
 - [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
->>>>>>> 75179b85 (.)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
->>>>>>> f963d2c0 (.)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
->>>>>>> d284d65 (.)
->>>>>>> d09cb759 (.)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
->>>>>>> 31f5d28f (.)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
->>>>>>> 75179b85 (.)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
->>>>>>> f963d2c0 (.)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
->>>>>>> d284d65 (.)
->>>>>>> d09cb759 (.)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
->>>>>>> 31f5d28f (.)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
->>>>>>> 75179b85 (.)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
->>>>>>> f963d2c0 (.)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
->>>>>>> d284d65 (.)
->>>>>>> d09cb759 (.)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
->>>>>>> 31f5d28f (.)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
->>>>>>> ee18dd92 (.)
-<<<<<<< HEAD
->>>>>>> 022fa8f1c (.)
-=======
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
->>>>>>> d284d65 (.)
->>>>>>> 4689a827 (.)
-<<<<<<< HEAD
->>>>>>> c0f3d67cc (.)
-=======
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
->>>>>>> 6608a1a0 (.)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
->>>>>>> 66453ace (.)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
->>>>>>> d284d65 (.)
->>>>>>> 7325acf3 (.)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
->>>>>>> 23cbbaf5 (.)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
->>>>>>> 2a97406c (.)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
->>>>>>> d284d65 (.)
->>>>>>> f2e64178 (.)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
->>>>>>> 909e45af (.)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
->>>>>>> 4f042b88 (.)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
->>>>>>> d284d65 (.)
->>>>>>> c4bdacbf (.)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
->>>>>>> bb7e77c2 (.)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
->>>>>>> 36321fcb (.)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
->>>>>>> d284d65 (.)
->>>>>>> dceba960 (.)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
->>>>>>> b99af5a8 (.)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
->>>>>>> 712617d3 (.)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
->>>>>>> d284d65 (.)
->>>>>>> bd804d67 (.)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
->>>>>>> f3086887 (rebase 210)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
->>>>>>> fdb24863 (rebase 210)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
->>>>>>> d284d65 (.)
->>>>>>> 229a065a (rebase 210)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
->>>>>>> 3d462363 (rebase 210)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
->>>>>>> 4fc21b78 (rebase 210)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
->>>>>>> 9c45d9bd (rebase 210)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
->>>>>>> d284d65 (.)
->>>>>>> 9f8e680a (rebase 210)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
->>>>>>> 54ad93c4 (rebase 210)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
->>>>>>> eb62d6cf (rebase 210)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
->>>>>>> d284d65 (.)
->>>>>>> 5aedc39c (rebase 210)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
->>>>>>> 6e12a84b (rebase 210)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
->>>>>>> 8c8937e7 (rebase 210)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
->>>>>>> d284d65 (.)
->>>>>>> 22baa66d (rebase 210)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
->>>>>>> 545977c8 (rebase 210)
-=======
-- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
 
 ## 🏗️ Architettura della Soluzione
 
 ### **Pattern Centralizzato**
 - **ContactColumn**: Classe Filament personalizzata per rendering contatti
-- **ContactTypeEnum**: Single source of truth per icone, colori, etichette  
+- **ContactTypeEnum**: Single source of truth per icone, colori, etichette
 - **Translation Files**: Localizzazione centralizzata
 - **Helper Methods**: Logica di rendering e formattazione
 
@@ -551,7 +100,7 @@ class ContactColumn extends TextColumn
     protected static function formatContact(Contact $record): string
     {
         $contactInfo = [];
-        
+
         // Nome completo
         if ($record->first_name || $record->last_name) {
             $fullName = trim($record->first_name . ' ' . $record->last_name);
@@ -559,22 +108,22 @@ class ContactColumn extends TextColumn
                 $contactInfo[] = '<span class="font-medium text-gray-900">' . $fullName . '</span>';
             }
         }
-        
+
         // Tipo di contatto con icona
         $contactType = $record->contact_type ?? 'unknown';
         $value = $record->value ?? $record->email ?? $record->mobile_phone ?? '';
-        
+
         if ($value) {
             $icon = static::getContactTypeIcon($contactType);
             $color = static::getContactTypeColor($contactType);
             $contactInfo[] = '<span class="flex items-center ' . $color . '">' . $icon . ' ' . $value . '</span>';
         }
-        
+
         // Stato di verifica
         if ($record->verified_at) {
             $contactInfo[] = '<span class="text-green-600 text-xs">✓ Verificato</span>';
         }
-        
+
         // Statistiche
         $stats = [];
         if ($record->sms_count > 0) {
@@ -583,13 +132,13 @@ class ContactColumn extends TextColumn
         if ($record->mail_count > 0) {
             $stats[] = '<span class="text-green-600 text-xs">📧 ' . $record->mail_count . ' Email</span>';
         }
-        
+
         if (!empty($stats)) {
             $contactInfo[] = '<div class="flex gap-2 mt-1">' . implode('', $stats) . '</div>';
         }
-        
-        return empty($contactInfo) 
-            ? '<span class="text-gray-400">Nessun contatto</span>' 
+
+        return empty($contactInfo)
+            ? '<span class="text-gray-400">Nessun contatto</span>'
             : implode('<br class="my-1">', $contactInfo);
     }
 
@@ -622,23 +171,23 @@ class ContactColumn extends TextColumn
     protected static function getContactTooltip(Contact $record): string
     {
         $tooltip = [];
-        
+
         if ($record->contact_type) {
             $tooltip[] = 'Tipo: ' . ucfirst($record->contact_type);
         }
-        
+
         if ($record->verified_at) {
             $tooltip[] = 'Verificato: ' . $record->verified_at->format('d/m/Y H:i');
         }
-        
+
         if ($record->sms_count > 0) {
             $tooltip[] = 'SMS inviati: ' . $record->sms_count;
         }
-        
+
         if ($record->mail_count > 0) {
             $tooltip[] = 'Email inviate: ' . $record->mail_count;
         }
-        
+
         return implode(' | ', $tooltip);
     }
 }
@@ -659,7 +208,7 @@ class ContactColumn extends TextColumn
             {{ trim($record->first_name . ' ' . $record->last_name) }}
         </div>
     @endif
-    
+
     @if($record->value || $record->email || $record->mobile_phone)
         <div class="flex items-center text-sm">
             @php
@@ -684,42 +233,42 @@ class ContactColumn extends TextColumn
                     default => 'text-gray-600',
                 };
             @endphp
-            
-            <x-filament::icon 
-                :name="$icon" 
-                class="w-4 h-4 mr-1 {{ $color }}" 
+
+            <x-filament::icon
+                :name="$icon"
+                class="w-4 h-4 mr-1 {{ $color }}"
             />
             <span class="{{ $color }}">{{ $value }}</span>
         </div>
     @endif
-    
+
     @if($record->verified_at)
         <div class="text-green-600 text-xs flex items-center">
-            <x-filament::icon 
-                name="heroicon-o-check-circle" 
-                class="w-3 h-3 mr-1" 
+            <x-filament::icon
+                name="heroicon-o-check-circle"
+                class="w-3 h-3 mr-1"
             />
             Verificato
         </div>
     @endif
-    
+
     @if($record->sms_count > 0 || $record->mail_count > 0)
         <div class="flex gap-2 text-xs">
             @if($record->sms_count > 0)
                 <span class="text-blue-600 flex items-center">
-                    <x-filament::icon 
-                        name="heroicon-o-chat-bubble-left-right" 
-                        class="w-3 h-3 mr-1" 
+                    <x-filament::icon
+                        name="heroicon-o-chat-bubble-left-right"
+                        class="w-3 h-3 mr-1"
                     />
                     {{ $record->sms_count }} SMS
                 </span>
             @endif
-            
+
             @if($record->mail_count > 0)
                 <span class="text-green-600 flex items-center">
-                    <x-filament::icon 
-                        name="heroicon-o-envelope" 
-                        class="w-3 h-3 mr-1" 
+                    <x-filament::icon
+                        name="heroicon-o-envelope"
+                        class="w-3 h-3 mr-1"
                     />
                     {{ $record->mail_count }} Email
                 </span>
@@ -809,86 +358,4 @@ public function table(Table $table): Table
 4. **Documentare** l'utilizzo
 5. **Aggiornare** le regole e memorie
 
-<<<<<<< HEAD
-*Ultimo aggiornamento: 2025-01-06* 
-=======
->>>>>>> 5fd545e4 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-*Ultimo aggiornamento: 2025-01-06* 
-=======
->>>>>>> 5fd545e4 (.)
-=======
-*Ultimo aggiornamento: 2025-01-06* 
->>>>>>> 2a97406c (.)
-=======
-*Ultimo aggiornamento: 2025-01-06* 
->>>>>>> 909e45af (.)
-=======
-*Ultimo aggiornamento: 2025-01-06* 
->>>>>>> 4f042b88 (.)
-=======
-*Ultimo aggiornamento: 2025-01-06* 
->>>>>>> bb7e77c2 (.)
-=======
-*Ultimo aggiornamento: 2025-01-06* 
->>>>>>> 36321fcb (.)
-=======
-*Ultimo aggiornamento: 2025-01-06* 
->>>>>>> b99af5a8 (.)
-=======
-*Ultimo aggiornamento: 2025-01-06* 
->>>>>>> 712617d3 (.)
-=======
-*Ultimo aggiornamento: 2025-01-06* 
->>>>>>> f3086887 (rebase 210)
-=======
-*Ultimo aggiornamento: 2025-01-06* 
->>>>>>> fdb24863 (rebase 210)
-=======
-*Ultimo aggiornamento: 2025-01-06* 
->>>>>>> 3d462363 (rebase 210)
-=======
->>>>>>> 54220b28 (rebase 210)
-=======
-*Ultimo aggiornamento: 2025-01-06* 
->>>>>>> 4fc21b78 (rebase 210)
-=======
-*Ultimo aggiornamento: 2025-01-06* 
->>>>>>> 9c45d9bd (rebase 210)
-=======
-*Ultimo aggiornamento: 2025-01-06* 
->>>>>>> 54ad93c4 (rebase 210)
-=======
-*Ultimo aggiornamento: 2025-01-06* 
->>>>>>> eb62d6cf (rebase 210)
-=======
-*Ultimo aggiornamento: 2025-01-06* 
->>>>>>> 6e12a84b (rebase 210)
-=======
-*Ultimo aggiornamento: 2025-01-06* 
->>>>>>> 8c8937e7 (rebase 210)
-=======
-*Ultimo aggiornamento: 2025-01-06* 
->>>>>>> 545977c8 (rebase 210)
-=======
-*Ultimo aggiornamento: 2025-01-06* 
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
+*Ultimo aggiornamento: 2025-01-06*

@@ -48,13 +48,9 @@ module.exports = {
       },
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
-      },
       spacing: {
         '128': '32rem',
         '144': '36rem',
-      },
-    },
-  },
 }
 ```
 
@@ -83,12 +79,11 @@ $sizes = [
     'sm' => 'px-2 py-1 text-sm',
     'md' => 'px-4 py-2 text-base',
     'lg' => 'px-6 py-3 text-lg',
-];
 
 $baseClasses = 'inline-flex items-center justify-center rounded-md font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 transition-colors duration-200';
 @endphp
 
-<button 
+<button
     {{ $attributes->merge(['class' => "{$baseClasses} {$variants[$variant]} {$sizes[$size]}"]) }}
     {{ $disabled ? 'disabled' : '' }}
 >
@@ -105,7 +100,6 @@ $baseClasses = 'inline-flex items-center justify-center rounded-md font-medium f
 
     @if($icon && $iconPosition === 'right')
         <x-dynamic-component :component="$icon" class="ml-2 -mr-1 h-5 w-5"/>
-    @endif
 </button>
 ```
 
@@ -126,26 +120,20 @@ $baseClasses = 'inline-flex items-center justify-center rounded-md font-medium f
                 @if($title)
                     <h2 class="text-2xl font-bold text-gray-900">{{ $title }}</h2>
                 @endif
-                
+
                 @if($description)
                     <p class="mt-1 text-sm text-gray-500">{{ $description }}</p>
-                @endif
             </div>
 
             @if($actions)
                 <div class="flex items-center space-x-4">
                     {{ $actions }}
-                </div>
-            @endif
-        </div>
-    @endif
 
     <div @class([
         'rounded-lg bg-white shadow',
         'divide-y divide-gray-200' => $divided,
     ])>
         {{ $slot }}
-    </div>
 </section>
 ```
 
@@ -172,15 +160,12 @@ $baseClasses = 'inline-flex items-center justify-center rounded-md font-medium f
 
         <div class="email-body">
             @yield('content')
-        </div>
 
         <div class="email-footer">
             @yield('footer')
             <p class="text-sm text-gray-500 text-center mt-4">
                 © {{ date('Y') }} {{ config('app.name') }}. Tutti i diritti riservati.
             </p>
-        </div>
-    </div>
 
     <style>
         .email-wrapper {
@@ -222,11 +207,10 @@ $alignment = [
     'left' => 'text-left',
     'center' => 'text-center',
     'right' => 'text-right',
-];
 @endphp
 
 <div class="{{ $alignment[$align] }}">
-    <a href="{{ $url }}" 
+    <a href="{{ $url }}"
        class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white {{ $colors[$color] }} {{ $fullWidth ? 'w-full' : '' }}"
        target="_blank">
         {{ $slot }}
@@ -306,7 +290,6 @@ module.exports = {
       'text-notify-600',
       /^bg-notify-/,
       /^text-notify-/,
-    ],
   },
 }
 ```
@@ -327,18 +310,13 @@ export default defineConfig({
             ],
             refresh: true,
         }),
-    ],
     build: {
         rollupOptions: {
             output: {
                 manualChunks: {
                     'notify': [
                         './Modules/Notify/resources/css/email.css',
-                    ],
                 },
-            },
-        },
-    },
 });
 ```
 
@@ -360,12 +338,9 @@ class ButtonTest extends TestCase
         $view->assertSee('px-4 py-2', false);
     }
 
-    /** @test */
     public function it_shows_loading_state()
     {
-        $view = $this->blade(
             '<x-button loading>Test</x-button>'
-        );
 
         $view->assertSee('animate-spin', false);
     }
@@ -402,4 +377,4 @@ class EmailTemplateTest extends DuskTestCase
 Per contribuire alla documentazione, seguire le [Linee Guida](../../../docs/linee-guida-documentazione.md) e le [Regole dei Collegamenti](../../../docs/regole_collegamenti_documentazione.md).
 
 ## Collegamenti Completi
-Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../docs/README_links.md). 
+Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../docs/README_links.md).

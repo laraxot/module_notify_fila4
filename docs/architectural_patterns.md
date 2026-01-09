@@ -1,33 +1,6 @@
 # Pattern Architetturali per le Notifiche
 
-<<<<<<< HEAD
 Questo documento analizza i pattern architetturali utilizzati nel sistema di notifiche di <main module>, con particolare attenzione alla selezione del driver e alla gestione delle dipendenze.
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-Questo documento analizza i pattern architetturali utilizzati nel sistema di notifiche di <nome progetto>, con particolare attenzione alla selezione del driver e alla gestione delle dipendenze.
-=======
-Questo documento analizza i pattern architetturali utilizzati nel sistema di notifiche di SaluteOra, con particolare attenzione alla selezione del driver e alla gestione delle dipendenze.
->>>>>>> f963d2c0 (.)
-=======
-Questo documento analizza i pattern architetturali utilizzati nel sistema di notifiche di SaluteOra, con particolare attenzione alla selezione del driver e alla gestione delle dipendenze.
->>>>>>> f963d2c0 (.)
-=======
-Questo documento analizza i pattern architetturali utilizzati nel sistema di notifiche di SaluteOra, con particolare attenzione alla selezione del driver e alla gestione delle dipendenze.
->>>>>>> f963d2c0 (.)
-=======
-Questo documento analizza i pattern architetturali utilizzati nel sistema di notifiche di <nome progetto>, con particolare attenzione alla selezione del driver e alla gestione delle dipendenze.
-=======
-<<<<<<< HEAD
-Questo documento analizza i pattern architetturali utilizzati nel sistema di notifiche di <main module>, con particolare attenzione alla selezione del driver e alla gestione delle dipendenze.
-=======
-Questo documento analizza i pattern architetturali utilizzati nel sistema di notifiche di SaluteOra, con particolare attenzione alla selezione del driver e alla gestione delle dipendenze.
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
 
 ## Confronto tra Pattern Architetturali
 
@@ -55,7 +28,7 @@ $action = match ($driver) {
 public function getAction(): SmsActionInterface
 {
     $driver = Config::get('sms.default', 'smsfactor');
-    
+
     return match ($driver) {
         'smsfactor' => app(SendSmsFactorSMSAction::class),
         'twilio' => app(SendTwilioSMSAction::class),
@@ -114,7 +87,7 @@ class SmsActionFactory
     public function create(?string $driver = null): SmsActionInterface
     {
         $driver = $driver ?? Config::get('sms.default', 'smsfactor');
-        
+
         return match ($driver) {
             'smsfactor' => app(SendSmsFactorSMSAction::class),
             'twilio' => app(SendTwilioSMSAction::class),

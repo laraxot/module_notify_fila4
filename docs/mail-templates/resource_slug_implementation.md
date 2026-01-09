@@ -2,34 +2,7 @@
 
 ## Panoramica
 
-<<<<<<< HEAD
 Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto <main module>.
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto <nome progetto>.
-=======
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
->>>>>>> f963d2c0 (.)
-=======
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
->>>>>>> f963d2c0 (.)
-=======
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
->>>>>>> f963d2c0 (.)
-=======
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto <nome progetto>.
-=======
-<<<<<<< HEAD
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto <main module>.
-=======
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
 
 ## Implementazione nel Form Schema
 
@@ -45,18 +18,18 @@ public static function getFormSchema(): array
         'name' => Forms\Components\TextInput::make('name')
             ->required()
             ->maxLength(255),
-            
+
         'slug' => Forms\Components\TextInput::make('slug')
             ->required()
             ->unique(ignoreRecord: true)
             ->maxLength(255)
-            ->afterStateUpdated(fn (string $context, $state, callable $set) => 
+            ->afterStateUpdated(fn (string $context, $state, callable $set) =>
                 $context === 'create' ? $set('slug', Str::slug($state)) : null),
-            
+
         'mailable' => Forms\Components\TextInput::make('mailable')
             ->required()
             ->maxLength(255),
-        
+
         // Altri campi...
     ];
 }
@@ -69,34 +42,7 @@ public static function getFormSchema(): array
 3. **Validazione Unicità**: L'opzione `unique(ignoreRecord: true)` garantisce unicità, escludendo il record corrente durante l'aggiornamento.
 4. **Generazione Automatica**: La callback `afterStateUpdated()` genera automaticamente lo slug dal nome quando si crea un nuovo record.
 
-<<<<<<< HEAD
 ## Conformità con gli Standard <main module>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-## Conformità con gli Standard <nome progetto>
-=======
-## Conformità con gli Standard SaluteOra
->>>>>>> f963d2c0 (.)
-=======
-## Conformità con gli Standard SaluteOra
->>>>>>> f963d2c0 (.)
-=======
-## Conformità con gli Standard SaluteOra
->>>>>>> f963d2c0 (.)
-=======
-## Conformità con gli Standard <nome progetto>
-=======
-<<<<<<< HEAD
-## Conformità con gli Standard <main module>
-=======
-## Conformità con gli Standard SaluteOra
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
 
 Questa implementazione aderisce a diversi standard chiave del progetto:
 
@@ -114,41 +60,23 @@ Il campo `slug` è anche implementato nelle colonne della tabella di visualizzaz
 
 ```php
 /**
-<<<<<<< HEAD
  * Campo slug in getTableColumns()
  */
 public static function getTableColumns(): array
-=======
-<<<<<<< HEAD
- * Campo slug in getListTableColumns()
- */
-public static function getListTableColumns(): array
-=======
-<<<<<<< HEAD
- * Campo slug in getTableColumns()
- */
-public static function getTableColumns(): array
-=======
- * Campo slug in getListTableColumns()
- */
-public static function getListTableColumns(): array
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
->>>>>>> 36ac4fc1 (.)
 {
     return [
         'id' => Tables\Columns\TextColumn::make('id')
             ->sortable(),
-            
+
         'name' => Tables\Columns\TextColumn::make('name')
             ->searchable()
             ->sortable(),
-            
+
         'slug' => Tables\Columns\TextColumn::make('slug')
             ->searchable()
             ->sortable()
             ->copyable(),
-            
+
         // Altri campi...
     ];
 }
@@ -176,7 +104,7 @@ public static function getTableFilters(): array
 {
     return [
         // Altri filtri...
-        
+
         'slug' => Tables\Filters\TextFilter::make('slug')
     ];
 }
@@ -220,7 +148,7 @@ return [
    ```php
    // Ordinare i template per slug
    MailTemplate::query()->orderBy('slug')->get();
-   
+
    // Cercare template per slug parziale
    MailTemplate::query()->where('slug', 'like', 'welcome-%')->get();
    ```

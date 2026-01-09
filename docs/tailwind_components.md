@@ -30,13 +30,10 @@ Questo documento descrive i componenti UI utilizzati nel modulo Notify, basati s
 <x-filament::badge
     color="success"
     icon="heroicon-o-check"
->
     Completato
 </x-filament::badge>
-```
 
 ### Card
-```blade
 <x-filament::card>
     <x-slot name="header">
         <h3>Titolo Card</h3>
@@ -46,7 +43,6 @@ Questo documento descrive i componenti UI utilizzati nel modulo Notify, basati s
 
     <x-slot name="footer">
         Footer Card
-    </x-slot>
 </x-filament::card>
 ```
 
@@ -61,7 +57,6 @@ Questo documento descrive i componenti UI utilizzati nel modulo Notify, basati s
 >
     <x-filament::input.email
         wire:model="email"
-        required
     />
 </x-filament::input.group>
 ```
@@ -84,27 +79,18 @@ Questo documento descrive i componenti UI utilizzati nel modulo Notify, basati s
 <x-filament::toggle
     wire:model="active"
     label="Attivo"
-/>
-```
 
 ## Componenti Tabella
 
 ### Table Base
-```blade
 <x-filament::table>
     <x-slot name="header">
         <x-filament::table.heading>
             ID
         </x-filament::table.heading>
-        <x-filament::table.heading>
             Titolo
-        </x-filament::table.heading>
-        <x-filament::table.heading>
             Stato
-        </x-filament::table.heading>
-        <x-filament::table.heading>
             Azioni
-        </x-filament::table.heading>
     </x-slot>
 
     @foreach($notifications as $notification)
@@ -112,15 +98,10 @@ Questo documento descrive i componenti UI utilizzati nel modulo Notify, basati s
             <x-filament::table.cell>
                 {{ $notification->id }}
             </x-filament::table.cell>
-            <x-filament::table.cell>
                 {{ $notification->title }}
-            </x-filament::table.cell>
-            <x-filament::table.cell>
                 <x-filament::badge :color="$notification->status_color">
                     {{ $notification->status }}
                 </x-filament::badge>
-            </x-filament::table.cell>
-            <x-filament::table.cell>
                 <x-filament::button
                     size="sm"
                     wire:click="edit({{ $notification->id }})"
@@ -146,38 +127,28 @@ Questo documento descrive i componenti UI utilizzati nel modulo Notify, basati s
             <x-filament::input.group
                 label="Titolo"
                 required
-            >
                 <x-filament::input
                     wire:model="form.title"
-                    required
                 />
             </x-filament::input.group>
 
-            <x-filament::input.group
                 label="Messaggio"
-                required
             >
                 <x-filament::textarea
                     wire:model="form.message"
-                    required
-                />
-            </x-filament::input.group>
         </form>
     </x-filament::card>
 
     <x-slot name="footer">
         <x-filament::button
             wire:click="$set('showModal', false)"
-        >
             Annulla
         </x-filament::button>
 
-        <x-filament::button
             type="submit"
             color="primary"
         >
             Salva
-        </x-filament::button>
     </x-slot>
 </x-filament::modal>
 ```
@@ -196,11 +167,9 @@ Questo documento descrive i componenti UI utilizzati nel modulo Notify, basati s
 
     <x-slot name="title">
         {{ $notification->title }}
-    </x-slot>
 
     <x-slot name="description">
         {{ $notification->message }}
-    </x-slot>
 
     <x-slot name="actions">
         <x-filament::button
@@ -243,8 +212,6 @@ return [
                 '100' => '#e0f2fe',
                 // ...
             ],
-        ],
-    ],
 ];
 ```
 
@@ -260,7 +227,6 @@ return [
         @apply shadow-lg;
     }
 }
-```
 
 ## Best Practices
 
@@ -301,4 +267,4 @@ return [
 Per contribuire alla documentazione, seguire le [Linee Guida](../../../docs/linee-guida-documentazione.md) e le [Regole dei Collegamenti](../../../docs/regole_collegamenti_documentazione.md).
 
 ## Collegamenti Completi
-Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../docs/README_links.md). 
+Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../docs/README_links.md).

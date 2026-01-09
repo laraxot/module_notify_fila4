@@ -1,136 +1,7 @@
-<<<<<<< HEAD
-# Configurazione Provider SMS per le Notifiche 
+# Configurazione Provider SMS per le Notifiche
 
-<<<<<<< HEAD:docs/notifications/sms-provider-configuration_1.md
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD:docs/notifications/sms-provider-configuration_1.md
->>>>>>> 75cb51873 (.):docs/notifications/sms_provider_configuration.md
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD:docs/notifications/sms-provider-configuration_1.md
->>>>>>> 022fa8f1c (.):docs/notifications/sms_provider_configuration.md
-=======
-<<<<<<< HEAD
->>>>>>> c0f3d67cc (.):docs/notifications/sms_provider_configuration.md
 Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di <nome progetto>, con focus sui diversi provider e sulla loro configurazione.
 Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di <nome progetto>, con focus sui diversi provider e sulla loro configurazione.
-<<<<<<< HEAD:docs/notifications/sms-provider-configuration_1.md
-=======
-=======
-=======
-=======
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 82ae73be (.)
-=======
-=======
-Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di <nome progetto>, con focus sui diversi provider e sulla loro configurazione.
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35e (.)
-=======
->>>>>>> 9777d1b3 (.)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> d09cb759 (.)
-=======
-=======
->>>>>>> b19cd40 (.)
->>>>>>> de02998b (.)
-=======
-Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di <nome progetto>, con focus sui diversi provider e sulla loro configurazione.
-=======
->>>>>>> b19cd40 (.)
->>>>>>> de02998b (.)
-Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di SaluteOra, con focus sui diversi provider e sulla loro configurazione.
->>>>>>> 75179b85 (.)
-=======
-Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di SaluteOra, con focus sui diversi provider e sulla loro configurazione.
->>>>>>> f963d2c0 (.)
-=======
-Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di SaluteOra, con focus sui diversi provider e sulla loro configurazione.
-=======
-Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di <nome progetto>, con focus sui diversi provider e sulla loro configurazione.
->>>>>>> bf479cc (.)
->>>>>>> 31f5d28f (.)
-=======
-=======
->>>>>>> 82ae73be (.)
-=======
->>>>>>> 207ac35e (.)
-=======
->>>>>>> 9777d1b3 (.)
-=======
->>>>>>> d09cb759 (.)
-Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di <nome progetto>, con focus sui diversi provider e sulla loro configurazione.
-=======
->>>>>>> d284d65 (.)
-Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di SaluteOra, con focus sui diversi provider e sulla loro configurazione.
->>>>>>> 75179b85 (.)
-=======
-Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di <nome progetto>, con focus sui diversi provider e sulla loro configurazione.
-<<<<<<< HEAD
-Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di SaluteOra, con focus sui diversi provider e sulla loro configurazione.
-<<<<<<< HEAD
->>>>>>> f963d2c0 (.)
-=======
-=======
-Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di <nome progetto>, con focus sui diversi provider e sulla loro configurazione.
->>>>>>> bf479cc (.)
->>>>>>> 31f5d28f (.)
-=======
-=======
->>>>>>> 82ae73be (.)
-=======
->>>>>>> 207ac35e (.)
-=======
->>>>>>> 9777d1b3 (.)
-=======
->>>>>>> d09cb759 (.)
-Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di <nome progetto>, con focus sui diversi provider e sulla loro configurazione.
-=======
->>>>>>> d284d65 (.)
-Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di SaluteOra, con focus sui diversi provider e sulla loro configurazione.
->>>>>>> 75179b85 (.)
-=======
-Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di <nome progetto>, con focus sui diversi provider e sulla loro configurazione.
-<<<<<<< HEAD
-Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di SaluteOra, con focus sui diversi provider e sulla loro configurazione.
-<<<<<<< HEAD
->>>>>>> f963d2c0 (.)
-=======
-=======
-Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di <nome progetto>, con focus sui diversi provider e sulla loro configurazione.
->>>>>>> bf479cc (.)
->>>>>>> 31f5d28f (.)
-<<<<<<< HEAD:docs/notifications/sms-provider-configuration_1.md
->>>>>>> 75cb51873 (.):docs/notifications/sms_provider_configuration.md
-=======
-=======
-=======
->>>>>>> 4689a827 (.)
-Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di <nome progetto>, con focus sui diversi provider e sulla loro configurazione.
-=======
->>>>>>> d284d65 (.)
-Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di SaluteOra, con focus sui diversi provider e sulla loro configurazione.
->>>>>>> ee18dd92 (.)
->>>>>>> 022fa8f1c (.):docs/notifications/sms_provider_configuration.md
 
 ## Indice
 
@@ -192,7 +63,7 @@ class AppointmentNotification extends Notification
     {
         return ['mail', TwilioChannel::class];
     }
-    
+
     public function toTwilio($notifiable)
     {
         return (new TwilioSmsMessage())
@@ -236,136 +107,8 @@ composer require laravel-notification-channels/vonage
 # .env
 VONAGE_KEY=abcd1234
 VONAGE_SECRET=xyz789...
-<<<<<<< HEAD:docs/notifications/sms-provider-configuration_1.md
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD:docs/notifications/sms-provider-configuration_1.md
->>>>>>> 75cb51873 (.):docs/notifications/sms_provider_configuration.md
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD:docs/notifications/sms-provider-configuration_1.md
->>>>>>> 022fa8f1c (.):docs/notifications/sms_provider_configuration.md
-=======
-<<<<<<< HEAD
->>>>>>> c0f3d67cc (.):docs/notifications/sms_provider_configuration.md
 VONAGE_SMS_FROM=<nome progetto>
 VONAGE_SMS_FROM=<nome progetto>
-<<<<<<< HEAD:docs/notifications/sms-provider-configuration_1.md
-=======
-=======
-=======
-=======
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 82ae73be (.)
-=======
-=======
-VONAGE_SMS_FROM=<nome progetto>
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35e (.)
-=======
->>>>>>> 9777d1b3 (.)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> d09cb759 (.)
-=======
-=======
->>>>>>> b19cd40 (.)
->>>>>>> de02998b (.)
-=======
-VONAGE_SMS_FROM=<nome progetto>
-=======
->>>>>>> b19cd40 (.)
->>>>>>> de02998b (.)
-VONAGE_SMS_FROM=SaluteOra
->>>>>>> 75179b85 (.)
-=======
-VONAGE_SMS_FROM=SaluteOra
->>>>>>> f963d2c0 (.)
-=======
-VONAGE_SMS_FROM=SaluteOra
-=======
-VONAGE_SMS_FROM=<nome progetto>
->>>>>>> bf479cc (.)
->>>>>>> 31f5d28f (.)
-=======
-=======
->>>>>>> 82ae73be (.)
-=======
->>>>>>> 207ac35e (.)
-=======
->>>>>>> 9777d1b3 (.)
-=======
->>>>>>> d09cb759 (.)
-VONAGE_SMS_FROM=<nome progetto>
-=======
->>>>>>> d284d65 (.)
-VONAGE_SMS_FROM=SaluteOra
->>>>>>> 75179b85 (.)
-=======
-VONAGE_SMS_FROM=<nome progetto>
-<<<<<<< HEAD
-VONAGE_SMS_FROM=SaluteOra
-<<<<<<< HEAD
->>>>>>> f963d2c0 (.)
-=======
-=======
-VONAGE_SMS_FROM=<nome progetto>
->>>>>>> bf479cc (.)
->>>>>>> 31f5d28f (.)
-=======
-=======
->>>>>>> 82ae73be (.)
-=======
->>>>>>> 207ac35e (.)
-=======
->>>>>>> 9777d1b3 (.)
-=======
->>>>>>> d09cb759 (.)
-VONAGE_SMS_FROM=<nome progetto>
-=======
->>>>>>> d284d65 (.)
-VONAGE_SMS_FROM=SaluteOra
->>>>>>> 75179b85 (.)
-=======
-VONAGE_SMS_FROM=<nome progetto>
-<<<<<<< HEAD
-VONAGE_SMS_FROM=SaluteOra
-<<<<<<< HEAD
->>>>>>> f963d2c0 (.)
-=======
-=======
-VONAGE_SMS_FROM=<nome progetto>
->>>>>>> bf479cc (.)
->>>>>>> 31f5d28f (.)
-<<<<<<< HEAD:docs/notifications/sms-provider-configuration_1.md
->>>>>>> 75cb51873 (.):docs/notifications/sms_provider_configuration.md
-=======
-=======
-=======
->>>>>>> 4689a827 (.)
-VONAGE_SMS_FROM=<nome progetto>
-=======
->>>>>>> d284d65 (.)
-VONAGE_SMS_FROM=SaluteOra
->>>>>>> ee18dd92 (.)
->>>>>>> 022fa8f1c (.):docs/notifications/sms_provider_configuration.md
 ```
 
 ### Implementazione Notifica
@@ -380,7 +123,7 @@ class AppointmentNotification extends Notification
     {
         return ['mail', VonageChannel::class];
     }
-    
+
     public function toVonage($notifiable)
     {
         return (new VonageMessage())
@@ -676,7 +419,7 @@ $this->app->bind(CustomSMSChannel::class, function ($app) {
     if ($app->environment('testing')) {
         return new TestSMSChannel();
     }
-    
+
     return new CustomSMSChannel(
         new HttpClient(),
         config('services.sms.base_url'),
@@ -727,5 +470,3 @@ Log::info('SMS sent', [
 - [MULTI_CHANNEL_NOTIFICATIONS.md](./MULTI_CHANNEL_NOTIFICATIONS.md)
 - [NOTIFICATIONS_IMPLEMENTATION_GUIDE.md](./NOTIFICATIONS_IMPLEMENTATION_GUIDE.md)
 - [TELEGRAM_NOTIFICATIONS_GUIDE.md](./TELEGRAM_NOTIFICATIONS_GUIDE.md)
-=======
->>>>>>> 5fd545e4 (.)

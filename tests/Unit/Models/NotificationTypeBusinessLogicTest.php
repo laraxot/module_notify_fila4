@@ -2,163 +2,47 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
-=======
-<<<<<<< HEAD
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Builder;
-=======
-<<<<<<< HEAD
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Builder;
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
->>>>>>> c0f3d67cc (.)
-=======
-use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\Model;
->>>>>>> fb8e02b6b (.)
-=======
-use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\Model;
-=======
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Builder;
->>>>>>> 99ff506 (.)
->>>>>>> cf20697a6 (.)
 use Modules\Notify\Models\NotificationType;
 
-<<<<<<< HEAD
 describe('NotificationType Business Logic', function () {
     test('notification type extends eloquent model', function () {
-<<<<<<< HEAD
-=======
-describe('NotificationType Business Logic', function (): void {
-    test('notification type extends eloquent model', function (): void {
->>>>>>> 6b649e02c (.)
         expect(NotificationType::class)->toBeSubclassOf(Model::class);
-=======
-<<<<<<< HEAD
-        expect(NotificationType::class)->toBeSubclassOf(Model::class);
-=======
-        expect(NotificationType::class)->toBeSubclassOf(\Illuminate\Database\Eloquent\Model::class);
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
     });
 
-<<<<<<< HEAD
-    test('notification type has expected fillable fields', function (): void {
-=======
     test('notification type has expected fillable fields', function () {
-<<<<<<< HEAD
->>>>>>> cf20697a6 (.)
         $notificationType = new NotificationType;
-=======
-        $notificationType = new NotificationType();
->>>>>>> 99ff506 (.)
         $expectedFillable = [
             'name',
             'description',
             'template',
         ];
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         expect($notificationType->getFillable())->toEqual($expectedFillable);
     });
 
-<<<<<<< HEAD
-    test('notification type can store basic information', function (): void {
-=======
     test('notification type can store basic information', function () {
-<<<<<<< HEAD
->>>>>>> cf20697a6 (.)
         $notificationType = new NotificationType;
-=======
-        $notificationType = new NotificationType();
->>>>>>> 99ff506 (.)
         $notificationType->name = 'Email Verification';
         $notificationType->description = 'Email verification notification type';
         $notificationType->template = 'email-verification-template';
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         expect($notificationType->name)->toBe('Email Verification');
         expect($notificationType->description)->toBe('Email verification notification type');
         expect($notificationType->template)->toBe('email-verification-template');
     });
 
-<<<<<<< HEAD
     test('notification type model can be instantiated without errors', function () {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    test('notification type model can be instantiated without errors', function (): void {
->>>>>>> 6b649e02c (.)
         $notificationType = new NotificationType;
-=======
-        $notificationType = new NotificationType();
-<<<<<<< HEAD
->>>>>>> c0f3d67cc (.)
-=======
-        $notificationType = new NotificationType;
->>>>>>> fb8e02b6b (.)
-=======
-        $notificationType = new NotificationType;
-=======
-        $notificationType = new NotificationType();
->>>>>>> 99ff506 (.)
->>>>>>> cf20697a6 (.)
 
         expect($notificationType)->toBeInstanceOf(NotificationType::class);
         expect($notificationType)->toBeInstanceOf(Model::class);
-=======
-<<<<<<< HEAD
-
-        expect($notificationType)->toBeInstanceOf(NotificationType::class);
-        expect($notificationType)->toBeInstanceOf(Model::class);
-=======
-        
-        expect($notificationType)->toBeInstanceOf(NotificationType::class);
-        expect($notificationType)->toBeInstanceOf(\Illuminate\Database\Eloquent\Model::class);
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
     });
 
-    test('notification type can be queried', function (): void {
+    test('notification type can be queried', function () {
         $query = NotificationType::query();
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
 
         expect($query)->toBeInstanceOf(Builder::class);
     });
 });
-<<<<<<< HEAD
-=======
-=======
-        
-        expect($query)->toBeInstanceOf(\Illuminate\Database\Eloquent\Builder::class);
-    });
-});
->>>>>>> origin/develop
->>>>>>> d284d65 (.)

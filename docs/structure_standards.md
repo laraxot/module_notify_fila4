@@ -16,52 +16,10 @@
 Questo è lo standard stabilito nel modulo Notify per tutti i DTOs:
 
 ```
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 36ac4fc1 (.)
-/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Datas/NetfunSmsData.php
-/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Datas/NetfunSmsRequestData.php
-/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Datas/NetfunSmsResponseData.php
-/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Datas/SmsData.php
-=======
-<<<<<<< HEAD
-=======
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> f963d2c0 (.)
-=======
-<<<<<<< HEAD
->>>>>>> 125a2c2b8 (.)
 /var/www/html/<directory progetto>/laravel/Modules/Notify/app/Datas/NetfunSmsData.php
 /var/www/html/<directory progetto>/laravel/Modules/Notify/app/Datas/NetfunSmsRequestData.php
 /var/www/html/<directory progetto>/laravel/Modules/Notify/app/Datas/NetfunSmsResponseData.php
 /var/www/html/<directory progetto>/laravel/Modules/Notify/app/Datas/SmsData.php
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 36ac4fc1 (.)
-/var/www/html/saluteora/laravel/Modules/Notify/app/Datas/NetfunSmsData.php
-/var/www/html/saluteora/laravel/Modules/Notify/app/Datas/NetfunSmsRequestData.php
-/var/www/html/saluteora/laravel/Modules/Notify/app/Datas/NetfunSmsResponseData.php
-/var/www/html/saluteora/laravel/Modules/Notify/app/Datas/SmsData.php
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
 ```
 
 ### ❌ ERRATO: ALTERNATIVE COMUNI MA ERRATE
@@ -78,81 +36,20 @@ Questo è lo standard stabilito nel modulo Notify per tutti i DTOs:
 
 ## Verifica dei Percorsi Prima di Utilizzarli
 
-1. **Usa `find_by_name` per verificare la directory corretta** 
+1. **Usa `find_by_name` per verificare la directory corretta**
 2. **Esamina file simili esistenti per convenzioni di nomenclatura**
-3. **Controlla il PSR-4 nel composer.json del modulo** 
+3. **Controlla il PSR-4 nel composer.json del modulo**
 
 ### Verificare Sempre le Directory Esistenti
 
 ```bash
-<<<<<<< HEAD
 find /var/www/html/<directory progetto>/laravel/Modules/Notify/app -type d -name "Data*"
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-find /var/www/html/<nome progetto>/laravel/Modules/Notify/app -type d -name "Data*"
-=======
-find /var/www/html/saluteora/laravel/Modules/Notify/app -type d -name "Data*"
->>>>>>> f963d2c0 (.)
-=======
-find /var/www/html/saluteora/laravel/Modules/Notify/app -type d -name "Data*"
->>>>>>> f963d2c0 (.)
-=======
-find /var/www/html/saluteora/laravel/Modules/Notify/app -type d -name "Data*"
->>>>>>> f963d2c0 (.)
-=======
-find /var/www/html/<nome progetto>/laravel/Modules/Notify/app -type d -name "Data*"
-=======
-<<<<<<< HEAD
-find /var/www/html/<directory progetto>/laravel/Modules/Notify/app -type d -name "Data*"
-=======
-find /var/www/html/saluteora/laravel/Modules/Notify/app -type d -name "Data*"
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
 ```
 
 Questo restituirà:
 ```
-<<<<<<< HEAD
 /var/www/html/<directory progetto>/laravel/Modules/Notify/app/Datas
 /var/www/html/<directory progetto>/laravel/Modules/Notify/app/Datas/SMS
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Datas
-/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Datas/SMS
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/app/Datas
-/var/www/html/saluteora/laravel/Modules/Notify/app/Datas/SMS
->>>>>>> f963d2c0 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/app/Datas
-/var/www/html/saluteora/laravel/Modules/Notify/app/Datas/SMS
->>>>>>> f963d2c0 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/app/Datas
-/var/www/html/saluteora/laravel/Modules/Notify/app/Datas/SMS
->>>>>>> f963d2c0 (.)
-=======
-/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Datas
-/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Datas/SMS
-=======
-<<<<<<< HEAD
-/var/www/html/<directory progetto>/laravel/Modules/Notify/app/Datas
-/var/www/html/<directory progetto>/laravel/Modules/Notify/app/Datas/SMS
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/app/Datas
-/var/www/html/saluteora/laravel/Modules/Notify/app/Datas/SMS
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
 ```
 
 ## Esempi di Importazioni Corrette

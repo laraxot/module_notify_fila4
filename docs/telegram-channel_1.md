@@ -1,38 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD:docs/telegram-channel_1.md
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> 36321fcb (.)
-=======
->>>>>>> 712617d3 (.)
-=======
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 4fc21b78 (rebase 210)
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.):docs/telegram_channel.md
 # Implementazione Canale Telegram
 
 ## 1. Struttura Base
@@ -462,717 +427,99 @@ class TelegramTest extends TestCase
 
 - [Telegram Bot API](https://core.telegram.org/bots/api)
 - [Telegram Webhook API](https://core.telegram.org/bots/api#setwebhook)
-<<<<<<< HEAD:docs/telegram-channel_1.md
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 75179b85 (.)
-=======
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> d09cb759 (.)
-=======
->>>>>>> ee18dd92 (.)
-<<<<<<< HEAD:docs/telegram-channel_1.md
->>>>>>> 022fa8f1c (.):docs/telegram_channel.md
-=======
-=======
->>>>>>> 4689a827 (.)
-<<<<<<< HEAD:docs/telegram-channel_1.md
->>>>>>> c0f3d67cc (.):docs/telegram_channel.md
-=======
-=======
->>>>>>> 66453ace (.)
-=======
->>>>>>> 7325acf3 (.)
-=======
->>>>>>> 2a97406c (.)
-=======
->>>>>>> f2e64178 (.)
-=======
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> c4bdacbf (.)
-=======
->>>>>>> 36321fcb (.)
-=======
->>>>>>> dceba960 (.)
-=======
->>>>>>> 712617d3 (.)
-=======
->>>>>>> bd804d67 (.)
-=======
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 229a065a (rebase 210)
-=======
->>>>>>> 4fc21b78 (rebase 210)
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> 9f8e680a (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 5aedc39c (rebase 210)
-=======
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 22baa66d (rebase 210)
-=======
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.):docs/telegram_channel.md
 - [Laravel Notifications](https://laravel.com/project_docs/notifications)
 - [Laravel Queues](https://laravel.com/project_docs/queues)
 - [Laravel Testing](https://laravel.com/project_docs/testing)
 - [Laravel Logging](https://laravel.com/project_docs/logging)
-- [Laravel Cache](https://laravel.com/project_docs/cache) 
-<<<<<<< HEAD:docs/telegram-channel_1.md
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 75179b85 (.)
-=======
->>>>>>> 82ae73be (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35e (.)
-=======
->>>>>>> 9777d1b3 (.)
-=======
->>>>>>> f963d2c0 (.)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> d09cb759 (.)
-=======
->>>>>>> 75179b85 (.)
-=======
->>>>>>> 82ae73be (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35e (.)
-=======
->>>>>>> 9777d1b3 (.)
-=======
->>>>>>> f963d2c0 (.)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> d09cb759 (.)
-=======
->>>>>>> de02998b (.)
-<<<<<<< HEAD:docs/telegram-channel_1.md
->>>>>>> 75cb51873 (.):docs/telegram_channel.md
-=======
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 011072e4 (.)
-=======
->>>>>>> 161887a2 (.)
-=======
->>>>>>> ee18dd92 (.)
-<<<<<<< HEAD:docs/telegram-channel_1.md
->>>>>>> 022fa8f1c (.):docs/telegram_channel.md
-=======
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> 4689a827 (.)
-<<<<<<< HEAD:docs/telegram-channel_1.md
->>>>>>> c0f3d67cc (.):docs/telegram_channel.md
-=======
-=======
->>>>>>> e7a9a2bf (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 9d67cabd (.)
-=======
->>>>>>> ba564870 (.)
-=======
->>>>>>> 66453ace (.)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> 7325acf3 (.)
-=======
->>>>>>> 9cdf6146 (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 80f054e0 (.)
-=======
->>>>>>> 7c39b1fe (.)
-=======
->>>>>>> 3f39ac8b (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 4d2eb53e (.)
-=======
->>>>>>> 888799d0 (.)
-=======
->>>>>>> 2a97406c (.)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> f2e64178 (.)
-=======
->>>>>>> 6d08c01b (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 6b6b9e41 (.)
-=======
->>>>>>> c6c33175 (.)
-=======
->>>>>>> 4f042b88 (.)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> c4bdacbf (.)
-=======
->>>>>>> 3b4c9907 (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 5fe4f466 (.)
-=======
->>>>>>> 503981fd (.)
-=======
->>>>>>> 36321fcb (.)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> dceba960 (.)
-=======
->>>>>>> 8e5817bc (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> e0d9c9be (.)
-=======
->>>>>>> 7a2f131f (.)
-=======
->>>>>>> 712617d3 (.)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> bd804d67 (.)
-=======
->>>>>>> 51182e3c (rebase 210)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> cb85c538 (rebase 210)
-=======
->>>>>>> 1c0eb9c7 (rebase 210)
-=======
->>>>>>> fdb24863 (rebase 210)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> 229a065a (rebase 210)
-=======
->>>>>>> a9bf0423 (rebase 210)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 460b8f5b (rebase 210)
-=======
->>>>>>> 4d253d2c (rebase 210)
-=======
->>>>>>> 4fc21b78 (rebase 210)
-=======
->>>>>>> 9fe1b60e (rebase 210)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 8a8a8e2f (rebase 210)
-=======
->>>>>>> efb0f8d9 (rebase 210)
-<<<<<<< HEAD:docs/telegram-channel_1.md
->>>>>>> 9725cc0a0 (.):docs/telegram_channel.md
-=======
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> 9f8e680a (rebase 210)
-=======
->>>>>>> b4f93b3a (rebase 210)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 1375c94d (rebase 210)
-=======
->>>>>>> 52cd5f85 (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> 5aedc39c (rebase 210)
-=======
->>>>>>> c5c038f2 (rebase 210)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 030c9674 (rebase 210)
-=======
->>>>>>> bb00ab64 (rebase 210)
-=======
->>>>>>> 8c8937e7 (rebase 210)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> 22baa66d (rebase 210)
-=======
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.):docs/telegram_channel.md
+- [Laravel Cache](https://laravel.com/project_docs/cache)
 - [Laravel Notifications](https://laravel.com/docs/notifications)
 - [Laravel Queues](https://laravel.com/docs/queues)
 - [Laravel Testing](https://laravel.com/docs/testing)
 - [Laravel Logging](https://laravel.com/docs/logging)
-- [Laravel Cache](https://laravel.com/docs/cache) 
-<<<<<<< HEAD:docs/telegram-channel_1.md
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD:docs/telegram-channel_1.md
->>>>>>> 022fa8f1c (.):docs/telegram_channel.md
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD:docs/telegram-channel_1.md
->>>>>>> c0f3d67cc (.):docs/telegram_channel.md
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 125a2c2b8 (.):docs/telegram_channel.md
-- [Laravel Cache](https://laravel.com/docs/cache) 
-<<<<<<< HEAD:docs/telegram-channel_1.md
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 75179b85 (.)
-=======
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 82ae73be (.)
-=======
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35e (.)
-=======
->>>>>>> 9777d1b3 (.)
-=======
->>>>>>> f963d2c0 (.)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> d09cb759 (.)
-=======
->>>>>>> 75cb51873 (.):docs/telegram_channel.md
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-<<<<<<< HEAD:docs/telegram-channel_1.md
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-- [Laravel Cache](https://laravel.com/docs/cache) 
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> d09cb759 (.)
-=======
-=======
->>>>>>> b19cd40 (.)
->>>>>>> de02998b (.)
-<<<<<<< HEAD:docs/telegram-channel_1.md
->>>>>>> 75cb51873 (.):docs/telegram_channel.md
-=======
-=======
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 011072e4 (.)
-=======
->>>>>>> 161887a2 (.)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
->>>>>>> ee18dd92 (.)
-<<<<<<< HEAD:docs/telegram-channel_1.md
->>>>>>> 022fa8f1c (.):docs/telegram_channel.md
-=======
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
-=======
->>>>>>> d284d65 (.)
->>>>>>> 4689a827 (.)
-<<<<<<< HEAD:docs/telegram-channel_1.md
->>>>>>> c0f3d67cc (.):docs/telegram_channel.md
-=======
-=======
-=======
->>>>>>> b19cd40 (.)
->>>>>>> e7a9a2bf (.)
-=======
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 9d67cabd (.)
-=======
->>>>>>> ba564870 (.)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
->>>>>>> 66453ace (.)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
-=======
->>>>>>> d284d65 (.)
->>>>>>> 7325acf3 (.)
-=======
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 9cdf6146 (.)
-=======
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 80f054e0 (.)
-=======
->>>>>>> 7c39b1fe (.)
-=======
->>>>>>> 5fd545e4 (.)
-<<<<<<< HEAD:docs/telegram-channel_1.md
->>>>>>> ddee9d751 (.):docs/telegram_channel.md
-=======
-=======
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 3f39ac8b (.)
-=======
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 4d2eb53e (.)
-=======
->>>>>>> 888799d0 (.)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
->>>>>>> 2a97406c (.)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
-=======
->>>>>>> d284d65 (.)
->>>>>>> f2e64178 (.)
-=======
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 6d08c01b (.)
-=======
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 6b6b9e41 (.)
-=======
->>>>>>> c6c33175 (.)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
->>>>>>> 4f042b88 (.)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
-=======
->>>>>>> d284d65 (.)
->>>>>>> c4bdacbf (.)
-=======
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 3b4c9907 (.)
-=======
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 5fe4f466 (.)
-=======
->>>>>>> 503981fd (.)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
->>>>>>> 36321fcb (.)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
-=======
->>>>>>> d284d65 (.)
->>>>>>> dceba960 (.)
-=======
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 8e5817bc (.)
-=======
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> e0d9c9be (.)
-=======
->>>>>>> 7a2f131f (.)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
->>>>>>> 712617d3 (.)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
-=======
->>>>>>> d284d65 (.)
->>>>>>> bd804d67 (.)
-=======
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 51182e3c (rebase 210)
-=======
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> cb85c538 (rebase 210)
-=======
->>>>>>> 1c0eb9c7 (rebase 210)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
->>>>>>> fdb24863 (rebase 210)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
-=======
->>>>>>> d284d65 (.)
->>>>>>> 229a065a (rebase 210)
-=======
-=======
->>>>>>> b19cd40 (.)
->>>>>>> a9bf0423 (rebase 210)
-=======
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 460b8f5b (rebase 210)
-=======
->>>>>>> 4d253d2c (rebase 210)
-=======
->>>>>>> 54220b28 (rebase 210)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
->>>>>>> 4fc21b78 (rebase 210)
-=======
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 9fe1b60e (rebase 210)
-=======
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 8a8a8e2f (rebase 210)
-=======
->>>>>>> efb0f8d9 (rebase 210)
-<<<<<<< HEAD:docs/telegram-channel_1.md
->>>>>>> 9725cc0a0 (.):docs/telegram_channel.md
-=======
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
->>>>>>> 9c45d9bd (rebase 210)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
-=======
->>>>>>> d284d65 (.)
->>>>>>> 9f8e680a (rebase 210)
-=======
-=======
->>>>>>> b19cd40 (.)
->>>>>>> b4f93b3a (rebase 210)
-=======
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 1375c94d (rebase 210)
-=======
->>>>>>> 52cd5f85 (rebase 210)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
->>>>>>> eb62d6cf (rebase 210)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
-=======
->>>>>>> d284d65 (.)
->>>>>>> 5aedc39c (rebase 210)
-=======
-=======
->>>>>>> b19cd40 (.)
->>>>>>> c5c038f2 (rebase 210)
-=======
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 030c9674 (rebase 210)
-=======
->>>>>>> bb00ab64 (rebase 210)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
->>>>>>> 8c8937e7 (rebase 210)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
-=======
->>>>>>> d284d65 (.)
->>>>>>> 22baa66d (rebase 210)
-=======
-- [Laravel Cache](https://laravel.com/docs/cache) 
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.):docs/telegram_channel.md
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Cache](https://laravel.com/docs/cache)

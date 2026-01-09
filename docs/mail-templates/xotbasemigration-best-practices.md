@@ -1,35 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> 712617d3 (.)
-=======
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 4fc21b78 (rebase 210)
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
 # XotBaseMigration: Best Practices
 
 ## Introduzione
@@ -89,7 +57,7 @@ if ($this->hasColumn('subject') && !$this->isColumnType('subject', 'json')) {
     if (!$this->hasColumn('subject_json')) {
         $table->json('subject_json')->nullable()->after('subject');
     }
-    
+
     // 2. Migra i dati solo se la colonna temporanea esiste
     if ($this->hasColumn('subject_json')) {
         DB::table('mail_templates')->chunkById(100, function ($records) {
@@ -104,7 +72,7 @@ if ($this->hasColumn('subject') && !$this->isColumnType('subject', 'json')) {
             }
         });
     }
-    
+
     // 3. Rimuovi e rinomina
     $table->dropColumn('subject');
     $table->renameColumn('subject_json', 'subject');
@@ -128,222 +96,26 @@ Quando si utilizza `Schema::hasColumn()` direttamente, si bypassa tutta questa l
 
 ## Come evitare errori
 
-1. **Verifica esistenza colonna**: 
+1. **Verifica esistenza colonna**:
    ```php
    $this->hasColumn('column_name')
    ```
 
-2. **Verifica tipo colonna**: 
+2. **Verifica tipo colonna**:
    ```php
    $this->isColumnType('column_name', 'expected_type')
    ```
 
-3. **Ottieni tipo colonna**: 
+3. **Ottieni tipo colonna**:
    ```php
    $this->getColumnType('column_name')
    ```
 
 ## Riferimenti
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [Xot Module Documentation](/var/www/html/<nome progetto>/laravel/Modules/Xot/docs/MIGRATIONS.md)
-- [JSON Migration Best Practices](/var/www/html/<nome progetto>/laravel/Modules/Notify/docs/mail-templates/JSON_MIGRATION_FIXES.md)
-=======
-=======
->>>>>>> 75179b85 (.)
-=======
->>>>>>> 75179b85 (.)
->>>>>>> 022fa8f1c (.)
 - [Xot Module Documentation](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/MIGRATIONS.md)
 - [JSON Migration Best Practices](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/docs/mail-templates/JSON_MIGRATION_FIXES.md)
 - [Xot Module Documentation](/var/www/html/saluteora/laravel/Modules/Xot/docs/MIGRATIONS.md)
 - [JSON Migration Best Practices](/var/www/html/saluteora/laravel/Modules/Notify/docs/mail-templates/JSON_MIGRATION_FIXES.md)
 - [Xot Module Documentation](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/MIGRATIONS.md)
 - [JSON Migration Best Practices](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/docs/mail-templates/JSON_MIGRATION_FIXES.md)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 75179b85 (.)
-=======
-- [Xot Module Documentation](/var/www/html/saluteora/laravel/Modules/Xot/docs/MIGRATIONS.md)
-- [JSON Migration Best Practices](/var/www/html/saluteora/laravel/Modules/Notify/docs/mail-templates/JSON_MIGRATION_FIXES.md)
->>>>>>> f963d2c0 (.)
-=======
-- [Xot Module Documentation](/var/www/html/saluteora/laravel/Modules/Xot/docs/MIGRATIONS.md)
-- [JSON Migration Best Practices](/var/www/html/saluteora/laravel/Modules/Notify/docs/mail-templates/JSON_MIGRATION_FIXES.md)
-=======
-- [Xot Module Documentation](/var/www/html/saluteora/laravel/Modules/Xot/docs/MIGRATIONS.md)
-- [JSON Migration Best Practices](/var/www/html/saluteora/laravel/Modules/Notify/docs/mail-templates/JSON_MIGRATION_FIXES.md)
->>>>>>> 31f5d28f (.)
-=======
-- [Xot Module Documentation](/var/www/html/saluteora/laravel/Modules/Xot/docs/MIGRATIONS.md)
-- [JSON Migration Best Practices](/var/www/html/saluteora/laravel/Modules/Notify/docs/mail-templates/JSON_MIGRATION_FIXES.md)
->>>>>>> 31f5d28f (.)
-=======
-- [Xot Module Documentation](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/MIGRATIONS.md)
-- [JSON Migration Best Practices](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/docs/mail-templates/JSON_MIGRATION_FIXES.md)
-- [Xot Module Documentation](/var/www/html/<nome progetto>/laravel/Modules/Xot/docs/MIGRATIONS.md)
-- [JSON Migration Best Practices](/var/www/html/<nome progetto>/laravel/Modules/Notify/docs/mail-templates/JSON_MIGRATION_FIXES.md)
-- [Xot Module Documentation](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/MIGRATIONS.md)
-- [JSON Migration Best Practices](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/docs/mail-templates/JSON_MIGRATION_FIXES.md)
->>>>>>> bf479cc (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 31f5d28f (.)
-=======
-- [Xot Module Documentation](/var/www/html/saluteora/laravel/Modules/Xot/docs/MIGRATIONS.md)
-- [JSON Migration Best Practices](/var/www/html/saluteora/laravel/Modules/Notify/docs/mail-templates/JSON_MIGRATION_FIXES.md)
->>>>>>> a404ea71 (.)
-=======
->>>>>>> 75179b85 (.)
-=======
-- [Xot Module Documentation](/var/www/html/saluteora/laravel/Modules/Xot/docs/MIGRATIONS.md)
-- [JSON Migration Best Practices](/var/www/html/saluteora/laravel/Modules/Notify/docs/mail-templates/JSON_MIGRATION_FIXES.md)
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
-- [Xot Module Documentation](/var/www/html/saluteora/laravel/Modules/Xot/docs/MIGRATIONS.md)
-- [JSON Migration Best Practices](/var/www/html/saluteora/laravel/Modules/Notify/docs/mail-templates/JSON_MIGRATION_FIXES.md)
->>>>>>> a404ea71 (.)
-=======
->>>>>>> 75179b85 (.)
-=======
-- [Xot Module Documentation](/var/www/html/saluteora/laravel/Modules/Xot/docs/MIGRATIONS.md)
-- [JSON Migration Best Practices](/var/www/html/saluteora/laravel/Modules/Notify/docs/mail-templates/JSON_MIGRATION_FIXES.md)
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
-- [Xot Module Documentation](/var/www/html/saluteora/laravel/Modules/Xot/docs/MIGRATIONS.md)
-- [JSON Migration Best Practices](/var/www/html/saluteora/laravel/Modules/Notify/docs/mail-templates/JSON_MIGRATION_FIXES.md)
->>>>>>> a404ea71 (.)
-=======
-- [Xot Module Documentation](/var/www/html/saluteora/laravel/Modules/Xot/docs/MIGRATIONS.md)
-- [JSON Migration Best Practices](/var/www/html/saluteora/laravel/Modules/Notify/docs/mail-templates/JSON_MIGRATION_FIXES.md)
->>>>>>> ee18dd92 (.)
-<<<<<<< HEAD
->>>>>>> 022fa8f1c (.)
-=======
-=======
->>>>>>> 6608a1a0 (.)
-=======
-- [Xot Module Documentation](/var/www/html/saluteora/laravel/Modules/Xot/docs/MIGRATIONS.md)
-- [JSON Migration Best Practices](/var/www/html/saluteora/laravel/Modules/Notify/docs/mail-templates/JSON_MIGRATION_FIXES.md)
->>>>>>> ca10d6ad (.)
-=======
-- [Xot Module Documentation](/var/www/html/saluteora/laravel/Modules/Xot/docs/MIGRATIONS.md)
-- [JSON Migration Best Practices](/var/www/html/saluteora/laravel/Modules/Notify/docs/mail-templates/JSON_MIGRATION_FIXES.md)
->>>>>>> 66453ace (.)
-=======
->>>>>>> 23cbbaf5 (.)
-=======
-- [Xot Module Documentation](/var/www/html/saluteora/laravel/Modules/Xot/docs/MIGRATIONS.md)
-- [JSON Migration Best Practices](/var/www/html/saluteora/laravel/Modules/Notify/docs/mail-templates/JSON_MIGRATION_FIXES.md)
->>>>>>> febe79e3 (.)
-=======
->>>>>>> 5fd545e4 (.)
-<<<<<<< HEAD
->>>>>>> ddee9d751 (.)
-=======
-=======
-- [Xot Module Documentation](/var/www/html/saluteora/laravel/Modules/Xot/docs/MIGRATIONS.md)
-- [JSON Migration Best Practices](/var/www/html/saluteora/laravel/Modules/Notify/docs/mail-templates/JSON_MIGRATION_FIXES.md)
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 909e45af (.)
-=======
-- [Xot Module Documentation](/var/www/html/saluteora/laravel/Modules/Xot/docs/MIGRATIONS.md)
-- [JSON Migration Best Practices](/var/www/html/saluteora/laravel/Modules/Notify/docs/mail-templates/JSON_MIGRATION_FIXES.md)
->>>>>>> a29a4728 (.)
-=======
-- [Xot Module Documentation](/var/www/html/saluteora/laravel/Modules/Xot/docs/MIGRATIONS.md)
-- [JSON Migration Best Practices](/var/www/html/saluteora/laravel/Modules/Notify/docs/mail-templates/JSON_MIGRATION_FIXES.md)
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> bb7e77c2 (.)
-=======
-- [Xot Module Documentation](/var/www/html/saluteora/laravel/Modules/Xot/docs/MIGRATIONS.md)
-- [JSON Migration Best Practices](/var/www/html/saluteora/laravel/Modules/Notify/docs/mail-templates/JSON_MIGRATION_FIXES.md)
->>>>>>> c7a4727b (.)
-=======
->>>>>>> b99af5a8 (.)
-=======
-- [Xot Module Documentation](/var/www/html/saluteora/laravel/Modules/Xot/docs/MIGRATIONS.md)
-- [JSON Migration Best Practices](/var/www/html/saluteora/laravel/Modules/Notify/docs/mail-templates/JSON_MIGRATION_FIXES.md)
->>>>>>> 9721a5b2 (.)
-=======
-- [Xot Module Documentation](/var/www/html/saluteora/laravel/Modules/Xot/docs/MIGRATIONS.md)
-- [JSON Migration Best Practices](/var/www/html/saluteora/laravel/Modules/Notify/docs/mail-templates/JSON_MIGRATION_FIXES.md)
->>>>>>> 712617d3 (.)
-=======
->>>>>>> f3086887 (rebase 210)
-=======
-- [Xot Module Documentation](/var/www/html/saluteora/laravel/Modules/Xot/docs/MIGRATIONS.md)
-- [JSON Migration Best Practices](/var/www/html/saluteora/laravel/Modules/Notify/docs/mail-templates/JSON_MIGRATION_FIXES.md)
->>>>>>> 1442e291 (rebase 210)
-=======
-- [Xot Module Documentation](/var/www/html/saluteora/laravel/Modules/Xot/docs/MIGRATIONS.md)
-- [JSON Migration Best Practices](/var/www/html/saluteora/laravel/Modules/Notify/docs/mail-templates/JSON_MIGRATION_FIXES.md)
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 3d462363 (rebase 210)
-=======
-- [Xot Module Documentation](/var/www/html/saluteora/laravel/Modules/Xot/docs/MIGRATIONS.md)
-- [JSON Migration Best Practices](/var/www/html/saluteora/laravel/Modules/Notify/docs/mail-templates/JSON_MIGRATION_FIXES.md)
->>>>>>> fcaebc79 (rebase 210)
-=======
->>>>>>> 54220b28 (rebase 210)
-=======
->>>>>>> 4fc21b78 (rebase 210)
-=======
-- [Xot Module Documentation](/var/www/html/saluteora/laravel/Modules/Xot/docs/MIGRATIONS.md)
-- [JSON Migration Best Practices](/var/www/html/saluteora/laravel/Modules/Notify/docs/mail-templates/JSON_MIGRATION_FIXES.md)
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> 54ad93c4 (rebase 210)
-=======
-- [Xot Module Documentation](/var/www/html/saluteora/laravel/Modules/Xot/docs/MIGRATIONS.md)
-- [JSON Migration Best Practices](/var/www/html/saluteora/laravel/Modules/Notify/docs/mail-templates/JSON_MIGRATION_FIXES.md)
->>>>>>> 9d3810d0 (rebase 210)
-=======
-- [Xot Module Documentation](/var/www/html/saluteora/laravel/Modules/Xot/docs/MIGRATIONS.md)
-- [JSON Migration Best Practices](/var/www/html/saluteora/laravel/Modules/Notify/docs/mail-templates/JSON_MIGRATION_FIXES.md)
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 6e12a84b (rebase 210)
-=======
-- [Xot Module Documentation](/var/www/html/saluteora/laravel/Modules/Xot/docs/MIGRATIONS.md)
-- [JSON Migration Best Practices](/var/www/html/saluteora/laravel/Modules/Notify/docs/mail-templates/JSON_MIGRATION_FIXES.md)
->>>>>>> d38aa9d2 (rebase 210)
-=======
-- [Xot Module Documentation](/var/www/html/saluteora/laravel/Modules/Xot/docs/MIGRATIONS.md)
-- [JSON Migration Best Practices](/var/www/html/saluteora/laravel/Modules/Notify/docs/mail-templates/JSON_MIGRATION_FIXES.md)
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 545977c8 (rebase 210)
-=======
-- [Xot Module Documentation](/var/www/html/saluteora/laravel/Modules/Xot/docs/MIGRATIONS.md)
-- [JSON Migration Best Practices](/var/www/html/saluteora/laravel/Modules/Notify/docs/mail-templates/JSON_MIGRATION_FIXES.md)
->>>>>>> 9e7ba5b6 (rebase 210)
-=======
-- [Xot Module Documentation](/var/www/html/saluteora/laravel/Modules/Xot/docs/MIGRATIONS.md)
-- [JSON Migration Best Practices](/var/www/html/saluteora/laravel/Modules/Notify/docs/mail-templates/JSON_MIGRATION_FIXES.md)
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)

@@ -17,13 +17,11 @@ Questo documento fornisce un'analisi approfondita delle soluzioni disponibili pe
 - Supporto community limitato
 
 ### 2. Spatie Database Mail Templates
-**Vantaggi:**
 - Gestione dei template nel database
 - API robusta
 - Ottima integrazione con Filament
 - Supporto multilingua
 
-**Svantaggi:**
 - Dipendenza da database
 - Overhead di query
 - Complessità di setup iniziale
@@ -55,13 +53,11 @@ Questo documento fornisce un'analisi approfondita delle soluzioni disponibili pe
 - Overhead di build
 
 ### Mailgun Templates
-**Vantaggi:**
 - API robusta
 - Analytics avanzate
 - Ottima deliverability
 - Template variables
 
-**Svantaggi:**
 - Costo
 - Vendor lock-in
 - Complessità di setup
@@ -103,10 +99,8 @@ class TemplateService
                       ->first();
     }
 }
-```
 
 ### 3. Preview e Testing
-```php
 namespace Modules\Notify\Http\Controllers;
 
 class PreviewController extends Controller
@@ -133,10 +127,8 @@ class TemplateResource extends Resource
         return __('notify::navigation.group');
     }
 }
-```
 
 ### 2. Form Builder
-```php
 public static function form(Form $form): Form
 {
     return $form->schema([
@@ -144,7 +136,6 @@ public static function form(Form $form): Form
             ->required()
             ->translateLabel(),
         RichEditor::make('content')
-            ->required()
             ->translateLabel()
     ]);
 }
@@ -183,4 +174,4 @@ public static function form(Form $form): Form
 - Mantenere aggiornata la documentazione
 - Testare su diversi client email
 - Monitorare le performance
-- Implementare logging appropriato 
+- Implementare logging appropriato

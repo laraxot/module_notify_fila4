@@ -1,40 +1,8 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> 712617d3 (.)
-=======
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 4fc21b78 (rebase 210)
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
-# Implementazione Netfun SMS 
+# Implementazione Netfun SMS
 
 ## Introduzione
 
-Netfun è un provider italiano di SMS che offre servizi per l'invio di messaggi SMS tramite API REST. 
+Netfun è un provider italiano di SMS che offre servizi per l'invio di messaggi SMS tramite API REST.
 Questo documento descrive l'implementazione corretta dell'integrazione Netfun usando Spatie Queueable Actions.
 
 ## Endpoint API
@@ -54,7 +22,7 @@ Netfun utilizza un API token configurato in `config/services.php`:
 // config/services.php
 return [
     // Altre configurazioni...
-    
+
     'netfun' => [
         'token' => env('NETFUN_TOKEN'),
         'sender' => env('NETFUN_SENDER'), // Senza valore predefinito
@@ -82,20 +50,20 @@ return [
     'drivers' => [
         // Vari provider...
     ],
-    
+
     // Configurazione generica per retry - usata per tutti i provider
     'retry' => [
         'attempts' => env('SMS_RETRY_ATTEMPTS', 3),
         'delay' => env('SMS_RETRY_DELAY', 60), // secondi
     ],
-    
+
     // Configurazione generica per rate limiting - usata per tutti i provider
     'rate_limit' => [
         'enabled' => env('SMS_RATE_LIMIT_ENABLED', true),
         'max_attempts' => env('SMS_RATE_LIMIT_MAX_ATTEMPTS', 60),
         'decay_minutes' => env('SMS_RATE_LIMIT_DECAY_MINUTES', 1),
     ],
-    
+
     // Altre configurazioni generiche
 ];
 ```
@@ -142,11 +110,11 @@ use Modules\Notify\Datas\NetfunSmsData;
 class SendNetfunSmsAction
 {
     use QueueableAction;
-    
+
     public function execute(NetfunSmsData $smsData)
     {
         $config = config('sms.drivers.netfun');
-        
+
         try {
             $response = Http::post($config['endpoint'], [
                 'apiKey' => $config['api_key'],
@@ -183,192 +151,38 @@ use Modules\Notify\Datas\NetfunSmsData;
 class AppointmentReminder extends Notification
 {
     protected $appointment;
-    
+
     public function __construct($appointment)
     {
         $this->appointment = $appointment;
     }
-    
+
     public function via($notifiable)
     {
         return ['mail', 'database', 'netfun'];
     }
-    
+
     public function toNetfun($notifiable)
     {
         $phoneNumber = $notifiable->routeNotificationForSms($this);
-        
+
         if (!$phoneNumber) {
             return null;
         }
-        
+
         $action = app(SendNetfunSmsAction::class);
-        
+
         $smsData = new NetfunSmsData(
             recipient: $phoneNumber,
             message: "Promemoria: appuntamento il {$this->appointment->date}",
-<<<<<<< HEAD
             sender: '',
             sender: 'SaluteOra',
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            sender: '<nome progetto>',
-=======
-            sender: '',
-            sender: 'SaluteOra',
->>>>>>> 75179b85 (.)
-=======
-            sender: 'SaluteOra',
->>>>>>> f963d2c0 (.)
-=======
-            sender: 'SaluteOra',
-=======
-            sender: 'SaluteOra',
->>>>>>> 31f5d28f (.)
-=======
-            sender: 'SaluteOra',
->>>>>>> 31f5d28f (.)
-=======
-            sender: '',
-            sender: '<nome progetto>',
->>>>>>> bf479cc (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 31f5d28f (.)
-=======
-            sender: 'SaluteOra',
->>>>>>> a404ea71 (.)
-=======
-            sender: '',
-            sender: 'SaluteOra',
->>>>>>> 75179b85 (.)
-=======
-            sender: 'SaluteOra',
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
-            sender: 'SaluteOra',
->>>>>>> a404ea71 (.)
-=======
-            sender: '',
-            sender: 'SaluteOra',
->>>>>>> 75179b85 (.)
-=======
-            sender: 'SaluteOra',
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
-            sender: 'SaluteOra',
->>>>>>> a404ea71 (.)
-=======
-            sender: 'SaluteOra',
->>>>>>> ee18dd92 (.)
-<<<<<<< HEAD
->>>>>>> 022fa8f1c (.)
-=======
-=======
->>>>>>> 6608a1a0 (.)
-=======
-            sender: 'SaluteOra',
->>>>>>> ca10d6ad (.)
-=======
-            sender: 'SaluteOra',
->>>>>>> 66453ace (.)
-=======
->>>>>>> 23cbbaf5 (.)
-=======
-            sender: 'SaluteOra',
->>>>>>> febe79e3 (.)
-=======
-            sender: 'SaluteOra',
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 909e45af (.)
-=======
-            sender: 'SaluteOra',
->>>>>>> a29a4728 (.)
-=======
-            sender: 'SaluteOra',
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> bb7e77c2 (.)
-=======
-            sender: 'SaluteOra',
->>>>>>> c7a4727b (.)
-=======
->>>>>>> b99af5a8 (.)
-=======
-            sender: 'SaluteOra',
->>>>>>> 9721a5b2 (.)
-=======
-            sender: 'SaluteOra',
->>>>>>> 712617d3 (.)
-=======
->>>>>>> f3086887 (rebase 210)
-=======
-            sender: 'SaluteOra',
->>>>>>> 1442e291 (rebase 210)
-=======
-            sender: 'SaluteOra',
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 3d462363 (rebase 210)
-=======
-            sender: 'SaluteOra',
->>>>>>> fcaebc79 (rebase 210)
-=======
-            sender: '',
-            sender: 'SaluteOra',
->>>>>>> 4fc21b78 (rebase 210)
-=======
-            sender: 'SaluteOra',
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> 54ad93c4 (rebase 210)
-=======
-            sender: 'SaluteOra',
->>>>>>> 9d3810d0 (rebase 210)
-=======
-            sender: 'SaluteOra',
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 6e12a84b (rebase 210)
-=======
-            sender: 'SaluteOra',
->>>>>>> d38aa9d2 (rebase 210)
-=======
-            sender: 'SaluteOra',
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 545977c8 (rebase 210)
-=======
-            sender: 'SaluteOra',
->>>>>>> 9e7ba5b6 (rebase 210)
-=======
-            sender: 'SaluteOra',
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
             reference: 'app_' . $this->appointment->id
         );
-        
+
         // Esecuzione sincrona per notifiche
         return $action->execute($smsData);
-        
+
         // Per esecuzione asincrona
         // return $action->onQueue('sms')->execute($smsData);
     }
@@ -387,39 +201,3 @@ class AppointmentReminder extends Notification
 - [Documentazione Netfun API](https://www.netfun.it/docs/api)
 - [Spatie Laravel Data](https://github.com/spatie/laravel-data)
 - [Spatie Queueable Actions](https://github.com/spatie/laravel-queueable-action)
-<<<<<<< HEAD
-=======
->>>>>>> 5fd545e4 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5fd545e4 (.)
-=======
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> 712617d3 (.)
-=======
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 54220b28 (rebase 210)
-=======
->>>>>>> 4fc21b78 (rebase 210)
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)

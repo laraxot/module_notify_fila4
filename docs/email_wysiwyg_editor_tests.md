@@ -1,35 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> 712617d3 (.)
-=======
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 4fc21b78 (rebase 210)
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
 # Test Editor WYSIWYG Email - il progetto
 
 ## Test Unitari
@@ -48,10 +16,10 @@ class EmailEditorTest extends TestCase
     public function it_sanitizes_html_input()
     {
         $editor = new EmailEditor('html_template');
-        
+
         $dirtyHtml = '<script>alert("xss")</script><p>Test</p>';
         $cleanHtml = $editor->sanitizeHtml($dirtyHtml);
-        
+
         $this->assertStringNotContainsString('<script>', $cleanHtml);
         $this->assertStringContainsString('<p>Test</p>', $cleanHtml);
     }
@@ -61,9 +29,9 @@ class EmailEditorTest extends TestCase
     {
         $editor = new EmailEditor('html_template');
         $state = '<p>Test</p>';
-        
+
         $editor->state($state);
-        
+
         $this->assertEquals($state, $editor->getState());
     }
 }
@@ -84,7 +52,7 @@ class BlockComponentsTest extends TestCase
     public function button_block_validates_required_fields()
     {
         $block = ButtonBlock::make();
-        
+
         $this->assertTrue($block->getSchema()->get('text')->isRequired());
         $this->assertTrue($block->getSchema()->get('url')->isRequired());
     }
@@ -93,7 +61,7 @@ class BlockComponentsTest extends TestCase
     public function image_block_validates_file_upload()
     {
         $block = ImageBlock::make();
-        
+
         $this->assertTrue($block->getSchema()->get('image')->isRequired());
         $this->assertTrue($block->getSchema()->get('image')->isImage());
     }
@@ -149,7 +117,7 @@ class ComponentActionsTest extends TestCase
     public function it_sends_test_email()
     {
         $template = MailTemplate::factory()->create();
-        
+
         Livewire::test(MailTemplateResource::class)
             ->call('test', [
                 'email' => 'test@example.com',
@@ -162,11 +130,11 @@ class ComponentActionsTest extends TestCase
     public function it_duplicates_template()
     {
         $template = MailTemplate::factory()->create();
-        
+
         Livewire::test(MailTemplateResource::class)
             ->call('duplicate', $template->id)
             ->assertEmitted('template-duplicated');
-            
+
         $this->assertDatabaseCount('mail_templates', 2);
     }
 }
@@ -255,12 +223,12 @@ class EditorPerformanceTest extends TestCase
     public function it_handles_large_templates()
     {
         $start = microtime(true);
-        
+
         $editor = new EmailEditor('html_template');
         $editor->state($this->getLargeTemplate());
-        
+
         $time = microtime(true) - $start;
-        
+
         $this->assertLessThan(1.0, $time);
     }
 
@@ -268,12 +236,12 @@ class EditorPerformanceTest extends TestCase
     public function it_optimizes_image_uploads()
     {
         $start = microtime(true);
-        
+
         $manager = new EmailAssetManager();
         $manager->uploadImage($this->getLargeImage());
-        
+
         $time = microtime(true) - $start;
-        
+
         $this->assertLessThan(2.0, $time);
     }
 }
@@ -293,12 +261,12 @@ class PreviewPerformanceTest extends TestCase
     public function it_caches_preview_rendering()
     {
         $start = microtime(true);
-        
+
         $preview = new EmailPreview('preview');
         $preview->renderPreview($this->getTemplate());
-        
+
         $time = microtime(true) - $start;
-        
+
         $this->assertLessThan(0.5, $time);
         $this->assertTrue(Cache::has('preview_' . md5($this->getTemplate())));
     }
@@ -320,13 +288,13 @@ class XSSPreventionTest extends TestCase
     public function it_prevents_xss_attacks()
     {
         $editor = new EmailEditor('html_template');
-        
+
         $maliciousInput = [
             '<script>alert("xss")</script>',
             '<img src="x" onerror="alert(\'xss\')">',
             '<a href="javascript:alert(\'xss\')">Click</a>'
         ];
-        
+
         foreach ($maliciousInput as $input) {
             $clean = $editor->sanitizeHtml($input);
             $this->assertStringNotContainsString('script', $clean);
@@ -350,13 +318,13 @@ class FileUploadSecurityTest extends TestCase
     public function it_validates_uploaded_files()
     {
         $manager = new EmailAssetManager();
-        
+
         $invalidFiles = [
             UploadedFile::fake()->create('test.exe', 100),
             UploadedFile::fake()->create('test.php', 100),
             UploadedFile::fake()->image('test.jpg')->size(10000)
         ];
-        
+
         foreach ($invalidFiles as $file) {
             $this->expectException(\Exception::class);
             $manager->uploadImage($file);
@@ -371,349 +339,6 @@ class FileUploadSecurityTest extends TestCase
 - [Email Plugins Analysis](email-plugins-analysis.md)
 
 ## Vedi Anche
-<<<<<<< HEAD
 - [Laravel Testing Documentation](https://laravel.com/project_docs/testing)
 - [Dusk Documentation](https://laravel.com/project_docs/dusk)
-- [PHPUnit Documentation](https://phpunit.de/documentation.html) 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d09cb759 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
->>>>>>> d09cb759 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
->>>>>>> d09cb759 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
->>>>>>> 4689a827 (.)
-- [Laravel Testing Documentation](https://laravel.com/docs/testing)
-- [Dusk Documentation](https://laravel.com/docs/dusk)
-=======
-- [Laravel Testing Documentation](https://laravel.com/project_docs/testing)
-- [Dusk Documentation](https://laravel.com/project_docs/dusk)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 75179b85 (.)
-=======
-- [Laravel Testing Documentation](https://laravel.com/docs/testing)
-- [Dusk Documentation](https://laravel.com/docs/dusk)
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> d284d65 (.)
->>>>>>> d09cb759 (.)
-- [PHPUnit Documentation](https://phpunit.de/documentation.html) 
-=======
-- [Laravel Testing Documentation](https://laravel.com/docs/testing)
-- [Dusk Documentation](https://laravel.com/docs/dusk)
->>>>>>> 3f537838 (.)
-=======
-- [PHPUnit Documentation](https://phpunit.de/documentation.html) 
->>>>>>> bf479cc (.)
->>>>>>> 31f5d28f (.)
-=======
-- [Laravel Testing Documentation](https://laravel.com/docs/testing)
-- [Dusk Documentation](https://laravel.com/docs/dusk)
->>>>>>> a404ea71 (.)
-=======
-- [Laravel Testing Documentation](https://laravel.com/project_docs/testing)
-- [Dusk Documentation](https://laravel.com/project_docs/dusk)
-- [PHPUnit Documentation](https://phpunit.de/documentation.html) 
->>>>>>> 75179b85 (.)
-=======
-- [Laravel Testing Documentation](https://laravel.com/docs/testing)
-- [Dusk Documentation](https://laravel.com/docs/dusk)
-- [PHPUnit Documentation](https://phpunit.de/documentation.html) 
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> d284d65 (.)
-- [PHPUnit Documentation](https://phpunit.de/documentation.html) 
->>>>>>> d09cb759 (.)
-=======
-- [Laravel Testing Documentation](https://laravel.com/docs/testing)
-- [Dusk Documentation](https://laravel.com/docs/dusk)
->>>>>>> 3f537838 (.)
-=======
-- [PHPUnit Documentation](https://phpunit.de/documentation.html) 
->>>>>>> bf479cc (.)
->>>>>>> 31f5d28f (.)
-=======
-- [Laravel Testing Documentation](https://laravel.com/docs/testing)
-- [Dusk Documentation](https://laravel.com/docs/dusk)
->>>>>>> a404ea71 (.)
-=======
-- [Laravel Testing Documentation](https://laravel.com/project_docs/testing)
-- [Dusk Documentation](https://laravel.com/project_docs/dusk)
-- [PHPUnit Documentation](https://phpunit.de/documentation.html) 
->>>>>>> 75179b85 (.)
-=======
-- [Laravel Testing Documentation](https://laravel.com/docs/testing)
-- [Dusk Documentation](https://laravel.com/docs/dusk)
-- [PHPUnit Documentation](https://phpunit.de/documentation.html) 
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> d284d65 (.)
-- [PHPUnit Documentation](https://phpunit.de/documentation.html) 
->>>>>>> d09cb759 (.)
-=======
-- [Laravel Testing Documentation](https://laravel.com/docs/testing)
-- [Dusk Documentation](https://laravel.com/docs/dusk)
->>>>>>> 3f537838 (.)
-=======
-- [PHPUnit Documentation](https://phpunit.de/documentation.html) 
->>>>>>> bf479cc (.)
->>>>>>> 31f5d28f (.)
-=======
-- [Laravel Testing Documentation](https://laravel.com/docs/testing)
-- [Dusk Documentation](https://laravel.com/docs/dusk)
->>>>>>> a404ea71 (.)
-=======
-- [Laravel Testing Documentation](https://laravel.com/docs/testing)
-- [Dusk Documentation](https://laravel.com/docs/dusk)
-- [PHPUnit Documentation](https://phpunit.de/documentation.html) 
->>>>>>> ee18dd92 (.)
-<<<<<<< HEAD
->>>>>>> 022fa8f1c (.)
-=======
-=======
->>>>>>> d284d65 (.)
-- [PHPUnit Documentation](https://phpunit.de/documentation.html) 
->>>>>>> 4689a827 (.)
-<<<<<<< HEAD
->>>>>>> c0f3d67cc (.)
-=======
-=======
-- [Laravel Testing Documentation](https://laravel.com/docs/testing)
-- [Dusk Documentation](https://laravel.com/docs/dusk)
->>>>>>> 2941b0bd (.)
-=======
-- [PHPUnit Documentation](https://phpunit.de/documentation.html) 
->>>>>>> bf479cc (.)
->>>>>>> 6608a1a0 (.)
-=======
-- [Laravel Testing Documentation](https://laravel.com/docs/testing)
-- [Dusk Documentation](https://laravel.com/docs/dusk)
->>>>>>> ca10d6ad (.)
-=======
-- [Laravel Testing Documentation](https://laravel.com/docs/testing)
-- [Dusk Documentation](https://laravel.com/docs/dusk)
-- [PHPUnit Documentation](https://phpunit.de/documentation.html) 
->>>>>>> 66453ace (.)
-=======
->>>>>>> d284d65 (.)
-- [PHPUnit Documentation](https://phpunit.de/documentation.html) 
->>>>>>> 7325acf3 (.)
-=======
-- [Laravel Testing Documentation](https://laravel.com/docs/testing)
-- [Dusk Documentation](https://laravel.com/docs/dusk)
->>>>>>> 4c323e61 (.)
-=======
-- [PHPUnit Documentation](https://phpunit.de/documentation.html) 
->>>>>>> bf479cc (.)
->>>>>>> 23cbbaf5 (.)
-=======
-- [Laravel Testing Documentation](https://laravel.com/docs/testing)
-- [Dusk Documentation](https://laravel.com/docs/dusk)
->>>>>>> febe79e3 (.)
-=======
->>>>>>> 5fd545e4 (.)
-<<<<<<< HEAD
->>>>>>> ddee9d751 (.)
-=======
-=======
-- [Laravel Testing Documentation](https://laravel.com/docs/testing)
-- [Dusk Documentation](https://laravel.com/docs/dusk)
-- [PHPUnit Documentation](https://phpunit.de/documentation.html) 
->>>>>>> 2a97406c (.)
-=======
->>>>>>> d284d65 (.)
-- [PHPUnit Documentation](https://phpunit.de/documentation.html) 
->>>>>>> f2e64178 (.)
-=======
-- [Laravel Testing Documentation](https://laravel.com/docs/testing)
-- [Dusk Documentation](https://laravel.com/docs/dusk)
->>>>>>> 98d837b9 (.)
-=======
-- [PHPUnit Documentation](https://phpunit.de/documentation.html) 
->>>>>>> bf479cc (.)
->>>>>>> 909e45af (.)
-=======
-- [Laravel Testing Documentation](https://laravel.com/docs/testing)
-- [Dusk Documentation](https://laravel.com/docs/dusk)
->>>>>>> a29a4728 (.)
-=======
-- [Laravel Testing Documentation](https://laravel.com/docs/testing)
-- [Dusk Documentation](https://laravel.com/docs/dusk)
-- [PHPUnit Documentation](https://phpunit.de/documentation.html) 
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> d284d65 (.)
-- [PHPUnit Documentation](https://phpunit.de/documentation.html) 
->>>>>>> c4bdacbf (.)
-=======
-- [Laravel Testing Documentation](https://laravel.com/docs/testing)
-- [Dusk Documentation](https://laravel.com/docs/dusk)
->>>>>>> 4e4a7796 (.)
-=======
-- [PHPUnit Documentation](https://phpunit.de/documentation.html) 
->>>>>>> bf479cc (.)
->>>>>>> bb7e77c2 (.)
-=======
-- [Laravel Testing Documentation](https://laravel.com/docs/testing)
-- [Dusk Documentation](https://laravel.com/docs/dusk)
->>>>>>> c7a4727b (.)
-=======
-- [PHPUnit Documentation](https://phpunit.de/documentation.html) 
->>>>>>> bf479cc (.)
->>>>>>> b99af5a8 (.)
-=======
-- [Laravel Testing Documentation](https://laravel.com/docs/testing)
-- [Dusk Documentation](https://laravel.com/docs/dusk)
->>>>>>> 9721a5b2 (.)
-=======
-- [Laravel Testing Documentation](https://laravel.com/docs/testing)
-- [Dusk Documentation](https://laravel.com/docs/dusk)
-- [PHPUnit Documentation](https://phpunit.de/documentation.html) 
->>>>>>> 712617d3 (.)
-=======
->>>>>>> d284d65 (.)
-- [PHPUnit Documentation](https://phpunit.de/documentation.html) 
->>>>>>> bd804d67 (.)
-=======
-- [Laravel Testing Documentation](https://laravel.com/docs/testing)
-- [Dusk Documentation](https://laravel.com/docs/dusk)
->>>>>>> 116df547 (.)
-=======
-- [PHPUnit Documentation](https://phpunit.de/documentation.html) 
->>>>>>> bf479cc (.)
->>>>>>> f3086887 (rebase 210)
-=======
-- [Laravel Testing Documentation](https://laravel.com/docs/testing)
-- [Dusk Documentation](https://laravel.com/docs/dusk)
->>>>>>> 1442e291 (rebase 210)
-=======
-- [Laravel Testing Documentation](https://laravel.com/docs/testing)
-- [Dusk Documentation](https://laravel.com/docs/dusk)
-- [PHPUnit Documentation](https://phpunit.de/documentation.html) 
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> d284d65 (.)
-- [PHPUnit Documentation](https://phpunit.de/documentation.html) 
->>>>>>> 229a065a (rebase 210)
-=======
-- [Laravel Testing Documentation](https://laravel.com/docs/testing)
-- [Dusk Documentation](https://laravel.com/docs/dusk)
->>>>>>> 84082535 (rebase 210)
-=======
-- [PHPUnit Documentation](https://phpunit.de/documentation.html) 
->>>>>>> bf479cc (.)
->>>>>>> 3d462363 (rebase 210)
-=======
-- [Laravel Testing Documentation](https://laravel.com/docs/testing)
-- [Dusk Documentation](https://laravel.com/docs/dusk)
->>>>>>> fcaebc79 (rebase 210)
-=======
->>>>>>> 54220b28 (rebase 210)
-=======
-- [Laravel Testing Documentation](https://laravel.com/project_docs/testing)
-- [Dusk Documentation](https://laravel.com/project_docs/dusk)
-- [PHPUnit Documentation](https://phpunit.de/documentation.html) 
->>>>>>> 4fc21b78 (rebase 210)
-=======
-- [Laravel Testing Documentation](https://laravel.com/docs/testing)
-- [Dusk Documentation](https://laravel.com/docs/dusk)
-- [PHPUnit Documentation](https://phpunit.de/documentation.html) 
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> d284d65 (.)
-- [PHPUnit Documentation](https://phpunit.de/documentation.html) 
->>>>>>> 9f8e680a (rebase 210)
-=======
-- [Laravel Testing Documentation](https://laravel.com/docs/testing)
-- [Dusk Documentation](https://laravel.com/docs/dusk)
->>>>>>> 7ffa94fc (rebase 210)
-=======
-- [PHPUnit Documentation](https://phpunit.de/documentation.html) 
->>>>>>> bf479cc (.)
->>>>>>> 54ad93c4 (rebase 210)
-=======
-- [Laravel Testing Documentation](https://laravel.com/docs/testing)
-- [Dusk Documentation](https://laravel.com/docs/dusk)
->>>>>>> 9d3810d0 (rebase 210)
-=======
-- [Laravel Testing Documentation](https://laravel.com/docs/testing)
-- [Dusk Documentation](https://laravel.com/docs/dusk)
-- [PHPUnit Documentation](https://phpunit.de/documentation.html) 
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> d284d65 (.)
-- [PHPUnit Documentation](https://phpunit.de/documentation.html) 
->>>>>>> 5aedc39c (rebase 210)
-=======
-- [Laravel Testing Documentation](https://laravel.com/docs/testing)
-- [Dusk Documentation](https://laravel.com/docs/dusk)
->>>>>>> 82e5ee2d (rebase 210)
-=======
-- [PHPUnit Documentation](https://phpunit.de/documentation.html) 
->>>>>>> bf479cc (.)
->>>>>>> 6e12a84b (rebase 210)
-=======
-- [Laravel Testing Documentation](https://laravel.com/docs/testing)
-- [Dusk Documentation](https://laravel.com/docs/dusk)
->>>>>>> d38aa9d2 (rebase 210)
-=======
-- [Laravel Testing Documentation](https://laravel.com/docs/testing)
-- [Dusk Documentation](https://laravel.com/docs/dusk)
-- [PHPUnit Documentation](https://phpunit.de/documentation.html) 
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> d284d65 (.)
-- [PHPUnit Documentation](https://phpunit.de/documentation.html) 
->>>>>>> 22baa66d (rebase 210)
-=======
-- [Laravel Testing Documentation](https://laravel.com/docs/testing)
-- [Dusk Documentation](https://laravel.com/docs/dusk)
->>>>>>> 5b50927d (rebase 210)
-=======
-- [PHPUnit Documentation](https://phpunit.de/documentation.html) 
->>>>>>> bf479cc (.)
->>>>>>> 545977c8 (rebase 210)
-=======
-- [Laravel Testing Documentation](https://laravel.com/docs/testing)
-- [Dusk Documentation](https://laravel.com/docs/dusk)
->>>>>>> 9e7ba5b6 (rebase 210)
-=======
-- [Laravel Testing Documentation](https://laravel.com/docs/testing)
-- [Dusk Documentation](https://laravel.com/docs/dusk)
-- [PHPUnit Documentation](https://phpunit.de/documentation.html) 
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
+- [PHPUnit Documentation](https://phpunit.de/documentation.html)

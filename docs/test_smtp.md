@@ -1,7 +1,6 @@
 //----------------------------------------------------------------------------
 Test Laravel SMTP Mail via Tinker
 https://medium.com/@azishapidin/test-laravel-smtp-mail-via-tinker-cec59999214
-//----------------------------------------------------------------------------
 
 # Come far funzionare la pagina SendEmail
 
@@ -21,9 +20,7 @@ MAIL_PASSWORD=la-tua-password
 MAIL_ENCRYPTION=tls
 MAIL_FROM_ADDRESS=la-tua-email@dominio.com
 MAIL_FROM_NAME="Nome mittente"
-```
 Dopo ogni modifica, esegui:
-```
 php artisan config:clear
 php artisan cache:clear
 ```
@@ -32,7 +29,6 @@ php artisan cache:clear
 Usa Tinker o la pagina `TestSmtpPage` per verificare che l'invio funzioni:
 ```php
 Mail::raw('Test SMTP', function($m){ $m->to('tuo@email.com')->subject('Test SMTP'); });
-```
 
 ### 3. Miglioramenti consigliati per SendEmail
 - Aggiungi gestione errori (try/catch) e mostra notifiche di errore.

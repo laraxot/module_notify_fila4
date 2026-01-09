@@ -16,36 +16,9 @@
 
 ### Directory Fisiche (path su disco)
 ```
-<<<<<<< HEAD
 /var/www/html/<directory progetto>/laravel/Modules/Notify/
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-/var/www/html/<nome progetto>/laravel/Modules/Notify/
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> f963d2c0 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> f963d2c0 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> f963d2c0 (.)
-=======
-/var/www/html/<nome progetto>/laravel/Modules/Notify/
-=======
-<<<<<<< HEAD
-/var/www/html/<directory progetto>/laravel/Modules/Notify/
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
 ├── app/                           # Directory fisica con app minuscolo
-│   ├── Actions/                  
+│   ├── Actions/
 │   │   ├── Email/                # Azioni per email
 │   │   ├── SMS/                  # Azioni per SMS
 │   │   └── WhatsApp/             # Azioni per WhatsApp

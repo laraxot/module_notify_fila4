@@ -1,229 +1,9 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Architettura WhatsApp Provider per <nome progetto>
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider WhatsApp nel modulo Notify di <nome progetto>, mantenendo coerenza con le architetture esistenti per SMS ed email.
-=======
-=======
->>>>>>> 75179b85 (.)
-=======
->>>>>>> 75179b85 (.)
->>>>>>> 022fa8f1c (.)
-# Architettura WhatsApp Provider per 
+# Architettura WhatsApp Provider per
 
 Questo documento definisce l'architettura e gli standard per l'implementazione dei provider WhatsApp nel modulo Notify di , mantenendo coerenza con le architetture esistenti per SMS ed email.
 # Architettura WhatsApp Provider per SaluteOra
 
 Questo documento definisce l'architettura e gli standard per l'implementazione dei provider WhatsApp nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS ed email.
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 75179b85 (.)
-=======
-# Architettura WhatsApp Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider WhatsApp nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS ed email.
->>>>>>> f963d2c0 (.)
-=======
-# Architettura WhatsApp Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider WhatsApp nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS ed email.
-=======
-# Architettura WhatsApp Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider WhatsApp nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS ed email.
->>>>>>> 31f5d28f (.)
-=======
-# Architettura WhatsApp Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider WhatsApp nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS ed email.
->>>>>>> 31f5d28f (.)
-=======
-# Architettura WhatsApp Provider per 
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider WhatsApp nel modulo Notify di , mantenendo coerenza con le architetture esistenti per SMS ed email.
-# Architettura WhatsApp Provider per <nome progetto>
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider WhatsApp nel modulo Notify di <nome progetto>, mantenendo coerenza con le architetture esistenti per SMS ed email.
->>>>>>> bf479cc (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 31f5d28f (.)
-=======
-# Architettura WhatsApp Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider WhatsApp nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS ed email.
->>>>>>> a404ea71 (.)
-=======
->>>>>>> 75179b85 (.)
-=======
-# Architettura WhatsApp Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider WhatsApp nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS ed email.
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
-# Architettura WhatsApp Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider WhatsApp nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS ed email.
->>>>>>> a404ea71 (.)
-=======
->>>>>>> 75179b85 (.)
-=======
-# Architettura WhatsApp Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider WhatsApp nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS ed email.
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
-# Architettura WhatsApp Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider WhatsApp nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS ed email.
->>>>>>> a404ea71 (.)
-=======
-# Architettura WhatsApp Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider WhatsApp nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS ed email.
->>>>>>> ee18dd92 (.)
-<<<<<<< HEAD
->>>>>>> 022fa8f1c (.)
-=======
-=======
->>>>>>> 6608a1a0 (.)
-=======
-# Architettura WhatsApp Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider WhatsApp nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS ed email.
->>>>>>> ca10d6ad (.)
-=======
-# Architettura WhatsApp Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider WhatsApp nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS ed email.
->>>>>>> 66453ace (.)
-=======
->>>>>>> 23cbbaf5 (.)
-=======
-# Architettura WhatsApp Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider WhatsApp nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS ed email.
->>>>>>> febe79e3 (.)
-=======
-# Architettura WhatsApp Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider WhatsApp nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS ed email.
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 909e45af (.)
-=======
-# Architettura WhatsApp Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider WhatsApp nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS ed email.
->>>>>>> a29a4728 (.)
-=======
-# Architettura WhatsApp Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider WhatsApp nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS ed email.
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> bb7e77c2 (.)
-=======
-# Architettura WhatsApp Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider WhatsApp nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS ed email.
->>>>>>> c7a4727b (.)
-=======
->>>>>>> b99af5a8 (.)
-=======
-# Architettura WhatsApp Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider WhatsApp nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS ed email.
->>>>>>> 9721a5b2 (.)
-=======
-# Architettura WhatsApp Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider WhatsApp nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS ed email.
->>>>>>> 712617d3 (.)
-=======
->>>>>>> f3086887 (rebase 210)
-=======
-# Architettura WhatsApp Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider WhatsApp nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS ed email.
->>>>>>> 1442e291 (rebase 210)
-=======
-# Architettura WhatsApp Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider WhatsApp nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS ed email.
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 3d462363 (rebase 210)
-=======
-# Architettura WhatsApp Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider WhatsApp nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS ed email.
->>>>>>> fcaebc79 (rebase 210)
-=======
->>>>>>> 4fc21b78 (rebase 210)
-=======
-# Architettura WhatsApp Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider WhatsApp nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS ed email.
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> 54ad93c4 (rebase 210)
-=======
-# Architettura WhatsApp Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider WhatsApp nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS ed email.
->>>>>>> 9d3810d0 (rebase 210)
-=======
-# Architettura WhatsApp Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider WhatsApp nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS ed email.
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 6e12a84b (rebase 210)
-=======
-# Architettura WhatsApp Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider WhatsApp nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS ed email.
->>>>>>> d38aa9d2 (rebase 210)
-=======
-# Architettura WhatsApp Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider WhatsApp nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS ed email.
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 545977c8 (rebase 210)
-=======
-# Architettura WhatsApp Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider WhatsApp nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS ed email.
->>>>>>> 9e7ba5b6 (rebase 210)
-=======
-# Architettura WhatsApp Provider per SaluteOra
-
-Questo documento definisce l'architettura e gli standard per l'implementazione dei provider WhatsApp nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS ed email.
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
 
 ## Principi Architetturali Fondamentali
 
@@ -237,168 +17,9 @@ L'architettura dei provider WhatsApp segue gli stessi principi dei provider SMS 
 ## Struttura Directory e Namespace
 
 ```
-<<<<<<< HEAD
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
 /var/www/html/saluteora/laravel/Modules/Notify/
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-/var/www/html/<nome progetto>/laravel/Modules/Notify/
-=======
-/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
-/var/www/html/saluteora/laravel/Modules/Notify/
-/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
->>>>>>> 75179b85 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> f963d2c0 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> 31f5d28f (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> 31f5d28f (.)
-=======
-/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
-/var/www/html/<nome progetto>/laravel/Modules/Notify/
-/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
->>>>>>> bf479cc (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 31f5d28f (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> a404ea71 (.)
-=======
-/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
-/var/www/html/saluteora/laravel/Modules/Notify/
-/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
->>>>>>> 75179b85 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> a404ea71 (.)
-=======
-/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
-/var/www/html/saluteora/laravel/Modules/Notify/
-/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
->>>>>>> 75179b85 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> a404ea71 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> ee18dd92 (.)
-<<<<<<< HEAD
->>>>>>> 022fa8f1c (.)
-=======
-=======
->>>>>>> 6608a1a0 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> ca10d6ad (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> 66453ace (.)
-=======
->>>>>>> 23cbbaf5 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> febe79e3 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 909e45af (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> a29a4728 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> bb7e77c2 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> c7a4727b (.)
-=======
->>>>>>> b99af5a8 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> 9721a5b2 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> 712617d3 (.)
-=======
->>>>>>> f3086887 (rebase 210)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> 1442e291 (rebase 210)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 3d462363 (rebase 210)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> fcaebc79 (rebase 210)
-=======
-/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
-/var/www/html/saluteora/laravel/Modules/Notify/
-/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
->>>>>>> 4fc21b78 (rebase 210)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> 54ad93c4 (rebase 210)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> 9d3810d0 (rebase 210)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 6e12a84b (rebase 210)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> d38aa9d2 (rebase 210)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 545977c8 (rebase 210)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> 9e7ba5b6 (rebase 210)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
 ├── app/
 │   ├── Actions/
 │   │   └── WhatsApp/
@@ -428,7 +49,7 @@ use Modules\Notify\Datas\WhatsAppData;
 
 /**
  * Interfaccia per tutte le azioni di invio WhatsApp.
- * 
+ *
  * Tutte le implementazioni di provider WhatsApp devono implementare questa interfaccia
  * per garantire una coerenza nel modo in cui vengono gestiti i messaggi
  * indipendentemente dal provider specifico utilizzato.
@@ -486,7 +107,7 @@ class WhatsAppData
 
 return [
     'default' => env('WHATSAPP_PROVIDER', 'twilio'),
-    
+
     'providers' => [
         'twilio' => [
             'account_sid' => env('TWILIO_ACCOUNT_SID'),
@@ -494,7 +115,7 @@ return [
             'from_phone_number' => env('TWILIO_WHATSAPP_FROM'),
             'edge' => env('TWILIO_EDGE', 'frankfurt'),
         ],
-        
+
         'meta360' => [
             'app_id' => env('META_APP_ID'),
             'app_secret' => env('META_APP_SECRET'),
@@ -502,14 +123,14 @@ return [
             'phone_number_id' => env('META_PHONE_NUMBER_ID'),
             'access_token' => env('META_WHATSAPP_ACCESS_TOKEN'),
         ],
-        
+
         'vonage' => [
             'api_key' => env('VONAGE_API_KEY'),
             'api_secret' => env('VONAGE_API_SECRET'),
             'from_number' => env('VONAGE_WHATSAPP_FROM'),
         ],
     ],
-    
+
     // Configurazioni globali per tutti i provider
     'from' => env('WHATSAPP_FROM'),
     'debug' => (bool) env('WHATSAPP_DEBUG', false),
@@ -562,16 +183,16 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
     {
         $accountSid = config('whatsapp.providers.twilio.account_sid');
         $authToken = config('whatsapp.providers.twilio.auth_token');
-        
+
         if (!is_string($accountSid) || !is_string($authToken)) {
             throw new Exception('Twilio Account SID e Auth Token devono essere configurati in config/whatsapp.php');
         }
-        
+
         $this->accountSid = $accountSid;
         $this->authToken = $authToken;
         $this->fromPhoneNumber = config('whatsapp.providers.twilio.from_phone_number') ?? config('whatsapp.from');
         $this->edge = config('whatsapp.providers.twilio.edge', 'frankfurt');
-        
+
         // Parametri globali
         $this->debug = (bool) config('whatsapp.debug', false);
         $this->timeout = (int) config('whatsapp.timeout', 30);
@@ -588,7 +209,7 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
     {
         // Normalizza il numero di telefono
         $to = $this->normalizePhoneNumber($whatsAppData->to);
-        
+
         // Crea il client Twilio
         $client = new Client([
             'base_uri' => "https://api.{$this->edge}.twilio.com/2010-04-01/",
@@ -596,11 +217,11 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
             'timeout' => $this->timeout,
             'http_errors' => false,
         ]);
-        
+
         // Prepara il payload del messaggio
         $from = "whatsapp:{$whatsAppData->from}";
         $to = "whatsapp:{$to}";
-        
+
         try {
             $payload = [
                 'form_params' => [
@@ -609,22 +230,22 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
                     'Body' => $whatsAppData->body,
                 ],
             ];
-            
+
             // Gestione degli allegati
             if (!empty($whatsAppData->attachments)) {
                 $payload['form_params']['MediaUrl'] = $whatsAppData->attachments[0];
             }
-            
+
             // Invia la richiesta
             $response = $client->post(
                 "Accounts/{$this->accountSid}/Messages.json",
                 $payload
             );
-            
+
             // Elabora la risposta
             $statusCode = $response->getStatusCode();
             $responseBody = json_decode((string) $response->getBody(), true);
-            
+
             if ($statusCode >= 200 && $statusCode < 300) {
                 return [
                     'success' => true,
@@ -633,7 +254,7 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
                     'data' => $responseBody,
                 ];
             }
-            
+
             // Log in caso di errore
             if ($this->debug) {
                 Log::error('Twilio WhatsApp error', [
@@ -641,7 +262,7 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
                     'response' => $responseBody,
                 ]);
             }
-            
+
             return [
                 'success' => false,
                 'error' => $responseBody['message'] ?? 'Unknown error',
@@ -657,7 +278,7 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
                     'response' => $e->getResponse() ? (string) $e->getResponse()->getBody() : null,
                 ]);
             }
-            
+
             throw new Exception('Errore durante l\'invio del messaggio WhatsApp con Twilio: ' . $e->getMessage(), 0, $e);
         } catch (Exception $e) {
             // Log dell'errore generico
@@ -666,11 +287,11 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
                     'exception' => $e->getMessage(),
                 ]);
             }
-            
+
             throw new Exception('Errore durante l\'invio del messaggio WhatsApp con Twilio: ' . $e->getMessage(), 0, $e);
         }
     }
-    
+
     /**
      * Normalizza il numero di telefono nel formato internazionale E.164.
      *
@@ -681,17 +302,17 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
     {
         // Rimuovi tutti i caratteri non numerici
         $phoneNumber = preg_replace('/[^0-9+]/', '', $phoneNumber);
-        
+
         // Se il numero inizia con 00, sostituisci con +
         if (Str::startsWith($phoneNumber, '00')) {
             $phoneNumber = '+' . mb_substr($phoneNumber, 2);
         }
-        
+
         // Se il numero non ha prefisso internazionale, aggiungi +39 (Italia)
         if (!Str::startsWith($phoneNumber, '+')) {
             $phoneNumber = '+39' . $phoneNumber;
         }
-        
+
         return $phoneNumber;
     }
 }
@@ -744,10 +365,10 @@ class WhatsAppNotification extends Notification implements ShouldQueue
     public function toWhatsApp(object $notifiable): WhatsAppData
     {
         $from = $this->options['from'] ?? config('whatsapp.from');
-        
+
         // Ottieni il numero dal notifiable
         $to = $notifiable->routeNotificationForWhatsApp($this);
-        
+
         return new WhatsAppData(
             to: $to,
             from: $from,
@@ -929,39 +550,3 @@ Per sviluppo e test:
 2. Implementare mock per test unitari
 3. Utilizzare numeri di test autorizzati durante lo sviluppo
 4. Implementare logging dettagliato in ambiente di sviluppo
-<<<<<<< HEAD
-=======
->>>>>>> 5fd545e4 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5fd545e4 (.)
-=======
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> 712617d3 (.)
-=======
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 54220b28 (rebase 210)
-=======
->>>>>>> 4fc21b78 (rebase 210)
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)

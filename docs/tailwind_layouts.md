@@ -25,7 +25,6 @@ Questo documento descrive l'implementazione dei layout nel modulo Notify utilizz
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             {{ $slot }}
         </div>
-    </div>
 </x-filament::layouts.app>
 ```
 
@@ -45,7 +44,6 @@ Questo documento descrive l'implementazione dei layout nel modulo Notify utilizz
 
     <x-slot name="footer">
         {{ $footer }}
-    </x-slot>
 </x-filament::layouts.card>
 ```
 
@@ -65,7 +63,6 @@ Questo documento descrive l'implementazione dei layout nel modulo Notify utilizz
         >
             {{ __('notify::actions.mark_all_as_read') }}
         </x-filament::button>
-    </x-slot>
 </x-filament::header>
 ```
 
@@ -82,13 +79,11 @@ Questo documento descrive l'implementazione dei layout nel modulo Notify utilizz
             :active="request()->routeIs('notifications.*')"
             :href="route('notifications.index')"
         />
-        
-        <x-filament::sidebar.item
+
             icon="heroicon-o-cog"
             :label="__('notify::layout.settings')"
             :active="request()->routeIs('settings.*')"
             :href="route('settings.index')"
-        />
     </x-filament::sidebar.group>
 </x-filament::sidebar>
 ```
@@ -104,10 +99,7 @@ Questo documento descrive l'implementazione dei layout nel modulo Notify utilizz
         </x-filament::grid.column>
 
         <x-filament::grid.column span="10">
-            <x-filament::card>
                 <!-- Main content -->
-            </x-filament::card>
-        </x-filament::grid.column>
     </x-filament::grid>
 </x-filament::main>
 ```
@@ -129,7 +121,6 @@ Questo documento descrive l'implementazione dei layout nel modulo Notify utilizz
             >
                 {{ __('notify::actions.mark_all_as_read') }}
             </x-filament::button>
-        </x-slot>
     </x-filament::header>
 
     <x-filament::card>
@@ -143,7 +134,6 @@ Questo documento descrive l'implementazione dei layout nel modulo Notify utilizz
                     icon="heroicon-o-bell"
                     :heading="__('notify::notifications.empty_heading')"
                     :description="__('notify::notifications.empty_description')"
-                />
             @endforelse
         </div>
 
@@ -160,7 +150,6 @@ Questo documento descrive l'implementazione dei layout nel modulo Notify utilizz
     <x-filament::header>
         <x-slot name="heading">
             {{ __('notify::settings.title') }}
-        </x-slot>
     </x-filament::header>
 
     <x-filament::grid>
@@ -177,16 +166,10 @@ Questo documento descrive l'implementazione dei layout nel modulo Notify utilizz
         </x-filament::grid.column>
 
         <x-filament::grid.column span="8">
-            <x-filament::card>
-                <x-filament::card.heading>
                     {{ __('notify::settings.email_templates') }}
-                </x-filament::card.heading>
 
                 <x-notify::settings.email-templates
                     :templates="$templates"
-                />
-            </x-filament::card>
-        </x-filament::grid.column>
     </x-filament::grid>
 </x-notify::layouts.app>
 ```
@@ -206,16 +189,12 @@ Questo documento descrive l'implementazione dei layout nel modulo Notify utilizz
     <!-- Tablet -->
     <x-slot name="md">
         <x-notify::tablet-layout>
-            {{ $slot }}
         </x-notify::tablet-layout>
-    </x-slot>
 
     <!-- Desktop -->
     <x-slot name="lg">
         <x-notify::desktop-layout>
-            {{ $slot }}
         </x-notify::desktop-layout>
-    </x-slot>
 </x-filament::responsive>
 ```
 
@@ -254,7 +233,6 @@ return [
 ">
     <!-- Content -->
 </div>
-```
 
 ## Best Practices
 

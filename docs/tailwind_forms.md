@@ -30,17 +30,13 @@ Questo documento descrive l'implementazione dei form nel modulo Notify utilizzan
 <x-filament-forms::text-input
     wire:model="title"
     placeholder="Inserisci il titolo"
-    required
 />
-```
 
 ### Textarea
-```blade
 <x-filament-forms::textarea
     wire:model="content"
     placeholder="Inserisci il contenuto"
     rows="4"
-/>
 ```
 
 ### Select
@@ -68,26 +64,19 @@ Questo documento descrive l'implementazione dei form nel modulo Notify utilizzan
         >
             <x-filament-forms::text-input
                 wire:model="title"
-                required
             />
         </x-filament-forms::field-wrapper>
 
-        <x-filament-forms::field-wrapper
             name="content"
             label="Contenuto"
-            required
-        >
             <x-filament-forms::textarea
                 wire:model="content"
                 rows="4"
                 required
-            />
-        </x-filament-forms::field-wrapper>
 
         <x-filament-forms::field-wrapper
             name="type"
             label="Tipo"
-            required
         >
             <x-filament-forms::select
                 wire:model="type"
@@ -118,20 +107,12 @@ Questo documento descrive l'implementazione dei form nel modulo Notify utilizzan
         >
             <x-filament-forms::text-input
                 wire:model="name"
-                required
             />
         </x-filament-forms::field-wrapper>
 
-        <x-filament-forms::field-wrapper
             name="subject"
             label="Oggetto"
-            required
-        >
-            <x-filament-forms::text-input
                 wire:model="subject"
-                required
-            />
-        </x-filament-forms::field-wrapper>
 
         <x-filament-forms::field-wrapper
             name="body"
@@ -140,22 +121,16 @@ Questo documento descrive l'implementazione dei form nel modulo Notify utilizzan
         >
             <x-filament-forms::rich-editor
                 wire:model="body"
-                required
             />
         </x-filament-forms::field-wrapper>
 
-        <x-filament-forms::field-wrapper
             name="variables"
             label="Variabili"
-        >
             <x-filament-forms::repeater
                 wire:model="variables"
-            >
                 <x-filament-forms::text-input
                     name="name"
                     label="Nome Variabile"
-                />
-                <x-filament-forms::text-input
                     name="default"
                     label="Valore Default"
                 />
@@ -192,10 +167,8 @@ class NotificationForm extends Component implements HasForms
                 ->minLength(3)
                 ->maxLength(100),
             Textarea::make('content')
-                ->required()
                 ->minLength(10),
             Select::make('type')
-                ->required()
                 ->options([
                     'info' => 'Informazione',
                     'warning' => 'Avviso',
@@ -237,7 +210,6 @@ class NotificationForm extends Component implements HasForms
     :description="$description"
     :type="$type"
 />
-```
 
 ## Best Practices
 

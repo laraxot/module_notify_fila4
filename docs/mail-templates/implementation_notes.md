@@ -29,66 +29,12 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
    ```php
    $attachments = [
        [
-<<<<<<< HEAD
            'path' => '/var/www/html/<directory progetto>/public_html/images/avatars/default-3.svg',
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-           'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
-=======
-           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
->>>>>>> f963d2c0 (.)
-=======
-           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
->>>>>>> f963d2c0 (.)
-=======
-           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
->>>>>>> f963d2c0 (.)
-=======
-           'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
-=======
-<<<<<<< HEAD
-           'path' => '/var/www/html/<directory progetto>/public_html/images/avatars/default-3.svg',
-=======
-           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
            'as' => 'logo.png',
            'mime' => 'image/png'
        ],
        [
-<<<<<<< HEAD
            'path' => '/var/www/html/<directory progetto>/public_html/images/avatars/default-3.svg',
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-           'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
-=======
-           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
->>>>>>> f963d2c0 (.)
-=======
-           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
->>>>>>> f963d2c0 (.)
-=======
-           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
->>>>>>> f963d2c0 (.)
-=======
-           'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
-=======
-<<<<<<< HEAD
-           'path' => '/var/www/html/<directory progetto>/public_html/images/avatars/default-3.svg',
-=======
-           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
            'as' => 'logo.png',
            'mime' => 'image/png'
        ]
@@ -116,10 +62,10 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
    ```php
    // Creare l'istanza dell'email
    $email = new SpatieEmail($user, 'due');
-   
+
    // Aggiungere gli allegati
    $email->addAttachments($attachments);
-   
+
    // Inviare l'email
    Mail::to($data['to'])
        ->locale('it')
@@ -184,7 +130,7 @@ L'implementazione corretta dimostra che:
 3. **Miglioramenti**
    - Considerare la validazione
    - Implementare logging
-   - Aggiungere monitoraggio 
+   - Aggiungere monitoraggio
 
 ## Visualizzazione Parametri come Badge
 
@@ -234,4 +180,4 @@ L'implementazione corretta dimostra che:
 ```
 Input: "name, email, company, date"
 Output: [name] [email] [company] [date] (come badge blu)
-``` 
+```

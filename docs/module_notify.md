@@ -18,7 +18,6 @@ app/
 ├── Models/         # Modelli del dominio
 ├── Providers/      # Service Providers
 └── Services/       # Servizi di notifica
-```
 
 ## Dipendenze
 ### Pacchetti Required
@@ -76,7 +75,6 @@ composer format        # Formatta il codice
   AWS_SECRET_ACCESS_KEY=
   TELEGRAM_BOT_TOKEN=
   FIREBASE_CREDENTIALS=
-  ```
 
 ## Best Practices
 1. Seguire le convenzioni di naming Laravel
@@ -113,15 +111,11 @@ composer format        # Formatta il codice
 ## Changelog
 ### Versione HEAD
 
-Le modifiche vengono tracciate nel repository GitHub. 
+Le modifiche vengono tracciate nel repository GitHub.
 ## Collegamenti tra versioni di module_notify.md
 * [module_notify.md](docs/module_notify.md)
 * [module_notify.md](../../../Notify/docs/module_notify.md)
 
-
 ### Versione Incoming
 
-Le modifiche vengono tracciate nel repository GitHub. 
-
 ---
-

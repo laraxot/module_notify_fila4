@@ -1,41 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> 36321fcb (.)
-=======
->>>>>>> 712617d3 (.)
-=======
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 4fc21b78 (rebase 210)
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 36ac4fc1 (.)
-=======
->>>>>>> c8b1c8bf (.)
-=======
->>>>>>> 9cf0dc90 (.)
 # Database Mail System
 
 ## Regola sulle rotte
@@ -133,8 +95,6 @@ Event::listen(UserRegistered::class, function ($event) {
 - **Branding e allegati**: logo, header/footer, allegati integrati
 - **Flessibilità eventi**: trigger su qualunque evento Laravel, multi-tenant ready
 
----
-
 ## Roadmap di implementazione
 1. Integrare visualbuilder/email-templates come base UI Filament
 2. Estendere EmailTemplate model per compatibilità Spatie e gestione variabili/allegati
@@ -153,8 +113,6 @@ Event::listen(UserRegistered::class, function ($event) {
 - [Guida logo email Laravel (Medium)](https://medium.com/@python-javascript-php-html-css/how-to-customize-laravel-email-templates-with-a-logo-3dc862fba8d0)
 - [Esempi invio email Spatie](https://laraveldaily.com/code-examples/example/spatie-be/send-email)
 
----
-
 **Questa architettura permette di avere un sistema di email transazionali robusto, moderno, estendibile e conforme alle best practice Laravel/Filament/Spatie.**
 
 ## Architettura
@@ -165,10 +123,10 @@ Event::listen(UserRegistered::class, function ($event) {
 class EmailTemplate extends Model
 {
     use HasTranslations;
-    
+
     protected $fillable = [
         'name',
-        'description', 
+        'description',
         'event',
         'subject',
         'body',
@@ -184,21 +142,18 @@ class EmailTemplate extends Model
         'variables' => 'array',
         'is_active' => 'boolean',
         'delay' => 'integer'
-    ];
 
     public $translatable = [
         'subject',
         'body'
-    ];
 }
 
-class EmailLog extends Model 
+class EmailLog extends Model
 {
     protected $fillable = [
         'template_id',
         'event',
         'recipient',
-        'subject',
         'body',
         'variables',
         'status',
@@ -209,7 +164,6 @@ class EmailLog extends Model
     protected $casts = [
         'variables' => 'array',
         'sent_at' => 'datetime'
-    ];
 }
 ```
 
@@ -220,101 +174,35 @@ class EmailTemplateResource extends Resource
 {
     protected static ?string $model = EmailTemplate::class;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
-=======
     public static function form(Form $form): Form
->>>>>>> 75179b85 (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> f963d2c0 (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> ee18dd92 (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> 66453ace (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> 2a97406c (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> 4f042b88 (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> 36321fcb (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> 712617d3 (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> fdb24863 (rebase 210)
-=======
-    public static function form(Form $form): Form
->>>>>>> 4fc21b78 (rebase 210)
-=======
-    public static function form(Form $form): Form
->>>>>>> 9c45d9bd (rebase 210)
-=======
-    public static function form(Form $form): Form
->>>>>>> eb62d6cf (rebase 210)
-=======
-    public static function form(Form $form): Form
->>>>>>> 8c8937e7 (rebase 210)
-=======
-    public static function form(Form $form): Form
->>>>>>> 36ac4fc1 (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> c8b1c8bf (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> 9cf0dc90 (.)
     {
         return $form->schema([
             Card::make()->schema([
                 TextInput::make('name')
                     ->required(),
-                    
+
                 Select::make('event')
                     ->options(EventRegistry::getEvents())
-                    ->required(),
-                    
+
                 TinyMCE::make('body')
                     ->toolbarButtons([
-                        'bold', 'italic', 'link', 
+                        'bold', 'italic', 'link',
                         'bulletList', 'orderedList',
                         'table', 'image'
                     ])
                     ->fileAttachments()
-                    ->required(),
-                    
+
                 KeyValue::make('variables')
                     ->keyLabel('Variable')
                     ->valueLabel('Description')
                     ->reorderable(),
-                    
+
                 Toggle::make('is_active'),
-                
+
                 TextInput::make('delay')
                     ->numeric()
                     ->suffix('minutes'),
-                    
+
                 TagsInput::make('cc'),
                 TagsInput::make('bcc')
             ])
@@ -339,23 +227,22 @@ class EmailService
         $template = EmailTemplate::where('event', $event)
             ->where('is_active', true)
             ->first();
-            
+
         if (!$template) {
             return;
         }
-        
+
         $variables = $this->events->getVariables($event, $data);
-        
+
         $mail = new TemplateMail(
             $template,
             $variables
         );
-        
+
         if ($template->delay) {
             $this->queue->later(
                 $mail,
                 now()->addMinutes($template->delay)
-            );
         } else {
             $this->queue->send($mail);
         }
@@ -380,21 +267,21 @@ class TemplateRenderer
 class EventRegistry
 {
     protected array $events = [];
-    
+
     public function register(string $event, array $variables = []): void
     {
         $this->events[$event] = $variables;
     }
-    
+
     public function getEvents(): array
     {
         return array_keys($this->events);
     }
-    
+
     public function getVariables(string $event, array $data): array
     {
         $variables = $this->events[$event] ?? [];
-        
+
         return collect($variables)
             ->mapWithKeys(fn ($var) => [
                 $var => data_get($data, $var)
@@ -413,7 +300,7 @@ class TemplateMail extends Mailable
         private EmailTemplate $template,
         private array $variables
     ) {}
-    
+
     public function build()
     {
         return $this
@@ -458,7 +345,7 @@ class ProcessDoctorModerationAction
     public function __construct(
         private EmailService $emailService
     ) {}
-    
+
     public function execute(Doctor $doctor, bool $approved): void
     {
         if ($approved) {
@@ -479,14 +366,7 @@ class ProcessDoctorModerationAction
 
 ```html
 <x-mail::message>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> c8b1c8bf (.)
-=======
-
->>>>>>> 9cf0dc90 (.)
 # Registrazione Approvata
 
 Gentile {{ $doctor->name }},
@@ -544,416 +424,4 @@ Cordiali saluti,<br>
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Spatie Mail Templates](https://github.com/spatie/laravel-database-mail-templates)
 - [TinyMCE](https://www.tiny.cloud)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 207ac35e (.)
-=======
->>>>>>> 207ac35e (.)
-=======
->>>>>>> 011072e4 (.)
-=======
->>>>>>> 9d67cabd (.)
-=======
->>>>>>> 80f054e0 (.)
-=======
->>>>>>> 4d2eb53e (.)
-=======
->>>>>>> 6b6b9e41 (.)
-=======
->>>>>>> 5fe4f466 (.)
-=======
->>>>>>> e0d9c9be (.)
-=======
->>>>>>> cb85c538 (rebase 210)
-=======
->>>>>>> 460b8f5b (rebase 210)
-=======
->>>>>>> 8a8a8e2f (rebase 210)
-=======
->>>>>>> 1375c94d (rebase 210)
-=======
->>>>>>> 030c9674 (rebase 210)
-=======
->>>>>>> ce89c8bb (.)
 - [Filament Forms](https://filamentphp.com/docs/forms)
-=======
->>>>>>> b19cd40 (.)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 75179b85 (.)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 82ae73be (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35e (.)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
->>>>>>> 9777d1b3 (.)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
->>>>>>> f963d2c0 (.)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
-=======
->>>>>>> d284d65 (.)
->>>>>>> d09cb759 (.)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
->>>>>>> 75179b85 (.)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 82ae73be (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35e (.)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
->>>>>>> 9777d1b3 (.)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
->>>>>>> f963d2c0 (.)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
-=======
->>>>>>> d284d65 (.)
->>>>>>> d09cb759 (.)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
-=======
->>>>>>> b19cd40 (.)
->>>>>>> de02998b (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 011072e4 (.)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
->>>>>>> 161887a2 (.)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
->>>>>>> ee18dd92 (.)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
-=======
->>>>>>> d284d65 (.)
->>>>>>> 4689a827 (.)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
-=======
->>>>>>> b19cd40 (.)
->>>>>>> e7a9a2bf (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 9d67cabd (.)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
->>>>>>> ba564870 (.)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
->>>>>>> 66453ace (.)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
-=======
->>>>>>> d284d65 (.)
->>>>>>> 7325acf3 (.)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 9cdf6146 (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 80f054e0 (.)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
->>>>>>> 7c39b1fe (.)
-=======
->>>>>>> 5fd545e4 (.)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 3f39ac8b (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 4d2eb53e (.)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
->>>>>>> 888799d0 (.)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
->>>>>>> 2a97406c (.)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
-=======
->>>>>>> d284d65 (.)
->>>>>>> f2e64178 (.)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 6d08c01b (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 6b6b9e41 (.)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
->>>>>>> c6c33175 (.)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
->>>>>>> 4f042b88 (.)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
-=======
->>>>>>> d284d65 (.)
->>>>>>> c4bdacbf (.)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 3b4c9907 (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 5fe4f466 (.)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
->>>>>>> 503981fd (.)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
->>>>>>> 36321fcb (.)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
-=======
->>>>>>> d284d65 (.)
->>>>>>> dceba960 (.)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 8e5817bc (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> e0d9c9be (.)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
->>>>>>> 7a2f131f (.)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
->>>>>>> 712617d3 (.)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
-=======
->>>>>>> d284d65 (.)
->>>>>>> bd804d67 (.)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 51182e3c (rebase 210)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> cb85c538 (rebase 210)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
->>>>>>> 1c0eb9c7 (rebase 210)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
->>>>>>> fdb24863 (rebase 210)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
-=======
->>>>>>> d284d65 (.)
->>>>>>> 229a065a (rebase 210)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
-=======
->>>>>>> b19cd40 (.)
->>>>>>> a9bf0423 (rebase 210)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 460b8f5b (rebase 210)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
->>>>>>> 4d253d2c (rebase 210)
-=======
->>>>>>> 54220b28 (rebase 210)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
->>>>>>> 4fc21b78 (rebase 210)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 9fe1b60e (rebase 210)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 8a8a8e2f (rebase 210)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
->>>>>>> efb0f8d9 (rebase 210)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
->>>>>>> 9c45d9bd (rebase 210)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
-=======
->>>>>>> d284d65 (.)
->>>>>>> 9f8e680a (rebase 210)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
-=======
->>>>>>> b19cd40 (.)
->>>>>>> b4f93b3a (rebase 210)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 1375c94d (rebase 210)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
->>>>>>> 52cd5f85 (rebase 210)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
->>>>>>> eb62d6cf (rebase 210)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
-=======
->>>>>>> d284d65 (.)
->>>>>>> 5aedc39c (rebase 210)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
-=======
->>>>>>> b19cd40 (.)
->>>>>>> c5c038f2 (rebase 210)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 030c9674 (rebase 210)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
->>>>>>> bb00ab64 (rebase 210)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
->>>>>>> 8c8937e7 (rebase 210)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
-=======
->>>>>>> d284d65 (.)
->>>>>>> 22baa66d (rebase 210)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
->>>>>>> 36ac4fc1 (.)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
-=======
->>>>>>> d284d65 (.)
->>>>>>> 2effe245 (.)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
->>>>>>> c8b1c8bf (.)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 2fc60436 (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> ce89c8bb (.)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
->>>>>>> 58816034 (.)
-=======
-- [Filament Forms](https://filamentphp.com/docs/forms)
->>>>>>> 9cf0dc90 (.)

@@ -1,33 +1,6 @@
 # Pattern di Risoluzione Dinamica delle Classi vs Pattern Match
 
-<<<<<<< HEAD
 Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di <main module>.
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di <nome progetto>.
-=======
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di SaluteOra.
->>>>>>> f963d2c0 (.)
-=======
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di SaluteOra.
->>>>>>> f963d2c0 (.)
-=======
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di SaluteOra.
->>>>>>> f963d2c0 (.)
-=======
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di <nome progetto>.
-=======
-<<<<<<< HEAD
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di <main module>.
-=======
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di SaluteOra.
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
 
 ## Implementazione Attuale con Match
 
@@ -38,7 +11,7 @@ Attualmente, nel `SmsActionFactory`, viene utilizzato un pattern match per mappa
 public function create(?string $driver = null): SmsActionInterface
 {
     $driver = $driver ?? Config::get('sms.default', 'smsfactor');
-    
+
     return match ($driver) {
         'smsfactor' => app(SendSmsFactorSMSAction::class),
         'twilio' => app(SendTwilioSMSAction::class),
@@ -60,18 +33,18 @@ Con la risoluzione dinamica, il nome della classe viene costruito in base a una 
 public function create(?string $driver = null): SmsActionInterface
 {
     $driver = $driver ?? Config::get('sms.default', 'smsfactor');
-    
+
     // Normalizza il nome del driver (per gestire casi come "sms-factor" o "smsFactor")
     $normalizedDriver = str_replace(['-', '_'], '', $driver);
-    
+
     // Costruisci il nome della classe seguendo la convenzione
     $className = "Modules\\Notify\\Actions\\SMS\\Send" . ucfirst($normalizedDriver) . "SMSAction";
-    
+
     // Verifica se la classe esiste
     if (!class_exists($className)) {
         throw new Exception("Unsupported SMS driver: {$driver}. Class {$className} not found.");
     }
-    
+
     return app($className);
 }
 ```
@@ -128,7 +101,7 @@ final class SmsActionFactory
         'gammu',
         'netfun',
     ];
-    
+
     /**
      * Mappatura di alias ai nomi dei driver effettivi.
      */
@@ -140,22 +113,22 @@ final class SmsActionFactory
         'aws' => 'aws',
         'amazon' => 'aws',
     ];
-    
+
     public function create(?string $driver = null): SmsProviderActionInterface
     {
         $driver = $driver ?? Config::get('sms.default', 'smsfactor');
-        
+
         // Normalizza il nome del driver e assicura formato camelCase
         $normalizedDriver = $this->normalizeDriverName($driver);
-        
+
         // Avvisa per driver non standard
         if (!in_array($normalizedDriver, $this->supportedDrivers)) {
             Log::warning("Attempting to use non-standard SMS driver: {$driver}");
         }
-        
+
         // Costruisci il nome della classe seguendo la convenzione
         $className = "Modules\\Notify\\Actions\\SMS\\Send" . ucfirst($normalizedDriver) . "SMSAction";
-        
+
         // Verifica se la classe esiste
         if (!class_exists($className)) {
             Log::error("SMS driver class not found", [
@@ -163,25 +136,25 @@ final class SmsActionFactory
                 'normalized' => $normalizedDriver,
                 'className' => $className
             ]);
-            
+
             throw new Exception("Unsupported SMS driver: {$driver}. Class {$className} not found.");
         }
-        
+
         $instance = app($className);
-        
+
         // Verifica che l'istanza implementi l'interfaccia corretta
         if (!($instance instanceof SmsProviderActionInterface)) {
             throw new Exception("Class {$className} does not implement SmsProviderActionInterface.");
         }
-        
+
         return $instance;
     }
-    
+
     private function normalizeDriverName(string $driver): string
     {
         // Rimuovi trattini e underscore
         $normalized = str_replace(['-', '_', ' '], '', strtolower($driver));
-        
+
         // Gestisci casi speciali e alias tramite la mappa di alias
         return $this->driverAliases[$normalized] ?? $normalized;
     }
@@ -200,7 +173,7 @@ Questa implementazione include tutte le raccomandazioni chiave del pattern di ri
 
 ## Conclusione e Raccomandazione
 
-La risoluzione dinamica delle classi offre vantaggi significativi in termini di estensibilità e manutenibilità, ma introduce anche rischi di errori runtime. 
+La risoluzione dinamica delle classi offre vantaggi significativi in termini di estensibilità e manutenibilità, ma introduce anche rischi di errori runtime.
 
 **Raccomandazione**: Implementare la risoluzione dinamica con appropriate misure di mitigazione:
 

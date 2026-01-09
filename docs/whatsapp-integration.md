@@ -1,195 +1,9 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> 712617d3 (.)
-=======
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 4fc21b78 (rebase 210)
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
-# Integrazione WhatsApp 
+# Integrazione WhatsApp
 
 ## Panoramica
 
-<<<<<<< HEAD
 Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di , seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
 Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di SaluteOra, seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di <nome progetto>, seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
-=======
-Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di , seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
-Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di SaluteOra, seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
->>>>>>> 75179b85 (.)
-=======
-Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di SaluteOra, seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
->>>>>>> f963d2c0 (.)
-=======
-Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di SaluteOra, seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
-=======
-Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di SaluteOra, seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
->>>>>>> 31f5d28f (.)
-=======
-Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di SaluteOra, seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
->>>>>>> 31f5d28f (.)
-=======
-Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di , seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
-Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di <nome progetto>, seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
->>>>>>> bf479cc (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 31f5d28f (.)
-=======
-Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di SaluteOra, seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
->>>>>>> a404ea71 (.)
-=======
-Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di , seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
-Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di SaluteOra, seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
->>>>>>> 75179b85 (.)
-=======
-Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di SaluteOra, seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
-Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di SaluteOra, seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
->>>>>>> a404ea71 (.)
-=======
-Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di , seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
-Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di SaluteOra, seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
->>>>>>> 75179b85 (.)
-=======
-Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di SaluteOra, seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
-Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di SaluteOra, seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
->>>>>>> a404ea71 (.)
-=======
-Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di SaluteOra, seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
->>>>>>> ee18dd92 (.)
-<<<<<<< HEAD
->>>>>>> 022fa8f1c (.)
-=======
-=======
->>>>>>> 6608a1a0 (.)
-=======
-Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di SaluteOra, seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
->>>>>>> ca10d6ad (.)
-=======
-Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di SaluteOra, seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
->>>>>>> 66453ace (.)
-=======
->>>>>>> 23cbbaf5 (.)
-=======
-Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di SaluteOra, seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
->>>>>>> febe79e3 (.)
-=======
-Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di SaluteOra, seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 909e45af (.)
-=======
-Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di SaluteOra, seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
->>>>>>> a29a4728 (.)
-=======
-Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di SaluteOra, seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> bb7e77c2 (.)
-=======
-Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di SaluteOra, seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
->>>>>>> c7a4727b (.)
-=======
->>>>>>> b99af5a8 (.)
-=======
-Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di SaluteOra, seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
->>>>>>> 9721a5b2 (.)
-=======
-Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di SaluteOra, seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
->>>>>>> 712617d3 (.)
-=======
->>>>>>> f3086887 (rebase 210)
-=======
-Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di SaluteOra, seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
->>>>>>> 1442e291 (rebase 210)
-=======
-Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di SaluteOra, seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 3d462363 (rebase 210)
-=======
-Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di SaluteOra, seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
->>>>>>> fcaebc79 (rebase 210)
-=======
-Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di , seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
-Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di SaluteOra, seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
->>>>>>> 4fc21b78 (rebase 210)
-=======
-Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di SaluteOra, seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> 54ad93c4 (rebase 210)
-=======
-Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di SaluteOra, seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
->>>>>>> 9d3810d0 (rebase 210)
-=======
-Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di SaluteOra, seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 6e12a84b (rebase 210)
-=======
-Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di SaluteOra, seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
->>>>>>> d38aa9d2 (rebase 210)
-=======
-Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di SaluteOra, seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 545977c8 (rebase 210)
-=======
-Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di SaluteOra, seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
->>>>>>> 9e7ba5b6 (rebase 210)
-=======
-Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di SaluteOra, seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
 
 ## Architettura
 
@@ -215,7 +29,7 @@ use Modules\Notify\Datas\WhatsAppData;
 
 /**
  * Interface per tutte le azioni di invio WhatsApp.
- * 
+ *
  * Tutte le implementazioni di provider WhatsApp devono implementare questa interfaccia
  * per garantire una coerenza nel modo in cui vengono gestiti i messaggi WhatsApp
  * indipendentemente dal provider specifico utilizzato.
@@ -288,20 +102,20 @@ return [
             'auth_token' => env('TWILIO_AUTH_TOKEN'),
             'from' => env('TWILIO_WHATSAPP_FROM'),
         ],
-        
+
         'vonage' => [
             'api_key' => env('VONAGE_KEY'),
             'api_secret' => env('VONAGE_SECRET'),
             'from' => env('VONAGE_WHATSAPP_FROM'),
         ],
-        
+
         'facebook' => [
             'app_id' => env('FACEBOOK_APP_ID'),
             'app_secret' => env('FACEBOOK_APP_SECRET'),
             'access_token' => env('FACEBOOK_ACCESS_TOKEN'),
             'phone_number_id' => env('FACEBOOK_PHONE_NUMBER_ID'),
         ],
-        
+
         '360dialog' => [
             'api_key' => env('360DIALOG_API_KEY'),
             'phone_number_id' => env('360DIALOG_PHONE_NUMBER_ID'),
@@ -414,33 +228,33 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
     {
         $from = 'whatsapp:' . ($whatsAppData->from ?? $this->defaultSender);
         $to = 'whatsapp:' . $whatsAppData->to;
-        
+
         $client = new Client([
             'timeout' => $this->timeout,
             'auth' => [$this->accountSid, $this->authToken]
         ]);
-        
+
         $endpoint = $this->baseUrl . '/Accounts/' . $this->accountSid . '/Messages.json';
-        
+
         $payload = [
             'To' => $to,
             'From' => $from,
             'Body' => $whatsAppData->body,
         ];
-        
+
         // Aggiungi media se presente
         if (!empty($whatsAppData->media)) {
             $payload['MediaUrl'] = $whatsAppData->media[0];
         }
-        
+
         try {
             $response = $client->post($endpoint, [
                 'form_params' => $payload
             ]);
-            
+
             $this->vars['status_code'] = $response->getStatusCode();
             $this->vars['status_txt'] = $response->getBody()->getContents();
-            
+
             return [
                 'success' => true,
                 'message_id' => json_decode($this->vars['status_txt'], true)['sid'] ?? null,
@@ -513,15 +327,15 @@ final class SendFacebookWhatsAppAction implements WhatsAppProviderActionInterfac
                 'Content-Type' => 'application/json',
             ]
         ]);
-        
+
         $endpoint = $this->baseUrl . '/' . $this->phoneNumberId . '/messages';
-        
+
         $payload = [
             'messaging_product' => 'whatsapp',
             'recipient_type' => 'individual',
             'to' => $whatsAppData->to,
         ];
-        
+
         // Gestione diversi tipi di messaggi
         if ($whatsAppData->type === 'text') {
             $payload['type'] = 'text';
@@ -538,17 +352,17 @@ final class SendFacebookWhatsAppAction implements WhatsAppProviderActionInterfac
                 'link' => $whatsAppData->media[0],
             ];
         }
-        
+
         try {
             $response = $client->post($endpoint, [
                 'json' => $payload
             ]);
-            
+
             $this->vars['status_code'] = $response->getStatusCode();
             $this->vars['status_txt'] = $response->getBody()->getContents();
-            
+
             $responseData = json_decode($this->vars['status_txt'], true);
-            
+
             return [
                 'success' => true,
                 'message_id' => $responseData['messages'][0]['id'] ?? null,
@@ -586,162 +400,8 @@ $action = app(SendTwilioWhatsAppAction::class);
 
 $whatsAppData = new WhatsAppData(
     to: '+393401234567',
-<<<<<<< HEAD
     body: 'Questo è un messaggio di test da ',
     body: 'Questo è un messaggio di test da SaluteOra',
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    body: 'Questo è un messaggio di test da <nome progetto>',
-=======
-    body: 'Questo è un messaggio di test da ',
-    body: 'Questo è un messaggio di test da SaluteOra',
->>>>>>> 75179b85 (.)
-=======
-    body: 'Questo è un messaggio di test da SaluteOra',
->>>>>>> f963d2c0 (.)
-=======
-    body: 'Questo è un messaggio di test da SaluteOra',
-=======
-    body: 'Questo è un messaggio di test da SaluteOra',
->>>>>>> 31f5d28f (.)
-=======
-    body: 'Questo è un messaggio di test da SaluteOra',
->>>>>>> 31f5d28f (.)
-=======
-    body: 'Questo è un messaggio di test da ',
-    body: 'Questo è un messaggio di test da <nome progetto>',
->>>>>>> bf479cc (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 31f5d28f (.)
-=======
-    body: 'Questo è un messaggio di test da SaluteOra',
->>>>>>> a404ea71 (.)
-=======
-    body: 'Questo è un messaggio di test da ',
-    body: 'Questo è un messaggio di test da SaluteOra',
->>>>>>> 75179b85 (.)
-=======
-    body: 'Questo è un messaggio di test da SaluteOra',
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
-    body: 'Questo è un messaggio di test da SaluteOra',
->>>>>>> a404ea71 (.)
-=======
-    body: 'Questo è un messaggio di test da ',
-    body: 'Questo è un messaggio di test da SaluteOra',
->>>>>>> 75179b85 (.)
-=======
-    body: 'Questo è un messaggio di test da SaluteOra',
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
-    body: 'Questo è un messaggio di test da SaluteOra',
->>>>>>> a404ea71 (.)
-=======
-    body: 'Questo è un messaggio di test da SaluteOra',
->>>>>>> ee18dd92 (.)
-<<<<<<< HEAD
->>>>>>> 022fa8f1c (.)
-=======
-=======
->>>>>>> 6608a1a0 (.)
-=======
-    body: 'Questo è un messaggio di test da SaluteOra',
->>>>>>> ca10d6ad (.)
-=======
-    body: 'Questo è un messaggio di test da SaluteOra',
->>>>>>> 66453ace (.)
-=======
->>>>>>> 23cbbaf5 (.)
-=======
-    body: 'Questo è un messaggio di test da SaluteOra',
->>>>>>> febe79e3 (.)
-=======
-    body: 'Questo è un messaggio di test da SaluteOra',
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 909e45af (.)
-=======
-    body: 'Questo è un messaggio di test da SaluteOra',
->>>>>>> a29a4728 (.)
-=======
-    body: 'Questo è un messaggio di test da SaluteOra',
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> bb7e77c2 (.)
-=======
-    body: 'Questo è un messaggio di test da SaluteOra',
->>>>>>> c7a4727b (.)
-=======
->>>>>>> b99af5a8 (.)
-=======
-    body: 'Questo è un messaggio di test da SaluteOra',
->>>>>>> 9721a5b2 (.)
-=======
-    body: 'Questo è un messaggio di test da SaluteOra',
->>>>>>> 712617d3 (.)
-=======
->>>>>>> f3086887 (rebase 210)
-=======
-    body: 'Questo è un messaggio di test da SaluteOra',
->>>>>>> 1442e291 (rebase 210)
-=======
-    body: 'Questo è un messaggio di test da SaluteOra',
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 3d462363 (rebase 210)
-=======
-    body: 'Questo è un messaggio di test da SaluteOra',
->>>>>>> fcaebc79 (rebase 210)
-=======
-    body: 'Questo è un messaggio di test da ',
-    body: 'Questo è un messaggio di test da SaluteOra',
->>>>>>> 4fc21b78 (rebase 210)
-=======
-    body: 'Questo è un messaggio di test da SaluteOra',
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> 54ad93c4 (rebase 210)
-=======
-    body: 'Questo è un messaggio di test da SaluteOra',
->>>>>>> 9d3810d0 (rebase 210)
-=======
-    body: 'Questo è un messaggio di test da SaluteOra',
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 6e12a84b (rebase 210)
-=======
-    body: 'Questo è un messaggio di test da SaluteOra',
->>>>>>> d38aa9d2 (rebase 210)
-=======
-    body: 'Questo è un messaggio di test da SaluteOra',
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 545977c8 (rebase 210)
-=======
-    body: 'Questo è un messaggio di test da SaluteOra',
->>>>>>> 9e7ba5b6 (rebase 210)
-=======
-    body: 'Questo è un messaggio di test da SaluteOra',
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
 );
 
 $result = $action->execute($whatsAppData);
@@ -809,9 +469,9 @@ class WhatsAppChannel
         }
 
         $whatsAppData = $notification->toWhatsApp($notifiable);
-        
+
         $driver = Config::get('whatsapp.default', 'twilio');
-        
+
         $action = match ($driver) {
             'twilio' => app(SendTwilioWhatsAppAction::class),
             'facebook' => app(SendFacebookWhatsAppAction::class),
@@ -819,7 +479,7 @@ class WhatsAppChannel
             '360dialog' => app(Send360dialogWhatsAppAction::class),
             default => throw new \Exception("Unsupported WhatsApp driver: {$driver}"),
         };
-        
+
         return $action->execute($whatsAppData);
     }
 }
@@ -855,7 +515,7 @@ final class SendLogWhatsAppAction implements WhatsAppProviderActionInterface
             'template' => $whatsAppData->template,
             'type' => $whatsAppData->type,
         ]);
-        
+
         return [
             'success' => true,
             'message_id' => 'log-' . uniqid(),
@@ -874,199 +534,9 @@ L'integrazione WhatsApp  segue gli stessi pattern e standard utilizzati per l'in
 3. **Estensibilità**: È facile aggiungere nuovi provider WhatsApp
 4. **Testabilità**: Le azioni sono facilmente testabili grazie all'interfaccia comune
 
-<<<<<<< HEAD
 Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di , mantenendo la coerenza con le altre modalità di comunicazione.
 Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di SaluteOra, mantenendo la coerenza con le altre modalità di comunicazione.
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di <nome progetto>, mantenendo la coerenza con le altre modalità di comunicazione.
-=======
-Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di , mantenendo la coerenza con le altre modalità di comunicazione.
-Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di SaluteOra, mantenendo la coerenza con le altre modalità di comunicazione.
->>>>>>> 75179b85 (.)
-=======
-Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di SaluteOra, mantenendo la coerenza con le altre modalità di comunicazione.
->>>>>>> f963d2c0 (.)
-=======
-Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di SaluteOra, mantenendo la coerenza con le altre modalità di comunicazione.
-=======
-Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di SaluteOra, mantenendo la coerenza con le altre modalità di comunicazione.
->>>>>>> 31f5d28f (.)
-=======
-Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di SaluteOra, mantenendo la coerenza con le altre modalità di comunicazione.
->>>>>>> 31f5d28f (.)
-=======
-Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di , mantenendo la coerenza con le altre modalità di comunicazione.
-Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di <nome progetto>, mantenendo la coerenza con le altre modalità di comunicazione.
->>>>>>> bf479cc (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 31f5d28f (.)
-=======
-Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di SaluteOra, mantenendo la coerenza con le altre modalità di comunicazione.
->>>>>>> a404ea71 (.)
-=======
-Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di , mantenendo la coerenza con le altre modalità di comunicazione.
-Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di SaluteOra, mantenendo la coerenza con le altre modalità di comunicazione.
->>>>>>> 75179b85 (.)
-=======
-Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di SaluteOra, mantenendo la coerenza con le altre modalità di comunicazione.
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
-Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di SaluteOra, mantenendo la coerenza con le altre modalità di comunicazione.
->>>>>>> a404ea71 (.)
-=======
-Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di , mantenendo la coerenza con le altre modalità di comunicazione.
-Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di SaluteOra, mantenendo la coerenza con le altre modalità di comunicazione.
->>>>>>> 75179b85 (.)
-=======
-Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di SaluteOra, mantenendo la coerenza con le altre modalità di comunicazione.
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
-Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di SaluteOra, mantenendo la coerenza con le altre modalità di comunicazione.
->>>>>>> a404ea71 (.)
-=======
-Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di SaluteOra, mantenendo la coerenza con le altre modalità di comunicazione.
->>>>>>> ee18dd92 (.)
-<<<<<<< HEAD
->>>>>>> 022fa8f1c (.)
-=======
-=======
->>>>>>> 6608a1a0 (.)
-=======
-Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di SaluteOra, mantenendo la coerenza con le altre modalità di comunicazione.
->>>>>>> ca10d6ad (.)
-=======
-Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di SaluteOra, mantenendo la coerenza con le altre modalità di comunicazione.
->>>>>>> 66453ace (.)
-=======
->>>>>>> 23cbbaf5 (.)
-=======
-Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di SaluteOra, mantenendo la coerenza con le altre modalità di comunicazione.
->>>>>>> febe79e3 (.)
-=======
-Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di SaluteOra, mantenendo la coerenza con le altre modalità di comunicazione.
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 909e45af (.)
-=======
-Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di SaluteOra, mantenendo la coerenza con le altre modalità di comunicazione.
->>>>>>> a29a4728 (.)
-=======
-Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di SaluteOra, mantenendo la coerenza con le altre modalità di comunicazione.
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> bb7e77c2 (.)
-=======
-Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di SaluteOra, mantenendo la coerenza con le altre modalità di comunicazione.
->>>>>>> c7a4727b (.)
-=======
->>>>>>> b99af5a8 (.)
-=======
-Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di SaluteOra, mantenendo la coerenza con le altre modalità di comunicazione.
->>>>>>> 9721a5b2 (.)
-=======
-Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di SaluteOra, mantenendo la coerenza con le altre modalità di comunicazione.
->>>>>>> 712617d3 (.)
-=======
->>>>>>> f3086887 (rebase 210)
-=======
-Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di SaluteOra, mantenendo la coerenza con le altre modalità di comunicazione.
->>>>>>> 1442e291 (rebase 210)
-=======
-Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di SaluteOra, mantenendo la coerenza con le altre modalità di comunicazione.
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 3d462363 (rebase 210)
-=======
-Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di SaluteOra, mantenendo la coerenza con le altre modalità di comunicazione.
->>>>>>> fcaebc79 (rebase 210)
-=======
-Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di , mantenendo la coerenza con le altre modalità di comunicazione.
-Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di SaluteOra, mantenendo la coerenza con le altre modalità di comunicazione.
->>>>>>> 4fc21b78 (rebase 210)
-=======
-Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di SaluteOra, mantenendo la coerenza con le altre modalità di comunicazione.
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> 54ad93c4 (rebase 210)
-=======
-Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di SaluteOra, mantenendo la coerenza con le altre modalità di comunicazione.
->>>>>>> 9d3810d0 (rebase 210)
-=======
-Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di SaluteOra, mantenendo la coerenza con le altre modalità di comunicazione.
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 6e12a84b (rebase 210)
-=======
-Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di SaluteOra, mantenendo la coerenza con le altre modalità di comunicazione.
->>>>>>> d38aa9d2 (rebase 210)
-=======
-Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di SaluteOra, mantenendo la coerenza con le altre modalità di comunicazione.
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 545977c8 (rebase 210)
-=======
-Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di SaluteOra, mantenendo la coerenza con le altre modalità di comunicazione.
->>>>>>> 9e7ba5b6 (rebase 210)
-=======
-Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di SaluteOra, mantenendo la coerenza con le altre modalità di comunicazione.
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
 
 ---
 
 *Ultimo aggiornamento: 2023-05-12*
-<<<<<<< HEAD
-=======
->>>>>>> 5fd545e4 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5fd545e4 (.)
-=======
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> 712617d3 (.)
-=======
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 54220b28 (rebase 210)
-=======
->>>>>>> 4fc21b78 (rebase 210)
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)

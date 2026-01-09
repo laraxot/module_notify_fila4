@@ -1,36 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> 712617d3 (.)
-=======
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 4fc21b78 (rebase 210)
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
-# Guida all'Implementazione delle Notifiche 
+# Guida all'Implementazione delle Notifiche
 
 Questa documentazione descrive come implementare correttamente le notifiche utilizzando Laravel Notifications nel modulo Notify.
 
@@ -50,10 +18,10 @@ use Illuminate\Database\Eloquent\Model;
 class RecordNotification extends Notification implements ShouldQueue
 {
     use Queueable;
-    
+
     protected Model $record;
     protected string $templateSlug;
-    
+
     /**
      * Create a new notification instance.
      */
@@ -62,7 +30,7 @@ class RecordNotification extends Notification implements ShouldQueue
         $this->record = $record;
         $this->templateSlug = $templateSlug;
     }
-    
+
     /**
      * Get the notification's delivery channels.
      */
@@ -70,169 +38,15 @@ class RecordNotification extends Notification implements ShouldQueue
     {
         return ['mail'];
     }
-    
+
     /**
      * Get the mail representation of the notification.
      */
     public function toMail(object $notifiable): MailMessage
     {
         return (new MailMessage)
-<<<<<<< HEAD
             ->subject('Notifica da ')
             ->subject('Notifica da SaluteOra')
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            ->subject('Notifica da <nome progetto>')
-=======
-            ->subject('Notifica da ')
-            ->subject('Notifica da SaluteOra')
->>>>>>> 75179b85 (.)
-=======
-            ->subject('Notifica da SaluteOra')
->>>>>>> f963d2c0 (.)
-=======
-            ->subject('Notifica da SaluteOra')
-=======
-            ->subject('Notifica da SaluteOra')
->>>>>>> 31f5d28f (.)
-=======
-            ->subject('Notifica da SaluteOra')
->>>>>>> 31f5d28f (.)
-=======
-            ->subject('Notifica da ')
-            ->subject('Notifica da <nome progetto>')
->>>>>>> bf479cc (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 31f5d28f (.)
-=======
-            ->subject('Notifica da SaluteOra')
->>>>>>> a404ea71 (.)
-=======
-            ->subject('Notifica da ')
-            ->subject('Notifica da SaluteOra')
->>>>>>> 75179b85 (.)
-=======
-            ->subject('Notifica da SaluteOra')
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
-            ->subject('Notifica da SaluteOra')
->>>>>>> a404ea71 (.)
-=======
-            ->subject('Notifica da ')
-            ->subject('Notifica da SaluteOra')
->>>>>>> 75179b85 (.)
-=======
-            ->subject('Notifica da SaluteOra')
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
-            ->subject('Notifica da SaluteOra')
->>>>>>> a404ea71 (.)
-=======
-            ->subject('Notifica da SaluteOra')
->>>>>>> ee18dd92 (.)
-<<<<<<< HEAD
->>>>>>> 022fa8f1c (.)
-=======
-=======
->>>>>>> 6608a1a0 (.)
-=======
-            ->subject('Notifica da SaluteOra')
->>>>>>> ca10d6ad (.)
-=======
-            ->subject('Notifica da SaluteOra')
->>>>>>> 66453ace (.)
-=======
->>>>>>> 23cbbaf5 (.)
-=======
-            ->subject('Notifica da SaluteOra')
->>>>>>> febe79e3 (.)
-=======
-            ->subject('Notifica da SaluteOra')
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 909e45af (.)
-=======
-            ->subject('Notifica da SaluteOra')
->>>>>>> a29a4728 (.)
-=======
-            ->subject('Notifica da SaluteOra')
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> bb7e77c2 (.)
-=======
-            ->subject('Notifica da SaluteOra')
->>>>>>> c7a4727b (.)
-=======
->>>>>>> b99af5a8 (.)
-=======
-            ->subject('Notifica da SaluteOra')
->>>>>>> 9721a5b2 (.)
-=======
-            ->subject('Notifica da SaluteOra')
->>>>>>> 712617d3 (.)
-=======
->>>>>>> f3086887 (rebase 210)
-=======
-            ->subject('Notifica da SaluteOra')
->>>>>>> 1442e291 (rebase 210)
-=======
-            ->subject('Notifica da SaluteOra')
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 3d462363 (rebase 210)
-=======
-            ->subject('Notifica da SaluteOra')
->>>>>>> fcaebc79 (rebase 210)
-=======
-            ->subject('Notifica da ')
-            ->subject('Notifica da SaluteOra')
->>>>>>> 4fc21b78 (rebase 210)
-=======
-            ->subject('Notifica da SaluteOra')
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> 54ad93c4 (rebase 210)
-=======
-            ->subject('Notifica da SaluteOra')
->>>>>>> 9d3810d0 (rebase 210)
-=======
-            ->subject('Notifica da SaluteOra')
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 6e12a84b (rebase 210)
-=======
-            ->subject('Notifica da SaluteOra')
->>>>>>> d38aa9d2 (rebase 210)
-=======
-            ->subject('Notifica da SaluteOra')
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 545977c8 (rebase 210)
-=======
-            ->subject('Notifica da SaluteOra')
->>>>>>> 9e7ba5b6 (rebase 210)
-=======
-            ->subject('Notifica da SaluteOra')
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
             ->greeting('Ciao ' . $this->record->name)
             ->line('Contenuto della notifica...')
             ->action('Visualizza', url('/'))
@@ -252,12 +66,12 @@ Per utilizzare la classe SpatieEmail all'interno di una notifica, implementa il 
 public function toMail(object $notifiable): \Illuminate\Mail\Mailable
 {
     $email = new SpatieEmail($this->record, $this->templateSlug);
-    
+
     // Aggiungi eventuali allegati
     if ($this->attachments) {
         $email->addAttachments($this->attachments);
     }
-    
+
     return $email;
 }
 ```
@@ -317,12 +131,12 @@ $user->notify($notification);
 public function toMail(object $notifiable): \Illuminate\Mail\Mailable
 {
     $email = new SpatieEmail($this->record, $this->templateSlug);
-    
+
     // Imposta esplicitamente il destinatario
     // Questo non è necessario se si usa $notifiable->routeNotificationFor('mail')
     // ma è una buona pratica per la chiarezza
     $email->to($notifiable->email);
-    
+
     return $email;
 }
 ```
@@ -348,39 +162,3 @@ public function toMail(object $notifiable): \Illuminate\Mail\Mailable
 - [ATTACHMENTS_USAGE.md](../email-sending/ATTACHMENTS_USAGE.md)
 - [EMAIL_LAYOUTS_BEST_PRACTICES.md](../mail-templates/EMAIL_LAYOUTS_BEST_PRACTICES.md)
 - [EMAIL_TROUBLESHOOTING.md](../email-sending/EMAIL_TROUBLESHOOTING.md)
-<<<<<<< HEAD
-=======
->>>>>>> 5fd545e4 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5fd545e4 (.)
-=======
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> 712617d3 (.)
-=======
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 54220b28 (rebase 210)
-=======
->>>>>>> 4fc21b78 (rebase 210)
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)

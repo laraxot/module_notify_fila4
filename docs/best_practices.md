@@ -72,7 +72,6 @@ class QueuedNotification extends Notification implements ShouldQueue
 ```
 
 ### 2. Rate Limiting
-```php
 // app/Providers/NotificationServiceProvider.php
 class NotificationServiceProvider extends ServiceProvider
 {
@@ -83,7 +82,6 @@ class NotificationServiceProvider extends ServiceProvider
         });
     }
 }
-```
 
 ## Editor Visuale
 
@@ -109,8 +107,6 @@ class EmailTemplateResource extends Resource
                                         // Validazione personalizzata
                                     },
                                 ]),
-                        ]),
-                ]),
         ]);
     }
 }
@@ -129,12 +125,10 @@ class PreviewAction extends Action
         // 4. Log errori
     }
 }
-```
 
 ## Integrazioni
 
 ### 1. Mailgun
-```php
 // app/Services/MailgunService.php
 class MailgunService
 {
@@ -168,7 +162,6 @@ class MailtrapService
         // 4. Verifica risultato
     }
 }
-```
 
 ## Best Practices Generali
 
@@ -206,4 +199,4 @@ class MailtrapService
 Per contribuire alla documentazione, seguire le [Linee Guida](../../../docs/linee-guida-documentazione.md) e le [Regole dei Collegamenti](../../../docs/regole_collegamenti_documentazione.md).
 
 ## Collegamenti Completi
-Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../docs/README_links.md). 
+Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../docs/README_links.md).

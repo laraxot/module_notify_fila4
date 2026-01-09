@@ -1,62 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 909e45af (.)
-=======
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> bb7e77c2 (.)
-=======
->>>>>>> 36321fcb (.)
-=======
->>>>>>> b99af5a8 (.)
-=======
->>>>>>> 712617d3 (.)
-=======
->>>>>>> f3086887 (rebase 210)
-=======
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 3d462363 (rebase 210)
-=======
->>>>>>> 4fc21b78 (rebase 210)
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> 54ad93c4 (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 6e12a84b (rebase 210)
-=======
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 545977c8 (rebase 210)
-=======
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
 # Sistema Notifiche Email - il progetto
 
 ## Panoramica
@@ -119,7 +60,7 @@ class AppointmentNotification extends GenericNotification
     public function __construct(Appointment $appointment)
     {
         $template = MailTemplate::where('type', 'appointment')->first();
-        
+
         $data = [
             'appointment' => $appointment,
             'patient' => $appointment->patient,
@@ -137,7 +78,7 @@ class PaymentNotification extends GenericNotification
     public function __construct(Payment $payment)
     {
         $template = MailTemplate::where('type', 'payment')->first();
-        
+
         $data = [
             'payment' => $payment,
             'amount' => $payment->amount,
@@ -162,10 +103,10 @@ class SendAppointmentNotification
     public function handle(AppointmentCreated $event): void
     {
         $appointment = $event->appointment;
-        
+
         // Notifica paziente
         $appointment->patient->notify(new AppointmentNotification($appointment));
-        
+
         // Notifica medico
         $appointment->doctor->notify(new AppointmentNotification($appointment));
     }
@@ -176,10 +117,10 @@ class SendPaymentNotification
     public function handle(PaymentReceived $event): void
     {
         $payment = $event->payment;
-        
+
         // Notifica paziente
         $payment->patient->notify(new PaymentNotification($payment));
-        
+
         // Notifica amministrazione
         User::where('role', 'admin')->get()
             ->each->notify(new PaymentNotification($payment));
@@ -228,106 +169,7 @@ namespace Modules\Notify\Filament\Resources;
 
 class NotificationResource extends XotBaseResource
 {
-<<<<<<< HEAD
     public static function form(Form $form): Form
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
-=======
-    public static function form(Form $form): Form
->>>>>>> 75179b85 (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> f963d2c0 (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> 31f5d28f (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> 75179b85 (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> f963d2c0 (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> 31f5d28f (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> ee18dd92 (.)
-<<<<<<< HEAD
->>>>>>> 022fa8f1c (.)
-=======
-=======
-    public static function form(Form $form): Form
->>>>>>> 6608a1a0 (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> 66453ace (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> 23cbbaf5 (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> 2a97406c (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> 909e45af (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> 4f042b88 (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> bb7e77c2 (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> 36321fcb (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> b99af5a8 (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> 712617d3 (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> f3086887 (rebase 210)
-=======
-    public static function form(Form $form): Form
->>>>>>> fdb24863 (rebase 210)
-=======
-    public static function form(Form $form): Form
->>>>>>> 3d462363 (rebase 210)
-=======
-    public static function form(Form $form): Form
->>>>>>> 4fc21b78 (rebase 210)
-=======
-    public static function form(Form $form): Form
->>>>>>> 9c45d9bd (rebase 210)
-=======
-    public static function form(Form $form): Form
->>>>>>> 54ad93c4 (rebase 210)
-=======
-    public static function form(Form $form): Form
->>>>>>> eb62d6cf (rebase 210)
-=======
-    public static function form(Form $form): Form
->>>>>>> 6e12a84b (rebase 210)
-=======
-    public static function form(Form $form): Form
->>>>>>> 8c8937e7 (rebase 210)
-=======
-    public static function form(Form $form): Form
->>>>>>> 545977c8 (rebase 210)
-=======
-    public static function form(Form $form): Form
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
     {
         return $form->schema([
             Card::make()->schema([
@@ -336,13 +178,13 @@ class NotificationResource extends XotBaseResource
                     ->options(MailTemplate::pluck('name', 'id'))
                     ->required()
                     ->label('Template'),
-                    
+
                 // Dati
                 KeyValue::make('data')
                     ->label('Dati')
                     ->keyLabel('Chiave')
                     ->valueLabel('Valore'),
-                    
+
                 // Destinatari
                 Select::make('recipients')
                     ->multiple()
@@ -353,7 +195,7 @@ class NotificationResource extends XotBaseResource
                     ])
                     ->required()
                     ->label('Destinatari'),
-                    
+
                 // Programma
                 DateTimePicker::make('scheduled_at')
                     ->label('Programma')
@@ -379,7 +221,7 @@ class NotificationActions
                 ->action(function (Notification $record) {
                     $record->send();
                 }),
-                
+
             // Programma
             Action::make('schedule')
                 ->label('Programma')
@@ -392,7 +234,7 @@ class NotificationActions
                 ->action(function (array $data, Notification $record) {
                     $record->schedule($data['scheduled_at']);
                 }),
-                
+
             // Duplica
             Action::make('duplicate')
                 ->label('Duplica')
@@ -415,19 +257,19 @@ class NotificationTemplate
     public static function make(string $type, array $data = []): MailTemplate
     {
         $template = MailTemplate::where('type', $type)->first();
-        
+
         if (!$template) {
             throw new \Exception("Template {$type} not found");
         }
-        
+
         // Verifica placeholder
         $placeholders = $template->getPlaceholders();
         $missing = array_diff($placeholders, array_keys($data));
-        
+
         if (!empty($missing)) {
             throw new \Exception("Missing placeholders: " . implode(', ', $missing));
         }
-        
+
         return $template;
     }
 }
@@ -521,161 +363,9 @@ class NotificationDebugger
 - [Email Plugins Analysis](email-plugins-analysis.md)
 
 ## Vedi Anche
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [Laravel Notifications](https://laravel.com/docs/notifications)
-- [Laravel Events](https://laravel.com/docs/events)
-- [Laravel Mail](https://laravel.com/docs/mail) 
-=======
-=======
->>>>>>> 31f5d28f (.)
-=======
->>>>>>> 75179b85 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
->>>>>>> 75179b85 (.)
-=======
->>>>>>> 31f5d28f (.)
->>>>>>> 022fa8f1c (.)
 - [Laravel Notifications](https://laravel.com/project_docs/notifications)
 - [Laravel Events](https://laravel.com/project_docs/events)
-- [Laravel Mail](https://laravel.com/project_docs/mail) 
-=======
->>>>>>> fbed41ac (.)
+- [Laravel Mail](https://laravel.com/project_docs/mail)
 - [Laravel Notifications](https://laravel.com/docs/notifications)
 - [Laravel Events](https://laravel.com/docs/events)
-- [Laravel Mail](https://laravel.com/docs/mail) 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 75179b85 (.)
-=======
-- [Laravel Notifications](https://laravel.com/docs/notifications)
-- [Laravel Events](https://laravel.com/docs/events)
-- [Laravel Mail](https://laravel.com/docs/mail) 
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
->>>>>>> 75179b85 (.)
-=======
-- [Laravel Notifications](https://laravel.com/docs/notifications)
-- [Laravel Events](https://laravel.com/docs/events)
-- [Laravel Mail](https://laravel.com/docs/mail) 
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
->>>>>>> 75179b85 (.)
-=======
-- [Laravel Notifications](https://laravel.com/docs/notifications)
-- [Laravel Events](https://laravel.com/docs/events)
-- [Laravel Mail](https://laravel.com/docs/mail) 
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
-- [Laravel Notifications](https://laravel.com/docs/notifications)
-- [Laravel Events](https://laravel.com/docs/events)
-- [Laravel Mail](https://laravel.com/docs/mail) 
->>>>>>> ee18dd92 (.)
-<<<<<<< HEAD
->>>>>>> 022fa8f1c (.)
-=======
-=======
->>>>>>> 6608a1a0 (.)
-=======
-- [Laravel Notifications](https://laravel.com/docs/notifications)
-- [Laravel Events](https://laravel.com/docs/events)
-- [Laravel Mail](https://laravel.com/docs/mail) 
->>>>>>> 66453ace (.)
-=======
->>>>>>> 23cbbaf5 (.)
-=======
->>>>>>> 5fd545e4 (.)
-<<<<<<< HEAD
->>>>>>> ddee9d751 (.)
-=======
-=======
-- [Laravel Notifications](https://laravel.com/docs/notifications)
-- [Laravel Events](https://laravel.com/docs/events)
-- [Laravel Mail](https://laravel.com/docs/mail) 
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 909e45af (.)
-=======
-- [Laravel Notifications](https://laravel.com/docs/notifications)
-- [Laravel Events](https://laravel.com/docs/events)
-- [Laravel Mail](https://laravel.com/docs/mail) 
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> bb7e77c2 (.)
-=======
-- [Laravel Notifications](https://laravel.com/docs/notifications)
-- [Laravel Events](https://laravel.com/docs/events)
-- [Laravel Mail](https://laravel.com/docs/mail) 
->>>>>>> 36321fcb (.)
-=======
->>>>>>> b99af5a8 (.)
-=======
-- [Laravel Notifications](https://laravel.com/docs/notifications)
-- [Laravel Events](https://laravel.com/docs/events)
-- [Laravel Mail](https://laravel.com/docs/mail) 
->>>>>>> 712617d3 (.)
-=======
->>>>>>> f3086887 (rebase 210)
-=======
-- [Laravel Notifications](https://laravel.com/docs/notifications)
-- [Laravel Events](https://laravel.com/docs/events)
-- [Laravel Mail](https://laravel.com/docs/mail) 
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 3d462363 (rebase 210)
-=======
->>>>>>> 54220b28 (rebase 210)
-=======
->>>>>>> 4fc21b78 (rebase 210)
-=======
-- [Laravel Notifications](https://laravel.com/docs/notifications)
-- [Laravel Events](https://laravel.com/docs/events)
-- [Laravel Mail](https://laravel.com/docs/mail) 
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> 54ad93c4 (rebase 210)
-=======
-- [Laravel Notifications](https://laravel.com/docs/notifications)
-- [Laravel Events](https://laravel.com/docs/events)
-- [Laravel Mail](https://laravel.com/docs/mail) 
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 6e12a84b (rebase 210)
-=======
-- [Laravel Notifications](https://laravel.com/docs/notifications)
-- [Laravel Events](https://laravel.com/docs/events)
-- [Laravel Mail](https://laravel.com/docs/mail) 
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 545977c8 (rebase 210)
-=======
-- [Laravel Notifications](https://laravel.com/docs/notifications)
-- [Laravel Events](https://laravel.com/docs/events)
-- [Laravel Mail](https://laravel.com/docs/mail) 
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
+- [Laravel Mail](https://laravel.com/docs/mail)

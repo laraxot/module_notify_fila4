@@ -1,35 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> 712617d3 (.)
-=======
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 4fc21b78 (rebase 210)
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
 # Error Mailer System
 
 ## Panoramica
@@ -179,7 +147,7 @@ class NotificationService
     private function sendEmailNotification(ErrorLog $error): void
     {
         $notification = new ErrorEmailNotification($error);
-        
+
         foreach (config('error-mailer.notifications.email.recipients') as $recipient) {
             Mail::to($recipient)->queue($notification);
         }
@@ -201,100 +169,42 @@ class ErrorLogResource extends Resource
 {
     protected static ?string $model = ErrorLog::class;
 
-<<<<<<< HEAD
     public static function form(Form $form): Form
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
-=======
-    public static function form(Form $form): Form
->>>>>>> 75179b85 (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> f963d2c0 (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> 75179b85 (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> f963d2c0 (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> ee18dd92 (.)
-<<<<<<< HEAD
->>>>>>> 022fa8f1c (.)
-=======
-=======
-    public static function form(Form $form): Form
->>>>>>> 66453ace (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> 2a97406c (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> 4f042b88 (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> 712617d3 (.)
-=======
-    public static function form(Form $form): Form
->>>>>>> fdb24863 (rebase 210)
-=======
-    public static function form(Form $form): Form
->>>>>>> 4fc21b78 (rebase 210)
-=======
-    public static function form(Form $form): Form
->>>>>>> 9c45d9bd (rebase 210)
-=======
-    public static function form(Form $form): Form
->>>>>>> eb62d6cf (rebase 210)
-=======
-    public static function form(Form $form): Form
->>>>>>> 8c8937e7 (rebase 210)
-=======
-    public static function form(Form $form): Form
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
     {
         return $form->schema([
             Card::make()->schema([
                 TextInput::make('message')
                     ->label('Messaggio Errore')
                     ->disabled(),
-                    
+
                 TextInput::make('file')
                     ->label('File')
                     ->disabled(),
-                    
+
                 TextInput::make('line')
                     ->label('Linea')
                     ->disabled(),
-                    
+
                 CodeEditor::make('trace')
                     ->label('Stack Trace')
                     ->language('json')
                     ->disabled()
                     ->columnSpanFull(),
-                    
+
                 TextInput::make('request_url')
                     ->label('URL Richiesta')
                     ->disabled(),
-                    
+
                 TextInput::make('request_method')
                     ->label('Metodo Richiesta')
                     ->disabled(),
-                    
+
                 CodeEditor::make('request_data')
                     ->label('Dati Richiesta')
                     ->language('json')
                     ->disabled()
                     ->columnSpanFull(),
-                    
+
                 Select::make('status')
                     ->label('Stato')
                     ->options([
@@ -304,7 +214,7 @@ class ErrorLogResource extends Resource
                         'ignored' => 'Ignorato'
                     ])
                     ->required(),
-                    
+
                 Textarea::make('resolution_notes')
                     ->label('Note Risoluzione')
                     ->visible(fn ($record) => $record->status === 'resolved'),
@@ -320,17 +230,17 @@ class ErrorLogResource extends Resource
                     ->label('Messaggio')
                     ->searchable()
                     ->limit(50),
-                    
+
                 TextColumn::make('file')
                     ->label('File')
                     ->searchable(),
-                    
+
                 TextColumn::make('line')
                     ->label('Linea'),
-                    
+
                 TextColumn::make('environment')
                     ->label('Ambiente'),
-                    
+
                 BadgeColumn::make('status')
                     ->label('Stato')
                     ->colors([
@@ -339,7 +249,7 @@ class ErrorLogResource extends Resource
                         'success' => 'resolved',
                         'secondary' => 'ignored',
                     ]),
-                    
+
                 TextColumn::make('created_at')
                     ->label('Data')
                     ->dateTime()
@@ -353,7 +263,7 @@ class ErrorLogResource extends Resource
                         'resolved' => 'Risolto',
                         'ignored' => 'Ignorato'
                     ]),
-                    
+
                 SelectFilter::make('environment')
                     ->options([
                         'local' => 'Local',
@@ -370,7 +280,7 @@ class ErrorLogResource extends Resource
                         'resolved_at' => now()
                     ]))
                     ->requiresConfirmation(),
-                    
+
                 Action::make('ignore')
                     ->label('Ignora')
                     ->icon('heroicon-o-x-mark')
@@ -387,7 +297,7 @@ class ErrorLogResource extends Resource
                         'resolved_at' => now()
                     ]))
                     ->requiresConfirmation(),
-                    
+
                 BulkAction::make('ignore')
                     ->label('Ignora Selezionati')
                     ->action(fn ($records) => $records->each->update([
@@ -405,7 +315,7 @@ class ErrorLogResource extends Resource
 class ErrorStatsWidget extends Widget
 {
     protected static string $view = 'notify::widgets.error-stats';
-    
+
     protected int|string|array $columnSpan = 2;
 
     public function getStats(): array
@@ -425,7 +335,7 @@ class ErrorStatsWidget extends Widget
 class ErrorChartWidget extends Widget
 {
     protected static string $view = 'notify::widgets.error-chart';
-    
+
     protected int|string|array $columnSpan = 'full';
 
     public function getData(): array
@@ -454,29 +364,29 @@ return [
             'recipients' => explode(',', env('ERROR_MAILER_EMAIL_RECIPIENTS')),
             'cooldown' => env('ERROR_MAILER_EMAIL_COOLDOWN', 10), // minuti
         ],
-        
+
         'discord' => [
             'enabled' => env('ERROR_MAILER_DISCORD_ENABLED', false),
             'webhook' => env('ERROR_MAILER_DISCORD_WEBHOOK'),
             'cooldown' => env('ERROR_MAILER_DISCORD_COOLDOWN', 10),
         ],
-        
+
         'slack' => [
             'enabled' => env('ERROR_MAILER_SLACK_ENABLED', false),
             'webhook' => env('ERROR_MAILER_SLACK_WEBHOOK'),
             'cooldown' => env('ERROR_MAILER_SLACK_COOLDOWN', 10),
         ]
     ],
-    
+
     'environments' => [
         'enabled' => explode(',', env('ERROR_MAILER_ENVIRONMENTS', 'production')),
     ],
-    
+
     'cleanup' => [
         'enabled' => env('ERROR_MAILER_CLEANUP_ENABLED', true),
         'older_than_days' => env('ERROR_MAILER_CLEANUP_DAYS', 30),
     ],
-    
+
     'rate_limiting' => [
         'enabled' => env('ERROR_MAILER_RATE_LIMITING_ENABLED', true),
         'max_attempts' => env('ERROR_MAILER_RATE_LIMITING_MAX_ATTEMPTS', 10),
@@ -522,393 +432,7 @@ return [
 
 ## Vedi Anche
 
-<<<<<<< HEAD
 - [Laravel Exceptions](https://laravel.com/project_docs/errors)
 - [Filament Forms](https://filamentphp.com/project_docs/forms)
 - [Discord Webhooks](https://discord.com/developers/project_docs/resources/webhook)
-- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d09cb759 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
->>>>>>> d09cb759 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
->>>>>>> d09cb759 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
->>>>>>> 4689a827 (.)
-- [Laravel Exceptions](https://laravel.com/docs/errors)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
-=======
-- [Laravel Exceptions](https://laravel.com/project_docs/errors)
-- [Filament Forms](https://filamentphp.com/project_docs/forms)
-- [Discord Webhooks](https://discord.com/developers/project_docs/resources/webhook)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 75179b85 (.)
-=======
-- [Laravel Exceptions](https://laravel.com/docs/errors)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> d284d65 (.)
->>>>>>> d09cb759 (.)
-- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
-=======
-- [Laravel Exceptions](https://laravel.com/docs/errors)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
->>>>>>> 3f537838 (.)
-=======
-- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
->>>>>>> bf479cc (.)
->>>>>>> 31f5d28f (.)
-=======
-- [Laravel Exceptions](https://laravel.com/docs/errors)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
->>>>>>> a404ea71 (.)
-=======
-- [Laravel Exceptions](https://laravel.com/project_docs/errors)
-- [Filament Forms](https://filamentphp.com/project_docs/forms)
-- [Discord Webhooks](https://discord.com/developers/project_docs/resources/webhook)
-- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
->>>>>>> 75179b85 (.)
-=======
-- [Laravel Exceptions](https://laravel.com/docs/errors)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
-- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> d284d65 (.)
-- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
->>>>>>> d09cb759 (.)
-=======
-- [Laravel Exceptions](https://laravel.com/docs/errors)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
->>>>>>> 3f537838 (.)
-=======
-- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
->>>>>>> bf479cc (.)
->>>>>>> 31f5d28f (.)
-=======
-- [Laravel Exceptions](https://laravel.com/docs/errors)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
->>>>>>> a404ea71 (.)
-=======
-- [Laravel Exceptions](https://laravel.com/project_docs/errors)
-- [Filament Forms](https://filamentphp.com/project_docs/forms)
-- [Discord Webhooks](https://discord.com/developers/project_docs/resources/webhook)
-- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
->>>>>>> 75179b85 (.)
-=======
-- [Laravel Exceptions](https://laravel.com/docs/errors)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
-- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> d284d65 (.)
-- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
->>>>>>> d09cb759 (.)
-=======
-- [Laravel Exceptions](https://laravel.com/docs/errors)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
->>>>>>> 3f537838 (.)
-=======
-- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
->>>>>>> bf479cc (.)
->>>>>>> 31f5d28f (.)
-=======
-- [Laravel Exceptions](https://laravel.com/docs/errors)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
->>>>>>> a404ea71 (.)
-=======
-- [Laravel Exceptions](https://laravel.com/docs/errors)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
-- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
->>>>>>> ee18dd92 (.)
-<<<<<<< HEAD
->>>>>>> 022fa8f1c (.)
-=======
-=======
->>>>>>> d284d65 (.)
-- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
->>>>>>> 4689a827 (.)
-<<<<<<< HEAD
->>>>>>> c0f3d67cc (.)
-=======
-=======
-- [Laravel Exceptions](https://laravel.com/docs/errors)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
->>>>>>> 2941b0bd (.)
-=======
-- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
->>>>>>> bf479cc (.)
->>>>>>> 6608a1a0 (.)
-=======
-- [Laravel Exceptions](https://laravel.com/docs/errors)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
->>>>>>> ca10d6ad (.)
-=======
-- [Laravel Exceptions](https://laravel.com/docs/errors)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
-- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
->>>>>>> 66453ace (.)
-=======
->>>>>>> d284d65 (.)
-- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
->>>>>>> 7325acf3 (.)
-=======
-- [Laravel Exceptions](https://laravel.com/docs/errors)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
->>>>>>> 4c323e61 (.)
-=======
-- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
->>>>>>> bf479cc (.)
->>>>>>> 23cbbaf5 (.)
-=======
-- [Laravel Exceptions](https://laravel.com/docs/errors)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
->>>>>>> febe79e3 (.)
-=======
->>>>>>> 5fd545e4 (.)
-<<<<<<< HEAD
->>>>>>> ddee9d751 (.)
-=======
-=======
-- [Laravel Exceptions](https://laravel.com/docs/errors)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
-- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
->>>>>>> 2a97406c (.)
-=======
->>>>>>> d284d65 (.)
-- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
->>>>>>> f2e64178 (.)
-=======
-- [Laravel Exceptions](https://laravel.com/docs/errors)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
->>>>>>> 98d837b9 (.)
-=======
-- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
->>>>>>> bf479cc (.)
->>>>>>> 909e45af (.)
-=======
-- [Laravel Exceptions](https://laravel.com/docs/errors)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
->>>>>>> a29a4728 (.)
-=======
-- [Laravel Exceptions](https://laravel.com/docs/errors)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
-- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> d284d65 (.)
-- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
->>>>>>> c4bdacbf (.)
-=======
-- [Laravel Exceptions](https://laravel.com/docs/errors)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
->>>>>>> 4e4a7796 (.)
-=======
-- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
->>>>>>> bf479cc (.)
->>>>>>> bb7e77c2 (.)
-=======
-- [Laravel Exceptions](https://laravel.com/docs/errors)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
->>>>>>> c7a4727b (.)
-=======
-- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
->>>>>>> bf479cc (.)
->>>>>>> b99af5a8 (.)
-=======
-- [Laravel Exceptions](https://laravel.com/docs/errors)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
->>>>>>> 9721a5b2 (.)
-=======
-- [Laravel Exceptions](https://laravel.com/docs/errors)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
-- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
->>>>>>> 712617d3 (.)
-=======
->>>>>>> d284d65 (.)
-- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
->>>>>>> bd804d67 (.)
-=======
-- [Laravel Exceptions](https://laravel.com/docs/errors)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
->>>>>>> 116df547 (.)
-=======
-- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
->>>>>>> bf479cc (.)
->>>>>>> f3086887 (rebase 210)
-=======
-- [Laravel Exceptions](https://laravel.com/docs/errors)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
->>>>>>> 1442e291 (rebase 210)
-=======
-- [Laravel Exceptions](https://laravel.com/docs/errors)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
-- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> d284d65 (.)
-- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
->>>>>>> 229a065a (rebase 210)
-=======
-- [Laravel Exceptions](https://laravel.com/docs/errors)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
->>>>>>> 84082535 (rebase 210)
-=======
-- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
->>>>>>> bf479cc (.)
->>>>>>> 3d462363 (rebase 210)
-=======
-- [Laravel Exceptions](https://laravel.com/docs/errors)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
->>>>>>> fcaebc79 (rebase 210)
-=======
->>>>>>> 54220b28 (rebase 210)
-=======
-- [Laravel Exceptions](https://laravel.com/project_docs/errors)
-- [Filament Forms](https://filamentphp.com/project_docs/forms)
-- [Discord Webhooks](https://discord.com/developers/project_docs/resources/webhook)
-- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
->>>>>>> 4fc21b78 (rebase 210)
-=======
-- [Laravel Exceptions](https://laravel.com/docs/errors)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
-- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> d284d65 (.)
-- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
->>>>>>> 9f8e680a (rebase 210)
-=======
-- [Laravel Exceptions](https://laravel.com/docs/errors)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
->>>>>>> 7ffa94fc (rebase 210)
-=======
-- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
->>>>>>> bf479cc (.)
->>>>>>> 54ad93c4 (rebase 210)
-=======
-- [Laravel Exceptions](https://laravel.com/docs/errors)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
->>>>>>> 9d3810d0 (rebase 210)
-=======
-- [Laravel Exceptions](https://laravel.com/docs/errors)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
-- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> d284d65 (.)
-- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
->>>>>>> 5aedc39c (rebase 210)
-=======
-- [Laravel Exceptions](https://laravel.com/docs/errors)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
->>>>>>> 82e5ee2d (rebase 210)
-=======
-- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
->>>>>>> bf479cc (.)
->>>>>>> 6e12a84b (rebase 210)
-=======
-- [Laravel Exceptions](https://laravel.com/docs/errors)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
->>>>>>> d38aa9d2 (rebase 210)
-=======
-- [Laravel Exceptions](https://laravel.com/docs/errors)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
-- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> d284d65 (.)
-- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
->>>>>>> 22baa66d (rebase 210)
-=======
-- [Laravel Exceptions](https://laravel.com/docs/errors)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
->>>>>>> 5b50927d (rebase 210)
-=======
-- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
->>>>>>> bf479cc (.)
->>>>>>> 545977c8 (rebase 210)
-=======
-- [Laravel Exceptions](https://laravel.com/docs/errors)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
->>>>>>> 9e7ba5b6 (rebase 210)
-=======
-- [Laravel Exceptions](https://laravel.com/docs/errors)
-- [Filament Forms](https://filamentphp.com/docs/forms)
-- [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
-- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
+- [Slack Webhooks](https://api.slack.com/messaging/webhooks)

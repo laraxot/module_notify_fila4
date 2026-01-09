@@ -12,7 +12,6 @@ lang/
 │   └── template.php
 └── en/
     └── template.php
-```
 
 ## Formato delle Traduzioni
 
@@ -28,12 +27,10 @@ return [
             'tooltip' => 'Questo campo è obbligatorio',
         ],
         // Altri campi...
-    ],
     'navigation' => [
         'label' => 'Template Notifiche',
         'group' => 'Notifiche',
         'icon' => 'heroicon-o-bell',
-    ],
     'messages' => [
         'success' => [
             'created' => 'Template creato con successo',
@@ -43,8 +40,6 @@ return [
         'errors' => [
             'not_found' => 'Template non trovato',
             'unauthorized' => 'Non autorizzato',
-        ],
-    ],
 ];
 ```
 
@@ -55,20 +50,16 @@ return [
 ```php
 Forms\Components\TextInput::make('name')
 // Le label sono gestite automaticamente dal file di traduzione
-```
 
 ### Nella Navigazione
 
-```php
 protected static function getNavigationLabel(): string
 {
     return __('notify::template.navigation.label');
 }
-```
 
 ### Nei Messaggi
 
-```php
 Notification::make()
     ->success()
     ->title(__('notify::template.messages.success.created'));
@@ -109,12 +100,11 @@ Notification::make()
 4. Documentare le modifiche
 ### Versione HEAD
 
-5. Testare tutte le lingue 
+5. Testare tutte le lingue
 
 ### Versione Incoming
 
-5. Testare tutte le lingue 
-``` 
+```
 ## Collegamenti tra versioni di translations.md
 * [translations.md](../../../Chart/docs/translations.md)
 * [translations.md](../../../Reporting/docs/translations.md)
@@ -134,6 +124,4 @@ Notification::make()
 * [translations.md](../../../Patient/docs/translations.md)
 * [translations.md](../../../Cms/docs/translations.md)
 
-
 ---
-

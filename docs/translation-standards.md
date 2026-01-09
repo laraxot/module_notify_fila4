@@ -1,33 +1,6 @@
-# Standard per le Traduzioni 
+# Standard per le Traduzioni
 
-<<<<<<< HEAD
 Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di <main module>, con particolare attenzione al modulo Notify.
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di <nome progetto>, con particolare attenzione al modulo Notify.
-=======
-Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di SaluteOra, con particolare attenzione al modulo Notify.
->>>>>>> f963d2c0 (.)
-=======
-Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di SaluteOra, con particolare attenzione al modulo Notify.
->>>>>>> f963d2c0 (.)
-=======
-Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di SaluteOra, con particolare attenzione al modulo Notify.
->>>>>>> f963d2c0 (.)
-=======
-Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di <nome progetto>, con particolare attenzione al modulo Notify.
-=======
-<<<<<<< HEAD
-Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di <main module>, con particolare attenzione al modulo Notify.
-=======
-Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di SaluteOra, con particolare attenzione al modulo Notify.
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
 
 ## Struttura delle Cartelle
 
@@ -52,9 +25,9 @@ Le traduzioni devono essere organizzate nelle seguenti cartelle:
 
 ### Esempi Corretti
 
-✅ `send_sms.php` (non `send_s_m_s.php`)  
-✅ `send_aws_email.php` (non `send_a_w_s_email.php`)  
-✅ `send_whatsapp.php` (non `send_whats_app.php`)  
+✅ `send_sms.php` (non `send_s_m_s.php`)
+✅ `send_aws_email.php` (non `send_a_w_s_email.php`)
+✅ `send_whatsapp.php` (non `send_whats_app.php`)
 
 ## Struttura dei File di Traduzione
 

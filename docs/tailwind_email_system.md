@@ -52,7 +52,7 @@ return [
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="color-scheme" content="light">
     <meta name="supported-color-schemes" content="light">
-    
+
     <style>
         /* Tailwind Base Styles */
         @layer base {
@@ -63,27 +63,25 @@ return [
                 background-color: #f3f4f6;
             }
         }
-        
+
         /* Email-safe Tailwind utilities */
         .notify-email-wrapper {
             max-width: 600px;
             margin: 0 auto;
             background-color: white;
         }
-        
+
         .notify-email-header {
             padding: 1.5rem;
             background-color: #f9fafb;
             border-bottom: 1px solid #e5e7eb;
         }
-        
+
         .notify-email-content {
             padding: 2rem;
         }
-        
+
         .notify-email-footer {
-            padding: 1.5rem;
-            background-color: #f9fafb;
             border-top: 1px solid #e5e7eb;
             text-align: center;
             font-size: 0.875rem;
@@ -96,15 +94,12 @@ return [
         <div class="notify-email-header">
             @include('notify::emails.partials.logo')
         </div>
-        
+
         <div class="notify-email-content">
             @yield('content')
-        </div>
-        
+
         <div class="notify-email-footer">
             @include('notify::emails.partials.footer')
-        </div>
-    </div>
 </body>
 </html>
 ```
@@ -132,11 +127,10 @@ $alignment = match($align) {
     'center' => 'text-align: center;',
     'right' => 'text-align: right;',
     default => 'text-align: center;',
-};
 @endphp
 
 <div style="{{ $alignment }}">
-    <a href="{{ $url }}" 
+    <a href="{{ $url }}"
        style="display: inline-block; padding: 12px 24px; {{ $styles }} text-decoration: none; border-radius: 6px; font-weight: 500;">
         {{ $slot }}
     </a>
@@ -155,12 +149,12 @@ $alignment = match($align) {
     <h1 style="color: #111827; font-size: 1.875rem; font-weight: 700; margin-bottom: 1rem;">
         Benvenuto in {{ config('app.name') }}
     </h1>
-    
+
     <p style="color: #4b5563; font-size: 1rem; margin-bottom: 2rem;">
         Siamo felici di averti con noi! Ecco alcune informazioni importanti per iniziare.
     </p>
-    
-    <x-notify::email.button 
+
+    <x-notify::email.button
         :url="route('dashboard')"
         color="primary"
         align="center">
@@ -172,20 +166,14 @@ $alignment = match($align) {
     <h2 style="color: #111827; font-size: 1.25rem; font-weight: 600; margin-bottom: 1rem;">
         Prossimi Passi
     </h2>
-    
+
     <ul style="list-style-type: none; padding: 0; margin: 0;">
         <li style="margin-bottom: 1rem; padding-left: 1.5rem; position: relative;">
             <span style="position: absolute; left: 0; color: #2563eb;">✓</span>
             Completa il tuo profilo
         </li>
-        <li style="margin-bottom: 1rem; padding-left: 1.5rem; position: relative;">
-            <span style="position: absolute; left: 0; color: #2563eb;">✓</span>
             Esplora i servizi disponibili
-        </li>
-        <li style="margin-bottom: 1rem; padding-left: 1.5rem; position: relative;">
-            <span style="position: absolute; left: 0; color: #2563eb;">✓</span>
             Configura le tue preferenze
-        </li>
     </ul>
 </div>
 ```
@@ -210,13 +198,10 @@ $alignment = match($align) {
             <p style="margin: 0; color: #1e40af;">
                 {{ $notification->message }}
             </p>
-        </div>
-    </div>
-</div>
 
 @if($notification->action_url)
     <div style="margin-top: 2rem;">
-        <x-notify::email.button 
+        <x-notify::email.button
             :url="$notification->action_url"
             color="primary"
             align="left">
@@ -254,7 +239,6 @@ class EmailStyleHelper
             'xl' => '1.25rem',
             '2xl' => '1.5rem',
             default => '1rem',
-        };
 
         $textColor = match($color) {
             'gray-900' => '#111827',
@@ -279,7 +263,6 @@ class EmailStyleHelper
     }
 
     .notify-email-heading {
-        color: #111827;
         font-weight: 700;
         margin-bottom: 1rem;
     }
@@ -312,20 +295,16 @@ class WelcomeEmailTest extends TestCase
     public function welcome_email_contains_correct_styles()
     {
         $user = User::factory()->create();
-        
+
         $mailable = new WelcomeEmail($user);
-        
+
         $mailable->assertSeeInHtml('background-color: #2563eb');
         $mailable->assertSeeInHtml('font-weight: 700');
     }
 
-    /** @test */
     public function welcome_email_is_responsive()
     {
-        $user = User::factory()->create();
-        
-        $mailable = new WelcomeEmail($user);
-        
+
         $mailable->assertSeeInHtml('max-width: 600px');
         $mailable->assertSeeInHtml('@media (max-width: 600px)');
     }
@@ -346,9 +325,9 @@ class NotificationEmailTest extends TestCase
             'action_url' => 'https://example.com',
             'action_text' => 'Click Here',
         ]);
-        
+
         $mailable = new NotificationEmail($notification);
-        
+
         $mailable->assertSeeInHtml('Test Notification');
         $mailable->assertSeeInHtml('This is a test message');
         $mailable->assertSeeInHtml('href="https://example.com"');
@@ -367,4 +346,4 @@ class NotificationEmailTest extends TestCase
 Per contribuire alla documentazione, seguire le [Linee Guida](../../../docs/linee-guida-documentazione.md) e le [Regole dei Collegamenti](../../../docs/regole_collegamenti_documentazione.md).
 
 ## Collegamenti Completi
-Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../docs/README_links.md). 
+Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../docs/README_links.md).

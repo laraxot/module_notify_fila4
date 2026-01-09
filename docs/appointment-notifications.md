@@ -26,7 +26,7 @@ namespace Modules\Notify\Mail;
 class AppointmentNotificationMail extends Mailable implements ShouldQueue
 {
     use Queueable, SerializesModels;
-    
+
     // ...
 }
 ```
@@ -101,7 +101,6 @@ php artisan dental:send-appointment-reminders --days=7
 
 # Invio promemoria usando le code (asincrono)
 php artisan dental:send-appointment-reminders --days=1 --queue
-```
 
 ## Best Practices
 

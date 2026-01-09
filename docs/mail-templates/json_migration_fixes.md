@@ -44,12 +44,12 @@ if(in_array($this->getColumnType('subject'), ['text', 'string'])) {
     DB::table('mail_templates')->whereNotNull('subject')->update([
         'subject' => DB::raw("JSON_OBJECT('it', subject)")
     ]);
-    
+
     // Passo 2: Gestire i valori NULL (opzionale)
     DB::table('mail_templates')->whereNull('subject')->update([
         'subject' => DB::raw("JSON_OBJECT('it', '')")
     ]);
-    
+
     // Passo 3: Ora è sicuro cambiare il tipo di colonna
     $table->json('subject')->nullable()->change();
 }
@@ -73,7 +73,7 @@ MailTemplate::whereNotNull('subject')->each(function ($template) {
 
 Un'altra strategia sicura è:
 
-1. **Creare una nuova colonna** JSON 
+1. **Creare una nuova colonna** JSON
 2. **Migrare i dati** dalla vecchia colonna a quella nuova, convertendoli
 3. **Eliminare la vecchia colonna**
 4. **Rinominare** la nuova colonna
@@ -83,15 +83,15 @@ Un'altra strategia sicura è:
 if(in_array($this->getColumnType('subject'), ['text', 'string'])) {
     // Passo 1: Aggiungi colonna temporanea
     $table->json('subject_json')->nullable()->after('subject');
-    
+
     // Passo 2: Migra i dati (da eseguire dopo la modifica dello schema)
     Schema::table('mail_templates', function (Blueprint $table) {
         DB::statement("UPDATE mail_templates SET subject_json = JSON_OBJECT('it', subject) WHERE subject IS NOT NULL");
     });
-    
+
     // Passo 3: Elimina vecchia colonna
     $table->dropColumn('subject');
-    
+
     // Passo 4: Rinomina nuova colonna
     $table->renameColumn('subject_json', 'subject');
 }
@@ -119,49 +119,9 @@ if(!$this->hasColumn('subject')) {
 }
 ```
 
-<<<<<<< HEAD
 ## Applicazione a <main module>
 
 Nel contesto di <main module>, tutte le migrazioni che coinvolgono la conversione di campi esistenti a JSON devono seguire queste linee guida, in particolare:
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 36ac4fc1 (.)
-## Applicazione a <nome progetto>
-
-Nel contesto di <nome progetto>, tutte le migrazioni che coinvolgono la conversione di campi esistenti a JSON devono seguire queste linee guida, in particolare:
-=======
-<<<<<<< HEAD
-## Applicazione a SaluteOra
-
-Nel contesto di SaluteOra, tutte le migrazioni che coinvolgono la conversione di campi esistenti a JSON devono seguire queste linee guida, in particolare:
->>>>>>> f963d2c0 (.)
-=======
-## Applicazione a SaluteOra
-
-Nel contesto di SaluteOra, tutte le migrazioni che coinvolgono la conversione di campi esistenti a JSON devono seguire queste linee guida, in particolare:
->>>>>>> f963d2c0 (.)
-=======
-## Applicazione a SaluteOra
-
-Nel contesto di SaluteOra, tutte le migrazioni che coinvolgono la conversione di campi esistenti a JSON devono seguire queste linee guida, in particolare:
->>>>>>> f963d2c0 (.)
-=======
-<<<<<<< HEAD
-## Applicazione a <main module>
-
-Nel contesto di <main module>, tutte le migrazioni che coinvolgono la conversione di campi esistenti a JSON devono seguire queste linee guida, in particolare:
-=======
-## Applicazione a SaluteOra
-
-Nel contesto di SaluteOra, tutte le migrazioni che coinvolgono la conversione di campi esistenti a JSON devono seguire queste linee guida, in particolare:
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
 
 1. Le migrazioni per `mail_templates` e tabelle simili
 2. Campi multilingua che utilizzano il trait `HasTranslations`
@@ -172,34 +132,7 @@ Nel contesto di SaluteOra, tutte le migrazioni che coinvolgono la conversione di
 È necessario esaminare tutte le migrazioni esistenti per identificare pattern simili di conversione diretta a JSON:
 
 ```bash
-<<<<<<< HEAD
 grep -r "json.*change" /var/www/html/<directory progetto>/laravel/Modules/*/database/migrations/
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-grep -r "json.*change" /var/www/html/<nome progetto>/laravel/Modules/*/database/migrations/
-=======
-grep -r "json.*change" /var/www/html/saluteora/laravel/Modules/*/database/migrations/
->>>>>>> f963d2c0 (.)
-=======
-grep -r "json.*change" /var/www/html/saluteora/laravel/Modules/*/database/migrations/
->>>>>>> f963d2c0 (.)
-=======
-grep -r "json.*change" /var/www/html/saluteora/laravel/Modules/*/database/migrations/
->>>>>>> f963d2c0 (.)
-=======
-grep -r "json.*change" /var/www/html/<nome progetto>/laravel/Modules/*/database/migrations/
-=======
-<<<<<<< HEAD
-grep -r "json.*change" /var/www/html/<directory progetto>/laravel/Modules/*/database/migrations/
-=======
-grep -r "json.*change" /var/www/html/saluteora/laravel/Modules/*/database/migrations/
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
 ```
 
 I problemi più comuni si verificano in migrazioni che coinvolgono campi con traduzioni multilingua o configurazioni serializzate.

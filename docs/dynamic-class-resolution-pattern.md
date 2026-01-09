@@ -1,234 +1,7 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 125a2c2b8 (.)
-# Pattern di Risoluzione Dinamica delle Classi vs Pattern Match
-
-<<<<<<< HEAD
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di .
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di SaluteOra.
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di <nome progetto>.
-=======
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di .
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di SaluteOra.
->>>>>>> 75179b85 (.)
-=======
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di SaluteOra.
->>>>>>> f963d2c0 (.)
-=======
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di SaluteOra.
-=======
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di SaluteOra.
->>>>>>> 31f5d28f (.)
-=======
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di SaluteOra.
->>>>>>> 31f5d28f (.)
-=======
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di .
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di <nome progetto>.
->>>>>>> bf479cc (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 31f5d28f (.)
-=======
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di SaluteOra.
->>>>>>> a404ea71 (.)
-=======
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di .
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di SaluteOra.
->>>>>>> 75179b85 (.)
-=======
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di SaluteOra.
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di SaluteOra.
->>>>>>> a404ea71 (.)
-=======
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di .
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di SaluteOra.
->>>>>>> 75179b85 (.)
-=======
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di SaluteOra.
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di SaluteOra.
->>>>>>> a404ea71 (.)
-=======
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di SaluteOra.
->>>>>>> ee18dd92 (.)
-<<<<<<< HEAD
->>>>>>> 022fa8f1c (.)
-=======
-=======
->>>>>>> 6608a1a0 (.)
-=======
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di SaluteOra.
->>>>>>> ca10d6ad (.)
-=======
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di SaluteOra.
->>>>>>> 66453ace (.)
-=======
->>>>>>> 23cbbaf5 (.)
-=======
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di SaluteOra.
->>>>>>> febe79e3 (.)
-=======
-# Pattern di Risoluzione Dinamica delle Classi vs Pattern Match
-
-<<<<<<< HEAD
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di SaluteOra.
-<<<<<<< HEAD
->>>>>>> 2a97406c (.)
-=======
-=======
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di .
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di <nome progetto>.
->>>>>>> bf479cc (.)
->>>>>>> 909e45af (.)
-=======
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di SaluteOra.
->>>>>>> a29a4728 (.)
-=======
-# Pattern di Risoluzione Dinamica delle Classi vs Pattern Match
-
-<<<<<<< HEAD
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di SaluteOra.
-<<<<<<< HEAD
->>>>>>> 4f042b88 (.)
-=======
-=======
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di .
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di <nome progetto>.
->>>>>>> bf479cc (.)
->>>>>>> bb7e77c2 (.)
-=======
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di SaluteOra.
->>>>>>> c7a4727b (.)
-=======
->>>>>>> b99af5a8 (.)
-=======
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di SaluteOra.
->>>>>>> 9721a5b2 (.)
-=======
-# Pattern di Risoluzione Dinamica delle Classi vs Pattern Match
-
-<<<<<<< HEAD
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di SaluteOra.
-<<<<<<< HEAD
->>>>>>> 712617d3 (.)
-=======
-=======
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di .
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di <nome progetto>.
->>>>>>> bf479cc (.)
->>>>>>> f3086887 (rebase 210)
-=======
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di SaluteOra.
->>>>>>> 1442e291 (rebase 210)
-=======
-# Pattern di Risoluzione Dinamica delle Classi vs Pattern Match
-
-<<<<<<< HEAD
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di SaluteOra.
-<<<<<<< HEAD
->>>>>>> fdb24863 (rebase 210)
-=======
-=======
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di .
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di <nome progetto>.
->>>>>>> bf479cc (.)
->>>>>>> 3d462363 (rebase 210)
-=======
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di SaluteOra.
->>>>>>> fcaebc79 (rebase 210)
-=======
 # Pattern di Risoluzione Dinamica delle Classi vs Pattern Match
 
 Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di .
 Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di SaluteOra.
->>>>>>> 4fc21b78 (rebase 210)
-=======
-# Pattern di Risoluzione Dinamica delle Classi vs Pattern Match
-
-<<<<<<< HEAD
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di SaluteOra.
-<<<<<<< HEAD
->>>>>>> 9c45d9bd (rebase 210)
-=======
-=======
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di .
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di <nome progetto>.
->>>>>>> bf479cc (.)
->>>>>>> 54ad93c4 (rebase 210)
-=======
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di SaluteOra.
->>>>>>> 9d3810d0 (rebase 210)
-=======
-# Pattern di Risoluzione Dinamica delle Classi vs Pattern Match
-
-<<<<<<< HEAD
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di SaluteOra.
-<<<<<<< HEAD
->>>>>>> eb62d6cf (rebase 210)
-=======
-=======
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di .
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di <nome progetto>.
->>>>>>> bf479cc (.)
->>>>>>> 6e12a84b (rebase 210)
-=======
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di SaluteOra.
->>>>>>> d38aa9d2 (rebase 210)
-=======
-# Pattern di Risoluzione Dinamica delle Classi vs Pattern Match
-
-<<<<<<< HEAD
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di SaluteOra.
-<<<<<<< HEAD
->>>>>>> 8c8937e7 (rebase 210)
-=======
-=======
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di .
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di <nome progetto>.
->>>>>>> bf479cc (.)
->>>>>>> 545977c8 (rebase 210)
-=======
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di SaluteOra.
->>>>>>> 9e7ba5b6 (rebase 210)
-=======
-# Pattern di Risoluzione Dinamica delle Classi vs Pattern Match
-
-Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di SaluteOra.
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
 
 ## Implementazione Attuale con Match
 
@@ -239,7 +12,7 @@ Attualmente, nel `SmsActionFactory`, viene utilizzato un pattern match per mappa
 public function create(?string $driver = null): SmsActionInterface
 {
     $driver = $driver ?? Config::get('sms.default', 'smsfactor');
-    
+
     return match ($driver) {
         'smsfactor' => app(SendSmsFactorSMSAction::class),
         'twilio' => app(SendTwilioSMSAction::class),
@@ -261,18 +34,18 @@ Con la risoluzione dinamica, il nome della classe viene costruito in base a una 
 public function create(?string $driver = null): SmsActionInterface
 {
     $driver = $driver ?? Config::get('sms.default', 'smsfactor');
-    
+
     // Normalizza il nome del driver (per gestire casi come "sms-factor" o "smsFactor")
     $normalizedDriver = str_replace(['-', '_'], '', $driver);
-    
+
     // Costruisci il nome della classe seguendo la convenzione
     $className = "Modules\\Notify\\Actions\\SMS\\Send" . ucfirst($normalizedDriver) . "SMSAction";
-    
+
     // Verifica se la classe esiste
     if (!class_exists($className)) {
         throw new Exception("Unsupported SMS driver: {$driver}. Class {$className} not found.");
     }
-    
+
     return app($className);
 }
 ```
@@ -329,7 +102,7 @@ final class SmsActionFactory
         'gammu',
         'netfun',
     ];
-    
+
     /**
      * Mappatura di alias ai nomi dei driver effettivi.
      */
@@ -341,22 +114,22 @@ final class SmsActionFactory
         'aws' => 'aws',
         'amazon' => 'aws',
     ];
-    
+
     public function create(?string $driver = null): SmsProviderActionInterface
     {
         $driver = $driver ?? Config::get('sms.default', 'smsfactor');
-        
+
         // Normalizza il nome del driver e assicura formato camelCase
         $normalizedDriver = $this->normalizeDriverName($driver);
-        
+
         // Avvisa per driver non standard
         if (!in_array($normalizedDriver, $this->supportedDrivers)) {
             Log::warning("Attempting to use non-standard SMS driver: {$driver}");
         }
-        
+
         // Costruisci il nome della classe seguendo la convenzione
         $className = "Modules\\Notify\\Actions\\SMS\\Send" . ucfirst($normalizedDriver) . "SMSAction";
-        
+
         // Verifica se la classe esiste
         if (!class_exists($className)) {
             Log::error("SMS driver class not found", [
@@ -364,25 +137,25 @@ final class SmsActionFactory
                 'normalized' => $normalizedDriver,
                 'className' => $className
             ]);
-            
+
             throw new Exception("Unsupported SMS driver: {$driver}. Class {$className} not found.");
         }
-        
+
         $instance = app($className);
-        
+
         // Verifica che l'istanza implementi l'interfaccia corretta
         if (!($instance instanceof SmsProviderActionInterface)) {
             throw new Exception("Class {$className} does not implement SmsProviderActionInterface.");
         }
-        
+
         return $instance;
     }
-    
+
     private function normalizeDriverName(string $driver): string
     {
         // Rimuovi trattini e underscore
         $normalized = str_replace(['-', '_', ' '], '', strtolower($driver));
-        
+
         // Gestisci casi speciali e alias tramite la mappa di alias
         return $this->driverAliases[$normalized] ?? $normalized;
     }
@@ -401,7 +174,7 @@ Questa implementazione include tutte le raccomandazioni chiave del pattern di ri
 
 ## Conclusione e Raccomandazione
 
-La risoluzione dinamica delle classi offre vantaggi significativi in termini di estensibilità e manutenibilità, ma introduce anche rischi di errori runtime. 
+La risoluzione dinamica delle classi offre vantaggi significativi in termini di estensibilità e manutenibilità, ma introduce anche rischi di errori runtime.
 
 **Raccomandazione**: Implementare la risoluzione dinamica con appropriate misure di mitigazione:
 
@@ -412,39 +185,3 @@ La risoluzione dinamica delle classi offre vantaggi significativi in termini di 
 5. Considerare l'implementazione di un meccanismo di cache per migliorare le performance
 
 Questa soluzione combina i vantaggi della risoluzione dinamica con la sicurezza e il controllo offerti dall'approccio match, offrendo il miglior compromesso tra flessibilità e robustezza.
-<<<<<<< HEAD
-=======
->>>>>>> 5fd545e4 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5fd545e4 (.)
-=======
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> 712617d3 (.)
-=======
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 54220b28 (rebase 210)
-=======
->>>>>>> 4fc21b78 (rebase 210)
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)

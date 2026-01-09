@@ -1,62 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 909e45af (.)
-=======
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> bb7e77c2 (.)
-=======
->>>>>>> 36321fcb (.)
-=======
->>>>>>> b99af5a8 (.)
-=======
->>>>>>> 712617d3 (.)
-=======
->>>>>>> f3086887 (rebase 210)
-=======
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 3d462363 (rebase 210)
-=======
->>>>>>> 4fc21b78 (rebase 210)
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> 54ad93c4 (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 6e12a84b (rebase 210)
-=======
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 545977c8 (rebase 210)
-=======
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
 # Risorse Filament del Modulo Notify
 
 ### Versione HEAD
@@ -75,7 +16,6 @@ MailTemplateResource gestisce i template delle email nel sistema. Estende `XotBa
 
 ---
 
-
 ### Schema del Form
 
 ```php
@@ -90,7 +30,6 @@ public static function getFormSchema(): array
 
 ### Versione HEAD
 
-
 ### Versione Incoming
 
                 Forms\Components\TextInput::make('code')
@@ -100,7 +39,6 @@ public static function getFormSchema(): array
 
                 Forms\Components\Textarea::make('description')
                     ->maxLength(65535),
-
 
 ---
 
@@ -281,7 +219,6 @@ public static function getTableActions(): array
 
 ### Versione HEAD
 
-
 ### Versione Incoming
 
 4. **Validazione JSON**
@@ -294,114 +231,16 @@ public static function getTableActions(): array
    - Struttura gerarchica delle traduzioni
    - Supporto per tooltip e placeholder
 
-
 ---
 
 ## Collegamenti Bidirezionali
 
 ### Collegamenti nella Root
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 31f5d28f (.)
-=======
->>>>>>> 75179b85 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
->>>>>>> 75179b85 (.)
-=======
->>>>>>> 31f5d28f (.)
->>>>>>> 022fa8f1c (.)
 - [Architettura Filament](../../../../project_docs/architecture/filament.md)
 - [Gestione Notifiche](../../../../project_docs/architecture/notifications.md)
 
 ### Collegamenti ai Moduli
 - [XotBaseResource](../../Xot/project_docs/XotBaseResource.md)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 75179b85 (.)
-=======
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
->>>>>>> 75179b85 (.)
-=======
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
->>>>>>> 75179b85 (.)
-=======
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
->>>>>>> ee18dd92 (.)
-<<<<<<< HEAD
->>>>>>> 022fa8f1c (.)
-=======
-=======
->>>>>>> 6608a1a0 (.)
-=======
->>>>>>> 66453ace (.)
-=======
->>>>>>> 23cbbaf5 (.)
-=======
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 909e45af (.)
-=======
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> bb7e77c2 (.)
-=======
->>>>>>> 36321fcb (.)
-=======
->>>>>>> b99af5a8 (.)
-=======
->>>>>>> 712617d3 (.)
-=======
->>>>>>> f3086887 (rebase 210)
-=======
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 3d462363 (rebase 210)
-=======
->>>>>>> 4fc21b78 (rebase 210)
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> 54ad93c4 (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 6e12a84b (rebase 210)
-=======
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 545977c8 (rebase 210)
-=======
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
 - [Architettura Filament](../../../../docs/architecture/filament.md)
 - [Gestione Notifiche](../../../../docs/architecture/notifications.md)
 
@@ -417,117 +256,20 @@ public static function getTableActions(): array
 4. Le azioni della tabella seguono le convenzioni standard
 ### Versione HEAD
 
-5. Non ci sono override non necessari di metodi 
+5. Non ci sono override non necessari di metodi
 
 ### Versione Incoming
 
 5. Non ci sono override non necessari di metodi
 6. I campi JSON sono validati correttamente
-7. Le traduzioni seguono la struttura corretta 
+7. Le traduzioni seguono la struttura corretta
 ## Collegamenti tra versioni di filament-resources.md
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 31f5d28f (.)
-=======
->>>>>>> 75179b85 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
->>>>>>> 75179b85 (.)
-=======
->>>>>>> 31f5d28f (.)
->>>>>>> 022fa8f1c (.)
 * [filament-resources.md](../../../../project_docs/tecnico/filament/filament-resources.md)
 * [filament-resources.md](../../../../project_docs/regole/filament-resources.md)
 * [filament-resources.md](../../Gdpr/project_docs/filament-resources.md)
 * [filament-resources.md](../../Xot/project_docs/filament-resources.md)
 * [filament-resources.md](../../Patient/project_docs/filament-resources.md)
 * [filament-resources.md](../../Cms/project_docs/filament-resources.md)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 75179b85 (.)
-=======
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
->>>>>>> 75179b85 (.)
-=======
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
->>>>>>> 75179b85 (.)
-=======
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
->>>>>>> ee18dd92 (.)
-<<<<<<< HEAD
->>>>>>> 022fa8f1c (.)
-=======
-=======
->>>>>>> 6608a1a0 (.)
-=======
->>>>>>> 66453ace (.)
-=======
->>>>>>> 23cbbaf5 (.)
-=======
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 909e45af (.)
-=======
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> bb7e77c2 (.)
-=======
->>>>>>> 36321fcb (.)
-=======
->>>>>>> b99af5a8 (.)
-=======
->>>>>>> 712617d3 (.)
-=======
->>>>>>> f3086887 (rebase 210)
-=======
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 3d462363 (rebase 210)
-=======
->>>>>>> 4fc21b78 (rebase 210)
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> 54ad93c4 (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 6e12a84b (rebase 210)
-=======
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 545977c8 (rebase 210)
-=======
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
 * [filament-resources.md](../../../../docs/tecnico/filament/filament-resources.md)
 * [filament-resources.md](../../../../docs/regole/filament-resources.md)
 * [filament-resources.md](../../Gdpr/docs/filament-resources.md)
@@ -535,69 +277,4 @@ public static function getTableActions(): array
 * [filament-resources.md](../../Patient/docs/filament-resources.md)
 * [filament-resources.md](../../Cms/docs/filament-resources.md)
 
-
 ---
-
-<<<<<<< HEAD
-=======
->>>>>>> 5fd545e4 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5fd545e4 (.)
-=======
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 909e45af (.)
-=======
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> bb7e77c2 (.)
-=======
->>>>>>> 36321fcb (.)
-=======
->>>>>>> b99af5a8 (.)
-=======
->>>>>>> 712617d3 (.)
-=======
->>>>>>> f3086887 (rebase 210)
-=======
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 3d462363 (rebase 210)
-=======
->>>>>>> 54220b28 (rebase 210)
-=======
->>>>>>> 4fc21b78 (rebase 210)
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> 54ad93c4 (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 6e12a84b (rebase 210)
-=======
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 545977c8 (rebase 210)
-=======
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)

@@ -2,34 +2,7 @@
 
 ## Introduzione
 
-<<<<<<< HEAD
 Questo documento esplora i componenti Filament che possono migliorare l'esperienza utente per i campi `name` e `slug` nel form di gestione dei template email. I miglioramenti proposti seguono le convenzioni del progetto <main module>, mantenendo la coerenza visiva e migliorando l'usabilità.
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-Questo documento esplora i componenti Filament che possono migliorare l'esperienza utente per i campi `name` e `slug` nel form di gestione dei template email. I miglioramenti proposti seguono le convenzioni del progetto <nome progetto>, mantenendo la coerenza visiva e migliorando l'usabilità.
-=======
-Questo documento esplora i componenti Filament che possono migliorare l'esperienza utente per i campi `name` e `slug` nel form di gestione dei template email. I miglioramenti proposti seguono le convenzioni del progetto SaluteOra, mantenendo la coerenza visiva e migliorando l'usabilità.
->>>>>>> f963d2c0 (.)
-=======
-Questo documento esplora i componenti Filament che possono migliorare l'esperienza utente per i campi `name` e `slug` nel form di gestione dei template email. I miglioramenti proposti seguono le convenzioni del progetto SaluteOra, mantenendo la coerenza visiva e migliorando l'usabilità.
->>>>>>> f963d2c0 (.)
-=======
-Questo documento esplora i componenti Filament che possono migliorare l'esperienza utente per i campi `name` e `slug` nel form di gestione dei template email. I miglioramenti proposti seguono le convenzioni del progetto SaluteOra, mantenendo la coerenza visiva e migliorando l'usabilità.
->>>>>>> f963d2c0 (.)
-=======
-Questo documento esplora i componenti Filament che possono migliorare l'esperienza utente per i campi `name` e `slug` nel form di gestione dei template email. I miglioramenti proposti seguono le convenzioni del progetto <nome progetto>, mantenendo la coerenza visiva e migliorando l'usabilità.
-=======
-<<<<<<< HEAD
-Questo documento esplora i componenti Filament che possono migliorare l'esperienza utente per i campi `name` e `slug` nel form di gestione dei template email. I miglioramenti proposti seguono le convenzioni del progetto <main module>, mantenendo la coerenza visiva e migliorando l'usabilità.
-=======
-Questo documento esplora i componenti Filament che possono migliorare l'esperienza utente per i campi `name` e `slug` nel form di gestione dei template email. I miglioramenti proposti seguono le convenzioni del progetto SaluteOra, mantenendo la coerenza visiva e migliorando l'usabilità.
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
 
 ## Componenti per il Campo `name`
 
@@ -95,7 +68,7 @@ Questo documento esplora i componenti Filament che possono migliorare l'esperien
     ->required()
     ->unique(ignoreRecord: true)
     ->maxLength(255)
-    ->afterStateUpdated(fn (string $context, $state, callable $set) => 
+    ->afterStateUpdated(fn (string $context, $state, callable $set) =>
         $context === 'create' ? $set('slug', Str::slug($state)) : null)
     ->helperText('Identificatore unico utilizzato nel codice')
     ->prefixIcon('heroicon-o-link')
@@ -133,7 +106,7 @@ Questo documento esplora i componenti Filament che possono migliorare l'esperien
         Forms\Components\Actions\Action::make('regenerateSlug')
             ->icon('heroicon-o-arrow-path')
             ->tooltip('Rigenera dallo slug dal nome')
-            ->action(fn (Forms\Get $get, Forms\Set $set) => 
+            ->action(fn (Forms\Get $get, Forms\Set $set) =>
                 $set('slug', Str::slug($get('name'))))
     ),
 ```
@@ -157,7 +130,7 @@ Forms\Components\Group::make([
                 $set('slug', Str::slug($state));
             }
         }),
-        
+
     Forms\Components\Grid::make(2)
         ->schema([
             'generateSlug' => Forms\Components\Toggle::make('generateSlug')
@@ -169,7 +142,7 @@ Forms\Components\Group::make([
                         $set('slug', Str::slug($get('name')));
                     }
                 }),
-                
+
             'slug' => Forms\Components\TextInput::make('slug')
                 ->required()
                 ->unique(ignoreRecord: true)
@@ -240,34 +213,7 @@ return [
 ];
 ```
 
-<<<<<<< HEAD
 ## Conformità con gli Standard <main module>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-## Conformità con gli Standard <nome progetto>
-=======
-## Conformità con gli Standard SaluteOra
->>>>>>> f963d2c0 (.)
-=======
-## Conformità con gli Standard SaluteOra
->>>>>>> f963d2c0 (.)
-=======
-## Conformità con gli Standard SaluteOra
->>>>>>> f963d2c0 (.)
-=======
-## Conformità con gli Standard <nome progetto>
-=======
-<<<<<<< HEAD
-## Conformità con gli Standard <main module>
-=======
-## Conformità con gli Standard SaluteOra
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
 
 Tutti i componenti proposti:
 1. Non utilizzano il metodo `->label()` sui componenti Filament
@@ -283,34 +229,7 @@ I miglioramenti UI/UX proposti per i campi `name` e `slug` si concentrano su:
 3. **Azioni contestuali** che facilitano operazioni comuni
 4. **Relazioni intuitive** tra campi correlati
 
-<<<<<<< HEAD
 L'implementazione di questi miglioramenti rispetta le convenzioni del progetto <main module> mentre offre un'esperienza utente significativamente migliorata nella gestione dei template email.
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-L'implementazione di questi miglioramenti rispetta le convenzioni del progetto <nome progetto> mentre offre un'esperienza utente significativamente migliorata nella gestione dei template email.
-=======
-L'implementazione di questi miglioramenti rispetta le convenzioni del progetto SaluteOra mentre offre un'esperienza utente significativamente migliorata nella gestione dei template email.
->>>>>>> f963d2c0 (.)
-=======
-L'implementazione di questi miglioramenti rispetta le convenzioni del progetto SaluteOra mentre offre un'esperienza utente significativamente migliorata nella gestione dei template email.
->>>>>>> f963d2c0 (.)
-=======
-L'implementazione di questi miglioramenti rispetta le convenzioni del progetto SaluteOra mentre offre un'esperienza utente significativamente migliorata nella gestione dei template email.
->>>>>>> f963d2c0 (.)
-=======
-L'implementazione di questi miglioramenti rispetta le convenzioni del progetto <nome progetto> mentre offre un'esperienza utente significativamente migliorata nella gestione dei template email.
-=======
-<<<<<<< HEAD
-L'implementazione di questi miglioramenti rispetta le convenzioni del progetto <main module> mentre offre un'esperienza utente significativamente migliorata nella gestione dei template email.
-=======
-L'implementazione di questi miglioramenti rispetta le convenzioni del progetto SaluteOra mentre offre un'esperienza utente significativamente migliorata nella gestione dei template email.
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
 
 ## Riferimenti
 

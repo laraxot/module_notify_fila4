@@ -1,41 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> 36321fcb (.)
-=======
->>>>>>> 712617d3 (.)
-=======
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 4fc21b78 (rebase 210)
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 36ac4fc1 (.)
-=======
->>>>>>> c8b1c8bf (.)
-=======
->>>>>>> 9cf0dc90 (.)
 # Sistema di Code per Email - il progetto
 
 ## Panoramica
@@ -68,21 +30,14 @@ class SendTemplatedEmailJob implements ShouldQueue
      */
     public $tries = 3;
 
-    /**
      * Timeout del job in secondi.
-     *
-     * @var int
-     */
     public $timeout = 60;
 
-    /**
      * Costruttore del job.
-     *
      * @param string $to Email destinatario
      * @param string $mailable Classe mailable
      * @param array<string, mixed> $data Dati per il template
      * @param string|null $locale Lingua del template
-     */
     public function __construct(
         protected string $to,
         protected string $mailable,
@@ -158,13 +113,11 @@ return [
             'retry_after' => 90,
             'block_for' => null,
         ],
-    ],
 
     'failed' => [
         'driver' => env('QUEUE_FAILED_DRIVER', 'database-uuids'),
         'database' => env('DB_CONNECTION', 'mysql'),
         'table' => 'failed_jobs',
-    ],
 ];
 ```
 
@@ -181,15 +134,13 @@ class QueueWorkerManager
     public function startWorkers(): void
     {
         $workerCount = config('notify.queue.workers', 2);
-        
+
         for ($i = 0; $i < $workerCount; $i++) {
             Process::run('php artisan queue:work --queue=emails --tries=3');
         }
     }
 
-    /**
      * Monitora lo stato dei worker.
-     */
     public function monitorWorkers(): array
     {
         return [
@@ -215,10 +166,7 @@ SendTemplatedEmailJob::dispatch(
 
 // Invio multiplo
 $users->each(function ($user) {
-    SendTemplatedEmailJob::dispatch(
         $user->email,
-        WelcomeEmail::class,
-        ['user' => $user]
     )->onQueue('emails');
 });
 ```
@@ -226,14 +174,7 @@ $users->each(function ($user) {
 ### 2. Gestione Worker
 
 ```bash
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> c8b1c8bf (.)
-=======
-
->>>>>>> 9cf0dc90 (.)
 # Avvia worker dedicato
 php artisan queue:work --queue=emails
 
@@ -243,7 +184,6 @@ php artisan queue:monitor
 # Gestione failed jobs
 php artisan queue:failed
 php artisan queue:retry all
-```
 
 ## Best Practices
 
@@ -262,7 +202,6 @@ php artisan queue:retry all
     'emails-high' => 100,  // 100/min
     'emails-normal' => 50, // 50/min
     'emails-bulk' => 10,   // 10/min
-],
 ```
 
 ### 2. Monitoraggio
@@ -274,11 +213,9 @@ $counter = Counter::create('emails_sent_total', 'Total emails sent')
 
 $histogram = Histogram::create('email_sending_duration_seconds', 'Time spent sending emails')
     ->observe($duration);
-```
 
 ### 3. Retry Strategy
 
-```php
 public function backoff(): array
 {
     return [
@@ -305,15 +242,11 @@ Log::channel('mail')->error('Email sending failed', [
     'error' => $e->getMessage(),
     'trace' => $e->getTraceAsString(),
 ]);
-```
 
 ### 2. Notifiche
 
-```php
 Notification::route('slack', config('notify.error_channel'))
     ->notify(new FailedMailNotification([
-        'to' => $this->to,
-        'error' => $e->getMessage(),
     ]));
 ```
 
@@ -328,638 +261,18 @@ $this->call('queue:prune-failed', [
 // Rimuovi job completati
 $this->call('queue:prune-batches', [
     '--hours' => 24
-]);
-```
 
 ## Scaling
 
 ### 1. Orizzontale
 
 ```bash
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 75179b85 (.)
-=======
->>>>>>> 82ae73be (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35e (.)
-=======
->>>>>>> 9777d1b3 (.)
-=======
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> d09cb759 (.)
-=======
->>>>>>> 75179b85 (.)
-=======
->>>>>>> 82ae73be (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35e (.)
-=======
->>>>>>> 9777d1b3 (.)
-=======
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> d09cb759 (.)
-=======
->>>>>>> de02998b (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 011072e4 (.)
-=======
->>>>>>> 161887a2 (.)
-=======
->>>>>>> ee18dd92 (.)
-=======
->>>>>>> 4689a827 (.)
-=======
->>>>>>> e7a9a2bf (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 9d67cabd (.)
-=======
->>>>>>> ba564870 (.)
-=======
->>>>>>> 66453ace (.)
-=======
->>>>>>> 7325acf3 (.)
-=======
->>>>>>> 9cdf6146 (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 80f054e0 (.)
-=======
->>>>>>> 7c39b1fe (.)
-=======
->>>>>>> 3f39ac8b (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 4d2eb53e (.)
-=======
->>>>>>> 888799d0 (.)
-=======
->>>>>>> 2a97406c (.)
-=======
->>>>>>> f2e64178 (.)
-=======
->>>>>>> 6d08c01b (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 6b6b9e41 (.)
-=======
->>>>>>> c6c33175 (.)
-=======
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> c4bdacbf (.)
-=======
->>>>>>> 3b4c9907 (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 5fe4f466 (.)
-=======
->>>>>>> 503981fd (.)
-=======
->>>>>>> 36321fcb (.)
-=======
->>>>>>> dceba960 (.)
-=======
->>>>>>> 8e5817bc (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> e0d9c9be (.)
-=======
->>>>>>> 7a2f131f (.)
-=======
->>>>>>> 712617d3 (.)
-=======
->>>>>>> bd804d67 (.)
-=======
->>>>>>> 51182e3c (rebase 210)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> cb85c538 (rebase 210)
-=======
->>>>>>> 1c0eb9c7 (rebase 210)
-=======
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 229a065a (rebase 210)
-=======
->>>>>>> a9bf0423 (rebase 210)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 460b8f5b (rebase 210)
-=======
->>>>>>> 4d253d2c (rebase 210)
-=======
->>>>>>> 4fc21b78 (rebase 210)
-=======
->>>>>>> 9fe1b60e (rebase 210)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 8a8a8e2f (rebase 210)
-=======
->>>>>>> efb0f8d9 (rebase 210)
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> 9f8e680a (rebase 210)
-=======
->>>>>>> b4f93b3a (rebase 210)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 1375c94d (rebase 210)
-=======
->>>>>>> 52cd5f85 (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 5aedc39c (rebase 210)
-=======
->>>>>>> c5c038f2 (rebase 210)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 030c9674 (rebase 210)
-=======
->>>>>>> bb00ab64 (rebase 210)
-=======
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 22baa66d (rebase 210)
-=======
->>>>>>> 36ac4fc1 (.)
-=======
->>>>>>> 2effe245 (.)
-# Supervisor config
-<<<<<<< HEAD
-[program:<nome progetto>-worker]
-process_name=%(program_name)s_%(process_num)02d
-command=php /var/www/html/_bases/base_techplanner_fila3_mono/laravel/artisan queue:work redis --queue=emails
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 75179b85 (.)
-=======
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 82ae73be (.)
-=======
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35e (.)
-=======
->>>>>>> 9777d1b3 (.)
-=======
->>>>>>> f963d2c0 (.)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> d09cb759 (.)
-=======
->>>>>>> 75179b85 (.)
-=======
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 82ae73be (.)
-=======
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35e (.)
-=======
->>>>>>> 9777d1b3 (.)
-=======
->>>>>>> f963d2c0 (.)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> d09cb759 (.)
-=======
-=======
->>>>>>> b19cd40 (.)
->>>>>>> de02998b (.)
-=======
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 011072e4 (.)
-=======
->>>>>>> 161887a2 (.)
-=======
->>>>>>> ee18dd92 (.)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> 4689a827 (.)
-=======
-=======
->>>>>>> b19cd40 (.)
->>>>>>> e7a9a2bf (.)
-=======
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 9d67cabd (.)
-=======
->>>>>>> ba564870 (.)
-=======
->>>>>>> 66453ace (.)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> 7325acf3 (.)
-=======
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 9cdf6146 (.)
-=======
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 80f054e0 (.)
-=======
->>>>>>> 7c39b1fe (.)
-=======
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 3f39ac8b (.)
-=======
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 4d2eb53e (.)
-=======
->>>>>>> 888799d0 (.)
-=======
->>>>>>> 2a97406c (.)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> f2e64178 (.)
-=======
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 6d08c01b (.)
-=======
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 6b6b9e41 (.)
-=======
->>>>>>> c6c33175 (.)
-=======
->>>>>>> 4f042b88 (.)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> c4bdacbf (.)
-=======
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 3b4c9907 (.)
-=======
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 5fe4f466 (.)
-=======
->>>>>>> 503981fd (.)
-=======
->>>>>>> 36321fcb (.)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> dceba960 (.)
-=======
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 8e5817bc (.)
-=======
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> e0d9c9be (.)
-=======
->>>>>>> 7a2f131f (.)
-=======
->>>>>>> 712617d3 (.)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> bd804d67 (.)
-=======
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 51182e3c (rebase 210)
-=======
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> cb85c538 (rebase 210)
-=======
->>>>>>> 1c0eb9c7 (rebase 210)
-=======
->>>>>>> fdb24863 (rebase 210)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> 229a065a (rebase 210)
-=======
-=======
->>>>>>> b19cd40 (.)
->>>>>>> a9bf0423 (rebase 210)
-=======
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 460b8f5b (rebase 210)
-=======
->>>>>>> 4d253d2c (rebase 210)
-=======
->>>>>>> 4fc21b78 (rebase 210)
-=======
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 9fe1b60e (rebase 210)
-=======
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 8a8a8e2f (rebase 210)
-=======
->>>>>>> efb0f8d9 (rebase 210)
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> 9f8e680a (rebase 210)
-=======
-=======
->>>>>>> b19cd40 (.)
->>>>>>> b4f93b3a (rebase 210)
-=======
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 1375c94d (rebase 210)
-=======
->>>>>>> 52cd5f85 (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> 5aedc39c (rebase 210)
-=======
-=======
->>>>>>> b19cd40 (.)
->>>>>>> c5c038f2 (rebase 210)
-=======
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 030c9674 (rebase 210)
-=======
->>>>>>> bb00ab64 (rebase 210)
-=======
->>>>>>> 8c8937e7 (rebase 210)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> 22baa66d (rebase 210)
-=======
->>>>>>> 36ac4fc1 (.)
-=======
-=======
->>>>>>> d284d65 (.)
->>>>>>> 2effe245 (.)
-=======
-=======
->>>>>>> 2fc60436 (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> ce89c8bb (.)
-=======
->>>>>>> 58816034 (.)
-=======
->>>>>>> 9cf0dc90 (.)
 # Supervisor config
 [program:<nome progetto>-worker]
 process_name=%(program_name)s_%(process_num)02d
 command=php /var/www/html/_bases/base_techplanner_fila3_mono/laravel/artisan queue:work redis --queue=emails
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> c8b1c8bf (.)
-=======
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 2fc60436 (.)
-=======
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> ce89c8bb (.)
-=======
->>>>>>> 58816034 (.)
-=======
->>>>>>> 9cf0dc90 (.)
 
-# Supervisor config
-[program:<nome progetto>-worker]
-process_name=%(program_name)s_%(process_num)02d
 command=php /var/www/html/base_<nome progetto>/artisan queue:work redis --queue=emails
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> fbed41ac (.)
-=======
->>>>>>> c8b1c8bf (.)
-=======
->>>>>>> 9cf0dc90 (.)
 autostart=true
 autorestart=true
 numprocs=4
@@ -977,12 +290,9 @@ RateLimiter::for('mail-domain', function ($job) {
 // Rate limiter globale
 RateLimiter::for('mail-global', function () {
     return Limit::perMinute(1000);
-});
-```
 
 ### 3. Sharding
 
-```php
 // Distribuzione su multiple code
 $queue = 'emails-' . ($user->id % 4); // 4 code
 
@@ -1004,11 +314,8 @@ $metrics = [
     'email_sending_duration' => [
         'type' => 'histogram',
         'help' => 'Email sending duration',
-    ],
     'failed_jobs_total' => [
-        'type' => 'counter',
         'help' => 'Total failed jobs',
-    ],
 ];
 ```
 
@@ -1034,21 +341,13 @@ if ($failedJobs > $threshold) {
         ->error("High email failure rate detected")
         ->send();
 }
-```
 
 ## Manutenzione
 
 ### 1. Pulizia
 
 ```bash
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> c8b1c8bf (.)
-=======
-
->>>>>>> 9cf0dc90 (.)
 # Pulizia job vecchi
 php artisan queue:prune-failed --hours=168
 php artisan queue:prune-batches --hours=24
@@ -1065,11 +364,9 @@ php artisan backup:run --only-db --filename=queue_backup
 
 // Backup failed jobs
 php artisan queue:failed-table > failed_jobs_backup.sql
-```
 
 ### 3. Ripristino
 
-```php
 // Ripristino job falliti
 php artisan queue:retry all
 php artisan queue:restart
@@ -1083,416 +380,4 @@ php artisan queue:restart
 ## Vedi Anche
 - [Laravel Queues](https://laravel.com/docs/queues)
 - [Horizon Documentation](https://laravel.com/docs/horizon)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 207ac35e (.)
-=======
->>>>>>> 207ac35e (.)
-=======
->>>>>>> 011072e4 (.)
-=======
->>>>>>> 9d67cabd (.)
-=======
->>>>>>> 80f054e0 (.)
-=======
->>>>>>> 4d2eb53e (.)
-=======
->>>>>>> 6b6b9e41 (.)
-=======
->>>>>>> 5fe4f466 (.)
-=======
->>>>>>> e0d9c9be (.)
-=======
->>>>>>> cb85c538 (rebase 210)
-=======
->>>>>>> 460b8f5b (rebase 210)
-=======
->>>>>>> 8a8a8e2f (rebase 210)
-=======
->>>>>>> 1375c94d (rebase 210)
-=======
->>>>>>> 030c9674 (rebase 210)
-=======
->>>>>>> ce89c8bb (.)
 - [Redis Documentation](https://redis.io/documentation)
-=======
->>>>>>> b19cd40 (.)
-=======
-- [Redis Documentation](https://redis.io/documentation)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 75179b85 (.)
-=======
-- [Redis Documentation](https://redis.io/documentation)
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 82ae73be (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35e (.)
-=======
-- [Redis Documentation](https://redis.io/documentation)
->>>>>>> 9777d1b3 (.)
-=======
-- [Redis Documentation](https://redis.io/documentation)
->>>>>>> f963d2c0 (.)
-=======
-- [Redis Documentation](https://redis.io/documentation)
-=======
->>>>>>> d284d65 (.)
->>>>>>> d09cb759 (.)
-=======
-- [Redis Documentation](https://redis.io/documentation)
->>>>>>> 75179b85 (.)
-=======
-- [Redis Documentation](https://redis.io/documentation)
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 82ae73be (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35e (.)
-=======
-- [Redis Documentation](https://redis.io/documentation)
->>>>>>> 9777d1b3 (.)
-=======
-- [Redis Documentation](https://redis.io/documentation)
->>>>>>> f963d2c0 (.)
-=======
-- [Redis Documentation](https://redis.io/documentation)
-=======
->>>>>>> d284d65 (.)
->>>>>>> d09cb759 (.)
-=======
-- [Redis Documentation](https://redis.io/documentation)
-=======
->>>>>>> b19cd40 (.)
->>>>>>> de02998b (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 011072e4 (.)
-=======
-- [Redis Documentation](https://redis.io/documentation)
->>>>>>> 161887a2 (.)
-=======
-- [Redis Documentation](https://redis.io/documentation)
->>>>>>> ee18dd92 (.)
-=======
-- [Redis Documentation](https://redis.io/documentation)
-=======
->>>>>>> d284d65 (.)
->>>>>>> 4689a827 (.)
-=======
-- [Redis Documentation](https://redis.io/documentation)
-=======
->>>>>>> b19cd40 (.)
->>>>>>> e7a9a2bf (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 9d67cabd (.)
-=======
-- [Redis Documentation](https://redis.io/documentation)
->>>>>>> ba564870 (.)
-=======
-- [Redis Documentation](https://redis.io/documentation)
->>>>>>> 66453ace (.)
-=======
-- [Redis Documentation](https://redis.io/documentation)
-=======
->>>>>>> d284d65 (.)
->>>>>>> 7325acf3 (.)
-=======
-- [Redis Documentation](https://redis.io/documentation)
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 9cdf6146 (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 80f054e0 (.)
-=======
-- [Redis Documentation](https://redis.io/documentation)
->>>>>>> 7c39b1fe (.)
-=======
->>>>>>> 5fd545e4 (.)
-=======
-- [Redis Documentation](https://redis.io/documentation)
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 3f39ac8b (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 4d2eb53e (.)
-=======
-- [Redis Documentation](https://redis.io/documentation)
->>>>>>> 888799d0 (.)
-=======
-- [Redis Documentation](https://redis.io/documentation)
->>>>>>> 2a97406c (.)
-=======
-- [Redis Documentation](https://redis.io/documentation)
-=======
->>>>>>> d284d65 (.)
->>>>>>> f2e64178 (.)
-=======
-- [Redis Documentation](https://redis.io/documentation)
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 6d08c01b (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 6b6b9e41 (.)
-=======
-- [Redis Documentation](https://redis.io/documentation)
->>>>>>> c6c33175 (.)
-=======
-- [Redis Documentation](https://redis.io/documentation)
->>>>>>> 4f042b88 (.)
-=======
-- [Redis Documentation](https://redis.io/documentation)
-=======
->>>>>>> d284d65 (.)
->>>>>>> c4bdacbf (.)
-=======
-- [Redis Documentation](https://redis.io/documentation)
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 3b4c9907 (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 5fe4f466 (.)
-=======
-- [Redis Documentation](https://redis.io/documentation)
->>>>>>> 503981fd (.)
-=======
-- [Redis Documentation](https://redis.io/documentation)
->>>>>>> 36321fcb (.)
-=======
-- [Redis Documentation](https://redis.io/documentation)
-=======
->>>>>>> d284d65 (.)
->>>>>>> dceba960 (.)
-=======
-- [Redis Documentation](https://redis.io/documentation)
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 8e5817bc (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> e0d9c9be (.)
-=======
-- [Redis Documentation](https://redis.io/documentation)
->>>>>>> 7a2f131f (.)
-=======
-- [Redis Documentation](https://redis.io/documentation)
->>>>>>> 712617d3 (.)
-=======
-- [Redis Documentation](https://redis.io/documentation)
-=======
->>>>>>> d284d65 (.)
->>>>>>> bd804d67 (.)
-=======
-- [Redis Documentation](https://redis.io/documentation)
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 51182e3c (rebase 210)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> cb85c538 (rebase 210)
-=======
-- [Redis Documentation](https://redis.io/documentation)
->>>>>>> 1c0eb9c7 (rebase 210)
-=======
-- [Redis Documentation](https://redis.io/documentation)
->>>>>>> fdb24863 (rebase 210)
-=======
-- [Redis Documentation](https://redis.io/documentation)
-=======
->>>>>>> d284d65 (.)
->>>>>>> 229a065a (rebase 210)
-=======
-- [Redis Documentation](https://redis.io/documentation)
-=======
->>>>>>> b19cd40 (.)
->>>>>>> a9bf0423 (rebase 210)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 460b8f5b (rebase 210)
-=======
-- [Redis Documentation](https://redis.io/documentation)
->>>>>>> 4d253d2c (rebase 210)
-=======
->>>>>>> 54220b28 (rebase 210)
-=======
-- [Redis Documentation](https://redis.io/documentation)
->>>>>>> 4fc21b78 (rebase 210)
-=======
-- [Redis Documentation](https://redis.io/documentation)
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 9fe1b60e (rebase 210)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 8a8a8e2f (rebase 210)
-=======
-- [Redis Documentation](https://redis.io/documentation)
->>>>>>> efb0f8d9 (rebase 210)
-=======
-- [Redis Documentation](https://redis.io/documentation)
->>>>>>> 9c45d9bd (rebase 210)
-=======
-- [Redis Documentation](https://redis.io/documentation)
-=======
->>>>>>> d284d65 (.)
->>>>>>> 9f8e680a (rebase 210)
-=======
-- [Redis Documentation](https://redis.io/documentation)
-=======
->>>>>>> b19cd40 (.)
->>>>>>> b4f93b3a (rebase 210)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 1375c94d (rebase 210)
-=======
-- [Redis Documentation](https://redis.io/documentation)
->>>>>>> 52cd5f85 (rebase 210)
-=======
-- [Redis Documentation](https://redis.io/documentation)
->>>>>>> eb62d6cf (rebase 210)
-=======
-- [Redis Documentation](https://redis.io/documentation)
-=======
->>>>>>> d284d65 (.)
->>>>>>> 5aedc39c (rebase 210)
-=======
-- [Redis Documentation](https://redis.io/documentation)
-=======
->>>>>>> b19cd40 (.)
->>>>>>> c5c038f2 (rebase 210)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 030c9674 (rebase 210)
-=======
-- [Redis Documentation](https://redis.io/documentation)
->>>>>>> bb00ab64 (rebase 210)
-=======
-- [Redis Documentation](https://redis.io/documentation)
->>>>>>> 8c8937e7 (rebase 210)
-=======
-- [Redis Documentation](https://redis.io/documentation)
-=======
->>>>>>> d284d65 (.)
->>>>>>> 22baa66d (rebase 210)
-=======
-- [Redis Documentation](https://redis.io/documentation)
->>>>>>> 36ac4fc1 (.)
-=======
-- [Redis Documentation](https://redis.io/documentation)
-=======
->>>>>>> d284d65 (.)
->>>>>>> 2effe245 (.)
-=======
-- [Redis Documentation](https://redis.io/documentation)
->>>>>>> c8b1c8bf (.)
-=======
-- [Redis Documentation](https://redis.io/documentation)
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 2fc60436 (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> ce89c8bb (.)
-=======
-- [Redis Documentation](https://redis.io/documentation)
->>>>>>> 58816034 (.)
-=======
-- [Redis Documentation](https://redis.io/documentation)
->>>>>>> 9cf0dc90 (.)

@@ -1,195 +1,9 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> 712617d3 (.)
-=======
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 4fc21b78 (rebase 210)
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
 # Implementazione del Campo `slug` in MailTemplateResource
 
 ## Panoramica
 
-<<<<<<< HEAD
 Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto .
 Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto <nome progetto>.
-=======
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto .
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
->>>>>>> 75179b85 (.)
-=======
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
->>>>>>> f963d2c0 (.)
-=======
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
-=======
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
->>>>>>> 31f5d28f (.)
-=======
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
->>>>>>> 31f5d28f (.)
-=======
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto .
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto <nome progetto>.
->>>>>>> bf479cc (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 31f5d28f (.)
-=======
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
->>>>>>> a404ea71 (.)
-=======
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto .
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
->>>>>>> 75179b85 (.)
-=======
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
->>>>>>> a404ea71 (.)
-=======
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto .
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
->>>>>>> 75179b85 (.)
-=======
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
->>>>>>> a404ea71 (.)
-=======
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
->>>>>>> ee18dd92 (.)
-<<<<<<< HEAD
->>>>>>> 022fa8f1c (.)
-=======
-=======
->>>>>>> 6608a1a0 (.)
-=======
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
->>>>>>> ca10d6ad (.)
-=======
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
->>>>>>> 66453ace (.)
-=======
->>>>>>> 23cbbaf5 (.)
-=======
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
->>>>>>> febe79e3 (.)
-=======
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 909e45af (.)
-=======
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
->>>>>>> a29a4728 (.)
-=======
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> bb7e77c2 (.)
-=======
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
->>>>>>> c7a4727b (.)
-=======
->>>>>>> b99af5a8 (.)
-=======
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
->>>>>>> 9721a5b2 (.)
-=======
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
->>>>>>> 712617d3 (.)
-=======
->>>>>>> f3086887 (rebase 210)
-=======
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
->>>>>>> 1442e291 (rebase 210)
-=======
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 3d462363 (rebase 210)
-=======
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
->>>>>>> fcaebc79 (rebase 210)
-=======
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto .
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
->>>>>>> 4fc21b78 (rebase 210)
-=======
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> 54ad93c4 (rebase 210)
-=======
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
->>>>>>> 9d3810d0 (rebase 210)
-=======
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 6e12a84b (rebase 210)
-=======
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
->>>>>>> d38aa9d2 (rebase 210)
-=======
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 545977c8 (rebase 210)
-=======
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
->>>>>>> 9e7ba5b6 (rebase 210)
-=======
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
 
 ## Implementazione nel Form Schema
 
@@ -205,18 +19,18 @@ public static function getFormSchema(): array
         'name' => Forms\Components\TextInput::make('name')
             ->required()
             ->maxLength(255),
-            
+
         'slug' => Forms\Components\TextInput::make('slug')
             ->required()
             ->unique(ignoreRecord: true)
             ->maxLength(255)
-            ->afterStateUpdated(fn (string $context, $state, callable $set) => 
+            ->afterStateUpdated(fn (string $context, $state, callable $set) =>
                 $context === 'create' ? $set('slug', Str::slug($state)) : null),
-            
+
         'mailable' => Forms\Components\TextInput::make('mailable')
             ->required()
             ->maxLength(255),
-        
+
         // Altri campi...
     ];
 }
@@ -229,162 +43,8 @@ public static function getFormSchema(): array
 3. **Validazione Unicità**: L'opzione `unique(ignoreRecord: true)` garantisce unicità, escludendo il record corrente durante l'aggiornamento.
 4. **Generazione Automatica**: La callback `afterStateUpdated()` genera automaticamente lo slug dal nome quando si crea un nuovo record.
 
-<<<<<<< HEAD
-## Conformità con gli Standard 
+## Conformità con gli Standard
 ## Conformità con gli Standard SaluteOra
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-## Conformità con gli Standard <nome progetto>
-=======
-## Conformità con gli Standard 
-## Conformità con gli Standard SaluteOra
->>>>>>> 75179b85 (.)
-=======
-## Conformità con gli Standard SaluteOra
->>>>>>> f963d2c0 (.)
-=======
-## Conformità con gli Standard SaluteOra
-=======
-## Conformità con gli Standard SaluteOra
->>>>>>> 31f5d28f (.)
-=======
-## Conformità con gli Standard SaluteOra
->>>>>>> 31f5d28f (.)
-=======
-## Conformità con gli Standard 
-## Conformità con gli Standard <nome progetto>
->>>>>>> bf479cc (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 31f5d28f (.)
-=======
-## Conformità con gli Standard SaluteOra
->>>>>>> a404ea71 (.)
-=======
-## Conformità con gli Standard 
-## Conformità con gli Standard SaluteOra
->>>>>>> 75179b85 (.)
-=======
-## Conformità con gli Standard SaluteOra
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
-## Conformità con gli Standard SaluteOra
->>>>>>> a404ea71 (.)
-=======
-## Conformità con gli Standard 
-## Conformità con gli Standard SaluteOra
->>>>>>> 75179b85 (.)
-=======
-## Conformità con gli Standard SaluteOra
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
-## Conformità con gli Standard SaluteOra
->>>>>>> a404ea71 (.)
-=======
-## Conformità con gli Standard SaluteOra
->>>>>>> ee18dd92 (.)
-<<<<<<< HEAD
->>>>>>> 022fa8f1c (.)
-=======
-=======
->>>>>>> 6608a1a0 (.)
-=======
-## Conformità con gli Standard SaluteOra
->>>>>>> ca10d6ad (.)
-=======
-## Conformità con gli Standard SaluteOra
->>>>>>> 66453ace (.)
-=======
->>>>>>> 23cbbaf5 (.)
-=======
-## Conformità con gli Standard SaluteOra
->>>>>>> febe79e3 (.)
-=======
-## Conformità con gli Standard SaluteOra
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 909e45af (.)
-=======
-## Conformità con gli Standard SaluteOra
->>>>>>> a29a4728 (.)
-=======
-## Conformità con gli Standard SaluteOra
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> bb7e77c2 (.)
-=======
-## Conformità con gli Standard SaluteOra
->>>>>>> c7a4727b (.)
-=======
->>>>>>> b99af5a8 (.)
-=======
-## Conformità con gli Standard SaluteOra
->>>>>>> 9721a5b2 (.)
-=======
-## Conformità con gli Standard SaluteOra
->>>>>>> 712617d3 (.)
-=======
->>>>>>> f3086887 (rebase 210)
-=======
-## Conformità con gli Standard SaluteOra
->>>>>>> 1442e291 (rebase 210)
-=======
-## Conformità con gli Standard SaluteOra
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 3d462363 (rebase 210)
-=======
-## Conformità con gli Standard SaluteOra
->>>>>>> fcaebc79 (rebase 210)
-=======
-## Conformità con gli Standard 
-## Conformità con gli Standard SaluteOra
->>>>>>> 4fc21b78 (rebase 210)
-=======
-## Conformità con gli Standard SaluteOra
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> 54ad93c4 (rebase 210)
-=======
-## Conformità con gli Standard SaluteOra
->>>>>>> 9d3810d0 (rebase 210)
-=======
-## Conformità con gli Standard SaluteOra
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 6e12a84b (rebase 210)
-=======
-## Conformità con gli Standard SaluteOra
->>>>>>> d38aa9d2 (rebase 210)
-=======
-## Conformità con gli Standard SaluteOra
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 545977c8 (rebase 210)
-=======
-## Conformità con gli Standard SaluteOra
->>>>>>> 9e7ba5b6 (rebase 210)
-=======
-## Conformità con gli Standard SaluteOra
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
 
 Questa implementazione aderisce a diversi standard chiave del progetto:
 
@@ -409,16 +69,16 @@ public static function getListTableColumns(): array
     return [
         'id' => Tables\Columns\TextColumn::make('id')
             ->sortable(),
-            
+
         'name' => Tables\Columns\TextColumn::make('name')
             ->searchable()
             ->sortable(),
-            
+
         'slug' => Tables\Columns\TextColumn::make('slug')
             ->searchable()
             ->sortable()
             ->copyable(),
-            
+
         // Altri campi...
     ];
 }
@@ -446,7 +106,7 @@ public static function getTableFilters(): array
 {
     return [
         // Altri filtri...
-        
+
         'slug' => Tables\Filters\TextFilter::make('slug')
     ];
 }
@@ -490,7 +150,7 @@ return [
    ```php
    // Ordinare i template per slug
    MailTemplate::query()->orderBy('slug')->get();
-   
+
    // Cercare template per slug parziale
    MailTemplate::query()->where('slug', 'like', 'welcome-%')->get();
    ```
@@ -510,39 +170,3 @@ return [
 - [Guida alla Migrazione](../MAIL_TEMPLATE_MIGRATION_GUIDE.md)
 - [Convenzioni Filament](../../../../docs/FILAMENT_CONVENTIONS.md)
 - [Regole per Filament](../../../../docs/FILAMENT_RULES.md)
-<<<<<<< HEAD
-=======
->>>>>>> 5fd545e4 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5fd545e4 (.)
-=======
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> 712617d3 (.)
-=======
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 54220b28 (rebase 210)
-=======
->>>>>>> 4fc21b78 (rebase 210)
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)

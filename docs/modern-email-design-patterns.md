@@ -1,195 +1,9 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> 712617d3 (.)
-=======
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 4fc21b78 (rebase 210)
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
 # Pattern di Design per Email Moderne
 
 ## Introduzione
 
-<<<<<<< HEAD
 Questo documento esplora i pattern di design più efficaci per le email moderne, basati sull'analisi di numerosi framework e risorse specializzate nel settore. L'obiettivo è fornire linee guida per creare email che massimizzino l'engagement mantenendo compatibilità cross-client e aderenza alle best practices di .
 Questo documento esplora i pattern di design più efficaci per le email moderne, basati sull'analisi di numerosi framework e risorse specializzate nel settore. L'obiettivo è fornire linee guida per creare email che massimizzino l'engagement mantenendo compatibilità cross-client e aderenza alle best practices di SaluteOra.
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-Questo documento esplora i pattern di design più efficaci per le email moderne, basati sull'analisi di numerosi framework e risorse specializzate nel settore. L'obiettivo è fornire linee guida per creare email che massimizzino l'engagement mantenendo compatibilità cross-client e aderenza alle best practices di <nome progetto>.
-=======
-Questo documento esplora i pattern di design più efficaci per le email moderne, basati sull'analisi di numerosi framework e risorse specializzate nel settore. L'obiettivo è fornire linee guida per creare email che massimizzino l'engagement mantenendo compatibilità cross-client e aderenza alle best practices di .
-Questo documento esplora i pattern di design più efficaci per le email moderne, basati sull'analisi di numerosi framework e risorse specializzate nel settore. L'obiettivo è fornire linee guida per creare email che massimizzino l'engagement mantenendo compatibilità cross-client e aderenza alle best practices di SaluteOra.
->>>>>>> 75179b85 (.)
-=======
-Questo documento esplora i pattern di design più efficaci per le email moderne, basati sull'analisi di numerosi framework e risorse specializzate nel settore. L'obiettivo è fornire linee guida per creare email che massimizzino l'engagement mantenendo compatibilità cross-client e aderenza alle best practices di SaluteOra.
->>>>>>> f963d2c0 (.)
-=======
-Questo documento esplora i pattern di design più efficaci per le email moderne, basati sull'analisi di numerosi framework e risorse specializzate nel settore. L'obiettivo è fornire linee guida per creare email che massimizzino l'engagement mantenendo compatibilità cross-client e aderenza alle best practices di SaluteOra.
-=======
-Questo documento esplora i pattern di design più efficaci per le email moderne, basati sull'analisi di numerosi framework e risorse specializzate nel settore. L'obiettivo è fornire linee guida per creare email che massimizzino l'engagement mantenendo compatibilità cross-client e aderenza alle best practices di SaluteOra.
->>>>>>> 31f5d28f (.)
-=======
-Questo documento esplora i pattern di design più efficaci per le email moderne, basati sull'analisi di numerosi framework e risorse specializzate nel settore. L'obiettivo è fornire linee guida per creare email che massimizzino l'engagement mantenendo compatibilità cross-client e aderenza alle best practices di SaluteOra.
->>>>>>> 31f5d28f (.)
-=======
-Questo documento esplora i pattern di design più efficaci per le email moderne, basati sull'analisi di numerosi framework e risorse specializzate nel settore. L'obiettivo è fornire linee guida per creare email che massimizzino l'engagement mantenendo compatibilità cross-client e aderenza alle best practices di .
-Questo documento esplora i pattern di design più efficaci per le email moderne, basati sull'analisi di numerosi framework e risorse specializzate nel settore. L'obiettivo è fornire linee guida per creare email che massimizzino l'engagement mantenendo compatibilità cross-client e aderenza alle best practices di <nome progetto>.
->>>>>>> bf479cc (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 31f5d28f (.)
-=======
-Questo documento esplora i pattern di design più efficaci per le email moderne, basati sull'analisi di numerosi framework e risorse specializzate nel settore. L'obiettivo è fornire linee guida per creare email che massimizzino l'engagement mantenendo compatibilità cross-client e aderenza alle best practices di SaluteOra.
->>>>>>> a404ea71 (.)
-=======
-Questo documento esplora i pattern di design più efficaci per le email moderne, basati sull'analisi di numerosi framework e risorse specializzate nel settore. L'obiettivo è fornire linee guida per creare email che massimizzino l'engagement mantenendo compatibilità cross-client e aderenza alle best practices di .
-Questo documento esplora i pattern di design più efficaci per le email moderne, basati sull'analisi di numerosi framework e risorse specializzate nel settore. L'obiettivo è fornire linee guida per creare email che massimizzino l'engagement mantenendo compatibilità cross-client e aderenza alle best practices di SaluteOra.
->>>>>>> 75179b85 (.)
-=======
-Questo documento esplora i pattern di design più efficaci per le email moderne, basati sull'analisi di numerosi framework e risorse specializzate nel settore. L'obiettivo è fornire linee guida per creare email che massimizzino l'engagement mantenendo compatibilità cross-client e aderenza alle best practices di SaluteOra.
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
-Questo documento esplora i pattern di design più efficaci per le email moderne, basati sull'analisi di numerosi framework e risorse specializzate nel settore. L'obiettivo è fornire linee guida per creare email che massimizzino l'engagement mantenendo compatibilità cross-client e aderenza alle best practices di SaluteOra.
->>>>>>> a404ea71 (.)
-=======
-Questo documento esplora i pattern di design più efficaci per le email moderne, basati sull'analisi di numerosi framework e risorse specializzate nel settore. L'obiettivo è fornire linee guida per creare email che massimizzino l'engagement mantenendo compatibilità cross-client e aderenza alle best practices di .
-Questo documento esplora i pattern di design più efficaci per le email moderne, basati sull'analisi di numerosi framework e risorse specializzate nel settore. L'obiettivo è fornire linee guida per creare email che massimizzino l'engagement mantenendo compatibilità cross-client e aderenza alle best practices di SaluteOra.
->>>>>>> 75179b85 (.)
-=======
-Questo documento esplora i pattern di design più efficaci per le email moderne, basati sull'analisi di numerosi framework e risorse specializzate nel settore. L'obiettivo è fornire linee guida per creare email che massimizzino l'engagement mantenendo compatibilità cross-client e aderenza alle best practices di SaluteOra.
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
-Questo documento esplora i pattern di design più efficaci per le email moderne, basati sull'analisi di numerosi framework e risorse specializzate nel settore. L'obiettivo è fornire linee guida per creare email che massimizzino l'engagement mantenendo compatibilità cross-client e aderenza alle best practices di SaluteOra.
->>>>>>> a404ea71 (.)
-=======
-Questo documento esplora i pattern di design più efficaci per le email moderne, basati sull'analisi di numerosi framework e risorse specializzate nel settore. L'obiettivo è fornire linee guida per creare email che massimizzino l'engagement mantenendo compatibilità cross-client e aderenza alle best practices di SaluteOra.
->>>>>>> ee18dd92 (.)
-<<<<<<< HEAD
->>>>>>> 022fa8f1c (.)
-=======
-=======
->>>>>>> 6608a1a0 (.)
-=======
-Questo documento esplora i pattern di design più efficaci per le email moderne, basati sull'analisi di numerosi framework e risorse specializzate nel settore. L'obiettivo è fornire linee guida per creare email che massimizzino l'engagement mantenendo compatibilità cross-client e aderenza alle best practices di SaluteOra.
->>>>>>> ca10d6ad (.)
-=======
-Questo documento esplora i pattern di design più efficaci per le email moderne, basati sull'analisi di numerosi framework e risorse specializzate nel settore. L'obiettivo è fornire linee guida per creare email che massimizzino l'engagement mantenendo compatibilità cross-client e aderenza alle best practices di SaluteOra.
->>>>>>> 66453ace (.)
-=======
->>>>>>> 23cbbaf5 (.)
-=======
-Questo documento esplora i pattern di design più efficaci per le email moderne, basati sull'analisi di numerosi framework e risorse specializzate nel settore. L'obiettivo è fornire linee guida per creare email che massimizzino l'engagement mantenendo compatibilità cross-client e aderenza alle best practices di SaluteOra.
->>>>>>> febe79e3 (.)
-=======
-Questo documento esplora i pattern di design più efficaci per le email moderne, basati sull'analisi di numerosi framework e risorse specializzate nel settore. L'obiettivo è fornire linee guida per creare email che massimizzino l'engagement mantenendo compatibilità cross-client e aderenza alle best practices di SaluteOra.
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 909e45af (.)
-=======
-Questo documento esplora i pattern di design più efficaci per le email moderne, basati sull'analisi di numerosi framework e risorse specializzate nel settore. L'obiettivo è fornire linee guida per creare email che massimizzino l'engagement mantenendo compatibilità cross-client e aderenza alle best practices di SaluteOra.
->>>>>>> a29a4728 (.)
-=======
-Questo documento esplora i pattern di design più efficaci per le email moderne, basati sull'analisi di numerosi framework e risorse specializzate nel settore. L'obiettivo è fornire linee guida per creare email che massimizzino l'engagement mantenendo compatibilità cross-client e aderenza alle best practices di SaluteOra.
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> bb7e77c2 (.)
-=======
-Questo documento esplora i pattern di design più efficaci per le email moderne, basati sull'analisi di numerosi framework e risorse specializzate nel settore. L'obiettivo è fornire linee guida per creare email che massimizzino l'engagement mantenendo compatibilità cross-client e aderenza alle best practices di SaluteOra.
->>>>>>> c7a4727b (.)
-=======
->>>>>>> b99af5a8 (.)
-=======
-Questo documento esplora i pattern di design più efficaci per le email moderne, basati sull'analisi di numerosi framework e risorse specializzate nel settore. L'obiettivo è fornire linee guida per creare email che massimizzino l'engagement mantenendo compatibilità cross-client e aderenza alle best practices di SaluteOra.
->>>>>>> 9721a5b2 (.)
-=======
-Questo documento esplora i pattern di design più efficaci per le email moderne, basati sull'analisi di numerosi framework e risorse specializzate nel settore. L'obiettivo è fornire linee guida per creare email che massimizzino l'engagement mantenendo compatibilità cross-client e aderenza alle best practices di SaluteOra.
->>>>>>> 712617d3 (.)
-=======
->>>>>>> f3086887 (rebase 210)
-=======
-Questo documento esplora i pattern di design più efficaci per le email moderne, basati sull'analisi di numerosi framework e risorse specializzate nel settore. L'obiettivo è fornire linee guida per creare email che massimizzino l'engagement mantenendo compatibilità cross-client e aderenza alle best practices di SaluteOra.
->>>>>>> 1442e291 (rebase 210)
-=======
-Questo documento esplora i pattern di design più efficaci per le email moderne, basati sull'analisi di numerosi framework e risorse specializzate nel settore. L'obiettivo è fornire linee guida per creare email che massimizzino l'engagement mantenendo compatibilità cross-client e aderenza alle best practices di SaluteOra.
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 3d462363 (rebase 210)
-=======
-Questo documento esplora i pattern di design più efficaci per le email moderne, basati sull'analisi di numerosi framework e risorse specializzate nel settore. L'obiettivo è fornire linee guida per creare email che massimizzino l'engagement mantenendo compatibilità cross-client e aderenza alle best practices di SaluteOra.
->>>>>>> fcaebc79 (rebase 210)
-=======
-Questo documento esplora i pattern di design più efficaci per le email moderne, basati sull'analisi di numerosi framework e risorse specializzate nel settore. L'obiettivo è fornire linee guida per creare email che massimizzino l'engagement mantenendo compatibilità cross-client e aderenza alle best practices di .
-Questo documento esplora i pattern di design più efficaci per le email moderne, basati sull'analisi di numerosi framework e risorse specializzate nel settore. L'obiettivo è fornire linee guida per creare email che massimizzino l'engagement mantenendo compatibilità cross-client e aderenza alle best practices di SaluteOra.
->>>>>>> 4fc21b78 (rebase 210)
-=======
-Questo documento esplora i pattern di design più efficaci per le email moderne, basati sull'analisi di numerosi framework e risorse specializzate nel settore. L'obiettivo è fornire linee guida per creare email che massimizzino l'engagement mantenendo compatibilità cross-client e aderenza alle best practices di SaluteOra.
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> 54ad93c4 (rebase 210)
-=======
-Questo documento esplora i pattern di design più efficaci per le email moderne, basati sull'analisi di numerosi framework e risorse specializzate nel settore. L'obiettivo è fornire linee guida per creare email che massimizzino l'engagement mantenendo compatibilità cross-client e aderenza alle best practices di SaluteOra.
->>>>>>> 9d3810d0 (rebase 210)
-=======
-Questo documento esplora i pattern di design più efficaci per le email moderne, basati sull'analisi di numerosi framework e risorse specializzate nel settore. L'obiettivo è fornire linee guida per creare email che massimizzino l'engagement mantenendo compatibilità cross-client e aderenza alle best practices di SaluteOra.
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 6e12a84b (rebase 210)
-=======
-Questo documento esplora i pattern di design più efficaci per le email moderne, basati sull'analisi di numerosi framework e risorse specializzate nel settore. L'obiettivo è fornire linee guida per creare email che massimizzino l'engagement mantenendo compatibilità cross-client e aderenza alle best practices di SaluteOra.
->>>>>>> d38aa9d2 (rebase 210)
-=======
-Questo documento esplora i pattern di design più efficaci per le email moderne, basati sull'analisi di numerosi framework e risorse specializzate nel settore. L'obiettivo è fornire linee guida per creare email che massimizzino l'engagement mantenendo compatibilità cross-client e aderenza alle best practices di SaluteOra.
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 545977c8 (rebase 210)
-=======
-Questo documento esplora i pattern di design più efficaci per le email moderne, basati sull'analisi di numerosi framework e risorse specializzate nel settore. L'obiettivo è fornire linee guida per creare email che massimizzino l'engagement mantenendo compatibilità cross-client e aderenza alle best practices di SaluteOra.
->>>>>>> 9e7ba5b6 (rebase 210)
-=======
-Questo documento esplora i pattern di design più efficaci per le email moderne, basati sull'analisi di numerosi framework e risorse specializzate nel settore. L'obiettivo è fornire linee guida per creare email che massimizzino l'engagement mantenendo compatibilità cross-client e aderenza alle best practices di SaluteOra.
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
 
 ## Pattern Principali
 
@@ -323,7 +137,7 @@ Un header ottimizzato include:
       <h3 style="font-size: 18px; color: #333333;">{{ $title1 }}</h3>
       <p style="font-size: 14px; color: #666666;">{{ $content1 }}</p>
     </td>
-    
+
     <!-- Column Two -->
     <td class="column" width="50%" style="padding: 0 10px;">
       <img src="{{ $image2_url }}" alt="{{ $image2_alt }}" width="100%" style="max-width: 280px; height: auto; display: block; margin: 0 auto;">
@@ -354,18 +168,18 @@ Un header ottimizzato include:
 ```html
 <div class="footer" style="padding: 30px 0; background-color: #f9fafb; text-align: center; color: #6b7280; font-size: 12px;">
   <p>© {{ date('Y') }} {{ config('app.name') }}. Tutti i diritti riservati.</p>
-  
+
   <p>{{ $company_address ?? 'Via Roma 123, 00100 Roma, Italia' }}</p>
-  
+
   <p>
-    <a href="{{ LaravelLocalization::getLocalizedURL(LaravelLocalization::getCurrentLocale(), route('privacy-policy')) }}" style="color: #4b5563; text-decoration: underline;">Privacy Policy</a> | 
+    <a href="{{ LaravelLocalization::getLocalizedURL(LaravelLocalization::getCurrentLocale(), route('privacy-policy')) }}" style="color: #4b5563; text-decoration: underline;">Privacy Policy</a> |
     <a href="{{ LaravelLocalization::getLocalizedURL(LaravelLocalization::getCurrentLocale(), route('terms-of-service')) }}" style="color: #4b5563; text-decoration: underline;">Termini e Condizioni</a>
   </p>
-  
+
   <p>Hai ricevuto questa email perché sei iscritto alle comunicazioni di {{ config('app.name') }}.</p>
-  
+
   <p>
-    <a href="{{ $unsubscribe_url }}" style="color: #4b5563; text-decoration: underline;">Annulla iscrizione</a> | 
+    <a href="{{ $unsubscribe_url }}" style="color: #4b5563; text-decoration: underline;">Annulla iscrizione</a> |
     <a href="{{ $preferences_url }}" style="color: #4b5563; text-decoration: underline;">Gestisci preferenze</a>
   </p>
 </div>
@@ -388,7 +202,7 @@ Un header ottimizzato include:
     color-scheme: light dark;
     supported-color-schemes: light dark;
   }
-  
+
   @media (prefers-color-scheme: dark) {
     body {
       background-color: #121212 !important;
@@ -470,14 +284,14 @@ return [
 ```html
 <!-- Saluto personalizzato basato sull'orario -->
 <h2 style="font-size: 24px; color: #333333;">
-  {{ $time < 12 ? __('email.greeting.morning') : ($time < 18 ? __('email.greeting.afternoon') : __('email.greeting.evening')) }}, 
+  {{ $time < 12 ? __('email.greeting.morning') : ($time < 18 ? __('email.greeting.afternoon') : __('email.greeting.evening')) }},
   {{ $name }}!
 </h2>
 
 <!-- Contenuto personalizzato basato sul profilo -->
 <div style="padding: 20px; background-color: {{ $user_preferences->favorite_color ?? '#f9fafb' }};">
   <p>Abbiamo selezionato questi contenuti in base ai tuoi interessi:</p>
-  
+
   @foreach($recommended_items as $item)
     <div style="margin-bottom: 15px;">
       <h4>{{ $item->title }}</h4>
@@ -536,39 +350,3 @@ return [
 - [Email Best Practices](./mail-templates/EMAIL_BEST_PRACTICES.md)
 - [HTML Email Compatibility](./mail-templates/HTML_EMAIL_COMPATIBILITY.md)
 - [Spatie Email Integration](./SPATIE_EMAIL_USAGE_GUIDE.md)
-<<<<<<< HEAD
-=======
->>>>>>> 5fd545e4 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5fd545e4 (.)
-=======
->>>>>>> 2a97406c (.)
-=======
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> 712617d3 (.)
-=======
->>>>>>> fdb24863 (rebase 210)
-=======
->>>>>>> 54220b28 (rebase 210)
-=======
->>>>>>> 4fc21b78 (rebase 210)
-=======
->>>>>>> 9c45d9bd (rebase 210)
-=======
->>>>>>> eb62d6cf (rebase 210)
-=======
->>>>>>> 8c8937e7 (rebase 210)
-=======
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)

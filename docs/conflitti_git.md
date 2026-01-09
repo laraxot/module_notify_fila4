@@ -35,12 +35,10 @@ Ci sono conflitti nella gestione della variabile `$email_data` nel template dell
 
 ### resources/views/emails/templates/sunny.blade.php e ark.blade.php
 
-**Problema identificato:**
 Conflitti nella gestione della variabile `$_theme` nei template delle email:
 1. Versione con `optional($_theme)->cssInLine()` per gestione sicura
 2. Versione con accesso diretto `$_theme->cssInLine()`
 
-**Soluzione adottata:**
 È stata preferita la versione con l'helper `optional()` per prevenire errori in caso di variabile `$_theme` non definita o null. Questo garantisce una maggiore robustezza del template anche in contesti dove tutte le variabili potrebbero non essere disponibili.
 
 ## Conflitti nei componenti Filament
@@ -55,21 +53,17 @@ Conflitto nella formattazione del file, con differenze negli spazi vuoti dopo la
 
 ### app/Filament/Resources/ContactResource/Pages/ListContacts.php
 
-**Problema identificato:**
 Conflitto negli spazi vuoti prima della definizione della classe.
 
-**Soluzione adottata:**
 È stata rimossa la riga vuota non necessaria per mantenere uno stile coerente nel codice.
 
 ### app/Filament/Resources/NotificationResource/Pages/ViewNotification.php
 
-**Problema identificato:**
 Conflitti multipli:
 1. Ordine differente delle importazioni
 2. Definizione della classe con percorso completo vs percorso relativo
 3. Formattazione delle proprietà date nei TextEntry
 
-**Soluzione adottata:**
 È stata mantenuta la versione che:
 1. Rispetta le convenzioni PSR-4 per le importazioni
 2. Utilizza la versione estesa della classe senza percorso completo
@@ -89,22 +83,18 @@ Scelta la versione che integra centralmente la validazione e l'helper `optional(
 
 **Percorso:** `resources/views/filament/pages/send-email.blade.php`
 
-**Problema identificato:**
 Conflitto nei campi del form Filament: divergenza nei nomi degli input e nei validatori applicati.
 
-**Soluzione adottata:**
 Conservata la versione con componenti `TextInput`, `Textarea` e `FileUpload`, allineata al DTO `EmailData` per garantire consistenza dei dati.
 
 ### resources/views/admin/index/acts/manage_template.blade.php
 
 **Percorso:** `resources/views/admin/index/acts/manage_template.blade.php`
 
-**Problema identificato:**
 Conflitto nel rendering della row: una versione mostrava direttamente la proprietà, l'altra invocava `$row->renderTemplate()`.
 
-**Soluzione adottata:**
 Mantenuta la versione con metodo `renderTemplate()`, assicurando separazione tra logica di presentazione e view.
 
 ## Collegamenti alla documentazione centrale
 
-Per una panoramica completa di tutti i conflitti risolti, vedere la [documentazione centrale sulla risoluzione dei conflitti git](../../../../docs/risoluzione_conflitti_git.md). 
+Per una panoramica completa di tutti i conflitti risolti, vedere la [documentazione centrale sulla risoluzione dei conflitti git](../../../../docs/risoluzione_conflitti_git.md).

@@ -1,35 +1,8 @@
-# Convenzioni di Naming per i Contracts 
+# Convenzioni di Naming per i Contracts
 
 ## Regola Fondamentale
 
-<<<<<<< HEAD
 Nel sistema <main module>, tutte le interfacce (interfaces) devono seguire queste convenzioni di naming:
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-Nel sistema <nome progetto>, tutte le interfacce (interfaces) devono seguire queste convenzioni di naming:
-=======
-Nel sistema SaluteOra, tutte le interfacce (interfaces) devono seguire queste convenzioni di naming:
->>>>>>> f963d2c0 (.)
-=======
-Nel sistema SaluteOra, tutte le interfacce (interfaces) devono seguire queste convenzioni di naming:
->>>>>>> f963d2c0 (.)
-=======
-Nel sistema SaluteOra, tutte le interfacce (interfaces) devono seguire queste convenzioni di naming:
->>>>>>> f963d2c0 (.)
-=======
-Nel sistema <nome progetto>, tutte le interfacce (interfaces) devono seguire queste convenzioni di naming:
-=======
-<<<<<<< HEAD
-Nel sistema <main module>, tutte le interfacce (interfaces) devono seguire queste convenzioni di naming:
-=======
-Nel sistema SaluteOra, tutte le interfacce (interfaces) devono seguire queste convenzioni di naming:
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
 
 1. **Suffisso `Contract` e non `Interface`**:
    - ✅ CORRETTO: `SmsProviderContract`

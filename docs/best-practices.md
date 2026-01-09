@@ -37,7 +37,6 @@
             {{ $slot }}
         </div>
         @include('notify::partials.footer')
-    </div>
 </body>
 </html>
 ```
@@ -71,7 +70,6 @@ class CompatibilityService
 
     protected function checkClientCompatibility($template, $client)
     {
-        $issues = [];
 
         // Verifica CSS supportato
         if (!$this->isCssSupported($template->styles, $client)) {
@@ -83,7 +81,6 @@ class CompatibilityService
             $issues[] = "HTML non supportato per {$client}";
         }
 
-        return $issues;
     }
 }
 ```
@@ -210,13 +207,10 @@ namespace Modules\Notify\Services;
  */
 class TemplateService
 {
-    /**
      * Crea un nuovo template
-     *
      * @param array $data Dati del template
      * @return Template
      * @throws TemplateException
-     */
     public function create(array $data)
     {
         // Implementazione
@@ -227,12 +221,9 @@ class TemplateService
      *
      * @param Template $template Template da aggiornare
      * @param array $data Dati di aggiornamento
-     * @return Template
-     * @throws TemplateException
      */
     public function update(Template $template, array $data)
     {
-        // Implementazione
     }
 }
 ```
@@ -252,7 +243,6 @@ class TemplateSanitizer
 
     protected $allowedAttributes = [
         'src', 'alt', 'href', 'class', 'style'
-    ];
 
     public function sanitize($content)
     {
@@ -310,7 +300,6 @@ class TemplateRule implements Rule
 
         // Validazione tag consentiti
         if (!$this->hasValidTags($template)) {
-            return false;
         }
 
         return true;
@@ -322,11 +311,9 @@ class TemplateRule implements Rule
         $variables = $this->extractVariables($template);
         foreach ($variables as $variable) {
             if (!$this->isValidVariable($variable)) {
-                return false;
             }
         }
 
-        return true;
     }
 }
 ```
@@ -527,10 +514,6 @@ class TemplateLogger
     public function error($event, $data)
     {
         $this->logger->error($event, [
-            'timestamp' => now(),
-            'user_id' => auth()->id(),
-            'data' => $data
-        ]);
     }
 }
 ```
@@ -608,7 +591,6 @@ class VersionManager
 
         $this->template->update([
             'content' => $oldVersion->content
-        ]);
 
         return $this->createVersion($oldVersion->content);
     }
@@ -695,4 +677,4 @@ class BackupTemplates extends Command
 7. **Sicurezza**
    - Aggiornare dipendenze
    - Scansionare vulnerabilità
-   - Implementare best practices 
+   - Implementare best practices

@@ -1,10 +1,7 @@
 <?php
 
-declare(strict_types=1);
-
 namespace Modules\Notify\Database\Factories;
 
-use Modules\Notify\Models\NotificationLog;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Modules\Notify\Models\NotificationLog;
 

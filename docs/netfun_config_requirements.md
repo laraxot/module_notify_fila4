@@ -20,7 +20,6 @@ La configurazione di Netfun segue la struttura standardizzata con parametri glob
 
 ### Parametri Globali (a livello di root)
 
-```php
 // Configurazioni globali applicabili a tutti i provider
 'from' => env('SMS_FROM'),
 'debug' => env('SMS_DEBUG', false),
@@ -32,7 +31,6 @@ La configurazione di Netfun segue la struttura standardizzata con parametri glob
     'enabled' => env('SMS_RATE_LIMIT_ENABLED', true),
     'max_attempts' => env('SMS_RATE_LIMIT_MAX_ATTEMPTS', 60),
     'decay_minutes' => env('SMS_RATE_LIMIT_DECAY_MINUTES', 1),
-],
 ```
 
 ### Parametri Specifici per Netfun (nella sezione drivers)
@@ -47,15 +45,11 @@ La configurazione di Netfun segue la struttura standardizzata con parametri glob
             'threshold' => env('NETFUN_CIRCUIT_BREAKER_THRESHOLD', 5),
             'timeout' => env('NETFUN_CIRCUIT_BREAKER_TIMEOUT', 60),
         ],
-    ],
-],
 ```
 
 ## Variabili d'Ambiente Richieste
 
 Le seguenti variabili d'ambiente devono essere configurate nel file `.env` dell'applicazione:
-
-```
 
 # Parametri globali
 SMS_FROM=YourSender
@@ -64,7 +58,6 @@ SMS_DEBUG=false
 # Parametri specifici per Netfun
 NETFUN_TOKEN=your_token
 NETFUN_API_URL=https://v2.smsviainternet.it/api/rest/v1/sms-batch.json
-```
 
 ## Note Importanti
 
@@ -100,7 +93,6 @@ NETFUN_SENDER=MittenteSMS
 NETFUN_ENDPOINT=https://v2.smsviainternet.it/api/rest/v1/sms-batch.json
 
 # NETFUN_CALLBACK_URL=https://tuodominio.it/sms/callback
-```
 
 ## 3. Descrizione Parametri
 - **token**: Token di autenticazione Netfun, obbligatoria per autenticazione.

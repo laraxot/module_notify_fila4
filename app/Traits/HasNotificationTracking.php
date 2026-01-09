@@ -11,106 +11,30 @@ trait HasNotificationTracking
     /**
      * Aggiunge il pixel di tracking a un contenuto HTML.
      *
-<<<<<<< HEAD
      * @param  string  $html  Il contenuto HTML
      * @param  string  $trackingId  ID per il tracking
      */
     protected function addTrackingPixel(string $html, string $trackingId): string
     {
         if (! config('notify.tracking.enabled') || ! config('notify.tracking.pixel.enabled')) {
-=======
-<<<<<<< HEAD
-     * @param string $html Il contenuto HTML
-     * @param string $trackingId ID per il tracking
-     * @return string
-     */
-    protected function addTrackingPixel(string $html, string $trackingId): string
-    {
-        if (!config('notify.tracking.enabled') || !config('notify.tracking.pixel.enabled')) {
-=======
-<<<<<<< HEAD
-     * @param  string  $html  Il contenuto HTML
-     * @param  string  $trackingId  ID per il tracking
-     */
-    protected function addTrackingPixel(string $html, string $trackingId): string
-    {
-        if (! config('notify.tracking.enabled') || ! config('notify.tracking.pixel.enabled')) {
-=======
-     * @param string $html Il contenuto HTML
-     * @param string $trackingId ID per il tracking
-     * @return string
-     */
-    protected function addTrackingPixel(string $html, string $trackingId): string
-    {
-        if (!config('notify.tracking.enabled') || !config('notify.tracking.pixel.enabled')) {
->>>>>>> 99ff506 (.)
->>>>>>> f1c9518b (.)
->>>>>>> cf20697a6 (.)
             return $html;
         }
 
         $route = route(config('notify.tracking.pixel.route'), ['id' => $trackingId]);
-<<<<<<< HEAD
         $pixel = '<img src="'.$route.'" alt="" width="1" height="1" style="display:none">';
 
         return $html.$pixel;
-=======
-<<<<<<< HEAD
-        $pixel = '<img src="' . $route . '" alt="" width="1" height="1" style="display:none">';
-
-        return $html . $pixel;
-=======
-<<<<<<< HEAD
-        $pixel = '<img src="'.$route.'" alt="" width="1" height="1" style="display:none">';
-
-        return $html.$pixel;
-=======
-        $pixel = '<img src="' . $route . '" alt="" width="1" height="1" style="display:none">';
-
-        return $html . $pixel;
->>>>>>> 99ff506 (.)
->>>>>>> f1c9518b (.)
->>>>>>> cf20697a6 (.)
     }
 
     /**
      * Aggiunge il tracking ai link in un contenuto HTML.
      *
-<<<<<<< HEAD
      * @param  string  $html  Il contenuto HTML
      * @param  string  $trackingId  ID per il tracking
      */
     protected function addLinkTracking(string $html, string $trackingId): string
     {
         if (! config('notify.tracking.enabled') || ! config('notify.tracking.links.enabled')) {
-=======
-<<<<<<< HEAD
-     * @param string $html Il contenuto HTML
-     * @param string $trackingId ID per il tracking
-     * @return string
-     */
-    protected function addLinkTracking(string $html, string $trackingId): string
-    {
-        if (!config('notify.tracking.enabled') || !config('notify.tracking.links.enabled')) {
-=======
-<<<<<<< HEAD
-     * @param  string  $html  Il contenuto HTML
-     * @param  string  $trackingId  ID per il tracking
-     */
-    protected function addLinkTracking(string $html, string $trackingId): string
-    {
-        if (! config('notify.tracking.enabled') || ! config('notify.tracking.links.enabled')) {
-=======
-     * @param string $html Il contenuto HTML
-     * @param string $trackingId ID per il tracking
-     * @return string
-     */
-    protected function addLinkTracking(string $html, string $trackingId): string
-    {
-        if (!config('notify.tracking.enabled') || !config('notify.tracking.links.enabled')) {
->>>>>>> 99ff506 (.)
->>>>>>> f1c9518b (.)
->>>>>>> cf20697a6 (.)
             return $html;
         }
 
@@ -118,225 +42,11 @@ trait HasNotificationTracking
             '/<a\s+(?:[^>]*?\s+)?href=(["\'])(.*?)\1/i',
             function ($matches) use ($trackingId) {
                 $url = $matches[2];
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 75179b85 (.)
-=======
->>>>>>> 82ae73be (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35e (.)
-=======
->>>>>>> 9777d1b3 (.)
-=======
-=======
->>>>>>> d09cb759 (.)
-=======
->>>>>>> 4689a827 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d09cb759 (.)
-=======
->>>>>>> 3f537838 (.)
-=======
->>>>>>> 75179b85 (.)
-=======
->>>>>>> 82ae73be (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35e (.)
-=======
->>>>>>> 9777d1b3 (.)
-=======
->>>>>>> d09cb759 (.)
-=======
->>>>>>> 3f537838 (.)
-=======
->>>>>>> de02998b (.)
-<<<<<<< HEAD
->>>>>>> 75cb51873 (.)
-=======
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 011072e4 (.)
-=======
->>>>>>> 161887a2 (.)
-=======
->>>>>>> 4689a827 (.)
->>>>>>> c0f3d67cc (.)
 
                 // Ignora link di unsubscribe, anchor e link relativi
                 if (
                     Str::contains($url, ['unsubscribe', 'mailto:', 'tel:', '#']) ||
-<<<<<<< HEAD
-<<<<<<< HEAD
                         ! Str::startsWith($url, ['http://', 'https://'])
-=======
-=======
->>>>>>> cf20697a6 (.)
-                        !Str::startsWith($url, ['http://', 'https://'])
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 011072e4 (.)
->>>>>>> c0f3d67cc (.)
-=======
->>>>>>> 207ac35e (.)
-=======
->>>>>>> 82ae73be (.)
-=======
->>>>>>> 207ac35e (.)
-=======
-=======
-=======
->>>>>>> d09cb759 (.)
-=======
->>>>>>> 4689a827 (.)
-=======
-=======
-=======
->>>>>>> origin/develop
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d09cb759 (.)
-=======
-=======
->>>>>>> 82ae73be (.)
-=======
->>>>>>> d09cb759 (.)
-=======
-=======
->>>>>>> de02998b (.)
-=======
->>>>>>> 4689a827 (.)
-                
-                // Ignora link di unsubscribe, anchor e link relativi
-                if (
-                    Str::contains($url, ['unsubscribe', 'mailto:', 'tel:', '#'])
-                    || !Str::startsWith($url, ['http://', 'https://'])
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 75179b85 (.)
-=======
->>>>>>> 82ae73be (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35e (.)
-=======
->>>>>>> 9777d1b3 (.)
-=======
-<<<<<<< HEAD
-=======
->>>>>>> d09cb759 (.)
-=======
->>>>>>> 4689a827 (.)
->>>>>>> a12f125f4a (.)
-=======
-
-                // Ignora link di unsubscribe, anchor e link relativi
-                if (
-                    Str::contains($url, ['unsubscribe', 'mailto:', 'tel:', '#']) ||
-                        !Str::startsWith($url, ['http://', 'https://'])
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d09cb759 (.)
-=======
->>>>>>> 3f537838 (.)
-=======
->>>>>>> 75179b85 (.)
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 82ae73be (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35e (.)
-=======
->>>>>>> 9777d1b3 (.)
-=======
->>>>>>> d09cb759 (.)
-=======
->>>>>>> 3f537838 (.)
-=======
->>>>>>> b19cd40 (.)
->>>>>>> de02998b (.)
-<<<<<<< HEAD
->>>>>>> 75cb51873 (.)
-=======
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 011072e4 (.)
-=======
->>>>>>> 161887a2 (.)
-=======
->>>>>>> 4689a827 (.)
-<<<<<<< HEAD
->>>>>>> c0f3d67cc (.)
-=======
-=======
->>>>>>> 2941b0bd (.)
-=======
-<<<<<<< HEAD
-                        ! Str::startsWith($url, ['http://', 'https://'])
-=======
-                        !Str::startsWith($url, ['http://', 'https://'])
->>>>>>> 99ff506 (.)
->>>>>>> f1c9518b (.)
->>>>>>> cf20697a6 (.)
                 ) {
                     return $matches[0];
                 }
@@ -348,180 +58,24 @@ trait HasNotificationTracking
 
                 return str_replace($url, $trackingUrl, $matches[0]);
             },
-<<<<<<< HEAD
             $html,
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 82ae73be (.)
-=======
->>>>>>> 207ac35e (.)
-=======
->>>>>>> 82ae73be (.)
-=======
->>>>>>> 207ac35e (.)
-=======
->>>>>>> de02998b (.)
-            $html,
-=======
-            $html
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-            $html,
->>>>>>> 75179b85 (.)
-=======
->>>>>>> 82ae73be (.)
-=======
-=======
-            $html,
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35e (.)
-=======
-            $html,
->>>>>>> 9777d1b3 (.)
-=======
-            $html,
-=======
-=======
-            $html,
-=======
->>>>>>> d09cb759 (.)
-=======
-            $html,
-=======
->>>>>>> 4689a827 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            $html,
-=======
-            $html
->>>>>>> a12f125f4a (.)
-=======
-            $html,
->>>>>>> b93ef594b4 (.)
-=======
-            $html
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d09cb759 (.)
-=======
-            $html,
->>>>>>> 3f537838 (.)
-=======
-            $html,
->>>>>>> 75179b85 (.)
-=======
->>>>>>> 82ae73be (.)
-=======
-=======
-            $html,
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35e (.)
-=======
-            $html,
->>>>>>> 9777d1b3 (.)
-=======
->>>>>>> d09cb759 (.)
-=======
-            $html,
->>>>>>> 3f537838 (.)
-=======
->>>>>>> de02998b (.)
-<<<<<<< HEAD
->>>>>>> 75cb51873 (.)
-=======
-=======
-=======
-            $html,
->>>>>>> 4e2ebfb (.)
->>>>>>> 011072e4 (.)
-=======
-            $html,
->>>>>>> 161887a2 (.)
-=======
->>>>>>> 4689a827 (.)
->>>>>>> c0f3d67cc (.)
         );
     }
 
     /**
      * Aggiunge il tracking completo (pixel + link) a un contenuto HTML.
      *
-<<<<<<< HEAD
      * @param  string  $html  Il contenuto HTML
      * @param  string  $trackingId  ID per il tracking
-=======
-<<<<<<< HEAD
-     * @param string $html Il contenuto HTML
-     * @param string $trackingId ID per il tracking
-     * @return string
-=======
-<<<<<<< HEAD
-     * @param  string  $html  Il contenuto HTML
-     * @param  string  $trackingId  ID per il tracking
-=======
-     * @param string $html Il contenuto HTML
-     * @param string $trackingId ID per il tracking
-     * @return string
->>>>>>> 99ff506 (.)
->>>>>>> f1c9518b (.)
->>>>>>> cf20697a6 (.)
      */
     protected function addTracking(string $html, string $trackingId): string
     {
         $html = $this->addLinkTracking($html, $trackingId);
-        $html = $this->addTrackingPixel($html, $trackingId);
-<<<<<<< HEAD
-
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> 99ff506 (.)
->>>>>>> f1c9518b (.)
->>>>>>> cf20697a6 (.)
-        return $html;
+        return $this->addTrackingPixel($html, $trackingId);
     }
 
     /**
      * Genera un ID univoco per il tracking.
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-     *
-     * @return string
-=======
-<<<<<<< HEAD
-=======
-     *
-     * @return string
->>>>>>> 99ff506 (.)
->>>>>>> f1c9518b (.)
->>>>>>> cf20697a6 (.)
      */
     protected function generateTrackingId(): string
     {
@@ -530,19 +84,6 @@ trait HasNotificationTracking
 
     /**
      * Verifica se il tracking è abilitato.
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-     *
-     * @return bool
-=======
-<<<<<<< HEAD
-=======
-     *
-     * @return bool
->>>>>>> 99ff506 (.)
->>>>>>> f1c9518b (.)
->>>>>>> cf20697a6 (.)
      */
     protected function isTrackingEnabled(): bool
     {
@@ -551,19 +92,6 @@ trait HasNotificationTracking
 
     /**
      * Verifica se il tracking dei pixel è abilitato.
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-     *
-     * @return bool
-=======
-<<<<<<< HEAD
-=======
-     *
-     * @return bool
->>>>>>> 99ff506 (.)
->>>>>>> f1c9518b (.)
->>>>>>> cf20697a6 (.)
      */
     protected function isPixelTrackingEnabled(): bool
     {
@@ -572,136 +100,9 @@ trait HasNotificationTracking
 
     /**
      * Verifica se il tracking dei link è abilitato.
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-     *
-     * @return bool
-=======
-<<<<<<< HEAD
-=======
-     *
-     * @return bool
->>>>>>> 99ff506 (.)
->>>>>>> f1c9518b (.)
->>>>>>> cf20697a6 (.)
      */
     protected function isLinkTrackingEnabled(): bool
     {
         return $this->isTrackingEnabled() && config('notify.tracking.links.enabled', false);
     }
-<<<<<<< HEAD
 }
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 82ae73be (.)
-=======
->>>>>>> 207ac35e (.)
-=======
->>>>>>> 82ae73be (.)
-=======
->>>>>>> 207ac35e (.)
-=======
->>>>>>> de02998b (.)
-}
-=======
-} 
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-}
->>>>>>> 75179b85 (.)
-=======
->>>>>>> 82ae73be (.)
-=======
-=======
-}
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35e (.)
-=======
-}
->>>>>>> 9777d1b3 (.)
-=======
-}
-=======
-=======
-}
-=======
->>>>>>> d09cb759 (.)
-=======
-}
-=======
->>>>>>> 4689a827 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-}
-=======
-} 
->>>>>>> a12f125f4a (.)
-=======
-}
->>>>>>> b93ef594b4 (.)
-=======
-} 
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d09cb759 (.)
-=======
-}
->>>>>>> 3f537838 (.)
-=======
-}
->>>>>>> 75179b85 (.)
-=======
->>>>>>> 82ae73be (.)
-=======
-=======
-}
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35e (.)
-=======
-}
->>>>>>> 9777d1b3 (.)
-=======
->>>>>>> d09cb759 (.)
-=======
-}
->>>>>>> 3f537838 (.)
-=======
->>>>>>> de02998b (.)
-<<<<<<< HEAD
->>>>>>> 75cb51873 (.)
-=======
-=======
-=======
-}
->>>>>>> 4e2ebfb (.)
->>>>>>> 011072e4 (.)
-=======
-}
->>>>>>> 161887a2 (.)
-=======
->>>>>>> 4689a827 (.)
->>>>>>> c0f3d67cc (.)

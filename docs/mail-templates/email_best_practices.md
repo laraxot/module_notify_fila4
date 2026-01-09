@@ -15,34 +15,7 @@ Questo documento descrive le best practices per la creazione e gestione di email
 
 ### 2. Branding Coerente
 
-<<<<<<< HEAD
 - **Elementi visuali**: Utilizzare logo, colori e font <main module>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-- **Elementi visuali**: Utilizzare logo, colori e font <nome progetto>
-=======
-- **Elementi visuali**: Utilizzare logo, colori e font SaluteOra
->>>>>>> f963d2c0 (.)
-=======
-- **Elementi visuali**: Utilizzare logo, colori e font SaluteOra
->>>>>>> f963d2c0 (.)
-=======
-- **Elementi visuali**: Utilizzare logo, colori e font SaluteOra
->>>>>>> f963d2c0 (.)
-=======
-- **Elementi visuali**: Utilizzare logo, colori e font <nome progetto>
-=======
-<<<<<<< HEAD
-- **Elementi visuali**: Utilizzare logo, colori e font <main module>
-=======
-- **Elementi visuali**: Utilizzare logo, colori e font SaluteOra
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
 - **Voce e tono**: Mantenere un tono professionale ma amichevole
 - **Firma coerente**: Includere sempre lo stesso formato di firma e disclaimer
 
@@ -75,7 +48,7 @@ Questo documento descrive le best practices per la creazione e gestione di email
 - Separare il contenuto dalla presentazione per facilitare le traduzioni
 - Supportare lingue RTL quando necessario
 
-## Template e Layout 
+## Template e Layout
 
 ### Utilizzo di MailPace Templates
 
@@ -88,34 +61,7 @@ I template di [mailpace/templates](https://github.com/mailpace/templates) integr
 
 ### Directory `mail-layouts`
 
-<<<<<<< HEAD
 La directory `/var/www/html/<directory progetto>/laravel/Modules/Notify/resources/mail-layouts/` contiene:
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-La directory `/var/www/html/<nome progetto>/laravel/Modules/Notify/resources/mail-layouts/` contiene:
-=======
-La directory `/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/` contiene:
->>>>>>> f963d2c0 (.)
-=======
-La directory `/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/` contiene:
->>>>>>> f963d2c0 (.)
-=======
-La directory `/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/` contiene:
->>>>>>> f963d2c0 (.)
-=======
-La directory `/var/www/html/<nome progetto>/laravel/Modules/Notify/resources/mail-layouts/` contiene:
-=======
-<<<<<<< HEAD
-La directory `/var/www/html/<directory progetto>/laravel/Modules/Notify/resources/mail-layouts/` contiene:
-=======
-La directory `/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/` contiene:
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
 
 - **default.html**: Template base per la maggior parte delle comunicazioni
 - **main.html**: Alternativa minimalista
@@ -124,34 +70,7 @@ La directory `/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layo
 
 ### Integrazione con Spatie Mail Templates
 
-<<<<<<< HEAD
 Seguendo le regole di progetto <main module>, ricordare di:
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-Seguendo le regole di progetto <nome progetto>, ricordare di:
-=======
-Seguendo le regole di progetto SaluteOra, ricordare di:
->>>>>>> f963d2c0 (.)
-=======
-Seguendo le regole di progetto SaluteOra, ricordare di:
->>>>>>> f963d2c0 (.)
-=======
-Seguendo le regole di progetto SaluteOra, ricordare di:
->>>>>>> f963d2c0 (.)
-=======
-Seguendo le regole di progetto <nome progetto>, ricordare di:
-=======
-<<<<<<< HEAD
-Seguendo le regole di progetto <main module>, ricordare di:
-=======
-Seguendo le regole di progetto SaluteOra, ricordare di:
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
->>>>>>> 36ac4fc1 (.)
->>>>>>> 125a2c2b8 (.)
 
 - NON creare controller personalizzati per gestire l'invio di email
 - Utilizzare il package `spatie/laravel-mail-templates`
