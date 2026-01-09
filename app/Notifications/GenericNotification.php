@@ -150,8 +150,11 @@ class GenericNotification extends Notification implements ShouldQueue
     {
         // Tenta di ottenere il nome dal destinatario in vari modi
         if (is_object($notifiable) && method_exists($notifiable, 'getFullName')) {
-            /** @var string $fullName */
-            return $notifiable->getFullName();
+            $fullName = $notifiable->getFullName();
+            if (is_string($fullName)) {
+                return $fullName;
+            }
+            return 'Utente';
         }
 
         if (is_object($notifiable) && $notifiable instanceof Model) {
