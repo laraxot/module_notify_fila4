@@ -41,29 +41,29 @@ Per verificare la corretta implementazione:
 ```bash
 
 # Cerca interfacce con naming errato
-grep -r "interface.*Interface" --include="*.php" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules
+grep -r "interface.*Interface" --include="*.php" Modules
 
 # Cerca interfacce con naming corretto
-grep -r "interface.*Contract" --include="*.php" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules
-grep -r "interface.*Interface" --include="*.php" /var/www/html/<nome progetto>/laravel/Modules
+grep -r "interface.*Contract" --include="*.php" Modules
+grep -r "interface.*Interface" --include="*.php" Modules
 
 # Cerca interfacce con naming corretto
-grep -r "interface.*Contract" --include="*.php" /var/www/html/<nome progetto>/laravel/Modules
-grep -r "interface.*Interface" --include="*.php" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules
+grep -r "interface.*Contract" --include="*.php" Modules
+grep -r "interface.*Interface" --include="*.php" Modules
 
 # Cerca interfacce con naming corretto
-grep -r "interface.*Contract" --include="*.php" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules
+grep -r "interface.*Contract" --include="*.php" Modules
 ```
 
 ## Riferimenti
 
 - [Laravel Contracts Documentation](https://laravel.com/docs/contracts)
-- [PTVX Code Quality Guidelines](/var/www/html/_bases/base_ptvx_fila3_mono/laravel/docs/code-quality.md)
-- [Modulo Xot Contracts](/var/www/html/_bases/base_ptvx_fila3_mono/laravel/Modules/Xot/app/Contracts/)
-- [<nome progetto> Code Quality Guidelines](/var/www/html/<nome progetto>/laravel/docs/code-quality.md)
-- [Modulo Xot Contracts](/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Contracts/)
-- [<nome progetto> Code Quality Guidelines](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/docs/code-quality.md)
-- [Modulo Xot Contracts](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Contracts/)
+- [PTVX Code Quality Guidelines](laravel/docs/code-quality.md)
+- [Modulo Xot Contracts](laravel/Modules/Xot/app/Contracts/)
+- [<nome progetto> Code Quality Guidelines](docs/code-quality.md)
+- [Modulo Xot Contracts](Modules/Xot/app/Contracts/)
+- [<nome progetto> Code Quality Guidelines](docs/code-quality.md)
+- [Modulo Xot Contracts](Modules/Xot/app/Contracts/)
 # Convenzione di Naming per le Interfacce
 
 ## Regola Fondamentale
@@ -108,37 +108,37 @@ Per verificare la corretta implementazione:
 ```bash
 
 # Cerca interfacce con naming errato
-grep -r "interface.*Interface" --include="*.php" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules
+grep -r "interface.*Interface" --include="*.php" Modules
 
 # Cerca interfacce con naming corretto
-grep -r "interface.*Contract" --include="*.php" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules
-grep -r "interface.*Interface" --include="*.php" /var/www/html/<nome progetto>/laravel/Modules
+grep -r "interface.*Contract" --include="*.php" Modules
+grep -r "interface.*Interface" --include="*.php" Modules
 
-grep -r "interface.*Contract" --include="*.php" /var/www/html/<nome progetto>/laravel/Modules
-grep -r "interface.*Interface" --include="*.php" /var/www/html/<nome progetto>/laravel/Modules
+grep -r "interface.*Contract" --include="*.php" Modules
+grep -r "interface.*Interface" --include="*.php" Modules
 
-grep -r "interface.*Contract" --include="*.php" /var/www/html/<nome progetto>/laravel/Modules
+grep -r "interface.*Contract" --include="*.php" Modules
 
 ```
 
 ## Riferimenti
 
 - [Laravel Contracts Documentation](https://laravel.com/docs/contracts)
-- [PTVX Code Quality Guidelines](/var/www/html/_bases/base_ptvx_fila3_mono/laravel/docs/code-quality.md)
-- [Modulo Xot Contracts](/var/www/html/_bases/base_ptvx_fila3_mono/laravel/Modules/Xot/app/Contracts/)
-- [<nome progetto> Code Quality Guidelines](/var/www/html/<nome progetto>/laravel/docs/code-quality.md)
+- [PTVX Code Quality Guidelines](laravel/docs/code-quality.md)
+- [Modulo Xot Contracts](laravel/Modules/Xot/app/Contracts/)
+- [<nome progetto> Code Quality Guidelines](docs/code-quality.md)
 - [Laravel Contracts Documentation](https://laravel.com/project_docs/contracts)
-- [<nome progetto> Code Quality Guidelines](/var/www/html/<nome progetto>/laravel/project_docs/code-quality.md)
-- [Modulo Xot Contracts](/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Contracts/)
-- [<nome progetto> Code Quality Guidelines](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/docs/code-quality.md)- [Laravel Contracts Documentation](https://laravel.com/project_docs/contracts)
-- [<nome progetto> Code Quality Guidelines](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/project_docs/code-quality.md)
-- [Modulo Xot Contracts](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Contracts/)
-- [<nome progetto> Code Quality Guidelines](/var/www/html/<nome progetto>/laravel/docs/code-quality.md)
-- [<nome progetto> Code Quality Guidelines](/var/www/html/<nome progetto>/laravel/project_docs/code-quality.md)
-- [Modulo Xot Contracts](/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Contracts/)
-- [<nome progetto> Code Quality Guidelines](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/docs/code-quality.md)- [Laravel Contracts Documentation](https://laravel.com/project_docs/contracts)
-- [<nome progetto> Code Quality Guidelines](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/project_docs/code-quality.md)
+- [<nome progetto> Code Quality Guidelines](project_docs/code-quality.md)
+- [Modulo Xot Contracts](Modules/Xot/app/Contracts/)
+- [<nome progetto> Code Quality Guidelines](docs/code-quality.md)- [Laravel Contracts Documentation](https://laravel.com/project_docs/contracts)
+- [<nome progetto> Code Quality Guidelines](project_docs/code-quality.md)
+- [Modulo Xot Contracts](Modules/Xot/app/Contracts/)
+- [<nome progetto> Code Quality Guidelines](docs/code-quality.md)
+- [<nome progetto> Code Quality Guidelines](project_docs/code-quality.md)
+- [Modulo Xot Contracts](Modules/Xot/app/Contracts/)
+- [<nome progetto> Code Quality Guidelines](docs/code-quality.md)- [Laravel Contracts Documentation](https://laravel.com/project_docs/contracts)
+- [<nome progetto> Code Quality Guidelines](project_docs/code-quality.md)
 - [Laravel Contracts Documentation](https://laravel.com/project_docs/contracts)
-- [<nome progetto> Code Quality Guidelines](/var/www/html/<nome progetto>/laravel/docs/code-quality.md)
-- [Modulo Xot Contracts](/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Contracts/)
-- [<nome progetto> Code Quality Guidelines](/var/www/html/<nome progetto>/laravel/project_docs/code-quality.md)
+- [<nome progetto> Code Quality Guidelines](docs/code-quality.md)
+- [Modulo Xot Contracts](Modules/Xot/app/Contracts/)
+- [<nome progetto> Code Quality Guidelines](project_docs/code-quality.md)

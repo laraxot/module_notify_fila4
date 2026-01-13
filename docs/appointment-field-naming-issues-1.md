@@ -8,7 +8,7 @@ The Appointment model in <nome progetto> module defines both legacy field names 
 
 ### SendAppointmentNotificationAction.php.old
 
-**File Path**: `/var/www/html/_bases/base_<nome progetto>/laravel/Modules/Notify/app/Actions/SendAppointmentNotificationAction.php.old`
+**File Path**: `Modules/Notify/app/Actions/SendAppointmentNotificationAction.php.old`
 
 **Line 120**:
 ```php

@@ -313,7 +313,7 @@ public function panel(Panel $panel): Panel
 
 ```bash
 # Dopo il fix
-cd /var/www/html/ptvx/laravel
+cd laravel
 php artisan optimize:clear
 php artisan cache:clear
 

@@ -21,7 +21,7 @@ Il sistema email di PTVX supporta **layout personalizzati per tema**, permettend
 ### File System Structure
 
 ```
-/var/www/html/ptvx/
+
 │
 ├─ laravel/
 │  ├─ Modules/Notify/resources/mail-layouts/  ← Default fallback

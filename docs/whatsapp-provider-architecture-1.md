@@ -14,7 +14,7 @@ L'architettura dei provider WhatsApp segue gli stessi principi dei provider SMS 
 ## Struttura Directory e Namespace
 
 ```
-/var/www/html/<nome progetto>/laravel/Modules/Notify/
+Modules/Notify/
 ├── app/
 │   ├── Actions/
 │   │   └── WhatsApp/

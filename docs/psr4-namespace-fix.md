@@ -55,7 +55,7 @@ use Modules\Notify\Services\PushNotificationService;
 ## Verifica
 
 ```bash
-cd /var/www/_bases/base_ptvx_fila4_mono/laravel
+cd laravel
 composer dump-autoload
 
 # Output:

@@ -576,7 +576,7 @@ SmsGateway::send($user->phone, $smsText);
 ### Struttura Cartelle
 
 ```
-/var/www/html/ptvx/
+
 │
 ├─ laravel/Modules/Notify/resources/mail-layouts/
 │  ├─ base.html                    # Layout default

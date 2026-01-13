@@ -21,14 +21,14 @@ Durante l'audit del modulo `Notify`, è stato identificato un **errore critico d
 'clinic_name' => 'Studio Dentistico ',
 'webhook' => 'https://api.<nome progetto>.com/webhooks',
 'author' => 'Team PTVX',
-'path' => '/var/www/html/_bases/base_ptvx_fila3_mono/public_html/images/',
+'path' => 'public_html/images/',
 'subject' => 'Benvenuto su <nome progetto>',
 'content' => 'Grazie per esserti registrato su <nome progetto>',
 'clinic_name' => 'Studio Dentistico <nome progetto>',
 'webhook' => 'https://api.<nome progetto>.com/webhooks',
 'author' => 'Team <nome progetto>',
-'path' => '/var/www/html/<nome progetto>/public_html/images/',
-'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/',
+'path' => 'public_html/images/',
+'path' => 'public_html/images/',
 ```
 
 ## Soluzioni Implementate

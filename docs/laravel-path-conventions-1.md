@@ -24,13 +24,13 @@ In Laravel e <nome progetto>, i nomi delle cartelle principali (come definite ne
 Le viste in Laravel devono essere collocate nella cartella `resources/views` (lowercase):
 
 ```
-/var/www/html/<nome progetto>/laravel/Modules/Notify/resources/views/
+Modules/Notify/resources/views/
 ```
 
 **NON** in:
 
 ```
-/var/www/html/<nome progetto>/laravel/Modules/Notify/Resources/views/
+Modules/Notify/Resources/views/
 ```
 
 ## Perché è Importante
@@ -49,7 +49,7 @@ Quando si fa riferimento a viste nei file PHP:
 protected static string $view = 'notify::filament.pages.send-sms';
 
 // Il path fisico corrispondente sarà:
-// /var/www/html/<nome progetto>/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
+// Modules/Notify/resources/views/filament/pages/send-sms.blade.php
 ```
 
 ## Verifica e Correzione

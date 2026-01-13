@@ -61,12 +61,12 @@ Su Windows/macOS (dev): stesso file → **conflitti Git**, **errori rendering te
 ### Automatico (Raccomandato)
 ```bash
 # Script automatico che elimina tutti i duplicati lowercase
-/var/www/_bases/base_ptvx_fila4_mono/bashscripts/fix/cleanup-case-duplicates.sh
+bashscripts/fix/cleanup-case-duplicates.sh
 ```
 
 ### Manuale (Solo Modulo Notify)
 ```bash
-cd /var/www/_bases/base_ptvx_fila4_mono/laravel
+cd laravel
 
 # Tests
 rm Modules/Notify/tests/Feature/emailtemplatestest.php

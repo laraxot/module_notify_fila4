@@ -135,9 +135,9 @@ Nel contesto di <nome progetto>, tutte le migrazioni che coinvolgono la conversi
 È necessario esaminare tutte le migrazioni esistenti per identificare pattern simili di conversione diretta a JSON:
 
 ```bash
-grep -r "json.*change" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/*/database/migrations/
-grep -r "json.*change" /var/www/html/<nome progetto>/laravel/Modules/*/database/migrations/
-grep -r "json.*change" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/*/database/migrations/
+grep -r "json.*change" Modules/*/database/migrations/
+grep -r "json.*change" Modules/*/database/migrations/
+grep -r "json.*change" Modules/*/database/migrations/
 ```
 
 I problemi più comuni si verificano in migrazioni che coinvolgono campi con traduzioni multilingua o configurazioni serializzate.
@@ -282,7 +282,7 @@ Nel contesto di <main module>, tutte le migrazioni che coinvolgono la conversion
 È necessario esaminare tutte le migrazioni esistenti per identificare pattern simili di conversione diretta a JSON:
 
 ```bash
-grep -r "json.*change" /var/www/html/<directory progetto>/laravel/Modules/*/database/migrations/
+grep -r "json.*change" Modules/*/database/migrations/
 ```
 
 I problemi più comuni si verificano in migrazioni che coinvolgono campi con traduzioni multilingua o configurazioni serializzate.
