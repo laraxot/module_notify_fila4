@@ -13,7 +13,7 @@ Il metodo `addAttachments()` accetta un array di array, dove ogni array interno 
 $attachments = [
     [
         'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
-        'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
         'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
         'as' => 'logo.svg',  // Opzionale: nome del file da mostrare nell'email
         'mime' => 'image/svg+xml',  // Opzionale: MIME type del file
@@ -21,7 +21,7 @@ $attachments = [
     // Eventualmente altri allegati...
     [
         'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/documents/terms.pdf',
-        'path' => '/var/www/html/saluteora/public_html/documents/terms.pdf',
+        'path' => '/var/www/html/<nome progetto>/public_html/documents/terms.pdf',
         'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/documents/terms.pdf',
         'as' => 'termini.pdf',
         'mime' => 'application/pdf',

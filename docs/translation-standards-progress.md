@@ -19,11 +19,11 @@
    - `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/edit_mail_template.php`
    - `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/send_netfun_sms.php`
    - `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/notification_template.php`
-   - `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_aws_email.php`
-   - `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/setting.php`
-   - `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/edit_mail_template.php`
-   - `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_netfun_sms.php`
-   - `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/notification_template.php`
+   - `/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_aws_email.php`
+   - `/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/setting.php`
+   - `/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/edit_mail_template.php`
+   - `/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_netfun_sms.php`
+   - `/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/notification_template.php`
    - E altri 15 file (elenco completo in appendice)
 
 ### Correzioni Implementate
@@ -35,12 +35,12 @@
 2. **File Corretti**
    - Creato `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/send_whatsapp.php` con struttura corretta
    - Aggiornato `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/send_netfun_sms.php` con struttura completa
-   - Creato `/var/www/html/saluteora/laravel/Modules/Notify/docs/TRANSLATION_FILE_NAMING_RULES.md`
-   - Creato `/var/www/html/saluteora/laravel/Modules/Notify/docs/TRANSLATION_FILE_STRUCTURE_GUIDE.md`
+   - Creato `/var/www/html/<nome progetto>/laravel/Modules/Notify/docs/TRANSLATION_FILE_NAMING_RULES.md`
+   - Creato `/var/www/html/<nome progetto>/laravel/Modules/Notify/docs/TRANSLATION_FILE_STRUCTURE_GUIDE.md`
 
 2. **File Corretti**
-   - Creato `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_whatsapp.php` con struttura corretta
-   - Aggiornato `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_netfun_sms.php` con struttura completa
+   - Creato `/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_whatsapp.php` con struttura corretta
+   - Aggiornato `/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_netfun_sms.php` con struttura completa
    - Creato `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/docs/TRANSLATION_FILE_NAMING_RULES.md`
    - Creato `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/docs/TRANSLATION_FILE_STRUCTURE_GUIDE.md`
 
@@ -58,12 +58,12 @@
 
 2. **Verifiche da Eseguire**
    - Analisi della cartella `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/en/` per identificare problemi simili
-   - `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_email.php`
-   - `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_sms.php`
-   - `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_telegram.php`
+   - `/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_email.php`
+   - `/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_sms.php`
+   - `/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_telegram.php`
 
 2. **Verifiche da Eseguire**
-   - Analisi della cartella `/var/www/html/saluteora/laravel/Modules/Notify/lang/en/` per identificare problemi simili
+   - Analisi della cartella `/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/en/` per identificare problemi simili
    - `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/send_email.php`
    - `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/send_sms.php`
    - `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/send_telegram.php`
@@ -106,26 +106,26 @@
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/send_email.php
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/send_spatie_email.php
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/create_mail_template.php
-/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_aws_email.php
-/var/www/html/saluteora/laravel/Modules/Notify/lang/it/setting.php
-/var/www/html/saluteora/laravel/Modules/Notify/lang/it/edit_mail_template.php
-/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_netfun_sms.php (corretto)
-/var/www/html/saluteora/laravel/Modules/Notify/lang/it/notification_template.php
-/var/www/html/saluteora/laravel/Modules/Notify/lang/it/notify.php
-/var/www/html/saluteora/laravel/Modules/Notify/lang/it/contacts.php
-/var/www/html/saluteora/laravel/Modules/Notify/lang/it/test_smtp.php
-/var/www/html/saluteora/laravel/Modules/Notify/lang/it/log.php
-/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_sms.php
-/var/www/html/saluteora/laravel/Modules/Notify/lang/it/contact.php
-/var/www/html/saluteora/laravel/Modules/Notify/lang/it/slack_notification.php
-/var/www/html/saluteora/laravel/Modules/Notify/lang/it/template.php
-/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_push_notification.php
-/var/www/html/saluteora/laravel/Modules/Notify/lang/it/dashboard.php
-/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_whats_app.php (rimosso e sostituito)
-/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_firebase_push_notification.php
-/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_email.php
-/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_spatie_email.php
-/var/www/html/saluteora/laravel/Modules/Notify/lang/it/create_mail_template.php
+/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_aws_email.php
+/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/setting.php
+/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/edit_mail_template.php
+/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_netfun_sms.php (corretto)
+/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/notification_template.php
+/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/notify.php
+/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/contacts.php
+/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/test_smtp.php
+/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/log.php
+/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_sms.php
+/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/contact.php
+/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/slack_notification.php
+/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/template.php
+/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_push_notification.php
+/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/dashboard.php
+/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_whats_app.php (rimosso e sostituito)
+/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_firebase_push_notification.php
+/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_email.php
+/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_spatie_email.php
+/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/create_mail_template.php
 ```
 # Progresso Standardizzazione Traduzioni
 

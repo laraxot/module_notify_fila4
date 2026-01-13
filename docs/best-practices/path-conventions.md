@@ -17,8 +17,8 @@
 4. **Struttura Directory Datas**
    - `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Datas/` (CORRETTO)
    - `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/App/Datas/` (ERRATO)
-   - `/var/www/html/saluteora/laravel/Modules/Notify/app/` (CORRETTO)
-   - `/var/www/html/saluteora/laravel/Modules/Notify/App/` (ERRATO)
+   - `/var/www/html/<nome progetto>/laravel/Modules/Notify/app/` (CORRETTO)
+   - `/var/www/html/<nome progetto>/laravel/Modules/Notify/App/` (ERRATO)
    - `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/` (CORRETTO)
    - `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/App/` (ERRATO)
 
@@ -27,8 +27,8 @@
    - `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/App/Actions/` (ERRATO)
 
 4. **Struttura Directory Datas**
-   - `/var/www/html/saluteora/laravel/Modules/Notify/app/Datas/` (CORRETTO)
-   - `/var/www/html/saluteora/laravel/Modules/Notify/App/Datas/` (ERRATO)
+   - `/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Datas/` (CORRETTO)
+   - `/var/www/html/<nome progetto>/laravel/Modules/Notify/App/Datas/` (ERRATO)
    - `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Datas/` (CORRETTO)
    - `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/App/Datas/` (ERRATO)
 
@@ -46,8 +46,8 @@
 1. **Mai utilizzare la "A" maiuscola nel percorso fisico della directory app**
    - ✅ CORRETTO: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Actions/`
    - ❌ ERRATO: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/App/Actions/`
-   - ✅ CORRETTO: `/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/`
-   - ❌ ERRATO: `/var/www/html/saluteora/laravel/Modules/Notify/App/Actions/`
+   - ✅ CORRETTO: `/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/`
+   - ❌ ERRATO: `/var/www/html/<nome progetto>/laravel/Modules/Notify/App/Actions/`
    - ✅ CORRETTO: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Actions/`
    - ❌ ERRATO: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/App/Actions/`
 

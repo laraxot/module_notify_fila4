@@ -122,9 +122,9 @@ if(!$this->hasColumn('subject')) {
 ## Applicazione a
 
 Nel contesto di , tutte le migrazioni che coinvolgono la conversione di campi esistenti a JSON devono seguire queste linee guida, in particolare:
-## Applicazione a SaluteOra
+## Applicazione a <nome progetto>
 
-Nel contesto di SaluteOra, tutte le migrazioni che coinvolgono la conversione di campi esistenti a JSON devono seguire queste linee guida, in particolare:
+Nel contesto di <nome progetto>, tutte le migrazioni che coinvolgono la conversione di campi esistenti a JSON devono seguire queste linee guida, in particolare:
 
 1. Le migrazioni per `mail_templates` e tabelle simili
 2. Campi multilingua che utilizzano il trait `HasTranslations`
@@ -136,7 +136,7 @@ Nel contesto di SaluteOra, tutte le migrazioni che coinvolgono la conversione di
 
 ```bash
 grep -r "json.*change" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/*/database/migrations/
-grep -r "json.*change" /var/www/html/saluteora/laravel/Modules/*/database/migrations/
+grep -r "json.*change" /var/www/html/<nome progetto>/laravel/Modules/*/database/migrations/
 grep -r "json.*change" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/*/database/migrations/
 ```
 
