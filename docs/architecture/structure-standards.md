@@ -40,9 +40,9 @@ Modules/Notify/app/Datas/SmsData.php
 
 ## Verifica dei Percorsi Prima di Utilizzarli
 
-1. **Usa `find_by_name` per verificare la directory corretta**
+1. **Usa `find_by_name` per verificare la directory corretta** 
 2. **Esamina file simili esistenti per convenzioni di nomenclatura**
-3. **Controlla il PSR-4 nel composer.json del modulo**
+3. **Controlla il PSR-4 nel composer.json del modulo** 
 
 ### Verificare Sempre le Directory Esistenti
 
